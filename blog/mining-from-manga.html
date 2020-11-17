@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Mining from manga</title>
+<meta property="og:title" content="Mining from manga">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/mining-from-manga.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="divbodyholder">
+<div class="headerholder" id="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp">
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1><a class="ablack" href="mining-from-manga.html">Mining from manga</a></h1>
+<!-- bashblog_timestamp: #202104011008.10# -->
+<div class="subtitle">April 01, 2021 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>When we read manga,
+sometimes there's a need to quickly OCR a portion of the screen
+to look up new words and add sentences to Anki.
+To do so, you're going to use an optical character recognition program and a few helper tools.</p>
+<hr>
+<p>Install the following dependencies:</p>
+<pre><code>$ sudo pacman -S --needed maim tesseract xclip
+</code></pre>
+<ul>
+<li><code>tesseract</code> is the OCR engine. It is considered fairly accurate, and many people like it.</li>
+<li><code>maim</code> is an utility for taking screenshots which can take parts of the screen.</li>
+<li><code>xclip</code> is a tool for copying text to clipboard.</li>
+</ul>
+<p>By default Tesseract is not very good at detecting Japanese characters,
+but the quality of OCR operations can be improved by using custom trained data.</p>
+<p>Download <a href="http://capture2text.sourceforge.net/#download">capture2text</a>.
+We won't need the program itself because it's garbage
+but the trained data files are going to be useful.
+Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share/capture2text_tessdata</code>:</p>
+<pre><code>$ unzip -j Capture2Text_v*_64bit.zip 'Capture2Text/tessdata/*' -d ~/.local/share/capture2text_tessdata
+</code></pre>
+<p>Alternatively, download just the Capture2Text Japanese files from
+<a href="https://sourceforge.net/projects/capture2text/files/Dictionaries/Japanese.zip/download">here</a>.</p>
+<p align="center"><img class="shadow" alt="capture2text archive" src="img/capture2text.webp"></p>
+<p align="center"><i>Contents of the ZIP archive.</i></p>
+<p>You don't need to install any data files from the repositories of your distro,
+the ones in the <code>capture2text</code> archive are way better.</p>
+<p>Create a new file <em>~/.local/bin/imageocr</em>:</p>
+<pre><code>#!/bin/sh
+maim -s |
+tesseract stdin stdout \
+    -l jpn \
+    --tessdata-dir ~/.local/share/capture2text_tessdata |
+tr -d ' ' |
+xclip -selection clipboard
+</code></pre>
+<p>Make the file executable:</p>
+<pre><code>$ chmod +x ~/.local/bin/imageocr
+</code></pre>
+<p>Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
+<a href="https://i3wm.org/">i3wm</a>:</p>
+<pre><code>bindsym $mod+o exec --no-startup-id imageocr
+</code></pre>
+<p>The script is very trivial, so I hope you can understand it without explanations.
+When run, it will ask you to select an area with Japanese text and try to OCR it.
+The resulting text will be saved to the system clipboard.
+Use it in combination with Yomichan Search
+to quickly lookup Japanese words in real-time.</p>
+<p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
+<a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
+<p><strong>Note:</strong> As an alternative, you can install <a href="https://aur.archlinux.org/packages/kanjitomo/">kanjitomo</a>
+but it's quite big and forces you to use a Japanese to English dictionary
+instead of a Japanese to Japanese one.</p>
+<p>Tags: <a href='tag_guide.html'>guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+<footer>
+    CC by-nc-nd 2020-2021 <a href="https://github.com/tatsumoto-ren">Tatsumoto</a> &mdash; <a href="donating-to-tatsumoto.html">Donate</a>
+    <div>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</footer>
+</div>
+</div>
+<script src="res/hide_menu_on_scroll.js"></script>
+</body>
+</html>

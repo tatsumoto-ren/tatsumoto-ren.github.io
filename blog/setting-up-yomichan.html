@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Setting up Yomichan</title>
+<meta property="og:title" content="Setting up Yomichan">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="divbodyholder">
+<div class="headerholder" id="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp">
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1><a class="ablack" href="setting-up-yomichan.html">Setting up Yomichan</a></h1>
+<!-- bashblog_timestamp: #202104240224.07# -->
+<div class="subtitle">April 24, 2021 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p><a href="https://foosoft.net/projects/yomichan/">Yomichan</a> is a browser extension
+with a pop up dictionary
+that allows you to look up unknown words with the hover of a mouse.
+On top of that Yomichan can be set up to create Anki cards from the words which you look up.</p>
+<p>The process of picking sentences from your immersion
+and making Anki cards is called <em>sentence-mining</em> or <em>sentence-picking</em>.
+Each mined sentence has to contain one unknown piece of information,
+which is referred to as <em>target word</em>.</p>
+<p>You don't necessarily have to pick an entire sentence,
+but if you're a TSC user it is not necessary to keep mined items short.
+When you're out in the wild picking sentences, select the ones that are interesting to you.
+Your goal is not to mine every word.</p>
+<hr>
+<h2><a class="anchor" id="installation" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>Yomichan is available for both Chromium-based and Firefox-based web browsers.
+To install Yomichan, follow one of the download links below.</p>
+<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/yomichan/">Firefox add-ons</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami">Chrome Web Store</a></li>
+</ul>
+<p>In order to be able to create Anki cards later you need the
+<a href="https://ankiweb.net/shared/info/2055492159">AnkiConnect</a> plugin.
+It can be installed by opening Anki and going to
+Tools &gt; Add-ons &gt; Get Add-ons... &gt; Code: <code>2055492159</code> &gt; OK.</p>
+<h2><a class="anchor" id="download-dictionaries" href="#download-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download dictionaries</h2>
+<p>Yomichan needs dictionary files to operate.
+Dictionaries are distributed in <code>.zip</code> archives.
+The archives should not be unzipped before installation.</p>
+<p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
+<h2><a class="anchor" id="configuration" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<p>The great thing about Yomichan is its customizeability.
+To access the settings page, click the
+<img src="https://foosoft.net/projects/yomichan/img/yomichan-icon.svg" alt="yomichan-settings">
+button in the browser toolbar and choose &quot;Settings&quot;.</p>
+<h3><a class="anchor" id="install-dictionaries" href="#install-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install dictionaries</h3>
+<p>To install a new dictionary, select &quot;Dictionaries&quot; on the sidebar,
+then click &quot;Configure installed and enabled dictionaries…&quot;.
+The &quot;Import&quot; button in the bottom lets you choose a dictionary file.</p>
+<p>For the first month or two after finishing
+<a href="jp1k-anki-deck.html">kanji</a>
+and
+<a href="basic-vocabulary.html">basic vocabulary</a>
+you're going to need only the English JMdict and optionally the English KANJIDIC.
+The first one is a very popular Japanese to English dictionary
+which you can find on <a href="https://jisho.org/">jisho.org</a>,
+the second one lets you see information about individual kanji.
+After you begin transitioning to Japanese-Japanese dictionaries, install them as well.
+My favorite ones are <code>大辞林</code> and <code>新明解</code>.</p>
+<h3><a class="anchor" id="pitch-accents" href="#pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch accents</h3>
+<p><a href="https://en.wikipedia.org/wiki/Japanese_pitch_accent">Pitch accent</a>
+is taken very seriously among Japanese learners.
+If you don't know pitch accent of a word,
+you don't know how it's pronounced.</p>
+<p>To view pitch accent information in Yomichan popups,
+you need to install
+<a href="https://foosoft.net/projects/yomichan/dl/dict/kanjium_pitch_accents.zip">Kanjium dictionary</a>.
+You can also find it in the archive with all the other dictionaries you downloaded earlier.</p>
+<p>To configure how pitch accent information is displayed,
+go to &quot;Settings&quot; &gt; &quot;Appearance&quot; &gt; &quot;Pitch accent display styles&quot;.
+Enable &quot;Downstep notation&quot; and &quot;Downstep position&quot;.
+I don't recommend enabling &quot;Graph&quot; because it's hard to connect moraes to their pitches.</p>
+<h3><a class="anchor" id="anki-settings" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h3>
+<p>To set up Anki integration,
+go to &quot;Settings&quot; &gt; &quot;Anki&quot;.
+Make sure &quot;Enable Anki integration&quot; is on.</p>
+<p>Scroll down and click &quot;Configure Anki card format...&quot;
+to select the Note Type for your mining deck.
+The settings below are for the
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Japanese sentences</a>
+Note Type.
+You can install it by importing <a href="https://ankiweb.net/shared/info/1557722832">this</a> example deck.</p>
+<p align="center"><img alt="yomichan settings" src="img/yomichan_anki_settings.webp"></p>
+<p align="center"><i>Yomichan Anki settings.</i></p>
+<p>Using <code>{cloze-prefix}&lt;b&gt;{cloze-body}&lt;/b&gt;{cloze-suffix}</code>
+lets you automatically highlight the target word.
+Alternatively, replace it with <code>{sentence}</code>
+if you don't want any highlighting.</p>
+<p>I don't recommend assigning <code>{audio}</code>
+because all default audio sources in Yomichan provide audio samples
+made by Vietnamese people.
+The pronunciations are almost always wrong.
+Furthermore, enabling <code>{audio}</code> significantly slows down card creation
+because Yomichan has to access pronunciation servers and download audio every time.</p>
+<p>We have a
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes">repository</a>
+with user-created Note Types.
+It includes a very convenient system of importing and exporting the Note Types,
+and everyone is welcome to add their templates by making a pull request.</p>
+<h3><a class="anchor" id="handlebars" href="#handlebars" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Handlebars</h3>
+<p>Usually the term <em>handlebars</em> is used to refer to the formatting of Anki cards created by Yomichan.
+Handlebars can be configured by going to
+&quot;Settings&quot; &gt; &quot;Anki&quot; &gt; &quot;Configure Anki card templates...&quot;.
+Some people may recommend you to modify the handlebars
+but no matter what you do your settings
+are going to be broken on next Yomichan update anyway, and you can't prevent it.</p>
+<p>Instead, it is advised to modify styling of your Note Type directly in Anki.
+For example, you can remove dictionary bullet points by copying the code below.
+The following snippet was taken from the
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Japanese sentences</a>
+Note Type.</p>
+<pre><code>ul, ol {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+</code></pre>
+<h3><a class="anchor" id="popup-size" href="#popup-size" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Popup size</h3>
+<p>The default pop up box size is rather small
+which makes it difficult to work with monolingual dictionaries.
+To increase its size, go to &quot;Settings&quot; &gt; &quot;Position &amp; Size&quot; and set the size to a higher value.
+I use <code>480x480</code>.</p>
+<h3><a class="anchor" id="styling" href="#styling" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styling</h3>
+<p>Yomichan offers rich capabilities for styling thanks to the use of CSS.
+The appearance of the popup window can be changed by going to
+&quot;Settings&quot; &gt; &quot;Appearance&quot; &gt; &quot;Configure custom CSS...&quot;.</p>
+<p>Most people keep their settings rather simple,
+but there are a few important modifications I'd like to mention.</p>
+<ol>
+<li><strong>Hide furigana.</strong>
+When you use the popup window, it shows you all kanji readings right away.
+This is not desirable because you want to recall the readings yourself before looking them up.
+The code below makes furigana appear only when you hover over words.<pre><code>ruby rt { visibility: hidden; }
+ruby:hover rt { visibility: visible; }
+</code></pre>
+</li>
+<li><strong>Increase font size.</strong>
+By default Yomichan uses very small font.
+If you're using monolingual dictionaries, you're going to find the font uncomfortable.
+To increase its size, the following code can be used:<pre><code>.glossary-item { font-size: 1.5em; }
+</code></pre>
+Adjust the size to suit your preference.</li>
+<li><strong>Make tags smaller.</strong>
+Tags aren't that important, so it makes sense to shrink them a bit to save space.<pre><code>.tag { font-size: 12px; }
+</code></pre>
+</li>
+<li><strong>Miscellaneous.</strong>
+CSS can do almost everything.
+For example, by modifying <code>body</code> you can set font color and background color:<pre><code>body { color: #2A1B0A; background-color: #FFFAF0; }
+</code></pre>
+</li>
+</ol>
+<h3><a class="anchor" id="profiles" href="#profiles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiles</h3>
+<p>Set up a second profile to make it easier to switch between mining
+<a href="discussing-various-card-templates.html#simple-word-cards">simple word cards</a>
+and
+<a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">targeted sentence cards</a>.
+Go to &quot;Settings&quot; &gt; &quot;Profile&quot; &gt; &quot;Configure profiles...&quot;.
+Under &quot;Conditions&quot; select:</p>
+<pre><code>if &quot;Modifier Keys&quot; &quot;Include&quot; &quot;Ctrl&quot;
+</code></pre>
+<p>Change which profile is being modified under &quot;Profile&quot; &gt; &quot;Editing profile&quot;,
+go back to <a href="#anki-settings">Anki settings</a> and set up a second Note Type to mine simple word cards.
+An example Note Type can be found
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words">here</a>.
+Now when you press Shift+Ctrl while reading Yomichan is going to use the new profile.</p>
+<h2><a class="anchor" id="usage" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>Yomichan popups appear when you hover over Japanese text while holding down the Shift key.</p>
+<p>You can try it with this text:</p>
+<pre><code>私達はイラク出身です。
+</code></pre>
+<p align="center"><img class="shadow" alt="yomichan window" src="img/yomichan_popup.webp"></p>
+<p align="center"><i>Yomichan popup.</i></p>
+<p>Inside the box you can see definitions grouped by dictionary.
+To hide the window press <code>Esc</code> or click outside the box.
+If you have KANJIDIC installed, clicking on individual kanji in the expression
+will bring up additional information about the kanji.</p>
+<p>You can access Yomichan Search by pressing <code>Alt+Insert</code>
+or by clicking
+<img src="https://foosoft.net/projects/yomichan/img/yomichan-icon.svg" alt="yomichan-settings">
+on the toolbar and choosing &quot;Search&quot;.
+There you can use Yomichan similarly to
+<a href="https://aur.archlinux.org/packages/qolibri/">qolibri</a>.</p>
+<p>By clicking on
+<img src="https://foosoft.net/projects/yomichan/img/play-audio.svg" alt="play-audio">
+you can hear an approximate pronunciation of the selected word.
+Unless you're using your own pronunciation server, don't trust the default audio sources
+and don't add the pronunciations to Anki for the reasons explained earlier.</p>
+<p>The <img src="https://foosoft.net/projects/yomichan/img/btn-add-expression.png" alt="plus"> button
+allows you to make Anki cards in one click.
+Assuming you've configured your Note Type,
+now you can create properly formatted targeted sentence cards while reading.</p>
+<p>Tags: <a href='tag_guide.html'>guide</a>, <a href='tag_dictionaries.html'>dictionaries</a>, <a href='tag_yomichan.html'>yomichan</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+<footer>
+    CC by-nc-nd 2020-2021 <a href="https://github.com/tatsumoto-ren">Tatsumoto</a> &mdash; <a href="donating-to-tatsumoto.html">Donate</a>
+    <div>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</footer>
+</div>
+</div>
+<script src="res/hide_menu_on_scroll.js"></script>
+</body>
+</html>

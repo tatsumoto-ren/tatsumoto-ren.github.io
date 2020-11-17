@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Tatsumoto Ren &mdash; Posts tagged "vim"</title>
+<meta property="og:title" content="Tatsumoto Ren &mdash; Posts tagged "vim"">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/tag_vim.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="divbodyholder">
+<div class="headerholder" id="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp">
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbody">
+<main>
+<article>
+<h1><a class="ablack" href="removing-chinese-from-from-subtitles-and-the-basics-of-vim.html">Removing Chinese from subtitles and the basics of vim</a></h1>
+<!-- bashblog_timestamp: #202012031127.09# -->
+<div class="subtitle">December 03, 2020 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>Let's talk about Japanese subtitles. Many of us have used <a href="https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&amp;sort=date&amp;order=desc">kitsunekko</a>
+and have seen those strange subtitles with Chinese translation on the first line and then below it
+the actual Japanese on the second line. When you use <a href="https://mpv.io/">mpv</a> to
+<a href="https://github.com/Ajatt-Tools/mpvacious">mine sentences</a> from these subtitles
+you almost never want Chinese to end up on your Anki cards. Here's where <code>vim</code> comes handy.</p>
+<p>So let's say I've downloaded
+<a href="https://kitsunekko.net/subtitles/japanese/Adachi%20to%20Shimamura/%5BYG%5D%5BAdachi%20to%20Shimamura%5D%5B08%5D%5B1080P%20HEVC-10bit%20AAC%5D.ass">this subtitle file</a>,
+what do I do to fix it?</p>
+<p>When you open the file, you see that Chinese and Japanese lines are marked differently.
+In this particular example, Chinese dialog lines are preceded by <code>Adachi,,</code> and <code>Adachi-JPCN,,</code>
+and Japanese by <code>Adachi-JP,,</code>.</p>
+<pre><code>Dialogue: 1,0:03:56.13,0:03:57.24,Adachi-JP,,0,0,0,,何かほしいの？
+Dialogue: 0,0:02:42.29,0:02:49.68,Adachi-JPCN,,0,0,0,,{\blur1}有你在的道路这世界就会变得不可思议地喜欢
+Dialogue: 0,0:20:35.60,0:20:38.74,Adachi,,0,0,0,,这个关键词是从我的先祖那得来的
+</code></pre>
+<p>So to delete all lines containing Chinese dialogs, use <code>:g</code> with the <code>d</code> command,
+supplying the pattern:</p>
+<pre><code>:g/Adachi,,\|Adachi-JPCN,,/d
+</code></pre>
+<p><strong>The commands mean:</strong></p>
+<ul>
+<li><code>:g</code> - find all lines</li>
+<li><code>/pattern/</code> - matching your pattern</li>
+<li><code>\|</code> - equivalent to <code>or</code> in English</li>
+<li><code>/d</code> - delete the matched lines</li>
+</ul>
+<p>And you're done! Now you can save the file and exit <code>vim</code> by pressing <code>ZZ</code>.</p>
+<p>Tags: <a href='tag_vim.html'>vim</a>, <a href='tag_subtitles.html'>subtitles</a></p>
+<!-- text end -->
+</article>
+</main>
+<footer>
+    CC by-nc-nd 2020-2021 <a href="https://github.com/tatsumoto-ren">Tatsumoto</a> &mdash; <a href="donating-to-tatsumoto.html">Donate</a>
+    <div>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</footer>
+</div>
+</div>
+<script src="res/hide_menu_on_scroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Setting up Anki</title>
+<meta property="og:title" content="Setting up Anki">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-anki.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="divbodyholder">
+<div class="headerholder" id="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp">
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1><a class="ablack" href="setting-up-anki.html">Setting up Anki</a></h1>
+<!-- bashblog_timestamp: #202012280651.32# -->
+<div class="subtitle">December 28, 2020 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p><a href="https://wiki.archlinux.org/index.php/Anki">Anki</a>
+is a
+<a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced repetition</a>
+system (SRS), a program which allows you to create, manage and review
+<a href="https://en.wikipedia.org/wiki/Flashcard">flashcards</a>.</p>
+<p>There are currently many different SRS’s available.
+<a href="https://wiki.archlinux.org/index.php/Mnemosyne">Mnemosyne</a>
+is considered to be a good Anki alternative.
+However, I recommend that you stick with Anki.
+It’s cross-platform, rich with features,
+and supports <a href="https://ankiweb.net/shared/addons/">addons</a>, written in python.
+There are many add-ons available that greatly aid language study, including a few of my own.
+Because of the add-ons it's in my opinion really the only SRS application worth taking seriously.</p>
+<p>What's most important, Anki is
+<a href="https://www.gnu.org/philosophy/free-sw.html">libre software</a>
+that respects the users'
+<a href="https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Freedom">freedom</a>
+and community.
+Unlike Supermemo, for example. But you can't use that on GNU/Linux and Android anyway.</p>
+<p>Many language learners find Anki useful to quickly memorize (frontload)
+core vocabulary of their target language (TL),
+as well as boost their learning in the later stages.</p>
+<p>It should be noted, however, that memorization of most vocabulary throughout all your language
+learning phases should be done by
+<a href="https://refold.la/roadmap/stage-2/a/basic-sentence-mining#Mine-Sentences-Not-Words">studying sentences</a>.
+You will be making vocabulary cards in the process as well,
+but much less so, and mostly for nouns.</p>
+<p>The only downside of Anki is that it can be <em>a little bit</em> difficult to learn how to use.
+Depending on how you use it you can either greatly decrease your
+time spent studying or make using Anki a living hell for yourself.
+If you find yourself confused about how Anki works,
+it is recommended that you read the <a href="https://docs.ankiweb.net/">Anki manual</a>.
+However, because it's highly detailed and technical,
+the bulk of this article will focus on explaining the most useful Anki settings
+to help you get things up and running as quickly as possible.</p>
+<hr>
+<h2><a class="anchor" id="installation" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>It's quite simple. Anki is available in the
+<a href="https://archlinux.org/packages/community/x86_64/anki/">official repositories</a>.
+To install the <code>anki</code> package, run:</p>
+<pre><code>$ sudo pacman -S anki
+</code></pre>
+<h2><a class="anchor" id="sync-your-mobile-device" href="#sync-your-mobile-device" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sync your mobile device</h2>
+<p>By <a href="https://ankiweb.net/account/register">signing up</a> for Ankiweb
+you can keep your cards synchronized across multiple machines.
+You can also sync between devices.
+Install <a href="https://f-droid.org/en/packages/com.ichi2.anki/">AnkiDroid</a>
+on your Android device and sync your collection.
+This will allow you to review your flashcards when you're outside
+and don't have access to your computer.</p>
+<p>I must warn you in advance though. Don't sync your collection with AnkiWeb
+if you are a heavy user of <a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>.
+<code>subs2srs</code> decks take a lot of disk space. Use a different Anki profile to store them.</p>
+<p>To make multiple profiles, press <code>File &gt; Switch profile</code>.</p>
+<h2><a class="anchor" id="import-an-example-mining-deck" href="#import-an-example-mining-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Import an example mining deck</h2>
+<p>After you install Anki, you need to set up a <code>Note Type</code>
+to keep your flashcards formatted as you like.
+Anki comes with a few basic Note Types but they aren't suited for learning Japanese.</p>
+<p>Because making your own <code>Note Type</code> is a tedious process
+consisting of essentially adding the fields you need and copy-pasting html and css,
+I recommend you to import a pre-made mining deck.</p>
+<p>A sample mining deck can be found here:</p>
+<ul>
+<li>AnkiWeb: <a href="https://ankiweb.net/shared/info/1557722832">https://ankiweb.net/shared/info/1557722832</a></li>
+<li>Mirror: <a href="https://t.me/ajatt_tools/16">https://t.me/ajatt_tools/16</a></li>
+</ul>
+<h2><a class="anchor" id="japanese-language-support" href="#japanese-language-support" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japanese language support</h2>
+<p>Press <code>Tools &gt; Add-ons &gt; Get Add-ons</code> to download and install the
+<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a> add-on.
+Then restart. The add-on is bundled with <code>mecab</code> and the <code>kakasi</code> executables
+so you don't need to install any additional dependencies.</p>
+<h2><a class="anchor" id="anki-settings" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h2>
+<p>I recommend the following settings.</p>
+<h3><a class="anchor" id="preferences" href="#preferences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preferences</h3>
+<p>You can access preferences by going to <code>Tools &gt; Preferences…</code> on Anki’s main window.</p>
+<ul>
+<li><p><strong>Learn ahead limit:</strong> I recommend keeping the value close to the default of 20 minutes.
+Mine is <code>35</code> mins.
+When you finish your daily reviews and new cards,
+Anki will start ignoring intervals of cards in the learning queue <code>less</code> than
+this value and showing the cards to you right away.
+This is good for cards with small intervals because it lets you finish your reps
+without breaking the flow and waiting for your cards to become ready to be reviewed.
+But if you set the <code>Learn ahead limit</code> too high
+cards with longer learning steps will be shown to you too early.
+Keeping the value on the lower side enforces the wait time of your steps.
+If you set this to <code>0</code>, Anki will always wait the full delay, so it's not optimal either.</p>
+</li>
+<li><p><strong>Show new cards after reviews:</strong> You always want to finish your reviews first,
+and you don’t want new cards to slow you down. You can choose <code>Show new cards before reviews</code>
+if you are consistent and feel confident that you will never have a backlog of Anki reviews.
+Mixing is probably the worst way and will confuse you when
+a new card pops up after a streak of mature cards.</p>
+</li>
+<li><p><strong>Anki 2.1. scheduler:</strong> Make sure to enable this one. The old scheduler is buggy and clunky.
+The new one fixes some of issues that previous Anki versions had, though it's still in development.
+You can read about it in detail <a href="https://faqs.ankiweb.net/the-anki-2.1-scheduler.html">here</a>.</p>
+<p>Main killer features:</p>
+<ul>
+<li>You can have subdecks and review all of them at once,
+the cards will be properly mixed when reviewing.</li>
+<li>You can learn new cards in filtered decks. Filtered decks no longer reset learning steps
+when rebuilt or emptied.</li>
+</ul>
+</li>
+</ul>
+<p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.png"></p>
+<h3><a class="anchor" id="options-groups" href="#options-groups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options Groups</h3>
+<p>Each deck has an Options Group attached to it.
+The subdeck options will override the parent deck options.
+Click <code>Deck &gt; Options</code> to access Options Groups settings.
+You can hit Manage to create additional options groups.</p>
+<p>Below are the options I recommended using:</p>
+<h4><a class="anchor" id="new-cards" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h4>
+<ul>
+<li><p><strong>Steps (in minutes):</strong> This is the number of times you have to answer <code>good</code> on the card
+before it graduates.
+I recommend beginners to stick to the default learning steps of <code>1 10</code>.
+When you get more familiar with Anki you can add your custom steps and experiment with them.
+But don't overdo it: too many steps will make you spend too much time in Anki
+for no substantial gain in retention.
+The <code>learn ahead</code> option set in the previous section
+will make sure that you won't be shown cards with custom steps too early.</p>
+</li>
+<li><p><strong>New cards/day:</strong> The default value of <code>20</code> cards is very reasonable and manageable for most users.
+However, if you feel overwhelmed by the amount of reviews you have to do,
+lower it to about <code>10</code> new cards a day.
+Doing more cards is also possible if you can keep up with the review load,
+but generally in the AJATT community it is advised to learn no more than <code>30</code> new cards a day.</p>
+<p>As you've noticed, I keep my setting at <code>0</code>. That's simply because I use the
+<a href="https://ankiweb.net/shared/info/1021636467">Learn now Button</a>
+add-on to <strong>manually pick</strong> and learn cards from my Sentence Bank.</p>
+</li>
+<li><p><strong>Starting ease:</strong> Set it to <code>131%</code> and you won't have to worry about Ease at all.
+Ease is very nasty because by default it gradually decreases when you fail cards or answer
+<strong>Hard</strong> on them. This leads to intervals growing slower, and eventually you fall into <strong>Ease Hell</strong>.
+If you've been using Anki before applying this setting, you should <strong>Refold</strong> your collection
+with the <a href="https://ankiweb.net/shared/info/819023663">RefoldEase</a> add-on.</p>
+<p>If you would like to learn more about Ease Hell, check out <a href="https://youtu.be/1XaJjbCSXT0">this video</a>.</p>
+<p><strong>Note:</strong> If you previously used the old <code>Low Key Anki</code> setup
+<a href="https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation">described</a>
+on the MIA site,
+make sure to disable Anki add-ons associated with it,
+namely <code>No Penalties or Boosting</code> and <code>ResetEZ</code>,
+because they modify Ease of your cards
+in a way that conflicts with these instructions.
+You can keep <code>PassFail</code> installed if you want.</p>
+</li>
+</ul>
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.png"></p>
+<h4><a class="anchor" id="reviews" href="#reviews" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reviews</h4>
+<ul>
+<li><p><strong>Maximum reviews/day:</strong> This value sets an arbitrary cap on the amount of reviews you can do each day.
+If the cap is low, your due cards won't magically disappear after you've done with the reviews.
+Instead they will form a backlog of likely forgotten cards.
+Because you want to review all your due cards every day,
+set this at a high value.</p>
+</li>
+<li><p><strong>Interval modifier:</strong> Now here is where it gets interesting.
+When you answer <strong>Good</strong> on a card, its interval is recalculated:</p>
+<pre><code>New interval = current interval * Card's ease * Interval Modifier
+</code></pre>
+<p>The default next interval is 250% of last interval.
+At its default of 100% <code>Interval Modifier</code> does nothing. However, you don't want that
+because you've just lowered <code>Starting Ease</code> to 131% in the previous step.
+To restore the balance bump <code>Interval Modifier</code> up to 192%.
+Later after you've used Anki for a couple of months and have had high retention,
+you can increase the value further and do less reviews.
+If you forget too many cards, it is recommended to lower it a bit.</p>
+<p>If you've used the <a href="https://ankiweb.net/shared/info/819023663">RefoldEase</a> add-on
+from the previous step, your <code>Interval Modifier</code> should be already set to the right value.</p>
+</li>
+<li><p><strong>Easy bonus</strong> and <strong>Hard interval</strong>: Ignore these settings as you should never use
+the “hard” and “easy” buttons.</p>
+  <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.png"></p>
+<p>As I mentioned in the <code>Starting ease</code> section,
+the “hard” and “easy” buttons have counterintuitive effects on Anki’s algorithm,
+which causes long-term problems with Ease of your cards.</p>
+</li>
+<li><p><strong>Maximum interval:</strong> Intervals of your cards can never increase beyond this limit.
+I advice setting it as big as possible.
+The default is <code>36500</code> days, which is equal to <code>100</code> years.
+However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
+</li>
+</ul>
+<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.png"></p>
+<h4><a class="anchor" id="lapses" href="#lapses" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lapses</h4>
+<ul>
+<li><p><strong>Steps (in minutes):</strong>
+Works similar to the setting in the <code>New Cards</code> tab,
+except it’s for cards you’ve pressed “Again” on.
+It affects how well you will relearn your lapsed cards.
+Beginners should set one learning step and observe their experience.
+The default of <code>10</code> minutes is okay but I prefer a slightly bigger one.
+Later you can experiment with more learning steps.</p>
+</li>
+<li><p><strong>New interval:</strong>
+You often still somewhat remember a word in Japanese even if you fail it.
+A different context or another word, or studying it on a different day may jog your memory.
+Thus we don’t need to fully penalize a fail here.</p>
+<p>I use a new interval of 55% so as to not completely reset a card to 0.
+The recommended range in the AJATT community is between 50 and 75%.</p>
+<p>For a word cards deck you may set it to about 30-40%
+because word cards are noticeably harder than sentence cards.</p>
+</li>
+<li><p><strong>Leech threshold</strong> and <strong>Leech action</strong>:
+Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
+You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.</p>
+<p>Possible ways to deal with leeches:</p>
+<ul>
+<li><p><strong>Delete them:</strong> For those small minority of cards that just won’t stick,
+it’s best to just get rid of them. Instead of wasting a bunch of time on a single leech,
+it’s more productive to learn 5 normal cards in its place.</p>
+</li>
+<li><p><strong>Keep them for later:</strong> If you can't remember a word after 4-5 lapses,
+it means that your brain hasn't been primed yet to acquire it.
+Wait a month or two and try again.
+Often you'll find that cards that wouldn't stick before had become very easy.</p>
+</li>
+<li><p><strong>Make a new card for the same target word:</strong> If a word is of high value to you,
+you can try to memorize a
+<a href="https://www.supermemo.com/de/archives1990-2015/articles/20rules">different representation</a>
+of it. Find a different example sentence in your Sentece Bank or online.
+For example, on <a href="https://ejje.weblio.jp/sentence/">weblio</a>.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.png"></p>
+<p><strong>Read next: <a href="useful-anki-add-ons-for-japanese.html">Useful Anki add-ons for Japanese</a></strong></p>
+<p>Tags: <a href='tag_anki.html'>anki</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+<footer>
+    CC by-nc-nd 2020-2021 <a href="https://github.com/tatsumoto-ren">Tatsumoto</a> &mdash; <a href="donating-to-tatsumoto.html">Donate</a>
+    <div>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</footer>
+</div>
+</div>
+<script src="res/hide_menu_on_scroll.js"></script>
+</body>
+</html>

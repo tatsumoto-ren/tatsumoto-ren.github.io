@@ -1,0 +1,399 @@
+/* global */
+
+:root {
+  --header-height: 52px;
+  --n-menu-items: 4;
+  --hamburger-slice-width: 18px;
+  --hamburger-slice-height: 2px;
+}
+
+* { box-sizing: border-box; padding: 0; margin: 0; }
+body, #divbodyholder {
+    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+    background-color: #F3F3F3;
+    color: #24292e;
+}
+img { max-width: 100%; }
+a {
+    text-decoration: none;
+    color: #0366d6;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #336699;
+}
+a.ablack {
+    color: #1f2628;
+}
+
+/* header */
+
+.headerholder {
+    background-color: #DDD;
+    padding-bottom: 5px;
+    width: 100%;
+}
+#headerholder {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    transition: top 0.3s;
+}
+header {
+    width: 100%;
+    min-height: var(--header-height);
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-bottom: solid 1px #ccc;
+}
+
+/* logo; icon and title */
+
+.logoholder {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a.logo {
+    padding: 2px 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 48px;
+    transition: opacity 0.2s;
+}
+header a.logo > h1 {
+    font-size: 20px;
+    color: black;
+    transition: letter-spacing 0.3s;
+}
+header a.logo:hover {
+    opacity: 0.75;
+}
+header a.logo:hover > h1 {
+    letter-spacing: 2px;
+}
+header a.logo > img {
+    height: 1em;
+    line-height: 1em;
+    padding-right: 8px;
+}
+
+/* hidden elements; checkbox is not needed, description is visible only on wide screens */
+
+header #description,
+header input.menu {
+    display: none;
+}
+
+/* navigation */
+
+header > nav {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+}
+header > nav a,
+header > nav a:visited {
+    display: block;
+    line-height: var(--header-height);
+    color: #333;
+    text-align: center;
+    padding: 0 14px;
+    text-decoration: none;
+}
+header > nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+header > nav a.important {
+    background: #111;
+    color: #f2f2f2;
+}
+header > nav a.important:hover {
+    background-color: #444;
+}
+
+/* menu button with a hamburger icon */
+
+header label.menu {
+    float: right;
+    position: relative;
+    padding:
+        calc((var(--header-height) - var(--hamburger-slice-height)) / 2)
+        calc((var(--header-height) - var(--hamburger-slice-width)) / 2);
+    cursor: pointer;
+    user-select: none;
+}
+
+/* hamburger */
+
+header label.menu > .hamburger {
+    background: #333;
+    display: block;
+    width: var(--hamburger-slice-width);
+    height: var(--hamburger-slice-height);
+    position: relative;
+    transition: background .2s ease-out;
+}
+header label.menu > .hamburger:before,
+header label.menu > .hamburger:after {
+    background: #333;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-out;
+
+}
+header label.menu > .hamburger:before {
+    top: 5px;
+}
+header label.menu > .hamburger:after {
+    top: -5px;
+}
+
+/* when the hamburger is clicked, show the navigation items and change the hamburger icon */
+
+header input.menu:checked ~ nav {
+    max-height: calc(var(--header-height) * var(--n-menu-items));
+}
+
+header input.menu:checked ~ label.menu > .hamburger {
+    background: transparent;
+}
+
+header input.menu:checked ~ label.menu > .hamburger:before {
+    transform: rotate(-45deg);
+    top:0;
+}
+
+header input.menu:checked ~ label.menu > .hamburger:after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+/* dropdown button */
+
+header .dropdown > button {
+    width: 100%;
+    height: var(--header-height);
+    border: none;
+    outline: none;
+    background: #111;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: #f2f2f2;
+    padding: 0 14px;
+}
+header .dropdown:hover > button {
+    background-color: #444;
+}
+
+/* submenus for the dropdown button */
+
+header .dropdown > .dropdown-content {
+    display: none;
+    position: relative;
+    right: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header .dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+header .dropdown > button,
+header .dropdown > .dropdown-content {
+    min-width: 120px;
+}
+
+/* wide screens */
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: stretch;
+        justify-content: space-between;
+    }
+    header label.menu {
+        display: none;
+    }
+    header > nav {
+        max-height: none;
+        flex-direction: row;
+        overflow: visible;
+    }
+    header .dropdown > .dropdown-content {
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    header > #description {
+        display: block;
+    }
+    header > .logoholder, header > nav {
+        flex: 1 1 0px;
+    }
+    header > .logoholder > a.logo {
+        margin-right: auto;
+    }
+}
+
+/* body */
+
+#divbody {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0px 32px 32px 32px;
+    margin: 84px auto 32px auto;
+}
+main {
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+main p,
+main ol,
+main ul,
+main pre,
+main details,
+main hr {
+    margin-bottom: 16px;
+}
+details {
+    border-radius: 8px;
+}
+summary {
+    color: #1f56aa;
+    cursor: pointer;
+}
+summary + * {
+    margin-top: 8px;
+}
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .25em solid #dfe2e5;
+}
+main ul ul { margin: 0px; }
+main p { line-height: 1.5; }
+main :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
+main :is(h1, h2, h3, h4, h5, h6) > a:hover {
+    text-decoration: none;
+}
+main h1 { font-size: 2em; }
+main h2 { font-size: 1.5em; }
+main h3 { font-size: 1.25em; }
+main h4 { font-size: 1em; }
+article { font-family: "Noto Sans", Helvetica, Arial, Sans-Serif; }
+article > h1:first-child { margin-bottom: 0px; }
+article ul, ol {
+    padding-left: 2em;
+}
+article li + li {
+    margin-top: .25em;
+}
+article p > img.shadow {
+    box-shadow: 2px 2px 3px #999;
+}
+article .anchor {
+    float: left;
+    padding-right: 4px;
+    margin-left: -20px;
+    line-height: 1;
+}
+article .anchor > svg {
+    vertical-align: middle;
+    visibility: hidden;
+}
+article :is(h1, h2, h3, h4, h5, h6):hover .anchor > svg {
+    visibility: visible;
+}
+article p.download_button {
+    text-align: center;
+}
+article p.download_button > a {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 49px;
+    min-width: 220px;
+    padding: 0 5px;
+    border: 1px solid #0366d6;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+article p.download_button > a:hover {
+    background-color: #0366d60d;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+}
+.subtitle {
+    font-size: small;
+    margin-bottom: 16px;
+}
+.description {
+    margin-top: 10px;
+    border-top: solid 1px #666;
+    padding: 10px 0;
+}
+code {
+    font-size: 85%;
+    padding: .2em .4em;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+}
+pre {
+    overflow: auto;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 16px;
+    line-height: 1.45;
+}
+pre img { margin: 12px 0px; }
+pre iframe { margin: 12px 0px; }
+pre code { padding: 0; background-color: initial; }
+footer, #footer {
+    padding-top: 10px;
+    border-top: solid 1px #666;
+    color: #333333;
+    text-align: center;
+    font-size: small;
+    font-family: "Noto Sans Mono", "Courier New", "Courier", monospace;
+}
+#all_posts {
+    margin-top: 24px;
+    text-align: center;
+}
+#twitter {
+    line-height: 20px;
+    vertical-align: top;
+    text-align: right;
+    font-style: italic;
+    color: #333;
+    margin-top: 24px;
+    font-size: 14px;
+}
