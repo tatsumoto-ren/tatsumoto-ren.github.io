@@ -63,11 +63,7 @@ If you don't want to register for a Matrix account, you can join us on
 [Telegram](https://telegram.org/).
 Although Telegram
 [is not ideal](https://spyware.neocities.org/articles/telegram.html)
-it is still better than proprietary services.
-Our Telegram community is
-[bridged](https://t2bot.io/telegram/) into the Matrix,
-so if you join on one platform, there's no need to join on the other.
-All messages are brought over from Telegram to the Matrix, and vice versa.
+it is still better than many proprietary services.
 
 <p align="center">
 	<a href="https://t.me/jap_chat">
