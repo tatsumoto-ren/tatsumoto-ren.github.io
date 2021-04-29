@@ -47,7 +47,7 @@ The least amount of moderation is favored.
 
 ### Selection criteria
 
-* No [CloudFlare](https://codeberg.org/qorg11/stop_cloudflare/src/branch/master/readme/en.md)
+* No [CloudFlare](https://web.archive.org/web/20210429163415/https://forge.chapril.org/you/stop_cloudflare/src/branch/master/readme/en.md)
 * Open registration, obviously
 * Sorted by domain length
 * Up-to-date version of Matrix

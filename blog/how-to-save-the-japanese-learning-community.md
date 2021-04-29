@@ -30,7 +30,7 @@ There has been already published thousands of articles and videos describing thi
 Here are some of them:
 1) https://spyware.neocities.org/articles/discord.html
 2) https://stallman.org/discord.html
-3) https://tosdr.org/en/service/discord
+3) https://cadence.moe/blog/2020-06-06-why-you-shouldnt-trust-discord/
 4) https://archive.is/Q4N9J
 
 The key points:
