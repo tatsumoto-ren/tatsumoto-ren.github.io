@@ -7,6 +7,12 @@ It is used in our Japanese learning community as an alternative to proprietary s
 Matrix ecosystem consists of many servers which can be used for registration.
 Since many people joining us ask what server to choose, I've made a list.
 
+To use Matrix, install a
+[client](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients)
+first.
+One of the most popular clients is
+[Element](https://archlinux.org/packages/?name=element-desktop).
+
 ## Matrix.org users
 
 If you already have an account hosted on `matrix.org`,
@@ -17,6 +23,9 @@ and user accounts without prior notice for minor things
 such as expressing certain viewpoints.
 Luckily, changing matrix homeservers is as easy as switching email providers.
 
+<p align="center"><img class="shadow" alt="registration" src="img/element_registration.webp"></p>
+<p align="center"><i>Click "Edit".</i></p>
+
 ## Recommendations
 
 * [+degeneracy:midov.pl](https://matrix.to/#/+degeneracy:midov.pl)
@@ -26,8 +35,9 @@ because there's less risk of getting your account suspended for thought crimes.
 	* [nerdsin.space](https://nerdsin.space/)
 	* [midov.pl](https://element.midov.pl/element/)
 	* [kawaiilo.li](https://element.kawaiilo.li/)
-* Glowers Club maintains
-[a list of notable homeservers](https://glowers.club/wiki/doku.php?id=wiki:newfriends#what_homeserver_should_i_use).
+* [Glowers Club](https://glowers.club/wiki/doku.php?id=start)
+maintains
+[a list of notable homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers).
 The least amount of moderation is favored.
 	* [thisisjoes.site](https://thisisjoes.site/)
 	* [jews.rip](https://jews.rip/)
