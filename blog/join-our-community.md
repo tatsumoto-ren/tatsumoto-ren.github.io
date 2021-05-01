@@ -50,12 +50,14 @@ Before you join, install a
 and register an account on [any server](list-of-matrix-servers.html) that is **not** matrix.org.
 
 <p align="center">
-	<a href="https://matrix.to/#/#ajt:matrix.org?via=g33k.se&via=t2bot.io&via=matrix.org">
+	<a href="element://vector/webapp/#/room/#djt:midov.pl">
 		<img alt="matrix" src="img/join_us_on_element_220x51.png">
 	</a>
 </p>
 
-Or type `/join #ajt:matrix.org`.
+Alternatively, use a
+[web app](https://nerdsin.space/#/room/#djt:midov.pl)
+or open your client and type `/join #djt:midov.pl`.
 
 ## Telegram
 
