@@ -2,9 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 27 Apr 2021 16:48:43 +0300</lastBuildDate>
-<pubDate>Tue, 27 Apr 2021 16:48:43 +0300</pubDate>
+<lastBuildDate>Mon, 03 May 2021 02:38:52 +0300</lastBuildDate>
+<pubDate>Mon, 03 May 2021 02:38:52 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Foreword</title><description><![CDATA[
+<p>Congratulations! You've taken your first step towards learning Japanese!</p>
+<p>I'm Tatsumoto. I'm primarily known for a <a href="https://t.me/ajatt_tools">Telegram channel</a>
+with focus on helping foreigners learn Japanese language.</p>
+<p>This site is a quickstart guide for the subscribers
+and anyone who wants to build a solid understanding of the Japanese language.
+We focus on understanding before speaking, or input before output.
+We believe doing so is the shortest path to fluency,
+because you avoid whole groups of problems that come with premature output,
+such as foreign accent and grammar mistakes.
+This approach makes the journey easy and fun
+because from day one you are encouraged to learn from compelling content
+made for native speakers of your target language.
+Most people who persevered and reached fluency
+watched their favorite TV shows in Japanese
+and read lots of books and manga every day.
+No amount of brute force can get you there,
+so forget about traditional approaches such as taking classes or hiring a tutor.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/foreword.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/foreword.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 03 May 2021 02:38:26 +0300</pubDate></item>
 <item><title>
 Setting up Yomichan</title><description><![CDATA[
 <p><a href="https://foosoft.net/projects/yomichan/">Yomichan</a> is a browser extension
@@ -193,18 +217,4 @@ and find countless new learning resources!</p>
 <guid>https://tatsumoto-ren.github.io/blog/join-our-community.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 08 Feb 2021 13:16:24 +0300</pubDate></item>
-<item><title>
-Our Immersion Learning Toolset</title><description><![CDATA[
-<p align="center"><img alt="Ajatt-Tools" class="shadow" src="https://avatars.githubusercontent.com/u/69172625?s=200&v=4"></p>
-<p>At
-<a href="https://github.com/Ajatt-Tools">Ajatt Tools</a>
-we're developing tools to help you connect with another language.
-We hope that they and other
-<a href="https://www.gnu.org/philosophy/free-sw.html">libre</a>
-projects developed by the community will help you in your language learning journey.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/our-immersion-learning-toolset.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/our-immersion-learning-toolset.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 03 Feb 2021 20:53:56 +0300</pubDate></item>
 </channel></rss>
