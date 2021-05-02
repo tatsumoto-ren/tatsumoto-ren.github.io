@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Foreword](foreword.html)
 * [Introduction to learning Japanese](introduction-to-learning-japanese.html)
 * Setup
 	* [Anki](setting-up-anki.html)
