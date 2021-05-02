@@ -67,7 +67,7 @@ It's similar to the way you can choose to register your Email account on
 airmail.cc or on waifu.club or even on mail.ru.
 I have selected a few servers that have open registration.
 I also made sure that the sites don't use
-[Cloudflare](https://codeberg.org/qorg11/stop_cloudflare/src/branch/master/readme/en.md).
+[Cloudflare](https://web.archive.org/web/20210429163415/https://forge.chapril.org/you/stop_cloudflare/src/branch/master/readme/en.md).
 
 <p align="center">
 	<a href="list-of-matrix-servers.html">List of Matrix servers</a>
