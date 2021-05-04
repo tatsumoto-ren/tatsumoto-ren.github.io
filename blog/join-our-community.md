@@ -73,4 +73,10 @@ it is still better than many proprietary services.
 	</a>
 </p>
 
+## Questions
+
+If you have a question specifically for me,
+ping me in the chat by prepending your message with
+`@tatsumoto:g33k.se` on Matrix or `@tatsumoto` on Telegram.
+
 Tags: matrix
