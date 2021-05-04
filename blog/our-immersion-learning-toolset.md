@@ -50,6 +50,7 @@ you've studied.
 Look up unknown words with the hover of a mouse
 and make Anki flashcards with a single click.
 
+* [Setting up Yomichan](setting-up-yomichan.html)
 * [Dictionaries](yomichan-and-epwing-dictionaries.html)
 
 ## [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
