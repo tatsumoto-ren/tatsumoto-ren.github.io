@@ -93,6 +93,7 @@ to understand what it really means.
 Anki Media Extractor Script.
 Allows you to easily add screenshots and audio recordings to your Anki cards.
 
+* [AUR package](https://aur.archlinux.org/packages/ames/)
 * [VN mining guide](https://gist.github.com/eshrh/5bbf4deab58fefdab9eacf77b450efc0)
 
 ## [subs2srs](http://subs2srs.sourceforge.net/)
