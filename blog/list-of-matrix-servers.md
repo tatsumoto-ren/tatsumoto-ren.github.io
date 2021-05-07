@@ -28,17 +28,9 @@ Luckily, changing matrix homeservers is as easy as switching email providers.
 
 ## Recommendations
 
-* [+degeneracy:midov.pl](https://matrix.to/#/+degeneracy:midov.pl)
-recommends the following servers
-because there's less risk of getting your account suspended for thought crimes.
-	* [waifuhunter.club](https://chat.waifuhunter.club/)
-	* [nerdsin.space](https://nerdsin.space/)
-	* [midov.pl](https://element.midov.pl/element/)
-	* [kawaiilo.li](https://element.kawaiilo.li/)
-* [Glowers Club](https://glowers.club/wiki/doku.php?id=start)
-maintains
-[a list of notable homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers).
-The least amount of moderation is favored.
+* [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
+recommended by
+[Glowers Club](https://glowers.club/wiki/):
 	* [thisisjoes.site](https://thisisjoes.site/)
 	* [jews.rip](https://jews.rip/)
 	* [kiwifarms.net](https://riot.kiwifarms.net/)
@@ -48,6 +40,12 @@ The least amount of moderation is favored.
 	* [halogen.chat](https://halogen.chat/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [ubersm.art](https://chat.ubersm.art/)
+* Homeservers recommended by [+degeneracy:midov.pl](https://matrix.to/#/+degeneracy:midov.pl):
+	* [waifuhunter.club](https://chat.waifuhunter.club/)
+	* [nerdsin.space](https://nerdsin.space/)
+	* [midov.pl](https://element.midov.pl/element/)
+	* [kawaiilo.li](https://element.kawaiilo.li/)
+	* [anontier.nl](https://element.anontier.nl/)
 
 *Not all the servers may be open for registration at any point of time.*
 
@@ -74,8 +72,10 @@ to the instance's Element address,
 like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 
 * https://nerdsin.space/
+* https://matrix.3dns.eu/
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
+* https://riot.tzchat.org/
 * https://element.asra.gr/
 * https://webchat.kde.org/
 * https://element.im.f3l.de/
@@ -122,6 +122,7 @@ without having to use a desktop client.
 * https://element.42l.fr/
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
+* https://matrix.3dns.eu/
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
 * https://chat.ubersm.art/
@@ -129,24 +130,26 @@ without having to use a desktop client.
 * https://chat.zelchat.de/
 * https://el.aria-net.org/
 * https://element.1984.cz/
+* https://riot.downey.net/
 * https://element.asra.gr/
 * https://im.solokeys.com/
 * https://matrix.abigo.de/
 * https://matrix.nwca.xyz/
-* https://riot.downey.net/
+* https://riot.tzchat.org/
 * https://webchat.kde.org/
+* https://matrix.ffggrz.de/
 * https://chat.catgirl.biz/
 * https://chat.sp-codes.de/
+* https://matrix.n3xus.one/
+* https://matrix.boba.chat/
 * https://element.envs.net/
 * https://element.hope.net/
-* https://matrix.ffggrz.de/
-* https://matrix.n3xus.one/
 * https://riot.backstop.it/
+* https://element.kif.rocks/
 * https://3000.chat/element/
 * https://chat.oscillas.com/
 * https://element.eclabs.de/
 * https://element.im.f3l.de/
-* https://element.kif.rocks/
 * https://element.myserv.me/
 * https://element.pwoss.org/
 * https://chat.freakachu.org/
@@ -160,7 +163,6 @@ without having to use a desktop client.
 * https://the-apothecary.club/
 * https://chat.fairydust.space/
 * https://chat.michel-slm.name/
-* https://matrix.ffggrz.de/app/
 * https://element.matrix4ulm.de/
 * https://riot.qonfucius.social/
 * https://crystal-temple.flak.is/
@@ -194,7 +196,7 @@ and change the server from the default to the one you want.
 * https://oblak.be/
 * https://zinz.dev/
 * https://kuvio.de/
-* https://ohea.xyz/
+* https://cirk2.de/
 * https://vacci.ne/
 * https://m.edw.ai/
 * http://rthome.me/
@@ -207,88 +209,76 @@ and change the server from the default to the one you want.
 * https://ramrod.top/
 * https://lomnik.net/
 * https://willy.club/
+* https://home55.net/
 * https://m.webgo.de/
 * https://kahakai.de/
+* http://im.tnode.eu/
 * https://tusooa.xyz/
 * https://phoxden.net/
 * https://chatmud.com/
 * https://secureim.de/
-* https://phoxden.net/
 * https://cakeboss.it/
 * https://spodeli.org/
+* https://blacksec.de/
+* https://malooma.bzh/
 * https://geese.party/
-* http://im.tnode.eu/
+* https://xentonix.net/
 * https://xentonix.net/
 * https://lolifan.club/
 * https://halogen.city/
 * https://kotilo.dy.fi/
-* https://shirokumo.net/
 * https://hemmerle.dev/
+* https://nitrokey.com/
 * https://unita.online/
 * https://converser.eu/
+* https://matrix.lrn.fm/
 * https://dunstkreis.ch/
 * https://m.deadcrab.de/
 * https://im.su.cvut.cz/
 * https://matrix.fuz.re/
-* https://matrix.lrn.fm/
 * http://matrix.lod.com/
+* https://shirokumo.net/
+* https://vanpetegem.me/
+* https://marxwatch.org/
 * https://matrix.pi2.dev/
 * https://matrix.phcn.de/
-* https://mailstation.de/
 * https://matrix.bits.at/
-* https://matrix.3dns.eu/
-* https://matrix.lion.fm/
-* https://matrix.comm.cx/
+* https://duncanturk.com/
 * https://www.freitrix.de/
-* https://riot.ramrod.top/
-* https://matrix.cirr.com/
-* https://chat.home55.net/
-* https://matrix.cirk2.de/
-* https://matrix.goe.land/
-* https://matrix.zoit.net/
-* https://matrix.jarno.ca/
-* https://wolkenplanet.de/
-* https://matrix.2kgwf.fi/
-* https://matrix.altay.fr/
-* https://matrix.ohea.xyz/
-* https://matrix.sebdu.de/
 * https://matrix.nikel.me/
+* https://matrix.ohea.xyz/
+* https://matrix.goe.land/
+* https://matrix.cirr.com/
+* https://matrix.altay.fr/
+* https://matrix.sebdu.de/
+* https://matrix.jarno.ca/
 * https://pancrypticon.net/
-* https://www.nitrokey.com/
-* https://matrix.boba.chat/
-* https://matrix.nesven.eu/
-* https://matrix.lukamb.de/
-* https://matrix.jling.dev/
-* https://matrix.complb.de/
-* http://matrix.dapor.net/
-* https://matrix.bda.space/
-* https://chat.twomoons.de/
 * https://matrix.muehml.eu/
 * https://matrix.senan.xyz/
 * https://matrix.privex.io/
 * https://matrix.puhoy.net/
-* https://matrix.sibnsk.net/
-* https://www.marxwatch.org/
+* https://matrix.nesven.eu/
+* https://matrix.lukamb.de/
+* https://matrix.jling.dev/
+* https://matrix.complb.de/
+* https://matrix.bda.space/
+* https://chat.twomoons.de/
+* https://matrix.dapor.net/
 * https://synapse.chefst.de/
-* https://sixgorillion.club/
-* https://www.vanpetegem.me/
 * https://matrix.radres.xyz/
-* https://matrix.tmiland.com/
-* https://matrix.blacksec.de/
+* https://matrix.sibnsk.net/
+* https://matrix.sykorp.com/
+* https://sixgorillion.club/
 * https://matrix.thegolem.cz/
 * https://nekomimi.solutions/
-* https://www.fatherjim.tech/
-* https://matrix.chaospott.de/
-* https://synapse.malooma.bzh/
 * https://roleplaygateway.com/
+* https://matrix.chaospott.de/
 * https://matrix.unknown.place/
 * https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
-* https://matrix.intahnet.co.uk/
-* https://matrix.elsmussols.net/
 * https://matrix.un-hack-bar.de/
-* https://synapse.duncanturk.com/
+* https://matrix.intahnet.co.uk/
+* https://matrix.fatherjim.tech/
 * https://matrix.magnumchaos.org/
-* https://matrix.banfieldzanin.com/
 
 Tags: matrix
