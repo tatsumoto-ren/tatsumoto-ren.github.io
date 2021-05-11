@@ -171,7 +171,7 @@ ruby:hover rt { visibility: visible; }
 <li><strong>Increase font size.</strong>
 By default Yomichan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
-To increase its size, the following code can be used:<pre><code>.glossary-item { font-size: 1.5em; }
+To increase its size, the following code can be used:<pre><code>.gloss-item { font-size: 1.5em; }
 </code></pre>
 Adjust the size to suit your preference.</li>
 <li><strong>Make tags smaller.</strong>
@@ -181,6 +181,12 @@ Tags aren't that important, so it makes sense to shrink them a bit to save space
 <li><strong>Miscellaneous.</strong>
 CSS can do almost everything.
 For example, by modifying <code>body</code> you can set font color and background color:<pre><code>body { color: #2A1B0A; background-color: #FFFAF0; }
+</code></pre>
+To find the right class name to apply your styles to,
+right click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
+You will be presented with the html structure of the popup.
+Classes are defined inside html tags.
+For example, the class name for the tag below is <code>gloss-content</code>.<pre><code>&lt;span class=&quot;gloss-content&quot; lang=&quot;ja&quot;&gt;...&lt;/span&gt;
 </code></pre>
 </li>
 </ol>

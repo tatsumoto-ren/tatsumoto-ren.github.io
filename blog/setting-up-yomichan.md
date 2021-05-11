@@ -166,7 +166,7 @@ By default Yomichan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
 To increase its size, the following code can be used:
 	```
-	.glossary-item { font-size: 1.5em; }
+	.gloss-item { font-size: 1.5em; }
 	```
 	Adjust the size to suit your preference.
 1) **Make tags smaller.**
@@ -179,6 +179,14 @@ CSS can do almost everything.
 For example, by modifying `body` you can set font color and background color:
 	```
 	body { color: #2A1B0A; background-color: #FFFAF0; }
+	```
+	To find the right class name to apply your styles to,
+	right click on the part of the popup window that you're interested in and choose "Inspect".
+	You will be presented with the html structure of the popup.
+	Classes are defined inside html tags.
+	For example, the class name for the tag below is `gloss-content`.
+	```
+	<span class="gloss-content" lang="ja">...</span>
 	```
 
 ### Profiles
