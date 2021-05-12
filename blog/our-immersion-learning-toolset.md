@@ -108,6 +108,13 @@ to aid in the language learning process.
 
 These are add-ons for Anki 2.1 made by Ajatt-Tools.
 
+1) **[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333)**
+
+	Bring keyboard-driven reviewing to Anki 2.1.
+	Grade your cards from their front side,
+	review with vim-keys
+	and disable hard and easy buttons.
+
 1) **[Paste Images As WebP](https://ankiweb.net/shared/info/1151815987)**
 
 	Convert images to
