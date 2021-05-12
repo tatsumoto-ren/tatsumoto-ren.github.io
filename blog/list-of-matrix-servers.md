@@ -18,9 +18,9 @@ One of the most popular clients is
 If you already have an account hosted on `matrix.org`,
 please create a new account on another homeserver before you join any of
 [our rooms](join-our-community.html).
-Matrix.org is known for banning rooms
-and user accounts without prior notice for minor things
-such as expressing certain viewpoints.
+Due to being the default homeserver, Matrix.org is overcrowded and slow.
+It is also known for banning rooms and user accounts without prior notice
+for minor things such as expressing certain viewpoints.
 Luckily, changing matrix homeservers is as easy as switching email providers.
 
 <p align="center"><img class="shadow" alt="registration" src="img/element_registration.webp"></p>
