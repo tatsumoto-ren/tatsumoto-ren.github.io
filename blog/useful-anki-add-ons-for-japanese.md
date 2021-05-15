@@ -108,12 +108,15 @@ to make sure that you won't forget it anymore, and then learn it again.
 
 <p align="center"><img alt="reset-card" class="shadow" src="img/reset-card.png"></p>
 
-### [mortician](https://ankiweb.net/shared/info/1255924302)
+### [Mortician](https://ankiweb.net/shared/info/1255924302)
 
-Still can't remember a card after many Agains?
+Postpone difficult cards to the next day.
+
+Still can't remember a card after several Agains?
 Unfortunately, some knowledge just won't stick, and it happens randomly.
-`mortician` will automatically bury cards that you fail too many times in a day.
-Usually the next day you'll find that the card has become easy.
+`Mortician` will automatically bury cards
+that you've failed too many times in a given period of time.
+Usually the next day you find that the cards have become easy.
 That's how weird our brains are.
 
 <p align="center"><img alt="mortician" class="shadow" src="https://user-images.githubusercontent.com/69171671/92833937-ef2e0200-f3c8-11ea-9749-a44013a441e4.png"></p>
