@@ -23,7 +23,9 @@ as it's a lot more versatile.
 
 <details>
 <summary>Below are my settings for this add-on</summary>
-<pre><code>{
+
+```
+{
     "dstFields": [
         "SentFurigana",
         "VocabFurigana"
@@ -38,7 +40,9 @@ as it's a lot more versatile.
         "SentKanji",
         "VocabKanji"
     ]
-}</code></pre>
+}
+```
+
 </details>
 
 To configure the add-on, open the Anki Add-on Menu via `Tools > Add-ons` and select `Japanese Support`.
@@ -128,7 +132,9 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
 
 <details>
 <summary>My config file for the add-on</summary>
-<pre><code>{
+
+```
+{
     "dstFields": [
         "VocabPitchPattern"
     ],
@@ -148,7 +154,9 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
         "class=\"overline\"": "style=\"text-decoration:overline;\""
     },
     "useMecab": true
-} </code></pre>
+}
+```
+
 </details>
 
 <p align="center"><img alt="pitch-accent-on-card" class="shadow" src="img/pitch-accent.png"></p>
