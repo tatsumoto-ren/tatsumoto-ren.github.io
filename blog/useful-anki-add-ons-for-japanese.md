@@ -242,6 +242,7 @@ Easier than faffing about in the menus to do the same thing in 10 clicks.
 ```
 
 <p align="center"><img alt="learn-now-button" class="shadow" src="https://user-images.githubusercontent.com/69171671/94028820-bc621180-fdab-11ea-8adb-fde78e8ca008.jpg"></p>
+<p align="center"><i>Context menu.</i></p>
 
 ### [Ze Frozen Fields](https://ankiweb.net/shared/info/94610912)
 
@@ -283,6 +284,7 @@ The add-on comes with a number of settings,
 namely you can define the desired resolution and quality.
 
 <p align="center"><img alt="paste_images_as_webp" src="https://user-images.githubusercontent.com/69171671/104761753-3f441900-575b-11eb-8773-0f7b036775cc.png"></p>
+<p align="center"><i>Settings.</i></p>
 
 ## Add-ons to avoid
 
