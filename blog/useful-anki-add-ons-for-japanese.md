@@ -48,6 +48,15 @@ as it's a lot more versatile.
 To configure the add-on, open the Anki Add-on Menu via `Tools > Add-ons` and select `Japanese Support`.
 Then click the Config button on the right-side of the screen.
 
+### [Flexible Grading](https://ankiweb.net/shared/info/1715096333)
+
+Bring keyboard-driven reviewing to Anki 2.1.
+Use the Vim-keys of the keyboard to grade cards,
+answer cards from their front side
+and disable "Hard" and "Easy" buttons.
+
+<p align="center"><img alt="flexible grading" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/flexible_grading.webp"></p>
+
 ### [Review Heatmap](https://github.com/glutanimate/review-heatmap)
 
 If you look around you see that everybody uses this add-on.
