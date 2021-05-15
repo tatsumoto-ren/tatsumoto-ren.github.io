@@ -271,6 +271,10 @@ Simply click the field you want to edit and make changes directly on the card.
 
 ### [Paste Images As WebP](https://ankiweb.net/shared/info/1151815987)
 
+Convert images to
+[WebP](https://developers.google.com/speed/webp)
+on-the-fly when you make Anki cards.
+
 As you're going to use Anki for years, expect your collection to slowly grow in size.
 It's nice to keep your media files small
 out of respect for people who run AnkiWeb servers
@@ -282,6 +286,7 @@ format which is famous for excellent compression.
 
 The add-on comes with a number of settings,
 namely you can define the desired resolution and quality.
+A [video demo](https://www.youtube.com/watch?v=kEsIykks1WY) is available on YouTube.
 
 <p align="center"><img alt="paste_images_as_webp" src="https://user-images.githubusercontent.com/69171671/104761753-3f441900-575b-11eb-8773-0f7b036775cc.png"></p>
 <p align="center"><i>Settings.</i></p>
