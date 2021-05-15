@@ -44,6 +44,8 @@ you've studied.
 
 * [Setting up Anki](setting-up-anki.html)
 * [Useful Anki add-ons](useful-anki-add-ons-for-japanese.html)
+* [Ajatt-Tools add-ons](https://ankiweb.net/shared/byauthor/1151815987)
+* [Our collection of Note Types](https://github.com/Ajatt-Tools/AnkiNoteTypes)
 
 ## [Yomichan](https://foosoft.net/projects/yomichan/)
 
@@ -103,44 +105,5 @@ based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
 
 * [AUR package](https://aur.archlinux.org/packages/subs2srs/)
-
-## [Our Anki add-ons](https://ankiweb.net/shared/byauthor/1151815987)
-
-These are add-ons for Anki 2.1 made by Ajatt-Tools.
-
-1) **[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333)**
-
-	Bring keyboard-driven reviewing to Anki 2.1.
-	Grade your cards from their front side,
-	review with vim-keys
-	and disable hard and easy buttons.
-
-1) **[Paste Images As WebP](https://ankiweb.net/shared/info/1151815987)**
-
-	Convert images to
-	[WebP](https://developers.google.com/speed/webp)
-	on-the-fly when you make Anki cards.
-
-	* [Video](https://www.youtube.com/watch?v=kEsIykks1WY)
-
-1) **[Learn now Button](https://ankiweb.net/shared/info/1021636467)**
-
-	Put new cards in the learning queue in one click.
-
-1) **[MergeNotes](https://ankiweb.net/shared/info/1425504015)**
-
-	Merge content of selected cards without copy-pasting.
-	The add-on is designed to fix premade subs2srs decks.
-
-1) **[Mortician](https://ankiweb.net/shared/info/1255924302)**
-
-	Postpone difficult cards to the next day.
-
-1) **[RefoldEase](https://ankiweb.net/shared/info/819023663)**
-
-	Control Ease of cards in your collection.
-
-	* [The Ease Factor Problem](https://archive.md/4RJcr)
-	* [Guide to Anki Intervals and Learning Steps](https://youtu.be/1XaJjbCSXT0)
 
 Tags: anki
