@@ -213,14 +213,22 @@ to sort a premade deck using a frequency list without the need to export it as a
 
 ### [RefoldEase](https://ankiweb.net/shared/info/819023663)
 
-It is believed that the Ease factor is harmful
-when memorizing items with similar intrinsic difficulties,
-such as sentence cards. You run this add-on once to set Ease of your cards to 131%
+It is believed that the Ease factor can be harmful
+when memorizing items with similar intrinsic difficulties, such as sentence cards.
+After a card gets graded "Again" too many times, its Ease factor becomes smaller
+and prevents the card's interval from growing at a normal rate.
+RefoldEase lets you control Ease of cards in your collection.
+Run this add-on once to set Ease of your cards to 131%
 and change Interval Modifier and Starting Ease of your decks accordingly.
-This is in my opinion the best way to solve the Ease Hell problem once and for all.
+This is in my opinion the best way to solve the Ease Hell problem once and for all
+because in Anki any given card can't have Ease lower than 130%.
 After applying the settings you can uninstall the add-on.
 
+* [The Ease Factor Problem](https://archive.md/4RJcr)
+* [Guide to Anki Intervals and Learning Steps](https://youtu.be/1XaJjbCSXT0)
+
 <p align="center"><img alt="refold-ease" class="shadow" src="img/refold-ease.png"></p>
+<p align="center"><i>Settings.</i></p>
 
 ### [Learn now Button](https://ankiweb.net/shared/info/1021636467)
 
