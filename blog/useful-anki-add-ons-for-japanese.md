@@ -286,6 +286,16 @@ namely you can define the desired resolution and quality.
 <p align="center"><img alt="paste_images_as_webp" src="https://user-images.githubusercontent.com/69171671/104761753-3f441900-575b-11eb-8773-0f7b036775cc.png"></p>
 <p align="center"><i>Settings.</i></p>
 
+### [MergeNotes](https://ankiweb.net/shared/info/1425504015)
+
+The add-on is designed to fix premade subs2srs decks.
+Due to the way subs2srs works usually many sentences in the produced decks
+are split between two and more notes.
+`MergeNotes` lets you merge content of selected cards without copy-pasting.
+
+<p align="center"><img class="shadow" alt="merge notes" src="img/mergenotes.webp"></p>
+<p align="center"><i>Context menu and settings.</i></p>
+
 ## Add-ons to avoid
 
 All Anki add-ons by design add some new functionality to the program.
