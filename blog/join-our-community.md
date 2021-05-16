@@ -9,35 +9,34 @@ and find countless new learning resources!
 
 ****
 
-## Our principles
+## Rules
 
-* **No proprietary software.**
-We use free/libre software because
-it is naturally more extensible and user-friendly.
-We don't use, support or recommend
-[proprietary software](https://www.gnu.org/proprietary/),
-such as Windows or macOS.
-We especially are not going to endorse proprietary services
-that have gone out of their way to spy on their users, such as
-[Discord](how-to-save-the-japanese-learning-community.html).
-	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
-	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
-* **Speak English or Japanese only.**
-Both English and Japanese (but nothing else) are allowed.
-Refrain from chatting in a language that most participants won't understand.
-* **Be ethical.**
+1) **Speak English.**
+Do not use your Japanese unless you're already fluent.
+Remember that [talking is not practicing](https://www.youtube.com/watch?v=NiTsduRreug&t=352s).
+Your time is better spent immersing.
+1) **Be ethical.**
 Do not post promotions or spam unrelated to learning Japanese.
 However, feel free to share with us your learning resources.
-Be minimally polite, don't troll, and don't post porn.
-* **Stay on topic.**
+Be minimally polite, don't troll and don't post porn.
+1) **Stay on topic.**
 Try to keep the conversation centered around
 immersion, software for language learning,
 Japanese language, the country and its culture.
-Everything else should be discussed in the room dedicated to off-topic.
-* **Freedom of speech.**
-We value the right to say whatever one wants,
-so we rarely ban people from our rooms.
-However, don't abuse it, or you might become one of the few.
+Everything else should be discussed in the room dedicated to off-topic
+which you'll find after you've joined.
+1) **Read the guide.**
+Most questions we get are already answered in [our guide](table-of-contents.html).
+Our members are volunteering their time to help everybody.
+Try to reduce the amount of reoccurring questions so that everyone has more time to immerse.
+1) **No proprietary software.**
+We don't use, support or recommend
+[proprietary software](https://www.gnu.org/proprietary/).
+We use
+[free/libre software](https://www.gnu.org/philosophy/free-sw.html)
+because it is naturally more extensible and user-friendly.
+	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
+	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
 
 ## Matrix
 
