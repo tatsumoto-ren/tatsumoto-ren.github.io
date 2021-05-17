@@ -81,6 +81,8 @@ Watch Japanese TV.
 Lets you read web novels for free.
 * [青空文庫](https://www.aozora.gr.jp/).
 An Internet library of classic Japanese literature.
+* [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
+A m3u playlist with Japanese IPTV channels which you can open in [mpv](#mpv).
 
 Don't use streaming sites and sites for reading manga online if possible.
 Always download what you consume.
