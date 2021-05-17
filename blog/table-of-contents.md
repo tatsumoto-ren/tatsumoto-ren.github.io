@@ -22,6 +22,7 @@
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
+* [List of resources](resources.html)
 
 \* To be updated.
 

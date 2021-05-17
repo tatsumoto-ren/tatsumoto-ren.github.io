@@ -1,6 +1,6 @@
 # Resources
 
-This is the Ajatt-Tools Resources Sheet.
+This is the Ajatt-Tools Resources List.
 With the help of our community we've gathered the links to help you in your Japanese studies.
 We prioritize libre software and content that you can download for free.
 Everyone is welcome to suggest more resources in our chat.
