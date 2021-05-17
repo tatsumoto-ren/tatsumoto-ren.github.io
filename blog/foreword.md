@@ -77,7 +77,8 @@ some are effective, but many are not.
 Examples of low quality resources:
 * Genki, Minna no Nihongo, Japanese From Zero or any textbook made for foreigners,
 except for a basic grammar guide in the beginning.
-* Wanikani, Duolingo and most "apps".
+* Wanikani, Duolingo, Busuu and most "apps",
+especially if they claim that you can learn to speak a language in 10 minutes a day.
 The only real app you need is a flashcard application to review what you've learned.
 * Any method that doesn't put immersion first or forces premature speaking.
 
