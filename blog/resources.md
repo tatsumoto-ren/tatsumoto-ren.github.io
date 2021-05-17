@@ -1,6 +1,13 @@
 # Resources
 
-## The basics
+This is the Ajatt-Tools Resources Sheet.
+With the help of our community we've gathered the links to help you in your Japanese studies.
+We prioritize libre software and content that you can download for free.
+Everyone is welcome to suggest more resources in our chat.
+
+****
+
+## Basics
 
 ### Kana
 
@@ -75,8 +82,8 @@ Lets you read web novels for free.
 * [青空文庫](https://www.aozora.gr.jp/).
 An Internet library of classic Japanese literature.
 
-Don't use streaming sites if possible.
-Always download what you watch.
+Don't use streaming sites and sites for reading manga online if possible.
+Always download what you consume.
 
 ## Japanese boards
 
@@ -85,7 +92,7 @@ Always download what you watch.
 * [Futaba channel](https://www.2chan.net)
 * [librejp](https://sportschan.org/librejp/catalog.html)
 
-You need a japanese IP address for some of these.
+You may need a japanese IP address for some of these.
 
 ## Japanese subtitles
 
