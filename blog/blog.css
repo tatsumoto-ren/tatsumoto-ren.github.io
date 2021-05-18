@@ -65,7 +65,6 @@ header a.logo {
     justify-content: left;
     align-items: center;
     flex-wrap: nowrap;
-    font-size: 48px;
     transition: opacity 0.2s;
 }
 header a.logo > h1 {
@@ -80,8 +79,7 @@ header a.logo:hover > h1 {
     letter-spacing: 2px;
 }
 header a.logo > img {
-    height: 1em;
-    line-height: 1em;
+    height: 48px;
     padding-right: 8px;
 }
 
