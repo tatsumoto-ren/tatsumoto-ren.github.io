@@ -83,6 +83,7 @@ Lets you read web novels for free.
 An Internet library of classic Japanese literature.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
 A m3u playlist with Japanese IPTV channels which you can open in [mpv](#mpv).
+You can switch channels in mpv by pressing `<` and `>`.
 
 Don't use streaming sites and sites for reading manga online if possible.
 Always download what you consume.
