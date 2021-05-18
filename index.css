@@ -1,0 +1,133 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
+}
+a {
+    text-decoration: none;
+    color: SteelBlue;
+}
+.top {
+    padding: 2px 4px 0;
+    background: #aaa;
+    color: white;
+    background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url("img/bg.webp");
+    text-shadow: #000c 1px 1px 2px;
+}
+
+/* Header */
+header {
+    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+    display: flex;
+    align-items: center;
+}
+header > img.logo {
+    height: 48px;
+    padding-right: 8px;
+    filter: invert(100%) drop-shadow(1px 1px 2px #000c);
+}
+header > h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Navigation */
+nav {
+    margin: 20px 0px 0px;
+}
+nav > a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .2s;
+}
+nav > a:last-child {
+    margin-right: 0px;
+}
+nav > a:hover {
+    color: #fff9;
+}
+
+/* Presentation */
+div.presentation {
+    padding: 80px 0px;
+    background-image: url("img/motivated_learner.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+div.presentation > p {
+    margin: 20px 0;
+    max-width: 550px;
+}
+div.presentation div.start_buttons {
+    display: flex;
+    flex-flow: row nowrap;
+}
+div.presentation div.start_buttons > a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color .2s;
+}
+div.presentation div.start_buttons > a:hover {
+    background-color: #fff2;
+}
+div.presentation div.start_buttons > a:first-child {
+    color: black;
+    background-color: white;
+    margin-right: 10px;
+    text-shadow: none;
+}
+
+/* Key points */
+div.key_points {
+    display: flex;
+    flex-flow: column nowrap;
+}
+div.key_points > div {
+    margin: 25px 4px 0;
+}
+div.key_points h2 {
+    margin: 25px 0 10px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+footer img {
+    width: 32px;
+}
+
+/* Wide screens */
+@media only screen and (min-width: 750px) {
+    div.key_points {
+        flex-flow: row nowrap;
+    }
+    div.key_points > div {
+        width: 40%;
+        margin: 25px 20px;
+    }
+    div.presentation {
+        max-width: 850px;
+        margin-left: 15%;
+    }
+}
