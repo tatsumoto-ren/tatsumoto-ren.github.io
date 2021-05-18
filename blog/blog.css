@@ -6,8 +6,11 @@
   --hamburger-slice-width: 18px;
   --hamburger-slice-height: 2px;
 }
-
-* { box-sizing: border-box; padding: 0; margin: 0; }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body, #divbodyholder {
     font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
     background-color: #F3F3F3;
