@@ -121,6 +121,8 @@ A collection of tools for learning Japanese.
 Unfortunately, not all of them work on GNU/Linux.
 * [impd](https://github.com/Ajatt-Tools/impd).
 Create condensed audio and automatically rotate your mpd playlist.
+* [Trackma](https://github.com/z411/trackma).
+Track your immersion on one of the supported sites.
 
 ### Mobile
 
