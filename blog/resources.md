@@ -113,14 +113,6 @@ Subtitle retiming:
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
 
-## Localization and fonts
-
-* [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
-* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts)
-* [Semi-cursive Japanese fonts](https://t.me/ajatt_tools/104)
-* [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
-* [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
-
 ## Software
 
 ### Desktop
@@ -152,6 +144,14 @@ A mobile video player tailored for Japanese language learners.
 A fast and user-friendly video player for Android.
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
 A podcast player for Android.
+
+### Localization and fonts
+
+* [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
+* [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
+* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts)
+* [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
+* [Semi-cursive Japanese fonts](https://t.me/ajatt_tools/104)
 
 ### mpv
 
