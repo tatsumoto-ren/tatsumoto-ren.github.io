@@ -108,12 +108,6 @@ You may need a japanese IP address for some of these.
 * [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
 
-Subtitle retiming:
-
-* [subs2srs](https://aur.archlinux.org/packages/subs2srs/) includes a semi-automatic subtitle retimer.
-* [ffsubsync](https://pypi.org/project/ffsubsync/)
-* [alass](https://github.com/kaegi/alass)
-
 ## Software
 
 ### Desktop
@@ -177,6 +171,12 @@ A command line client for Mega.
 * [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
 A command-line program that lets you download videos and audio
 from YouTube and more than a thousand other sites.
+
+### Subtitle retiming
+
+* [subs2srs](https://aur.archlinux.org/packages/subs2srs/) includes a semi-automatic subtitle retimer.
+* [ffsubsync](https://pypi.org/project/ffsubsync/)
+* [alass](https://github.com/kaegi/alass)
 
 ## Dictionaries
 
