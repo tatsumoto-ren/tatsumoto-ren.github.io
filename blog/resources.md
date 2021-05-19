@@ -28,6 +28,7 @@ Kanji characters with Koohii stories.
 ### Vocabulary
 
 * [Ankidrone Starter Pack](https://files.catbox.moe/8cm3qs.apkg)
+* [Core 2.3k](https://files.catbox.moe/8k4ygf.apkg)
 
 ## Examples and pronunciations
 
