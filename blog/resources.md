@@ -68,12 +68,16 @@ A private tracker for Asian movies and TV-shows.
 Watch anime with Japanese subtitles.
 * [Anjsub](https://anjsub.com/).
 A site similar to Animelon.
+* [B9GOOD](http://b9good.com/).
+Watch raw anime online.
 * [Bilingualmanga](https://bilingualmanga.com/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
 Raw manga (with furigana).
 * [Manga-zip](http://manga-zip.net/).
 Manga archive.
+* [同人あんてな](https://doujinantena.top/).
+Free eromanga and doujinshi.
 * [Podcasts opml](https://t.me/ajatt_tools/80).
 About 200 Japanese podcasts for constant passive listening.
 * [AQStream](https://aqstream.com/).
