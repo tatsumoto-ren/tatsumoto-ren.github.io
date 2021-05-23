@@ -6,6 +6,26 @@
 <pubDate>Sat, 22 May 2021 05:25:41 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
+Learning Kanji</title><description><![CDATA[
+<p>Unlike kana which you can learn in a matter of few days no matter what method you pick,
+learning kanji is apparently more difficult, and there are many methods of doing it.</p>
+<p>To pick the right method
+you have to understand why you want to learn kanji in the first place.
+The &quot;practice how you play&quot; principle applies here as well.
+Kanji do not exist in a vacuum, instead they're used to writing Japanese words,
+so in order to &quot;learn&quot; them all you need to do is learn words.
+To learn a word means to memorize how it's read and what it means.
+Over time as you keep learning words you unconsciously get better at recognizing the kanji.</p>
+<p>We advise against learning kanji readings in isolation.
+Very often a kanji character has a number of completely different readings.
+Not only learning all of them is an enormous task,
+but it's impossible to apply the knowledge to real native content when reading.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/learning-kanji.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/learning-kanji.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 25 May 2021 06:53:51 +0300</pubDate></item>
+<item><title>
 Resources</title><description><![CDATA[
 <p>This is the Ajatt-Tools Resources List.
 With the help of our community we've gathered the links to help you in your Japanese studies.
@@ -201,20 +221,4 @@ that should get you to basic fluency in less than two years.</p>
 <guid>https://tatsumoto-ren.github.io/blog/introduction-to-learning-japanese.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 10 Mar 2021 13:37:07 +0300</pubDate></item>
-<item><title>
-AJT JP1K Anki deck</title><description><![CDATA[
-<p>Recently <a href="https://refold.la/">Refold</a> proposed a new method of studying kanji
-aimed at complete beginners who don't want to go through RTK.
-If you want to learn more about the method from its author,
-watch <a href="https://youtu.be/53qKsYxVhoM">this video</a>.</p>
-<p><strong>WARNING:</strong> The resources above may contain links to software that AJT considers to be malicious.
-We recommend making use of their language learning ideas
-but disregarding their software recommendations.</p>
-<p>In this article I'm going to be explaining the method
-and the new Anki deck I made which I call AJT JP1K.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 25 Feb 2021 12:44:49 +0300</pubDate></item>
 </channel></rss>
