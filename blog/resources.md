@@ -20,8 +20,8 @@ A kana training app.
 * [Ajatt-Tools JP1K Anki deck](https://ankiweb.net/shared/info/917377946)
 * [Kanjidamage](http://www.kanjidamage.com/).
 The best mnemonic-based method of learning kanji in isolation.
-* [Kanjidamage on Itazuraneko](https://itazuraneko.neocities.org/horon/kanji/kanjidamage.html).
-Kanji Damage kanji list with translations and color coding.
+* [Kanjidamage+ reference](https://kanjidamageplus.neocities.org/).
+KanjiDamage+ kanji list on a single web page.
 * [RTK search](https://hochanh.github.io/rtk/).
 Kanji characters with Koohii stories.
 
@@ -29,6 +29,19 @@ Kanji characters with Koohii stories.
 
 * [Ankidrone Starter Pack](https://files.catbox.moe/8cm3qs.apkg)
 * [Core 2.3k](https://files.catbox.moe/8k4ygf.apkg)
+* [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
+* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
+
+### Grammar
+
+* [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
+A guide to Japanese grammar.
+It breaks down Japanese in a logical and straightforward way
+and covers all the basics without going into too much detail.
+* [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
+An online reference of the seminal A Dictionary of Japanese Grammar book series.
+* [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
+Covers grammar for all JLPT levels.
 
 ## Examples and pronunciations
 
@@ -263,12 +276,6 @@ Anti-features:
 Discord is known for spying on and politically suppressing its users.
 * Contains outdated information.
 
-### [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar)
-
-A guide to Japanese grammar.
-It breaks down Japanese in a logical and straightforward way
-and covers all the basics without going into too much detail.
-
 ### [Antimoon](http://www.antimoon.com/)
 
 A site on how to learn English.
@@ -296,8 +303,6 @@ Discord is known for spying on and politically suppressing its users.
 
 ## Misc
 
-* [Core6000](https://core6000.neocities.org/).
-Grammar and vocabulary reference.
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Immersion Wiki](https://drive.google.com/drive/folders/1gDpwFl07a0EO_pTHLLVn_Waz2GXwwSE1)
 * [Mia's Japanese quickstart guide](https://archive.md/6kMEg).
