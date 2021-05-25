@@ -25,7 +25,7 @@ so forget about traditional approaches such as taking classes or hiring a tutor.
 Why classes suck:
 * They cost money.
 * They don't provide compelling content, they're boring.
-* In class you get *toxic input*,
+* In class, you get *toxic input*,
 you get to listen to speech produced by other foreigners which is ridden with mistakes.
 * Your teacher doesn't know Japanese, even if you think they do.
 * If you happen to get a native as your teacher,
@@ -70,7 +70,7 @@ including anime, manga, light novels and visual novels.
 Dictionaries, grammar guides and software are also available in abundance.
 
 Avoid *blue-pilled* resources.
-There are a myriad methods of out there,
+There are a myriad methods out there.
 some are effective, but many are not.
 [No one has ever gotten good using JapanesePod101](https://www.youtube.com/watch?v=ikm_gL7-mZs).
 

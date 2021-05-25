@@ -67,7 +67,7 @@ With kanji, you're not analyzing the component parts
 but taking the whole character as one unit.
 When you see a new kanji, it will look like *something* to you.
 When you encounter that character again,
-you instantly recognize it as the same exact character.
+you will instantly recognize it as the same exact character.
 
 ## Isolated kanji study
 
