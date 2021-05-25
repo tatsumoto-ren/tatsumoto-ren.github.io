@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 25 May 2021 08:11:34 +0300</lastBuildDate>
-<pubDate>Tue, 25 May 2021 08:11:34 +0300</pubDate>
+<lastBuildDate>Tue, 25 May 2021 08:13:36 +0300</lastBuildDate>
+<pubDate>Tue, 25 May 2021 08:13:36 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Learning Kanji</title><description><![CDATA[
@@ -165,7 +165,8 @@ Table of Contents</title><description><![CDATA[
 </li>
 <li>Basics<ul>
 <li><a href="learning-kana-in-two-days.html">Kana</a></li>
-<li><a href="jp1k-anki-deck.html">Kanji</a></li>
+<li><a href="learning-kanji.html">Kanji</a></li>
+<li><a href="jp1k-anki-deck.html">Kanji Anki deck</a></li>
 <li><a href="basic-vocabulary.html">Basic vocabulary</a></li>
 </ul>
 </li>

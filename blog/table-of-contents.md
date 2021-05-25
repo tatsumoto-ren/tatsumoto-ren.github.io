@@ -10,7 +10,8 @@
 	* [Dictionaries](yomichan-and-epwing-dictionaries.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
-	* [Kanji](jp1k-anki-deck.html)
+	* [Kanji](learning-kanji.html)
+	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
