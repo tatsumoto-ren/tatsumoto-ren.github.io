@@ -6,8 +6,8 @@
 <link rel="stylesheet" href="blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="img/logo.webp"/>
-<title>AJT JP1K Anki deck</title>
-<meta property="og:title" content="AJT JP1K Anki deck">
+<title>AJT Kanji Transition deck</title>
+<meta property="og:title" content="AJT Kanji Transition deck">
 <meta property="og:site_name" content="Tatsumoto Ren">
 <meta property="og:url" content="https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html">
 <meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
@@ -38,138 +38,48 @@
 <main>
 <!-- entry begin -->
 <article>
-<h1><a class="ablack" href="jp1k-anki-deck.html">AJT JP1K Anki deck</a></h1>
+<h1><a class="ablack" href="jp1k-anki-deck.html">AJT Kanji Transition deck</a></h1>
 <!-- bashblog_timestamp: #1614246289# -->
 <div class="subtitle">February 25, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
-<p>Recently <a href="https://refold.la/">Refold</a> proposed a new method of studying kanji
-aimed at complete beginners who don't want to go through RTK.
-If you want to learn more about the method from its author,
-watch <a href="https://youtu.be/53qKsYxVhoM">this video</a>.</p>
-<p><strong>WARNING:</strong> The resources above may contain links to software that AJT considers to be malicious.
-We recommend making use of their language learning ideas
-but disregarding their software recommendations.</p>
-<p>In this article I'm going to be explaining the method
-and the new Anki deck I made which I call AJT JP1K.</p>
-<hr>
-<h2><a class="anchor" id="kanji-fluency" href="#kanji-fluency" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kanji fluency</h2>
-<p>When you first start learning kanji they often look the same.
-This makes remembering most of them difficult
-unless you know the right method to do it efficiently.</p>
-<p>Between being a newcomer and totally fluent there's a spot in the middle
-when kanji stop being foreign anymore.
-Once you are at this point you don't know every kanji but they start to look like something to you,
-you start distinguishing them easily from each other, and learning new kanji becomes effortless.
-This point is sometimes called kanji fluency.</p>
-<p>When you have kanji fluency recognizing kanji becomes a lot like recognizing a face.
-You just look at a person and immediately know if you've met them before,
-even if you might forget their name.
-With kanji you're not analyzing the component parts
-but taking the whole character as one unit.</p>
-<p>Reaching the point of being able to immediately recognize any kanji like that
-makes the process of learning kanji and learning words completely synonymous.
-You don't have to study individual kanji at all,
-instead all you have to do to learn a new kanji is to learn words that use it.</p>
-<h2><a class="anchor" id="methods-of-learning-kanji" href="#methods-of-learning-kanji" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Methods of learning kanji</h2>
-<p>There are two most common ways to learn kanji.</p>
-<h3><a class="anchor" id="isolated-kanji-study" href="#isolated-kanji-study" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Isolated kanji study</h3>
-<p>You learn kanji by breaking them up into their components
-and viewing each kanji as a combination of its parts.
-The method uses short stories or images called mnemonics.
-Each story ties the components together to make kanji easy to remember.
-You memorize 1000-2000 characters this way
-and then you end up naturally reaching the point of kanji fluency.</p>
-<p><strong>Examples:</strong></p>
-<ul>
-<li><a href="https://web.archive.org/web/20210224170156/https://www.britvsjapan.com/learn-kanji-fast-ultimate-guide-to-remembering-the-kanji/">RTK</a></li>
-<li><a href="https://web.archive.org/web/20210224170546if_/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#rrtk">RRTK</a></li>
-<li><a href="https://ankiweb.net/shared/info/779483253">KKLC</a></li>
-<li><a href="http://www.kanjidamage.com/">KanjiDamage</a></li>
-<li><a href="https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA">KanjiDamage+</a></li>
-</ul>
-<p>The downside is that although this method makes it easier to remember words later on
-while doing it you invest months into memorizing English keywords
-which have nothing to do with Japanese
-instead of learning words and getting better at understanding the real language.
-Kanjidamage gives you a little more benefit
-by incorporating the main reading of each kanji into the mnemonic story
-but you still need to take the time.</p>
-<h3><a class="anchor" id="kanji-through-vocabulary" href="#kanji-through-vocabulary" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kanji through vocabulary</h3>
-<p>You choose not to study kanji in isolation,
-instead you learn vocabulary from the beginning.
-For each word you memorize how it's read and what it means.
-If a word is written in kanji you memorize it like a picture
-without looking at its individual components.
-Over time as you keep learning words you unconsciously get better at recognizing the kanji
-which leads to eventually achieving the kanji fluency.</p>
-<p>The downside is that it is not easy.
-You have to somehow force the words into your brain
-and there are no mental anchors to help you.</p>
-<h2><a class="anchor" id="jp1k-method" href="#jp1k-method" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JP1K method</h2>
-<p>Either method discussed above will result in success
-so long as you <a href="https://youtu.be/S-ixV6nV0HU?t=18">persist</a>,
-so the choice comes down to what you personally like more.
-The new method of learning kanji is intended
-to be a kind of compromise between these two.</p>
-<p align="center"><img alt="ｌｍふぁお" src="img/refolders.webp"></p>
-<p>To execute it you need an Anki deck formatted in a specific way.
-On the front of each card you have a word, phrase or sentence in Japanese language
-written in full kanji and without furigana but if you hover over it
-then the furigana readings will appear.
-On the back you have everything necessary to understand the flashcard,
-which may include English translations, dictionary definitions and native audio.</p>
-<p>The important part is how you review the deck:</p>
-<ol>
-<li>A flashcard comes up, furigana is hidden.</li>
-<li>Read the target word, or the whole sentence if you want.</li>
-<li>If the word contains kanji try to recall its reading.
-Then hover over the word to make the furigana pop up
-and see if you've recalled the reading correctly.</li>
-<li>Try to recall the meaning of the target word. It doesn't need to be precise.</li>
-<li>Reveal the back side of the card and see if the meaning was correct.</li>
-<li>When grading yourself, pass the card if you understand the meaning.
-Whether you remembered the reading or not doesn't matter.
-Avoid &quot;Hard&quot; and &quot;Easy&quot; buttons.</li>
-</ol>
-<p>This way when you review a card you may completely forget the reading,
-but then if you get the meaning right you still pass the card.</p>
-<p>The idea here is that this will make the process of going through the deck
-much more enjoyable because all you have to do is remember the meaning
-to pass the card. It's not that hard.
-Another benefit is that you're going to start noticing
-the new words you've learned in your immersion.
-But because every time you're still trying to recall the reading
-it should be enough to eventually achieve kanji fluency.
-On the other hand, if all cards had readings on the front
-then there would be no deliberate practice involved
-so you'd eventually start ignoring the kanji.</p>
-<h2><a class="anchor" id="the-deck" href="#the-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The deck</h2>
-<p>I am proud to announce the release of <strong>Ajatt-Tools JP1K</strong>:
-an Anki Deck for Japanese learners designed to teach how to recognize Kanji
-along with the most common 1000 words used in everyday conversations.</p>
-<p>The deck is intended for beginners.
+<p><strong>Ajatt-Tools Kanji Transition deck</strong>
+is an Anki Deck for newcomers to Japanese based on the JP1K method.
+If you want to learn the theory behind this deck, please read
+<a href="learning-kanji.html">this article</a>.</p>
+<p>The deck is designed to teach how to recognize Kanji
+along with the most common 1000 words used in everyday conversations.
 Prior knowledge of <a href="learning-kana-in-two-days.html">kana</a> is required
 but there is no need to do any isolated kanji study.</p>
 <p>If you have already gone through RTK and know more than 1000 words,
 you are unlikely to benefit from the deck.
-But if your vocabulary is below 1000 words,
-I recommend that you give the JP1K a try over studying kanji in isolation
+However, if your vocabulary is below 1000 words,
+I recommend that you give the Kanji Transition deck a try over studying kanji in isolation
 and premade decks like Core or Tango.</p>
-<p>The deck is based on <a href="basic-vocabulary.html">Ankidrone Starter Pack</a>
-and contains words commonly used in everyday life in Japan.
-Cards are presented relatively in the 1T (i+1) order.
+<p>The vocabulary used in the deck was taken from <a href="basic-vocabulary.html">Ankidrone Starter Pack</a>
+and consists of words commonly used in everyday life in Japan.
+Cards are presented relatively in the <code>1T</code> (<code>i+1</code>) order.
 Each word along with each sentence has native audio and an English translation.</p>
-<p>The card template used is <a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">TSC</a>,
-which means that the target word is highlighted
-and you decide if you want to read the whole sentence or not.</p>
+<p>We have prepared two versions of the deck.
+One for people who prefer
+<a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">TSC</a>
+card format and another for people who like
+<a href="discussing-various-card-templates.html#word-context-cards">WCC</a>
+more.</p>
+<hr>
+<h2><a class="anchor" id="tscs-deck" href="#tscs-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TSCs deck</h2>
+<p>On the front there's an example sentence.
+The target word is highlighted.
+When reviewing the cards you can decide whether you want to read the whole sentence or not.</p>
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
-<p align="center"><i>An example TSC from JP1K</i></p>
+<p align="center"><i>An example TSC from AJT Kanji Transition.</i></p>
 <p>If you're going to read the full sentence every time you rep a card,
-prior knowledge of some grammar might be necessary, in which case refer to
-<a href="http://www.guidetojapanese.org/learn/grammar">Tae Kim guide</a>.
-The deck explains certain grammar points and particles
-but it is not enough to replace a proper grammar guide.</p>
-<p>If a word is written in kanji
+prior knowledge of some grammar might be necessary.
+The deck explains certain grammar points and particles,
+but it is not enough to replace a proper grammar guide.
+Refer to
+<a href="http://www.guidetojapanese.org/learn/grammar">Tae Kim guide</a>
+when there's a sentence you don't grasp fully.</p>
+<p>If a word is written in kanji,
 you can view the furigana reading by hovering over it with your mouse.</p>
 <p class="download_button"><a href="https://www.patreon.com/posts/47991075" target="_blank">Download</a></p>
 <p style="text-align:center;">
@@ -177,12 +87,13 @@ you can view the furigana reading by hovering over it with your mouse.</p>
     <a href="https://ankiweb.net/shared/info/917377946" target="_blank">Mirror 2</a>
 </p>
 <h2><a class="anchor" id="wccs-deck" href="#wccs-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>WCCs deck</h2>
-<p>Some people might prefer
-<a href="discussing-various-card-templates.html#word-context-cards">WCCs</a>
-over TSCs, so I've prepared another version.</p>
+<p>This deck has only the target word on the front.
+Example sentence is hidden behind the &quot;Reveal context&quot; button.
+Content on the back is similar to the TSC deck.</p>
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
-<p align="center"><i>An example card from the JP1K WCC deck</i></p>
-<p>It is available to all patrons. To get the deck follow the link below.</p>
+<p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
+<p>The deck is available to all patrons.
+To get it follow the link below.</p>
 <p class="download_button"><a href="https://www.patreon.com/posts/47990957" target="_blank">Download</a></p>
 <h2><a class="anchor" id="qampa" href="#qampa" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q&amp;A</h2>
 <ul>
@@ -194,11 +105,11 @@ and a short list of country names.
 If you don't want to learn them, press <code>@</code> to suspend such cards.</p>
 </li>
 <li><p><strong>Q:</strong> I have poor retention.</p>
-<p><strong>A:</strong> This is natural if you're a beginner
+<p><strong>A:</strong> This is natural if you're a beginner,
 and your brain isn't used to memorizing Japanese yet.
 At first some words just won't stick,
 in which case try getting more immersion.
-The words and phrases in the deck are very common
+The words and phrases in the deck are very common,
 and you'll be hearing them more frequently.
 If you find yourself failing cards over and over,
 install <a href="https://ankiweb.net/shared/info/1255924302">Mortician</a>
@@ -222,17 +133,25 @@ you are free to start mining sentences on your own.
 If you still need a sentence pack to help you out, refer to <a href="basic-vocabulary.html">basic vocab</a>.</p>
 </li>
 </ul>
-<h2><a class="anchor" id="convert-any-deck-to-the-new-format" href="#convert-any-deck-to-the-new-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Convert any deck to the new format</h2>
+<h2><a class="anchor" id="convert-any-deck-to-the-jp1k-format" href="#convert-any-deck-to-the-jp1k-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Convert any deck to the JP1K format</h2>
 <p>If you don't like this deck,
 the good news is that making your own JP1K-style deck is very easy.
 All you need to do is take any premade deck
-and change the card template a bit.</p>
-<p>First, open the Card Types settings and find where the target word or sentence is placed.</p>
+and change the card template a bit.
+Explore our
+<a href="resources.html">resources section</a>
+or
+<a href="https://ankiweb.net/shared/decks/japanese">AnkiWeb</a>
+for premade Anki decks.</p>
+<p>First, open the Card Types settings and find where the target word or sentence is placed.
+Let's say for the sake of this example that the field's name is <code>Word</code>.</p>
 <pre><code>&lt;div&gt;{{Word}}&lt;/div&gt;
 </code></pre>
 <p>Then replace <code>{{Word}}</code> with the corresponding field that contains furigana
 and add <code>furigana:</code> before its name to tell Anki
-that the field should be rendered with readings shown above the kanji.</p>
+that the field should be rendered with readings shown above the kanji.
+If your premade deck doesn't have a furigana field, you have to add it to the Note Type
+and mass-generate readings with the Japanese support add-on.</p>
 <pre><code>&lt;div&gt;{{furigana:WordFurigana}}&lt;/div&gt;
 </code></pre>
 <p>Now to make the furigana hidden by default add a class name or id
