@@ -211,24 +211,27 @@ To truly learn kanji you need to read Japanese for thousands of hours,
 the resources listed below are designed to prime your brain for recognizing the characters
 and make transition to reading easier.
 
-The most recent method for learning kanji is referred to as JP1K or Kanji Middle Way (KMW).
+The most recent method for learning kanji is referred to as
+[JP1K](learning-kanji.html#jp1k-method).
 In essence it's a specifically preformatted Anki deck.
 Once you learn all cards from the deck,
 it gives you the ability to recognize the most common kanji characters
 together with words that represent it.
 You have two options if you choose this path:
-* [AJT JP1K deck](jp1k-anki-deck.html), prepared by Ajatt-Tools.
+* [AJT Kanji Transition deck](jp1k-anki-deck.html), made by Ajatt-Tools.
 * [Refold JP1K deck](https://youtu.be/53qKsYxVhoM), made by the method's author. Is not free.
 
 Other methods that I'd like to give special attention to:
 * [Kanjidamage+](https://mega.nz/file/CQg0SKyI#Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
 You recognize kanji using premade mnemonic stories.
 For each kanji the story includes its most common reading.
-* [RRTK](https://web.archive.org/web/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#rrtk).
-Similar to KanjiDamage, but has less cards and the order of cards is different.
+* [RTK](https://ankiweb.net/shared/decks/rtk).
+Similar to KanjiDamage.
+You study kanji in isolation using the order presented in a book called "Remembering the Kanji".
+Depending on the Anki deck you download,
+you are given premade mnemonics or you're encouraged to make them yourself.
 Kanji readings are not taken into account,
 instead the method insists on learning them in the wild from native content.
-The latest version of the deck doesn't include premade stories.
 
 Choose only one of the above methods.
 No matter what option you pick, don't bother learning to write the characters just yet.
