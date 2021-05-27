@@ -96,14 +96,30 @@ div.presentation div.start_buttons > a:first-child {
 
 /* Key points */
 div.key_points {
-    display: flex;
-    flex-flow: column nowrap;
-}
-div.key_points > div {
-    margin: 25px 4px 0;
+    padding: 0 4px;
 }
 div.key_points h2 {
-    margin: 25px 0 10px;
+    margin: 50px 0 10px;
+}
+
+/* Point icons */
+div.key_points .icon {
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 5px;
+    height: 1em;
+}
+div.key_points .beer {
+    content: url('img/beer.svg');
+}
+div.key_points .goat {
+    content: url('img/goat.svg');
+}
+div.key_points .anki {
+    content: url('img/anki.webp');
+}
+div.key_points .bomb {
+    content: url('img/bomb.svg');
 }
 
 /* Footer */
@@ -119,15 +135,22 @@ footer img {
 
 /* Wide screens */
 @media only screen and (min-width: 750px) {
-    div.key_points {
-        flex-flow: row nowrap;
-    }
-    div.key_points > div {
-        width: 40%;
-        margin: 25px 20px;
-    }
     div.presentation {
         max-width: 850px;
         margin-left: 15%;
+    }
+    div.key_points {
+        padding: 0 20px;
+        display: grid;
+        justify-content: stretch;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(4, auto);
+        grid-auto-columns: 1fr;
+        column-gap: 40px;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    div.key_points {
+        grid-template-rows: repeat(2, auto);
     }
 }
