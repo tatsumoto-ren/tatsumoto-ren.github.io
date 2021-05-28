@@ -12,7 +12,7 @@ a {
     color: SteelBlue;
 }
 .top {
-    padding: 2px 4px 0;
+    padding: 2px 2px 0 4px;
     background: #aaa;
     color: white;
     background-image:
@@ -28,34 +28,52 @@ a {
 header {
     font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
     display: flex;
+    flex-flow: row nowrap;
     align-items: center;
 }
 header > img.logo {
+    margin-right: 8px;
     height: 48px;
-    padding-right: 8px;
     filter: invert(100%) drop-shadow(1px 1px 2px #000c);
 }
 header > h1 {
     text-transform: uppercase;
     font-size: 20px;
 }
+header > span.space {
+    flex: 2 1;
+}
+header > a.donate {
+    background: url('img/heart.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    padding: 24px;
+    filter: invert(100%) drop-shadow(1px 1px 2px #000c);
+    transition: filter .2s;
+}
+header > a.donate:hover {
+    filter: invert(90%) drop-shadow(1px 1px 2px #000c);
+}
 
 /* Navigation */
 nav {
-    margin: 20px 0px 0px;
+    margin: 20px 12px 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 nav > a {
+    white-space: nowrap;
     color: white;
-    margin-right: 20px;
     text-decoration: none;
     font-weight: bold;
     transition: color .2s;
 }
-nav > a:last-child {
-    margin-right: 0px;
-}
 nav > a:hover {
-    color: #fff9;
+    color: #ddd;
 }
 
 /* Presentation */
@@ -75,6 +93,7 @@ div.presentation div.start_buttons {
     flex-flow: row nowrap;
 }
 div.presentation div.start_buttons > a {
+    white-space: nowrap;
     display: inline-block;
     border: 2px solid white;
     padding: 10px 20px;
@@ -97,6 +116,8 @@ div.presentation div.start_buttons > a:first-child {
 /* Key points */
 div.key_points {
     padding: 0 4px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 div.key_points h2 {
     margin: 50px 0 10px;
@@ -135,9 +156,15 @@ footer img {
 
 /* Wide screens */
 @media only screen and (min-width: 750px) {
+    nav {
+        justify-content: flex-start;
+    }
+    nav > a:not(:last-child) {
+        margin-right: 30px;
+    }
     div.presentation {
         max-width: 850px;
-        margin-left: 15%;
+        margin-left: 15vw;
     }
     div.key_points {
         padding: 0 20px;
