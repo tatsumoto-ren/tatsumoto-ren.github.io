@@ -46,6 +46,7 @@ a.ablack {
 }
 header {
     width: 100%;
+    min-width: 256px;
     min-height: var(--header-height);
     font-size: 16px;
     background-color: #f9f9f9;
@@ -83,7 +84,7 @@ header a.logo:hover > h1 {
 }
 header a.logo > img {
     height: 48px;
-    padding-right: 8px;
+    margin-right: 8px;
 }
 
 /* hidden elements; checkbox is not needed, description is visible only on wide screens */
@@ -106,6 +107,7 @@ header > nav {
 }
 header > nav a,
 header > nav a:visited {
+    white-space: nowrap;
     display: block;
     line-height: var(--header-height);
     color: #333;
@@ -310,7 +312,10 @@ main h1 { font-size: 2em; }
 main h2 { font-size: 1.5em; }
 main h3 { font-size: 1.25em; }
 main h4 { font-size: 1em; }
-article { font-family: "Noto Sans", Helvetica, Arial, Sans-Serif; }
+article {
+    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
+    word-wrap: break-word;
+}
 article > h1:first-child { margin-bottom: 0px; }
 article ul, ol {
     padding-left: 2em;
