@@ -40,8 +40,15 @@ It breaks down Japanese in a logical and straightforward way
 and covers all the basics without going into too much detail.
 * [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
 An online reference of the seminal A Dictionary of Japanese Grammar book series.
+
+### JLPT
+
 * [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
 Covers grammar for all JLPT levels.
+* [問題検索室](http://www.n-lab.org/library/mondai/).
+Search JLPT questions by keyword.
+* [JTest4You](https://japanesetest4you.com/).
+Practice tests and resources by JLPT levels.
 
 ## Examples and pronunciations
 
@@ -65,6 +72,8 @@ Many of them come from non-native speakers.
 
 ## Immersion material
 
+### Torrent trackers
+
 * [Nyaa ISS](https://nyaa.iss.one/).
 A torrent site with anime, manga, light novels and Japanese dramas.
 Contains 98% of what you need to actually learn Japanese.
@@ -77,31 +86,48 @@ Refer to Nyaa first if you watch ongoings.
 A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
 A private tracker for Asian movies and TV-shows.
+
+### Streaming
+
 * [Animelon](https://animelon.com/).
 Watch anime with Japanese subtitles.
 * [Anjsub](https://anjsub.com/).
 A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
 Watch raw anime online.
+* [AQStream](https://aqstream.com/).
+Watch Japanese TV.
+* [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
+A m3u playlist with Japanese IPTV channels which you can open in [mpv](#mpv).
+You can switch channels in mpv by pressing `<` and `>`.
+
+### Manga
+
 * [Bilingualmanga](https://bilingualmanga.com/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
 Raw manga (with furigana).
 * [Manga-zip](http://manga-zip.net/).
 Manga archive.
+* [Rawdevart](https://rawdevart.com/).
+Raw manga online.
 * [同人あんてな](https://doujinantena.top/).
 Free eromanga and doujinshi.
-* [Podcasts opml](https://t.me/ajatt_tools/80).
-About 200 Japanese podcasts for constant passive listening.
-* [AQStream](https://aqstream.com/).
-Watch Japanese TV.
+
+### Books
+
+* [zlibrary](http://zlibraryexau2g3p.onion/).
+An library with books in any language.
+Has a [clearnet version](https://b-ok.cc/).
 * [小説を読もう！](https://yomou.syosetu.com/).
 Lets you read web novels for free.
 * [青空文庫](https://www.aozora.gr.jp/).
 An Internet library of classic Japanese literature.
-* [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-A m3u playlist with Japanese IPTV channels which you can open in [mpv](#mpv).
-You can switch channels in mpv by pressing `<` and `>`.
+
+### Audio
+
+* [Podcasts opml](https://t.me/ajatt_tools/80).
+About 200 Japanese podcasts for constant passive listening.
 
 Don't use streaming sites and sites for reading manga online if possible.
 Always download what you consume.
@@ -113,7 +139,7 @@ Always download what you consume.
 * [Futaba channel](https://www.2chan.net)
 * [librejp](https://sportschan.org/librejp/catalog.html)
 
-You may need a japanese IP address for some of these.
+You may need a Japanese IP address for some of these.
 
 ## Japanese subtitles
 
@@ -126,6 +152,11 @@ You may need a japanese IP address for some of these.
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
 
 ## Software
+
+### General recommendations
+
+* [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
+* [Luke Smith's Programs and Equipment](https://lukesmith.xyz/articles/programs-and-equipment-i-use)
 
 ### Desktop
 
@@ -209,7 +240,8 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 ### Online
 
 * [jisho.org](https://jisho.org/)
-* [wadoku.de](https://wadoku.de/)
+* [wadoku.de](https://wadoku.de/).
+Has pitch accent.
 * [weblio.jp](https://www.weblio.jp/)
 * [ichi.moe](https://ichi.moe/)
 * [広辞苑無料検索](https://sakura-paris.org/dict/).
@@ -218,6 +250,8 @@ Allows you to search many monolingual dictionaries.
 A pitch accent dictionary.
 * [日本語俗語辞書](http://zokugo-dict.com/).
 A monolingual slang dictionary.
+* [伏字検索](http://fuseji.net/).
+Helps you decipher words partially occluded by symbols like `〇`.
 
 ### Offline
 
