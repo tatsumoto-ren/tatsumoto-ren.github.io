@@ -12,7 +12,7 @@ a {
     color: SteelBlue;
 }
 .top {
-    padding: 2px 2px 0 4px;
+    padding: 2px 4px 0;
     background-color: #51628f;
     color: white;
     background-image:
@@ -60,7 +60,7 @@ header > a.donate:hover {
 
 /* Navigation */
 nav {
-    margin: 20px 12px 0 0;
+    margin: 20px 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
