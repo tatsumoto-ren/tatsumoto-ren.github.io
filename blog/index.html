@@ -37,6 +37,185 @@
 <div id="divbody">
 <main>
 <article>
+<h1><a class="ablack" href="mining-from-movies-and-tv-shows.html">Mining from movies and TV-shows</a></h1>
+<!-- bashblog_timestamp: #1622909216# -->
+<div class="subtitle">June 05, 2021 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p><em>Sentence mining</em> is the process of picking sentences from your immersion and making Anki cards.
+Each sentence has one unknown piece of information,
+which is referred to as <em>target word</em>.</p>
+<p>To mine sentences from movies and TV-shows
+you are going to need the mpv video player,
+and a plugin for mpv called mpvacious.</p>
+<h2><a class="anchor" id="mpv" href="#mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mpv</h2>
+<p>mpv is the best video player for language learners.
+It is fast, minimal, extensible and compatible with all video formats.
+mpv is available on most distributions of GNU/Linux.
+To install it on Arch Linux, execute the following command:</p>
+<pre><code>$ sudo pacman -S mpv
+</code></pre>
+<p>Make sure you have version 0.33.0 or later.
+If such a version is not available on your distribution, see
+<a href="https://mpv.io/installation/">here</a>
+for different installation options.</p>
+<p>Start mpv at least once to create the config folder
+which will be located at <code>~/.config/mpv/</code>.</p>
+<p>To configure mpv,
+create and open <code>~/.config/mpv/mpv.conf</code>.
+This step is not strictly necessary.</p>
+<details>
+<summary>Example configuration file</summary>
+<pre><code># Define language preferences
+alang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
+slang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
+# mpv will resume where you left off when you reopen a media file
+save-position-on-quit=yes
+# Automatically use external subtitle files that contain the name of the media file
+sub-auto=fuzzy
+# Additional folders for storing subtitle files.
+# You can drop all subs in the &quot;subs&quot; folder to keep files organized.
+sub-file-paths=ass:srt:sub:subs:subtitles
+# Subtitle font. Make sure the font you select is installed
+# and contains all characters that are included in your subtitle files.
+# https://archlinux.org/packages/extra/any/noto-fonts-cjk/
+sub-font=&quot;Noto Sans CJK JP Regular&quot;
+# Change subtitle font size.
+sub-font-size=40
+# Uncomment this if you want mpv to override styles from SubStation Alpha (.ssa/.ass) subtitles
+# sub-ass-override=force
+# Improves audio when the playback speed is changed.
+af-add=scaletempo2
+# Screenshots
+screenshot-directory=&quot;~/Pictures/Screenshots/&quot;
+screenshot-template=&quot;%F_%wHh%wMm%wSs%wTms&quot;
+screenshot-format=jpg
+screenshot-jpeg-quality=90
+screenshot-high-bit-depth=yes
+</code></pre>
+</details>
+<h2><a class="anchor" id="obtain-subtitles" href="#obtain-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain subtitles</h2>
+<p>To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
+Subtitles can be found on
+<a href="https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F">Kitsunekko</a>
+and on our
+<a href="resources.html#japanese-subtitles">Resources page</a>.
+If you want to synchronize the subtitles, see the
+<a href="https://github.com/Ajatt-Tools/autosubsync-mpv">autosubsync-mpv</a>
+page.</p>
+<p>Don't forget that if you have English subtitles enabled,
+at best you're going to learn English,
+but your Japanese is not going to improve.</p>
+<h2><a class="anchor" id="download-content" href="#download-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download content</h2>
+<p>Always download what you watch.
+This way it's easier to work with the files,
+make Anki cards,
+take screenshots,
+cut clips,
+<a href="passive-listening.html">make condensed audio</a>,
+and so on.
+Don't use &quot;services&quot; that spy on you such as Netflix, Hulu, VRV, Funimation or Crunchyroll.</p>
+<p>See the
+<a href="resources.html#immersion-material">Resources page</a>
+to find ways to download Japanese content.</p>
+<h2><a class="anchor" id="youtube-dl" href="#youtube-dl" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Youtube-dl</h2>
+<p><a href="https://wiki.archlinux.org/index.php/Youtube-dl">Youtube-dl</a>
+is a program
+that can be used to download videos from YouTube and similar sites.
+On YouTube, you can find a wide variety of videos with built-in Japanese subtitles.
+An example source of immersion material on YouTube is Ted talks.
+Youtube-dl can also download audio tracks separately.
+There are many language-dense streams and podcasts on YouTube
+that can be used for background listening.</p>
+<p>On Arch Linux, Youtube-dl can be installed by running this command:</p>
+<pre><code>$ sudo pacman -S youtube-dl
+</code></pre>
+<p>To download a video, execute:</p>
+<pre><code>$ youtube-dl 'https://youtube.com/&lt;video&gt;'
+</code></pre>
+<p>If you want to download just the audio, use this command:</p>
+<pre><code>$ youtube-dl --extract-audio --format bestaudio/best 'https://youtube.com/&lt;video&gt;'
+</code></pre>
+<p><strong>Tip:</strong> add these commands as
+<a href="https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias">aliases</a>
+to access them without too much typing.</p>
+<p>Youtube-dl reads its configuration from <code>~/.config/youtube-dl/config</code>.</p>
+<details>
+<summary>Example configuration file</summary>
+<pre><code>--sub-lang 'ja,en,en-US,en-GB'
+--convert-subs ass
+--ignore-errors
+--continue
+--add-metadata
+-f 'bestvideo[height&lt;=1080]+bestaudio'
+-o '~/Videos/%(upload_date)s-%(title)s.%(ext)s'
+--merge-output-format mp4
+--user-agent &quot;Mozilla/5.0 (Windows NT 10.0; rv:75.0) Gecko/20100101 Firefox/75.0&quot;
+</code></pre>
+</details>
+<p>This configuration enables Youtube-dl to automatically download
+Japanese and English subtitles in <code>ass</code> format
+and save the downloaded files to <code>~/Videos</code>.</p>
+<p>See <code>$ man youtube-dl</code> for a comprehensive list of options.</p>
+<h2><a class="anchor" id="mpvacious" href="#mpvacious" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mpvacious</h2>
+<p><a href="https://github.com/Ajatt-Tools/mpvacious">mpvacious</a>
+is a plugin for the mpv video player
+that allows you to make Anki cards
+while watching movies and TV shows in your target language.</p>
+<p>mpvacious can update Anki cards you add with Yomichan
+by filling the audio and screenshot fields.
+Here is a video demonstration:</p>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vU85ramvyo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h3><a class="anchor" id="requirements" href="#requirements" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h3>
+<p>mpvacious needs
+<a href="https://ankiweb.net/shared/info/2055492159">AnkiConnect</a>
+and
+<a href="https://archlinux.org/packages/extra/x86_64/xclip/">xclip</a>
+to work.</p>
+<h3><a class="anchor" id="installation" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h3>
+<p>mpvacious can be installed with <code>git</code>:</p>
+<pre><code>$ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+</code></pre>
+<h3><a class="anchor" id="configuration" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h3>
+<p>Download the
+<a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/.github/RELEASE/subs2srs.conf">example config file</a>
+and save it to <code>~/.config/mpv/script-opts/subs2srs.conf</code>.
+If you use the
+<a href="https://ankiweb.net/shared/info/1557722832">recommended note type</a>
+you don't need to change any settings at all.
+If you don't, make sure to adjust at least the following variables:</p>
+<ul>
+<li><code>sentence_field</code></li>
+<li><code>audio_field</code></li>
+<li><code>image_field</code></li>
+</ul>
+<h3><a class="anchor" id="usage" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<ol>
+<li>Make sure Anki is running.</li>
+<li>Open a video in mpv.</li>
+<li>Press <code>Ctrl+t</code> to activate clipboard autocopy.</li>
+<li>Open your web browser and activate Yomichan Search by pressing <code>Alt+Insert</code>.</li>
+<li>Enable clipboard monitor in Yomichan Search.</li>
+<li>When there is a word you want to mine, create a card with Yomichan.</li>
+<li>Go back to the mpv window and press <code>Ctrl+m</code>.
+If you want to grab a sentence that spans multiple lines,
+press <code>a</code> to open the advanced menu.
+Then mark the lines you want to appear on the card
+by pressing <code>c</code> and moving the position with <code>Shift+h</code> and <code>Shift+l</code>.
+Finish by pressing <code>m</code>.</li>
+<li>The Anki Browser window should appear with the card updated.</li>
+</ol>
+<h3><a class="anchor" id="updating" href="#updating" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating</h3>
+<p>To update mpvacious, run the command below:</p>
+<pre><code>$ cd ~/.config/mpv/scripts/subs2srs &amp;&amp; git pull
+</code></pre>
+<h2><a class="anchor" id="should-i-use-a-quottexthooker-pagequot" href="#should-i-use-a-quottexthooker-pagequot" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Should I use a &quot;texthooker page&quot;?</h2>
+<p>No.</p>
+<p>It unnecessarily complicates your setup.
+Yomichan Search can do the same thing and is simpler.</p>
+<p>Tags: <a href='tag_guide.html'>guide</a></p>
+<!-- text end -->
+</article>
+<article>
 <h1><a class="ablack" href="learning-kanji.html">Learning Kanji</a></h1>
 <!-- bashblog_timestamp: #1621914831# -->
 <div class="subtitle">May 25, 2021 &mdash; Tatsumoto</div>
@@ -181,49 +360,6 @@ sometimes there's a need to quickly OCR a portion of the screen
 to look up new words and add sentences to Anki.
 To do so, you're going to use an optical character recognition program and a few helper tools.</p>
 <p class="readmore"><a href="mining-from-manga.html">Read more...</a></p>
-</article>
-<article>
-<h1><a class="ablack" href="table-of-contents.html">Table of Contents</a></h1>
-<!-- bashblog_timestamp: #1616375454# -->
-<div class="subtitle">March 22, 2021 &mdash; Tatsumoto</div>
-<!-- text begin -->
-<ul>
-<li><a href="foreword.html">Foreword</a></li>
-<li><a href="introduction-to-learning-japanese.html">Introduction to learning Japanese</a></li>
-<li>Setup<ul>
-<li><a href="setting-up-anki.html">Anki</a></li>
-<li><a href="useful-anki-add-ons-for-japanese.html">Anki add-ons</a></li>
-<li><a href="discussing-various-card-templates.html">Card templates</a></li>
-<li><a href="setting-up-yomichan.html">Yomichan</a></li>
-<li><a href="yomichan-and-epwing-dictionaries.html">Dictionaries</a></li>
-</ul>
-</li>
-<li>Basics<ul>
-<li><a href="learning-kana-in-two-days.html">Kana</a></li>
-<li><a href="learning-kanji.html">Kanji</a></li>
-<li><a href="jp1k-anki-deck.html">Kanji Anki deck</a></li>
-<li><a href="basic-vocabulary.html">Basic vocabulary</a></li>
-</ul>
-</li>
-<li>Tools and card creation<ul>
-<li><a href="our-immersion-learning-toolset.html">Our immersion learning toolset</a></li>
-<li><a href="passive-listening.html">Passive listening</a></li>
-<li><a href="mining-from-manga.html">Manga</a></li>
-<li><a href="https://github.com/Ajatt-Tools/mpvacious">Movies and TV-shows</a> *</li>
-<li><a href="https://github.com/Ajatt-Tools/autosubsync-mpv">Subtitle Re-sync</a> *</li>
-<li><a href="writing-japanese.html">Writing by hand</a></li>
-</ul>
-</li>
-<li>Contact and Support<ul>
-<li><a href="join-our-community.html">Join our community</a></li>
-<li><a href="donating-to-tatsumoto.html">Support</a></li>
-</ul>
-</li>
-<li><a href="resources.html">List of resources</a></li>
-</ul>
-<p>* To be updated.</p>
-<p>Tags: <a href='tag_guide.html'>guide</a></p>
-<!-- text end -->
 </article>
 <div id="all_posts">
 <a href="all_posts.html">View more posts</a> &mdash;
