@@ -17,7 +17,7 @@
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
 	* [Passive listening](passive-listening.html)
 	* [Manga](mining-from-manga.html)
-	* [Movies and TV-shows](https://github.com/Ajatt-Tools/mpvacious) \*
+	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
 	* [Subtitle Re-sync](https://github.com/Ajatt-Tools/autosubsync-mpv) *
 	* [Writing by hand](writing-japanese.html)
 * Contact and Support

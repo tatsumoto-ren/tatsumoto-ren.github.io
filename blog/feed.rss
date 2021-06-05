@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 25 May 2021 21:38:04 +0300</lastBuildDate>
-<pubDate>Tue, 25 May 2021 21:38:04 +0300</pubDate>
+<lastBuildDate>Sat, 05 Jun 2021 19:13:35 +0300</lastBuildDate>
+<pubDate>Sat, 05 Jun 2021 19:13:35 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Mining from movies and TV-shows</title><description><![CDATA[
@@ -352,7 +352,7 @@ Table of Contents</title><description><![CDATA[
 <li><a href="our-immersion-learning-toolset.html">Our immersion learning toolset</a></li>
 <li><a href="passive-listening.html">Passive listening</a></li>
 <li><a href="mining-from-manga.html">Manga</a></li>
-<li><a href="https://github.com/Ajatt-Tools/mpvacious">Movies and TV-shows</a> *</li>
+<li><a href="mining-from-movies-and-tv-shows.html">Movies and TV-shows</a></li>
 <li><a href="https://github.com/Ajatt-Tools/autosubsync-mpv">Subtitle Re-sync</a> *</li>
 <li><a href="writing-japanese.html">Writing by hand</a></li>
 </ul>
