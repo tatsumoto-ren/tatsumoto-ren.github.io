@@ -234,6 +234,6 @@ $ cd ~/.config/mpv/scripts/subs2srs && git pull
 No.
 
 It unnecessarily complicates your setup.
-Yomichan Search can do the same thing and is simpler.
+Yomichan Search can do the same thing simpler.
 
 Tags: guide
