@@ -123,6 +123,8 @@ Has a [clearnet version](https://b-ok.cc/).
 Lets you read web novels for free.
 * [青空文庫](https://www.aozora.gr.jp/).
 An Internet library of classic Japanese literature.
+* [Aozora Bunko archive](https://archive.org/details/aozorabunko).
+Books from Aozora Bunko in `epub`, `pdf` and other formats.
 
 ### Audio
 
@@ -221,6 +223,10 @@ A command line client for Mega.
 * [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
 A command-line program that lets you download videos and audio
 from YouTube and more than a thousand other sites.
+* [mangadesk](https://github.com/darylhjd/mangadesk).
+Download manga directly from your terminal.
+* [HakuNeko](https://github.com/manga-download/hakuneko).
+A cross-platform downloader for manga and anime from various websites.
 
 ### Subtitle retiming
 
