@@ -177,13 +177,13 @@ This command ignores modification dates of the video files.
 
 ## When you're not home
 
-Use
+Synchronize your immersionpod folder to your mobile device with
 [rsync](https://wiki.archlinux.org/index.php/Rsync)
 or
-[syncthing](https://wiki.archlinux.org/index.php/Syncthing)
-to synchronize your immersion pod folder to your mobile device.
+[syncthing](https://wiki.archlinux.org/index.php/Syncthing).
 When you're out, use
-[Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
+[Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla),
+[Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic)
 or any other music player of your choice to continue immersing.
 
 ## Condensing audiobooks
