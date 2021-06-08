@@ -132,7 +132,8 @@ This coding format is not supported by Anki on iThings.
 	[Fontconfig configuration](https://wiki.archlinux.org/index.php/Font_configuration/Examples#Default_fonts)
 	to set them up.
 	* Install and configure
-	[Fcitx](https://wiki.archlinux.org/index.php/Fcitx).
+	[Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
+	to type in Japanese.
 	The input method I use is
 	[fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
 	but other options are also available.
@@ -140,6 +141,9 @@ This coding format is not supported by Anki on iThings.
 	together with
 	[ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
 	Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
+	* *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
+	Condensing takes a video file with subtitles and removes all parts where no one is speaking,
+	producing an audio file with increased language density for passive listening.
 	* The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
 	It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 	many of which can be used to make language learning easier.
