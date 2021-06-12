@@ -15,12 +15,7 @@ a {
     padding: 2px 4px 0;
     background-color: #51628f;
     color: white;
-    background-image:
-        linear-gradient(
-          rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)
-        ),
-        url("img/bg.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/bg.webp");
     text-shadow: #000c 1px 1px 2px;
 }
 
@@ -44,7 +39,7 @@ header > span.space {
     flex: 2 1;
 }
 header > a.donate {
-    background: url('img/heart.svg');
+    background: url("img/heart.svg");
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +47,7 @@ header > a.donate {
     height: 48px;
     padding: 24px;
     filter: invert(100%) drop-shadow(1px 1px 2px #000c);
-    transition: filter .2s;
+    transition: filter 0.2s;
 }
 header > a.donate:hover {
     filter: invert(90%) drop-shadow(1px 1px 2px #000c);
@@ -70,7 +65,7 @@ nav > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color .2s;
+    transition: color 0.2s;
 }
 nav > a:hover {
     color: #ddd;
@@ -101,7 +96,7 @@ div.presentation div.start_buttons > a {
     color: white;
     text-decoration: none;
     border-radius: 2px;
-    transition: background-color .2s;
+    transition: background-color 0.2s;
 }
 div.presentation div.start_buttons > a:hover {
     background-color: #fff2;
@@ -131,16 +126,16 @@ div.key_points .icon {
     height: 1em;
 }
 div.key_points .beer {
-    content: url('img/beer.svg');
+    content: url("img/beer.svg");
 }
 div.key_points .goat {
-    content: url('img/goat.svg');
+    content: url("img/goat.svg");
 }
 div.key_points .anki {
-    content: url('img/anki.webp');
+    content: url("img/anki.webp");
 }
 div.key_points .bomb {
-    content: url('img/bomb.svg');
+    content: url("img/bomb.svg");
 }
 
 /* Footer */
