@@ -76,21 +76,6 @@ screenshot-high-bit-depth=yes
 
 </details>
 
-## Obtain subtitles
-
-To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
-Subtitles can be found on
-[Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
-and on our
-[Resources page](resources.html#japanese-subtitles).
-If you want to synchronize the subtitles, see the
-[autosubsync-mpv](https://github.com/Ajatt-Tools/autosubsync-mpv)
-page.
-
-Don't forget that if you have English subtitles enabled,
-at best you're going to learn English,
-but your Japanese is not going to improve.
-
 ## Download content
 
 Always download what you watch.
@@ -165,6 +150,21 @@ and save the downloaded files to `~/Videos`.
 
 See `$ man youtube-dl` for a comprehensive list of options.
 
+## Obtain subtitles
+
+To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
+Subtitles can be found on
+[Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
+and on our
+[Resources page](resources.html#japanese-subtitles).
+If you want to synchronize the subtitles, see the
+[autosubsync-mpv](https://github.com/Ajatt-Tools/autosubsync-mpv)
+page.
+
+Don't forget that if you have English subtitles enabled,
+at best you're going to improve your English,
+but your Japanese is not going to get any better.
+
 ## mpvacious
 
 [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
@@ -235,7 +235,8 @@ $ cd ~/.config/mpv/scripts/subs2srs && git pull
 
 No.
 
-It unnecessarily complicates your setup.
+Though you often see such recommendations,
+I think it unnecessarily complicates your setup.
 Yomichan Search can do the same thing simpler.
 
 Tags: guide
