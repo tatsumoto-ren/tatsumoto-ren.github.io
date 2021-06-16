@@ -155,42 +155,21 @@ You may need a Japanese IP address for some of these.
 
 ## Software
 
-### General recommendations
+### Recommendations
 
 * [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
 * [Luke Smith's Programs and Equipment](https://lukesmith.xyz/articles/programs-and-equipment-i-use)
 
-### Desktop
+### General
 
 * [Anki](https://wiki.archlinux.org/title/Anki)
 A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
 An image viewer perfect for reading manga.
-* [DJT's Anacreon](https://anacreondjt.gitlab.io/).
-A collection of tools for learning Japanese.
-Unfortunately, not all of them work on GNU/Linux.
 * [impd](https://github.com/Ajatt-Tools/impd).
 Create condensed audio and automatically rotate your mpd playlist.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
-
-### Mobile
-
-I urge everyone to reject mobile phones because they're surveillance tools.
-If you do own a cellphone, be sure to install
-[F-Droid](https://f-droid.org/en/),
-which is an application catalog for libre programs.
-Get rid of Google Play by flashing a new ROM
-or by rooting your phone and deleting all Google applications.
-
-* [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-A free/libre flashcard application, Android version.
-* [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
-A mobile video player tailored for Japanese language learners.
-* [VLC](https://f-droid.org/packages/org.videolan.vlc).
-A fast and user-friendly video player for Android.
-* [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
-A podcast player for Android.
 
 ### Localization and fonts
 
@@ -234,6 +213,27 @@ A cross-platform downloader for manga and anime from various websites.
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
 
+### Mobile
+
+I urge everyone to reject mobile phones because they're surveillance tools.
+If you do own a cellphone, be sure to install
+[F-Droid](https://f-droid.org/en/),
+which is an application catalog for libre programs.
+Get rid of Google Play by flashing a new ROM
+or by rooting your phone and deleting all Google applications.
+
+* [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
+A free/libre flashcard application, Android version.
+* [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
+A mobile video player tailored for Japanese language learners.
+* [VLC](https://f-droid.org/packages/org.videolan.vlc).
+A fast and user-friendly video player for Android.
+* [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
+A podcast player for Android.
+* Audio players.
+	* [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
+	* [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
+
 ## Dictionaries
 
 ### Yomichan
@@ -258,6 +258,11 @@ A pitch accent dictionary.
 A monolingual slang dictionary.
 * [伏字検索](http://fuseji.net/).
 Helps you decipher words partially occluded by symbols like `〇`.
+* [ふりがな文庫](https://furigana.info/).
+For any given word, searches through Aozora Bunko
+for all instances where it was used with furigana
+and shows the percentage of each reading.
+Great for when the dictionary lists multiple readings and you want to know which is dominant.
 
 ### Offline
 
@@ -291,6 +296,7 @@ is known for spying on and politically suppressing its users.
 * Contains outdated information.
 * Talks about MCD, which is a flashcard format that hasn't received much adoption
 over the years due to being too difficult and complicated.
+* Advertises unnecessary paid products.
 
 ### [Refold](https://refold.la/)
 
