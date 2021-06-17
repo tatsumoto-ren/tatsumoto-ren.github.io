@@ -7,6 +7,11 @@ If your question hasn't been answered, ask it in [our chat](join-our-community.h
 
 ****
 
+### How to learn Japanese?
+
+You learn Japanese by self-study through immersion.
+Our [guide](table-of-contents.html) contains everything you need.
+
 ### What's fluency?
 
 Fluency is when you understand at least 98% of your immersion.
@@ -195,7 +200,8 @@ For the first few months try to keep your domain small.
 
 ### I only do passive immersion and things aren't working, what's wrong?
 
-Even if you have headphones on all day, without active immersion you can't expect any improvement.
+Even if you have headphones on all day,
+without active immersion you can't expect any improvement.
 It is possible to learn a language without passive immersion,
 but it is almost impossible to do with only passive immersion.
 You need to actively immerse and look up as many words as you can while doing so.
@@ -257,9 +263,9 @@ Usually it's enough to make just one card for one meaning,
 but it's okay to make multiple cards if you think you need it.
 To distinguish the cards rely on context around the target word.
 
-### What do you think of MCDs? What about normal production cards?
+### What do you think of using MCDs to train production?
 
-Because MCDs train active recall,
+Because MCDs require active recall,
 they can certainly be used to train production.
 However, I think that MCDs should not be used to train recognition
 because TSCs do the job better.
@@ -374,3 +380,44 @@ At home I always kept the immersion going.
 ### Can I get fluent with 1 hour a day?
 
 No, but you can get fluent with 12+ hours a day.
+
+### Should I limit how many sentences I mine from a single source?
+
+No.
+
+### How many water bottles do you go through in a day?
+
+Zero.
+
+I assume drinking from bottles is some weird American thing.
+I drink from [cups](https://en.wikipedia.org/wiki/Cup).
+
+### What do you think about graded readers?
+
+Never used them.
+Don't recommend them.
+AJATT is about reading stuff made for natives.
+
+### How much reading is required to counteract not SRSing?
+
+You can't fully counteract not SRSing.
+
+### What is the anime you mined the most?
+
+The first season of Steins;Gate, simply because it was the first anime I mined.
+
+### What do you do for fun, related and unrelated to Japanese?
+
+Watch anime.
+
+I also make sure to spend some time immersing in English, it's both beneficial and fun.
+
+### How many reps did you do a day on average?
+
+300.
+
+### What other languages do you want to learn?
+
+Probably Polish or Czech.
+
+Tags: guide
