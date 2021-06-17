@@ -86,7 +86,7 @@ If you've just started
 you are lucky to read them at all,
 let alone doing it fast.
 
-This is my average for the past month:
+This is my monthly average (TSCs were not counted):
 
 ```
 Average answer time:	⁨11.78⁩s (⁨5.09⁩ cards/minute)
