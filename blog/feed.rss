@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Thu, 10 Jun 2021 16:59:45 +0300</lastBuildDate>
-<pubDate>Thu, 10 Jun 2021 16:59:45 +0300</pubDate>
+<lastBuildDate>Thu, 17 Jun 2021 18:40:17 +0300</lastBuildDate>
+<pubDate>Thu, 17 Jun 2021 18:40:17 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+FAQ</title><description><![CDATA[
+<p>This is Tatsumoto's AJATT FAQ.
+You can search questions you're interested in if you press <code>Ctrl+f</code>.
+I'm going to update this article as I receive more questions.
+If your question hasn't been answered, ask it in <a href="join-our-community.html">our chat</a>.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/faq.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/faq.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 17 Jun 2021 02:24:53 +0300</pubDate></item>
 <item><title>
 Mining from movies and TV-shows</title><description><![CDATA[
 <p><em>Sentence mining</em> is the process of picking sentences from your immersion and making Anki cards.
@@ -205,19 +216,4 @@ Table of Contents</title><description><![CDATA[
 <guid>https://tatsumoto-ren.github.io/blog/table-of-contents.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 22 Mar 2021 04:10:54 +0300</pubDate></item>
-<item><title>
-Writing Japanese</title><description><![CDATA[
-<p>After you've got a few thousand hours of input
-and can read content made for natives relatively effortlessly
-it makes sense to start practicing writing Japanese by hand.
-Bear in mind that being able to do so is not necessary unless you plan to live in Japan.
-Nowadays writing is done on a keyboard
-and doesn't require recalling characters from memory.
-However, writing practice has the potential to improve your overall reading ability.</p>
-<p align="center"><img alt="write japanese" src="img/write_japanese.webp"></p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/writing-japanese.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/writing-japanese.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 16 Mar 2021 21:19:48 +0300</pubDate></item>
 </channel></rss>
