@@ -12,6 +12,23 @@ If your question hasn't been answered, ask it in [our chat](join-our-community.h
 You learn Japanese by self-study through immersion.
 Our [guide](table-of-contents.html) contains everything you need.
 
+### Who can teach me Japanese?
+
+No one can.
+You have to do it yourself.
+Langauges can only be acquired through massive amounts of watching, listening and reading.
+
+### What's immersion?
+
+Immersion is the process of reading or listening to your target language.
+It is not necessary to move to Japan or talk to natives to immerse.
+As long as you have access any content in natural, native Japanese you're covered.
+Watch anime, dramas, read books, light novels, manga in Japanese if you want to learn the language.
+
+Usually immersion is divided into passive (background) and active.
+Active immersion requires full attention to the content
+while passive immersion is when you're listening to Japanese while doing something else.
+
 ### What's fluency?
 
 Fluency is when you understand at least 98% of your immersion.
@@ -20,7 +37,11 @@ For example, a typical episode of anime contains 300-400 lines of dialog.
 If you watch the episode and encounter only 7-8 or less unknown words,
 you can call yourself fluent.
 
-<p align="center"><img src="img/how_many_words_do_i_need.webp"></p>
+<p align="center">
+	<a href="img/how_many_words_do_i_need.webp">
+		<img alt="how many words do i need to know" src="img/how_many_words_do_i_need.webp">
+	</a>
+</p>
 
 ### Should I read the AJATT site?
 
@@ -89,15 +110,19 @@ If you watch JAV, skip all the parts where no one's talking.
 If you like erotic content, I recommend reading doujinshi.
 They offer higher language density.
 
+### What time of day should I do Anki?
+
+As long as you finish your daily reviews any time is fine.
+Some people do Anki first thing in the morning,
+some spread their reviews throughout the day.
+
 ### What do you think of "animecards" (high quality vocab cards)?
 
 It's one of worst plagues of the Japanese learning community.
 You should never use them.
-We recommend targeted sentence cards (TSCs) or fallback cards instead.
-
-### Have you talked to Khatzumoto?
-
-No.
+We recommend
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
+(TSCs) or fallback cards instead.
 
 ### Should I believe mattvsjapan and the Refold site?
 
@@ -114,7 +139,11 @@ before you engage with Matt's content.
 Don't get me wrong though,
 listening to mattvsjapan is still a thousand times better
 than listening to what *certain* other people say on the Internet.
-It's probably the second most valuable source besides the AJATT site itself.
+It's probably the second most valuable source after the AJATT site itself.
+
+### Is there a Japanese syntax parser similar to Jisho.org but with no English?
+
+[Mecab](https://aur.archlinux.org/packages/mecab/).
 
 ### Should I learn kanji forms of words usually written in kana?
 
@@ -216,16 +245,17 @@ Don't learn Japanese.
 It's just honestly stupid.
 Just don't.
 
-### What are your plans regarding moving to Japan?
-
-As of now, I don't want to move to Japan.
-You can't overlook the inherent hate for foreigners most Japanese people have.
-Plus, I don't look Asian, and I don't want to stand out.
-
 ### When and how to go about dropping the SRS?
 
 You should never stop using the SRS, even after you "make it".
 A few minutes of SRSing each day is a hundred times better than no SRSing at all.
+
+### Should I read through Tae Kim while going through the Tango decks?
+
+Only when you can't understand some cards in the deck otherwise.
+Tango decks don't teach grammar points as thoroughly as a grammar guide would do,
+so refer to Tae Kim if you stumble upon a card
+that you don't understand even after reading its back.
 
 ### Tae Kim: is "essential grammar" enough?
 
@@ -280,14 +310,21 @@ Don't recall the definition.
 
 Unless you're a schizo you shouldn't think about it at all.
 
-### Do you still watch anime?
-
-I watch anime almost every day.
-
 ### How to do to monolingual RTK?
 
 Don't do monolingual RTK, it's stupid and tedious.
-Do production TSCs instead.
+After you've achieved basic fluency, do production TSCs instead.
+
+### How to learn readings after finishing isolated kanji study?
+
+Readings are not learned by themselves.
+You're going to learn words and their readings at the same time.
+You need to read Japanese, look up words and make TSCs.
+
+At first you may want to use a premade deck.
+I recommend downloading
+[Ankidrone Starter Pack](basic-vocabulary.html)
+and learning 1-3 thousand words from it.
 
 ### How much listening should I do before I start reading?
 
@@ -299,7 +336,7 @@ After you've done it for 2,000 to 3,000 hours (around 4 months), start reading b
 
 ### Thoughts on Khatz's "multiplexed input"
 
-I think **condensed audio** is a better technique.
+I think [condensed audio](passive-listening.html#condensing-audio) is a better technique.
 It's more organized.
 
 ### How to start reading as a beginner?
@@ -311,28 +348,16 @@ Start with reading Japanese subtitles.
 You may put the corresponding line from English subs.
 However, don't use Google Translate or anything like that.
 
-### Have you ever had any plateaus? What to do when you're stuck
-
-I haven't.
-You can't be stuck if you're doing AJATT,
-but you can be stuck if you slack on your immersion.
-
 ### Passive immersion playlist structure?
 
 It should contain language-dense material that you've actively consumed before.
 Intermediate learners may include podcasts in the mix.
 
-### Do you play video games? Are video games good for immersion?
-
-I never play video games.
-Most video games should be avoided since they're proprietary.
-Video games are bad for immersion because they're hard to mine from.
-
 ### Is SuperMemo better than Anki?
 
 SuperMemo is proprietary software, so it should not be used.
 
-### Is it ok to make cards for sentences I don't fully understand?
+### Is it OK to make cards for sentences I don't fully understand?
 
 Make a card and save it for later instead of learning it right away.
 
@@ -369,14 +394,6 @@ The longer you wait the easier it becomes so don't feel guilty for slacking.
 You pick it up through immersion over time.
 If you study it deliberately, it's difficult.
 
-### How strict were you about ALL Japanese ALL the time?
-
-When I started AJATT I was a full time university student,
-so it wasn't easy,
-but I tried to immerse as much as possible.
-I had earphones on in class and while commuting.
-At home I always kept the immersion going.
-
 ### Can I get fluent with 1 hour a day?
 
 No, but you can get fluent with 12+ hours a day.
@@ -385,12 +402,26 @@ No, but you can get fluent with 12+ hours a day.
 
 No.
 
-### How many water bottles do you go through in a day?
+### Should I make mnemonics to learn new words?
 
-Zero.
+No.
 
-I assume drinking from bottles is some weird American thing.
-I drink from [cups](https://en.wikipedia.org/wiki/Cup).
+### How do Japanese people pronounce “?” and “!”?
+
+* [疑問符](https://ja.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E7%AC%A6)
+* [感嘆符](https://ja.wikipedia.org/wiki/%E6%84%9F%E5%98%86%E7%AC%A6)
+
+### How much reading is required to counteract not SRSing?
+
+You can't fully counteract not SRSing.
+
+### What Japanese documentaries do you recommend?
+
+Nothing in particular comes to my mind, but in general
+[NHK specials](https://www.nhk.jp/p/special/ts/2NY2QQLPM3/)
+are pretty good.
+You can find the videos on
+[Nyaa ISS](https://nyaa.iss.one/?q=ＮＨＫスペシャル).
 
 ### What do you think about graded readers?
 
@@ -398,13 +429,20 @@ Never used them.
 Don't recommend them.
 AJATT is about reading stuff made for natives.
 
-### How much reading is required to counteract not SRSing?
+### Where are you from? Pakistan? India?
 
-You can't fully counteract not SRSing.
+Iraq.
 
 ### What is the anime you mined the most?
 
 The first season of Steins;Gate, simply because it was the first anime I mined.
+
+### How many water bottles do you go through in a day?
+
+Zero.
+
+I assume drinking from bottles is some weird American thing.
+I drink from [cups](https://en.wikipedia.org/wiki/Cup).
 
 ### What do you do for fun, related and unrelated to Japanese?
 
@@ -414,10 +452,44 @@ I also make sure to spend some time immersing in English, it's both beneficial a
 
 ### How many reps did you do a day on average?
 
-300.
+My daily average was ~300 cards.
 
 ### What other languages do you want to learn?
 
 Probably Polish or Czech.
+
+### How strict were you about ALL Japanese ALL the time?
+
+When I started AJATT I was a full time university student,
+so it wasn't easy,
+but I tried to immerse as much as possible.
+I had earphones on in class and while commuting.
+At home I always kept the immersion going.
+
+### Do you still watch anime?
+
+I watch anime almost every day.
+
+### Have you talked to Khatzumoto?
+
+No.
+
+### What are your plans regarding moving to Japan?
+
+As of now, I don't want to move to Japan.
+You can't overlook the inherent hate for foreigners most Japanese people have.
+Plus, I don't look Asian, and I don't want to stand out.
+
+### Do you play video games? Are video games good for immersion?
+
+I never play video games.
+Most video games should be avoided since they're proprietary.
+Video games are bad for immersion because they're hard to mine from.
+
+### Have you ever had any plateaus? What to do when you're stuck?
+
+I haven't.
+You can't be stuck if you're doing AJATT,
+but you can be stuck if you slack on your immersion.
 
 Tags: guide
