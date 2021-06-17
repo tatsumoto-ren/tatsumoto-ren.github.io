@@ -16,7 +16,7 @@ Our [guide](table-of-contents.html) contains everything you need.
 
 No one can.
 You have to do it yourself.
-Langauges can only be acquired through massive amounts of watching, listening and reading.
+Languages can only be acquired through massive amounts of watching, listening and reading.
 
 ### What's immersion?
 
@@ -28,6 +28,23 @@ Watch anime, dramas, read books, light novels, manga in Japanese if you want to 
 Usually immersion is divided into passive (background) and active.
 Active immersion requires full attention to the content
 while passive immersion is when you're listening to Japanese while doing something else.
+
+### How important is passive immersion?
+
+When you're a beginner, active immersion plays a much bigger role than passive immersion.
+You need to watch something actively first and make it as comprehensible as possible
+before reusing the same content for passive immersion.
+At this stage it is not advised to immerse in something passively for the first time
+because you haven't worked with the content and haven't comprehended it.
+
+However, when you're already pretty good at understanding Japanese,
+which happens after around a year if you're serious in your studies,
+you become able to understand your passive immersion really well.
+At this stage you gain a lot more from passive immersion.
+When you reach this point,
+you can use completely new content for passive immersion
+and still understand it close to 100% if you pay enough attention.
+Because of that, it makes sense to value passive immersion more as you progress.
 
 ### What's fluency?
 
@@ -110,11 +127,30 @@ If you watch JAV, skip all the parts where no one's talking.
 If you like erotic content, I recommend reading doujinshi.
 They offer higher language density.
 
+### Is SuperMemo better than Anki?
+
+SuperMemo is proprietary software, so it should not be used.
+
 ### What time of day should I do Anki?
 
 As long as you finish your daily reviews any time is fine.
 Some people do Anki first thing in the morning,
 some spread their reviews throughout the day.
+
+### Anki to immersion ratio. How much time should I spend SRSing?
+
+The most popular community guideline is 1 hour a day.
+
+You can't directly control how much time you're going to spend on Anki.
+The amount of time is determined by what cart type (template) you use,
+how many new cards you add each day
+and how fast you can read Japanese.
+
+If you notice that you overspend you time on Anki,
+try TSCs or fallback cards instead of normal sentence cards,
+reduce the number of new cards you learn,
+install [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode)
+Anki add-on.
 
 ### What do you think of "animecards" (high quality vocab cards)?
 
@@ -155,23 +191,6 @@ Examples:
 * 蝸牛
 * 海豚
 * 蒟蒻
-
-### How important is passive immersion?
-
-When you're a beginner, active immersion plays a much bigger role than passive immersion.
-You need to watch something actively first and make it as comprehensible as possible
-before reusing the same content for passive immersion.
-At this stage it is not advised to immerse in something passively for the first time
-because you haven't worked with the content and haven't comprehended it.
-
-However, when you're already pretty good at understanding Japanese,
-which happens after around a year if you're serious in your studies,
-you become able to understand your passive immersion really well.
-At this stage you gain a lot more from passive immersion.
-When you reach this point,
-you can use completely new content for passive immersion
-and still understand it close to 100% if you pay enough attention.
-Because of that, it makes sense to value passive immersion more as you progress.
 
 ### How can I improve at reading Japanese names?
 
@@ -239,10 +258,17 @@ You need to actively immerse and look up as many words as you can while doing so
 
 You always make a card.
 
+If you're feeling lazy then just don't.
+Immersion learning is not math,
+you're not going to get a bad grade if you don't learn something.
+If the word is important, it will come up again.
+
 ### I'm not motivated and don't enjoy learning Japanese, is it still worth my time?
 
 Don't learn Japanese.
+
 It's just honestly stupid.
+
 Just don't.
 
 ### When and how to go about dropping the SRS?
@@ -352,10 +378,6 @@ However, don't use Google Translate or anything like that.
 
 It should contain language-dense material that you've actively consumed before.
 Intermediate learners may include podcasts in the mix.
-
-### Is SuperMemo better than Anki?
-
-SuperMemo is proprietary software, so it should not be used.
 
 ### Is it OK to make cards for sentences I don't fully understand?
 
@@ -477,7 +499,7 @@ No.
 ### What are your plans regarding moving to Japan?
 
 As of now, I don't want to move to Japan.
-You can't overlook the inherent hate for foreigners most Japanese people have.
+Many Japanese people are very xenophobic, and you can't overlook that.
 Plus, I don't look Asian, and I don't want to stand out.
 
 ### Do you play video games? Are video games good for immersion?
