@@ -1,5 +1,7 @@
 # Setting up Anki
 
+<img alt="anki" src="img/anki_logo.webp" style="float:right; max-height: 200px;">
+
 [Anki](https://wiki.archlinux.org/index.php/Anki)
 is a
 [Spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition)
