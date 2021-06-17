@@ -367,24 +367,6 @@ article .anchor > svg {
 article :is(h1, h2, h3, h4, h5, h6):hover .anchor > svg {
     visibility: visible;
 }
-article p.download_button {
-    text-align: center;
-}
-article p.download_button > a {
-    display: inline-block;
-    font-size: 25px;
-    line-height: 49px;
-    min-width: 220px;
-    padding: 0 5px;
-    border: 1px solid #0366d6;
-    border-radius: 2px;
-    transition: all 0.3s;
-}
-article p.download_button > a:hover {
-    background-color: #0366d60d;
-    text-decoration: none;
-    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
-}
 
 .subtitle {
     font-size: small;
@@ -443,4 +425,23 @@ footer,
     color: #333;
     margin-top: 24px;
     font-size: 14px;
+}
+
+/* Download button */
+
+a.download_button {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 49px;
+    min-width: 220px;
+    padding: 0 5px;
+    border: 1px solid #0366d6;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+a.download_button:hover,
+a.download_button:focus {
+    background-color: #0366d60d;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
 }

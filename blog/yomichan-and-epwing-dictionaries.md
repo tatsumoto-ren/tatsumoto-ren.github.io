@@ -56,7 +56,9 @@ to have quicker access to their definitions.
 
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
-<p class="download_button"><a href="https://t.me/ajatt_tools/36">Download</a></p>
+<p align="center">
+	<a class="download_button" href="https://t.me/ajatt_tools/36">Download</a>
+</p>
 
 <details>
 <summary>Sources</summary>

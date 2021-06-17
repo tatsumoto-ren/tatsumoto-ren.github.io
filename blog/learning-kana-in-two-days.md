@@ -30,8 +30,8 @@ The only two options you need are hiragana and katakana.
 
 Once you select either hiragana or katakana, use the first option to drill the syllabaries.
 
-<p class="download_button">
-	<a target="_blank" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
+<p align="center">
+	<a class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
 </p>
 
 Tags: kana

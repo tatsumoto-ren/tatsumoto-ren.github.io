@@ -50,8 +50,10 @@ when there's a sentence you don't grasp fully.
 If a word is written in kanji,
 you can view the furigana reading by hovering over it with your mouse.
 
-<p class="download_button"><a href="https://www.patreon.com/posts/47991075" target="_blank">Download</a></p>
-<p style="text-align:center;">
+<p align="center">
+	<a class="download_button" href="https://www.patreon.com/posts/47991075">Download</a>
+</p>
+<p align="center">
 	<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror 1</a>
 	<a href="https://ankiweb.net/shared/info/917377946" target="_blank">Mirror 2</a>
 </p>
@@ -68,7 +70,9 @@ Content on the back is similar to the TSC deck.
 The deck is available to all patrons.
 To get it follow the link below.
 
-<p class="download_button"><a href="https://www.patreon.com/posts/47990957" target="_blank">Download</a></p>
+<p align="center">
+	<a class="download_button" href="https://www.patreon.com/posts/47990957">Download</a>
+</p>
 
 ## Q&A
 

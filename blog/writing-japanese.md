@@ -49,8 +49,12 @@ Your goal is to write the character on paper.
 If you are able to do it with the correct stroke order then press "Good".
 Otherwise press "Again".
 
-<p class="download_button"><a href="https://t.me/ajatt_tools/82">Download</a></p>
-<p align="center"><a href="https://ankiweb.net/shared/info/1233553736">Mirror</a></p>
+<p align="center">
+	<a class="download_button" href="https://t.me/ajatt_tools/82">Download</a>
+</p>
+<p align="center">
+	<a href="https://ankiweb.net/shared/info/1233553736">Mirror</a>
+</p>
 
 ## Writing kanji
 
@@ -112,8 +116,12 @@ The method doesn't rely on English keywords whatsoever.
 Making mnemonics might be helpful but is totally optional.
 Feel free to use this note type for your own sentence cards.
 
-<p class="download_button"><a href="https://t.me/ajatt_tools/16">Download</a></p>
-<p align="center"><a href="https://ankiweb.net/shared/info/1557722832">Mirror</a></p>
+<p align="center">
+	<a class="download_button" href="https://t.me/ajatt_tools/16">Download</a>
+</p>
+<p align="center">
+	<a href="https://ankiweb.net/shared/info/1557722832">Mirror</a>
+</p>
 
 As with kana cards, if you could produce the word
 with the right stroke order, grade the card "good".
