@@ -51,7 +51,7 @@ If a word is written in kanji,
 you can view the furigana reading by hovering over it with your mouse.
 
 <p align="center">
-	<a class="download_button" href="https://www.patreon.com/posts/47991075">Download</a>
+	<a class="download_button" href="https://www.patreon.com/posts/47991075" target="_blank">Download</a>
 </p>
 <p align="center">
 	<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror 1</a>
@@ -71,7 +71,7 @@ The deck is available to all patrons.
 To get it follow the link below.
 
 <p align="center">
-	<a class="download_button" href="https://www.patreon.com/posts/47990957">Download</a>
+	<a class="download_button" href="https://www.patreon.com/posts/47990957" target="_blank">Download</a>
 </p>
 
 ## Q&A
