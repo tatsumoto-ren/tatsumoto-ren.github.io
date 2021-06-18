@@ -22,7 +22,7 @@ Languages can only be acquired through massive amounts of watching, listening an
 
 Immersion is the process of reading or listening to your target language.
 It is not necessary to move to Japan or talk to natives to immerse.
-As long as you have access any content in natural, native Japanese you're covered.
+As long as you have access any content in natural, native Japanese, you're covered.
 Watch anime, dramas, read books, light novels, manga in Japanese if you want to learn the language.
 
 Usually immersion is divided into passive (background) and active.
@@ -74,7 +74,7 @@ Yes, if you want to learn English.
 This is actually how I learned English as a teenager, not even joking.
 I was so fed up with the quality of subtitles in my native language
 that one day I just decided to switch and start watching anime with English subs.
-It was insanely hard at first and I would spend hours looking up every word in a dictionary.
+It was insanely hard at first, and I would spend hours looking up every word in a dictionary.
 However, after a few months I only had to look up a couple words here and there.
 
 If you are serious about learning Japanese, don't use English subtitles.
@@ -129,7 +129,7 @@ Back in my day RRTK didn't exist.
 The JP1K method didn't exist either.
 I did KanjiDamage+.
 
-If I were to start today I would probably start learning words right away.
+If I were to start today, I would probably start learning words right away.
 If I couldn't handle it, I would pause and try the JP1K method.
 
 ### Is JAV good for immersion?
@@ -183,7 +183,7 @@ We recommend
 The most popular community guideline is 1 hour a day.
 
 You can't directly control how much time you're going to spend on Anki.
-The amount of time is determined by what cart type (template) you use,
+The amount of time is determined by what card type (template) you use,
 how many new cards you add each day
 and how fast you can read Japanese.
 
@@ -222,7 +222,7 @@ Rely on Yomichan to pin-point the grammar pattern, then use
 [sakura-paris](https://sakura-paris.org/dict/)
 or any search engine to look it up.
 
-Some people would prefer to install as many monolingual dictionaries as possbile
+Some people would prefer to install as many monolingual dictionaries as possible
 to cover more ground and minimize the need to look up words online.
 
 ### How to review and grade TSCs?
@@ -236,10 +236,10 @@ as well as meanings of individual words in isolation.
 When you review the card later,
 you can choose not to read the whole sentence
 and instead only read the target word.
-Read the word then reveal the back of the card and read the defenition.
+Read the word then reveal the back of the card and read the definition.
 
-Pass the card if you understand the meaning and the reading of the target word.
-Don't recall the definition in case of a monolingual card
+Pass the card if you understand the meaning and reading of the target word.
+Don't recall the definition in case of a monolingual card,
 or the translation in case of a bilingual card verbatim.
 Having a general idea of the meaning in your head is enough.
 
@@ -300,7 +300,7 @@ Looking up words.
 
 Active immersion is all about making your input comprehensible.
 Dictionary lookups are the main way of making input comprehensible.
-Besides that you can pay attention to
+Aside from that you can pay attention to
 scenery, intonation, pitch accent, levels of politeness and other cultural things.
 
 ### What is the minimum to maintain fluency?
@@ -326,7 +326,7 @@ You can start feeling domain boundaries once you cross different genres.
 
 Don't pay too much attention to domains.
 Can you really imagine yourself having second-thoughts like
-"I really want to immerse in this content
+"I really want to immerse in this content,
 but I'm worried I won't enjoy it because it's in a different domain."?
 Just immerse in what you like.
 
@@ -345,7 +345,7 @@ You need to actively immerse and look up as many words as you can while doing so
 
 ### Watching raw or watching with Japanese subs?
 
-Both have their advantanges.
+Both have their advantages.
 When you watch with Japanese subs, you train your reading comprehension.
 When you watch raw, you train your listening comprehension.
 Try to balance the two.
@@ -374,14 +374,15 @@ A few minutes of SRSing each day is a hundred times better than no SRSing at all
 
 ### Should I read through Tae Kim while going through the Tango decks?
 
-Only when you can't understand some cards in the deck otherwise.
-Tango decks don't teach grammar points as thoroughly as a grammar guide would do,
-so refer to Tae Kim if you stumble upon a card
-that you don't understand even after reading its back.
+Only if you don't understand some cards in the deck.
+
+Tango decks don't teach grammar points as thoroughly as a grammar guide would do.
+If you stumble upon a card that you don't understand even after reading its back,
+refer to Tae Kim for explanations.
 
 ### Tae Kim: is "essential grammar" enough?
 
-As far as I see, the Tae Kim guide is divided into 4 sections.
+As far as I see, the Tae Kim guide gets divided into 4 sections.
 
 1) Basic Grammar
 1) Essential Grammar
@@ -424,7 +425,7 @@ because TSCs do the job better.
 
 ### How to develop a personality in your L2?
 
-Unless you're a schizo you shouldn't think about it at all.
+Unless you're a schizo, you shouldn't think about it at all.
 
 ### How to do monolingual RTK?
 
@@ -438,11 +439,11 @@ Try the [JP1K method](learning-kanji.html#jp1k-method) instead.
 
 ### How to learn readings after finishing isolated kanji study?
 
-Readings are not learned by themselves.
-You're going to learn words and their readings at the same time.
+Readings should not be learned in isolation.
+You're going to learn words with their readings at the same time.
 You need to read Japanese, look up words and make TSCs.
 
-At first you may want to use a premade deck.
+At first, you may want to use a premade deck.
 I recommend downloading
 [Ankidrone Starter Pack](basic-vocabulary.html)
 and learning 1-3 thousand words from it.
@@ -624,7 +625,7 @@ When I started AJATT I was a full time university student,
 so it wasn't easy,
 but I tried to immerse as much as possible.
 I had earphones on in class and while commuting.
-At home I always kept the immersion going.
+At home, I always kept the immersion going.
 
 ### Do you still watch anime?
 
@@ -659,6 +660,6 @@ I use the [GNU operating system](https://www.gnu.org/)
 with [linux-hardened](https://github.com/anthraxx/linux-hardened).
 And the distribution of GNU that I use is [Arch Linux](https://archlinux.org/).
 
-On mobile I use [LineageOS](https://lineageos.org/) without Google Apps.
+On mobile, I use [LineageOS](https://lineageos.org/) without Google Apps.
 
 Tags: guide
