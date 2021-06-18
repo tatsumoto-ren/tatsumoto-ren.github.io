@@ -65,6 +65,7 @@ you can call yourself fluent.
 Only the [Table of Contents](http://ajatt.com/toc).
 Everything else isn't worth your time
 unless you're really passionate about becoming a scholar of AJATT.
+Don't enter your Email address and don't buy the paid products.
 
 ### Should I watch anime with English subtitles?
 
@@ -78,6 +79,19 @@ However, after a few months I only had to look up a couple words here and there.
 
 If you are serious about learning Japanese, don't use English subtitles.
 Watch with Japanese subtitles or without any subtitles at all.
+
+### I am struggling to switch from English to Japanese media.
+
+You shouldn't have this problem.
+Most people before they start AJATT
+already have a passion for otaku content
+or other types of Japanese media.
+If you decided to learn Japanese out of the blue,
+and you don't like any of the above,
+it's going to be very hard to immerse without going back to English.
+
+If you like anime, there will be no temptation to watch crap in English.
+But if you're not like that, then why are you learning Japanese in the first place?
 
 ### Pausing. How often should I look things up?
 
@@ -127,6 +141,25 @@ If you watch JAV, skip all the parts where no one's talking.
 If you like erotic content, I recommend reading doujinshi.
 They offer higher language density.
 
+### How to look up words on web pages?
+
+* [Yomichan](https://foosoft.net/projects/yomichan/).
+* [Rikaichamp](https://addons.mozilla.org/ja/firefox/addon/rikaichamp/).
+* [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en).
+
+I have a guide on how to set up Yomichan [here](setting-up-yomichan.html).
+Don't forget to install [AnkiConnect](https://foosoft.net/projects/anki-connect/)
+if you want to make Anki cards.
+
+### How do I look up words when I read manga?
+
+Using Tesseract.
+The
+[Mining from manga](mining-from-manga.html)
+article explains how to automate it.
+If Tesseract can't OCR a certain word,
+open Google Translate, enable handwriting and draw the word.
+
 ### Is SuperMemo better than Anki?
 
 SuperMemo is proprietary software, so it should not be used.
@@ -136,6 +169,14 @@ SuperMemo is proprietary software, so it should not be used.
 As long as you finish your daily reviews any time is fine.
 Some people do Anki first thing in the morning,
 some spread their reviews throughout the day.
+
+### What do you think of "animecards" (high quality vocab cards)?
+
+It's one of worst plagues of the Japanese learning community.
+You should never use them.
+We recommend
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
+(TSCs) or fallback cards instead.
 
 ### Anki to immersion ratio. How much time should I spend SRSing?
 
@@ -152,21 +193,62 @@ reduce the number of new cards you learn,
 install [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode)
 Anki add-on.
 
-### What do you think of "animecards" (high quality vocab cards)?
+### How many new cards to learn each day?
 
-It's one of worst plagues of the Japanese learning community.
-You should never use them.
-We recommend
-[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
-(TSCs) or fallback cards instead.
+I recommend learning 10 to 30 new cards a day.
+The more new cards you do, the more reviews you'll have complete.
+
+You can get away with learning more new cards if you increase your `Interval modifier`,
+but it in return expect your retention to go down.
+
+Do not cap your reviews by decreasing `Maximum reviews/day` in order to do more new cards.
+It's not going to help you, instead you'll build up a huge backlog
+that will be invisible because Anki will hide it from you.
+
+### How to make monolingual TSCs for vocab and grammar?
+
+The process of making monolingual TSCs for grammar and vocab is the same
+because there's no significant difference between the two.
+
+* Download and install monolingual
+[dictionaries](yomichan-and-epwing-dictionaries.html)
+for Yomichan.
+* Keep JMdict enabled for times when your monolingual dictionaries don't pick up certain words.
+* Mine words as usual, delete English from your cards.
+
+Grammar points often only have English definitions.
+Rely on Yomichan to pin-point the grammar pattern, then use
+[Weblio](https://www.weblio.jp/),
+[sakura-paris](https://sakura-paris.org/dict/)
+or any search engine to look it up.
+
+Some people would prefer to install as many monolingual dictionaries as possbile
+to cover more ground and minimize the need to look up words online.
+
+### How to review and grade TSCs?
+
+TSCs are very flexible in how you can review them.
+
+When you learn a card for the first time,
+read the full sentence and understand its meaning as a whole,
+as well as meanings of individual words in isolation.
+
+When you review the card later,
+you can choose not to read the whole sentence
+and instead only read the target word.
+Read the word then reveal the back of the card and read the defenition.
+
+Pass the card if you understand the meaning and the reading of the target word.
+Don't recall the definition in case of a monolingual card
+or the translation in case of a bilingual card verbatim.
+Having a general idea of the meaning in your head is enough.
 
 ### Should I believe mattvsjapan and the Refold site?
 
 Generally, watching or reading the content he produced before around mid 2018 is safe
 because he seems to be quite honest in it.
-Things somewhat change when you stumble upon the content produced after that mark.
-Sometimes you see him giving watered down or even dishonest advice
-because he wants to appeal to a wider audience, to "normal" or "busy" people.
+But in recent years Matt has been criticized by many people for watering down the method
+because he wanted to appeal to a wider audience, to "normal" or "busy" people.
 
 On this site we try to push as hardcore as we can,
 so I recommend getting yourself familiar with the AJATT theory
@@ -204,6 +286,13 @@ On the back put the name with furigana, a photo and some basic information about
 Don't make cards for random people,
 instead add names of people you've seen a few times before.
 This is going to ensure that the names are somewhat frequent.
+
+### In order to increase my reading speed, should I force myself to start skimming?
+
+Khatzumoto recommended skimming mostly as a motivational tool.
+You skim boring parts to get to the fun parts, and it keeps you focused on your immersion.
+When it comes to reading speed, skimming won't help.
+If you read a lot, your reading speed will improve naturally.
 
 ### What should I be "doing" while actively immersing?
 
@@ -253,6 +342,13 @@ without active immersion you can't expect any improvement.
 It is possible to learn a language without passive immersion,
 but it is almost impossible to do with only passive immersion.
 You need to actively immerse and look up as many words as you can while doing so.
+
+### Watching raw or watching with Japanese subs?
+
+Both have their advantanges.
+When you watch with Japanese subs, you train your reading comprehension.
+When you watch raw, you train your listening comprehension.
+Try to balance the two.
 
 ### When do I make a card and when do I just keep going?
 
@@ -326,20 +422,19 @@ they can certainly be used to train production.
 However, I think that MCDs should not be used to train recognition
 because TSCs do the job better.
 
-### How to grade monolingual TSCs
-
-TSCs are very flexible in how you can review them.
-I recommend passing the card if you understand the meaning and the reading of the target word.
-Don't recall the definition.
-
 ### How to develop a personality in your L2?
 
 Unless you're a schizo you shouldn't think about it at all.
 
-### How to do to monolingual RTK?
+### How to do monolingual RTK?
 
 Don't do monolingual RTK, it's stupid and tedious.
 After you've achieved basic fluency, do production TSCs instead.
+
+### I'm struggling with kanji while working through Tango decks. Should I go through RTK?
+
+I wouldn't recommend that.
+Try the [JP1K method](learning-kanji.html#jp1k-method) instead.
 
 ### How to learn readings after finishing isolated kanji study?
 
@@ -351,6 +446,16 @@ At first you may want to use a premade deck.
 I recommend downloading
 [Ankidrone Starter Pack](basic-vocabulary.html)
 and learning 1-3 thousand words from it.
+
+### Do your Tango decks have audio or text on the front? Which way is better?
+
+Ankidrone Starter Pack contains bilingual TSCs with sentences on the front.
+Don't put audio on the front of your cards.
+
+### How to rep audio-based sentence cards?
+
+By pressing `Ctrl+Delete`.
+Audio-based cards are completely useless.
 
 ### How much listening should I do before I start reading?
 
@@ -420,6 +525,14 @@ If you study it deliberately, it's difficult.
 
 No, but you can get fluent with 12+ hours a day.
 
+### What are your current recommendations related to how to sentence mine?
+
+It's basically 90% Yomichan use.
+For movies and TV shows, I recommend mpv scripts.
+For manga, refer to my "Mining from manga" article to set up Tesseract.
+When you can't use the sentence you've encountered the word in,
+try to find [example sentences online](resources.html#examples-and-pronunciations).
+
 ### Should I limit how many sentences I mine from a single source?
 
 No.
@@ -451,9 +564,34 @@ Never used them.
 Don't recommend them.
 AJATT is about reading stuff made for natives.
 
-### Where are you from? Pakistan? India?
+### Why should I avoid Discord, Reddit, 4chan, etc.?
 
-Iraq.
+#### Discord
+
+Discord is substantially worse than any other messaging app.
+It's a proprietary spyware program.
+They call it "Discord servers" but that's a lie.
+You don't really have your own Discord server.
+It's not free software, you can't actually host it yourself and do anything, it's not serious.
+Most people there have no idea what they're saying, they don't know Japanese.
+It's gaymer trash.
+
+#### Reddit
+
+Recaptcha is required to register.
+Absolutely terrible privacy policy.
+People who don't know any Japanese.
+
+#### 4chan
+
+Recaptcha is required for every post.
+
+### Any good Japanese learning communities?
+
+* [Ajatt-Tools](join-our-community.html)
+* [Nanochan/a/](http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion/a/)
+* Various Matrix rooms
+* Some Telegram chats
 
 ### What is the anime you mined the most?
 
@@ -513,5 +651,14 @@ Video games are bad for immersion because they're hard to mine from.
 I haven't.
 You can't be stuck if you're doing AJATT,
 but you can be stuck if you slack on your immersion.
+
+### What operating system do you use?
+
+On my desktop and laptop,
+I use the [GNU operating system](https://www.gnu.org/)
+with [linux-hardened](https://github.com/anthraxx/linux-hardened).
+And the distribution of GNU that I use is [Arch Linux](https://archlinux.org/).
+
+On mobile I use [LineageOS](https://lineageos.org/) without Google Apps.
 
 Tags: guide
