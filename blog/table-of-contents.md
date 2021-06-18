@@ -20,10 +20,12 @@
 	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
 	* [Subtitle Re-sync](https://github.com/Ajatt-Tools/autosubsync-mpv) *
 	* [Writing by hand](writing-japanese.html)
+* Apocrypha
+	* [List of resources](resources.html)
+	* [FAQ](faq.html)
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
-* [List of resources](resources.html)
 
 \* To be updated.
 
