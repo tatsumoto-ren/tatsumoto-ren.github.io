@@ -77,7 +77,8 @@ You can also find it in the archive with all the other dictionaries you download
 To configure how pitch accent information is displayed,
 go to "Settings" > "Appearance" > "Pitch accent display styles".
 Enable "Downstep notation" and "Downstep position".
-I don't recommend enabling "Graph" because it's hard to connect moraes to their pitches.
+I don't recommend enabling "Graph"
+because it doesn't show connections between moraes and their corresponding pitches.
 
 ### Anki settings
 
