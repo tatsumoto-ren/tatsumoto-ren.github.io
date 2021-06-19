@@ -147,6 +147,19 @@ which force the reader to jump back and forth. But mostly it's very good.
 
 ### Frequency lists
 
+Frequency lists are dictionaries
+that display how frequently a word might appear in a given corpus.
+Often frequency dictionaries have different frequency notations.
+In some, a higher frequency number may indicate that the word is more frequent.
+In others, it's the opposite.
+You can use these dictionaries to judge
+whether it is worth for you to learn a certain word or not.
+Words that appear more frequently than others are more useful.
+
+<p align="center">
+	<a class="download_button" href="https://t.me/ajatt_tools/109">Download</a>
+</p>
+
 **The two that I recommend are:**
 
 * Netflix frequency list
@@ -156,9 +169,13 @@ These are a must-have if you watch dramas or anime a lot.
 
 **Additional frequency lists:**
 
-* Innocent corpus - novels
-* Narou - [top 300 Narou stories](http://wiki.wareya.moe/Narou)
-* VN - visual novels
+* Innocent corpus. Based on 5000+ novels.
+* Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
+* VN. Visual Novels.
+* BCCWJ - Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
+* DaijirinFreq. Words that appear in the `大辞林` monolingual dictionary.
+You may want to take a look at it if you've decided to go monolingual
+and you need to prioritize learning dictionary vocabulary.
 
 ### Other
 
