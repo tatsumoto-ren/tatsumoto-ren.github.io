@@ -126,7 +126,9 @@ until they can consume a wide variety of input and understand it perfectly.
 ### Kanji in the current year
 
 Back in my day RRTK didn't exist.
-The JP1K method didn't exist either.
+The
+[JP1K method](learning-kanji.html#jp1k-method)
+didn't exist either.
 I did KanjiDamage+.
 
 If I were to start today, I would probably start learning words right away.
@@ -140,6 +142,23 @@ If you watch JAV, skip all the parts where no one's talking.
 
 If you like erotic content, I recommend reading doujinshi.
 They offer higher language density.
+
+### Should I limit how much dubbed content I immerse with? What are the downsides of dubbed content?
+
+First of all, it's pretty hard to find dubbed content
+compared to native content in case of Japanese.
+You can probably do it if you use some paid platform, but torrents contain almost nothing.
+Second, Japanese has an abundance of native content
+so there's no need to substitute it with dubbed content.
+It's not a problem for other languages either.
+For example, I was surprised how many television dramas exist in Russian,
+probably even more than in Japanese,
+and they make new ones every month.
+
+Any dubbed content is stripped of basically all cultural interaction, it's just pure language.
+You're going to miss out on all the body language, gestures, concepts unique to the country.
+Taking this into account, dubbed content is not as good as native content,
+and I advice you limit how much you use it in your immersion.
 
 ### How to look up words on web pages?
 
@@ -489,6 +508,25 @@ Intermediate learners may include podcasts in the mix.
 
 Make a card and save it for later instead of learning it right away.
 
+### What are your current thoughts on removing cards once they pass a certain interval?
+
+The idea of removing (or suspending) cards once they reach a certain interval is harmful,
+especially if the interval is relatively short.
+Once you delete a card, you can't be sure that you will remember it when you need it.
+
+I would speculate that this idea was born
+in an attempt to lower the review load caused by using sentence cards.
+Sentence cards take longer to review compared to other card types,
+so in order to deal with it you could suspend older cards
+and only spend time on relatively young cards.
+
+Instead of sentence cards I recommend you use targeted sentence cards
+because they allow you to take shortcuts and review faster.
+
+It's alright to delete cards once they reach obscene intervals like 10-15 years.
+To find such cards, you can open the Anki Browser and type `prop:ivl>3650`.
+The number `3650` corresponds to card's interval in days.
+
 ### MorphMan for the monolingual transition?
 
 MorphMan is terrible for everything besides counting how many words you know.
@@ -533,6 +571,20 @@ For movies and TV shows, I recommend mpv scripts.
 For manga, refer to my "Mining from manga" article to set up Tesseract.
 When you can't use the sentence you've encountered the word in,
 try to find [example sentences online](resources.html#examples-and-pronunciations).
+
+### How do you learn how to write Japanese?
+
+See my [Writing Japanese](writing-japanese.html) article.
+
+If you want to learn how to write in Japanese,
+bear in mind that it's going to take a lot of time.
+You may want to reach a reasonable level of fluency before you choose to do that.
+
+If you want to live in Japan,
+writing Japanese is going to be important.
+Otherwise, only learn writing if you're passionate about it.
+These days the ability to produce kanji from memory isn't nearly as important as it used to be.
+Most people type on their phones or computers, and typing is done phonetically.
 
 ### Should I limit how many sentences I mine from a single source?
 
@@ -593,6 +645,22 @@ Recaptcha is required for every post.
 * [Nanochan/a/](http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion/a/)
 * Various Matrix rooms
 * Some Telegram chats
+
+### Are there any language learning YouTubers that you like? What YouTubers do you like in general?
+
+I don't watch YouTube because almost all content it offers is low quality.
+I can't recall any good language learning content ever posted on YouTube.
+If you want to familiarize yourself with language learning theory, search written guides online.
+It will take you less time to go through them because reading generally is faster than listening.
+
+When it comes to immersion content, however, YouTube can offer something you'll like.
+Things like streams, podcasts or news are good to listen to, especially for passive immersion.
+
+### What are your thoughts on timeboxing?
+
+Ever since I found out about timeboxing from the
+[AJATT site](http://www.alljapaneseallthetime.com/blog/secrets-to-smoother-srsing-part-5-timeboxing/),
+I've been applying it almost every day.
 
 ### What is the anime you mined the most?
 
