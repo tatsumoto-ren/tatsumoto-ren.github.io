@@ -38,6 +38,8 @@ because it is naturally more extensible and user-friendly.
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
 	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
 
+*Certain rooms may have their own sets of rules.*
+
 ## Matrix
 
 [Matrix](https://wiki.archlinux.org/index.php/Matrix)
@@ -59,6 +61,7 @@ that is **not** matrix.org.
 Alternatively, use a
 [web app](https://nerdsin.space/#/room/#djt:midov.pl)
 or open your client and type `/join #djt:midov.pl`.
+Commands that start with `/` work in most clients, including Element.
 
 ## Telegram
 
