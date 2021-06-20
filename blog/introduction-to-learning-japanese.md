@@ -16,6 +16,8 @@ that should get you to basic fluency in less than two years.
 
 > I'm just one person who took ideas from other people,
 > applied them systematically and found success with it.
+>
+> *― Khatzumoto*
 
 Consuming the language is how you learn the language.
 You know, babies can only cry and poop their pants
