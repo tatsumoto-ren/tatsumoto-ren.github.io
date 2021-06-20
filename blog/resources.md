@@ -152,6 +152,7 @@ You may need a Japanese IP address for some of these.
 * [動漫花園](https://share.dmhy.org/)
 * [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
+* [This gist](https://gist.github.com/tatsumoto-ren/78ba4e5b7c53c7ed2c987015fa05cc2b)
 
 ## Software
 
@@ -263,6 +264,10 @@ For any given word, searches through Aozora Bunko
 for all instances where it was used with furigana
 and shows the percentage of each reading.
 Great for when the dictionary lists multiple readings and you want to know which is dominant.
+* [書き順](https://kakijun.jp).
+A website that shows you how to write a given kanji and how it looks written in different fonts.
+* [漢字辞典](https://kanji.jitenon.jp/).
+Monolingual kanji dictionary.
 
 ### Offline
 
