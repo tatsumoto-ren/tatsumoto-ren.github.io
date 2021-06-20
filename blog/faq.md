@@ -60,12 +60,17 @@ you can call yourself fluent.
 	</a>
 </p>
 
+### What's AJATT?
+
+AJATT is a method of reaching fluency in Japanese in a relatively short period of time.
+This site was inspired by the method.
+
 ### Should I read the AJATT site?
 
 Only the [Table of Contents](http://ajatt.com/toc).
-Everything else isn't worth your time
-unless you're really passionate about becoming a scholar of AJATT.
-Don't enter your Email address and don't buy the paid products.
+Everything else isn't worth your time.
+Don't enter your Email address and don't buy the paid products it offers,
+there are free alternatives.
 
 ### Should I watch anime with English subtitles?
 
@@ -271,7 +276,8 @@ because he wanted to appeal to a wider audience, to "normal" or "busy" people.
 
 On this site we try to push as hardcore as we can,
 so I recommend getting yourself familiar with the AJATT theory
-before you engage with Matt's content.
+before you engage with Refold's content.
+It will enable you to distinguish hardcore advice from advice for general audience.
 
 Don't get me wrong though,
 listening to mattvsjapan is still a thousand times better
@@ -661,6 +667,8 @@ Things like streams, podcasts or news are good to listen to, especially for pass
 Ever since I found out about timeboxing from the
 [AJATT site](http://www.alljapaneseallthetime.com/blog/secrets-to-smoother-srsing-part-5-timeboxing/),
 I've been applying it almost every day.
+I usually stick to a simple [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) routine,
+but sometimes I use shorter intervals.
 
 ### What is the anime you mined the most?
 
