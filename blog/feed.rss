@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Sat, 19 Jun 2021 04:48:26 +0300</lastBuildDate>
-<pubDate>Sat, 19 Jun 2021 04:48:26 +0300</pubDate>
+<lastBuildDate>Mon, 21 Jun 2021 03:05:21 +0300</lastBuildDate>
+<pubDate>Mon, 21 Jun 2021 03:05:21 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Japanese fonts</title><description><![CDATA[
+<p>On a freshly installed GNU/Linux distro
+Japanese characters may look like crap.
+This can be fixed by installing
+<a href="https://wiki.archlinux.org/title/Localization/Japanese#Fonts">Japanese fonts</a>
+and creating a proper
+<a href="https://wiki.archlinux.org/title/Font_configuration">Fontconfig</a>
+configuration file.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/japanese-fonts.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/japanese-fonts.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 20 Jun 2021 22:20:40 +0300</pubDate></item>
 <item><title>
 FAQ</title><description><![CDATA[
 <p>This is Tatsumoto's AJATT FAQ.
@@ -174,50 +188,4 @@ To do so, you're going to use an optical character recognition program and a few
 <guid>https://tatsumoto-ren.github.io/blog/mining-from-manga.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 01 Apr 2021 10:08:10 +0300</pubDate></item>
-<item><title>
-Table of Contents</title><description><![CDATA[
-<ul>
-<li><a href="foreword.html">Foreword</a></li>
-<li><a href="introduction-to-learning-japanese.html">Introduction to learning Japanese</a></li>
-<li>Setup<ul>
-<li><a href="setting-up-anki.html">Anki</a></li>
-<li><a href="useful-anki-add-ons-for-japanese.html">Anki add-ons</a></li>
-<li><a href="discussing-various-card-templates.html">Card templates</a></li>
-<li><a href="setting-up-yomichan.html">Yomichan</a></li>
-<li><a href="yomichan-and-epwing-dictionaries.html">Dictionaries</a></li>
-</ul>
-</li>
-<li>Basics<ul>
-<li><a href="learning-kana-in-two-days.html">Kana</a></li>
-<li><a href="learning-kanji.html">Kanji</a></li>
-<li><a href="jp1k-anki-deck.html">Kanji Anki deck</a></li>
-<li><a href="basic-vocabulary.html">Basic vocabulary</a></li>
-</ul>
-</li>
-<li>Tools and card creation<ul>
-<li><a href="our-immersion-learning-toolset.html">Our immersion learning toolset</a></li>
-<li><a href="passive-listening.html">Passive listening</a></li>
-<li><a href="mining-from-manga.html">Manga</a></li>
-<li><a href="mining-from-movies-and-tv-shows.html">Movies and TV-shows</a></li>
-<li><a href="https://github.com/Ajatt-Tools/autosubsync-mpv">Subtitle Re-sync</a> *</li>
-<li><a href="writing-japanese.html">Writing by hand</a></li>
-</ul>
-</li>
-<li>Apocrypha<ul>
-<li><a href="resources.html">List of resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
-</ul>
-</li>
-<li>Contact and Support<ul>
-<li><a href="join-our-community.html">Join our community</a></li>
-<li><a href="donating-to-tatsumoto.html">Support</a></li>
-</ul>
-</li>
-</ul>
-<p>* To be updated.</p>
-<p>Tags: <a href='tag_guide.html'>guide</a></p>
-]]></description><link>https://tatsumoto-ren.github.io/blog/table-of-contents.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/table-of-contents.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 22 Mar 2021 04:10:54 +0300</pubDate></item>
 </channel></rss>
