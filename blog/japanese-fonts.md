@@ -18,10 +18,11 @@ configuration file.
 
 One thing to beware of is Chinese glyphs.
 Unicode uses a unified database for CJK characters called Unihan.
+Unfortunately, kanji characters in Chinese and Japanese don't look the same.
 Depending on the font used,
 a single Unicode character may be represented by different glyphs.
 If your system prioritizes Chinese fonts over Japanese fonts,
-it will display kanji in a Chinese font instead of a Japanese one,
+it will display kanji with a Chinese font instead of a Japanese one,
 and it's not what you want.
 No matter what OS or device you use, you may be affected if your settings are off.
 
@@ -60,7 +61,7 @@ bypassing the need to individually configure each program you use.
 This applies to fonts in your browser, Yomichan popups, Anki, etc.
 
 Create a config file at `~/.config/fontconfig/conf.d/99-japanese-fonts.conf`.
-The name of the file should always start with a two digit number.
+The name of the file should always start with a two-digit number.
 Applications automatically find and read this file
 to discover available fonts and how they get rendered.
 After you make changes to it,
@@ -113,13 +114,13 @@ If it doesn't, go to "Settings" > "Fonts and Colors" and set the fonts yourself.
 ## Yomichan
 
 Likewise, no special configuration required.
-If you wish to specify a differnt font, edit the Popup CSS.
+If you wish to specify a different font, edit the Popup CSS.
 
 Go to Yomichan Settings > "Appearance" > "Configure custom CSS...".
 Use the browser's "Inspect" feature to find out CSS class names you want to apply font settings to.
-For example, the content of dictionary definitons
+For example, the content of dictionary definitions
 can be styled by editing rules for `.gloss-content`.
-Alternatively, you can apply settgins to `body` to change the font of the entire Popup.
+Alternatively, you can apply settings to `body` to change the font of the entire Popup.
 
 ```
 .gloss-content {
@@ -132,19 +133,19 @@ Alternatively, you can apply settgins to `body` to change the font of the entire
 Anki has a feature that allows you to store font files in the `collection.media` folder
 and sync them with all your devices, including mobile.
 The purpose of this feature is not to enable Anki to display the right fonts,
-they should work already as long as you've completed the steps above,
-but to let you have the same fonts on all your devices
+they should work properly as long as you've completed the steps above.
+It is to let you have the same fonts on all your devices
 without the need to install them on each device separately.
 
 The
 [recommended example deck](setting-up-anki.html#import-an-example-mining-deck)
-comes with built-in fonts, no additional action is needed.
-If you wish to use a differnt deck, follow the steps below.
+comes with built-in Japanese fonts, no additional action is needed.
+If you wish to use a different deck, follow the steps below.
 
 1) Copy the font file of your choice to `~/.local/share/Anki2/PROFILE/collection.media`,
 where `PROFILE` is your profile name.
-The filename must start with `_` or Anki will delete it the next time you run "Check media".
-Let's say my font is called `_yumin.ttf`.
+The filename must start with `_` or Anki will delete the file if you run "Tools" > "Check media".
+For this example I'm going to use a font called `_yumin.ttf`.
 2) Open your Note Type settings.
 Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling".
 3)
@@ -174,7 +175,7 @@ If you review on Android,
 note that there's a bug that causes AnkiDroid to run out of memory
 and crash when using fonts stored in `collection.media`.
 If this happens to you,
-consider installing a different webview implementation or not using custom fonts at all.
+consider installing a different WebView implementation or not using custom fonts at all.
 
 ## Android
 
@@ -182,13 +183,23 @@ If you happen to see Chinese fonts on Android,
 simply add Japanese to the list of system languages.
 To do so, go to "Settings" > "System" > "Language and input".
 
+<p align="center"><img style="width: 400px;" alt="android settings" src="img/android_languages.webp"></p>
+<p align="center"><i>A list of system languages.</i></p>
+
 ## Conclusion
+
+Now that you've configured Japanese fonts, you're ready to learn Japanese.
+You won't accidentally learn Chinese versions of kanji
+because your computer refuses to render them with Japanese glyphs.
+
+<p align="center"><img style="width: 600px;" src="img/japanese_text.webp"></p>
+<p align="center"><i>How Japanese looks on my computer.</i></p>
 
 Now I hope you see why GNU/Linux is the best OS for learning Japanese.
 On Windows, fonts look like shit no matter what you do to fix them.
 They're pixelated, and they literally glow.
 
 <p align="center"><img alt="comparison" src="img/windows_ui_example.webp"></p>
-<p align="center"><i>How fonts look on Windows.</i></p>
+<p align="center"><i>How fonts typically look on Windows.</i></p>
 
 Tags: guide

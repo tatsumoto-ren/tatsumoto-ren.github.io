@@ -57,10 +57,11 @@ configuration file.</p>
 </blockquote>
 <p>One thing to beware of is Chinese glyphs.
 Unicode uses a unified database for CJK characters called Unihan.
+Unfortunately, kanji characters in Chinese and Japanese don't look the same.
 Depending on the font used,
 a single Unicode character may be represented by different glyphs.
 If your system prioritizes Chinese fonts over Japanese fonts,
-it will display kanji in a Chinese font instead of a Japanese one,
+it will display kanji with a Chinese font instead of a Japanese one,
 and it's not what you want.
 No matter what OS or device you use, you may be affected if your settings are off.</p>
 <p>Certain kanji characters may look drastically different if a Chinese font is used.
@@ -88,7 +89,7 @@ By applying Fontconfig settings you can kill all birds with one stone,
 bypassing the need to individually configure each program you use.
 This applies to fonts in your browser, Yomichan popups, Anki, etc.</p>
 <p>Create a config file at <code>~/.config/fontconfig/conf.d/99-japanese-fonts.conf</code>.
-The name of the file should always start with a two digit number.
+The name of the file should always start with a two-digit number.
 Applications automatically find and read this file
 to discover available fonts and how they get rendered.
 After you make changes to it,
@@ -126,12 +127,12 @@ Xft.rgba:	none
 If it doesn't, go to &quot;Settings&quot; &gt; &quot;Fonts and Colors&quot; and set the fonts yourself.</p>
 <h2><a class="anchor" id="yomichan" href="#yomichan" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Yomichan</h2>
 <p>Likewise, no special configuration required.
-If you wish to specify a differnt font, edit the Popup CSS.</p>
+If you wish to specify a different font, edit the Popup CSS.</p>
 <p>Go to Yomichan Settings &gt; &quot;Appearance&quot; &gt; &quot;Configure custom CSS...&quot;.
 Use the browser's &quot;Inspect&quot; feature to find out CSS class names you want to apply font settings to.
-For example, the content of dictionary definitons
+For example, the content of dictionary definitions
 can be styled by editing rules for <code>.gloss-content</code>.
-Alternatively, you can apply settgins to <code>body</code> to change the font of the entire Popup.</p>
+Alternatively, you can apply settings to <code>body</code> to change the font of the entire Popup.</p>
 <pre><code>.gloss-content {
    font-family: Yu Mincho;
 }
@@ -140,18 +141,18 @@ Alternatively, you can apply settgins to <code>body</code> to change the font of
 <p>Anki has a feature that allows you to store font files in the <code>collection.media</code> folder
 and sync them with all your devices, including mobile.
 The purpose of this feature is not to enable Anki to display the right fonts,
-they should work already as long as you've completed the steps above,
-but to let you have the same fonts on all your devices
+they should work properly as long as you've completed the steps above.
+It is to let you have the same fonts on all your devices
 without the need to install them on each device separately.</p>
 <p>The
 <a href="setting-up-anki.html#import-an-example-mining-deck">recommended example deck</a>
-comes with built-in fonts, no additional action is needed.
-If you wish to use a differnt deck, follow the steps below.</p>
+comes with built-in Japanese fonts, no additional action is needed.
+If you wish to use a different deck, follow the steps below.</p>
 <ol>
 <li><p>Copy the font file of your choice to <code>~/.local/share/Anki2/PROFILE/collection.media</code>,
 where <code>PROFILE</code> is your profile name.
-The filename must start with <code>_</code> or Anki will delete it the next time you run &quot;Check media&quot;.
-Let's say my font is called <code>_yumin.ttf</code>.</p>
+The filename must start with <code>_</code> or Anki will delete the file if you run &quot;Tools&quot; &gt; &quot;Check media&quot;.
+For this example I'm going to use a font called <code>_yumin.ttf</code>.</p>
 </li>
 <li><p>Open your Note Type settings.
 Go to &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; choose your Note Type &gt; &quot;Cards&quot; &gt; &quot;Styling&quot;.</p>
@@ -179,17 +180,24 @@ if it's already installed system-wide.</p>
 note that there's a bug that causes AnkiDroid to run out of memory
 and crash when using fonts stored in <code>collection.media</code>.
 If this happens to you,
-consider installing a different webview implementation or not using custom fonts at all.</p>
+consider installing a different WebView implementation or not using custom fonts at all.</p>
 <h2><a class="anchor" id="android" href="#android" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android</h2>
 <p>If you happen to see Chinese fonts on Android,
 simply add Japanese to the list of system languages.
 To do so, go to &quot;Settings&quot; &gt; &quot;System&quot; &gt; &quot;Language and input&quot;.</p>
+<p align="center"><img style="width: 400px;" alt="android settings" src="img/android_languages.webp"></p>
+<p align="center"><i>A list of system languages.</i></p>
 <h2><a class="anchor" id="conclusion" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>Now that you've configured Japanese fonts, you're ready to learn Japanese.
+You won't accidentally learn Chinese versions of kanji
+because your computer refuses to render them with Japanese glyphs.</p>
+<p align="center"><img style="width: 600px;" src="img/japanese_text.webp"></p>
+<p align="center"><i>How Japanese looks on my computer.</i></p>
 <p>Now I hope you see why GNU/Linux is the best OS for learning Japanese.
 On Windows, fonts look like shit no matter what you do to fix them.
 They're pixelated, and they literally glow.</p>
 <p align="center"><img alt="comparison" src="img/windows_ui_example.webp"></p>
-<p align="center"><i>How fonts look on Windows.</i></p>
+<p align="center"><i>How fonts typically look on Windows.</i></p>
 <p>Tags: <a href='tag_guide.html'>guide</a></p>
 <!-- text end -->
 </article>
