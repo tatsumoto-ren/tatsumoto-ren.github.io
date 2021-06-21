@@ -8,6 +8,7 @@
 	* [Card templates](discussing-various-card-templates.html)
 	* [Yomichan](setting-up-yomichan.html)
 	* [Dictionaries](yomichan-and-epwing-dictionaries.html)
+	* [Fonts](japanese-fonts.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
