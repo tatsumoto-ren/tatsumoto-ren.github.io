@@ -43,7 +43,7 @@
 <div class="subtitle">June 20, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
 <p>On a freshly installed GNU/Linux distro
-Japanese characters may look like crap.
+Japanese characters may not look pretty.
 This can be fixed by installing
 <a href="https://wiki.archlinux.org/title/Localization/Japanese#Fonts">Japanese fonts</a>
 and creating a proper
@@ -69,8 +69,9 @@ A prominent example is <code>直</code>.
 This kanji is quite common and can be seen in words like <code>正直</code> or <code>直ぐ</code>.</p>
 <p align="center"><img src="img/glyph_comparison.webp"></p>
 <p align="center"><i>Noto Serif CJK SC vs Noto Serif CJK JP.</i></p>
-<p>If your browser renders <code>直</code> as on the left side of the picture,
-you need to change your settings.</p>
+<p>If <code>直</code> renders without the vertical line on the left side,
+your browser is using Chinese fonts for Japanese.
+You need to install Japanese fonts and change your system settings.</p>
 <h2><a class="anchor" id="installing-fonts" href="#installing-fonts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installing fonts</h2>
 <p>Install
 <a href="https://ipafont.ipa.go.jp/">otf-ipafont</a>
@@ -88,7 +89,7 @@ This is either <code>~/.local/share/fonts</code> or <code>/usr/share/fonts/</cod
 By applying Fontconfig settings you can kill all birds with one stone,
 bypassing the need to individually configure each program you use.
 This applies to fonts in your browser, Yomichan popups, Anki, etc.</p>
-<p>Create a config file at <code>~/.config/fontconfig/conf.d/99-japanese-fonts.conf</code>.
+<p>Create a config file <code>~/.config/fontconfig/conf.d/99-japanese-fonts.conf</code>.
 The name of the file should always start with a two-digit number.
 Applications automatically find and read this file
 to discover available fonts and how they get rendered.
@@ -107,13 +108,15 @@ The program lets you change various font settings.
 Antialiasing and hinting aren't too noticeable,
 feel free to experiment for yourself.
 I just leave them on.</p>
+<p align="center"><img class="shadow" alt="lxappearance" src="img/lxappearance_font_settings.webp"></p>
 <p>The setting that does noticeably affect how text looks is sub-pixel geometry.
 If it's set to &quot;RGB&quot;, the text turns into a rainbow, so I recommend keeping it at &quot;none&quot;.</p>
 <p align="center"><img alt="comparison" src="img/rgb_on_off.webp"></p>
 <p align="center"><i>RGB on and off.</i></p>
 <p>Some applications ignore Fontconfig settings.
 You can work around this by using
-<a href="https://wiki.archlinux.org/title/X_resources">X resources</a>.</p>
+<a href="https://wiki.archlinux.org/title/X_resources">X resources</a>.
+Below is a snippet from my <code>~/.Xresources</code> file.</p>
 <pre><code>Xft.antialias:	1
 Xft.autohint:	0
 Xft.dpi:	96
@@ -122,6 +125,9 @@ Xft.hintstyle:	hintslight
 Xft.lcdfilter:	lcddefault
 Xft.rgba:	none
 </code></pre>
+<p><strong>Note:</strong> Make sure that you load the X resources file on login.
+If it doesn't happen automatically, you need to edit your <code>.xinitrc</code> file or change other settings.
+Refer to Arch Wiki for instructions.</p>
 <h2><a class="anchor" id="firefox" href="#firefox" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Firefox</h2>
 <p>Firefox should automatically pick up your Fontconfig settings.
 If it doesn't, go to &quot;Settings&quot; &gt; &quot;Fonts and Colors&quot; and set the fonts yourself.</p>
@@ -167,7 +173,8 @@ Go to &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; choose your Note
 }
 </code></pre>
 <p>The <code>local</code> setting makes sure the font doesn't get loaded
-if it's already installed system-wide.</p>
+if it's already installed system-wide.
+Mind what name you specify for the font.</p>
 </li>
 <li><p>Scroll down to <code>.card</code> class and change or append the font's name to <code>font-family</code>.</p>
 <pre><code>.card {

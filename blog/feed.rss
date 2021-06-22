@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Mon, 21 Jun 2021 04:11:10 +0300</lastBuildDate>
-<pubDate>Mon, 21 Jun 2021 04:11:10 +0300</pubDate>
+<lastBuildDate>Tue, 22 Jun 2021 07:12:43 +0300</lastBuildDate>
+<pubDate>Tue, 22 Jun 2021 07:12:43 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Japanese fonts</title><description><![CDATA[
 <p>On a freshly installed GNU/Linux distro
-Japanese characters may look like crap.
+Japanese characters may not look pretty.
 This can be fixed by installing
 <a href="https://wiki.archlinux.org/title/Localization/Japanese#Fonts">Japanese fonts</a>
 and creating a proper

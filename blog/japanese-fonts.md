@@ -1,7 +1,7 @@
 # Japanese fonts
 
 On a freshly installed GNU/Linux distro
-Japanese characters may look like crap.
+Japanese characters may not look pretty.
 This can be fixed by installing
 [Japanese fonts](https://wiki.archlinux.org/title/Localization/Japanese#Fonts)
 and creating a proper
@@ -33,8 +33,9 @@ This kanji is quite common and can be seen in words like `正直` or `直ぐ`.
 <p align="center"><img src="img/glyph_comparison.webp"></p>
 <p align="center"><i>Noto Serif CJK SC vs Noto Serif CJK JP.</i></p>
 
-If your browser renders `直` as on the left side of the picture,
-you need to change your settings.
+If `直` renders without the vertical line on the left side,
+your browser is using Chinese fonts for Japanese.
+You need to install Japanese fonts and change your system settings.
 
 ## Installing fonts
 
@@ -60,7 +61,7 @@ By applying Fontconfig settings you can kill all birds with one stone,
 bypassing the need to individually configure each program you use.
 This applies to fonts in your browser, Yomichan popups, Anki, etc.
 
-Create a config file at `~/.config/fontconfig/conf.d/99-japanese-fonts.conf`.
+Create a config file `~/.config/fontconfig/conf.d/99-japanese-fonts.conf`.
 The name of the file should always start with a two-digit number.
 Applications automatically find and read this file
 to discover available fonts and how they get rendered.
@@ -86,6 +87,8 @@ Antialiasing and hinting aren't too noticeable,
 feel free to experiment for yourself.
 I just leave them on.
 
+<p align="center"><img class="shadow" alt="lxappearance" src="img/lxappearance_font_settings.webp"></p>
+
 The setting that does noticeably affect how text looks is sub-pixel geometry.
 If it's set to "RGB", the text turns into a rainbow, so I recommend keeping it at "none".
 
@@ -95,6 +98,7 @@ If it's set to "RGB", the text turns into a rainbow, so I recommend keeping it a
 Some applications ignore Fontconfig settings.
 You can work around this by using
 [X resources](https://wiki.archlinux.org/title/X_resources).
+Below is a snippet from my `~/.Xresources` file.
 
 ```
 Xft.antialias:	1
@@ -105,6 +109,10 @@ Xft.hintstyle:	hintslight
 Xft.lcdfilter:	lcddefault
 Xft.rgba:	none
 ```
+
+**Note:** Make sure that you load the X resources file on login.
+If it doesn't happen automatically, you need to edit your `.xinitrc` file or change other settings.
+Refer to Arch Wiki for instructions.
 
 ## Firefox
 
@@ -163,6 +171,7 @@ Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling
 
 	The `local` setting makes sure the font doesn't get loaded
 	if it's already installed system-wide.
+	Mind what name you specify for the font.
 4)
 	Scroll down to `.card` class and change or append the font's name to `font-family`.
 	```
