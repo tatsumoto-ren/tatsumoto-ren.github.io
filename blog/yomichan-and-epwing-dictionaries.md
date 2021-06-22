@@ -137,8 +137,9 @@ which force the reader to jump back and forth. But mostly it's very good.
 
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
-Definitions are easy to understand for beginners.
+Definitions are easy to understand for people new to monolingual dictionaries.
 Requires adding [these rules](https://pastebin.com/R1gM3wU0) to your Yomichan Popup CSS.
+The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
 * Weblio古語辞典. Archaism dictionary from Weblio.
 * 新辞林
