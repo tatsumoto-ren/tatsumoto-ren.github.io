@@ -112,15 +112,17 @@ and click the button <code>Import Dictionary</code>.</p>
 <h2><a class="anchor" id="what-these-dictionaries-are" href="#what-these-dictionaries-are" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What these dictionaries are</h2>
 <h3><a class="anchor" id="bilingual" href="#bilingual" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bilingual</h3>
 <p>The goal of bilingual dictionaries is to provide you with a rough tool
-to enable you to get by until you make the monolingual transition.
+to enable you to get by until you go monolingual.
 So the TLDR here is to import only
 <a href="https://foosoft.net/projects/yomichan/dl/dict/jmdict_english.zip">JMdict</a>
 and move on.</p>
 <ul>
-<li>JMdict - The dictionary that you find on
+<li><a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project">JMdict</a>.
+The dictionary that you find on
 <a href="https://jisho.org/">Jisho.org</a>.
-It doesn't have example sentences but as a workaround you can search them on Jisho
-by typing <code>word #sentence</code>. <a href="https://jisho.org/search/test%20%23sentence">Example</a>.</li>
+JMdict doesn't have example sentences.
+If you need them, try the resources listed
+<a href="resources.html#examples-and-pronunciations">here</a>.</li>
 <li>研究社新和英大辞典 - A dictionary made by Japanese people and intended for Japanese people.
 It has example sentences but I don't recommend using it over JMdict
 because it clutters Yomichan window.
@@ -147,7 +149,8 @@ With monolingual dictionaries you can learn your target language in your target 
 </ul>
 <p><code>大辞林</code> and <code>大辞泉</code> are quite similar to each other,
 have good definitions and contain many entries.
-Prefer デジタル大辞泉 over the original 大辞泉. It has an extra 120 000 entries.
+Prefer デジタル大辞泉 over the original 大辞泉.
+It has an extra 120 000 entries and contains images.
 <code>明鏡</code> and <code>新明解</code> use easy language and are considered beginner-friendly.
 <code>新明解</code> doesn't have many entries and has a convoluted definition structure
 that employs a lot of redirections marked with <code>△</code> and <code>（）</code>
@@ -158,7 +161,6 @@ which force the reader to jump back and forth. But mostly it's very good.
 <li>旺文社国語辞典.
 A dictionary by Oubunsha.
 Definitions are easy to understand for people new to monolingual dictionaries.
-Requires adding <a href="https://pastebin.com/R1gM3wU0">these rules</a> to your Yomichan Popup CSS.
 The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 <strong>画像無し</strong>.</li>
 <li>Weblio古語辞典. Archaism dictionary from Weblio.</li>
@@ -173,6 +175,37 @@ There's a version without images called 旺文社国語辞典 第十一版 <stro
 <li>広辞苑</li>
 <li>故事ことわざの辞典. Proverb dictionary.</li>
 </ul>
+<p><strong>Note:</strong> If you want to use <code>デジタル大辞泉</code> or <code>旺文社国語辞典</code>,
+images will render incorrectly unless you
+append the follwing rules to your Popup CSS.
+Go to Yomichan settings &gt; &quot;Appearance&quot; &gt; &quot;Configure custom CSS...&quot;.</p>
+<details>
+<summary>Popup CSS for images</summary>
+<pre><code>.gloss-image-description {
+    text-align: center;
+}
+.definition-item-content,
+.gloss-image-link {
+    max-width: 100%;
+}
+.gloss-image-container {
+    background: none !important;
+}
+.gloss-image-link[data-has-aspect-ratio=&quot;true&quot;] .gloss-image {
+    position: static;
+    max-height: 200px;
+}
+.gloss-image-link[data-has-aspect-ratio=&quot;true&quot;] .gloss-image-aspect-ratio-sizer {
+    display: none;
+}
+.gloss-image-container-overlay {
+    display: none;
+}
+img {
+    will-change: transform;
+}
+</code></pre>
+</details>
 <h3><a class="anchor" id="frequency-lists" href="#frequency-lists" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frequency lists</h3>
 <p>Frequency lists are dictionaries
 that display how frequently a word might appear in a given corpus.
@@ -207,8 +240,9 @@ and you need to prioritize learning dictionary vocabulary.</li>
 <h3><a class="anchor" id="other" href="#other" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other</h3>
 <ul>
 <li><a href="https://www.edrdg.org/enamdict/enamdict_doc.html">JMnedict</a>. Japanese names.</li>
-<li>KANJIDIC. J-E kanji dictionary.</li>
+<li><a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project">KANJIDIC</a>. J-E kanji dictionary.</li>
 <li>漢字源. Monolingual kanji dictionary.</li>
+<li><a href="https://github.com/mifunetoshiro/kanjium">Kanjium</a>. Pitch accent dictionary.</li>
 </ul>
 <h2><a class="anchor" id="dont-import-all-yomichan-dictionaries" href="#dont-import-all-yomichan-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Don't import all Yomichan dictionaries</h2>
 <p>You need to have a lot of dictionaries at hand

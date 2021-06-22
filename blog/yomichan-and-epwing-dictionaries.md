@@ -86,15 +86,17 @@ and click the button `Import Dictionary`.
 ### Bilingual
 
 The goal of bilingual dictionaries is to provide you with a rough tool
-to enable you to get by until you make the monolingual transition.
+to enable you to get by until you go monolingual.
 So the TLDR here is to import only
 [JMdict](https://foosoft.net/projects/yomichan/dl/dict/jmdict_english.zip)
 and move on.
 
-* JMdict - The dictionary that you find on
+* [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project).
+The dictionary that you find on
 [Jisho.org](https://jisho.org/).
-It doesn't have example sentences but as a workaround you can search them on Jisho
-by typing `word #sentence`. [Example](https://jisho.org/search/test%20%23sentence).
+JMdict doesn't have example sentences.
+If you need them, try the resources listed
+[here](resources.html#examples-and-pronunciations).
 * 研究社新和英大辞典 - A dictionary made by Japanese people and intended for Japanese people.
 It has example sentences but I don't recommend using it over JMdict
 because it clutters Yomichan window.
@@ -123,7 +125,8 @@ With monolingual dictionaries you can learn your target language in your target 
 
 `大辞林` and `大辞泉` are quite similar to each other,
 have good definitions and contain many entries.
-Prefer デジタル大辞泉 over the original 大辞泉. It has an extra 120 000 entries.
+Prefer デジタル大辞泉 over the original 大辞泉.
+It has an extra 120 000 entries and contains images.
 `明鏡` and `新明解` use easy language and are considered beginner-friendly.
 `新明解` doesn't have many entries and has a convoluted definition structure
 that employs a lot of redirections marked with `△` and `（）`
@@ -135,7 +138,6 @@ which force the reader to jump back and forth. But mostly it's very good.
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
 Definitions are easy to understand for people new to monolingual dictionaries.
-Requires adding [these rules](https://pastebin.com/R1gM3wU0) to your Yomichan Popup CSS.
 The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
 * Weblio古語辞典. Archaism dictionary from Weblio.
@@ -148,6 +150,48 @@ There's a version without images called 旺文社国語辞典 第十一版 **画
 * 広辞苑
 * 故事ことわざの辞典. Proverb dictionary.
 
+
+**Note:** If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
+images will render incorrectly unless you
+append the follwing rules to your Popup CSS.
+Go to Yomichan settings > "Appearance" > "Configure custom CSS...".
+
+<details>
+<summary>Popup CSS for images</summary>
+
+```
+.gloss-image-description {
+    text-align: center;
+}
+
+.definition-item-content,
+.gloss-image-link {
+    max-width: 100%;
+}
+
+.gloss-image-container {
+    background: none !important;
+}
+
+.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image {
+    position: static;
+    max-height: 200px;
+}
+
+.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image-aspect-ratio-sizer {
+    display: none;
+}
+
+.gloss-image-container-overlay {
+    display: none;
+}
+
+img {
+    will-change: transform;
+}
+```
+
+</details>
 
 ### Frequency lists
 
@@ -187,8 +231,9 @@ and you need to prioritize learning dictionary vocabulary.
 ### Other
 
 * [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
-* KANJIDIC. J-E kanji dictionary.
+* [KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project). J-E kanji dictionary.
 * 漢字源. Monolingual kanji dictionary.
+* [Kanjium](https://github.com/mifunetoshiro/kanjium). Pitch accent dictionary.
 
 ## Don't import all Yomichan dictionaries
 
