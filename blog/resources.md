@@ -253,6 +253,8 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 * [wadoku.de](https://wadoku.de/).
 Has pitch accent.
 * [weblio.jp](https://www.weblio.jp/)
+* [goo辞書](https://dictionary.goo.ne.jp/)
+* [Kotobank](https://kotobank.jp/)
 * [ichi.moe](https://ichi.moe/)
 * [広辞苑無料検索](https://sakura-paris.org/dict/).
 Allows you to search many monolingual dictionaries.
