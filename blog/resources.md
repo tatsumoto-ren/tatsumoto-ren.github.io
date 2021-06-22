@@ -125,11 +125,14 @@ Lets you read web novels for free.
 An Internet library of classic Japanese literature.
 * [Aozora Bunko archive](https://archive.org/details/aozorabunko).
 Books from Aozora Bunko in `epub`, `pdf` and other formats.
+* [Aozora Bunko stats](https://core6000.neocities.org/aozora/).
+Books sorted by the number of kanji used.
 
 ### Audio
 
 * [Podcasts opml](https://t.me/ajatt_tools/80).
 About 200 Japanese podcasts for constant passive listening.
+* [AuDee Podcasts](https://audee.jp/)
 
 Don't use streaming sites and sites for reading manga online if possible.
 Always download what you consume.
@@ -271,8 +274,8 @@ Monolingual kanji dictionary.
 
 ### Offline
 
+* [qolibri](https://aur.archlinux.org/packages/qolibri/) + [dictionary files](yomichan-and-epwing-dictionaries.html#epwing)
 * [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
-* [qolibri](https://aur.archlinux.org/packages/qolibri/)
 * [Tagaini Jisho](https://www.tagaini.net/)
 
 ### Android
