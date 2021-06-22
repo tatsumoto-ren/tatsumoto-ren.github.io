@@ -21,7 +21,7 @@ or
 [yay](https://aur.archlinux.org/packages/yay/):
 
 ```
-$ trizen -S qolibri
+$ trizen -S qolibri # or yay
 ```
 
 To get Yomichan follow
@@ -57,7 +57,10 @@ to have quicker access to their definitions.
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
 <p align="center">
-	<a class="download_button" href="https://t.me/ajatt_tools/36">Download</a>
+	<a class="download_button" href="https://t.me/ajatt_tools/115">Download</a>
+</p>
+<p align="center">
+	<a href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Mirror</a>
 </p>
 
 <details>
@@ -72,8 +75,6 @@ Below is a list of public folders that were used.
 	* [Yomichan Dictionaries](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
 	* [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
 	* [Pitch Accent Dictionary](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
-* [Shared by shoui](https://drive.google.com/file/d/1hcxKK-06LJxp-pr-8EuSPrCaFhWwXylp/view?usp=sharing)
-([monolingual guide](https://learnjapanese.moe/monolingual/))
 
 </details>
 
@@ -134,15 +135,20 @@ which force the reader to jump back and forth. But mostly it's very good.
 
 **Additional dictionaries:**
 
-* Weblio古語辞典 - Archaism dictionary from Weblio
+* 旺文社国語辞典.
+A dictionary by Oubunsha.
+Definitions are easy to understand for beginners.
+Requires adding [these rules](https://pastebin.com/R1gM3wU0) to your Yomichan Popup CSS.
+There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
+* Weblio古語辞典. Archaism dictionary from Weblio.
 * 新辞林
 * 実用日本語表現辞典
-* 日本国語大辞典 - The biggest Japanese dictionary in the world
+* 日本国語大辞典. The biggest Japanese dictionary in the world.
 	* 精選版 日本国語大辞典
 	* 小学館 国語大辞典
 * 岩波書店 岩波国語辞典
 * 広辞苑
-* 故事ことわざの辞典 - proverb dictionary
+* 故事ことわざの辞典. Proverb dictionary.
 
 
 ### Frequency lists
@@ -159,6 +165,9 @@ Words that appear more frequently than others are more useful.
 <p align="center">
 	<a class="download_button" href="https://t.me/ajatt_tools/109">Download</a>
 </p>
+<p align="center">
+	<a href="https://disk.yandex.com/d/iaKHgFKTwjCMPw">Mirror</a>
+</p>
 
 **The two that I recommend are:**
 
@@ -173,15 +182,15 @@ These are a must-have if you watch dramas or anime a lot.
 * Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
 * VN. Visual Novels.
 * BCCWJ - Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
-* DaijirinFreq. Words that appear in the `大辞林` monolingual dictionary.
+* Daijirin. Words that appear in the `大辞林` monolingual dictionary.
 You may want to take a look at it if you've decided to go monolingual
 and you need to prioritize learning dictionary vocabulary.
 
 ### Other
 
-* JMnedict - Japanese names
-* KANJIDIC - J-E kanji dictionary
-* 漢字源 - Monolingual kanji dictionary
+* [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
+* KANJIDIC. J-E kanji dictionary.
+* 漢字源. Monolingual kanji dictionary.
 
 ## Don't import all Yomichan dictionaries
 
