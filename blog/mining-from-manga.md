@@ -43,7 +43,7 @@ Create a new file *~/.local/bin/imageocr*:
 ```
 #!/bin/sh
 
-maim -s |
+maim --hidecursor -s |
 tesseract stdin stdout \
 	-l jpn \
 	--tessdata-dir ~/.local/share/capture2text_tessdata |

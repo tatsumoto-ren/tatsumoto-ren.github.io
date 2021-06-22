@@ -71,7 +71,7 @@ Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share
 the ones in the <code>capture2text</code> archive are way better.</p>
 <p>Create a new file <em>~/.local/bin/imageocr</em>:</p>
 <pre><code>#!/bin/sh
-maim -s |
+maim --hidecursor -s |
 tesseract stdin stdout \
     -l jpn \
     --tessdata-dir ~/.local/share/capture2text_tessdata |
