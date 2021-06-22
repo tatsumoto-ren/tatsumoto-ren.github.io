@@ -445,3 +445,9 @@ a.download_button:focus {
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
 }
+
+/* Cut line */
+
+article > hr:first-of-type {
+    border: 1px solid lightgrey;
+}
