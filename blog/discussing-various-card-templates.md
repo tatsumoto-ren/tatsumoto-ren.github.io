@@ -201,7 +201,7 @@ This makes cards harder to learn and review:
 * Because words in isolation are rarely seen in immersion, such practice is unnatural.
 * Because the piece of knowledge you're testing yourself on is so small,
 it is difficult to associate the word directly to its meaning.
-* You spend more time recalling the meaning compared to cards with content on the front.
+* You spend more time recalling the meaning compared to cards with context on the front.
 
 Because the context is missing completely
 there's often a need to rely on additional field
@@ -234,7 +234,7 @@ This is my favorite way of reviewing TSCs and has saved me a lot of review time.
 If a sentence is too long I usually start reading a few words behind the target word
 and stop reading as soon as I've understood the clause.
 
-Follow [this link](https://ankiweb.net/shared/info/1557722832) to download
+Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
 a deck with example Targeted Sentence Cards.
 
 <details>

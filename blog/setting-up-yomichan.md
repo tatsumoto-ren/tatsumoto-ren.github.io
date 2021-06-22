@@ -91,7 +91,7 @@ to select the Note Type for your mining deck.
 The settings below are for the
 [Japanese sentences](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences)
 Note Type.
-You can install it by importing [this](https://ankiweb.net/shared/info/1557722832) example deck.
+You can install it by importing [this example deck](setting-up-anki.html#import-an-example-mining-deck).
 
 <p align="center"><img alt="yomichan settings" src="img/yomichan_anki_settings.webp"></p>
 <p align="center"><i>Yomichan Anki settings.</i></p>

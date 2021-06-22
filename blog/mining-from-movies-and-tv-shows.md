@@ -199,8 +199,8 @@ $ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts
 Download the
 [example config file](https://github.com/Ajatt-Tools/mpvacious/blob/master/.github/RELEASE/subs2srs.conf)
 and save it to `~/.config/mpv/script-opts/subs2srs.conf`.
-If you use the
-[recommended note type](https://ankiweb.net/shared/info/1557722832)
+If you use the Note Type from the
+[recommended mining deck](setting-up-anki.html#import-an-example-mining-deck),
 you don't need to change any settings at all.
 If you don't, make sure to adjust at least the following variables:
 * `sentence_field`

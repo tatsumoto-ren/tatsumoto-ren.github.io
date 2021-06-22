@@ -117,10 +117,7 @@ Making mnemonics might be helpful but is totally optional.
 Feel free to use this note type for your own sentence cards.
 
 <p align="center">
-	<a class="download_button" href="https://t.me/ajatt_tools/16">Download</a>
-</p>
-<p align="center">
-	<a href="https://ankiweb.net/shared/info/1557722832">Mirror</a>
+	<a class="download_button" href="setting-up-anki.html#import-an-example-mining-deck">Download</a>
 </p>
 
 As with kana cards, if you could produce the word

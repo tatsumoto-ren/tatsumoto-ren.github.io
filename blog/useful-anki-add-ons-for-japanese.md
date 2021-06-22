@@ -18,7 +18,8 @@ It's primary and only feature is generating [furigana](https://en.wikipedia.org/
 which you're going to need every day.
 
 The add-on comes bundled with its own Note Types but they are quite bare bones,
-so I highly recommend you try [this Note Type](https://ankiweb.net/shared/info/1557722832)
+so I highly recommend you try the Note Type included in
+[this example deck](setting-up-anki.html#import-an-example-mining-deck)
 as it's a lot more versatile.
 
 <details>
@@ -316,7 +317,7 @@ If you want to add stroke diagrams to your cards,
 use the `KanjiStrokeOrders` font.
 The font can be stored in your `collection.media` folder
 and used to display kanji on your writing cards.
-It comes with the [mpvacious cards](https://ankiweb.net/shared/info/1557722832) Note Type
+It comes with the [example mining deck](setting-up-anki.html#import-an-example-mining-deck)
 or can be downloaded separately from [here](https://t.me/ajatt_tools/48).
 
 <p align="center"><img alt="writing-card" class="shadow" src="img/mpvacious-writing-card.png"></p>
