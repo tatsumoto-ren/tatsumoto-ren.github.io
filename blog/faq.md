@@ -196,9 +196,11 @@ some spread their reviews throughout the day.
 
 ### What do you think of "animecards" (high quality vocab cards)?
 
+When people say "animecards", they mean
+[WCCs](discussing-various-card-templates.html#word-context-cards).
+
 It's one of worst plagues of the Japanese learning community.
-You should never use them.
-We recommend
+I recommend
 [targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
 (TSCs) or fallback cards instead.
 
