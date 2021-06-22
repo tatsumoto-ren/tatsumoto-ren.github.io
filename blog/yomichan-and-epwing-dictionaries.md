@@ -204,6 +204,10 @@ You can use these dictionaries to judge
 whether it is worth for you to learn a certain word or not.
 Words that appear more frequently than others are more useful.
 
+If you have downloaded the full collection of dictionaries for Yomichan linked above,
+you should have the frequency lists as well.
+Below I provide a separate link for those who are only interested in the frequency lists.
+
 <p align="center">
 	<a class="download_button" href="https://t.me/ajatt_tools/109">Download</a>
 </p>
@@ -211,7 +215,7 @@ Words that appear more frequently than others are more useful.
 	<a href="https://disk.yandex.com/d/iaKHgFKTwjCMPw">Mirror</a>
 </p>
 
-**The two that I recommend are:**
+**Recommended:**
 
 * Netflix frequency list
 * Anime & Jdrama frequency list
