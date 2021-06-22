@@ -99,9 +99,6 @@ by typing `word #sentence`. [Example](https://jisho.org/search/test%20%23sentenc
 It has example sentences but I don't recommend using it over JMdict
 because it clutters Yomichan window.
 Keep it in qolibri in case you need the examples.
-* KireiCake - A dictionary for Japanese slang.
-Has many duplicate entries with JMdict,
-so it's safe to ignore it.
 * 新和英 - A version of 研究社新和英大辞典 without example sentences.
 * 研究社露和辞典 - A Russian-Japanese Dictionary.
 Russian speakers praise it a lot.
