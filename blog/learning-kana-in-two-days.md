@@ -5,6 +5,8 @@ The two alphabets represent the same sounds.
 In this article I want to share how I learned each of the alphabets just in one day,
 using libre software.
 
+****
+
 I used the Android app called [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
 With the app you can memorize kana very quickly, and you won't need Anki
 to do it unless you want to learn how to write the characters by hand.
