@@ -274,8 +274,8 @@ header .dropdown > .dropdown-content {
     max-width: 1000px;
     border: 1px solid #ccc;
     background-color: #fff;
-    padding: 0px 32px 32px 32px;
-    margin: 84px auto 32px auto;
+    padding: 0px 32px 32px;
+    margin: 84px auto 32px;
 }
 
 main {
