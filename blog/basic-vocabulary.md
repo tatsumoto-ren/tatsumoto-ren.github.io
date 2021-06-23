@@ -17,6 +17,16 @@ but the process is going to take less effort.
 
 ****
 
+## Focus on understanding
+
+On this site I recommend that you learn to understand Japanese through immersion
+before trying to speak it.
+Once you can understand the language, learning to speak doesn't take any effort.
+
+The Anki deck I'm about to introduce below is going to help you understand the language.
+Cards in the deck are designed to test your recogntion
+instead of forcing you to recall words from memory.
+
 ## Anki deck
 
 In
@@ -26,7 +36,7 @@ who want to quickly learn basic vocabulary before they start reading.
 Since the first release in February 2020 it has helped many people and received positive feedback.
 
 <p align="center"><a class="download_button" href="https://t.me/ajatt_tools/60">Download</a></p>
-<p style="text-align:center;"><a href="https://files.catbox.moe/8cm3qs.apkg">Mirror</a></p>
+<p style="text-align:center;"><a href="https://disk.yandex.com/d/U7kNKb-Wkvuj4A">Mirror</a></p>
 
 ## Structure
 
