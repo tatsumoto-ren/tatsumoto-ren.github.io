@@ -79,6 +79,11 @@ Truly a nightmare.
 <p align="center"><img alt="comparison" src="img/fontconfig_difference.webp"></p>
 <p align="center"><i>A file manager app before and after applying Fontconfig settings.</i></p>
 
+The config disables bitmap fonts.
+According to Arch Wiki,
+bitmap fonts are sometimes used as fallbacks for missing fonts,
+which may cause text to be rendered pixelated.
+
 ## Fonts in GTK apps
 
 Install [lxappearance](https://archlinux.org/packages/?name=lxappearance).
@@ -117,7 +122,7 @@ Refer to Arch Wiki for instructions.
 ## Firefox
 
 Firefox should automatically pick up your Fontconfig settings.
-If it doesn't, go to "Settings" > "Fonts and Colors" and set the fonts yourself.
+If it doesn't, go to "Settings" > "Fonts and Colors" and set the fonts there.
 
 ## Yomichan
 
