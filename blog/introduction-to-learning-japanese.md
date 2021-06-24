@@ -128,11 +128,12 @@ This coding format is not supported by Anki on iThings.
 **Preparing for learning Japanese:**
 
 * **Desktop**
-	* Install
-	[noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk)
-	and refer to
-	[Fontconfig configuration](https://wiki.archlinux.org/index.php/Font_configuration/Examples#Default_fonts)
-	to set them up.
+	* Install Japanese fonts.
+	I recommend
+	[noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
+	Refer to
+	[Japanese fonts](japanese-fonts.html)
+	for detailed instructions.
 	* Install and configure
 	[Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
 	to type in Japanese.
