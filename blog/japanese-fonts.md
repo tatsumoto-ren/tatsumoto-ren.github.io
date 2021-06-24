@@ -83,6 +83,7 @@ The config disables bitmap fonts.
 According to Arch Wiki,
 bitmap fonts are sometimes used as fallbacks for missing fonts,
 which may cause text to be rendered pixelated.
+If you think you need them, set `embeddedbitmap` to `true`.
 
 ## Fonts in GTK apps
 
