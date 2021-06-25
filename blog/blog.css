@@ -16,8 +16,7 @@
     margin: 0;
 }
 
-body,
-#divbodyholder {
+body {
     font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
     background-color: #f3f3f3;
     color: #24292e;
@@ -282,6 +281,7 @@ main {
     font-size: 16px;
     margin-bottom: 5%;
 }
+
 main p,
 main ol,
 main ul,
