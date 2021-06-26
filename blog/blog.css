@@ -17,9 +17,10 @@
 }
 
 body {
-    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
     background-color: #f3f3f3;
     color: #24292e;
+    font-size: 16px;
 }
 
 img {
@@ -56,10 +57,10 @@ a.ablack {
     transition: top 0.3s;
 }
 header {
+    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
     width: 100%;
     min-width: 256px;
     min-height: var(--header-height);
-    font-size: 16px;
     background-color: #f9f9f9;
     border-bottom: solid 1px #ccc;
 }
@@ -278,10 +279,8 @@ header .dropdown > .dropdown-content {
 }
 
 main {
-    font-size: 16px;
     margin-bottom: 5%;
 }
-
 main p,
 main ol,
 main ul,
@@ -338,14 +337,13 @@ main h4 {
 }
 
 article {
-    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
     word-wrap: break-word;
 }
 article > h1:first-child {
     margin-bottom: 0px;
 }
 article ul,
-ol {
+article ol {
     padding-left: 2em;
 }
 article li + li {
@@ -354,6 +352,7 @@ article li + li {
 article p > img.shadow {
     box-shadow: 2px 2px 3px #999;
 }
+
 article .anchor {
     float: left;
     padding-right: 4px;
@@ -404,8 +403,7 @@ pre code {
     background-color: initial;
 }
 
-footer,
-#footer {
+footer {
     padding-top: 10px;
     border-top: solid 1px #666;
     color: #333333;
