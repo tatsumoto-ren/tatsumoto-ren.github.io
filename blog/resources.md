@@ -27,7 +27,7 @@ Kanji characters with Koohii stories.
 
 ### Vocabulary
 
-* [Ankidrone Starter Pack](https://files.catbox.moe/8cm3qs.apkg)
+* [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
 * [Core 2.3k](https://files.catbox.moe/8k4ygf.apkg)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
@@ -284,6 +284,15 @@ Monolingual kanji dictionary.
 
 * [jiten](https://github.com/obfusk/jiten)
 * [sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
+
+## Translators
+
+The quality of machine translation is very low.
+Don't use it for anything serious.
+You've been warned.
+
+* [SimplyTranslate](https://translate.metalune.xyz/)
+* [LibreTranslate](https://libretranslate.com/)
 
 ## Language guides
 
