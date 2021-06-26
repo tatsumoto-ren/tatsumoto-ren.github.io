@@ -219,6 +219,20 @@ reduce the number of new cards you learn,
 install [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode)
 Anki add-on.
 
+### How should I divide my study time?
+
+Roughly in three parts.
+
+* Spend 1/3 of your time reading, 1/3 listening and 1/3 doing Anki.
+* Don't spend more than 1 hour a day on Anki, distribute the rest.
+* Watching TV with subtitles counts towards reading.
+
+So, on a bad day when you have only 3 hours of study time,
+you do each activity for 1 hour.
+On a good day when you have 12 hours a day,
+you spend 1 hour on Anki,
+5.5 hours on listening and 5.5 on reading.
+
 ### How many new cards to learn each day?
 
 I recommend learning 10 to 30 new cards a day.
