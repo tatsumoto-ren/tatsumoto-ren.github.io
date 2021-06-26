@@ -83,6 +83,11 @@ To get it follow the link below.
 	It contains a number of pretty obvious katakana words
 	and a short list of country names.
 	If you don't want to learn them, press `@` to suspend such cards.
+* **Q:** Do I really need to learn kanji spellings of words normally written in kana?
+
+	**A:** If you feel intimidated by them, it's okay to suspend the cards.
+	I like to always learn kanji spellings because even if a word is mostly written in kana,
+	there's a chance that you encounter the kanjified version while reading.
 * **Q:** I have poor retention.
 
 	**A:** This is natural if you're a beginner,
