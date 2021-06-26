@@ -269,13 +269,17 @@ header .dropdown > .dropdown-content {
 
 /* body */
 
-#divbody {
-    width: 100%;
-    max-width: 1000px;
+#divbodyholder {
+    margin-top: 84px;
+    word-wrap: break-word;
+}
+#divbodyholder > div {
     border: 1px solid #ccc;
     background-color: #fff;
     padding: 0px 32px 32px;
-    margin: 84px auto 32px;
+    margin: 0 auto 32px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 main {
@@ -336,9 +340,6 @@ main h4 {
     font-size: 1em;
 }
 
-article {
-    word-wrap: break-word;
-}
 article > h1:first-child {
     margin-bottom: 0px;
 }
