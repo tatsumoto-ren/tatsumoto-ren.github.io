@@ -586,6 +586,12 @@ If you study it deliberately, it's difficult.
 
 No, but you can get fluent with 12+ hours a day.
 
+### I want to learn a difficult language (Japanese) and an easy language (Spanish). Should I learn them at the same time?
+
+It is possible if you manage it, but I don't recommend it.
+Learn the easy one first and do
+[laddering](http://www.alljapaneseallthetime.com/blog/how-to-learn-multiple-languages-without-getting-confused-the-laddering-method/).
+
 ### What are your current recommendations related to how to sentence mine?
 
 It's basically 90% Yomichan use.
