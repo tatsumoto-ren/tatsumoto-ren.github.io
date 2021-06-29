@@ -234,6 +234,11 @@ This is my favorite way of reviewing TSCs and has saved me a lot of review time.
 If a sentence is too long I usually start reading a few words behind the target word
 and stop reading as soon as I've understood the clause.
 
+When you learn a sentence for the first time,
+make sure to read and understand it fully,
+even if you don't want to read it every time the cards comes up.
+Understanding the context greatly helps in understanding of the target word.
+
 Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
 a deck with example Targeted Sentence Cards.
 
@@ -426,14 +431,19 @@ You can also make a second card for another meaning if you want.
 > What if an expression does not have an entry in a Japanese to Japanese dictionary?
 
 It most certainly has. If you can't find it in a Yomichan dictionary,
-look at [www.weblio.jp](https://www.weblio.jp/) or just google the expression.
+look it up on
+[www.weblio.jp](https://www.weblio.jp/)
+or use the web search.
 For example, [here](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%28%E3%81%A8%E3%81%86%E3%81%8B%E3%81%8F%29%E3%82%92%E7%8F%BE%28%E3%81%82%E3%82%89%E3%82%8F%29%E3%83%BB%E3%81%99)
 you can find a definition for 「頭角を現す」.
 
 > What if it's not voiced in the Yomichan audio?
 
-[It's not a big deal](https://forvo.com/word/%E9%A0%AD%E8%A7%92%E3%82%92%E7%8F%BE%E3%81%99/#ja).
-And you still have added the sentence audio to the card, right?
+It's not a big deal,
+but you can try searching on
+[Forvo](https://forvo.com/word/%E9%A0%AD%E8%A7%92%E3%82%92%E7%8F%BE%E3%81%99/#ja).
+If you have added audio for the sentence,
+adding audio for the target expression is not necessary.
 
 #### Distinguishing readings
 
