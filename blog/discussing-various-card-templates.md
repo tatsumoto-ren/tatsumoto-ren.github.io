@@ -243,19 +243,21 @@ Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to downlo
 a deck with example Targeted Sentence Cards.
 
 <details>
+
 <summary>You can make Yomichan highlight the target word for you</summary>
 
-<p>
 I recommend setting up Yomichan to mark the target word automatically when a new card is made.
 This saves you the extra step
 that you'd otherwise have to take every time you make a new targeted sentence card.
-<a href="https://github.com/Ajatt-Tools/mpvacious">mpvacious</a>
+[mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 is aware of this setting and preserves highlighted words when updating sentences.
-</p>
+
+Go to Yomichan Settings > "Anki" > "Configure Anki card format…".
 
 <p align="center"><img alt="highlight-target-word" class="shadow" src="img/highlight-target-word.png"></p>
 
 <p align="center"><i>Yomichan settings.</i></p>
+
 </details>
 
 ### Why TSCs?
