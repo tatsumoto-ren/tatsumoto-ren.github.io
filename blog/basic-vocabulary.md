@@ -24,7 +24,7 @@ before trying to speak it.
 Once you can understand the language, learning to speak doesn't take any effort.
 
 The Anki deck I'm about to introduce below is going to help you understand the language.
-Cards in the deck are designed to test your recogntion
+Cards in the deck are designed to test your recognition
 instead of forcing you to recall words from memory.
 
 ## Anki deck
@@ -141,6 +141,9 @@ but eventually Anki will overwhelm you with reviews.
 Our recommended boundaries are 10-20 new cards a day.
 
 ## Changelog
+
+**Changes in version 5:**
+* Added word pronunciations to TSCs in Tango `N3`.
 
 **Changes in version 4:**
 * Converted all remaining sentence cards to TSCs
