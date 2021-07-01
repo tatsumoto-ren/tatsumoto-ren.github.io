@@ -143,7 +143,8 @@ Our recommended boundaries are 10-20 new cards a day.
 ## Changelog
 
 **Changes in version 5:**
-* Added word pronunciations to TSCs in Tango `N3`.
+* Added word audio to TSCs in Tango `N3` and Tango `N4`.
+* Fixed small mistakes.
 
 **Changes in version 4:**
 * Converted all remaining sentence cards to TSCs
