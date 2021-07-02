@@ -7,9 +7,18 @@
 body {
     font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
 }
-a {
+
+/* Links */
+
+a,
+a:visited {
     text-decoration: none;
     color: SteelBlue;
+    transition: color 0.2s;
+}
+a:hover,
+a:active {
+    color: #0366d6;
 }
 .top {
     padding: 2px 4px 0;
