@@ -74,7 +74,7 @@ header {
 }
 
 header a.logo {
-    padding: 2px 4px;
+    padding: 2px;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
