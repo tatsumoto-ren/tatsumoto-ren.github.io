@@ -51,11 +51,11 @@ If a word is written in kanji,
 you can view the furigana reading by hovering over it with your mouse.
 
 <p align="center">
-	<a class="download_button" href="https://www.patreon.com/posts/47991075" target="_blank">Download</a>
+	<a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
 </p>
 <p align="center">
-	<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror 1</a>
-	<a href="https://ankiweb.net/shared/info/917377946" target="_blank">Mirror 2</a>
+	<a href="https://www.patreon.com/posts/47991075" target="_blank">Mirror 1</a>
+	<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror 2</a>
 </p>
 
 ## WCCs deck
