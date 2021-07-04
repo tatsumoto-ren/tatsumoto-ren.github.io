@@ -335,6 +335,19 @@ You skim boring parts to get to the fun parts, and it keeps you focused on your 
 When it comes to reading speed, skimming won't help.
 If you read a lot, your reading speed will improve naturally.
 
+### Should I use a smaller font when reading to get used to small fonts?
+
+Avoid small fonts, they're bad for your eyes.
+
+Because today almost all reading is done on a computer,
+you can set a larger font no problem.
+Plus, computers make lookups and sentence mining easier.
+
+Some printed books are written in small fonts,
+but you don't need to practice reading small fonts in order to read them.
+If you can read Japanese in a larger font fluently,
+you're going to be able to read smaller fonts too.
+
 ### What should I be "doing" while actively immersing?
 
 Looking up words.
@@ -488,6 +501,18 @@ At first, you may want to use a premade deck.
 I recommend downloading
 [Ankidrone Starter Pack](basic-vocabulary.html)
 and learning 1-3 thousand words from it.
+
+### I forget kanji readings in sentences. Should I use furigana?
+
+If you add furigana on the front of your cards, you're not going to learn the readings.
+One of the points of using the SRS is to learn kanji readings, so you're defeating the point.
+
+What I always did is I followed
+[Wozniak's recommendations](https://www.supermemo.com/archives1990-2015/articles/20rules)
+and memorized different representations of a particular kanji.
+So, I would take the kanji I have trouble remembering and look it up on Jisho.org
+[like this](https://jisho.org/search/%EF%BC%8A%E8%BD%A2%EF%BC%8A).
+Then I would deliberately find example sentences with some of the words and make Anki cards.
 
 ### Do your Tango decks have audio or text on the front? Which way is better?
 
