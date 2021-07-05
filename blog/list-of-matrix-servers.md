@@ -44,7 +44,6 @@ recommended by
 	* [waifuhunter.club](https://chat.waifuhunter.club/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [midov.pl](https://element.midov.pl/element/)
-	* [kawaiilo.li](https://element.kawaiilo.li/)
 	* [anontier.nl](https://element.anontier.nl/)
 
 *Not all the servers may be open for registration at any point of time.*
@@ -79,10 +78,9 @@ like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 * https://element.asra.gr/
 * https://webchat.kde.org/
 * https://element.im.f3l.de/
-* https://chat.freakachu.org/
+* https://element.anontier.nl/
 * https://matrix.ffggrz.de/app/
 * https://crystal-temple.flak.is/
-* https://element.thisisjoes.site/
 
 ### With Element
 
@@ -143,6 +141,7 @@ without having to use a desktop client.
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
 * https://element.envs.net/
+* https://matrix.dfc.world/
 * https://element.hope.net/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
