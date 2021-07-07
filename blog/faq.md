@@ -574,6 +574,14 @@ It's alright to delete cards once they reach obscene intervals like 10-15 years.
 To find such cards, you can open the Anki Browser and type `prop:ivl>3650`.
 The number `3650` corresponds to card's interval in days.
 
+### Google or Microsoft IME?
+
+Both Microsoft and Google IMEs are proprietary, and thus are
+[malware](https://www.gnu.org/proprietary/).
+I recommend
+[Fcitx](https://wiki.archlinux.org/title/Fcitx)
+with kkc or any other free/libre input method.
+
 ### MorphMan for the monolingual transition?
 
 MorphMan is terrible for everything besides counting how many words you know.
