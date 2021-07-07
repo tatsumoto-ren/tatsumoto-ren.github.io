@@ -117,7 +117,7 @@ but it doesn't force you to learn multiple readings.
 A slightly larger version of KanjiDamage which contains ~200 additional kanji.
 Some component names were renamed.
 
-The downside is that although this method makes it easier to remember words later on
+The downside is that although this method makes it easier to remember words later on,
 it requires investing months into essentially memorizing English keywords
 that have a very loose connection to real Japanese.
 KanjiDamage gives you a little more benefit
