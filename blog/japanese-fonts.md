@@ -42,7 +42,8 @@ You need to install Japanese fonts and change your system settings.
 First and foremost, ensure that you have generated the Japanese
 [locale](https://wiki.archlinux.org/title/Locale).
 You may have font-rendering issues if you don't do that.
-Uncomment the languages you use in `/etc/locale.gen`:
+Uncomment the languages you use in `/etc/locale.gen`
+by removing the `#`s from their corresponding lines.
 
 ```
 en_US.UTF-8 UTF-8
@@ -180,8 +181,7 @@ The filename must start with `_` or Anki will delete the file if you run "Tools"
 For this example I'm going to use a font called `_yumin.ttf`.
 2) Open your Note Type settings.
 Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling".
-3)
-	Paste the following CSS to tell Anki to load the font when you open the Reviewer.
+3) Paste the following CSS to tell Anki to load the font when you open the Reviewer.
 
 	```
 	@font-face {
@@ -196,8 +196,8 @@ Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling
 	The `local` setting makes sure the font doesn't get loaded
 	if it's already installed system-wide.
 	Mind what name you specify for the font.
-4)
-	Scroll down to `.card` class and change or append the font's name to `font-family`.
+4) Scroll down to `.card` class and change or append the font's name to `font-family`.
+
 	```
 	.card {
 		font-family: Yu Mincho;
