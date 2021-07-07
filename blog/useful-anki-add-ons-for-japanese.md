@@ -238,9 +238,7 @@ that immediately puts selected new cards in the learning queue.
 You can use it if you have a big sentence bank
 and you find a really good sentence that you want to learn right away.
 
-```
-Easier than faffing about in the menus to do the same thing in 10 clicks.
-```
+> Easier than faffing about in the menus to do the same thing in 10 clicks.
 
 <p align="center"><img alt="learn-now-button" class="shadow" src="https://user-images.githubusercontent.com/69171671/94028820-bc621180-fdab-11ea-8adb-fde78e8ca008.jpg"></p>
 <p align="center"><i>Context menu.</i></p>
@@ -256,9 +254,7 @@ When you add many cards at once manually, it lets you keep what's typed in a fie
 As you know from the [rule 18](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
 of formulating knowledge:
 
-```
-It is highly recommended that you include sources from which you have gathered your knowledge.
-```
+> It is highly recommended that you include sources from which you have gathered your knowledge.
 
 The add-on makes it simple to insert hyperlinks to provide sources on your cards.
 
