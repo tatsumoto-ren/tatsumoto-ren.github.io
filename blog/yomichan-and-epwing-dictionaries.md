@@ -118,7 +118,7 @@ With monolingual dictionaries you can learn your target language in your target 
 
 **Most recommended dictionaries:**
 
-* スーパー大辞林
+* 大辞林 (and it's different versions)
 * 新明解国語辞典
 * 大辞泉
 * 明鏡国語辞典
