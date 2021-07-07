@@ -155,7 +155,7 @@ doing so can negatively affect retention.
 
 ### In what order should I learn words
 
-When applying this method, it is wise start with simpler kanji first.
+When applying this method, it is wise to start with simpler kanji first.
 The exact order may wary.
 I would like to note the following options:
 * **Working your way up school grades or JLPT levels.**
