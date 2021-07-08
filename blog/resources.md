@@ -49,6 +49,8 @@ Covers grammar for all JLPT levels.
 Search JLPT questions by keyword.
 * [JTest4You](https://japanesetest4you.com/).
 Practice tests and resources by JLPT levels.
+* [JLPT文法解説まとめ](https://nihongokyoshi-net.com/jlpt-grammars/).
+Introduces you to grammar patterns that exist in JLPT.
 
 ## Examples and pronunciations
 
@@ -106,7 +108,7 @@ You can switch channels in mpv by pressing `<` and `>`.
 * [Bilingualmanga](https://bilingualmanga.com/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
-Raw manga (with furigana).
+View raw manga online.
 * [Manga-zip](http://manga-zip.net/).
 Manga archive.
 * [Rawdevart](https://rawdevart.com/).
@@ -117,7 +119,7 @@ Free eromanga and doujinshi.
 ### Books
 
 * [zlibrary](http://zlibraryexau2g3p.onion/).
-An library with books in any language.
+A library with books in any language.
 Has a [clearnet version](https://b-ok.cc/).
 * [小説を読もう！](https://yomou.syosetu.com/).
 Lets you read web novels for free.
@@ -127,6 +129,8 @@ An Internet library of classic Japanese literature.
 Books from Aozora Bunko in `epub`, `pdf` and other formats.
 * [Aozora Bunko stats](https://core6000.neocities.org/aozora/).
 Books sorted by the number of kanji used.
+* [DL-Zip.net](https://dl-zip.net/).
+Download manga, light novels, magazines and books for free.
 
 ### Audio
 
@@ -170,18 +174,28 @@ You may need a Japanese IP address for some of these.
 A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
 An image viewer perfect for reading manga.
+* [zathura](https://wiki.archlinux.org/title/Zathura).
+Minimalistic document viewer.
+Can be used to read novels.
+* [foliate](https://johnfactotum.github.io/foliate/).
+A simple and modern eBook viewer.
+[Package](https://archlinux.org/packages/?name=foliate).
 * [impd](https://github.com/Ajatt-Tools/impd).
 Create condensed audio and automatically rotate your mpd playlist.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
 
-### Localization and fonts
+### Localization
 
 * [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
 * [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
-* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts)
 * [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
+
+### Fonts
+
+* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts)
 * [Semi-cursive Japanese fonts](https://t.me/ajatt_tools/104)
+* [Kanji stroke order font](https://www.nihilist.org.uk/)
 
 ### mpv
 
@@ -322,6 +336,12 @@ over the years due to being too difficult and complicated.
 A site founded by a successful ajatter after becoming fluent.
 The method is designed to be applicable to any language.
 
+Notable articles:
+* [Tolerate the Ambiguity](https://web.archive.org/web/20210318233119/https://refold.la/roadmap/stage-0/b/tolerate-ambiguity/)
+* [Basic Sentence Mining](https://web.archive.org/web/20210702022836/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/)
+* [Basic Anki Setup](https://web.archive.org/web/20210429222205/https://refold.la/roadmap/stage-1/a/anki-setup/)
+* [Grammar](https://web.archive.org/web/20210308092625/https://refold.la/roadmap/stage-1/c/grammar/)
+
 Anti-features:
 
 * The site doesn't work unless you enable JavaScript.
@@ -365,6 +385,8 @@ Most visual novels should be avoided since they are proprietary.
 * They mention software that requires proprietary operating systems to run.
 * They include links to Discord servers.
 Discord is known for spying on and politically suppressing its users.
+* Both sites recommend "anime cards".
+In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
 ## Misc
 
