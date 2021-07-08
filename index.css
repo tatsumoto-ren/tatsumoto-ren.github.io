@@ -72,14 +72,16 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
-nav > a {
+nav > a,
+nav > a:visited {
     white-space: nowrap;
     color: white;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s;
 }
-nav > a:hover {
+nav > a:hover,
+nav > a:active {
     color: #ddd;
 }
 
