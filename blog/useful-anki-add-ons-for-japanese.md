@@ -134,7 +134,7 @@ Duplicates similar functionality from the Japanese support add-on,
 but comes with the ability to limit results to the required field name
 and has a nicer interface that shows kanji in a colored grid.
 
-<p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.png"></p>
+<p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.webp"></p>
 
 ### [JaPitch](https://ankiweb.net/shared/info/1225470483)
 
@@ -172,7 +172,7 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
 
 </details>
 
-<p align="center"><img alt="pitch-accent-on-card" class="shadow" src="img/pitch-accent.png"></p>
+<p align="center"><img alt="pitch-accent-on-card" class="shadow" src="img/pitch-accent.webp"></p>
 
 ### [True Retention](https://ankiweb.net/shared/info/613684242)
 
@@ -202,7 +202,7 @@ It lets you keep your main profile clean and not overload AnkiWeb servers
 with hundreds of megabytes of media files.
 You can select decks to import from and search cards containing certain words.
 
-<p align="center"><img alt="cropro" class="shadow" src="img/cropro.png"></p>
+<p align="center"><img alt="cropro" class="shadow" src="img/cropro.webp"></p>
 
 ### [Advanced Browser](https://ankiweb.net/shared/info/874215009)
 
@@ -210,7 +210,7 @@ An add-on that lets you sort your cards by a myriad of additional parameters and
 Very useful when you want to sort a subs2srs deck based on its audio timestamps or if you want
 to sort a premade deck using a frequency list without the need to export it as a `tsv` file.
 
-<p align="center"><img alt="advanced-browser" class="shadow" src="img/advanced-browser.png"></p>
+<p align="center"><img alt="advanced-browser" class="shadow" src="img/advanced-browser.webp"></p>
 
 ### [RefoldEase](https://ankiweb.net/shared/info/819023663)
 

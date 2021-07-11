@@ -127,7 +127,7 @@ You can read about it in detail [here](https://faqs.ankiweb.net/the-anki-2.1-sch
     * You can learn new cards in filtered decks. Filtered decks no longer reset learning steps
     when rebuilt or emptied.
 
-<p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.png"></p>
+<p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 
 
 ### Options Groups
@@ -206,7 +206,7 @@ set this at a high value.
 * **Easy bonus** and **Hard interval**: Ignore these settings as you should never use
 the “hard” and “easy” buttons.
 
-    <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.png"></p>
+    <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 
     As I mentioned in the `Starting ease` section,
     the “hard” and “easy” buttons have counterintuitive effects on Anki’s algorithm,

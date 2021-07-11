@@ -111,7 +111,7 @@ By simple word cards I mean a word in the target language on the front of the ca
 and a definition and usually audio and a picture on the back.
 No context is present on this type of cards.
 
-<p align="center"><img alt="word-card" class="shadow" src="img/example-word-card.png"></p>
+<p align="center"><img alt="word-card" class="shadow" src="img/example-word-card.webp"></p>
 
 <p align="center"><i>A simple word card.</i></p>
 
@@ -216,7 +216,7 @@ I also have a few lines of basic CSS and JavaScript in my
 card template to change the word's color
 according to its pitch accent.
 
-<p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.png"></p>
+<p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
 
 <p align="center"><i>A targeted sentence card.</i></p>
 
@@ -491,6 +491,10 @@ The template configures the **shift** key to toggle sentence visibility,
 you may want to install the
 [Refocus Card when Reviewing](https://ankiweb.net/shared/info/1642550423)
 Anki add-on to be able to use it.
+
+From
+[here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20fallback)
+you can download the Japanese fallback Note Type made by ﾌｪﾘﾍﾟ.
 
 ## Conclusion
 
