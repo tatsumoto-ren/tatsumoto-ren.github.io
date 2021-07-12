@@ -161,8 +161,13 @@ Below are the options I recommended using:
     add-on to **manually pick** and learn cards from my Sentence Bank.
 
 * **Starting ease:** Set it to `131%` and you won't have to worry about Ease at all.
-    Ease is very nasty because by default it gradually decreases when you fail cards or answer
-    **Hard** on them. This leads to intervals growing slower, and eventually you fall into **Ease Hell**.
+    Ease is very nasty because by default it gradually decreases when you fail cards
+    or answer "Hard" on them.
+    This leads to intervals growing slower, and eventually you fall into **Ease Hell**.
+    Similarly, pressing "Easy" causes the Ease to increase.
+    It drags the cards' intervals along causing them to grow faster than normal,
+    which leads to forgetting in the future.
+
     If you've been using Anki before applying this setting, you should **Refold** your collection
     with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
 
