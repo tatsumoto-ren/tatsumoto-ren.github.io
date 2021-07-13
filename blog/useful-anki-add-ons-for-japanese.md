@@ -178,7 +178,7 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
 
 Adds more info to the "Stats" window.
 Depending on the value of your True Retention for the past month you can adjust your
-[Interval Modifier](setting-up-anki.html#reviews). Aim at around 75-85%.
+[Interval Modifier](setting-up-anki.html#reviews). Aim at around 75-90%.
 If you remember your cards too well it's worth increasing your IM
 and studying more cards a day or spending more time immersing.
 
