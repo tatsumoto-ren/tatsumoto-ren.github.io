@@ -27,6 +27,27 @@ I think up to 300% should be fine.
 * Enable Anki 2.1 scheduler (`V2` scheduler).
 It's a little less limiting, less buggy and more convenient.
 
+## Showing up
+
+AJATT has an article about [Showing up](http://www.alljapaneseallthetime.com/blog/showing-up/).
+100% of winning showing up.
+Dedicate the time and you'll see the results.
+
+Not only this concept is important when using Anki to learn languages,
+it is mandatory.
+Anki expects you to do your reviews every single day.
+If you fail to do so, due cards quickly pile up.
+
+If you do a consistent number of new cards each day,
+the number of reviews tends to be consistent as well.
+So, if you miss a day, expect your review load to double the next day.
+If you miss two days, you'll have to do 3 times as many reviews.
+
+Anki's algorithm schedules cards so that they come up for review
+just before you forget their content.
+If you don't do your reviews on time,
+expect to forget more cards.
+
 ## Check your retention
 
 I recommend periodically checking your monthly
@@ -48,12 +69,12 @@ Some bugs I've run into completely messed up intervals of my cards.
 ## Fighting backlogs
 
 This is where filtered decks come handy.
-Ideally you want to finish your review every day.
+Ideally you want to finish your reviews every day.
 In practice, it's not always possible.
 There are going to be days when you accumulate backlogs.
 If it happens, your review queue becomes divided between cards that are due today,
 most of which you still remember,
-and the cards that were due the previous days,
+and the cards that were due on the previous days,
 which you've likely forgotten a great number of.
 
 If you were to try to eliminate the backlog
@@ -98,6 +119,37 @@ you don't move any cards yourself.
 Once they leave the filtered deck,
 they automatically return to the decks they were pulled out from.
 
+Accumulating a backlog and being unable to properly manage it
+is the number one reason people quit Anki altogether.
+Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
+
+## Leeches
+
+Anki has a setting that controls how many times you can fail a card before it becomes a leech,
+[Leech threshold](setting-up-anki.html#lapses).
+It doesn't mean the number of times you simply press "Again" on a card,
+but rather the number of times you fail a card that has previously graduated to the review queue.
+In other words, hitting "Again" on a card over an over on the same day
+doesn't make it a leech.
+
+When Anki marks a card as a "leech",
+the card receives a "leech" tag.
+You can later find leeches by opening the Anki Browser and typing `tag:leech` in the search field.
+If `Leech Action` is set to "Suspend card", the card won't come up for review anymore.
+It's important to quickly pull leeches out of rotation by suspending them
+so that they don't waste your review time.
+
+After you've neutralized a leech, decide what to do with it.
+Change the content of the card to make it easier to memorize
+or just wait until your brain is ready to learn it again.
+
+In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
+The best way to force a particular reading into your memory
+is to memorize multiple words that use the same reading.
+For example, if you can't remember how to read `印璽`,
+make cards for words such as `御璽` or `国璽`
+and learn all of them at the same time.
+
 ## Get the AJT Flexible Grading add-on
 
 AJT Flexible Grading comes with three important features:
@@ -141,8 +193,6 @@ It should speed up review time and save you some keypresses.
 Flexible grading is enabled by default in the add-on's options.
 You can grade the cards by pressing Vim-keys on your keyboard or by using the default Anki hotkeys.
 
-The bindings:
-
 | Vim bindings | Default bindings | Description |
 | ------------ | ---------------- | ----------- |
 | `h`          | `1`              | Again, Fail |
@@ -183,9 +233,8 @@ The SRS best practices:
 1) Enable the V2 scheduler.
 1) Don't review in filtered decks.
 1) Use filtered decks for storing old due cards (backlog).
-1) Install AJT Flexible Grading.
+1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
 1) Use the Pass-Fail mode to avoid "Hard" and "Easy" buttons.
 1) Grade easy cards from their front side.
-1) Use the Vim hotkeys when reviewing.
 
 Tags: anki
