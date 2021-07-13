@@ -290,7 +290,8 @@ main ol,
 main ul,
 main pre,
 main details,
-main hr {
+main hr,
+main table {
     margin-bottom: 16px;
 }
 
@@ -448,5 +449,29 @@ a.download_button:focus {
 /* Cut line */
 
 article > hr:first-of-type {
-    border: 1px solid lightgrey;
+    border: 0;
+    border-top: 2px solid lightgrey;
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+article table {
+    display: block;
+    max-width: 100%;
+    overflow: auto;
+    width: max-content;
+}
+
+article table td,
+article table th {
+    border: 1px solid #e0e3e6;
+    padding: 6px 13px;
+}
+article table tr:nth-child(2n) {
+    background-color: #f6f8fa;
 }
