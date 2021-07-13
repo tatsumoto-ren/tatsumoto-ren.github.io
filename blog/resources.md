@@ -74,6 +74,10 @@ Many of them come from non-native speakers.
 
 ## Immersion material
 
+Don't use streaming sites and sites for reading manga online if possible.
+Always download what you consume.
+Storing immersion material locally makes mining substantially easier.
+
 ### Torrent trackers
 
 * [Nyaa ISS](https://nyaa.iss.one/).
@@ -97,6 +101,9 @@ Watch anime with Japanese subtitles.
 A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
 Watch raw anime online.
+* [ZORO.to](https://zoro.to/).
+Another anime streaming site.
+You can switch between audio and subtitle tracks in multiple languages.
 * [AQStream](https://aqstream.com/).
 Watch Japanese TV.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
@@ -137,9 +144,6 @@ Download manga, light novels, magazines and books for free.
 * [Podcasts opml](https://t.me/ajatt_tools/80).
 About 200 Japanese podcasts for constant passive listening.
 * [AuDee Podcasts](https://audee.jp/)
-
-Don't use streaming sites and sites for reading manga online if possible.
-Always download what you consume.
 
 ## Japanese boards
 
