@@ -183,7 +183,7 @@ Below are the options I recommended using:
     It drags the cards' intervals along causing them to grow faster than normal,
     which leads to forgetting in the future.
 
-    If you've been using Anki before applying this setting, you should **Refold** your collection
+    If you've been using Anki before applying this setting, you should *refold* your collection
     with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
 
     If you would like to learn more about Ease Hell, check out [this video](https://youtu.be/1XaJjbCSXT0).
@@ -212,10 +212,12 @@ set this at a high value.
     ```
     New interval = current interval * Card's ease * Interval Modifier
     ```
-    The default next interval is 250% of last interval.
-    At its default of 100% `Interval Modifier` does nothing. However, you don't want that
+    By default, new interval is `2.5 * last interval`.
+    At its default value of 100%, `Interval Modifier` does nothing.
+    However, this is not what you want
     because you've just lowered `Starting Ease` to 131% in the previous step.
     To restore the balance bump `Interval Modifier` up to 192%.
+    `1.92 * 1.31` is roughly equal to `2.5`.
     Later after you've used Anki for a couple of months and have had high retention,
     you can increase the value further and do less reviews.
     If you forget too many cards, it is recommended to lower it a bit.

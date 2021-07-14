@@ -198,7 +198,7 @@ This leads to intervals growing slower, and eventually you fall into <strong>Eas
 Similarly, pressing &quot;Easy&quot; causes the Ease to increase.
 It drags the cards' intervals along causing them to grow faster than normal,
 which leads to forgetting in the future.</p>
-<p>If you've been using Anki before applying this setting, you should <strong>Refold</strong> your collection
+<p>If you've been using Anki before applying this setting, you should <em>refold</em> your collection
 with the <a href="https://ankiweb.net/shared/info/819023663">RefoldEase</a> add-on.</p>
 <p>If you would like to learn more about Ease Hell, check out <a href="https://youtu.be/1XaJjbCSXT0">this video</a>.</p>
 <p><strong>Note:</strong> If you previously used the old <code>Low Key Anki</code> setup
@@ -224,10 +224,12 @@ set this at a high value.</p>
 When you answer <strong>Good</strong> on a card, its interval is recalculated:</p>
 <pre><code>New interval = current interval * Card's ease * Interval Modifier
 </code></pre>
-<p>The default next interval is 250% of last interval.
-At its default of 100% <code>Interval Modifier</code> does nothing. However, you don't want that
+<p>By default, new interval is <code>2.5 * last interval</code>.
+At its default value of 100%, <code>Interval Modifier</code> does nothing.
+However, this is not what you want
 because you've just lowered <code>Starting Ease</code> to 131% in the previous step.
 To restore the balance bump <code>Interval Modifier</code> up to 192%.
+<code>1.92 * 1.31</code> is roughly equal to <code>2.5</code>.
 Later after you've used Anki for a couple of months and have had high retention,
 you can increase the value further and do less reviews.
 If you forget too many cards, it is recommended to lower it a bit.</p>
