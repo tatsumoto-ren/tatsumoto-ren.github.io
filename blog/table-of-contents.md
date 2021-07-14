@@ -14,6 +14,7 @@
 	* [Kanji](learning-kanji.html)
 	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
+* [Reviewing Anki cards](how-to-review.html)
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
 	* [Passive listening](passive-listening.html)
