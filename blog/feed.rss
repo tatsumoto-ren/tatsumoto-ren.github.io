@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Thu, 24 Jun 2021 15:18:45 +0300</lastBuildDate>
-<pubDate>Thu, 24 Jun 2021 15:18:45 +0300</pubDate>
+<lastBuildDate>Wed, 14 Jul 2021 18:31:03 +0300</lastBuildDate>
+<pubDate>Wed, 14 Jul 2021 18:31:03 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+How to review</title><description><![CDATA[
+<p>Though Anki is an excellent piece of software,
+you can learn languages more effectively if you tweak some settings and know how to review.
+Even if you're using Anki for something other than studying human languages,
+this article may still help you.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/how-to-review.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-to-review.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 13 Jul 2021 05:16:10 +0300</pubDate></item>
 <item><title>
 Japanese fonts</title><description><![CDATA[
 <p>On a freshly installed GNU/Linux distro
@@ -177,15 +188,4 @@ If preparing immersion content is tedious, you are not going to do it.</p>
 <guid>https://tatsumoto-ren.github.io/blog/passive-listening.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 13 Apr 2021 02:08:00 +0300</pubDate></item>
-<item><title>
-Mining from manga</title><description><![CDATA[
-<p>When we read manga,
-sometimes there's a need to quickly OCR a portion of the screen
-to look up new words and add sentences to Anki.
-To do so, you're going to use an optical character recognition program and a few helper tools.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/mining-from-manga.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/mining-from-manga.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 01 Apr 2021 10:08:10 +0300</pubDate></item>
 </channel></rss>
