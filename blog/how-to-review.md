@@ -69,27 +69,33 @@ Some bugs I've run into completely messed up intervals of my cards.
 ## Fighting backlogs
 
 This is where filtered decks come handy.
+
 Ideally you want to finish your reviews every day.
 In practice, it's not always possible.
 There are going to be days when you accumulate backlogs.
-If it happens, your review queue becomes divided between cards that are due today,
+A backlog is an amount of cards that you should already have reviewed.
+Anki calls such cards `overdue`.
+
+If you miss your reviews,
+your review queue becomes divided between cards that are due today,
 most of which you still remember,
 and the cards that were due on the previous days,
 which you've likely forgotten a great number of.
+You can view a list of the overdue cards by typing `is:due -prop:due=0` in the Anki Browser.
 
 If you were to try to eliminate the backlog
 by simply reviewing the cards until no more due cards are left,
-Anki would show you the backlogged cards first.
+Anki would show you the overdue cards first.
 Anki is programmed in a way that makes it prioritize cards
-with older due dates over the cards that are due today.
+with older due dates over the cards that became due recently.
 If the backlog is large enough,
 this would put you in a long-lasting state of needless forgetting.
 If you go along with Anki's algorithm and prioritize relearning forgotten cards,
-then you will end up forgetting the cards that were due today,
+then you will end up forgetting the cards that are due today,
 unless you manage to clear your entire backlog in one sitting.
 
 The solution is to create a filtered deck
-and use it to store the cards that became due before today.
+and use it to store the overdue cards.
 To do this, press "F" or go to "Tools" > "Create filtered deck...".
 
 Let's say my Japanese deck is called "Japanese".

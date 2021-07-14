@@ -261,6 +261,7 @@ the “hard” and “easy” buttons.
     because word cards are noticeably harder than sentence cards.
 
 * **Leech threshold** and **Leech action**:
+    *Leeches* are cards that you keep on forgetting and relearning over and over.
     Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
     You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.
 
