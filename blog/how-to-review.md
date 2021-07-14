@@ -131,6 +131,22 @@ Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
 Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
 
+## New cards
+
+Choose how many new cards you want to do each day and stick to that number.
+Don't learn too many new cards.
+The amount of new cards together with retention determine
+how many reviews you will have to complete.
+If you feel overwhelmed by the number of daily reviews,
+you can *influence* the number of future reviews by decreasing the number of new cards
+or stopping learning new cards completely for a period of time.
+If you feel like you have headroom, raise the amount of new cards.
+Don't cap the
+[Maximum reviews/day](setting-up-anki.html#reviews)
+setting,
+it will only *hide* the due cards from you.
+Failing to do all of your reviews on schedule will form a backlog.
+
 ## Leeches
 
 Anki has a setting that controls how many times you can fail a card before it becomes a leech,
