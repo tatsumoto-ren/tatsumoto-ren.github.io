@@ -50,13 +50,23 @@ to help you get things up and running as quickly as possible.
 It's quite simple. Anki is available in the
 [official repositories](https://archlinux.org/packages/community/x86_64/anki/).
 To install the `anki` package, run:
+
 ```
 $ sudo pacman -S anki
 ```
 
+* If you prefer the most up-to-date version,
+I recommend installing
+[anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/).
+* If you're not an Arch Linux user,
+I'm sure you'll find Anki in repositories of your distribution as well.
+* Debian users and users of other *stable* distros should note that
+outdated versions of Anki work poorly with most add-ons, especially new ones.
+Use a version released at least 6 months ago or newer.
+
 ## Sync your mobile device
 
-By [signing up](https://ankiweb.net/account/register) for Ankiweb
+By [signing up](https://ankiweb.net/account/register) for AnkiWeb
 you can keep your cards synchronized across multiple machines.
 You can also sync between devices.
 Install [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/)
@@ -87,8 +97,13 @@ A sample mining deck can be found here:
 ## Japanese language support
 
 Press `Tools > Add-ons > Get Add-ons` to download and install the
-[Japanese Support](https://ankiweb.net/shared/info/3918629684) add-on.
-Then restart. The add-on is bundled with `mecab` and the `kakasi` executables
+[Japanese Support](https://ankiweb.net/shared/info/3918629684)
+add-on.
+Then restart.
+The add-on is bundled with
+[mecab](https://aur.archlinux.org/packages/mecab)
+and
+[kakasi](https://archlinux.org/packages/?name=kakasi),
 so you don't need to install any additional dependencies.
 
 ## Anki settings
@@ -100,7 +115,7 @@ I recommend the following settings.
 You can access preferences by going to `Tools > Preferences…` on Anki’s main window.
 
 * **Learn ahead limit:** I recommend keeping the value close to the default of 20 minutes.
-Mine is `35` mins.
+Mine is `35` minutes.
 When you finish your daily reviews and new cards,
 Anki will start ignoring intervals of cards in the learning queue `less` than
 this value and showing the cards to you right away.
@@ -182,7 +197,7 @@ Below are the options I recommended using:
     in a way that conflicts with these instructions.
     You can keep `PassFail` installed if you want.
 
-<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.png"></p>
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
 #### Reviews
 
@@ -214,7 +229,7 @@ the “hard” and “easy” buttons.
     <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 
     As I mentioned in the `Starting ease` section,
-    the “hard” and “easy” buttons have counterintuitive effects on Anki’s algorithm,
+    the “hard” and “easy” buttons have counter-intuitive effects on Anki’s algorithm,
     which causes long-term problems with Ease of your cards.
 
 * **Maximum interval:** Intervals of your cards can never increase beyond this limit.
@@ -222,13 +237,13 @@ the “hard” and “easy” buttons.
     The default is `36500` days, which is equal to `100` years.
     However, you can decrease this to a smaller number if you want to ensure long-term retention.
 
-<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.png"></p>
+<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
 
 #### Lapses
 
 * **Steps (in minutes):**
     Works similar to the setting in the `New Cards` tab,
-    except it’s for cards you’ve pressed “Again” on.
+    except it’s for cards you've pressed “Again” on.
     It affects how well you will relearn your lapsed cards.
     Beginners should set one learning step and observe their experience.
     The default of `10` minutes is okay but I prefer a slightly bigger one.
@@ -263,10 +278,11 @@ the “hard” and “easy” buttons.
     * **Make a new card for the same target word:** If a word is of high value to you,
     you can try to memorize a
     [different representation](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
-    of it. Find a different example sentence in your Sentece Bank or online.
+    of it.
+    Find a different example sentence in your Sentence Bank or online.
     For example, on [weblio](https://ejje.weblio.jp/sentence/).
 
-<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.png"></p>
+<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
 **Read next: [Useful Anki add-ons for Japanese](useful-anki-add-ons-for-japanese.html)**
 

@@ -85,8 +85,18 @@ to help you get things up and running as quickly as possible.</p>
 To install the <code>anki</code> package, run:</p>
 <pre><code>$ sudo pacman -S anki
 </code></pre>
+<ul>
+<li>If you prefer the most up-to-date version,
+I recommend installing
+<a href="https://aur.archlinux.org/packages/anki-official-binary-bundle/">anki-official-binary-bundle</a>.</li>
+<li>If you're not an Arch Linux user,
+I'm sure you'll find Anki in repositories of your distribution as well.</li>
+<li>Debian users and users of other <em>stable</em> distros should note that
+outdated versions of Anki work poorly with most add-ons, especially new ones.
+Use a version released at least 6 months ago or newer.</li>
+</ul>
 <h2 id="sync-your-mobile-device"><a class="anchor" href="#sync-your-mobile-device" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sync your mobile device</h2>
-<p>By <a href="https://ankiweb.net/account/register">signing up</a> for Ankiweb
+<p>By <a href="https://ankiweb.net/account/register">signing up</a> for AnkiWeb
 you can keep your cards synchronized across multiple machines.
 You can also sync between devices.
 Install <a href="https://f-droid.org/en/packages/com.ichi2.anki/">AnkiDroid</a>
@@ -111,8 +121,13 @@ I recommend you to import a pre-made mining deck.</p>
 </ul>
 <h2 id="japanese-language-support"><a class="anchor" href="#japanese-language-support" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japanese language support</h2>
 <p>Press <code>Tools &gt; Add-ons &gt; Get Add-ons</code> to download and install the
-<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a> add-on.
-Then restart. The add-on is bundled with <code>mecab</code> and the <code>kakasi</code> executables
+<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a>
+add-on.
+Then restart.
+The add-on is bundled with
+<a href="https://aur.archlinux.org/packages/mecab">mecab</a>
+and
+<a href="https://archlinux.org/packages/?name=kakasi">kakasi</a>,
 so you don't need to install any additional dependencies.</p>
 <h2 id="anki-settings"><a class="anchor" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h2>
 <p>I recommend the following settings.</p>
@@ -120,7 +135,7 @@ so you don't need to install any additional dependencies.</p>
 <p>You can access preferences by going to <code>Tools &gt; Preferences…</code> on Anki’s main window.</p>
 <ul>
 <li><p><strong>Learn ahead limit:</strong> I recommend keeping the value close to the default of 20 minutes.
-Mine is <code>35</code> mins.
+Mine is <code>35</code> minutes.
 When you finish your daily reviews and new cards,
 Anki will start ignoring intervals of cards in the learning queue <code>less</code> than
 this value and showing the cards to you right away.
@@ -196,7 +211,7 @@ in a way that conflicts with these instructions.
 You can keep <code>PassFail</code> installed if you want.</p>
 </li>
 </ul>
-<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.png"></p>
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 <h4 id="reviews"><a class="anchor" href="#reviews" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reviews</h4>
 <ul>
 <li><p><strong>Maximum reviews/day:</strong> This value sets an arbitrary cap on the amount of reviews you can do each day.
@@ -223,7 +238,7 @@ from the previous step, your <code>Interval Modifier</code> should be already se
 the “hard” and “easy” buttons.</p>
   <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 <p>As I mentioned in the <code>Starting ease</code> section,
-the “hard” and “easy” buttons have counterintuitive effects on Anki’s algorithm,
+the “hard” and “easy” buttons have counter-intuitive effects on Anki’s algorithm,
 which causes long-term problems with Ease of your cards.</p>
 </li>
 <li><p><strong>Maximum interval:</strong> Intervals of your cards can never increase beyond this limit.
@@ -232,12 +247,12 @@ The default is <code>36500</code> days, which is equal to <code>100</code> years
 However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
 </li>
 </ul>
-<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.png"></p>
+<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
 <h4 id="lapses"><a class="anchor" href="#lapses" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lapses</h4>
 <ul>
 <li><p><strong>Steps (in minutes):</strong>
 Works similar to the setting in the <code>New Cards</code> tab,
-except it’s for cards you’ve pressed “Again” on.
+except it’s for cards you've pressed “Again” on.
 It affects how well you will relearn your lapsed cards.
 Beginners should set one learning step and observe their experience.
 The default of <code>10</code> minutes is okay but I prefer a slightly bigger one.
@@ -269,13 +284,14 @@ Often you'll find that cards that wouldn't stick before had become very easy.</p
 <li><p><strong>Make a new card for the same target word:</strong> If a word is of high value to you,
 you can try to memorize a
 <a href="https://www.supermemo.com/de/archives1990-2015/articles/20rules">different representation</a>
-of it. Find a different example sentence in your Sentece Bank or online.
+of it.
+Find a different example sentence in your Sentence Bank or online.
 For example, on <a href="https://ejje.weblio.jp/sentence/">weblio</a>.</p>
 </li>
 </ul>
 </li>
 </ul>
-<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.png"></p>
+<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 <p><strong>Read next: <a href="useful-anki-add-ons-for-japanese.html">Useful Anki add-ons for Japanese</a></strong></p>
 <p>Tags: <a href="tag_anki.html">anki</a></p>
 <!-- text end -->
