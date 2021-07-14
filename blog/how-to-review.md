@@ -31,7 +31,7 @@ It's a little less limiting, less buggy and more convenient.
 
 AJATT has an article about [Showing up](http://www.alljapaneseallthetime.com/blog/showing-up/).
 100% of winning showing up.
-Dedicate the time and you'll see the results.
+Dedicate the time, and you'll see the results.
 
 Not only this concept is important when using Anki to learn languages,
 it is mandatory.
@@ -56,7 +56,9 @@ Shift-click on the "Stats" button at the top of the Anki window.
 The recommended retention is 75%-90%.
 If you see that your retention stays out of these boundaries,
 act accordingly.
-Decrease your Interval Modifier if your retention is too low, increase if it's high.
+Decrease your
+[Interval Modifier](setting-up-anki.html#reviews)
+if your retention is too low, increase if it's high.
 
 ## Filtered decks
 
@@ -225,7 +227,7 @@ making the Anki UI less cluttered.
 ## Last review stats at the top
 
 Have you ever had doubts like, "did I grade that card right?" after doing a rep?
-Maybe your finger slipped a bit and you're not sure whether you pressed the right button.
+Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.
 AJT Flexible Grading shows the result of the last review at the top.
 It tells you what button you pressed and what interval the card has right now.
 By clicking on the stat you can bring up the card browser window showing the last answered card.
