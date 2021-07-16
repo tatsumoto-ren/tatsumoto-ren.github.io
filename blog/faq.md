@@ -695,10 +695,13 @@ It's gaymer trash.
 Recaptcha is required to register.
 Absolutely terrible privacy policy.
 People who don't know any Japanese.
+Requires JavaScript to function.
 
 #### 4chan
 
-Recaptcha is required for every post.
+~~Recaptcha is required for every post.~~
+Blocks TOR, VPN and proxies.
+Requires JavaScript to function.
 
 ### Any good Japanese learning communities?
 
@@ -706,6 +709,10 @@ Recaptcha is required for every post.
 * [Nanochan/a/](http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion/a/)
 * Various Matrix rooms
 * Some Telegram chats
+
+### How do I change language in Telegram to Japanese?
+
+Visit the official [Japanese translation](https://translations.telegram.org/ja) page.
 
 ### Are there any language learning YouTubers that you like? What YouTubers do you like in general?
 
