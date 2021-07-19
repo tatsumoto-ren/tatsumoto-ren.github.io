@@ -137,7 +137,8 @@ which force the reader to jump back and forth. But mostly it's very good.
 
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
-Definitions are easy to understand for people new to monolingual dictionaries.
+Advertised as easy to understand for people new to monolingual dictionaries.
+However, I've found that certain defintions use more difficult vocabulay than `大辞林`.
 The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
 * Weblio古語辞典. Archaism dictionary from Weblio.
@@ -152,9 +153,9 @@ There's a version without images called 旺文社国語辞典 第十一版 **画
 
 
 **Note:** If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
-images will render incorrectly unless you
+images may render incorrectly unless you
 append the follwing rules to your Popup CSS.
-Go to Yomichan settings > "Appearance" > "Configure custom CSS...".
+If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS...".
 
 <details>
 <summary>Popup CSS for images</summary>
