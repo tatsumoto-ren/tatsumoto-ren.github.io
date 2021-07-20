@@ -49,6 +49,13 @@ as it's a lot more versatile.
 To configure the add-on, open the Anki Add-on Menu via `Tools > Add-ons` and select `Japanese Support`.
 Then click the Config button on the right-side of the screen.
 
+### [Browser Play Button](https://ankiweb.net/shared/info/182970692)
+
+This add-on lets you play audio on your cards right from the Anki Browser window.
+Additionally, it has a configurable toolbar button and context menu actions.
+
+<p align="center"><img alt="browser play button" src="https://raw.githubusercontent.com/Ajatt-Tools/BrowserPlayButton/41-44/.github/play_button.webp"></p>
+
 ### [Flexible Grading](https://ankiweb.net/shared/info/1715096333)
 
 Bring keyboard-driven reviewing to Anki 2.1.
