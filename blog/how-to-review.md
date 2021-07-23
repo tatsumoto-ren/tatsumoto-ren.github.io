@@ -174,6 +174,35 @@ For example, if you can't remember how to read `印璽`,
 make cards for words such as `御璽` or `国璽`
 and learn all of them at the same time.
 
+## Deleting and suspending cards
+
+There are several articles on the AJATT site
+where Khatz fiercely recommends deleting cards.
+
+> Delete. For happiness, for hygiene, for the smell, for sanity, for fun.
+
+> Get rid of anything even remotely sucky.
+> Delete. Delete. Delete. Don’t worry. You obviously don’t need them.
+
+This advice was later copied by many methods that derived from AJATT.
+
+There are situations when it makes sense to *pull a card out of the review queue*:
+
+* You can't seem to remember a card.
+* A card is too hard or too easy.
+* It takes too much time to rep.
+* You mined it thinking it was a `1T` card and turns out it's not.
+
+Preemptively getting rid of cards that have a potential to become leeches
+or cards that are too complicated and waste your time
+is a valuable technique that's going to help you avoid getting overwhelmed with the SRS
+in the long run.
+
+However, I advice you to **be careful** with deletions.
+It's way harder to restore a deleted card than bring back a suspended one.
+Suspend cards instead.
+If you change your mind, put the card back into the rotation and try to learn it again.
+
 ## Get the AJT Flexible Grading add-on
 
 AJT Flexible Grading comes with three important features:
