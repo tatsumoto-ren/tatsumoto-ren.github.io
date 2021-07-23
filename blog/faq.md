@@ -366,7 +366,7 @@ but you don't need to practice reading small fonts in order to read them.
 If you can read Japanese in a larger font fluently,
 you're going to be able to read smaller fonts too.
 
-## What about reading physical books?
+### What about reading physical books?
 
 I don't recommend reading physical books because usually they're not free,
 and they're harder to mine from.
