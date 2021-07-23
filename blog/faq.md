@@ -85,6 +85,24 @@ However, after a few months I only had to look up a couple words here and there.
 If you are serious about learning Japanese, don't use English subtitles.
 Watch with Japanese subtitles or without any subtitles at all.
 
+### If someone has watched anime with English subs for thousands of hours before starting to learn Japanese, how much of a head start does that give them?
+
+Remember the "watch 10 000 hours of Eng subbed anime" joke from DJT?
+Well, I actually did watch anime with English subs for thousands of hours
+before starting to learn Japanese.
+I can't talk for everybody of course,
+but my experience was that
+I knew literally nothing before I sat down and started formally studying the language.
+I picked up probably no more than about 50 words total,
+things like `お前はもう死んでいる`, `ただいま` and `馬鹿変態`.
+
+When you're watching anime with English subtitles,
+you're reading the subtitles.
+You're only partially listening to the audio.
+So I imagine that the only advantage a person who had an experience similar to mine
+would have is a little bit more phonetic awareness.
+They would still have to build their understanding of Japanese almost from zero.
+
 ### I am struggling to switch from English to Japanese media.
 
 You shouldn't have this problem.
@@ -348,6 +366,13 @@ but you don't need to practice reading small fonts in order to read them.
 If you can read Japanese in a larger font fluently,
 you're going to be able to read smaller fonts too.
 
+## What about reading physical books?
+
+I don't recommend reading physical books because usually they're not free,
+and they're harder to mine from.
+Almost all digital books are free and you can use Yomichan with them,
+which is a great advantage.
+
 ### What should I be "doing" while actively immersing?
 
 Looking up words.
@@ -388,6 +413,17 @@ Having said that,
 domain boundaries can pose a challenge to beginners.
 Every time you switch domains, your comprehension drops.
 For the first few months try to keep your domain small.
+
+### How to extract audio from immersion content for passive listening?
+
+Learn how to use
+[FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
+from the terminal.
+It's very versatile.
+
+I also recommend that you take a look at
+[impd](https://github.com/Ajatt-Tools/impd).
+It's a program that is specifically designed to automatically manage background immersion.
 
 ### I only do passive immersion and things aren't working, what's wrong?
 
@@ -450,6 +486,16 @@ You can stop at any point and start sentence mining.
 Looking up grammar and making targeted sentence cards with grammar targets
 is no different from making cards for regular vocabulary.
 Eventually you'll catch up.
+
+### I'm a beginner. Do you recommend learning the "advanced grammar" within Tae Kim's grammar guide?
+
+The above answer applies.
+
+When I learned Japanese, I read Tae Kim's guide completely, but I did it in chunks.
+First I learned some vocab, then I read the first section.
+Then I learned more vocab and read the second one, and so on.
+
+Decide if you're ready before starting the "advanced grammar" part.
 
 ### Should I up my active immersion?
 
