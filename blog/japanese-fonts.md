@@ -73,6 +73,10 @@ If you're installing fonts manually,
 they need to be saved in a directory known to Fontconfig.
 This is either `~/.local/share/fonts` or `/usr/share/fonts/`.
 
+To list installed fonts, run `fc-list`.
+To update the font cache, run `fc-cache -fv`
+(usually unnecessary as software using the fontconfig library does this).
+
 ## Fontconfig
 
 Fontconfig affects what fonts are used system-wide.
