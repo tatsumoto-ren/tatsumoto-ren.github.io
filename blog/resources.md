@@ -14,6 +14,8 @@ Everyone is welcome to suggest more resources in our chat.
 * [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
 A kana training app.
 * [Kana Anki Deck](https://ankiweb.net/shared/info/1233553736)
+* [Real kana](https://realkana.com/).
+Train kana recognition online.
 
 ### Kanji
 
@@ -92,6 +94,9 @@ Refer to Nyaa first if you watch ongoings.
 A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
 A private tracker for Asian movies and TV-shows.
+* [JPTV.CLUB](https://jptv.club/).
+Another private tracker.
+You can join if you have accounts on other private trackers.
 
 ### Streaming
 
@@ -130,6 +135,9 @@ A library with books in any language.
 Has a [clearnet version](https://b-ok.cc/).
 * [小説を読もう！](https://yomou.syosetu.com/).
 Lets you read web novels for free.
+* [カクヨム](https://kakuyomu.jp/).
+Similar to `小説を読もう！`.
+Search and read web novels online.
 * [青空文庫](https://www.aozora.gr.jp/).
 An Internet library of classic Japanese literature.
 * [Aozora Bunko archive](https://archive.org/details/aozorabunko).
@@ -378,8 +386,10 @@ Notable articles:
 
 ### [TheMoeWay](https://learnjapanese.moe/) and [AnimeCards](https://animecards.site/)
 
-These two are clearly made with Windows users in mind,
-but nevertheless you may still find some useful language learning advice there.
+Unfortunately, these two sites are clearly made with
+[Windows](https://www.gnu.org/proprietary/malware-microsoft.html)
+users in mind,
+but maybe you'll find useful language learning advice there.
 
 Anti-features:
 
