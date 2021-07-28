@@ -497,6 +497,17 @@ Then I learned more vocab and read the second one, and so on.
 
 Decide if you're ready before starting the "advanced grammar" part.
 
+### When should I change my devices to Japanese?
+
+When you can read Japanese comfortably.
+
+User interfaces use a limited range of relatively specific vocabulary.
+If you want to speed things up,
+frontload the vocabulary before switching your devices.
+[Here](https://gist.github.com/tatsumoto-ren/844c4a36491aee2820d09f4852c18172)
+I have a list of sentences ripped from Android's system UI.
+Go through the list and use Yomichan to make cards for words you don't know.
+
 ### Should I up my active immersion?
 
 Yes, not only active.
