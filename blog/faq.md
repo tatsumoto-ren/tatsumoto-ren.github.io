@@ -195,11 +195,11 @@ if you want to make Anki cards.
 
 ### How do I look up words when I read manga?
 
-Using Tesseract.
+Using Tesseract and Yomichan.
 The
 [Mining from manga](mining-from-manga.html)
 article explains how to automate it.
-If Tesseract can't OCR a certain word,
+If Tesseract fails to OCR a certain word,
 open Google Translate, enable handwriting and draw the word.
 
 ### Is SuperMemo better than Anki?
@@ -628,9 +628,41 @@ I recommend
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)
 with kkc or any other free/libre input method.
 
+### What are your current thoughts on Morphman? Do you recommend it?
+
+I used
+[Morphman](https://ankiweb.net/shared/info/900801631)
+for brief periods of time in 2018-2019.
+I always disliked its card sorting feature because of how intrusive it is.
+I don't use Morphman anymore, and I don't recommend it for intermediate learners,
+but beginners may benefit from it.
+
+This is how I recommend using Morphman:
+
+0) Have a large enough sentence bank.
+2,000+ sentences are going to be enough.
+You can use
+[subs2srs](our-immersion-learning-toolset.html#subs2srs)
+to generate sentence banks.
+1) Install Morphman, set it up.
+2) Recalculate the database, then **disable** the add-on.
+3) Morphman will have tagged all cards that it thinks are `i+1` for you.
+Manually pick what cards you're going to learn from the ones marked as `i+1`.
+
+If you don't understand how to use Morphman,
+search for a guide online.
+I recommend
+[this](https://web.archive.org/web/20201220134610if_/https://massimmersionapproach.com/table-of-contents/anki/morphman/)
+guide written by mattvsjapan.
+There's also a
+[video](https://youtu.be/wwp1lJZPBXg)
+guide by OhTalkWho.
+
 ### MorphMan for the monolingual transition?
 
-MorphMan is terrible for everything besides counting how many words you know.
+Back in the day I saw a [bizarre method](https://youtu.be/ORy7JDrMqlA) of going monolingual
+by sorting J-J definitions with Morphman and sentence mining them.
+Though such an approach will work, it's too complicated and extremely tedious.
 
 ### How would you go about learning programming?
 
