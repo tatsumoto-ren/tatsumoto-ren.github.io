@@ -60,7 +60,7 @@ that is **not** matrix.org.
 
 Alternatively, use a
 [web app](https://element.anontier.nl/#/room/#djt:midov.pl)
-([alternative](https://nerdsin.space/#/room/#djt:midov.pl))
+([another](https://nerdsin.space/#/room/#djt:midov.pl))
 or open your client and type `/join #djt:midov.pl`.
 Commands that start with `/` work in most clients, including Element.
 
