@@ -65,10 +65,11 @@ const Sidebar = {
     id: 'sidebar',
     btn_id: 'show_sidebar_button',
     make_sidebar_header: () => {
+        const up_inline_svg = () => { return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve"><g><path d="M64.8,554.8l102.8-102.9l259.7,259.8V10h145.4v701.7l259.7-259.8l102.8,102.9L500.1,990L64.8,554.8z"/></g></svg>`; }
         return [
             `<div class="sidebar_header">`,
             `<a href="table-of-contents.html" class="to_toc" title="Open Table of Contents">Table of Contents</a>`,
-            `<a href="#" onclick="Sidebar.close()" class="jump_top_button" title="Go to top">↑</a>`,
+            `<a href="#" onclick="Sidebar.close()" class="jump_top_button" title="Go to top">${up_inline_svg()}</a>`,
             `<a href="javascript:void(0)" onclick="Sidebar.close()" class="close_button" title="Close">×</a>`,
             `</div>`
         ].join('')
