@@ -86,9 +86,18 @@ on Arch-based distributions.
 To install the <code>anki</code> package, run:</p>
 <pre><code>$ sudo pacman -S anki
 </code></pre>
+<p>The version in the official repositories tends to be outdated.
+The latest version can be installed with
+<a href="https://archlinux.org/packages/?name=python-pip">pip</a>:</p>
+<pre><code>$ pip install --upgrade aqt
+</code></pre>
+<p><code>pip</code> places executables in <code>~/.local/bin/</code> by default.
+Don't forget to add this directory to <code>$PATH</code>.</p>
+<p>Additional methods:</p>
 <ul>
-<li>If you prefer the most up-to-date version,
-I recommend installing
+<li>The official binary from
+<a href="https://github.com/ankitects/anki/releases/">github.com/ankitects/anki</a>
+can be obtained by installing
 <a href="https://aur.archlinux.org/packages/anki-official-binary-bundle/">anki-official-binary-bundle</a>.</li>
 <li>If you're not an Arch Linux user,
 I'm sure you'll find Anki in repositories of your distribution as well.</li>
