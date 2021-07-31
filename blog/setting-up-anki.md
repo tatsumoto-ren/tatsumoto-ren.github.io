@@ -63,6 +63,8 @@ I'm sure you'll find Anki in repositories of your distribution as well.
 * Debian users and users of other *stable* distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.
+* Please don't install Anki via FlatPak, Snap packages or other non-native package managers.
+People have been reporting various problems connected to these installation methods.
 
 ## Sync your mobile device
 
@@ -74,7 +76,10 @@ on your Android device and sync your collection.
 This will allow you to review your flashcards when you're outside
 and don't have access to your computer.
 
-I must warn you in advance though. Don't sync your collection with AnkiWeb
+To sync your collection, press `Y` or click "Sync" on the toolbar.
+
+I must warn you in advance though.
+Don't sync your collection with AnkiWeb
 if you are a heavy user of [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
 `subs2srs` decks take a lot of disk space. Use a different Anki profile to store them.
 
@@ -114,7 +119,8 @@ I recommend the following settings.
 
 You can access preferences by going to `Tools > Preferences…` on Anki’s main window.
 
-* **Learn ahead limit:** I recommend keeping the value close to the default of 20 minutes.
+* **Learn ahead limit.**
+I recommend keeping the value close to the default of 20 minutes.
 Mine is `35` minutes.
 When you finish your daily reviews and new cards,
 Anki will start ignoring intervals of cards in the learning queue `less` than
@@ -126,21 +132,32 @@ cards with longer learning steps will be shown to you too early.
 Keeping the value on the lower side enforces the wait time of your steps.
 If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
 
-* **Show new cards after reviews:** You always want to finish your reviews first,
+* **Show new cards after reviews.**
+You always want to finish your reviews first,
 and you don’t want new cards to slow you down. You can choose `Show new cards before reviews`
 if you are consistent and feel confident that you will never have a backlog of Anki reviews.
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.
 
-* **Anki 2.1. scheduler:** Make sure to enable this one. The old scheduler is buggy and clunky.
-The new one fixes some of issues that previous Anki versions had, though it's still in development.
+* **Anki 2.1. scheduler.**
+If your version of Anki doesn't show this option, it has been already enabled by default.
+Otherwise, make sure to enable it.
+The old V1 scheduler was buggy and clunky.
+The new one fixes its issues.
 You can read about it in detail [here](https://faqs.ankiweb.net/the-anki-2.1-scheduler.html).
 
     Main killer features:
     * You can have subdecks and review all of them at once,
     the cards will be properly mixed when reviewing.
-    * You can learn new cards in filtered decks. Filtered decks no longer reset learning steps
-    when rebuilt or emptied.
+    * You can learn new cards in filtered decks.
+    Filtered decks no longer reset learning steps when rebuilt or emptied.
+
+* **V3 scheduler.**
+This is a
+[new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
+that comes with Anki 2.1.45+.
+Compared to V2 scheduler, this one is not as important.
+It's up to you to enable it.
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 
@@ -151,6 +168,12 @@ Each deck has an Options Group attached to it.
 The subdeck options will override the parent deck options.
 Click `Deck > Options` to access Options Groups settings.
 You can hit Manage to create additional options groups.
+
+**Warning:** If you're running Anki 2.1.45+,
+you will be presented with a new Options Groups settings dialog.
+Its layout won't match with the screenshots shown on this page.
+If you want to bring up the old version of the dialog,
+hold Shift and then choose Deck Options.
 
 Below are the options I recommended using:
 
@@ -286,7 +309,5 @@ the “hard” and “easy” buttons.
     For example, on [weblio](https://ejje.weblio.jp/sentence/).
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
-
-**Read next: [Useful Anki add-ons for Japanese](useful-anki-add-ons-for-japanese.html)**
 
 Tags: anki

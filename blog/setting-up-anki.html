@@ -94,6 +94,8 @@ I'm sure you'll find Anki in repositories of your distribution as well.</li>
 <li>Debian users and users of other <em>stable</em> distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.</li>
+<li>Please don't install Anki via FlatPak, Snap packages or other non-native package managers.
+People have been reporting various problems connected to these installation methods.</li>
 </ul>
 <h2 id="sync-your-mobile-device"><a class="anchor" href="#sync-your-mobile-device" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sync your mobile device</h2>
 <p>By <a href="https://ankiweb.net/account/register">signing up</a> for AnkiWeb
@@ -103,7 +105,9 @@ Install <a href="https://f-droid.org/en/packages/com.ichi2.anki/">AnkiDroid</a>
 on your Android device and sync your collection.
 This will allow you to review your flashcards when you're outside
 and don't have access to your computer.</p>
-<p>I must warn you in advance though. Don't sync your collection with AnkiWeb
+<p>To sync your collection, press <code>Y</code> or click &quot;Sync&quot; on the toolbar.</p>
+<p>I must warn you in advance though.
+Don't sync your collection with AnkiWeb
 if you are a heavy user of <a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>.
 <code>subs2srs</code> decks take a lot of disk space. Use a different Anki profile to store them.</p>
 <p>To make multiple profiles, press <code>File &gt; Switch profile</code>.</p>
@@ -134,7 +138,8 @@ so you don't need to install any additional dependencies.</p>
 <h3 id="preferences"><a class="anchor" href="#preferences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preferences</h3>
 <p>You can access preferences by going to <code>Tools &gt; Preferences…</code> on Anki’s main window.</p>
 <ul>
-<li><p><strong>Learn ahead limit:</strong> I recommend keeping the value close to the default of 20 minutes.
+<li><p><strong>Learn ahead limit.</strong>
+I recommend keeping the value close to the default of 20 minutes.
 Mine is <code>35</code> minutes.
 When you finish your daily reviews and new cards,
 Anki will start ignoring intervals of cards in the learning queue <code>less</code> than
@@ -146,22 +151,33 @@ cards with longer learning steps will be shown to you too early.
 Keeping the value on the lower side enforces the wait time of your steps.
 If you set this to <code>0</code>, Anki will always wait the full delay, so it's not optimal either.</p>
 </li>
-<li><p><strong>Show new cards after reviews:</strong> You always want to finish your reviews first,
+<li><p><strong>Show new cards after reviews.</strong>
+You always want to finish your reviews first,
 and you don’t want new cards to slow you down. You can choose <code>Show new cards before reviews</code>
 if you are consistent and feel confident that you will never have a backlog of Anki reviews.
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.</p>
 </li>
-<li><p><strong>Anki 2.1. scheduler:</strong> Make sure to enable this one. The old scheduler is buggy and clunky.
-The new one fixes some of issues that previous Anki versions had, though it's still in development.
+<li><p><strong>Anki 2.1. scheduler.</strong>
+If your version of Anki doesn't show this option, it has been already enabled by default.
+Otherwise, make sure to enable it.
+The old V1 scheduler was buggy and clunky.
+The new one fixes its issues.
 You can read about it in detail <a href="https://faqs.ankiweb.net/the-anki-2.1-scheduler.html">here</a>.</p>
 <p>Main killer features:</p>
 <ul>
 <li>You can have subdecks and review all of them at once,
 the cards will be properly mixed when reviewing.</li>
-<li>You can learn new cards in filtered decks. Filtered decks no longer reset learning steps
-when rebuilt or emptied.</li>
+<li>You can learn new cards in filtered decks.
+Filtered decks no longer reset learning steps when rebuilt or emptied.</li>
 </ul>
+</li>
+<li><p><strong>V3 scheduler.</strong>
+This is a
+<a href="https://faqs.ankiweb.net/the-2021-scheduler.html">new scheduler</a>
+that comes with Anki 2.1.45+.
+Compared to V2 scheduler, this one is not as important.
+It's up to you to enable it.</p>
 </li>
 </ul>
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
@@ -170,6 +186,11 @@ when rebuilt or emptied.</li>
 The subdeck options will override the parent deck options.
 Click <code>Deck &gt; Options</code> to access Options Groups settings.
 You can hit Manage to create additional options groups.</p>
+<p><strong>Warning:</strong> If you're running Anki 2.1.45+,
+you will be presented with a new Options Groups settings dialog.
+Its layout won't match with the screenshots shown on this page.
+If you want to bring up the old version of the dialog,
+hold Shift and then choose Deck Options.</p>
 <p>Below are the options I recommended using:</p>
 <h4 id="new-cards"><a class="anchor" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h4>
 <ul>
@@ -295,7 +316,6 @@ For example, on <a href="https://ejje.weblio.jp/sentence/">weblio</a>.</p>
 </li>
 </ul>
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
-<p><strong>Read next: <a href="useful-anki-add-ons-for-japanese.html">Useful Anki add-ons for Japanese</a></strong></p>
 <p>Tags: <a href="tag_anki.html">anki</a></p>
 <!-- text end -->
 </article>
