@@ -20,7 +20,9 @@ You can support me over at Patreon by clicking the button below.
 
 ## Monero
 
-Monero is considered a privacy-focused cryptocurrency, the transactions are all hidden.
+[Monero](https://www.getmonero.org/)
+is a privacy-focused and censorship-resistant cryptocurrency.
+The transactions are all hidden.
 There are many ways you can buy or sell Monero, one of the simplest ones is through
 [ChangeNow.io](https://changenow.io/).
 
