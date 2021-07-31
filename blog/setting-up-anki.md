@@ -48,7 +48,8 @@ to help you get things up and running as quickly as possible.
 ## Installation
 
 It's quite simple. Anki is available in the
-[official repositories](https://archlinux.org/packages/community/x86_64/anki/).
+[official repositories](https://archlinux.org/packages/community/x86_64/anki/)
+on Arch-based distributions.
 To install the `anki` package, run:
 
 ```
@@ -76,7 +77,7 @@ on your Android device and sync your collection.
 This will allow you to review your flashcards when you're outside
 and don't have access to your computer.
 
-To sync your collection, press `Y` or click "Sync" on the toolbar.
+To sync your collection on desktop, press `Y` or click "Sync" on the toolbar.
 
 I must warn you in advance though.
 Don't sync your collection with AnkiWeb
