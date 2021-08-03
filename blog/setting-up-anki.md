@@ -325,4 +325,21 @@ the “hard” and “easy” buttons.
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
+## GTK theme
+
+Anki uses the
+[Qt](https://wiki.archlinux.org/title/Qt)
+toolkit.
+To tell Anki to use your GTK theme,
+install
+[qt5-styleplugins](https://aur.archlinux.org/packages/qt5-styleplugins/)
+and set the following
+[environment variable](https://wiki.archlinux.org/title/Environment_variables#Graphical_environment):
+
+```
+export QT_QPA_PLATFORMTHEME=gtk2
+```
+
+Then relogin or reboot.
+
 Tags: anki
