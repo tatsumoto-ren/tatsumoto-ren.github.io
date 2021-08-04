@@ -83,9 +83,9 @@ const Sidebar = {
                 let part = ''
                 part += function () {
                     if (header.level > prev_level) {
-                        return "<ol>".repeat(header.level - prev_level + 1)
+                        return "<ol>".repeat(header.level - prev_level)
                     } else if (header.level < prev_level) {
-                        return "</ol>".repeat(prev_level - header.level + 1)
+                        return "</ol>".repeat(prev_level - header.level)
                     } else {
                         return ''
                     }
@@ -95,7 +95,7 @@ const Sidebar = {
                 return part
             }
         ).join('')
-        list += prev_level ? "</ol>".repeat(prev_level + 1) : ''
+        list += prev_level ? "</ol>".repeat(prev_level) : ''
 
         return list
     },
