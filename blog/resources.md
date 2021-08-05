@@ -82,14 +82,27 @@ Storing immersion material locally makes mining substantially easier.
 
 ### Torrent trackers
 
-* [Nyaa ISS](https://nyaa.iss.one/).
+* [Nyaa](https://nyaa.si/).
 A torrent site with anime, manga, light novels and Japanese dramas.
 Contains 98% of what you need to actually learn Japanese.
+
+	Unfortunately, Nyaa is blocked in some countries,
+	and because there's no Tor address,
+	and they block all Tor access,
+	we have to use mirrors.
+
+	**Mirrors:**
+	* [NyaaLOL](https://nyaa.lol/)
+	* [MeowInJapanese](https://meowinjapanese.cf/)
+	* [Nyaa ISS](https://nyaa.iss.one/).
+	* [NyaaPantsu](https://nyaa.net/)
 * [Rutracker](https://rutracker.org/).
 Another torrent site.
 Has lots of Japanese movies, dramas and anime.
 Ongoing anime gets uploaded with a noticeable delay.
 Refer to Nyaa first if you watch ongoings.
+
+	This site can be accessed through Tor.
 * [Animebytes](https://animebytes.tv/).
 A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
