@@ -143,11 +143,13 @@ and has a nicer interface that shows kanji in a colored grid.
 
 <p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.webp"></p>
 
-### [JaPitch](https://ankiweb.net/shared/info/1225470483)
+### [Pitch Accent](https://ankiweb.net/shared/info/1225470483)
 
 Adds pitch accent graphs to your cards.
-Note that [Yomichan](https://foosoft.net/projects/yomichan/)
-can do the same but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
+Note that
+[Yomichan](https://foosoft.net/projects/yomichan/)
+has a similar feature,
+but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
 It also lets you mass-generate pitches for all cards in your sentence bank.
 
 <details>
@@ -158,12 +160,17 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
     "dstFields": [
         "VocabPitchPattern"
     ],
+    "generateOnNoteFlush": true,
+    "kanaLookups": true,
     "lookupShortcut": "Ctrl+8",
     "noteTypes": [
-        "japanese"
+        "japanese",
+        "subs2srs",
+        "ajt"
     ],
     "pronunciationHiragana": false,
     "regenerateReadings": false,
+    "skipWords": "び,の,や,ね,ば,て,と,た,が,に,な,は,も,ます,から,いる,たち,てる,う,ましょ",
     "srcFields": [
         "VocabKanji"
     ],
@@ -351,6 +358,13 @@ to set your Ease to 131% with [RefoldEase](#refoldease) and keep your Anki setup
 ### Load Balancer
 
 Prevents you from reviewing your cards on the right day, when they should be reviewed.
+
+### Add-ons that modify Anki Scheduler
+
+Basically everything that modifies the scheduler is completely unreliable
+and is going to break eventually.
+As of July 2021 a new version of Anki scheduler is planned to be relesed soon.
+It's going to render all such add-ons unusable.
 
 ### Migaku add-ons
 
