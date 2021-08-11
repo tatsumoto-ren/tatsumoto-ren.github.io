@@ -45,6 +45,9 @@ recommended by
 	* [nerdsin.space](https://nerdsin.space/)
 	* [midov.pl](https://element.midov.pl/element/)
 	* [anontier.nl](https://element.anontier.nl/)
+* My selection:
+	* [cuum.space](https://element.cuum.space/)
+	* [dfc.world](https://matrix.dfc.world/)
 
 *Not all the servers may be open for registration at any point of time.*
 
@@ -126,6 +129,7 @@ without having to use a desktop client.
 * https://chat.ubersm.art/
 * https://chat.utwente.io/
 * https://chat.zelchat.de/
+* https://matrix.mlp.chat/
 * https://el.aria-net.org/
 * https://element.1984.cz/
 * https://riot.downey.net/
