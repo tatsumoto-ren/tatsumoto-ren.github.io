@@ -50,10 +50,10 @@ If you are able to do it with the correct stroke order then press "Good".
 Otherwise press "Again".
 
 <p align="center">
-	<a class="download_button" href="https://t.me/ajatt_tools/82">Download</a>
+	<a class="download_button" href="https://ankiweb.net/shared/info/1233553736">Download</a>
 </p>
 <p align="center">
-	<a href="https://ankiweb.net/shared/info/1233553736">Mirror</a>
+	<a href="https://t.me/ajatt_tools/82">Mirror</a>
 </p>
 
 ## Writing kanji
