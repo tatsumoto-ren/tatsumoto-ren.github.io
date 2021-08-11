@@ -18,7 +18,8 @@ and premade decks like Core or Tango.
 
 The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vocabulary.html)
 and consists of words commonly used in everyday life in Japan.
-Cards are presented relatively in the `1T` (`i+1`) order.
+Cards are presented relatively in the `1T` (`i+1`) order,
+which means that each sentence introduces only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.
 
 We have prepared two versions of the deck.
@@ -29,6 +30,29 @@ card format and another for people who like
 more.
 
 ****
+
+## JP1K method
+
+The method is explained in more detail [here](learning-kanji.html#jp1k-method).
+
+The idea behind the JP1K method is that
+you try to recall kanji readings when you review the cards,
+but you **don't take** them into account when grading yourself.
+
+When a flashcard pops up,
+try to recall the reading and the meaning of the target word,
+then use your mouse to hover over the word to see how it's read.
+Afterwards reveal the back side of the card
+and see if your memory is correct.
+Pass the card if you've correctly recalled the **meaning**.
+Otherwise, hit "Again".
+
+It is important that you try to recall the reading of the target word every time you see the card.
+By doing so, you engage in deliberate practice,
+which should help you eventually remember the reading.
+However, don't penalize yourself for being unable to do recall readings.
+As a beginner, it's already quite difficult to remember Japanese words,
+and you don't want to add another level of complexity just yet.
 
 ## TSCs deck
 
