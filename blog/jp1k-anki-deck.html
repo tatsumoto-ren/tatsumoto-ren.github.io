@@ -57,7 +57,7 @@ I recommend that you give the Kanji Transition deck a try over studying kanji in
 and premade decks like Core or Tango.</p>
 <p>The vocabulary used in the deck was taken from <a href="basic-vocabulary.html">Ankidrone Starter Pack</a>
 and consists of words commonly used in everyday life in Japan.
-Cards are presented relatively in the <code>1T</code> (<code>i+1</code>) order,
+Cards show up relatively in the <code>1T</code> (<code>i+1</code>) order,
 which means that each sentence introduces only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.</p>
 <p>We have prepared two versions of the deck.
@@ -68,12 +68,12 @@ card format and another for people who like
 more.</p>
 <hr>
 <h2 id="jp1k-method"><a class="anchor" href="#jp1k-method" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JP1K method</h2>
-<p>The method is explained in more detail <a href="learning-kanji.html#jp1k-method">here</a>.</p>
+<p>I explain the method in more detail <a href="learning-kanji.html#jp1k-method">here</a>.</p>
 <p>The idea behind the JP1K method is that
 you try to recall kanji readings when you review the cards,
 but you <strong>don't take</strong> them into account when grading yourself.</p>
 <p>When a flashcard pops up,
-try to recall the reading and the meaning of the target word,
+try to recall the reading and meaning of the target word,
 then use your mouse to hover over the word to see how it's read.
 Afterwards reveal the back side of the card
 and see if your memory is correct.
@@ -87,7 +87,7 @@ As a beginner, it's already quite difficult to remember Japanese words,
 and you don't want to add another level of complexity just yet.</p>
 <h2 id="tscs-deck"><a class="anchor" href="#tscs-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TSCs deck</h2>
 <p>On the front there's an example sentence.
-The target word is highlighted.
+The target word appears highlighted.
 When reviewing the cards you can decide whether you want to read the whole sentence or not.</p>
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
 <p align="center"><i>An example TSC from AJT Kanji Transition.</i></p>
@@ -98,7 +98,7 @@ but it is not enough to replace a proper grammar guide.
 Refer to
 <a href="http://www.guidetojapanese.org/learn/grammar">Tae Kim guide</a>
 when there's a sentence you don't grasp fully.</p>
-<p>If a word is written in kanji,
+<p>If a word contains kanji,
 you can view the furigana reading by hovering over it with your mouse.</p>
 <p align="center">
     <a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
@@ -129,8 +129,10 @@ If you don't want to learn them, press <code>@</code> to suspend such cards.</p>
 </li>
 <li><p><strong>Q:</strong> Do I really need to learn kanji spellings of words normally written in kana?</p>
 <p><strong>A:</strong> If you feel intimidated by them, it's okay to suspend the cards.
-I like to always learn kanji spellings because even if a word is mostly written in kana,
-there's a chance that you encounter the kanjified version while reading.</p>
+I like to always learn kanji versions
+because even if you see a word in its kana reading most of the time,
+there's a chance that you eventually encounter the kanjified version.
+You want to be prepared when it happens.</p>
 </li>
 <li><p><strong>Q:</strong> I have poor retention.</p>
 <p><strong>A:</strong> This is natural if you're a beginner,
@@ -171,7 +173,10 @@ Explore our
 or
 <a href="https://ankiweb.net/shared/decks/japanese">AnkiWeb</a>
 for premade Anki decks.</p>
-<p>First, open the Card Types settings and find where the target word or sentence is placed.
+<p>First, open the Card Types settings
+by clicking &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; &quot;Cards...&quot;.
+In the HTML templates
+find the tag that refers to target word or sentence.
 Let's say for the sake of this example that the field's name is <code>Word</code>.</p>
 <pre><code>&lt;div&gt;{{Word}}&lt;/div&gt;
 </code></pre>
@@ -184,10 +189,10 @@ and mass-generate readings with the Japanese support add-on.</p>
 </code></pre>
 <p>Now to make the furigana hidden by default add a class name or id
 to the tag around the target word.
-This class name will be used shortly to refer to the tag.</p>
+The class name will be used to refer to the tag.</p>
 <pre><code>&lt;div class=&quot;question&quot;&gt;{{furigana:WordFurigana}}&lt;/div&gt;
 </code></pre>
-<p>Finally, you need a css rule that tells Anki to keep the furigana hidden by default,
+<p>Finally, you need a CSS rule that tells Anki to keep the furigana hidden by default,
 and a second rule that tells to make it visible on hover.</p>
 <pre><code>.question ruby rt { visibility: hidden; }
 .question ruby:hover rt { visibility: visible; }
