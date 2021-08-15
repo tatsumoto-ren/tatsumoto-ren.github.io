@@ -110,6 +110,8 @@ A private tracker for Asian movies and TV-shows.
 * [JPTV.CLUB](https://jptv.club/).
 Another private tracker.
 You can join if you have accounts on other private trackers.
+* [anisource](https://asnet.pw/).
+An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
 
 ### Streaming
 
@@ -124,8 +126,10 @@ Another anime streaming site.
 You can switch between audio and subtitle tracks in multiple languages.
 * [AQStream](https://aqstream.com/).
 Watch Japanese TV.
+* [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
+A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-A m3u playlist with Japanese IPTV channels which you can open in [mpv](#mpv).
+A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
 You can switch channels in mpv by pressing `<` and `>`.
 
 ### Manga
@@ -140,6 +144,12 @@ Manga archive.
 Raw manga online.
 * [同人あんてな](https://doujinantena.top/).
 Free eromanga and doujinshi.
+* [raw-cans](http://raw-cans.net/).
+This website has scans of a lot of manga,
+as well as shounen jump,
+young jump and other manga magazines.
+* [Itazuraneko 漫画](https://itazuraneko.neocities.org/library/manga.html).
+* [shinmoemanga](https://shinmoemanga.neocities.org/).
 
 ### Books
 
@@ -200,7 +210,7 @@ A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
 An image viewer perfect for reading manga.
 * [zathura](https://wiki.archlinux.org/title/Zathura).
-Minimalistic document viewer.
+A minimalistic document viewer.
 Can be used to read novels.
 * [foliate](https://johnfactotum.github.io/foliate/).
 A simple and modern eBook viewer.
@@ -209,6 +219,10 @@ A simple and modern eBook viewer.
 Create condensed audio and automatically rotate your mpd playlist.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
+* [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
+Takes video files and subtitle files
+and creates cards with screenshots and/or audio for each line in the sub file.
+Also useful for batch extracting audio from videos.
 
 ### Localization
 
@@ -245,6 +259,7 @@ A command line client for Mega.
 * [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
 A command-line program that lets you download videos and audio
 from YouTube and more than a thousand other sites.
+See our [setup guide](mining-from-movies-and-tv-shows.html#youtube-dl).
 * [mangadesk](https://github.com/darylhjd/mangadesk).
 Download manga directly from your terminal.
 * [HakuNeko](https://github.com/manga-download/hakuneko).
@@ -332,6 +347,26 @@ You've been warned.
 
 * [SimplyTranslate](https://translate.metalune.xyz/)
 * [LibreTranslate](https://libretranslate.com/)
+
+## Pitch accent
+
+* [韻律読み上げチュータスズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/phrasing).
+Generate text-to-speech sentences with somewhat accurate pitch accent (don't assume it's correct).
+* [Japanese Accent Study Website](https://accent.u-biq.org/).
+A useful site with pitch accent information for counters,
+verb conjugations,
+place names,
+surnames and Japanese celebrities.
+* [NHK日本語発音アクセント新辞典・付録](https://www.mediafire.com/file/tsrs58rg61y8x3d/NHK%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E7%2599%25BA%25E9%259F%25B3%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E6%2596%25B0%25E8%25BE%259E%25E5%2585%25B8%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
+A scan of the NHK Pitch Accent dictionary,
+specifically the sections at the back (which aren't in the EPWING)
+that explain the theory, rules and patterns.
+* [新明解日本語アクセント辞典 第2版・付録](https://www.mediafire.com/file/mwzighd9dnvo63w/%25E6%2596%25B0%25E6%2598%258E%25E8%25A7%25A3%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E8%25BE%259E%25E5%2585%25B8_%25E7%25AC%25AC2%25E7%2589%2588%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
+A scan of the Shinmeikai Pitch Accent dictionary,
+specifically the sections at the back
+that explain the theory, rules and patterns.
+* [京言葉](http://www.akenotsuki.com/kyookotoba/).
+A website on Kyoto dialect.
 
 ## Language guides
 
@@ -421,5 +456,7 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 * [Immersion Wiki](https://drive.google.com/drive/folders/1gDpwFl07a0EO_pTHLLVn_Waz2GXwwSE1)
 * [Mia's Japanese quickstart guide](https://archive.md/6kMEg).
 Her guide is a little outdated but can still be useful.
+* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
+`subs2srs` Anki decks for popular anime and movies.
 
 Tags: guide
