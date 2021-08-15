@@ -32,6 +32,9 @@ The only two options you need are hiragana and katakana.
 
 Once you select either hiragana or katakana, use the first option to drill the syllabaries.
 
+Don't forget to check the app's settings.
+You may want to toggle `single button mode` or `hide answers`.
+
 <p align="center">
 	<a class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
 </p>
