@@ -86,7 +86,7 @@ which you've likely forgotten a great number of.
 You can view a list of the overdue cards by typing `is:due -prop:due=0` in the Anki Browser.
 
 If you were to try to eliminate the backlog
-by simply reviewing the cards until no more due cards are left,
+by simply reviewing the cards until no more due cards remain,
 Anki would show you the overdue cards first.
 Anki is programmed in a way that makes it prioritize cards
 with older due dates over the cards that became due recently.
@@ -122,10 +122,23 @@ Review those cards.
 <p align="center"><img alt="filtered deck" class="shadow" src="img/anki-backlog.webp"></p>
 <p align="center"><i>Deck settings.</i></p>
 
+Take a look at the "cards selected by" setting.
+It presents a number of options you can choose from to fight the backlog the way suits you.
+If you want to review cards that you're most likely to still remember,
+change it to "Increasing intervals".
+This way when you reduce the number of cards the filtered deck can store,
+the cards with the largest intervals will be pulled out first.
+On the other hand,
+if you choose "Decreasing intervals",
+the cards with the smallest intervals will be the first to go.
+
 The benefit of using filtered decks for fighting backlogs is that
 you don't move any cards yourself.
 Once they leave the filtered deck,
 they automatically return to the decks they were pulled out from.
+If this approach doesn't work for you, try suspending overdue cards instead.
+To do so, open the Anki Browser, type `is:due -prop:due=0` and suspend the cards that will show up.
+Unsuspend the cards in chunks once you have time to review them.
 
 Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
@@ -184,7 +197,7 @@ where Khatz fiercely recommends deleting cards.
 > Get rid of anything even remotely sucky.
 > Delete. Delete. Delete. Don’t worry. You obviously don’t need them.
 
-This advice was later copied by many methods that derived from AJATT.
+Later many methods derived from AJATT copied this advice.
 
 There are situations when it makes sense to *pull a card out of the review queue*:
 
@@ -194,13 +207,12 @@ There are situations when it makes sense to *pull a card out of the review queue
 * You mined it thinking it was a `1T` card and turns out it's not.
 
 Preemptively getting rid of cards that have a potential to become leeches
-or cards that are too complicated and waste your time
-is a valuable technique that's going to help you avoid getting overwhelmed with the SRS
-in the long run.
+or cards that are too complicated and waste your time is a valuable technique.
+It is going to help you avoid getting overwhelmed with the SRS in the long run.
 
-However, I advice you to **be careful** with deletions.
+However, I advise you to **be careful** with deletions.
 It's way harder to restore a deleted card than bring back a suspended one.
-Suspend cards instead.
+**Suspend** cards instead.
 If you change your mind, put the card back into the rotation and try to learn it again.
 
 ## Get the AJT Flexible Grading add-on
@@ -217,7 +229,7 @@ To install the add-on, follow the instructions on AnkiWeb.
 
 <p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Download</a></p>
 
-## Pass-Fail mode
+### Pass-Fail mode
 
 The Pass-Fail mode essentially doesn't let you press "Hard" and "Easy" buttons.
 There are two benefits associated with this.
@@ -236,7 +248,7 @@ Using the "Easy" button can artificially inflate your card scheduling intervals
 and lead to forgetting and lower retention in the future.
 For the vast majority of us the best option is to simply use Anki's "Good" and "Again" buttons.
 
-## Flexible grading
+### Flexible grading
 
 Flexible grading refers to the ability to pass an Anki card without having to reveal the answer.
 If you believe that you really know the content of a flashcard,
@@ -262,14 +274,14 @@ much like when you navigate a document in Vim.
 
 I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.
 
-## Getting rid of answer buttons
+### Getting rid of answer buttons
 
 Once you get used to blasting through your reps with Vim-like hotkeys,
 you realize that the answer buttons are completely redundant.
 AJT Flexible Grading has an option to remove those buttons,
 making the Anki UI less cluttered.
 
-## Last review stats at the top
+### Last review stats at the top
 
 Have you ever had doubts like, "did I grade that card right?" after doing a rep?
 Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.

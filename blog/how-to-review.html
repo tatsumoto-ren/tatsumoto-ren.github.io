@@ -112,7 +112,7 @@ and the cards that were due on the previous days,
 which you've likely forgotten a great number of.
 You can view a list of the overdue cards by typing <code>is:due -prop:due=0</code> in the Anki Browser.</p>
 <p>If you were to try to eliminate the backlog
-by simply reviewing the cards until no more due cards are left,
+by simply reviewing the cards until no more due cards remain,
 Anki would show you the overdue cards first.
 Anki is programmed in a way that makes it prioritize cards
 with older due dates over the cards that became due recently.
@@ -142,10 +142,22 @@ The cards will be returned to your Japanese deck.
 Review those cards.</p>
 <p align="center"><img alt="filtered deck" class="shadow" src="img/anki-backlog.webp"></p>
 <p align="center"><i>Deck settings.</i></p>
+<p>Take a look at the &quot;cards selected by&quot; setting.
+It presents a number of options you can choose from to fight the backlog the way suits you.
+If you want to review cards that you're most likely to still remember,
+change it to &quot;Increasing intervals&quot;.
+This way when you reduce the number of cards the filtered deck can store,
+the cards with the largest intervals will be pulled out first.
+On the other hand,
+if you choose &quot;Decreasing intervals&quot;,
+the cards with the smallest intervals will be the first to go.</p>
 <p>The benefit of using filtered decks for fighting backlogs is that
 you don't move any cards yourself.
 Once they leave the filtered deck,
-they automatically return to the decks they were pulled out from.</p>
+they automatically return to the decks they were pulled out from.
+If this approach doesn't work for you, try suspending overdue cards instead.
+To do so, open the Anki Browser, type <code>is:due -prop:due=0</code> and suspend the cards that will show up.
+Unsuspend the cards in chunks once you have time to review them.</p>
 <p>Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
 Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.</p>
@@ -195,7 +207,7 @@ where Khatz fiercely recommends deleting cards.</p>
 <p>Get rid of anything even remotely sucky.
 Delete. Delete. Delete. Don’t worry. You obviously don’t need them.</p>
 </blockquote>
-<p>This advice was later copied by many methods that derived from AJATT.</p>
+<p>Later many methods derived from AJATT copied this advice.</p>
 <p>There are situations when it makes sense to <em>pull a card out of the review queue</em>:</p>
 <ul>
 <li>You can't seem to remember a card.</li>
@@ -204,12 +216,11 @@ Delete. Delete. Delete. Don’t worry. You obviously don’t need them.</p>
 <li>You mined it thinking it was a <code>1T</code> card and turns out it's not.</li>
 </ul>
 <p>Preemptively getting rid of cards that have a potential to become leeches
-or cards that are too complicated and waste your time
-is a valuable technique that's going to help you avoid getting overwhelmed with the SRS
-in the long run.</p>
-<p>However, I advice you to <strong>be careful</strong> with deletions.
+or cards that are too complicated and waste your time is a valuable technique.
+It is going to help you avoid getting overwhelmed with the SRS in the long run.</p>
+<p>However, I advise you to <strong>be careful</strong> with deletions.
 It's way harder to restore a deleted card than bring back a suspended one.
-Suspend cards instead.
+<strong>Suspend</strong> cards instead.
 If you change your mind, put the card back into the rotation and try to learn it again.</p>
 <h2 id="get-the-ajt-flexible-grading-add-on"><a class="anchor" href="#get-the-ajt-flexible-grading-add-on" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get the AJT Flexible Grading add-on</h2>
 <p>AJT Flexible Grading comes with three important features:</p>
@@ -221,7 +232,7 @@ If you change your mind, put the card back into the rotation and try to learn it
 <p>To install the add-on, follow the instructions on AnkiWeb.</p>
 <p align="center"><img src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/flexible_grading.webp"></p>
 <p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Download</a></p>
-<h2 id="pass-fail-mode"><a class="anchor" href="#pass-fail-mode" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pass-Fail mode</h2>
+<h3 id="pass-fail-mode"><a class="anchor" href="#pass-fail-mode" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pass-Fail mode</h3>
 <p>The Pass-Fail mode essentially doesn't let you press &quot;Hard&quot; and &quot;Easy&quot; buttons.
 There are two benefits associated with this.</p>
 <p>One being that having to decide between various options
@@ -236,7 +247,7 @@ Using the &quot;Hard&quot; button can penalize you and greatly add to your revie
 Using the &quot;Easy&quot; button can artificially inflate your card scheduling intervals
 and lead to forgetting and lower retention in the future.
 For the vast majority of us the best option is to simply use Anki's &quot;Good&quot; and &quot;Again&quot; buttons.</p>
-<h2 id="flexible-grading"><a class="anchor" href="#flexible-grading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flexible grading</h2>
+<h3 id="flexible-grading"><a class="anchor" href="#flexible-grading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flexible grading</h3>
 <p>Flexible grading refers to the ability to pass an Anki card without having to reveal the answer.
 If you believe that you really know the content of a flashcard,
 you may decide to skip its reverse side and immediately grade the card.
@@ -280,12 +291,12 @@ with your fingers lying on the home row keys,
 much like when you navigate a document in Vim.</p>
 <p align="center"><img alt="keyboard" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/keyboard.webp"></p>
 <p>I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.</p>
-<h2 id="getting-rid-of-answer-buttons"><a class="anchor" href="#getting-rid-of-answer-buttons" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting rid of answer buttons</h2>
+<h3 id="getting-rid-of-answer-buttons"><a class="anchor" href="#getting-rid-of-answer-buttons" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting rid of answer buttons</h3>
 <p>Once you get used to blasting through your reps with Vim-like hotkeys,
 you realize that the answer buttons are completely redundant.
 AJT Flexible Grading has an option to remove those buttons,
 making the Anki UI less cluttered.</p>
-<h2 id="last-review-stats-at-the-top"><a class="anchor" href="#last-review-stats-at-the-top" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Last review stats at the top</h2>
+<h3 id="last-review-stats-at-the-top"><a class="anchor" href="#last-review-stats-at-the-top" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Last review stats at the top</h3>
 <p>Have you ever had doubts like, &quot;did I grade that card right?&quot; after doing a rep?
 Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.
 AJT Flexible Grading shows the result of the last review at the top.
