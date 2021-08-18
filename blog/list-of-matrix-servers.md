@@ -15,13 +15,19 @@ One of the most popular clients is
 
 ## Matrix.org users
 
-If you already have an account hosted on `matrix.org`,
+If you already have an account hosted on Matrix.org,
 please create a new account on another homeserver before you join any of
 [our rooms](join-our-community.html).
-Due to being the default homeserver, Matrix.org is overcrowded and slow.
-It is also known for banning rooms and user accounts without prior notice
-for minor things such as expressing certain viewpoints.
-Luckily, changing matrix homeservers is as easy as switching email providers.
+Matrix.org is the largest Matrix homeserver, and most Matrix apps suggest it by default.
+Many users new to Matrix end up using this server because they don't know that other servers exist.
+Unfortunately, Matrix.org is far from the best choice.
+Due to its absurdly strict rules,
+the server is known for frequent bans of rooms and user accounts,
+and it does so without prior notice.
+Basically, Matrix.org uses its size and special status to impose censorship.
+
+Luckily, changing Matrix homeservers is as easy as switching Email providers.
+Below I have a list of servers with less strict terms of service.
 
 <p align="center"><img class="shadow" alt="registration" src="img/element_registration.webp"></p>
 <p align="center"><i>Click "Edit".</i></p>
@@ -48,6 +54,11 @@ recommended by
 * My selection:
 	* [cuum.space](https://element.cuum.space/)
 	* [dfc.world](https://matrix.dfc.world/)
+* Servers run by Japanese people:
+	* [076.ne.jp](https://matrix.076.ne.jp/)
+	* [fedibird.com](https://matrix.fedibird.com/)
+	* [matrix-jp.net](https://riot.matrix-jp.net/)
+	* [sabakan.industries](https://matrix.sabakan.industries/)
 
 *Not all the servers may be open for registration at any point of time.*
 
@@ -141,6 +152,7 @@ without having to use a desktop client.
 * https://webchat.kde.org/
 * https://matrix.ffggrz.de/
 * https://chat.catgirl.biz/
+* https://element.fff.chat/
 * https://chat.sp-codes.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
