@@ -181,7 +181,7 @@ and they make new ones every month.
 Any dubbed content is stripped of basically all cultural interaction, it's just pure language.
 You're going to miss out on all the body language, gestures, concepts unique to the country.
 Taking this into account, dubbed content is not as good as native content,
-and I advice you limit how much you use it in your immersion.
+and I advise you limit how much you use it in your immersion.
 
 ### How to look up words on web pages?
 
@@ -328,7 +328,7 @@ but only if you're already intermediate or above.
 ### Should I trust Cure Dolly and "Organic Japanese"?
 
 Sometimes you see people recommending Cure Dolly as a replacement for the Tae Kim grammar guide.
-I tried going through it, and here's my take away.
+I tried going through it, and here's my takeaway.
 
 * Cure Dolly is creepy. Not everyone's going to have enough willpower to sit through its voice.
 * It is long.
@@ -344,7 +344,7 @@ to acquire a rough understanding
 of what each of the most common grammar patterns means.
 We don't concern ourselves with how to apply the rules to produce Japanese,
 this is something that comes naturally with immersion.
-Later after you become fluent we advise to learn Japanese grammar in Japanese,
+Later after you become fluent we advise learning Japanese grammar in Japanese,
 using resources meant for native speakers.
 
 ### Should I trust mattvsjapan and the Refold site?
@@ -353,7 +353,7 @@ Generally, watching or reading the content he produced before around mid 2018 is
 because he seems to be quite honest in it.
 But in recent years Matt has been criticized by many people for watering down the method
 and making it less effective
-because he wanted to appeal to a wider audience, to "normal" or "busy" people.
+because he wanted to appeal to a wider audience.
 
 On this site we try to push as hardcore as we can,
 so I recommend getting yourself familiar with the AJATT theory
@@ -417,7 +417,8 @@ you're going to be able to read smaller fonts too.
 
 I don't recommend reading physical books because usually they're not free,
 and they're harder to mine from.
-Almost all digital books are free and you can use Yomichan with them,
+Almost all digital books are free,
+and you can use Yomichan with them,
 which is a great advantage.
 
 ### What should I be "doing" while actively immersing?
