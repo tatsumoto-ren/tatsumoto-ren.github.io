@@ -25,7 +25,7 @@ It is not necessary to move to Japan or talk to natives to immerse.
 As long as you have access any content in natural, native Japanese, you're covered.
 Watch anime, dramas, read books, light novels, manga in Japanese if you want to learn the language.
 
-Usually immersion is divided into passive (background) and active.
+Usually we divide immersion into passive (background) and active.
 Active immersion requires full attention to the content
 while passive immersion is when you're listening to Japanese while doing something else.
 
@@ -100,7 +100,7 @@ When you're watching anime with English subtitles,
 you're reading the subtitles.
 You're only partially listening to the audio.
 So I imagine that the only advantage a person who had an experience similar to mine
-would have is a little bit more phonetic awareness.
+would have is a little more phonetic awareness.
 They would still have to build their understanding of Japanese almost from zero.
 
 ### I am struggling to switch from English to Japanese media.
@@ -313,7 +313,7 @@ Reading out loud can definitely help you remember the sentences better
 because you're actively using your muscles to try to pronounce them.
 It's harder to skim when you're engaged.
 
-Another thing to consider is whether or not you are going to build bad pronunciation habits
+Another thing to consider is whether you are going to build bad pronunciation habits
 by pronouncing Japanese out loud.
 In this regard, I would definitely recommend avoiding doing it if you're a beginner.
 Any type of pronunciation practice requires you to have acquired large aspects of the language
@@ -323,19 +323,42 @@ Ideally, you should also actively think about pitch accent when you practice spe
 which requires you to know the rules and the accents of individual words.
 
 With this in mind, reading sentences aloud can be helpful,
-but only if you're already intermediete or above.
+but only if you're already intermediate or above.
 
-### Should I believe mattvsjapan and the Refold site?
+### Should I trust Cure Dolly and "Organic Japanese"?
+
+Sometimes you see people recommending Cure Dolly as a replacement for the Tae Kim grammar guide.
+I tried going through it, and here's my take away.
+
+* Cure Dolly is creepy. Not everyone's going to have enough willpower to sit through its voice.
+* It is long.
+Most of the content is in video format.
+I'm not a big fan of videos.
+Reading a written grammar guide is going to be more efficient.
+* It has a peculiar system of Japanese grammar which is not particularly correct.
+Not like any competitors are correct either because they rely on English to describe Japanese,
+and it's a flawed tactic.
+
+On this site we recommend reading Tae Kim
+to acquire a rough understanding
+of what each of the most common grammar patterns means.
+We don't concern ourselves with how to apply the rules to produce Japanese,
+this is something that comes naturally with immersion.
+Later after you become fluent we advise to learn Japanese grammar in Japanese,
+using resources meant for native speakers.
+
+### Should I trust mattvsjapan and the Refold site?
 
 Generally, watching or reading the content he produced before around mid 2018 is safe
 because he seems to be quite honest in it.
 But in recent years Matt has been criticized by many people for watering down the method
+and making it less effective
 because he wanted to appeal to a wider audience, to "normal" or "busy" people.
 
 On this site we try to push as hardcore as we can,
 so I recommend getting yourself familiar with the AJATT theory
 before you engage with Refold's content.
-It will enable you to distinguish hardcore advice from advice for general audience.
+It will enable you to **distinguish** hardcore advice from advice for the general audience.
 
 Don't get me wrong though,
 listening to mattvsjapan is still a thousand times better
