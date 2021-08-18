@@ -13,6 +13,8 @@ first.
 One of the most popular clients is
 [Element](https://archlinux.org/packages/?name=element-desktop).
 
+****
+
 ## Matrix.org users
 
 If you already have an account hosted on Matrix.org,
@@ -61,8 +63,6 @@ recommended by
 	* [sabakan.industries](https://matrix.sabakan.industries/)
 
 *Not all the servers may be open for registration at any point of time.*
-
-****
 
 ## Other servers
 
