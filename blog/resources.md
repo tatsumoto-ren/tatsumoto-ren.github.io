@@ -30,7 +30,7 @@ Kanji characters with Koohii stories.
 ### Vocabulary
 
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
-* [Core 2.3k](https://files.catbox.moe/8k4ygf.apkg)
+* [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
 
