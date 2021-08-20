@@ -84,35 +84,69 @@ because it doesn't show connections between moraes and their corresponding pitch
 
 To set up Anki integration,
 go to "Settings" > "Anki".
-Make sure "Enable Anki integration" is on.
+Make sure "Enable Anki integration" is on,
+Anki is running and AnkiConnect is installed.
 
 Scroll down and click "Configure Anki card format..."
 to select the Note Type for your mining deck.
+
 The settings below are for the
 [Japanese sentences](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences)
 Note Type.
 You can install it by importing [this example deck](setting-up-anki.html#import-an-example-mining-deck).
-
-<p align="center"><img alt="yomichan settings" src="img/yomichan_anki_settings.webp"></p>
-<p align="center"><i>Yomichan Anki settings.</i></p>
-
-Using `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}`
-lets you automatically highlight the target word.
-Alternatively, replace it with `{sentence}`
-if you don't want any highlighting.
-
-I don't recommend assigning `{audio}`
-because all default audio sources in Yomichan provide audio samples
-made by Vietnamese people.
-The pronunciations are almost always wrong.
-Furthermore, enabling `{audio}` significantly slows down card creation
-because Yomichan has to access pronunciation servers and download audio every time.
 
 We have a
 [repository](https://github.com/Ajatt-Tools/AnkiNoteTypes)
 with user-created Note Types.
 It includes a very convenient system of importing and exporting the Note Types,
 and everyone is welcome to add their templates by making a pull request.
+
+#### Settings overview
+
+| Field                | Value                                             |
+| -----------          | -----------                                       |
+| `SentKanji`          | `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}` |
+| `VocabKanji`         | `{expression}`                                    |
+| `VocabFurigana`      | `{furigana-plain}`                                |
+| `VocabPitchPattern`  | `{pitch-accents}`                                 |
+| `VocabPitchNum`      | `{pitch-accent-positions}`                        |
+| `VocabDef`           | `{glossary-brief}`                                |
+
+<details>
+
+<summary>Screenshot</summary>
+
+<p align="center"><img class="shadow" alt="yomichan settings" src="img/yomichan_anki_settings.webp"></p>
+
+</details>
+
+#### Commentary
+
+* The value set for `SentKanji` lets you automatically make the target word bold.
+Alternatively, replace it with `{sentence}` if you don't want it to be highlighted.
+* `SentFurigana` is left empty.
+You may have noticed that Yomichan can add furigana to sentences
+with the `{sentence-furigana}` tag.
+Unfortunately, it uses an html-based `ruby` format which is hard for the user to edit.
+I recommend leaving the `SentFurigana` field blank
+and using the Japanese support add-on to generate furigana.
+* `SentEng` can be used together with
+[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+and premade decks such as
+[AnkiDrone Starter Pack](basic-vocabulary.html#anki-deck).
+* `MorphManFocus`
+is a field for compatibility with
+[Morphman](https://ankiweb.net/shared/info/900801631).
+* `SentAudio` and `Image` are to be filled by [mpvacious](mining-from-movies-and-tv-shows.html).
+* If you set `VocabDef` to `{clipboard-text}`
+you can manually select which part of the definition you want
+by pressing `Ctrl+C` before you make a card.
+* `VocabAudio` is left empty.
+I don't recommend assigning `{audio}`
+because all default audio sources in Yomichan
+often provide samples with incorrect pitch accent.
+Furthermore, enabling `{audio}` significantly slows down card creation
+because Yomichan has to access pronunciation servers and download audio every time.
 
 ### Handlebars
 
@@ -198,14 +232,52 @@ and
 [targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards).
 Go to "Settings" > "Profile" > "Configure profiles...".
 Under "Conditions" select:
+
 ```
 if "Modifier Keys" "Include" "Ctrl"
 ```
+
 Change which profile is being modified under "Profile" > "Editing profile",
 go back to [Anki settings](#anki-settings) and set up a second Note Type to mine simple word cards.
 An example Note Type can be found
 [here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words).
-Now when you press Shift+Ctrl while reading Yomichan is going to use the new profile.
+Now when you press `Shift+Ctrl` while reading Yomichan is going to use the new profile.
+
+### Replacement patterns
+
+If Yomichan fails to look up words such as
+`近々` or `屡々`,
+try adding the following replacement pattern.
+Go to "Settings" > "Translation" > "Configure custom text replacement patterns…",
+then press "Add".
+
+* Pattern: `(.)々`
+* Replacement: `$1$1`
+
+### Recursive lookups
+
+If you're someone who just started using monolingual dictionaries,
+you may often require to look up words inside definitions.
+
+<p align="center"><img alt="child popup" src="img/child-popup.webp"></p>
+<p align="center"><i>Recursive lookups.</i></p>
+
+To enable this feature, go to "Settings" > "Popup".
+Change the following settings:
+* Allow scanning popup content - on.
+* Maximum number of child popups - any high number.
+* Allow scanning popup source terms - on.
+
+<p align="center"><img class="shadow" alt="child popups settings" src="img/child-popups-settings.webp"></p>
+<p align="center"><i>Settings.</i></p>
+
+### Miscellaneous
+
+* "General" > "Show the welcome guide on browser startup": disable.
+* "Scanning" > "Scan delay": `0`.
+* "Popup Position & Size" > "Scale": adjust to your preference.
+* "Text Parsing" > "Show space between parsed words": disable.
+* "Clipboard" > "Enable search page clipboard text monitoring": enable.
 
 ## Usage
 
