@@ -93,6 +93,10 @@ The latest version can be installed with
 </code></pre>
 <p><code>pip</code> places executables in <code>~/.local/bin/</code> by default.
 Don't forget to add this directory to <code>$PATH</code>.</p>
+<p>If after installing Anki with <code>pip</code>
+<a href="https://wiki.archlinux.org/title/Fcitx">Fcitx</a>,
+doesn't work,
+open your <code>~/.profile</code> and add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>.</p>
 <p>Additional methods:</p>
 <ul>
 <li>The official binary from
@@ -275,7 +279,7 @@ the “hard” and “easy” buttons have counter-intuitive effects on Anki’s
 which causes long-term problems with Ease of your cards.</p>
 </li>
 <li><p><strong>Maximum interval:</strong> Intervals of your cards can never increase beyond this limit.
-I advice setting it as big as possible.
+I advise setting it as big as possible.
 The default is <code>36500</code> days, which is equal to <code>100</code> years.
 However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
 </li>

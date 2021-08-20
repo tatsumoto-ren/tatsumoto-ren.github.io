@@ -67,6 +67,11 @@ $ pip install --upgrade aqt
 `pip` places executables in `~/.local/bin/` by default.
 Don't forget to add this directory to `$PATH`.
 
+If after installing Anki with `pip`
+[Fcitx](https://wiki.archlinux.org/title/Fcitx),
+doesn't work,
+open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
+
 Additional methods:
 
 * The official binary from
@@ -273,7 +278,7 @@ the “hard” and “easy” buttons.
     which causes long-term problems with Ease of your cards.
 
 * **Maximum interval:** Intervals of your cards can never increase beyond this limit.
-    I advice setting it as big as possible.
+    I advise setting it as big as possible.
     The default is `36500` days, which is equal to `100` years.
     However, you can decrease this to a smaller number if you want to ensure long-term retention.
 
