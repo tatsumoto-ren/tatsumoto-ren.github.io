@@ -68,7 +68,7 @@ $ pip install --upgrade aqt
 Don't forget to add this directory to `$PATH`.
 
 If after installing Anki with `pip`
-[Fcitx](https://wiki.archlinux.org/title/Fcitx),
+[Fcitx](https://wiki.archlinux.org/title/Fcitx)
 doesn't work,
 open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 
