@@ -169,7 +169,10 @@ then there would be no deliberate practice involved,
 so you'd eventually start ignoring the kanji.
 
 At Ajatt-Tools we have made our own Anki deck for people who wish to follow this method.
-You can download the deck [here](jp1k-anki-deck.html).
+You can download the deck below:.
+
+<p align="center"><a class="download_button" href="jp1k-anki-deck.html">Kanji Transition</a></p>
+
 There's also a paid Anki deck made by the method's author,
 which you can find in the description of
 [this YouTube video](https://youtu.be/53qKsYxVhoM).
