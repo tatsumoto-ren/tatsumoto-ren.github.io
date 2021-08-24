@@ -61,6 +61,7 @@ recommended by
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [matrix-jp.net](https://riot.matrix-jp.net/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
+	* [juggler.jp](https://matrix.juggler.jp/)
 
 *Not all the servers may be open for registration at any point of time.*
 
