@@ -145,6 +145,7 @@ and has a nicer interface that shows kanji in a colored grid.
 
 ### [Pitch Accent](https://ankiweb.net/shared/info/1225470483)
 
+
 Adds pitch accent graphs to your cards.
 Note that
 [Yomichan](https://foosoft.net/projects/yomichan/)
@@ -152,41 +153,7 @@ has a similar feature,
 but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
 It also lets you mass-generate pitches for all cards in your sentence bank.
 
-<details>
-<summary>My config file for the add-on</summary>
-
-```
-{
-    "dstFields": [
-        "VocabPitchPattern"
-    ],
-    "generateOnNoteFlush": true,
-    "kanaLookups": true,
-    "lookupShortcut": "Ctrl+8",
-    "noteTypes": [
-        "japanese",
-        "subs2srs",
-        "ajt"
-    ],
-    "pronunciationHiragana": false,
-    "regenerateReadings": false,
-    "skipWords": "び,の,や,ね,ば,て,と,た,が,に,な,は,も,ます,から,いる,たち,てる,う,ましょ",
-    "srcFields": [
-        "VocabKanji"
-    ],
-    "styles": {
-        "&#42780;": "&#42780;",
-        "class=\"nasal\"": "style=\"color: red;\"",
-        "class=\"nopron\"": "style=\"color: royalblue;\"",
-        "class=\"overline\"": "style=\"text-decoration:overline;\""
-    },
-    "useMecab": true
-}
-```
-
-</details>
-
-<p align="center"><img alt="pitch-accent-on-card" class="shadow" src="img/pitch-accent.webp"></p>
+<p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/PitchAccent/main/img/pitch_accent_demo.webp"></p>
 
 ### [True Retention](https://ankiweb.net/shared/info/613684242)
 
