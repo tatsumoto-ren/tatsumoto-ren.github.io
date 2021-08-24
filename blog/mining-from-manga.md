@@ -13,11 +13,15 @@ Install the following dependencies:
 $ sudo pacman -S --needed sxiv maim tesseract xclip
 ```
 
-* [sxiv](https://wiki.archlinux.org/title/Sxiv) is an excellent image viewer.
+* [sxiv](https://wiki.archlinux.org/title/Sxiv)
+is an excellent image viewer.
 For this setup you can replace it with any image viewer, but `sxiv` is what I use.
-* `tesseract` is the OCR engine. It is considered fairly accurate, and many people like it.
-* `maim` is an utility for taking screenshots which can take parts of the screen.
-* `xclip` is a tool for copying text to clipboard.
+* [tesseract](https://github.com/tesseract-ocr/tesseract)
+is the OCR engine. It is considered fairly accurate, and many people like it.
+* [maim](https://github.com/naelstrof/maim)
+is an utility for taking screenshots which can take parts of the screen.
+* [xclip](https://github.com/astrand/xclip)
+is a tool for copying text to clipboard.
 
 By default Tesseract is not very good at detecting Japanese characters,
 but the quality of OCR operations can be improved by using custom trained data.
