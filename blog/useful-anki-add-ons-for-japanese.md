@@ -11,43 +11,22 @@ as well as add a few extra ones from myself.
 
 ## Add-ons worth trying
 
-### [Japanese support](https://ankiweb.net/shared/info/3918629684)
+### [Furigana](https://ankiweb.net/shared/info/1344485230)
 
-The most important add-on you'll need is Japanese support.
+The most important add-on you'll need is AJT Furigana.
 It's primary and only feature is generating [furigana](https://en.wikipedia.org/wiki/Furigana),
 which you're going to need every day.
 
-The add-on comes bundled with its own Note Types but they are quite bare bones,
-so I highly recommend you try the Note Type included in
-[this example deck](setting-up-anki.html#import-an-example-mining-deck)
-as it's a lot more versatile.
+<p align="center"><img alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/Furigana/main/img/furigana_demo.webp"></p>
 
-<details>
-<summary>Below are my settings for this add-on</summary>
+The add-on comes bundled with our recommended Note Type from
+[this example deck](setting-up-anki.html#import-an-example-mining-deck).
 
-```
-{
-    "dstFields": [
-        "SentFurigana",
-        "VocabFurigana"
-    ],
-    "furiganaSuffix": " (furigana)",
-    "noteTypes": [
-        "japanese",
-        "subs2srs"
-    ],
-    "skipNumbers": false,
-    "srcFields": [
-        "SentKanji",
-        "VocabKanji"
-    ]
-}
-```
-
-</details>
-
-To configure the add-on, open the Anki Add-on Menu via `Tools > Add-ons` and select `Japanese Support`.
+To configure the add-on, open the Anki Add-on Menu via "Tools" > "Add-ons" and select "AJT Furigana".
 Then click the Config button on the right-side of the screen.
+
+This add-on is similar to
+[Japanese support](https://ankiweb.net/shared/info/3918629684).
 
 ### [Browser Play Button](https://ankiweb.net/shared/info/182970692)
 
