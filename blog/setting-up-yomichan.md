@@ -271,6 +271,24 @@ Change the following settings:
 <p align="center"><img class="shadow" alt="child popups settings" src="img/child-popups-settings.webp"></p>
 <p align="center"><i>Settings.</i></p>
 
+### Keyboard shortcuts
+
+There's one thing about Yomichan that probably annoys everyone.
+That's having to scroll down to find the right definition.
+Before you lose your mind,
+change some keyboard shortcuts.
+Go to "Settings" > "Shortcuts" > "Configure standard keyboard shortcuts…".
+
+* Go to previous entry: `K`
+* Go to next entry: `J`
+
+These shortcuts let you jump between entries faster.
+You don't have to scroll anymore,
+especially if you keep many monolingual dictionaries installed.
+
+<p align="center"><img class="shadow" alt="shortcuts" src="img/yomichan-shortcuts.webp"></p>
+<p align="center"><i>Shortcuts.</i></p>
+
 ### Miscellaneous
 
 * "General" > "Show the welcome guide on browser startup": disable.
