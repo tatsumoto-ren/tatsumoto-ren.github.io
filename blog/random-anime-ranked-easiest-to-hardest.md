@@ -4,190 +4,190 @@ A list of anime shows sorted from shows for beginners to shows for advanced lear
 
 ****
 
-1) Chobits
-2) Love Livel School Idol Project
-3) Mitsuboshi Colors
-4) Love Livel School Idol Project 2nd Season
-5) Isshuukan Friends (One Week Friends)
-6) Utawarerumono
-7) Dragon Ball Super
-8) Kobato
-9) Nagi no Asukara
-10) Tsurezure Children
-11) Tasogare Otome x Amnesia
-12) Slam Dunk
-13) K-On!
-14) Black Rock Shooter (TV)
-15) Ao Haru Ride
-16) Haikyuu!!
-17) Shingetsutan Tsukihime
-18) Anohana: The Flower We Saw That Day
-19) Ano Natsu de Matteru
-20) Tales of the Abyss
-21) K-On!! (K-On! Season 2)
-22) Shirokuma Cafe (Polar Bear Cafe)
-23) Another
-24) Gakkou Gurashi!
-25) Clannad: After Story
-26) Nichijou
-27) Blood-C
-28) Hibike! Euphonium
-29) Noragami
-30) Haikyuu!! Second Season
-31) Kuroko no Basuke (Kuroko's Basketball)
-32) Utawarerumono: Itsuwari no Kamen
-33) Death Note
-34) Owari no Seraph
-35) Boruto: Naruto Next Generations
-36) Ajin: Demi-Human
-37) Steins;Gate
-38) Eromanga-sensei
-39) Koufuku Graffiti (Gourmet Girl Graffiti)
-40) Elfen Lied
-41) Usagi Drop
-42) Free!
-43) Zetman
-44) Naruto
-45) Hai to Gensou no Grimgar
-46) Sidonia no Kishi: Daikyuu Wakusei Seneki (Knights of Sidonia Season II)
-47) Mirai Nikki (The Future Diary)
-48) Flying Witch
-49) Bleach
-50) Kantai Collection
-51) Haikyuull: Karasuno Koukou VS Shiratorizawa Gakuen Koukou (Haikyu!! 3rd Season)
-52) Non Non Biyori Repeat
-53) Tari Tari
-54) Koutetsujou no Kabaneri (Kabaneri of the Iron Fortress)
-55) Sakurasou no Pet na Kanojo (The Pet Girl of Sakurasou)
-56) Samurai Champloo
-57) Boku dake ga Inai Machi (ERASED)
-58) Kono Bijutsubu ni wa Mondai ga Aru! (This Art Club Has a Problem!)
-59) Clannad
-60) Kyoukai no Kanata (Beyond the Boundary)
-61) Violet Evergarden
-62) Yuuki Yuuna wa Yuusha de Aru
-63) Nisekoi: False Love
-64) One Piece
-65) ReLIFE
-66) Bokurano
-67) Tonari no Kaibutsu-kun
-68) Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku
-69) Tamako Market
-70) Nisekoi: False Love 2nd Season
-71) Megalo Box
-72) Tokyo Ghoul:re
-73) Sidonia no Kishi (Knights of Sidonia)
-74) Kiseijuu: Sei no Kakuritsu (Parasyte -the maxim-)
-75) White Album 2
-76) Shingeki no Kyojin Season 2 (Attack on Titan Season 2)
-77) To LOVE Ru Darkness
-78) Ore ga Ojousama Gakkou ni "Shomin Sample" Toshite Gets Sareta Ken
-79) Shigatsu wa Kimi no Uso (Your Lie in April)
-80) Dagashi Kashi
-81) Fate stay night
-82) Rozen Maiden: Zuruckspulen
-83) Akatsuki no Yona (Yona of the Dawn)
-84) Shiki
-85) Chuunibyou demo Koi ga Shitail Ren
-86) Non Non Biyori
-87) Hidan no Aria (Aria the Scarlet Ammo)
-88) Sankarea
-89) Nanatsu no Taizai
-90) Shingeki no Kyojin (Attack on Titan)
-91) IS: Infinite Stratos
-92) Guilty Crown
-93) Durarara!!
-94) Kakegurui: Compulsive Gambler
-95) Gamers!
-96) Danganronpa: The Animation
-97) Himouto! Umaru-chan
-98) Aoharu x Kikanjuu (Aoharu x Machinegun)
-99) Gabriel DropOut
-100) Chuunibyou demo Koi ga Shitail
-101) Busou Shinki
-102) Made in Abyss
-103) Robotics;Notes
-104) Seiren
-105) Kaiji: Ultimate Survivor
-106) Tokyo Ghoul
-107) Shirobako
-108) Furusato Saisei: Nihon no Mukashibanashi (Folktales from Japan)
-109) Sword Art Online
-110) To aru Kagaku no Railgun S (A Certain Scientific Railgun S)
-111) Charlotte
-112) Noragami Aragoto
-113) Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.
-114) Baccano!
-115) Accel World
-116) Barakamon
-117) Acchi Kocchi (Place to Place)
-118) Devilman Crybaby
-119) Gochuumon wa Usagi Desu ka
-120) Fate kaleid liner Prisma Illya
-121) Inu x Boku SS
-122) Kill la Kill
-123) Angel Beats!
-124) Gekkan Shoujo Nozaki-kun
-125) Mahou Shoujo Madoka Magica
-126) Shinsekai yori (From the New World)
-127) High School DxD New (High School DxD Second Season)
-128) Saenai Heroine no Sodatekata Flat
-129) Tsugumomo
-130) Overlord
-131) Tanaka-kun wa Itsumo Kedaruge (Tanaka-kun is Always Listless)
-132) Haifuri (High School Fleet)
-133) Boku wa Tomodachi ga Sukunai Next (Haganai I don't have many friends NEXT)
-134) Sayonara Zetsubou Sensei
-135) Nyan Koi!
-136) RDG: Red Data Girl
-137) Prison School
-138) Boku wa Tomodachi ga Sukunai (Haganai: I don't have many friends)
-139) Overlord II (Overlord Season 2)
-140) Kono Subarashii Sekai ni Shukufuku wo! 2 (KonoSuba: God's Blessing on This Wonderful World! 2)
-141) Ookami to Koushinryou (Spice and Wolf)
-142) Fate stay night: Unlimited Blade Works
-143) Daily Lives of High School Boys
-144) Ore, Twintail Ni Narimasu
-145) Hataraku Maou-sama! (The Devil is a Part-Timer!)
-146) Saenai Heroine no Sodatekata
-147) JoJo no Kimyou na Bouken (TV) (JoJo's Bizarre Adventure)
-148) Ookami to Koushinryou II (Spice and Wolf II)
-149) Sword Art Online II
-150) Re:Zero kara Hajimeru Isekai Seikatsu (Re:ZERO -Starting Life in Another World-)
-151) Grisaia no Kajitsu
-152) Cowboy Bebop
-153) Haiyore! Nyaruko-san W
-154) Kono Subarashii Sekai ni Shukufuku wol (KonoSuba: God's Blessing on This Wonderful Worldl)
-155) Rewrite
-156) Aldnoah Zero
-157) Suisei no Gargantia
-158) Amagi Brilliant Park
-159) Mahouka Koukou no Rettousei
-160) Zankyou no Terror (Terror in Resonance)
-161) No Game No Life
-162) Ping Pong The Animation
-163) Hamatora The Animation
-164) Boku no Hero Academia (My Hero Academia)
-165) Re: Hamatora (Hamatora The Animation 2nd Season)
-166) Neon Genesis Evangelion
-167) Kekkai Sensen (Blood Blockade Battlefront)
-168) K Return of Kings
-169) Shokugeki no Soma (Food Wars!)
-170) Outbreak Company
-171) Black Bullet
-172) Yahari Ore no Seishun Love Comedy wa Machigatteiru
-173) One Punch Man
-174) Dantalian no Shoka
-175) Toaru Majutsu no Index II (A Certain Magical Index II)
-176) Log Horizon
-177) Katanagatari
-178) Fate Zero Season 2
-179) Mob Psycho 100
-180) Heavy Object
-181) Sakamoto desu ga
-182) Jormungand
-183) Ansatsu Kyoushitsu (Assassination Classroom)
-184) Psycho Pass
-185) Maoyuu Maou Yuusha (Maoyu ~ Archenemy & Hero)
-186) Gate: Jieitai Kanochi nite, Kaku Tatakaeri
-187) Fate Zero
+1) [Chobits](https://myanimelist.net/anime/59/)
+2) [Love Livel School Idol Project](https://myanimelist.net/anime/15051/)
+3) [Mitsuboshi Colors](https://myanimelist.net/anime/35078/)
+4) [Love Livel School Idol Project 2nd Season](https://myanimelist.net/anime/19111/)
+5) [Isshuukan Friends](https://myanimelist.net/anime/21327/)
+6) [Utawarerumono](https://myanimelist.net/anime/856/)
+7) [Dragon Ball Super](https://myanimelist.net/anime/30694/)
+8) [Kobato](https://myanimelist.net/anime/5678/)
+9) [Nagi no Asukara](https://myanimelist.net/anime/16067/Nagi_no_Asu_kara)
+10) [Tsurezure Children](https://myanimelist.net/anime/34902/)
+11) [Tasogare Otome x Amnesia](https://myanimelist.net/anime/12445/)
+12) [Slam Dunk](https://myanimelist.net/anime/170/)
+13) [K-On!](https://myanimelist.net/anime/5680/)
+14) [Black Rock Shooter (TV)](https://myanimelist.net/anime/11285/)
+15) [Ao Haru Ride](https://myanimelist.net/anime/21995/)
+16) [Haikyuu!!](https://myanimelist.net/anime/20583/)
+17) [Shingetsutan Tsukihime](https://myanimelist.net/anime/169/)
+18) [Anohana: The Flower We Saw That Day](https://myanimelist.net/anime/9989/)
+19) [Ano Natsu de Matteru](https://myanimelist.net/anime/11433/)
+20) [Tales of the Abyss](https://myanimelist.net/anime/4884/)
+21) [K-On!! (K-On! Season 2)](https://myanimelist.net/anime/7791/)
+22) [Shirokuma Cafe](https://myanimelist.net/anime/12815/)
+23) [Another](https://myanimelist.net/anime/11111/)
+24) [Gakkou Gurashi!](https://myanimelist.net/anime/24765/)
+25) [Clannad: After Story](https://myanimelist.net/anime/4181/)
+26) [Nichijou](https://myanimelist.net/anime/10165/)
+27) [Blood-C](https://myanimelist.net/anime/10490/)
+28) [Hibike! Euphonium](https://myanimelist.net/anime/27989/)
+29) [Noragami](https://myanimelist.net/anime/20507/)
+30) [Haikyuu!! Second Season](https://myanimelist.net/anime/28891/)
+31) [Kuroko no Basuke](https://myanimelist.net/anime/11771/)
+32) [Utawarerumono: Itsuwari no Kamen](https://myanimelist.net/anime/30901/)
+33) [Death Note](https://myanimelist.net/manga/21/)
+34) [Owari no Seraph](https://myanimelist.net/anime/26243/)
+35) [Boruto: Naruto Next Generations](https://myanimelist.net/anime/34566/)
+36) [Ajin: Demi-Human](https://myanimelist.net/anime/31580/)
+37) [Steins;Gate](https://myanimelist.net/anime/9253/)
+38) [Eromanga-sensei](https://myanimelist.net/anime/32901/)
+39) [Koufuku Graffiti](https://myanimelist.net/anime/24629/)
+40) [Elfen Lied](https://myanimelist.net/anime/226/)
+41) [Usagi Drop](https://myanimelist.net/anime/10162/)
+42) [Free!](https://myanimelist.net/anime/18507/Free)
+43) [Zetman](https://myanimelist.net/anime/11837/)
+44) [Naruto](https://myanimelist.net/anime/20/)
+45) [Hai to Gensou no Grimgar](https://myanimelist.net/anime/31859/)
+46) [Sidonia no Kishi: Daikyuu Wakusei Seneki](https://myanimelist.net/anime/24893/)
+47) [Mirai Nikki](https://myanimelist.net/anime/8460/)
+48) [Flying Witch](https://myanimelist.net/anime/31376/)
+49) [Bleach](https://myanimelist.net/anime/269/)
+50) [Kantai Collection](https://myanimelist.net/anime/21511/)
+51) [Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou](https://myanimelist.net/anime/32935/)
+52) [Non Non Biyori Repeat](https://myanimelist.net/anime/23623/)
+53) [Tari Tari](https://myanimelist.net/anime/13333/)
+54) [Koutetsujou no Kabaneri](https://myanimelist.net/anime/28623/)
+55) [Sakurasou no Pet na Kanojo](https://myanimelist.net/anime/13759/)
+56) [Samurai Champloo](https://myanimelist.net/anime/205/)
+57) [Boku dake ga Inai Machi](https://myanimelist.net/anime/31043/)
+58) [Kono Bijutsubu ni wa Mondai ga Aru!](https://myanimelist.net/manga/50331/)
+59) [Clannad](https://myanimelist.net/anime/2167/)
+60) [Kyoukai no Kanata](https://myanimelist.net/anime/18153/)
+61) [Violet Evergarden](https://myanimelist.net/anime/33352/)
+62) [Yuuki Yuuna wa Yuusha de Aru](https://myanimelist.net/anime/25519/)
+63) [Nisekoi: False Love](https://myanimelist.net/anime/18897/)
+64) [One Piece](https://myanimelist.net/anime/21/)
+65) [ReLIFE](https://myanimelist.net/anime/30015/)
+66) [Bokurano](https://myanimelist.net/manga/670/)
+67) [Tonari no Kaibutsu-kun](https://myanimelist.net/anime/14227/)
+68) [Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku](https://myanimelist.net/anime/23847/)
+69) [Tamako Market](https://myanimelist.net/anime/16417/)
+70) [Nisekoi: False Love 2nd Season](https://myanimelist.net/anime/27787/)
+71) [Megalo Box](https://myanimelist.net/anime/36563/)
+72) [Tokyo Ghoul:re](https://myanimelist.net/anime/36511/)
+73) [Sidonia no Kishi](https://myanimelist.net/anime/19775/)
+74) [Kiseijuu: Sei no Kakuritsu](https://myanimelist.net/anime/22535/)
+75) [White Album 2](https://myanimelist.net/anime/18245/)
+76) [Shingeki no Kyojin Season 2](https://myanimelist.net/anime/25777/)
+77) [To LOVE Ru Darkness](https://myanimelist.net/anime/13663/)
+78) [Ore ga Ojousama Gakkou ni "Shomin Sample" Toshite Gets Sareta Ken](https://myanimelist.net/anime/25099/)
+79) [Shigatsu wa Kimi no Uso](https://myanimelist.net/anime/23273/)
+80) [Dagashi Kashi](https://myanimelist.net/anime/31636/)
+81) [Fate stay night](https://myanimelist.net/anime/356/)
+82) [Rozen Maiden: Zuruckspulen](https://myanimelist.net/anime/18041/)
+83) [Akatsuki no Yona](https://myanimelist.net/anime/25013/)
+84) [Shiki](https://myanimelist.net/anime/7724/)
+85) [Chuunibyou demo Koi ga Shitail Ren](https://myanimelist.net/anime/18671/)
+86) [Non Non Biyori](https://myanimelist.net/anime/17549/)
+87) [Hidan no Aria](https://myanimelist.net/anime/8630/)
+88) [Sankarea](https://myanimelist.net/anime/11499/)
+89) [Nanatsu no Taizai](https://myanimelist.net/anime/23755/)
+90) [Shingeki no Kyojin](https://myanimelist.net/anime/16498/)
+91) [IS: Infinite Stratos](https://myanimelist.net/anime/9041/)
+92) [Guilty Crown](https://myanimelist.net/anime/10793/Guilty_Crown)
+93) [Durarara!!](https://myanimelist.net/anime/6746/)
+94) [Kakegurui: Compulsive Gambler](https://myanimelist.net/manga/73603/)
+95) [Gamers!](https://myanimelist.net/anime/34280/)
+96) [Danganronpa: The Animation](https://myanimelist.net/anime/16592/)
+97) [Himouto! Umaru-chan](https://myanimelist.net/anime/28825/)
+98) [Aoharu x Kikanjuu](https://myanimelist.net/anime/30205/)
+99) [Gabriel DropOut](https://myanimelist.net/anime/33731/Gabriel_DropOut)
+100) [Chuunibyou demo Koi ga Shitail](https://myanimelist.net/anime/14741/)
+101) [Busou Shinki](https://myanimelist.net/anime/14237/)
+102) [Made in Abyss](https://myanimelist.net/anime/34599/)
+103) [Robotics;Notes](https://myanimelist.net/anime/13599/)
+104) [Seiren](https://myanimelist.net/anime/33836/)
+105) [Kaiji: Ultimate Survivor](https://myanimelist.net/anime/3002/)
+106) [Tokyo Ghoul](https://myanimelist.net/anime/22319/)
+107) [Shirobako](https://myanimelist.net/anime/25835/)
+108) [Furusato Saisei: Nihon no Mukashibanashi](https://myanimelist.net/anime/13163/)
+109) [Sword Art Online](https://myanimelist.net/anime/11757/)
+110) [To aru Kagaku no Railgun S](https://myanimelist.net/anime/16049/)
+111) [Charlotte](https://myanimelist.net/anime/28999/Charlotte)
+112) [Noragami Aragoto](https://myanimelist.net/anime/30503/Noragami_Aragoto)
+113) [Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.](https://myanimelist.net/anime/18677/)
+114) [Baccano!](https://myanimelist.net/anime/2251/)
+115) [Accel World](https://myanimelist.net/anime/11759/)
+116) [Barakamon](https://myanimelist.net/anime/22789/)
+117) [Acchi Kocchi](https://myanimelist.net/anime/12291/)
+118) [Devilman Crybaby](https://myanimelist.net/anime/35120/)
+119) [Gochuumon wa Usagi Desu ka](https://myanimelist.net/anime/21273/)
+120) [Fate kaleid liner Prisma Illya](https://myanimelist.net/anime/14829/)
+121) [Inu x Boku SS](https://myanimelist.net/anime/11013/)
+122) [Kill la Kill](https://myanimelist.net/anime/18679/)
+123) [Angel Beats!](https://myanimelist.net/anime/6547/)
+124) [Gekkan Shoujo Nozaki-kun](https://myanimelist.net/anime/23289/)
+125) [Mahou Shoujo Madoka Magica](https://myanimelist.net/anime/9756/)
+126) [Shinsekai yori](https://myanimelist.net/anime/13125/)
+127) [High School DxD New](https://myanimelist.net/anime/15451/High_School_DxD_New)
+128) [Saenai Heroine no Sodatekata Flat](https://myanimelist.net/anime/30727/)
+129) [Tsugumomo](https://myanimelist.net/anime/34019/)
+130) [Overlord](https://myanimelist.net/anime/29803/)
+131) [Tanaka-kun wa Itsumo Kedaruge](https://myanimelist.net/anime/32093/)
+132) [Haifuri (High School Fleet)](https://myanimelist.net/anime/31500/)
+133) [Boku wa Tomodachi ga Sukunai Next](https://myanimelist.net/anime/14967/)
+134) [Sayonara Zetsubou Sensei](https://myanimelist.net/anime/2605/)
+135) [Nyan Koi!](https://myanimelist.net/anime/6512/)
+136) [RDG: Red Data Girl](https://myanimelist.net/anime/14921/)
+137) [Prison School](https://myanimelist.net/anime/30240/)
+138) [Boku wa Tomodachi ga Sukunai](https://myanimelist.net/anime/10719/)
+139) [Overlord II](https://myanimelist.net/anime/35073/)
+140) [Kono Subarashii Sekai ni Shukufuku wo! 2](https://myanimelist.net/anime/32937/)
+141) [Ookami to Koushinryou](https://myanimelist.net/anime/2966/)
+142) [Fate stay night: Unlimited Blade Works](https://myanimelist.net/anime/22297/)
+143) [Daily Lives of High School Boys](https://myanimelist.net/anime/11843/)
+144) [Ore, Twintail Ni Narimasu](https://myanimelist.net/anime/24705/)
+145) [Hataraku Maou-sama!](https://myanimelist.net/anime/15809/)
+146) [Saenai Heroine no Sodatekata](https://myanimelist.net/anime/23277/)
+147) [JoJo no Kimyou na Bouken (TV)](https://myanimelist.net/anime/14719/)
+148) [Ookami to Koushinryou II](https://myanimelist.net/anime/5341/)
+149) [Sword Art Online II](https://myanimelist.net/anime/21881/)
+150) [Re:Zero kara Hajimeru Isekai Seikatsu](https://myanimelist.net/anime/31240/)
+151) [Grisaia no Kajitsu](https://myanimelist.net/anime/17729/)
+152) [Cowboy Bebop](https://myanimelist.net/anime/1/)
+153) [Haiyore! Nyaruko-san W](https://myanimelist.net/anime/15699/)
+154) [Kono Subarashii Sekai ni Shukufuku wo](https://myanimelist.net/anime/30831/)
+155) [Rewrite](https://myanimelist.net/anime/31716/)
+156) [Aldnoah Zero](https://myanimelist.net/anime/22729/)
+157) [Suisei no Gargantia](https://myanimelist.net/anime/16524/)
+158) [Amagi Brilliant Park](https://myanimelist.net/anime/22147/)
+159) [Mahouka Koukou no Rettousei](https://myanimelist.net/anime/20785/)
+160) [Zankyou no Terror (Terror in Resonance)](https://myanimelist.net/anime/23283/)
+161) [No Game No Life](https://myanimelist.net/anime/19815/No_Game_No_Life)
+162) [Ping Pong The Animation](https://myanimelist.net/anime/22135/)
+163) [Hamatora The Animation](https://myanimelist.net/anime/20689/)
+164) [Boku no Hero Academia (My Hero Academia)](https://myanimelist.net/anime/31964/)
+165) [Re: Hamatora (Hamatora The Animation 2nd Season)](https://myanimelist.net/anime/23421/)
+166) [Neon Genesis Evangelion](https://myanimelist.net/anime/30/Neon_Genesis_Evangelion)
+167) [Kekkai Sensen](https://myanimelist.net/anime/24439/Kekkai_Sensen)
+168) [K Return of Kings](https://myanimelist.net/anime/27991/)
+169) [Shokugeki no Soma (Food Wars!)](https://myanimelist.net/anime/28171/)
+170) [Outbreak Company](https://myanimelist.net/anime/19369/)
+171) [Black Bullet](https://myanimelist.net/anime/20787/Black_Bullet)
+172) [Yahari Ore no Seishun Love Comedy wa Machigatteiru](https://myanimelist.net/anime/14813/)
+173) [One Punch Man](https://myanimelist.net/anime/30276/One_Punch_Man)
+174) [Dantalian no Shoka](https://myanimelist.net/anime/8915/Dantalian_no_Shoka)
+175) [Toaru Majutsu no Index II](https://myanimelist.net/anime/8937/)
+176) [Log Horizon](https://myanimelist.net/anime/17265/)
+177) [Katanagatari](https://myanimelist.net/anime/6594/)
+178) [Fate Zero Season 2](https://myanimelist.net/anime/11741/)
+179) [Mob Psycho 100](https://myanimelist.net/anime/32182/)
+180) [Heavy Object](https://myanimelist.net/anime/27829/)
+181) [Sakamoto desu ga](https://myanimelist.net/anime/32542/)
+182) [Jormungand](https://myanimelist.net/anime/12413/Jormungand)
+183) [Ansatsu Kyoushitsu](https://myanimelist.net/anime/24833/)
+184) [Psycho Pass](https://myanimelist.net/anime/13601/)
+185) [Maoyuu Maou Yuusha (Maoyu ~ Archenemy & Hero)](https://myanimelist.net/anime/14833/)
+186) [Gate: Jieitai Kanochi nite, Kaku Tatakaeri](https://myanimelist.net/anime/28907/)
+187) [Fate Zero](https://myanimelist.net/anime/10087/)
