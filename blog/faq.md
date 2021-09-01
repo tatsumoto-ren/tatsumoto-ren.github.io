@@ -146,6 +146,9 @@ The easiest domains are shows for children, slice of life and romance anime.
 Most people start with them and slowly advance
 until they can consume a wide variety of input and understand it perfectly.
 
+A list of anime sorted from the easiest to hardest can be found
+[here](random-anime-ranked-easiest-to-hardest.html).
+
 ### Kanji in the current year
 
 Back in my day RRTK didn't exist.
@@ -420,6 +423,17 @@ and they're harder to mine from.
 Almost all digital books are free,
 and you can use Yomichan with them,
 which is a great advantage.
+
+### Should I buy a Kindle to read Japanese books?
+
+No, please!
+If you already have one, get rid of it.
+Amazon Swindle is a malicious device designed to handcuff you.
+
+Read the following:
+
+* https://www.defectivebydesign.org/amazon-kindle-swindle
+* https://www.gnu.org/philosophy/why-call-it-the-swindle.html
 
 ### What should I be "doing" while actively immersing?
 
