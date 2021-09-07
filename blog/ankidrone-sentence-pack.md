@@ -8,6 +8,20 @@ for your targeted sentence cards.
 
 ****
 
+There are times when you want to mine a new word you've found in your immersion
+but the sentence it appears in is not 1T for you.
+In such situations you can either make a
+[SWC](discussing-various-card-templates.html#simple-word-cards)
+or search in a sentence bank.
+I encourage you to build your own sentence bank
+using tools like
+[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+or
+[mpvacious](mining-from-movies-and-tv-shows.html).
+If you don't have a bank yet,
+Ankidrone Sentence Pack is going to be a good starting point
+and the first building block of your bank.
+
 The deck is a complete offline copy of the
 [Sentence Search](https://sentencesearch.neocities.org/)
 website.
