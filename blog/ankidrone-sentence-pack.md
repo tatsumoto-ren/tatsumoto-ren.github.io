@@ -1,7 +1,7 @@
 # Ankidrone Sentence Pack
 
 Ankidrone Sentence Pack is an Anki deck
-that contains over 44,000 Japanese sentence with audio.
+that contains over 44,000 Japanese sentence with native audio.
 This deck is not to be learned from back to back,
 its purpose is to aid you in finding example sentences
 for your targeted sentence cards.
