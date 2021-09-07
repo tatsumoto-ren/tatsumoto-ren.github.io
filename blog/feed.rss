@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Wed, 18 Aug 2021 10:13:32 +0300</lastBuildDate>
-<pubDate>Wed, 18 Aug 2021 10:13:32 +0300</pubDate>
+<lastBuildDate>Tue, 07 Sep 2021 04:28:56 +0300</lastBuildDate>
+<pubDate>Tue, 07 Sep 2021 04:28:56 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Ankidrone Sentence Pack</title><description><![CDATA[
+<p>Ankidrone Sentence Pack is an Anki deck
+that contains over 44,000 Japanese sentence with audio.
+This deck is not to be learned from back to back,
+its purpose is to aid you in finding example sentences
+for your targeted sentence cards.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/ankidrone-sentence-pack.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/ankidrone-sentence-pack.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 07 Sep 2021 04:28:05 +0300</pubDate></item>
 <item><title>
 How to review</title><description><![CDATA[
 <p>Though Anki is an excellent piece of software,
@@ -158,36 +170,4 @@ There are many ways you can buy or sell Monero, one of the simplest ones is thro
 <guid>https://tatsumoto-ren.github.io/blog/donating-to-tatsumoto.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Fri, 23 Apr 2021 20:58:53 +0300</pubDate></item>
-<item><title>
-Passive listening</title><description><![CDATA[
-<p>When we talk about immersion, we usually divide it into active and passive.
-<em>Active immersion</em> requires full attention to the content
-and can be practiced through reading and watching content in the target language.
-<em>Passive immersion</em> means listening to the language while in idle activities.
-When listening passively you're not fully focused on the content,
-instead you're doing something else
-while having the speech in your target language play in the background.</p>
-<p>We do passive immersion during times in a day where we can't actively engage with the language,
-such as when cooking, cleaning or commuting.
-Although your attention is divided during passive immersion,
-because you're left with no other choice,
-it is still better compared to no immersion at all.</p>
-<p>As noted in the introduction article, there are countless opportunities
-to do passive listening throughout the day.
-Make passive listening a habit.
-Every moment of your life has to be spent interacting with Japanese.</p>
-<p>In the beginning passive immersion doesn't contribute much to comprehension gains,
-instead it helps start distinguishing sounds and phonemes of your target language.
-Focus your attention on hearing the sounds.
-Maybe at first you won't even be able to hear where one word ends and another one starts,
-but expect passive listening to boost your phonetic awareness within the first months,
-given that you combine it with active immersion.</p>
-<p>Passive listening is one of the key components of the AJATT method,
-so it is important to make it as convenient as possible.
-If preparing immersion content is tedious, you are not going to do it.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/passive-listening.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/passive-listening.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 13 Apr 2021 02:08:00 +0300</pubDate></item>
 </channel></rss>
