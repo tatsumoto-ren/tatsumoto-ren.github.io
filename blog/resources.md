@@ -30,6 +30,7 @@ Kanji characters with Koohii stories.
 ### Vocabulary
 
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
+* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
 * [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
@@ -330,7 +331,15 @@ Monolingual kanji dictionary.
 
 ### Offline
 
-* [qolibri](https://aur.archlinux.org/packages/qolibri/) + [dictionary files](yomichan-and-epwing-dictionaries.html#epwing)
+* [Qolibri](https://aur.archlinux.org/packages/qolibri/).
+A Qt-based EPWING dictionary viewer.
+Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
+* [EBView](https://aur.archlinux.org/packages/ebview-git/).
+A GTK2 based EPWING dictionary viewer.
+Like Qolibri, EBView requires you to specify where to look for the dictionary files.
+To set it up, refer to the
+[official documentation](http://ebview.sourceforge.net/help/ja/index.html),
+especially the `辞書グループの定義` section.
 * [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
 * [Tagaini Jisho](https://www.tagaini.net/)
 
