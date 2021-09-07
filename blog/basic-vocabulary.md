@@ -100,10 +100,10 @@ making them easy to learn and review.
 ## How to study with the deck
 0) Make sure to
 [enable](setting-up-anki.html#preferences)
-Anki `V2` scheduler to be able to review all the subdecks at once.
+Anki `V2` (or `V3`) scheduler to be able to review all the subdecks at once.
 1) Learn all cards from Tango `N5`.
 However, if you've already completed the
-[JP1K deck](jp1k-anki-deck.html),
+[Kanji Transition deck](jp1k-anki-deck.html),
 skip Tango `N5` because they're identical and differ only in their card templates.
 2) Start sentence mining using TV-shows with Japanese subtitles, and later manga and novels.
 
@@ -139,6 +139,12 @@ you learn them easily from immersion alone.
 At first, it may seem easy,
 but eventually Anki will overwhelm you with reviews.
 Our recommended boundaries are 10-20 new cards a day.
+* Don't take English translations literally.
+The English translations of the example sentences often don't match word-by-word.
+To understand their meanings in Japanese you need to know the underlying grammar structures.
+Studying sentences can't completely replace a grammar guide.
+If there are grammar patterns that trip you up,
+look them up in a dictionary like Jisho.org or on Google.
 
 ## Changelog
 

@@ -26,6 +26,7 @@
 	* [List of resources](resources.html)
 	* [FAQ](faq.html)
 	* [Anime ranked easiest to hardest](random-anime-ranked-easiest-to-hardest.html)
+	* [Sentences with native audio](ankidrone-sentence-pack.html)
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
