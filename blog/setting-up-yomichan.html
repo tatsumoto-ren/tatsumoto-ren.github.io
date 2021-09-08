@@ -43,7 +43,7 @@
 <div class="subtitle">April 24, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
 <p><a href="https://foosoft.net/projects/yomichan/">Yomichan</a> is a browser extension
-with a pop up dictionary
+with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Yomichan can be set up to create Anki cards from the words which you look up.</p>
 <p>The process of picking sentences from your immersion
@@ -72,7 +72,7 @@ Dictionaries are distributed in <code>.zip</code> archives.
 The archives should not be unzipped before installation.</p>
 <p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
 <h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
-<p>The great thing about Yomichan is its customizeability.
+<p>The great thing about Yomichan is that it is customizable.
 To access the settings page, click the
 <img src="https://foosoft.net/projects/yomichan/img/yomichan-icon.svg" alt="yomichan-settings">
 button in the browser toolbar and choose &quot;Settings&quot;.</p>
@@ -166,9 +166,11 @@ Alternatively, replace it with <code>{sentence}</code> if you don't want it to b
 <li><code>SentFurigana</code> is left empty.
 You may have noticed that Yomichan can add furigana to sentences
 with the <code>{sentence-furigana}</code> tag.
-Unfortunately, it uses an html-based <code>ruby</code> format which is hard for the user to edit.
+Unfortunately, it uses a html-based <code>ruby</code> format which is hard for the user to edit.
 I recommend leaving the <code>SentFurigana</code> field blank
-and using the Japanese support add-on to generate furigana.</li>
+and using the
+<a href="useful-anki-add-ons-for-japanese.html#furigana">Furigana</a>
+add-on to generate furigana.</li>
 <li><code>SentEng</code> can be used together with
 <a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>
 and premade decks such as
@@ -240,7 +242,7 @@ CSS can do almost everything.
 For example, by modifying <code>body</code> you can set font color and background color:<pre><code>body { color: #2A1B0A; background-color: #FFFAF0; }
 </code></pre>
 To find the right class name to apply your styles to,
-right click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
+right-click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
 You will be presented with the html structure of the popup.
 Classes are defined inside html tags.
 For example, the class name for the tag below is <code>gloss-content</code>.<pre><code>&lt;span class=&quot;gloss-content&quot; lang=&quot;ja&quot;&gt;...&lt;/span&gt;
@@ -273,7 +275,7 @@ then press &quot;Add&quot;.</p>
 </ul>
 <h3 id="recursive-lookups"><a class="anchor" href="#recursive-lookups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recursive lookups</h3>
 <p>If you're someone who just started using monolingual dictionaries,
-you may often require to look up words inside definitions.</p>
+you may often require looking up words inside definitions.</p>
 <p align="center"><img alt="child popup" src="img/child-popup.webp"></p>
 <p align="center"><i>Recursive lookups.</i></p>
 <p>To enable this feature, go to &quot;Settings&quot; &gt; &quot;Popup&quot;.

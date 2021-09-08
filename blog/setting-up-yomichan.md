@@ -1,7 +1,7 @@
 # Setting up Yomichan
 
 [Yomichan](https://foosoft.net/projects/yomichan/) is a browser extension
-with a pop up dictionary
+with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Yomichan can be set up to create Anki cards from the words which you look up.
 
@@ -40,7 +40,7 @@ You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
 ## Configuration
 
-The great thing about Yomichan is its customizeability.
+The great thing about Yomichan is that it is customizable.
 To access the settings page, click the
 ![yomichan-settings](https://foosoft.net/projects/yomichan/img/yomichan-icon.svg)
 button in the browser toolbar and choose "Settings".
@@ -127,9 +127,11 @@ Alternatively, replace it with `{sentence}` if you don't want it to be highlight
 * `SentFurigana` is left empty.
 You may have noticed that Yomichan can add furigana to sentences
 with the `{sentence-furigana}` tag.
-Unfortunately, it uses an html-based `ruby` format which is hard for the user to edit.
+Unfortunately, it uses a html-based `ruby` format which is hard for the user to edit.
 I recommend leaving the `SentFurigana` field blank
-and using the Japanese support add-on to generate furigana.
+and using the
+[Furigana](useful-anki-add-ons-for-japanese.html#furigana)
+add-on to generate furigana.
 * `SentEng` can be used together with
 [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
 and premade decks such as
@@ -216,7 +218,7 @@ For example, by modifying `body` you can set font color and background color:
 	body { color: #2A1B0A; background-color: #FFFAF0; }
 	```
 	To find the right class name to apply your styles to,
-	right click on the part of the popup window that you're interested in and choose "Inspect".
+	right-click on the part of the popup window that you're interested in and choose "Inspect".
 	You will be presented with the html structure of the popup.
 	Classes are defined inside html tags.
 	For example, the class name for the tag below is `gloss-content`.
@@ -257,7 +259,7 @@ then press "Add".
 ### Recursive lookups
 
 If you're someone who just started using monolingual dictionaries,
-you may often require to look up words inside definitions.
+you may often require looking up words inside definitions.
 
 <p align="center"><img alt="child popup" src="img/child-popup.webp"></p>
 <p align="center"><i>Recursive lookups.</i></p>
