@@ -35,8 +35,8 @@ In
 who want to quickly learn basic vocabulary before they start reading.
 Since the first release in February 2020 it has helped many people and received positive feedback.
 
-<p align="center"><a class="download_button" href="https://t.me/ajatt_tools/60">Download</a></p>
-<p style="text-align:center;"><a href="https://disk.yandex.com/d/adEb8n9uhOacHw">Mirror</a></p>
+<p align="center"><a class="download_button" href="https://disk.yandex.com/d/adEb8n9uhOacHw">Download</a></p>
+<p style="text-align:center;"><a href="https://t.me/ajatt_tools/60">Mirror</a></p>
 
 ## Structure
 
