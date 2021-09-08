@@ -37,8 +37,14 @@ Anki supports Opus on both PC and Android.
 Sentence Search contains sentences from the Core10k deck (iKnow, core10k) and Tango decks,
 thus this data is also present in Ankidrone Sentence Pack.
 If you already have these decks in your collection,
-delete the duplicates after importing the deck.
+delete the duplicates after importing the deck
+or download the "no duplicates" version.
 
 <p align="center"><a class="download_button" href="https://disk.yandex.com/d/yZsomdq4WB-crg">Download</a></p>
+
+This deck is not a replacement for
+[Ankidrone Starter Pack](basic-vocabulary.html).
+It doesn't contain dictionary definitions.
+I recommend you start with Ankidrone Starter Pack if you're a beginner.
 
 Tags: vocab, anki
