@@ -27,7 +27,10 @@ In other words,
 [stick to the minimum information principle](https://www.supermemo.com/en/archives1990-2015/articles/20rules).
 If for some reason you choose to add a MT sentence to Anki,
 only test yourself on the **target word** which you have highlighted.
-A word can be highlighted in Anki by selecting it and pressing `Ctrl+b` to make it bold.
+
+> A word can be highlighted in Anki by selecting it and pressing `Ctrl+b` to make it bold
+> or by [setting up](setting-up-yomichan.html#settings-overview) Yomichan to do it for you.
+
 Having to recall multiple unknown words at the same time is very difficult
 and lowers your retention.
 Don't fail a card because you couldn't recall a word
