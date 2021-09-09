@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Wed, 08 Sep 2021 00:03:34 +0300</lastBuildDate>
-<pubDate>Wed, 08 Sep 2021 00:03:34 +0300</pubDate>
+<lastBuildDate>Fri, 10 Sep 2021 00:05:32 +0300</lastBuildDate>
+<pubDate>Fri, 10 Sep 2021 00:05:32 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+One target sentences</title><description><![CDATA[
+<p>Let's define a &quot;target&quot; as any unknown piece of information
+in a given sentence in a foreign language.
+It can be either a word or a grammar structure.
+We can divide all sentences we encounter while immersing in our target language into three groups:</p>
+<ol>
+<li><code>0T</code>, zero-target.
+Sentences that don't contain anything you don't already know.</li>
+<li><code>1T</code>, one-target.
+Sentences that contain one unknown piece of information.</li>
+<li><code>2T+</code>, <code>MT</code>, multi-target.
+Sentences that contain multiple unknown pieces of information.</li>
+</ol>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/one-target-sentences.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/one-target-sentences.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 10 Sep 2021 00:04:36 +0300</pubDate></item>
 <item><title>
 Ankidrone Sentence Pack</title><description><![CDATA[
 <p>Ankidrone Sentence Pack is an Anki deck
@@ -124,7 +143,7 @@ so forget about traditional approaches such as taking classes or hiring a tutor.
 <item><title>
 Setting up Yomichan</title><description><![CDATA[
 <p><a href="https://foosoft.net/projects/yomichan/">Yomichan</a> is a browser extension
-with a pop up dictionary
+with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Yomichan can be set up to create Anki cards from the words which you look up.</p>
 <p>The process of picking sentences from your immersion
@@ -140,34 +159,4 @@ Your goal is not to mine every word.</p>
 <guid>https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sat, 24 Apr 2021 02:24:07 +0300</pubDate></item>
-<item><title>
-Donating to Tatsumoto</title><description><![CDATA[
-<p>Because almost all my content and the tools I make are offered free of charge
-the Ajatt-Tools project relies on donations to stay alive.
-We do not have ads or privacy-violating trackers, we are entirely dependent on you.</p>
-<p>If this site or our free software projects were useful to you,
-I'll appreciate if you donate to the Ajatt-Tools maintenance fund
-to help me support myself and continue working on Ajatt-Tools.</p>
-<h2 id="patreon">Patreon</h2>
-<p>You can support me over at Patreon by clicking the button below.</p>
-<p align="center">
-    <a target="_blank" href="https://www.patreon.com/bePatron?u=43555128">
-        <img alt="patreon" src="img/become_a_patron_button.png">
-    </a>
-</p>
-<h2 id="monero">Monero</h2>
-<p><a href="https://www.getmonero.org/">Monero</a>
-is a privacy-focused and censorship-resistant cryptocurrency.
-The transactions are all hidden.
-There are many ways you can buy or sell Monero, one of the simplest ones is through
-<a href="https://changenow.io/">ChangeNow.io</a>.</p>
-<pre><code>47sD7pSagHF7mp41SwrDj4KF8dSj4kdK6YUZ9fkmnR8h587wVc1kW66iJy9m83maVjWXtDJxmCVxdieMyGZNFHZ2Fifrbr5
-</code></pre>
-<p align="center"><img alt="XMR QR" src="img/xmr_qr.png"></p>
-<p align="center"><i>XMR QR</i></p>
-<p>Thank you very much for your support!</p>
-]]></description><link>https://tatsumoto-ren.github.io/blog/donating-to-tatsumoto.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/donating-to-tatsumoto.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 23 Apr 2021 20:58:53 +0300</pubDate></item>
 </channel></rss>
