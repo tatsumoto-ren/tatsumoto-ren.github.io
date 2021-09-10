@@ -726,8 +726,10 @@ You can use
 to generate sentence banks.
 1) Install Morphman, set it up.
 2) Recalculate the database, then **disable** the add-on.
-3) Morphman will have tagged all cards that it thinks are `i+1` for you.
-Manually pick what cards you're going to learn from the ones marked as `i+1`.
+3) Morphman will have tagged all cards that it thinks are
+[1T](one-target-sentences.html)
+for you.
+Manually pick what cards you're going to learn from the ones marked as `1T`.
 
 If you don't understand how to use Morphman,
 search for a guide online.
