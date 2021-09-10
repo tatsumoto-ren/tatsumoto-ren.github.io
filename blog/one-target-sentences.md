@@ -31,17 +31,21 @@ only test yourself on the **target word** which you have highlighted.
 > A word can be highlighted in Anki by selecting it and pressing `Ctrl+b` to make it bold
 > or by [setting up](setting-up-yomichan.html#settings-overview) Yomichan to do it for you.
 
-Having to recall multiple unknown words at the same time is very difficult
+Having to recall several unknown words at once is very difficult
 and lowers your retention.
+If you have several words you want to learn,
+create different targeted sentence cards for each of them
+instead of putting all the words on one card.
 Don't fail a card because you couldn't recall a word
-that is not the target of the particular card.
+that is not the target word of the card in question.
 
 Needless to say,
 there's no point in adding a 0T sentence to Anki.
 You won't gain anything by making it into a card.
 
 Learning through targeted sentence cards proves to be fast and efficient.
-Ajatters often refer to it as "picking low-hanging fruit".  As you progress in the foreign language,
+Ajatters often refer to it as "picking low-hanging fruit".
+As you progress in the foreign language,
 1T sentences become 0T,
 and sentences that were MT turn into 1T and become ready for learning.
 
