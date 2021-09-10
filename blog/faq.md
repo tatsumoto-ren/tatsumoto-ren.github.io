@@ -215,6 +215,13 @@ As long as you finish your daily reviews any time is fine.
 Some people do Anki first thing in the morning,
 some spread their reviews throughout the day.
 
+### What is a 1T sentence?
+
+A `1T` (one-target) sentence is a sentence
+that contains only **one** word or grammar structure that you don't know.
+For a more detailed explanation see
+[this article](one-target-sentences.html).
+
 ### What do you think of "animecards" (high quality vocab cards)?
 
 When people say "animecards", they mean
