@@ -35,6 +35,7 @@ as well as fully free/libre.
 
 * [NixOS](https://nixos.org/)
 * [GuixSD](https://guix.gnu.org/)
+* [Gentoo](https://www.gentoo.org/)
 
 ## [Anki](https://wiki.archlinux.org/index.php/Anki)
 
