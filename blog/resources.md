@@ -54,6 +54,8 @@ Search JLPT questions by keyword.
 Practice tests and resources by JLPT levels.
 * [JLPT文法解説まとめ](https://nihongokyoshi-net.com/jlpt-grammars/).
 Introduces you to grammar patterns that exist in JLPT.
+This site is much better than the rest
+and probably the best free way to learn grammar used in the JLPT exam.
 
 ## Examples and pronunciations
 
@@ -413,11 +415,12 @@ Notable articles:
 
 Anti-features:
 
-* The site doesn't work unless you enable JavaScript.
+* The site doesn't work (the menu breaks) unless you enable JavaScript.
 * Recommends and includes links to proprietary spyware
 such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
 * Includes instructions on how to join their Discord server.
 Discord is known for spying on and politically suppressing its users.
+* Collects Email addresses which is to say the least suspicious.
 
 ### [Itazuraneko](https://itazuraneko.neocities.org/)
 
