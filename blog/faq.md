@@ -390,6 +390,14 @@ Examples:
 * 海豚
 * 蒟蒻
 
+If you can read the kanji, then you can automatically read the kana.
+But if you can read the kana, it doesn't mean that you can read the kanji.
+By learning the kanji version you're getting both at the same time.
+
+If you already have a targeted sentence card that teaches the kanji version of a word,
+then the next time you make a card that has that word in it,
+you don't have to change it to kanji because it's not the **target word** anymore.
+
 ### How can I improve at reading Japanese names?
 
 Make an Anki deck and fill it with Japanese names.
