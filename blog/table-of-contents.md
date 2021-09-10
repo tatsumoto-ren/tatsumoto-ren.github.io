@@ -14,12 +14,14 @@
 	* [Kanji](learning-kanji.html)
 	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
-* [Reviewing Anki cards](how-to-review.html)
+* On the journey
+	* [One target sentences](one-target-sentences.html)
+	* [Reviewing Anki cards](how-to-review.html)
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
-	* [Passive listening](passive-listening.html)
-	* [Manga](mining-from-manga.html)
 	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
+	* [Manga](mining-from-manga.html)
+	* [Passive listening](passive-listening.html)
 	* [Subtitle Re-sync](https://github.com/Ajatt-Tools/autosubsync-mpv) *
 	* [Writing by hand](writing-japanese.html)
 * Apocrypha

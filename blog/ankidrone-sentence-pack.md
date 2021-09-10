@@ -9,7 +9,9 @@ for your targeted sentence cards.
 ****
 
 There are times when you want to mine a new word you've found in your immersion
-but the sentence it appears in is not 1T for you.
+but the sentence it appears in is not
+[1T](one-target-sentences.html)
+for you.
 In such situations you can either make a
 [SWC](discussing-various-card-templates.html#simple-word-cards)
 or search in a sentence bank.

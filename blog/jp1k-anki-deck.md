@@ -18,8 +18,7 @@ and premade decks like Core or Tango.
 
 The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vocabulary.html)
 and consists of words commonly used in everyday life in Japan.
-Cards show up relatively in the `1T` (`i+1`) order,
-which means that each sentence introduces only one unknown word or structure.
+Each sentence in the deck tries to introduce only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.
 
 We have prepared two versions of the deck.

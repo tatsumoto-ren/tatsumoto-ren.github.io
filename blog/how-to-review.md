@@ -204,7 +204,9 @@ There are situations when it makes sense to *pull a card out of the review queue
 * You can't seem to remember a card.
 * A card is too hard or too easy.
 * It takes too much time to rep.
-* You mined it thinking it was a `1T` card and turns out it's not.
+* You mined it thinking it was a
+[1T](one-target-sentences.html)
+card and turns out it's not.
 
 Preemptively getting rid of cards that have a potential to become leeches
 or cards that are too complicated and waste your time is a valuable technique.
