@@ -431,6 +431,15 @@ Almost all digital books are free,
 and you can use Yomichan with them,
 which is a great advantage.
 
+### Can I use Netflix to learn Japanese?
+
+Please read this excellent article by Richard Stallman:
+[Reasons not to use Netflix](https://stallman.org/netflix.html).
+There are plenty of ways to
+[obtain](resources.html#immersion-material)
+immersion material
+and keep your freedom.
+
 ### Should I buy a Kindle to read Japanese books?
 
 No, please!
