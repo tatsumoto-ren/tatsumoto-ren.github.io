@@ -30,7 +30,7 @@ It's a little less limiting, less buggy and more convenient.
 ## Showing up
 
 AJATT has an article about [Showing up](http://www.alljapaneseallthetime.com/blog/showing-up/).
-100% of winning showing up.
+100% of winning is showing up.
 Dedicate the time, and you'll see the results.
 
 Not only this concept is important when using Anki to learn languages,
