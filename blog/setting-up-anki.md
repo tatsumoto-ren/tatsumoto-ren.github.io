@@ -65,7 +65,8 @@ $ pip install --upgrade aqt
 ```
 
 `pip` places executables in `~/.local/bin/` by default.
-Don't forget to add this directory to `$PATH`.
+Don't forget to add this directory to the
+[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
 If after installing Anki with `pip`
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)
