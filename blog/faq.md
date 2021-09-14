@@ -725,6 +725,22 @@ I recommend
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)
 with kkc or any other free/libre input method.
 
+### How do I add a directory to the PATH?
+
+Let's say you want to add `~/.local/bin` to the PATH.
+According to
+[Arch Wiki](https://wiki.archlinux.org/title/Environment_variables#Per_user),
+to add a directory to the PATH for local usage, put following in `~/.bash_profile`:
+
+```
+export PATH="${PATH}:${HOME}/.local/bin"
+```
+
+Replace `${HOME}/.local/bin` with the path of the directory you want to add.
+If you use
+[zsh](https://wiki.archlinux.org/title/Zsh),
+instead of `~/.bash_profile` edit `~/.zprofile`.
+
 ### What are your current thoughts on Morphman? Do you recommend it?
 
 I used
@@ -836,6 +852,12 @@ No.
 
 * [疑問符](https://ja.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E7%AC%A6)
 * [感嘆符](https://ja.wikipedia.org/wiki/%E6%84%9F%E5%98%86%E7%AC%A6)
+
+### How to type the ￥ symbol with Fcitx?
+
+To type `￥` (pronounced 円マーク), press `＼` (backslash) and hit the space bar.
+This will give you the IME's prediction as to what character you want to insert.
+If the prediction is incorrect, hit the space bar again until you find `￥`.
 
 ### How much reading is required to counteract not SRSing?
 
