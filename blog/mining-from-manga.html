@@ -48,7 +48,7 @@ to look up new words and add sentences to Anki.
 To do so, you're going to use an optical character recognition program and a few helper tools.</p>
 <hr>
 <p>Install the following dependencies:</p>
-<pre><code>$ sudo pacman -S --needed sxiv maim tesseract xclip
+<pre><code>$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick
 </code></pre>
 <ul>
 <li><a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>
@@ -60,6 +60,9 @@ is the OCR engine. It is considered fairly accurate, and many people like it.</l
 is an utility for taking screenshots which can take parts of the screen.</li>
 <li><a href="https://github.com/astrand/xclip">xclip</a>
 is a tool for copying text to clipboard.</li>
+<li><a href="https://wiki.archlinux.org/title/ImageMagick">imagemagick</a>
+is a command-line image editor.
+It's going to come handy to edit the screenshots before Tesseract analyzes them.</li>
 </ul>
 <p>By default Tesseract is not very good at detecting Japanese characters,
 but the quality of OCR operations can be improved by using custom trained data.</p>
@@ -75,29 +78,27 @@ Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share
 <p align="center"><i>Contents of the ZIP archive.</i></p>
 <p>You don't need to install any data files from the repositories of your distro,
 the ones in the <code>capture2text</code> archive are way better.</p>
-<p>Create a new file <em>~/.local/bin/imageocr</em>:</p>
-<pre><code>#!/bin/sh
-maim --hidecursor -s |
-tesseract stdin stdout \
-    -l jpn \
-    --tessdata-dir ~/.local/share/capture2text_tessdata |
-tr -d ' ' |
-xclip -selection clipboard
-</code></pre>
+<p>Download
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr">maimocr</a>
+and save it as <code>~/.local/bin/maimocr</code>.</p>
 <p>Make the file executable:</p>
-<pre><code>$ chmod +x ~/.local/bin/imageocr
+<pre><code>$ chmod +x ~/.local/bin/maimocr
 </code></pre>
+<p>The directory <code>~/.local/bin</code> should be in your
+<a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</p>
 <p>Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
 <a href="https://i3wm.org/">i3wm</a>:</p>
-<pre><code>bindsym $mod+o exec --no-startup-id imageocr
+<pre><code>bindsym $mod+o exec --no-startup-id maimocr
 </code></pre>
 <p>The script is very trivial, so I hope you can understand it without explanations.
 When run, it will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
 Use it in combination with Yomichan Search
 to quickly lookup Japanese words in real-time.</p>
+<blockquote>
 <p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
 <a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
+</blockquote>
 <p><strong>Note:</strong> As an alternative, you can install <a href="https://aur.archlinux.org/packages/kanjitomo/">kanjitomo</a>
 but it's quite big and forces you to use a Japanese to English dictionary
 instead of a Japanese to Japanese one.</p>

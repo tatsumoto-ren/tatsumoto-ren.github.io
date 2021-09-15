@@ -10,7 +10,7 @@ To do so, you're going to use an optical character recognition program and a few
 Install the following dependencies:
 
 ```
-$ sudo pacman -S --needed sxiv maim tesseract xclip
+$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick
 ```
 
 * [sxiv](https://wiki.archlinux.org/title/Sxiv)
@@ -22,6 +22,9 @@ is the OCR engine. It is considered fairly accurate, and many people like it.
 is an utility for taking screenshots which can take parts of the screen.
 * [xclip](https://github.com/astrand/xclip)
 is a tool for copying text to clipboard.
+* [imagemagick](https://wiki.archlinux.org/title/ImageMagick)
+is a command-line image editor.
+It's going to come handy to edit the screenshots before Tesseract analyzes them.
 
 By default Tesseract is not very good at detecting Japanese characters,
 but the quality of OCR operations can be improved by using custom trained data.
@@ -44,30 +47,24 @@ Alternatively, download just the Capture2Text Japanese files from
 You don't need to install any data files from the repositories of your distro,
 the ones in the `capture2text` archive are way better.
 
-Create a new file *~/.local/bin/imageocr*:
-
-```
-#!/bin/sh
-
-maim --hidecursor -s |
-tesseract stdin stdout \
-	-l jpn \
-	--tessdata-dir ~/.local/share/capture2text_tessdata |
-tr -d ' ' |
-xclip -selection clipboard
-```
+Download
+[maimocr](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr)
+and save it as `~/.local/bin/maimocr`.
 
 Make the file executable:
 
 ```
-$ chmod +x ~/.local/bin/imageocr
+$ chmod +x ~/.local/bin/maimocr
 ```
+
+The directory `~/.local/bin` should be in your
+[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
 Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
 [i3wm](https://i3wm.org/):
 
 ```
-bindsym $mod+o exec --no-startup-id imageocr
+bindsym $mod+o exec --no-startup-id maimocr
 ```
 
 The script is very trivial, so I hope you can understand it without explanations.
@@ -76,8 +73,8 @@ The resulting text will be saved to the system clipboard.
 Use it in combination with Yomichan Search
 to quickly lookup Japanese words in real-time.
 
-To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
-[Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
+> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
+> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
 
 **Note:** As an alternative, you can install [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/)
 but it's quite big and forces you to use a Japanese to English dictionary
