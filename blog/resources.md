@@ -65,6 +65,8 @@ but the example sentence you've found the word in is too complicated
 or you've lost it because you forgot to save it.
 In such cases sites with example sentences come to rescue.
 
+* [Massif](https://massif.la/ja).
+Allows you to search over 30 million unique Japanese sentences.
 * [Sentence Search](https://sentencesearch.neocities.org/)
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
 Made for Japanese people learning English but can be used in reverse.
