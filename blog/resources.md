@@ -237,7 +237,10 @@ Also useful for batch extracting audio from videos.
 
 ### Fonts
 
-* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts)
+* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
+Google Noto TTF fonts.
+* [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
+The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
 * [Semi-cursive Japanese fonts](https://t.me/ajatt_tools/104)
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
 
