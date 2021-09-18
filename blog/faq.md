@@ -160,6 +160,25 @@ I did KanjiDamage+.
 If I were to start today, I would probably start learning words right away.
 If I couldn't handle it, I would pause and try the JP1K method.
 
+### Is it OK to create mnemonics to help remember kanji readings?
+
+Unless you did RTK or Kanjidamage before you started reading,
+creating mnemonics is not going to be that easy
+because you lack a more in-depth understanding of how kanji are formed.
+In this case I would recommend not worrying about mnemonics
+and trying to memorize the readings as is.
+
+If you did Kanjidamage or Kanjidamage+,
+you already know thousands of premade mnemonics for kanji readings,
+and they're going to help you a lot.
+For me this was pretty much the case.
+Kanjidamage mnemonics helped me out at first,
+but I quickly moved past them as I continued to learn new words.
+
+If you choose to use mnemonics, don't rely on them for too long.
+You don't wanna be an advanced learner who still thinks of mnemonic stories
+when trying to read every word.
+
 ### Is JAV good for immersion?
 
 I'm guessing that's a joke.
