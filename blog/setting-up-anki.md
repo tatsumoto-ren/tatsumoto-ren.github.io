@@ -47,16 +47,7 @@ to help you get things up and running as quickly as possible.
 
 ## Installation
 
-It's quite simple. Anki is available in the
-[official repositories](https://archlinux.org/packages/community/x86_64/anki/)
-on Arch-based distributions.
-To install the `anki` package, run:
-
-```
-$ sudo pacman -S anki
-```
-
-The version in the official repositories tends to be outdated.
+It's quite simple.
 The latest version can be installed with
 [pip](https://archlinux.org/packages/?name=python-pip):
 
@@ -75,8 +66,9 @@ open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 
 Additional methods:
 
-* The official binary from
-[github.com/ankitects/anki](https://github.com/ankitects/anki/releases/)
+* On Arch Linux
+the official binary from
+[GitHub](https://github.com/ankitects/anki/releases/)
 can be obtained by installing
 [anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/).
 * If you're not an Arch Linux user,
