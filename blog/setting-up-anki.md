@@ -80,7 +80,9 @@ Use a version released at least 6 months ago or newer.
 People have been reporting various problems connected to these installation methods.
 
 To run Anki, type `anki` in the terminal and press Enter.
-However, having a desktop entry is more convenient.
+However, having a
+[desktop entry](https://wiki.archlinux.org/title/Desktop_entries)
+is more convenient.
 Download
 [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
 and save it in `~/.local/share/applications`.
