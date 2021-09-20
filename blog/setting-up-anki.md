@@ -59,11 +59,6 @@ $ pip install --upgrade aqt
 Don't forget to add this directory to the
 [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
-If after installing Anki with `pip`
-[Fcitx](https://wiki.archlinux.org/title/Fcitx)
-doesn't work,
-open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
-
 Additional methods:
 
 * On Arch Linux
@@ -86,6 +81,11 @@ is more convenient.
 Download
 [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
 and save it in `~/.local/share/applications`.
+
+If after installing Anki with `pip`
+[Fcitx](https://wiki.archlinux.org/title/Fcitx)
+doesn't work,
+open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 
 ## Sync your mobile device
 
