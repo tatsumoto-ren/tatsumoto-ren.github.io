@@ -79,6 +79,12 @@ Use a version released at least 6 months ago or newer.
 * Please don't install Anki via FlatPak, Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
+To run Anki, type `anki` in the terminal and press Enter.
+However, having a desktop entry is more convenient.
+Download
+[this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
+and save it in `~/.local/share/applications`.
+
 ## Sync your mobile device
 
 By [signing up](https://ankiweb.net/account/register) for AnkiWeb
