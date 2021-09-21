@@ -942,6 +942,27 @@ It will take you less time to go through them because reading generally is faste
 When it comes to immersion content, however, YouTube can offer something you'll like.
 Things like streams, podcasts or news are good to listen to, especially for passive immersion.
 
+These are some things to keep in mind when watching something on YouTube:
+
+1) Do not let YouTube track you.
+Spying on YouTube is an important part of the data mining operation Google is running.
+By not letting them collect any data about you, you're protecting your privacy.
+2) Do not give videos any views.
+When a person who uploaded a video sees that their video is getting views,
+they think that they can continue getting away with using YouTube.
+They might even earn money from YouTube showing ads to the viewers.
+This is not what we want,
+we want everyone to upload videos to privacy-respecting platforms like Odysee or Peertube.
+
+To ensure you're not being tracked
+and that you're not giving any authors incentives to continue upload to YouTube,
+either download all videos you want to watch with
+[Youtube-dl](mining-from-movies-and-tv-shows.html#youtube-dl)
+and watch them later
+or use a proxy site such as
+[Invidious](https://redirect.invidious.io/).
+Invidious lets you choose from a number of instances based on their health.
+
 ### What are your thoughts on timeboxing?
 
 Ever since I found out about timeboxing from the
