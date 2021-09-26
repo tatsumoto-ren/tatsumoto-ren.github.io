@@ -955,7 +955,7 @@ This is not what we want,
 we want everyone to upload videos to privacy-respecting platforms like Odysee or Peertube.
 
 To ensure you're not being tracked
-and that you're not giving any authors incentives to continue upload to YouTube,
+and that you're not giving any authors incentives to continue uploading to YouTube,
 either download all videos you want to watch with
 [Youtube-dl](mining-from-movies-and-tv-shows.html#youtube-dl)
 and watch them later
