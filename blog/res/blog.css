@@ -521,6 +521,9 @@ article table th {
     border: 1px solid #e0e3e6;
     padding: 6px 13px;
 }
+article table td:first-child {
+    white-space: nowrap;
+}
 article table tr:nth-child(2n) {
     background-color: #f6f8fa;
 }
