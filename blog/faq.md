@@ -63,6 +63,8 @@ you can call yourself fluent.
 ### What's AJATT?
 
 AJATT is a method of reaching fluency in Japanese in a relatively short period of time.
+The name AJATT stands for All Japanese All The Time,
+it encourages doing as much Japanese as you can every day.
 This site was inspired by the method.
 
 ### Should I read the AJATT site?
