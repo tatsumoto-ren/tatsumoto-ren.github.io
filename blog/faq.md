@@ -74,6 +74,10 @@ Everything else isn't worth your time.
 Don't enter your Email address and don't buy the paid products it offers,
 there are free alternatives.
 
+If you don't want to spend your time reading the AJATT site,
+that's totally fine too.
+This site covers most of its key points.
+
 ### Should I watch anime with English subtitles?
 
 Yes, if you want to learn English.
