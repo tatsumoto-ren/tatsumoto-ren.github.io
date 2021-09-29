@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Setting up Qolibri</title>
+<meta property="og:title" content="Setting up Qolibri">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="headerholder" class="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp" />
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="setting-up-qolibri.html">Setting up Qolibri</a></h1>
+<!-- bashblog_timestamp: #1632881424# -->
+<div class="subtitle">September 29, 2021 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p><a href="https://aur.archlinux.org/packages/qolibri/">Qolibri</a>
+is a Qt-based dictionary viewer.
+It lets you search multiple dictionaries at one time
+so for every word you look up you immediately get multiple definitions.
+Qolibri remains one of the most widely used Japanese dictionary viewers for GNU/Linux.</p>
+<p>By itself, Qolibri is just a viewer.
+To utilize it, you need <strong>dictionary files</strong>.
+The dictionary files Qolibri reads are called <a href="https://ja.wikipedia.org/wiki/EPWING">EPWING</a>s.
+EPWING (electronic publishing WING) is a dictionary format
+that was allegedly utilized in portable electronic dictionaries.</p>
+<p>Qolibri is much better at searching a big number of dictionaries at the same time than Yomichan.
+If you try to use more than 5 dictionaries with Yomichan,
+it quickly becomes very cluttered and hard to navigate.
+Qolibri lists all dictionaries you have on a sidebar.
+It is easy to jump between them if you need to.</p>
+<p>If you haven't started using Japanese to Japanese dictionaries yet,
+feel free to skip this article for now.
+Though Japanese to English dictionaries for Qolibri exist, their number is not very large.
+The main reason you want to use the program is to browse monolingual dictionaries.</p>
+<hr>
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>On Arch Linux-based distributions you can install Qolibri with
+<a href="https://aur.archlinux.org/packages/trizen/">trizen</a>
+or any other AUR helper.</p>
+<pre><code>$ trizen -S qolibri
+</code></pre>
+<p>If you don't want to build it yourself, install
+<a href="https://aur.archlinux.org/packages/qolibri-bin/">qolibri-bin</a>:</p>
+<pre><code>$ trizen -S qolibri-bin
+</code></pre>
+<p>If you're running a different distribution of GNU/Linux or not running GNU/Linux at all,
+check out the <a href="https://github.com/ludios/qolibri">GitHub</a> page
+for installation instructions.</p>
+<h2 id="dictionary-files"><a class="anchor" href="#dictionary-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dictionary files</h2>
+<p>Without dictionary files,
+Qolibri is just an empty window with buttons.
+Download the dictionaries and save them to a folder on your computer.
+EPWINGs are usually larger compared to Yomichan dictionaries.
+You need several GiB of disk space to store them.
+Below is a list of links where you can find EPWING dictionaries.</p>
+<p><strong>Packs:</strong></p>
+<ul>
+<li><a href="https://nyaa.iss.one/view/1194089">Nyaa</a></li>
+<li><a href="https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file">mattvsjapan</a></li>
+<li><a href="https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42">Immersion Wiki</a></li>
+<li><a href="https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg">Mega 1</a></li>
+<li><a href="https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ">Mega 2</a></li>
+<li><a href="https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries">BritVSJapan</a></li>
+</ul>
+<p><strong>Standalone dictionaries:</strong></p>
+<ul>
+<li><a href="http://www.mediafire.com/file/sxmpse8n92c9oxg/NHKACT.zip">NHK pitch accent dictionary EPWING</a>.
+A very useful EPWING with pitch accent information.</li>
+<li><a href="http://www.mediafire.com/file/q9b95d1ad9wnjxd/Shinmeikai.7z">Shinmeikai EPWING with pitch accent</a></li>
+<li><a href="https://mega.nz/#F!dcoAlDSB!7ltFSsPmp1JfPhz6U5FaeQ">Kenkyusha J-E Dictionary</a></li>
+</ul>
+<p>To import the dictionaries to Qolibri click &quot;Setting&quot; &gt; &quot;Book and group settings&quot;
+and insert the location where the dictionary files are stored on your computer.
+Then press &quot;Start search&quot;.
+Once the dictionaries are loaded,
+put the ones that you use most often at the top
+to have them display first when searching.</p>
+<p align="center"><img class="shadow" alt="book settings" src="img/qolibri-book-settings.webp"></p>
+<p>Due to the nature of the format,
+most Qolibri dictionaries are old, they date back to the 1990s.
+But don't worry about it,
+in rare occasions when you can't find a definition for a new word or slang,
+you can use the web search or consult
+<a href="resources.html#online">online dictionaries</a>.</p>
+<h2 id="recommended-dictionaries"><a class="anchor" href="#recommended-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recommended dictionaries</h2>
+<p>These dictionaries are recommended the most among Japanese learners.
+Here I list generic names stripped of version notations, editions, etc.</p>
+<ul>
+<li><code>大辞林</code></li>
+<li><code>新明解</code></li>
+<li><code>大辞泉</code></li>
+<li><code>明鏡</code></li>
+<li><code>広辞苑</code></li>
+</ul>
+<p>Usually people keep <code>NHK日本語発音アクセント辞典</code> at the very top
+to quickly access pitch access information and audio.</p>
+<h2 id="searching"><a class="anchor" href="#searching" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Searching</h2>
+<h2 id="invoke-search-from-a-shortcut"><a class="anchor" href="#invoke-search-from-a-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Invoke search from a shortcut</h2>
+<p>Qolibri can accept search queries via command line arguments.
+If you have <code>xclip</code> installed, you can write a small bash script
+that will send the content of the primary selection (or the clipboard, if you want) to qolibri.</p>
+<p>Configure your DE, WM or a tool like sxhkd
+to bind the following command to a key:</p>
+<pre><code>qolibri &quot;$(xclip -o)&quot;
+</code></pre>
+<p>Now you can select any text and then press the key you've set to quickly search it.
+I recommend enabling &quot;Server mode&quot; in Qolibri's options.
+Otherwise every time you press the hotkey,
+a new Qolibri window will be opened instead of a new tab.</p>
+<h2 id="playing-nhk-audio"><a class="anchor" href="#playing-nhk-audio" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Playing NHK audio</h2>
+<p>You may face problems when playing audio inside Qolibri.
+This happens because Qolibri tries to call mpv with inappropriate command line arguments.
+If you can't hear anything
+when clicking on pronunciations in <code>NHK日本語発音アクセント辞典</code> or other dictionaries,
+create a new
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/qolibri-mpv">script</a>
+with the following contents:</p>
+<pre><code>#!/usr/bin/env sh
+mpv --keep-open=no --force-window=no &quot;$@&quot;
+</code></pre>
+<p>In this example I named the file <code>qolibri-mpv</code> and saved it in <code>~/.local/bin</code>.
+To make it executable, run <code>chmod +x ~/.local/bin/qolibri-mpv</code>
+and add the directory to the
+<a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.
+Then go to &quot;Settings&quot; &gt; &quot;Options...&quot; &gt; &quot;External program&quot; and add your executable.</p>
+<p align="center"><img class="shadow" alt="external programs" src="img/qolibri-external-programs.webp"></p>
+<h2 id="custom-css"><a class="anchor" href="#custom-css" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom CSS</h2>
+<p>You can change the way definitions look using CSS.
+To edit the style sheet, go to &quot;Settings&quot; &gt; &quot;Edit style sheet&quot; &gt; &quot;Dictionary style sheet...&quot;.
+I use a theme that looks similar to the style of my Anki cards.
+To get it,
+<a href="https://gist.github.com/tatsumoto-ren/8b70f2fe739840ce81b93572ee8c90db">download</a>
+this example CSS file.</p>
+<p align="center"><img alt="qolibri css" src="img/qolibri-css.webp"></p>
+<p align="center"><i>Definition.</i></p>
+<h2 id="how-to-use-the-dictionaries"><a class="anchor" href="#how-to-use-the-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to use the dictionaries</h2>
+<p>If you click on the &quot;Search/read book&quot; button on the left side of the window,
+the magnifying glass icon changes into a book.
+Choose a dictionary in the dropdown menu and click the button that says &quot;Open book&quot;.
+The program will show you a page that explains how to use the dictionary.
+Often dictionaries don't have this information,
+but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and several others do.</p>
+<p align="center"><img alt="read book" src="img/qolibri-read-book.webp"></p>
+<p>Here you can find the explanations what all the symbols mean.</p>
+<p>Tags: <a href="tag_dictionaries.html">dictionaries</a>, <a href="tag_epwing.html">epwing</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+<footer>
+    CC by-nc-nd 2020-2021 <a href="https://github.com/tatsumoto-ren">Tatsumoto</a> &mdash; <a href="donating-to-tatsumoto.html">Donate</a>
+    <div>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</footer>
+</div>
+</div>
+<script src="res/blog.js"></script>
+</body>
+</html>

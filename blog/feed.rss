@@ -2,9 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Sat, 11 Sep 2021 00:32:39 +0300</lastBuildDate>
-<pubDate>Sat, 11 Sep 2021 00:32:39 +0300</pubDate>
+<lastBuildDate>Wed, 29 Sep 2021 05:12:58 +0300</lastBuildDate>
+<pubDate>Wed, 29 Sep 2021 05:12:58 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Setting up Qolibri</title><description><![CDATA[
+<p><a href="https://aur.archlinux.org/packages/qolibri/">Qolibri</a>
+is a Qt-based dictionary viewer.
+It lets you search multiple dictionaries at one time
+so for every word you look up you immediately get multiple definitions.
+Qolibri remains one of the most widely used Japanese dictionary viewers for GNU/Linux.</p>
+<p>By itself, Qolibri is just a viewer.
+To utilize it, you need <strong>dictionary files</strong>.
+The dictionary files Qolibri reads are called <a href="https://ja.wikipedia.org/wiki/EPWING">EPWING</a>s.
+EPWING (electronic publishing WING) is a dictionary format
+that was allegedly utilized in portable electronic dictionaries.</p>
+<p>Qolibri is much better at searching a big number of dictionaries at the same time than Yomichan.
+If you try to use more than 5 dictionaries with Yomichan,
+it quickly becomes very cluttered and hard to navigate.
+Qolibri lists all dictionaries you have on a sidebar.
+It is easy to jump between them if you need to.</p>
+<p>If you haven't started using Japanese to Japanese dictionaries yet,
+feel free to skip this article for now.
+Though Japanese to English dictionaries for Qolibri exist, their number is not very large.
+The main reason you want to use the program is to browse monolingual dictionaries.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 29 Sep 2021 05:10:24 +0300</pubDate></item>
 <item><title>
 One target sentences</title><description><![CDATA[
 <p>Let's define a &quot;target&quot; as any unknown piece of information
@@ -140,23 +166,4 @@ so forget about traditional approaches such as taking classes or hiring a tutor.
 <guid>https://tatsumoto-ren.github.io/blog/foreword.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 03 May 2021 02:38:26 +0300</pubDate></item>
-<item><title>
-Setting up Yomichan</title><description><![CDATA[
-<p><a href="https://foosoft.net/projects/yomichan/">Yomichan</a> is a browser extension
-with a pop-up dictionary
-that allows you to look up unknown words with the hover of a mouse.
-On top of that Yomichan can be set up to create Anki cards from the words which you look up.</p>
-<p>The process of picking sentences from your immersion
-and making Anki cards is called <em>sentence-mining</em> or <em>sentence-picking</em>.
-Each mined sentence has to contain one unknown piece of information,
-which is referred to as <em>target word</em>.</p>
-<p>You don't necessarily have to pick an entire sentence,
-but if you're a TSC user it is not necessary to keep mined items short.
-When you're out in the wild picking sentences, select the ones that are interesting to you.
-Your goal is not to mine every word.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sat, 24 Apr 2021 02:24:07 +0300</pubDate></item>
 </channel></rss>
