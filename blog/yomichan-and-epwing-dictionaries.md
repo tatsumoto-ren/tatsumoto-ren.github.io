@@ -48,10 +48,10 @@ A very useful EPWING with pitch accent information.
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
 <p align="center">
-	<a class="download_button" href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Mirror</a>
+	<a class="download_button" href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Download</a>
 </p>
 <p align="center">
-	<a href="https://t.me/ajatt_tools/115">Download</a>
+	<a href="https://t.me/ajatt_tools/115">Mirror</a>
 </p>
 
 <details>
@@ -201,10 +201,10 @@ you should have the frequency lists as well.
 Below I provide a separate link for those who are only interested in the frequency lists.
 
 <p align="center">
-	<a class="download_button" href="https://t.me/ajatt_tools/109">Download</a>
+	<a class="download_button" href="https://disk.yandex.com/d/iaKHgFKTwjCMPw">Download</a>
 </p>
 <p align="center">
-	<a href="https://disk.yandex.com/d/iaKHgFKTwjCMPw">Mirror</a>
+	<a href="https://t.me/ajatt_tools/109">Mirror</a>
 </p>
 
 **Recommended:**
