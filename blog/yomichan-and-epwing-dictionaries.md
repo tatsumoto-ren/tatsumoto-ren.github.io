@@ -4,30 +4,18 @@
 is a web browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 
-EPWING is a [terrible](https://foosoft.net/projects/zero-epwing/) dictionary format
+EPWING is a dictionary format
 that was allegedly utilized in portable electronic dictionaries.
-
-These two usually go together because Yomichan supports
-[importing EPWING dictionaries](https://github.com/FooSoft/yomichan-import).
-
 To view EPWINGs you need [qolibri](https://aur.archlinux.org/packages/qolibri/),
 a dictionary viewer that lets you search multiple EPWING files at one time
 so for every word you look up you immediately get multiple definitions.
-Another alternative is [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict).
 
-You can install qolibri with
-[trizen](https://aur.archlinux.org/packages/trizen/)
-or
-[yay](https://aur.archlinux.org/packages/yay/):
-
-```
-$ trizen -S qolibri # or yay
-```
-
-To get Yomichan follow
-[our setup guide](setting-up-yomichan.html).
+* To get Yomichan follow
+[this setup guide](setting-up-yomichan.html).
 In order to be able to make Anki cards don't forget to install
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
+* To get Qolibri follow
+[this setup guide](setting-up-qolibri.html).
 
 To actually use the software and look up words you need to get dictionary files.
 A few basic Japanese to English dictionaries are available on the
@@ -37,30 +25,33 @@ Below is a list of links where you can find dictionaries for qolibri and Yomicha
 
 ****
 
-### EPWING
-* [Original EPWING archive from mattvsjapan](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
+## EPWING
+
+**Packs:**
+
+* [Nyaa](https://nyaa.iss.one/view/1194089)
+* [mattvsjapan](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
 * [Immersion Wiki](https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42)
-* [Mega](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
-* [Shared by BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
-* [NHK pitch accent dictionary EPWING](http://www.mediafire.com/file/sxmpse8n92c9oxg/NHKACT.zip) -
-very useful EPWING with pitch accent information
+* [Mega 1](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
+* [Mega 2](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
+* [BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
+
+**Standalone dictionaries:**
+
+* [NHK pitch accent dictionary EPWING](http://www.mediafire.com/file/sxmpse8n92c9oxg/NHKACT.zip).
+A very useful EPWING with pitch accent information.
 * [Shinmeikai EPWING with pitch accent](http://www.mediafire.com/file/q9b95d1ad9wnjxd/Shinmeikai.7z)
+* [Kenkyusha J-E Dictionary](https://mega.nz/#F!dcoAlDSB!7ltFSsPmp1JfPhz6U5FaeQ)
 
-To import dictionaries in qolibri click `Setting` → `Book and group settings`
-and insert the location where the dictionary files are stored on your computer.
-Then press `Start search`. Once the dictionaries are loaded,
-you want to put the ones that you use most often at the top
-to have quicker access to their definitions.
-
-### Yomichan
+## Yomichan
 
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
 <p align="center">
-	<a class="download_button" href="https://t.me/ajatt_tools/115">Download</a>
+	<a class="download_button" href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Mirror</a>
 </p>
 <p align="center">
-	<a href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Mirror</a>
+	<a href="https://t.me/ajatt_tools/115">Download</a>
 </p>
 
 <details>
@@ -70,7 +61,7 @@ The dictionaries were compiled from various places.
 Below is a list of public folders that were used.
 
 * [Immersion Wiki](https://drive.google.com/drive/folders/1S8jeDa5NJt76dn9tq52engRCFLjIzvN1)
-* [Mega](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
+* [This Mega folder](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
 * [Shared](https://www.youtube.com/watch?v=5oxdPY9eH48) by mattvsjapan:
 	* [Yomichan Dictionaries](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
 	* [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
@@ -251,7 +242,7 @@ There will always be words that are in some dictionaries and not in others.
 * `禿同` is only in `実用日本語表現辞典`.
 
 Though you might think that using every dictionary in Yomichan is a good idea
-and load up all of them, I would advice you not to do so.
+and load up all of them, I would advise you not to do so.
 Sometimes the word that you're trying to look up
 isn't the one that comes up first in the dictionary.
 If you want to find it you have to scroll down,
