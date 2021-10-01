@@ -53,7 +53,6 @@ Qolibri is just an empty window with buttons.
 Download the dictionaries and save them to a folder on your computer.
 EPWINGs are usually larger compared to Yomichan dictionaries.
 You need several GiB of disk space to store them.
-Below is a list of links where you can find EPWING dictionaries.
 
 You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
@@ -85,7 +84,7 @@ Here I list generic names stripped of version notations, editions, etc.
 * `広辞苑`
 
 Usually people keep `NHK日本語発音アクセント辞典` at the very top
-to quickly access pitch access information and audio.
+to quickly access pitch accent information and audio.
 
 ## Searching
 
@@ -122,7 +121,7 @@ Most of the time you want to use Exact search.
 
 Qolibri can accept search queries via command line arguments.
 If you have `xclip` installed, you can write a small bash script
-that will send the content of the primary selection (or the clipboard, if you want) to qolibri.
+that will send the content of the primary selection (or the clipboard, if you want) to Qolibri.
 
 Configure your DE, WM or a tool like sxhkd
 to bind the following command to a key:
