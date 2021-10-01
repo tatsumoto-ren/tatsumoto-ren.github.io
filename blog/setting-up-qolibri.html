@@ -82,22 +82,7 @@ Download the dictionaries and save them to a folder on your computer.
 EPWINGs are usually larger compared to Yomichan dictionaries.
 You need several GiB of disk space to store them.
 Below is a list of links where you can find EPWING dictionaries.</p>
-<p><strong>Packs:</strong></p>
-<ul>
-<li><a href="https://nyaa.iss.one/view/1194089">Nyaa</a></li>
-<li><a href="https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file">mattvsjapan</a></li>
-<li><a href="https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42">Immersion Wiki</a></li>
-<li><a href="https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg">Mega 1</a></li>
-<li><a href="https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ">Mega 2</a></li>
-<li><a href="https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries">BritVSJapan</a></li>
-</ul>
-<p><strong>Standalone dictionaries:</strong></p>
-<ul>
-<li><a href="http://www.mediafire.com/file/sxmpse8n92c9oxg/NHKACT.zip">NHK pitch accent dictionary EPWING</a>.
-A very useful EPWING with pitch accent information.</li>
-<li><a href="http://www.mediafire.com/file/q9b95d1ad9wnjxd/Shinmeikai.7z">Shinmeikai EPWING with pitch accent</a></li>
-<li><a href="https://mega.nz/#F!dcoAlDSB!7ltFSsPmp1JfPhz6U5FaeQ">Kenkyusha J-E Dictionary</a></li>
-</ul>
+<p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
 <p>To import the dictionaries to Qolibri click &quot;Setting&quot; &gt; &quot;Book and group settings&quot;
 and insert the location where the dictionary files are stored on your computer.
 Then press &quot;Start search&quot;.
@@ -124,6 +109,33 @@ Here I list generic names stripped of version notations, editions, etc.</p>
 <p>Usually people keep <code>NHK日本語発音アクセント辞典</code> at the very top
 to quickly access pitch access information and audio.</p>
 <h2 id="searching"><a class="anchor" href="#searching" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Searching</h2>
+<p>To search in Qolibri,
+insert what you're interesting in finding into the search box
+and press &quot;Search&quot;.</p>
+<p>There are multiple search types you can choose from.</p>
+<ul>
+<li>Exact word search (完全一致).
+Search for a headword that matches exactly with the query.</li>
+<li>Forward search (前方一致).
+Search words that start with the query.</li>
+<li>Backward search (後方一致).
+Search words that end with the query.</li>
+<li>Full text search (全文検索).
+Search whole page.</li>
+</ul>
+<p>These types split the search query by whitespaces:</p>
+<ul>
+<li>Cross search (クロス検索).
+Searches multiple words inside headwords.
+E.g., if you search <code>繰 返</code>,
+it's going to find entries like <code>繰り返す</code> or <code>繰り返し</code>.
+After testing this search type I must say that it's far from perfect
+and often finds nothing when you expect it to find something.</li>
+<li>Keyword search (条件検索).
+Like cross search,
+but searches words in the books' contents, including headwords.</li>
+</ul>
+<p>Most of the time you want to use Exact search.</p>
 <h2 id="invoke-search-from-a-shortcut"><a class="anchor" href="#invoke-search-from-a-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Invoke search from a shortcut</h2>
 <p>Qolibri can accept search queries via command line arguments.
 If you have <code>xclip</code> installed, you can write a small bash script
@@ -159,7 +171,9 @@ To edit the style sheet, go to &quot;Settings&quot; &gt; &quot;Edit style sheet&
 I use a theme that looks similar to the style of my Anki cards.
 To get it,
 <a href="https://gist.github.com/tatsumoto-ren/8b70f2fe739840ce81b93572ee8c90db">download</a>
-this example CSS file.</p>
+this example CSS file.
+The default CSS file Qolibri ships with can be found on
+<a href="https://github.com/ludios/qolibri/blob/prime/data/dict-style.css">GitHub</a>.</p>
 <p align="center"><img alt="qolibri css" src="img/qolibri-css.webp"></p>
 <p align="center"><i>Definition.</i></p>
 <h2 id="how-to-use-the-dictionaries"><a class="anchor" href="#how-to-use-the-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to use the dictionaries</h2>

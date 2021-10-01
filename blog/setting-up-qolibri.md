@@ -55,21 +55,7 @@ EPWINGs are usually larger compared to Yomichan dictionaries.
 You need several GiB of disk space to store them.
 Below is a list of links where you can find EPWING dictionaries.
 
-**Packs:**
-
-* [Nyaa](https://nyaa.iss.one/view/1194089)
-* [mattvsjapan](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
-* [Immersion Wiki](https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42)
-* [Mega 1](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
-* [Mega 2](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
-* [BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
-
-**Standalone dictionaries:**
-
-* [NHK pitch accent dictionary EPWING](http://www.mediafire.com/file/sxmpse8n92c9oxg/NHKACT.zip).
-A very useful EPWING with pitch accent information.
-* [Shinmeikai EPWING with pitch accent](http://www.mediafire.com/file/q9b95d1ad9wnjxd/Shinmeikai.7z)
-* [Kenkyusha J-E Dictionary](https://mega.nz/#F!dcoAlDSB!7ltFSsPmp1JfPhz6U5FaeQ)
+You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
 To import the dictionaries to Qolibri click "Setting" > "Book and group settings"
 and insert the location where the dictionary files are stored on your computer.
@@ -103,7 +89,34 @@ to quickly access pitch access information and audio.
 
 ## Searching
 
+To search in Qolibri,
+insert what you're interesting in finding into the search box
+and press "Search".
 
+There are multiple search types you can choose from.
+
+* Exact word search (完全一致).
+Search for a headword that matches exactly with the query.
+* Forward search (前方一致).
+Search words that start with the query.
+* Backward search (後方一致).
+Search words that end with the query.
+* Full text search (全文検索).
+Search whole page.
+
+These types split the search query by whitespaces:
+
+* Cross search (クロス検索).
+Searches multiple words inside headwords.
+E.g., if you search `繰 返`,
+it's going to find entries like `繰り返す` or `繰り返し`.
+After testing this search type I must say that it's far from perfect
+and often finds nothing when you expect it to find something.
+* Keyword search (条件検索).
+Like cross search,
+but searches words in the books' contents, including headwords.
+
+Most of the time you want to use Exact search.
 
 ## Invoke search from a shortcut
 
@@ -154,6 +167,8 @@ I use a theme that looks similar to the style of my Anki cards.
 To get it,
 [download](https://gist.github.com/tatsumoto-ren/8b70f2fe739840ce81b93572ee8c90db)
 this example CSS file.
+The default CSS file Qolibri ships with can be found on
+[GitHub](https://github.com/ludios/qolibri/blob/prime/data/dict-style.css).
 
 <p align="center"><img alt="qolibri css" src="img/qolibri-css.webp"></p>
 <p align="center"><i>Definition.</i></p>
