@@ -7,6 +7,7 @@
 	* [Anki add-ons](useful-anki-add-ons-for-japanese.html)
 	* [Card templates](discussing-various-card-templates.html)
 	* [Yomichan](setting-up-yomichan.html)
+	* [Qolibri](setting-up-qolibri.html)
 	* [Dictionaries](yomichan-and-epwing-dictionaries.html)
 	* [Fonts](japanese-fonts.html)
 * Basics
