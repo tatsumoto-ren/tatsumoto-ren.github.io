@@ -136,6 +136,7 @@ A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
 A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
 You can switch channels in mpv by pressing `<` and `>`.
+* [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
 
 ### Manga
 
@@ -241,8 +242,11 @@ Also useful for batch extracting audio from videos.
 Google Noto TTF fonts.
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
 The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
-* [Semi-cursive Japanese fonts](https://t.me/ajatt_tools/104)
+* [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/)
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
+* [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
+The fonts I use.
+Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
 
 ### mpv
 
