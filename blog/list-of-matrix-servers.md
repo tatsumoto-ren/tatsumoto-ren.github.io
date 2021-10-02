@@ -59,9 +59,9 @@ recommended by
 * Servers run by Japanese people:
 	* [076.ne.jp](https://matrix.076.ne.jp/)
 	* [fedibird.com](https://matrix.fedibird.com/)
-	* [matrix-jp.net](https://riot.matrix-jp.net/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
 	* [juggler.jp](https://matrix.juggler.jp/)
+	* [smith.gdgd.jp.net](https://smith.gdgd.jp.net/)
 
 *Not all the servers may be open for registration at any point of time.*
 
@@ -108,6 +108,7 @@ without having to use a desktop client.
 * https://c.a2sc.eu/
 * https://c.wfr.moe/
 * https://uddu.chat/
+* https://ahriman.tk/
 * https://chat.crq.ac/
 * https://chat.guy.sh/
 * https://houtworm.im/
@@ -154,6 +155,7 @@ without having to use a desktop client.
 * https://matrix.ffggrz.de/
 * https://chat.catgirl.biz/
 * https://element.fff.chat/
+* https://riot.zygoat.club/
 * https://chat.sp-codes.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
@@ -168,6 +170,7 @@ without having to use a desktop client.
 * https://element.im.f3l.de/
 * https://element.myserv.me/
 * https://element.pwoss.org/
+* https://element.trygve.me/
 * https://chat.freakachu.org/
 * https://element.avlikos.gr/
 * https://riot.kiwifarms.net/
