@@ -158,6 +158,12 @@ Then go to "Settings" > "Options..." > "External program" and add your executabl
 
 <p align="center"><img class="shadow" alt="external programs" src="img/qolibri-external-programs.webp"></p>
 
+## Set browser font
+
+To change the font used in the browser,
+go to "Settings" > "Set browser font...".
+Recommended fonts can be found [here](resources.html#fonts).
+
 ## Custom CSS
 
 You can change the way definitions look using CSS.
