@@ -70,8 +70,8 @@ including anime, manga, light novels and visual novels.
 Dictionaries, grammar guides and software are also available in abundance.
 
 Avoid *blue-pilled* resources.
-There are a myriad methods out there.
-some are effective, but many are not.
+There are a myriad of methods out there.
+Some are effective, but many are not.
 [No one has ever gotten good using JapanesePod101](https://www.youtube.com/watch?v=ikm_gL7-mZs).
 
 Examples of low quality resources:
