@@ -19,7 +19,9 @@ To write Japanese you need something to write on and something to write with.
 * Paper, a few A4 sheets.
 * A pencil or a pen.
 * [原稿用紙 pdf](https://duckduckgo.com/?q=%E5%8E%9F%E7%A8%BF%E7%94%A8%E7%B4%99+a4+pdf&kp=-2&kl=jp-jp&ia=web),
-there are quite a lot of options to choose from so I'm going to link all of them.
+[like this](http://www.sousakuba.com/genkouyousi/).
+There are quite a lot of options to choose from so I'm going to link a search page
+where you can find any pdf you want.
 
 Print the pdf you've downloaded on the paper you've got and you should be set.
 
@@ -61,34 +63,6 @@ Otherwise press "Again".
 After you finish the kana, it's time to start learning how to write kanji.
 This step is more complex and is going to take much longer.
 
-### Production RTK
-
-Sometimes you see people recommend to *do RTK after you're fluent*.
-This means taking the first volume of the book *Remembering The Kanji* by James Heisig
-and making each kanji into an Anki card.
-After the first volume people usually skip the second one and continue with the third.
-The second volume is skipped because it teaches readings of kanji, not their meanings.
-
-There are two ways of doing it that I know of:
-1) Using the English keywords provided by Heisig.
-2) Replacing English keywords with Japanese words partially written in kana.
-
-The first method creates associations between a kanji and an arbitrary English keyword.
-Because English keywords do not connect to real Japanese it doesn't work.
-When you read Japanese there are no English keywords to reinforce your memory,
-and when you write Japanese there's no guarantee
-that being able to produce a kanji by its keyword
-is going to enable you to produce the word that uses the kanji
-given that the word itself isn't directly associated with the English keyword.
-
-The second method doesn't work because due to the way kanji are taught in the book
-you don't work at the level of words, instead you have to write each kanji separately.
-This leads to cloze cards where each card has a word on the front
-but only one character in the word is hidden.
-Learning how to produce parts of words
-doesn't guarantee the ability to write whole words when necessary.
-Moreover, this methods requires to replace all Heisig's keywords with your own,
-essentially presenting a task comparable to writing your own RTK.
 
 ### How Japanese do it
 
@@ -177,5 +151,36 @@ There's no need to specifically memorize stroke order rules.
 After learning to write a few hundred words in Anki
 you will naturally acquire the ability to guess the stroke order of most new kanji you encounter,
 and stroke order diagrams on your cards won't let you make a mistake and not notice it.
+
+### What about Production RTK
+
+Sometimes you see people recommending to *do RTK after you're fluent*.
+This means taking the first volume of the book *Remembering The Kanji* by James Heisig
+and making each kanji into an Anki card.
+After the first volume people usually skip the second one and continue with the third.
+The second volume is skipped because it teaches readings of kanji, not their meanings.
+
+There are two ways of doing it that I know of:
+
+1) Using the English keywords provided by Heisig.
+2) Replacing English keywords with Japanese words partially written in kana.
+
+The first method creates associations between a kanji and an arbitrary English keyword.
+Because English keywords do not connect to real Japanese it **doesn't work**.
+When you read Japanese there are no English keywords to reinforce your memory,
+and when you write Japanese there's no guarantee
+that being able to produce a kanji by its keyword
+is going to enable you to produce the word that uses the kanji
+given that the word itself isn't directly associated with the English keyword.
+
+The second method **doesn't work** because
+due to the way kanji are taught in the book you don't work at the level of words,
+instead you have to write each kanji separately.
+This leads to cloze cards where each card has a word on the front
+but only one character in the word is hidden.
+Learning how to produce parts of words
+doesn't guarantee the ability to write whole words when necessary.
+Moreover, this method requires to replace all Heisig's keywords with your own,
+essentially presenting a task comparable to writing your own RTK.
 
 Tags: guide
