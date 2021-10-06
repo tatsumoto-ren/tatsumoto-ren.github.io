@@ -55,7 +55,7 @@ recommended by
 	* [anontier.nl](https://element.anontier.nl/)
 * My selection:
 	* [cuum.space](https://element.cuum.space/)
-	* [dfc.world](https://matrix.dfc.world/)
+	* [cutefunny.art](https://matrixclient.cutefunny.art/)
 * Servers run by Japanese people:
 	* [076.ne.jp](https://matrix.076.ne.jp/)
 	* [fedibird.com](https://matrix.fedibird.com/)
