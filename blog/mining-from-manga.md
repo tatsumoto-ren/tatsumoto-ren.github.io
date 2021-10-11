@@ -76,12 +76,12 @@ to quickly lookup Japanese words in real-time.
 > To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
 > [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
 
-**Note:** As an alternative, you can install [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/)
-but it's quite big and forces you to use a Japanese to English dictionary
-instead of a Japanese to Japanese one.
-
 If you notice that the script fails to OCR certain images,
 try to zoom in or find a scan with a better resolution.
 Tesseract works poorly at low resolutions.
+
+**Note:** As an alternative, you can install [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/)
+but it's quite big and forces you to use a Japanese to English dictionary
+instead of a Japanese to Japanese one.
 
 Tags: guide
