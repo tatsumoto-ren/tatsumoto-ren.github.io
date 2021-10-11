@@ -80,4 +80,8 @@ to quickly lookup Japanese words in real-time.
 but it's quite big and forces you to use a Japanese to English dictionary
 instead of a Japanese to Japanese one.
 
+If you notice that the script fails to OCR certain images,
+try to zoom in or find a scan with a better resolution.
+Tesseract works poorly at low resolutions.
+
 Tags: guide
