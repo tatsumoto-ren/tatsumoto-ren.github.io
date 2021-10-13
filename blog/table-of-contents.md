@@ -23,7 +23,7 @@
 	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
 	* [Manga](mining-from-manga.html)
 	* [Passive listening](passive-listening.html)
-	* [Subtitle Re-sync](https://github.com/Ajatt-Tools/autosubsync-mpv) *
+	* [Subtitle Re-sync](retiming-subtitles.html)
 	* [Writing by hand](writing-japanese.html)
 * Apocrypha
 	* [List of resources](resources.html)
@@ -33,7 +33,5 @@
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
-
-\* To be updated.
 
 Tags: guide
