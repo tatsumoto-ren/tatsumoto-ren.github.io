@@ -20,7 +20,7 @@ or
 
 FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
 unless the same breaks are present in the video file, which is almost never the case.
-Otherwise the automatic tools are almost always faster than using a manual retimer.
+Otherwise, the automatic tools are almost always faster than using a manual retimer.
 
 ## Loading subtitles
 
@@ -37,7 +37,7 @@ sub-auto=fuzzy
 sub-file-paths=ass:srt:sub:subs:subtitles:subs.en:subs.ja
 ```
 
-Although you can load a subtitle file if you drag and drop it into an mpv window,
+Although you can load a subtitle file if you drag and drop it into a mpv window,
 this requires you to have a graphical file manager installed.
 These days almost everyone uses terminal-based file managers.
 I recommend renaming subtitles before opening a video to have mpv load them for you.
@@ -62,7 +62,6 @@ map b $vidir
 map E !atool -x $fx
 ```
 
-
 Let's see how you can quickly rename subtitles with vidir.
 For this example I took
 [subs](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/Stein;Gate/&sort=date&order=desc)
@@ -72,10 +71,10 @@ from
 [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc).
 Watch
 [this video](https://www.youtube.com/watch?v=qasLFv8Rv7o)
-to get a gist on how it's done.
+to get a gist of how it's done.
 
-By default vidir lets you edit the directory structure in vim,
-but you can set any editor you want if you change the `EDITOR` environment variable.
+By default, vidir lets you edit the directory structure in vim,
+but you can use any editor you want if you change the `EDITOR` environment variable.
 
 ## Extracting internal subtitles
 
@@ -133,9 +132,10 @@ x sub-step -1
 ```
 
 Try to find the right timings
-by pressing `z`, `Z`, `x` and `X`
-`z` and `Z` change the sub delay,
-`x` and `X` jump between adjacent subtitles.
+by pressing `z`, `Z`, `x` and `X`.
+
+* `z` and `Z` change the sub delay,
+* `x` and `X` jump between adjacent subtitles.
 
 ### With subs2srs
 
@@ -158,7 +158,7 @@ to all subtitle lines following the one you select.
 [FFsubsync](https://github.com/smacke/ffsubsync)
 is an automatic synchronization utility.
 When synchronizing,
-you can use a correctly synchronized subtitle file or the video
+you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.
 
 To install FFsubsync, first install ffmpeg, then the program itself.
@@ -174,7 +174,7 @@ the subtitle files I want to retime are stored in the `subs.ja` directory
 the reference subtitles are stored in the `subs.en` directory
 and all subtitles are in `ass` format.
 
-This loop retimes all Japanese subs in the folder using English subs as reference.
+This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.
 
 ```
 for reference in ./subs.en/*.ass; do
@@ -184,7 +184,7 @@ for reference in ./subs.en/*.ass; do
 done
 ```
 
-This loop retimes all Japanese subs using videos as reference.
+This loop retimes all Japanese subs using the corresponding videos as reference.
 
 ```
 for reference in ./*.mkv; do
@@ -198,7 +198,8 @@ done
 
 [alass](https://github.com/kaegi/alass)
 is a program similar to FFsubsync.
-Arch Linux users can install it from
+It works exactly like FFsubsync but its command line interface differs a little.
+Arch Linux users can install alass from
 [the AUR](https://aur.archlinux.org/packages/?O=0&K=alass).
 You can use the example bash loops shown above with alass
 if you remove `-i` and `-o` since alass doesn't need them.
@@ -235,7 +236,7 @@ It's going to give you the following options:
 * Save current timings.
 
 Choose `Sync to another subtitle` if you have a reference subtitle in another language.
-Otherwise choose `Sync to audio`.
+Otherwise, choose `Sync to audio`.
 If you have made changes to the timings by pressing `z` and `Z` in mpv,
 you have an option to permanently save them to a file if you choose `Save current timings`.
 

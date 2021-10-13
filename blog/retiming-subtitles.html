@@ -60,7 +60,7 @@ or
 </ol>
 <p>FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
 unless the same breaks are present in the video file, which is almost never the case.
-Otherwise the automatic tools are almost always faster than using a manual retimer.</p>
+Otherwise, the automatic tools are almost always faster than using a manual retimer.</p>
 <h2 id="loading-subtitles"><a class="anchor" href="#loading-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading subtitles</h2>
 <p><a href="https://wiki.archlinux.org/title/Mpv">mpv</a>
 can automatically detect and load subtitle files when opening a video.
@@ -71,7 +71,7 @@ specify a list of desired folder names separated by colons in <code>sub-file-pat
 <pre><code>sub-auto=fuzzy
 sub-file-paths=ass:srt:sub:subs:subtitles:subs.en:subs.ja
 </code></pre>
-<p>Although you can load a subtitle file if you drag and drop it into an mpv window,
+<p>Although you can load a subtitle file if you drag and drop it into a mpv window,
 this requires you to have a graphical file manager installed.
 These days almost everyone uses terminal-based file managers.
 I recommend renaming subtitles before opening a video to have mpv load them for you.
@@ -100,9 +100,9 @@ from
 <a href="https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&amp;sort=date&amp;order=desc">kitsunekko.net</a>.
 Watch
 <a href="https://www.youtube.com/watch?v=qasLFv8Rv7o">this video</a>
-to get a gist on how it's done.</p>
-<p>By default vidir lets you edit the directory structure in vim,
-but you can set any editor you want if you change the <code>EDITOR</code> environment variable.</p>
+to get a gist of how it's done.</p>
+<p>By default, vidir lets you edit the directory structure in vim,
+but you can use any editor you want if you change the <code>EDITOR</code> environment variable.</p>
 <h2 id="extracting-internal-subtitles"><a class="anchor" href="#extracting-internal-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extracting internal subtitles</h2>
 <p>Often you want to extract internal subtitles to use them as reference for retiming.
 Most likely the internal subtitles are going to be English fansubs
@@ -138,9 +138,11 @@ X sub-step 1
 x sub-step -1
 </code></pre>
 <p>Try to find the right timings
-by pressing <code>z</code>, <code>Z</code>, <code>x</code> and <code>X</code>
-<code>z</code> and <code>Z</code> change the sub delay,
-<code>x</code> and <code>X</code> jump between adjacent subtitles.</p>
+by pressing <code>z</code>, <code>Z</code>, <code>x</code> and <code>X</code>.</p>
+<ul>
+<li><code>z</code> and <code>Z</code> change the sub delay,</li>
+<li><code>x</code> and <code>X</code> jump between adjacent subtitles.</li>
+</ul>
 <h3 id="with-subs2srs"><a class="anchor" href="#with-subs2srs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With subs2srs</h3>
 <p>Subs2srs ships with a
 <a href="http://subs2srs.sourceforge.net/SubsReTimer/usage.html">sub retimer tool</a>.
@@ -157,7 +159,7 @@ to all subtitle lines following the one you select.</p>
 <p><a href="https://github.com/smacke/ffsubsync">FFsubsync</a>
 is an automatic synchronization utility.
 When synchronizing,
-you can use a correctly synchronized subtitle file or the video
+you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.</p>
 <p>To install FFsubsync, first install ffmpeg, then the program itself.</p>
 <pre><code>$ sudo pacman -S --needed ffmpeg
@@ -168,14 +170,14 @@ For this example let's say the videos are stored in the current directory,
 the subtitle files I want to retime are stored in the <code>subs.ja</code> directory
 the reference subtitles are stored in the <code>subs.en</code> directory
 and all subtitles are in <code>ass</code> format.</p>
-<p>This loop retimes all Japanese subs in the folder using English subs as reference.</p>
+<p>This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.</p>
 <pre><code>for reference in ./subs.en/*.ass; do
     to_retime=${reference//.en/.ja}
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
     ffsubsync &quot;$reference&quot; -i &quot;$to_retime&quot; -o &quot;$retimed&quot;
 done
 </code></pre>
-<p>This loop retimes all Japanese subs using videos as reference.</p>
+<p>This loop retimes all Japanese subs using the corresponding videos as reference.</p>
 <pre><code>for reference in ./*.mkv; do
     to_retime=./subs.ja/$(basename &quot;${reference/.mkv/.ass}&quot;)
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
@@ -185,7 +187,8 @@ done
 <h3 id="with-alass"><a class="anchor" href="#with-alass" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With alass</h3>
 <p><a href="https://github.com/kaegi/alass">alass</a>
 is a program similar to FFsubsync.
-Arch Linux users can install it from
+It works exactly like FFsubsync but its command line interface differs a little.
+Arch Linux users can install alass from
 <a href="https://aur.archlinux.org/packages/?O=0&amp;K=alass">the AUR</a>.
 You can use the example bash loops shown above with alass
 if you remove <code>-i</code> and <code>-o</code> since alass doesn't need them.
@@ -213,7 +216,7 @@ It's going to give you the following options:</p>
 <li>Save current timings.</li>
 </ul>
 <p>Choose <code>Sync to another subtitle</code> if you have a reference subtitle in another language.
-Otherwise choose <code>Sync to audio</code>.
+Otherwise, choose <code>Sync to audio</code>.
 If you have made changes to the timings by pressing <code>z</code> and <code>Z</code> in mpv,
 you have an option to permanently save them to a file if you choose <code>Save current timings</code>.</p>
 <p>Tags: <a href="tag_guide.html">guide</a></p>
