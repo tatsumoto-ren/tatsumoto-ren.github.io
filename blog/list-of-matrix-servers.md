@@ -48,13 +48,14 @@ recommended by
 	* [halogen.chat](https://halogen.chat/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [ubersm.art](https://chat.ubersm.art/)
-* Homeservers recommended by [+degeneracy:midov.pl](https://matrix.to/#/+degeneracy:midov.pl):
+* Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 	* [waifuhunter.club](https://chat.waifuhunter.club/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [midov.pl](https://element.midov.pl/element/)
 	* [anontier.nl](https://element.anontier.nl/)
-* My selection:
+	* [ma.neko.bar](https://element.neko.bar/)
 	* [cuum.space](https://element.cuum.space/)
+* My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/)
 * Servers run by Japanese people:
 	* [076.ne.jp](https://matrix.076.ne.jp/)
@@ -156,6 +157,7 @@ without having to use a desktop client.
 * https://chat.catgirl.biz/
 * https://element.fff.chat/
 * https://riot.zygoat.club/
+* https://matrix.jdsoft.de/
 * https://chat.sp-codes.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
