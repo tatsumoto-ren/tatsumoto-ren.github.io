@@ -152,6 +152,9 @@ After learning to write a few hundred words in Anki
 you will naturally acquire the ability to guess the stroke order of most new kanji you encounter,
 and stroke order diagrams on your cards won't let you make a mistake and not notice it.
 
+The important part is to have a stroke order font included on your cards
+and presicely follow the order each time a card comes up.
+
 ### What about Production RTK
 
 Sometimes you see people recommending to *do RTK after you're fluent*.
