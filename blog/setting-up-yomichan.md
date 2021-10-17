@@ -87,6 +87,12 @@ go to "Settings" > "Anki".
 Make sure "Enable Anki integration" is on,
 Anki is running and AnkiConnect is installed.
 
+I advise you to disable the "Check for card duplicates" option
+unless you are sure that you need duplicate checking.
+Although it's a very useful feature,
+it is known to significantly affect performance
+to the point when Yomichan and Anki freeze and become unusable.
+
 Scroll down and click "Configure Anki card format..."
 to select the Note Type for your mining deck.
 
