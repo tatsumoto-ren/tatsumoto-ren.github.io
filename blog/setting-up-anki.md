@@ -207,6 +207,12 @@ Below are the options I recommended using:
     The `learn ahead` option set in the previous section
     will make sure that you won't be shown cards with custom steps too early.
 
+    You can experiment with so-called micro steps
+    if you see that remembering new cards is more difficult than you thought.
+    This means specifying an interval in seconds instead of minutes.
+    For the new settings menu you just type `30s` for 30 seconds.
+    For the old menu you need to specify a decimal like this: `0.5`.
+
 * **New cards/day:** The default value of `20` cards is very reasonable and manageable for most users.
     However, if you feel overwhelmed by the amount of reviews you have to do,
     lower it to about `10` new cards a day.
