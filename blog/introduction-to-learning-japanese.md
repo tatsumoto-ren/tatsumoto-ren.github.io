@@ -22,12 +22,23 @@ that should get you to basic fluency in less than two years.
 Consuming the language is how you learn the language.
 You know, babies can only cry and poop their pants
 but within the first few years from birth they learn to speak their first language.
+They quickly absorb complicated grammatical principles
+and soon can speak with accurate grammar and near perfect pronunciation.
 It happens because they listen to people around them, especially parents,
 and they slowly begin to understand what is being said.
+Our brain is built to do that instinctively.
+
+Traditional language learners say that as you grow up
+the part of your brain responsible for language acquisition dies, and you lose access to it.
+They insist that adults have to learn languages the same way you learn math or science:
+with your rational, logical brain; by consciously memorizing rules and drilling exercises.
+This has proven to be untrue.
+
 [According to Stephen Krashen](https://www.youtube.com/watch?v=NiTsduRreug),
 humans acquire language when they understand messages,
 and the process of acquiring a second language
 is similar to the process that children undergo when learning their native language.
+You can do it no matter how old you are.
 
 We're not babies, we're smarter and we can learn faster.
 The process of acquiring a language through immersion
@@ -39,34 +50,56 @@ It can't be substituted with taking classes or buying textbooks.
 
 No, you're not going to go to the country and ask a Japanese person to speak to you.
 Immersion refers to any form of listening or reading in your target language.
-The process is divided into two steps:
+
+The process is divided into two steps.
+
 1) Watch a movie or a TV-show in Japanese.
 The visual component will help you understand what's going on.
-Use Japanese subtitles if available to look up unknown words and grammar.
+Use Japanese subtitles, if available, to look up unknown words and grammar.
 If not, you might be surprised at how much you can learn
 from simply watching *raw*, with no subtitles.
-2) Reuse what you've watched for passive immersion.
+This is called **active immersion**.
+2) Reuse what you've watched for **passive immersion**.
 Passive immersion is when you have audio playing in the background
 while you're doing something else.
 A popular practice among AJATTers is to take an episode of a TV show you've watched,
 extract the audio track and add it to your playlist.
+I am going to tell you how to do it in the article about
+[passive listening](passive-listening.html).
 
 As for reading, the above applies if for a book you read you find the corresponding audiobook.
 If not, just read it and skip the second step.
 
-Listen to `10,000` hours of Japanese over the next `18` months.
-This roughly amounts to about `18` hours of listening per day.
-Not bad, right?
-If you think you can't do it, think again.
-AJATT has existed for years, many people went through the program and achieved fluency.
+Listen to `10,000` hours of Japanese over the next `2` years.
+This roughly amounts to about 14 hours of listening per day.
 Listening a lot is what is going to enable you
 to follow a conversation or your favorite anime without subtitles.
 
-There are countless opportunities to do passive listening throughout a day.
-You can do it in shower, as you're getting ready,
-while walking, cooking, on the bus, on the subway, etc.
+No matter what you're doing,
+try to do passive immersion whenever you can.
+There are countless opportunities to immerse throughout a day.
+You can do it in shower,
+as you're getting ready,
+while taking a walk,
+driving,
+going somewhere,
+cooking meals,
+on the bus,
+on the subway,
+while exercising,
+etc.
+No matter what type of lifestyle you have,
+you should be able to fit in multiple hours a day of passive immersion.
+Fill in every single crack in your day possible.
 Every waking moment counts.
 By simply listening your brain will slowly get better at parsing and understanding the language.
+
+I hope you'll find an immersion routine that suits your life.
+If you think you can't do it, don't worry.
+Even Khatz, the AJATT founder, said in his blog that he wasn't always able to immerse all day.
+He still tried to do as much as he could,
+while having a job and studying at a university at the same time.
+AJATT has existed for years, many people went through the program and achieved fluency.
 
 For passive listening try to choose material that you previously actively watched and comprehended.
 The *comprehended* part won't come right away,
@@ -114,18 +147,27 @@ Forcing it usually doesn't work.
 ## Prepare your devices
 
 All instructions on this site are intended for GNU/Linux users.
-We
+I deliberately advocate for free/libre software.
+Quitting Windows is like quitting tobacco.
+Tobacco is bad for your health.
+Likewise, nonfree software is
+[bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
+
+I
 [recommend](our-immersion-learning-toolset.html#gnulinux)
-Arch-based distributions but any other distro is fine
+Arch-based distributions like [Manjaro](https://manjaro.org/), but any other distro is fine
 as long as it's not overly complicated or difficult to use as a daily driver.
 
-Moblie apps recommendations assume that you have
+Mobile apps recommendations assume that you have
 [liberated](https://fsfe.org/activities/android/liberate.en.html)
 your phone.
-All Anki decks linked in the guide come with ogg/opus audio.
+All Anki decks linked in the guide come with [ogg/opus](https://opus-codec.org/) audio.
 This coding format is not supported by Anki on iThings.
 
-**Preparing for learning Japanese:**
+Most of the software I list here is cross-platform.
+If you're not ready to install GNU/Linux yet,
+you should be able to use the tools on any OS in the meantime
+while you're preparing to switch to GNU/Linux.
 
 * **Desktop**
 	* Install Japanese fonts.
@@ -311,7 +353,8 @@ Don't make too many single word flashcards.
 They're fine for nouns representing concrete objects but bad for other types of speech.
 Do not translate sentences, understand them instead.
 
-I managed to learn 10,000 sentences in the first 11 months, but you are better than me.
+There's a popular goal in the community to make 10,000 flashcards in the first 18 months.
+I managed to learn 10,000 sentence cards in 11 months, but you are better than me.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
 <p align="center"><i>Watch anime.</i></p>
