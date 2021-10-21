@@ -3,7 +3,7 @@
 The
 [AJATT site](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/)
 is great. One thing it is bad at, however,
-is telling up to date information about technology and tools one may use.
+is telling up-to-date information about technology and tools one may use.
 I've got you covered on the
 [tools](our-immersion-learning-toolset.html), **and more**.
 
@@ -40,7 +40,7 @@ and the process of acquiring a second language
 is similar to the process that children undergo when learning their native language.
 You can do it no matter how old you are.
 
-We're not babies, we're smarter and we can learn faster.
+We're not babies, we're smarter, and we can learn faster.
 The process of acquiring a language through immersion
 can be replicated by any adult with the help of technology.
 Immersion is the absolute most important component of the entire process.
@@ -106,7 +106,7 @@ The *comprehended* part won't come right away,
 but as you learn new words from your immersion, expect it to happen within the first few months.
 You have to make effort to make the content comprehensible.
 Look up words, rely on the imagery, choose simpler content such as slice of life anime.
-The more *language-dense* you immersion content is, the better.
+The more *language-dense* your immersion content is, the better.
 You can listen to podcasts but keep in mind that they're hard to understand as a beginner.
 Avoid listening to songs, they contain unnatural speech
 and sometimes the lyrics are hard to understand
@@ -262,7 +262,7 @@ and make transition to reading easier.
 
 The most recent method for learning kanji is referred to as
 [JP1K](learning-kanji.html#jp1k-method).
-In essence it's a specifically preformatted Anki deck.
+In essence, it's a specifically preformatted Anki deck.
 Once you learn all cards from the deck,
 it gives you the ability to recognize the most common kanji characters
 together with words that represent it.
@@ -278,14 +278,14 @@ For each kanji the story includes its most common reading.
 Similar to KanjiDamage.
 You study kanji in isolation using the order presented in a book called "Remembering the Kanji".
 Depending on the Anki deck you download,
-you are given premade mnemonics or you're encouraged to make them yourself.
+you are given premade mnemonics, or you're encouraged to make them yourself.
 Kanji readings are not taken into account,
 instead the method insists on learning them in the wild from native content.
 
 Choose only one of the above methods.
 No matter what option you pick, don't bother learning to write the characters just yet.
 To learn how to write by hand you need to be able to read some Japanese first.
-There are better ways to learn writing which are going to be
+There are better ways to learn to write which are going to be
 [discussed](writing-japanese.html)
 later on this site.
 
@@ -296,8 +296,8 @@ later on this site.
 
 After getting familiar with the writing systems,
 use a premade Anki deck to build up the basic vocabulary.
-This step makes learning from input easier
-as you won't need to struggle looking up every word on each page.
+Completing this step makes learning from input easier,
+you won't have to struggle looking up every word on each page.
 
 Download [Ankidrone Starter Pack](basic-vocabulary.html)
 and learn one or two thousand cards from it.
