@@ -30,7 +30,7 @@ as well as boost their learning in the later stages.
 
 It should be noted, however, that memorization of most vocabulary throughout all your language
 learning phases should be done by
-[studying sentences](https://refold.la/roadmap/stage-2/a/basic-sentence-mining#Mine-Sentences-Not-Words).
+[studying sentences](https://web.archive.org/web/20210908131624/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/#Mine-Sentences-Not-Words).
 You will be making vocabulary cards in the process as well,
 but much less so, and mostly for nouns.
 
@@ -231,19 +231,10 @@ Below are the options I recommended using:
     It drags the cards' intervals along causing them to grow faster than normal,
     which leads to forgetting in the future.
 
-    If you've been using Anki before applying this setting, you should *refold* your collection
-    with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
-
-    If you would like to learn more about Ease Hell, check out [this video](https://youtu.be/1XaJjbCSXT0).
-
-    **Note:** If you previously used the old `Low Key Anki` setup
-    [described](https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation)
-    on the MIA site,
-    make sure to disable Anki add-ons associated with it,
-    namely `No Penalties or Boosting` and `ResetEZ`,
-    because they modify Ease of your cards
-    in a way that conflicts with these instructions.
-    You can keep `PassFail` installed if you want.
+	* If you've been using Anki before applying this setting, you should *refold* your collection
+	with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
+	* If you would like to learn more about Ease Hell, watch
+	[this video](https://youtu.be/1XaJjbCSXT0).
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
