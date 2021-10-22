@@ -137,6 +137,18 @@ A Chinese website with a bunch of TV shows.
 A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
 You can switch channels in mpv by pressing `<` and `>`.
 * [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
+* [News24.jp](https://www.news24.jp/).
+Lets you watch a live stream with news
+but you have to allow to run an obscene amount of nonfree JavaScript code.
+To avoid running nonfree JS,
+[watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop).
+
+### Downloads
+
+* [jraws](https://jraws.com/). Some jdramas.
+* [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
+* [Audiobooks 1](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
+* [Audiobooks 2](https://drive.google.com/drive/folders/16YDpNeO1FPNl_VK0845o6U6kAUbuFwS_?sort=13&direction=a)
 
 ### Manga
 
@@ -463,7 +475,8 @@ but maybe you'll find useful language learning advice there.
 Anti-features:
 
 * The sites try to deny the importance of freedom and legitimize proprietary software.
-* They include instructions for playing visual novels.
+* They include instructions for
+[playing visual novels](https://www.gnu.org/philosophy/nonfree-games.html).
 Most visual novels should be avoided since they are proprietary.
 * They mention software that requires proprietary operating systems to run.
 * They include links to Discord servers.
