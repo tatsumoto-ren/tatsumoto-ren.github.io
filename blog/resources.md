@@ -138,10 +138,14 @@ A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv)
 You can switch channels in mpv by pressing `<` and `>`.
 * [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
 * [News24.jp](https://www.news24.jp/).
-Lets you watch a live stream with news
+Lets you watch a live stream with news,
 but you have to allow to run an obscene amount of nonfree JavaScript code.
 To avoid running nonfree JS,
-[watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop).
+[watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
+by creating a desktop shortcut.
+* [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
+Similarly to News24, lists a number of channels you can watch online.
+Unfortunately, not all of them can be opened in mpv.
 
 ### Downloads
 
@@ -480,7 +484,8 @@ Anti-features:
 Most visual novels should be avoided since they are proprietary.
 * They mention software that requires proprietary operating systems to run.
 * They include links to Discord servers.
-Discord is known for spying on and politically suppressing its users.
+[Discord](how-to-save-the-japanese-learning-community.html)
+is known for spying on and politically suppressing its users.
 * Both sites recommend "anime cards".
 In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
