@@ -83,24 +83,24 @@ you can view the furigana reading by hovering over it with your mouse.
 	<a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
 </p>
 <p align="center">
-	<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror</a>
+	<a href="https://disk.yandex.com/d/Ytby3a5BcZoYKA" target="_blank">Mirror</a>
 </p>
 
 ## WCCs deck
 
 If you think that word cards suit you better, try this version of the deck.
-The cards have only the target word on the front.
-Example sentence is hidden behind the "Reveal context" button.
-The content on the back is similar to the TSC deck.
+Each card has only the target word on the front.
+An example sentence is hidden behind the "Reveal context" button.
+Similarly to the TSC deck, you can reveal furigana by pressing the `p` button on the keyboard.
+The content on the back is identical to the TSC deck.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
 <p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
 
-The deck is available to all patrons.
-To get it follow the link below.
+Download the deck by clicking the link below.
 
 <p align="center">
-	<a class="download_button" href="https://www.patreon.com/posts/47990957" target="_blank">Download</a>
+	<a class="download_button" href="https://disk.yandex.com/d/e_JCN81z7erKDA" target="_blank">Download</a>
 </p>
 
 ## Q&A
