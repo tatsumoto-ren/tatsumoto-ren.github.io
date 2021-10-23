@@ -58,6 +58,7 @@ and you don't want to add another level of complexity just yet.
 On the front there's an example sentence.
 The target word appears highlighted.
 When reviewing the cards you can decide whether you want to read the whole sentence or not.
+You can also press the `p` key on your keyboard to immediately reveal all kanji readings.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
 <p align="center"><i>An example TSC from AJT Kanji Transition.</i></p>
