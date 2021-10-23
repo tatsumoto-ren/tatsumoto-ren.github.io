@@ -55,9 +55,14 @@ and you don't want to add another level of complexity just yet.
 
 ## TSCs deck
 
+At AJT we believe that
+the most effective way to learn vocabulary is through targeted sentence cards.
+This version of the deck is what I personally recommend.
+
 On the front there's an example sentence.
 The target word appears highlighted.
 When reviewing the cards you can decide whether you want to read the whole sentence or not.
+When you hover over each word, a furigana reading appers on top.
 You can also press the `p` key on your keyboard to immediately reveal all kanji readings.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
@@ -83,9 +88,10 @@ you can view the furigana reading by hovering over it with your mouse.
 
 ## WCCs deck
 
-This deck has only the target word on the front.
+If you think that word cards suit you better, try this version of the deck.
+The cards have only the target word on the front.
 Example sentence is hidden behind the "Reveal context" button.
-Content on the back is similar to the TSC deck.
+The content on the back is similar to the TSC deck.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
 <p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
