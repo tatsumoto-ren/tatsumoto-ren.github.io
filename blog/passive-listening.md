@@ -8,7 +8,7 @@ When listening passively you're not fully focused on the content,
 instead you're doing something else
 while having the speech in your target language play in the background.
 
-We do passive immersion during times in a day where we can't actively engage with the language,
+We do passive immersion during times in a day when we can't actively engage with the language,
 such as when cooking, cleaning or commuting.
 Although your attention is divided during passive immersion,
 because you're left with no other choice,
@@ -43,9 +43,9 @@ and comprehended via dictionary lookups, attention to scenery
 and other means of making input more comprehensible.
 Re-listening creates repetition, and repetition is good for the brain.
 If you listen to something you haven't previously watched and comprehended,
-it is essentially going to be white noise and it won't help you much.
+it is essentially going to be white noise, and it won't help you much.
 * **Rotate immersion content.**
-Repetition becomes boring if done too much times, and boredom impedes learning.
+Repetition becomes boring if done too many times, and boredom impedes learning.
 It's important to rotate immersion,
 in other words regularly add new content and remove old content from your playlist.
 
@@ -68,12 +68,12 @@ it is okay to use purely audio-based material such as podcasts
 as one of the primary sources of both passive and active immersion.
 
 Music is the worst content for passive immersion.
-It contains unnatural speech and it's easy to confuse the lyrics.
+It contains unnatural speech, it is difficult to hear the lyrics.
 We tend to mishear lyrics even when we listen to songs in our native language.
 
 ## mpd
 
-First of all, to start listening you have to install a music player.
+First, to start listening you have to install a music player.
 [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
 is a music player with a server-client architecture,
 it runs in the background as a daemon,
@@ -142,7 +142,7 @@ automatically add them to your `mpd` music directory and start playing.
 
 To get `impd`, install the
 [impd-git](https://aur.archlinux.org/packages/impd-git/)
-AUR package or follow the installation steps on Github.
+AUR package or follow the installation steps on GitHub.
 
 ```
 $ trizen -S impd-git # or yay
@@ -200,16 +200,5 @@ Effect > Truncate silence. After you adjust the settings, press OK.
 
 <p align="center"><img src="img/audacity-truncate-silence.webp" alt="Truncate silence" class="shadow"></p>
 <p align="center"><i>Truncate silence.</i></p>
-
-## Other tools for condensing audio
-
-* [subs2cia](https://github.com/dxing97/subs2cia)
-* [ImmersionAudioTool](https://github.com/RicBent/ImmersionAudioTool)
-* [video to podcast](https://github.com/true-zero/video-to-podcast)
-* [Automatic Condensed Audio Dialogue Script](https://anacreondjt.gitlab.io/docs/condensed_audio/)
-
-Additionally, here is an
-[online repository](https://condensedaudiocatalog.com/)
-of condensed audio.
 
 Tags: guide

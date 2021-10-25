@@ -237,8 +237,6 @@ Can be used to read novels.
 * [foliate](https://johnfactotum.github.io/foliate/).
 A simple and modern eBook viewer.
 [Package](https://archlinux.org/packages/?name=foliate).
-* [impd](https://github.com/Ajatt-Tools/impd).
-Create condensed audio and automatically rotate your mpd playlist.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
@@ -298,6 +296,23 @@ A cross-platform downloader for manga and anime from various websites.
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/) includes a semi-automatic subtitle retimer.
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
+
+## Tools for condensing audio
+
+* [impd](https://github.com/Ajatt-Tools/impd).
+Create condensed audio and automatically rotate your mpd playlist.
+* [subs2cia](https://github.com/dxing97/subs2cia)
+
+Additionally, here is an
+[online repository](https://condensedaudiocatalog.com/)
+of condensed audio.
+
+## Tools for extracting audio
+
+* [FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
+* [MKVToolNix](https://archlinux.org/packages/?q=mkvtoolnix)
+([official site](https://mkvtoolnix.download/))
+* [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
 
 ### Mobile
 
