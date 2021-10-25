@@ -151,6 +151,7 @@ Unfortunately, not all of them can be opened in mpv.
 
 * [jraws](https://jraws.com/). Some jdramas.
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
+* [Condensed audio catalog](https://condensedaudiocatalog.com/)
 * [Audiobooks 1](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Audiobooks 2](https://drive.google.com/drive/folders/16YDpNeO1FPNl_VK0845o6U6kAUbuFwS_?sort=13&direction=a)
 
@@ -302,10 +303,6 @@ A cross-platform downloader for manga and anime from various websites.
 * [impd](https://github.com/Ajatt-Tools/impd).
 Create condensed audio and automatically rotate your mpd playlist.
 * [subs2cia](https://github.com/dxing97/subs2cia)
-
-Additionally, here is an
-[online repository](https://condensedaudiocatalog.com/)
-of condensed audio.
 
 ## Tools for extracting audio
 
