@@ -23,19 +23,63 @@
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* Body with sticky footer */
+
+html,
+body {
+    min-height: 100vh;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
+    font-family: "Noto Sans", "Droid Sans", Roboto, Cantarell, "Segoe UI", Arial, Meiryo, Oxygen, Ubuntu,
+        "Helvetica Neue", Helvetica, "Noto Color Emoji", sans-serif;
     background-color: #f3f3f3;
     color: #24292e;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    max-width: 100%;
+body > div#divbodyholder {
+    flex: 1 0 auto;
+}
+
+body > .headerholder,
+body > footer {
+    flex-shrink: 0;
+}
+
+/* Footer */
+
+footer {
+    font-size: 14px;
+    color: #6c757d;
+    border-top: solid 1px #ccc;
+    text-align: center;
+    background-color: #dee2e6;
+    padding: 10px 4px;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+footer a,
+footer a:visited {
+    color: #495057;
+}
+
+footer a:hover,
+footer a:active {
+    color: #3a4046;
 }
 
 /* Links general */
@@ -325,7 +369,7 @@ header label:hover {
 #divbodyholder > div {
     border: 1px solid #ccc;
     background-color: #fff;
-    padding: 0px var(--gap-small) var(--gap-small);
+    padding: 0px var(--gap-small) calc(var(--gap-small) / 2);
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
@@ -361,16 +405,13 @@ header label:hover {
 
 @media screen and (min-width: 600px) {
     #divbodyholder > #divbody {
-        padding: 0px var(--gap-large) var(--gap-large);
+        padding: 0px var(--gap-large) calc(var(--gap-large) / 2);
     }
     #divbodyholder > div.indexnagbar {
         padding: var(--gap-small) var(--gap-large) var(--gap-small);
     }
 }
 
-main {
-    margin-bottom: 5%;
-}
 main p,
 main ol,
 main ul,
@@ -485,14 +526,6 @@ pre code {
     background-color: initial;
 }
 
-footer {
-    padding-top: 10px;
-    border-top: solid 1px #666;
-    color: #333333;
-    text-align: center;
-    font-size: small;
-    font-family: "Noto Sans Mono", "Courier New", "Courier", monospace;
-}
 #all_posts {
     margin-top: var(--gap-small);
     text-align: center;
