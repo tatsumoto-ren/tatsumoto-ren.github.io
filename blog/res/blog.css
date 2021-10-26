@@ -322,7 +322,7 @@ header label:hover {
     word-wrap: break-word;
     margin: var(--gap-large) 0 var(--gap-large);
 }
-#divbodyholder > #divbody {
+#divbodyholder > div {
     border: 1px solid #ccc;
     background-color: #fff;
     padding: 0px var(--gap-small) var(--gap-small);
@@ -331,9 +331,40 @@ header label:hover {
     max-width: 1000px;
 }
 
+/* index page nag bar */
+
+#divbodyholder > div.indexnagbar {
+    color: #453128;
+    background-color: #fbf6e3;
+    border: 1px solid #e2c491;
+    padding: var(--gap-small);
+    margin-bottom: var(--gap-large);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+}
+.indexnagbar a,
+.indexnagbar a:visited {
+    color: #a85c43;
+}
+.indexnagbar a:hover,
+.indexnagbar a:active {
+    color: #ab2f17;
+}
+.indexnagbar svg.nagbar_icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    fill: #453128;
+}
+
 @media screen and (min-width: 600px) {
     #divbodyholder > #divbody {
         padding: 0px var(--gap-large) var(--gap-large);
+    }
+    #divbodyholder > div.indexnagbar {
+        padding: var(--gap-small) var(--gap-large) var(--gap-small);
     }
 }
 
