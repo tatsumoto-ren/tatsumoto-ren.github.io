@@ -1,11 +1,13 @@
 # Join our community
 
-The **Ajatt Tools** community is a friendly place
+Daily Japanese Thread is a friendly place
 for people learning Japanese through immersion.
-Join us to make some new friends, get help, ask questions, contribute to our
-[projects](https://github.com/Ajatt-Tools)
-or start new ones,
+Join us to make friends, get help, ask questions,
+contribute to our [projects](https://github.com/Ajatt-Tools)
 and find countless new learning resources!
+
+You can join us on Matrix or on Telegram.
+Both platforms are connected with a bridge.
 
 ****
 
