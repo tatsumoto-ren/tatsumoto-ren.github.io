@@ -1,12 +1,15 @@
 # Donating to Tatsumoto
 
-Because almost all my content and the tools I make are offered free of charge
-the Ajatt-Tools project relies on donations to stay alive.
+Because almost all my content is offered free of charge,
+this site and the
+[Ajatt-Tools](https://github.com/Ajatt-Tools)
+project relies on donations and support from its community to stay alive.
 We do not have ads or privacy-violating trackers, we are entirely dependent on you.
 
-If this site or our free software projects were useful to you,
-I'll appreciate if you donate to the Ajatt-Tools maintenance fund
-to help me support myself and continue working on Ajatt-Tools.
+If this site, our community or my free software projects were useful to you,
+I'll appreciate if you donate to help me support myself
+and continue delivering new guides, tools and resources.
+You can support me over at one of the membership platforms or donate cryptocurrency.
 
 ## Liberapay
 
