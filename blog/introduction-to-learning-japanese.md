@@ -70,6 +70,33 @@ I am going to tell you how to do it in the article about
 As for reading, the above applies if for a book you read you find the corresponding audiobook.
 If not, just read it and skip the second step.
 
+It is reasonable to ask
+how you're supposed to learn from native content if you still understand nothing.
+It is true that actively consuming native media,
+looking up words and trying to learn them
+is an immense task for a beginner.
+You're going to spend your first weeks learning the basics of the language.
+What I recommend you to do at this stage is watch easy anime without subtitles.
+Instead of looking up words rely on imagery and context to infer what's going on in the show.
+You can use Japanese subs once you have a foundation in the Japanese writing systems.
+Passively listen to each episode after you complete it to maximize time spent immersing.
+Dedicate your active study time to learning **basic vocabulary**.
+I'll show you how to do it shortly.
+
+Slice of life anime is the easiest genre to learn from in the beginning.
+If you need more specific recommendations,
+I have a list of anime ranked by difficulty [here](random-anime-ranked-easiest-to-hardest.html).
+
+Once you complete the basic vocabulary phase,
+nothing stops you from learning just from immersion.
+Don't wait for too long.
+There are people who trap themselves into thinking,
+"I'm going to start watching raw when I'm good.
+I don't immerse because I don't understand Japanese yet."
+This is a very dangerous pattern.
+You start wearing skates before you know how to skate.
+You start watching without subs before you understand.
+
 Listen to `10,000` hours of Japanese over the next `2` years.
 This roughly amounts to about 14 hours of listening per day.
 Listening a lot is what is going to enable you
@@ -129,11 +156,13 @@ Think about Japanese people. After getting crippled by the school system
 that doesn't and can't offer enough listening practice
 they confuse the `l` and `r` sounds when they try to speak English.
 * Mistakes are bad because they [become habits](http://www.antimoon.com/how/mistakes-damage.htm).
-If you make a mistake, unless the other party didn't understand you
-you tend to use the same construction the next time.
+If you make a mistake,
+you are more likely to say the same construction the next time.
 Don't hope that a native speaker will correct your mistakes.
-They won't bother to correct all of them,
-and even if they will, there's no guarantee that you'll be able to apply the corrections.
+Unless the other party didn't understand you at all,
+they are not going to point out where you're off.
+Even if you ask them to correct all your mistakes,
+there's no guarantee that you'll be able to apply the corrections.
 
 **Go through a silent period.**
 A very popular community guideline is to avoid speaking to anyone in Japanese
@@ -289,7 +318,7 @@ There are better ways to learn to write which are going to be
 [discussed](writing-japanese.html)
 later on this site.
 
-<p align="center"><img alt="japanese writing systems" src="img/highlighted_manga.webp"></p>
+<p align="center"><img alt="Japanese writing systems" src="img/highlighted_manga.webp"></p>
 <p align="center"><i>Japanese writing systems.</i></p>
 
 ## Basic vocabulary
@@ -354,7 +383,9 @@ They're fine for nouns representing concrete objects but bad for other types of 
 Do not translate sentences, understand them instead.
 
 There's a popular goal in the community to make 10,000 flashcards in the first 18 months.
-I managed to learn 10,000 sentence cards in 11 months, but you are better than me.
+This number is nothing special, but it's more fun to have a goal to work towards to.
+I managed to learn 10,000 sentence cards in 11 months.
+Try this challenge too, but remember that Anki is just a supplement for immersion learning.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
 <p align="center"><i>Watch anime.</i></p>
