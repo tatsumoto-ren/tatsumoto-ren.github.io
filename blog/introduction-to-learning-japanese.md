@@ -222,7 +222,7 @@ while you're preparing to switch to GNU/Linux.
 	It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 	many of which can be used to make language learning easier.
 	* Install and [set up](setting-up-anki.html) Anki.
-	It's a flashcard program we use to memorize words, phrases and sentences.
+	It's a flashcard program used to memorize words, phrases and sentences.
 	* The most popular offline dictionaries are:
 		1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
 		Dictionary files for qolibri are available
@@ -294,7 +294,7 @@ The deck contains around 1,000 cards, thus the name JP1K.
 There's a specific studying technique associated with the format of the deck.
 Once you learn all cards from the deck,
 it gives you the ability to recognize the most common kanji characters
-together with words that represent it.
+together with words that represent them.
 On this site you'll find links to premade JP1K decks
 as well as instructions on how to convert any vocabulary deck into the JP1K format.
 
