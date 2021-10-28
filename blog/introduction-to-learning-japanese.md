@@ -221,10 +221,8 @@ while you're preparing to switch to GNU/Linux.
 	* The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
 	It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 	many of which can be used to make language learning easier.
-	* [Install](https://wiki.archlinux.org/index.php/Anki)
-	and
-	[set up](setting-up-anki.html) Anki.
-	You are going to use it to memorize words, phrases and sentences.
+	* Install and [set up](setting-up-anki.html) Anki.
+	It's a flashcard program we use to memorize words, phrases and sentences.
 	* The most popular offline dictionaries are:
 		1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
 		Dictionary files for qolibri are available
