@@ -15,6 +15,7 @@
     --header-background: #f9f9f9;
     --header-item-focused-background: #eee;
     --sidebar-background: #111;
+    --background-secondary-color: #dee2e6;
 }
 
 * {
@@ -32,6 +33,7 @@ img {
 html,
 body {
     min-height: 100vh;
+    background: url("../img/bg.webp");
 }
 
 html {
@@ -64,7 +66,7 @@ footer {
     color: #6c757d;
     border-top: solid 1px #ccc;
     text-align: center;
-    background-color: #dee2e6;
+    background-color: var(--background-secondary-color);
     padding: 10px 4px;
 }
 
@@ -101,7 +103,7 @@ a.ablack {
 /* header */
 
 .headerholder {
-    background-color: #ddd;
+    background-color: var(--background-secondary-color);
     padding-bottom: 5px;
     width: 100%;
     position: sticky;
