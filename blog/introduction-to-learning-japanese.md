@@ -290,12 +290,13 @@ and make transition to reading easier.
 The most recent method for learning kanji is referred to as
 [JP1K](learning-kanji.html#jp1k-method).
 In essence, it's a specifically preformatted Anki deck.
+The deck contains around 1,000 cards, thus the name JP1K.
+There's a specific studying technique associated with the format of the deck.
 Once you learn all cards from the deck,
 it gives you the ability to recognize the most common kanji characters
 together with words that represent it.
-You have two options if you choose this path:
-* [AJT Kanji Transition deck](jp1k-anki-deck.html), made by Ajatt-Tools.
-* [Refold JP1K deck](https://youtu.be/53qKsYxVhoM), made by the method's author. Is not free.
+On this site you'll find links to premade JP1K decks
+as well as instructions on how to convert any vocabulary deck into the JP1K format.
 
 Other methods that I'd like to give special attention to:
 * [Kanjidamage+](https://mega.nz/file/CQg0SKyI#Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
@@ -318,6 +319,12 @@ later on this site.
 
 <p align="center"><img alt="Japanese writing systems" src="img/highlighted_manga.webp"></p>
 <p align="center"><i>Japanese writing systems.</i></p>
+
+You can totally skip the kanji phase and move straight to learning basic vocabulary.
+If you choose to do so, you're going to memorize words as is.
+For each word just try to remember how it looks, what it means and how it sounds
+treating kanji like pictures and memorizing kanji compounds as single units.
+No doubt it is more difficult, but it works for many people.
 
 ## Basic vocabulary
 

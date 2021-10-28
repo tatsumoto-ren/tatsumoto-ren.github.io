@@ -173,9 +173,9 @@ You can download the deck below:.
 
 <p align="center"><a class="download_button" href="jp1k-anki-deck.html">Kanji Transition</a></p>
 
-There's also a paid Anki deck made by the method's author,
-which you can find in the description of
-[this YouTube video](https://youtu.be/53qKsYxVhoM).
+**Note:** The JP1K method was first introduced by Refold.
+If you want to learn more about the method from its author,
+watch [this YouTube video](https://youtu.be/53qKsYxVhoM).
 
 ## Conclusion
 
