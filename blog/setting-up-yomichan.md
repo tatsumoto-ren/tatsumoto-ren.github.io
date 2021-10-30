@@ -152,7 +152,9 @@ by pressing `Ctrl+C` before you make a card.
 * `VocabAudio` is left empty.
 I don't recommend assigning `{audio}`
 because all default audio sources in Yomichan
-often provide samples with incorrect pitch accent.
+often provide samples with incorrect pronunciation and pitch accent.
+For example, you can get `はは` instead of `はば` or `ぼせい` instead of `ほせい`.
+It's pretty bad.
 Furthermore, enabling `{audio}` significantly slows down card creation
 because Yomichan has to access pronunciation servers and download audio every time.
 
