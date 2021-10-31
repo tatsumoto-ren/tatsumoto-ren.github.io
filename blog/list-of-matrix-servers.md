@@ -106,6 +106,7 @@ It's a web application that you can use to chat
 without having to use a desktop client.
 
 * https://g24.at/
+* https://mtrx.nz/
 * https://c.a2sc.eu/
 * https://c.wfr.moe/
 * https://uddu.chat/
@@ -113,6 +114,7 @@ without having to use a desktop client.
 * https://chat.crq.ac/
 * https://chat.guy.sh/
 * https://houtworm.im/
+* https://chat.usr.nz/
 * https://mxs.riot.im/
 * https://ngonbay.com/
 * https://chat.leel.ch/
@@ -122,6 +124,7 @@ without having to use a desktop client.
 * https://mazc.riot.im/
 * https://unita.online/
 * https://web.synod.im/
+* https://talk.comm.cx/
 * https://cardy.riot.im/
 * https://chat.gould.cx/
 * https://chat.vyas.net/
@@ -135,6 +138,7 @@ without having to use a desktop client.
 * https://chat.eforah.nl/
 * https://chat.mmoya.org/
 * https://element.42l.fr/
+* https://chat.thorko.de/
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
 * https://matrix.3dns.eu/
@@ -180,6 +184,7 @@ without having to use a desktop client.
 * https://element.nltrix.net/
 * https://riot.scamdemic.wtf/
 * https://chat.queersin.space/
+* https://webchat.freitrix.de/
 * https://mailstation.de/riot/
 * https://the-apothecary.club/
 * https://chat.fairydust.space/
@@ -216,6 +221,7 @@ and change the server from the default to the one you want.
 * https://pcg.life/
 * https://oblak.be/
 * https://zinz.dev/
+* https://causa.li/
 * https://kuvio.de/
 * https://cirk2.de/
 * https://vacci.ne/
@@ -227,6 +233,8 @@ and change the server from the default to the one you want.
 * https://furry.lol/
 * https://koehn.com/
 * https://nibbana.jp/
+* https://dalek.zone/
+* https://lostpod.me/
 * https://ramrod.top/
 * https://lomnik.net/
 * https://willy.club/
@@ -248,12 +256,13 @@ and change the server from the default to the one you want.
 * https://lolifan.club/
 * https://halogen.city/
 * https://kotilo.dy.fi/
+* https://calcuode.com/
 * https://hemmerle.dev/
-* https://nitrokey.com/
 * https://unita.online/
 * https://converser.eu/
 * https://matrix.lrn.fm/
 * https://dunstkreis.ch/
+* https://chat.filik.eu/
 * https://m.deadcrab.de/
 * https://im.su.cvut.cz/
 * https://matrix.fuz.re/
@@ -263,17 +272,23 @@ and change the server from the default to the one you want.
 * https://marxwatch.org/
 * https://matrix.pi2.dev/
 * https://matrix.phcn.de/
+* https://matrix.dhp.com/
 * https://matrix.bits.at/
 * https://duncanturk.com/
-* https://www.freitrix.de/
 * https://matrix.nikel.me/
 * https://matrix.ohea.xyz/
 * https://matrix.goe.land/
+* https://chat.avlikos.gr/
+* https://matrix.neko.dev/
 * https://matrix.cirr.com/
 * https://matrix.altay.fr/
 * https://matrix.sebdu.de/
 * https://matrix.jarno.ca/
+* https://matrix.nx-pod.de/
+* https://matrix.v-lan.org/
 * https://pancrypticon.net/
+* https://matrix.jhell.org/
+* https://matrix.sensin.eu/
 * https://matrix.muehml.eu/
 * https://matrix.senan.xyz/
 * https://matrix.privex.io/
