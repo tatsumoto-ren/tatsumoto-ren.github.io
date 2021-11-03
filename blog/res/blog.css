@@ -33,7 +33,6 @@ img {
 html,
 body {
     min-height: 100vh;
-    background: url("../img/bg.webp");
 }
 
 html {
