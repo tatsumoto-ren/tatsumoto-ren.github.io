@@ -65,7 +65,7 @@ most likely you don't have
 [Element](https://archlinux.org/packages/community/x86_64/element-desktop/)
 installed on your computer.
 Alternatively, use a
-[web app](https://matrix.3dns.eu/#/room/#djt:midov.pl)
+[web app](https://c.wfr.moe/#/room/#djt:midov.pl)
 ([another](https://webchat.kde.org/#/room/#djt:midov.pl))
 or open your client of choice and type `/join #djt:midov.pl`.
 Commands that start with `/` work in most clients, including Element.
