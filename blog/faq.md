@@ -83,13 +83,15 @@ This site covers most of its key points.
 Yes, if you want to learn English.
 
 This is actually how I learned English as a teenager, not even joking.
-I was so fed up with the quality of subtitles in my native language
+I was so fed up with the quality of fansubs in my native language
 that one day I just decided to switch and start watching anime with English subs.
 It was insanely hard at first, and I would spend hours looking up every word in a dictionary.
 However, after a few months I only had to look up a couple words here and there.
 
 If you are serious about learning Japanese, don't use English subtitles.
 Watch with Japanese subtitles or without any subtitles at all.
+We've all seen countless anime fans who've watched thousands of hours of English-subbed anime
+and still know less than 100 Japanese words.
 
 ### If someone has watched anime with English subs for thousands of hours before starting to learn Japanese, how much of a head start does that give them?
 
@@ -184,6 +186,23 @@ but I quickly moved past them as I continued to learn new words.
 If you choose to use mnemonics, don't rely on them for too long.
 You don't wanna be an advanced learner who still thinks of mnemonic stories
 when trying to read every word.
+
+### I did RRTK but my kanji ability still feels shaky. Should I do the JP1K?
+
+Decks like RTK, RRTK, KanjiDamage and JP1K (Kanji Transition)
+are designed to give you training wheels
+so that you could practice kanji in a modified environment for a while
+and then transition to reading real Japanese and learn real words.
+
+If you have completed one such deck, you don't need to do another one of the same kind.
+Instead you should go to the next level and do
+[Ankidrone Starter Pack](basic-vocabulary.html).
+Eventually your goal is to start sentence mining while consuming native content.
+
+Even if you feel like you lack kanji ability,
+just continuing to learn words is going to improve it.
+Remember, many people never learned kanji through a dedicated deck,
+they learned words right from the start.
 
 ### Is JAV good for immersion?
 
@@ -487,8 +506,10 @@ Amazon Swindle is a malicious device designed to handcuff you.
 
 Read the following:
 
-* https://www.defectivebydesign.org/amazon-kindle-swindle
 * https://www.gnu.org/philosophy/why-call-it-the-swindle.html
+* https://stallman.org/amazon.html
+* https://www.gnu.org/philosophy/ebooks-must-increase-freedom.html
+* https://www.defectivebydesign.org/amazon-kindle-swindle
 
 ### What should I be "doing" while actively immersing?
 
@@ -737,8 +758,8 @@ Once you delete a card, you can't be sure that you will remember it when you nee
 
 I would speculate that this idea was born
 in an attempt to lower the review load caused by using sentence cards.
-Sentence cards take longer to review compared to other card types,
-so in order to deal with it you could suspend older cards
+Sentence cards take longer to review compared to other card types.
+In order to lower review load people suspend older cards
 and only spend time on relatively young cards.
 
 Instead of sentence cards I recommend you use targeted sentence cards
