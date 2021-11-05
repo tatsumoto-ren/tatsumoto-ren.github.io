@@ -68,13 +68,16 @@ recommended by
 
 ## Other servers
 
-### Selection criteria
+### Sorted list
 
-* No [CloudFlare](https://web.archive.org/web/20210429163415/https://forge.chapril.org/you/stop_cloudflare/src/branch/master/readme/en.md)
-* Open registration, obviously
-* Sorted by domain length
-* Up-to-date version of Matrix
-* Web client availability
+Explore the sorted list
+[here](https://tatsumoto-ren.github.io/matrix/).
+
+Selection criteria.
+
+* Open registration
+* Domain length
+* Up-to-date version of Synapse
 
 ### Servers that support links to rooms
 
@@ -86,6 +89,7 @@ To link a room append `#/room/#your_room:example.com`
 to the instance's Element address,
 like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 
+* https://c.wfr.moe/
 * https://nerdsin.space/
 * https://matrix.3dns.eu/
 * https://riot.ukvly.org/
