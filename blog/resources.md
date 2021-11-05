@@ -67,7 +67,10 @@ In such cases sites with example sentences come to rescue.
 
 * [Massif](https://massif.la/ja).
 Allows you to search over 30 million unique Japanese sentences.
-* [Sentence Search](https://sentencesearch.neocities.org/)
+* [Sentence Search](https://sentencesearch.neocities.org/).
+Contains voiced sentences from various premade decks.
+Grab an offline version
+[here](ankidrone-sentence-pack.html).
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
 Made for Japanese people learning English but can be used in reverse.
 * [Forvo](https://forvo.com/).
@@ -75,8 +78,9 @@ Has many words pronounced in isolation but not so many sentences.
 * [YouGlish for Japanese](https://youglish.com/japanese)
 * [用例.jp](https://yourei.jp/)
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
-
-Avoid Tatoeba example sentences (the ones Jisho suggests).
+* [Jisho.org](https://jisho.org/search/test%23sentences).
+I don't recommend Jisho
+because it suggest sentences from Tatoeba.
 Many of them come from non-native speakers.
 
 ## Immersion material
