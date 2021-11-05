@@ -55,7 +55,7 @@ and register an account on
 that is **not** matrix.org.
 
 <p align="center">
-	<a href="element://vector/webapp/#/room/#djt:midov.pl">
+	<a href="element://vector/webapp/#/room/#join:g33k.se">
 		<img alt="matrix" src="img/join_us_on_element_220x51.png">
 	</a>
 </p>
@@ -65,9 +65,9 @@ most likely you don't have
 [Element](https://archlinux.org/packages/community/x86_64/element-desktop/)
 installed on your computer.
 Alternatively, use a
-[web app](https://c.wfr.moe/#/room/#djt:midov.pl)
-([another](https://webchat.kde.org/#/room/#djt:midov.pl))
-or open your client of choice and type `/join #djt:midov.pl`.
+[web app](https://c.wfr.moe/#/room/#join:g33k.se)
+([another](https://webchat.kde.org/#/room/#join:g33k.se))
+or open your client of choice and type `/join #join:g33k.se`.
 Commands that start with `/` work in most clients, including Element.
 
 ## Telegram
