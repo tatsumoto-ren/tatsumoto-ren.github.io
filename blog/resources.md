@@ -158,7 +158,6 @@ Unfortunately, not all of them can be opened in mpv.
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
 * [Audiobooks 1](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Audiobooks 2](https://drive.google.com/drive/folders/16YDpNeO1FPNl_VK0845o6U6kAUbuFwS_?sort=13&direction=a)
-
 ### Manga
 
 * [Bilingualmanga](https://bilingualmanga.com/).
@@ -177,6 +176,16 @@ as well as shounen jump,
 young jump and other manga magazines.
 * [Itazuraneko 漫画](https://itazuraneko.neocities.org/library/manga.html).
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
+* [Manga Raw](https://manga1000.com/).
+Read manga online.
+* [RawDEVART](https://rawdevart.com/).
+Raw manga online.
+* [HAKARAW](https://hakaraw.com/).
+Read manga online.
+* [マンガ図書館Z](https://www.mangaz.com/).
+Manga library. Read manga for free.
+* [となりのヤングジャンプ](https://tonarinoyj.jp/).
+A site where you can read manga online.
 
 ### Books
 
