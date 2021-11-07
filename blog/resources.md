@@ -158,6 +158,7 @@ Unfortunately, not all of them can be opened in mpv.
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
 * [Audiobooks 1](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Audiobooks 2](https://drive.google.com/drive/folders/16YDpNeO1FPNl_VK0845o6U6kAUbuFwS_?sort=13&direction=a)
+
 ### Manga
 
 * [Bilingualmanga](https://bilingualmanga.com/).
@@ -211,6 +212,18 @@ Download manga, light novels, magazines and books for free.
 * [Podcasts opml](https://t.me/ajatt_tools/80).
 About 200 Japanese podcasts for constant passive listening.
 * [AuDee Podcasts](https://audee.jp/)
+* [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
+
+### Visual Novels and Games
+
+There's a
+[list of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels)
+on Arch Wiki.
+Beware that most
+[games](https://www.gnu.org/proprietary/malware-games.html)
+that exist today are
+[proprietary](https://www.gnu.org/proprietary/proprietary.html).
+Proprietary software should not exist and should not be used if you want to have freedom.
 
 ## Japanese boards
 
@@ -241,6 +254,10 @@ You may need a Japanese IP address for some of these.
 
 ### General
 
+* [LibreWolf](https://librewolf-community.gitlab.io/).
+A web browser based on Firefox that comes with an Ad Block by default.
+You can find it in
+[AUR](https://aur.archlinux.org/packages/librewolf-bin/).
 * [Anki](https://wiki.archlinux.org/title/Anki)
 A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
@@ -290,6 +307,16 @@ Make Anki cards in mpv:
 * [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 * [Automatic mpv script](https://anacreondjt.gitlab.io/docs/mpvscript/)
 
+### mpd
+
+With
+[mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
+you can listen to condensed audio, audiobooks and Japanese music.
+
+* [Passive listening](passive-listening.html) how to.
+* [ncmpcpp](https://rybczak.net/ncmpcpp/). Probably the most popular mpd client.
+* [mpc](https://www.musicpd.org/clients/mpc/). A CLI mpd client, great for scripting.
+
 ### Downloading
 
 * [qBittorrent](https://www.qbittorrent.org/).
@@ -299,7 +326,9 @@ A command line client for Mega.
 * [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
 A command-line program that lets you download videos and audio
 from YouTube and more than a thousand other sites.
-See our [setup guide](mining-from-movies-and-tv-shows.html#youtube-dl).
+	* See our [setup guide](mining-from-movies-and-tv-shows.html#youtube-dl).
+	* [Tartube](https://aur.archlinux.org/packages/tartube/),
+	a GUI front-end for youtube-dl.
 * [mangadesk](https://github.com/darylhjd/mangadesk).
 Download manga directly from your terminal.
 * [HakuNeko](https://github.com/manga-download/hakuneko).
@@ -311,13 +340,13 @@ A cross-platform downloader for manga and anime from various websites.
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
 
-## Tools for condensing audio
+### Tools for condensing audio
 
 * [impd](https://github.com/Ajatt-Tools/impd).
 Create condensed audio and automatically rotate your mpd playlist.
 * [subs2cia](https://github.com/dxing97/subs2cia)
 
-## Tools for extracting audio
+### Tools for extracting audio
 
 * [FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
 * [MKVToolNix](https://archlinux.org/packages/?q=mkvtoolnix)
@@ -332,7 +361,10 @@ If you do own a cellphone, be sure to install
 which is an application catalog for libre programs.
 Get rid of Google Play by flashing a new ROM
 or by rooting your phone and deleting all Google applications.
+Don't buy iThings, you can't run a free OS on them.
 
+* [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
+A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
 A free/libre flashcard application, Android version.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
@@ -344,6 +376,15 @@ A podcast player for Android.
 * Audio players.
 	* [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 	* [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
+* [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
+An EPUB reader for Android
+that lets you look up words as you read, similarly to Yomichan.
+Also supports EPWING dictionaries.
+* [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
+Android Manga reader with Japanese OCR and dictionary capabilities.
+Supports EPWING monolingual dictionaries.
+* [Tachiyomi](https://tachiyomi.org/).
+Free/libre manga reader for Android.
 
 ## Dictionaries
 
@@ -352,6 +393,7 @@ A podcast player for Android.
 Yomichan is a browser extension that lets you easily look up unknown words.
 
 * [Extension homepage](https://foosoft.net/projects/yomichan/)
+* [How to set up Yomichan](setting-up-yomichan.html)
 * [Yomichan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
 
 ### Online
@@ -386,6 +428,7 @@ Monolingual kanji dictionary.
 * [Qolibri](https://aur.archlinux.org/packages/qolibri/).
 A Qt-based EPWING dictionary viewer.
 Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
+Refer to [setup guide](setting-up-qolibri.html).
 * [EBView](https://aur.archlinux.org/packages/ebview-git/).
 A GTK2 based EPWING dictionary viewer.
 Like Qolibri, EBView requires you to specify where to look for the dictionary files.
@@ -399,6 +442,7 @@ especially the `辞書グループの定義` section.
 
 * [jiten](https://github.com/obfusk/jiten)
 * [sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
+* [Nani?](https://f-droid.org/en/packages/eu.lepiller.nani/)
 
 ## Translators
 
@@ -436,6 +480,7 @@ A website on Kyoto dialect.
 How to learn Japanese on your own, having fun and to fluency.
 
 Notable articles:
+
 * [Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
 One of the many methods of learning kanji.
 * [10,000 Sentences: How](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
@@ -458,6 +503,7 @@ A site founded by a successful ajatter after becoming fluent.
 The method is designed to be applicable to any language.
 
 Notable articles:
+
 * [Tolerate the Ambiguity](https://web.archive.org/web/20210318233119/https://refold.la/roadmap/stage-0/b/tolerate-ambiguity/)
 * [Basic Sentence Mining](https://web.archive.org/web/20210702022836/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/)
 * [Basic Anki Setup](https://web.archive.org/web/20210429222205/https://refold.la/roadmap/stage-1/a/anki-setup/)
