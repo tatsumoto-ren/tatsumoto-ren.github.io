@@ -93,6 +93,8 @@ To check a server's Synapse version, run the following shell command.
 Replace <code>homeserver.name</code> with the URL of you homeserver, e.g. <code>g33k.se</code>.</p>
 <pre><code>curl -s 'https://homeserver.name/_matrix/federation/v1/version'
 </code></pre>
+<p>Alternatively, paste the server's URL to
+<a href="https://federationtester.matrix.org/">federationtester.matrix.org</a>.</p>
 <p>It's a good idea to ban certain servers from participating in your room completely, using
 <a href="https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls">Server ACLs</a>.
 Server ACLs let you block all accounts registered on unwanted homeservers

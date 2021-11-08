@@ -65,6 +65,9 @@ Replace `homeserver.name` with the URL of you homeserver, e.g. `g33k.se`.
 curl -s 'https://homeserver.name/_matrix/federation/v1/version'
 ```
 
+Alternatively, paste the server's URL to
+[federationtester.matrix.org](https://federationtester.matrix.org/).
+
 It's a good idea to ban certain servers from participating in your room completely, using
 [Server ACLs](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
 Server ACLs let you block all accounts registered on unwanted homeservers
