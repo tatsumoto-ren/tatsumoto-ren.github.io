@@ -34,12 +34,49 @@ Below I have a list of servers with less strict terms of service.
 <p align="center"><img class="shadow" alt="registration" src="img/element_registration.webp"></p>
 <p align="center"><i>Click "Edit".</i></p>
 
+## How to choose
+
+Choose a server that doesn't engage in chaotic account or room purges.
+Being on a such homeserver is no different from being on Discord.
+Take a look at
+[Austin Huang's list](https://austinhuang.me/matrix-homeservers.html#list)
+to check if a server has unreasonably strict rules.
+Keep an eye on the usual things that tend to stink.
+For example, if a homeserver is trying to suppress certain political opinions,
+restrict you from posting certain types of content
+or otherwise impose authoritarian environment.
+
+## Tips for room admins
+
+If you decide to create and manage a large public room,
+it is very important that you don't lose access to it.
+Always keep at least two admin accounts in the room, each hosted on a **different** homeserver.
+If one homeserver goes offline or decides to ban you or your room,
+you will still be able to control the room via the other admin account.
+
+Choose a server which runs the latest version of
+[Synapse](https://github.com/matrix-org/synapse).
+Newer versions give you access to higher
+[room versions](https://spec.matrix.org/unstable/rooms/).
+To check a server's Synapse version, run the following shell command.
+Replace `homeserver.name` with the URL of you homeserver, e.g. `g33k.se`.
+
+```
+curl -s 'https://homeserver.name/_matrix/federation/v1/version'
+```
+
+It's a good idea to ban certain servers from participating in your room completely, using
+[Server ACLs](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
+Server ACLs let you block all accounts registered on unwanted homeservers
+from being able to join your room.
+The homeserver which gets blocked the most often is, you guessed it, `matrix.org`.
+
 ## Recommendations
 
 * [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
 recommended by
 [Glowers Club](https://glowers.club/wiki/):
-	* [thisisjoes.site](https://thisisjoes.site/)
+	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
 	* [jews.rip](https://jews.rip/)
 	* [kiwifarms.net](https://riot.kiwifarms.net/)
 	* [iddqd.social](https://iddqd.social/element/)
@@ -48,6 +85,7 @@ recommended by
 	* [halogen.chat](https://halogen.chat/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [ubersm.art](https://chat.ubersm.art/)
+	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
 * Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 	* [waifuhunter.club](https://chat.waifuhunter.club/)
 	* [nerdsin.space](https://nerdsin.space/)
