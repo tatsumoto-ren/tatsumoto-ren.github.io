@@ -80,14 +80,15 @@ Open it to see additional information about the dictionaries.
 
 ### Bilingual
 
-The goal of bilingual dictionaries is to provide you with a rough tool
-to enable you to get by until you go monolingual.
-So the TLDR here is to import only
-[JMdict](https://foosoft.net/projects/yomichan/dl/dict/jmdict_english.zip)
-and move on.
+The goal of bilingual dictionaries is to provide you a rough tool
+to help you get by until you switch to monolingual dictionaries.
+On this stage JMdict is going to be enough for most people.
+If you want to explore other available dicionaries, see the recommendations below.
+
+I recommend you get the following dictionaries.
 
 * [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project).
-The dictionary that you find on
+The same dictionary that you find on
 [Jisho.org](https://jisho.org/).
 JMdict doesn't have example sentences.
 If you need them, try the resources listed
