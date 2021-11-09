@@ -69,10 +69,14 @@ Below is a list of public folders that were used.
 
 </details>
 
-Next go to Yomichan settings and scroll down to the `Dictionaries` tab
-and click the button `Import Dictionary`.
+Go to Yomichan settings and select the "Dictionaries" tab on the left side,
+then click the button "Configure installed and enabled dictionaries…".
+Press "Import" to import a new dictionary.
 
-## What these dictionaries are
+## Dictionaries explained
+
+Each folder in the archive contains a file called "README.md".
+Open it to see additional information about the dictionaries.
 
 ### Bilingual
 
