@@ -73,7 +73,7 @@ Go to Yomichan settings and select the "Dictionaries" tab on the left side,
 then click the button "Configure installed and enabled dictionaries…".
 Press "Import" to import a new dictionary.
 
-## Dictionaries explained
+## About
 
 Each folder in the archive contains a file called "README.md".
 Open it to see additional information about the dictionaries.
@@ -83,7 +83,7 @@ Open it to see additional information about the dictionaries.
 The goal of bilingual dictionaries is to provide you a rough tool
 to help you get by until you switch to monolingual dictionaries.
 On this stage JMdict is going to be enough for most people.
-If you want to explore other available dicionaries, see the recommendations below.
+If you want to explore other available dictionaries, see the recommendations below.
 
 I recommend you get the following dictionaries.
 
@@ -93,12 +93,14 @@ The same dictionary that you find on
 JMdict doesn't have example sentences.
 If you need them, try the resources listed
 [here](resources.html#examples-and-pronunciations).
-* 研究社新和英大辞典 - A dictionary made by Japanese people and intended for Japanese people.
-It has example sentences but I don't recommend using it over JMdict
-because it clutters Yomichan window.
-Keep it in qolibri in case you need the examples.
-* 新和英 - A version of 研究社新和英大辞典 without example sentences.
-* 研究社露和辞典 - A Russian-Japanese Dictionary.
+* [KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).
+A kanji dictionary.
+It pops up when you click on a kanji in the headword.
+* `新和英`.
+A dictionary made by Japanese people for Japanese people.
+We can learn Japanese words by using it in reverse.
+* `研究社露和辞典`.
+A Russian-Japanese Dictionary.
 Russian speakers praise it a lot.
 Has example sentences.
 
@@ -112,24 +114,54 @@ Monolingual dictionaries, on the other hand, are very powerful because
 they provide detailed definitions and usage examples.
 With monolingual dictionaries you can learn your target language in your target language.
 
-**Most recommended dictionaries:**
+Pick 3 or 4 monolingual dictionaries you like the most and import them into Yomichan.
+Don't be *that guy*, don't import all dictionaries at once.
+Japanese to Japanese definitions are longer than Japanese to English ones.
+It's easy to clutter Yomichan pop-ups with dozens of definitions.
+Qolibri is much better at handling many dictionaries at the same time than Yomichan.
 
-* 大辞林 (and it's different versions)
-* 新明解国語辞典
-* 大辞泉
-* 明鏡国語辞典
+Some people may tell you that, say,
+dictionary `A` has more precise and easy to read definitions than dictionary `B`.
+In reality the differences between them are not very noticeable,
+especially if you're someone who's already quite good at Japanese.
+Almost all Japanese to Japanese dictionaries copy each other.
+They change one or two words in the definitions here and there
+to essentially avoid copyright strikes.
+The provided example sentences are often the same word by word.
+`新明解` is probably the only monolingual dictionary that offers original definitions,
+but it's harder to follow because of how often it backtracks.
+
+If you're new to monolingual dictionaries, it will take a few weeks to adjust to them.
+
+#### Most recommended
+
+Below is a short list of dictionaries you see being recommended the most in the AJATT community.
+
+* `大辞林`
+* `新明解`
+* `大辞泉`
+* `明鏡`
+
+Here I specify more or less generic names.
+Often the same dictionary has many versions,
+in which case the names can differ as well.
+For example, `大辞林` and `スーパー大辞林`,
+or `大辞泉` and `デジタル大辞泉`.
+You're free to pick any version you like.
 
 `大辞林` and `大辞泉` are quite similar to each other,
 have good definitions and contain many entries.
-Prefer デジタル大辞泉 over the original 大辞泉.
+Prefer `デジタル大辞泉` over the original `大辞泉`.
 It has an extra 120 000 entries and contains images.
 `明鏡` and `新明解` use easy language and are considered beginner-friendly.
 `新明解` doesn't have many entries and has a convoluted definition structure
 that employs a lot of redirections marked with `△` and `（）`
-which force the reader to jump back and forth. But mostly it's very good.
-`大辞林` and `新明解` have pitch accent information so you may want to import them first.
+which force the reader to jump back and forth.
+But mostly it's very good.
+`大辞林` and `新明解` contain pitch accent information,
+so you may want to import them first.
 
-**Additional dictionaries:**
+#### Additional dictionaries
 
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
@@ -146,49 +178,6 @@ There's a version without images called 旺文社国語辞典 第十一版 **画
 * 岩波書店 岩波国語辞典
 * 広辞苑
 * 故事ことわざの辞典. Proverb dictionary.
-
-
-**Note:** If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
-images may render incorrectly unless you
-append the follwing rules to your Popup CSS.
-If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS...".
-
-<details>
-<summary>Popup CSS for images</summary>
-
-```
-.gloss-image-description {
-    text-align: center;
-}
-
-.definition-item-content,
-.gloss-image-link {
-    max-width: 100%;
-}
-
-.gloss-image-container {
-    background: none !important;
-}
-
-.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image {
-    position: static;
-    max-height: 200px;
-}
-
-.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image-aspect-ratio-sizer {
-    display: none;
-}
-
-.gloss-image-container-overlay {
-    display: none;
-}
-
-img {
-    will-change: transform;
-}
-```
-
-</details>
 
 ### Frequency lists
 
@@ -232,11 +221,10 @@ and you need to prioritize learning dictionary vocabulary.
 ### Other
 
 * [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
-* [KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project). J-E kanji dictionary.
-* 漢字源. Monolingual kanji dictionary.
+* `漢字源`. Monolingual kanji dictionary.
 * [Kanjium](https://github.com/mifunetoshiro/kanjium). Pitch accent dictionary.
 
-## Don't import all Yomichan dictionaries
+### Don't import all Yomichan dictionaries
 
 You need to have a lot of dictionaries at hand
 because Japanese to Japanese dictionaries always have gaps in them.
@@ -255,5 +243,49 @@ and if you have many dictionaries imported this is going to be pretty annoying.
 
 So what I recommend you to do instead is to have as few dictionaries as possible
 and use qolibri whenever there's a word that you can't find in Yomichan.
+
+### Custom CSS note
+
+If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
+images may render incorrectly unless you
+append the following rules to your Popup CSS.
+If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS...".
+
+<details>
+<summary>Popup CSS for images</summary>
+
+```
+.gloss-image-description {
+    text-align: center;
+}
+
+.definition-item-content,
+.gloss-image-link {
+    max-width: 100%;
+}
+
+.gloss-image-container {
+    background: none !important;
+}
+
+.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image {
+    position: static;
+    max-height: 200px;
+}
+
+.gloss-image-link[data-has-aspect-ratio="true"] .gloss-image-aspect-ratio-sizer {
+    display: none;
+}
+
+.gloss-image-container-overlay {
+    display: none;
+}
+
+img {
+    will-change: transform;
+}
+```
+
+</details>
 
 Tags: dictionaries, yomichan, epwing
