@@ -133,7 +133,7 @@ but it's harder to follow because of how often it backtracks.
 
 If you're new to monolingual dictionaries, it will take a few weeks to adjust to them.
 
-#### Most recommended
+**Most recommended:**
 
 Below is a short list of dictionaries you see being recommended the most in the AJATT community.
 
@@ -161,7 +161,7 @@ But mostly it's very good.
 `大辞林` and `新明解` contain pitch accent information,
 so you may want to import them first.
 
-#### Additional dictionaries
+**Additional dictionaries:**
 
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
@@ -170,8 +170,7 @@ However, I've found that certain defintions use more difficult vocabulay than `�
 The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
 * Weblio古語辞典. Archaism dictionary from Weblio.
-* 新辞林
-* 実用日本語表現辞典
+* 新辞林. You can treat it as a simplified version of `大辞林`.
 * 日本国語大辞典. The biggest Japanese dictionary in the world.
 	* 精選版 日本国語大辞典
 	* 小学館 国語大辞典
@@ -213,6 +212,8 @@ These are a must-have if you watch dramas or anime a lot.
 * Innocent corpus. Based on 5000+ novels.
 * Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
 * VN. Visual Novels.
+I don't recommend VNs because most of them are proprietary,
+but the frequency list may help you detect common words in other types of content.
 * BCCWJ - Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
 * Daijirin. Words that appear in the `大辞林` monolingual dictionary.
 You may want to take a look at it if you've decided to go monolingual
@@ -242,7 +243,7 @@ If you want to find it you have to scroll down,
 and if you have many dictionaries imported this is going to be pretty annoying.
 
 So what I recommend you to do instead is to have as few dictionaries as possible
-and use qolibri whenever there's a word that you can't find in Yomichan.
+and use Qolibri whenever there's a word that you can't find in Yomichan.
 
 ### Custom CSS note
 
