@@ -44,6 +44,7 @@ The great thing about Yomichan is that it is customizable.
 To access the settings page, click the
 ![yomichan-settings](https://foosoft.net/projects/yomichan/img/yomichan-icon.svg)
 button in the browser toolbar and choose "Settings".
+In the bottom left corner enable "Advanced" to access hidden settings mentioned in this guide.
 
 ### Install dictionaries
 
