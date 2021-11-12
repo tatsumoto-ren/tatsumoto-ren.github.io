@@ -237,6 +237,7 @@ You may need a Japanese IP address for some of these.
 ## Japanese subtitles
 
 * [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
+* **[kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)**
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
 * [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
