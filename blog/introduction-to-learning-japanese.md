@@ -128,16 +128,23 @@ He still tried to do as much as he could,
 while having a job and studying at a university at the same time.
 AJATT has existed for years, many people went through the program and achieved fluency.
 
-For passive listening try to choose material that you previously actively watched and comprehended.
-The *comprehended* part won't come right away,
-but as you learn new words from your immersion, expect it to happen within the first few months.
+For passive listening try to choose the material
+that you previously actively watched and comprehended.
+Avoid listening to "white noise",
+you only really make gains when you understand the language you are consuming.
+You won't be able to comprehend everything right away,
+but as you learn new words from your immersion,
+expect your comprehension to reach a solid level within the first few months.
 You have to make effort to make the content comprehensible.
-Look up words, rely on the imagery, choose simpler content such as slice of life anime.
+Look up words, rely on the imagery, choose material with simpler language.
+Slice of life anime is often recommended for beginners.
+
 The more *language-dense* your immersion content is, the better.
-You can listen to podcasts but keep in mind that they're hard to understand as a beginner.
-Avoid listening to songs, they contain unnatural speech
-and sometimes the lyrics are hard to understand
-even when you listen to a song in your native language.
+You can listen to podcasts but keep in mind that they're more challenging for beginners.
+Avoid listening to songs.
+They contain unnatural speech,
+and it's hard to hear the lyrics through music.
+Even in our native language we often fail to understand some parts of songs.
 
 ### Outputting
 
