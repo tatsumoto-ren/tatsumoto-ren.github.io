@@ -51,15 +51,25 @@ or otherwise impose authoritarian environment.
 If you decide to create and manage a large public room,
 it is very important that you don't lose access to it.
 Always keep at least two admin accounts in the room, each hosted on a **different** homeserver.
-If one homeserver goes offline or decides to ban you or your room,
+If one homeserver goes offline or decides to ban you or *shutdown* your room,
 you will still be able to control the room via the other admin account.
+
+The number one thing you should be aware of as a room admin is
+[room shutdowns](https://github.com/matrix-org/synapse/blob/develop/docs/admin_api/rooms.md#delete-room-api).
+A room shutdown is when a homeserver admin
+forces all existing members registered on the homeserver
+out of your room
+and prevents all future joins.
+A room shutdown only affects users on the server that initiated the shutdown.
+To minimize possible damage that a shutdown would cause to your room
+always tell your members to use homeservers you trust.
 
 Choose a server which runs the latest version of
 [Synapse](https://github.com/matrix-org/synapse).
 Newer versions give you access to higher
 [room versions](https://spec.matrix.org/unstable/rooms/).
 To check a server's Synapse version, run the following shell command.
-Replace `homeserver.name` with the URL of you homeserver, e.g. `g33k.se`.
+Replace `homeserver.name` with the URL of your homeserver, e.g. `g33k.se`.
 
 ```
 curl -s 'https://homeserver.name/_matrix/federation/v1/version'
