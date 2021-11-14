@@ -223,6 +223,9 @@ by pressing `c` and moving the position with `Shift+h` and `Shift+l`.
 Finish by pressing `m`.
 1) The Anki Browser window should appear with the card updated.
 
+You can save sentences for later without adding defintions.
+To do so, press `Ctrl+n`.
+
 ### Updating
 
 To update mpvacious, run the command below:
