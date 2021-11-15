@@ -19,18 +19,22 @@ to do passive listening throughout the day.
 Make passive listening a habit.
 Every moment of your life has to be spent interacting with Japanese.
 
-In the beginning passive immersion doesn't contribute much to comprehension gains,
-instead it helps start distinguishing sounds and phonemes of your target language.
-Focus your attention on hearing the sounds.
-Maybe at first you won't even be able to hear where one word ends and another one starts,
-but expect passive listening to boost your phonetic awareness within the first months,
-given that you combine it with active immersion.
-
 Passive listening is one of the key components of the AJATT method,
 so it is important to make it as convenient as possible.
 If preparing immersion content is tedious, you are not going to do it.
 
 ****
+
+## Role of passive listening
+
+In the beginning passive immersion doesn't contribute much to comprehension gains,
+instead it helps you start distinguishing sounds and phonemes of your target language.
+Focus your attention on hearing the sounds.
+Maybe at first you won't even be able to hear where one word ends and another one starts,
+but as you progress expect passive listening to boost your phonetic awareness
+and eventually start contributing to your comprehension.
+Passive immersion doesn't do much without active immersion.
+You shouldn't neglect either of them.
 
 ## Rules of passive immersion
 
@@ -68,7 +72,7 @@ it is okay to use purely audio-based material such as podcasts
 as one of the primary sources of both passive and active immersion.
 
 Music is the worst content for passive immersion.
-It contains unnatural speech, it is difficult to hear the lyrics.
+It contains unnatural speech, and it is difficult to hear the lyrics.
 We tend to mishear lyrics even when we listen to songs in our native language.
 
 ## mpd
@@ -162,7 +166,7 @@ Rotation consists of two steps:
 1) `impd` searches for recently added files in your video directory,
 extracts audio and condenses it if possible.
 The resulting audio is saved to the `mpd` music directory.
-By default `impd` considers *recent* all videos
+By default, `impd` considers *recent* all videos
 that were downloaded or modified less than 10 days ago.
 `impd` doesn't touch old videos by default,
 so it won't pick up anime and dramas that you downloaded a long time ago.
