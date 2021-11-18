@@ -83,10 +83,6 @@ Passively listen to each episode after you complete it to maximize time spent im
 Dedicate your active study time to learning **basic vocabulary**.
 I'll show you how to do it shortly.
 
-Slice of life anime is the easiest genre to learn from in the beginning.
-If you need more specific recommendations,
-I have a list of anime ranked by difficulty [here](random-anime-ranked-easiest-to-hardest.html).
-
 Once you complete the basic vocabulary phase,
 nothing stops you from learning just from immersion.
 Don't wait for too long.
@@ -137,7 +133,10 @@ but as you learn new words from your immersion,
 expect your comprehension to reach a solid level within the first few months.
 You have to make effort to make the content comprehensible.
 Look up words, rely on the imagery, choose material with simpler language.
-Slice of life anime is often recommended for beginners.
+
+Slice of life anime is the easiest genre to learn from in the beginning.
+If you need more specific recommendations,
+I have a list of anime ranked by difficulty [here](random-anime-ranked-easiest-to-hardest.html).
 
 The more *language-dense* your immersion content is, the better.
 You can listen to podcasts but keep in mind that they're more challenging for beginners.
