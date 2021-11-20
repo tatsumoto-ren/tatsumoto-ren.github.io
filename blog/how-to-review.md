@@ -48,6 +48,32 @@ just before you forget their content.
 If you don't do your reviews on time,
 expect to forget more cards.
 
+## Reading sentences aloud
+
+Should you read sentences aloud when doing Anki reps?
+The AJATT site
+[recommends](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
+that you should.
+I personally don't think it's necessary, and I rarely do it.
+If a sentence looks cool I usually pronounce it just for the fun of it.
+
+Reading out loud can definitely help you remember the sentences better
+because you're actively using your muscles.
+It's harder to skim when you're engaged.
+
+Another thing to consider is whether you are going to build bad pronunciation habits
+by pronouncing Japanese out loud.
+In this regard, I would definitely recommend avoiding doing it if you're a beginner.
+Any type of pronunciation practice requires you to have acquired large aspects of the language
+and have built strong phonetic awareness.
+If you lack these competences,
+you set yourself to repeat pronunciation mistakes over and over.
+Ideally, you should also actively think about pitch accent when you're practicing speaking,
+which requires you to know the rules and the accents of individual words.
+
+With this in mind, reading sentences aloud can be helpful,
+but only if you're already intermediate or above.
+
 ## Check your retention
 
 I recommend periodically checking your monthly
@@ -144,9 +170,16 @@ Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
 Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
 
+## Fighting flooded learning queue
+
+```
+deck:Japanese is:due is:learn -rated:1 -is:new
+```
+
 ## New cards
 
 Choose how many new cards you want to do each day and stick to that number.
+We recommend learning between 10~30 cards a day.
 Don't learn too many new cards.
 The amount of new cards together with retention determine
 how many reviews you will have to complete.
@@ -154,11 +187,16 @@ If you feel overwhelmed by the number of daily reviews,
 you can *influence* the number of future reviews by decreasing the number of new cards
 or stopping learning new cards completely for a period of time.
 If you feel like you have headroom, raise the amount of new cards.
-Don't cap the
+
+You can get away with learning more new cards if you increase your `Interval modifier`,
+but in return expect your retention to go down.
+
+Do not cap your reviews by decreasing the
 [Maximum reviews/day](setting-up-anki.html#reviews)
-setting,
-it will only *hide* the due cards from you.
+setting in order to do more new cards.
+It will only *hide* the due cards from you.
 Failing to do all of your reviews on schedule will form a backlog.
+What's worse, the backlog will be invisible because Anki will hide it from you.
 
 ## Leeches
 
@@ -186,6 +224,10 @@ is to memorize multiple words that use the same reading.
 For example, if you can't remember how to read `印璽`,
 make cards for words such as `御璽` or `国璽`
 and learn all of them at the same time.
+
+If you can't remember a card due to a kanji reading not sticking,
+people also recommend putting furigana for that word on the front of the card.
+Personally I wouldn't do this myself, but it's a cheap way out.
 
 ## Deleting and suspending cards
 
