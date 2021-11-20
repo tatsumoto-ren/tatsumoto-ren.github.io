@@ -182,10 +182,13 @@ It is going to show you them over and over until they graduate.
 If the cards are not particulary easy, you may never get to the review queue.
 What I recommend you to do in this case is similar to the trick used to fight backlogs.
 
+Create a filtered deck with these settings.
 
 ```
 deck:Japanese is:due is:learn -rated:1 -is:new
 ```
+
+Send all your learning cards to this deck, then pull out 10~20 at a time and graduate them.
 
 ## New cards
 
