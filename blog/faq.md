@@ -309,13 +309,12 @@ you spend 1 hour on Anki,
 
 I recommend learning 10 to 30 new cards a day.
 The more new cards you do, the more reviews you'll have complete.
+See [New cards](how-to-review.html#new-cards).
 
-You can get away with learning more new cards if you increase your `Interval modifier`,
-but it in return expect your retention to go down.
+### Should I read sentences aloud when doing Anki reps?
 
-Do not cap your reviews by decreasing `Maximum reviews/day` in order to do more new cards.
-It's not going to help you, instead you'll build up a huge backlog
-that will be invisible because Anki will hide it from you.
+I don't necessary recommend it.
+See [Reading sentences aloud](how-to-review.html#reading-sentences-aloud).
 
 ### How to make monolingual TSCs for vocab and grammar?
 
@@ -354,30 +353,6 @@ Pass the card if you understand the meaning and reading of the target word.
 Don't recall the definition in case of a monolingual card,
 or the translation in case of a bilingual card verbatim.
 Having a general idea of the meaning in your head is enough.
-
-### Should I read sentences aloud when doing Anki reps?
-
-The AJATT site
-[recommends](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
-that you should.
-I personally don't think it's necessary, and I rarely do it.
-If a sentence looks cool I usually pronounce it just for the fun of it.
-
-Reading out loud can definitely help you remember the sentences better
-because you're actively using your muscles to try to pronounce them.
-It's harder to skim when you're engaged.
-
-Another thing to consider is whether you are going to build bad pronunciation habits
-by pronouncing Japanese out loud.
-In this regard, I would definitely recommend avoiding doing it if you're a beginner.
-Any type of pronunciation practice requires you to have acquired large aspects of the language
-and have built strong phonetic awareness.
-If you lack it, you set yourself to repeat pronunciation mistakes over and over.
-Ideally, you should also actively think about pitch accent when you practice speaking,
-which requires you to know the rules and the accents of individual words.
-
-With this in mind, reading sentences aloud can be helpful,
-but only if you're already intermediate or above.
 
 ### Should I trust Cure Dolly and "Organic Japanese"?
 
