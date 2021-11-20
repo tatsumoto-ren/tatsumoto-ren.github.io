@@ -172,6 +172,17 @@ Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
 
 ## Fighting flooded learning queue
 
+It is not uncommon to find yourself in this situation.
+
+<p align="center"><img alt="new cards flood" src="img/to-many-learn-cards.webp"></p>
+<p align="center"><i>Anki window.</i></p>
+
+Anki is terrible at queuing more than 30 cards from the learning queue.
+It is going to show you them over and over until they graduate.
+If the cards are not particulary easy, you may never get to the review queue.
+What I recommend you to do in this case is similar to the trick used to fight backlogs.
+
+
 ```
 deck:Japanese is:due is:learn -rated:1 -is:new
 ```
@@ -226,8 +237,12 @@ make cards for words such as `御璽` or `国璽`
 and learn all of them at the same time.
 
 If you can't remember a card due to a kanji reading not sticking,
-people also recommend putting furigana for that word on the front of the card.
+people also recommend putting furigana for the difficult word on the front of the card.
 Personally I wouldn't do this myself, but it's a cheap way out.
+
+[Mortician](https://ankiweb.net/shared/info/1255924302)
+automatically buries cars that you fail too many times.
+Use it to prevent potential leeches from wasting your time.
 
 ## Deleting and suspending cards
 
