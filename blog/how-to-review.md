@@ -174,7 +174,7 @@ Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
 
 It is not uncommon to find yourself in this situation.
 
-<p align="center"><img alt="new cards flood" src="img/to-many-learn-cards.webp"></p>
+<p align="center"><img alt="new cards flood" src="img/too-many-learn-cards.webp"></p>
 <p align="center"><i>Anki window.</i></p>
 
 Anki is terrible at queuing more than 30 cards from the learning queue.
