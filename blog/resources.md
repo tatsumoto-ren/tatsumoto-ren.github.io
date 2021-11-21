@@ -563,6 +563,7 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
 ## Misc
 
+* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Immersion Wiki](https://drive.google.com/drive/folders/1gDpwFl07a0EO_pTHLLVn_Waz2GXwwSE1)
 * [Mia's Japanese quickstart guide](https://archive.md/6kMEg).
