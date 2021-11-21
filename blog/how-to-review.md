@@ -179,7 +179,7 @@ It is not uncommon to find yourself in this situation.
 
 Anki is terrible at queuing more than 30 cards from the learning queue.
 It is going to show you them over and over until they graduate.
-If the cards are not particulary easy, you may never get to the review queue.
+If the cards are not particularly easy, you may never get to the review queue.
 What I recommend you to do in this case is similar to the trick used to fight backlogs.
 
 Create a filtered deck with these settings.
