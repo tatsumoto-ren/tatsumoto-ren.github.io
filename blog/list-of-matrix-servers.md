@@ -95,7 +95,7 @@ recommended by
 	* [iddqd.social](https://iddqd.social/element/)
 	* [200acres.org](https://riot.200acres.org/)
 	* [transhumanist.club](https://matrix.transhumanist.club/)
-	* [halogen.chat](https://halogen.chat/)
+	* [halogen.city](https://halogen.chat/)
 	* [nerdsin.space](https://nerdsin.space/)
 	* [ubersm.art](https://chat.ubersm.art/)
 	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
@@ -326,6 +326,7 @@ and change the server from the default to the one you want.
 * https://vanpetegem.me/
 * https://marxwatch.org/
 * https://matrix.pi2.dev/
+* https://drastical.tech/riot/
 * https://matrix.phcn.de/
 * https://matrix.dhp.com/
 * https://matrix.bits.at/
