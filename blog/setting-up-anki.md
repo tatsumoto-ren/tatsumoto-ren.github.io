@@ -71,7 +71,7 @@ I'm sure you'll find Anki in repositories of your distribution as well.
 * Debian users and users of other *stable* distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.
-* Please don't install Anki via FlatPak, Snap packages or other non-native package managers.
+* Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
 To run Anki, type `anki` in the terminal and press Enter.
