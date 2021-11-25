@@ -85,7 +85,8 @@ and save it in `~/.local/share/applications`.
 If after installing Anki with `pip`
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)
 doesn't work,
-open your `~/.profile` and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
+open your `~/.profile` (`~/.pam_environment` or a similar file)
+and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 
 ## Sync your mobile device
 
@@ -190,11 +191,12 @@ You can hit Manage to create additional options groups.
 
 **Warning:** If you're running Anki 2.1.45+,
 you will be presented with a new Options Groups settings dialog.
-Its layout won't match with the screenshots shown on this page.
+As usual, Anki developers are making the app worse with each release.
+The new layout won't match with the screenshots shown on this page.
 If you want to bring up the old version of the dialog,
-hold Shift and then choose Deck Options.
+click "Deck Options" while holding `Shift`.
 
-Below are the options I recommended using:
+Below are the options I recommended using.
 
 #### New cards
 
