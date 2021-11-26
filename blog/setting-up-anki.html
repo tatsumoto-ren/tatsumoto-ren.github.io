@@ -80,15 +80,21 @@ the bulk of this article will focus on explaining the most useful Anki settings
 to help you get things up and running as quickly as possible.</p>
 <hr>
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p>It's quite simple.
-The latest version can be installed with
-<a href="https://archlinux.org/packages/?name=python-pip">pip</a>:</p>
-<pre><code>$ pip install --upgrade aqt
-</code></pre>
-<p><code>pip</code> places executables in <code>~/.local/bin/</code> by default.
-Don't forget to add this directory to the
-<a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</p>
-<p>Additional methods:</p>
+<p>There are two main ways to install Anki.</p>
+<ul>
+<li>Using your distribution's package manager (pacman, apt, dnf, etc.).</li>
+<li>Using <a href="https://pip.pypa.io/en/stable/">pip</a>.</li>
+</ul>
+<p>The first method guarantees that you'll have the right dependencies installed,
+but you may get an old version of Anki.
+Distro maintainers are not very good at keeping Anki up-to-date.
+The second method guarantees that you get the latest version,
+but you need to make sure you have all the dependencies installed.</p>
+<p>Please don't install Anki via <strong>FlatPak</strong>, Snap packages or other non-native package managers.
+People have been reporting various problems connected to these installation methods.</p>
+<p>If you are running Wayland, please revert to <a href="https://wiki.archlinux.org/title/xorg">Xorg</a>
+to avoid possible issues.</p>
+<h3 id="using-your-package-manager"><a class="anchor" href="#using-your-package-manager" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using your package manager</h3>
 <ul>
 <li>On Arch Linux
 the official binary from
@@ -100,21 +106,36 @@ I'm sure you'll find Anki in repositories of your distribution as well.</li>
 <li>Debian users and users of other <em>stable</em> distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.</li>
-<li>Please don't install Anki via <strong>FlatPak</strong>, Snap packages or other non-native package managers.
-People have been reporting various problems connected to these installation methods.</li>
 </ul>
-<p>To run Anki, type <code>anki</code> in the terminal and press Enter.
+<h3 id="using-pip"><a class="anchor" href="#using-pip" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using pip</h3>
+<p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
+<pre><code>$ pip install --upgrade aqt
+</code></pre>
+<ul>
+<li><code>pip</code> places executable files in <code>~/.local/bin/</code> by default.
+Don't forget to add this directory to the
+<a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</li>
+<li>To run Anki, type <code>anki</code> in the terminal and press Enter.
 However, having a
 <a href="https://wiki.archlinux.org/title/Desktop_entries">desktop entry</a>
 is more convenient.
 Download
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop">this file</a>
-and save it in <code>~/.local/share/applications</code>.</p>
-<p>If after installing Anki with <code>pip</code>
+and save it in <code>~/.local/share/applications</code>.</li>
+<li>If after installing Anki with <code>pip</code>
 <a href="https://wiki.archlinux.org/title/Fcitx">Fcitx</a>
 doesn't work,
 open your <code>~/.profile</code> (<code>~/.pam_environment</code> or a similar file)
-and add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>.</p>
+and add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>.</li>
+<li>Anki depends on <a href="https://mpv.io/">mpv</a> to play audio.
+You have to install it separately.</li>
+<li>You may have to install <a href="https://pypi.org/project/PyQt5/">PyQt5</a> as well.</li>
+</ul>
+<h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
+<p>If you're still unable to install or run Anki, refer to
+<a href="https://docs.ankiweb.net/platform/linux/installing.html">Anki Manual</a>
+and
+<a href="https://betas.ankiweb.net/">Anki Betas guide</a>.</p>
 <h2 id="sync-your-mobile-device"><a class="anchor" href="#sync-your-mobile-device" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sync your mobile device</h2>
 <p>By <a href="https://ankiweb.net/account/register">signing up</a> for AnkiWeb
 you can keep your cards synchronized across multiple machines.
@@ -174,12 +195,14 @@ if you are consistent and feel confident that you will never have a backlog of A
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.</p>
 </li>
-<li><p><strong>Anki 2.1. scheduler.</strong>
+<li><p><strong>Anki 2021 scheduler.</strong>
+This is a
+<a href="https://faqs.ankiweb.net/the-2021-scheduler.html">new scheduler</a>
+that comes with Anki 2.1.45+.
 If your version of Anki doesn't show this option, it has been already enabled by default.
 Otherwise, make sure to enable it.
-The old V1 scheduler was buggy and clunky.
-The new one fixes its issues.
-You can read about it in detail <a href="https://faqs.ankiweb.net/the-anki-2.1-scheduler.html">here</a>.</p>
+The old <code>V1</code> scheduler was buggy and clunky.
+The new one fixes its issues.</p>
 <p>Main killer features:</p>
 <ul>
 <li>You can have subdecks and review all of them at once,
@@ -187,13 +210,6 @@ the cards will be properly mixed when reviewing.</li>
 <li>You can learn new cards in filtered decks.
 Filtered decks no longer reset learning steps when rebuilt or emptied.</li>
 </ul>
-</li>
-<li><p><strong>V3 scheduler.</strong>
-This is a
-<a href="https://faqs.ankiweb.net/the-2021-scheduler.html">new scheduler</a>
-that comes with Anki 2.1.45+.
-Compared to V2 scheduler, this one is not as important.
-It's up to you to enable it.</p>
 </li>
 </ul>
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>

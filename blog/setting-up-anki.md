@@ -47,19 +47,24 @@ to help you get things up and running as quickly as possible.
 
 ## Installation
 
-It's quite simple.
-The latest version can be installed with
-[pip](https://archlinux.org/packages/?name=python-pip):
+There are two main ways to install Anki.
 
-```
-$ pip install --upgrade aqt
-```
+* Using your distribution's package manager (pacman, apt, dnf, etc.).
+* Using [pip](https://pip.pypa.io/en/stable/).
 
-`pip` places executables in `~/.local/bin/` by default.
-Don't forget to add this directory to the
-[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
+The first method guarantees that you'll have the right dependencies installed,
+but you may get an old version of Anki.
+Distro maintainers are not very good at keeping Anki up-to-date.
+The second method guarantees that you get the latest version,
+but you need to make sure you have all the dependencies installed.
 
-Additional methods:
+Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
+People have been reporting various problems connected to these installation methods.
+
+If you are running Wayland, please revert to [Xorg](https://wiki.archlinux.org/title/xorg)
+to avoid possible issues.
+
+### Using your package manager
 
 * On Arch Linux
 the official binary from
@@ -71,22 +76,40 @@ I'm sure you'll find Anki in repositories of your distribution as well.
 * Debian users and users of other *stable* distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.
-* Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
-People have been reporting various problems connected to these installation methods.
 
-To run Anki, type `anki` in the terminal and press Enter.
+### Using pip
+
+The latest version can be installed with the [aqt](https://pypi.org/project/aqt/) package.
+
+```
+$ pip install --upgrade aqt
+```
+
+* `pip` places executable files in `~/.local/bin/` by default.
+Don't forget to add this directory to the
+[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
+* To run Anki, type `anki` in the terminal and press Enter.
 However, having a
 [desktop entry](https://wiki.archlinux.org/title/Desktop_entries)
 is more convenient.
 Download
 [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
 and save it in `~/.local/share/applications`.
-
-If after installing Anki with `pip`
+* If after installing Anki with `pip`
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)
 doesn't work,
 open your `~/.profile` (`~/.pam_environment` or a similar file)
 and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
+* Anki depends on [mpv](https://mpv.io/) to play audio.
+You have to install it separately.
+* You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
+
+### Troubleshooting
+
+If you're still unable to install or run Anki, refer to
+[Anki Manual](https://docs.ankiweb.net/platform/linux/installing.html)
+and
+[Anki Betas guide](https://betas.ankiweb.net/).
 
 ## Sync your mobile device
 
@@ -159,12 +182,14 @@ if you are consistent and feel confident that you will never have a backlog of A
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.
 
-* **Anki 2.1. scheduler.**
+* **Anki 2021 scheduler.**
+This is a
+[new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
+that comes with Anki 2.1.45+.
 If your version of Anki doesn't show this option, it has been already enabled by default.
 Otherwise, make sure to enable it.
-The old V1 scheduler was buggy and clunky.
+The old `V1` scheduler was buggy and clunky.
 The new one fixes its issues.
-You can read about it in detail [here](https://faqs.ankiweb.net/the-anki-2.1-scheduler.html).
 
     Main killer features:
     * You can have subdecks and review all of them at once,
@@ -172,15 +197,7 @@ You can read about it in detail [here](https://faqs.ankiweb.net/the-anki-2.1-sch
     * You can learn new cards in filtered decks.
     Filtered decks no longer reset learning steps when rebuilt or emptied.
 
-* **V3 scheduler.**
-This is a
-[new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
-that comes with Anki 2.1.45+.
-Compared to V2 scheduler, this one is not as important.
-It's up to you to enable it.
-
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
-
 
 ### Options Groups
 
