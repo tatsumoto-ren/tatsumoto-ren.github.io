@@ -15,7 +15,7 @@ you're going to continue to use Anki
 in your study time to memorize sentence items.
 The focus on sentences is very important. Your practice in Anki should mimic real world situations.
 In other words, you should *practice how you play*.
-And in real world we read sentences and we write sentences.
+And in real world we read sentences, and we write sentences.
 Having said that, word cards have their place in your SRS.
 They are very effective for studying concrete nouns.
 
@@ -39,7 +39,7 @@ ____
 A [sentence card](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
 is an SRS card with a sentence in the question field.
 The sentence has **one** unknown word or phrase.
-Some people might make cards with multiple unknowns
+Some people might make cards with multiple unknowns,
 but it comes at the expense of harder reviews.
 
 Wozniak argues that:
@@ -82,7 +82,7 @@ The practice of reading sentences closely resembles real world situations.
 The target word is embedded in a context that helps make the meaning of the word clear.
 
 But they have certain weaknesses, the main being **review time**.
-On average it takes 20 seconds to answer a sentence card.
+On average, it takes 20 seconds to answer a sentence card.
 Thankfully, there are some tricks to do it faster, which are described in the TSCs section.
 
 >By reviewing sentences you will build internal grammar
@@ -100,7 +100,7 @@ Nevertheless, there is some truth to the statement.
 Though according to Wozniak passive recognition doesn't guarantee active recall,
 reading the same piece many times has an effect similar to TV commercials.
 You sometimes can recite them from memory just from repeated exposure.
-You can expect to memorize many sentences this way
+You can expect to memorize many sentences this way,
 but you will almost certainly not memorize all of them.
 I must point out that it's a mere side effect
 and shouldn't be treated as an advantage of using sentence cards.
@@ -134,15 +134,20 @@ The nouns `phone`, `dog`, `car` are concrete nouns.
 If a word is not a concrete noun,
 learning it through a simple word card is not going to be effective.
 For example, words like `復活` or `走る` require context to understand their meaning and usage.
-Without it you will almost certainly get the wrong idea
-and won't know which grammar construction is used with the word.
+Without it, you will almost certainly misunderstand the meaning
+and won't know which grammar constructions should be used with the word.
 
-But because most concrete nouns are used similarly
+But because most concrete nouns
+have clear meanings,
+are used similarly
 and are surrounded by similar grammar patterns
 that can be easily picked up from repeated exposure
 providing context is completely unnecessary in my opinion.
-In addition, the time saved by using SWCs for nouns outweighs the benefits of using sentence cards
-because one can add many many more SWCs than sentence cards
+Often you can understand the meaning of a concrete noun even without a dictionary.
+To understand what `猫` means, it's enough to look at a photo of it.
+
+The time saved by using SWCs for nouns outweighs the benefits of using sentence cards
+because one can add many more SWCs than sentence cards
 and can rep them much more quickly as well without thinking about context.
 By simply thinking of the reading and the meaning of a word you're making SWCs very low effort.
 
@@ -201,7 +206,7 @@ This makes cards harder to learn and review:
 * Because words in isolation are rarely seen in immersion, such practice is unnatural.
 * Because the piece of knowledge you're testing yourself on is so small,
 it is difficult to associate the word directly to its meaning.
-* You spend more time recalling the meaning compared to cards with context on the front.
+* You spend more time recalling the meaning compared to a card with context on the front.
 
 Because the context is missing completely
 there's often a need to rely on additional field
@@ -236,7 +241,7 @@ and stop reading as soon as I've understood the clause.
 
 When you learn a sentence for the first time,
 make sure to read and understand it fully,
-even if you don't want to read it every time the cards comes up.
+even if you don't want to read it every time the card comes up.
 Understanding the context greatly helps in understanding of the target word.
 
 Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
@@ -330,9 +335,9 @@ principle by testing yourself on something that is rarely seen in real life.
 > But what if I memorize the meaning of the sentence as a whole,
 and become unable to recognize or understand the target word in other contexts?
 
-First of all you won't be able to read very well at all
+First you won't be able to read very well at all
 until you actually practice reading and put in the hours.
-The SRS can only help a little bit.
+The SRS can only help a little.
 Second, it doesn't happen often.
 Yes, sometimes you will form context-dependent memories
 and can expect to take a few lookups in the wild to fully acquire a word.
@@ -382,12 +387,12 @@ You can skip to the target word if you want.
 But with regular sentence cards **you don't know what the target word was**
 until you reveal the answer.
 With TSCs you highlight the target word when you create a card.
-Then when the card comes up for review,
+Then, when the card comes up for review,
 you always have a choice to read just the target word.
 
 Keep in mind that any time you spend in the SRS is time you can't spend on immersion.
 So the purpose of these tips is to reduce the time spent reviewing
-and leverage the mental load of srsing.
+and leverage the mental load of SRSing.
 By applying them you slightly reduce the benefits of using sentence cards,
 but I think that ultimately any technique that helps you stay in the game is a good trade-off.
 If you keep unhealthy relations with the SRS
@@ -449,8 +454,8 @@ adding audio for the target expression is not necessary.
 
 #### Distinguishing readings
 
-If a word has many readings
-or you want to avoid failing a card due to a common reading mistake you tend to make,
+If a word has many readings,
+or if you want to avoid failing a card due to a common reading mistake you tend to make,
 TSCs let you use furigana on top to pin-point the correct one.
 
 Make sure that your front template allows displaying furigana:
@@ -481,7 +486,7 @@ but are designed for people who worry about forming context-dependent memories.
 <p align="center"><img alt="fallback card" class="shadow" src="img/fallback_card.webp"></p>
 <p align="center"><i>Front side of a fallback card.</i></p>
 
-One disadvantage is that this card template is a little bit tricky to make yourself.
+One disadvantage is that this card template is somewhat tricky to make yourself.
 You have to play around with css and html of your cards
 to make the context appear when you hover over the word.
 
