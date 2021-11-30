@@ -203,12 +203,6 @@ and you find a really good sentence that you want to learn right away.
 <p align="center"><img alt="learn-now-button" class="shadow" src="https://user-images.githubusercontent.com/69171671/94028820-bc621180-fdab-11ea-8adb-fde78e8ca008.jpg"></p>
 <p align="center"><i>Context menu.</i></p>
 
-### [Ze Frozen Fields](https://ankiweb.net/shared/info/94610912)
-
-When you add many cards at once manually, it lets you keep what's typed in a field.
-
-<p align="center"><img alt="frozen-fields" class="shadow" src="https://raw.githubusercontent.com/glutanimate/frozen-fields/master/screenshots/screenshot.png"></p>
-
 ### [Add Hyperlink](https://ankiweb.net/shared/info/318752047)
 
 As you know from the [rule 18](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
@@ -257,6 +251,16 @@ are split between two and more notes.
 
 <p align="center"><img class="shadow" alt="merge notes" src="img/mergenotes.webp"></p>
 <p align="center"><i>Context menu and settings.</i></p>
+
+### [Ze Frozen Fields](https://ankiweb.net/shared/info/94610912)
+
+When you add many cards at once manually, it lets you keep what's typed in a field.
+
+<p align="center"><img alt="frozen-fields" class="shadow" src="https://raw.githubusercontent.com/glutanimate/frozen-fields/master/screenshots/screenshot.png"></p>
+
+**Note:**
+This add-on is no longer needed on newer versions of Anki.
+You can achieve the same functionality by pressing the 📌 button.
 
 ## Add-ons to avoid
 
