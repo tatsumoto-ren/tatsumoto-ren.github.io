@@ -2,9 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 30 Nov 2021 15:38:42 +0300</lastBuildDate>
-<pubDate>Tue, 30 Nov 2021 15:38:42 +0300</pubDate>
+<lastBuildDate>Tue, 30 Nov 2021 23:17:52 +0300</lastBuildDate>
+<pubDate>Tue, 30 Nov 2021 23:17:52 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Sentence mining</title><description><![CDATA[
+<p><strong>Sentence mining</strong> is a process of extracting sentences
+that contain unknown words
+from the content you read, watch or listen to in your target language
+and adding them to Anki in a form of targeted sentence cards (TSCs).
+You put an example sentences in the question field
+and the definitions, pictures and pronunciations in the answer field.</p>
+<p>Sentence mining and immersion are the two most important components of our method.
+Immersion provides you with new vocabulary to be mined,
+and mined sentences become fuel that advances your language learning.</p>
+<p>Finding your own sentences is much more fun than learning from a premade deck,
+or, god forbid, a textbook.
+Once you reach this stage, it is way harder to quit Japanese,
+as the foundation is already in place.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/sentence-mining.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/sentence-mining.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 30 Nov 2021 23:15:48 +0300</pubDate></item>
 <item><title>
 Retiming subtitles</title><description><![CDATA[
 <p>Japanese subtitles can be found in
@@ -143,15 +163,4 @@ but it's impossible to apply the knowledge to real native content when reading.<
 <guid>https://tatsumoto-ren.github.io/blog/learning-kanji.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 25 May 2021 06:53:51 +0300</pubDate></item>
-<item><title>
-Resources</title><description><![CDATA[
-<p>This is the Ajatt-Tools Resources List.
-With the help of our community we've gathered the links to help you in your Japanese studies.
-We prioritize libre software and content that you can download for free.
-Everyone is welcome to suggest more resources in our chat.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/resources.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/resources.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 17 May 2021 21:26:34 +0300</pubDate></item>
 </channel></rss>
