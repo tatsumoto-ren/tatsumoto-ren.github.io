@@ -17,6 +17,7 @@
 	* [Basic vocabulary](basic-vocabulary.html)
 * On the journey
 	* [One target sentences](one-target-sentences.html)
+	* [Sentence mining](sentence-mining.html)
 	* [Reviewing Anki cards](how-to-review.html)
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
