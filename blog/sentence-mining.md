@@ -33,7 +33,9 @@ At first I mixed sentence mining with learning sentences from a premade deck,
 but eventually I stopped using premade decks
 and switched to solely using my immersion to find new sentences.
 
-If you haven't finished [Kanji Transition](jp1k-anki-deck.html), do it now.
+* If you haven't finished [Kanji Transition](jp1k-anki-deck.html), do it now.
+* If you wish to continue supplementing your study with a premade deck,
+go back to the [Basic vocabulary](basic-vocabulary.html).
 
 ## Mining process
 
@@ -99,7 +101,8 @@ Thus, the question field may contain more than one sentence
 if it helps clarify the usage of the target word.
 However, prefer examples that aren't too long.
 You can affect your review time if you often choose long context.
-It's okay to add parts of sentences to Anki as long as they retain distinct meanings.
+It's okay to add parts of longer sentences to Anki.
+The clause must remain grammatically correct and retain a distinct meaning.
 
 ## How to choose words
 
@@ -116,12 +119,12 @@ If none of your frequency lists have data for a word,
 it's probably better not to mine it.
 
 In the beginning it will be impossible to mine every sentence you come across each day.
-You're going to have to choose when to stop adding new cards to Anki.
-Choose your daily sentence quota.
+You're going to have to decide when to stop adding new cards to Anki.
+Determine your daily sentence quota.
 Once you reach it, stop collecting new sentences and continue immersing freely.
 Continue paying attention to your immersion during this time.
 
-Setting the daily qouta will quickly become unnecessary
+Setting the daily quota will quickly become unnecessary
 as your comprehension of the language improves.
 
 ## Card template
@@ -134,6 +137,7 @@ you don't have to set up everything yourself.
 If you wish to make your own card template, follow these rules.
 
 * Put an example sentence and/or the target word on the front.
+It should be the only thing you have on the front.
 * All hints should go on the back.
 Furigana, pronunciation, meaning is what you test yourself on.
 Having any of them on the front will spoil the target word.
@@ -144,11 +148,16 @@ Speaking comes naturally through absorbing input.
 ## Aim for high quality cards
 
 TSCs that contain
-audio recordings and image snapshots
+audio recordings, pictures or screenshots
 of the scenes they were taken from
 on the back
 are referred to as high quality sentence cards.
 Additional information on them helps you remember the target word better.
+
+Your cards should imitate reading practice in real life situations.
+Naturally, don't put the picture or audio on the front.
+Out in the wild the hints won't be there to help you.
+
 Try to make more high quality cards instead of cards that only contain text.
 There are many tools available to streamline adding audio and images to your cards.
 They are linked on the Resources page.
