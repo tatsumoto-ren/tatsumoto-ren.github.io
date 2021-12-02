@@ -231,6 +231,8 @@ so that they don't waste your review time.
 After you've neutralized a leech, decide what to do with it.
 Change the content of the card to make it easier to memorize
 or just wait until your brain is ready to learn it again.
+Before you re-learn the card, you have to
+[reset it](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
 
 In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
 The best way to force a particular reading into your memory
