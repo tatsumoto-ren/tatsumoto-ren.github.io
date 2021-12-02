@@ -133,7 +133,8 @@ A *concrete noun* is a noun that you can see or touch.
 The nouns `phone`, `dog`, `car` are concrete nouns.
 If a word is not a concrete noun,
 learning it through a simple word card is not going to be effective.
-For example, words like `復活` or `走る` require context to understand their meaning and usage.
+For example, words like <span title="ふっかつ ー restore, revive">復活</span>
+or <span title="はしる ー to run">走る</span> require context to understand their meaning and usage.
 Without it, you will almost certainly misunderstand the meaning
 and won't know which grammar constructions should be used with the word.
 
@@ -144,7 +145,8 @@ and are surrounded by similar grammar patterns
 that can be easily picked up from repeated exposure
 providing context is completely unnecessary in my opinion.
 Often you can understand the meaning of a concrete noun even without a dictionary.
-To understand what `猫` means, it's enough to look at a photo of it.
+To understand what <span title="ねこ ー a cat">猫</span> means,
+it's enough to look at a photo of it.
 
 The time saved by using SWCs for nouns outweighs the benefits of using sentence cards
 because one can add many more SWCs than sentence cards

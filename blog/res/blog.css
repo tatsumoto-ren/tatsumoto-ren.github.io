@@ -717,3 +717,15 @@ article table tr:nth-child(2n) {
 #sidebar .sidebar_header > .close_button {
     font-size: 36px;
 }
+
+/* Tooltips */
+
+article span[title] {
+    cursor: help;
+    text-decoration: underline dotted;
+}
+
+article span[title]:hover {
+    text-decoration: none;
+    color: rgb(159, 20, 26);
+}
