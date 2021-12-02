@@ -13,6 +13,8 @@ and mined sentences become fuel that advances your language learning.
 
 Finding your own sentences is much more fun than learning from a premade deck,
 or, god forbid, a textbook.
+Because you're creating Anki cards out of vocabulary found in your immersion,
+you're always learning what is relevant to you.
 Once you reach this stage, it is way harder to quit Japanese,
 as the foundation is already in place.
 
@@ -113,6 +115,15 @@ Choose frequency lists that match your immersion content.
 If none of your frequency lists have data for a word,
 it's probably better not to mine it.
 
+In the beginning it will be impossible to mine every sentence you come across each day.
+You're going to have to choose when to stop adding new cards to Anki.
+Choose your daily sentence quota.
+Once you reach it, stop collecting new sentences and continue immersing freely.
+Continue paying attention to your immersion during this time.
+
+Setting the daily qouta will quickly become unnecessary
+as your comprehension of the language improves.
+
 ## Card template
 
 Refer to [Discussing various card templates](discussing-various-card-templates.html)
@@ -181,10 +192,13 @@ Machine translations are the least preferable.
 
 It is advised to learn from 10 to 30 new cards a day
 depending on your preference and the amount of time you have for Anki.
+One way to determine your organic limit is to start with 10 cards a day and see how it goes.
+Increase the daily amount if you feel like you can handle more.
+
 When it comes to how many cards you should make, there is no concrete number.
 There are people who make cards in advance on a weekend and slowly learn them on weekdays.
 Some people make cards and learn them right away.
-Some people learn the cards they already made on the next day.
+Some people learn the cards they have already made on the next day.
 What's important is that you always have sentences in your deck ready to be learned.
 
 Tags: guide
