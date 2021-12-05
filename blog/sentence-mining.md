@@ -4,7 +4,7 @@
 that contain unknown words
 from the content you read, watch or listen to in your target language
 and adding them to Anki in a form of targeted sentence cards (TSCs).
-You put an example sentences in the question field
+You put an example sentence in the question field
 and the definitions, pictures and pronunciations in the answer field.
 
 Sentence mining and immersion are the two most important components of our method.
@@ -163,7 +163,7 @@ There are many tools available to streamline adding audio and images to your car
 They are linked on the Resources page.
 
 <p align="center"><img src="img/example-tsc.webp"></p>
-<p align="center"><i>Recommended card format.</i></p>
+<p align="center"><i><a target="_blank" href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Recommended card format</a>.</i></p>
 
 ## Grammar
 
