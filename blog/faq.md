@@ -76,7 +76,8 @@ there are free alternatives.
 
 If you don't want to spend your time reading the AJATT site,
 that's totally fine too.
-This site covers most of its key points.
+[This site](table-of-contents.html)
+covers most of its key points.
 
 ### Should I watch anime with English subtitles?
 
@@ -184,7 +185,7 @@ Kanjidamage mnemonics helped me out at first,
 but I quickly moved past them as I continued to learn new words.
 
 If you choose to use mnemonics, don't rely on them for too long.
-You don't wanna be an advanced learner who still thinks of mnemonic stories
+You don't want to be an advanced learner who still thinks of mnemonic stories
 when trying to read every word.
 
 ### I did RRTK but my kanji ability still feels shaky. Should I do the JP1K?
@@ -195,7 +196,7 @@ so that you could practice kanji in a modified environment for a while
 and then transition to reading real Japanese and learn real words.
 
 If you have completed one such deck, you don't need to do another one of the same kind.
-Instead you should go to the next level and do
+Instead, you should go to the next level and do
 [Ankidrone Starter Pack](basic-vocabulary.html).
 Eventually your goal is to start sentence mining while consuming native content.
 
@@ -215,7 +216,7 @@ They offer higher language density.
 
 ### Should I limit how much dubbed content I immerse with? What are the downsides of dubbed content?
 
-First of all, it's pretty hard to find dubbed content
+First, it's pretty hard to find dubbed content
 compared to native content in case of Japanese.
 You can probably do it if you use some paid platform, but torrents contain almost nothing.
 Second, Japanese has an abundance of native content
@@ -259,6 +260,24 @@ As long as you finish your daily reviews any time is fine.
 Some people do Anki first thing in the morning,
 some spread their reviews throughout the day.
 
+### Is there a "bare minimum" amount of Anki you would recommend to people who hate Anki?
+
+There are more people out there who hate Anki than those who like it.
+I somewhat dislike Anki too.
+Since around 2020 Anki has underwent significant changes that outraged the users.
+Many existing add-ons break with each new release.
+Maybe Anki needs to be completely replaced by another SRS.
+
+I still use Anki because the benefits outweigh the costs.
+If you hate Anki because you dread your reviews, you should just change the settings.
+It is very easy to make Anki unusable by applying the wrong settings.
+Try to find something that works for you.
+On this site you can find my recommended settings.
+
+The minimum amount of time you need to spend SRSing is highly individual.
+As long as you can finish your daily reviews, learn new cards and add several new cards,
+you should be fine.
+
 ### What is a 1T sentence?
 
 A `1T` (one-target) sentence is a sentence
@@ -275,6 +294,13 @@ It's one of worst plagues of the Japanese learning community.
 I recommend
 [targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
 (TSCs) or fallback cards instead.
+
+### How should I go about making cards for words that are written identically but pronounced differently?
+
+When you spot a pair of words that are written identically but read differently,
+make TSCs with those words and use furigana with <span title="ばつ mark">×</span> on the front
+to distinguish between the readings.
+I have given examples [here](discussing-various-card-templates.html#distinguishing-readings).
 
 ### Anki to immersion ratio. How much time should I spend SRSing?
 
@@ -313,7 +339,7 @@ See [New cards](how-to-review.html#new-cards).
 
 ### Should I read sentences aloud when doing Anki reps?
 
-I don't necessary recommend it.
+I don't necessarily recommend it.
 See [Reading sentences aloud](how-to-review.html#reading-sentences-aloud).
 
 ### How to make monolingual TSCs for vocab and grammar?
@@ -382,7 +408,7 @@ this is something that comes naturally with immersion.
 Later after you become fluent we advise learning Japanese grammar in Japanese,
 using resources meant for native speakers.
 
-### Should I trust mattvsjapan and the Refold site?
+### Should I trust mattvsjapan and the "Refold" site?
 
 Generally, watching or reading the content he produced before around mid 2018 is safe
 because he seems to be quite honest in it.
@@ -398,7 +424,7 @@ It will enable you to **distinguish** hardcore advice from advice for the genera
 Don't get me wrong though,
 listening to mattvsjapan is still a thousand times better
 than listening to what *certain* other people say on the Internet.
-It's probably the second most valuable source after the AJATT site itself.
+It's probably one of the most valuable sources after this site and the AJATT site.
 
 ### Is there a Japanese syntax parser similar to Jisho.org but with no English?
 
@@ -575,6 +601,19 @@ Just don't.
 You should never stop using the SRS, even after you "make it".
 A few minutes of SRSing each day is a hundred times better than no SRSing at all.
 
+### What do you think of the Core 6K deck? Is it a good replacement for the Tango decks?
+
+You don't need to "replace" Tango decks with anything.
+You'll find both decks in AnkiDrone Starter Pack.
+Try them, see which you like more.
+Core 6K is a part of Core 10K.
+
+Core 10K and Tango are quite similar.
+Both are TSC decks with vocabulary and sentences voiced by a native speaker.
+I recommend Tango over Core10k.
+In Tango the sentences are a little more natural,
+and the presented vocabulary looks more useful in everyday life.
+
 ### Should I read through Tae Kim while going through the Tango decks?
 
 Only if you don't understand some cards in the deck.
@@ -682,7 +721,7 @@ What I always did is I followed
 and memorized different representations of a particular kanji.
 So, I would take the kanji I have trouble remembering and look it up on Jisho.org
 [like this](https://jisho.org/search/%EF%BC%8A%E8%BD%A2%EF%BC%8A).
-Then I would deliberately find example sentences with some of the words and make Anki cards.
+Then I would deliberately find example sentences with the words and make Anki cards.
 
 ### Do your Tango decks have audio or text on the front? Which way is better?
 
@@ -863,7 +902,7 @@ You may want to reach a reasonable level of fluency before you choose to do that
 
 If you want to live in Japan,
 writing Japanese is going to be important.
-Otherwise, only learn writing if you're passionate about it.
+Otherwise, only learn to write if you're passionate about it.
 These days the ability to produce kanji from memory isn't nearly as important as it used to be.
 Most people type on their phones or computers, and typing is done phonetically.
 
