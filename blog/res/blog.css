@@ -729,3 +729,58 @@ article span[title]:hover {
     text-decoration: none;
     color: rgb(159, 20, 26);
 }
+
+/* Link buttons */
+
+a.md-button,
+a.md-button:visited {
+    min-width: 225px;
+    height: 50px;
+    color: white;
+    background-color: #0b5570;
+    font-weight: 700;
+    border-radius: 2.2px;
+    text-decoration: none;
+    line-height: 1.6;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 5px;
+    flex-flow: row nowrap;
+    transition: background-color 125ms;
+    padding: 0 1.8em;
+}
+
+a.md-button:hover,
+a.md-button:active {
+    text-decoration: none;
+    background-color: #00bad6;
+}
+
+a.md-button::before {
+    content: "";
+    width: 1.4em;
+    height: 1.4em;
+    background-size: 1.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Chats */
+
+a.md-button.element {
+    background-color: #0dbd8b;
+}
+a.md-button.element:hover {
+    background-color: #099970;
+}
+a.md-button.element::before {
+    background-image: url("https://app.element.io/welcome/images/logo.svg");
+    background-size: 2em;
+    filter: grayscale(100%) brightness(2);
+}
+a.md-button.telegram::before {
+    background-image: url("https://telegram.org/img/t_logo.svg");
+}

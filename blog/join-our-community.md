@@ -54,11 +54,7 @@ and register an account on
 [any server](list-of-matrix-servers.html)
 that is **not** matrix.org.
 
-<p align="center">
-	<a href="element://vector/webapp/#/room/#join:g33k.se">
-		<img alt="matrix" src="img/join_us_on_element_220x51.png">
-	</a>
-</p>
+<a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:g33k.se">Join us on Element</a>
 
 If the button above doesn't work,
 most likely you don't have
@@ -80,11 +76,7 @@ it is still better than many proprietary services.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
 
-<p align="center">
-	<a href="https://t.me/jap_chat">
-		<img alt="telegram" src="img/start_chat_in_telegram_220x51.png">
-	</a>
-</p>
+<a target="_blank" class="md-button telegram" href="https://t.me/jap_chat">Join us on Telegram</a>
 
 ## Questions
 
