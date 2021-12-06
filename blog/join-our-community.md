@@ -52,7 +52,7 @@ Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
 and register an account on
 [any server](list-of-matrix-servers.html)
-that is **not** matrix.org.
+**except** matrix.org.
 
 <a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:g33k.se">Join us on Element</a>
 
