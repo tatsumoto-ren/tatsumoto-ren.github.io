@@ -99,12 +99,8 @@ Contains 98% of what you need to actually learn Japanese.
 	and because there's no Tor address,
 	and they block all Tor access,
 	we have to use mirrors.
-
-	**Mirrors:**
-	* [NyaaLOL](https://nyaa.lol/)
-	* [MeowInJapanese](https://meowinjapanese.cf/)
-	* [Nyaa ISS](https://nyaa.iss.one/).
-	* [NyaaPantsu](https://nyaa.net/)
+	Currently there's only one working mirror I know,
+	[Nyaa ISS](https://nyaa.iss.one/).
 * [Rutracker](https://rutracker.org/).
 Another torrent site.
 Has lots of Japanese movies, dramas and anime.
