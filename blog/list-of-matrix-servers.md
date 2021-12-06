@@ -166,6 +166,7 @@ without having to use a desktop client.
 * https://c.wfr.moe/
 * https://uddu.chat/
 * https://ahriman.tk/
+* https://mx.aire.ml/
 * https://chat.crq.ac/
 * https://chat.guy.sh/
 * https://houtworm.im/
