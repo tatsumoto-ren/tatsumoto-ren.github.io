@@ -108,8 +108,8 @@ recommended by
 	* [cuum.space](https://element.cuum.space/)
 * My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/)
+	* [3000.chat](https://3000.chat/element/)
 * Servers run by Japanese people:
-	* [076.ne.jp](https://matrix.076.ne.jp/)
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
 	* [juggler.jp](https://matrix.juggler.jp/)
