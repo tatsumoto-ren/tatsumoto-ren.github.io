@@ -398,6 +398,22 @@ This number is nothing special, but it's more fun to have a goal to work towards
 I managed to learn 10,000 sentence cards in 11 months.
 Try this challenge too, but remember that Anki is just a supplement for immersion learning.
 
+## Summary
+
+In the following articles you'll find out how to go through the learning steps.
+Continue reading this site for detailed instructions.
+Here's an overview.
+
+1) Build a Japanese immersion environment.
+Start consuming native Japanese content actively and passively.
+1) Quickly learn the Japanese alphabets with a drilling app.
+1) Kanji studies. Do Kanji Transiiton or an isolated kanji deck. This step is optional.
+1) Basic vocabulary. Do Ankidrone Starter Pack. This step is optional.
+1) Create your own mining deck. You will be adding everything you don't know to this deck.
+1) Basic grammar. Find a grammar guide you like and read it.
+You may add example sentences from the guide to your mining deck.
+1) Continue immersing and making Anki cards.
+
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
 <p align="center"><i>Watch anime.</i></p>
 
