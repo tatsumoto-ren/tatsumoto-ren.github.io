@@ -109,6 +109,9 @@ recommended by
 * My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/)
 	* [3000.chat](https://3000.chat/element/)
+	* [matrix.lolispace.moe](https://matrix.lolispace.moe/)
+	* [linuxdelta.com](https://element.linuxdelta.com/)
+	* [tomesh.net](https://chat.tomesh.net/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -152,6 +155,7 @@ like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 * https://element.anontier.nl/
 * https://matrix.ffggrz.de/app/
 * https://crystal-temple.flak.is/
+* https://element.linuxdelta.com/
 
 ### With Element
 
