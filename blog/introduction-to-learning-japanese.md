@@ -402,16 +402,20 @@ Try this challenge too, but remember that Anki is just a supplement for immersio
 
 In the following articles you'll find out how to go through the learning steps.
 Continue reading this site for detailed instructions.
-Here's an overview.
+Below is a quick overview.
 
 1) Build a Japanese immersion environment.
 Start consuming native Japanese content actively and passively.
 1) Quickly learn the Japanese alphabets with a drilling app.
-1) Kanji studies. Do Kanji Transiiton or an isolated kanji deck. This step is optional.
-1) Basic vocabulary. Do Ankidrone Starter Pack. This step is optional.
-1) Create your own mining deck. You will be adding everything you don't know to this deck.
-1) Basic grammar. Find a grammar guide you like and read it.
-You may add example sentences from the guide to your mining deck.
+1) The basics.
+	* Do Kanji Transition or an isolated kanji deck.
+	* Immerse in Japanese media.
+	* While doing Kanji Transition, find a grammar guide you like and read it.
+	Every day dedicate a short period of time, 30 minutes to an hour, to study grammar.
+	* Create your own mining deck.
+	You will be adding everything else you don't know to this deck.
+	You may add example sentences from the grammar guide to your mining deck.
+	* Do Ankidrone Starter Pack. This step is optional.
 1) Continue immersing and making Anki cards.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
