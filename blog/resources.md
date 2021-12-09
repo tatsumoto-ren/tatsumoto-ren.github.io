@@ -241,6 +241,7 @@ You may need a Japanese IP address for some of these.
 * [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
 * [This gist](https://gist.github.com/tatsumoto-ren/78ba4e5b7c53c7ed2c987015fa05cc2b)
+* [Japanese Movie Subtitles](https://github.com/eurusdagr/Japanese-Movies-Subtitles)
 
 ## Software
 
