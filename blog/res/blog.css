@@ -784,3 +784,27 @@ a.md-button.element::before {
 a.md-button.telegram::before {
     background-image: url("https://telegram.org/img/t_logo.svg");
 }
+
+/* Donations */
+
+a.md-button.lp {
+    background-color: #ffee16;
+    color: #1a171b;
+}
+a.md-button.lp:hover {
+    background-color: #fff463;
+    color: #333;
+}
+a.md-button.lp::before {
+    background-image: url("https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg");
+}
+a.md-button.patreon {
+    text-transform: uppercase;
+    background-color: #f96854;
+}
+a.md-button.patreon:hover {
+    background-color: #ff424d;
+}
+a.md-button.patreon::before {
+    background-image: url("../img/patreon_logo.webp");
+}

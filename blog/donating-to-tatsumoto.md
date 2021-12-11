@@ -16,13 +16,13 @@ You can support me over at one of the membership platforms or donate cryptocurre
 Liberapay is a recurrent donations platform.
 Liberapay does not take a cut of payments.
 
-<p align="center"><a target="_blank" href="https://liberapay.com/Tatsumoto/donate"><img style="height: 51px;" alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></p>
+<a target="_blank" class="md-button lp" href="https://liberapay.com/Tatsumoto/donate">Donate using Liberapay</a>
 
 ## Patreon
 
 You can support me over at Patreon by clicking the button below.
 
-<p align="center"><a target="_blank" href="https://www.patreon.com/bePatron?u=43555128"><img alt="patreon" src="img/become_a_patron_button.png"></a></p>
+<a target="_blank" class="md-button patreon" href="https://www.patreon.com/bePatron?u=43555128">Become a patron</a>
 
 ## Monero
 
