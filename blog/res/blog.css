@@ -808,3 +808,38 @@ a.md-button.patreon:hover {
 a.md-button.patreon::before {
     background-image: url("../img/patreon_logo.webp");
 }
+
+/* ToC navigation */
+
+#divbodyholder > #divbody {
+    position: relative;
+}
+.toc_navigation {
+    position: absolute;
+    z-index: 50;
+    bottom: -16px;
+    right: 0px;
+    padding-right: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.toc_navigation > a {
+    min-width: 50px;
+    height: 31px;
+    padding: 0 1.4em;
+}
+.toc_navigation > a::before {
+    background-image: url("../img/up-arrow.svg");
+    filter: invert(1);
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+}
+.toc_navigation > a.next::before {
+    transform: rotate(90deg);
+}
+.toc_navigation > a.prev::before {
+    transform: rotate(-90deg);
+}

@@ -32,9 +32,11 @@ const Utils = {
         const path = window.location.pathname;
         return (path.endsWith('index') || path.endsWith('index.html'))
     },
+    filename: () => {
+        return window.location.pathname.split('/').slice(-1).join('')
+    },
     is_tags_page: () => {
-        const filename = window.location.pathname.split('/').slice(-1).join('')
-        return filename.startsWith('tag_')
+        return Utils.filename().startsWith('tag_')
     },
     query_headers: (parent) => {
         const headers = parent.querySelectorAll(':is(h1, h2, h3, h4, h5, h6)')
@@ -136,6 +138,68 @@ const Sidebar = {
     }
 }
 
+const Toc = {
+    order: [
+        "foreword.html",
+        "introduction-to-learning-japanese.html",
+        "setting-up-anki.html",
+        "useful-anki-add-ons-for-japanese.html",
+        "discussing-various-card-templates.html",
+        "setting-up-yomichan.html",
+        "setting-up-qolibri.html",
+        "yomichan-and-epwing-dictionaries.html",
+        "japanese-fonts.html",
+        "learning-kana-in-two-days.html",
+        "learning-kanji.html",
+        "jp1k-anki-deck.html",
+        "basic-vocabulary.html",
+        "one-target-sentences.html",
+        "sentence-mining.html",
+        "how-to-review.html",
+        "our-immersion-learning-toolset.html",
+        "mining-from-movies-and-tv-shows.html",
+        "mining-from-manga.html",
+        "passive-listening.html",
+        "retiming-subtitles.html",
+        "writing-japanese.html",
+        "resources.html",
+        "faq.html",
+        "random-anime-ranked-easiest-to-hardest.html",
+        "ankidrone-sentence-pack.html",
+        "join-our-community.html",
+        "donating-to-tatsumoto.html",
+    ],
+    make_link: (to, next) => {
+        const a = document.createElement('a')
+        a.href = to
+        a.className = next ? "md-button next" : "md-button prev"
+        a.innerText = next ? "Next" : "Previous"
+        return a
+    },
+    make_nav_container: () => {
+        const div = document.createElement("div")
+        div.className = "toc_navigation"
+        return div
+    },
+    link_adjacent: () => {
+        const i = Toc.order.indexOf(Utils.filename())
+        const outer = document.querySelector('div#divbody')
+        if (i >= 0 && outer) {
+            const container = outer.appendChild(Toc.make_nav_container())
+            const [prev, next] = [Toc.order[i - 1], Toc.order[i + 1]]
+            if (prev !== undefined) {
+                container.appendChild(Toc.make_link(prev, false))
+            }
+            if (next !== undefined) {
+                container.appendChild(Toc.make_link(next, true))
+            }
+        }
+    }
+}
+
+/* Entry point */
+
 document.addEventListener('DOMContentLoaded', () => {
     Sidebar.init()
+    Toc.link_adjacent()
 }, false)
