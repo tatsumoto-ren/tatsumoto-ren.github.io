@@ -87,9 +87,13 @@ Since using a Japanese to Japanese dictionary can be difficult for beginners
 being able to see one word described in multiple ways makes it easier
 to understand what it really means.
 
+* [Setup guide](setting-up-qolibri.html)
 * [Dictionaries](yomichan-and-epwing-dictionaries.html)
-* [In-Depth J-J Dictionary Walkthrough](https://www.youtube.com/watch?v=D-AfT8XW63w)
-* [Making Monolingual Sentence Cards in Real Time](https://www.youtube.com/watch?v=BzuLGmkihf4)
+
+External resources:
+
+* [In-Depth J-J Dictionary Walkthrough](https://redirect.invidious.io/watch?v=D-AfT8XW63w)
+* [Making Monolingual Sentence Cards in Real Time](https://redirect.invidious.io/watch?v=BzuLGmkihf4)
 
 ## [ames](https://github.com/Ajatt-Tools/ames)
 
