@@ -69,7 +69,7 @@ This site was inspired by the method.
 
 ### Should I read the AJATT site?
 
-Only the [Table of Contents](http://ajatt.com/toc).
+Only the [Table of Contents](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/).
 Everything else isn't worth your time.
 Don't enter your Email address and don't buy the paid products it offers,
 there are free alternatives.
@@ -376,9 +376,17 @@ and instead only read the target word.
 Read the word then reveal the back of the card and read the definition.
 
 Pass the card if you understand the meaning and reading of the target word.
+A definition is just one of many possible ways to describe the word.
 Don't recall the definition in case of a monolingual card,
 or the translation in case of a bilingual card verbatim.
 Having a general idea of the meaning in your head is enough.
+
+### How should I review monolingual word cards?
+
+If it's a concrete noun, recall how it looks or what it is.
+If not, you're better off making a TSC instead.
+
+As I've said, don't recall the whole definition verbatim.
 
 ### Should I trust Cure Dolly and "Organic Japanese"?
 
@@ -425,6 +433,12 @@ Don't get me wrong though,
 listening to mattvsjapan is still a thousand times better
 than listening to what *certain* other people say on the Internet.
 It's probably one of the most valuable sources after this site and the AJATT site.
+
+### How much more efficient is AJATT than Refold?
+
+Refold is a copy of AJATT with some parts reworded.
+There isn't much difference between the two,
+*except With Refold you have to buy the T-shirts and cups from their store to keep progressing*.
 
 ### Is there a Japanese syntax parser similar to Jisho.org but with no English?
 
@@ -537,6 +551,22 @@ No, never.
 and
 [control your space](http://www.alljapaneseallthetime.com/blog/immersion-why-you-should-stop-trying-to-control-or-measure-time/)
 instead.
+
+> It's much easier to control space than to control time.
+
+> If you change your environment then, you won't have to "choose" anything.
+> Your environment will essentially make your choices for you.
+
+> Don't [choose to] do Japanese. Only have Japanese to do.
+
+In other words, if you only have Japanese books, TV and movies at hand,
+immersing in Japanese is the only thing you can do.
+All your time is immersion time, so you don't have to measure it.
+
+For a strange reason everybody I've met
+who tried to measure how much time they spent on Japanese
+weren't actually that good.
+They were so focused on optimizing their immersion that they didn't immerse.
 
 ### How broad or narrow is a "domain" of language?
 
@@ -700,6 +730,16 @@ After you've achieved basic fluency, do production TSCs instead.
 I wouldn't recommend that.
 Try the [JP1K method](learning-kanji.html#jp1k-method) instead.
 
+### I just learned that I was reviewing the Kanji Transition deck completely wrong. What should I do from here?
+
+It clearly means that the [JP1K method](learning-kanji.html#jp1k-method) is not for you.
+You should switch to [Ankidrone Starter Pack](basic-vocabulary.html).
+When doing Ankidrone, try to learn each word as is, through so-called brute force method.
+Memorize how the word is read and what it means.
+If you notice that you can't force kanji readings into your memory,
+you have to prime your mind for kanji first.
+Pause Ankidrone and do [Kanjidamage+](learning-kanji.html#isolated-kanji-study).
+
 ### How to learn readings after finishing isolated kanji study?
 
 Readings should not be learned in isolation.
@@ -782,6 +822,14 @@ because they allow you to take shortcuts and review faster.
 It's alright to delete cards once they reach obscene intervals like 10-15 years.
 To find such cards, you can open the Anki Browser and type `prop:ivl>3650`.
 The number `3650` corresponds to card's interval in days.
+
+### I would like to start adding pitch accent to my cards. How should I grade the cards once I add pitch accent?
+
+Don't change anything in the grading process.
+Just have pitch accent information on the back of your cards
+but don't take it into account when grading yourself.
+To learn pitch accent of individual words make separate cards.
+Have a word on the front of the card and its pitch accent on the back.
 
 ### Google or Microsoft IME?
 
@@ -884,6 +932,23 @@ It is possible if you manage it, but I don't recommend it.
 Learn the easy one first and do
 [laddering](http://www.alljapaneseallthetime.com/blog/how-to-learn-multiple-languages-without-getting-confused-the-laddering-method/).
 
+### What is your opinion on learning an L3 by using L2 resources ("laddering")?
+
+That's how I learned Japanese.
+I exclusively used resources in my L2.
+
+I wouldn't recommend using your L2 just because it's your L2.
+Use the language that has the best resources.
+Usually it's the closest language to your TL.
+For example, you can use Korean resources to learn Japanese
+or Russian resources to learn Ukrainian,
+assuming you know those languages of course.
+
+Another point is that if you keep using L2 resources for the sake of laddering,
+it will slow you down.
+Any language is better learned using resources made in the language itself.
+Switch to TL resources as soon as possible.
+
 ### What are your current recommendations related to how to sentence mine?
 
 It's basically 90% Yomichan use.
@@ -970,7 +1035,7 @@ Requires JavaScript to function.
 
 ### Any good Japanese learning communities?
 
-* [Ajatt-Tools](join-our-community.html)
+* [DJT](join-our-community.html)
 * [Nanochan/a/](http://nanochanqzaytwlydykbg5nxkgyjxk3zsrctxuoxdmbx5jbh2ydyprid.onion/a/)
 * Various Matrix rooms
 * Some Telegram chats
