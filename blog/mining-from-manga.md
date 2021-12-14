@@ -7,6 +7,8 @@ To do so, you're going to use an optical character recognition program and a few
 
 ****
 
+## Setting up OCR
+
 Install the following dependencies:
 
 ```
@@ -83,5 +85,22 @@ Tesseract works poorly at low resolutions.
 **Note:** As an alternative, you can install [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/)
 but it's quite big and forces you to use a Japanese to English dictionary
 instead of a Japanese to Japanese one.
+
+## Adding screenshots
+
+If you want to add a screenshot from a manga to your Anki card, `maim` can do that too.
+[maimpick](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick)
+is a script that uses `maim` to screenshot parts of the screen and copy them to the clipboard.
+Install it to the same location as `maimocr`, make it executable and bind it to a key.
+
+In addition to `maim`, `maimpick` requires
+[dmenu](https://wiki.archlinux.org/title/dmenu)
+and
+[xdotool](https://archlinux.org/packages/?name=xdotool)
+to work.
+
+**Note:**
+[ames](https://github.com/Ajatt-Tools/ames)
+is another program that can add screenshots to Anki.
 
 Tags: guide
