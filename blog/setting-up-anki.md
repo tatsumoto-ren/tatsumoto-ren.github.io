@@ -103,6 +103,8 @@ and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 * Anki depends on [mpv](https://mpv.io/) to play audio.
 You have to install it separately.
 * You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
+* Anki `2.1.50` and later additionally requires
+installing `PyQtWebEngine` and `PyQt5-stubs` from PyPI.
 
 ### Troubleshooting
 
@@ -120,6 +122,9 @@ Install [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/)
 on your Android device and sync your collection.
 This will allow you to review your flashcards when you're outside
 and don't have access to your computer.
+I prefer downloading the latest alpha from
+[GitHub](https://github.com/ankidroid/Anki-Android/releases)
+because AnkiDroid's releases are slow.
 
 To sync your collection on desktop, press `Y` or click "Sync" on the toolbar.
 
