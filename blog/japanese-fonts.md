@@ -102,11 +102,21 @@ Truly a nightmare.
 <p align="center"><img alt="comparison" src="img/fontconfig_difference.webp"></p>
 <p align="center"><i>A file manager app before and after applying Fontconfig settings.</i></p>
 
-The config disables bitmap fonts.
+## Bitmap fonts
+
 According to Arch Wiki,
 bitmap fonts are sometimes used as fallbacks for missing fonts,
 which may cause text to be rendered pixelated.
-If you think you need them, set `embeddedbitmap` to `true`.
+If you think you need them, open `99-japanese-fonts.conf` and set `embeddedbitmap` to `true`.
+Otherwise set it to `false`.
+
+```
+<match target="font">
+	<edit name="embeddedbitmap" mode="assign">
+	    <bool>true</bool>
+	</edit>
+</match>
+```
 
 ## Fonts in GTK apps
 
@@ -189,7 +199,7 @@ Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling
 
 	```
 	@font-face {
-		font-family: "Yu Mincho";
+		font-family: "My Yu Mincho";
 		src:
 			local("Yu Mincho"),
 			local("游明朝"),
@@ -200,11 +210,14 @@ Go to "Tools" > "Manage Note Types" > choose your Note Type > "Cards" > "Styling
 	The `local` setting makes sure the font doesn't get loaded
 	if it's already installed system-wide.
 	Mind what name you specify for the font.
+	It is better if you make it unique because on certain systems you may run into a bug
+	that prevents different weights of the same font from loading
+	if a locally installed font has been found.
 4) Scroll down to `.card` class and change or append the font's name to `font-family`.
 
 	```
 	.card {
-		font-family: Yu Mincho;
+		font-family: "My Yu Mincho";
 	}
 	```
 

@@ -117,11 +117,18 @@ In a web browser, it is usually sufficient to reload a page.</p>
 Truly a nightmare.</p>
 <p align="center"><img alt="comparison" src="img/fontconfig_difference.webp"></p>
 <p align="center"><i>A file manager app before and after applying Fontconfig settings.</i></p>
-<p>The config disables bitmap fonts.
-According to Arch Wiki,
+<h2 id="bitmap-fonts"><a class="anchor" href="#bitmap-fonts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bitmap fonts</h2>
+<p>According to Arch Wiki,
 bitmap fonts are sometimes used as fallbacks for missing fonts,
 which may cause text to be rendered pixelated.
-If you think you need them, set <code>embeddedbitmap</code> to <code>true</code>.</p>
+If you think you need them, open <code>99-japanese-fonts.conf</code> and set <code>embeddedbitmap</code> to <code>true</code>.
+Otherwise set it to <code>false</code>.</p>
+<pre><code>&lt;match target=&quot;font&quot;&gt;
+    &lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&gt;
+        &lt;bool&gt;true&lt;/bool&gt;
+    &lt;/edit&gt;
+&lt;/match&gt;
+</code></pre>
 <h2 id="fonts-in-gtk-apps"><a class="anchor" href="#fonts-in-gtk-apps" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fonts in GTK apps</h2>
 <p>Install <a href="https://archlinux.org/packages/?name=lxappearance">lxappearance</a>.
 The program lets you change various font settings.
@@ -185,7 +192,7 @@ Go to &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; choose your Note
 </li>
 <li><p>Paste the following CSS to tell Anki to load the font when you open the Reviewer.</p>
 <pre><code>@font-face {
-    font-family: &quot;Yu Mincho&quot;;
+    font-family: &quot;My Yu Mincho&quot;;
     src:
         local(&quot;Yu Mincho&quot;),
         local(&quot;游明朝&quot;),
@@ -194,11 +201,14 @@ Go to &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; choose your Note
 </code></pre>
 <p>The <code>local</code> setting makes sure the font doesn't get loaded
 if it's already installed system-wide.
-Mind what name you specify for the font.</p>
+Mind what name you specify for the font.
+It is better if you make it unique because on certain systems you may run into a bug
+that prevents different weights of the same font from loading
+if a locally installed font has been found.</p>
 </li>
 <li><p>Scroll down to <code>.card</code> class and change or append the font's name to <code>font-family</code>.</p>
 <pre><code>.card {
-    font-family: Yu Mincho;
+    font-family: &quot;My Yu Mincho&quot;;
 }
 </code></pre>
 </li>
