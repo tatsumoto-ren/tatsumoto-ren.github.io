@@ -609,6 +609,11 @@ When you watch with Japanese subs, you train your reading comprehension.
 When you watch raw, you train your listening comprehension.
 Try to balance the two.
 
+No matter what you choose, it is important that you watch raw at least some of the time.
+If you always watch with subs, your listening ability won't be improving.
+I suggest that you watch raw
+and only turn the subs on when you don't understand something.
+
 ### When do I make a card and when do I just keep going?
 
 You always make a card.
