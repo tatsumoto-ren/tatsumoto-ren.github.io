@@ -52,10 +52,10 @@ you try to recall kanji readings when you review the cards,
 but you **don't take** them into account when grading yourself.
 
 When a flashcard pops up,
-try to recall the reading and meaning of the target word,
+try to recall the reading of the target word,
 then use your mouse to **hover over** the word to see how it's read.
-Afterwards reveal the back side of the card
-and see if your memory is correct.
+After you have seen the reading, try to recall the meaning of the word.
+Afterwards reveal the back side of the card and see if your memory is correct.
 Listen and try to understand the example sentence, if available.
 Pass the card if you've correctly recalled the **meaning** of the target word.
 Otherwise, hit "Again".
@@ -161,6 +161,35 @@ Is it alright to do that?
 Yes.
 Sentence cards tend to form context-dependent memories,
 but eventually knowledge transfers from being context-dependent to context-independent.
+
+> When I review the cards, I can't recall the meaning of a word until I hover over the reading.
+Seeing the reading allows me to recall the meaning of the target word.
+Should I try to recall the meaning and the reading at the same time?
+
+This is the review order according to the JP1K method.
+
+1) If shown the word, can I recall the reading?
+2) If shown the reading, can I recall the meaning?
+
+If you are able to pass both steps correctly in this order,
+that's great because it guarantees that if shown the word in your immersion,
+you can look at the word and recall what it means
+by going through the steps in your head.
+
+If not, you grade the card "good" if you've passed the second step.
+You are not grading yourself on your ability to recognize the kanji,
+but you're trying to do it every time you see the card.
+That makes it a deliberate practice,
+that's what helps you transition to reading kanji once you graduate from this deck.
+
+By doing the two steps separately
+you learn the meanings of words through their readings,
+and this process is not affected by your performance on memorizing kanji.
+When you hear a word in your immersion, you'll be able to recognize it.
+
+Because you're still new to kanji,
+trying to recognize the meaning and the reading at the same time is going to be more difficult.
+You can try doing it anyway, but this is not what the JP1K method was intended for.
 
 > What to do next?
 
