@@ -50,6 +50,7 @@ or otherwise impose authoritarian environment.
 
 If you decide to create and manage a large public room,
 it is very important that you don't lose access to it.
+Even big homeservers sometimes disappear never to return.
 Always keep at least two admin accounts in the room, each hosted on a **different** homeserver.
 If one homeserver goes offline or decides to ban you or *shutdown* your room,
 you will still be able to control the room via the other admin account.
@@ -80,7 +81,8 @@ Alternatively, paste the server's URL to
 
 It's a good idea to ban certain servers from participating in your room completely, using
 [Server ACLs](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
-Server ACLs let you block all accounts registered on unwanted homeservers
+Server <span title="access control lists">ACLs</span>
+let you block all accounts registered on unwanted homeservers
 from being able to join your room.
 The homeserver which gets blocked the most often is, you guessed it, `matrix.org`.
 
@@ -90,14 +92,11 @@ The homeserver which gets blocked the most often is, you guessed it, `matrix.org
 recommended by
 [Glowers Club](https://glowers.club/wiki/):
 	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
-	* [jews.rip](https://jews.rip/)
 	* [kiwifarms.net](https://riot.kiwifarms.net/)
 	* [iddqd.social](https://iddqd.social/element/)
 	* [200acres.org](https://riot.200acres.org/)
-	* [transhumanist.club](https://matrix.transhumanist.club/)
 	* [halogen.city](https://halogen.chat/)
 	* [nerdsin.space](https://nerdsin.space/)
-	* [ubersm.art](https://chat.ubersm.art/)
 	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
 * Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 	* [waifuhunter.club](https://chat.waifuhunter.club/)
@@ -112,6 +111,7 @@ recommended by
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/)
 	* [linuxdelta.com](https://element.linuxdelta.com/)
 	* [tomesh.net](https://chat.tomesh.net/)
+	* [kde.org](https://webchat.kde.org/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -204,7 +204,6 @@ without having to use a desktop client.
 * https://matrix.3dns.eu/
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
-* https://chat.ubersm.art/
 * https://chat.utwente.io/
 * https://chat.zelchat.de/
 * https://matrix.mlp.chat/

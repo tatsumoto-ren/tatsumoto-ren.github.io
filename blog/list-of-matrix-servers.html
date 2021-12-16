@@ -82,6 +82,7 @@ or otherwise impose authoritarian environment.</p>
 <h2 id="tips-for-room-admins"><a class="anchor" href="#tips-for-room-admins" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips for room admins</h2>
 <p>If you decide to create and manage a large public room,
 it is very important that you don't lose access to it.
+Even big homeservers sometimes disappear never to return.
 Always keep at least two admin accounts in the room, each hosted on a <strong>different</strong> homeserver.
 If one homeserver goes offline or decides to ban you or <em>shutdown</em> your room,
 you will still be able to control the room via the other admin account.</p>
@@ -106,7 +107,8 @@ Replace <code>homeserver.name</code> with the URL of your homeserver, e.g. <code
 <a href="https://federationtester.matrix.org/">federationtester.matrix.org</a>.</p>
 <p>It's a good idea to ban certain servers from participating in your room completely, using
 <a href="https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls">Server ACLs</a>.
-Server ACLs let you block all accounts registered on unwanted homeservers
+Server <span title="access control lists">ACLs</span>
+let you block all accounts registered on unwanted homeservers
 from being able to join your room.
 The homeserver which gets blocked the most often is, you guessed it, <code>matrix.org</code>.</p>
 <h2 id="recommendations"><a class="anchor" href="#recommendations" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recommendations</h2>
@@ -115,14 +117,11 @@ The homeserver which gets blocked the most often is, you guessed it, <code>matri
 recommended by
 <a href="https://glowers.club/wiki/">Glowers Club</a>:<ul>
 <li><a href="https://thisisjoes.site/">thisisjoes.site</a> <code>matrix.thisisjoes.site</code></li>
-<li><a href="https://jews.rip/">jews.rip</a></li>
 <li><a href="https://riot.kiwifarms.net/">kiwifarms.net</a></li>
 <li><a href="https://iddqd.social/element/">iddqd.social</a></li>
 <li><a href="https://riot.200acres.org/">200acres.org</a></li>
-<li><a href="https://matrix.transhumanist.club/">transhumanist.club</a></li>
 <li><a href="https://halogen.chat/">halogen.city</a></li>
 <li><a href="https://nerdsin.space/">nerdsin.space</a></li>
-<li><a href="https://chat.ubersm.art/">ubersm.art</a></li>
 <li><a href="https://riot.zygoat.club/">zygoat.club</a> <code>matrix.zygoat.club</code></li>
 </ul>
 </li>
@@ -141,6 +140,7 @@ recommended by
 <li><a href="https://matrix.lolispace.moe/">matrix.lolispace.moe</a></li>
 <li><a href="https://element.linuxdelta.com/">linuxdelta.com</a></li>
 <li><a href="https://chat.tomesh.net/">tomesh.net</a></li>
+<li><a href="https://webchat.kde.org/">kde.org</a></li>
 </ul>
 </li>
 <li>Servers run by Japanese people:<ul>
@@ -230,7 +230,6 @@ without having to use a desktop client.</p>
 <li><a href="https://matrix.3dns.eu/">https://matrix.3dns.eu/</a></li>
 <li><a href="https://riot.ukvly.org/">https://riot.ukvly.org/</a></li>
 <li><a href="https://chat.tomesh.net/">https://chat.tomesh.net/</a></li>
-<li><a href="https://chat.ubersm.art/">https://chat.ubersm.art/</a></li>
 <li><a href="https://chat.utwente.io/">https://chat.utwente.io/</a></li>
 <li><a href="https://chat.zelchat.de/">https://chat.zelchat.de/</a></li>
 <li><a href="https://matrix.mlp.chat/">https://matrix.mlp.chat/</a></li>
