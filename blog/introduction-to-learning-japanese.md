@@ -1,7 +1,6 @@
 # Introduction to learning Japanese
 
-The
-[AJATT site](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/)
+The [AJATT site](faq.html#should-i-read-the-ajatt-site)
 is great. One thing it is bad at, however,
 is telling up-to-date information about technology and tools one may use.
 I've got you covered on the

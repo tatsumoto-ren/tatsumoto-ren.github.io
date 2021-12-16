@@ -33,7 +33,7 @@ they have no idea how language acquisition works,
 and they don't remember how they learned Japanese.
 
 The method explained here is widely known as
-[AJATT](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/),
+[AJATT](faq.html#whats-ajatt),
 or All Japanese All the Time.
 It is directed at people who want to learn through self-study
 and get to fluency as fast as possible.
