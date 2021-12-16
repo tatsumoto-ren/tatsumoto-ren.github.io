@@ -5,7 +5,7 @@ As you know,
 Japanese has three different writing systems: hiragana, katakana, and kanji.
 Hiragana and katakana are two phonetic writing systems,
 together they are referred to as "kana".
-Unlike kanji, they don't represent unique meanings.
+Unlike kanji, kana characters don't represent unique meanings.
 All you need to do is to learn how they sound.
 
 ****
@@ -73,7 +73,37 @@ Each kana combination or kana character with a mark
 should be treated as a symbol on its own and memorized as a whole.
 In total, you have to learn 230 symbols.
 
-## Recognition
+Below I present you different ways you can go about learning kana.
+Choose only one.
+
+## Anki deck
+
+To follow this method for learning kana,
+you will need a custom Anki deck we have created for you.
+Don't forget to [install Anki](setting-up-anki.html) if you haven't done so.
+Download the deck at the link below.
+
+<p align="center">
+<a target="_blank" class="download_button" href="https://disk.yandex.com/d/BK9Jqeml6CqU8Q">Download</a>
+</p>
+
+Now that the deck is downloaded,
+install it by opening Anki and pressing "Import File".
+
+<p align="center">
+<img class="shadow" src="img/kana-anki-deck.webp" alt="kana anki card">
+</p>
+<p align="center">
+<i>An example card from the deck.</i>
+</p>
+
+When a card comes up,
+try to recall the pronunciation of the displayed kana character.
+Press "Good" if your guess is correct. Otherwise press "Again".
+You should be able to learn all the kana within two days.
+Feel free to increase your daily new cards limit to do so.
+
+## Mobile app
 
 To learn to recognize kana
 I recommend the Android app called [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
@@ -104,7 +134,7 @@ Don't forget to check the app's settings.
 You may want to toggle `single button mode` or `hide answers`.
 
 <p align="center">
-	<a target="_blank" class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
+<a target="_blank" class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
 </p>
 
 ## Production
