@@ -103,6 +103,16 @@ Press "Good" if your guess is correct. Otherwise press "Again".
 You should be able to learn all the kana within two days.
 Feel free to increase your daily new cards limit to do so.
 
+Continue reviewing this deck in the following weeks.
+Delete it once you move to studying sentences.
+When you read sentences, you also read hiragana and katakana,
+so you won't need to review them separately in Anki.
+
+I specifically don't provide nor recommend using any mnemonics for memorizing kana.
+Kana is very easy, Japanese children learn it early on when they're little.
+As long as you put in the effort,
+you're not going to have any trouble with the alphabets.
+
 ## Mobile app
 
 To learn to recognize kana
