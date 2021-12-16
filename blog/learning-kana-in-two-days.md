@@ -99,7 +99,7 @@ install it by opening Anki and pressing "Import File".
 
 When a card comes up,
 try to recall the pronunciation of the displayed kana character.
-Press "Good" if your guess is correct. Otherwise press "Again".
+Press "Good" if your guess is correct. Otherwise, press "Again".
 You should be able to learn all the kana within two days.
 Feel free to increase your daily new cards limit to do so.
 
@@ -118,7 +118,7 @@ you're not going to have any trouble with the alphabets.
 To learn to recognize kana
 I recommend the Android app called [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
 This is the app I myself used back in the day to learn the alphabets.
-With it you can memorize the characters very quickly.
+With it, you can memorize the characters very quickly.
 If you practice a lot, you can do it within a couple of days.
 
 **Killer features:**
