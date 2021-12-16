@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 30 Nov 2021 23:17:52 +0300</lastBuildDate>
-<pubDate>Tue, 30 Nov 2021 23:17:52 +0300</pubDate>
+<lastBuildDate>Thu, 16 Dec 2021 22:07:44 +0300</lastBuildDate>
+<pubDate>Thu, 16 Dec 2021 22:07:44 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Sentence mining</title><description><![CDATA[
@@ -11,13 +11,15 @@ Sentence mining</title><description><![CDATA[
 that contain unknown words
 from the content you read, watch or listen to in your target language
 and adding them to Anki in a form of targeted sentence cards (TSCs).
-You put an example sentences in the question field
+You put an example sentence in the question field
 and the definitions, pictures and pronunciations in the answer field.</p>
 <p>Sentence mining and immersion are the two most important components of our method.
 Immersion provides you with new vocabulary to be mined,
 and mined sentences become fuel that advances your language learning.</p>
 <p>Finding your own sentences is much more fun than learning from a premade deck,
 or, god forbid, a textbook.
+Because you're creating Anki cards out of vocabulary found in your immersion,
+you're always learning what is relevant to you.
 Once you reach this stage, it is way harder to quit Japanese,
 as the foundation is already in place.</p>
 <hr>
