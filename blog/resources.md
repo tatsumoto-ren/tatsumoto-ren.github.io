@@ -272,13 +272,18 @@ Also useful for batch extracting audio from videos.
 * [Foliate](https://johnfactotum.github.io/foliate/).
 A simple and modern eBook viewer.
 [Package](https://archlinux.org/packages/?name=foliate).
-	> If you can't open books, run the `chmod` command
-	> [from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
-	> In **Preferences**, set "When a word is selected" to "Copy"
-	> and "When multiple words are selected" to "Copy".
-	> This should be enough to comfortably use Foliate with
-	> <span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
-	> Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
+
+	If you can't open books, run the `chmod` command
+	[from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
+	In **Preferences**, set "When a word is selected" to "Copy"
+	and "When multiple words are selected" to "Copy".
+	This should be enough to comfortably use Foliate with
+	<span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
+	Change Layout to "Scrolled" in Advanced section of the menu
+	to prevent lags and ensure a consistent layout.
+
+	Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
+	To scroll without the mouse, press "j" and "k".
 * [KOreader](https://koreader.rocks/).
 A book reader.
 The interface sucks because it was designed to be used on some obscure devices,
