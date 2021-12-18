@@ -269,6 +269,16 @@ Also useful for batch extracting audio from videos.
 
 ### Reading eBooks
 
+* [Foliate](https://johnfactotum.github.io/foliate/).
+A simple and modern eBook viewer.
+[Package](https://archlinux.org/packages/?name=foliate).
+	> If you can't open books, run the `chmod` command
+	> [from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
+	> In **Preferences**, set "When a word is selected" to "Copy"
+	> and "When multiple words are selected" to "Copy".
+	> This should be enough to comfortably use Foliate with
+	> <span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
+	> Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
 * [KOreader](https://koreader.rocks/).
 A book reader.
 The interface sucks because it was designed to be used on some obscure devices,
@@ -280,9 +290,6 @@ because the *-bin AUR package didn't work for me.
 A minimalistic document viewer.
 Can be used to read novels.
 Doesn't display furigana correctly.
-* [foliate](https://johnfactotum.github.io/foliate/).
-A simple and modern eBook viewer.
-[Package](https://archlinux.org/packages/?name=foliate).
 
 ### Localization
 
