@@ -260,18 +260,29 @@ You can find it in
 A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
 An image viewer perfect for reading manga.
-* [zathura](https://wiki.archlinux.org/title/Zathura).
-A minimalistic document viewer.
-Can be used to read novels.
-* [foliate](https://johnfactotum.github.io/foliate/).
-A simple and modern eBook viewer.
-[Package](https://archlinux.org/packages/?name=foliate).
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
 Takes video files and subtitle files
 and creates cards with screenshots and/or audio for each line in the sub file.
 Also useful for batch extracting audio from videos.
+
+### Reading eBooks
+
+* [KOreader](https://koreader.rocks/).
+A book reader.
+The interface sucks because it was designed to be used on some obscure devices,
+but at least you can open a light novel and see furigana rendered properly.
+I recommend installing the
+[appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
+because the *-bin AUR package didn't work for me.
+* [zathura](https://wiki.archlinux.org/title/Zathura).
+A minimalistic document viewer.
+Can be used to read novels.
+Doesn't display furigana correctly.
+* [foliate](https://johnfactotum.github.io/foliate/).
+A simple and modern eBook viewer.
+[Package](https://archlinux.org/packages/?name=foliate).
 
 ### Localization
 
@@ -374,6 +385,8 @@ A podcast player for Android.
 * Audio players.
 	* [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 	* [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
+* [KOreader](https://f-droid.org/en/packages/org.koreader.launcher/).
+A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
 An EPUB reader for Android
 that lets you look up words as you read, similarly to Yomichan.
