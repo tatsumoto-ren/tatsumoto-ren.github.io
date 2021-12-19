@@ -76,7 +76,7 @@ it is still better than many proprietary services.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
 
-<a target="_blank" class="md-button telegram" href="https://t.me/+fXXwnL5EtgIyN2Uy">Join us on Telegram</a>
+<a target="_blank" class="md-button telegram" href="https://t.me/+n1YpAsvu1x4xMzgy">Join us on Telegram</a>
 
 ## Questions
 
