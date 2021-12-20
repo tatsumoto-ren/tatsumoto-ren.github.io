@@ -70,7 +70,7 @@ It offers great compression and remarkable audio quality at low bitrates.
 <p align="center"><img alt="screenshot" class="shadow" src="img/jlpt-tango-n3-card.webp"></p>
 <p align="center"><i>A card from the Tango N3 subdeck</i></p>
 
-### Tango decks
+## Tango decks
 
 Tango decks are based on JLPT Tango textbooks
 designed to prepare for the JLPT.
@@ -87,7 +87,7 @@ If you happen to own a copy,
 please share it in our chat,
 and I will include it in the pack.
 
-### Core10k
+## Core10k
 
 Ankidrone Core10k is an extra deck that contains sentences from iKnow.
 
@@ -108,9 +108,6 @@ The extra deck can be separately downloaded [from here](https://disk.yandex.com/
 
 ## How to study
 
-0) Make sure to
-[enable](setting-up-anki.html#preferences)
-Anki `V2` (or `V3`) scheduler to be able to review all the subdecks at once.
 1) Learn all cards from Tango `N5`.
 If you've already completed the
 [Kanji Transition deck](jp1k-anki-deck.html),
@@ -138,6 +135,18 @@ skip Tango `N5` because they're identical and differ only in their card template
 It is critical not to spend too much time on beginner decks and focus on mining.
 4) The rest can be used to aid your learning process in the later stages.
 Refer to Core10k when you have trouble finding example sentences.
+
+## How to review
+
+* Try to recall the meaning and reading of the **bolded** word.
+* Use the context to understand how the word connects with other words.
+* Press "Good" if your guess is correct. Otherwise press "Again".
+* Don't use the "Hard" and "Easy" buttons. Install
+[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333)
+to hide them.
+
+For more detailed instructions
+see [How to review](how-to-review.html).
 
 ## Tips
 
