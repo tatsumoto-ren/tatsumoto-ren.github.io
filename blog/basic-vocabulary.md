@@ -36,24 +36,25 @@ who want to quickly learn basic vocabulary before they start reading.
 Since the first release in February 2020 it has helped many people and received positive feedback.
 
 <p align="center"><a class="download_button" href="https://disk.yandex.com/d/adEb8n9uhOacHw">Download</a></p>
-<p style="text-align:center;"><a href="https://t.me/ajatt_tools/60">Mirror</a></p>
+<p align="center"><a href="https://t.me/ajatt_tools/60">Mirror</a></p>
 
 ## Structure
 
-The deck consists of 4 subdecks.
-The first 3 contain sentences extracted from JLPT Tango books,
-The 4th is a Core10k deck,
-totaling in a bit over 13 000 cards.
+Ankidrone Starter Pack contains sentences extracted from JLPT Tango books.
+Currently there are 4 subdecks.
 
 * Ankidrone Starter Pack
 	1) JLPT Tango `N5`
 	1) JLPT Tango `N4`
 	1) JLPT Tango `N3`
-	1) Core10k
+	1) JLPT Tango `N2`
 
 Most cards are preformatted as
 [targeted sentence cards (TSC)](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
 the ideal card template for both beginners and advanced learners.
+Note that TSCs are not regular sentence cards you find in other decks
+and should be treated differently.
+
 Although learning sentences is the best way
 to get familiar with the ways language is used and grammar structures are formed,
 in practice when a new learner starts with one of the premade sentence decks available on AnkiWeb,
@@ -73,56 +74,67 @@ It offers great compression and remarkable audio quality at low bitrates.
 
 Tango decks are based on JLPT Tango textbooks
 designed to prepare for the JLPT.
+There are five books total, one for each level of the JLPT.
+The books include vocabulary found commonly on the test and often used in everyday life.
 Cards are ordered in such a way
 that most sentences only introduce a single new word or grammar pattern.
 
 The order of cards and focus on words commonly used in daily life in Japan
 makes these decks an ideal instrument to complete the basic vocabulary stage.
 
+Currently we don't have the last deck, JLPT Tango `N1`.
+If you happen to own a copy,
+please share it in our chat,
+and I will include it in the pack.
+
 ### Core10k
 
-Because of the **outdated** corpus Core10k is not recommended for beginners
-(it is based on newspapers from the early 90s),
-so it is placed at the end of the list.
-Use it to supplement your sentence bank in the sentence mining phase.
-Don't *grind* it right away.
+Ankidrone Core10k is an extra deck that contains sentences from iKnow.
 
 Core10k is a very famous deck among Japanese learners.
-You can find it online in many places as Core2k/3k/6k/10k/33k/60k.
-Most Core decks are formatted as
-[WCCs](discussing-various-card-templates.html#word-context-cards)
-which in my opinion is not a good card template overall.
-Because Core cards have only the word on the front,
-they are significantly harder than Tango.
-In Ankidrone Starter Pack Core10k cards are also formatted as TSCs,
-making them easy to learn and review.
+Its format is roughly similar to the Tango decks.
+Each card contains a target word within an example sentence on the front.
+You have readings, translation, word meanings and audio on the back.
 
-## How to study with the deck
+The additional 10,000 sentences are definitely an overkill
+for someone who has completed the Tango decks.
+I include Core10k here for reference.
+Use this deck to supplement your sentence bank in the sentence mining phase.
+You can refer to it to find example sentences.
+Don't learn it back to back.
+Note that vocabulary in the deck largely overlaps with the Tango decks.
+
+The extra deck can be separately downloaded [from here](tba).
+
+## How to study
+
 0) Make sure to
 [enable](setting-up-anki.html#preferences)
 Anki `V2` (or `V3`) scheduler to be able to review all the subdecks at once.
 1) Learn all cards from Tango `N5`.
-However, if you've already completed the
+If you've already completed the
 [Kanji Transition deck](jp1k-anki-deck.html),
 skip Tango `N5` because they're identical and differ only in their card templates.
 2) Start sentence mining using TV-shows with Japanese subtitles, and later manga and novels.
 
-	**Sentence mining** is the process of finding sentences
-	with words you don't know in your immersion and making them into sentence cards.
-	The browser add-on
-	[Yomichan](https://foosoft.net/projects/yomichan/)
-	simplifies this process to a single click,
-	so that all you need to do to add a card to your deck is hover over a word
-	and click the `+` button in the popup.
-	[mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-	is an add-on for
-	[mpv](https://wiki.archlinux.org/index.php/Mpv)
-	that works similarly to
-	[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
-	and can be used together with Yomichan
-	to create Anki cards while watching subtitled content.
+	> **Sentence mining** is the process of finding sentences
+	> with words you don't know in your immersion and making them into sentence cards.
+	> The browser add-on
+	> [Yomichan](https://foosoft.net/projects/yomichan/)
+	> simplifies this process to a single click,
+	> so that all you need to do to add a card to your deck is hover over a word
+	> and click the `+` button in the popup.
+	> [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+	> is an add-on for
+	> [mpv](https://wiki.archlinux.org/index.php/Mpv)
+	> that works similarly to
+	> [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+	> and can be used together with Yomichan
+	> to create Anki cards while watching subtitled content.
 
-3) While sentence mining, learn Tango `N4` and `N3` at a reduced pace.
+	You'll learn more about sentence mining in the later pages of this guide.
+
+3) While sentence mining, learn Tango `N4`, `N3` and `N2` at a reduced pace.
 It is critical not to spend too much time on beginner decks and focus on mining.
 4) The rest can be used to aid your learning process in the later stages.
 Refer to Core10k when you have trouble finding example sentences.
@@ -138,7 +150,7 @@ you learn them easily from immersion alone.
 * Don't do too many new cards a day.
 At first, it may seem easy,
 but eventually Anki will overwhelm you with reviews.
-Our recommended boundaries are 10-20 new cards a day.
+Our [recommended boundaries](how-to-review.html#new-cards) are 10~30 new cards a day.
 * Don't take English translations literally.
 The English translations of the example sentences often don't match word-by-word.
 To understand their meanings in Japanese you need to know the underlying grammar structures.
@@ -146,7 +158,16 @@ Studying sentences can't completely replace a grammar guide.
 If there are grammar patterns that trip you up,
 look them up in a dictionary like Jisho.org or on Google.
 
+## Sources
+
+* Tango `N5` and Tango `N4` decks were shared by Anonymous from DJT.
+* Tango `N3` was shared by [Perditio](https://ankiweb.net/shared/info/519347273).
+* Tango `N2` was [made by a team of volunteers](tba).
+
 ## Changelog
+
+**Changes in version 6:**
+* Added JLPT Tango `N2`.
 
 **Changes in version 5:**
 * Added word audio to TSCs in Tango `N3` and Tango `N4`.
@@ -156,7 +177,7 @@ look them up in a dictionary like Jisho.org or on Google.
 * Converted all remaining sentence cards to TSCs
 
 **Changes in version 3:**
-* Added JLPT Tango `N3` (Thanks [Perditio](https://ankiweb.net/shared/info/519347273))
+* Added JLPT Tango `N3`.
 * Added a separate note type for SWCs to distinguish them from sentence cards.
 * Improved definitions on SWCs
 * Added pronunciations to SWCs that didn't contain any audio
@@ -166,6 +187,11 @@ look them up in a dictionary like Jisho.org or on Google.
 * Audio files were repacked, silence trimmed, bitrate increased.
 * Included a description explaining how to use the deck.
 * Core10k vocabulary sorted using the [Netflix frequency list](https://t.me/ajatt_tools/18).
+
+## Feedback
+
+DJT space has a Tango deck feedback room to give feedback on the deck.
+[Join us](join-our-community.html).
 
 ## Similar Anki decks
 
