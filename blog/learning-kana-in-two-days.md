@@ -54,7 +54,7 @@ There are three things that may confuse you.
 1) The small `tsu` character.
 It is written as ッ (katakana) or as っ (hiragana).
 Unlike the other characters, it doesn't have a sound.
-Instead, it introduces a pause.
+Instead, it [marks a geminate consonant](https://en.wikipedia.org/wiki/Sokuon).
 2) There are versions of kana with a
 <span title="dakuten (濁点)">ﾞ mark</span>
 such as
@@ -181,4 +181,4 @@ You can go on and on.
 I advocate that Japanese must switch to Cyrillic script.
 Cyrillic has worked remarkably well for many Asian and European languages.
 
-Tags: kana
+Tags: kana, anki, guide
