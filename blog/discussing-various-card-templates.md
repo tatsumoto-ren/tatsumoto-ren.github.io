@@ -13,7 +13,8 @@ After finishing learning
 [kana](learning-kana-in-two-days.html) and [kanji](jp1k-anki-deck.html)
 you're going to continue to use Anki
 in your study time to memorize sentence items.
-The focus on sentences is very important. Your practice in Anki should mimic real world situations.
+The focus on sentences is very important.
+Your practice in Anki should mimic real world situations.
 In other words, you should *practice how you play*.
 And in real world we read sentences, and we write sentences.
 Having said that, word cards have their place in your SRS.
@@ -232,19 +233,25 @@ Depending on your liking, you can:
 * Rep them as regular sentence cards.
 You read the full sentence
 and decide whether you understood all bits and pieces.
-* Read the sentence but only test yourself on the target word.
+* Read the whole sentence but only test yourself on the target word.
 This has a positive effect of lifting the mental burden of testing yourself
-on too many things at the same time. But you can go even further.
+on too many things at the same time.
 * Only read the target word, and probably a few words surrounding it.
-This is my favorite way of reviewing TSCs and has saved me a lot of review time.
-
-If a sentence is too long I usually start reading a few words behind the target word
-and stop reading as soon as I've understood the clause.
+This way of reviewing TSCs has saved me a lot of review time.
+If a sentence is too long,
+I usually start reading a few words behind the target word
+and stop as soon as I've understood the clause.
+Grade yourself on the target word only, don't penalize yourself for failing other words.
 
 When you learn a sentence for the first time,
 make sure to read and understand it fully,
 even if you don't want to read it every time the card comes up.
 Understanding the context greatly helps in understanding of the target word.
+
+It is also important that you already know all the words besides the target word.
+You don't want to stumble upon words you haven't learned each time you review the card.
+This concept is called "one target sentences" and is discussed later on this site,
+in the articles about making your own cards.
 
 Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
 a deck with example Targeted Sentence Cards.
