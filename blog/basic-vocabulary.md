@@ -35,8 +35,8 @@ In
 who want to quickly learn basic vocabulary before they start reading.
 Since the first release in February 2020 it has helped many people and received positive feedback.
 
-<p align="center"><a class="download_button" href="https://disk.yandex.com/d/adEb8n9uhOacHw">Download</a></p>
-<p align="center"><a href="https://t.me/ajatt_tools/60">Mirror</a></p>
+<p align="center"><a target="_blank" class="download_button" href="https://disk.yandex.com/d/adEb8n9uhOacHw">Download</a></p>
+<p align="center"><a target="_blank" href="https://t.me/ajatt_tools/60">Mirror</a></p>
 
 ## Structure
 
@@ -104,7 +104,7 @@ You can refer to it to find example sentences.
 Don't learn it back to back.
 Note that vocabulary in the deck largely overlaps with the Tango decks.
 
-The extra deck can be separately downloaded [from here](tba).
+The extra deck can be separately downloaded [from here](https://disk.yandex.com/d/auvLYOat_SQomQ).
 
 ## How to study
 
@@ -162,7 +162,7 @@ look them up in a dictionary like Jisho.org or on Google.
 
 * Tango `N5` and Tango `N4` decks were shared by Anonymous from DJT.
 * Tango `N3` was shared by [Perditio](https://ankiweb.net/shared/info/519347273).
-* Tango `N2` was [made by a team of volunteers](tba).
+* Tango `N2` was [made by a team of volunteers](jlpt-tango-n2-anki-deck.html#credits).
 
 ## Changelog
 
