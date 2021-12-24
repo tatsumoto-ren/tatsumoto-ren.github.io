@@ -112,6 +112,7 @@ recommended by
 	* [linuxdelta.com](https://element.linuxdelta.com/)
 	* [tomesh.net](https://chat.tomesh.net/)
 	* [kde.org](https://webchat.kde.org/)
+	* [wfr.moe](https://c.wfr.moe/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
