@@ -438,7 +438,13 @@ It's probably one of the most valuable sources after this site and the AJATT sit
 
 Refold is a copy of AJATT with some parts reworded.
 There isn't much difference between the two,
-*except With Refold you have to buy the T-shirts and cups from their store to keep progressing*.
+*except With Refold you have to buy the T-shirts and cups from their store
+and subscribe for monthly donations to keep progressing.*
+
+I'm not that knowledgeable about Refold's teachings,
+but I understand that Refold was designed to be less effective than AJATT.
+Depending on how much time you have for immersion, what you immerse with, and how you use Anki
+you can progress faster, and I wish you do.
 
 ### Is there a Japanese syntax parser similar to Jisho.org but with no English?
 
@@ -708,6 +714,12 @@ However, many choose to continue their hardcore phases until up to several years
 Reading is very powerful, but it harms you if you don't have enough phonetic awareness.
 If I were starting today, I would keep reading at minimum for the first 6 months to a year.
 
+### What's more harmful: early output or letting your reading ability get too far ahead of your listening ability?
+
+Both are undoubtedly dangerous, but why are you worrying about this?
+If you're aware that reading dominates your immersion, cut it out and listen more.
+Immerse the right way, and everything will be fine.
+
 ### How to approach words with multiple meanings?
 
 Usually it's enough to make just one card for one meaning,
@@ -804,6 +816,13 @@ However, don't use Google Translate or anything like that.
 
 It should contain language-dense material that you've actively consumed before.
 Intermediate learners may include podcasts in the mix.
+
+### Thoughts on listening to podcasts while playing a video game?
+
+1) I recommend quitting playing video games completely.
+2) Listening to podcasts in your TL is a good idea if you're at a stage where
+your level of comprehension allows you to understand them without much effort.
+Mind that podcasts are usually harder to comprehend due to a lack of visuals and transcriptions.
 
 ### Is it OK to make cards for sentences I don't fully understand?
 
