@@ -94,10 +94,10 @@ If a word contains kanji,
 you can view the furigana reading by hovering over it with your mouse.
 
 <p align="center">
-	<a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
+	<a class="download_button" href="https://disk.yandex.com/d/Ytby3a5BcZoYKA" target="_blank">Download</a>
 </p>
 <p align="center">
-	<a href="https://disk.yandex.com/d/Ytby3a5BcZoYKA" target="_blank">Mirror</a>
+	<a href="https://ankiweb.net/shared/info/917377946" target="_blank">Mirror</a>
 </p>
 
 ## WCCs deck

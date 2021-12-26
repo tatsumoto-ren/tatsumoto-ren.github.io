@@ -32,7 +32,9 @@ The point of printing 原稿用紙 is to have boxes
 that you should attempt to fit each character in.
 You can also draw a grid yourself or grab a math exercise book.
 
-<p align="center"><img width="50%" alt="exercise book" src="img/exercise_book.webp"></p>
+<p align="center">
+<img width="50%" alt="exercise book" src="img/exercise_book.webp">
+</p>
 
 Don't buy premade 漢字練習帳 or 原稿用紙 from somewhere, unless it costs $1 or less.
 
@@ -42,7 +44,9 @@ Let's start with kana.
 Download the writing deck below.
 You should be able to complete it within two days.
 
-<p align="center"><img class="shadow" alt="kana writing card" src="img/kana_writing_card.webp"></p>
+<p align="center">
+<img class="shadow" alt="kana writing card" src="img/kana_writing_card.webp">
+</p>
 
 Each card contains a kana character written in romaji
 along with its pronunciation on the front
@@ -52,10 +56,10 @@ If you are able to do it with the correct stroke order then press "Good".
 Otherwise press "Again".
 
 <p align="center">
-	<a class="download_button" href="https://ankiweb.net/shared/info/1233553736">Download</a>
+<a class="download_button" href="https://ankiweb.net/shared/info/1233553736">Download</a>
 </p>
 <p align="center">
-	<a href="https://t.me/ajatt_tools/82">Mirror</a>
+<a href="https://t.me/ajatt_tools/82">Mirror</a>
 </p>
 
 ## Writing kanji
@@ -91,7 +95,7 @@ Making mnemonics might be helpful but is totally optional.
 Feel free to use this note type for your own sentence cards.
 
 <p align="center">
-	<a class="download_button" href="setting-up-anki.html#import-an-example-mining-deck">Download</a>
+<a class="download_button" href="setting-up-anki.html#import-an-example-mining-deck">Download</a>
 </p>
 
 As with kana cards, if you could produce the word
