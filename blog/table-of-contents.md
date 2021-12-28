@@ -3,18 +3,20 @@
 * [Foreword](foreword.html)
 * [Introduction to learning Japanese](introduction-to-learning-japanese.html)
 * Setup
+	* [How to type in Japanese](how-to-type-in-japanese.html)
 	* [Anki](setting-up-anki.html)
 	* [Anki add-ons](useful-anki-add-ons-for-japanese.html)
 	* [Card templates](discussing-various-card-templates.html)
-	* [Yomichan](setting-up-yomichan.html)
-	* [Qolibri](setting-up-qolibri.html)
-	* [Dictionaries](yomichan-and-epwing-dictionaries.html)
 	* [Fonts](japanese-fonts.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
 	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
+* Dictionaries
+	* [Yomichan](setting-up-yomichan.html)
+	* [Qolibri](setting-up-qolibri.html)
+	* [Dictionary files](yomichan-and-epwing-dictionaries.html)
 * On the journey
 	* [One target sentences](one-target-sentences.html)
 	* [Sentence mining](sentence-mining.html)
