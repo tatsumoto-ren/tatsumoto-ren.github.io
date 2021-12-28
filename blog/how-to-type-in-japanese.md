@@ -56,7 +56,7 @@ but other frameworks are also available.
 <summary>Other IMFs</summary>
 
 [Fcitx5](https://wiki.archlinux.org/title/Fcitx5) is the successor of Fcitx.
-Currently it has issues when working with i3wm and possibly other WMs.
+Currently, it has issues when working with i3wm and possibly other WMs.
 I can't recommend it yet.
 
 [IBus](https://wiki.archlinux.org/title/IBus) is preinstalled in GTK-based environments like GNOME.
@@ -95,7 +95,7 @@ fcitx &
 
 Note that the
 [xinitrc](https://wiki.archlinux.org/title/Xinit#xinitrc)
-file may be located anywhere on your computer depending on how you setup your
+file may be located anywhere on your computer depending on how you set up your
 [dotfiles](https://wiki.archlinux.org/title/Dotfiles).
 If you have an
 [xprofile](https://wiki.archlinux.org/title/Xprofile) file,
@@ -145,7 +145,7 @@ To configure Mozc, you need to use the Fcitx's tray icon.
 <p align="center"><img src="img/fcitx-configure-mozc.webp" alt="Mozc settings"></p>
 <p align="center"><i>How to access Mozc settings.</i></p>
 
-By default you switch between IMEs by pressing Ctrl+Space.
+By default, you switch between IMEs by pressing Ctrl+Space.
 I prefer to use an add-on called Input method selector instead.
 In the config tool, set the trigger hotkey to none by clicking on it and pressing Enter.
 Then go to "Addon" > "Input method selector", press "Configure" and set Global SelectKey.
@@ -165,7 +165,7 @@ it will bring up a menu where you can choose an input method.
 Using an IME usually comes down to typing what you want, then pressing Space to convert it.
 Every IME wants you to suffer, that's why the way each of them is used slightly differs.
 Don't expect keyboard shortcuts to be the same across IMEs.
-Some of them may even be missing completely.
+Some shortcuts may even be missing completely.
 
 ## Android
 
