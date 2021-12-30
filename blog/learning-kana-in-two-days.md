@@ -113,13 +113,19 @@ Kana is very easy, Japanese children learn it early on when they're little.
 As long as you put in the effort,
 you're not going to have any trouble with the alphabets.
 
-## Mobile app
+## Mobile apps
+
+### Kakugo
 
 To learn to recognize kana
-I recommend the Android app called [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
+I recommend the Android app called Kakugo.
 This is the app I myself used back in the day to learn the alphabets.
 With it, you can memorize the characters very quickly.
 If you practice a lot, you can do it within a couple of days.
+
+<p align="center">
+<a target="_blank" class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
+</p>
 
 **Killer features:**
 
@@ -143,8 +149,13 @@ Once you select either hiragana or katakana, use the first option to drill the s
 Don't forget to check the app's settings.
 You may want to toggle `single button mode` or `hide answers`.
 
+### The Kana Quiz
+
+Another app that caught my attention recently is The Kana Quiz.
+It is similar to Kakugo, just with a slightly different UI.
+
 <p align="center">
-<a target="_blank" class="download_button" href="https://www.f-droid.org/en/packages/org.kaqui/">Download</a>
+<a target="_blank" class="download_button" href="https://f-droid.org/packages/com.noprestige.kanaquiz/">Download</a>
 </p>
 
 ## Production
