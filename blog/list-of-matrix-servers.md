@@ -37,14 +37,48 @@ Below I have a list of servers with less strict terms of service.
 ## How to choose
 
 Choose a server that doesn't engage in chaotic account or room purges.
-Being on a such homeserver is no different from being on Discord.
-Take a look at
-[Austin Huang's list](https://austinhuang.me/matrix-homeservers.html#list)
-to check if a server has unreasonably strict rules.
+Being on such a homeserver is no different from being on Discord.
+If a homeserver has rules, read them to check if they're unreasonably strict.
 Keep an eye on the usual things that tend to stink.
 For example, if a homeserver is trying to suppress certain political opinions,
 restrict you from posting certain types of content
 or otherwise impose authoritarian environment.
+
+## Recommendations
+
+* [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
+recommended by
+[Glowers Club](https://glowers.club/wiki/):
+	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
+	* [kiwifarms.net](https://riot.kiwifarms.net/)
+	* [iddqd.social](https://iddqd.social/element/)
+	* [200acres.org](https://riot.200acres.org/)
+	* [halogen.city](https://halogen.chat/)
+	* [nerdsin.space](https://nerdsin.space/)
+	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
+* Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
+	* [waifuhunter.club](https://chat.waifuhunter.club/)
+	* [nerdsin.space](https://nerdsin.space/)
+	* [midov.pl](https://element.midov.pl/element/)
+	* [anontier.nl](https://element.anontier.nl/)
+	* [ma.neko.bar](https://element.neko.bar/)
+	* [cuum.space](https://element.cuum.space/)
+* My selection:
+	* [cutefunny.art](https://matrixclient.cutefunny.art/)
+	* [3000.chat](https://3000.chat/element/)
+	* [matrix.lolispace.moe](https://matrix.lolispace.moe/)
+	* [linuxdelta.com](https://element.linuxdelta.com/)
+	* [tomesh.net](https://chat.tomesh.net/)
+	* [kde.org](https://webchat.kde.org/)
+	* [wfr.moe](https://c.wfr.moe/)
+	* [perthchat](https://client.perthchat.org/)
+* Servers run by Japanese people:
+	* [fedibird.com](https://matrix.fedibird.com/)
+	* [sabakan.industries](https://matrix.sabakan.industries/)
+	* [juggler.jp](https://matrix.juggler.jp/)
+	* [smith.gdgd.jp.net](https://smith.gdgd.jp.net/)
+
+*Not all the servers may be open for registration at any point of time.*
 
 ## Tips for room admins
 
@@ -85,41 +119,6 @@ Server <span title="access control lists">ACLs</span>
 let you block all accounts registered on unwanted homeservers
 from being able to join your room.
 The homeserver which gets blocked the most often is, you guessed it, `matrix.org`.
-
-## Recommendations
-
-* [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
-recommended by
-[Glowers Club](https://glowers.club/wiki/):
-	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
-	* [kiwifarms.net](https://riot.kiwifarms.net/)
-	* [iddqd.social](https://iddqd.social/element/)
-	* [200acres.org](https://riot.200acres.org/)
-	* [halogen.city](https://halogen.chat/)
-	* [nerdsin.space](https://nerdsin.space/)
-	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
-* Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
-	* [waifuhunter.club](https://chat.waifuhunter.club/)
-	* [nerdsin.space](https://nerdsin.space/)
-	* [midov.pl](https://element.midov.pl/element/)
-	* [anontier.nl](https://element.anontier.nl/)
-	* [ma.neko.bar](https://element.neko.bar/)
-	* [cuum.space](https://element.cuum.space/)
-* My selection:
-	* [cutefunny.art](https://matrixclient.cutefunny.art/)
-	* [3000.chat](https://3000.chat/element/)
-	* [matrix.lolispace.moe](https://matrix.lolispace.moe/)
-	* [linuxdelta.com](https://element.linuxdelta.com/)
-	* [tomesh.net](https://chat.tomesh.net/)
-	* [kde.org](https://webchat.kde.org/)
-	* [wfr.moe](https://c.wfr.moe/)
-* Servers run by Japanese people:
-	* [fedibird.com](https://matrix.fedibird.com/)
-	* [sabakan.industries](https://matrix.sabakan.industries/)
-	* [juggler.jp](https://matrix.juggler.jp/)
-	* [smith.gdgd.jp.net](https://smith.gdgd.jp.net/)
-
-*Not all the servers may be open for registration at any point of time.*
 
 ## Other servers
 
