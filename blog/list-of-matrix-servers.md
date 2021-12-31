@@ -46,6 +46,9 @@ or otherwise impose authoritarian environment.
 
 ## Recommendations
 
+Ideally you would host your own homeserver on your own hardware, but not everyone can do that.
+This section contains homeservers hand-picked by me and trusted third-parties.
+
 * [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
 recommended by
 [Glowers Club](https://glowers.club/wiki/):
