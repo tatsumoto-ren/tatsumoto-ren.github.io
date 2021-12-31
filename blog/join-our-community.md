@@ -15,7 +15,7 @@ Both platforms are connected with a bridge.
 
 1) **Speak English.**
 Do not use your Japanese unless you're already fluent.
-Remember that [talking is not practicing](https://www.youtube.com/watch?v=NiTsduRreug&t=352s).
+Remember that [talking is not practicing](https://redirect.invidious.io/watch?v=NiTsduRreug&t=352s).
 Your time is better spent immersing.
 1) **Be ethical.**
 Do not post promotions or spam unrelated to learning Japanese.
@@ -60,11 +60,10 @@ If the button above doesn't work,
 most likely you don't have
 [Element](https://archlinux.org/packages/community/x86_64/element-desktop/)
 installed on your computer.
-Alternatively, use a
+Open your client of choice and join `#join:g33k.se` if you use a different client.
+If you can't or don't want to install a client, use a
 [web app](https://c.wfr.moe/#/room/#join:g33k.se)
-([another](https://webchat.kde.org/#/room/#join:g33k.se))
-or open your client of choice and type `/join #join:g33k.se`.
-Commands that start with `/` work in most clients, including Element.
+([alternative](https://webchat.kde.org/#/room/#join:g33k.se)).
 
 ## Telegram
 
@@ -94,7 +93,7 @@ You need to host your stickers yourself.
 See the
 [stickerpicker](https://github.com/maunium/stickerpicker)
 GitHub repo and
-[this video](https://youtu.be/Yz3H6KJTEI0)
+[this video](https://redirect.invidious.io/watch?v=Yz3H6KJTEI0)
 for detailed instructions.
 To use our Telegram stickers on Matrix,
 import them to your self-hosted repo using the `sticker-import` command

@@ -127,7 +127,7 @@ One of the ways of increasing quantity of immersion is making it more language-d
 This is done by condensing the material you use for passive immersion.
 
 As far as I know, the idea of condensing immersion audio was first expressed by mattvsjapan in
-[this YouTube video](https://www.youtube.com/watch?v=QOLTeO-uCYU).
+[this YouTube video](https://redirect.invidious.io/watch?v=QOLTeO-uCYU).
 According to it, to increase immersion density of a given episode of a TV show,
 we need to extract all fragments where something was being said and combine them into a single file.
 As a result we get audio for the original show with all the blank spaces taken out.

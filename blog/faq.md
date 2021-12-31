@@ -720,6 +720,13 @@ Both are undoubtedly dangerous, but why are you worrying about this?
 If you're aware that reading dominates your immersion, cut it out and listen more.
 Immerse the right way, and everything will be fine.
 
+### I have many bad habits due to being forced to prematurely output for many years in school. How should I go about fixing these bad habits?
+
+What is usually recommended in this case is to go through a silent period.
+Don't output and listen a lot for up to a year.
+To fix the habits that may still be present after a silent period
+study tongue placement and imitate native speakers.
+
 ### How to approach words with multiple meanings?
 
 Usually it's enough to make just one card for one meaning,
@@ -908,12 +915,12 @@ I recommend
 [this](https://web.archive.org/web/20201220134610if_/https://massimmersionapproach.com/table-of-contents/anki/morphman/)
 guide written by mattvsjapan.
 There's also a
-[video](https://youtu.be/wwp1lJZPBXg)
+[video](https://redirect.invidious.io/watch?v=wwp1lJZPBXg)
 guide by OhTalkWho.
 
 ### MorphMan for the monolingual transition?
 
-Back in the day I saw a [bizarre method](https://youtu.be/ORy7JDrMqlA) of going monolingual
+Back in the day I saw a bizarre method of going monolingual
 by sorting J-J definitions with Morphman and sentence mining them.
 Though such an approach will work, it's too complicated and extremely tedious.
 
@@ -1142,6 +1149,17 @@ so it wasn't easy,
 but I tried to immerse as much as possible.
 I had earphones on in class and while commuting.
 At home, I always kept the immersion going.
+
+### How has learning Japanese changed your outlook on language learning?
+
+Before I started learning Japanese I had been learning English for many years.
+I knew that to progress I had to watch and read a lot of native content,
+I also knew that classes and textbooks don't help.
+I had an intuitive understanding of how one should learn a language,
+but I knew nothing about Krashen, AJATT and immersion learning.
+
+Discovering AJATT helped me understand why what I did to learn English worked.
+It gave me a systemic view on language acquisition and a framework to talk about immersion learning.
 
 ### Do you still watch anime?
 

@@ -70,7 +70,7 @@ for
 from
 [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc).
 Watch
-[this video](https://www.youtube.com/watch?v=qasLFv8Rv7o)
+[this video](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.
 
 By default, vidir lets you edit the directory structure in vim,
@@ -211,7 +211,7 @@ Retiming with FFsubsync and alass can be further automated by using
 [autosubsync-mpv](https://github.com/Ajatt-Tools/autosubsync-mpv).
 Autosubsync-mpv is an add-on for the mpv media player.
 Watch
-[this video](https://www.youtube.com/watch?v=w1vwnUiF6Bc)
+[this video](https://redirect.invidious.io/watch?v=w1vwnUiF6Bc)
 to see how it works and how to set it up.
 
 To use autosubsync-mpv first have `mpv`, `ffmpeg` and `ffsubsync` installed.

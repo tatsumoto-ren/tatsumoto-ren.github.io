@@ -61,8 +61,8 @@ and make Anki flashcards with a single click.
 Make instant Anki cards from movies and TV shows.
 
 * [AUR package](https://aur.archlinux.org/packages/mpv-mpvacious/)
-* [Demo video](https://youtu.be/vU85ramvyo4)
-* [Video tutorial](https://youtu.be/tkFxnY0mehE)
+* [Demo video](https://redirect.invidious.io/watch?v=vU85ramvyo4)
+* [Video tutorial](https://redirect.invidious.io/watch?v=tkFxnY0mehE)
 
 ## [impd](https://github.com/Ajatt-Tools/impd)
 

@@ -72,7 +72,7 @@ Dictionaries, grammar guides and software are also available in abundance.
 Avoid *blue-pilled* resources.
 There are a myriad of methods out there.
 Some are effective, but many are not.
-[No one has ever gotten good using JapanesePod101](https://www.youtube.com/watch?v=ikm_gL7-mZs).
+[No one has ever gotten good using JapanesePod101](https://redirect.invidious.io/watch?v=ikm_gL7-mZs).
 
 Examples of low quality resources:
 * Genki, Minna no Nihongo, Japanese From Zero or any textbook made for foreigners,

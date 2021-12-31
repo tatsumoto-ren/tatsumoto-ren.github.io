@@ -108,6 +108,7 @@ RRTK is based on this idea.
 * AnkiWeb has a [large collection](https://ankiweb.net/shared/decks/rtk) of premade RTK decks.
 
 Other decks that use the mnemonic-based approach but are not based on RTK:
+
 * [KanjiDamage](http://www.kanjidamage.com/).
 A big improvement over RTK.
 Introduces more easily memorable component names and high quality mnemonic stories.
@@ -116,6 +117,7 @@ but it doesn't force you to learn multiple readings.
 * [KanjiDamage+](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
 A slightly larger version of KanjiDamage which contains ~200 additional kanji.
 Some component names were renamed.
+See [the online reference](https://kanjidamageplus.neocities.org/).
 
 The downside is that although this method makes it easier to remember words later on,
 it requires investing months into essentially memorizing English keywords
@@ -175,7 +177,7 @@ You can download the deck below:.
 
 **Note:** The JP1K method was first introduced by Refold.
 If you want to learn more about the method from its author,
-watch [this YouTube video](https://youtu.be/53qKsYxVhoM).
+watch [this YouTube video](https://redirect.invidious.io/watch?v=53qKsYxVhoM).
 
 ## Conclusion
 
@@ -193,7 +195,7 @@ The last two paths only serve as intermediate steps to prepare you for reading n
 Any of them should take about a month or two to complete.
 
 Either path will result in success
-so long as you [persist](https://youtu.be/S-ixV6nV0HU?t=18),
+so long as you [persist](https://redirect.invidious.io/watch?v=S-ixV6nV0HU?t=18),
 so the choice comes down to what you personally like more.
 
 Tags: kanji, guide

@@ -1,11 +1,12 @@
 # Useful Anki add-ons for Japanese
 
-I often get asked in the chats what add-ons are recommended for learning Japanese.
-mattvsjapan has a [video](https://www.youtube.com/watch?v=cy7GvwI7uV8) on this topic,
-and although a few years have passed, surprisingly
-there haven't been many new Anki add-ons worth recommending.
-Below I'm going to mention add-ons from the video,
-as well as add a few extra ones from myself.
+In this article I want to talk about Anki add-ons I recommend using when studying Japanese.
+Anki add-ons are small Python programs that extend or change functionality of Anki.
+To install an add-on open Anki, go to "Tools" > "Add-ons" > "Get add-ons"
+and paste the add-on's code.
+To find the code you need to open the add-on's page on
+[AnkiWeb](https://ankiweb.net/shared/addons/)
+and scroll down to the "Download" section.
 
 ****
 
@@ -73,7 +74,7 @@ If you've just started
 you are lucky to read them at all,
 let alone doing it fast.
 
-This is my monthly average (TSCs were not counted):
+This is my monthly average (I only counted classical sentence cards):
 
 ```
 Average answer time:	⁨11.78⁩s (⁨5.09⁩ cards/minute)
@@ -186,7 +187,7 @@ because in Anki any given card can't have Ease lower than 130%.
 After applying the settings you can uninstall the add-on.
 
 * [The Ease Factor Problem](https://archive.md/4RJcr)
-* [Guide to Anki Intervals and Learning Steps](https://youtu.be/1XaJjbCSXT0)
+* [Guide to Anki Intervals and Learning Steps](https://redirect.invidious.io/watch?v=1XaJjbCSXT0)
 
 <p align="center"><img alt="refold-ease" class="shadow" src="img/refold-ease.png"></p>
 <p align="center"><i>Settings.</i></p>
@@ -237,7 +238,7 @@ format which is famous for excellent compression.
 
 The add-on comes with a number of settings,
 namely you can define the desired resolution and quality.
-A [video demo](https://www.youtube.com/watch?v=kEsIykks1WY) is available on YouTube.
+A [video demo](https://redirect.invidious.io/watch?v=kEsIykks1WY) is available on YouTube.
 
 <p align="center"><img alt="paste_images_as_webp" src="https://user-images.githubusercontent.com/69171671/104761753-3f441900-575b-11eb-8773-0f7b036775cc.png"></p>
 <p align="center"><i>Settings.</i></p>

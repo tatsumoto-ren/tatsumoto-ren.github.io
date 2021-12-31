@@ -258,7 +258,7 @@ Below are the options I recommended using.
 	* If you've been using Anki before applying this setting, you should *refold* your collection
 	with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
 	* If you would like to learn more about Ease Hell, watch
-	[this video](https://youtu.be/1XaJjbCSXT0).
+	[this video](https://redirect.invidious.io/watch?v=1XaJjbCSXT0).
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 

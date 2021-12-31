@@ -33,7 +33,7 @@ They insist that adults have to learn languages the same way you learn math or s
 with your rational, logical brain; by consciously memorizing rules and drilling exercises.
 This has proven to be untrue.
 
-[According to Stephen Krashen](https://www.youtube.com/watch?v=NiTsduRreug),
+[According to Stephen Krashen](https://redirect.invidious.io/watch?v=NiTsduRreug),
 humans acquire language when they understand messages,
 and the process of acquiring a second language
 is similar to the process that children undergo when learning their native language.
@@ -280,8 +280,9 @@ as you will notice once you start reading.
 * Any Japanese text not aimed at preschoolers contains kanji,
 so learning only the kana won't cut it.
 
-Learn the Japanese alphabets [using the Kakugo app](learning-kana-in-two-days.html).
-It should take you two days to do so, and no more than a week if you're lazy.
+In the article about learning kana (later in this guide)
+I recomend using a traning app or a premade Anki deck.
+Either way should take you two days or so to complete, and no more than a week if you're lazy.
 
 ### Kanji
 
@@ -405,7 +406,7 @@ Below is a quick overview.
 
 1) Build a Japanese immersion environment.
 Start consuming native Japanese content actively and passively.
-1) Quickly learn the Japanese alphabets with a drilling app.
+1) Quickly learn the Japanese alphabets with a drilling app or an Anki deck.
 1) The basics.
 	* Do Kanji Transition or an isolated kanji deck.
 	* Immerse in Japanese media.

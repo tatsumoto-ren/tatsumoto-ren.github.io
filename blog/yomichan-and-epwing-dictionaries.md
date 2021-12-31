@@ -62,10 +62,9 @@ Below is a list of public folders that were used.
 
 * [Immersion Wiki](https://drive.google.com/drive/folders/1S8jeDa5NJt76dn9tq52engRCFLjIzvN1)
 * [This Mega folder](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
-* [Shared](https://www.youtube.com/watch?v=5oxdPY9eH48) by mattvsjapan:
-	* [Yomichan Dictionaries](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
-	* [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
-	* [Pitch Accent Dictionary](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
+* [Shared by mattvsjapan](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
+* [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
+* [Pitch Accent Dictionary](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
 
 </details>
 
