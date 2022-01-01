@@ -48,30 +48,31 @@ or otherwise impose authoritarian environment.
 
 Ideally you would host your own homeserver on your own hardware, but not everyone can do that.
 This section contains homeservers hand-picked by me and trusted third-parties.
+With a 🏆 I marked servers that have received a <span title="ACL ban">trophy of recognition</span> from the Matrix HQ team.
 
 * [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
 recommended by
 [Glowers Club](https://glowers.club/wiki/):
 	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
-	* [kiwifarms.net](https://riot.kiwifarms.net/)
+	* [kiwifarms.net](https://riot.kiwifarms.net/) 🏆
 	* [iddqd.social](https://iddqd.social/element/)
-	* [200acres.org](https://riot.200acres.org/)
-	* [halogen.city](https://halogen.chat/)
-	* [nerdsin.space](https://nerdsin.space/)
+	* [200acres.org](https://riot.200acres.org/) 🏆
+	* [halogen.city](https://halogen.chat/) 🏆
+	* [nerdsin.space](https://nerdsin.space/) 🏆
 	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
 * Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
-	* [waifuhunter.club](https://chat.waifuhunter.club/)
-	* [nerdsin.space](https://nerdsin.space/)
-	* [midov.pl](https://element.midov.pl/element/)
+	* [waifuhunter.club](https://chat.waifuhunter.club/) 🏆
+	* [nerdsin.space](https://nerdsin.space/) 🏆
+	* [midov.pl](https://element.midov.pl/element/) 🏆
 	* [anontier.nl](https://element.anontier.nl/)
 	* [ma.neko.bar](https://element.neko.bar/)
 	* [cuum.space](https://element.cuum.space/)
 * My selection:
-	* [cutefunny.art](https://matrixclient.cutefunny.art/)
+	* [cutefunny.art](https://matrixclient.cutefunny.art/) 🏆
 	* [3000.chat](https://3000.chat/element/)
-	* [matrix.lolispace.moe](https://matrix.lolispace.moe/)
-	* [linuxdelta.com](https://element.linuxdelta.com/)
-	* [tomesh.net](https://chat.tomesh.net/)
+	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
+	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
+	* [tomesh.net](https://chat.tomesh.net/) 🏆
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
@@ -147,10 +148,10 @@ to the instance's Element address,
 like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 
 * https://c.wfr.moe/
-* https://nerdsin.space/
-* https://matrix.3dns.eu/
+* https://nerdsin.space/ 🏆
+* https://matrix.3dns.eu/ 🏆
 * https://riot.ukvly.org/
-* https://chat.tomesh.net/
+* https://chat.tomesh.net/ 🏆
 * https://riot.tzchat.org/
 * https://element.asra.gr/
 * https://webchat.kde.org/
@@ -158,7 +159,7 @@ like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
 * https://element.anontier.nl/
 * https://matrix.ffggrz.de/app/
 * https://crystal-temple.flak.is/
-* https://element.linuxdelta.com/
+* https://element.linuxdelta.com/ 🏆
 
 ### With Element
 
@@ -167,6 +168,8 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://matrix.itbyhf.xyz/ 🏆
+* https://element.divided-by-zero.eu/ 🏆
 * https://g24.at/
 * https://mtrx.nz/
 * https://c.a2sc.eu/
@@ -182,7 +185,7 @@ without having to use a desktop client.
 * https://ngonbay.com/
 * https://chat.leel.ch/
 * https://chat.rye.dev/
-* https://halogen.chat/
+* https://halogen.chat/ 🏆
 * https://im.skytel.ee/
 * https://mazc.riot.im/
 * https://unita.online/
@@ -204,7 +207,7 @@ without having to use a desktop client.
 * https://chat.thorko.de/
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
-* https://matrix.3dns.eu/
+* https://matrix.3dns.eu/ 🏆
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
 * https://chat.utwente.io/
@@ -228,7 +231,6 @@ without having to use a desktop client.
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
 * https://element.envs.net/
-* https://matrix.dfc.world/
 * https://element.hope.net/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
@@ -258,7 +260,7 @@ without having to use a desktop client.
 * https://chat.synistersyntax.com/
 * https://element.privacytools.io/
 * https://element.thisisjoes.site/
-* https://matrix.pancrypticon.net/
+* https://matrix.pancrypticon.net/ 🏆
 * https://element.matthewgall.chat/
 * https://element.midov.pl/element/
 * https://grid.rrze.fau.de/riotweb/
@@ -273,6 +275,21 @@ Install one of the clients listed on
 press "create account", then find advanced options
 and change the server from the default to the one you want.
 
+* https://elsmussols.net/ 🏆
+* https://matrix.cfx.re/ 🏆
+* https://matrix.grusbv.com/ 🏆
+* https://tetaneutral.net/ 🏆
+* https://matrix.nesven.eu/ 🏆
+* https://pancrypticon.net/ 🏆
+* https://matrix.netcavy.net/ 🏆
+* https://matrix.net4sec.com/ 🏆
+* https://matrix.neaweb.ch/ 🏆
+* https://matrix.hemmnet.de/ 🏆
+* https://matrix.fuz.re/ 🏆
+* https://matrix.dapor.net/ 🏆
+* https://matrix.asger.xyz/ 🏆
+* https://matrix.lorf.io 🏆
+* https://halogen.city/ 🏆
 * https://mcl.gg/
 * https://brad.li/
 * https://jn2p.de/
@@ -316,18 +333,15 @@ and change the server from the default to the one you want.
 * https://xentonix.net/
 * https://xentonix.net/
 * https://lolifan.club/
-* https://halogen.city/
 * https://kotilo.dy.fi/
 * https://calcuode.com/
 * https://hemmerle.dev/
 * https://unita.online/
 * https://converser.eu/
-* https://matrix.lrn.fm/
 * https://dunstkreis.ch/
 * https://chat.filik.eu/
 * https://m.deadcrab.de/
 * https://im.su.cvut.cz/
-* https://matrix.fuz.re/
 * http://matrix.lod.com/
 * https://shirokumo.net/
 * https://vanpetegem.me/
@@ -349,20 +363,17 @@ and change the server from the default to the one you want.
 * https://matrix.jarno.ca/
 * https://matrix.nx-pod.de/
 * https://matrix.v-lan.org/
-* https://pancrypticon.net/
 * https://matrix.jhell.org/
 * https://matrix.sensin.eu/
 * https://matrix.muehml.eu/
 * https://matrix.senan.xyz/
 * https://matrix.privex.io/
 * https://matrix.puhoy.net/
-* https://matrix.nesven.eu/
 * https://matrix.lukamb.de/
 * https://matrix.jling.dev/
 * https://matrix.complb.de/
 * https://matrix.bda.space/
 * https://chat.twomoons.de/
-* https://matrix.dapor.net/
 * https://synapse.chefst.de/
 * https://matrix.radres.xyz/
 * https://matrix.sibnsk.net/
@@ -371,7 +382,6 @@ and change the server from the default to the one you want.
 * https://matrix.thegolem.cz/
 * https://nekomimi.solutions/
 * https://roleplaygateway.com/
-* https://matrix.chaospott.de/
 * https://matrix.unknown.place/
 * https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
