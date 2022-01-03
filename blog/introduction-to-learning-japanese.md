@@ -281,7 +281,7 @@ as you will notice once you start reading.
 so learning only the kana won't cut it.
 
 In the article about learning kana (later in this guide)
-I recomend using a traning app or a premade Anki deck.
+I recommend using a training app or a premade Anki deck.
 Either way should take you two days or so to complete, and no more than a week if you're lazy.
 
 ### Kanji
@@ -329,7 +329,7 @@ later on this site.
 You can totally skip the kanji phase and move straight to learning basic vocabulary.
 If you choose to do so, you're going to memorize words as is.
 For each word just try to remember how it looks, what it means and how it sounds.
-Treating kanji like pictures and memorizing kanji compounds as single units.
+Treat kanji like pictures and memorize kanji compounds as single units.
 No doubt it is more difficult, but it works for many people.
 
 ## Basic vocabulary
