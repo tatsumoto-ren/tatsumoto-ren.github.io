@@ -446,6 +446,15 @@ Don't make cards for random people,
 instead add names of people you've seen a few times before.
 This is going to ensure that the names are somewhat frequent.
 
+### Given that reading can harm pronunciation, when is the ideal time to become an avid reader?
+
+I find that ideally it should be as late as possible.
+Depending on when you make your choice,
+you trade progress speed and literacy for better pronunciation.
+I recommend getting into reading novels after about a year.
+Waiting longer is likely to give diminishing returns,
+but go for it if you don't like reading, or you strive for perfect pronunciation.
+
 ### In order to increase my reading speed, should I force myself to start skimming?
 
 Khatzumoto recommended skimming mostly as a motivational tool.
