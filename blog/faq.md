@@ -410,64 +410,6 @@ If not, you're better off making a TSC instead.
 
 As I've said, don't recall the whole definition verbatim.
 
-### Should I trust Cure Dolly and "Organic Japanese"?
-
-Sometimes you see people recommending Cure Dolly as a replacement for the Tae Kim grammar guide.
-I tried going through it, and here's my takeaway.
-
-* The grammar explanations are a complete joke.
-I'm not saying that any competitors are perfectly correct either
-because they rely on English to describe Japanese,
-but Cure Dolly is on a different level.
-* Cure Dolly is creepy. Not everyone's going to have enough willpower to sit through its voice.
-* It is long.
-Most of the content is in video format.
-I'm not a big fan of videos.
-Reading a written grammar guide is going to be more efficient.
-
-In order to understand grammar you have to understand it in Japanese.
-When a guide uses English building blocks to make a model that resembles the Japanese grammar,
-there's a limit on how accurate the explanations can be.
-
-On this site we recommend reading Tae Kim
-to acquire a rough understanding
-of what each of the most common grammar patterns means
-in order to comprehend more of your input.
-We don't concern ourselves with how to apply the rules to produce Japanese,
-this is something that comes naturally with immersion.
-Later after you become fluent we advise learning Japanese grammar in Japanese,
-using resources meant for native speakers.
-
-### Should I trust mattvsjapan and the "Refold" site?
-
-Generally, watching or reading the content he produced before around mid 2018 is safe
-because he seems to be quite honest in it.
-But in recent years Matt has been criticized by many people for watering down the method
-and making it less effective
-because he wanted to appeal to a wider audience.
-
-On this site we try to push as hardcore as we can,
-so I recommend getting yourself familiar with the AJATT theory
-before you engage with Refold's content.
-It will enable you to **distinguish** hardcore advice from advice for the general audience.
-
-Don't get me wrong though,
-listening to mattvsjapan is still a thousand times better
-than listening to what *certain* other people say on the Internet.
-It's probably one of the most valuable sources after this site and the AJATT site.
-
-### How much more efficient is AJATT than Refold?
-
-Refold is a copy of AJATT with some parts reworded.
-There isn't much difference between the two,
-*except With Refold you have to buy the T-shirts and cups from their store
-and subscribe for monthly donations to keep progressing.*
-
-I'm not that knowledgeable about Refold's teachings,
-but I understand that Refold was designed to be less effective than AJATT.
-Depending on how much time you have for immersion, what you immerse with, and how you use Anki
-you can progress faster, and I wish you do.
-
 ### Is there a Japanese syntax parser similar to Jisho.org but with no English?
 
 [Mecab](https://aur.archlinux.org/packages/mecab/).
@@ -554,11 +496,63 @@ Read the following:
 * https://www.gnu.org/philosophy/ebooks-must-increase-freedom.html
 * https://www.defectivebydesign.org/amazon-kindle-swindle
 
+### Should I trust Cure Dolly and "Organic Japanese"?
 
+Sometimes you see people recommending Cure Dolly as a replacement for the Tae Kim grammar guide.
+I tried going through it, and here's my takeaway.
 
+* The grammar explanations are a complete joke.
+I'm not saying that any competitors are perfectly correct either
+because they rely on English to describe Japanese,
+but Cure Dolly is on a different level.
+* Cure Dolly is creepy. Not everyone's going to have enough willpower to sit through its voice.
+* It is long.
+Most of the content is in video format.
+I'm not a big fan of videos.
+Reading a written grammar guide is going to be more efficient.
 
+In order to understand grammar you have to understand it in Japanese.
+When a guide uses English building blocks to make a model that resembles the Japanese grammar,
+there's a limit on how accurate the explanations can be.
 
+On this site we recommend reading Tae Kim
+to acquire a rough understanding
+of what each of the most common grammar patterns means
+in order to comprehend more of your input.
+We don't concern ourselves with how to apply the rules to produce Japanese,
+this is something that comes naturally with immersion.
+Later after you become fluent we advise learning Japanese grammar in Japanese,
+using resources meant for native speakers.
 
+### Should I trust mattvsjapan and the "Refold" site?
+
+Generally, watching or reading the content he produced before around mid 2018 is safe
+because he seems to be quite honest in it.
+But in recent years Matt has been criticized by many people for watering down the method
+and making it less effective
+because he wanted to appeal to a wider audience.
+
+On this site we try to push as hardcore as we can,
+so I recommend getting yourself familiar with the AJATT theory
+before you engage with Refold's content.
+It will enable you to **distinguish** hardcore advice from advice for the general audience.
+
+Don't get me wrong though,
+listening to mattvsjapan is still a thousand times better
+than listening to what *certain* other people say on the Internet.
+It's probably one of the most valuable sources after this site and the AJATT site.
+
+### How much more efficient is AJATT than Refold?
+
+Refold is a copy of AJATT with some parts reworded.
+There isn't much difference between the two,
+*except With Refold you have to buy the T-shirts and cups from their store
+and subscribe for monthly donations to keep progressing.*
+
+I'm not that knowledgeable about Refold's teachings,
+but I understand that Refold was designed to be less effective than AJATT.
+Depending on how much time you have for immersion, what you immerse with, and how you use Anki
+you can progress faster, and I wish you do.
 
 ### Did you track your daily immersion hours during your hardcore phase?
 
