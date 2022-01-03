@@ -138,7 +138,7 @@ a new Qolibri window will be opened instead of a new tab.
 ## Playing NHK audio
 
 You may face problems when playing audio inside Qolibri.
-This happens because Qolibri tries to call mpv with inappropriate command line arguments.
+This happens because Qolibri tries to call mpv with inappropriate settings.
 If you can't hear anything
 when clicking on pronunciations in `NHK日本語発音アクセント辞典` or other dictionaries,
 create a new

@@ -421,6 +421,9 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 
 ### Online
 
+* [Dictionariez](https://github.com/pnlpal/dictionaries).
+A popup-dictionary extension that works similarly to Yomichan.
+Good for learners of English.
 * [jisho.org](https://jisho.org/)
 * [wadoku.de](https://wadoku.de/).
 Has pitch accent.
