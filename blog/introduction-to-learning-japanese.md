@@ -100,7 +100,7 @@ to follow a conversation or your favorite anime without subtitles.
 No matter what you're doing,
 try to do passive immersion whenever you can.
 There are countless opportunities to immerse throughout a day.
-You can do it in shower,
+You can do it in the shower,
 as you're getting ready,
 while taking a walk,
 driving,
@@ -114,7 +114,7 @@ No matter what type of lifestyle you have,
 you should be able to fit in multiple hours a day of passive immersion.
 Fill in every single crack in your day possible.
 Every waking moment counts.
-By simply listening your brain will slowly get better at parsing and understanding the language.
+By simply listening, your brain will slowly get better at parsing and understanding the language.
 
 I hope you'll find an immersion routine that suits your life.
 If you think you can't do it, don't worry.
@@ -254,7 +254,7 @@ while you're preparing to switch to GNU/Linux.
 	and
 	[jiten](https://github.com/obfusk/jiten).
 
-Once you get comfortable reading, switch language of your devices to Japanese.
+Once you get comfortable reading, switch the language of your devices to Japanese.
 
 ## Writing systems
 
@@ -328,8 +328,8 @@ later on this site.
 
 You can totally skip the kanji phase and move straight to learning basic vocabulary.
 If you choose to do so, you're going to memorize words as is.
-For each word just try to remember how it looks, what it means and how it sounds
-treating kanji like pictures and memorizing kanji compounds as single units.
+For each word just try to remember how it looks, what it means and how it sounds.
+Treating kanji like pictures and memorizing kanji compounds as single units.
 No doubt it is more difficult, but it works for many people.
 
 ## Basic vocabulary
