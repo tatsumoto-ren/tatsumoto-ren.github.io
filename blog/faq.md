@@ -321,6 +321,24 @@ reduce the number of new cards you learn,
 install [Speed Focus Mode](useful-anki-add-ons-for-japanese.html#speed-focus-mode)
 Anki add-on.
 
+### What should I be "doing" while actively immersing?
+
+Looking up words.
+
+Active immersion is all about making your input comprehensible.
+Dictionary lookups are the main way of making input comprehensible.
+Aside from that you can pay attention to
+scenery, intonation, pitch accent, levels of politeness and other cultural things.
+
+### What is the minimum to maintain fluency?
+
+Depends.
+The minimum to maintain fluency is highly individual.
+To maintain fluency, continue immersing as frequently as you can.
+
+The longer you have studied Japanese, the longer you can maintain your ability without immersion.
+If you've studied Japanese for many years, you can even last multiple months.
+
 ### How should I divide my study time?
 
 Roughly in three parts.
@@ -536,23 +554,11 @@ Read the following:
 * https://www.gnu.org/philosophy/ebooks-must-increase-freedom.html
 * https://www.defectivebydesign.org/amazon-kindle-swindle
 
-### What should I be "doing" while actively immersing?
 
-Looking up words.
 
-Active immersion is all about making your input comprehensible.
-Dictionary lookups are the main way of making input comprehensible.
-Aside from that you can pay attention to
-scenery, intonation, pitch accent, levels of politeness and other cultural things.
 
-### What is the minimum to maintain fluency?
 
-Depends.
-The minimum to maintain fluency is highly individual.
-To maintain fluency, continue immersing as frequently as you can.
 
-The longer you have studied Japanese, the longer you can maintain your ability without immersion.
-If you've studied Japanese for many years, you can even last multiple months.
 
 ### Did you track your daily immersion hours during your hardcore phase?
 
