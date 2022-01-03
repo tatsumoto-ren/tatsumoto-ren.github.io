@@ -155,7 +155,7 @@ in order to view add-on based stats information.
 
 <p align="center"><img alt="true-retention-addon" class="shadow" src="img/true-retention-addon.png"></p>
 
-### [Cross Profile Search and Import](https://ankiweb.net/shared/info/310394744)
+### [Cross Profile Search and Import](https://ankiweb.net/shared/info/1772763629)
 
 With this add-on you can keep your [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
 bank in a different profile and copy cards to your main profile on demand.
