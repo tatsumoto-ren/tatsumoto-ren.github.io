@@ -205,6 +205,10 @@ just continuing to learn words is going to improve it.
 Remember, many people never learned kanji through a dedicated deck,
 they learned words right from the start.
 
+### I just quit WaniKani after learning 1,300 kanji. Should I do JP1K or just jump into sentence mining?
+
+Do N5 and N4 levels in Ankidrone Starter Pack, then jump into sentence mining.
+
 ### Is JAV good for immersion?
 
 I'm guessing that's a joke.
