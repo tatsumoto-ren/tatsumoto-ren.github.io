@@ -446,6 +446,25 @@ Don't make cards for random people,
 instead add names of people you've seen a few times before.
 This is going to ensure that the names are somewhat frequent.
 
+### Can I use Netflix to learn Japanese?
+
+Please read this excellent article by Richard Stallman:
+[Reasons not to use Netflix](https://stallman.org/netflix.html).
+There are plenty of ways to
+[obtain](resources.html#immersion-material)
+immersion material
+and keep your freedom.
+
+### How to start reading as a beginner?
+
+Start with reading Japanese subtitles for movies, TV shows and anime.
+Then try manga and eventually novels.
+
+### Thoughts on reading before listening?
+
+Reading is very powerful, but it harms you if you don't have enough phonetic awareness.
+If I were starting today, I would keep reading at a minimum for the first year.
+
 ### Given that reading can harm pronunciation, when is the ideal time to become an avid reader?
 
 I find that ideally it should be as late as possible.
@@ -454,6 +473,21 @@ you trade progress speed and literacy for better pronunciation.
 I recommend getting into reading novels after about a year.
 Waiting longer is likely to give diminishing returns,
 but go for it if you don't like reading, or you strive for perfect pronunciation.
+
+### How much listening should I do before I start reading?
+
+It's hard to completely avoid reading
+because you still want to make Anki cards and use dictionaries.
+I recommend only audio-visual input (anime, dramas) in the beginning.
+After you've done it for 2,000 to 3,000 hours (around 4 months),
+you can start adding light reading to your studies.
+After about a year feel free to read as much as you want.
+
+### What's more harmful: early output or letting your reading ability get too far ahead of your listening ability?
+
+Both are undoubtedly dangerous, but why are you worrying about this?
+If you're aware that reading dominates your immersion, cut it out and listen more.
+Immerse the right way, and everything will be fine.
 
 ### In order to increase my reading speed, should I force myself to start skimming?
 
@@ -482,15 +516,6 @@ and they're harder to mine from.
 Almost all digital books are free,
 and you can use Yomichan with them,
 which is a great advantage.
-
-### Can I use Netflix to learn Japanese?
-
-Please read this excellent article by Richard Stallman:
-[Reasons not to use Netflix](https://stallman.org/netflix.html).
-There are plenty of ways to
-[obtain](resources.html#immersion-material)
-immersion material
-and keep your freedom.
 
 ### Should I buy a Kindle to read Japanese books?
 
@@ -722,17 +747,6 @@ After you've been ajatting for 18 months,
 you can end your "hardcore phase" and start doing less immersion.
 However, many choose to continue their hardcore phases until up to several years.
 
-### Thoughts on reading before listening?
-
-Reading is very powerful, but it harms you if you don't have enough phonetic awareness.
-If I were starting today, I would keep reading at minimum for the first 6 months to a year.
-
-### What's more harmful: early output or letting your reading ability get too far ahead of your listening ability?
-
-Both are undoubtedly dangerous, but why are you worrying about this?
-If you're aware that reading dominates your immersion, cut it out and listen more.
-Immerse the right way, and everything will be fine.
-
 ### I have many bad habits due to being forced to prematurely output for many years in school. How should I go about fixing these bad habits?
 
 What is usually recommended in this case is to go through a silent period.
@@ -810,22 +824,10 @@ Don't put audio on the front of your cards.
 By pressing `Ctrl+Delete`.
 Audio-based cards are completely useless.
 
-### How much listening should I do before I start reading?
-
-As much as you want.
-Everyone in the community has their own opinion on this.
-Some even say that reading from day one is the way to go.
-I recommend only audio-visual input (anime, dramas) in the beginning.
-After you've done it for 2,000 to 3,000 hours (around 4 months), start reading books and manga.
-
 ### Thoughts on Khatz's "multiplexed input"
 
 I think [condensed audio](passive-listening.html#condensing-audio) is a better technique.
 It's more organized.
-
-### How to start reading as a beginner?
-
-Start with reading Japanese subtitles.
 
 ### Should I put English translations on Bilingual TSCs?
 
