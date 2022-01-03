@@ -141,25 +141,29 @@ Selection criteria.
 
 A separate list for servers that can be used to link rooms.
 This is very useful if you want to share a room with someone
-but don't want to use `element.io` or `matrix.to` because they are cuckflared.
+but don't want to use `element.io` or `matrix.to` because they are behind cloudflare
+or because your room can't be reached via `matrix.to`.
 
 To link a room append `#/room/#your_room:example.com`
 to the instance's Element address,
-like this: `https://nerdsin.space/#/room/#djt:g33k.se`.
+like this: `https://matrix.dalek.zone/#/room/#djtspace.g33k.se`.
 
 * https://c.wfr.moe/
-* https://nerdsin.space/ 🏆
-* https://matrix.3dns.eu/ 🏆
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/ 🏆
 * https://riot.tzchat.org/
 * https://element.asra.gr/
 * https://webchat.kde.org/
-* https://element.im.f3l.de/
 * https://element.anontier.nl/
-* https://matrix.ffggrz.de/app/
 * https://crystal-temple.flak.is/
 * https://element.linuxdelta.com/ 🏆
+* https://matrix.dalek.zone/
+* https://element.g24.at/
+* https://im.tetaneutral.net/
+* https://element.ggc-project.de/
+* https://talk.chatcloud.net/
+* https://matrix.3dns.eu/ 🏆
+* https://nerdsin.space/ 🏆
 
 ### With Element
 
@@ -168,6 +172,42 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://chat.zelchat.de/
+* https://houtworm.im/
+* https://element.rptc.bid/
+* https://chat.peek-a-boo.at/
+* https://element.cccgoe.de/
+* https://mx.aire.ml/
+* https://matrix.therealblue.de/
+* https://element.internet-portal.cz/
+* https://element.nobelium.no/
+* https://element.w1l.duckdns.org/
+* https://chat.mux.re/
+* https://chat.leon.wtf/
+* https://chat.cfx.re/ 🏆
+* https://matrix.darkcloud.ca/
+* https://matrix.club-tech.fr/
+* https://chat.joinpoint.org/
+* https://element.simonetti.nl/
+* https://www.schotty.com/
+* https://matrix.riotcat.org/
+* https://element.magnumchaos.org/
+* https://chat.thorko.de/
+* https://chat.cambsac.org.uk/
+* https://cell.linuxbrujo.net/
+* https://matrix.ohai.su/
+* https://matrix.n2n.io/
+* https://chat.das-labor.org/
+* https://element.lion.fm/
+* https://element.sebdu.de/
+* https://okaris.de/
+* https://element.juniorjpdj.pl/
+* https://element.entr0py.de/
+* https://chat.techsaviours.org/
+* https://chat.decred.org/
+* https://matrix.dalek.zone/
+* https://chat.greensteps.cn/
+* https://element.matrix4ulm.de/
 * https://matrix.itbyhf.xyz/ 🏆
 * https://element.divided-by-zero.eu/ 🏆
 * https://g24.at/
@@ -179,7 +219,6 @@ without having to use a desktop client.
 * https://mx.aire.ml/
 * https://chat.crq.ac/
 * https://chat.guy.sh/
-* https://houtworm.im/
 * https://chat.usr.nz/
 * https://mxs.riot.im/
 * https://ngonbay.com/
@@ -211,7 +250,6 @@ without having to use a desktop client.
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
 * https://chat.utwente.io/
-* https://chat.zelchat.de/
 * https://matrix.mlp.chat/
 * https://el.aria-net.org/
 * https://element.1984.cz/
@@ -222,7 +260,6 @@ without having to use a desktop client.
 * https://matrix.nwca.xyz/
 * https://riot.tzchat.org/
 * https://webchat.kde.org/
-* https://matrix.ffggrz.de/
 * https://chat.catgirl.biz/
 * https://element.fff.chat/
 * https://riot.zygoat.club/
@@ -237,7 +274,6 @@ without having to use a desktop client.
 * https://3000.chat/element/
 * https://chat.oscillas.com/
 * https://element.eclabs.de/
-* https://element.im.f3l.de/
 * https://element.myserv.me/
 * https://element.pwoss.org/
 * https://element.trygve.me/
@@ -253,7 +289,6 @@ without having to use a desktop client.
 * https://the-apothecary.club/
 * https://chat.fairydust.space/
 * https://chat.michel-slm.name/
-* https://element.matrix4ulm.de/
 * https://riot.qonfucius.social/
 * https://crystal-temple.flak.is/
 * https://element.fatherjim.tech/
@@ -275,8 +310,8 @@ Install one of the clients listed on
 press "create account", then find advanced options
 and change the server from the default to the one you want.
 
+* https://www.hellug.gr/
 * https://elsmussols.net/ 🏆
-* https://matrix.cfx.re/ 🏆
 * https://matrix.grusbv.com/ 🏆
 * https://tetaneutral.net/ 🏆
 * https://matrix.nesven.eu/ 🏆
@@ -312,7 +347,6 @@ and change the server from the default to the one you want.
 * https://furry.lol/
 * https://koehn.com/
 * https://nibbana.jp/
-* https://dalek.zone/
 * https://lostpod.me/
 * https://ramrod.top/
 * https://lomnik.net/
@@ -359,7 +393,6 @@ and change the server from the default to the one you want.
 * https://matrix.neko.dev/
 * https://matrix.cirr.com/
 * https://matrix.altay.fr/
-* https://matrix.sebdu.de/
 * https://matrix.jarno.ca/
 * https://matrix.nx-pod.de/
 * https://matrix.v-lan.org/
