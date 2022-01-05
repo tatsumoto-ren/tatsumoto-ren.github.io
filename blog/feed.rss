@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Tue, 28 Dec 2021 12:52:49 +0300</lastBuildDate>
-<pubDate>Tue, 28 Dec 2021 12:52:49 +0300</pubDate>
+<lastBuildDate>Thu, 06 Jan 2022 00:46:45 +0300</lastBuildDate>
+<pubDate>Thu, 06 Jan 2022 00:46:45 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Understanding monolingual definitions</title><description><![CDATA[
+<p>A typical entry in a monolingual dictionary looks similar to this:</p>
+<pre><code>あした [3] 【明日・朝】 （名）
+（１）今日の次の日。
+（２）夜が終わって，明るくなった時。あさ。
+</code></pre>
+<p>Every dictionary usually has its own, unique system of notation.
+On this page I primarily use <code>大辞泉</code> as an example.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 06 Jan 2022 00:45:48 +0300</pubDate></item>
 <item><title>
 How to type in Japanese</title><description><![CDATA[
 <p align="center">
@@ -165,15 +179,4 @@ configuration file.</p>
 <guid>https://tatsumoto-ren.github.io/blog/japanese-fonts.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 20 Jun 2021 22:20:40 +0300</pubDate></item>
-<item><title>
-FAQ</title><description><![CDATA[
-<p>This is Tatsumoto's AJATT FAQ.
-You can search questions you're interested in if you press <code>Ctrl+f</code>.
-I'm going to update this article as I receive more questions.
-If your question hasn't been answered, ask it in <a href="join-our-community.html">our chat</a>.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/faq.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/faq.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 17 Jun 2021 02:24:53 +0300</pubDate></item>
 </channel></rss>

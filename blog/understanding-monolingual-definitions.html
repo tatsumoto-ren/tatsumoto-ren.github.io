@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Understanding monolingual definitions</title>
+<meta property="og:title" content="Understanding monolingual definitions">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+</head>
+<body>
+<div id="headerholder" class="headerholder">
+    <header>
+        <div class="logoholder">
+            <a href="index.html" class="logo">
+                <img alt="達元" src="img/logo.webp" />
+                <h1>Tatsumoto</h1>
+            </a>
+        </div>
+        <input class="menu" type="checkbox" id="menu-btn" />
+        <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <nav>
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="donating-to-tatsumoto.html">Support</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+    </header>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="understanding-monolingual-definitions.html">Understanding monolingual definitions</a></h1>
+<!-- bashblog_timestamp: #1641419148# -->
+<div class="subtitle">January 06, 2022 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>A typical entry in a monolingual dictionary looks similar to this:</p>
+<pre><code>あした [3] 【明日・朝】 （名）
+（１）今日の次の日。
+（２）夜が終わって，明るくなった時。あさ。
+</code></pre>
+<p>Every dictionary usually has its own, unique system of notation.
+On this page I primarily use <code>大辞泉</code> as an example.</p>
+<hr>
+<h2 id="back-of-the-book"><a class="anchor" href="#back-of-the-book" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Back of the book</h2>
+<p>If your dictionary has an EPWING version,
+chances are that you can open the
+<a href="setting-up-qolibri.html#how-to-use-the-dictionaries">back of the book section</a>
+in Qolibri.
+The back of the book will tell you exactly what symbols the dictionary uses and what they mean.</p>
+<p>If you're out of luck, try searching the web.
+The keywords that should work are <code>凡例</code>, <code>記号一覧</code>, <code>約物一覧</code>
+followed by the name of the dictionary.</p>
+<h2 id="headword"><a class="anchor" href="#headword" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Headword</h2>
+<p>First you see the word in kana.
+The number to the right in square brackets <code>[]</code> is pitch accent.
+You'll find about pitch accent at the end of the page.</p>
+<p>If next to the hiragana reading you see a slightly different reading in katakana,
+it likely indicates how the word was spelled before World War II.</p>
+<pre><code>きのう ｷﾉﾌ [2] 【昨日】
+</code></pre>
+<p>Inside the fat brackets <code>【】</code> you see how it can be written in kanji.
+Different kanji spellings are separated with a <code>・</code>.
+It means that the word can be written multiple ways.</p>
+<pre><code>きゅう‐か【球果・毬果】
+</code></pre>
+<p>Inside the kanji notation you may see triangles like this.</p>
+<pre><code>くじゃく【▽孔▼雀】
+</code></pre>
+<ul>
+<li><code>▼</code> or <code>×</code> mean that the kanji character is not standard, not a 常用漢字.</li>
+<li><code>▽</code> means that the kanji reading is not standard.</li>
+</ul>
+<p>Parts of okurigana may be inside round brackets.
+This means that the okurigana inside the <code>（…）</code> can be omitted. E.g., 売り上げ becomes 売上げ.</p>
+<pre><code>うり‐あげ【売〔り〕上げ・売上】
+</code></pre>
+<p><code>-</code> or <code>=</code> indicate <code>熟字訓</code>.</p>
+<pre><code>あした【明＝日】
+</code></pre>
+<p><code>熟字訓</code> is when a <em>Japanese</em> reading is assigned to a kanji compound.
+In other words,
+it means that there's no relation between the reading of a word and the kanji used to write it.</p>
+<ul>
+<li><code>‐</code> indicates that this reading is listed in the
+「<a href="https://gakusyu.shizuoka-c.ed.jp/japanese/syou_56/moji/04/fuhyou.pdf">付表</a>」
+section of
+<a href="https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf">常用漢字表</a>.</li>
+<li><code>＝</code> means this reading is <strong>not</strong> listed in the 「付表」 section.</li>
+</ul>
+<p>There is no clear reason why kanji end up in 付表.
+It's just another way Japanese people like to shoot themselves in the foot.</p>
+<p><code>熟字訓</code> can be seen in words such as:</p>
+<ul>
+<li>果物(くだもの)</li>
+<li>土産(みやげ)</li>
+<li>素人(しろうと)</li>
+<li>五月雨(さみだれ)</li>
+<li>etc.</li>
+</ul>
+<p>In addition to <code>-</code> and <code>=</code>,
+in other dictionaries <code>熟字訓</code> can be marked as <code>《word》</code>, <code>｛word｝</code> or <code>〈word〉</code>, like this.</p>
+<pre><code>あひる【〈家鴨〉】(名)
+マガモを飼い慣らして改良したカモ科の家禽。
+</code></pre>
+<h2 id="parts-of-speech"><a class="anchor" href="#parts-of-speech" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parts of speech</h2>
+<p>After the kanji reading inside round brackets the entry is telling you the part of speech.
+For example, <code>名</code> means it's a noun, <code>動五</code> means it's a <code>五段活用</code> verb, etc.
+The part of speech notation can be a bit complex and has to do with 学校文法,
+so I recommend <a href="https://www.kokugobunpou.com/">getting familiar</a> with that.
+If you have <a href="setting-up-yomichan.html#recursive-lookups">recursive lookups</a> enabled
+in Yomichan, hover over the part of speech to see what it means.</p>
+<p>Sometimes after <code>[文]</code> it tells you what part of speech this word was in classical Japanese.
+In the example below it says that the <code>下一段</code> verb was <code>下二段</code> in classical Japanese.</p>
+<pre><code>たす・ける [3] 【助ける・扶ける】 （動カ下一）[文]カ下二 たす・く
+力を添えて人や動物を，死の危険や苦痛・災難から逃れさせる。
+</code></pre>
+<details>
+<summary>Different parts of speech, from デジタル大辞泉.</summary>
+<table>
+<thead>
+<tr>
+<th align="center">Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">［名］</td>
+<td>名詞</td>
+</tr>
+<tr>
+<td align="center">［代］</td>
+<td>代名詞</td>
+</tr>
+<tr>
+<td align="center">［動五］</td>
+<td>動詞五段活用</td>
+</tr>
+<tr>
+<td align="center">［動五（四）］</td>
+<td>動詞口語五段活用、文語四段活用</td>
+</tr>
+<tr>
+<td align="center">［動四］</td>
+<td>動詞四段活用</td>
+</tr>
+<tr>
+<td align="center">［動上一］</td>
+<td>動詞上一段活用</td>
+</tr>
+<tr>
+<td align="center">［動上二］</td>
+<td>動詞上二段活用</td>
+</tr>
+<tr>
+<td align="center">［動下一］</td>
+<td>動詞下一段活用</td>
+</tr>
+<tr>
+<td align="center">［動下二］</td>
+<td>動詞下二段活用</td>
+</tr>
+<tr>
+<td align="center">［動カ変］</td>
+<td>動詞カ行変格活用</td>
+</tr>
+<tr>
+<td align="center">［動サ変］</td>
+<td>動詞サ行変格活用</td>
+</tr>
+<tr>
+<td align="center">［動ナ変］</td>
+<td>動詞ナ行変格活用</td>
+</tr>
+<tr>
+<td align="center">［動ラ変］</td>
+<td>動詞ラ行変格活用</td>
+</tr>
+<tr>
+<td align="center">［動特活］</td>
+<td>動詞特殊活用</td>
+</tr>
+<tr>
+<td align="center">［形］</td>
+<td>形容詞</td>
+</tr>
+<tr>
+<td align="center">［形ク］</td>
+<td>形容詞ク活用</td>
+</tr>
+<tr>
+<td align="center">［形シク］</td>
+<td>形容詞シク活用</td>
+</tr>
+<tr>
+<td align="center">［形動］</td>
+<td>形容動詞</td>
+</tr>
+<tr>
+<td align="center">［形動タリ］</td>
+<td>形容動詞タリ活用</td>
+</tr>
+<tr>
+<td align="center">［形動ナリ］</td>
+<td>形容動詞ナリ活用</td>
+</tr>
+<tr>
+<td align="center">［ト・タル］</td>
+<td>「－と」の形で副詞、「－たる」の形で連体詞</td>
+</tr>
+<tr>
+<td align="center">［連体］</td>
+<td>連体詞</td>
+</tr>
+<tr>
+<td align="center">［副］</td>
+<td>副詞</td>
+</tr>
+<tr>
+<td align="center">［接］</td>
+<td>接続詞</td>
+</tr>
+<tr>
+<td align="center">［感］</td>
+<td>感動詞</td>
+</tr>
+<tr>
+<td align="center">［助動］</td>
+<td>助動詞</td>
+</tr>
+<tr>
+<td align="center">［格助］</td>
+<td>格助詞</td>
+</tr>
+<tr>
+<td align="center">［接助］</td>
+<td>接続助詞</td>
+</tr>
+<tr>
+<td align="center">［副助］</td>
+<td>副助詞</td>
+</tr>
+<tr>
+<td align="center">［係助］</td>
+<td>係助詞</td>
+</tr>
+<tr>
+<td align="center">［終助］</td>
+<td>終助詞</td>
+</tr>
+<tr>
+<td align="center">［間助］</td>
+<td>間投助詞</td>
+</tr>
+<tr>
+<td align="center">［並助］</td>
+<td>並立助詞</td>
+</tr>
+<tr>
+<td align="center">［準体助］</td>
+<td>準体助詞</td>
+</tr>
+<tr>
+<td align="center">［　］(スル)</td>
+<td>サ行変格活用の動詞となる</td>
+</tr>
+<tr>
+<td align="center">〔接頭〕</td>
+<td>接頭語</td>
+</tr>
+<tr>
+<td align="center">〔接尾〕</td>
+<td>接尾語</td>
+</tr>
+<tr>
+<td align="center">〔語素〕</td>
+<td>語素</td>
+</tr>
+<tr>
+<td align="center">〔連語〕</td>
+<td>連語</td>
+</tr>
+<tr>
+<td align="center">〔枕〕</td>
+<td>枕詞</td>
+</tr>
+<tr>
+<td align="center">［文］</td>
+<td>文語形</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="meanings"><a class="anchor" href="#meanings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meanings</h2>
+<p>Meanings are usually shown as numbered lists.
+After each definition there may be one or more example sentences in <code>「」</code> brackets.
+When there's only one meaning, it's not numbered.</p>
+<pre><code>ひるがえ・る ﾋﾙｶﾞﾍﾙ [3] 【翻る】（動ラ五［四］）
+（１）ひらりと裏がえる。「木の葉が風に―・る」
+（２）旗などが高く上がってひらひらと動く。「校旗が―・る」
+（３）今までの態度や言動が急に変わる。「悪心たちまち―・りて/仮名草子・伊曾保物語」
+</code></pre>
+<p>You may want to grab the example sentence when making Anki cards.
+If you see a slash inside the brackets, the sentence comes from a piece of literature,
+and the name of the work is written after the slash.
+Contrary to normal example sentences,
+such sentences often come from pretty old literary works.
+They tend to be quite difficult,
+and you probably don't need to bother trying to understand them.</p>
+<details>
+<summary>Symbols found inside definitions.</summary>
+<table>
+<thead>
+<tr>
+<th align="center">Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">⇒</td>
+<td>その項目を見よ</td>
+</tr>
+<tr>
+<td align="center">→</td>
+<td>参照せよ</td>
+</tr>
+<tr>
+<td align="center">⇔</td>
+<td>対義語・対語</td>
+</tr>
+<tr>
+<td align="center">[補説]</td>
+<td>語誌・表記などの補説</td>
+</tr>
+<tr>
+<td align="center">［アクセント］　</td>
+<td>アクセント表示</td>
+</tr>
+<tr>
+<td align="center">《季　》</td>
+<td>季語</td>
+</tr>
+<tr>
+<td align="center">［歌枕］</td>
+<td>歌枕</td>
+</tr>
+<tr>
+<td align="center">［可能］</td>
+<td>可能動詞</td>
+</tr>
+<tr>
+<td align="center">［派生］</td>
+<td>派生語</td>
+</tr>
+<tr>
+<td align="center">［類語］</td>
+<td>類語</td>
+</tr>
+<tr>
+<td align="center">［下接句］</td>
+<td>その語が下に付いてできる句</td>
+</tr>
+<tr>
+<td align="center">［下接語］</td>
+<td>その語が下に付いてできる語</td>
+</tr>
+<tr>
+<td align="center">［用法］</td>
+<td>用法の使い分け</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details>
+<summary>Kanji entries</summary>
+<table>
+<thead>
+<tr>
+<th align="center">Symbol</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">［音］</td>
+<td>字音</td>
+</tr>
+<tr>
+<td align="center">［訓］</td>
+<td>字訓</td>
+</tr>
+<tr>
+<td align="center">（慣）</td>
+<td>慣用音</td>
+</tr>
+<tr>
+<td align="center">（呉）</td>
+<td>呉音</td>
+</tr>
+<tr>
+<td align="center">（漢）</td>
+<td>漢音</td>
+</tr>
+<tr>
+<td align="center">（唐）</td>
+<td>唐音</td>
+</tr>
+<tr>
+<td align="center">［名のり］　</td>
+<td>人名に用いる訓</td>
+</tr>
+<tr>
+<td align="center">［難読］</td>
+<td>難読語</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="understanding-pitch-accent"><a class="anchor" href="#understanding-pitch-accent" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Understanding pitch accent</h2>
+<p>The pitch accent number that you see in dictionaries
+indicates where the pitch drop occurs, counting by <strong>moras</strong>.</p>
+<p>A mora can be defined as
+a single kana character except smaller kana (<code>ゃ</code>,<code>ゅ</code>,<code>ょ</code>),
+optionally followed by smaller kana.
+Each mora is given the same amount of time when pronounced.</p>
+<p>Examples:</p>
+<ul>
+<li><code>にゃ</code> is one mora.</li>
+<li><code>あ</code> is one mora.</li>
+<li><code>ー</code> (long vowel mark) and small <code>っ</code> each count as one mora.</li>
+<li><code>とうきょう</code> has 4 moras.</li>
+</ul>
+<p>The word <code>せいけん-ほうそう【政見放送】</code> has accent <code>[5]</code>
+which means that the drop occurs on the 5th mora.
+In other words, all moras after <code>ほ</code> should be pronounced low (セイケンホ↓ウソウ).</p>
+<p>Sometimes a dictionary entry contains several pitch accent numbers.
+It means that the word can be pronounced with either of them.</p>
+<p>The 5th version of Shinmeikai may list two pitch accent numbers separated by a colon.
+This means that only the second one tells you the pitch accent of the word in its dictionary form
+and the other one you can ignore
+because it tells you the pitch accent of the word when it modifies a noun.</p>
+<p>Tags: <a href="tag_dictionaries.html">dictionaries</a>, <a href="tag_epwing.html">epwing</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+    <p>Copyright © <a href="https://freesoftwareextremist.com/tatsumoto">Tatsumoto</a> 2020-2022</p>
+    <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</footer>
+<script src="res/blog.js"></script>
+</body>
+</html>
