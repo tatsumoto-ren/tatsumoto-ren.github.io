@@ -10,6 +10,8 @@ A typical entry in a monolingual dictionary looks similar to this:
 
 Every dictionary usually has its own, unique system of notation.
 On this page I primarily use `大辞泉` as an example.
+If you need help finding monolingual dictionaries, see the
+[Dictionaries](resources.html#dictionaries) resources section.
 
 ***
 
