@@ -165,6 +165,7 @@ const Toc = {
         "writing-japanese.html",
         "resources.html",
         "faq.html",
+        "understanding-monolingual-definitions.html",
         "random-anime-ranked-easiest-to-hardest.html",
         "ankidrone-sentence-pack.html",
         "join-our-community.html",
