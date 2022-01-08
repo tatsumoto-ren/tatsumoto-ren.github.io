@@ -149,6 +149,10 @@ Unfortunately, not all of them can be opened in mpv.
 
 ### Downloads
 
+* [Japan Encodings](https://japanencodings.blogspot.com/).
+A site with Mega links to western movies with Japanese dubs.
+Install [megatools](https://aur.archlinux.org/packages/megatools/)
+to be able to download files from Mega.
 * [jraws](https://jraws.com/). Some jdramas.
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
