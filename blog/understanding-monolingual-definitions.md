@@ -232,8 +232,8 @@ The pitch accent number that you see in dictionaries
 indicates where the pitch drop occurs, counting by **moras**.
 
 A mora can be defined as
-a single kana character except smaller kana (`ゃ`,`ゅ`,`ょ`),
-optionally followed by smaller kana.
+a single kana character except small kana (`ゃ`,`ゅ`,`ょ` but not `っ`),
+optionally followed by a small kana.
 Each mora is given the same amount of time when pronounced.
 
 Examples:
@@ -241,7 +241,7 @@ Examples:
 * `にゃ` is one mora.
 * `あ` is one mora.
 * `ー` (long vowel mark) and small `っ` each count as one mora.
-* `とうきょう` has 4 moras.
+* `東京(とうきょう)` has 4 moras: `と`, `う`, `きょ` and `う`.
 
 The word `せいけん-ほうそう【政見放送】` has accent `[5]`
 which means that the drop occurs on the 5th mora.
