@@ -79,21 +79,6 @@ To install Fcitx, run the following command.
 $ sudo pacman -S fcitx fcitx-configtool fcitx-qt5
 ```
 
-To use Qt6 applications (like Anki 2.1.50 and later) with Fcitx, additionally install
-[fcitx-qt5-qt6](https://aur.archlinux.org/packages/fcitx-qt5-qt6/).
-
-<details>
-
-<summary>In case of an error</summary>
-
-You may want to run this gpg command if you get an "unknown public key" error.
-
-```
-gpg --keyserver keys.gnupg.net --recv-keys 8E8B898CBF2412F9
-```
-
-</details>
-
 If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
