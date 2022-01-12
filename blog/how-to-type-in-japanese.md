@@ -76,7 +76,7 @@ This is what you need to do.
 To install Fcitx, run the following command.
 
 ```
-$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5
+$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
 ```
 
 If you're not running an Arch-based distro, find the appropriate packages in the repositories.
