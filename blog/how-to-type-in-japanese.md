@@ -79,6 +79,9 @@ To install Fcitx, run the following command.
 $ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
 ```
 
+Note: `fcitx-qt6` is needed
+to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.
+
 If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
