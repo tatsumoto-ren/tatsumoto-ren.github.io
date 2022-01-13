@@ -76,6 +76,7 @@ recommended by
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
+	* [1776.moe](https://1776.moe) - use a desktop app.
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
