@@ -161,6 +161,9 @@ to be able to download files from Mega.
 
 ### Manga
 
+* [nhentai](https://nhentai.net/).
+For a bit of light reading.
+Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
 * [Bilingualmanga](https://bilingualmanga.com/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
