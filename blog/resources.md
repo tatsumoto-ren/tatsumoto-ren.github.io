@@ -91,6 +91,14 @@ Storing immersion material locally makes mining substantially easier.
 
 ### Torrent trackers
 
+A [torrent](https://wikiless.org/wiki/BitTorrent)
+tracker is a site that hosts user-uploaded
+[torrent files](https://wikiless.org/wiki/Torrent_file).
+To download something (like an anime) using torrents
+you usually download a torrent file and open it with a torrent client.
+The torrent client then downloads the actual content.
+Before using the torrent sites, [choose a torrent client](#torrent-clients).
+
 * [Nyaa](https://nyaa.si/).
 A torrent site with anime, manga, light novels and Japanese dramas.
 Contains 98% of what you need to actually learn Japanese.
@@ -136,7 +144,9 @@ A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
 A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
 You can switch channels in mpv by pressing `<` and `>`.
-* [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
+* [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles).
+**Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
+to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
 * [News24.jp](https://www.news24.jp/).
 Lets you watch a live stream with news,
 but you have to allow to run an obscene amount of nonfree JavaScript code.
@@ -345,10 +355,20 @@ you can listen to condensed audio, audiobooks and Japanese music.
 * [ncmpcpp](https://rybczak.net/ncmpcpp/). Probably the most popular mpd client.
 * [mpc](https://www.musicpd.org/clients/mpc/). A CLI mpd client, great for scripting.
 
-### Downloading
+### Torrent clients
 
 * [qBittorrent](https://www.qbittorrent.org/).
 A free/libre torrent client alternative to µTorrent.
+**Use [search plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)**,
+they save you so much time that you'd otherwise spend going to each torrent site individually.
+* [KTorrent](https://apps.kde.org/ktorrent/).
+A BitTorrent client for KDE.
+* [Transmission](https://wiki.archlinux.org/title/Transmission).
+A light-weight and cross-platform BitTorrent client.
+See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
+
+### Downloading
+
 * [Megatools](https://megatools.megous.com/).
 A command line client for Mega.
 * [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
