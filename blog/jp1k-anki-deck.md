@@ -34,13 +34,6 @@ and consists of words commonly used in everyday life in Japan.
 Each sentence in the deck tries to introduce only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.
 
-We have prepared two versions of the deck.
-One for people who prefer
-[TSC](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
-card format and another for people who like
-[WCC](discussing-various-card-templates.html#word-context-cards)
-more.
-
 ****
 
 ## JP1K method
@@ -67,7 +60,28 @@ However, don't penalize yourself for being unable to do recall readings.
 As a beginner, it's already quite difficult to remember Japanese words,
 and you don't want to add another level of complexity just yet.
 
-## TSCs deck
+## Anki deck
+
+We have prepared two versions of the deck.
+One for people who prefer
+[TSC](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
+card format and another for people who like
+[WCC](discussing-various-card-templates.html#word-context-cards)
+more.
+
+Download the folder below to get the decks.
+Choose to study only one deck.
+
+<p align="center">
+<a class="download_button" href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Download</a>
+</p>
+<p align="center">
+<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror</a>
+</p>
+
+The following sections explain what these decks are.
+
+### TSCs deck
 
 At AJT we believe that
 the most effective way to learn vocabulary is through targeted sentence cards.
@@ -93,14 +107,7 @@ when there's a sentence you don't grasp fully.
 If a word contains kanji,
 you can view the furigana reading by hovering over it with your mouse.
 
-<p align="center">
-	<a class="download_button" href="https://disk.yandex.com/d/Ytby3a5BcZoYKA" target="_blank">Download</a>
-</p>
-<p align="center">
-	<a href="https://ankiweb.net/shared/info/917377946" target="_blank">Mirror</a>
-</p>
-
-## WCCs deck
+### WCCs deck
 
 If you think that word cards suit you better, try this version of the deck.
 Each card has only the target word on the front.
@@ -110,12 +117,6 @@ The content on the back is identical to the TSC deck.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
 <p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
-
-Download the deck by clicking the link below.
-
-<p align="center">
-	<a class="download_button" href="https://disk.yandex.com/d/e_JCN81z7erKDA" target="_blank">Download</a>
-</p>
 
 ## Q&A
 
