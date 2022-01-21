@@ -570,6 +570,7 @@ such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
 * Includes instructions on how to join their Discord server.
 Discord is known for spying on and politically suppressing its users.
 * Collects Email addresses which is to say the least suspicious.
+* Tries to scam you by selling you useless junk.
 
 ### [Itazuraneko](https://itazuraneko.neocities.org/)
 

@@ -76,6 +76,62 @@ screenshot-high-bit-depth=yes
 
 </details>
 
+**Note:** To tell mpv to show subtitles in the font you selected in the config, press `u`.
+If you want to make the setting permanent, add `sub-ass-override=force` to `mpv.conf`.
+
+`~/.config/mpv/input.conf` contains key bindings.
+For all available bindings, see `/usr/share/doc/mpv/input.conf`.
+
+<details>
+
+<summary>Example input.conf</summary>
+
+```
+# Increase / decrease subtitle font size
+# Works only when sub-ass-override=force
+# https://www.reddit.com/r/mpv/comments/dg5yzj/trouble_decreasing_subtitles_size/
+/ add sub-scale +0.1
+? add sub-scale -0.1
+
+# Cycle video aspect ratios; "-1" is the container aspect
+A cycle-values video-aspect "16:9" "16:10" "4:3" "2.35:1" "-1"
+
+# Vim-like seeking
+l seek  5
+h seek -5
+j seek -60
+k seek  60
+
+# Cycle between subtitle files
+K cycle sub
+J cycle sub down
+
+# Skip to previous/next subtitle line (disabled - use mpvacioius)
+#H no-osd sub-seek -1
+#L no-osd sub-seek 1
+
+# Search sub-text on Jisho.org
+# https://github.com/mpv-player/mpv/issues/4695#issuecomment-609876072
+Ctrl+j run "/bin/sh" "-c" "xdg-open 'https://jisho.org/search?keyword=${sub-text}'"
+
+# skip to next/previous file
+> playlist-next
+< playlist-prev
+
+# Add/subtract 50 ms delay from subs
+Z add sub-delay +0.05
+z add sub-delay -0.05
+
+# Adjust timing to previous/next subtitle
+X sub-step 1
+x sub-step -1
+
+# Toggle OSD visibility
+V script-binding visibility
+```
+
+</details>
+
 ## Download content
 
 Always download what you watch.
@@ -136,7 +192,7 @@ Youtube-dl reads its configuration from `~/.config/youtube-dl/config`.
 --ignore-errors
 --continue
 --add-metadata
--f 'bestvideo[height<=1080]+bestaudio'
+-f 'bestvideo[height<=1080]+bestaudio,best'
 -o '~/Videos/%(upload_date)s-%(title)s.%(ext)s'
 --merge-output-format mp4
 --user-agent "Mozilla/5.0 (Windows NT 10.0; rv:75.0) Gecko/20100101 Firefox/75.0"

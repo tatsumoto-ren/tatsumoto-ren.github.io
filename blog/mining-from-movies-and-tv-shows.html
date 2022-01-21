@@ -95,6 +95,46 @@ screenshot-jpeg-quality=90
 screenshot-high-bit-depth=yes
 </code></pre>
 </details>
+<p><strong>Note:</strong> To tell mpv to show subtitles in the font you selected in the config, press <code>u</code>.
+If you want to make the setting permanent, add <code>sub-ass-override=force</code> to <code>mpv.conf</code>.</p>
+<p><code>~/.config/mpv/input.conf</code> contains key bindings.
+For all available bindings, see <code>/usr/share/doc/mpv/input.conf</code>.</p>
+<details>
+<summary>Example input.conf</summary>
+<pre><code># Increase / decrease subtitle font size
+# Works only when sub-ass-override=force
+# https://www.reddit.com/r/mpv/comments/dg5yzj/trouble_decreasing_subtitles_size/
+/ add sub-scale +0.1
+? add sub-scale -0.1
+# Cycle video aspect ratios; &quot;-1&quot; is the container aspect
+A cycle-values video-aspect &quot;16:9&quot; &quot;16:10&quot; &quot;4:3&quot; &quot;2.35:1&quot; &quot;-1&quot;
+# Vim-like seeking
+l seek  5
+h seek -5
+j seek -60
+k seek  60
+# Cycle between subtitle files
+K cycle sub
+J cycle sub down
+# Skip to previous/next subtitle line (disabled - use mpvacioius)
+#H no-osd sub-seek -1
+#L no-osd sub-seek 1
+# Search sub-text on Jisho.org
+# https://github.com/mpv-player/mpv/issues/4695#issuecomment-609876072
+Ctrl+j run &quot;/bin/sh&quot; &quot;-c&quot; &quot;xdg-open 'https://jisho.org/search?keyword=${sub-text}'&quot;
+# skip to next/previous file
+&gt; playlist-next
+&lt; playlist-prev
+# Add/subtract 50 ms delay from subs
+Z add sub-delay +0.05
+z add sub-delay -0.05
+# Adjust timing to previous/next subtitle
+X sub-step 1
+x sub-step -1
+# Toggle OSD visibility
+V script-binding visibility
+</code></pre>
+</details>
 <h2 id="download-content"><a class="anchor" href="#download-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download content</h2>
 <p>Always download what you watch.
 This way it's easier to work with the files,
@@ -136,7 +176,7 @@ to access them without too much typing.</p>
 --ignore-errors
 --continue
 --add-metadata
--f 'bestvideo[height&lt;=1080]+bestaudio'
+-f 'bestvideo[height&lt;=1080]+bestaudio,best'
 -o '~/Videos/%(upload_date)s-%(title)s.%(ext)s'
 --merge-output-format mp4
 --user-agent &quot;Mozilla/5.0 (Windows NT 10.0; rv:75.0) Gecko/20100101 Firefox/75.0&quot;
