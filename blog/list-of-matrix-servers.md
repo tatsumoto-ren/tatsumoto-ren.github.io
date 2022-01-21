@@ -69,7 +69,6 @@ recommended by
 	* [cuum.space](https://element.cuum.space/)
 * My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/) 🏆
-	* [3000.chat](https://3000.chat/element/)
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
 	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
 	* [tomesh.net](https://chat.tomesh.net/) 🏆
@@ -165,6 +164,7 @@ like this: `https://matrix.dalek.zone/#/room/#djtspace.g33k.se`.
 * https://talk.chatcloud.net/
 * https://matrix.3dns.eu/ 🏆
 * https://nerdsin.space/ 🏆
+* https://www.jabawok.net/riot/
 
 ### With Element
 
@@ -173,6 +173,8 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://matrix.base8.org/
+* https://unita.online/
 * https://chat.zelchat.de/
 * https://houtworm.im/
 * https://element.rptc.bid/
@@ -228,7 +230,6 @@ without having to use a desktop client.
 * https://halogen.chat/ 🏆
 * https://im.skytel.ee/
 * https://mazc.riot.im/
-* https://unita.online/
 * https://web.synod.im/
 * https://talk.comm.cx/
 * https://cardy.riot.im/
@@ -371,7 +372,6 @@ and change the server from the default to the one you want.
 * https://kotilo.dy.fi/
 * https://calcuode.com/
 * https://hemmerle.dev/
-* https://unita.online/
 * https://converser.eu/
 * https://dunstkreis.ch/
 * https://chat.filik.eu/
