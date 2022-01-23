@@ -720,7 +720,8 @@ article table tr:nth-child(2n) {
 
 /* Tooltips */
 
-article span[title] {
+article span[title],
+article abbr[title] {
     cursor: help;
     text-decoration: underline dotted;
 }
