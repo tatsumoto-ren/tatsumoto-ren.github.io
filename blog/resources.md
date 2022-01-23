@@ -123,6 +123,7 @@ A private tracker for Asian movies and TV-shows.
 * [JPTV.CLUB](https://jptv.club/).
 Another private tracker.
 You can join if you have accounts on other private trackers.
+Most uploads contain Japanese subs straight from the broadcast.
 * [anisource](https://asnet.pw/).
 An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
 
