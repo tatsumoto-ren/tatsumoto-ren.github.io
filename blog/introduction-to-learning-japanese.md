@@ -139,10 +139,12 @@ I have a list of anime ranked by difficulty [here](random-anime-ranked-easiest-t
 
 The more *language-dense* your immersion content is, the better.
 You can listen to podcasts but keep in mind that they're more challenging for beginners.
-Avoid listening to songs.
-They contain unnatural speech,
+If you like Japanese music, bear in mind that
+songs contain unnatural speech,
 and it's hard to hear the lyrics through music.
 Even in our native language we often fail to understand some parts of songs.
+Instead of listening to songs for the sake of immersion,
+it's better to choose a more comprehensible material.
 
 ### Outputting
 
