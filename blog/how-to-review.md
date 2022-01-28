@@ -293,13 +293,13 @@ This calculation indicates two things.
 otherwise your review load will be increasing forever.
 2) This only becomes a problem once you've used Anki for many years.
 
-It's okay to suspend or even delete cards once they reach obscene intervals,
+It's okay to suspend or even delete cards when they reach obscene intervals,
 like 5, 10 or even 15 years.
 To find such cards, open the Anki Browser and type `prop:ivl>3650`.
 The number `3650` corresponds to a card's interval in days,
 the search expression finds all cards that have intervals larger than this value.
 Now you can suspend the cards by pressing `Ctrl+J`.
-Next time when you search for cards eligible for retirement,
+Next time when you search cards eligible for retirement,
 add `-is:suspended` to the search expression to filter out the cards you've already suspended.
 
 You can bookmark the current search expression
