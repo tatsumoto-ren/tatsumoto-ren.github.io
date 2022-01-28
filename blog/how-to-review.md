@@ -279,6 +279,29 @@ It's way harder to restore a deleted card than bring back a suspended one.
 **Suspend** cards instead.
 If you change your mind, put the card back into the rotation and try to learn it again.
 
+## Card retirement
+
+It's okay to suspend or even delete cards once they reach obscene intervals,
+like 5, 10 or even 15 years.
+To find such cards, open the Anki Browser and type `prop:ivl>3650`.
+The number `3650` corresponds to a card's interval in days,
+the search expression finds all cards that have intervals larger than this value.
+Now you can suspend the cards by pressing `Ctrl+J`.
+Next time when you search for cards eligible for retirement,
+add `-is:suspended` to the search expression to filter out the cards you've already suspended.
+
+You can bookmark the current search expression
+by right-clicking `Saved Searches` and choosing `Save Current Search`.
+
+<p align="center"><img src="img/retirement.webp" alt="screenshot"></p>
+<p align="center"><i>Anki Browser Search.</i></p>
+
+**Note:** There are some add-ons on AnkiWeb that offer automatic retirement.
+They modify the scheduler in an unpredictable way
+and have earned negative reputation among Japanese learners.
+Don't use any add-ons that mess with the scheduler.
+They often have bugs and may corrupt your collection.
+
 ## Get the AJT Flexible Grading add-on
 
 AJT Flexible Grading comes with three important features:

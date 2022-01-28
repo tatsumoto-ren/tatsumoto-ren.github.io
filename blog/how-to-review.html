@@ -269,6 +269,24 @@ It is going to help you avoid getting overwhelmed with the SRS in the long run.<
 It's way harder to restore a deleted card than bring back a suspended one.
 <strong>Suspend</strong> cards instead.
 If you change your mind, put the card back into the rotation and try to learn it again.</p>
+<h2 id="card-retirement"><a class="anchor" href="#card-retirement" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Card retirement</h2>
+<p>It's okay to suspend or even delete cards once they reach obscene intervals,
+like 5, 10 or even 15 years.
+To find such cards, open the Anki Browser and type <code>prop:ivl&gt;3650</code>.
+The number <code>3650</code> corresponds to a card's interval in days,
+the search expression finds all cards that have intervals larger than this value.
+Now you can suspend the cards by pressing <code>Ctrl+J</code>.
+Next time when you search for cards eligible for retirement,
+add <code>-is:suspended</code> to the search expression to filter out the cards you've already suspended.</p>
+<p>You can bookmark the current search expression
+by right-clicking <code>Saved Searches</code> and choosing <code>Save Current Search</code>.</p>
+<p align="center"><img src="img/retirement.webp" alt="screenshot"></p>
+<p align="center"><i>Anki Browser Search.</i></p>
+<p><strong>Note:</strong> There are some add-ons on AnkiWeb that offer automatic retirement.
+They modify the scheduler in an unpredictable way
+and have earned negative reputation among Japanese learners.
+Don't use any add-ons that mess with the scheduler.
+They often have bugs and may corrupt your collection.</p>
 <h2 id="get-the-ajt-flexible-grading-add-on"><a class="anchor" href="#get-the-ajt-flexible-grading-add-on" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get the AJT Flexible Grading add-on</h2>
 <p>AJT Flexible Grading comes with three important features:</p>
 <ul>
