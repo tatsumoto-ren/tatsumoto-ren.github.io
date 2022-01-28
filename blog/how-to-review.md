@@ -281,6 +281,18 @@ If you change your mind, put the card back into the rotation and try to learn it
 
 ## Card retirement
 
+Let's say you have 100 reviews each day,
+you learn 10 new cards a day,
+and your retention is 90%.
+If you continue your current Anki routine for an additional 15 years,
+your daily amount of reviews will be 200.
+
+This calculation indicates two things.
+
+1) You have to start suspending cards once they reach a certain interval,
+otherwise your review load will be increasing forever.
+2) This only becomes a problem once you've used Anki for many years.
+
 It's okay to suspend or even delete cards once they reach obscene intervals,
 like 5, 10 or even 15 years.
 To find such cards, open the Anki Browser and type `prop:ivl>3650`.
