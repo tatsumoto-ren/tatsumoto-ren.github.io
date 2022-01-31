@@ -103,10 +103,9 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 A torrent site with anime, manga, light novels and Japanese dramas.
 Contains 98% of what you need to actually learn Japanese.
 
-	Unfortunately, Nyaa is blocked in some countries,
-	and because there's no Tor address,
-	and they block all Tor access,
-	we have to use mirrors.
+	Unfortunately, Nyaa is blocked in some countries.
+	Accessing it through Tor can be difficult due to DDOS protection.
+	If you can't access the site, use a mirror.
 	Currently there's only one working mirror I know,
 	[Nyaa ISS](https://nyaa.iss.one/).
 * [Rutracker](https://rutracker.org/).
