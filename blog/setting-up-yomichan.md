@@ -42,7 +42,7 @@ You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
 The great thing about Yomichan is that it is customizable.
 To access the settings page, click the
-![yomichan-settings](https://foosoft.net/projects/yomichan/img/yomichan-icon.svg)
+![yomichan-settings](https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg)
 button in the browser toolbar and choose "Settings".
 In the bottom left corner enable "Advanced" to access hidden settings mentioned in this guide.
 
@@ -328,13 +328,13 @@ will bring up additional information about the kanji.
 
 You can access Yomichan Search by pressing `Alt+Insert`
 or by clicking
-![yomichan-settings](https://foosoft.net/projects/yomichan/img/yomichan-icon.svg)
+![yomichan-settings](https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg)
 on the toolbar and choosing "Search".
 There you can use Yomichan similarly to
 [qolibri](https://aur.archlinux.org/packages/qolibri/).
 
 By clicking on
-![play-audio](https://foosoft.net/projects/yomichan/img/play-audio.svg)
+![play-audio](https://foosoft.net/projects/yomichan/ext/images/play-audio.svg)
 you can hear an approximate pronunciation of the selected word.
 Unless you're using a custom pronunciation server, don't trust the default audio sources
 and don't add the pronunciations to Anki for the reasons explained earlier.
