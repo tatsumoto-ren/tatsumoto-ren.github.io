@@ -75,7 +75,7 @@ recommended by
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
-	* [1776.moe](https://1776.moe) - use a desktop app.
+	* [sakura.ci](https://sakura.ci/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -173,6 +173,11 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://comf.chat/
+* https://element.liberta.casa/
+* https://catgirl.gay/
+* https://element.okash.it/
+* https://web.yuri.im/
 * https://matrix.base8.org/
 * https://unita.online/
 * https://chat.zelchat.de/
@@ -214,7 +219,6 @@ without having to use a desktop client.
 * https://matrix.itbyhf.xyz/ 🏆
 * https://element.divided-by-zero.eu/ 🏆
 * https://g24.at/
-* https://mtrx.nz/
 * https://c.a2sc.eu/
 * https://c.wfr.moe/
 * https://uddu.chat/
@@ -336,7 +340,6 @@ and change the server from the default to the one you want.
 * https://zoit.net/
 * https://pcg.life/
 * https://oblak.be/
-* https://zinz.dev/
 * https://causa.li/
 * https://kuvio.de/
 * https://cirk2.de/
