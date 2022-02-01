@@ -118,6 +118,10 @@ The content on the back is identical to the TSC deck.
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
 <p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
 
+### Extra
+
+The "Extra" folder contains JP1K-style decks shared by our community members.
+
 ## Q&A
 
 > How many kanji are taught through the deck?
