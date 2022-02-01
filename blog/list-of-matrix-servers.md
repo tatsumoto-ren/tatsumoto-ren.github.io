@@ -55,8 +55,6 @@ recommended by
 [Glowers Club](https://glowers.club/wiki/):
 	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
 	* [kiwifarms.net](https://riot.kiwifarms.net/) 🏆
-	* [iddqd.social](https://iddqd.social/element/)
-	* [200acres.org](https://riot.200acres.org/) 🏆
 	* [halogen.city](https://halogen.chat/) 🏆
 	* [nerdsin.space](https://nerdsin.space/) 🏆
 	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
