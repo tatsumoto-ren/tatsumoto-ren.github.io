@@ -44,10 +44,11 @@ because it is naturally more extensible and user-friendly.
 
 ## Matrix
 
-[Matrix](https://wiki.archlinux.org/index.php/Matrix)
-is great because it's completely libre and federated,
-and you don't need an email address, or a phone number to make an account.
-Just type your name and a password, and you're in!
+We have a very rich and vibrant community on
+[Matrix](https://wiki.archlinux.org/index.php/Matrix).
+Matrix is great because it's a completely libre communication protocol.
+Matrix is federated and consists of many servers.
+Different Matrix servers are able to talk to each other.
 Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
 and register an account on
@@ -64,6 +65,11 @@ Open your client of choice and join `#join:g33k.se` if you use a different clien
 If you can't or don't want to install a client, use a
 [web app](https://c.wfr.moe/#/room/#join:g33k.se)
 ([alternative](https://webchat.kde.org/#/room/#join:g33k.se)).
+
+When you join the community, you'll start in Starting Lounge.
+This is a room for new members.
+From there you can explore our community
+by follwing the link in the room's description.
 
 ## Telegram
 
