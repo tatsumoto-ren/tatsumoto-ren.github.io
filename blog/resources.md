@@ -500,10 +500,12 @@ especially the `辞書グループの定義` section.
 ## Translators
 
 The quality of machine translation is very low.
-Don't use it for anything serious.
+Your goal is not to translate Japanese
+but to be able to understand it the first time.
+Don't use translators for anything serious.
 You've been warned.
 
-* [SimplyTranslate](https://translate.metalune.xyz/)
+* [SimplyTranslate](https://simplytranslate.org/)
 * [LibreTranslate](https://libretranslate.com/)
 
 ## Pitch accent
@@ -549,11 +551,14 @@ is known for spying on and politically suppressing its users.
 * Talks about MCD, which is a flashcard format that hasn't received much adoption
 over the years due to being too difficult and complicated.
 * Advertises unnecessary paid products.
+* Tries to harvest Email addresses.
 
 ### [Refold](https://refold.la/)
 
-A site founded by a successful ajatter after becoming fluent.
-The method is designed to be applicable to any language.
+This site was initially introduced as a free guide
+designed to be applicable to any language.
+Later proved to be a Patreon scam,
+but there are some helpful articles you can read without paying money.
 
 Notable articles:
 
@@ -565,12 +570,13 @@ Notable articles:
 Anti-features:
 
 * The site doesn't work (the menu breaks) unless you enable JavaScript.
+The JavaScript code is proprietary and is not safe to run.
 * Recommends and includes links to proprietary spyware
 such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
 * Includes instructions on how to join their Discord server.
 Discord is known for spying on and politically suppressing its users.
 * Collects Email addresses which is to say the least suspicious.
-* Tries to scam you by selling you useless junk.
+* Tries to sell you useless junk.
 
 ### [Itazuraneko](https://itazuraneko.neocities.org/)
 
