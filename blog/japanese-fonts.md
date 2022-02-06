@@ -108,7 +108,7 @@ According to Arch Wiki,
 bitmap fonts are sometimes used as fallbacks for missing fonts,
 which may cause text to be rendered pixelated.
 If you think you need them, open `99-japanese-fonts.conf` and set `embeddedbitmap` to `true`.
-Otherwise set it to `false`.
+Otherwise, set it to `false`.
 
 ```
 <match target="font">
