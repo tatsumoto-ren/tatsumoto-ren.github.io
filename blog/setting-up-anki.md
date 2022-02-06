@@ -104,7 +104,12 @@ and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 You have to install it separately.
 * You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
 * Anki `2.1.50` and later additionally requires
-installing `PyQtWebEngine` and `PyQt5-stubs` from PyPI.
+installing
+[PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
+and
+[PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/)
+from PyPI.
+* `PyQt5` and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
 
 ### Troubleshooting
 
