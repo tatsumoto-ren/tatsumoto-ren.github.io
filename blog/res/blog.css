@@ -726,7 +726,8 @@ article abbr[title] {
     text-decoration: underline dotted;
 }
 
-article span[title]:hover {
+article span[title]:hover,
+article abbr[title]:hover {
     text-decoration: none;
     color: rgb(159, 20, 26);
 }
