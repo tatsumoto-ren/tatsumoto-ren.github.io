@@ -125,6 +125,27 @@ it's going to be very hard to immerse without going back to English.
 If you like anime, there will be no temptation to watch crap in English.
 But if you're not like that, then why are you learning Japanese in the first place?
 
+### Is it harmful to always have TL subtitles on?
+
+Yes, definitely.
+What I recommend is either to keep two types of shows,
+one for watching raw and one for watching with subs,
+or always watch raw and turn the subs on only when you miss something.
+
+The amount of passive immersion you're doing also plays a role.
+You can allow yourself to watch more subbed content if you do a lot of listening on the side.
+Watching with subs is a reading activity.
+If all you do is reading immersion,
+you have no chance to practice your listening.
+The more you learn in this style,
+the more your listening ability lags behind your reading ability.
+
+What most people are legitimately afraid of is the fact that
+you can't learn a language through listening the first time.
+If you're already fluent but your listening ability is underdeveloped,
+you have to correct that,
+and it always takes more effort than taking a more balanced approach from the beginning.
+
 ### Pausing. How often should I look things up?
 
 If you never pause it means you don't look up words at all.
@@ -433,6 +454,11 @@ If you already have a targeted sentence card that teaches the kanji version of a
 then the next time you make a card that has that word in it,
 you don't have to change it to kanji because it's not the **target word** anymore.
 
+### If a word has more than one kanji spellings, which do I mine?
+
+Try putting each spelling in a search engine.
+Mine the one that brings more results.
+
 ### How can I improve at reading Japanese names?
 
 Make an Anki deck and fill it with Japanese names.
@@ -560,21 +586,23 @@ using resources meant for native speakers.
 
 ### Should I trust mattvsjapan and the "Refold" site?
 
-Generally, watching or reading the content he produced before around mid 2018 is safe
-because he seems to be quite honest in it.
-But in recent years Matt has been criticized by many people for watering down the method
-and making it less effective
-because he wanted to appeal to a wider audience.
+Mattvsjapan wants you to pay money for his courses and paywalled content.
+This radically contradicts the core idea of this site,
+which is to learn a language without spending any money at all.
 
-On this site we try to push as hardcore as we can,
+If you want to watch his channel,
+stick to the videos he produced before around mid 2018,
+he seems to be quite honest in them.
+The old videos were inspired by AJATT and taught a lot of good things.
+Unfortunately, it is hard to find them, most of the videos are not available on YouTube anymore.
+
+In recent years Matt has been criticized
+for watering down the method
+and making it less effective.
+On this site we try to stick to the spirit of AJATT,
 so I recommend getting yourself familiar with the AJATT theory
-before you engage with Refold's content.
-It will enable you to **distinguish** hardcore advice from advice for the general audience.
-
-Don't get me wrong though,
-listening to mattvsjapan is still a thousand times better
-than listening to what *certain* other people say on the Internet.
-It's probably one of the most valuable sources after this site and the AJATT site.
+before you explore content from Refold.
+It will help you **distinguish** good advice from bad advice.
 
 ### How much more efficient is AJATT than Refold?
 
@@ -1029,6 +1057,12 @@ No.
 
 * [疑問符](https://ja.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E7%AC%A6)
 * [感嘆符](https://ja.wikipedia.org/wiki/%E6%84%9F%E5%98%86%E7%AC%A6)
+
+### What is the カ゚ symbol I see in dictionaries?
+
+See [this entry](https://wikiless.org/wiki/%E3%81%8B%E3%82%9C?wprov=sfla1&lang=ja)
+on WikiLess.
+This is called <abbr title="bidakuon, nasal muddy sound">鼻濁音</abbr>.
 
 ### How to type the ￥ symbol with Fcitx?
 
