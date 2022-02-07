@@ -372,4 +372,49 @@ export QT_QPA_PLATFORMTHEME=gtk2
 
 Then relogin or reboot.
 
+## Trying different versions
+
+If you want to install and test multiple versions of Anki at the same time,
+use the following functions.
+Add them to your
+[~/.bashrc](https://wiki.archlinux.org/title/Bash#Configuration_files)
+or
+[~/.zshrc](https://wiki.archlinux.org/title/Zsh#Configure_Zsh).
+
+Install a specific version.
+For example, run `anki_test_install 45` to install Anki `2.1.45`.
+
+```
+anki_test_install() {
+	local -r version=${1:?No version provided.}
+	local -r dir=~/.local/share/anki_builds/"anki_$version"
+	(
+		mkdir -p -- "$dir" && cd -- "$dir" || exit
+		python -m venv --system-site-packages pyenv
+		./pyenv/bin/pip3 install --upgrade pip
+		./pyenv/bin/pip3 install --upgrade --pre "aqt==2.1.$version"
+	)
+}
+```
+
+Run a specific version.
+This script uses [dmenu](https://wiki.archlinux.org/title/Dmenu) to ask what version you want to run.
+
+```
+anki_test_run() {
+	local -r dir=~/.local/share/anki_builds
+	if [[ $* ]]; then
+		local -r choice=$*
+	else
+		local -r choice=$(ls -1 "$dir" | dmenu)
+	fi
+	if [[ -n $choice ]]; then
+		(cd -- "$dir/$choice" && ./pyenv/bin/anki)
+	fi
+}
+```
+
+These functions are
+[available on my GitHub](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc).
+
 Tags: anki
