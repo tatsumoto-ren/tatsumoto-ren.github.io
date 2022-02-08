@@ -784,9 +784,33 @@ study tongue placement and imitate native speakers.
 
 ### How to approach words with multiple meanings?
 
-Usually it's enough to make just one card for one meaning,
-but it's okay to make multiple cards if you think you need it.
+The main way we do sentence mining is by adding sentences from our immersion to the SRS.
+When you notice a new word in your immersion,
+it is sufficient to make **just one card with the sentence the word appears in**.
+When you review the card,
+grade it "Good" if you remember the meaning relevant to the context of the sentence.
+
+If you want to make cards for all meanings of the word,
+you'll have to spend time looking for additional example sentences that express each meaning.
+Although it is a valid approach, I don't think it's necessary and worth your time.
+
+When you look up the word in a dictionary,
+it's going to have multiple definitions listed.
+In monolingual dictionaries the number of definitions can be especially large.
+You can either paste every definition on the card
+or put just the one that applies to that situation.
+Which definition or definitions to choose is highly specific to the target word.
+Regardless of what you decide to put on the card,
+when reviewing **test yourself only on one meaning**.
+Having to recall multiple things at once violates the
+[minimum information principle](http://super-memory.com/articles/20rules.htm#minimum%20information%20principle)
+and makes the card harder.
+
+When you find the same word used to express a different meaning,
+it's totally acceptable to make another card if you think it helps you.
 To distinguish the cards rely on context around the target word.
+*Making another card does not contradict the minimum information principle
+because the extra information is added in extra cards.*
 
 ### What do you think of using MCDs to train production?
 
