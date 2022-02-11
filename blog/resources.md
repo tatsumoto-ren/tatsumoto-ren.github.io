@@ -71,6 +71,8 @@ Allows you to search over 30 million unique Japanese sentences.
 Contains voiced sentences from various premade decks.
 Grab an offline version
 [here](ankidrone-sentence-pack.html).
+* [Aozorasearch](https://myokoym.net/aozorasearch).
+Performs a full-text search on Aozora Bunko (digital library).
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
 Made for Japanese people learning English but can be used in reverse.
 * [Forvo](https://forvo.com/).
