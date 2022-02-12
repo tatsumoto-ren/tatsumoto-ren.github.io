@@ -75,6 +75,8 @@ recommended by
 	* [sakura.ci](https://sakura.ci/)
 	* [iddqd.chat](https://iddqd.chat/)
 	* [lostpod.me](https://lostpod.me/)
+	* [maeli.net](https://maeli.net/) 🏆
+	* [trygve.me](https://element.trygve.me/) 🏆
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -147,9 +149,9 @@ To link a room append `#/room/#your_room:example.com`
 to the instance's Element address,
 like this: `https://matrix.dalek.zone/#/room/#djtspace.g33k.se`.
 
+* https://element.fablabchemnitz.de/
 * https://c.wfr.moe/
 * https://riot.ukvly.org/
-* https://chat.tomesh.net/ 🏆
 * https://riot.tzchat.org/
 * https://element.asra.gr/
 * https://webchat.kde.org/
@@ -172,6 +174,44 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://houtworm.im/ 🏆
+* https://chat.cfx.re/ 🏆
+* https://halogen.chat/ 🏆
+* https://element.cpn.so/ 🏆
+* https://matrix.dpin.de/ 🏆
+* https://bot.itbyhf.xyz/ 🏆
+* https://chat.vscape.tk/ 🏆
+* https://matrix.radu.at/ 🏆
+* https://matrix.3dns.eu/ 🏆
+* https://chat.mistli.net/ `matrix.mistli.net` 🏆
+* https://fsoc.lol/matrix/ 🏆
+* https://riot.shendai.rip/ 🏆
+* https://element.gogel.me/ 🏆
+* https://element.snug.moe/ 🏆
+* https://element.libre.moe/ `https://libre.moe/` 🏆
+* https://chat.mypagenow.de/ 🏆
+* https://matrix.okoyono.de/ 🏆
+* https://matrix.nixxda.net/ 🏆
+* https://matrix.itbyhf.xyz/ 🏆
+* https://element.avlikos.gr/ 🏆
+* https://element.entr0py.de/ 🏆
+* https://chat.inscomers.net/ 🏆
+* https://element.efertone.me/ 🏆
+* https://matrix.pittamitz.at/ 🏆
+* https://matrix.dandl.bayern/ 🏆
+* https://matrix.quickbrb.com/ 🏆
+* https://chat.samtripoli.com/ 🏆
+* https://chat.dresden.network/ 🏆
+* https://element.crossbach.de/ 🏆
+* https://element.schaeferit.de/ 🏆
+* https://matrix.patricknour.de/ 🏆
+* https://element.tinternet.net/ 🏆
+* https://www.schotty.com/matrix/ 🏆
+* https://matrix.pancrypticon.net/ 🏆
+* https://element.radiowarnerd.org/ 🏆
+* https://element.fablabchemnitz.de/ 🏆
+* https://matrix-client.seditio.xyz/ 🏆
+* https://element.divided-by-zero.eu/ 🏆
 * https://comf.chat/
 * https://element.liberta.casa/
 * https://element.okash.it/
@@ -190,7 +230,6 @@ without having to use a desktop client.
 * https://element.w1l.duckdns.org/
 * https://chat.mux.re/
 * https://chat.leon.wtf/
-* https://chat.cfx.re/ 🏆
 * https://matrix.darkcloud.ca/
 * https://matrix.club-tech.fr/
 * https://chat.joinpoint.org/
@@ -208,14 +247,11 @@ without having to use a desktop client.
 * https://element.sebdu.de/
 * https://okaris.de/
 * https://element.juniorjpdj.pl/
-* https://element.entr0py.de/
 * https://chat.techsaviours.org/
 * https://chat.decred.org/
 * https://matrix.dalek.zone/
 * https://chat.greensteps.cn/
 * https://element.matrix4ulm.de/
-* https://matrix.itbyhf.xyz/ 🏆
-* https://element.divided-by-zero.eu/ 🏆
 * https://g24.at/
 * https://c.a2sc.eu/
 * https://c.wfr.moe/
@@ -229,7 +265,6 @@ without having to use a desktop client.
 * https://ngonbay.com/
 * https://chat.leel.ch/
 * https://chat.rye.dev/
-* https://halogen.chat/ 🏆
 * https://im.skytel.ee/
 * https://mazc.riot.im/
 * https://web.synod.im/
@@ -250,7 +285,6 @@ without having to use a desktop client.
 * https://chat.thorko.de/
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
-* https://matrix.3dns.eu/ 🏆
 * https://riot.ukvly.org/
 * https://chat.tomesh.net/
 * https://chat.utwente.io/
@@ -299,7 +333,6 @@ without having to use a desktop client.
 * https://chat.synistersyntax.com/
 * https://element.privacytools.io/
 * https://element.thisisjoes.site/
-* https://matrix.pancrypticon.net/ 🏆
 * https://element.matthewgall.chat/
 * https://element.midov.pl/element/
 * https://grid.rrze.fau.de/riotweb/
@@ -314,21 +347,191 @@ Install one of the clients listed on
 press "create account", then find advanced options
 and change the server from the default to the one you want.
 
+* https://lkj.it/ 🏆
+* https://p3a.io/ 🏆
+* https://l12c.eu/ 🏆
+* https://fick.es/ 🏆
+* https://javil.eu/ 🏆
+* https://bmw12.nl/ 🏆
+* https://cisek.ca/ 🏆
+* https://group.lt/ 🏆
+* https://whyc.dev/ 🏆
+* https://hirt.dev/ 🏆
+* https://kleph.eu/ 🏆
+* https://rage.lol/ 🏆
+* https://linkor.io/ 🏆
+* https://prmxcl.fr/ 🏆
+* https://lodere.es/ 🏆
+* https://faelix.im/ 🏆
+* https://ruzik.xyz/ 🏆
+* https://denshi.org/ 🏆
+* https://mat.amo.ms/ 🏆
+* https://obermui.de/ 🏆
+* https://kssler.win/ 🏆
+* https://zangief.nl/ 🏆
+* https://itbyhf.xyz/ 🏆
+* https://priv8.chat/ 🏆
+* https://banber.org/ 🏆
+* https://3x3cut0r.de/ 🏆
+* https://jfrumen.com/ 🏆
+* https://im.tnode.eu/ 🏆
+* https://syz7ygy.org/ 🏆
 * https://www.hellug.gr/
+* https://citadel7.org/ 🏆
+* https://rawbit.ninja/ 🏆
+* https://lukas.studio/ 🏆
+* https://curved.space/ 🏆
+* https://lolison.chat/ 🏆
+* https://franssen.xyz/ 🏆
+* https://ellipsys.xyz/ 🏆
+* https://halogen.city/ 🏆
+* https://kameron.cloud/ 🏆
+* https://kameron.cloud/ 🏆
+* https://cl0secall.net/ 🏆
+* https://yuuko.smar.fi/ 🏆
+* https://juniorjpdj.pl/ 🏆
+* https://matrix.47q.de/ 🏆
+* https://mittelwind.de/ 🏆
+* https://tricuties.com/ 🏆
+* https://matrix.fuz.re/ 🏆
+* https://matrix.erh.se/ 🏆
+* https://canarynet.xyz/ 🏆
+* https://matrix.fuz.re/ 🏆
+* https://matrix.lorf.io 🏆
+* https://matrix.dnix.de/ 🏆
+* https://chat.thorko.de/ 🏆
+* https://im.memnonic.at/ 🏆
+* https://fatherjim.tech/ 🏆
+* https://matrix.jrop.me/ 🏆
+* https://swirl.funny.cl/ 🏆
 * https://elsmussols.net/ 🏆
-* https://matrix.grusbv.com/ 🏆
+* https://kansanvalta.org/ 🏆
+* https://matrix.rptc.bid/ 🏆
+* https://matrix.cirk2.de/ 🏆
+* https://freedommuse.org/ 🏆
+* https://matrix.wfrei.de/ 🏆
+* https://matrix.daspr.io/ 🏆
+* https://matrix.knax.xyz/ 🏆
+* https://matrix.dnlr.org/ 🏆
+* https://schaffarzik.net/ 🏆
+* https://chat.jit.social/ 🏆
 * https://tetaneutral.net/ 🏆
+* https://matrix.asger.xyz/ 🏆
+* https://plus-sensible.me/ 🏆
+* https://matrix.osm8.tech/ 🏆
+* https://matrix.jhell.org/ 🏆
+* https://skylinetv.stream/ 🏆
+* https://chat.twomoons.de/ 🏆
+* https://matrix.ladiv.org/ 🏆
+* https://m.twistednet.org/ 🏆
+* https://matrix.ravc.tech/ 🏆
+* https://matrix.cs-syd.eu/ 🏆
+* https://matrix.vleij.com/ 🏆
+* https://matrix.kvych.net/ 🏆
+* https://vanderwarker.dev/ 🏆
+* https://matrix.rakozy.us/ 🏆
+* https://matrix.glargh.fr/ 🏆
+* https://matrix.nesven.eu/ 🏆
+* https://beckendoktor.com/ 🏆
+* https://matrix.jibby.org/ 🏆
+* https://matrix.elwms.org/ 🏆
 * https://matrix.nesven.eu/ 🏆
 * https://pancrypticon.net/ 🏆
-* https://matrix.netcavy.net/ 🏆
-* https://matrix.net4sec.com/ 🏆
 * https://matrix.neaweb.ch/ 🏆
-* https://matrix.hemmnet.de/ 🏆
-* https://matrix.fuz.re/ 🏆
 * https://matrix.dapor.net/ 🏆
 * https://matrix.asger.xyz/ 🏆
-* https://matrix.lorf.io 🏆
-* https://halogen.city/ 🏆
+* https://matrix.decred.org/ 🏆
+* https://matrix.lasi-it.de/ 🏆
+* https://matrix.dificen.to/ 🏆
+* https://matrix.binwang.me/ 🏆
+* https://matrix.mfietze.de/ 🏆
+* https://matrix.huneck.net/ 🏆
+* https://matrix.znurre.com/ 🏆
+* https://matrix.cabaal.net/ 🏆
+* https://matrix.truhost.eu/ 🏆
+* https://matrix.prof-x.net/ 🏆
+* https://matrix.codenic.de/ 🏆
+* https://matrix.poweron.dk/ 🏆
+* https://matrix.lazzurs.ie/ 🏆
+* https://definitionhub.com/ 🏆
+* https://matrix.sumill.com/ 🏆
+* https://matrix.keiron.xyz/ 🏆
+* https://matrix.grusbv.com/ 🏆
+* https://matrix.hemmnet.de/ 🏆
+* https://matrix.apiks.world/ 🏆
+* https://matrix.emri.online/ 🏆
+* https://matrix.hofra.rocks/ 🏆
+* https://matrix.arakimo.net/ 🏆
+* https://matrix.troback.com/ 🏆
+* https://matrix.alucryd.xyz/ 🏆
+* https://matrix.flick-it.de/ 🏆
+* https://neuland.technology/ 🏆
+* https://matrix.pangrand.fr/ 🏆
+* https://matrix.net4sec.com/ 🏆
+* https://chatencriptado.com/ 🏆
+* https://matrix.dabbill.com/ 🏆
+* https://matrix.hishobo.com/ 🏆
+* https://matrix.tmiland.com/ 🏆
+* https://matrix.i-taros.net/ 🏆
+* https://netrunner-vault.de/ 🏆
+* https://matrix.genscorp.es/ 🏆
+* https://matrix.racistism.tk 🏆
+* https://matrix.netcavy.net/ 🏆
+* https://matrix.net4sec.com/ 🏆
+* https://matrix.zeronyms.com/ 🏆
+* https://matrix.nord.digital/ 🏆
+* https://chat.deprecated.org/ 🏆
+* https://matrix.catchra.host/ 🏆
+* https://matrix.darkcloud.ca/ 🏆
+* https://matrix.dunkklar.org/ 🏆
+* https://matrix.kengstrom.se/ 🏆
+* https://matrix.googboog.com/ 🏆
+* https://matrix.telesight.nl/ 🏆
+* https://matrix.chaospott.de/ 🏆
+* https://matrix.spectreos.de/ 🏆
+* https://matrix.caracals.org/ 🏆
+* https://matrix.interhop.org/ 🏆
+* https://matrix.heiming.info/ 🏆
+* https://gottliebtfreitag.de/ 🏆
+* https://matrix.zenocyne.com/ 🏆
+* https://matrix.solonari.net/ 🏆
+* https://matrix.petrutoni.nl/ 🏆
+* https://matrix.zoz-serv.org/ 🏆
+* https://matrix.aaronhess.xyz/ 🏆
+* https://matrix.csrichter.com/ 🏆
+* https://matrix.marshall.haus/ 🏆
+* https://matrix.jerrycrazy.be/ 🏆
+* https://matrixtest.strits.dk/ 🏆
+* https://matrix.foreskin.tips/ 🏆
+* https://matrix.danyocean.com/ 🏆
+* https://matrix.jjgadget.tech/ 🏆
+* https://matrix.optoutpod.com/ 🏆
+* https://matrix.linuxbrujo.net/ 🏆
+* https://matrix.archoslinux.cz/ 🏆
+* https://matrix.wolfwarrior.de/ 🏆
+* https://sergiotarxz.hopto.org/ 🏆
+* https://matrix.thecovrigs.net/ 🏆
+* https://matrix.familyhainz.de/ 🏆
+* https://matrix.garudalinux.org/ 🏆
+* https://matrix.muensterhack.de/ 🏆
+* https://matrix.otonokizaka.moe/ 🏆
+* https://matrix.mueller.network/ 🏆
+* https://matrix.loutre-noire.fr/ 🏆
+* https://riot.markshorten.co.uk/ 🏆
+* https://matrix.aviancarrier.de/ 🏆
+* https://matrix.adamcogswell.com/ 🏆
+* https://matrix.lars-mielchen.de/ 🏆
+* https://matrix.budem.de/_matrix/ 🏆
+* https://matrix.leipzigesports.de/ 🏆
+* https://matrix.gears-gadgets.com/ 🏆
+* https://slipstream.thebell.house/ 🏆
+* https://matrix.niveau-keller.com/ 🏆
+* https://synapse.mateuszreszka.xyz/ 🏆
+* https://matrix.restitutor-orbis.eu/ 🏆
+* https://bridge.slashengineering.com/ 🏆
+* https://matrix.antoine-langlois.net/ 🏆
+* https://matrix.archgang.xyz/_matrix/static/ 🏆
+* https://llllllllllllllllllllllllllllllllllllllllllllllll.space/ 🏆
 * https://mcl.gg/
 * https://brad.li/
 * https://jn2p.de/
@@ -363,7 +566,6 @@ and change the server from the default to the one you want.
 * https://chatmud.com/
 * https://secureim.de/
 * https://cakeboss.it/
-* https://spodeli.org/
 * https://blacksec.de/
 * https://malooma.bzh/
 * https://geese.party/
