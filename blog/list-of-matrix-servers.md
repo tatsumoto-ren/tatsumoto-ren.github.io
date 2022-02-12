@@ -64,7 +64,6 @@ recommended by
 	* [midov.pl](https://element.midov.pl/element/) 🏆
 	* [anontier.nl](https://element.anontier.nl/)
 	* [ma.neko.bar](https://element.neko.bar/)
-	* [cuum.space](https://element.cuum.space/)
 * My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/) 🏆
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
@@ -74,6 +73,8 @@ recommended by
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
 	* [sakura.ci](https://sakura.ci/)
+	* [iddqd.chat](https://iddqd.chat/)
+	* [lostpod.me](https://lostpod.me/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -173,7 +174,6 @@ without having to use a desktop client.
 
 * https://comf.chat/
 * https://element.liberta.casa/
-* https://catgirl.gay/
 * https://element.okash.it/
 * https://web.yuri.im/
 * https://matrix.base8.org/
