@@ -74,7 +74,6 @@ recommended by
 	* [perthchat](https://client.perthchat.org/)
 	* [sakura.ci](https://sakura.ci/)
 	* [iddqd.chat](https://iddqd.chat/)
-	* [lostpod.me](https://lostpod.me/)
 	* [maeli.net](https://maeli.net/) 🏆
 	* [trygve.me](https://element.trygve.me/) 🏆
 * Servers run by Japanese people:
@@ -553,7 +552,6 @@ and change the server from the default to the one you want.
 * https://furry.lol/
 * https://koehn.com/
 * https://nibbana.jp/
-* https://lostpod.me/
 * https://ramrod.top/
 * https://lomnik.net/
 * https://willy.club/
