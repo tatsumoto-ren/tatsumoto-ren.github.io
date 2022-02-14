@@ -33,17 +33,17 @@ const insertAfter = (newNode, existingNode) => {
 }
 
 const Utils = Object.freeze({
-    is_index: () => {
+    is_index() {
         const path = window.location.pathname;
         return (path.endsWith('index') || path.endsWith('index.html'))
     },
-    filename: () => {
+    filename() {
         return window.location.pathname.split('/').slice(-1).join('')
     },
-    is_tags_page: () => {
+    is_tags_page() {
         return Utils.filename().startsWith('tag_')
     },
-    query_headers: (parent) => {
+    query_headers(parent) {
         const headers = parent.querySelectorAll(':is(h1, h2, h3, h4, h5, h6)')
         const parsed = []
         for (const header of headers) {
@@ -57,7 +57,7 @@ const Utils = Object.freeze({
         }
         return parsed
     },
-    maybe_toggle_attr: (item, attribute, force) => {
+    maybe_toggle_attr(item, attribute, force) {
         if (item !== undefined) {
             if (force !== undefined) {
                 item.toggleAttribute(attribute, force)
@@ -71,7 +71,7 @@ const Utils = Object.freeze({
 const Sidebar = Object.freeze({
     id: 'sidebar',
     btn_id: 'show_sidebar_button',
-    make_sidebar_header: () => {
+    make_sidebar_header() {
         const up_inline_svg = () => { return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve"><g><path d="M64.8,554.8l102.8-102.9l259.7,259.8V10h145.4v701.7l259.7-259.8l102.8,102.9L500.1,990L64.8,554.8z"/></g></svg>`; }
         return [
             `<div class="sidebar_header">`,
@@ -81,7 +81,7 @@ const Sidebar = Object.freeze({
             `</div>`
         ].join('')
     },
-    make_list: (headers) => {
+    make_list(headers) {
         let prev_level = 0
         let list = ''
 
@@ -106,7 +106,7 @@ const Sidebar = Object.freeze({
 
         return list
     },
-    make_open_button: () => {
+    make_open_button() {
         const inline_svg = () => { return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32.055 32.055" xml:space="preserve"><path d="M3.968,12.061C1.775,12.061,0,13.835,0,16.027c0,2.192,1.773,3.967,3.968,3.967c2.189,0,3.966-1.772,3.966-3.967 C7.934,13.835,6.157,12.061,3.968,12.061z M16.233,12.061c-2.188,0-3.968,1.773-3.968,3.965c0,2.192,1.778,3.967,3.968,3.967 s3.97-1.772,3.97-3.967C20.201,13.835,18.423,12.061,16.233,12.061z M28.09,12.061c-2.192,0-3.969,1.774-3.969,3.967 c0,2.19,1.774,3.965,3.969,3.965c2.188,0,3.965-1.772,3.965-3.965S30.278,12.061,28.09,12.061z"/></svg>`; }
         const btn = document.createElement('button')
         btn.onclick = Sidebar.toggle
@@ -115,22 +115,22 @@ const Sidebar = Object.freeze({
         btn.innerHTML = inline_svg()
         return btn
     },
-    create: (headers) => {
+    create(headers) {
         const div = document.createElement('div')
         div.id = Sidebar.id
         div.innerHTML = Sidebar.make_sidebar_header() + Sidebar.make_list(headers)
         return div
     },
-    close: () => {
+    close() {
         Utils.maybe_toggle_attr($(Sidebar.id), 'open', false)
         Utils.maybe_toggle_attr($(Sidebar.btn_id), 'open', false)
     },
-    toggle: () => {
+    toggle() {
         Utils.maybe_toggle_attr($(Sidebar.id), 'open')
         Utils.maybe_toggle_attr($(Sidebar.btn_id), 'open')
         $('menu-btn').checked = false
     },
-    init: () => {
+    init() {
         if (!Utils.is_index() && !Utils.is_tags_page()) {
             const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
             if (headers.length > 0) {
@@ -176,19 +176,19 @@ const Toc = Object.freeze({
         "join-our-community.html",
         "donating-to-tatsumoto.html",
     ],
-    make_link: (to, next) => {
+    make_link(to, next) {
         const a = document.createElement('a')
         a.href = to
         a.className = next ? "md-button next" : "md-button prev"
         a.innerText = next ? "Next" : "Previous"
         return a
     },
-    make_nav_container: () => {
+    make_nav_container() {
         const div = document.createElement("div")
         div.className = "toc_navigation"
         return div
     },
-    link_adjacent: () => {
+    link_adjacent() {
         const i = Toc.order.indexOf(Utils.filename())
         const outer = document.querySelector('div#divbody')
         if (i >= 0 && outer) {
