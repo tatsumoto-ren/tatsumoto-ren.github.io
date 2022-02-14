@@ -32,7 +32,7 @@ const insertAfter = (newNode, existingNode) => {
     existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
 }
 
-const Utils = {
+const Utils = Object.freeze({
     is_index: () => {
         const path = window.location.pathname;
         return (path.endsWith('index') || path.endsWith('index.html'))
@@ -66,9 +66,9 @@ const Utils = {
             }
         }
     },
-}
+})
 
-const Sidebar = {
+const Sidebar = Object.freeze({
     id: 'sidebar',
     btn_id: 'show_sidebar_button',
     make_sidebar_header: () => {
@@ -141,9 +141,9 @@ const Sidebar = {
             }
         }
     }
-}
+})
 
-const Toc = {
+const Toc = Object.freeze({
     order: [
         "foreword.html",
         "introduction-to-learning-japanese.html",
@@ -202,9 +202,9 @@ const Toc = {
             }
         }
     }
-}
+})
 
-const MegaTags = {
+const MegaTags = Object.freeze({
     make_tag() {
         const mega_tag = document.createElement('a')
         mega_tag.target = "_blank"
@@ -222,7 +222,7 @@ const MegaTags = {
             }
         }
     }
-}
+})
 
 /* Entry point */
 
