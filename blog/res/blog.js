@@ -211,7 +211,7 @@ const MegaTags = Object.freeze({
         mega_tag.title = "Use megatools"
         mega_tag.style = "margin-left: 4px;"
         mega_tag.href = "https://aur.archlinux.org/packages/megatools"
-        mega_tag.innerHTML = '<img alt="mega" style="vertical-align: -0.125em; height: 16px;" src="https://avatars.githubusercontent.com/u/4920706?s=200&v=4">'
+        mega_tag.innerHTML = '<img alt="mega" style="vertical-align: -0.125em; height: 1em;" src="https://avatars.githubusercontent.com/u/4920706?s=200&v=4">'
         return mega_tag
     },
     mark_links() {
