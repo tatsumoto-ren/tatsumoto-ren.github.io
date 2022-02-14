@@ -31,9 +31,13 @@ Kanji characters with Koohii stories.
 
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
 * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
-* [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
+* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
+This pack has a lot of cards.
+Unless you love doing Anki, I don't think it's necessary.
+* [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/).
+You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
 
 ### Grammar
 
