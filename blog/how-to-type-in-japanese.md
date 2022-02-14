@@ -32,7 +32,9 @@ Usually, the process is as follows.
 you need to press Space and select from a number of choices.
 Or you can leave the word as is by pressing Enter.
 
-Often in Japanese, a single word is spelled with different kanji.
+Often in Japanese,
+a single word can be spelled multiple ways,
+and different words can be read the same.
 For example, `しんちょう` could be written as `慎重`, or as `身長`.
 This is why you may be given multiple options to choose from when you press Space.
 
@@ -173,7 +175,7 @@ Some shortcuts may even be missing completely.
 ## Android
 
 On Android, you need to download a Japanese keyboard.
-To do this open the [F-Droid](https://f-droid.org/) catalogue,
+To do this open the [F-Droid](https://f-droid.org/) catalog,
 then in the search bar type `Mozc`.
 
 <p align="center"><img src="img/f-droid-mozc.webp" alt="input methods" style="width: 400px;"></p>
