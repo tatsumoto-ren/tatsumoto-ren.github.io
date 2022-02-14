@@ -25,7 +25,12 @@
  *
  */
 
-const $ = (id) => { return document.getElementById(id); }
+const $ = (id) => {
+    return document.getElementById(id);
+}
+const insertAfter = (newNode, existingNode) => {
+    existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+}
 
 const Utils = {
     is_index: () => {
@@ -199,9 +204,30 @@ const Toc = {
     }
 }
 
+const MegaTags = {
+    make_tag() {
+        const mega_tag = document.createElement('a')
+        mega_tag.target = "_blank"
+        mega_tag.title = "Use megatools"
+        mega_tag.style = "margin-left: 4px;"
+        mega_tag.href = "https://aur.archlinux.org/packages/megatools"
+        mega_tag.innerHTML = '<img alt="mega" style="vertical-align: -0.125em; height: 16px;" src="https://avatars.githubusercontent.com/u/4920706?s=200&v=4">'
+        return mega_tag
+    },
+    mark_links() {
+        const anchors = document.querySelectorAll('article a')
+        for (const anchor of anchors) {
+            if (anchor.href.startsWith('https://mega.nz/')) {
+                insertAfter(this.make_tag(), anchor)
+            }
+        }
+    }
+}
+
 /* Entry point */
 
 document.addEventListener('DOMContentLoaded', () => {
     Sidebar.init()
     Toc.link_adjacent()
+    MegaTags.mark_links()
 }, false)
