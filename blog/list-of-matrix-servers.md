@@ -186,7 +186,6 @@ without having to use a desktop client.
 * https://fsoc.lol/matrix/ 🏆
 * https://riot.shendai.rip/ 🏆
 * https://element.gogel.me/ 🏆
-* https://element.snug.moe/ 🏆
 * https://element.libre.moe/ `https://libre.moe/` 🏆
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
