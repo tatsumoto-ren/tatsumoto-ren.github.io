@@ -178,7 +178,6 @@ without having to use a desktop client.
 * https://halogen.chat/ 🏆
 * https://element.cpn.so/ 🏆
 * https://matrix.dpin.de/ 🏆
-* https://bot.itbyhf.xyz/ 🏆
 * https://chat.vscape.tk/ 🏆
 * https://matrix.radu.at/ 🏆
 * https://matrix.3dns.eu/ 🏆
@@ -190,7 +189,6 @@ without having to use a desktop client.
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
 * https://matrix.nixxda.net/ 🏆
-* https://matrix.itbyhf.xyz/ 🏆
 * https://element.avlikos.gr/ 🏆
 * https://element.entr0py.de/ 🏆
 * https://chat.inscomers.net/ 🏆
@@ -367,7 +365,6 @@ and change the server from the default to the one you want.
 * https://obermui.de/ 🏆
 * https://kssler.win/ 🏆
 * https://zangief.nl/ 🏆
-* https://itbyhf.xyz/ 🏆
 * https://priv8.chat/ 🏆
 * https://banber.org/ 🏆
 * https://3x3cut0r.de/ 🏆
