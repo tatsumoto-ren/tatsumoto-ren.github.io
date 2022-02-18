@@ -57,7 +57,7 @@ we were able to create a **high quality TSC deck**.
 
 ## Download
 
-To download the deck, get [Ankidrone Starter Pack](basic-vocabulary.html) verson 6 or later.
+To download the deck, get [Ankidrone Starter Pack](basic-vocabulary.html) version 6 or later.
 
 ## The Rest of the Tango Series
 
