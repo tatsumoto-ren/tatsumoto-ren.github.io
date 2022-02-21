@@ -205,4 +205,26 @@ Effect > Truncate silence. After you adjust the settings, press OK.
 <p align="center"><img src="img/audacity-truncate-silence.webp" alt="Truncate silence" class="shadow"></p>
 <p align="center"><i>Truncate silence.</i></p>
 
+## Podcasts
+
+I've got an immersion tip for constant passive listening involving podcasts.
+
+1) Take an Android device.
+2) Install
+[AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/)
+or a similar podcasts player.
+3) Import this
+[podcasts.opml](https://gist.github.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4)
+file
+([direct download](https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml)).
+4) Start playing and just leave the device in the corner of your room.
+
+You can use this tip if you already understand Japanese to an extent.
+Listening to something you don't understand is not good for immersion.
+It's a very easy way to immerse but it doesn't beat condensed audio.
+
+I also tried this method with [radio](https://search.f-droid.org/?q=radio&lang=en),
+specifically [RadioDroid](https://f-droid.org/en/packages/net.programmierecke.radiodroid2/),
+though the results weren't as good because radio is often more about music than talking.
+
 Tags: guide
