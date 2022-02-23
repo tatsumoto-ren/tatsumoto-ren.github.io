@@ -824,6 +824,30 @@ they can certainly be used to train production.
 However, I think that MCDs should not be used to train recognition
 because TSCs do the job better.
 
+### How do I get corrections from native speakers?
+
+Some learners assume it's important to
+ask their Japanese friends for corrections.
+In my opinion
+it's unnecessary to get corrected by other people
+and it's also a bad idea to rely on other people to correct your Japanese.
+Most AJATTers who sound good never relied on corrections,
+instead they got many thousand hours of input
+and imitated native speakers through a technique called shadowing.
+
+* If you haven't got enough immersion and can't output naturally yet, don't say anything.
+You're going to sound too bad,
+a native speaker won't be able to correct every mistake you make.
+* If you've got enough immersion and your Japanese is mostly correct,
+when you accidentally say something incorrect,
+you will know it.
+Your own language intuition and conceptual knowledge of Japanese will give you feedback.
+* If you're not that good yet,
+and you're in a situation where you have to say something,
+but you don't know the correct way,
+your only option is to say what you can and assume it's incorrect.
+Later try to find a similar phrase in your immersion to confirm yourself and make a mental note.
+
 ### How to develop a personality in your L2?
 
 Unless you're a schizo, you shouldn't think about it at all.
