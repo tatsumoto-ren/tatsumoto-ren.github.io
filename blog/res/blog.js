@@ -40,9 +40,6 @@ const Utils = Object.freeze({
     filename() {
         return window.location.pathname.split('/').slice(-1).join('')
     },
-    is_tags_page() {
-        return this.filename().startsWith('tag_')
-    },
     query_headers(parent) {
         const headers = parent.querySelectorAll(':is(h1, h2, h3, h4, h5, h6)')
         const parsed = []
@@ -131,7 +128,7 @@ const Sidebar = Object.freeze({
         $('menu-btn').checked = false
     },
     init() {
-        if (!Utils.is_index() && !Utils.is_tags_page()) {
+        if (!Utils.is_index()) {
             const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
             if (headers.length > 0) {
                 document.body.append(this.create(headers))
