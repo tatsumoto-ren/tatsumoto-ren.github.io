@@ -1,4 +1,5 @@
 /* Global */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,21 +32,33 @@ a:active {
 }
 
 /* Header */
+
 header {
     padding: 2px 2px 0;
     font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-between;
 }
-header > img.logo {
-    margin-right: 8px;
-    height: 48px;
-    filter: invert(100%) drop-shadow(1px 1px 2px #000c);
+header > a.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: white;
+    text-decoration: none;
 }
-header > h1 {
+header > a.logo:hover,
+header > a.logo:active {
+    color: #ddd;
+}
+header > a.logo > h1 {
     text-transform: uppercase;
     font-size: 20px;
+}
+header > a.logo > img {
+    margin-right: 8px;
+    height: 48px;
 }
 header > span.space {
     flex: 2 1;
@@ -58,14 +71,22 @@ header > a.donate {
     width: 48px;
     height: 48px;
     padding: 24px;
+}
+
+/* Header images transition on hover */
+
+header > a.logo > img,
+header > a.donate {
     filter: invert(100%) drop-shadow(1px 1px 2px #000c);
     transition: filter 0.2s;
 }
+header > a.logo:hover > img,
 header > a.donate:hover {
     filter: invert(90%) drop-shadow(1px 1px 2px #000c);
 }
 
 /* Navigation */
+
 nav {
     margin: 20px 4px;
     display: flex;
@@ -78,7 +99,6 @@ nav > a:visited {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s;
 }
 nav > a:hover,
 nav > a:active {
@@ -86,6 +106,7 @@ nav > a:active {
 }
 
 /* Presentation */
+
 div.presentation {
     margin: 0 4px 0;
     padding: 80px 0px;
@@ -124,6 +145,7 @@ div.presentation div.start_buttons > a:first-child {
 }
 
 /* Key points */
+
 div.key_points {
     padding: 0 4px;
     max-width: 1920px;
@@ -134,6 +156,7 @@ div.key_points h2 {
 }
 
 /* Point icons */
+
 div.key_points .icon {
     display: inline-block;
     vertical-align: -2px;
@@ -154,6 +177,7 @@ div.key_points .bomb {
 }
 
 /* Footer */
+
 footer {
     border-top: 1px solid #eee;
     text-align: center;
@@ -165,6 +189,7 @@ footer img {
 }
 
 /* Wide screens */
+
 @media only screen and (min-width: 750px) {
     nav {
         justify-content: flex-start;
