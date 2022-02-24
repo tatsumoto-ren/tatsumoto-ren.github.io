@@ -33,6 +33,7 @@ but the quality of OCR operations can be improved by using custom trained data.
 
 Download
 [tessdata.zip](https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv)
+([mirror](https://t.me/ajatt_tools/173))
 with Tesseract data files,
 then save the files to `~/.local/share/tessdata`.
 
