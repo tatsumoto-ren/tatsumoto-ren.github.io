@@ -67,18 +67,15 @@ It's going to come handy to edit the screenshots before Tesseract analyzes them.
 </ul>
 <p>By default Tesseract is not very good at detecting Japanese characters,
 but the quality of OCR operations can be improved by using custom trained data.</p>
-<p>Download <a href="http://capture2text.sourceforge.net/#download">capture2text</a>.
-We won't need the program itself because it's garbage
-but the trained data files are going to be useful.
-Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share/capture2text_tessdata</code>:</p>
-<pre><code>$ unzip -j Capture2Text_v*_64bit.zip 'Capture2Text/tessdata/*' -d ~/.local/share/capture2text_tessdata
+<p>Download
+<a href="https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv">tessdata.zip</a>
+with Tesseract data files,
+then save the files to <code>~/.local/share/tessdata</code>.</p>
+<pre><code>$ unzip -j tessdata.zip -d ~/.local/share/tessdata
 </code></pre>
-<p>Alternatively, download just the Capture2Text Japanese files from
-<a href="https://sourceforge.net/projects/capture2text/files/Dictionaries/Japanese.zip/download">here</a>.</p>
-<p align="center"><img class="shadow" alt="capture2text archive" src="img/capture2text.webp"></p>
-<p align="center"><i>Contents of the ZIP archive.</i></p>
-<p>You don't need to install any data files from the repositories of your distro,
-the ones in the <code>capture2text</code> archive are way better.</p>
+<p>The folder should be created automatically.</p>
+<p>You don't need to install any data files from the repositories of your GNU/Linux distro,
+the ones in the archive are way better.</p>
 <p>Download
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr">maimocr</a>
 and save it as <code>~/.local/bin/maimocr</code>.</p>
@@ -100,12 +97,40 @@ to quickly lookup Japanese words in real-time.</p>
 <p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
 <a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
 </blockquote>
+<h2 id="expanding-data-set"><a class="anchor" href="#expanding-data-set" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding data set</h2>
+<p>You can use multiple data files with <code>maimocr</code> at the same time
+if you copy any new <code>*.traineddata</code> files to your <code>TESSDATA_PREFIX</code> folder
+(e.g. <code>~/.local/share/tessdata</code>)
+and launch <code>maimorc</code> like this:</p>
+<pre><code>TESS_LANG=jpn+jpn2+jpn3 maimocr
+</code></pre>
+<p>Or add <code>TESS_LANG=jpn+jpn2+jpn3</code> to your <code>~/.profile</code>.
+The settings in the example shown above are already applied by default.</p>
+<details>
+<summary>Capture2Text files</summary>
+<blockquote>
+<p>These instructions are no longer necessary.
+The files are included by default.</p>
+</blockquote>
+<p>Download <a href="http://capture2text.sourceforge.net/#download">capture2text</a>.
+We won't need the program itself because it's garbage
+but the trained data files are going to be useful.
+Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share/tessdata</code>:</p>
+<pre><code>$ unzip -j Capture2Text_v*_64bit.zip 'Capture2Text/tessdata/*' -d ~/.local/share/tessdata
+</code></pre>
+<p>Alternatively, download just the Capture2Text Japanese files from
+<a href="https://sourceforge.net/projects/capture2text/files/Dictionaries/Japanese.zip/download">here</a>.</p>
+<p align="center"><img class="shadow" alt="Capture2Text archive" src="img/capture2text.webp"></p>
+<p align="center"><i>Contents of the ZIP archive.</i></p>
+</details>
+<h2 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h2>
 <p>If you notice that the script fails to OCR certain images,
 try to zoom in or find a scan with a better resolution.
 Tesseract works poorly at low resolutions.</p>
-<p><strong>Note:</strong> As an alternative, you can install <a href="https://aur.archlinux.org/packages/kanjitomo/">kanjitomo</a>
-but it's quite big and forces you to use a Japanese to English dictionary
-instead of a Japanese to Japanese one.</p>
+<p>Nonstandard fonts often fail to OCR properly.
+In this case I don't have a definitive answer at the moment.
+Try searching for more <code>*.traineddata</code> files online and adding them to the <code>tessdata</code> folder.
+If you find anything useful, share it in our chat.</p>
 <h2 id="adding-screenshots"><a class="anchor" href="#adding-screenshots" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding screenshots</h2>
 <p>If you want to add a screenshot from a manga to your Anki card, <code>maim</code> can do that too.
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick">maimpick</a>
@@ -119,6 +144,15 @@ to work.</p>
 <p><strong>Note:</strong>
 <a href="https://github.com/Ajatt-Tools/ames">ames</a>
 is another program that can add screenshots to Anki.</p>
+<h2 id="other-software"><a class="anchor" href="#other-software" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other software</h2>
+<ul>
+<li><a href="https://aur.archlinux.org/packages/kanjitomo/">kanjitomo</a>.
+It's quite bloated and forces you to use a Japanese to English dictionary
+instead of a Japanese to Japanese one.</li>
+<li><a href="https://github.com/kha-white/manga-ocr">manga-ocr</a>.
+Can be used to OCR Japanese text instead of Tesseract.
+Unfortunately, I haven't been able to install it and can't comment on it.</li>
+</ul>
 <p>Tags: <a href="tag_guide.html">guide</a></p>
 <!-- text end -->
 </article>
