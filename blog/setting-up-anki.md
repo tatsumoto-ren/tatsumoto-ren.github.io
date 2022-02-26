@@ -225,6 +225,19 @@ click "Deck Options" while holding `Shift`.
 
 Below are the options I recommended using.
 
+<details>
+
+<summary>New menu</summary>
+
+The new Options Groups settings menu
+can be seen on Anki starting from 2.1.45.
+The options are described later in this article.
+
+<p align="center"><img alt="options groups" src="img/anki-options-groups.webp"></p>
+<p align="center"><i>Settings.</i></p>
+
+</details>
+
 #### New cards
 
 * **Steps (in minutes):** This is the number of times you have to answer `good` on the card
