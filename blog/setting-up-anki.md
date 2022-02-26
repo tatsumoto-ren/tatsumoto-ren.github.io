@@ -49,8 +49,8 @@ to help you get things up and running as quickly as possible.
 
 There are two main ways to install Anki.
 
-* Using your distribution's package manager (pacman, apt, dnf, etc.).
-* Using [pip](https://pip.pypa.io/en/stable/).
+* Using your distribution's package manager ([pacman](https://wiki.archlinux.org/title/Pacman), apt, dnf, etc.).
+* Using [pip](https://pip.pypa.io/en/stable/), a software installer for Python programs.
 
 The first method guarantees that you'll have the right dependencies installed,
 but you may get an old version of Anki.
