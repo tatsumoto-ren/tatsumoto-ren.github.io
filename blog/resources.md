@@ -198,8 +198,6 @@ young jump and other manga magazines.
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
 * [Manga Raw](https://manga1000.com/).
 Read manga online.
-* [RawDEVART](https://rawdevart.com/).
-Raw manga online.
 * [HAKARAW](https://hakaraw.com/).
 Read manga online.
 * [マンガ図書館Z](https://www.mangaz.com/).
