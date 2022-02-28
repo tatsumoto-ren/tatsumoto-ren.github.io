@@ -182,7 +182,16 @@ Forcing it usually doesn't work.
 
 ## Prepare your devices
 
-All instructions on this site are intended for GNU/Linux users.
+Technical instructions on this site are intended for GNU/Linux users,
+but most of the software I list here is cross-platform.
+If you're not ready to install GNU/Linux yet,
+you should be able to use the tools on any OS in the meantime
+while you're preparing to switch to GNU/Linux.
+
+<details>
+
+<summary>Our software recommendations</summary>
+
 I deliberately advocate for free/libre software.
 Quitting Windows is like quitting tobacco.
 Tobacco is bad for your health.
@@ -190,24 +199,29 @@ Likewise, nonfree software is
 [bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
 
 I
-[recommend](our-immersion-learning-toolset.html#gnulinux)
+[favor](our-immersion-learning-toolset.html#gnulinux)
 Arch-based distributions like [Manjaro](https://manjaro.org/), but any other distro is fine
 as long as it's not overly complicated or difficult to use as a daily driver.
 
-Mobile apps recommendations assume that you have
+Instructions for mobile phones are made assuming that you have
 [liberated](https://fsfe.org/activities/android/liberate.en.html)
 your phone.
+This means having an Android device with a good aftermarket
+<abbr title="a third-party operating system that replaces the factory-installed one">ROM</abbr>
+installed.
+
 All Anki decks linked in the guide come with [ogg/opus](https://opus-codec.org/) audio.
 This coding format is not supported by Anki on iThings.
 
-Most of the software I list here is cross-platform.
-If you're not ready to install GNU/Linux yet,
-you should be able to use the tools on any OS in the meantime
-while you're preparing to switch to GNU/Linux.
+</details>
+
+Since this is an intro article, you don't have to install everything right now.
+It's just an outline.
+We have more complete suggestions on the Resources page.
 
 * **Desktop**
 	* Install Japanese fonts.
-	I recommend
+	I suggest
 	[noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
 	Refer to
 	[Japanese fonts](japanese-fonts.html)
