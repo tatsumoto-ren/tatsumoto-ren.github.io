@@ -41,6 +41,12 @@ so the source code is not available. You can't study or modify it.
 3) Discord knows what programs you have open.
 4) Your data, including messages, can be sold to anybody.
 The government potentially has access to all of the information that Discord collects about you.
+5) Censorship.
+	> New and clearer rules for prohibited content Our Community Guidelines
+	> now officially prohibit misinformation and disinformation, malicious
+	> impersonation, and better define spam and platform manipulation.
+
+	Anything that's not the official narrative will be now censored.
 
 ## The solution
 
