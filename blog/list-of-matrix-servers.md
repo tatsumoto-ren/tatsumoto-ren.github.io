@@ -69,7 +69,6 @@ recommended by
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
 	* [cuum.space](https://element.cuum.space/)
 	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
-	* [tomesh.net](https://chat.tomesh.net/) 🏆
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
