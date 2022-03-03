@@ -69,7 +69,6 @@ recommended by
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
 	* [cuum.space](https://element.cuum.space/)
 	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
-	* [tomesh.net](https://chat.tomesh.net/) 🏆
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
 	* [perthchat](https://client.perthchat.org/)
@@ -283,7 +282,6 @@ without having to use a desktop client.
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
 * https://riot.ukvly.org/
-* https://chat.tomesh.net/
 * https://chat.utwente.io/
 * https://matrix.mlp.chat/
 * https://el.aria-net.org/
