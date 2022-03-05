@@ -63,7 +63,6 @@ recommended by
 	* [nerdsin.space](https://nerdsin.space/) 🏆
 	* [midov.pl](https://element.midov.pl/element/) 🏆
 	* [anontier.nl](https://element.anontier.nl/)
-	* [ma.neko.bar](https://element.neko.bar/)
 * My selection:
 	* [cutefunny.art](https://matrixclient.cutefunny.art/) 🏆
 	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
@@ -331,7 +330,6 @@ without having to use a desktop client.
 * https://element.matthewgall.chat/
 * https://element.midov.pl/element/
 * https://grid.rrze.fau.de/riotweb/
-* https://ma.neko.bar/_matrix/client/
 
 ### Without Element
 
