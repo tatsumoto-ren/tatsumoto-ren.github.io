@@ -169,6 +169,8 @@ Unfortunately, not all of them can be opened in mpv.
 A site with Mega links to western movies with Japanese dubs.
 Install [megatools](https://aur.archlinux.org/packages/megatools/)
 to be able to download files from Mega.
+* [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
+A shared folder with movies and other content with Japanese dubs.
 * [jraws](https://jraws.com/). Some jdramas.
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
