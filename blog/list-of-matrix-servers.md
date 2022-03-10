@@ -70,7 +70,6 @@ recommended by
 	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
 	* [kde.org](https://webchat.kde.org/)
 	* [wfr.moe](https://c.wfr.moe/)
-	* [perthchat](https://client.perthchat.org/)
 	* [sakura.ci](https://sakura.ci/)
 	* [iddqd.chat](https://iddqd.chat/)
 	* [maeli.net](https://maeli.net/) 🏆
@@ -184,7 +183,6 @@ without having to use a desktop client.
 * https://fsoc.lol/matrix/ 🏆
 * https://riot.shendai.rip/ 🏆
 * https://element.gogel.me/ 🏆
-* https://element.libre.moe/ `https://libre.moe/` 🏆
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
 * https://matrix.nixxda.net/ 🏆
