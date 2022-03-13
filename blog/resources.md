@@ -234,8 +234,9 @@ Download manga, light novels, magazines and books for free.
 A light novel library of questionable quality.
 * [Nyaa](https://nyaa.iss.ink/).
 You can find books on Nyaa too.
-* [boroboro epubs](https://boroboro.neocities.org/listfullepub.html)
-A list of books in Epub format.
+* boroboro [epubs](https://boroboro.neocities.org/listfullepub.html)
+and [azw3](https://boroboro.neocities.org/listfullazw3.html).
+A list of books in Epub and azw3 formats.
 
 ### Audio
 
