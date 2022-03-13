@@ -5,6 +5,11 @@ With the help of our community we've gathered the links to help you in your Japa
 We prioritize libre software and content that you can download for free.
 Everyone is welcome to suggest more resources in our chat.
 
+The third party resources below
+may contain what Tatsumoto considers to be ineffective language learning advice.
+If you find something that contradicts what's written in this guide,
+assume it's wrong or verify by asking people in our chat.
+
 ****
 
 ## Basics
@@ -209,9 +214,9 @@ A site where you can read manga online.
 
 ### Books
 
-* [zlibrary](http://zlibraryexau2g3p.onion/).
+* [zlibrary](https://z-lib.org/).
 A library with books in any language.
-Has a [clearnet version](https://b-ok.cc/).
+Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
 * [小説を読もう！](https://yomou.syosetu.com/).
 Lets you read web novels for free.
 * [カクヨム](https://kakuyomu.jp/).
@@ -225,6 +230,12 @@ Books from Aozora Bunko in `epub`, `pdf` and other formats.
 Books sorted by the number of kanji used.
 * [DL-Zip.net](https://dl-zip.net/).
 Download manga, light novels, magazines and books for free.
+* [Itazuraneko 小説図書館](https://yonde.itazuraneko.org/).
+A light novel library of questionable quality.
+* [Nyaa](https://nyaa.iss.ink/).
+You can find books on Nyaa too.
+* [boroboro epubs](https://boroboro.neocities.org/listfullepub.html)
+A list of books in Epub format.
 
 ### Audio
 
