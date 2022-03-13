@@ -562,7 +562,7 @@ a.download_button:focus {
 
 /* Cut line */
 
-article > hr:first-of-type {
+article hr {
     border: 0;
     border-top: 2px solid lightgrey;
 }
