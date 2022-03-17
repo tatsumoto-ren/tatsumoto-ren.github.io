@@ -785,8 +785,7 @@ a.md-button.element:hover {
     background-color: #099970;
 }
 a.md-button.element::before {
-    background-image: url("https://app.element.io/welcome/images/logo.svg");
-    background-size: 2em;
+    background-image: url("https://wikiless.org/media/wikipedia/commons/c/cb/Element_%28software%29_logo.svg");
     filter: grayscale(100%) brightness(2);
 }
 a.md-button.telegram::before {
