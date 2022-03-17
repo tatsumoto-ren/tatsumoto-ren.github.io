@@ -1207,6 +1207,7 @@ and watch them later
 or use a proxy site such as
 [Invidious](https://redirect.invidious.io/).
 Invidious lets you choose from a number of instances based on their health.
+A list of Invidious instances can be found on https://api.invidious.io/.
 If you go to the YouTube website, keep
 [Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
 enabled to be notified when an alternative Odysee version of the video is available.
