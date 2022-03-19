@@ -62,7 +62,7 @@ To download the deck, get [Ankidrone Starter Pack](basic-vocabulary.html) versio
 ## The Rest of the Tango Series
 
 The JLPT Tango N2 book is actually one in a series of JLPT prep books.
-There are five books total, one for each level of the JLPT.
+There are five books in total, one for each level of the JLPT.
 Prior to starting this deck I advise you to complete Tango N5, N4 and N3 decks.
 They are available as a part of Ankidrone Starter Pack.
 
@@ -116,7 +116,7 @@ we replaced them with definitions from JMdict.
 using the
 [MergeNotes](https://ankiweb.net/shared/info/1425504015)
 add-on.
-* Image were converted to webp with the
+* Images were converted to webp with the
 [Paste Images As WebP](https://ankiweb.net/shared/info/1151815987)
 add-on.
 * The number 2500 that you see in the original book
