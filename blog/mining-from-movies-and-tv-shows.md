@@ -147,65 +147,6 @@ See the
 [Resources page](resources.html#immersion-material)
 to find ways to download Japanese content.
 
-## Youtube-dl
-
-[Youtube-dl](https://wiki.archlinux.org/index.php/Youtube-dl)
-is a program
-that can be used to download videos from YouTube and similar sites.
-On YouTube, you can find a wide variety of videos with built-in Japanese subtitles.
-An example source of immersion material on YouTube is Ted talks.
-Youtube-dl can also download audio tracks separately.
-There are many language-dense streams and podcasts on YouTube
-that can be used for background listening.
-
-On Arch Linux, Youtube-dl can be installed by running this command:
-
-```
-$ sudo pacman -S youtube-dl
-```
-
-To download a video, execute:
-
-```
-$ youtube-dl 'https://youtube.com/<video>'
-```
-
-If you want to download just the audio, use this command:
-
-```
-$ youtube-dl --extract-audio --format bestaudio/best 'https://youtube.com/<video>'
-```
-
-**Tip:** add these commands as
-[aliases](https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias)
-to access them without too much typing.
-
-Youtube-dl reads its configuration from `~/.config/youtube-dl/config`.
-
-<details>
-
-<summary>Example configuration file</summary>
-
-```
---sub-lang 'ja,en,en-US,en-GB'
---convert-subs ass
---ignore-errors
---continue
---add-metadata
--f 'bestvideo[height<=1080]+bestaudio,best'
--o '~/Videos/%(upload_date)s-%(title)s.%(ext)s'
---merge-output-format mp4
---user-agent "Mozilla/5.0 (Windows NT 10.0; rv:75.0) Gecko/20100101 Firefox/75.0"
-```
-
-</details>
-
-This configuration enables Youtube-dl to automatically download
-Japanese and English subtitles in `ass` format
-and save the downloaded files to `~/Videos`.
-
-See `$ man youtube-dl` for a comprehensive list of options.
-
 ## Obtain subtitles
 
 To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
