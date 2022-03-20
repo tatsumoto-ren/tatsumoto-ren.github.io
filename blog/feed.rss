@@ -2,9 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Thu, 06 Jan 2022 00:46:45 +0300</lastBuildDate>
-<pubDate>Thu, 06 Jan 2022 00:46:45 +0300</pubDate>
+<lastBuildDate>Sun, 20 Mar 2022 17:32:33 +0300</lastBuildDate>
+<pubDate>Sun, 20 Mar 2022 17:32:33 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Immersion with YouTube</title><description><![CDATA[
+<p>YouTube is a popular website where people can upload and watch videos.
+Through watching YouTube you can immerse with native Japanese content.
+Such content can be of particular interest to people
+who want to understand colloquial Japanese,
+speech with a lot of mumbling, slurs and slang.
+There are many language-dense streams and podcasts on YouTube
+that can be used for background listening.
+You can also find news channels with more formal speech.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/immersion-with-youtube.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/immersion-with-youtube.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 20 Mar 2022 17:32:30 +0300</pubDate></item>
 <item><title>
 Understanding monolingual definitions</title><description><![CDATA[
 <p>A typical entry in a monolingual dictionary looks similar to this:</p>
@@ -13,7 +28,9 @@ Understanding monolingual definitions</title><description><![CDATA[
 （２）夜が終わって，明るくなった時。あさ。
 </code></pre>
 <p>Every dictionary usually has its own, unique system of notation.
-On this page I primarily use <code>大辞泉</code> as an example.</p>
+On this page I primarily use <code>大辞泉</code> as an example.
+If you need help finding monolingual dictionaries, see the
+<a href="resources.html#dictionaries">Dictionaries</a> resources section.</p>
 <hr>
 ]]></description><link>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</guid>
@@ -165,18 +182,4 @@ this article may still help you.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-to-review.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 13 Jul 2021 05:16:10 +0300</pubDate></item>
-<item><title>
-Japanese fonts</title><description><![CDATA[
-<p>On a freshly installed GNU/Linux distro
-Japanese characters may not look pretty.
-This can be fixed by installing
-<a href="https://wiki.archlinux.org/title/Localization/Japanese#Fonts">Japanese fonts</a>
-and creating a proper
-<a href="https://wiki.archlinux.org/title/Font_configuration">Fontconfig</a>
-configuration file.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/japanese-fonts.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/japanese-fonts.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 20 Jun 2021 22:20:40 +0300</pubDate></item>
 </channel></rss>
