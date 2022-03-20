@@ -100,3 +100,5 @@ See `$ man youtube-dl` for a comprehensive list of options.
 that sorts Invidious instances based on the number of users.
 The least used instances are usually faster.
 * There's a fork of Youtube-dl called [yt-dlp](https://github.com/yt-dlp/yt-dlp) with more features.
+* Install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
+avoid accidentally going to the official website when opening YouTube links.
