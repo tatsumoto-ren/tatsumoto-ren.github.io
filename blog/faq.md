@@ -782,10 +782,31 @@ However, many choose to continue their hardcore phases until up to several years
 
 ### I have many bad habits due to being forced to prematurely output for many years in school. How should I go about fixing these bad habits?
 
-What is usually recommended in this case is to go through a silent period.
+In an ideal situation you want to avoid premature output
+because the bad habits you form are very hard to get rid of later.
+If you already have bad habits, go through a silent period.
 Don't output and listen a lot for up to a year.
-To fix the habits that may still be present after a silent period
+From my experience and experience of other learners,
+if you have bad habits, immersion alone won't fix them.
+To correct the habits that may still be present after a silent period
 study tongue placement and imitate native speakers.
+When imitating native speakers, pay extra attention to the sounds in each word
+and record yourself to see where you're off.
+
+English learners should always check the IPA notations
+of the words they are learning to pronounce.
+For Japanese learners knowing IPA isn't that necessary, but pitch accent plays a bigger role.
+
+### Is it more efficient to stick to one genre/domain instead of jumping around?
+
+If you immerse in only one genre,
+you're going to quickly increase your understanding of the content in that genre.
+Once you understand a certain genre well, your overall progress in the language will slow down.
+So, sticking to one genre for too long is wrong,
+but jumping around many genres will result in facing too many unknown words
+if you're not fluent yet.
+Prioritize enjoyment over "efficiency".
+The fun cut to Japanese is almost always the shortcut.
 
 ### As a beginner should I study tongue placement and imitate native speakers or should I just listen?
 
@@ -1221,31 +1242,7 @@ It will take you less time to go through them because reading generally is faste
 
 When it comes to immersion content, however, YouTube can offer something you'll like.
 Things like streams, podcasts or news are good to listen to, especially for passive immersion.
-
-These are some things to keep in mind when watching something on YouTube:
-
-1) Do not let YouTube track you.
-Spying on YouTube is an important part of the data mining operation Google is running.
-By not letting them collect any data about you, you're protecting your privacy.
-2) Do not give videos any views.
-When a person who uploaded a video sees that their video is getting views,
-they think that they can continue getting away with using YouTube.
-They might even earn money from YouTube showing ads to the viewers.
-This is not what we want,
-we want everyone to upload videos to privacy-respecting platforms like Odysee or Peertube.
-
-To ensure you're not being tracked
-and that you're not giving any authors incentives to continue uploading to YouTube,
-either download all videos you want to watch with
-[Youtube-dl](mining-from-movies-and-tv-shows.html#youtube-dl)
-and watch them later
-or use a proxy site such as
-[Invidious](https://redirect.invidious.io/).
-Invidious lets you choose from a number of instances based on their health.
-A list of Invidious instances can be found on https://api.invidious.io/.
-If you go to the YouTube website, keep
-[Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
-enabled to be notified when an alternative Odysee version of the video is available.
+Explore the [YouTube guide](immersion-with-youtube.html) for details.
 
 ### What are your thoughts on timeboxing?
 
