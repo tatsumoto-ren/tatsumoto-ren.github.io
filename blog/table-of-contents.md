@@ -24,6 +24,7 @@
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
 	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
+	* [YouTube](immersion-with-youtube.html)
 	* [Manga](mining-from-manga.html)
 	* [Passive listening](passive-listening.html)
 	* [Subtitle Re-sync](retiming-subtitles.html)
