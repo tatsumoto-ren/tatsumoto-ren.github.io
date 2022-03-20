@@ -40,9 +40,6 @@ Storing immersion material locally makes sentence mining substantially easier.
 Explore privacy-respecting platforms
 like [PeerTube](https://joinpeertube.org/) and [Odysee](https://odysee.com/).
 Chances are, you'll find Japanese immersion content there too.
-If you go to the YouTube website, keep
-[Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
-enabled to be notified when an alternative Odysee version of the video is available.
 
 ## Subtitles
 
@@ -102,3 +99,8 @@ The least used instances are usually faster.
 * There's a fork of Youtube-dl called [yt-dlp](https://github.com/yt-dlp/yt-dlp) with more features.
 * Install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
 avoid accidentally going to the official website when opening YouTube links.
+* [Librarian](https://codeberg.org/librarian/librarian)
+is an alternative frontend for Odysee inspired by Invidious.
+* If you go to the YouTube website, keep
+[Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
+enabled to be notified when an alternative Odysee version of the video is available.
