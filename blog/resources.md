@@ -130,9 +130,11 @@ Refer to Nyaa first if you watch ongoings.
 A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
 A private tracker for Asian movies and TV-shows.
+* [AsianCinema.Me](https://asiancinema.me/).
+Asian private tracker for Movies only.
+* [JPTVTS.US](https://jptvts.us/).
+A private tracker for japanese content only.
 * [JPTV.CLUB](https://jptv.club/).
-* [AsianCinema.Me](https://asiancinema.me/) Asian private tracker for Movies only.
-* [JPTVTS.US](https://jptvts.us/) private tracker for japanese content only. 
 Another private tracker.
 You can join if you have accounts on other private trackers.
 Most uploads contain Japanese subs straight from the broadcast.
@@ -157,9 +159,6 @@ A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
 A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
 You can switch channels in mpv by pressing `<` and `>`.
-* [Japanese Youtube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles).
-**Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
-to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
 * [News24.jp](https://www.news24.jp/).
 Lets you watch a live stream with news,
 but you have to allow to run an obscene amount of nonfree JavaScript code.
@@ -169,6 +168,18 @@ by creating a desktop shortcut.
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
 Similarly to News24, lists a number of channels you can watch online.
 Unfortunately, not all of them can be opened in mpv.
+
+### YouTube with subtitles
+
+* [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
+* Channels for pre-beginner Japanese learners.
+	* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
+	* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
+* [テレ東BIZ](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
+News. Doesn't have subs, but has transcriptions.
+
+**Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
+to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
 
 ### Downloads
 
@@ -495,7 +506,8 @@ Great for when the dictionary lists multiple readings and you want to know which
 A website that shows you how to write a given kanji and how it looks written in different fonts.
 * [漢字辞典](https://kanji.jitenon.jp/).
 Monolingual kanji dictionary.
-* [Jotoba](https://jotoba.de/) Jotoba is an open source multilingual Japanese dictionary.
+* [Jotoba](https://jotoba.de/).
+Jotoba is an open source multilingual Japanese dictionary.
 
 ### Offline
 
