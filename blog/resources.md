@@ -131,6 +131,8 @@ A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
 A private tracker for Asian movies and TV-shows.
 * [JPTV.CLUB](https://jptv.club/).
+* [AsianCinema.Me](https://asiancinema.me/) Asian private tracker for Movies only.
+* [JPTVTS.US](https://jptvts.us/) private tracker for japanese content only. 
 Another private tracker.
 You can join if you have accounts on other private trackers.
 Most uploads contain Japanese subs straight from the broadcast.
@@ -493,6 +495,7 @@ Great for when the dictionary lists multiple readings and you want to know which
 A website that shows you how to write a given kanji and how it looks written in different fonts.
 * [漢字辞典](https://kanji.jitenon.jp/).
 Monolingual kanji dictionary.
+* [Jotoba](https://jotoba.de/) Jotoba is an open source multilingual Japanese dictionary.
 
 ### Offline
 
