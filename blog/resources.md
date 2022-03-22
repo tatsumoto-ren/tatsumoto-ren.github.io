@@ -52,6 +52,7 @@ It breaks down Japanese in a logical and straightforward way
 and covers all the basics without going into too much detail.
 * [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
 An online reference of the seminal A Dictionary of Japanese Grammar book series.
+* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
 
 ### JLPT
 
