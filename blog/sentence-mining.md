@@ -169,7 +169,7 @@ They are linked on the Resources page.
 
 In essence grammar is a set of special words or phrases
 which don't bear any meanings themselves,
-but used to connect the words that surround them.
+but are used to connect the words that surround them.
 For example, the particle `は`, commonly referred to as the "topic particle",
 connects the topic of a sentence with the rest of the sentence that describes it.
 By itself it means nothing.
