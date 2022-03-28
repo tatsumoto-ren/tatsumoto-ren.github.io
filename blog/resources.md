@@ -198,6 +198,8 @@ A shared folder with movies and other content with Japanese dubs.
 
 ### Manga
 
+* [Torrent sites](#torrent-trackers).
+Expore them first.
 * [nhentai](https://nhentai.net/).
 For a bit of light reading.
 Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
@@ -225,6 +227,8 @@ Read manga online.
 Manga library. Read manga for free.
 * [となりのヤングジャンプ](https://tonarinoyj.jp/).
 A site where you can read manga online.
+* [DLRAW](https://dlraw.net/).
+Raw manga archived as zip and rar files.
 
 ### Books
 
