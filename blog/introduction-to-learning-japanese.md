@@ -1,13 +1,15 @@
 # Introduction to learning Japanese
 
-The [AJATT site](faq.html#should-i-read-the-ajatt-site)
-is great. One thing it is bad at, however,
-is telling up-to-date information about technology and tools one may use.
-I've got you covered on the
-[tools](our-immersion-learning-toolset.html), **and more**.
-
 Below is a quick rundown of a typical Japanese learning journey
 that should get you to basic fluency in less than two years.
+We've designed the method for people
+who want to learn Japanese efficiently through self-study
+and is interested in Japanese media such as movies, TV shows or novels.
+
+If you have any questions,
+you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
+and people will help you.
+There are over 3,000 people learning Japanese, and you should be part of it.
 
 ****
 
