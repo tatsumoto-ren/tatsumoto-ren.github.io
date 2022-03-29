@@ -4,7 +4,7 @@ Below is a quick rundown of a typical Japanese learning journey
 that should get you to basic fluency in less than two years.
 We've designed the method for people
 who want to learn Japanese efficiently through self-study
-and is interested in Japanese media such as movies, TV shows or novels.
+and are interested in Japanese media such as movies, TV shows or novels.
 
 If you have any questions,
 you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
