@@ -158,7 +158,6 @@ like this: `https://matrix.dalek.zone/#/room/#djtspace.g33k.se`.
 * https://element.g24.at/
 * https://im.tetaneutral.net/
 * https://element.ggc-project.de/
-* https://talk.chatcloud.net/
 * https://matrix.3dns.eu/ 🏆
 * https://nerdsin.space/ 🏆
 * https://www.jabawok.net/riot/
