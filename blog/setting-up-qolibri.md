@@ -137,26 +137,33 @@ a new Qolibri window will be opened instead of a new tab.
 
 ## Playing NHK audio
 
-You may face problems when playing audio inside Qolibri.
-This happens because Qolibri tries to call mpv with inappropriate settings.
+One of the dictionaries available for Qolibri is `NHK 日本語発音アクセント辞典`.
+It shows pitch accents of words and lets you play `wav` audio recordings
+when you click on the blue links.
+
+<p align="center"><img class="shadow" alt="NHK dictionary" src="img/qolibri-nhk-dictionary.webp"></p>
+<p align="center"><i>NHK dictionary with audio recordings.</i></p>
+
+If you face problems when playing audio inside Qolibri,
+chances are Qolibri is misconfigured.
 If you can't hear anything
-when clicking on pronunciations in `NHK日本語発音アクセント辞典` or other dictionaries,
-create a new
-[script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/qolibri-mpv)
-with the following contents:
+when clicking on pronunciations in the NHK dictionary or other dictionaries,
+download [qolibri-mpv](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/qolibri-mpv),
+a script that can be used to play Qolibri's audio with `mpv`.
+Naturally, you need [mpv](https://wiki.archlinux.org/title/Mpv) to be installed for it to work.
 
-```
-#!/usr/bin/env sh
-mpv --keep-open=no --force-window=no "$@"
-```
+1) Save the script in `~/.local/bin`.
+2) To make it executable, run `chmod +x ~/.local/bin/qolibri-mpv`
+2) Make sure `~/.local/bin` is added to the [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
-In this example I named the file `qolibri-mpv` and saved it in `~/.local/bin`.
-To make it executable, run `chmod +x ~/.local/bin/qolibri-mpv`
-and add the directory to the
-[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
-Then go to "Settings" > "Options..." > "External program" and add your executable.
+In Qolibri, go to "Settings" > "Options..." > "External program" and specify the name of the executable.
 
 <p align="center"><img class="shadow" alt="external programs" src="img/qolibri-external-programs.webp"></p>
+<p align="center"><i>Qolibri's options.</i></p>
+
+In addition to playing the files as you click on them,
+`qolibri-mpv` also copies them to clipboard.
+You are able to play an audio and paste it in an Anki note as an `ogg/opus` file.
 
 ## Set browser font
 
