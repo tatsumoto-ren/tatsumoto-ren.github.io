@@ -54,6 +54,12 @@ and covers all the basics without going into too much detail.
 An online reference of the seminal A Dictionary of Japanese Grammar book series.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
 
+### Grammar in Japanese
+
+* [国語文法](http://xn--vcs415akpfnn7a.com/).
+Japanese grammar taught by a Japanese teacher.
+* [国語の文法](https://www.kokugobunpou.com/).
+
 ### JLPT
 
 * [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
