@@ -13,6 +13,7 @@
 	* [Kanji](learning-kanji.html)
 	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
+	* [Grammar](learning-grammar.html)
 * Dictionaries
 	* [Yomichan](setting-up-yomichan.html)
 	* [Qolibri](setting-up-qolibri.html)
