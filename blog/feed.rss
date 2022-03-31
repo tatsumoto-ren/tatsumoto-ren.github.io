@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Sun, 20 Mar 2022 17:32:33 +0300</lastBuildDate>
-<pubDate>Sun, 20 Mar 2022 17:32:33 +0300</pubDate>
+<lastBuildDate>Thu, 31 Mar 2022 05:59:04 +0300</lastBuildDate>
+<pubDate>Thu, 31 Mar 2022 05:59:04 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Learning grammar</title><description><![CDATA[
+<p>What's grammar?
+Should you learn grammar?
+How to learn grammar?
+Let's answer these question in this article.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/learning-grammar.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/learning-grammar.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 31 Mar 2022 05:55:16 +0300</pubDate></item>
 <item><title>
 Immersion with YouTube</title><description><![CDATA[
 <p>YouTube is a popular website where people can upload and watch videos.
@@ -171,15 +182,4 @@ for your targeted sentence cards.</p>
 <guid>https://tatsumoto-ren.github.io/blog/ankidrone-sentence-pack.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 07 Sep 2021 04:28:05 +0300</pubDate></item>
-<item><title>
-How to review</title><description><![CDATA[
-<p>Though Anki is an excellent piece of software,
-you can learn languages more effectively if you tweak some settings and know how to review.
-Even if you're using Anki for something other than studying human languages,
-this article may still help you.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/how-to-review.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-to-review.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 13 Jul 2021 05:16:10 +0300</pubDate></item>
 </channel></rss>
