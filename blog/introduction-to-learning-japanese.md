@@ -372,27 +372,30 @@ but neglecting the word's context can make the reviews harder.
 
 ## Grammar
 
-I recommend you read [Tae Kim](http://www.guidetojapanese.org/learn/grammar).
-It's the only *textbook* that you're really going to need through your AJATT journey.
-When I learned Japanese, I put all the example sentences into Anki
-and learned them using [sentence cards](discussing-various-card-templates.html#sentence-cards).
-This approach might seem too hard for some people,
-so make sure to at least read through the whole grammar guide
-if you decide not to bother with Anki at this point.
+[Choose a grammar guide](learning-grammar.html) and read it.
+It is the only *textbook* that you're really going to need through your AJATT journey.
+When I learned Japanese, I chose Tae Kim.
+Khatz used "All About Particles".
+
+Combining grammar study with the SRS can help you understand the grammar better.
+Put the example sentences in Anki if you like.
+Highlight the grammar point in the sentence to mark it the target
+([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
+covered later).
+If you decide not to bother with Anki at this point,
+make sure to at least read through the whole grammar guide and pay attention to examples.
 
 Don't waste your time memorizing conjugation tables.
 The grammar is a tool to aid comprehension, and knowing the rules won't help you output.
 By the time you recall a grammar rule and apply it to your thoughts,
 your conversation partner will be long gone.
 
-Tae Kim doesn't cover everything.
+A guide like Tae Kim doesn't cover everything.
 Even certain grammar in the advanced section can be considered pretty basic.
 As you continue to immerse,
-look up and make Anki cards for the rest of the grammar not covered in Tae Kim.
+look up and when necessary make Anki cards
+for the rest of the grammar not covered in the grammar guide.
 The process is no different from making cards for regular words.
-If you make
-[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
-treat grammar points as the targets.
 
 ## Create your own mining deck
 
