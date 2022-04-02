@@ -85,7 +85,7 @@ Without a grammar guide
 it is done by reading sentences and looking up unknown parts in a dictionary.
 Beginner grammar guides list frequently used grammar points together
 and provide translated example sentences.
-With a grammar guide you can frontload basic grammar and expand your comprehension.
+With a grammar guide you can front-load basic grammar and expand your comprehension.
 
 Read about the basic grammar of your target language from a **grammar guide**.
 Dedicate a short chunk of time,
@@ -103,7 +103,7 @@ Just note roughly what it means in a sentence.
 Continue to immerse.
 Use the time spent immersing to notice the new grammar being used in different situations.
 
-There are grammar guides that tell you to memorize conjugations, do excercises or drills.
+There are grammar guides that tell you to memorize conjugations, do exercises or drills.
 Note that at this stage of the AJATT journey
 you don't need to worry about things like
 all the different types of verbs and exactly how they conjugate.
@@ -114,9 +114,9 @@ When you see a word in a different form, all you need is to understand what it m
 
 > The goal of grammar study is to increase comprehension.
 
-There are many different Japanese grammar resources out there.
+There are many Japanese grammar resources out there.
 Below you'll find the ones I think are worth reading.
-If you decide to read a grammar guide outside of this list,
+If you decide to read a grammar guide outside this list,
 proceed with caution and apply the AJATT philosophy to spot the good stuff
 and filter out unnecessary parts.
 
@@ -176,10 +176,10 @@ Particles like `は` and `が`, `に` and `へ` are taught in the very beginning
 but most Japanese learners can't fully acquire them and understand the differences between them
 until they reach a high level in the language.
 
-When approaching basic grammar, understand that
+When approaching basic grammar, accept that
 it will take a long time for you to understand all the bits and pieces.
 Don't get frustrated just because you've been learning Japanese for months or years
-but aren't quite sure when you should use a certain grammar pattern in your speaking.
+but aren't quite sure when you should use a certain grammar pattern in your speech.
 If you're taking an immersion-based approach to learning a language,
 you don't really have to do anything.
 As long as you keep immersing, everything will eventually become clear on its own.
@@ -200,9 +200,9 @@ inevitably leads to making countless mistakes and building bad habits.
 
 If you notice a new grammar in the wild,
 usually you want to make an SRS card for it
-([sentence mining](sentence-mining.html), covered later in the table of contents).
+([sentence mining](sentence-mining.html), covered later).
 But should you mine grammar points you read about in the grammar guide?
-When we discuss about it, there are two opinions.
+When we discuss it, there are two opinions.
 First, "just skim it". In other words, read the guide and don't mine anything.
 Second, read the guide and make cards for all necessary grammar constructions.
 It's up to you to decide whether you need to incorporate mining into your grammar study.
@@ -226,7 +226,7 @@ I skipped the sentences that I already understood pretty well.
 Don't mine every sentence.
 Most examples in grammar guides are similar to each other.
 Choose at most one sentence per grammar point.
-Some grammar points are very easy and you don't need to make cards to memorize them.
+Some grammar points are very easy, and you don't need to make cards to memorize them.
 Don't mine from multiple grammar guides either.
 They mostly cover the same topics.
 The number of cards you'll have to make if you mine excessively will quickly surpass 1,000.
@@ -260,19 +260,19 @@ while you can rely on your immersion to guide you and tell you which cards you n
 
 ## Grammar in the wild
 
-Studying grammar in a sctructured way with a grammar guide is not for everybody.
+Studying grammar in a structured way with a grammar guide is not for everybody.
 You can skip it and learn new grammar on the spot, when you see it.
 Even after completing a grammar guide,
 if you choose to do so,
 you will be encountering new grammar while immersing.
 Take a look at the following checklist
-to see some of the points we recommend you take
+to see some points we recommend you take
 when you notice an unknown grammar pattern.
 
 * Look it up in a [regular dictionary](resources.html#dictionaries).
 Most things should be defined there.
 Yomichan and Qolibri are covered later in this guide.
-* Consult a grammar guide or a grammar dictioary.
+* Consult a grammar guide or a grammar dictionary.
 This is where DoJG or the DoJG Anki deck come handy.
 Tae Kim is another good source.
 * Use the web search.
@@ -294,6 +294,6 @@ To do that, use resources for native speakers.
 Studying <abbr title="敬語, honorific speech in Japanese">keigo</abbr>
 in Japanese can also be seen as a part of this process.
 
-See our [Resources page](resources.html#grammar-in-japanese) for grammar resources in Japanese.
+See [Resources](resources.html#grammar-in-japanese) for grammar resources in Japanese.
 
 Tags: guide
