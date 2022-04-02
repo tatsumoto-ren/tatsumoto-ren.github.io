@@ -113,10 +113,12 @@ from PyPI.
 
 ### Troubleshooting
 
-If you're still unable to install or run Anki, refer to
+* If you're still unable to install or run Anki, refer to
 [Anki Manual](https://docs.ankiweb.net/platform/linux/installing.html)
 and
 [Anki Betas guide](https://betas.ankiweb.net/).
+* Some people report that they see a black screen on startup,
+and that you should run Anki with the no sandbox parameter: `anki --no-sandbox` to avoid it.
 
 ## Sync your mobile device
 
