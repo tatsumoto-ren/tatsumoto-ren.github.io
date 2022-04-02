@@ -126,12 +126,10 @@ We recommend making use of their grammar explanations
 but disregarding their language learning advice.
 
 * **All About Particles.**
-A book Khatz used a long time ago when he learned Japanese.
+A nicely organized book simply described as "godsend".
 For each grammar point in the book there's a short explanation
-and several example sentences with translations,
-which is perfect for our purposes.
-Other than that, I don't think there's anything special about the book,
-people read it because Khatz did it.
+and several natural example sentences with translations.
+Khatz used this book a long time ago when he learned Japanese.
 You'll find it on [z-lib](https://z-lib.org/) or on [Torrent sites](resources.html#torrent-trackers).
 * [Sakubi](https://sakubi.neocities.org/).
 It is written with immersion learners in mind.
@@ -145,8 +143,11 @@ You have already covered everything else.
 Don't touch any conjugation tables and exercises.
 In AJATT, the goal of studying grammar
 is strictly to increase the comprehensibility of your immersion.
-* [Ixrec's Guide to Japanese](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/).
-Each example sentence has a breakdown at the end of its page.
+* [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
+([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
+You can skip the "Alphabets" page as you have already covered that.
+Example sentences are listed at the end of each page.
+Each sentence is broken down into pieces and translated.
 
 <p align="center"><img class="shadow" alt="all about particles" src="img/about_particles.webp"></p>
 <p align="center"><i>All About Particles. Example sentences help understand the grammar.</i></p>
@@ -207,6 +208,10 @@ Second, read the guide and make cards for all necessary grammar constructions.
 It's up to you to decide whether you need to incorporate mining into your grammar study.
 
 ## How to make cards
+
+> Back in the day, I learned at least one example of every grammar point in the book.
+>
+> &mdash; Khatz
 
 For each grammar point, you choose an example sentence and add it to the SRS.
 Put the sentence on the front of the card.
