@@ -59,6 +59,7 @@ An online reference of the seminal A Dictionary of Japanese Grammar book series.
 * [国語文法](http://xn--vcs415akpfnn7a.com/).
 Japanese grammar taught by a Japanese teacher.
 * [国語の文法](https://www.kokugobunpou.com/).
+* [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
 
 ### JLPT
 
@@ -77,7 +78,7 @@ and probably the best free way to learn grammar used in the JLPT exam.
 
 Sometimes you might find yourself in a situation where
 you want to add a word to your SRS
-but the example sentence you've found the word in is too complicated
+but the example sentence you've found the word in is too complicated,
 or you've lost it because you forgot to save it.
 In such cases sites with example sentences come to rescue.
 
@@ -98,7 +99,7 @@ Has many words pronounced in isolation but not so many sentences.
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
 I don't recommend Jisho
-because it suggest sentences from Tatoeba.
+because it suggests sentences from Tatoeba.
 Many of them come from non-native speakers.
 
 ## Immersion material
@@ -124,7 +125,7 @@ Contains 98% of what you need to actually learn Japanese.
 	Unfortunately, Nyaa is blocked in some countries.
 	Accessing it through Tor can be difficult due to DDOS protection.
 	If you can't access the site, use a mirror.
-	Currently there's only one working mirror I know,
+	Currently, there's only one working mirror I know,
 	[Nyaa ISS](https://nyaa.iss.one/).
 * [Rutracker](https://rutracker.org/).
 Another torrent site.
@@ -324,7 +325,7 @@ Track your immersion on one of the supported sites.
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
 Takes video files and subtitle files
 and creates cards with screenshots and/or audio for each line in the sub file.
-Also useful for batch extracting audio from videos.
+Useful for batch extracting audio from videos.
 
 ### Reading eBooks
 
@@ -512,13 +513,15 @@ Helps you decipher words partially occluded by symbols like `〇`.
 For any given word, searches through Aozora Bunko
 for all instances where it was used with furigana
 and shows the percentage of each reading.
-Great for when the dictionary lists multiple readings and you want to know which is dominant.
+Great for when the dictionary lists multiple readings, and you want to know which is dominant.
 * [書き順](https://kakijun.jp).
 A website that shows you how to write a given kanji and how it looks written in different fonts.
 * [漢字辞典](https://kanji.jitenon.jp/).
 Monolingual kanji dictionary.
 * [Jotoba](https://jotoba.de/).
 Jotoba is an open source multilingual Japanese dictionary.
+* [連想類語辞典](https://renso-ruigo.com/).
+A dictionary of synonyms.
 
 ### Offline
 
@@ -628,7 +631,7 @@ A collection of guides for those interested in learning Japanese.
 
 Anti-features:
 
-* Includes links to nonfree software.
+* Includes links to non-free software.
 * Includes links to Discord servers.
 Discord is known for spying on and politically suppressing its users.
 * Contains outdated information.
