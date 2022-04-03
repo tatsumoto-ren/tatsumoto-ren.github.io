@@ -29,12 +29,12 @@ Below is a list of links where you can find dictionaries for qolibri and Yomicha
 
 **Packs:**
 
-* [Nyaa](https://nyaa.iss.one/view/1194089)
-* [mattvsjapan](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
+* [EPWing Collection on Nyaa](https://nyaa.iss.one/view/1194089)
+* [EPWINGs.rar on MediaFire](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
 * [Immersion Wiki](https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42)
 * [Mega 1](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
 * [Mega 2](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
-* [BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
+* [by BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
 
 **Standalone dictionaries:**
 
@@ -117,7 +117,7 @@ Pick 3 or 4 monolingual dictionaries you like the most and import them into Yomi
 Don't be *that guy*, don't import all dictionaries at once.
 Japanese to Japanese definitions are longer than Japanese to English ones.
 It's easy to clutter Yomichan pop-ups with dozens of definitions.
-Qolibri is much better at handling many dictionaries at the same time than Yomichan.
+Qolibri is much better than Yomichan at handling many dictionaries at the same time.
 
 Some people may tell you that, say,
 dictionary `A` has more precise and easy to read definitions than dictionary `B`.
@@ -165,7 +165,7 @@ so you may want to import them first.
 * 旺文社国語辞典.
 A dictionary by Oubunsha.
 Advertised as easy to understand for people new to monolingual dictionaries.
-However, I've found that certain defintions use more difficult vocabulay than `大辞林`.
+However, I've found that certain definitions use more difficult vocabulary than `大辞林`.
 The file is big because it contains images.
 There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
 * Weblio古語辞典. Archaism dictionary from Weblio.
@@ -215,7 +215,7 @@ I don't recommend VNs because most of them are proprietary,
 but the frequency list may help you detect common words in other types of content.
 * BCCWJ - Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
 * Daijirin. Words that appear in the `大辞林` monolingual dictionary.
-You may want to take a look at it if you've decided to go monolingual
+You may want to take a look at it if you've decided to go monolingual,
 and you need to prioritize learning dictionary vocabulary.
 
 ### Other
