@@ -20,10 +20,10 @@ To write Japanese you need something to write on and something to write with.
 * A pencil or a pen.
 * [原稿用紙 pdf](https://duckduckgo.com/?q=%E5%8E%9F%E7%A8%BF%E7%94%A8%E7%B4%99+a4+pdf&kp=-2&kl=jp-jp&ia=web),
 [like this](http://www.sousakuba.com/genkouyousi/).
-There are quite a lot of options to choose from so I'm going to link a search page
-where you can find any pdf you want.
+There are quite a lot of options to choose from,
+so I'm going to link a search page where you can find any pdf you want.
 
-Print the pdf you've downloaded on the paper you've got and you should be set.
+Print the pdf you've downloaded on the paper you've got, and you should be set.
 
 <p align="center"><img width="50%" class="shadow" alt="kanji" src="img/kanji_notebook.webp"></p>
 <p align="center"><i>Source: <a href="https://www.britvsjapan.com/learn-kanji-fast-ultimate-guide-to-remembering-the-kanji/">britvsjapan</a></i></p>
@@ -146,7 +146,7 @@ Make cards for each kanji in the Heisig's book.
 Check out [this site](https://hochanh.github.io/rtk/rtk1-v6/index.html)
 for an online RTK index.
 * **Using a custom list.**
-In such lists characters are sorted to ensure that no kanji appears before its' parts.
+In such lists characters are sorted to ensure that no kanji appears before its parts.
 [TopoKanji](https://github.com/scriptin/topokanji) is a good example.
 
 ### Learning the stroke order
@@ -157,11 +157,11 @@ you will naturally acquire the ability to guess the stroke order of most new kan
 and stroke order diagrams on your cards won't let you make a mistake and not notice it.
 
 The important part is to have a stroke order font included on your cards
-and presicely follow the order each time a card comes up.
+and precisely follow the order each time a card comes up.
 
 ### What about Production RTK
 
-Sometimes you see people recommending to *do RTK after you're fluent*.
+Sometimes you see people recommending doing *RTK after you're fluent*.
 This means taking the first volume of the book *Remembering The Kanji* by James Heisig
 and making each kanji into an Anki card.
 After the first volume people usually skip the second one and continue with the third.
@@ -183,7 +183,7 @@ given that the word itself isn't directly associated with the English keyword.
 The second method **doesn't work** because
 due to the way kanji are taught in the book you don't work at the level of words,
 instead you have to write each kanji separately.
-This leads to cloze cards where each card has a word on the front
+This leads to "cloze" cards where each card has a word on the front
 but only one character in the word is hidden.
 Learning how to produce parts of words
 doesn't guarantee the ability to write whole words when necessary.
