@@ -41,13 +41,14 @@ Since the first release in February 2020 it has helped many people and received 
 ## Structure
 
 Ankidrone Starter Pack contains sentences extracted from JLPT Tango books.
-Currently there are 4 subdecks.
+There are 5 subdecks.
 
 * Ankidrone Starter Pack
 	1) JLPT Tango `N5`
 	1) JLPT Tango `N4`
 	1) JLPT Tango `N3`
 	1) JLPT Tango `N2`
+	1) JLPT Tango `N1`
 
 Most cards are preformatted as
 [targeted sentence cards (TSC)](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
@@ -56,7 +57,7 @@ Note that TSCs are not regular sentence cards you find in other decks
 and should be treated differently.
 
 Although learning sentences is the best way
-to get familiar with the ways language is used and grammar structures are formed,
+to get familiar with how language is used and grammar structures are formed,
 in practice when a new learner starts with one of the premade sentence decks available on AnkiWeb,
 it is rare for all sentences to introduce only a single unknown word.
 One way to deal with it is to make isolated vocab cards.
@@ -68,7 +69,7 @@ Each card includes speech recordings stored in
 It offers great compression and remarkable audio quality at low bitrates.
 
 <p align="center"><img alt="screenshot" class="shadow" src="img/jlpt-tango-n3-card.webp"></p>
-<p align="center"><i>A card from the Tango N3 subdeck</i></p>
+<p align="center"><i>A card from the Tango N3 sub-deck.</i></p>
 
 ## Tango decks
 
@@ -81,11 +82,6 @@ that most sentences only introduce a single new word or grammar pattern.
 
 The order of cards and focus on words commonly used in daily life in Japan
 makes these decks an ideal instrument to complete the basic vocabulary stage.
-
-Currently we don't have the last deck, JLPT Tango `N1`.
-If you happen to own a copy,
-please share it in our chat,
-and I will include it in the pack.
 
 ## Core10k
 
@@ -129,11 +125,12 @@ skip Tango `N5` because they're identical and differ only in their card template
 	> and can be used together with Yomichan
 	> to create Anki cards while watching subtitled content.
 
-	You'll learn more about sentence mining in the later pages of this guide.
+	You'll learn more about sentence mining on the subsequent pages of this guide.
 
 3) While sentence mining, learn Tango `N4`, `N3` and `N2` at a reduced pace.
 It is critical not to spend too much time on beginner decks and focus on mining.
-4) The rest can be used to aid your learning process in the later stages.
+4) The rest can be used to aid your learning process later.
+The higher level you reach, the less benefit from premade decks you will get.
 Refer to Core10k when you have trouble finding example sentences.
 
 ## How to review
@@ -156,6 +153,11 @@ The add-on postpones difficult cards preventing them from stealing your time.
 Examples include many katakana words, such as `タクシー`, `エアコン`, `イクラ`.
 Even though they're pronounced differently in your language,
 you learn them easily from immersion alone.
+To suspend a card, press `@` on the keyboard.
+* In the books they teach many country names.
+The purpose of learning them is apparently to understand self introductions
+as well as be able to give one yourself.
+You can skip them too without losing too much.
 * Don't do too many new cards a day.
 At first, it may seem easy,
 but eventually Anki will overwhelm you with reviews.
@@ -172,8 +174,13 @@ look them up in a dictionary like Jisho.org or on Google.
 * Tango `N5` and Tango `N4` decks were shared by Anonymous from DJT.
 * Tango `N3` was shared by [Perditio](https://ankiweb.net/shared/info/519347273).
 * Tango `N2` was [made by a team of volunteers](jlpt-tango-n2-anki-deck.html#credits).
+* Tango `N1` was [made by a team of volunteers](jlpt-tango-n1-anki-deck.html#credits).
 
 ## Changelog
+
+**Changes in version 7:**
+* Added JLPT Tango `N1`.
+* Fixed small mistakes.
 
 **Changes in version 6:**
 * Added JLPT Tango `N2`.
@@ -204,7 +211,7 @@ DJT space has a Tango deck feedback room to give feedback on the deck.
 
 ## Similar Anki decks
 
-[The resources page](resources.html#vocabulary)
+[Resources page](resources.html#vocabulary)
 contains a Vocabulary section with Anki decks suggested by our members.
 
 [AnkiWeb](https://ankiweb.net/shared/decks/japanese)
