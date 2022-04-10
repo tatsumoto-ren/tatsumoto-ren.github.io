@@ -93,7 +93,7 @@ This is the last deck in the Tango series.
 Its release completes Ankidrone Starter Pack,
 the basic vocabulary deck I worked on for two years.
 Ankidrone Starter Pack has been immensely successful,
-and since it first came out in February of 2020
+and since it first came out in February 2020
 it has helped thousands of people with studying Japanese.
 
 The work is not totally over though.
