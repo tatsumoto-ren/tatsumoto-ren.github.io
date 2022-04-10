@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Thu, 31 Mar 2022 05:59:04 +0300</lastBuildDate>
-<pubDate>Thu, 31 Mar 2022 05:59:04 +0300</pubDate>
+<lastBuildDate>Sun, 10 Apr 2022 21:59:17 +0300</lastBuildDate>
+<pubDate>Sun, 10 Apr 2022 21:59:17 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+JLPT Tango N1 Anki deck</title><description><![CDATA[
+<p align="center">
+<img src="img/tango_n1.webp" alt="cover" style="max-height: 400px;">
+</p>
+<p>3000 Essential Vocabulary for the JLPT N1,
+also known as JLPT Tango N1,
+is a textbook to prepare for the JLPT N1.
+It contains ~2000 Japanese sentences and their English translations.
+The book includes vocabulary found commonly on the JLPT and often used in everyday life.</p>
+<p>With the help of our chat members,
+we have created an Anki deck from
+sentences listed in the book
+and native audio that comes with it.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/jlpt-tango-n1-anki-deck.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/jlpt-tango-n1-anki-deck.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 10 Apr 2022 21:51:14 +0300</pubDate></item>
 <item><title>
 Learning grammar</title><description><![CDATA[
 <p>What's grammar?
@@ -170,16 +189,4 @@ Sentences that contain multiple unknown pieces of information.</li>
 <guid>https://tatsumoto-ren.github.io/blog/one-target-sentences.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Fri, 10 Sep 2021 00:04:36 +0300</pubDate></item>
-<item><title>
-Ankidrone Sentence Pack</title><description><![CDATA[
-<p>Ankidrone Sentence Pack is an Anki deck
-that contains over 44,000 Japanese sentence with native audio.
-This deck is not to be learned from back to back,
-its purpose is to aid you in finding example sentences
-for your targeted sentence cards.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/ankidrone-sentence-pack.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/ankidrone-sentence-pack.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 07 Sep 2021 04:28:05 +0300</pubDate></item>
 </channel></rss>
