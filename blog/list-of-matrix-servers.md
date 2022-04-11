@@ -169,6 +169,7 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
+* https://chat.lomnik.net/
 * https://houtworm.im/ 🏆
 * https://chat.cfx.re/ 🏆
 * https://halogen.chat/ 🏆
@@ -231,7 +232,6 @@ without having to use a desktop client.
 * https://chat.thorko.de/
 * https://chat.cambsac.org.uk/
 * https://cell.linuxbrujo.net/
-* https://matrix.ohai.su/
 * https://matrix.n2n.io/
 * https://chat.das-labor.org/
 * https://element.lion.fm/
