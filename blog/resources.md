@@ -322,10 +322,17 @@ A free/libre flashcard application.
 An image viewer perfect for reading manga.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
+
+### Work with subtitles
+
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
 Takes video files and subtitle files
 and creates cards with screenshots and/or audio for each line in the sub file.
 Useful for batch extracting audio from videos.
+* [subtitleedit](https://aur.archlinux.org/packages/subtitleedit).
+A subtitle editor.
+It can convert image-based subtitles (`.sup`, `.sub`) to text-based (`.srt`)
+via an OCR engine such as Tesseract.
 
 ### Reading eBooks
 
