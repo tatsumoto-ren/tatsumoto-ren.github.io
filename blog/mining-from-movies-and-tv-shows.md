@@ -143,8 +143,8 @@ cut clips,
 and so on.
 Don't use "services" that spy on you such as Netflix, Hulu, VRV, Funimation or Crunchyroll.
 
-See the
-[Resources page](resources.html#immersion-material)
+Explore
+[Resources](resources.html#immersion-material)
 to find ways to download Japanese content.
 
 ## Obtain subtitles
@@ -157,6 +157,14 @@ and on our
 If you want to synchronize the subtitles, see the
 [autosubsync-mpv](https://github.com/Ajatt-Tools/autosubsync-mpv)
 page.
+
+Sometimes the only subtitle files
+available for a particular video are image-based (`.sup` or `.sub`).
+Often this is the case with subtitles for movies.
+They don't contain any text and by themselves are not very useful.
+SUP files can be converted to plain text (`.srt`)
+using OCR (Optical Character Recognition) programs
+such as [subtitleedit](https://aur.archlinux.org/packages/subtitleedit).
 
 Don't forget that if you have English subtitles enabled,
 at best you're going to improve your English,
@@ -220,7 +228,7 @@ by pressing `c` and moving the position with `Shift+h` and `Shift+l`.
 Finish by pressing `m`.
 1) The Anki Browser window should appear with the card updated.
 
-You can save sentences for later without adding defintions.
+You can save sentences for later without adding definitions.
 To do so, press `Ctrl+n`.
 
 ### Updating
@@ -231,7 +239,7 @@ To update mpvacious, run the command below:
 $ cd ~/.config/mpv/scripts/subs2srs && git pull
 ```
 
-## Should I use a "texthooker page"?
+## Should I use a "text hooker" page?
 
 No.
 
