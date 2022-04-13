@@ -126,14 +126,24 @@ of how quick you're going to be making language gains.
 One of the ways of increasing quantity of immersion is making it more language-dense.
 This is done by condensing the material you use for passive immersion.
 
-As far as I know, the idea of condensing immersion audio was first expressed by mattvsjapan in
-[this YouTube video](https://redirect.invidious.io/watch?v=QOLTeO-uCYU).
-According to it, to increase immersion density of a given episode of a TV show,
+Language density is the **amount of language per unit of time**.
+If we look at subtitle files for episodes of anime,
+one episode may contain 450 lines of dialogue,
+while another may only contain 250 lines of dialogue.
+The two episodes differ greatly in language density,
+but if you remove the spaces where no one is talking,
+the densities will be equal.
+
+To increase immersion density of a given episode of a TV show,
 we need to extract all fragments where something was being said and combine them into a single file.
 As a result we get audio for the original show with all the blank spaces taken out.
 In practice, for a typical episode of anime the corresponding condensed audio file
-is around 50% shorter, which means that you're getting twice as much immersion
+is usually around 50% shorter, which means that you're getting twice as much immersion
 when you listen to condensed audio compared to the original video file.
+
+Condensing audio enables you to spend all available time
+listening to your target language
+while passively immersing.
 
 ## impd
 
@@ -212,7 +222,7 @@ I've got an immersion tip for constant passive listening involving podcasts.
 1) Take an Android device.
 2) Install
 [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/)
-or a similar podcasts player.
+or a similar podcast player.
 3) Import this
 [podcasts.opml](https://gist.github.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4)
 file
@@ -221,7 +231,7 @@ file
 
 You can use this tip if you already understand Japanese to an extent.
 Listening to something you don't understand is not good for immersion.
-It's a very easy way to immerse but it doesn't beat condensed audio.
+It's a very easy way to immerse, but it doesn't beat condensed audio.
 
 I also tried this method with [radio](https://search.f-droid.org/?q=radio&lang=en),
 specifically [RadioDroid](https://f-droid.org/en/packages/net.programmierecke.radiodroid2/),
