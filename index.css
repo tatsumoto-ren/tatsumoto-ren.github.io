@@ -5,8 +5,24 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: "Noto Sans", Helvetica, Arial, Sans-Serif;
+    font-family:
+        "Noto Sans",
+        "Droid Sans",
+        "DejaVu Sans",
+        "Liberation Sans",
+        Roboto,
+        Cantarell,
+        "Segoe UI",
+        Arial,
+        Meiryo,
+        Oxygen,
+        Ubuntu,
+        "Helvetica Neue",
+        Helvetica,
+        "Noto Color Emoji",
+        sans-serif;
 }
 
 /* Links */
@@ -17,6 +33,7 @@ a:visited {
     color: SteelBlue;
     transition: color 0.2s;
 }
+
 a:hover,
 a:active {
     color: #0366d6;
@@ -35,35 +52,48 @@ a:active {
 
 header {
     padding: 2px 2px 0;
-    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+    font-family:
+        "Noto Serif",
+        "DejaVu Serif",
+        "Liberation Serif",
+        "Times New Roman",
+        Georgia,
+        Times,
+        serif;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
 }
-header > a.logo {
+
+header>a.logo {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     color: white;
     text-decoration: none;
 }
-header > a.logo:hover,
-header > a.logo:active {
+
+header>a.logo:hover,
+header>a.logo:active {
     color: #ddd;
 }
-header > a.logo > h1 {
+
+header>a.logo>h1 {
     text-transform: uppercase;
     font-size: 20px;
 }
-header > a.logo > img {
+
+header>a.logo>img {
     margin-right: 8px;
     height: 48px;
 }
-header > span.space {
+
+header>span.space {
     flex: 2 1;
 }
-header > a.donate {
+
+header>a.donate {
     background: url("img/heart.svg");
     background-size: 24px 24px;
     background-repeat: no-repeat;
@@ -75,13 +105,14 @@ header > a.donate {
 
 /* Header images transition on hover */
 
-header > a.logo > img,
-header > a.donate {
+header>a.logo>img,
+header>a.donate {
     filter: invert(100%) drop-shadow(1px 1px 2px #000c);
     transition: filter 0.2s;
 }
-header > a.logo:hover > img,
-header > a.donate:hover {
+
+header>a.logo:hover>img,
+header>a.donate:hover {
     filter: invert(90%) drop-shadow(1px 1px 2px #000c);
 }
 
@@ -93,15 +124,17 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
-nav > a,
-nav > a:visited {
+
+nav>a,
+nav>a:visited {
     white-space: nowrap;
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-nav > a:hover,
-nav > a:active {
+
+nav>a:hover,
+nav>a:active {
     color: #ddd;
 }
 
@@ -115,15 +148,18 @@ div.presentation {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-div.presentation > p {
+
+div.presentation>p {
     margin: 20px 0;
     max-width: 550px;
 }
+
 div.presentation div.start_buttons {
     display: flex;
     flex-flow: row nowrap;
 }
-div.presentation div.start_buttons > a {
+
+div.presentation div.start_buttons>a {
     white-space: nowrap;
     display: inline-block;
     border: 2px solid white;
@@ -134,10 +170,12 @@ div.presentation div.start_buttons > a {
     border-radius: 2px;
     transition: background-color 0.2s;
 }
-div.presentation div.start_buttons > a:hover {
+
+div.presentation div.start_buttons>a:hover {
     background-color: #fff2;
 }
-div.presentation div.start_buttons > a:first-child {
+
+div.presentation div.start_buttons>a:first-child {
     color: black;
     background-color: white;
     margin-right: 10px;
@@ -151,6 +189,7 @@ div.key_points {
     max-width: 1920px;
     margin: 0 auto;
 }
+
 div.key_points h2 {
     margin: 50px 0 10px;
 }
@@ -163,15 +202,19 @@ div.key_points .icon {
     margin-right: 5px;
     height: 1em;
 }
+
 div.key_points .beer {
     content: url("img/beer.svg");
 }
+
 div.key_points .goat {
     content: url("img/goat.svg");
 }
+
 div.key_points .anki {
     content: url("img/anki.webp");
 }
+
 div.key_points .bomb {
     content: url("img/bomb.svg");
 }
@@ -184,6 +227,7 @@ footer {
     padding-top: 50px;
     margin-top: 50px;
 }
+
 footer img {
     width: 32px;
 }
@@ -194,13 +238,16 @@ footer img {
     nav {
         justify-content: flex-start;
     }
-    nav > a:not(:last-child) {
+
+    nav>a:not(:last-child) {
         margin-right: 30px;
     }
+
     div.presentation {
         max-width: 850px;
         margin: 0 0 0 15vw;
     }
+
     div.key_points {
         padding: 0 20px;
         display: grid;
@@ -211,6 +258,7 @@ footer img {
         column-gap: 40px;
     }
 }
+
 @media only screen and (min-width: 1350px) {
     div.key_points {
         grid-template-rows: repeat(2, auto);

@@ -41,8 +41,22 @@ html {
 }
 
 body {
-    font-family: "Noto Sans", "Droid Sans", Roboto, Cantarell, "Segoe UI", Arial, Meiryo, Oxygen, Ubuntu,
-        "Helvetica Neue", Helvetica, "Noto Color Emoji", sans-serif;
+    font-family:
+        "Noto Sans",
+        "Droid Sans",
+        "DejaVu Sans",
+        "Liberation Sans",
+        Roboto,
+        Cantarell,
+        "Segoe UI",
+        Arial,
+        Meiryo,
+        Oxygen,
+        Ubuntu,
+        "Helvetica Neue",
+        Helvetica,
+        "Noto Color Emoji",
+        sans-serif;
     background-color: #f3f3f3;
     color: #24292e;
     font-size: 16px;
@@ -50,12 +64,12 @@ body {
     flex-direction: column;
 }
 
-body > div#divbodyholder {
+body>div#divbodyholder {
     flex: 1 0 auto;
 }
 
-body > .headerholder,
-body > footer {
+body>.headerholder,
+body>footer {
     flex-shrink: 0;
 }
 
@@ -90,12 +104,15 @@ a {
     text-decoration: none;
     color: var(--link);
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 a:visited {
     color: var(--link-visited);
 }
+
 a.ablack {
     color: var(--link-black);
 }
@@ -110,8 +127,16 @@ a.ablack {
     z-index: 100;
     top: 0;
 }
+
 header {
-    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+    font-family:
+        "Noto Serif",
+        "DejaVu Serif",
+        "Liberation Serif",
+        "Times New Roman",
+        Georgia,
+        Times,
+        serif;
     width: 100%;
     min-width: 256px;
     min-height: var(--header-height);
@@ -127,16 +152,19 @@ header {
 
 /* Header grid areas */
 
-header > .logoholder {
+header>.logoholder {
     grid-area: logo;
 }
-header > label.menu {
+
+header>label.menu {
     grid-area: menu-btn;
 }
-header > #description {
+
+header>#description {
     grid-area: description;
 }
-header > nav {
+
+header>nav {
     grid-area: nav;
 }
 
@@ -160,21 +188,25 @@ header a.logo {
     justify-content: flex-start;
     transition: opacity 0.2s;
 }
-header a.logo > h1 {
+
+header a.logo>h1 {
     font-size: 20px;
     color: black;
     text-align: center;
     transition: letter-spacing 0.3s;
     padding: 0 8px 0;
 }
+
 header a.logo:hover {
     opacity: 0.75;
     background-color: var(--header-background);
 }
-header a.logo:hover > h1 {
+
+header a.logo:hover>h1 {
     letter-spacing: 0px;
 }
-header a.logo > img {
+
+header a.logo>img {
     height: 48px;
     margin-left: 2px;
 }
@@ -189,7 +221,7 @@ header #show_sidebar_button {
     border-left: 1px solid var(--nav-border-color);
 }
 
-header #show_sidebar_button > svg {
+header #show_sidebar_button>svg {
     width: 18px;
     margin: auto;
     fill: #333;
@@ -210,7 +242,7 @@ header input.menu {
 
 /* Navigation */
 
-header > nav {
+header>nav {
     clear: both;
     display: flex;
     flex-direction: column;
@@ -219,21 +251,22 @@ header > nav {
     overflow-x: hidden;
     transition: max-height 0.2s ease-out;
 }
-header > nav a,
-header > nav a:visited {
+
+header>nav a,
+header>nav a:visited {
     height: var(--header-height);
     white-space: nowrap;
     padding: 0 12px;
     border-top: 1px solid var(--nav-border-color);
 }
 
-header > nav a.important {
+header>nav a.important {
     background-color: var(--sidebar-background);
     color: #f2f2f2;
     border: none;
 }
 
-header > nav a.important:hover {
+header>nav a.important:hover {
     color: #f1f1f1;
     background-color: #3f3f3f;
 }
@@ -241,15 +274,14 @@ header > nav a.important:hover {
 /* menu button with a hamburger icon */
 
 header label.menu {
-    padding: calc((var(--header-height) - var(--hamburger-slice-height)) / 2)
-        calc((var(--header-height) - var(--hamburger-slice-width)) / 2);
+    padding: calc((var(--header-height) - var(--hamburger-slice-height)) / 2) calc((var(--header-height) - var(--hamburger-slice-width)) / 2);
     user-select: none;
     border-left: 1px solid var(--nav-border-color);
 }
 
 /* Hamburger */
 
-header label.menu > .hamburger {
+header label.menu>.hamburger {
     background: #333;
     display: block;
     width: var(--hamburger-slice-width);
@@ -257,8 +289,9 @@ header label.menu > .hamburger {
     position: relative;
     transition: background 0.2s ease-out;
 }
-header label.menu > .hamburger:before,
-header label.menu > .hamburger:after {
+
+header label.menu>.hamburger:before,
+header label.menu>.hamburger:after {
     display: block;
     background: #333;
     content: "";
@@ -267,29 +300,35 @@ header label.menu > .hamburger:after {
     height: 100%;
     transition: all 0.2s ease-out;
 }
-header label.menu > .hamburger:before {
+
+header label.menu>.hamburger:before {
     top: 5px;
 }
-header label.menu > .hamburger:after {
+
+header label.menu>.hamburger:after {
     top: -5px;
 }
 
 /* when the hamburger is clicked, show the navigation items and change the hamburger icon */
 
-header input.menu:checked ~ nav {
+header input.menu:checked~nav {
     max-height: calc(var(--header-height) * var(--n-menu-items));
 }
-header input.menu:checked ~ label.menu {
+
+header input.menu:checked~label.menu {
     background-color: var(--header-item-focused-background);
 }
-header input.menu:checked ~ label.menu > .hamburger {
+
+header input.menu:checked~label.menu>.hamburger {
     background: transparent;
 }
-header input.menu:checked ~ label.menu > .hamburger:before {
+
+header input.menu:checked~label.menu>.hamburger:before {
     transform: rotate(-45deg);
     top: 0;
 }
-header input.menu:checked ~ label.menu > .hamburger:after {
+
+header input.menu:checked~label.menu>.hamburger:after {
     transform: rotate(45deg);
     top: 0;
 }
@@ -327,24 +366,28 @@ header label:hover {
         grid-template-columns: 1fr max-content;
         grid-template-areas: "logo nav";
     }
+
     header label.menu {
         display: none;
     }
-    header > nav {
+
+    header>nav {
         max-height: none;
         flex-direction: row;
         overflow: visible;
     }
-    header > nav > a {
+
+    header>nav>a {
         border-left: 1px solid var(--nav-border-color);
         border-top: none;
     }
 }
 
 @media screen and (min-width: 750px) {
-    header > .logoholder {
+    header>.logoholder {
         justify-content: flex-start;
     }
+
     header #show_sidebar_button {
         border-right: 1px solid var(--nav-border-color);
     }
@@ -355,7 +398,8 @@ header label:hover {
         grid-template-columns: 1fr max-content 1fr;
         grid-template-areas: "logo description nav";
     }
-    header > #description {
+
+    header>#description {
         display: block;
         place-self: center;
         max-width: 500px;
@@ -368,7 +412,8 @@ header label:hover {
     word-wrap: break-word;
     margin: var(--gap-large) 0 var(--gap-large);
 }
-#divbodyholder > div {
+
+#divbodyholder>div {
     border: 1px solid #ccc;
     background-color: #fff;
     padding: 0px var(--gap-small) calc(var(--gap-small) / 2);
@@ -379,7 +424,7 @@ header label:hover {
 
 /* index page nag bar */
 
-#divbodyholder > div.indexnagbar {
+#divbodyholder>div.indexnagbar {
     color: #453128;
     background-color: #fbf6e3;
     border: 1px solid #e2c491;
@@ -390,14 +435,17 @@ header label:hover {
     align-items: center;
     gap: 10px;
 }
+
 .indexnagbar a,
 .indexnagbar a:visited {
     color: #a85c43;
 }
+
 .indexnagbar a:hover,
 .indexnagbar a:active {
     color: #ab2f17;
 }
+
 .indexnagbar svg.nagbar_icon {
     display: block;
     width: 32px;
@@ -406,10 +454,11 @@ header label:hover {
 }
 
 @media screen and (min-width: 600px) {
-    #divbodyholder > #divbody {
+    #divbodyholder>#divbody {
         padding: 0px var(--gap-large) calc(var(--gap-large) / 2);
     }
-    #divbodyholder > div.indexnagbar {
+
+    #divbodyholder>div.indexnagbar {
         padding: var(--gap-small) var(--gap-large) var(--gap-small);
     }
 }
@@ -432,7 +481,8 @@ summary {
     color: #1f56aa;
     cursor: pointer;
 }
-summary + * {
+
+summary+* {
     margin-top: 8px;
 }
 
@@ -445,42 +495,51 @@ blockquote {
 main ul ul {
     margin: 0px;
 }
+
 main p {
     line-height: 1.5;
 }
+
 main :is(h1, h2, h3, h4, h5, h6) {
     margin-top: var(--gap-small);
     margin-bottom: 16px;
     line-height: 1.25;
 }
-main :is(h1, h2, h3, h4, h5, h6) > a:hover {
+
+main :is(h1, h2, h3, h4, h5, h6)>a:hover {
     text-decoration: none;
 }
 
 main h1 {
     font-size: 1.7em;
 }
+
 main h2 {
     font-size: 1.5em;
 }
+
 main h3 {
     font-size: 1.25em;
 }
+
 main h4 {
     font-size: 1em;
 }
 
-article > h1:first-child {
+article>h1:first-child {
     margin-bottom: 0px;
 }
+
 article ul,
 article ol {
     padding-left: 2em;
 }
-article li + li {
+
+article li+li {
     margin-top: 0.25em;
 }
-article p > img.shadow {
+
+article p>img.shadow {
     box-shadow: 2px 2px 3px #999;
 }
 
@@ -490,17 +549,31 @@ article .anchor {
     margin-left: -20px;
     line-height: 1;
 }
-article .anchor > svg {
+
+article .anchor>svg {
     vertical-align: middle;
     visibility: hidden;
 }
-article :is(h1, h2, h3, h4, h5, h6):hover .anchor > svg {
+
+article :is(h1, h2, h3, h4, h5, h6):hover .anchor>svg {
     visibility: visible;
 }
 
 .subtitle {
     font-size: small;
     margin: 3px 0 16px;
+}
+
+code,
+pre {
+    font-family:
+        "Noto Sans Mono",
+        "Liberation Mono",
+        "DejaVu Sans Mono",
+        "Courier New",
+        "Lucida Console",
+        Courier,
+        monospace;
 }
 
 code {
@@ -517,12 +590,15 @@ pre {
     padding: 16px;
     line-height: 1.45;
 }
+
 pre img {
     margin: 12px 0px;
 }
+
 pre iframe {
     margin: 12px 0px;
 }
+
 pre code {
     padding: 0;
     background-color: initial;
@@ -532,6 +608,7 @@ pre code {
     margin-top: var(--gap-small);
     text-align: center;
 }
+
 #twitter {
     line-height: 20px;
     vertical-align: top;
@@ -554,6 +631,7 @@ a.download_button {
     border-radius: 2px;
     transition: all 0.3s;
 }
+
 a.download_button:hover,
 a.download_button:focus {
     background-color: #0366d60d;
@@ -587,9 +665,11 @@ article table th {
     border: 1px solid #e0e3e6;
     padding: 6px 13px;
 }
+
 article table td:first-child {
     white-space: nowrap;
 }
+
 article table tr:nth-child(2n) {
     background-color: #f6f8fa;
 }
@@ -632,46 +712,56 @@ article table tr:nth-child(2n) {
     left: -300px;
     transition: left 0.2s;
 }
+
 #sidebar[open] {
     left: 0px;
 }
+
 #sidebar ul,
 #sidebar ol {
     list-style-position: inside;
     padding-left: 1em;
 }
-#sidebar > ul,
-#sidebar > ol {
+
+#sidebar>ul,
+#sidebar>ol {
     clear: both;
     margin: 8px;
     padding-left: 0;
 }
+
 #sidebar ul:only-child,
 #sidebar ol:only-child {
     padding-left: 0;
 }
-#sidebar li + li {
+
+#sidebar li+li {
     padding-top: 0.25em;
 }
-#sidebar li > a {
+
+#sidebar li>a {
     padding: 4px 0;
 }
+
 #sidebar a,
 #sidebar a:visited {
     display: inline;
     color: #ccc;
     text-decoration: none;
 }
+
 #sidebar a:hover,
 #sidebar a:active {
     color: #f1f1f1;
 }
+
 @media screen and (min-width: 600px) {
     #sidebar {
         width: 400px;
         left: -400px;
     }
-    #sidebar li > a {
+
+    #sidebar li>a {
         padding: 0;
     }
 }
@@ -686,29 +776,29 @@ article table tr:nth-child(2n) {
     background-color: var(--sidebar-background);
 }
 
-#sidebar .sidebar_header > a,
-#sidebar .sidebar_header > a:visited {
+#sidebar .sidebar_header>a,
+#sidebar .sidebar_header>a:visited {
     min-width: var(--header-height);
     line-height: var(--header-height);
     height: var(--header-height);
     text-align: center;
 }
 
-#sidebar .sidebar_header > a:hover,
-#sidebar .sidebar_header > a:active {
+#sidebar .sidebar_header>a:hover,
+#sidebar .sidebar_header>a:active {
     background-color: #3f3f3f;
 }
 
-#sidebar .sidebar_header > .to_toc {
+#sidebar .sidebar_header>.to_toc {
     font-size: 18px;
     flex: 2 1 auto;
 }
 
-#sidebar .sidebar_header > .jump_top_button {
+#sidebar .sidebar_header>.jump_top_button {
     display: flex;
 }
 
-#sidebar .sidebar_header > .jump_top_button > svg {
+#sidebar .sidebar_header>.jump_top_button>svg {
     margin: auto;
     width: 18px;
     height: 18px;
@@ -716,12 +806,12 @@ article table tr:nth-child(2n) {
     transform: rotate(180deg);
 }
 
-#sidebar .sidebar_header > .jump_top_button:hover svg,
-#sidebar .sidebar_header > .jump_top_button:active svg {
+#sidebar .sidebar_header>.jump_top_button:hover svg,
+#sidebar .sidebar_header>.jump_top_button:active svg {
     fill: #f1f1f1;
 }
 
-#sidebar .sidebar_header > .close_button {
+#sidebar .sidebar_header>.close_button {
     font-size: 36px;
 }
 
@@ -782,13 +872,16 @@ a.md-button::before {
 a.md-button.element {
     background-color: #0dbd8b;
 }
+
 a.md-button.element:hover {
     background-color: #099970;
 }
+
 a.md-button.element::before {
     background-image: url("https://wikiless.org/media/wikipedia/commons/c/cb/Element_%28software%29_logo.svg");
     filter: grayscale(100%) brightness(2);
 }
+
 a.md-button.telegram::before {
     background-image: url("https://telegram.org/img/t_logo.svg");
 }
@@ -799,29 +892,35 @@ a.md-button.lp {
     background-color: #ffee16;
     color: #1a171b;
 }
+
 a.md-button.lp:hover {
     background-color: #fff463;
     color: #333;
 }
+
 a.md-button.lp::before {
     background-image: url("https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg");
 }
+
 a.md-button.patreon {
     text-transform: uppercase;
     background-color: #f96854;
 }
+
 a.md-button.patreon:hover {
     background-color: #ff424d;
 }
+
 a.md-button.patreon::before {
     background-image: url("../img/patreon_logo.webp");
 }
 
 /* ToC navigation */
 
-#divbodyholder > #divbody {
+#divbodyholder>#divbody {
     position: relative;
 }
+
 .toc_navigation {
     position: absolute;
     z-index: 50;
@@ -833,21 +932,25 @@ a.md-button.patreon::before {
     justify-content: flex-end;
     gap: 10px;
 }
-.toc_navigation > a {
+
+.toc_navigation>a {
     min-width: 50px;
     height: 31px;
     padding: 0 1.4em;
 }
-.toc_navigation > a::before {
+
+.toc_navigation>a::before {
     background-image: url("../img/up-arrow.svg");
     filter: invert(1);
     width: 1em;
     height: 1em;
     background-size: 1em;
 }
-.toc_navigation > a.next::before {
+
+.toc_navigation>a.next::before {
     transform: rotate(90deg);
 }
-.toc_navigation > a.prev::before {
+
+.toc_navigation>a.prev::before {
     transform: rotate(-90deg);
 }
