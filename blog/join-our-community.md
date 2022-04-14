@@ -44,6 +44,8 @@ because it is naturally more extensible and user-friendly.
 
 ## Matrix
 
+> Starting Lounge: `#join:g33k.se`
+
 We have a very rich and vibrant community on
 [Matrix](https://wiki.archlinux.org/index.php/Matrix).
 Matrix is great because it's a completely libre communication protocol.
@@ -69,7 +71,7 @@ If you can't or don't want to install a client, use a
 When you join the community, you'll start in Starting Lounge.
 This is a room for new members.
 From there you can explore our community
-by follwing the link in the room's description.
+by following the link in the room's description.
 
 ## Telegram
 
