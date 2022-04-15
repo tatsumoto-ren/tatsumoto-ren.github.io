@@ -37,8 +37,7 @@ and they've never actually followed their own advice.
 We divide the process of learning any foreign language into two steps.
 
 1) Learn to understand the language at a high level.
-2) Use your understanding to learn to speak the language,
-by mimicking native speakers.
+2) Use your understanding to learn how speak the language by mimicking native speakers.
 This is similar to how kids do it.
 
 The method explained here is widely known as

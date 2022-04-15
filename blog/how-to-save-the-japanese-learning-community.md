@@ -8,7 +8,7 @@ you can still find a link to so-called `DJT Discord`.
 It is needless to say that this situation upsets people in the community,
 but I want to believe that the main reason behind the discord links remaining on Itazura
 is simply that the site hasn't been updated in a long while.
-Otherwise it would literally mean that the owner wants us to install
+Otherwise, it would literally mean that the owner wants us to install
 [malware](https://www.gnu.org/proprietary/)
 on our computers and become victims of the mass surveillance.
 

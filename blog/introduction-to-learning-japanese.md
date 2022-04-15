@@ -63,7 +63,7 @@ This is called **active immersion**.
 2) Reuse what you've watched for **passive immersion**.
 Passive immersion is when you have audio playing in the background
 while you're doing something else.
-A popular practice among AJATTers is to take an episode of a TV show you've watched,
+A popular practice among ajatters is to take an episode of a TV show you've watched,
 extract the audio track and add it to your playlist.
 I am going to tell you how to do it in the article about
 [passive listening](passive-listening.html).
@@ -197,7 +197,7 @@ while you're preparing to switch to GNU/Linux.
 I deliberately advocate for free/libre software.
 Quitting Windows is like quitting tobacco.
 Tobacco is bad for your health.
-Likewise, nonfree software is
+Likewise, non-free software is
 [bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
 
 I
@@ -306,7 +306,7 @@ Either way should take you two days or so to complete, and no more than a week i
 
 [Kanji](https://en.wikipedia.org/wiki/Kanji)
 were imported from China a long time ago.
-They are logographic characters used to write words and parts of words.
+They are logo-graphic characters used to write words and parts of words.
 To truly learn kanji you need to read Japanese for thousands of hours,
 the resources listed below are designed to prime your brain for recognizing the characters
 and make transition to reading easier.
