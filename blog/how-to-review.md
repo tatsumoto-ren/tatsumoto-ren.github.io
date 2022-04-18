@@ -26,6 +26,59 @@ You can increase it further if your retention is high enough.
 I think up to 300% should be fine.
 * Enable Anki 2.1 scheduler (`V2` scheduler).
 It's a little less limiting, less buggy and more convenient.
+In newer Anki versions it's the default.
+
+## Grading
+
+When you're ready to grade a card,
+you're asked to choose from 4 different options:
+"again", "hard", "good" and "easy".
+Use **only** "again" and "good".
+Do not press "hard" and "easy" unless you're aware of the consequences.
+
+When you press "hard" or "easy",
+the card's Ease factor changes.
+As a result,
+the speed at which the card's interval is going to grow from that point onward also changes.
+Pressing "hard" makes the card's interval grow slower,
+and the card comes up for review more often.
+The new Ease factor *stays in effect indefinitely*
+until you do something that resets it back to the default value.
+When a card comes up for review more often than needed,
+you spend unnecessary time reviewing.
+Likewise, pressing "easy" makes the card appear for review less frequently
+causing you to be more likely to forget it at some point.
+Setting Starting Ease to 131% can mitigate some consequences, but not all.
+
+There is an Anki add-on that removes some or all answer buttons.
+I cover it a few sections below.
+
+When you see a card,
+grade it "good" if you understand the target word.
+To grade the card "good", you should be able to:
+
+* Understand what it means in context, if there's context on the card.
+* Read it phonetically, if the word contains kanji.
+
+If not, select "again" and relearn the card.
+
+Sometimes you need to press "again" multiple times until you memorize the card.
+But as soon as you understand the word, hit "good".
+Don't hit "again" over and over because you're not sufficiently confident in your memory.
+
+Anki never guarantees that you will remember every item you put into it.
+It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
+Each review session expect to forget a number of cards.
+It's a natural part of using the program.
+
+If you forget too many cards,
+it is possible that your cards are not optimally formatted or your Interval Modifier is too large.
+Decrease the Interval Modifier,
+remove excessive or redundant information from the cards,
+use different example sentences,
+add examples if you don't have any.
+If you rarely forget any cards, you're seeing them too often.
+This means you need to increase you Interval Modifier.
 
 ## Showing up
 
@@ -164,7 +217,7 @@ Once they leave the filtered deck,
 they automatically return to the decks they were pulled out from.
 If this approach doesn't work for you, try suspending overdue cards instead.
 To do so, open the Anki Browser, type `is:due -prop:due=0` and suspend the cards that will show up.
-Unsuspend the cards in chunks once you have time to review them.
+Un-suspend the cards in chunks once you have time to review them.
 
 Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
@@ -398,7 +451,7 @@ The SRS best practices:
 1) Don't review in filtered decks.
 1) Use filtered decks for storing old due cards (backlog).
 1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
-1) Use the Pass-Fail mode to avoid "Hard" and "Easy" buttons.
+1) Use the **Pass-Fail** mode to avoid "Hard" and "Easy" buttons.
 1) Grade easy cards from their front side.
 
 Tags: anki

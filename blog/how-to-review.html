@@ -64,8 +64,53 @@ This initial increase counteracts the low Starting Ease.
 You can increase it further if your retention is high enough.
 I think up to 300% should be fine.</li>
 <li>Enable Anki 2.1 scheduler (<code>V2</code> scheduler).
-It's a little less limiting, less buggy and more convenient.</li>
+It's a little less limiting, less buggy and more convenient.
+In newer Anki versions it's the default.</li>
 </ul>
+<h2 id="grading"><a class="anchor" href="#grading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grading</h2>
+<p>When you're ready to grade a card,
+you're asked to choose from 4 different options:
+&quot;again&quot;, &quot;hard&quot;, &quot;good&quot; and &quot;easy&quot;.
+Use <strong>only</strong> &quot;again&quot; and &quot;good&quot;.
+Do not press &quot;hard&quot; and &quot;easy&quot; unless you're aware of the consequences.</p>
+<p>When you press &quot;hard&quot; or &quot;easy&quot;,
+the card's Ease factor changes.
+As a result,
+the speed at which the card's interval is going to grow from that point onward also changes.
+Pressing &quot;hard&quot; makes the card's interval grow slower,
+and the card comes up for review more often.
+The new Ease factor <em>stays in effect indefinitely</em>
+until you do something that resets it back to the default value.
+When a card comes up for review more often than needed,
+you spend unnecessary time reviewing.
+Likewise, pressing &quot;easy&quot; makes the card appear for review less frequently
+causing you to be more likely to forget it at some point.
+Setting Starting Ease to 131% can mitigate some consequences, but not all.</p>
+<p>There is an Anki add-on that removes some or all answer buttons.
+I cover it a few sections below.</p>
+<p>When you see a card,
+grade it &quot;good&quot; if you understand the target word.
+To grade the card &quot;good&quot;, you should be able to:</p>
+<ul>
+<li>Understand what it means in context, if there's context on the card.</li>
+<li>Read it phonetically, if the word contains kanji.</li>
+</ul>
+<p>If not, select &quot;again&quot; and relearn the card.</p>
+<p>Sometimes you need to press &quot;again&quot; multiple times until you memorize the card.
+But as soon as you understand the word, hit &quot;good&quot;.
+Don't hit &quot;again&quot; over and over because you're not sufficiently confident in your memory.</p>
+<p>Anki never guarantees that you will remember every item you put into it.
+It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
+Each review session expect to forget a number of cards.
+It's a natural part of using the program.</p>
+<p>If you forget too many cards,
+it is possible that your cards are not optimally formatted or your Interval Modifier is too large.
+Decrease the Interval Modifier,
+remove excessive or redundant information from the cards,
+use different example sentences,
+add examples if you don't have any.
+If you rarely forget any cards, you're seeing them too often.
+This means you need to increase you Interval Modifier.</p>
 <h2 id="showing-up"><a class="anchor" href="#showing-up" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Showing up</h2>
 <p>AJATT has an article about <a href="http://www.alljapaneseallthetime.com/blog/showing-up/">Showing up</a>.
 100% of winning is showing up.
@@ -178,7 +223,7 @@ Once they leave the filtered deck,
 they automatically return to the decks they were pulled out from.
 If this approach doesn't work for you, try suspending overdue cards instead.
 To do so, open the Anki Browser, type <code>is:due -prop:due=0</code> and suspend the cards that will show up.
-Unsuspend the cards in chunks once you have time to review them.</p>
+Un-suspend the cards in chunks once you have time to review them.</p>
 <p>Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
 Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.</p>
@@ -387,7 +432,7 @@ By clicking on the stat you can bring up the card browser window showing the las
 <li>Don't review in filtered decks.</li>
 <li>Use filtered decks for storing old due cards (backlog).</li>
 <li>Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.</li>
-<li>Use the Pass-Fail mode to avoid &quot;Hard&quot; and &quot;Easy&quot; buttons.</li>
+<li>Use the <strong>Pass-Fail</strong> mode to avoid &quot;Hard&quot; and &quot;Easy&quot; buttons.</li>
 <li>Grade easy cards from their front side.</li>
 </ol>
 <p>Tags: <a href="tag_anki.html">anki</a></p>
