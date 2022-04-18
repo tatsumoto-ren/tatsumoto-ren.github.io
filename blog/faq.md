@@ -1038,6 +1038,25 @@ If you use
 [zsh](https://wiki.archlinux.org/title/Zsh),
 instead of `~/.bash_profile` edit `~/.zprofile`.
 
+### How to change note types?
+
+0. Download or create a new note type.
+
+	Any Anki deck you download from the internet comes with a Note Type.
+	If the same Note Type does not exist in your Anki collection, it will be added.
+	Our collection of Note Types can be found
+	[on GitHub](https://github.com/Ajatt-Tools/AnkiNoteTypes).
+
+	From the Anki main screen, go to "Tools" > "Manage Note Types".
+	There you will see all the installed note types.
+2. The process of converting notes to a different note type is not difficult.
+First make sure that you've imported the desired Note Type.
+Then open the Anki browser (shortcut: `b`) and select the notes you wish to convert.
+The whole deck can be selected by pressing `Ctrl+A`.
+Lastly, choose the option "Change Note Type" from the context menu
+or go to menu "Notes" > "Change Note Type..." (shortcut: `Ctrl+Shift+M`).
+The rest is a matter of mapping the right fields and pressing `OK`.
+
 ### What are your current thoughts on Morphman? Do you recommend it?
 
 I used
