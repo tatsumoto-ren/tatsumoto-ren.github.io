@@ -107,21 +107,7 @@ it requires making your own cards.
 By the time you start learning to write,
 you should have plenty of sentence cards in your Anki collection to generate production cards from.
 However, if you want a premade sentence pack that can be used for writing,
-you can download [Ankidrone Starter Pack](basic-vocabulary.html)
-and convert the notes in the deck to the note type presented above.
-
-<details>
-
-<summary>Converting between note types</summary>
-
-The process of converting a note to a different note type is not difficult.
-First make sure that you've imported the example TSC deck.
-Then open the Anki browser (shortcut: `b`) and select the notes you wish to convert.
-The whole deck can be selected by pressing `ctrl+a`.
-Lastly, choose the option `Change Note Type` from the context menu.
-The rest is a matter of mapping the right fields and pressing `OK`.
-
-</details>
+you can download [Ankidrone Starter Pack](basic-vocabulary.html).
 
 ### How to make your own cards
 
