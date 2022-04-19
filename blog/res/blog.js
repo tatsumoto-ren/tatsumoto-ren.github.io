@@ -141,40 +141,6 @@ const Sidebar = Object.freeze({
 })
 
 const Toc = Object.freeze({
-    order: [
-        "foreword.html",
-        "introduction-to-learning-japanese.html",
-        "how-to-type-in-japanese.html",
-        "setting-up-anki.html",
-        "useful-anki-add-ons-for-japanese.html",
-        "discussing-various-card-templates.html",
-        "japanese-fonts.html",
-        "learning-kana-in-two-days.html",
-        "learning-kanji.html",
-        "jp1k-anki-deck.html",
-        "basic-vocabulary.html",
-        "learning-grammar.html",
-        "setting-up-yomichan.html",
-        "setting-up-qolibri.html",
-        "yomichan-and-epwing-dictionaries.html",
-        "one-target-sentences.html",
-        "sentence-mining.html",
-        "how-to-review.html",
-        "our-immersion-learning-toolset.html",
-        "mining-from-movies-and-tv-shows.html",
-        "immersion-with-youtube.html",
-        "mining-from-manga.html",
-        "passive-listening.html",
-        "retiming-subtitles.html",
-        "writing-japanese.html",
-        "resources.html",
-        "faq.html",
-        "understanding-monolingual-definitions.html",
-        "random-anime-ranked-easiest-to-hardest.html",
-        "ankidrone-sentence-pack.html",
-        "join-our-community.html",
-        "donating-to-tatsumoto.html",
-    ],
     make_link(to, next) {
         const a = document.createElement('a')
         a.href = to
@@ -187,12 +153,27 @@ const Toc = Object.freeze({
         div.className = "toc_navigation"
         return div
     },
-    link_adjacent() {
-        const i = this.order.indexOf(Utils.filename())
+    init() {
+        const articles_list = []
+        const regex = /\[([^\]\[\)\(]+)\]\(([^\]\[\)\(]+)\)/g
+        const toc_request = new XMLHttpRequest();
+        toc_request.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                for (const match of toc_request.responseText.matchAll(regex)) {
+                    articles_list.push(match[2])
+                }
+                Toc.link_adjacent(articles_list)
+            }
+        };
+        toc_request.open("GET", "table-of-contents.md", true);
+        toc_request.send();
+    },
+    link_adjacent(articles_list) {
+        const i = articles_list.indexOf(Utils.filename())
         const outer = document.querySelector('div#divbody')
         if (i >= 0 && outer) {
             const container = outer.appendChild(this.make_nav_container())
-            const [prev, next] = [this.order[i - 1], this.order[i + 1]]
+            const [prev, next] = [articles_list[i - 1], articles_list[i + 1]]
             if (prev !== undefined) {
                 container.appendChild(this.make_link(prev, false))
             }
@@ -227,6 +208,6 @@ const MegaTags = Object.freeze({
 
 document.addEventListener('DOMContentLoaded', () => {
     Sidebar.init()
-    Toc.link_adjacent()
+    Toc.init()
     MegaTags.mark_links()
 }, false)
