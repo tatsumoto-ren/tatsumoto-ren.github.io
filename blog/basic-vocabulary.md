@@ -1,4 +1,4 @@
-# Basic vocabulary
+# Ankidrone Starter Pack
 
 After finishing kanji, kana and essential grammar
 the bulk of your AJATT journey will consist of learning vocabulary.
