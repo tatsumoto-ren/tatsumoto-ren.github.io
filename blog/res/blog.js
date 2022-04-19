@@ -169,16 +169,18 @@ const Toc = Object.freeze({
         toc_request.send();
     },
     link_adjacent(articles_list) {
-        const i = articles_list.indexOf(Utils.filename())
         const outer = document.querySelector('div#divbody')
-        if (i >= 0 && outer) {
-            const container = outer.appendChild(this.make_nav_container())
-            const [prev, next] = [articles_list[i - 1], articles_list[i + 1]]
-            if (prev !== undefined) {
-                container.appendChild(this.make_link(prev, false))
-            }
-            if (next !== undefined) {
-                container.appendChild(this.make_link(next, true))
+        if (outer.querySelector(".toc_navigation") === null) {
+            const i = articles_list.indexOf(Utils.filename())
+            if (i >= 0 && outer) {
+                const container = outer.appendChild(this.make_nav_container())
+                const [prev, next] = [articles_list[i - 1], articles_list[i + 1]]
+                if (prev !== undefined) {
+                    container.appendChild(this.make_link(prev, false))
+                }
+                if (next !== undefined) {
+                    container.appendChild(this.make_link(next, true))
+                }
             }
         }
     }
