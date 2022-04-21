@@ -98,10 +98,15 @@ It pops up when you click on a kanji in the headword.
 * `新和英`.
 A dictionary made by Japanese people for Japanese people.
 We can learn Japanese words by using it in reverse.
+
+For people who speak other languages.
+
 * `研究社露和辞典`.
 A Russian-Japanese Dictionary.
 Russian speakers praise it a lot.
 Has example sentences.
+* `Япон-Монгол толь бичиг`.
+A Japanese to Mongolian dictionary.
 
 ### Monolingual
 
