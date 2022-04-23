@@ -104,3 +104,6 @@ is an alternative frontend for Odysee inspired by Invidious.
 * If you go to the YouTube website, keep
 [Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
 enabled to be notified when an alternative Odysee version of the video is available.
+* [UntrackMe](https://f-droid.org/packages/app.fedilab.nitterizeme/)
+for Android redirects YouTube links to Invidious.
+On top of that it can transform many other links.
