@@ -49,7 +49,7 @@ is a
 <a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced repetition</a>
 system (SRS), a program which allows you to create, manage and review
 <a href="https://en.wikipedia.org/wiki/Flashcard">flashcards</a>.</p>
-<p>There are currently many different SRS’s available.
+<p>Currently, there are  many SRS applications available.
 <a href="https://wiki.archlinux.org/index.php/Mnemosyne">Mnemosyne</a>
 is considered to be a good Anki alternative.
 However, I recommend that you stick with Anki.
@@ -63,17 +63,18 @@ that respects the users'
 <a href="https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Freedom">freedom</a>
 and community.
 Unlike Supermemo, for example. But you can't use that on GNU/Linux and Android anyway.</p>
-<p>Many language learners find Anki useful to quickly memorize (frontload)
+<p>Many language learners find Anki useful to quickly memorize (front-load)
 core vocabulary of their target language (TL),
-as well as boost their learning in the later stages.</p>
+as well as help them remember new material later.</p>
 <p>It should be noted, however, that memorization of most vocabulary throughout all your language
 learning phases should be done by
 <a href="https://web.archive.org/web/20210908131624/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/#Mine-Sentences-Not-Words">studying sentences</a>.
 You will be making vocabulary cards in the process as well,
 but much less so, and mostly for nouns.</p>
-<p>The only downside of Anki is that it can be <em>a little bit</em> difficult to learn how to use.
-Depending on how you use it you can either greatly decrease your
-time spent studying or make using Anki a living hell for yourself.
+<p>One of the downsides of Anki is that it can be <em>a little</em> difficult to learn how to use.
+Depending on how you use it,
+you can either greatly decrease your time spent studying
+or make using Anki a living hell for yourself.
 If you find yourself confused about how Anki works,
 it is recommended that you read the <a href="https://docs.ankiweb.net/">Anki manual</a>.
 However, because it's highly detailed and technical,
@@ -112,6 +113,8 @@ Use a version released at least 6 months ago or newer.</li>
 <p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
 <pre><code>$ pip install --upgrade aqt
 </code></pre>
+<details>
+<summary>Notes</summary>
 <ul>
 <li><code>pip</code> places executable files in <code>~/.local/bin/</code> by default.
 Don't forget to add this directory to the
@@ -139,6 +142,11 @@ and
 from PyPI.</li>
 <li><code>PyQt5</code> and <code>PyQtWebEngine</code> can be also obtained from the official Arch Linux repositories.</li>
 </ul>
+<p>You can tell <code>pip</code> to install a specific version.
+This is handy when the latest version malfunctions.</p>
+<pre><code>pip3 install --upgrade --pre &quot;aqt==2.1.49&quot;
+</code></pre>
+</details>
 <h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
 <ul>
 <li>If you're still unable to install or run Anki, refer to
@@ -168,7 +176,7 @@ if you are a heavy user of <a href="https://aur.archlinux.org/packages/subs2srs/
 <h2 id="import-an-example-mining-deck"><a class="anchor" href="#import-an-example-mining-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Import an example mining deck</h2>
 <p>After you install Anki, you need to set up a <code>Note Type</code>
 to keep your flashcards formatted as you like.
-Anki comes with a few basic Note Types but they aren't suited for learning Japanese.</p>
+Anki comes with a few basic Note Types, but they aren't suited for learning Japanese.</p>
 <p>Because making your own <code>Note Type</code> is a tedious process
 consisting of essentially adding the fields you need and copy-pasting html and css,
 I recommend you to import a pre-made mining deck.</p>
@@ -230,11 +238,11 @@ Filtered decks no longer reset learning steps when rebuilt or emptied.</li>
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 <h3 id="options-groups"><a class="anchor" href="#options-groups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options Groups</h3>
 <p>Each deck has an Options Group attached to it.
-The subdeck options will override the parent deck options.
+The sub-deck options will override the parent deck options.
 Click <code>Deck &gt; Options</code> to access Options Groups settings.
 You can hit Manage to create additional options groups.</p>
 <p><strong>Warning:</strong> If you're running Anki 2.1.45+,
-you will be presented with a new Options Groups settings dialog.
+you will be presented with a new &quot;Options Groups&quot; settings dialog.
 As usual, Anki developers are making the app worse with each release.
 The new layout won't match with the screenshots shown on this page.
 If you want to bring up the old version of the dialog,
@@ -269,9 +277,9 @@ However, if you feel overwhelmed by the amount of reviews you have to do,
 lower it to about <code>10</code> new cards a day.
 Doing more cards is also possible if you can keep up with the review load,
 but generally in the AJATT community it is advised to learn no more than <code>30</code> new cards a day.</p>
-<p>As you've noticed, I keep my setting at <code>0</code>. That's simply because I use the
-<a href="https://ankiweb.net/shared/info/1021636467">Learn now Button</a>
-add-on to <strong>manually pick</strong> and learn cards from my Sentence Bank.</p>
+<p>As you've noticed, I keep my setting at <code>0</code>. That's simply because I use
+<a href="https://ankiweb.net/shared/info/1021636467">Learn Now Button</a>
+to <strong>manually pick</strong> and learn cards from my Sentence Bank.</p>
 </li>
 <li><p><strong>Starting ease:</strong> Set it to <code>131%</code> and you won't have to worry about Ease at all.
 Ease is very nasty because by default it gradually decreases when you fail cards
@@ -293,7 +301,7 @@ with the <a href="https://ankiweb.net/shared/info/819023663">RefoldEase</a> add-
 <ul>
 <li><p><strong>Maximum reviews/day:</strong> This value sets an arbitrary cap on the amount of reviews you can do each day.
 If the cap is low, your due cards won't magically disappear after you've done with the reviews.
-Instead they will form a backlog of likely forgotten cards.
+Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.</p>
 </li>
@@ -308,7 +316,7 @@ because you've just lowered <code>Starting Ease</code> to 131% in the previous s
 To restore the balance bump <code>Interval Modifier</code> up to 192%.
 <code>1.92 * 1.31</code> is roughly equal to <code>2.5</code>.
 Later after you've used Anki for a couple of months and have had high retention,
-you can increase the value further and do less reviews.
+you can increase the value further and do fewer reviews.
 If you forget too many cards, it is recommended to lower it a bit.</p>
 <p>If you've used the <a href="https://ankiweb.net/shared/info/819023663">RefoldEase</a> add-on
 from the previous step, your <code>Interval Modifier</code> should be already set to the right value.</p>
@@ -334,14 +342,14 @@ Works similar to the setting in the <code>New Cards</code> tab,
 except it’s for cards you've pressed “Again” on.
 It affects how well you will relearn your lapsed cards.
 Beginners should set one learning step and observe their experience.
-The default of <code>10</code> minutes is okay but I prefer a slightly bigger one.
+The default of <code>10</code> minutes is okay, but I prefer a slightly bigger one.
 Later you can experiment with more learning steps.</p>
 </li>
 <li><p><strong>New interval:</strong>
 You often still somewhat remember a word in Japanese even if you fail it.
 A different context or another word, or studying it on a different day may jog your memory.
-Thus we don’t need to fully penalize a fail here.</p>
-<p>I use a new interval of 55% so as to not completely reset a card to 0.
+Thus, we don't need to fully penalize a fail here.</p>
+<p>I use a new interval of 55% to not completely reset a card to 0.
 The recommended range in the AJATT community is between 50 and 75%.</p>
 <p>For a word cards deck you may set it to about 30-40%
 because word cards are noticeably harder than sentence cards.</p>
@@ -359,7 +367,7 @@ it’s more productive to learn 5 normal cards in its place.</p>
 <li><p><strong>Keep them for later:</strong> If you can't remember a word after 4-5 lapses,
 it means that your brain hasn't been primed yet to acquire it.
 Wait a month or two and try again.
-Often you'll find that cards that wouldn't stick before had become very easy.</p>
+Often you'll find that cards that would not stick before had become very easy.</p>
 </li>
 <li><p><strong>Make a new card for the same target word:</strong> If a word is of high value to you,
 you can try to memorize a
@@ -383,7 +391,7 @@ and set the following
 <a href="https://wiki.archlinux.org/title/Environment_variables#Graphical_environment">environment variable</a>:</p>
 <pre><code>export QT_QPA_PLATFORMTHEME=gtk2
 </code></pre>
-<p>Then relogin or reboot.</p>
+<p>Then re-login or reboot.</p>
 <h2 id="trying-different-versions"><a class="anchor" href="#trying-different-versions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Trying different versions</h2>
 <p>If you want to install and test multiple versions of Anki at the same time,
 use the following functions.

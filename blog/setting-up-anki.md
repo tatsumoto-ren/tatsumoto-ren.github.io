@@ -8,7 +8,7 @@ is a
 system (SRS), a program which allows you to create, manage and review
 [flashcards](https://en.wikipedia.org/wiki/Flashcard).
 
-There are currently many different SRS’s available.
+Currently, there are  many SRS applications available.
 [Mnemosyne](https://wiki.archlinux.org/index.php/Mnemosyne)
 is considered to be a good Anki alternative.
 However, I recommend that you stick with Anki.
@@ -24,9 +24,9 @@ that respects the users'
 and community.
 Unlike Supermemo, for example. But you can't use that on GNU/Linux and Android anyway.
 
-Many language learners find Anki useful to quickly memorize (frontload)
+Many language learners find Anki useful to quickly memorize (front-load)
 core vocabulary of their target language (TL),
-as well as boost their learning in the later stages.
+as well as help them remember new material later.
 
 It should be noted, however, that memorization of most vocabulary throughout all your language
 learning phases should be done by
@@ -34,9 +34,10 @@ learning phases should be done by
 You will be making vocabulary cards in the process as well,
 but much less so, and mostly for nouns.
 
-The only downside of Anki is that it can be *a little bit* difficult to learn how to use.
-Depending on how you use it you can either greatly decrease your
-time spent studying or make using Anki a living hell for yourself.
+One of the downsides of Anki is that it can be *a little* difficult to learn how to use.
+Depending on how you use it,
+you can either greatly decrease your time spent studying
+or make using Anki a living hell for yourself.
 If you find yourself confused about how Anki works,
 it is recommended that you read the [Anki manual](https://docs.ankiweb.net/).
 However, because it's highly detailed and technical,
@@ -85,6 +86,9 @@ The latest version can be installed with the [aqt](https://pypi.org/project/aqt/
 $ pip install --upgrade aqt
 ```
 
+<details>
+<summary>Notes</summary>
+
 * `pip` places executable files in `~/.local/bin/` by default.
 Don't forget to add this directory to the
 [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
@@ -110,6 +114,15 @@ and
 [PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/)
 from PyPI.
 * `PyQt5` and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
+
+You can tell `pip` to install a specific version.
+This is handy when the latest version malfunctions.
+
+```
+pip3 install --upgrade --pre "aqt==2.1.49"
+```
+
+</details>
 
 ### Troubleshooting
 
@@ -146,7 +159,7 @@ To make multiple profiles, press `File > Switch profile`.
 
 After you install Anki, you need to set up a `Note Type`
 to keep your flashcards formatted as you like.
-Anki comes with a few basic Note Types but they aren't suited for learning Japanese.
+Anki comes with a few basic Note Types, but they aren't suited for learning Japanese.
 
 Because making your own `Note Type` is a tedious process
 consisting of essentially adding the fields you need and copy-pasting html and css,
@@ -214,12 +227,12 @@ The new one fixes its issues.
 ### Options Groups
 
 Each deck has an Options Group attached to it.
-The subdeck options will override the parent deck options.
+The sub-deck options will override the parent deck options.
 Click `Deck > Options` to access Options Groups settings.
 You can hit Manage to create additional options groups.
 
 **Warning:** If you're running Anki 2.1.45+,
-you will be presented with a new Options Groups settings dialog.
+you will be presented with a new "Options Groups" settings dialog.
 As usual, Anki developers are making the app worse with each release.
 The new layout won't match with the screenshots shown on this page.
 If you want to bring up the old version of the dialog,
@@ -263,9 +276,9 @@ The options are described later in this article.
     Doing more cards is also possible if you can keep up with the review load,
     but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
 
-    As you've noticed, I keep my setting at `0`. That's simply because I use the
-    [Learn now Button](https://ankiweb.net/shared/info/1021636467)
-    add-on to **manually pick** and learn cards from my Sentence Bank.
+    As you've noticed, I keep my setting at `0`. That's simply because I use
+    [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
+    to **manually pick** and learn cards from my Sentence Bank.
 
 * **Starting ease:** Set it to `131%` and you won't have to worry about Ease at all.
     Ease is very nasty because by default it gradually decreases when you fail cards
@@ -286,7 +299,7 @@ The options are described later in this article.
 
 * **Maximum reviews/day:** This value sets an arbitrary cap on the amount of reviews you can do each day.
 If the cap is low, your due cards won't magically disappear after you've done with the reviews.
-Instead they will form a backlog of likely forgotten cards.
+Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.
 
@@ -302,7 +315,7 @@ set this at a high value.
     To restore the balance bump `Interval Modifier` up to 192%.
     `1.92 * 1.31` is roughly equal to `2.5`.
     Later after you've used Anki for a couple of months and have had high retention,
-    you can increase the value further and do less reviews.
+    you can increase the value further and do fewer reviews.
     If you forget too many cards, it is recommended to lower it a bit.
 
     If you've used the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on
@@ -331,15 +344,15 @@ the “hard” and “easy” buttons.
     except it’s for cards you've pressed “Again” on.
     It affects how well you will relearn your lapsed cards.
     Beginners should set one learning step and observe their experience.
-    The default of `10` minutes is okay but I prefer a slightly bigger one.
+    The default of `10` minutes is okay, but I prefer a slightly bigger one.
     Later you can experiment with more learning steps.
 
 * **New interval:**
     You often still somewhat remember a word in Japanese even if you fail it.
     A different context or another word, or studying it on a different day may jog your memory.
-    Thus we don’t need to fully penalize a fail here.
+    Thus, we don't need to fully penalize a fail here.
 
-    I use a new interval of 55% so as to not completely reset a card to 0.
+    I use a new interval of 55% to not completely reset a card to 0.
     The recommended range in the AJATT community is between 50 and 75%.
 
     For a word cards deck you may set it to about 30-40%
@@ -359,7 +372,7 @@ the “hard” and “easy” buttons.
     * **Keep them for later:** If you can't remember a word after 4-5 lapses,
     it means that your brain hasn't been primed yet to acquire it.
     Wait a month or two and try again.
-    Often you'll find that cards that wouldn't stick before had become very easy.
+    Often you'll find that cards that would not stick before had become very easy.
 
     * **Make a new card for the same target word:** If a word is of high value to you,
     you can try to memorize a
@@ -385,7 +398,7 @@ and set the following
 export QT_QPA_PLATFORMTHEME=gtk2
 ```
 
-Then relogin or reboot.
+Then re-login or reboot.
 
 ## Trying different versions
 
