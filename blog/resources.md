@@ -262,6 +262,9 @@ You can find books on Nyaa too.
 * boroboro [epubs](https://boroboro.neocities.org/listfullepub.html)
 and [azw3](https://boroboro.neocities.org/listfullazw3.html).
 A list of books in Epub and azw3 formats.
+* [Sōseki Project](https://www.sosekiproject.org/).
+Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
+with a number of tools to assist the students of Japanese.
 
 ### Audio
 
@@ -333,6 +336,15 @@ Useful for batch extracting audio from videos.
 A subtitle editor.
 It can convert image-based subtitles (`.sup`, `.sub`) to text-based (`.srt`)
 via an OCR engine such as Tesseract.
+
+### OCR for manga
+
+* [Mining from manga](mining-from-manga.html).
+* [Manga-OCR](https://github.com/kha-white/manga-ocr).
+Can be used to OCR Japanese text instead of Tesseract.
+I haven't been able to install it and can't comment on it.
+* [Poricom](https://github.com/bluaxees/Poricom).
+Manga OCR desktop application.
 
 ### Reading eBooks
 
@@ -465,6 +477,9 @@ Don't buy iThings, you can't run a free OS on them.
 A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
 A free/libre flashcard application, Android version.
+* [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
+A program that helps creating Anki cards on Android.
+Probably not needed because AnkiDroid has AnkiDroid API.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
 A mobile video player tailored for Japanese language learners.
 * [VLC](https://f-droid.org/packages/org.videolan.vlc).
@@ -485,6 +500,8 @@ Android Manga reader with Japanese OCR and dictionary capabilities.
 Supports EPWING monolingual dictionaries.
 * [Tachiyomi](https://tachiyomi.org/).
 Free/libre manga reader for Android.
+* [mpv for Android](https://github.com/mpv-android/mpv-android).
+See the mpv section.
 
 ## Dictionaries
 
