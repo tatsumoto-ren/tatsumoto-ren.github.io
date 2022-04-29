@@ -45,7 +45,7 @@ Refer to the linked article if you don't know how to review TSCs.
 Each card also comes with a `MakeProductionCard` field that,
 when filled, turns the card into a
 [production TSC](writing-japanese.html#writing-kanji).
-On a production TSC the target word is spelled in kana and you have to recall how to write it in kanji.
+On a production TSC the target word is spelled in kana, and you have to recall how to write it in kanji.
 
 As it should be obvious by its title,
 the book was designed with the Japanese Language Proficiency Test in mind.
@@ -86,7 +86,7 @@ see [How to review](how-to-review.html).
 ## Can I pass JLPT N2 if I finish this deck?
 
 If you're doing AJATT, passing N2 shouldn't be a problem for you, even without this deck.
-If you're not an AJATTer,
+If you're not an ajatter,
 most likely you have to study more and use a variety of resources in order to pass.
 We made this deck because we wanted to help people learn basic vocabulary
 and understand more immersion,

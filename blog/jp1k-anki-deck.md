@@ -153,7 +153,7 @@ in which case try getting more immersion.
 The words and phrases in the deck are very common,
 and you'll be hearing them more frequently.
 If you find yourself failing cards over and over,
-install [Mortician](https://ankiweb.net/shared/info/1255924302)
+install [Mortician](https://ankiweb.net/shared/info/1255924302),
 and it will bury them for you automatically.
 Usually the buried words become easier after you get some rest.
 If not, suspend the cards.
