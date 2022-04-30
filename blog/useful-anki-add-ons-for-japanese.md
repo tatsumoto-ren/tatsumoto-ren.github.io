@@ -3,8 +3,8 @@
 In this article I want to talk about Anki add-ons I recommend using when studying Japanese.
 Anki add-ons are small Python programs that extend or change functionality of Anki.
 To install an add-on open Anki, go to "Tools" > "Add-ons" > "Get add-ons"
-and paste the add-on's code.
-To find the code you need to open the add-on's page on
+and paste the code of the add-on.
+To find the code you need to open the corresponding add-on page on
 [AnkiWeb](https://ankiweb.net/shared/addons/)
 and scroll down to the "Download" section.
 
@@ -62,7 +62,7 @@ and punish yourself if you won't be able to fulfill it.
 Sentence cards usually take longer to review than word cards.
 People who review them normally
 report spending `20` seconds per rep on average.
-It is likely that they get stuck on some sentences for too long
+It is likely that they get stuck on some sentences for too long,
 or they start mind-wandering in the process.
 With this add-on it is possible to stay focused and do your reviews quickly.
 
@@ -140,7 +140,7 @@ It also lets you mass-generate pitches for all cards in your sentence bank.
 Adds more info to the "Stats" window.
 Depending on the value of your True Retention for the past month you can adjust your
 [Interval Modifier](setting-up-anki.html#reviews). Aim at around 75-90%.
-If you remember your cards too well it's worth increasing your IM
+If you remember your cards too well it's worth increasing your `IM`
 and studying more cards a day or spending more time immersing.
 
 This is how True Retention is calculated:
@@ -196,8 +196,8 @@ After applying the settings you can uninstall the add-on.
 
 This add-on adds a button to the card browser
 that immediately puts selected new cards in the learning queue.
-You can use it if you have a big sentence bank
-and you find a really good sentence that you want to learn right away.
+You can use it if you have a big sentence bank,
+and you find a perfect sentence that you want to learn right away.
 
 > Easier than faffing about in the menus to do the same thing in 10 clicks.
 
@@ -268,7 +268,7 @@ You can achieve the same functionality by pressing the 📌 button.
 All Anki add-ons by design add some new functionality to the program.
 But among them are those that just feel like a fifth wheel
 and don't bring a lot of value for language learners.
-Nevertheless they're popular so I might as well mention them.
+Nevertheless, they're popular, so I might as well mention them.
 
 ### Kanji Colorizer
 
@@ -314,7 +314,7 @@ Prevents you from reviewing your cards on the right day, when they should be rev
 
 Basically everything that modifies the scheduler is completely unreliable
 and is going to break eventually.
-As of July 2021 a new version of Anki scheduler is planned to be relesed soon.
+As of July 2021 a new version of Anki scheduler is planned to be released soon.
 It's going to render all such add-ons unusable.
 
 ### Migaku add-ons

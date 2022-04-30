@@ -208,7 +208,7 @@ The code below makes furigana appear only when you hover over words.
 	ruby:hover rt { visibility: visible; }
 	```
 1) **Increase font size.**
-By default Yomichan uses very small font.
+By default, Yomichan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
 To increase its size, the following code can be used:
 	```
