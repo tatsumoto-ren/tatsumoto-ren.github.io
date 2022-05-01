@@ -12,7 +12,7 @@ The dictionary files Qolibri reads are called [EPWING](https://ja.wikipedia.org/
 EPWING (electronic publishing WING) is a dictionary format
 that was allegedly utilized in portable electronic dictionaries.
 
-Qolibri is much better at searching a big number of dictionaries at the same time than Yomichan.
+Qolibri is much better than Yomichan at searching a big number of dictionaries at the same time.
 If you try to use more than 5 dictionaries with Yomichan,
 it quickly becomes very cluttered and hard to navigate.
 Qolibri lists all dictionaries you have on a sidebar.
@@ -89,7 +89,7 @@ to quickly access pitch accent information and audio.
 ## Searching
 
 To search in Qolibri,
-insert what you're interesting in finding into the search box
+insert what you're interested in finding into the search box
 and press "Search".
 
 There are multiple search types you can choose from.
@@ -132,7 +132,7 @@ qolibri "$(xclip -o)"
 
 Now you can select any text and then press the key you've set to quickly search it.
 I recommend enabling "Server mode" in Qolibri's options.
-Otherwise every time you press the hotkey,
+Otherwise, every time you press the hotkey,
 a new Qolibri window will be opened instead of a new tab.
 
 ## Playing NHK audio
@@ -145,7 +145,7 @@ when you click on the blue links.
 <p align="center"><i>NHK dictionary with audio recordings.</i></p>
 
 If you face problems when playing audio inside Qolibri,
-chances are Qolibri is misconfigured.
+chances are Qolibri is not configured correctly.
 If you can't hear anything
 when clicking on pronunciations in the NHK dictionary or other dictionaries,
 download [qolibri-mpv](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/qolibri-mpv),
