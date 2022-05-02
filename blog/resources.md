@@ -214,6 +214,7 @@ Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
 View raw manga online.
+Make sure you disable JavaScript before opening the site.
 * [Manga-zip](http://manga-zip.net/).
 Manga archive.
 * [Rawdevart](https://rawdevart.com/).
