@@ -327,8 +327,14 @@ the “hard” and “easy” buttons.
     <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 
     As I mentioned in the `Starting ease` section,
-    the “hard” and “easy” buttons have counter-intuitive effects on Anki’s algorithm,
+    the "Hard" and "Easy" buttons have counter-intuitive effects on Anki’s algorithm,
     which causes long-term problems with Ease of your cards.
+
+    [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
+    It is covered in greater detail later.
+
+    An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
+    [using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
 
 * **Maximum interval:** Intervals of your cards can never increase beyond this limit.
     I advise setting it as big as possible.
