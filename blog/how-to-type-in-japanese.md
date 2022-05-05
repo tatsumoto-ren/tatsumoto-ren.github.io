@@ -24,13 +24,17 @@ you need to learn how to do it.
 
 ## How an IME works
 
-Usually, the process is as follows.
+On a PC, the process is as follows.
 
 1) You type a Japanese word in roman letters. For example, `hiiragi`.
 2) `ひいらぎ` appears on the screen as the IME immediately converts what you type to kana.
 3) To convert `ひいらぎ` to `柊`, the word's kanji form,
 you need to press Space and select from a number of choices.
 Or you can leave the word as is by pressing Enter.
+
+Japanese people themselves type with
+<abbr title="A representation of Japanese in Latin script.">romaji</abbr>
+when using a computer keyboard.
 
 Often in Japanese,
 a single word can be spelled multiple ways,
@@ -183,8 +187,11 @@ then in the search bar type `Mozc`.
 
 Once installed, launch the app and follow the instructions to set it up.
 
-This is how the default keyboard looks like.
+Most Japanese people use a 12 keys type layout.
+This is how the keyboard looks like.
 You tap and pull toward the character you'd like to input.
+Once you get used to it, it's must faster than the QWERTY layout
+because typing words requires less total keystrokes.
 
 <p align="center"><img src="img/f-droid-mozc-keyboard.webp" alt="input methods" style="width: 400px;"></p>
 <p align="center"><i>Japanese keyboard.</i></p>
