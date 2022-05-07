@@ -62,12 +62,20 @@ such as
 or kana with a
 <span title="handakuten (半濁点)">ﾟ mark</span>
 such as <span title="pa">ぱ</span> or <span title="pu">ぷ</span>.
-3) Kana combinations.
+3) Kana combinations (glides).
 A kana character may combine with one of the small ゃ, ゅ or ょ (or their katakana variants)
 to produce new sounds, such as
 <span title="kya">きゃ</span>,
 <span title="kyu">きゅ</span>
 or <span title="kyo">きょ</span>.
+The sounds of the two kana blend together.
+All glides require the second letter to be written smaller than usual.
+
+In addition to the characters listed above,
+there are 4 additional kana that you only see in old (pre-1946) books,
+hiragana `ゐ`, and `ゑ`, katakana `ヰ` and `ヱ`.
+I included them in my Anki deck (see below) but other resources may not teach them.
+Regardless, you'll get used to them with some practice.
 
 Each kana combination or kana character with a mark
 should be treated as a symbol on its own and memorized as a whole.
