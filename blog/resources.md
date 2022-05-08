@@ -341,7 +341,7 @@ via an OCR engine such as Tesseract.
 ### OCR for manga
 
 * [Mining from manga](mining-from-manga.html).
-* [Manga-OCR](https://github.com/kha-white/manga-ocr).
+* [Manga-OCR](https://github.com/kha-white/manga-ocr) or [mokuro](https://github.com/kha-white/mokuro).
 Can be used to OCR Japanese text instead of Tesseract.
 I haven't been able to install it and can't comment on it.
 * [Poricom](https://github.com/bluaxees/Poricom).
