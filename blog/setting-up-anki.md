@@ -86,6 +86,13 @@ The latest version can be installed with the [aqt](https://pypi.org/project/aqt/
 $ pip install --upgrade aqt
 ```
 
+The default toolkit is `Qt5`.
+If you want Anki to use `Qt6` instead:
+
+```
+$ pip install --upgrade 'aqt[qt6]'
+```
+
 <details>
 <summary>Notes</summary>
 
@@ -394,10 +401,20 @@ the “hard” and “easy” buttons.
 Anki uses the
 [Qt](https://wiki.archlinux.org/title/Qt)
 toolkit.
-To tell Anki to use your GTK theme,
-install
-[qt5-styleplugins](https://aur.archlinux.org/packages/qt5-styleplugins/)
-and set the following
+If you're not running Plasma (or possibly another Qt-based desktop environment)
+Qt applications won't be styled
+according to the GTK theme you may have selected.
+
+There are multiple ways
+to tell Anki to use your GTK theme.
+
+### qt5-styleplugins
+
+1) If your version of Anki uses `Qt5`,
+install [qt5-styleplugins](https://aur.archlinux.org/packages/qt5-styleplugins/).
+If your version of Anki uses `Qt6`,
+install [qt6gtk2](https://aur.archlinux.org/packages/qt6gtk2).
+2) Set the following
 [environment variable](https://wiki.archlinux.org/title/Environment_variables#Graphical_environment):
 
 ```
@@ -405,6 +422,49 @@ export QT_QPA_PLATFORMTHEME=gtk2
 ```
 
 Then re-login or reboot.
+
+### kvantum
+
+Install the requirements: `kvantum`, `qt5ct`, `qt6ct`.
+
+```
+$ sudo pacman -S kvantum qt5ct qt6ct
+```
+
+1) Launch `kvantummanager`,
+select "Change/Delete Theme"
+and select your theme from the combo box.
+2) Press "Use this theme", then "Quit".
+3) Open `qt5ct`, then `qt6ct`.
+Select `kvantum` as theme engine.
+Apply changes.
+4) Set the following
+[environment variable](https://wiki.archlinux.org/title/Environment_variables#Graphical_environment).
+
+	* If your version of Anki uses `Qt6`: `export QT_QPA_PLATFORMTHEME=qt6ct`
+	* If your version of Anki uses `Qt5`: `export QT_QPA_PLATFORMTHEME=qt5ct`
+
+Then re-login or reboot.
+
+This method consistently works if Anki uses `Qt5`.
+Currently there are problems with `Qt6`.
+To work around it,
+install the `Qt5` version of Anki
+(and/or [uninstall](https://pip.pypa.io/en/stable/cli/pip_uninstall/) `PyQt6-*` packages with `pip` if they were installed)
+and instead of setting the environment variable system-wide,
+set it locally.
+It can be achieved by launching Anki like this:
+
+```
+QT_QPA_PLATFORMTHEME=qt5ct anki
+```
+
+To make the setting persist,
+in the `.desktop` file (see `pip` [install notes](setting-up-anki.html#using-pip)) change `Exec=` to:
+
+```
+Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
+```
 
 ## Trying different versions
 

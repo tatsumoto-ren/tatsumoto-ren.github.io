@@ -113,6 +113,10 @@ Use a version released at least 6 months ago or newer.</li>
 <p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
 <pre><code>$ pip install --upgrade aqt
 </code></pre>
+<p>The default toolkit is <code>Qt5</code>.
+If you want Anki to use <code>Qt6</code> instead:</p>
+<pre><code>$ pip install --upgrade 'aqt[qt6]'
+</code></pre>
 <details>
 <summary>Notes</summary>
 <ul>
@@ -388,14 +392,61 @@ For example, on <a href="https://ejje.weblio.jp/sentence/">weblio</a>.</p>
 <p>Anki uses the
 <a href="https://wiki.archlinux.org/title/Qt">Qt</a>
 toolkit.
-To tell Anki to use your GTK theme,
-install
-<a href="https://aur.archlinux.org/packages/qt5-styleplugins/">qt5-styleplugins</a>
-and set the following
-<a href="https://wiki.archlinux.org/title/Environment_variables#Graphical_environment">environment variable</a>:</p>
+If you're not running Plasma (or possibly another Qt-based desktop environment)
+Qt applications won't be styled
+according to the GTK theme you may have selected.</p>
+<p>There are multiple ways
+to tell Anki to use your GTK theme.</p>
+<h3 id="qt5-styleplugins"><a class="anchor" href="#qt5-styleplugins" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>qt5-styleplugins</h3>
+<ol>
+<li>If your version of Anki uses <code>Qt5</code>,
+install <a href="https://aur.archlinux.org/packages/qt5-styleplugins/">qt5-styleplugins</a>.
+If your version of Anki uses <code>Qt6</code>,
+install <a href="https://aur.archlinux.org/packages/qt6gtk2">qt6gtk2</a>.</li>
+<li>Set the following
+<a href="https://wiki.archlinux.org/title/Environment_variables#Graphical_environment">environment variable</a>:</li>
+</ol>
 <pre><code>export QT_QPA_PLATFORMTHEME=gtk2
 </code></pre>
 <p>Then re-login or reboot.</p>
+<h3 id="kvantum"><a class="anchor" href="#kvantum" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>kvantum</h3>
+<p>Install the requirements: <code>kvantum</code>, <code>qt5ct</code>, <code>qt6ct</code>.</p>
+<pre><code>$ sudo pacman -S kvantum qt5ct qt6ct
+</code></pre>
+<ol>
+<li><p>Launch <code>kvantummanager</code>,
+select &quot;Change/Delete Theme&quot;
+and select your theme from the combo box.</p>
+</li>
+<li><p>Press &quot;Use this theme&quot;, then &quot;Quit&quot;.</p>
+</li>
+<li><p>Open <code>qt5ct</code>, then <code>qt6ct</code>.
+Select <code>kvantum</code> as theme engine.
+Apply changes.</p>
+</li>
+<li><p>Set the following
+<a href="https://wiki.archlinux.org/title/Environment_variables#Graphical_environment">environment variable</a>.</p>
+<ul>
+<li>If your version of Anki uses <code>Qt6</code>: <code>export QT_QPA_PLATFORMTHEME=qt6ct</code></li>
+<li>If your version of Anki uses <code>Qt5</code>: <code>export QT_QPA_PLATFORMTHEME=qt5ct</code></li>
+</ul>
+</li>
+</ol>
+<p>Then re-login or reboot.</p>
+<p>This method consistently works if Anki uses <code>Qt5</code>.
+Currently there are problems with <code>Qt6</code>.
+To work around it,
+install the <code>Qt5</code> version of Anki
+(and/or <a href="https://pip.pypa.io/en/stable/cli/pip_uninstall/">uninstall</a> <code>PyQt6-*</code> packages with <code>pip</code> if they were installed)
+and instead of setting the environment variable system-wide,
+set it locally.
+It can be achieved by launching Anki like this:</p>
+<pre><code>QT_QPA_PLATFORMTHEME=qt5ct anki
+</code></pre>
+<p>To make the setting persist,
+in the <code>.desktop</code> file (see <code>pip</code> <a href="setting-up-anki.html#using-pip">install notes</a>) change <code>Exec=</code> to:</p>
+<pre><code>Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
+</code></pre>
 <h2 id="trying-different-versions"><a class="anchor" href="#trying-different-versions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Trying different versions</h2>
 <p>If you want to install and test multiple versions of Anki at the same time,
 use the following functions.
