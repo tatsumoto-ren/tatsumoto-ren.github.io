@@ -464,7 +464,7 @@ Create condensed audio and automatically rotate your mpd playlist.
 ([official site](https://mkvtoolnix.download/))
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
 
-### Mobile
+## Android software
 
 I urge everyone to reject mobile phones because they're surveillance tools.
 If you do own a cellphone, be sure to install
@@ -474,6 +474,12 @@ Get rid of Google Play by flashing a new ROM
 or by rooting your phone and deleting all Google applications.
 Don't buy iThings, you can't run a free OS on them.
 
+F-Droid [can be flashed](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged.ota/)
+using TWRP or other Android recovery
+to allow for automatic background updates.
+
+### General
+
 * [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
 A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
@@ -481,28 +487,47 @@ A free/libre flashcard application, Android version.
 * [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
 A program that helps creating Anki cards on Android.
 Probably not needed because AnkiDroid has AnkiDroid API.
-* [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
-A mobile video player tailored for Japanese language learners.
-* [VLC](https://f-droid.org/packages/org.videolan.vlc).
-A fast and user-friendly video player for Android.
-* [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
-A podcast player for Android.
-* Audio players.
-	* [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
-	* [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
+
+### Manga readers
+
+* [Tachiyomi](https://tachiyomi.org/).
+Free/libre manga reader for Android.
+* [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
+Android Manga reader with Japanese OCR and dictionary capabilities.
+Supports EPWING monolingual dictionaries.
+
+### Book readers
+
 * [KOreader](https://f-droid.org/en/packages/org.koreader.launcher/).
 A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
 An EPUB reader for Android
 that lets you look up words as you read, similarly to Yomichan.
 Also supports EPWING dictionaries.
-* [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
-Android Manga reader with Japanese OCR and dictionary capabilities.
-Supports EPWING monolingual dictionaries.
-* [Tachiyomi](https://tachiyomi.org/).
-Free/libre manga reader for Android.
+
+### Video players
+
 * [mpv for Android](https://github.com/mpv-android/mpv-android).
 See the mpv section.
+* [VLC](https://f-droid.org/packages/org.videolan.vlc).
+A fast and user-friendly video player for Android.
+* [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
+A mobile video player tailored for Japanese language learners.
+
+### Audio players
+
+Audio players are used to play locally stored audio files.
+Although their primary purpose is to play music,
+for language learning a better choice would be to listen to
+audiobooks, podcasts or audio extracted from movies and TV shows.
+
+All available players are [listed on F-Droid catalog](https://search.f-droid.org/?q=music+player&lang=en).
+
+* [Music Player GO](https://f-droid.org/en/packages/com.iven.musicplayergo/)
+* [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
+* [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
+* [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
+A podcast player for Android.
 
 ## Dictionaries
 
