@@ -62,22 +62,34 @@ you can call yourself fluent.
 
 ### What's AJATT?
 
-AJATT is a method of reaching fluency in Japanese in a relatively short period of time.
-The name AJATT stands for All Japanese All The Time,
-it encourages doing as much Japanese as you can every day.
-This site was inspired by the method.
+AJATT stands for All Japanese All The Time.
+It's a method of reaching fluency in Japanese in a relatively short period of time.
+It was created by Khatzumoto in 2006.
+The goal of AJATT was to teach the methods he used to become fluent in Japanese.
+The AJATT Method encourages doing as much Japanese as you can every day.
+
+This site is heavily inspired by AJATT.
+Our goal is to bring AJATT's insights to a larger audience
+and update the method bringing in new tools and ideas.
 
 ### Should I read the AJATT site?
 
-Only the [Table of Contents](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/).
-Everything else isn't worth your time.
+If you're interested in Khatzumoto's original ideas,
+you may want to read the AJATT site.
+It is not necessary,
+but can help you answer some language learning questions you have.
+
+First make sure you've read [our guide](table-of-contents.html).
+There are ideas in which this site disagrees with the original AJATT method.
+I want you to become aware of the new approach before you learn about the old ways.
+
+Once you're ready, read the
+[AJATT Table of Contents](https://web.archive.org/web/20220506045940/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/).
+You can ignore everything outside the Table of Contents.
+
+The site's homepage contains nothing but ads.
 Don't enter your Email address and don't buy the paid products it offers,
 there are free alternatives.
-
-If you don't want to spend your time reading the AJATT site,
-that's totally fine too.
-[This site](table-of-contents.html)
-covers most of its key points.
 
 ### Should I watch anime with English subtitles?
 
@@ -307,6 +319,19 @@ On this site you can find my recommended settings.
 The minimum amount of time you need to spend SRSing is highly individual.
 As long as you can finish your daily reviews, learn new cards and add several new cards,
 you should be fine.
+
+### Is there a way to view the cards I have failed the most times on Anki?
+
+You can list them in the Anki Browser.
+For example,
+to see cards that have lapsed more than 5 times
+open the Anki Browser (shortcut: `b`) and type `prop:lapses>5`.
+Likewise, `prop:lapses>10` will show cards that have lapsed more than 10 times, etc.
+
+I recommend [resetting leeches](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
+It's not worth the extra time required to drill them in.
+After resetting
+edit the corresponding notes to make them simpler and avoid lapses in the future.
 
 ### What is a 1T sentence?
 
