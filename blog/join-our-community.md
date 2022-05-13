@@ -7,7 +7,6 @@ contribute to our [projects](https://github.com/Ajatt-Tools)
 and find countless new learning resources!
 
 You can join us on Matrix or on Telegram.
-Both platforms are connected with a bridge.
 
 ****
 
@@ -49,13 +48,12 @@ because it is naturally more extensible and user-friendly.
 We have a very rich and vibrant community on
 [Matrix](https://wiki.archlinux.org/index.php/Matrix).
 Matrix is great because it's a completely libre communication protocol.
-Matrix is federated and consists of many servers.
+Matrix is federated and consists of many servers, much like Email.
 Different Matrix servers are able to talk to each other.
 Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
-and register an account on
-[any server](list-of-matrix-servers.html)
-**except** matrix.org.
+and register an account on one of the servers
+[listed here](list-of-matrix-servers.html).
 
 <a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:g33k.se">Join us on Element</a>
 
@@ -73,6 +71,9 @@ This is a room for new members.
 From there you can explore our community
 by following the link in the room's description.
 
+If you want to keep in touch from an Android device,
+install [Element for Android](https://f-droid.org/en/packages/im.vector.app/).
+
 ## Telegram
 
 [Telegram](https://telegram.org/)
@@ -83,7 +84,7 @@ it is still better than many proprietary services.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
 
-<a target="_blank" class="md-button telegram" href="https://t.me/+n1YpAsvu1x4xMzgy">Join us on Telegram</a>
+<a target="_blank" class="md-button telegram" href="https://t.me/+cEpSHZC_tMI4NDZi">Join us on Telegram</a>
 
 ## Questions
 
