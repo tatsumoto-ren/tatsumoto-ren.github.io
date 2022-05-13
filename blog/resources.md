@@ -390,6 +390,9 @@ Google Noto TTF fonts.
 The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
 * [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/)
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
+* [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
+A good brush font.
+Supports around 13,000 characters.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
 The fonts I use.
 Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
