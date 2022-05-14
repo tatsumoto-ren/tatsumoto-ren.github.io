@@ -21,14 +21,14 @@ For this setup you can replace it with any image viewer, but `sxiv` is what I us
 * [tesseract](https://github.com/tesseract-ocr/tesseract)
 is the OCR engine. It is considered fairly accurate, and many people like it.
 * [maim](https://github.com/naelstrof/maim)
-is an utility for taking screenshots which can take parts of the screen.
+is a utility for taking screenshots which can take parts of the screen.
 * [xclip](https://github.com/astrand/xclip)
 is a tool for copying text to clipboard.
 * [imagemagick](https://wiki.archlinux.org/title/ImageMagick)
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.
 
-By default Tesseract is not very good at detecting Japanese characters,
+By default, Tesseract is not very good at detecting Japanese characters,
 but the quality of OCR operations can be improved by using custom trained data.
 
 Download
