@@ -70,6 +70,11 @@ to quickly lookup Japanese words in real-time.
 > To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
 > [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
 
+<video width="1920" autoplay loop controls>
+	<source src="https://g33k.se/_matrix/media/r0/download/g33k.se/ybEPaUFRInYLqQsaMKVWdfqp" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
+
 ## Expanding data set
 
 By default, `maimocr` automatically downloads
