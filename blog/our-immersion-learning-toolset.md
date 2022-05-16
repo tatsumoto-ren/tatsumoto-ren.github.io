@@ -16,7 +16,7 @@ projects developed by the community will help you in your language learning jour
 GNU/Linux is a suitable replacement for
 [Windows](https://www.gnu.org/proprietary/malware-microsoft.html)
 or
-[MacOS](https://www.gnu.org/proprietary/malware-apple.html).
+[macOS](https://www.gnu.org/proprietary/malware-apple.html).
 An Arch-based distro is recommended.
 If you've ever used a Debian-based distro, you know how slow the package manager is.
 On the other hand, the package manager used in Arch-based distros
@@ -25,6 +25,8 @@ is one of the fastest package managers out there.
 **Possible options:**
 * [Arch Linux](https://archlinux.org/) - the default installation is very minimal,
 installation steps have to be executed manually.
+* [EndeavourOS](https://endeavouros.com/) - a successor of antergos,
+a lightweight distro close to Arch Linux.
 * [Manjaro](https://manjaro.org/) - aims to be user-friendly and offers lots of goodies out of the box.
 * [Parabola](https://www.parabola.nu/) - a fully free/libre equivalent of Arch Linux.
 * [Hyperbola](https://www.hyperbola.info/) - a distro that aims to be stable and secure,
@@ -92,7 +94,7 @@ to understand what it really means.
 
 External resources:
 
-* [In-Depth J-J Dictionary Walkthrough](https://redirect.invidious.io/watch?v=D-AfT8XW63w)
+* [In-Depth J-J Dictionary Walk through](https://redirect.invidious.io/watch?v=D-AfT8XW63w)
 * [Making Monolingual Sentence Cards in Real Time](https://redirect.invidious.io/watch?v=BzuLGmkihf4)
 
 ## [ames](https://github.com/Ajatt-Tools/ames)
