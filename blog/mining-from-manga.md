@@ -12,7 +12,7 @@ To do so, you're going to use an optical character recognition program and a few
 Install the following dependencies:
 
 ```
-$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick
+$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick unzip
 ```
 
 * [sxiv](https://wiki.archlinux.org/title/Sxiv)
@@ -27,28 +27,13 @@ is a tool for copying text to clipboard.
 * [imagemagick](https://wiki.archlinux.org/title/ImageMagick)
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.
-
-By default, Tesseract is not very good at detecting Japanese characters,
-but the quality of OCR operations can be improved by using custom trained data.
-
-Download
-[tessdata.zip](https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv)
-([mirror](https://t.me/ajatt_tools/173))
-with Tesseract data files,
-then save the files to `~/.local/share/tessdata`.
-
-```
-$ unzip -j tessdata.zip -d ~/.local/share/tessdata
-```
-
-The folder should be created automatically.
-
-You don't need to install any data files from the repositories of your GNU/Linux distro,
-the ones in the archive are way better.
+* [unzip](https://archlinux.org/packages/extra/x86_64/unzip/)
+is a tool for extracting zip archives.
 
 Download
 [maimocr](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr)
 and save it as `~/.local/bin/maimocr`.
+`maimocr` is a script we are going to use to recognize Japanese text.
 
 Make the file executable:
 
@@ -66,8 +51,18 @@ Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an e
 bindsym $mod+o exec --no-startup-id maimocr
 ```
 
-The script is very trivial, so I hope you can understand it without explanations.
-When run, it will ask you to select an area with Japanese text and try to OCR it.
+Now you can quickly call `maimocr` anywhere by pressing the keyboard shortcut.
+
+## Usage
+
+Tesseract doesn't work without
+[trained data files](https://tesseract-ocr.github.io/tessdoc/Data-Files.html).
+These files tell Tesseract how to read and recognize text from images.
+When you first run `maimocr`, it should download Japanese data files **automatically**.
+Check the terminal output to see if the process succeeds.
+
+When you run it the second time,
+`maimocr` will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
 Use it in combination with Yomichan Search
 to quickly lookup Japanese words in real-time.
@@ -77,17 +72,14 @@ to quickly lookup Japanese words in real-time.
 
 ## Expanding data set
 
-You can use multiple data files with `maimocr` at the same time
-if you copy any new `*.traineddata` files to your `TESSDATA_PREFIX` folder
-(e.g. `~/.local/share/tessdata`)
-and launch `maimorc` like this:
+By default, `maimocr` automatically downloads
+[tessdata.zip](https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv)
+([mirror](https://t.me/ajatt_tools/173))
+with Tesseract data files,
+then saves the files to `~/.local/share/tessdata`.
 
-```
-TESS_LANG=jpn+jpn2+jpn3 maimocr
-```
-
-Or add `TESS_LANG=jpn+jpn2+jpn3` to your `~/.profile`.
-The settings in the example shown above are already applied by default.
+To use additional data files with `maimocr`,
+copy any new `*.traineddata` files to `~/.local/share/tessdata`.
 
 <details>
 
@@ -121,8 +113,8 @@ Tesseract works poorly at low resolutions.
 
 Nonstandard fonts often fail to OCR properly.
 In this case I don't have a definitive answer at the moment.
-Try searching for more `*.traineddata` files online and adding them to the `tessdata` folder.
-If you find anything useful, share it in our chat.
+Try searching for more `*.traineddata` files online
+and adding them to the `tessdata` folder.
 
 ## Adding screenshots
 

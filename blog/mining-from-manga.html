@@ -50,7 +50,7 @@ To do so, you're going to use an optical character recognition program and a few
 <hr>
 <h2 id="setting-up-ocr"><a class="anchor" href="#setting-up-ocr" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up OCR</h2>
 <p>Install the following dependencies:</p>
-<pre><code>$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick
+<pre><code>$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick unzip
 </code></pre>
 <ul>
 <li><a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>
@@ -65,22 +65,13 @@ is a tool for copying text to clipboard.</li>
 <li><a href="https://wiki.archlinux.org/title/ImageMagick">imagemagick</a>
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.</li>
+<li><a href="https://archlinux.org/packages/extra/x86_64/unzip/">unzip</a>
+is a tool for extracting zip archives.</li>
 </ul>
-<p>By default, Tesseract is not very good at detecting Japanese characters,
-but the quality of OCR operations can be improved by using custom trained data.</p>
-<p>Download
-<a href="https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv">tessdata.zip</a>
-(<a href="https://t.me/ajatt_tools/173">mirror</a>)
-with Tesseract data files,
-then save the files to <code>~/.local/share/tessdata</code>.</p>
-<pre><code>$ unzip -j tessdata.zip -d ~/.local/share/tessdata
-</code></pre>
-<p>The folder should be created automatically.</p>
-<p>You don't need to install any data files from the repositories of your GNU/Linux distro,
-the ones in the archive are way better.</p>
 <p>Download
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr">maimocr</a>
-and save it as <code>~/.local/bin/maimocr</code>.</p>
+and save it as <code>~/.local/bin/maimocr</code>.
+<code>maimocr</code> is a script we are going to use to recognize Japanese text.</p>
 <p>Make the file executable:</p>
 <pre><code>$ chmod +x ~/.local/bin/maimocr
 </code></pre>
@@ -90,8 +81,15 @@ and save it as <code>~/.local/bin/maimocr</code>.</p>
 <a href="https://i3wm.org/">i3wm</a>:</p>
 <pre><code>bindsym $mod+o exec --no-startup-id maimocr
 </code></pre>
-<p>The script is very trivial, so I hope you can understand it without explanations.
-When run, it will ask you to select an area with Japanese text and try to OCR it.
+<p>Now you can quickly call <code>maimocr</code> anywhere by pressing the keyboard shortcut.</p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>Tesseract doesn't work without
+<a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html">trained data files</a>.
+These files tell Tesseract how to read and recognize text from images.
+When you first run <code>maimocr</code>, it should download Japanese data files <strong>automatically</strong>.
+Check the terminal output to see if the process succeeds.</p>
+<p>When you run it the second time,
+<code>maimocr</code> will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
 Use it in combination with Yomichan Search
 to quickly lookup Japanese words in real-time.</p>
@@ -100,14 +98,13 @@ to quickly lookup Japanese words in real-time.</p>
 <a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
 </blockquote>
 <h2 id="expanding-data-set"><a class="anchor" href="#expanding-data-set" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding data set</h2>
-<p>You can use multiple data files with <code>maimocr</code> at the same time
-if you copy any new <code>*.traineddata</code> files to your <code>TESSDATA_PREFIX</code> folder
-(e.g. <code>~/.local/share/tessdata</code>)
-and launch <code>maimorc</code> like this:</p>
-<pre><code>TESS_LANG=jpn+jpn2+jpn3 maimocr
-</code></pre>
-<p>Or add <code>TESS_LANG=jpn+jpn2+jpn3</code> to your <code>~/.profile</code>.
-The settings in the example shown above are already applied by default.</p>
+<p>By default, <code>maimocr</code> automatically downloads
+<a href="https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv">tessdata.zip</a>
+(<a href="https://t.me/ajatt_tools/173">mirror</a>)
+with Tesseract data files,
+then saves the files to <code>~/.local/share/tessdata</code>.</p>
+<p>To use additional data files with <code>maimocr</code>,
+copy any new <code>*.traineddata</code> files to <code>~/.local/share/tessdata</code>.</p>
 <details>
 <summary>Capture2Text files</summary>
 <blockquote>
@@ -131,8 +128,8 @@ try to zoom in or find a scan with a better resolution.
 Tesseract works poorly at low resolutions.</p>
 <p>Nonstandard fonts often fail to OCR properly.
 In this case I don't have a definitive answer at the moment.
-Try searching for more <code>*.traineddata</code> files online and adding them to the <code>tessdata</code> folder.
-If you find anything useful, share it in our chat.</p>
+Try searching for more <code>*.traineddata</code> files online
+and adding them to the <code>tessdata</code> folder.</p>
 <h2 id="adding-screenshots"><a class="anchor" href="#adding-screenshots" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding screenshots</h2>
 <p>If you want to add a screenshot from a manga to your Anki card, <code>maim</code> can do that too.
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick">maimpick</a>
