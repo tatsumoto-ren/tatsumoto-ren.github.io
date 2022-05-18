@@ -14,8 +14,10 @@ To do so, you're going to use an optical character recognition program and a few
 Our goal is to be able to use [Yomichan](setting-up-yomichan.html) with manga.
 We need a toolchain that does the following:
 
-1) Takes a screenshot of a part of the screen.
-2) Processes the taken image file containing a speech bubble with some Japanese text.
+1) Takes a screenshot,
+selecting the part of the screen
+that contains a speech bubble with Japanese text.
+2) Processes the taken screenshot.
 3) Recognizes the text and copies it to the system clipboard.
 4) Using Yomichan's Clipboard Monitor we can perform lookups.
 
@@ -24,8 +26,8 @@ you can use Tesseract or Transformers.
 Tesseract is a more lightweight tool but makes more mistakes on average.
 With Transformers you have to install a big number of
 [Python](https://docs.python.org/3/faq/general.html#what-is-python)
-packages that take up several gibibytes of disk space
-but you get much better recognition.
+packages that take up several gibibytes of disk space,
+but you get much better text recognition.
 
 In this article I explain how to set up both.
 The resulting user workflow is identical, see the demo below.
@@ -47,7 +49,7 @@ but for this setup you can install any image viewer.
 Install the following dependencies:
 
 ```
-$ sudo pacman -S --needed maim tesseract xclip imagemagick unzip
+$ sudo pacman -S --needed tesseract maim xclip imagemagick unzip
 ```
 
 * [tesseract](https://github.com/tesseract-ocr/tesseract)
@@ -55,7 +57,7 @@ is the OCR engine. It is considered fairly accurate, and many people like it.
 * [maim](https://github.com/naelstrof/maim)
 is a utility for taking screenshots which can take parts of the screen.
 * [xclip](https://github.com/astrand/xclip)
-is a tool for copying text to clipboard.
+is a tool for copying text to the clipboard.
 * [imagemagick](https://wiki.archlinux.org/title/ImageMagick)
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.
@@ -159,13 +161,17 @@ from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
 $ trizen -S transformers_ocr
 ```
 
+`transformers_ocr` makes use of the following programs:
+
+* [maim](https://github.com/naelstrof/maim) to take screenshots.
+* [xclip](https://github.com/astrand/xclip) to copy text to the clipboard.
+
 If you're not running a distribution based on Arch Linux,
 install manually by following the
 [instructions on GitHub](https://github.com/Ajatt-Tools/transformers_ocr).
 
 By itself `transformers_ocr` is just a short wrapper script
 that installs Transformers and other required Python packages.
-
 After the installation you need to download additional dependencies.
 Run the following command.
 
@@ -251,10 +257,6 @@ is another program that can add screenshots to Anki.
 
 ## Other software
 
-* [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/).
-It's quite bloated and forces you to use a Japanese to English dictionary
-instead of a Japanese to Japanese one.
-* [manga-ocr](https://github.com/kha-white/manga-ocr).
-Can be used to OCR Japanese text instead of Tesseract.
+See [Resources](resources.html#ocr-for-manga).
 
 Tags: guide

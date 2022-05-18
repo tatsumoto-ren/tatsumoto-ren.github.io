@@ -54,8 +54,10 @@ To do so, you're going to use an optical character recognition program and a few
 <p>Our goal is to be able to use <a href="setting-up-yomichan.html">Yomichan</a> with manga.
 We need a toolchain that does the following:</p>
 <ol>
-<li>Takes a screenshot of a part of the screen.</li>
-<li>Processes the taken image file containing a speech bubble with some Japanese text.</li>
+<li>Takes a screenshot,
+selecting the part of the screen
+that contains a speech bubble with Japanese text.</li>
+<li>Processes the taken screenshot.</li>
 <li>Recognizes the text and copies it to the system clipboard.</li>
 <li>Using Yomichan's Clipboard Monitor we can perform lookups.</li>
 </ol>
@@ -64,8 +66,8 @@ you can use Tesseract or Transformers.
 Tesseract is a more lightweight tool but makes more mistakes on average.
 With Transformers you have to install a big number of
 <a href="https://docs.python.org/3/faq/general.html#what-is-python">Python</a>
-packages that take up several gibibytes of disk space
-but you get much better recognition.</p>
+packages that take up several gibibytes of disk space,
+but you get much better text recognition.</p>
 <p>In this article I explain how to set up both.
 The resulting user workflow is identical, see the demo below.</p>
 <video width="1920" autoplay loop controls>
@@ -79,7 +81,7 @@ I use <a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>,
 but for this setup you can install any image viewer.</p>
 <h2 id="setting-up-tesseract"><a class="anchor" href="#setting-up-tesseract" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Tesseract</h2>
 <p>Install the following dependencies:</p>
-<pre><code>$ sudo pacman -S --needed maim tesseract xclip imagemagick unzip
+<pre><code>$ sudo pacman -S --needed tesseract maim xclip imagemagick unzip
 </code></pre>
 <ul>
 <li><a href="https://github.com/tesseract-ocr/tesseract">tesseract</a>
@@ -87,7 +89,7 @@ is the OCR engine. It is considered fairly accurate, and many people like it.</l
 <li><a href="https://github.com/naelstrof/maim">maim</a>
 is a utility for taking screenshots which can take parts of the screen.</li>
 <li><a href="https://github.com/astrand/xclip">xclip</a>
-is a tool for copying text to clipboard.</li>
+is a tool for copying text to the clipboard.</li>
 <li><a href="https://wiki.archlinux.org/title/ImageMagick">imagemagick</a>
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.</li>
@@ -162,12 +164,17 @@ and adding them to the <code>tessdata</code> folder.</p>
 from the <a href="https://wiki.archlinux.org/title/Arch_User_Repository">AUR</a>.</p>
 <pre><code>$ trizen -S transformers_ocr
 </code></pre>
+<p><code>transformers_ocr</code> makes use of the following programs:</p>
+<ul>
+<li><a href="https://github.com/naelstrof/maim">maim</a> to take screenshots.</li>
+<li><a href="https://github.com/astrand/xclip">xclip</a> to copy text to the clipboard.</li>
+</ul>
 <p>If you're not running a distribution based on Arch Linux,
 install manually by following the
 <a href="https://github.com/Ajatt-Tools/transformers_ocr">instructions on GitHub</a>.</p>
 <p>By itself <code>transformers_ocr</code> is just a short wrapper script
-that installs Transformers and other required Python packages.</p>
-<p>After the installation you need to download additional dependencies.
+that installs Transformers and other required Python packages.
+After the installation you need to download additional dependencies.
 Run the following command.</p>
 <pre><code>$ transformers_ocr download
 </code></pre>
@@ -226,13 +233,7 @@ to work.</p>
 <a href="https://github.com/Ajatt-Tools/ames">ames</a>
 is another program that can add screenshots to Anki.</p>
 <h2 id="other-software"><a class="anchor" href="#other-software" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other software</h2>
-<ul>
-<li><a href="https://aur.archlinux.org/packages/kanjitomo/">kanjitomo</a>.
-It's quite bloated and forces you to use a Japanese to English dictionary
-instead of a Japanese to Japanese one.</li>
-<li><a href="https://github.com/kha-white/manga-ocr">manga-ocr</a>.
-Can be used to OCR Japanese text instead of Tesseract.</li>
-</ul>
+<p>See <a href="resources.html#ocr-for-manga">Resources</a>.</p>
 <p>Tags: <a href="tag_guide.html">guide</a></p>
 <!-- text end -->
 </article>
