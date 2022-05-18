@@ -1,23 +1,47 @@
 # Mining from manga
 
 When we read manga,
-sometimes there's a need to quickly OCR a portion of the screen
+sometimes there's a need to quickly
+[OCR](https://wikiless.org/wiki/Optical_character_recognition?lang=en)
+a portion of the screen
 to look up new words and add sentences to Anki.
 To do so, you're going to use an optical character recognition program and a few helper tools.
 
 ****
 
-## Setting up OCR
+## Preface
+
+Our goal is to be able to use Yomichan with manga.
+We need a toolchain that does the following:
+
+1) Takes a screenshot of a part of the screen.
+2) Processes the taken image file containing a speech bubble with some Japanese text.
+3) Recognizes the text and copies it to the system clipboard.
+4) Using Yomichan's Clipboard Monitor we can perform lookups.
+
+To recognize text on the pages of a manga,
+you can use Tesseract or Transformers.
+Tesseract is a more lightweight tool but makes more mistakes on average.
+With Transformers you have to install a big number of
+[Python](https://docs.python.org/3/faq/general.html#what-is-python)
+packages that take up several gibibytes of disk space
+but you get much better recognition.
+
+## Image viewer
+
+To read manga,
+it is nice to have an image viewer.
+I use [sxiv](https://wiki.archlinux.org/title/Sxiv),
+but for this setup you can install any image viewer.
+
+## Setting up Tesseract
 
 Install the following dependencies:
 
 ```
-$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick unzip
+$ sudo pacman -S --needed maim tesseract xclip imagemagick unzip
 ```
 
-* [sxiv](https://wiki.archlinux.org/title/Sxiv)
-is an excellent image viewer.
-For this setup you can replace it with any image viewer, but `sxiv` is what I use.
 * [tesseract](https://github.com/tesseract-ocr/tesseract)
 is the OCR engine. It is considered fairly accurate, and many people like it.
 * [maim](https://github.com/naelstrof/maim)
@@ -44,6 +68,8 @@ $ chmod +x ~/.local/bin/maimocr
 The directory `~/.local/bin` should be in your
 [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
+### Keyboard shortcut
+
 Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
 [i3wm](https://i3wm.org/):
 
@@ -53,7 +79,7 @@ bindsym $mod+o exec --no-startup-id maimocr
 
 Now you can quickly call `maimocr` anywhere by pressing the keyboard shortcut.
 
-## Usage
+### Usage
 
 Tesseract doesn't work without
 [trained data files](https://tesseract-ocr.github.io/tessdoc/Data-Files.html).
@@ -75,7 +101,7 @@ to quickly lookup Japanese words in real-time.
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 
-## Expanding data set
+### Expanding data set
 
 By default, `maimocr` automatically downloads
 [tessdata.zip](https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv)
@@ -110,7 +136,7 @@ Alternatively, download just the Capture2Text Japanese files from
 
 </details>
 
-## Troubleshooting
+### Troubleshooting
 
 If you notice that the script fails to OCR certain images,
 try to zoom in or find a scan with a better resolution.
@@ -121,12 +147,95 @@ In this case I don't have a definitive answer at the moment.
 Try searching for more `*.traineddata` files online
 and adding them to the `tessdata` folder.
 
+## Setting up Transformers
+
+Install [transformers_ocr](https://aur.archlinux.org/packages/transformers_ocr)
+from the AUR.
+
+```
+$ trizen -S transformers_ocr
+```
+
+If you're not running a distribution based on Arch Linux,
+install manually by following the
+[instructions on GitHub](https://github.com/Ajatt-Tools/transformers_ocr).
+
+By itself `transformers_ocr` is just a short wrapper script
+that installs Transformers and other required Python packages.
+
+After the installation you need to download additional dependencies.
+Run the following command.
+
+```
+$ transformers_ocr download
+```
+
+It will download [manga-ocr](https://pypi.org/project/manga-ocr/),
+a Python library responsible for optical character recognition.
+The files will be saved to `~/.local/share/manga_ocr`
+and take up `2GiB` of disk space.
+
+**Note:** `transformers_ocr` saves the Python packages to a standalone directory
+to ensure that later you can uninstall everything by simply removing the directory.
+
+### Usage
+
+To OCR text on a manga page, run:
+
+```
+$ transformers_ocr recognize
+```
+
+The tool works similarly to the one explained in the Tesseract section.
+It will ask you to select an area with Japanese text and try to OCR it.
+The resulting text will be saved to the system clipboard.
+Use it in combination with Yomichan Search
+to quickly lookup Japanese words in real-time.
+
+> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
+> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
+
+The first run will take longer than usual.
+There's yet another set of files that have to be downloaded for the OCR to work.
+The files will be save to `~/.cache/huggingface` and take up another `500MiB`.
+
+### Keyboard shortcut
+
+Bind the script to a keyboard shortcut to be able to run it anywhere.
+
+In my `i3wm` config, I have added the following line:
+
+```
+bindsym $mod+o exec --no-startup-id transformers_ocr recognize
+```
+
+### Autostart
+
+Before it can recognize text,
+`transformers_ocr` needs to start a background listener.
+Although this is optional,
+to minimize the startup lag,
+add the following command to autostart.
+
+```
+transformers_ocr listen
+```
+
+In my `i3wm` config, I have added the following line:
+
+```
+exec --no-startup-id transformers_ocr listen
+```
+
 ## Adding screenshots
 
-If you want to add a screenshot from a manga to your Anki card, `maim` can do that too.
+If you want to add a screenshot from a manga to your Anki card,
+[maim](https://archlinux.org/packages/community/x86_64/maim/)
+can do that too.
 [maimpick](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick)
 is a script that uses `maim` to screenshot parts of the screen and copy them to the clipboard.
-Install it to the same location as `maimocr`, make it executable and bind it to a key.
+Install it to `~/.local/bin`, make it executable and bind it to a key.
+Explore my [dotfiles](https://github.com/tatsumoto-ren/dotfiles) for details.
 
 In addition to `maim`, `maimpick` requires
 [dmenu](https://wiki.archlinux.org/title/dmenu)
@@ -145,6 +254,5 @@ It's quite bloated and forces you to use a Japanese to English dictionary
 instead of a Japanese to Japanese one.
 * [manga-ocr](https://github.com/kha-white/manga-ocr).
 Can be used to OCR Japanese text instead of Tesseract.
-Unfortunately, I haven't been able to install it and can't comment on it.
 
 Tags: guide

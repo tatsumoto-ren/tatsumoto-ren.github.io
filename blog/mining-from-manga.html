@@ -44,18 +44,38 @@
 <div class="subtitle">April 01, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
 <p>When we read manga,
-sometimes there's a need to quickly OCR a portion of the screen
+sometimes there's a need to quickly
+<a href="https://wikiless.org/wiki/Optical_character_recognition?lang=en">OCR</a>
+a portion of the screen
 to look up new words and add sentences to Anki.
 To do so, you're going to use an optical character recognition program and a few helper tools.</p>
 <hr>
-<h2 id="setting-up-ocr"><a class="anchor" href="#setting-up-ocr" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up OCR</h2>
+<h2 id="preface"><a class="anchor" href="#preface" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preface</h2>
+<p>Our goal is to be able to use Yomichan with manga.
+We need a toolchain that does the following:</p>
+<ol>
+<li>Takes a screenshot of a part of the screen.</li>
+<li>Processes the taken image file containing a speech bubble with some Japanese text.</li>
+<li>Recognizes the text and copies it to the system clipboard.</li>
+<li>Using Yomichan's Clipboard Monitor we can perform lookups.</li>
+</ol>
+<p>To recognize text on the pages of a manga,
+you can use Tesseract or Transformers.
+Tesseract is a more lightweight tool but makes more mistakes on average.
+With Transformers you have to install a big number of
+<a href="https://docs.python.org/3/faq/general.html#what-is-python">Python</a>
+packages that take up several gibibytes of disk space
+but you get much better recognition.</p>
+<h2 id="image-viewer"><a class="anchor" href="#image-viewer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image viewer</h2>
+<p>To read manga,
+it is nice to have an image viewer.
+I use <a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>,
+but for this setup you can install any image viewer.</p>
+<h2 id="setting-up-tesseract"><a class="anchor" href="#setting-up-tesseract" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Tesseract</h2>
 <p>Install the following dependencies:</p>
-<pre><code>$ sudo pacman -S --needed sxiv maim tesseract xclip imagemagick unzip
+<pre><code>$ sudo pacman -S --needed maim tesseract xclip imagemagick unzip
 </code></pre>
 <ul>
-<li><a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>
-is an excellent image viewer.
-For this setup you can replace it with any image viewer, but <code>sxiv</code> is what I use.</li>
 <li><a href="https://github.com/tesseract-ocr/tesseract">tesseract</a>
 is the OCR engine. It is considered fairly accurate, and many people like it.</li>
 <li><a href="https://github.com/naelstrof/maim">maim</a>
@@ -77,12 +97,13 @@ and save it as <code>~/.local/bin/maimocr</code>.
 </code></pre>
 <p>The directory <code>~/.local/bin</code> should be in your
 <a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</p>
+<h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
 <p>Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
 <a href="https://i3wm.org/">i3wm</a>:</p>
 <pre><code>bindsym $mod+o exec --no-startup-id maimocr
 </code></pre>
 <p>Now you can quickly call <code>maimocr</code> anywhere by pressing the keyboard shortcut.</p>
-<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
 <p>Tesseract doesn't work without
 <a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html">trained data files</a>.
 These files tell Tesseract how to read and recognize text from images.
@@ -101,7 +122,7 @@ to quickly lookup Japanese words in real-time.</p>
     <source src="https://g33k.se/_matrix/media/r0/download/g33k.se/ybEPaUFRInYLqQsaMKVWdfqp" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
-<h2 id="expanding-data-set"><a class="anchor" href="#expanding-data-set" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding data set</h2>
+<h3 id="expanding-data-set"><a class="anchor" href="#expanding-data-set" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding data set</h3>
 <p>By default, <code>maimocr</code> automatically downloads
 <a href="https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv">tessdata.zip</a>
 (<a href="https://t.me/ajatt_tools/173">mirror</a>)
@@ -126,7 +147,7 @@ Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share
 <p align="center"><img class="shadow" alt="Capture2Text archive" src="img/capture2text.webp"></p>
 <p align="center"><i>Contents of the ZIP archive.</i></p>
 </details>
-<h2 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h2>
+<h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
 <p>If you notice that the script fails to OCR certain images,
 try to zoom in or find a scan with a better resolution.
 Tesseract works poorly at low resolutions.</p>
@@ -134,11 +155,66 @@ Tesseract works poorly at low resolutions.</p>
 In this case I don't have a definitive answer at the moment.
 Try searching for more <code>*.traineddata</code> files online
 and adding them to the <code>tessdata</code> folder.</p>
+<h2 id="setting-up-transformers"><a class="anchor" href="#setting-up-transformers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Transformers</h2>
+<p>Install <a href="https://aur.archlinux.org/packages/transformers_ocr">transformers_ocr</a>
+from the AUR.</p>
+<pre><code>$ trizen -S transformers_ocr
+</code></pre>
+<p>If you're not running a distribution based on Arch Linux,
+install manually by following the
+<a href="https://github.com/Ajatt-Tools/transformers_ocr">instructions on GitHub</a>.</p>
+<p>By itself <code>transformers_ocr</code> is just a short wrapper script
+that installs Transformers and other required Python packages.</p>
+<p>After the installation you need to download additional dependencies.
+Run the following command.</p>
+<pre><code>$ transformers_ocr download
+</code></pre>
+<p>It will download <a href="https://pypi.org/project/manga-ocr/">manga-ocr</a>,
+a Python library responsible for optical character recognition.
+The files will be saved to <code>~/.local/share/manga_ocr</code>
+and take up <code>2GiB</code> of disk space.</p>
+<p><strong>Note:</strong> <code>transformers_ocr</code> saves the Python packages to a standalone directory
+to ensure that later you can uninstall everything by simply removing the directory.</p>
+<h3 id="usage-1"><a class="anchor" href="#usage-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<p>To OCR text on a manga page, run:</p>
+<pre><code>$ transformers_ocr recognize
+</code></pre>
+<p>The tool works similarly to the one explained in the Tesseract section.
+It will ask you to select an area with Japanese text and try to OCR it.
+The resulting text will be saved to the system clipboard.
+Use it in combination with Yomichan Search
+to quickly lookup Japanese words in real-time.</p>
+<blockquote>
+<p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
+<a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
+</blockquote>
+<p>The first run will take longer than usual.
+There's yet another set of files that have to be downloaded for the OCR to work.
+The files will be save to <code>~/.cache/huggingface</code> and take up another <code>500MiB</code>.</p>
+<h3 id="keyboard-shortcut-1"><a class="anchor" href="#keyboard-shortcut-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
+<p>Bind the script to a keyboard shortcut to be able to run it anywhere.</p>
+<p>In my <code>i3wm</code> config, I have added the following line:</p>
+<pre><code>bindsym $mod+o exec --no-startup-id transformers_ocr recognize
+</code></pre>
+<h3 id="autostart"><a class="anchor" href="#autostart" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Autostart</h3>
+<p>Before it can recognize text,
+<code>transformers_ocr</code> needs to start a background listener.
+Although this is optional,
+to minimize the startup lag,
+add the following command to autostart.</p>
+<pre><code>transformers_ocr listen
+</code></pre>
+<p>In my <code>i3wm</code> config, I have added the following line:</p>
+<pre><code>exec --no-startup-id transformers_ocr listen
+</code></pre>
 <h2 id="adding-screenshots"><a class="anchor" href="#adding-screenshots" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding screenshots</h2>
-<p>If you want to add a screenshot from a manga to your Anki card, <code>maim</code> can do that too.
+<p>If you want to add a screenshot from a manga to your Anki card,
+<a href="https://archlinux.org/packages/community/x86_64/maim/">maim</a>
+can do that too.
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick">maimpick</a>
 is a script that uses <code>maim</code> to screenshot parts of the screen and copy them to the clipboard.
-Install it to the same location as <code>maimocr</code>, make it executable and bind it to a key.</p>
+Install it to <code>~/.local/bin</code>, make it executable and bind it to a key.
+Explore my <a href="https://github.com/tatsumoto-ren/dotfiles">dotfiles</a> for details.</p>
 <p>In addition to <code>maim</code>, <code>maimpick</code> requires
 <a href="https://wiki.archlinux.org/title/dmenu">dmenu</a>
 and
@@ -153,8 +229,7 @@ is another program that can add screenshots to Anki.</p>
 It's quite bloated and forces you to use a Japanese to English dictionary
 instead of a Japanese to Japanese one.</li>
 <li><a href="https://github.com/kha-white/manga-ocr">manga-ocr</a>.
-Can be used to OCR Japanese text instead of Tesseract.
-Unfortunately, I haven't been able to install it and can't comment on it.</li>
+Can be used to OCR Japanese text instead of Tesseract.</li>
 </ul>
 <p>Tags: <a href="tag_guide.html">guide</a></p>
 <!-- text end -->
