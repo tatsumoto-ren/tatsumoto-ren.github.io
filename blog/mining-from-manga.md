@@ -11,7 +11,7 @@ To do so, you're going to use an optical character recognition program and a few
 
 ## Preface
 
-Our goal is to be able to use Yomichan with manga.
+Our goal is to be able to use [Yomichan](setting-up-yomichan.html) with manga.
 We need a toolchain that does the following:
 
 1) Takes a screenshot of a part of the screen.
@@ -26,6 +26,14 @@ With Transformers you have to install a big number of
 [Python](https://docs.python.org/3/faq/general.html#what-is-python)
 packages that take up several gibibytes of disk space
 but you get much better recognition.
+
+In this article I explain how to set up both.
+The resulting user workflow is identical, see the demo below.
+
+<video width="1920" autoplay loop controls>
+	<source src="https://g33k.se/_matrix/media/r0/download/g33k.se/ybEPaUFRInYLqQsaMKVWdfqp" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
 
 ## Image viewer
 
@@ -70,8 +78,8 @@ The directory `~/.local/bin` should be in your
 
 ### Keyboard shortcut
 
-Bind this script to any key in your DE, WM, sxhkd, xbindkeysrc, etc. Here's an example for
-[i3wm](https://i3wm.org/):
+Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
+Here's an example for [i3wm](https://i3wm.org/):
 
 ```
 bindsym $mod+o exec --no-startup-id maimocr
@@ -95,11 +103,6 @@ to quickly lookup Japanese words in real-time.
 
 > To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
 > [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
-
-<video width="1920" autoplay loop controls>
-	<source src="https://g33k.se/_matrix/media/r0/download/g33k.se/ybEPaUFRInYLqQsaMKVWdfqp" type="video/mp4">
-</video>
-<p align="center"><i>Video demonstration.</i></p>
 
 ### Expanding data set
 
@@ -150,7 +153,7 @@ and adding them to the `tessdata` folder.
 ## Setting up Transformers
 
 Install [transformers_ocr](https://aur.archlinux.org/packages/transformers_ocr)
-from the AUR.
+from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
 
 ```
 $ trizen -S transformers_ocr
@@ -201,9 +204,8 @@ The files will be save to `~/.cache/huggingface` and take up another `500MiB`.
 
 ### Keyboard shortcut
 
-Bind the script to a keyboard shortcut to be able to run it anywhere.
-
-In my `i3wm` config, I have added the following line:
+Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
+Here's an example for [i3wm](https://i3wm.org/):
 
 ```
 bindsym $mod+o exec --no-startup-id transformers_ocr recognize
@@ -211,8 +213,8 @@ bindsym $mod+o exec --no-startup-id transformers_ocr recognize
 
 ### Autostart
 
-Before it can recognize text,
-`transformers_ocr` needs to start a background listener.
+Before `transformers_ocr` can recognize text,
+it needs to start a background listener.
 Although this is optional,
 to minimize the startup lag,
 add the following command to autostart.
@@ -221,7 +223,7 @@ add the following command to autostart.
 transformers_ocr listen
 ```
 
-In my `i3wm` config, I have added the following line:
+Here's an example for [i3wm](https://i3wm.org/):
 
 ```
 exec --no-startup-id transformers_ocr listen
