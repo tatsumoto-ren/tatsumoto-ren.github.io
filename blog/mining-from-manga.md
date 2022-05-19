@@ -78,17 +78,6 @@ $ chmod +x ~/.local/bin/maimocr
 The directory `~/.local/bin` should be in your
 [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
 
-### Keyboard shortcut
-
-Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for [i3wm](https://i3wm.org/):
-
-```
-bindsym $mod+o exec --no-startup-id maimocr
-```
-
-Now you can quickly call `maimocr` anywhere by pressing the keyboard shortcut.
-
 ### Usage
 
 Tesseract doesn't work without
@@ -105,6 +94,17 @@ to quickly lookup Japanese words in real-time.
 
 > To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
 > [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
+
+### Keyboard shortcut
+
+Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
+Here's an example for [i3wm](https://i3wm.org/):
+
+```
+bindsym $mod+o exec --no-startup-id maimocr
+```
+
+Now you can quickly call `maimocr` anywhere by pressing the keyboard shortcut.
 
 ### Expanding data set
 
