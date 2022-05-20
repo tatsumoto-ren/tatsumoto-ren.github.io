@@ -73,6 +73,7 @@ recommended by
 	* [iddqd.chat](https://iddqd.chat/)
 	* [maeli.net](https://maeli.net/) 🏆
 	* [trygve.me](https://element.trygve.me/) 🏆
+	* [nltrix](https://element.nltrix.net/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -155,7 +156,6 @@ like this: `https://matrix.dalek.zone/#/room/#djtspace.g33k.se`.
 * https://crystal-temple.flak.is/
 * https://element.linuxdelta.com/ 🏆
 * https://matrix.dalek.zone/
-* https://element.g24.at/
 * https://im.tetaneutral.net/
 * https://element.ggc-project.de/
 * https://matrix.3dns.eu/ 🏆
@@ -169,7 +169,8 @@ These servers have
 It's a web application that you can use to chat
 without having to use a desktop client.
 
-* https://chat.lomnik.net/
+* https://chat.darkcloud.ca/
+* https://element.georgefloyd.link/
 * https://houtworm.im/ 🏆
 * https://chat.cfx.re/ 🏆
 * https://halogen.chat/ 🏆
@@ -222,7 +223,6 @@ without having to use a desktop client.
 * https://element.w1l.duckdns.org/
 * https://chat.mux.re/
 * https://chat.leon.wtf/
-* https://matrix.darkcloud.ca/
 * https://matrix.club-tech.fr/
 * https://chat.joinpoint.org/
 * https://element.simonetti.nl/
@@ -243,7 +243,6 @@ without having to use a desktop client.
 * https://matrix.dalek.zone/
 * https://chat.greensteps.cn/
 * https://element.matrix4ulm.de/
-* https://g24.at/
 * https://c.a2sc.eu/
 * https://c.wfr.moe/
 * https://uddu.chat/
@@ -470,7 +469,6 @@ and change the server from the default to the one you want.
 * https://matrix.nord.digital/ 🏆
 * https://chat.deprecated.org/ 🏆
 * https://matrix.catchra.host/ 🏆
-* https://matrix.darkcloud.ca/ 🏆
 * https://matrix.dunkklar.org/ 🏆
 * https://matrix.kengstrom.se/ 🏆
 * https://matrix.googboog.com/ 🏆
@@ -542,7 +540,6 @@ and change the server from the default to the one you want.
 * https://koehn.com/
 * https://nibbana.jp/
 * https://ramrod.top/
-* https://lomnik.net/
 * https://willy.club/
 * https://home55.net/
 * https://m.webgo.de/
