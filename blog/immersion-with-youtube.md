@@ -93,17 +93,19 @@ See `$ man youtube-dl` for a comprehensive list of options.
 ## Notes
 
 * In my dotfiles I have
-[a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank_invidious_instances)
-that sorts Invidious instances based on the number of users.
-The least used instances are usually faster.
+  [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank_invidious_instances)
+  that sorts Invidious instances based on the number of users.
+  The least used instances are usually faster.
 * There's a fork of Youtube-dl called [yt-dlp](https://github.com/yt-dlp/yt-dlp) with more features.
 * Install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
-avoid accidentally going to the official website when opening YouTube links.
+  avoid accidentally going to the official website when opening YouTube links.
 * [Librarian](https://codeberg.org/librarian/librarian)
-is an alternative frontend for Odysee inspired by Invidious.
+  is an alternative frontend for Odysee inspired by Invidious.
 * If you go to the YouTube website, keep
-[Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
-enabled to be notified when an alternative Odysee version of the video is available.
+  [Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
+  enabled to be notified when an alternative Odysee version of the video is available.
 * [UntrackMe](https://f-droid.org/packages/app.fedilab.nitterizeme/)
-for Android redirects YouTube links to Invidious.
-On top of that it can transform many other links.
+  for Android redirects YouTube links to Invidious.
+  On top of that it can transform many other links.
+* If you add `24/7` or `ライブ` behind your searches on YouTube,
+  you can find channels that stream Japanese all day.
