@@ -8,31 +8,9 @@ is a
 system (SRS), a program which allows you to create, manage and review
 [flashcards](https://en.wikipedia.org/wiki/Flashcard).
 
-Currently, there are  many SRS applications available.
-[Mnemosyne](https://wiki.archlinux.org/index.php/Mnemosyne)
-is considered to be a good Anki alternative.
-However, I recommend that you stick with Anki.
-It’s cross-platform, rich with features,
-and supports [addons](https://ankiweb.net/shared/addons/), written in python.
-There are many add-ons available that greatly aid language study, including a few of my own.
-Because of the add-ons it's in my opinion really the only SRS application worth taking seriously.
-
-What's most important, Anki is
-[libre software](https://www.gnu.org/philosophy/free-sw.html)
-that respects the users'
-[freedom](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Freedom)
-and community.
-Unlike Supermemo, for example. But you can't use that on GNU/Linux and Android anyway.
-
 Many language learners find Anki useful to quickly memorize (front-load)
 core vocabulary of their target language (TL),
 as well as help them remember new material later.
-
-It should be noted, however, that memorization of most vocabulary throughout all your language
-learning phases should be done by
-[studying sentences](https://web.archive.org/web/20210908131624/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/#Mine-Sentences-Not-Words).
-You will be making vocabulary cards in the process as well,
-but much less so, and mostly for nouns.
 
 One of the downsides of Anki is that it can be *a little* difficult to learn how to use.
 Depending on how you use it,
@@ -188,6 +166,10 @@ so you don't need to install any additional dependencies.
 
 ## Anki settings
 
+In Anki you can learn languages, biology, math, physics, etc.,
+and Anki isn't optimized for any of them in particular.
+
+To optimize Anki for language learning
 I recommend the following settings.
 
 ### Preferences
@@ -287,18 +269,10 @@ The options are described later in this article.
     [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
     to **manually pick** and learn cards from my Sentence Bank.
 
-* **Starting ease:** Set it to `131%` and you won't have to worry about Ease at all.
-    Ease is very nasty because by default it gradually decreases when you fail cards
-    or answer "Hard" on them.
-    This leads to intervals growing slower, and eventually you fall into **Ease Hell**.
-    Similarly, pressing "Easy" causes the Ease to increase.
-    It drags the cards' intervals along causing them to grow faster than normal,
-    which leads to forgetting in the future.
-
-	* If you've been using Anki before applying this setting, you should *refold* your collection
-	with the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
-	* If you would like to learn more about Ease Hell, watch
-	[this video](https://redirect.invidious.io/watch?v=1XaJjbCSXT0).
+* **Starting Ease:** Every card has a property called *Ease factor*.
+Over time the Ease factor can change and cause negative side effects.
+Set the Starting Ease to `131%` to avoid the side effects.
+More about it [later](#ease-hell).
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
@@ -318,23 +292,20 @@ set this at a high value.
     By default, new interval is `2.5 * last interval`.
     At its default value of 100%, `Interval Modifier` does nothing.
     However, this is not what you want
-    because you've just lowered `Starting Ease` to 131% in the previous step.
+    because you've just lowered `Starting Ease` to 131% in the previous section.
     To restore the balance bump `Interval Modifier` up to 192%.
     `1.92 * 1.31` is roughly equal to `2.5`.
-    Later after you've used Anki for a couple of months and have had high retention,
+
+    Later after you've used Anki for a couple of months and have had high *retention rate*,
     you can increase the value further and do fewer reviews.
     If you forget too many cards, it is recommended to lower it a bit.
 
-    If you've used the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on
-    from the previous step, your `Interval Modifier` should be already set to the right value.
-
 * **Easy bonus** and **Hard interval**: Ignore these settings as you should never use
-the “hard” and “easy” buttons.
+the "Hard" and "Easy" buttons.
 
     <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 
-    As I mentioned in the `Starting ease` section,
-    the "Hard" and "Easy" buttons have counter-intuitive effects on Anki’s algorithm,
+    The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
     which causes long-term problems with Ease of your cards.
 
     [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
@@ -396,6 +367,56 @@ the “hard” and “easy” buttons.
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
+## Ease Hell
+
+Ease Hell is when Anki gradually lowers Ease factors of your flashcards,
+assuming they are more difficult than they actually are.
+A card with a low Ease factor has to be reviewed more often.
+As a result, you are forced to review too many cards each day.
+
+Anki decreases the Ease factor of a card every time you fail it or answer "Hard".
+This leads to intervals growing slower,
+and eventually most of your cards end up having a low Ease factor.
+This is when you are in **Ease Hell**.
+
+Similarly, pressing "Easy" causes the Ease to increase.
+The intervals of such cards grow faster than normal,
+which leads to forgetting in the future.
+
+Side effects of each answer button:
+
+* Again - Ease decreases by 20%.
+* Hard - Ease decreases by 15%.
+* Good - No side effect.
+* Easy - Ease increases by 15%.
+
+The reason I recommend never pressing "Hard" and "Easy" is to avoid the side effects.
+But this still leaves the problem with the "Again" button unsolved.
+The lowest possible Starting Ease in Anki is `131%`.
+By setting **Starting Ease** to the lowest possible value
+while simultaneously increasing **Interval Modifier**
+you make sure Ease factors of your cards can't decrease anymore,
+essentially fixing the issue.
+
+There's a legitimate possibility
+that some cards in your collection are more difficult than the others.
+To account for that fact
+I recommend having a low **Leech threshold**.
+The hard cards are going to be suspended sooner.
+Once a card *becomes a leech*, you should investigate why it happened.
+
+> Open the Anki Browser and type `tag:leech` to display your leeches.
+
+If you've been using Anki for a while before reading this page
+then you'll need to update your collection to reset the Ease factor of the older cards.
+To update older cards, use the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
+
+More about the Ease Hell:
+
+* [Guide to Anki Intervals and Learning Steps](https://redirect.invidious.io/watch?v=1XaJjbCSXT0)
+* [The Ease Factor Problem](https://archive.md/4RJcr)
+* [Ease Hell in Anki](https://readbroca.com/anki/ease-hell/)
+
 ## GTK theme
 
 Anki uses the
@@ -447,7 +468,7 @@ Apply changes.
 Then re-login or reboot.
 
 This method consistently works if Anki uses `Qt5`.
-Currently there are problems with `Qt6`.
+Currently, there are problems with `Qt6`.
 To work around it,
 install the `Qt5` version of Anki
 (and/or [uninstall](https://pip.pypa.io/en/stable/cli/pip_uninstall/) `PyQt6-*` packages with `pip` if they were installed)
