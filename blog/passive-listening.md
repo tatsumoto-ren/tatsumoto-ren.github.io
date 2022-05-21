@@ -196,9 +196,7 @@ Synchronize your immersionpod folder to your mobile device with
 or
 [syncthing](https://wiki.archlinux.org/index.php/Syncthing).
 When you're out, use
-[Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla),
-[Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic)
-or any other music player of your choice to continue immersing.
+[a compatible music player](resources.html#audio-players) of your choice to continue immersing.
 
 ## Condensing audiobooks
 
