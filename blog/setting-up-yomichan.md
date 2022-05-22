@@ -71,9 +71,8 @@ If you don't know pitch accent of a word,
 you don't know how it's pronounced.
 
 To view pitch accent information in Yomichan popups,
-you need to install
-[Kanjium dictionary](https://foosoft.net/projects/yomichan/dl/dict/kanjium_pitch_accents.zip).
-You can also find it in the archive with all the other dictionaries you downloaded earlier.
+you need to install **Kanjium dictionary**.
+You can find it in the archive with all the other dictionaries you downloaded earlier.
 
 To configure how pitch accent information is displayed,
 go to "Settings" > "Appearance" > "Pitch accent display styles".
