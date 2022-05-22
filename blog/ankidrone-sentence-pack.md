@@ -49,4 +49,4 @@ This deck is not a replacement for
 It doesn't contain dictionary definitions.
 I recommend you start with Ankidrone Starter Pack if you're a beginner.
 
-Tags: vocab, anki
+Tags: vocab, anki, decks

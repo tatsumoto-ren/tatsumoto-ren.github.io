@@ -255,4 +255,4 @@ and a second rule that tells to make it visible on hover.
 
 This should be it. Enjoy your own JP1K deck.
 
-Tags: anki, kanji, vocab
+Tags: anki, decks, kanji, vocab

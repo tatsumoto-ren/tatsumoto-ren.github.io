@@ -225,4 +225,4 @@ If you download an incorrectly formatted deck, make sure to fix the card templat
 A little trick you can do to filter results is
 [search AnkiWeb with Google](https://www.google.co.jp/search?q=site%3Aankiweb.net+japanese+sentences+audio&hl=ja).
 
-Tags: vocab, anki
+Tags: vocab, anki, decks
