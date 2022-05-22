@@ -125,7 +125,8 @@ third party guides may contain what Tatsumoto considers to be ineffective langua
 We recommend making use of their grammar explanations
 but disregarding their language learning advice.
 
-* [All About Particles](https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/71441b2fea92b7e2d387893b54772cc4f45fb9c0).
+* [All About Particles](https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/71441b2fea92b7e2d387893b54772cc4f45fb9c0)
+([mirror](https://b-ok.cc/book/1095266/8abab5)).
 A nicely organized book simply described as "godsend".
 For each grammar point in the book there's a short explanation
 and several natural example sentences with translations.
