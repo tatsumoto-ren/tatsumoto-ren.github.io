@@ -76,12 +76,12 @@ body>footer {
 /* Footer */
 
 footer {
-    font-size: 14px;
-    color: #6c757d;
+    font-size: 1rem;
     border-top: solid 1px #ccc;
-    text-align: center;
-    background-color: var(--background-secondary-color);
-    padding: 10px 4px;
+    background-color: #51628f;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)), url("/img/bg.webp");
+    color: white;
+    text-shadow: #0006 1px 1px 2px;
 }
 
 footer p {
@@ -90,12 +90,64 @@ footer p {
 
 footer a,
 footer a:visited {
-    color: #495057;
+    color: #e9e2dc;
+
 }
 
 footer a:hover,
 footer a:active {
-    color: #3a4046;
+    color: #fff8ee;
+}
+
+footer>.footer-linkbox {
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    align-content: start;
+    justify-content: space-around;
+    text-align: left;
+    padding: 15px 10px;
+}
+
+footer>.footer-linkbox div {
+    padding: 5px;
+}
+
+footer>.footer-linkbox h3 {
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+
+footer>.footer-linkbox p {
+    margin-bottom: 1rem;
+}
+
+footer>.footer-linkbox p:last-child {
+    margin-bottom: 0;
+}
+
+footer>.footer-linkbox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer>.footer-linkbox ul li a {
+    line-height: 28px;
+    display: inline-block;
+}
+
+footer>.footer-bottom {
+    background-color: #0004;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 4px;
+    border-top: 1px solid #ffffff1e;
 }
 
 /* Links general */
@@ -676,7 +728,7 @@ article table tr:nth-child(2n) {
 
 /* Highlight targets */
 
-:target::after {
+article :target::after {
     position: relative;
     top: 3px;
     content: "";
@@ -687,7 +739,7 @@ article table tr:nth-child(2n) {
     margin: -2px 0 0;
 }
 
-:target:before {
+article :target:before {
     content: "";
     display: block;
     height: var(--target_shift);
@@ -834,6 +886,7 @@ article abbr[title]:hover {
 a.md-button,
 a.md-button:visited {
     min-width: 225px;
+    max-width: 100%;
     height: 50px;
     color: white;
     background-color: #0b5570;
@@ -850,12 +903,15 @@ a.md-button:visited {
     flex-flow: row nowrap;
     transition: background-color 125ms;
     padding: 0 1.8em;
+    font-size: 1rem;
+    text-shadow: none;
 }
 
 a.md-button:hover,
 a.md-button:active {
     text-decoration: none;
     background-color: #00bad6;
+    color: white;
 }
 
 a.md-button::before {
@@ -886,7 +942,7 @@ a.md-button.telegram::before {
     background-image: url("https://telegram.org/img/t_logo.svg");
 }
 
-/* Donations */
+/* LibrePay */
 
 a.md-button.lp {
     background-color: #ffee16;
@@ -902,6 +958,8 @@ a.md-button.lp::before {
     background-image: url("https://liberapay.com/assets/liberapay/icon-v2_white-on-yellow.svg");
 }
 
+/* Patreon */
+
 a.md-button.patreon {
     text-transform: uppercase;
     background-color: #f96854;
@@ -912,7 +970,28 @@ a.md-button.patreon:hover {
 }
 
 a.md-button.patreon::before {
-    background-image: url("../img/patreon_logo.webp");
+    background-image: url("/blog/img/patreon_logo.webp");
+}
+
+/* Donations */
+
+a.md-button.donations {
+    text-transform: uppercase;
+    background-color: #f96854;
+    background-color: #5e5e5e;
+    border-bottom: 1px solid #2626261b;
+    border-right: 1px solid #2626261b;
+    box-shadow: inset 1px 1px 0 #777, 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+a.md-button.donations:hover {
+    background-color: #ff424d;
+    background-color: #757575;
+}
+
+a.md-button.donations::before {
+    background-image: url("/img/heart.svg");
+    filter: grayscale(100%) invert(100%);
 }
 
 /* ToC navigation */
@@ -940,7 +1019,7 @@ a.md-button.patreon::before {
 }
 
 .toc_navigation>a::before {
-    background-image: url("../img/up-arrow.svg");
+    background-image: url("/blog/img/up-arrow.svg");
     filter: invert(1);
     width: 1em;
     height: 1em;
