@@ -190,7 +190,7 @@ Once installed, launch the app and follow the instructions to set it up.
 Most Japanese people use a 12 keys type layout.
 This is how the keyboard looks like.
 You tap and pull toward the character you'd like to input.
-Once you get used to it, it's must faster than the QWERTY layout
+Once you get used to it, it's much faster than the QWERTY layout
 because typing words requires less total keystrokes.
 
 <p align="center"><img src="img/f-droid-mozc-keyboard.webp" alt="input methods" style="width: 400px;"></p>
