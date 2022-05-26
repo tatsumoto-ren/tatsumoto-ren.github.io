@@ -63,6 +63,8 @@ Japanese grammar taught by a Japanese teacher.
 
 ### JLPT
 
+* [dethitiengnhat](https://dethitiengnhat.com/en/).
+Here you can prepare by taking tests from previous years.
 * [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
 Covers grammar for all JLPT levels.
 * [問題検索室](http://www.n-lab.org/library/mondai/).
@@ -179,6 +181,8 @@ Unfortunately, not all of them can be opened in mpv.
 
 ### YouTube with subtitles
 
+> Main article: [Immersion with YouTube](immersion-with-youtube.html)
+
 * [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
 * Channels for pre-beginner Japanese learners.
 	* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
@@ -188,6 +192,16 @@ News. Doesn't have subs, but has transcriptions.
 
 **Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
 to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
+
+### TikTok
+
+Here you can watch videos from TikTok:
+[proxitok.herokuapp.com](https://proxitok.herokuapp.com/)
+
+Find Japanese videos by tags, for example:
+[tiktokでニュース](https://proxitok.herokuapp.com/tag/tiktok%E3%81%A7%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9)
+
+Browsing will lead you to more tags.
 
 ### Downloads
 
