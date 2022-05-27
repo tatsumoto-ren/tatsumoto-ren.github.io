@@ -71,6 +71,9 @@ If you want Anki to use `Qt6` instead:
 $ pip install --upgrade 'aqt[qt6]'
 ```
 
+On my computer Fcitx refuses to work with the Qt6 version,
+I use Qt5 for now.
+
 <details>
 <summary>Notes</summary>
 
@@ -191,7 +194,8 @@ If you set this to `0`, Anki will always wait the full delay, so it's not optima
 
 * **Show new cards after reviews.**
 You always want to finish your reviews first,
-and you don’t want new cards to slow you down. You can choose `Show new cards before reviews`
+and you don't want new cards to slow you down.
+You can choose `Show new cards before reviews`
 if you are consistent and feel confident that you will never have a backlog of Anki reviews.
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.
@@ -206,6 +210,7 @@ The old `V1` scheduler was buggy and clunky.
 The new one fixes its issues.
 
     Main killer features:
+
     * You can have subdecks and review all of them at once,
     the cards will be properly mixed when reviewing.
     * You can learn new cards in filtered decks.
@@ -227,7 +232,9 @@ The new layout won't match with the screenshots shown on this page.
 If you want to bring up the old version of the dialog,
 click "Deck Options" while holding `Shift`.
 
-Below are the options I recommended using.
+Consider creating separate Options Groups for *each type of material* you learn.
+You can assign each Options group to multiple decks.
+This is useful for making small adjustments to individual decks based on the cards the decks store.
 
 <details>
 
@@ -242,16 +249,18 @@ The options are described later in this article.
 
 </details>
 
+Below are the options I recommended using.
+
 #### New cards
 
-* **Steps (in minutes):** This is the number of times you have to answer `good` on the card
+* **Learning steps:** This is the number of times you have to answer `good` on the card
     before it graduates.
     I recommend beginners to stick to the default learning steps of `1 10`.
     When you get more familiar with Anki you can add your custom steps and experiment with them.
     But don't overdo it: too many steps will make you spend too much time in Anki
     for no substantial gain in retention.
     The `learn ahead` option set in the previous section
-    will make sure that you won't be shown cards with custom steps too early.
+    will make sure that you won't be shown cards with large steps too early.
 
     You can experiment with so-called micro steps
     if you see that remembering new cards is more difficult than you thought.
@@ -336,11 +345,15 @@ the "Hard" and "Easy" buttons.
     A different context or another word, or studying it on a different day may jog your memory.
     Thus, we don't need to fully penalize a fail here.
 
-    I use a new interval of 55% to not completely reset a card to 0.
+    For example, if you use a new interval of 50%,
+    when you lapse a card and relearn it,
+    the interval won't be reset back to 1 day,
+    it will be half of the previous interval.
     The recommended range in the AJATT community is between 50 and 75%.
 
-    For a word cards deck you may set it to about 30-40%
-    because word cards are noticeably harder than sentence cards.
+    For a `word cards` deck you may set it to about 30-40%
+    because word cards are noticeably harder than `sentence cards`.
+    I explain differences between card templates later.
 
 * **Leech threshold** and **Leech action**:
     *Leeches* are cards that you keep on forgetting and relearning over and over.

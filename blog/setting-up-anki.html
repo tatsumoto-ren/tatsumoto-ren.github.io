@@ -98,6 +98,8 @@ Use a version released at least 6 months ago or newer.</li>
 If you want Anki to use <code>Qt6</code> instead:</p>
 <pre><code>$ pip install --upgrade 'aqt[qt6]'
 </code></pre>
+<p>On my computer Fcitx refuses to work with the Qt6 version,
+I use Qt5 for now.</p>
 <details>
 <summary>Notes</summary>
 <ul>
@@ -201,7 +203,8 @@ If you set this to <code>0</code>, Anki will always wait the full delay, so it's
 </li>
 <li><p><strong>Show new cards after reviews.</strong>
 You always want to finish your reviews first,
-and you don’t want new cards to slow you down. You can choose <code>Show new cards before reviews</code>
+and you don't want new cards to slow you down.
+You can choose <code>Show new cards before reviews</code>
 if you are consistent and feel confident that you will never have a backlog of Anki reviews.
 Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.</p>
@@ -235,7 +238,9 @@ As usual, Anki developers are making the app worse with each release.
 The new layout won't match with the screenshots shown on this page.
 If you want to bring up the old version of the dialog,
 click &quot;Deck Options&quot; while holding <code>Shift</code>.</p>
-<p>Below are the options I recommended using.</p>
+<p>Consider creating separate Options Groups for <em>each type of material</em> you learn.
+You can assign each Options group to multiple decks.
+This is useful for making small adjustments to individual decks based on the cards the decks store.</p>
 <details>
 <summary>New menu</summary>
 <p>The new Options Groups settings menu
@@ -244,16 +249,17 @@ The options are described later in this article.</p>
 <p align="center"><img alt="options groups" src="img/anki-options-groups.webp"></p>
 <p align="center"><i>Settings.</i></p>
 </details>
+<p>Below are the options I recommended using.</p>
 <h4 id="new-cards"><a class="anchor" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h4>
 <ul>
-<li><p><strong>Steps (in minutes):</strong> This is the number of times you have to answer <code>good</code> on the card
+<li><p><strong>Learning steps:</strong> This is the number of times you have to answer <code>good</code> on the card
 before it graduates.
 I recommend beginners to stick to the default learning steps of <code>1 10</code>.
 When you get more familiar with Anki you can add your custom steps and experiment with them.
 But don't overdo it: too many steps will make you spend too much time in Anki
 for no substantial gain in retention.
 The <code>learn ahead</code> option set in the previous section
-will make sure that you won't be shown cards with custom steps too early.</p>
+will make sure that you won't be shown cards with large steps too early.</p>
 <p>You can experiment with so-called micro steps
 if you see that remembering new cards is more difficult than you thought.
 This means specifying an interval in seconds instead of minutes.
@@ -329,10 +335,14 @@ Later you can experiment with more learning steps.</p>
 You often still somewhat remember a word in Japanese even if you fail it.
 A different context or another word, or studying it on a different day may jog your memory.
 Thus, we don't need to fully penalize a fail here.</p>
-<p>I use a new interval of 55% to not completely reset a card to 0.
+<p>For example, if you use a new interval of 50%,
+when you lapse a card and relearn it,
+the interval won't be reset back to 1 day,
+it will be half of the previous interval.
 The recommended range in the AJATT community is between 50 and 75%.</p>
-<p>For a word cards deck you may set it to about 30-40%
-because word cards are noticeably harder than sentence cards.</p>
+<p>For a <code>word cards</code> deck you may set it to about 30-40%
+because word cards are noticeably harder than <code>sentence cards</code>.
+I explain differences between card templates later.</p>
 </li>
 <li><p><strong>Leech threshold</strong> and <strong>Leech action</strong>:
 <em>Leeches</em> are cards that you keep on forgetting and relearning over and over.
