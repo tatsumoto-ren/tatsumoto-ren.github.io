@@ -74,6 +74,7 @@ recommended by
 	* [maeli.net](https://maeli.net/) 🏆
 	* [trygve.me](https://element.trygve.me/) 🏆
 	* [nltrix](https://element.nltrix.net/)
+	* [lolisho.chat](https://lolisho.chat/)
 * Servers run by Japanese people:
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -606,7 +607,6 @@ and change the server from the default to the one you want.
 * https://matrix.unknown.place/
 * https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
-* https://matrix.un-hack-bar.de/
 * https://matrix.intahnet.co.uk/
 * https://matrix.fatherjim.tech/
 * https://matrix.magnumchaos.org/
