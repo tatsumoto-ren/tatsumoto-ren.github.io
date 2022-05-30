@@ -110,7 +110,13 @@ That's how weird our brains are.
 <p align="center"><img alt="mortician" class="shadow" src="https://user-images.githubusercontent.com/69171671/92833937-ef2e0200-f3c8-11ea-9749-a44013a441e4.png"></p>
 
 ### [Quick Colour changing](https://ankiweb.net/shared/info/2491935955)
+
 mattvsjapan suggests marking the pitch with this add-on.
+
+You can select a word,
+press a keyboard shortcut,
+and the word will change its color to a value you defined in Settings.
+You can set multiple shortcuts, one for each color you need.
 
 ### [Kanji Grid](https://ankiweb.net/shared/info/909972618)
 
@@ -298,7 +304,18 @@ or
 [mpv2anki](https://github.com/SenneH/mpv2anki)
 there won't be many times when you actually need it.
 
-### Straight Reward
+### Add-ons that modify Anki Scheduler
+
+Basically everything that modifies the scheduler is completely unreliable and prone to breakage.
+
+* If an add-on tunes the Ease factor an a card by card basis,
+you can't predict your retention and will likely be forgetting more cards.
+* If an add-on modifies the Due value,
+a card may come up for review too early or too late, resulting in more forgetting.
+
+I provide some examples below.
+
+#### Straight Reward
 
 This add-on messes your Anki cards when you rate them "Good" or "Easy".
 The idea is that with the add-on your Ease will eventually recover after a lapse.
@@ -306,16 +323,17 @@ After trying it for a week with default Anki settings I found that it simply doe
 and my cards aren't modified in any way. So the only thing I can recommend you is
 to set your Ease to 131% with [RefoldEase](#refoldease) and keep your Anki setup simple.
 
-### Load Balancer
+#### Load Balancer
 
 Prevents you from reviewing your cards on the right day, when they should be reviewed.
 
-### Add-ons that modify Anki Scheduler
+#### Auto Ease Factor
 
-Basically everything that modifies the scheduler is completely unreliable
-and is going to break eventually.
-As of July 2021 a new version of Anki scheduler is planned to be released soon.
-It's going to render all such add-ons unusable.
+It's similar to Straight Reward.
+
+> Adjusts ease factor on cards automatically after each rep
+
+Terrible idea.
 
 ### Migaku add-ons
 
