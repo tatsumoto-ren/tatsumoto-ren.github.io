@@ -139,6 +139,14 @@ Decrease your
 [Interval Modifier](setting-up-anki.html#reviews)
 if your retention is too low, increase if it's high.
 
+If your retention is below 70%, that's a call to action.
+Low retention rate renders Anki useless,
+can make you hate your reviews or even stop using Anki completely.
+Change your Anki settings, reformat your notes, delete problematic cards.
+
+Retention rate above 90% is considered sub-optimal.
+It means you review your cards too often.
+
 ## Filtered decks
 
 Don't review in filtered decks.
@@ -217,7 +225,7 @@ Once they leave the filtered deck,
 they automatically return to the decks they were pulled out from.
 If this approach doesn't work for you, try suspending overdue cards instead.
 To do so, open the Anki Browser, type `is:due -prop:due=0` and suspend the cards that will show up.
-Un-suspend the cards in chunks once you have time to review them.
+Unsuspend the cards in chunks once you have time to review them.
 
 Accumulating a backlog and being unable to properly manage it
 is the number one reason people quit Anki altogether.
@@ -446,7 +454,7 @@ By clicking on the stat you can bring up the card browser window showing the las
 The SRS best practices:
 
 1) Starting Ease 131%.
-1) Interval Modifier 190%, increase if needed.
+1) Interval Modifier 192%, increase if needed.
 1) Enable the V2 scheduler.
 1) Don't review in filtered decks.
 1) Use filtered decks for storing old due cards (backlog).
