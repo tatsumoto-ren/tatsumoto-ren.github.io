@@ -29,7 +29,7 @@ Once you do it, you are going to encounter way more
 sentences in your immersion.
 
 I started doing sentence mining after I learned 1000 words.
-At first I mixed sentence mining with learning sentences from a premade deck,
+At first, I mixed sentence mining with learning sentences from a premade deck,
 but eventually I stopped using premade decks
 and switched to solely using my immersion to find new sentences.
 
@@ -130,7 +130,7 @@ as your comprehension of the language improves.
 ## Card template
 
 Refer to [Discussing various card templates](discussing-various-card-templates.html)
-to get an idea of what to to put on your cards
+to get an idea of what to put on your cards
 and how they should look.
 If you're using the card template introduced in the beginning of this guide,
 you don't have to set up everything yourself.
