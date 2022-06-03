@@ -7,15 +7,23 @@ it makes sense to go through a basic vocabulary deck
 containing the most frequent words in Japanese.
 As before, you are going to use [Anki](setting-up-anki.html) to do it.
 
-Before diving in to full-fledged immersion learning,
-memorizing the most frequently used 1 or 2 thousand words
-is a great way to jumpstart your comprehension.
-After that learning vocabulary from immersion becomes easier
-because you'll at least be able to recognize the majority of words in a given sentence.
-You will still have to look up many words per page,
-but the process is going to take less effort.
-
 ****
+
+## Motivation behind studying basic vocabulary
+
+Not all words are created equal.
+[In Japanese](https://web.archive.org/web/20210119135229/https://pj.ninjal.ac.jp/corpus_center/bccwj/freq-list.html),
+the most frequently used 1,000 words comprise around 75% of all written language.
+Similar ratios exist for virtually all languages.
+If you just prioritize the most vital words,
+the ones that you hear and see a lot,
+you can rapidly acquire a language.
+
+After memorizing the most frequently used 1,000 or 2,000 words
+learning vocabulary from immersion becomes easier.
+When reading you'll be able to recognize the majority of words in a given sentence.
+You will still have to look up many words per page,
+but the learning process is going to take less effort.
 
 ## Focus on understanding
 
@@ -26,6 +34,33 @@ Once you can understand the language, learning to speak doesn't take any effort.
 The Anki deck I'm about to introduce below is going to help you understand the language.
 Cards in the deck are designed to test your recognition
 instead of forcing you to recall words from memory.
+
+## Words and sentences
+
+Our preferred way to learn new words is by reading and understanding sentences.
+We believe it's the most natural approach.
+When immersing we encounter sentences and phrases much more than isolated words.
+Besides,
+understanding sentences is easier than understanding words.
+The additional context triggers the memory
+at times when the meaning of a single word would slip away.
+
+Of course, it's not possible to start reading full sentences if you know no words yet.
+To work around this temporary hindrance we employ **targeted sentence cards**.
+A targeted sentence card is a flashcard that gives you context
+but knowing the context is not mandatory to pass the flashcard.
+Only the target word is taken into account.
+So, if you know the context, it helps you out.
+If not, you treat the flashcard as an isolated word.
+This idea quickly starts working in your favor.
+Once you've learned even just a few hundred words,
+your comprehension expands substantially.
+As you're beginning to understand not just isolated words,
+any extra exposure you get from reviewing sentences in Anki reinforces your memory.
+Sentences help you better understand how the words are being used in speech,
+what roles they play in a sentence
+and how they connect with other words.
+You don't get any of these benefits if you use isolated vocab cards (word cards).
 
 ## Anki deck
 
@@ -224,5 +259,44 @@ If you download an incorrectly formatted deck, make sure to fix the card templat
 
 A little trick you can do to filter results is
 [search AnkiWeb with Google](https://www.google.co.jp/search?q=site%3Aankiweb.net+japanese+sentences+audio&hl=ja).
+
+## Intermission
+
+From the BCCWJ語彙表 dataset mentioned in the beginning of the article we find the following.
+
+| Most frequently used N words | % of written Japanese             |
+| -----------                  | -----------                       |
+| 1,000                        | <abbr title="75.2812%">75%</abbr> |
+| 2,000                        | <abbr title="81.5924%">80%</abbr> |
+| 3,000                        | <abbr title="85.1309%">85%</abbr> |
+| 6,000                        | <abbr title="90.2904%">90%</abbr> |
+| 10,000                       | <abbr title="93.3373%">93%</abbr> |
+| 15,000                       | <abbr title="95.3054%">95%</abbr> |
+| 32,000                       | <abbr title="98.0046%">98%</abbr> |
+| 50,000                       | <abbr title="99.0042%">99%</abbr> |
+
+<details>
+
+<summary>How do you calculate it?</summary>
+
+If you have downloaded the frequency list,
+you can calculate the percentage for the first N=1000 words with this Shell snippet.
+
+```
+N=1000; {
+        sed "1d;$((N+1))q" BCCWJ_frequencylist_suw_ver1_0.tsv | cut -f 8 | awk '{s+=$1} END {print s}'
+        echo '/1000000'
+} | paste -s -d '' | bc -l
+```
+
+</details>
+
+You're expected to progress very quickly in your first months of doing AJATT.
+Unfortunately, the reality is that we quickly hit the point of diminishing returns.
+The more words you learn from that point, the slower your comprehension increases.
+
+The bright side is that you can use the numbers as milestones.
+Reaching each milestone is like winning a small game,
+and it makes learning your target langauge feel less like a routine.
 
 Tags: vocab, anki, decks
