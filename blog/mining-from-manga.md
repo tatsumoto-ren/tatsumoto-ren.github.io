@@ -97,8 +97,8 @@ To OCR text on a manga page, run:
 $ transformers_ocr recognize
 ```
 
-The tool works similarly to the one explained in the Tesseract section.
-It will ask you to select an area with Japanese text and try to OCR it.
+When run,
+it will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
 Use it in combination with Yomichan Search
 to quickly lookup Japanese words in real-time.
