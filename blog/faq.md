@@ -588,7 +588,7 @@ Read the following:
 
 ### Should I trust Cure Dolly and "Organic Japanese"?
 
-Sometimes you see people recommending Cure Dolly as a replacement for the Tae Kim grammar guide.
+Sometimes you see people recommending Cure Dolly as a grammar resource.
 I tried going through it, and here's my takeaway.
 
 * The grammar explanations are a complete joke.
@@ -605,7 +605,7 @@ In order to understand grammar you have to understand it in Japanese.
 When a guide uses English building blocks to make a model that resembles the Japanese grammar,
 there's a limit on how accurate the explanations can be.
 
-On this site we recommend reading Tae Kim
+On this site we recommend reading one of the [recommended grammar guides](learning-grammar.html#grammar-guides)
 to acquire a rough understanding
 of what each of the most common grammar patterns means
 in order to comprehend more of your input.
