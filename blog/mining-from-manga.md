@@ -43,6 +43,99 @@ To read manga,
 it is nice to have an image viewer.
 I use [sxiv](https://wiki.archlinux.org/title/Sxiv),
 but for this setup you can install any image viewer.
+On many manga sites you can also read online in a web browser.
+
+## OCR method
+
+Although Transformers requires more system resources,
+I prefer it to Tesseract.
+Compared to Tesseract it handles manga better.
+
+* [Transformers](#setting-up-transformers)
+* [Tesseract](#setting-up-tesseract)
+
+## Setting up Transformers
+
+Install [transformers_ocr](https://aur.archlinux.org/packages/transformers_ocr)
+from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
+
+```
+$ trizen -S transformers_ocr
+```
+
+`transformers_ocr` makes use of the following programs:
+
+* [maim](https://github.com/naelstrof/maim) to take screenshots.
+* [xclip](https://github.com/astrand/xclip) to copy text to the clipboard.
+
+If you're not running a distribution based on Arch Linux,
+install manually by following the
+[instructions on GitHub](https://github.com/Ajatt-Tools/transformers_ocr).
+
+By itself `transformers_ocr` is just a short wrapper script
+that installs Transformers and other required Python packages.
+After the installation you need to download additional dependencies.
+Run the following command.
+
+```
+$ transformers_ocr download
+```
+
+It will download [manga-ocr](https://pypi.org/project/manga-ocr/),
+a Python library responsible for optical character recognition.
+The files will be saved to `~/.local/share/manga_ocr`
+and take up `2GiB` of disk space.
+
+**Note:** `transformers_ocr` saves the Python packages to a standalone directory
+to ensure that later you can uninstall everything by simply removing the directory.
+
+### Usage
+
+To OCR text on a manga page, run:
+
+```
+$ transformers_ocr recognize
+```
+
+The tool works similarly to the one explained in the Tesseract section.
+It will ask you to select an area with Japanese text and try to OCR it.
+The resulting text will be saved to the system clipboard.
+Use it in combination with Yomichan Search
+to quickly lookup Japanese words in real-time.
+
+> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
+> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
+
+The first run will take longer than usual.
+There's yet another set of files that have to be downloaded for the OCR to work.
+The files will be saved to `~/.cache/huggingface` and take up another `500MiB`.
+
+### Keyboard shortcut
+
+Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
+Here's an example for [i3wm](https://i3wm.org/):
+
+```
+bindsym $mod+o exec --no-startup-id transformers_ocr recognize
+```
+
+### Autostart
+
+Before `transformers_ocr` can recognize text,
+it needs to start a background listener.
+Although this is optional,
+to minimize the startup lag,
+add the following command to autostart.
+
+```
+transformers_ocr listen
+```
+
+Here's an example for [i3wm](https://i3wm.org/):
+
+```
+exec --no-startup-id transformers_ocr listen
+```
 
 ## Setting up Tesseract
 
@@ -151,89 +244,6 @@ Nonstandard fonts often fail to OCR properly.
 In this case I don't have a definitive answer at the moment.
 Try searching for more `*.traineddata` files online
 and adding them to the `tessdata` folder.
-
-## Setting up Transformers
-
-Install [transformers_ocr](https://aur.archlinux.org/packages/transformers_ocr)
-from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
-
-```
-$ trizen -S transformers_ocr
-```
-
-`transformers_ocr` makes use of the following programs:
-
-* [maim](https://github.com/naelstrof/maim) to take screenshots.
-* [xclip](https://github.com/astrand/xclip) to copy text to the clipboard.
-
-If you're not running a distribution based on Arch Linux,
-install manually by following the
-[instructions on GitHub](https://github.com/Ajatt-Tools/transformers_ocr).
-
-By itself `transformers_ocr` is just a short wrapper script
-that installs Transformers and other required Python packages.
-After the installation you need to download additional dependencies.
-Run the following command.
-
-```
-$ transformers_ocr download
-```
-
-It will download [manga-ocr](https://pypi.org/project/manga-ocr/),
-a Python library responsible for optical character recognition.
-The files will be saved to `~/.local/share/manga_ocr`
-and take up `2GiB` of disk space.
-
-**Note:** `transformers_ocr` saves the Python packages to a standalone directory
-to ensure that later you can uninstall everything by simply removing the directory.
-
-### Usage
-
-To OCR text on a manga page, run:
-
-```
-$ transformers_ocr recognize
-```
-
-The tool works similarly to the one explained in the Tesseract section.
-It will ask you to select an area with Japanese text and try to OCR it.
-The resulting text will be saved to the system clipboard.
-Use it in combination with Yomichan Search
-to quickly lookup Japanese words in real-time.
-
-> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
-> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
-
-The first run will take longer than usual.
-There's yet another set of files that have to be downloaded for the OCR to work.
-The files will be save to `~/.cache/huggingface` and take up another `500MiB`.
-
-### Keyboard shortcut
-
-Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for [i3wm](https://i3wm.org/):
-
-```
-bindsym $mod+o exec --no-startup-id transformers_ocr recognize
-```
-
-### Autostart
-
-Before `transformers_ocr` can recognize text,
-it needs to start a background listener.
-Although this is optional,
-to minimize the startup lag,
-add the following command to autostart.
-
-```
-transformers_ocr listen
-```
-
-Here's an example for [i3wm](https://i3wm.org/):
-
-```
-exec --no-startup-id transformers_ocr listen
-```
 
 ## Adding screenshots
 

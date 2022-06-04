@@ -78,7 +78,73 @@ The resulting user workflow is identical, see the demo below.</p>
 <p>To read manga,
 it is nice to have an image viewer.
 I use <a href="https://wiki.archlinux.org/title/Sxiv">sxiv</a>,
-but for this setup you can install any image viewer.</p>
+but for this setup you can install any image viewer.
+On many manga sites you can also read online in a web browser.</p>
+<h2 id="ocr-method"><a class="anchor" href="#ocr-method" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OCR method</h2>
+<p>Although Transformers requires more system resources,
+I prefer it to Tesseract.
+Compared to Tesseract it handles manga better.</p>
+<ul>
+<li><a href="#setting-up-transformers">Transformers</a></li>
+<li><a href="#setting-up-tesseract">Tesseract</a></li>
+</ul>
+<h2 id="setting-up-transformers"><a class="anchor" href="#setting-up-transformers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Transformers</h2>
+<p>Install <a href="https://aur.archlinux.org/packages/transformers_ocr">transformers_ocr</a>
+from the <a href="https://wiki.archlinux.org/title/Arch_User_Repository">AUR</a>.</p>
+<pre><code>$ trizen -S transformers_ocr
+</code></pre>
+<p><code>transformers_ocr</code> makes use of the following programs:</p>
+<ul>
+<li><a href="https://github.com/naelstrof/maim">maim</a> to take screenshots.</li>
+<li><a href="https://github.com/astrand/xclip">xclip</a> to copy text to the clipboard.</li>
+</ul>
+<p>If you're not running a distribution based on Arch Linux,
+install manually by following the
+<a href="https://github.com/Ajatt-Tools/transformers_ocr">instructions on GitHub</a>.</p>
+<p>By itself <code>transformers_ocr</code> is just a short wrapper script
+that installs Transformers and other required Python packages.
+After the installation you need to download additional dependencies.
+Run the following command.</p>
+<pre><code>$ transformers_ocr download
+</code></pre>
+<p>It will download <a href="https://pypi.org/project/manga-ocr/">manga-ocr</a>,
+a Python library responsible for optical character recognition.
+The files will be saved to <code>~/.local/share/manga_ocr</code>
+and take up <code>2GiB</code> of disk space.</p>
+<p><strong>Note:</strong> <code>transformers_ocr</code> saves the Python packages to a standalone directory
+to ensure that later you can uninstall everything by simply removing the directory.</p>
+<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<p>To OCR text on a manga page, run:</p>
+<pre><code>$ transformers_ocr recognize
+</code></pre>
+<p>The tool works similarly to the one explained in the Tesseract section.
+It will ask you to select an area with Japanese text and try to OCR it.
+The resulting text will be saved to the system clipboard.
+Use it in combination with Yomichan Search
+to quickly lookup Japanese words in real-time.</p>
+<blockquote>
+<p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
+<a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
+</blockquote>
+<p>The first run will take longer than usual.
+There's yet another set of files that have to be downloaded for the OCR to work.
+The files will be saved to <code>~/.cache/huggingface</code> and take up another <code>500MiB</code>.</p>
+<h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
+<p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
+Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
+<pre><code>bindsym $mod+o exec --no-startup-id transformers_ocr recognize
+</code></pre>
+<h3 id="autostart"><a class="anchor" href="#autostart" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Autostart</h3>
+<p>Before <code>transformers_ocr</code> can recognize text,
+it needs to start a background listener.
+Although this is optional,
+to minimize the startup lag,
+add the following command to autostart.</p>
+<pre><code>transformers_ocr listen
+</code></pre>
+<p>Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
+<pre><code>exec --no-startup-id transformers_ocr listen
+</code></pre>
 <h2 id="setting-up-tesseract"><a class="anchor" href="#setting-up-tesseract" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Tesseract</h2>
 <p>Install the following dependencies:</p>
 <pre><code>$ sudo pacman -S --needed tesseract maim xclip imagemagick unzip
@@ -105,7 +171,7 @@ and save it as <code>~/.local/bin/maimocr</code>.
 </code></pre>
 <p>The directory <code>~/.local/bin</code> should be in your
 <a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</p>
-<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<h3 id="usage-1"><a class="anchor" href="#usage-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
 <p>Tesseract doesn't work without
 <a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html">trained data files</a>.
 These files tell Tesseract how to read and recognize text from images.
@@ -120,7 +186,7 @@ to quickly lookup Japanese words in real-time.</p>
 <p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
 <a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
 </blockquote>
-<h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
+<h3 id="keyboard-shortcut-1"><a class="anchor" href="#keyboard-shortcut-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
 <p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
 Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
 <pre><code>bindsym $mod+o exec --no-startup-id maimocr
@@ -159,63 +225,6 @@ Tesseract works poorly at low resolutions.</p>
 In this case I don't have a definitive answer at the moment.
 Try searching for more <code>*.traineddata</code> files online
 and adding them to the <code>tessdata</code> folder.</p>
-<h2 id="setting-up-transformers"><a class="anchor" href="#setting-up-transformers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Transformers</h2>
-<p>Install <a href="https://aur.archlinux.org/packages/transformers_ocr">transformers_ocr</a>
-from the <a href="https://wiki.archlinux.org/title/Arch_User_Repository">AUR</a>.</p>
-<pre><code>$ trizen -S transformers_ocr
-</code></pre>
-<p><code>transformers_ocr</code> makes use of the following programs:</p>
-<ul>
-<li><a href="https://github.com/naelstrof/maim">maim</a> to take screenshots.</li>
-<li><a href="https://github.com/astrand/xclip">xclip</a> to copy text to the clipboard.</li>
-</ul>
-<p>If you're not running a distribution based on Arch Linux,
-install manually by following the
-<a href="https://github.com/Ajatt-Tools/transformers_ocr">instructions on GitHub</a>.</p>
-<p>By itself <code>transformers_ocr</code> is just a short wrapper script
-that installs Transformers and other required Python packages.
-After the installation you need to download additional dependencies.
-Run the following command.</p>
-<pre><code>$ transformers_ocr download
-</code></pre>
-<p>It will download <a href="https://pypi.org/project/manga-ocr/">manga-ocr</a>,
-a Python library responsible for optical character recognition.
-The files will be saved to <code>~/.local/share/manga_ocr</code>
-and take up <code>2GiB</code> of disk space.</p>
-<p><strong>Note:</strong> <code>transformers_ocr</code> saves the Python packages to a standalone directory
-to ensure that later you can uninstall everything by simply removing the directory.</p>
-<h3 id="usage-1"><a class="anchor" href="#usage-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
-<p>To OCR text on a manga page, run:</p>
-<pre><code>$ transformers_ocr recognize
-</code></pre>
-<p>The tool works similarly to the one explained in the Tesseract section.
-It will ask you to select an area with Japanese text and try to OCR it.
-The resulting text will be saved to the system clipboard.
-Use it in combination with Yomichan Search
-to quickly lookup Japanese words in real-time.</p>
-<blockquote>
-<p>To open Yomichan Search, open your Web Browser and press <code>Alt+Insert</code>.
-<a href="https://foosoft.net/projects/yomichan/">Yomichan</a> should be already installed.</p>
-</blockquote>
-<p>The first run will take longer than usual.
-There's yet another set of files that have to be downloaded for the OCR to work.
-The files will be save to <code>~/.cache/huggingface</code> and take up another <code>500MiB</code>.</p>
-<h3 id="keyboard-shortcut-1"><a class="anchor" href="#keyboard-shortcut-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
-<p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
-<pre><code>bindsym $mod+o exec --no-startup-id transformers_ocr recognize
-</code></pre>
-<h3 id="autostart"><a class="anchor" href="#autostart" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Autostart</h3>
-<p>Before <code>transformers_ocr</code> can recognize text,
-it needs to start a background listener.
-Although this is optional,
-to minimize the startup lag,
-add the following command to autostart.</p>
-<pre><code>transformers_ocr listen
-</code></pre>
-<p>Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
-<pre><code>exec --no-startup-id transformers_ocr listen
-</code></pre>
 <h2 id="adding-screenshots"><a class="anchor" href="#adding-screenshots" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding screenshots</h2>
 <p>If you want to add a screenshot from a manga to your Anki card,
 <a href="https://archlinux.org/packages/community/x86_64/maim/">maim</a>
