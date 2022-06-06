@@ -144,7 +144,8 @@ const Toc = Object.freeze({
     link_regex: /\[(?<name>[^\]\[\)\(]+)\]\((?<path>[^\]\[\)\(]+)\)/g,
     make_link(to, next) {
         const a = document.createElement('a')
-        a.href = to
+        a.href = to.groups.path
+        a.title = to.groups.name
         a.className = next ? "md-button next" : "md-button prev"
         a.innerText = next ? "Next" : "Previous"
         return a
@@ -163,20 +164,16 @@ const Toc = Object.freeze({
                     throw new Error("Couldn't fetch table of contents.");
                 }
             })
-            .then(text => {
-                this.link_adjacent([...text.matchAll(this.link_regex)].map(match => match.groups.path))
-            })
-            .catch(error => {
-                console.error(error);
-            });
+            .then(text => this.link_adjacent([...text.matchAll(this.link_regex)]))
+            .catch(error => console.error(error));
     },
-    link_adjacent(articles_list) {
+    link_adjacent(matches_list) {
         const outer = document.querySelector('div#divbody')
         if (outer.querySelector(".toc_navigation") === null) {
-            const i = articles_list.indexOf(Utils.filename())
+            const i = matches_list.findIndex(match => match.groups.path === Utils.filename())
             if (i >= 0 && outer) {
                 const container = outer.appendChild(this.make_nav_container())
-                const [prev, next] = [articles_list[i - 1], articles_list[i + 1]]
+                const [prev, next] = [matches_list[i - 1], matches_list[i + 1]]
                 if (prev !== undefined) {
                     container.appendChild(this.make_link(prev, false))
                 }
