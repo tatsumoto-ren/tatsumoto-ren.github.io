@@ -141,6 +141,7 @@ const Sidebar = Object.freeze({
 })
 
 const Toc = Object.freeze({
+    link_regex: /\[(?<name>[^\]\[\)\(]+)\]\((?<path>[^\]\[\)\(]+)\)/g,
     make_link(to, next) {
         const a = document.createElement('a')
         a.href = to
@@ -154,19 +155,20 @@ const Toc = Object.freeze({
         return div
     },
     init() {
-        const articles_list = []
-        const regex = /\[([^\]\[\)\(]+)\]\(([^\]\[\)\(]+)\)/g
-        const toc_request = new XMLHttpRequest();
-        toc_request.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                for (const match of toc_request.responseText.matchAll(regex)) {
-                    articles_list.push(match[2])
+        fetch("table-of-contents.md")
+            .then(response => {
+                if (response.ok) {
+                    return response.text()
+                } else {
+                    throw new Error("Couldn't fetch table of contents.");
                 }
-                Toc.link_adjacent(articles_list)
-            }
-        };
-        toc_request.open("GET", "table-of-contents.md", true);
-        toc_request.send();
+            })
+            .then(text => {
+                this.link_adjacent([...text.matchAll(this.link_regex)].map(match => match.groups.path))
+            })
+            .catch(error => {
+                console.error(error);
+            });
     },
     link_adjacent(articles_list) {
         const outer = document.querySelector('div#divbody')
