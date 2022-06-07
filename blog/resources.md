@@ -366,6 +366,14 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 
 ### Reading eBooks
 
+* [Cool Reader](https://archlinux.org/packages/community/x86_64/coolreader/).
+E-book viewer.
+One day Foliate stopped working for me, so I had to search for a replacement.
+This one gets the job done, though it lacks a number of features I would like to have.
+After installation open Settings and choose Japanese fonts
+to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
+[Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
+Japanese `Noto` fonts did not, some text was still in Chinese.
 * [Foliate](https://johnfactotum.github.io/foliate/).
 A simple and modern eBook viewer.
 [Package](https://archlinux.org/packages/?name=foliate).
