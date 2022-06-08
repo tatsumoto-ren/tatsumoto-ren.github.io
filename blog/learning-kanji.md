@@ -3,20 +3,33 @@
 Unlike kana which you can learn in a matter of few days no matter what method you pick,
 learning kanji is apparently more difficult, and there are many methods of doing it.
 
+****
+
+## How to approach kanji
+
 To pick the right method
 you have to understand why you want to learn kanji in the first place.
 The "practice how you play" principle applies here as well.
-Kanji do not exist in a vacuum, instead they're used to writing Japanese words,
+Kanji do not exist in a vacuum, instead they're used to write Japanese words,
 so in order to "learn" them all you need to do is learn words.
+
+The only time you ever need to do anything with kanji is
+when you are either reading a word or writing a word.
+So, as long as you can read and write words, your kanji problems are solved.
+
 To learn a word means to memorize how it's read and what it means.
-Over time as you keep learning words you unconsciously get better at recognizing the kanji.
+Over time as you keep learning words,
+you unconsciously get better at recognizing the kanji.
 
 We advise against learning kanji readings in isolation.
 Very often a kanji character has a number of completely different readings.
 Not only learning all of them is an enormous task,
 but it's impossible to apply the knowledge to real native content when reading.
 
-****
+It is glaringly obvious,
+but people who have been exposed to Japanese textbooks
+and tranditional language learning in general
+are trapped by Dogma and have simply never actually thought it through.
 
 ## Kanji composition
 
@@ -28,9 +41,8 @@ For example, `曇` is a combination of `日`, `雨` and `云`.
 There are only about 200 of such basic components.
 
 This property of kanji can be and often used to aid memorization.
-Some people may also choose to dedicate a week or two to study the individual radicals.
-Being able to see kanji in terms of their components makes learning words easier,
-although it's completely optional and only gives benefits in the short term.
+Many kanji study methods exploit kanji composition and teach kanji in terms of their parts.
+Being able to see kanji in terms of their components makes learning words easier.
 
 ## Kanji production
 
@@ -41,6 +53,11 @@ so as long as you can read kanji, you can type kanji as well.
 Instead, we recommend waiting until you're fluent and
 [learn handwriting](writing-japanese.html) then.
 Learning to produce characters that you've already learned to recognize is going to be easier.
+
+It's not a suprise that in Japan handwriting is still important.
+But if you don't plan to live in Japan,
+we think it's perfectly reasonable to
+never learn how to write out kanji by hand.
 
 ## Kanji fluency
 
@@ -87,6 +104,17 @@ and then you end up naturally reaching the point of kanji fluency.
 The main goal of isolated kanji study is not to learn what every kanji means,
 but simply to push learners to the point
 where recognizing a kanji feels similar to recognizing a human face.
+
+Now, another way to look at this is
+if we look at Chinese people who learn Japanese,
+they improve so much faster and reach higher levels
+than traditional western learners of the language
+because they know the characters already.
+So you first need to become like a Chinese person.
+Chinese people don't know how to read the kanji in Japanese
+but they know how kanji look like and they know the meanings.
+After you catch up to a Chinese person
+then you can move on to learning grammar and sentences.
 
 Many commonly used resources that encourage mnemonics are based on RTK.
 Originally, RTK refers to a book "Remembering the Kanji" by James Heisig.
@@ -174,10 +202,6 @@ At Ajatt-Tools we have made our own Anki deck for people who wish to follow this
 You can download the deck below:.
 
 <p align="center"><a class="download_button" href="jp1k-anki-deck.html">Kanji Transition</a></p>
-
-**Note:** The JP1K method was first introduced by Refold.
-If you want to learn more about the method from its author,
-watch [this YouTube video](https://redirect.invidious.io/watch?v=53qKsYxVhoM).
 
 ## Conclusion
 
