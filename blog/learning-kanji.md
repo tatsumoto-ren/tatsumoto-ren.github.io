@@ -12,7 +12,6 @@ you have to understand why you want to learn kanji in the first place.
 The "practice how you play" principle applies here as well.
 Kanji do not exist in a vacuum, instead they're used to write Japanese words,
 so in order to "learn" them all you need to do is learn words.
-
 The only time you ever need to do anything with kanji is
 when you are either reading a word or writing a word.
 So, as long as you can read and write words, your kanji problems are solved.
@@ -86,6 +85,17 @@ When you see a new kanji, it will look like *something* to you.
 When you encounter that character again,
 you will instantly recognize it as the same exact character.
 
+## Two methods of learning kanji
+
+I'm going to present two main methods of learning kanji that I think are the most effective.
+One is isolated kanji study, the other is JP1K.
+Isolated kanji study is when you learn meanings of one or two thousand
+most common or most useful individual kanji characters in a span of a couple months.
+Knowing the meanings later aids in memorization of words.
+JP1K is a method that was invented in the Japanese learning community quite recently.
+It consists of learning the most common 1,000 words
+with a trick that makes memorizing kanji readings easier.
+
 ## Isolated kanji study
 
 Training kanji recognition through isolated kanji study
@@ -106,7 +116,7 @@ but simply to push learners to the point
 where recognizing a kanji feels similar to recognizing a human face.
 
 Now, another way to look at this is
-if we look at Chinese people who learn Japanese,
+if we watch Chinese people who learn Japanese,
 they improve so much faster and reach higher levels
 than traditional western learners of the language
 because they know the characters already.
