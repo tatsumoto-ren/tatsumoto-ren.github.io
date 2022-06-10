@@ -132,20 +132,21 @@ The ordering of characters in the book
 and its component-based mnemonic system
 are used in combination with the SRS.
 
-* [RTK](https://web.archive.org/web/20210224170156/https://www.britvsjapan.com/learn-kanji-fast-ultimate-guide-to-remembering-the-kanji/).
-The traditional method intended for those who wish to learn handwriting from the start.
-Each Anki card has a keyword on the front and your job is to recall the character from memory.
-* [RRTK](https://web.archive.org/web/20210224170546if_/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#rrtk).
+* [RRTK](https://disk.yandex.com/d/QRMVEsUtbItLyA).
 Recognition RTK.
-It is a modification to the traditional RTK intended to optimize it for training recognition.
-You're given a deck which contains kanji on the front of the cards,
+It is an Anki deck intended to optimize RTK for training recognition.
+Compared to the original book,
+the number of characters was reduced to the most common 1,000 kanji.
+The reason for this is that the main goal of RRTK is not to learn what every kanji means,
+but simply to bring learners to the point of kanji fluency.
+Kanji are given on the front of the cards,
 and you need to memorize the meanings they represent.
-* [Lazy Kanji Cards](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/).
-The card format Khatzumoto from AJATT used.
-RRTK is based on this idea.
+The format of the flashcards is similar to
+[Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/),
+which is a card format Khatzumoto from AJATT recommended.
 * AnkiWeb has a [large collection](https://ankiweb.net/shared/decks/rtk) of premade RTK decks.
 
-Other decks that use the mnemonic-based approach but are not based on RTK:
+Other options that use the mnemonic-based approach but are not based on RTK:
 
 * [KanjiDamage](http://www.kanjidamage.com/).
 A big improvement over RTK.
@@ -158,7 +159,7 @@ Some component names were renamed.
 See [the online reference](https://kanjidamageplus.neocities.org/).
 
 The downside is that although this method makes it easier to remember words later on,
-it requires investing months into essentially memorizing English keywords
+it requires investing time into essentially memorizing English keywords
 that have a very loose connection to real Japanese.
 KanjiDamage gives you a little more benefit
 by incorporating the main reading of each kanji into the mnemonic story.
