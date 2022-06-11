@@ -10,8 +10,8 @@ learning kanji is apparently more difficult, and there are many methods of doing
 To pick the right method
 you have to understand why you want to learn kanji in the first place.
 The "practice how you play" principle applies here as well.
-Kanji do not exist in a vacuum, instead they're used to write Japanese words,
-so in order to "learn" them all you need to do is learn words.
+Kanji do not exist in a vacuum, instead people use them to write Japanese words.
+In order to "learn" them all you need to do is learn words.
 The only time you ever need to do anything with kanji is
 when you are either reading a word or writing a word.
 So, as long as you can read and write words, your kanji problems are solved.
@@ -90,7 +90,7 @@ you will instantly recognize it as the same exact character.
 I'm going to present two main methods of learning kanji that I think are the most effective.
 One is isolated kanji study, the other is JP1K.
 Isolated kanji study is when you learn meanings of one or two thousand
-most common or most useful individual kanji characters in a span of a couple months.
+most common or most useful individual kanji characters in a span of a couple of months.
 Knowing the meanings later aids in memorization of words.
 JP1K is a method that was invented in the Japanese learning community quite recently.
 It consists of learning the most common 1,000 words
@@ -121,8 +121,9 @@ they improve so much faster and reach higher levels
 than traditional western learners of the language
 because they know the characters already.
 So you first need to become like a Chinese person.
-Chinese people don't know how to read the kanji in Japanese
-but they know how kanji look like and they know the meanings.
+Chinese people don't know how to read the kanji in Japanese,
+but they know how kanji look like,
+and they know the meanings.
 After you catch up to a Chinese person
 then you can move on to learning grammar and sentences.
 
@@ -132,31 +133,38 @@ The ordering of characters in the book
 and its component-based mnemonic system
 are used in combination with the SRS.
 
+The book Remembering the Kanji
+only orders kanji in terms of their components and gives mnemonics for some of them.
+Fortunately, there are many Anki decks created from RTK.
+They free you from the need to copy the kanji from the book into Anki by hand,
+preserve the ordering and mnemonic system,
+and add the benefits of spaced repetition.
+
 * [RRTK](https://disk.yandex.com/d/QRMVEsUtbItLyA).
-Recognition RTK.
-It is an Anki deck intended to optimize RTK for training recognition.
-Compared to the original book,
-the number of characters was reduced to the most common 1,000 kanji.
-The reason for this is that the main goal of RRTK is not to learn what every kanji means,
-but simply to bring learners to the point of kanji fluency.
-Kanji are given on the front of the cards,
-and you need to memorize the meanings they represent.
-The format of the flashcards is similar to
-[Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/),
-which is a card format Khatzumoto from AJATT recommended.
+  Recognition RTK.
+  It is an Anki deck intended to optimize RTK for training recognition.
+  Compared to the original book,
+  the number of characters was reduced to the most common 1,000 kanji.
+  The reason for this is that the main goal of RRTK is not to learn what every kanji means,
+  but simply to bring learners to the point of kanji fluency.
+  Kanji are given on the front of the cards,
+  and you need to memorize the meanings they represent.
+  The format of the flashcards is similar to
+  [Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/),
+  which is a card format Khatzumoto from AJATT recommended.
 * AnkiWeb has a [large collection](https://ankiweb.net/shared/decks/rtk) of premade RTK decks.
 
 Other options that use the mnemonic-based approach but are not based on RTK:
 
 * [KanjiDamage](http://www.kanjidamage.com/).
-A big improvement over RTK.
-Introduces more easily memorable component names and high quality mnemonic stories.
-Each character has mnemonics for its most important reading,
-but it doesn't force you to learn multiple readings.
+  A big improvement over RTK.
+  Introduces more easily memorable component names and high quality mnemonic stories.
+  Each character has mnemonics for its most important reading,
+  but it doesn't force you to learn multiple readings.
 * [KanjiDamage+](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
-A slightly larger version of KanjiDamage which contains ~200 additional kanji.
-Some component names were renamed.
-See [the online reference](https://kanjidamageplus.neocities.org/).
+  A slightly larger version of KanjiDamage which contains ~200 additional kanji.
+  Some component names were renamed.
+  See [the online reference](https://kanjidamageplus.neocities.org/).
 
 The downside is that although this method makes it easier to remember words later on,
 it requires investing time into essentially memorizing English keywords
