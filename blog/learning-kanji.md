@@ -165,10 +165,14 @@ Other options that use the mnemonic-based approach but are not based on RTK:
 
 * [KanjiDamage](http://www.kanjidamage.com/).
   A big improvement over RTK.
-  Introduces more easily memorable component names and high quality mnemonic stories.
-  Each character has mnemonics for its most important reading,
-  but it doesn't force you to learn multiple readings.
-* [KanjiDamage+](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
+  Similarly to RTK, kanji are broken up into their components,
+  but the components themselves are different from RTK.
+  They have clever names invented to facilitate the memorization process.
+  While RTK gives mnemonic stories for some kanji,
+  KanjiDamage has them for every kanji.
+  The mnemonics are usually pretty great.
+  There's also a mnemonic for the most important reading, usually an onyomi.
+* [KanjiDamage Plus](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
   A slightly larger version of KanjiDamage which contains ~200 additional kanji.
   Some component names were renamed.
   See [the online reference](https://kanjidamageplus.neocities.org/).
@@ -239,6 +243,7 @@ but all of us learn this way past the beginner stage.
 2) Study kanji in isolation using a mnemonic-based method such as KanjiDamage or RTK.
 For each kanji you memorize its meaning
 which later acts like a mental anchor making associating words with kanji easier.
+Out of the available options my favorite one is KanjiDamage Plus.
 3) Use the JP1K method to learn words without penalizing yourself for not knowing their readings.
 
 The last two paths only serve as intermediate steps to prepare you for reading native content.
