@@ -1,7 +1,9 @@
 # Table of Contents
 
 * [Foreword](foreword.html)
-* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
+* Introduction
+	* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
+	* [Spaced repetition](spaced-repetition.html)
 * Setup
 	* [How to type in Japanese](how-to-type-in-japanese.html)
 	* [Anki](setting-up-anki.html)
