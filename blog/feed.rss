@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Sun, 22 May 2022 13:58:41 +0300</lastBuildDate>
-<pubDate>Sun, 22 May 2022 13:58:41 +0300</pubDate>
+<lastBuildDate>Sun, 12 Jun 2022 07:17:50 +0300</lastBuildDate>
+<pubDate>Sun, 12 Jun 2022 07:17:50 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Spaced repetition</title><description><![CDATA[
+<p>To study efficiently
+and help you keep track of the learning process
+one of the first things you're going to want to do is
+obtain a spaced repetition system.
+In this article let's cover the theory behind spaced repetition,
+why you need it
+and what system to use.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/spaced-repetition.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/spaced-repetition.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 12 Jun 2022 07:16:37 +0300</pubDate></item>
 <item><title>
 JLPT Tango N1 Anki deck</title><description><![CDATA[
 <p align="center">
@@ -170,23 +184,4 @@ The main reason you want to use the program is to browse monolingual dictionarie
 <guid>https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 29 Sep 2021 05:10:24 +0300</pubDate></item>
-<item><title>
-One target sentences</title><description><![CDATA[
-<p>Let's define a &quot;target&quot; as any unknown piece of information
-in a given sentence in a foreign language.
-It can be either a word or a grammar structure.
-We can divide all sentences we encounter while immersing in our target language into three groups:</p>
-<ol>
-<li><code>0T</code>, zero-target.
-Sentences that don't contain anything you don't already know.</li>
-<li><code>1T</code>, one-target.
-Sentences that contain one unknown piece of information.</li>
-<li><code>2T+</code>, <code>MT</code>, multi-target.
-Sentences that contain multiple unknown pieces of information.</li>
-</ol>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/one-target-sentences.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/one-target-sentences.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 10 Sep 2021 00:04:36 +0300</pubDate></item>
 </channel></rss>
