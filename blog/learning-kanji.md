@@ -27,7 +27,7 @@ but it's impossible to apply the knowledge to real native content when reading.
 
 It is glaringly obvious,
 but people who have been exposed to Japanese textbooks
-and tranditional language learning in general
+and traditional language learning in general
 are trapped by Dogma and have simply never actually thought it through.
 
 ## Kanji composition
@@ -53,7 +53,7 @@ Instead, we recommend waiting until you're fluent and
 [learn handwriting](writing-japanese.html) then.
 Learning to produce characters that you've already learned to recognize is going to be easier.
 
-It's not a suprise that in Japan handwriting is still important.
+It's not a surprise that in Japan handwriting is still important.
 But if you don't plan to live in Japan,
 we think it's perfectly reasonable to
 never learn how to write out kanji by hand.
@@ -133,7 +133,14 @@ The ordering of characters in the book
 and its component-based mnemonic system
 are used in combination with the SRS.
 
-The book Remembering the Kanji
+Kanji in the book are ordered by the complexity and number of their components.
+So for example before you learn `拐`, you have to learn `手`, `口` and `刀`.
+Every character is given only one meaning (keyword) to avoid memory interference.
+If you're interested in learning more about the logic behind RTK,
+read the introduction at the beginning of the
+[RTK part 1 book](https://midov.pl/_matrix/media/r0/download/midov.pl/PQuWVvjTjvQkBXuuOPYmqJDn).
+
+Remembering the Kanji
 only orders kanji in terms of their components and gives mnemonics for some of them.
 Fortunately, there are many Anki decks created from RTK.
 They free you from the need to copy the kanji from the book into Anki by hand,
