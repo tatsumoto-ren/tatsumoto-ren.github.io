@@ -165,4 +165,10 @@ where you only remember things learned recently.
 With the SRS you are sure you don't slide down,
 you are only moving forward.
 
+## The chosen SRS
+
+Anki still remains my SRS of choice.
+I use it every day for language learning and to study other subjects.
+In later chapters we'll discuss how to install and set it up.
+
 Tags: guide
