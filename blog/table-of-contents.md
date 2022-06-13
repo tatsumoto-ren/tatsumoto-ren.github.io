@@ -4,6 +4,7 @@
 * Introduction
 	* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
 	* [Spaced repetition](spaced-repetition.html)
+	* [How Anki works](how-anki-works.html)
 * Setup
 	* [How to type in Japanese](how-to-type-in-japanese.html)
 	* [Anki](setting-up-anki.html)
