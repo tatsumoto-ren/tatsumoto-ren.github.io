@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>How Anki works</title>
+<meta property="og:title" content="How Anki works">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/how-anki-works.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<div id="headerholder" class="headerholder">
+<header>
+<div class="logoholder">
+<a href="index.html" class="logo">
+<img alt="達元" src="img/logo.webp" />
+<h1>Tatsumoto</h1>
+</a>
+</div>
+<input class="menu" type="checkbox" id="menu-btn" />
+<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="donating-to-tatsumoto.html">Support</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+</header>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="how-anki-works.html">How Anki works</a></h1>
+<!-- bashblog_timestamp: #1655135740# -->
+<div class="subtitle">June 13, 2022 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>Since in this guide we are going to use Anki to study our target language,
+let's talk about how it works.</p>
+<hr>
+<p>Studying in Anki consists of the following points.</p>
+<ul>
+<li>Creating <em>notes</em>.</li>
+<li>Learning new flashcards.</li>
+<li>Reviewing previously learned flashcards.</li>
+</ul>
+<p>Notes and cards in Anki are not the same.
+You create <em>notes</em>, but study <em>cards</em>.</p>
+<p>A <strong>note</strong> is a piece of related fields of information.
+A Japanese vocabulary note would have fields for
+the word itself, its reading, the definition, and so on.</p>
+<p>A question and answer pair is called a <strong>card</strong>.
+When you create a note,
+one or more cards are generated automatically using <em>Card Templates</em>.
+Card templates define how cards look,
+what fields are shown on each card and how they are arranged.</p>
+<p>Each flashcard will have a front side and a back side.
+On the front side there's a question that needs to be answered.
+The answer is placed on the back side.
+Language learners most often place
+a word, a phrase or a sentence in a foreign language on the front and its <em>meaning</em> on the back.</p>
+<p>New cards in Anki are the cards that you haven't learned yet.
+A new card can stay new any amount of time waiting for you to learn it.
+Anki lets you choose how many new cards you want to learn each day.
+Once you have learned a card,
+it &quot;graduates&quot; and becomes a &quot;review card&quot;.
+After a certain amount of time the card has to be reviewed.</p>
+<p>The act of learning new cards and reviewing existing cards
+is done in the form of quizzing oneself.</p>
+<ol>
+<li>Anki shows the front side of the card to you.</li>
+<li>You try to recall the answer and reveal the back side.</li>
+<li>You compare your memory and the information on the back side of the card.</li>
+<li>Anki asks for your feedback.
+You have to answer whether you knew the answer to the question.
+This feedback is used to calculate the next time you should see the card.</li>
+</ol>
+<p>The way Anki schedules flashcards is easy to understand.
+First a card is created.
+Then you learn it, and it receives a starting interval, <code>1</code> day by default.
+After the interval expires, the card needs to be reviewed.
+If you tell Anki that you remember the card, you've &quot;passed&quot; the review.
+Each time you successfully review a flashcard after its interval ends,
+the interval multiplies by <code>2.5</code>.
+The multiplier, the starting interval and other variables can be changed in Settings.
+If you forget a flashcard,
+it enters a &quot;relearn&quot; queue and has to be relearned.
+After a previously forgotten flashcard is relearned,
+its interval gets reduced or reset depending on the settings.</p>
+<p>Each day Anki forms a queue of cards for you to review.
+Every card whose interval has ended on that day or before that day will be in the queue.
+It is important to keep up with reviews, or you will forget what you've learned.</p>
+<p>As you can see, Anki doesn't approach scheduling intelligently.
+It doesn't &quot;predict&quot; anything, and it doesn't &quot;guess&quot; when you're going to forget things.
+It only multiplies interval of a flashcard indefinitely.
+The algorithm is simple but it works well.</p>
+<p>With Anki you can synchronize your flashcards across multiple devices
+using the built-in synchronization service.
+It enables you to study at home from a PC and outside from a phone, for example.</p>
+<p>To have a better understanding of Anki
+I advise you to read
+<a href="https://docs.ankiweb.net/getting-started.html">Getting Started</a>
+part of the Anki manual.</p>
+<p>Tags: <a href="tag_anki.html">anki</a>, <a href="tag_guide.html">guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Join our Patreon or donate cryptocurrency.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>

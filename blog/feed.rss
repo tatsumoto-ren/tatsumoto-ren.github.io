@@ -2,9 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Sun, 12 Jun 2022 07:17:50 +0300</lastBuildDate>
-<pubDate>Sun, 12 Jun 2022 07:17:50 +0300</pubDate>
+<lastBuildDate>Mon, 13 Jun 2022 19:04:11 +0300</lastBuildDate>
+<pubDate>Mon, 13 Jun 2022 19:04:11 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+How Anki works</title><description><![CDATA[
+<p>Since in this guide we are going to use Anki to study our target language,
+let's talk about how it works.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/how-anki-works.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-anki-works.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 13 Jun 2022 18:55:40 +0300</pubDate></item>
 <item><title>
 Spaced repetition</title><description><![CDATA[
 <p>To study efficiently
@@ -158,30 +167,4 @@ In this article let's discuss what you can do to sync them.</p>
 <guid>https://tatsumoto-ren.github.io/blog/retiming-subtitles.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 13 Oct 2021 21:32:55 +0300</pubDate></item>
-<item><title>
-Setting up Qolibri</title><description><![CDATA[
-<p><a href="https://aur.archlinux.org/packages/qolibri/">Qolibri</a>
-is a Qt-based dictionary viewer.
-It lets you search multiple dictionaries at one time
-so for every word you look up you immediately get multiple definitions.
-Qolibri remains one of the most widely used Japanese dictionary viewers for GNU/Linux.</p>
-<p>By itself, Qolibri is just a viewer.
-To utilize it, you need <strong>dictionary files</strong>.
-The dictionary files Qolibri reads are called <a href="https://ja.wikipedia.org/wiki/EPWING">EPWING</a>s.
-EPWING (electronic publishing WING) is a dictionary format
-that was allegedly utilized in portable electronic dictionaries.</p>
-<p>Qolibri is much better than Yomichan at searching a big number of dictionaries at the same time.
-If you try to use more than 5 dictionaries with Yomichan,
-it quickly becomes very cluttered and hard to navigate.
-Qolibri lists all dictionaries you have on a sidebar.
-It is easy to jump between them if you need to.</p>
-<p>If you haven't started using Japanese to Japanese dictionaries yet,
-feel free to skip this article for now.
-Though Japanese to English dictionaries for Qolibri exist, their number is not very large.
-The main reason you want to use the program is to browse monolingual dictionaries.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/setting-up-qolibri.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 29 Sep 2021 05:10:24 +0300</pubDate></item>
 </channel></rss>
