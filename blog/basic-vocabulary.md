@@ -172,7 +172,7 @@ Refer to Core10k when you have trouble finding example sentences.
 
 * Try to recall the meaning and reading of the **bolded** word.
 * Use the context to understand how the word connects with other words.
-* Press "Good" if your guess is correct. Otherwise press "Again".
+* Press "Good" if your guess is correct. Otherwise, press "Again".
 * Don't use the "Hard" and "Easy" buttons. Install
 [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333)
 to hide them.
@@ -293,7 +293,7 @@ N=1000; {
 
 You're expected to progress very quickly in your first months of doing AJATT.
 Unfortunately, the reality is that we quickly hit the point of diminishing returns.
-The more words you learn from that point, the slower your comprehension increases.
+The more words you learn from that point, the slower your comprehension grows.
 
 The bright side is that you can use the numbers as milestones.
 Reaching each milestone is like winning a small game,
