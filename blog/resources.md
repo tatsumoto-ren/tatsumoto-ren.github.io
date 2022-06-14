@@ -286,6 +286,9 @@ A list of books in Epub and azw3 formats.
 * [Sōseki Project](https://www.sosekiproject.org/).
 Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
 with a number of tools to assist the students of Japanese.
+* [アルファポリス](https://www.alphapolis.co.jp/).
+  A site where you can read novels, manga, etc. for free.
+  You can disable JavaScript but must allow cookies for books' pages to load.
 
 ### Audio
 
