@@ -227,8 +227,9 @@ Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
 * [Bilingualmanga](https://bilingualmanga.net/).
 Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
-View raw manga online.
-Make sure you disable JavaScript before opening the site.
+  View raw manga online.
+  * Make sure you disable JavaScript before opening the site.
+  * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
 * [Manga-zip](http://manga-zip.net/).
 Manga archive.
 * [Rawdevart](https://rawdevart.com/).
@@ -242,15 +243,20 @@ young jump and other manga magazines.
 * [Itazuraneko 漫画](https://itazuraneko.neocities.org/library/manga.html).
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
 * [Manga Raw](https://manga1000.com/).
-Read manga online.
-* [HAKARAW](https://hakaraw.com/).
-Read manga online.
+  Read manga online.
+* [MIKARAW](https://mikaraw.com/).
+  Read manga online.
+  * The site does not work with JavaScript disabled.
 * [マンガ図書館Z](https://www.mangaz.com/).
 Manga library. Read manga for free.
 * [となりのヤングジャンプ](https://tonarinoyj.jp/).
 A site where you can read manga online.
 * [DLRAW](https://dlraw.net/).
 Raw manga archived as zip and rar files.
+* [RAWKUMA](https://rawkuma.com/).
+  Like Senmanga, hosts manga online.
+  * The site does not work with JavaScript disabled.
+  * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
 
 ### Books
 
@@ -662,9 +668,9 @@ How to learn Japanese on your own, having fun and to fluency.
 Notable articles:
 
 * [Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
-One of the many methods of learning kanji.
+  One of the many methods of learning kanji.
 * [10,000 Sentences: How](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
-The sentence mining method Khatzumoto used for learning Japanese.
+  The sentence mining method Khatzumoto used for learning Japanese.
 * [On Grammar](http://www.alljapaneseallthetime.com/blog/on-grammar).
 
 Anti-features:
@@ -674,7 +680,7 @@ Anti-features:
 is known for spying on and politically suppressing its users.
 * Contains outdated information.
 * Talks about MCD, which is a flashcard format that hasn't received much adoption
-over the years due to being too difficult and complicated.
+  over the years due to being too difficult and complicated.
 * Advertises unnecessary paid products.
 * Tries to harvest Email addresses.
 
@@ -695,11 +701,11 @@ Notable articles:
 Anti-features:
 
 * The site doesn't work (the menu breaks) unless you enable JavaScript.
-The JavaScript code is proprietary and is not safe to run.
+  The JavaScript code is proprietary and is not safe to run.
 * Recommends and includes links to proprietary spyware
-such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
-* Includes instructions on how to join their Discord server.
-Discord is known for spying on and politically suppressing its users.
+  such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
+* Includes instructions on how to join their [Discord](https://spyware.neocities.org/articles/discord.html) server.
+  Discord is known for spying on and politically suppressing its users.
 * Collects Email addresses which is to say the least suspicious.
 * Tries to sell you useless junk.
 
@@ -710,8 +716,8 @@ A collection of guides for those interested in learning Japanese.
 Anti-features:
 
 * Includes links to non-free software.
-* Includes links to Discord servers.
-Discord is known for spying on and politically suppressing its users.
+* Includes links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
+  Discord is known for spying on and politically suppressing its users.
 * Contains outdated information.
 
 ### [Antimoon](http://www.antimoon.com/)
@@ -739,9 +745,8 @@ Anti-features:
 [playing visual novels](https://www.gnu.org/philosophy/nonfree-games.html).
 Most visual novels should be avoided since they are proprietary.
 * They mention software that requires proprietary operating systems to run.
-* They include links to Discord servers.
-[Discord](how-to-save-the-japanese-learning-community.html)
-is known for spying on and politically suppressing its users.
+* They include links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
+Discord is known for spying on and politically suppressing its users.
 * Both sites recommend "anime cards".
 In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
