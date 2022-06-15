@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Matrix quickstart guide</title>
+<meta property="og:title" content="Matrix quickstart guide">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/matrix-quickstart-guide.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<div id="headerholder" class="headerholder">
+<header>
+<div class="logoholder">
+<a href="index.html" class="logo">
+<img alt="達元" src="img/logo.webp" />
+<h1>Tatsumoto</h1>
+</a>
+</div>
+<input class="menu" type="checkbox" id="menu-btn" />
+<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="donating-to-tatsumoto.html">Support</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+</header>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="matrix-quickstart-guide.html">Matrix quickstart guide</a></h1>
+<!-- bashblog_timestamp: #1655322524# -->
+<div class="subtitle">June 15, 2022 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>This article is a user guide to Matrix.
+It also covers the most popular Matrix client program, Element.</p>
+<hr>
+<h2 id="what-is-matrix"><a class="anchor" href="#what-is-matrix" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is Matrix?</h2>
+<p>Matrix is an internet chat protocol.
+You can message people personally or in group chats,
+send files,
+and use end-to-end encryption to secure your communications.
+Unlike Discord or Telegram, Matrix is federated.
+It consists of many servers,
+each server hosts Matrix accounts and chats.
+You make an account on a Matrix server,
+it talks to other Matrix servers on your behalf and sends the data to you.
+Email is an example of a federated protocol.</p>
+<p>On Matrix, usernames are referred to as <code>MXID</code>s (Matrix IDs),
+chats as <code>room</code>s
+servers as <code>homeserver</code>s.
+You can also group rooms together to form <code>space</code>s.
+Matrix spaces behave like Discord &quot;servers&quot;.</p>
+<h2 id="why-matrix"><a class="anchor" href="#why-matrix" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why Matrix</h2>
+<p>There is a number of major advantages to Matrix that attract new users.</p>
+<ol>
+<li><p>Protection against jannies.
+If you pick a trusted homeserver or host one yourself,
+you won't lose your account or your chats.
+On Discord, it is not a rare thing for &quot;servers&quot; to get banned.
+As a result, you have to create a new one and invite the old members back.
+No one guarantees you won't be banned again.</p>
+<p>Although Matrix homeservers can ban rooms,
+they can't command other homeservers to do the same.
+A room exists as long as there's at least one homeserver that has not banned it.</p>
+</li>
+<li><p>So much freedom.
+Every piece of the Matrix ecosystem is
+<a href="https://www.gnu.org/philosophy/free-sw.html">Free/Libre software</a>.
+This guarantees that you're not running
+<a href="https://www.gnu.org/proprietary/">malware</a>
+on your computer,
+and you know what the software is doing.</p>
+</li>
+<li><p>Encryption.
+Encryption ensures that only you and the people you're talking to
+can read the content of the messages.
+Encryption is supported by many messengers,
+but in Matrix it is trustworthy and made easy to use.
+The message encryption system used by Matrix has been independently audited.</p>
+<p>Note that encryption may or may not be enabled by default
+depending on the client application and the homeserver you use.
+It is recommended to enable it when creating private rooms
+but leaving it disabled when creating public rooms.
+Public rooms can be read by anybody anyway.
+Large rooms start lagging if they are encrypted.</p>
+</li>
+<li><p>All the usual features of messaging software.
+Group chats,
+direct messages,
+voice messages,
+voice and video calls,
+emoji and stickers,
+file and media sharing,
+etc.</p>
+</li>
+</ol>
+<h2 id="matrix-rooms"><a class="anchor" href="#matrix-rooms" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Matrix rooms</h2>
+<p>All communications on Matrix happen through Matrix rooms.
+When you message someone directly, you also create a room,
+except it is tagged as direct in your account settings.</p>
+<p>When a new user joins a room,
+the room is copied to their homeserver.
+This action might take some time to complete.
+If the server already has got a copy of the room,
+the user joins immediately.</p>
+<p>Homeservers participate in rooms on behalf of their users.
+Since each server has a copy of the room, this creates redundancy.
+While at least two different homeservers participate in a room,
+the room stays alive even if one of the servers goes offline.
+When the last participant on a particular homeserver leaves a room,
+the room <em>is supposed to be deleted from the homeserver</em>.
+When the very last participant leaves the room,
+it becomes inaccessible and no one can join it ever again.</p>
+<p>Homeservers can shut down (ban) rooms.
+If you try to join a banned room, you get an error saying,
+&quot;This room has been blocked on this server.&quot;
+This indicates that you should ditch your current homeserver because it is run by control freaks.</p>
+<p>Room admins can blocklist homeservers.
+If you try to join a room that has blocklisted your homeserver,
+you get an error saying,
+&quot;Server is banned from room.&quot;
+This indicates that you need a new account on another homeserver to join the room.</p>
+<p>Rooms have <a href="https://github.com/matrix-org/matrix-doc/blob/main/content/rooms/_index.md">versions</a>.
+When creating a new room, you want to pick the latest version to get all the possible features.
+The room's version can't be changed in the future,
+but the room can be upgraded to a newer version.
+Upgrading creates a new room with the same name and links the old room to the new room.</p>
+<h2 id="matrix-spaces"><a class="anchor" href="#matrix-spaces" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Matrix spaces</h2>
+<p>A Matrix space is a special room that contains references to other rooms.
+When a user enters a space, they see its description and a list of rooms to join.
+Spaces may reside inside other spaces.
+A room can belong to more than one space.</p>
+<ul>
+<li>Car parts (space)<ul>
+<li>Wheels</li>
+<li>Engine</li>
+<li>Seats</li>
+<li>Windows</li>
+</ul>
+</li>
+</ul>
+<p>Normally you don't send messages to a space.
+Spaces only act as collections of other rooms.</p>
+<h2 id="matrix-accounts"><a class="anchor" href="#matrix-accounts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Matrix accounts</h2>
+<p>You create your account on a server.
+The server stores all the data about your account.
+It also stores all your rooms and their message history.</p>
+<p>When you register a new account,
+a homeserver may ask your Email address and/or a phone number.
+The server's admin can see this data,
+for extra privacy you want to find a homeserver that doesn't ask for it.</p>
+<p>Unlike Matrix rooms, there's no redundancy to Matrix accounts.
+If you think that your homeserver may go offline at some point or ban you,
+keep a second account (an alt) registered on a different homeserver.</p>
+<p>At some point Matrix may become more independent of homeservers
+and allow the users to keep their account data locally.
+Until then keep in mind that homeservers can die unexpectedly and take accounts with them.</p>
+<h2 id="install-a-client-program"><a class="anchor" href="#install-a-client-program" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install a client program</h2>
+<p>To talk on Matrix you need any Matrix client.
+All Matrix clients are listed on <a href="https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients">Arch Wiki</a>.</p>
+<p>If you are a phone poster, open <a href="https://f-droid.org/">F-droid</a> and search for Matrix clients.
+Usually people install <code>Element</code> or <code>Fluffychat</code>.</p>
+<h2 id="choose-homeserver"><a class="anchor" href="#choose-homeserver" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Choose homeserver</h2>
+<p>See <a href="list-of-matrix-servers.html">List of Matrix servers</a>.</p>
+<p>If you have your own site,
+you can <a href="https://redirect.invidious.io/watch?v=dDddKmdLEdg">host a Matrix server</a> on it.
+If not, pick a server that has open registration.</p>
+<p>Never use <code>matrix.org</code> for anything other than trolling purposes,
+and be aware that <code>matrix.org</code> admins will sell your data to Israel.</p>
+<h2 id="running-element-locally"><a class="anchor" href="#running-element-locally" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Running Element locally</h2>
+<p>Element-Desktop is built with Electron.
+You may not like it because it runs in a separate browser instance,
+takes too much time to start and consumes a lot of RAM.
+Unable to bear that, you could switch to
+<a href="https://write.midov.pl/midek/software-list#matrix-client">another popular client</a>.
+Alternatively, you can run Element in your browser.
+The easiest way to do it is to open <a href="list-of-matrix-servers.html#with-element">an instance someone else has set up</a>.</p>
+<p>However, you may not want to do that either, because:</p>
+<ul>
+<li>Your homeserver doesn't have in-house Element.</li>
+<li>Connecting to a remote instance is slow.</li>
+<li>You don't trust another third-party.</li>
+</ul>
+<p>The solution is to serve Element locally with a web-server and access it in a web browser.</p>
+<p>You'll need:</p>
+<ul>
+<li>Any web server, like <code>nginx</code>.
+I use <a href="https://archlinux.org/packages/community/x86_64/darkhttpd/">darkhttpd</a>.</li>
+<li><a href="https://archlinux.org/packages/community/x86_64/element-web/">element-web</a>.
+If you already have <code>element-desktop</code> installed, you automatically have element-web.</li>
+</ul>
+<p>The final part is to run the server and open Element in your web browser.</p>
+<pre><code>darkhttpd /usr/share/webapps/element --port 8000 --addr 127.0.0.1 --daemon --log /dev/null
+</code></pre>
+<p>Now go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> and sign in to your account.</p>
+<p>I have written
+<a href="https://aur.archlinux.org/cgit/aur.git/tree/element-web.sh?h=element-desktop-git-greentext">a little script</a>
+to quickly <strong>start</strong> and <strong>stop</strong> a local instance of element-web.
+It is a part of
+<a href="https://aur.archlinux.org/packages/element-web-greentext/">my build of Element</a>.</p>
+<p><strong>Caveats.</strong></p>
+<ul>
+<li>element-web doesn't work well with
+<a href="https://addons.mozilla.org/en-US/firefox/addon/umatrix/">uMatrix</a>.
+uMatrix blocks third-party connections,
+so you have to unblock your homeserver's URL.
+It won't even start unless you block the default homeserver (set in <code>/etc/element/config.json</code>).
+If you like trying out different homeservers, this quickly becomes annoying.</li>
+<li>Certain features of Element rely on the ability
+to copy or paste content to the system clipboard with JavaScript.
+If you use Firefox or its derivative,
+you may have to set <code>dom.event.clipboardevents.enabled</code> to <code>true</code>
+to upload images and media files stored in the clipboard
+and <code>dom.allow_cut_copy</code> to <code>true</code> to copy room links to the clipboard.</li>
+</ul>
+<h2 id="configuring-element"><a class="anchor" href="#configuring-element" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuring Element</h2>
+<p>Element has a Settings menu.
+Unfortunately, there are some settings that can't be accessed without altering the config file.
+If you're running <code>element-web</code> locally, edit <code>/etc/element/config.json</code>.
+If you're running <code>element-desktop</code> (the electron app), create or edit <code>~/.config/Element/config.json</code>.
+Create the file if it doesn't exist yet.</p>
+<p>In the config file, enable &quot;Labs&quot; to access the hidden settings.</p>
+<pre><code>{
+    &quot;showLabsSettings&quot;: true
+}
+</code></pre>
+<p>After you restart Element,
+the Labs will appear in Settings.</p>
+<p align="center"><img alt="Settings" src="img/element-labs.webp"></p>
+<p align="center"><i>Labs in Settings.</i></p>
+<p>Inside Labs,
+I recommend enabling the following.</p>
+<ol>
+<li>Message Pinning. It lets you see pinned messages in rooms.</li>
+<li>Threaded messaging. Lets you access threads inside rooms.
+A thread is a sub-timeline where people can talk independently of the main timeline.</li>
+<li>Developer mode. Makes it easier to access certain things.</li>
+<li>Show hidden events in timeline.</li>
+</ol>
+<p>Further configuration.</p>
+<ul>
+<li>A documentation for Labs features can be found
+<a href="https://github.com/vector-im/element-web/blob/develop/docs/labs.md">here</a>.</li>
+<li>There are way more things you can alter in <code>config.json</code>, see
+<a href="https://github.com/vector-im/element-web/blob/develop/docs/config.md">this page</a> for the list of settings.</li>
+</ul>
+<p>You can also snitch a config file from an existing instance.
+For example, like this.</p>
+<pre><code># curl 'https://element.midov.pl/element/config.json' -o '/etc/element/config.json'
+</code></pre>
+<p>Every public instance of Element has its own config file.</p>
+<h2 id="multi-accounting"><a class="anchor" href="#multi-accounting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multi-accounting</h2>
+<p>Element-desktop supports multiple profiles.
+This is how you can start a new profile.</p>
+<pre><code>$ element-desktop --profile &quot;profile-name&quot;
+</code></pre>
+<p>Or you can have multiple container tabs in Firefox each running Element.</p>
+<h2 id="joining-rooms"><a class="anchor" href="#joining-rooms" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Joining rooms</h2>
+<p>To join a room you can
+click on a room link if someone has shared it with you
+or accept an invitation if someone has invited you.</p>
+<h2 id="finding-rooms-and-spaces"><a class="anchor" href="#finding-rooms-and-spaces" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finding rooms and spaces</h2>
+<ul>
+<li>There's a built-in way to find public rooms.
+Open Element and press &quot;Explore rooms&quot;.
+Some spaces are listed there as well.</li>
+<li>The public directory of matrix.org can be accessed without registration here
+<a href="https://view.matrix.org/">https://view.matrix.org/</a></li>
+<li>To find more Matrix rooms, you can search <code>matrix.to/#/</code> links on 4chan.<ol>
+<li><a href="https://find.4chan.org/?q=matrix.to%2F">4chan find</a></li>
+<li><a href="https://archived.moe/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%23%2F%22/">archived.moe</a></li>
+<li><a href="https://desuarchive.org/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%23%2F%22/">desuarchive</a></li>
+<li><a href="https://arch.b4k.co/_/search/text/%22https%3A%2F%2Fmatrix.to%2F%22/">arch.b4k.co</a></li>
+<li>and other similar indexes.</li>
+</ol>
+</li>
+</ul>
+<h2 id="there-was-an-error-joining-the-room"><a class="anchor" href="#there-was-an-error-joining-the-room" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>There was an error joining the room</h2>
+<p>If you're trying to join a new room
+and keep constantly getting &quot;There was an error joining the room&quot;,
+you have to wait until your server downloads the room.
+This error happens on garbage homeservers.
+Create a new account on another homeserver if the error doesn't go away.</p>
+<h2 id="privacy"><a class="anchor" href="#privacy" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Privacy</h2>
+<p>Your homeserver stores copies of all rooms you've joined.
+This leads to your homeserver operator knowing who you're talking to,
+even if they can't read the messages.
+Because we don't yet have peer-to-peer messaging on Matrix,
+this can be seen as a privacy concern.
+Choose a homeserver you can trust or set up your own.</p>
+<p>This is still not as bad as Telegram or Discord where you give away all your data.</p>
+<h2 id="create-a-room-with-the-latest-version"><a class="anchor" href="#create-a-room-with-the-latest-version" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create a room with the latest version</h2>
+<p>In Element,
+you can create a new room by pressing the &quot;Add&quot; button.</p>
+<p>When you create a new room via Element,
+it chooses the room's version for you.
+Often this is not what you want
+because the version it chooses is older than the latest version available.
+You can work around this by creating rooms with
+<a href="https://wiki.archlinux.org/title/CURL">curl</a>.
+The
+<a href="https://matrix.org/docs/spec/client_server/r0.6.1#creation">client-server API</a>
+provides a way to do it.</p>
+<pre><code>#!/usr/bin/env bash
+readonly SERVER=matrix-server.com
+readonly TOKEN=my_access_token
+curl -X POST -H &quot;Authorization: Bearer $TOKEN&quot; -H &quot;Content-Type: application/json&quot; &quot;https://$SERVER/_matrix/client/r0/createRoom&quot; --data-binary '{
+    &quot;room_version&quot;: &quot;9&quot;,
+    &quot;name&quot;: &quot;My chat&quot;,
+    &quot;preset&quot;: &quot;public_chat&quot;,
+    &quot;topic&quot;: &quot;Welcome to my chat&quot;
+}'
+</code></pre>
+<p>At the time of writing <code>9</code> was the latest version.
+<code>SERVER</code> and <code>TOKEN</code> are your homeserver's URL and your account's access token.
+In Element, they can be obtained by going to &quot;Settings&quot; &gt; &quot;Help &amp; About&quot;l &gt; &quot;Advanced&quot;.</p>
+<h2 id="upgrading-to-a-new-room-version"><a class="anchor" href="#upgrading-to-a-new-room-version" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Upgrading to a new room version</h2>
+<p>When there's a new room version available,
+you can choose to upgrade to the latest room version.</p>
+<pre><code>#!/usr/bin/env bash
+readonly ID='!room_id:server.com'
+readonly SERVER=server.com
+readonly TOKEN=my_access_token
+curl -X POST -H &quot;Authorization: Bearer $TOKEN&quot; -H &quot;Content-Type: application/json&quot; &quot;https://$SERVER/_matrix/client/r0/rooms/$ID/upgrade&quot; --data-binary '{
+    &quot;new_version&quot;: &quot;9&quot;
+}'
+</code></pre>
+<p>If this doesn't work, you can try <a href="https://gist.github.com/turt2live/a99c8e794d6115d4ddfaadb72aabf063">upgrading manually</a>,
+step by step.</p>
+<p>When you upgrade a room, a new room is created and replaces the old one,
+thus the room's <code>ID</code> changes.
+In Element to obtain the old room's <code>ID</code>, go to &quot;Room Settings&quot; &gt; &quot;Advanced&quot;.
+Don't forget to obtain <code>TOKEN</code> and <code>SERVER</code> following the previous section.</p>
+<p>During an upgrade, a <a href="https://spec.matrix.org/v1.1/client-server-api/#mroomtombstone">tombstone event</a> is sent to the old room.
+The tombstone event closes the old room and links it to the new room.</p>
+<h2 id="publishing-your-room"><a class="anchor" href="#publishing-your-room" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Publishing your room</h2>
+<p>If you choose to publish your room, it will appear in the public directory of your homeserver.
+Other users on your homeserver will be able to find it on the &quot;Explore rooms&quot; page.</p>
+<p>To publish a room, go to the room's settings and click on
+&quot;Publish this room to the public in server's room directory&quot;.</p>
+<h2 id="publishing-your-space"><a class="anchor" href="#publishing-your-space" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Publishing your space</h2>
+<p>Element lets you publish regular rooms to the public directory of your homeserver,
+but for some reason there's no such option in the Space settings.
+To publish your space and make it easier to newcomers to find it, run the following script.</p>
+<pre><code>#!/usr/bin/env bash
+readonly ID='!room_id:server.com'
+readonly SERVER=server.com
+readonly TOKEN=my_access_token
+curl -X PUT -H &quot;Authorization: Bearer $TOKEN&quot; -H &quot;Content-Type: application/json&quot; &quot;https://$SERVER/_matrix/client/r0/directory/list/room/$ID&quot; --data-binary '{
+  &quot;visibility&quot;: &quot;public&quot;
+}'
+</code></pre>
+<p>Alternatively you can enable developer tools,
+right-click the space,
+press &quot;See room timeline&quot;,
+and then &quot;Settings&quot;.
+It will open Settings for regular rooms.</p>
+<h2 id="enabling-invites"><a class="anchor" href="#enabling-invites" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enabling invites</h2>
+<p>For some reason, newly created rooms and spaces only allow admins to invite new users.
+Often that's not desirable.
+Change it by going to the room's Settings &gt; &quot;Roles and Permissions&quot; &gt; &quot;Invite users&quot;.</p>
+<h2 id="linking-to-your-room"><a class="anchor" href="#linking-to-your-room" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linking to your room</h2>
+<p>Normally you can share your room using a link that looks like this:
+<code>https://matrix.to/#/#room:server.domain</code>.
+The downside of using such links is that new users who haven't registered a Matrix account yet
+will be sent to <code>app.element.io</code> and suggested creating a <code>matrix.org</code> account.
+This is never what we want.
+To work around it, we can link a specific Element instance.</p>
+<p>If you're using an instance of the web version of Element,
+open the room and copy the URL in your web browser's address bar.
+Usually the link will look like this: <code>https://element.anontier.nl/#/room/#g-rust:matrix.org</code>.
+The URL may not work depending on Element settings set by the instance's operator,
+test it in a private browser tab first.</p>
+<p>See <a href="list-of-matrix-servers.html#servers-that-support-links-to-rooms">Servers that support links to rooms</a>
+for a list of Element instances that can replace <code>app.element.io</code>.</p>
+<h2 id="how-do-i-greentext"><a class="anchor" href="#how-do-i-greentext" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How do I greentext?</h2>
+<p>You can greentext <a href="https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext">like this</a>,
+or you can install <a href="https://aur.archlinux.org/packages/element-web-greentext">element-web-greentext</a>
+with <code>/greentext</code> command built-in.</p>
+<p align="center"><img src="img/element-greentext.webp"></p>
+<p align="center"><i>How people greentext.</i></p>
+<h2 id="tips-for-room-admins"><a class="anchor" href="#tips-for-room-admins" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips for room admins</h2>
+<p>If you decide to create and manage a large public room,
+it is very important that you don't lose access to it.
+Even big homeservers sometimes disappear never to return.
+Always keep at least two admin accounts in the room, each hosted on a <strong>different</strong> homeserver.
+If one homeserver goes offline or decides to ban you or <em>shutdown</em> your room,
+you will still be able to control the room via the other admin account.</p>
+<p>The number one thing you should be aware of as a room admin is
+<a href="https://github.com/matrix-org/synapse/blob/develop/docs/admin_api/rooms.md#delete-room-api">room shutdowns</a>.
+A room shutdown is when a homeserver admin
+forces all existing members registered on the homeserver
+out of your room
+and prevents all future joins.
+A room shutdown only affects users on the server that initiated the shutdown.
+To minimize possible damage that a shutdown would cause to your room
+always tell your members to use homeservers you trust.</p>
+<p>Choose a server which runs the latest version of
+<a href="https://github.com/matrix-org/synapse">Synapse</a>.
+Newer versions give you access to higher
+<a href="https://spec.matrix.org/unstable/rooms/">room versions</a>.
+To check a server's Synapse version, run the following shell command.
+Replace <code>homeserver.name</code> with the URL of your homeserver, e.g. <code>g33k.se</code>.</p>
+<pre><code>curl -s 'https://homeserver.name/_matrix/federation/v1/version'
+</code></pre>
+<p>Alternatively, paste the server's URL to
+<a href="https://federationtester.matrix.org/">federation tester</a>.</p>
+<p>It's a good idea to ban certain servers from participating in your room completely, using
+<a href="https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls">Server ACLs</a>.
+Server <span title="access control lists">ACLs</span>
+let you block all accounts registered on unwanted homeservers
+from being able to join your room.
+The homeserver which gets blocked the most often is, you guessed it, <code>matrix.org</code>.</p>
+<h2 id="further-reading"><a class="anchor" href="#further-reading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Further reading</h2>
+<ul>
+<li><a href="https://glowers.club/wiki/doku.php?id=wiki:newfriends">https://glowers.club/wiki/doku.php?id=wiki:newfriends</a></li>
+<li><a href="https://www.schotty.com/Services/Matrix/">https://www.schotty.com/Services/Matrix/</a></li>
+<li><a href="https://community.kde.org/Matrix">https://community.kde.org/Matrix</a></li>
+<li><a href="https://calcuode.com/matrix/">https://calcuode.com/matrix/</a></li>
+</ul>
+<p>Tags: <a href="tag_matrix.html">matrix</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Join our Patreon or donate cryptocurrency.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>

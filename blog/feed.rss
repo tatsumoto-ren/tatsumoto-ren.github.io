@@ -2,9 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Mon, 13 Jun 2022 19:04:11 +0300</lastBuildDate>
-<pubDate>Mon, 13 Jun 2022 19:04:11 +0300</pubDate>
+<lastBuildDate>Wed, 15 Jun 2022 23:14:11 +0300</lastBuildDate>
+<pubDate>Wed, 15 Jun 2022 23:14:11 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Matrix quickstart guide</title><description><![CDATA[
+<p>This article is a user guide to Matrix.
+It also covers the most popular Matrix client program, Element.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/matrix-quickstart-guide.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/matrix-quickstart-guide.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 15 Jun 2022 22:48:44 +0300</pubDate></item>
 <item><title>
 How Anki works</title><description><![CDATA[
 <p>Since in this guide we are going to use Anki to study our target language,
@@ -155,16 +164,4 @@ as the foundation is already in place.</p>
 <guid>https://tatsumoto-ren.github.io/blog/sentence-mining.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 30 Nov 2021 23:15:48 +0300</pubDate></item>
-<item><title>
-Retiming subtitles</title><description><![CDATA[
-<p>Japanese subtitles can be found in
-<a href="resources.html#japanese-subtitles">many places</a>.
-Often after downloading an archive with subtitles for your show
-you find that the subtitles are not in sync with the video files you have on your computer.
-In this article let's discuss what you can do to sync them.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/retiming-subtitles.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/retiming-subtitles.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 13 Oct 2021 21:32:55 +0300</pubDate></item>
 </channel></rss>
