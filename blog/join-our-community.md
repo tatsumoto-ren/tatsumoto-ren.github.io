@@ -54,19 +54,17 @@ Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
 and register an account on one of the servers
 [listed here](list-of-matrix-servers.html).
+If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
 
 <a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:g33k.se">Join us on Element</a>
 
 If the button above doesn't work,
-most likely you don't have
-[Element](https://archlinux.org/packages/community/x86_64/element-desktop/)
-installed on your computer.
-Open your client of choice and join `#join:g33k.se` if you use a different client.
+open your client of choice and join `#join:g33k.se`.
 If you can't or don't want to install a client, use a
 [web app](https://c.wfr.moe/#/room/#join:g33k.se)
 ([alternative](https://webchat.kde.org/#/room/#join:g33k.se)).
 
-When you join the community, you'll start in Starting Lounge.
+When you join the community, you'll start in *Starting Lounge*.
 This is a room for new members.
 From there you can explore our community
 by following the link in the room's description.
