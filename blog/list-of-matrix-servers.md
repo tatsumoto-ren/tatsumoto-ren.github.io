@@ -2,10 +2,9 @@
 
 [Matrix](https://wiki.archlinux.org/index.php/Matrix)
 is a FLOSS protocol for open federated instant messaging.
-It is used in our Japanese learning community as an alternative to proprietary software such as
-[Discord](how-to-save-the-japanese-learning-community.html).
 Matrix ecosystem consists of many servers which can be used for registration.
-Since many people joining us ask what server to choose, I've made a list.
+This is a list of Matrix servers for people
+who ask what server to choose to register on.
 
 To use Matrix, install a
 [client](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients)
@@ -13,13 +12,16 @@ first.
 One of the most popular clients is
 [Element](https://archlinux.org/packages/?name=element-desktop).
 
+If you are new to Matrix, read
+[Matrix quickstart guide](matrix-quickstart-guide.html).
+
 ****
 
 ## Matrix.org users
 
 If you already have an account hosted on Matrix.org,
-please create a new account on another homeserver before you join any of
-[our rooms](join-our-community.html).
+please deactivate your account
+and create a new account on another homeserver immediately.
 Matrix.org is the largest Matrix homeserver, and most Matrix apps suggest it by default.
 Many users new to Matrix end up using this server because they don't know that other servers exist.
 Unfortunately, Matrix.org is far from the best choice.
@@ -82,46 +84,6 @@ recommended by
 	* [smith.gdgd.jp.net](https://smith.gdgd.jp.net/)
 
 *Not all the servers may be open for registration at any point of time.*
-
-## Tips for room admins
-
-If you decide to create and manage a large public room,
-it is very important that you don't lose access to it.
-Even big homeservers sometimes disappear never to return.
-Always keep at least two admin accounts in the room, each hosted on a **different** homeserver.
-If one homeserver goes offline or decides to ban you or *shutdown* your room,
-you will still be able to control the room via the other admin account.
-
-The number one thing you should be aware of as a room admin is
-[room shutdowns](https://github.com/matrix-org/synapse/blob/develop/docs/admin_api/rooms.md#delete-room-api).
-A room shutdown is when a homeserver admin
-forces all existing members registered on the homeserver
-out of your room
-and prevents all future joins.
-A room shutdown only affects users on the server that initiated the shutdown.
-To minimize possible damage that a shutdown would cause to your room
-always tell your members to use homeservers you trust.
-
-Choose a server which runs the latest version of
-[Synapse](https://github.com/matrix-org/synapse).
-Newer versions give you access to higher
-[room versions](https://spec.matrix.org/unstable/rooms/).
-To check a server's Synapse version, run the following shell command.
-Replace `homeserver.name` with the URL of your homeserver, e.g. `g33k.se`.
-
-```
-curl -s 'https://homeserver.name/_matrix/federation/v1/version'
-```
-
-Alternatively, paste the server's URL to
-[federationtester.matrix.org](https://federationtester.matrix.org/).
-
-It's a good idea to ban certain servers from participating in your room completely, using
-[Server ACLs](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls).
-Server <span title="access control lists">ACLs</span>
-let you block all accounts registered on unwanted homeservers
-from being able to join your room.
-The homeserver which gets blocked the most often is, you guessed it, `matrix.org`.
 
 ## Other servers
 
