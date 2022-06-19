@@ -432,6 +432,7 @@ for a list of Element instances that can replace `app.element.io`.
 You can greentext [like this](https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext),
 or you can install [element-web-greentext](https://aur.archlinux.org/packages/element-web-greentext)
 with `/greentext` command built-in.
+[QuickMedia](https://git.dec05eba.com/QuickMedia/about/) supports greentext out of the box.
 
 <p align="center"><img src="img/element-greentext.webp"></p>
 <p align="center"><i>How people greentext.</i></p>
