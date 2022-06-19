@@ -238,9 +238,76 @@ just continuing to learn words is going to improve it.
 Remember, many people never learned kanji through a dedicated deck,
 they learned words right from the start.
 
+### What are the downsides of using WaniKani?
+
+WaniKani is inspired by Remembering the Kanji.
+Similarly to RTK,
+in WaniKani kanji are presented in an efficient order,
+and mnemonics are employed to aid memorization.
+The pros end here. Let's list the cons.
+
+* The mnemonics are pre-made.
+  WaniKani doesn't let you write your own stories.
+
+  Other systems like KanjiDamage use prebuilt mnemonics as well,
+  but while you're going through a KanjiDamage deck,
+  you can change them to your own personal, vivid mnemonics
+  if the ones given to you are not sticking or you simply don't like the stories.
+
+  RTK encourages you to create your own mnemonics.
+  Personal mnemonic visualizations tend to improve learning and recall
+  compared to premade ones.
+* It forces you to use it's personal built-in SRS.
+  The fact that you can't use Anki with WaniKani is a huge downside.
+
+  Note that on the Internet you can find third-party Anki decks ripped from WaniKani.
+  If you want to try WaniKani, download them instead of using the site and paying for it.
+* It's a paid service. It costs money.
+  It also means that if you want to keep reviewing
+  so that you don't forget what you've already learned
+  then you have to keep paying
+  which is pretty lame.
+
+  Learning Japanese to from the beginning to fluency without spending any money
+  is the main idea that stands at the core of our method.
+* It makes you learn isolated kanji readings and vocab out of context.
+  Learning a bunch of similar information at the same time out of
+  context is a recipe for memory interference.
+  WaniKani users end up being unable to read kanji with multiple readings.
+  On top of that,
+  this sort of knowledge is impractical because in Japanese kanji are always used to write words.
+  You either know in advance how to read an entire word
+  or you can never guess with 100% certainty based on readings learned out of context.
+  If you decide to learn kanji out of context,
+  it is most efficient to create a mental dictionary entry for each character
+  by only learning its meaning
+  so that extensive knowledge of readings and meanings
+  can then be easily gained intuitively through context.
+* WaniKani's built-in SRS never has you write out kanji from memory,
+  it only has you recall the meaning given the kanji.
+  Anki lets you easily create
+  [production cards](writing-japanese.html#writing-kanji) to train writing out kanji
+  if you wish to do so.
+* You are forced to go through WaniKani at a snail's pace.
+  Apparently if you learn as fast as the WaniKani system lets you
+  it will take you around 18 months to get through the most common 2,000 kanji.
+  On the other hand,
+  it takes less than 3 months to get through KanjiDamage or Remembering The Kanji.
+* Isolated kanji study is outdated.
+  Today there's the [JP1K method](learning-kanji.html#jp1k-method)
+  which is built around the idea of learning Japanese words from the beginning.
+  When studying kanji out of context
+  you have to learn English keywords,
+  and that's never going to be as efficient as learning words.
+
 ### I just quit WaniKani after learning 1,300 kanji. Should I do JP1K or just jump into sentence mining?
 
 Do N5 and N4 levels in Ankidrone Starter Pack, then jump into sentence mining.
+
+JP1K is made for beginners, for people who don't know any Japanese yet.
+If you have learned more than 1,000 kanji,
+there's no need to continue studying kanji specifically.
+The kanji you don't know yet can be learned together with words.
 
 ### Is JAV good for immersion?
 
@@ -1261,9 +1328,19 @@ You can find the videos on
 
 ### What do you think about graded readers?
 
-Never used them.
-Don't recommend them.
+I think they're still in use because people are scared to leave their comfort zone,
+not because they are magically effective.
+Most creators of language learning materials have never learned a foreign language to a high level
+and don't understand the mechanics of language acquisition.
+
+In Japanese,
+I never used any learner materials besides a grammar guide when first starting out,
+and I was able to reach a point of being able to read novels quite comfortably within 2 years.
+Thus, it's hard for me to buy into the idea of things like "graded readers".
+
 AJATT is about reading stuff made for natives.
+If you're a beginner, watch an anime with Japanese subtitles or read a simple manga.
+If you're advanced, go read a real book.
 
 ### Why should I avoid Discord, Reddit, 4chan, etc.?
 
