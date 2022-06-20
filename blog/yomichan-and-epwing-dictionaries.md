@@ -193,17 +193,6 @@ You can use these dictionaries to judge
 whether it is worth for you to learn a certain word or not.
 Words that appear more frequently than others are more useful.
 
-If you have downloaded the full collection of dictionaries for Yomichan linked above,
-you should have the frequency lists as well.
-Below I provide a separate link for those who are only interested in the frequency lists.
-
-<p align="center">
-	<a class="download_button" href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ/6.%20frequency">Download</a>
-</p>
-<p align="center">
-	<a href="https://t.me/ajatt_tools/109">Mirror</a>
-</p>
-
 **Recommended:**
 
 * Netflix frequency list
@@ -222,6 +211,28 @@ but the frequency list may help you detect common words in other types of conten
 * Daijirin. Words that appear in the `大辞林` monolingual dictionary.
 You may want to take a look at it if you've decided to go monolingual,
 and you need to prioritize learning dictionary vocabulary.
+
+### Grammar
+
+Dictionaries that help you look up Japanese grammar.
+
+* Nihongo no Sensei.
+  Grammar by JLPT levels.
+  The entries are in Japanese and Chinese.
+  Has example sentences.
+  The data comes from [nihongo no sensei](https://nihongonosensei.net).
+* 日本語NET.
+  Grammar by JLPT levels.
+  The entries are in Japanese and English.
+  Has example sentences with English translations.
+  Data comes from [nihongokyoshi-net](https://nihongokyoshi-net.com/jlpt-grammars/).
+* 日本語表現文型辞典.
+  English explanations.
+  Has examples sentences.
+  Data comes from [donnatoki](https://itazuraneko.neocities.org/grammar/donnatoki.html).
+* Dictionary of Japanese grammar.
+  The entries are in English.
+  Has example sentences.
 
 ### Other
 
