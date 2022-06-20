@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Wed, 15 Jun 2022 23:14:11 +0300</lastBuildDate>
-<pubDate>Wed, 15 Jun 2022 23:14:11 +0300</pubDate>
+<lastBuildDate>Mon, 20 Jun 2022 10:57:44 +0300</lastBuildDate>
+<pubDate>Mon, 20 Jun 2022 10:57:44 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Kana Anki decks</title><description><![CDATA[
+<p>These Anki deck teach hiragana and katakana.
+There's a Recognition deck and a Production deck.
+The Recognition deck teaches how to read kana,
+the Production deck teaches how to write kana from memory.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/kana-anki-decks.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/kana-anki-decks.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 20 Jun 2022 10:56:07 +0300</pubDate></item>
 <item><title>
 Matrix quickstart guide</title><description><![CDATA[
 <p>This article is a user guide to Matrix.
@@ -142,26 +153,4 @@ and combined them to make this Anki deck.</p>
 <guid>https://tatsumoto-ren.github.io/blog/jlpt-tango-n2-anki-deck.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 21 Dec 2021 00:13:57 +0300</pubDate></item>
-<item><title>
-Sentence mining</title><description><![CDATA[
-<p><strong>Sentence mining</strong> is a process of extracting sentences
-that contain unknown words
-from the content you read, watch or listen to in your target language
-and adding them to Anki in a form of targeted sentence cards (TSCs).
-You put an example sentence in the question field
-and the definitions, pictures and pronunciations in the answer field.</p>
-<p>Sentence mining and immersion are the two most important components of our method.
-Immersion provides you with new vocabulary to be mined,
-and mined sentences become fuel that advances your language learning.</p>
-<p>Finding your own sentences is much more fun than learning from a premade deck,
-or, god forbid, a textbook.
-Because you're creating Anki cards out of vocabulary found in your immersion,
-you're always learning what is relevant to you.
-Once you reach this stage, it is way harder to quit Japanese,
-as the foundation is already in place.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/sentence-mining.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/sentence-mining.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 30 Nov 2021 23:15:48 +0300</pubDate></item>
 </channel></rss>
