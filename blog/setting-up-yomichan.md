@@ -304,6 +304,9 @@ especially if you keep many monolingual dictionaries installed.
 Go to "Appearance" > "Configure collapsible dictionaries…".
 Here you can hide definitions from some dictionaries.
 
+<p align="center"><img alt="collapse jmdict" src="img/yomichan-collapse.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+
 This feature can be useful for going monolingual.
 After you install monolingual (Jp-Jp) dictionaries,
 hide JMdict and other bilingual dictionaries
