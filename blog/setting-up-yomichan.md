@@ -299,6 +299,20 @@ especially if you keep many monolingual dictionaries installed.
 <p align="center"><img class="shadow" alt="shortcuts" src="img/yomichan-shortcuts.webp"></p>
 <p align="center"><i>Shortcuts.</i></p>
 
+### Collapse dictionaries
+
+Go to "Appearance" > "Configure collapsible dictionaries…".
+Here you can hide definitions from some dictionaries.
+
+This feature can be useful for going monolingual.
+After you install monolingual (Jp-Jp) dictionaries,
+hide JMdict and other bilingual dictionaries
+to avoid associating Japanese words with their English translations.
+
+This is different from simply uninstalling bilingual dictionaries.
+Often there are words that Jp-Jp dictionaries don't define.
+Yomichan won't be able to parse such words if JMdict is not installed.
+
 ### Miscellaneous
 
 * "General" > "Show the welcome guide on browser startup": disable.
