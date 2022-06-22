@@ -56,25 +56,32 @@ An online reference of the seminal A Dictionary of Japanese Grammar book series.
 
 ### Grammar in Japanese
 
+* [毎日のんびり日本語教師](https://nihongonosensei.net/).
+  A website run by a Japanese teacher living in China.
+  Grammar is sorted by JLPT levels.
+  The entries are in Japanese (monolingual definitions) and Chinese.
+  Provides example sentences.
 * [国語文法](http://xn--vcs415akpfnn7a.com/).
-Japanese grammar taught by a Japanese teacher.
+  Japanese grammar taught by a Japanese teacher.
 * [国語の文法](https://www.kokugobunpou.com/).
 * [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
 
 ### JLPT
 
 * [dethitiengnhat](https://dethitiengnhat.com/en/).
-Here you can prepare by taking tests from previous years.
+  Here you can prepare by taking tests from previous years.
 * [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
-Covers grammar for all JLPT levels.
+  Covers grammar for all JLPT levels.
 * [問題検索室](http://www.n-lab.org/library/mondai/).
-Search JLPT questions by keyword.
+  Search JLPT questions by keyword.
 * [JTest4You](https://japanesetest4you.com/).
-Practice tests and resources by JLPT levels.
+  Practice tests and resources by JLPT levels.
 * [JLPT文法解説まとめ](https://nihongokyoshi-net.com/jlpt-grammars/).
-Introduces you to grammar patterns that exist in JLPT.
-This site is much better than the rest
-and probably the best free way to learn grammar used in the JLPT exam.
+  Introduces you to grammar patterns that exist in JLPT.
+  This site is much better than the rest
+  and probably the best free way to learn grammar used in the JLPT exam.
+* [毎日のんびり日本語教師](https://nihongonosensei.net/).
+  Described in [Grammar in Japanese](#grammar-in-japanese).
 
 ## Examples and pronunciations
 
@@ -220,26 +227,30 @@ A shared folder with movies and other content with Japanese dubs.
 ### Manga
 
 * [Torrent sites](#torrent-trackers).
-Expore them first.
+  Expore them first.
 * [nhentai](https://nhentai.net/).
-For a bit of light reading.
-Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
+  For a bit of light reading.
+  Many mangas on the site are just 25-30 pages long,
+  which is perfect for beginners who can't bear long reading sessions yet.
+
+  Translations are also available.
+  Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
 * [Bilingualmanga](https://bilingualmanga.net/).
-Bilingual manga reader where you can switch from English to Japanese with furigana.
+  Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
   View raw manga online.
   * Make sure you disable JavaScript before opening the site.
   * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
 * [Manga-zip](http://manga-zip.net/).
-Manga archive.
+  Manga archive.
 * [Rawdevart](https://rawdevart.com/).
-Raw manga online.
+  Raw manga online.
 * [同人あんてな](https://doujinantena.top/).
-Free eromanga and doujinshi.
+  Free eromanga and doujinshi.
 * [raw-cans](http://raw-cans.net/).
-This website has scans of a lot of manga,
-as well as shounen jump,
-young jump and other manga magazines.
+  This website has scans of a lot of manga,
+  as well as shounen jump,
+  young jump and other manga magazines.
 * [Itazuraneko 漫画](https://itazuraneko.neocities.org/library/manga.html).
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
 * [Manga Raw](https://manga1000.com/).
@@ -248,11 +259,11 @@ young jump and other manga magazines.
   Read manga online.
   * The site does not work with JavaScript disabled.
 * [マンガ図書館Z](https://www.mangaz.com/).
-Manga library. Read manga for free.
+  Manga library. Read manga for free.
 * [となりのヤングジャンプ](https://tonarinoyj.jp/).
-A site where you can read manga online.
+  A site where you can read manga online.
 * [DLRAW](https://dlraw.net/).
-Raw manga archived as zip and rar files.
+  Raw manga archived as zip and rar files.
 * [RAWKUMA](https://rawkuma.com/).
   Like Senmanga, hosts manga online.
   * The site does not work with JavaScript disabled.
