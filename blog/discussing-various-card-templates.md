@@ -2,51 +2,75 @@
 
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>
 
->Card formats are differentiated by what you put on the front of the card.
-This is the important part because it's what you are testing yourself on.
-The back of the cards is much less important.
-Its purpose is to help increase your understanding of what is on the front.
-
 Many learners agree that the most effective way to acquire Japanese
 is to combine the SRS with immersion.
 After finishing learning
 [kana](learning-kana-in-two-days.html) and [kanji](jp1k-anki-deck.html)
 you're going to continue to use Anki
-in your study time to memorize sentence items.
-The focus on sentences is very important.
-Your practice in Anki should mimic real world situations.
-In other words, you should *practice how you play*.
-And in real world we read sentences, and we write sentences.
-Having said that, word cards have their place in your SRS.
-They are very effective for studying concrete nouns.
+in your study time to memorize vocabulary.
+When memorizing new vocabulary, there are various card templates you can choose from.
 
+Card templates are differentiated by what you put on the front of the card.
 There are two major card templates that people tend to use: `sentence cards` and `word cards`.
-Both have their variations depending on what information they contain on the back.
-
-Regardless of the card template,
-you create all your cards while consuming Japanese
-using Yomichan, mpv scripts, qolibri and other software of your choice.
-Avoid grinding premade decks beyond the absolute beginner stage,
-but keep them in your sentence bank as a supplement
-to find sentences when other sources fail you.
+Both have their variations depending on what other information they contain.
 
 This article covers **recognition** cards.
 Production cards are covered [here](writing-japanese.html).
 
-____
+****
+
+## How cards are created
+
+In Anki, the user creates *notes* that store information the user intends to remember.
+A note is divided into fields, and each field can store some text.
+The simplest note has only two fields, "Question" and "Answer", or "Front" and "Back".
+Anki generates *cards* from the notes the user has made using *card templates*.
+A *card template*, or *card type* is an HTML and CSS template that defines how a card will look.
+You can have several cards per note, depending on the card templates you have created.
+For example, each sentence item would have
+a card to test reading and a card to test writing by hand.
+
+## Various card templates
+
+The division of card templates is arbitrary.
+We introduce it because from the perspective of language learning
+it is important what we test ourselves on.
+Here, a card template is characterized by the field of the note
+that is placed on the front.
+The fields on the back of the card are less significant.
+Their purpose is to help increase your understanding of what is on the front.
+
+* **Word Cards** test your reading comprehension of a single word.
+  * **Simple Word Cards** contain the minimum of information necessary to understand the word.
+  * **Word Context Cards** must additionally have an example sentence on the back of the card.
+* **Sentence Cards** test your reading comprehension of a sentence or a part of a sentence.
+* **Targeted Sentence Cards** test your reading comprehension of a single word in context.
+* Other types of cards are rarely used, including cards with audio on the front.
+
+We approach card templates based on the idea that
+your practice in Anki should mimic real world situations.
+In other words, you should *practice how you play*.
+And in real world we read sentences, and we write sentences.
+So the preference is given to card formats that have sentences in them.
+Having said that, word cards have their place in your SRS.
+They are very effective for studying concrete nouns.
+
+Regardless of the card template,
+you create your cards from words and sentences you encounter while consuming Japanese.
+Learners utilize Yomichan, mpv scripts, Qolibri and other software
+to make card creation faster and easier.
 
 ## Sentence cards
 
 A [sentence card](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
 is an SRS card with a sentence in the question field.
 The sentence has **one** unknown word or phrase.
+
 Some people might make cards with multiple unknowns,
 but it comes at the expense of harder reviews.
-
-Wozniak argues that:
-> If you consider an item that is composed of two sub-items,
+If you have a sentence card that tests two (or more) words at the same time,
 you will need to make repetitions
-that are frequent enough to keep the more difficult item in memory.
+that are frequent enough to keep the more difficult word in memory.
 
 On the back you find readings and dictionary definitions.
 Optimally you also want to add audio for the entire sentence and/or the target word,
@@ -86,9 +110,8 @@ But they have certain weaknesses, the main being **review time**.
 On average, it takes 20 seconds to answer a sentence card.
 Thankfully, there are some tricks to do it faster, which are described in the TSCs section.
 
->By reviewing sentences you will build internal grammar
+Others say that by reviewing sentences you will build internal grammar
 and remember word usages useful in your output.
-
 This statement is weird regardless whether it's true or not.
 I think it comes from a misunderstanding of the AJATT site.
 There's an embedded assumption that
@@ -418,7 +441,7 @@ and store any new information about that word.
 ### Can the hint field save the day?
 
 Users of WCCs employ a 'hint' field to disambiguate the correct readings
-and pin-point one of the possible meanings in some words.
+and pinpoint one of the possible meanings in some words.
 I don't think it's a good idea.
 The need to create a separate field is far from the best solution, and it feels like a crutch.
 First for any card you review you have to identify
@@ -465,7 +488,7 @@ adding audio for the target expression is not necessary.
 
 If a word has many readings,
 or if you want to avoid failing a card due to a common reading mistake you tend to make,
-TSCs let you use furigana on top to pin-point the correct one.
+TSCs let you use furigana on top to pinpoint the correct one.
 
 Make sure that your front template allows displaying furigana:
 ```
@@ -487,7 +510,7 @@ And to add furigana on the front you simply specify it in square brackets as usu
 
 The idea behind fallback cards is similar to that of targeted sentence cards
 but the front side is different.
-When a fallback card comes up for review, it looks like a regular **word card**
+When a fallback card comes up for review, it looks like a regular **word card**,
 but you can hover over the target word to reveal the full sentence.
 Fallback cards basically give their users all the benefits of targeted sentence cards
 but are designed for people who worry about forming context-dependent memories.
