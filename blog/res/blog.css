@@ -525,6 +525,10 @@ main table {
     margin-bottom: 16px;
 }
 
+main li>p {
+    margin-top: 16px;
+}
+
 details {
     border-radius: 8px;
 }
