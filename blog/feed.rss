@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Mon, 20 Jun 2022 10:57:44 +0300</lastBuildDate>
-<pubDate>Mon, 20 Jun 2022 10:57:44 +0300</pubDate>
+<lastBuildDate>Fri, 24 Jun 2022 19:11:53 +0300</lastBuildDate>
+<pubDate>Fri, 24 Jun 2022 19:11:53 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Condensing active immersion</title><description><![CDATA[
+<p>Watching movies and TV shows counts towards active immersion
+and requires full attention to the content.
+We can apply a little optimization to condense active immersion.
+This small trick helps if you're watching something boring or if you're tight on time.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/condensing-active-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/condensing-active-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 24 Jun 2022 19:11:49 +0300</pubDate></item>
 <item><title>
 Kana Anki decks</title><description><![CDATA[
 <p>These Anki deck teach hiragana and katakana.
@@ -133,24 +144,4 @@ you need to learn how to do it.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-to-type-in-japanese.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 28 Dec 2021 12:34:47 +0300</pubDate></item>
-<item><title>
-JLPT Tango N2 Anki deck</title><description><![CDATA[
-<p align="center">
-<img src="img/tango_n2.webp" alt="cover" style="max-height: 400px;">
-</p>
-<p>2500 Essential Vocabulary for the JLPT N2,
-also known as JLPT Tango N2,
-is a textbook to prepare for the JLPT N2.
-It contains ~1,500 Japanese sentences and their English translations.
-The book includes vocabulary found commonly on the JLPT and often used in everyday life.</p>
-<p>With the help of our chat members,
-we have created an Anki deck specifically for the JLPT Tango N2.
-We took sentences from the book,
-downloaded audio from the publisher's website
-and combined them to make this Anki deck.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/jlpt-tango-n2-anki-deck.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/jlpt-tango-n2-anki-deck.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 21 Dec 2021 00:13:57 +0300</pubDate></item>
 </channel></rss>
