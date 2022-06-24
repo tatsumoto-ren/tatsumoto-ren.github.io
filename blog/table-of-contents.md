@@ -33,6 +33,7 @@
 	* [Passive listening](passive-listening.html)
 	* [Subtitle Re-sync](retiming-subtitles.html)
 	* [Writing by hand](writing-japanese.html)
+	* [Condensing active immersion](condensing-active-immersion.html)
 * Apocrypha
 	* [List of resources](resources.html)
 	* [FAQ](faq.html)
