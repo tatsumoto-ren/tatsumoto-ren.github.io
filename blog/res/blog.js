@@ -25,12 +25,11 @@
  *
  */
 
-const $ = (id) => {
-    return document.getElementById(id);
-}
-const insertAfter = (newNode, existingNode) => {
-    existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
-}
+const $ = (id) => document.getElementById(id);
+
+const insert_after = (new_node, existing_node) => existing_node.parentNode.insertBefore(new_node, existing_node.nextSibling);
+
+const is_external = (anchor) => anchor.host && anchor.host !== window.location.host;
 
 const Utils = Object.freeze({
     is_index() {
@@ -199,7 +198,7 @@ const MegaTags = Object.freeze({
         const anchors = document.querySelectorAll('article a')
         for (const anchor of anchors) {
             if (anchor.href.startsWith('https://mega.nz/')) {
-                insertAfter(this.make_tag(), anchor)
+                insert_after(this.make_tag(), anchor)
             }
         }
     }
@@ -211,4 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Sidebar.init()
     Toc.init()
     MegaTags.mark_links()
+    Array.from(document.getElementsByTagName("a"))
+        .filter(is_external)
+        .forEach(a => a.target = "_blank")
 }, false)
