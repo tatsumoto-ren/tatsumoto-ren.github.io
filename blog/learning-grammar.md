@@ -25,6 +25,13 @@ are verbs used to express giving and receiving,
 but unlike most words
 they are bound by certain rules that describe how they must be used.
 
+Grammar rules tell us how to arrange and inflect words to make proper sentences.
+Obviously, the rules weren't created in advance, before the language was spoken,
+therefore it's better to think of them as
+"common speech patterns that native speakers find acceptable."
+Besides, no language is fixed, and all languages change over time,
+and the rules may change too.
+
 ## The role of grammar study
 
 > Grammar guides are for making it easier to understand things, not to learn how to say them.
@@ -104,6 +111,12 @@ Continue to immerse.
 Use the time spent immersing to notice the new grammar being used in different situations.
 
 There are grammar guides that tell you to memorize conjugations, do exercises or drills.
+They are attempting to teach grammar similar to math,
+treating grammar as formulas.
+Since grammar is made up of speech patterns native speakers say often and find natural,
+the focus should be on learning the patterns,
+getting used to frequently spoken collocations, phrases and sentences.
+
 Note that at this stage of the AJATT journey
 you don't need to worry about things like
 all the different types of verbs and exactly how they conjugate.
@@ -176,13 +189,19 @@ Particles like `は` and `が`, `に` and `へ` are taught in the very beginning
 but most Japanese learners can't fully acquire them and understand the differences between them
 until they reach a high level in the language.
 
+If you studied English before starting Japanese,
+you had to learn the differences between articles `a` and `the`
+or demonstratives `this`, `that`, `these` and `those`.
+Undoubtedly they were not easy, particularly at first.
+Often English learners acquire such things only after years of practice.
+
 When approaching basic grammar, accept that
 it will take a long time for you to understand all the bits and pieces.
 Don't get frustrated just because you've been learning Japanese for months or years
 but aren't quite sure when you should use a certain grammar pattern in your speech.
 If you're taking an immersion-based approach to learning a language,
 you don't really have to do anything.
-As long as you keep immersing, everything will eventually become clear on its own.
+As long as you **keep immersing**, everything will eventually become clear on its own.
 
 When going through a grammar guide,
 simply read the explanation of what a structures means,
@@ -220,8 +239,8 @@ On the back put everything necessary to understand the grammar point.
 
 When I learned Japanese,
 I went with the Tae Kim grammar guide.
-I made Anki cards for grammar concepts that I didn't know.
-I skipped the sentences that I already understood pretty well.
+I made Anki cards for grammar concepts that I didn't know
+and skipped the sentences that I already understood pretty well.
 
 Don't mine every sentence.
 Most examples in grammar guides are similar to each other.
