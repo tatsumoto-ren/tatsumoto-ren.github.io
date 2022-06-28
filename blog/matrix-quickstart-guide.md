@@ -262,14 +262,19 @@ Every public instance of Element has its own config file.
 
 ## Multi-accounting
 
-Element-desktop supports multiple profiles.
-This is how you can start a new profile.
+If you want to use multiple different accounts at the same time,
+try the following options.
 
-```
-$ element-desktop --profile "profile-name"
-```
+* Element-desktop supports multiple profiles.
+  This is how you can start a new profile.
 
-Or you can have multiple container tabs in Firefox each running Element.
+  ```
+  $ element-desktop --profile "profile-name"
+  ```
+* You can have multiple container tabs in Firefox each running Element.
+* [Ferdium](https://aur.archlinux.org/packages?O=0&K=ferdium).
+  A desktop app that helps you combine various services into one application.
+  It is based on Chromium and is rather bloated (over 300 MiB after installation).
 
 ## Joining rooms
 
