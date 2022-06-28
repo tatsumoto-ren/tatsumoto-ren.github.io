@@ -29,6 +29,7 @@ However, with a user-script for mpv it can be done automatically.
 `sub-transition` is a user-script
 that allows automatically skipping parts of a video that don't contain any subtitles.
 Skipping is done by speeding up playback while no subtitles are present.
+In addition, it can pause video before the end or at the start of a subtitle line.
 For the script to work it is necessary to have an active subtitle track.
 
 Follow the instructions on GitHub to set it up.
