@@ -41,10 +41,10 @@ The fields on the back of the card are less significant.
 Their purpose is to help increase your understanding of what is on the front.
 
 * **Word Cards** test your reading comprehension of a single word.
-  * **Simple Word Cards** contain the minimum of information necessary to understand the word.
-  * **Word Context Cards** must additionally have an example sentence on the back of the card.
-* **Sentence Cards** test your reading comprehension of a sentence or a part of a sentence.
-* **Targeted Sentence Cards** test your reading comprehension of a single word in context.
+  * **[Simple Word Cards](#simple-word-cards)** contain the minimum of information necessary to understand the word.
+  * **[Word Context Cards](#word-context-cards)** must additionally have an example sentence on the back of the card.
+* **[Sentence Cards](#sentence-cards)** test your reading comprehension of a sentence or a part of a sentence.
+* **[Targeted Sentence Cards](#targeted-sentence-cards-or-mpvacious-cards)** test your reading comprehension of a single word in context.
 * Other types of cards are rarely used, including cards with audio on the front.
 
 We approach card templates based on the idea that
