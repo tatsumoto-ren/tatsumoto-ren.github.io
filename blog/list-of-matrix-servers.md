@@ -44,7 +44,7 @@ If a homeserver has rules, read them to check if they're unreasonably strict.
 Keep an eye on the usual things that tend to stink.
 For example, if a homeserver is trying to suppress certain political opinions,
 restrict you from posting certain types of content
-or otherwise impose authoritarian environment.
+or otherwise [impose authoritarian environment](https://glowers.club/wiki/doku.php?id=jannies).
 
 ## Recommendations
 
@@ -77,7 +77,7 @@ recommended by
 	* [trygve.me](https://element.trygve.me/) 🏆
 	* [nltrix](https://element.nltrix.net/)
 	* [lolisho.chat](https://lolisho.chat/)
-* Servers run by Japanese people:
+* Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/)):
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
 	* [juggler.jp](https://matrix.juggler.jp/)
