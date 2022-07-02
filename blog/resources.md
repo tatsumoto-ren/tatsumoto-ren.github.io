@@ -196,6 +196,8 @@ Unfortunately, not all of them can be opened in mpv.
 	* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
 * [テレ東BIZ](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
 News. Doesn't have subs, but has transcriptions.
+* [Discovery Channel Japan](https://www.youtube.com/c/DiscoveryJapan/videos)
+* [Kurzgesagt](https://www.youtube.com/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos)
 
 **Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
 to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
