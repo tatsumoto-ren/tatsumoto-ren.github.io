@@ -229,9 +229,27 @@ then there would be no deliberate practice involved,
 so you'd eventually start ignoring the kanji.
 
 At Ajatt-Tools we have made our own Anki deck for people who wish to follow this method.
-You can download the deck below:.
+To download it, visit the linked page.
 
-<p align="center"><a class="download_button" href="jp1k-anki-deck.html">Kanji Transition</a></p>
+<p align="center"><a class="download_button" href="jp1k-anki-deck.html">KanjiTransition</a></p>
+
+## Learning radicals
+
+I often see people asking,
+"should I learn radicals? Is it worth studying kanji radicals?"
+
+If you're taking an isolated kanji study approach,
+you will be learning radicals and kanji composition with the Anki deck you have downloaded.
+For example, KanjiDamage introduces a new radical or kanji part before all the kanji that use it.
+RTK does the same.
+There's no need to study radicals separately.
+
+If you're doing the JP1K method,
+radicals are skipped altogether.
+The method is designed to teach kanji like pictures.
+You memorize kanji by simply seeing them many times.
+
+So answer is "no".
 
 ## Conclusion
 
