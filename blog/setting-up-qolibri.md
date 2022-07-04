@@ -165,7 +165,10 @@ In addition to playing the files as you click on them,
 `qolibri-mpv` also copies them to clipboard.
 You are able to play an audio and paste it in an Anki note as an `ogg/opus` file.
 
-Video: https://redirect.invidious.io/watch?v=xA_Af0DGmmQ
+<video width="960" controls>
+	<source src="https://midov.pl/_matrix/media/r0/download/midov.pl/BHkEKNNyWldKxfgHndAfVwsy" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
 
 ## Set browser font
 
