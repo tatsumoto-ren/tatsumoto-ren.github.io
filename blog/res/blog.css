@@ -1046,7 +1046,7 @@ article pre {
 
 article pre>.select_button {
     position: absolute;
-    display: none;
+    display: block;
     font-size: 12px;
     font-weight: bold;
     padding: 3px 6px;
@@ -1060,6 +1060,7 @@ article pre>.select_button {
     transition: background-color 80ms cubic-bezier(0.33, 1, 0.68, 1);
     color: #57606a;
     cursor: pointer;
+    visibility: hidden;
 }
 
 article pre>.select_button::before {
@@ -1084,7 +1085,7 @@ article pre>.select_button:active {
 }
 
 article pre:hover>.select_button {
-    display: block;
+    visibility: visible;
 }
 
 /* Status tooltip for copy/select button */
@@ -1093,7 +1094,6 @@ article pre>.select_button::after {
     display: block;
     content: "";
     line-height: 18px;
-    visibility: hidden;
     min-width: 90px;
     background-color: #000000b2;
     color: #fff;
@@ -1104,14 +1104,15 @@ article pre>.select_button::after {
     z-index: 150;
     top: 0px;
     right: calc(100% + 6px);
+    visibility: hidden;
 }
 
-article pre>.select_button[status=copied]::after {
+article pre:hover>.select_button[status=copied]::after {
     visibility: visible;
     content: "Copied.";
 }
 
-article pre>.select_button[status=selected]::after {
+article pre:hover>.select_button[status=selected]::after {
     visibility: visible;
     content: "Selected.";
 }
