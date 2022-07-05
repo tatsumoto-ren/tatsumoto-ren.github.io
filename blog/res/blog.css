@@ -1037,3 +1037,81 @@ a.md-button.donations::before {
 .toc_navigation>a.prev::before {
     transform: rotate(-90deg);
 }
+
+/* copy/select button for code blocks */
+
+article pre {
+    position: relative;
+}
+
+article pre>.select_button {
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 6px;
+    margin: 0;
+    right: 6px;
+    top: 6px;
+    text-transform: capitalize;
+    background-color: #f6f8fa;
+    border: 1px solid #1b1f2426;
+    border-radius: 6px;
+    transition: background-color 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    color: #57606a;
+    cursor: pointer;
+}
+
+article pre>.select_button::before {
+    content: "";
+    background-image: url("/blog/img/copy-to-clip.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: -4px;
+    cursor: pointer;
+    filter: invert(34%) sepia(19%) saturate(307%) hue-rotate(171deg) brightness(99%) contrast(87%);
+}
+
+article pre>.select_button:hover {
+    background-color: #f3f4f6;
+}
+
+article pre>.select_button:active {
+    background-color: #ebecf0;
+}
+
+article pre:hover>.select_button {
+    display: block;
+}
+
+/* Status tooltip for copy/select button */
+
+article pre>.select_button::after {
+    display: block;
+    content: "";
+    line-height: 18px;
+    visibility: hidden;
+    min-width: 90px;
+    background-color: #000000b2;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0px;
+    position: absolute;
+    z-index: 150;
+    top: 0px;
+    right: calc(100% + 6px);
+}
+
+article pre>.select_button[status=copied]::after {
+    visibility: visible;
+    content: "Copied.";
+}
+
+article pre>.select_button[status=selected]::after {
+    visibility: visible;
+    content: "Selected.";
+}

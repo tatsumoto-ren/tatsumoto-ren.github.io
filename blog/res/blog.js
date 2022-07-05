@@ -31,6 +31,36 @@ const insert_after = (new_node, existing_node) => existing_node.parentNode.inser
 
 const is_external = (anchor) => anchor.host && anchor.host !== window.location.host;
 
+const copy_to_clipboard = str => {
+    if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(str);
+    } else {
+        return Promise.reject("The Clipboard API is not available.");
+    }
+}
+
+const select_text = text_node => {
+    const [range, sel] = [document.createRange(), window.getSelection()]
+    range.selectNodeContents(text_node)
+    sel.removeAllRanges()
+    sel.addRange(range)
+}
+
+const create_copy_select_button = text_node => {
+    return Object.assign(document.createElement('button'), {
+        type: "button",
+        className: "select_button",
+        value: "select",
+        title: "Copy to clipboard",
+        onclick: (click) => {
+            copy_to_clipboard(text_node.innerText)
+                .then(() => { click.target.setAttribute('status', 'copied'); })
+                .catch(() => { select_text(text_node); click.target.setAttribute('status', 'selected'); })
+                .finally(() => { setTimeout(() => click.target.removeAttribute('status'), "800"); })
+        },
+    })
+}
+
 const Utils = Object.freeze({
     is_index() {
         const path = window.location.pathname;
@@ -209,4 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
     Array.from(document.getElementsByTagName("a"))
         .filter(is_external)
         .forEach(a => a.target = "_blank")
+    document.querySelectorAll("article pre")
+        .forEach(pre => pre.append(create_copy_select_button(pre)))
 }, false)
