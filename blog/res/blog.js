@@ -195,12 +195,8 @@ const MegaTags = Object.freeze({
         return mega_tag
     },
     mark_links() {
-        const anchors = document.querySelectorAll('article a')
-        for (const anchor of anchors) {
-            if (anchor.href.startsWith('https://mega.nz/')) {
-                insert_after(this.make_tag(), anchor)
-            }
-        }
+        document.querySelectorAll('article a[href^="https://mega.nz/"]')
+            .forEach(anchor => insert_after(this.make_tag(), anchor))
     }
 })
 
