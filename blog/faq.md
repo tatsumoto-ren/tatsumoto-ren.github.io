@@ -29,6 +29,13 @@ Usually we divide immersion into passive (background) and active.
 Active immersion requires full attention to the content
 while passive immersion is when you're listening to Japanese while doing something else.
 
+### What's input and output?
+
+When we say `input` or `immersion`,
+we mean any form of listening or reading in the target language.
+When we say `output`,
+we mean writing or speaking in the target language.
+
 ### How important is passive immersion?
 
 When you're a beginner, active immersion plays a much bigger role than passive immersion.
@@ -76,8 +83,7 @@ and update the method bringing in new tools and ideas.
 
 If you're interested in Khatzumoto's original ideas,
 you may want to read the AJATT site.
-It is not necessary,
-but can help you answer some language learning questions you have.
+It can help you answer some language learning questions you have.
 
 First make sure you've read [our guide](table-of-contents.html).
 There are ideas in which this site disagrees with the original AJATT method.
@@ -223,7 +229,7 @@ when trying to read every word.
 
 ### I did RRTK but my kanji ability still feels shaky. Should I do the JP1K?
 
-Decks like RTK, RRTK, KanjiDamage and JP1K (Kanji Transition)
+Decks like RTK, RRTK, KanjiDamage and KanjiTransition
 are designed to give you training wheels
 so that you could practice kanji in a modified environment for a while
 and then transition to reading real Japanese and learn real words.
@@ -588,6 +594,16 @@ Then try manga and eventually novels.
 Reading is very powerful, but it harms you if you don't have enough phonetic awareness.
 If I were starting today, I would keep reading at a minimum for the first year.
 
+### Why does premature reading cripple phonetic awareness?
+
+Reading leads to sub-vocalizing which forms bad pronunciation habits
+and negatively influences the way you perceive spoken language.
+
+If the text is voiced,
+such as anime with subtitles,
+it counts towards reading practice
+unless you don't read along.
+
 ### Given that reading can harm pronunciation, when is the ideal time to become an avid reader?
 
 I find that ideally it should be as late as possible.
@@ -937,9 +953,14 @@ when you're ready to start practicing speaking.
 
 ### How to approach words with multiple meanings?
 
+Consider the word `念`. What does it mean exactly?
+`念のため` and `不安の念` express drastically different concepts.
+`出す` has 8 meanings in `旺文社` and 29 in `大辞林`.
+
 The main way we do sentence mining is by adding sentences from our immersion to the SRS.
+The SRS is designed to test on very small pieces of information.
 When you notice a new word in your immersion,
-it is sufficient to make **just one card with the sentence the word appears in**.
+it is sufficient to make **just one card** with the **sentence the word appears in**.
 When you review the card,
 grade it "Good" if you remember the meaning relevant to the context of the sentence.
 
@@ -959,8 +980,10 @@ Having to recall multiple things at once violates the
 [minimum information principle](http://super-memory.com/articles/20rules.htm#minimum%20information%20principle)
 and makes the card harder.
 
+Should you make 29 different (targeted) sentence cards just for `出す`？
+It's not necessary.
 When you find the same word used to express a different meaning,
-it's totally acceptable to make another card if you think it helps you.
+it's acceptable to make another card if you think it helps you.
 To distinguish the cards rely on context around the target word.
 *Making another card does not contradict the minimum information principle
 because the extra information is added in extra cards.*
@@ -1010,7 +1033,7 @@ After you've achieved basic fluency, do production TSCs instead.
 I wouldn't recommend that.
 Try the [JP1K method](learning-kanji.html#jp1k-method) instead.
 
-### I just learned that I was reviewing the Kanji Transition deck completely wrong. What should I do from here?
+### I just learned that I was reviewing the KanjiTransition deck completely wrong. What should I do from here?
 
 It clearly means that the [JP1K method](learning-kanji.html#jp1k-method) is not for you.
 You should switch to [Ankidrone Starter Pack](basic-vocabulary.html).
