@@ -136,13 +136,6 @@ because AnkiDroid's releases are slow.
 
 To sync your collection on desktop, press `Y` or click "Sync" on the toolbar.
 
-I must warn you in advance though.
-Don't sync your collection with AnkiWeb
-if you are a heavy user of [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
-`subs2srs` decks take a lot of disk space. Use a different Anki profile to store them.
-
-To make multiple profiles, press `File > Switch profile`.
-
 ## Import an example mining deck
 
 After you install Anki, you need to set up a `Note Type`
@@ -379,6 +372,21 @@ the "Hard" and "Easy" buttons.
     For example, on [weblio](https://ejje.weblio.jp/sentence/).
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
+
+## Synchronizing large collections
+
+Don't sync your collection with AnkiWeb
+if you store large files in it
+or if you are a heavy user of [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
+`subs2srs` decks take a lot of disk space.
+Use a different Anki profile to store them.
+The extra profile should not be synced.
+
+To make multiple profiles, press "File" > "Switch profile".
+
+Alternatively, use a personal Anki sync server.
+[anki-sync-server](https://aur.archlinux.org/packages/anki-sync-server-git)
+is a sync server for Anki which you can sync against instead of AnkiWeb.
 
 ## Ease Hell
 
