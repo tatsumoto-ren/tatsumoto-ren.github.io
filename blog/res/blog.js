@@ -61,13 +61,33 @@ const create_copy_select_button = text_node => {
     })
 }
 
-const Utils = Object.freeze({
-    is_index() {
-        const path = window.location.pathname;
-        return (path.endsWith('index') || path.endsWith('index.html'))
+const ReorderTags = Object.freeze({
+    get_pos(element) {
+        return element.getAttribute('position')
     },
+    init() {
+        if (Utils.is_tags()) {
+            const main = document.querySelector("main")
+            const articles = [...main.children]
+            articles.sort((prev, next) => this.get_pos(prev) - this.get_pos(next))
+            main.prepend(...articles.filter(element => this.get_pos(element) < 0))
+            main.append(...articles.filter(element => this.get_pos(element) > 0))
+        }
+    }
+})
+
+const Utils = Object.freeze({
     filename() {
         return window.location.pathname.split('/').slice(-1).join('')
+    },
+    filename_noext() {
+        return this.filename().split('.').slice(0, -1).join('.')
+    },
+    is_index() {
+        return this.filename_noext() == 'index'
+    },
+    is_tags() {
+        return this.filename().startsWith('tag_')
     },
     query_headers(parent) {
         const headers = parent.querySelectorAll(':is(h1, h2, h3, h4, h5, h6)')
@@ -241,4 +261,5 @@ document.addEventListener('DOMContentLoaded', () => {
         .forEach(a => a.target = "_blank")
     document.querySelectorAll("article pre")
         .forEach(pre => pre.append(create_copy_select_button(pre)))
+    ReorderTags.init()
 }, false)
