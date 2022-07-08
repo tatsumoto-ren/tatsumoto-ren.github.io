@@ -1,4 +1,4 @@
-# AJT Kanji Transition deck
+# KanjiTransition Anki deck
 
 The most important part of learning Japanese with the
 [AJATT](faq.html#whats-ajatt)
@@ -9,7 +9,7 @@ by picking up new words from the media you read, watch or listen to.
 To transition towards learning directly from Japanese media,
 first you need to level up your comprehension.
 
-**Ajatt-Tools Kanji Transition deck**
+**KanjiTransition deck**
 is an Anki Deck for newcomers to Japanese based on the JP1K method.
 If you want to learn the theory behind this deck, please read
 [this article](learning-kanji.html).
@@ -27,7 +27,7 @@ and know more than 1000 words
 or have gone through isolated kanji study with a book like RTK,
 you are unlikely to benefit from the deck.
 However, if your vocabulary is below 1000 words,
-I recommend that you give the Kanji Transition deck a try.
+I recommend that you give the KanjiTransition deck a try.
 
 The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vocabulary.html)
 and consists of words commonly used in everyday life in Japan.
@@ -94,7 +94,7 @@ When you hover over each word, a furigana reading appears on top.
 You can also press the `p` key on your keyboard to immediately reveal all kanji readings.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
-<p align="center"><i>An example TSC from AJT Kanji Transition.</i></p>
+<p align="center"><i>An example TSC from KanjiTransition.</i></p>
 
 If you're going to read the full sentence every time you rep a card,
 prior knowledge of some grammar might be necessary.
@@ -116,7 +116,7 @@ Similarly to the TSC deck, you can reveal furigana by pressing the `p` button on
 The content on the back is identical to the TSC deck.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
-<p align="center"><i>An example WCC from AJT Kanji Transition.</i></p>
+<p align="center"><i>An example WCC from KanjiTransition.</i></p>
 
 ### Extra
 
