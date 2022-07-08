@@ -1,4 +1,8 @@
-# Ankidrone Sentence Pack
+---
+title: Ankidrone Sentence Pack
+tags: [vocab, anki, decks]
+position: 99
+---
 
 Ankidrone Sentence Pack is an Anki deck
 that contains over 44,000 Japanese sentence with native audio.
@@ -48,5 +52,3 @@ This deck is not a replacement for
 [Ankidrone Starter Pack](basic-vocabulary.html).
 It doesn't contain dictionary definitions.
 I recommend you start with Ankidrone Starter Pack if you're a beginner.
-
-Tags: vocab, anki, decks
