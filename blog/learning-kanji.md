@@ -249,7 +249,7 @@ radicals are skipped altogether.
 The method is designed to teach kanji like pictures.
 You memorize kanji by simply seeing them many times.
 
-So answer is "no".
+So the answer is "no".
 
 ## Conclusion
 
