@@ -24,7 +24,8 @@ Train kana recognition online.
 
 ### Kanji
 
-* [Ajatt-Tools JP1K Anki deck](https://ankiweb.net/shared/info/917377946)
+* [KanjiTransition](https://ankiweb.net/shared/info/917377946).
+Learn words with the kanji used to write them.
 * [Kanjidamage](http://www.kanjidamage.com/).
 The best mnemonic-based method of learning kanji in isolation.
 * [Kanjidamage+ reference](https://kanjidamageplus.neocities.org/).
@@ -432,7 +433,9 @@ Doesn't display furigana correctly.
 ### Fonts
 
 * [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
-Google Noto TTF fonts.
+  Google Noto TTF fonts.
+  * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
+  * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
 The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
 * [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/)
