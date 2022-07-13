@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Fri, 24 Jun 2022 19:11:53 +0300</lastBuildDate>
-<pubDate>Fri, 24 Jun 2022 19:11:53 +0300</pubDate>
+<lastBuildDate>Wed, 13 Jul 2022 21:13:29 +0300</lastBuildDate>
+<pubDate>Wed, 13 Jul 2022 21:13:29 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Japanese locale</title><description><![CDATA[
+<p>A <a href="https://wiki.archlinux.org/title/Locale">Locale</a>
+is a set of information that most programs use
+for determining country and language specific settings.
+Since you're learning Japanese,
+generate and enable the Japanese locale on your system.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/japanese-locale.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/japanese-locale.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 13 Jul 2022 21:10:23 +0300</pubDate></item>
 <item><title>
 Condensing active immersion</title><description><![CDATA[
 <p>Watching movies and TV shows counts towards active immersion
@@ -120,28 +132,4 @@ If you need help finding monolingual dictionaries, see the
 <guid>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 06 Jan 2022 00:45:48 +0300</pubDate></item>
-<item><title>
-How to type in Japanese</title><description><![CDATA[
-<p align="center">
-<img alt="Japanese keyboard" src="img/keyboard.webp" style="width: 400px;">
-</p>
-<p>Ever wondered how Japanese people type?
-No one knows the answer.
-Some people say that they use huge keyboards with hundreds of keys like on the picture.
-Luckily for us, we don't have to imitate Japanese people and buy a keyboard like that.
-There are programs called <strong>Input Method Editors</strong> (IMEs)
-that help us do the same thing on a regular computer keyboard.
-With an IME you type Latin letters
-and the software automatically converts them to Japanese characters.</p>
-<p>Typing words in a dictionary,
-searching the web
-or talking to people who pretend to be Japanese on the Internet
-all require being able to input Japanese characters.
-If you're serious about learning Japanese,
-you need to learn how to do it.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/how-to-type-in-japanese.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-to-type-in-japanese.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 28 Dec 2021 12:34:47 +0300</pubDate></item>
 </channel></rss>

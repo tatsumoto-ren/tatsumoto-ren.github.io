@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="img/logo.webp"/>
+<title>Japanese locale</title>
+<meta property="og:title" content="Japanese locale">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/japanese-locale.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/blog/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<div id="headerholder" class="headerholder">
+<header>
+<div class="logoholder">
+<a href="index.html" class="logo">
+<img alt="達元" src="img/logo.webp" />
+<h1>Tatsumoto</h1>
+</a>
+</div>
+<input class="menu" type="checkbox" id="menu-btn" />
+<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="donating-to-tatsumoto.html">Support</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+</header>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="japanese-locale.html">Japanese locale</a></h1>
+<!-- bashblog_timestamp: #1657735823# -->
+<div class="subtitle">July 13, 2022 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>A <a href="https://wiki.archlinux.org/title/Locale">Locale</a>
+is a set of information that most programs use
+for determining country and language specific settings.
+Since you're learning Japanese,
+generate and enable the Japanese locale on your system.</p>
+<hr>
+<h2 id="importance"><a class="anchor" href="#importance" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Importance</h2>
+<p>Setting up locale is a prerequisite to:</p>
+<ul>
+<li><a href="how-to-type-in-japanese.html">Typing in Japanese</a>.</li>
+<li>Installing and displaying <a href="japanese-fonts.html">Japanese fonts</a>.</li>
+</ul>
+<p>Thus, this article comes first.</p>
+<p>The instructions are intended for systemd.
+If you happen to have a different init system,
+you may have to perform different commands or edit different files.
+Consult <a href="https://wiki.gentoo.org/wiki/Localization/Guide">Gentoo Wiki</a> or a similar resource.</p>
+<h2 id="instructions"><a class="anchor" href="#instructions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions</h2>
+<p>Uncomment the languages you use in <code>/etc/locale.gen</code>
+by removing the <code>#</code>s from their corresponding lines.
+If the file is empty, you have to add the languages yourself.
+At least English and Japanese should be enabled.
+See the example below.</p>
+<pre><code>en_US.UTF-8 UTF-8
+ja_JP.UTF-8 UTF-8
+</code></pre>
+<p>Don't forget to enable other languages you want to use.</p>
+<p>Then save the file and regenerate the locale.</p>
+<pre><code>$ sudo locale-gen
+</code></pre>
+<p>Finally, edit <code>/etc/locale.conf</code> and set the system locale.
+It doesn't have to be set to Japanese.</p>
+<pre><code>LANG=en_US.UTF-8
+</code></pre>
+<p>If you set your system locale to Japanese, the system logs will also be in Japanese.
+This is not convenient because sometimes we need to search the web for a system error, for example.
+For such searches, English works best.
+If you want to set your computer to Japanese,
+do it for a local user instead of the whole system.</p>
+<h2 id="change-local-language"><a class="anchor" href="#change-local-language" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change local language</h2>
+<p><strong>Note:</strong> This step is for people who know at least some Japanese and can read it.</p>
+<p>Create or edit <code>~/.config/locale.conf</code>.</p>
+<pre><code>LANG=ja_JP.UTF-8
+</code></pre>
+<p>Set <code>LANG</code> for your shell as well, by editing startup files.</p>
+<ul>
+<li><a href="https://wiki.archlinux.org/title/Bash#Configuration_files">Bash</a>: <code>~/.profile</code> or <code>~/.bash_profile</code></li>
+<li><a href="https://wiki.archlinux.org/title/Zsh#Startup/Shutdown_files">Zsh</a>: <code>~/.zprofile</code></li>
+</ul>
+<p>Add the following line.</p>
+<pre><code>export LANG=ja_JP.UTF-8
+</code></pre>
+<p>If you are using a desktop environment, such as <code>GNOME</code> or <code>KDE</code>,
+its language settings may be overriding the settings in <code>locale.conf</code>.
+You have to change language via the GUI menus.</p>
+<h2 id="see-also"><a class="anchor" href="#see-also" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>See also</h2>
+<p>Since this is a very low-level topic,
+the steps for your system may differ.
+On this page I mentioned what I did for my system running vanilla Arch Linux.
+Read Arch Wiki and Gentoo Wiki for further explanations.</p>
+<p>Tags: <a href="tag_guide.html">guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Matrix</h3>
+<ul>
+<li><a href="matrix-quickstart-guide.html">Quickstart guide</a></li>
+<li><a href="list-of-matrix-servers.html">List of servers</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Join our Patreon or donate cryptocurrency.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>
