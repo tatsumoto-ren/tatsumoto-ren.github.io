@@ -6,6 +6,7 @@
 	* [Spaced repetition](spaced-repetition.html)
 	* [How Anki works](how-anki-works.html)
 * Setup
+	* [Japanese locale](japanese-locale.html)
 	* [How to type in Japanese](how-to-type-in-japanese.html)
 	* [Anki](setting-up-anki.html)
 	* [Anki add-ons](useful-anki-add-ons-for-japanese.html)
