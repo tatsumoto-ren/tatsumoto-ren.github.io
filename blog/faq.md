@@ -358,12 +358,14 @@ if you want to make Anki cards.
 
 ### How do I look up words when I read manga?
 
-Using Tesseract and Yomichan.
+Using OCR software (Tesseract, Transformers) with Yomichan.
 The
 [Mining from manga](mining-from-manga.html)
 article explains how to automate it.
-If Tesseract fails to OCR a certain word,
+
+If your OCR tool fails,
 open Google Translate, enable handwriting and draw the word.
+Another option is to find kanji by their parts on [Jisho](https://jisho.org/#radical).
 
 ### Is SuperMemo better than Anki?
 
