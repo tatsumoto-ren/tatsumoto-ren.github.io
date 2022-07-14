@@ -22,6 +22,16 @@ you need to learn how to do it.
 
 ****
 
+## Japanese input
+
+In [Introduction](introduction-to-learning-japanese.html#writing-systems)
+I breifly mentioned what writing systems Japanese has.
+Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana and kanji.
+The writing systems are covered in their own articles.
+For now you need to understand that
+due to complexity of these writing systems they can't be typed directly.
+In order to type in Japanese, you need to install a number of programs on your computer.
+
 ## How an IME works
 
 On a PC, the process is as follows.
@@ -50,6 +60,12 @@ An IMF is a program that allows the user to switch between different IMEs,
 whilst the IMEs are responsible for converting Latin characters to Japanese.
 You can have several IMEs installed and running at the same time,
 but you can only run one IMF at a time.
+
+## Locale
+
+It is possible that your computer would not let you input Japanese
+unless your locale is correct.
+Set it up following the instructions [here](japanese-locale.html).
 
 ## Input method framework
 
