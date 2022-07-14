@@ -39,22 +39,8 @@ You need to install Japanese fonts and change your system settings.
 
 ## Locale
 
-First and foremost, ensure that you have generated the Japanese
-[locale](https://wiki.archlinux.org/title/Locale).
+First and foremost, ensure that you have [generated the Japanese locale](japanese-locale.html).
 You may have font-rendering issues if you don't do that.
-Uncomment the languages you use in `/etc/locale.gen`
-by removing the `#`s from their corresponding lines.
-
-```
-en_US.UTF-8 UTF-8
-ja_JP.UTF-8 UTF-8
-```
-
-Then save the file and regenerate the locale:
-
-```
-$ sudo locale-gen
-```
 
 ## Installing fonts
 
