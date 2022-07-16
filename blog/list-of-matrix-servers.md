@@ -1,4 +1,7 @@
-# List of Matrix servers
+---
+title: List of Matrix servers
+tags: [matrix]
+---
 
 [Matrix](https://wiki.archlinux.org/index.php/Matrix)
 is a FLOSS protocol for open federated instant messaging.
@@ -77,6 +80,9 @@ recommended by
 	* [trygve.me](https://element.trygve.me/) 🏆
 	* [nltrix](https://element.nltrix.net/)
 	* [lolisho.chat](https://lolisho.chat/)
+	* [nitro.chat](https://app.nitro.chat/)
+	* [mux.re](https://chat.mux.re/)
+	* [houtworm.im](https://houtworm.im/)
 * Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/)):
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -572,5 +578,3 @@ and change the server from the default to the one you want.
 * https://matrix.intahnet.co.uk/
 * https://matrix.fatherjim.tech/
 * https://matrix.magnumchaos.org/
-
-Tags: matrix
