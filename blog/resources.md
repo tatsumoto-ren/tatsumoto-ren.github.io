@@ -1,4 +1,7 @@
-# Resources
+---
+title: Resources
+tags: [guide]
+---
 
 This is the Ajatt-Tools Resources List.
 With the help of our community we've gathered the links to help you in your Japanese studies.
@@ -48,12 +51,15 @@ You have to change the card template from Word Cards to Targeted Sentence Cards 
 ### Grammar
 
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
-A guide to Japanese grammar.
-It breaks down Japanese in a logical and straightforward way
-and covers all the basics without going into too much detail.
+  A guide to Japanese grammar.
+  It breaks down Japanese in a logical and straightforward way
+  and covers all the basics without going into too much detail.
 * [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
-An online reference of the seminal A Dictionary of Japanese Grammar book series.
-* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
+  An online DoJG reference.
+* [Dictionary of Japanese Grammar Reference](https://core6000.neocities.org/dojg/).
+  Another online DoJG reference.
+* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
+  An Anki deck that contains example sentences from DoJG.
 
 ### Grammar in Japanese
 
@@ -195,10 +201,14 @@ Unfortunately, not all of them can be opened in mpv.
 * Channels for pre-beginner Japanese learners.
 	* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
 	* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
+	* [Comprehensible Japanese](https://www.youtube.com/c/ComprehensibleJapanese).
+	  Inspired by Steven Krashen's idea of comprehensible input.
+	  The language is slow and is even easier than Tango N5.
 * [テレ東BIZ](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
 News. Doesn't have subs, but has transcriptions.
 * [Discovery Channel Japan](https://www.youtube.com/c/DiscoveryJapan/videos)
-* [Kurzgesagt](https://www.youtube.com/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos)
+* [Kurzgesagt](https://www.youtube.com/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos).
+  Science topics.
 
 **Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
 to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
@@ -778,5 +788,3 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 Her guide is a little outdated but can still be useful.
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
 `subs2srs` Anki decks for popular anime and movies.
-
-Tags: guide
