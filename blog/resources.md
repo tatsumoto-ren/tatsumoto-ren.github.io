@@ -197,15 +197,19 @@ Unfortunately, not all of them can be opened in mpv.
 
 > Main article: [Immersion with YouTube](immersion-with-youtube.html)
 
-* [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
-* Channels for pre-beginner Japanese learners.
-	* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
-	* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
-	* [Comprehensible Japanese](https://www.youtube.com/c/ComprehensibleJapanese).
-	  Inspired by Steven Krashen's idea of comprehensible input.
-	  The language is slow and is even easier than Tango N5.
+**Channels for pre-beginner Japanese learners.**
+
+* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
+* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
+* [Comprehensible Japanese](https://www.youtube.com/c/ComprehensibleJapanese).
+  Inspired by Steven Krashen's idea of comprehensible input.
+  The language is slow and is even easier than Tango N5.
+
+**Regular channels.**
+
+* GitHub: [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
 * [テレ東BIZ](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
-News. Doesn't have subs, but has transcriptions.
+  News. Doesn't have subs, but has transcriptions.
 * [Discovery Channel Japan](https://www.youtube.com/c/DiscoveryJapan/videos)
 * [Kurzgesagt](https://www.youtube.com/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos).
   Science topics.
