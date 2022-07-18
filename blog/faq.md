@@ -1,4 +1,7 @@
-# FAQ
+---
+title: FAQ
+tags: [guide]
+---
 
 This is Tatsumoto's AJATT FAQ.
 You can search questions you're interested in if you press `Ctrl+f`.
@@ -750,8 +753,8 @@ In other words, if you only have Japanese books, TV and movies at hand,
 immersing in Japanese is the only thing you can do.
 All your time is immersion time, so you don't have to measure it.
 
-For a strange reason everybody I've met
-who tried to measure how much time they spent on Japanese
+From what I saw,
+people who tried measuring how much time they spent on Japanese
 weren't actually that good.
 They were so focused on optimizing their immersion that they didn't immerse.
 
@@ -1516,5 +1519,3 @@ On mobile, I use [LineageOS](https://lineageos.org/) without Google Apps.
 
 Just off the top of my head.
 The order doesn't imply anything.
-
-Tags: guide
