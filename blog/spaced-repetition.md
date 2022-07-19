@@ -1,4 +1,7 @@
-# Spaced repetition
+---
+title: Spaced repetition
+tags: [guide]
+---
 
 To study efficiently
 and help you keep track of the learning process
@@ -27,6 +30,11 @@ we can extend how long we know it for.
 
 In order to get the best results,
 the intervals between revisions of the same piece of information gradually increase.
+When you first learn something, the memory of it is weak.
+If you don't review the information soon, you are likely to forget it.
+To keep remembering it, you need to review it very frequently.
+If you continue reviewing, over time the memory grows stronger.
+The stronger the memory is, the less often you need to review it.
 You are keeping the old information in memory
 while spending less and less time maintaining it.
 
@@ -36,12 +44,14 @@ that automates spaced repetition
 helping you retain large quantities of information long-term.
 
 When using an SRS you create electronic flashcards.
-Each flashcard needs to be learned first,
-and then the system shows you this flashcard before you forget it,
+Flashcards test you on information contained in them,
+forcing you to actively recall what you've memorized.
+The system shows you a flashcard before you forget it,
 so you can maintain and strengthen your memories.
 
 ## The forgetting curve
 
+Hermann Ebbinghaus discovered the forgetting curve back in nineteenth century.
 The forgetting curve shows how information or knowledge stored within the brain is lost over time
 if the individual makes no attempt to retain it.
 
@@ -50,14 +60,28 @@ if the individual makes no attempt to retain it.
 
 Memory gradually declines with the passage of time.
 The curve shows that we eventually forget whatever we don't review.
+If we actively practice recalling it,
+the rate at which the memory declines slows down.
 
 In order to overcome the forgetting curve
 and retain a learned word in your long-term memory,
 it needs to be reviewed occasionally.
 Ideally, the most optimal time to review something is right before you forget it.
-
 The memory becomes stronger with each review.
 By spacing out sessions over time we create room for new information.
+
+This idea is similar to building a muscle.
+If you practice lifting weights, and the weights are too heavy,
+you won't be able to practice at all.
+If they're too easy, you won't gain anything.
+When practicing recall,
+if you review learned information too late,
+you find that you have forgotten it,
+and you have to learn it again.
+If you review too early,
+the information is too easy and doesn't leave any impression on the brain.
+The SRS algorithm tries to schedule recall sessions
+so that the difficulty is just about right.
 
 ## Retention rate
 
@@ -153,10 +177,12 @@ Strictly speaking, it's true of course.
 The SRS doesn't play a crucial role in the learning process,
 it is often called "a supplement".
 
-The alternative to using spaced repetition is
+One alternative to using spaced repetition is
 randomly coming across the same word multiple times.
 If you're taking an immersion-based approach to language learning,
 eventually you will see the word enough times to *acquire it*.
+Another alternative is keeping a notepad with a list of words you've looked up.
+The list has to be reviewed at times, but unlike the SRS the process is not automated.
 
 A major problem that happens when learning languages is that
 a learner is liable to forget a word over and over until the word is seen many times.
@@ -170,5 +196,3 @@ you are only moving forward.
 Anki still remains my SRS of choice.
 I use it every day for language learning and to study other subjects.
 In later chapters we'll discuss how to install and set it up.
-
-Tags: guide
