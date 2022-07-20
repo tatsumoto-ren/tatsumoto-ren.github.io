@@ -143,6 +143,8 @@ Contains 98% of what you need to actually learn Japanese.
 	If you can't access the site, use a mirror.
 	Currently, there's only one working mirror I know,
 	[Nyaa ISS](https://nyaa.iss.one/).
+* [Tokyo Toshokan](https://www.tokyotosho.info/).
+A BitTorrent library for Japanese media.
 * [Rutracker](https://rutracker.org/).
 Another torrent site.
 Has lots of Japanese movies, dramas and anime.
