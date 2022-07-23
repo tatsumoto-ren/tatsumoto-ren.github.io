@@ -81,7 +81,6 @@ recommended by
 	* [nltrix](https://element.nltrix.net/)
 	* [lolisho.chat](https://lolisho.chat/)
 	* [nitro.chat](https://app.nitro.chat/)
-	* [mux.re](https://chat.mux.re/)
 	* [houtworm.im](https://houtworm.im/)
 * Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/)):
 	* [fedibird.com](https://matrix.fedibird.com/)
@@ -190,7 +189,6 @@ without having to use a desktop client.
 * https://element.internet-portal.cz/
 * https://element.nobelium.no/
 * https://element.w1l.duckdns.org/
-* https://chat.mux.re/
 * https://chat.leon.wtf/
 * https://matrix.club-tech.fr/
 * https://chat.joinpoint.org/
