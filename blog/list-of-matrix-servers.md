@@ -82,6 +82,7 @@ recommended by
 	* [lolisho.chat](https://lolisho.chat/)
 	* [nitro.chat](https://app.nitro.chat/)
 	* [houtworm.im](https://houtworm.im/)
+	* [cuteworld.space](https://cuteworld.space/)
 * Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/)):
 	* [fedibird.com](https://matrix.fedibird.com/)
 	* [sabakan.industries](https://matrix.sabakan.industries/)
@@ -460,7 +461,6 @@ and change the server from the default to the one you want.
 * https://matrix.jjgadget.tech/ 🏆
 * https://matrix.optoutpod.com/ 🏆
 * https://matrix.linuxbrujo.net/ 🏆
-* https://matrix.archoslinux.cz/ 🏆
 * https://matrix.wolfwarrior.de/ 🏆
 * https://sergiotarxz.hopto.org/ 🏆
 * https://matrix.thecovrigs.net/ 🏆
