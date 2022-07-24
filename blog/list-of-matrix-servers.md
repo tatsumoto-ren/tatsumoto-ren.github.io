@@ -337,7 +337,6 @@ and change the server from the default to the one you want.
 * https://lukas.studio/ 🏆
 * https://curved.space/ 🏆
 * https://lolison.chat/ 🏆
-* https://franssen.xyz/ 🏆
 * https://ellipsys.xyz/ 🏆
 * https://halogen.city/ 🏆
 * https://kameron.cloud/ 🏆
