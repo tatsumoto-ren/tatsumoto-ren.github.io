@@ -101,6 +101,17 @@ You may need to Email an admin to get an account.
 | `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆    |
 | `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
 
+## Do not use
+
+| Server                         | Information                                                     |
+| :---                           | :---                                                            |
+| `matrix.org`                   | Explained above.                                                |
+| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                     |
+| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                   |
+| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports. |
+| `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports. |
+| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
+
 ## Other servers
 
 ### Sorted list
@@ -313,7 +324,6 @@ Install one of the clients listed on
 press "create account", then find advanced options
 and change the server from the default to the one you want.
 
-* https://lkj.it/ 🏆
 * https://p3a.io/ 🏆
 * https://l12c.eu/ 🏆
 * https://fick.es/ 🏆
