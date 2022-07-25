@@ -78,21 +78,21 @@ You may need to Email an admin to get an account.
 
 ### My selection
 
-| Server                 | Web client                                            | Extra |
-| :---                   | :---                                                  | :---  |
-| `cutefunny.art`        | [cutefunny.art](https://matrixclient.cutefunny.art/)  | 🏆    |
-| `matrix.lolispace.moe` | [lolispace.moe](https://element.lolispace.moe/) | 🏆    |
-| `linuxdelta.com`       | [linuxdelta.com](https://element.linuxdelta.com/)     | 🏆    |
-| `kde.org`              | [kde.org](https://webchat.kde.org/)                   |       |
-| `m.wfr.moe`            | [wfr.moe](https://c.wfr.moe/)                         |       |
-| `sakura.ci`            | None                                                  |       |
-| `iddqd.chat`           | [iddqd.chat](https://iddqd.chat/)                     |       |
-| `maeli.net`            | None                                                  |       |
-| `trygve.me`            | [trygve.me](https://element.trygve.me/)               |       |
-| `nltrix`               | [nltrix](https://element.nltrix.net/)                 |       |
-| `lolisho.chat`         | [lolisho.chat](https://lolisho.chat/)                 |       |
-| `nitro.chat`           | [nitro.chat](https://app.nitro.chat/)                 |       |
-| `houtworm.im`          | [houtworm.im](https://houtworm.im/)                   |       |
+| Server                  | Web client                                           | Extra |
+| :---                    | :---                                                 | :---  |
+| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/) | 🏆    |
+| `matrix.lolispace.moe`  | [lolispace.moe](https://element.lolispace.moe/)      | 🏆    |
+| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)    | 🏆    |
+| `kde.org`               | [kde.org](https://webchat.kde.org/)                  |       |
+| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                        |       |
+| `sakura.ci`             | None                                                 |       |
+| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                    |       |
+| `maeli.net`             | None                                                 |       |
+| `trygve.me`             | [trygve.me](https://element.trygve.me/)              |       |
+| `nltrix`                | [nltrix](https://element.nltrix.net/)                |       |
+| `lolisho.chat`          | [lolisho.chat](https://lolisho.chat/)                |       |
+| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                |       |
+| `houtworm.im`           | [houtworm.im](https://houtworm.im/)                  |       |
 
 ### Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/))
 
@@ -116,7 +116,7 @@ You may need to Email an admin to get an account.
 
 ### Sorted list
 
-Explore the sorted list
+I have a sorted list that updates automatically every 12 hours
 [here](https://tatsumoto-ren.github.io/matrix/).
 
 Selection criteria.
@@ -124,6 +124,9 @@ Selection criteria.
 * Open registration
 * Domain length
 * Up-to-date version of Synapse
+
+The list is good for fetching new and updated servers,
+but there are no guarantees that the results are good.
 
 ### Servers that support links to rooms
 
