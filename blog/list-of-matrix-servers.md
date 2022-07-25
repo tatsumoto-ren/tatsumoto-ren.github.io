@@ -55,40 +55,51 @@ Ideally you would host your own homeserver on your own hardware, but not everyon
 This section contains homeservers hand-picked by me and trusted third-parties.
 With a 🏆 I marked servers that have received a <span title="ACL ban">trophy of recognition</span> from the Matrix HQ team.
 
-* [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers)
-recommended by
-[Glowers Club](https://glowers.club/wiki/):
-	* [thisisjoes.site](https://thisisjoes.site/) `matrix.thisisjoes.site`
-	* [kiwifarms.net](https://riot.kiwifarms.net/) 🏆
-	* [halogen.city](https://halogen.chat/) 🏆
-	* [nerdsin.space](https://nerdsin.space/) 🏆
-	* [zygoat.club](https://riot.zygoat.club/) `matrix.zygoat.club`
-* Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
-	* [waifuhunter.club](https://chat.waifuhunter.club/) 🏆
-	* [nerdsin.space](https://nerdsin.space/) 🏆
-	* [midov.pl](https://element.midov.pl/element/) 🏆
-	* [anontier.nl](https://element.anontier.nl/)
-* My selection:
-	* [cutefunny.art](https://matrixclient.cutefunny.art/) 🏆
-	* [matrix.lolispace.moe](https://matrix.lolispace.moe/) 🏆
-	* [linuxdelta.com](https://element.linuxdelta.com/) 🏆
-	* [kde.org](https://webchat.kde.org/)
-	* [wfr.moe](https://c.wfr.moe/)
-	* [sakura.ci](https://sakura.ci/)
-	* [iddqd.chat](https://iddqd.chat/)
-	* [maeli.net](https://maeli.net/) 🏆
-	* [trygve.me](https://element.trygve.me/) 🏆
-	* [nltrix](https://element.nltrix.net/)
-	* [lolisho.chat](https://lolisho.chat/)
-	* [nitro.chat](https://app.nitro.chat/)
-	* [houtworm.im](https://houtworm.im/)
-* Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/)):
-	* [fedibird.com](https://matrix.fedibird.com/)
-	* [sabakan.industries](https://matrix.sabakan.industries/)
-	* [juggler.jp](https://matrix.juggler.jp/)
-	* [smith.gdgd.jp.net](https://smith.gdgd.jp.net/)
+Not all the servers may be open for registration at any point of time.
+You may need to Email an admin to get an account.
 
-*Not all the servers may be open for registration at any point of time.*
+### [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers) recommended by [Glowers Club](https://glowers.club/wiki/)
+| Server                   | Web client                                          | Extra |
+| :---                     | :---                                                | :---  |
+| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) |       |
+| `matrix.kiwifarms.net`   | [kiwifarms.net](https://riot.kiwifarms.net/)        | 🏆    |
+| `halogen.city`           | [halogen.city](https://halogen.chat/)               | 🏆    |
+| `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | 🏆    |
+| `matrix.zygoat.club`     | [zygoat.club](https://riot.zygoat.club/)            | 🏆    |
+
+### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
+
+| Server             | Web client                                            | Extra |
+| :---               | :---                                                  | :---  |
+| `waifuhunter.club` | [waifuhunter.club](https://chat.waifuhunter.club/)    | 🏆    |
+| `nerdsin.space`    | [nerdsin.space](https://nerdsin.space/)               | 🏆    |
+| `midov.pl`         | [midov.pl](https://element.midov.pl/element/)         | 🏆    |
+| `anontier.nl`      | [anontier.nl](https://element.anontier.nl/)           |       |
+
+### My selection
+
+| Server                 | Web client                                            | Extra |
+| :---                   | :---                                                  | :---  |
+| `cutefunny.art`        | [cutefunny.art](https://matrixclient.cutefunny.art/)  | 🏆    |
+| `matrix.lolispace.moe` | [lolispace.moe](https://element.lolispace.moe/) | 🏆    |
+| `linuxdelta.com`       | [linuxdelta.com](https://element.linuxdelta.com/)     | 🏆    |
+| `kde.org`              | [kde.org](https://webchat.kde.org/)                   |       |
+| `m.wfr.moe`            | [wfr.moe](https://c.wfr.moe/)                         |       |
+| `sakura.ci`            | None                                                  |       |
+| `iddqd.chat`           | [iddqd.chat](https://iddqd.chat/)                     |       |
+| `maeli.net`            | None                                                  |       |
+| `trygve.me`            | [trygve.me](https://element.trygve.me/)               |       |
+| `nltrix`               | [nltrix](https://element.nltrix.net/)                 |       |
+| `lolisho.chat`         | [lolisho.chat](https://lolisho.chat/)                 |       |
+| `nitro.chat`           | [nitro.chat](https://app.nitro.chat/)                 |       |
+| `houtworm.im`          | [houtworm.im](https://houtworm.im/)                   |       |
+
+### Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/))
+
+| Server                | Web client                                       | Extra |
+| :---                  | :---                                             | :---  |
+| `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆    |
+| `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
 
 ## Other servers
 
@@ -341,7 +352,6 @@ and change the server from the default to the one you want.
 * https://kameron.cloud/ 🏆
 * https://kameron.cloud/ 🏆
 * https://cl0secall.net/ 🏆
-* https://yuuko.smar.fi/ 🏆
 * https://juniorjpdj.pl/ 🏆
 * https://matrix.47q.de/ 🏆
 * https://mittelwind.de/ 🏆
