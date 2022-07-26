@@ -115,6 +115,7 @@ or rooms without prior notice.
 | `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports. |
 | `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
 | `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason.       |
+| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.       |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -255,7 +256,6 @@ without having to use a desktop client.
 * https://chat.rye.dev/
 * https://im.skytel.ee/
 * https://mazc.riot.im/
-* https://web.synod.im/
 * https://talk.comm.cx/
 * https://cardy.riot.im/
 * https://chat.gould.cx/
