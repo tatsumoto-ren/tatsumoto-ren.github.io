@@ -89,7 +89,7 @@ You may need to Email an admin to get an account.
 | `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                    |       |
 | `maeli.net`             | None                                                 |       |
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)              |       |
-| `nltrix`                | [nltrix](https://element.nltrix.net/)                |       |
+| `nltrix.net`            | [nltrix](https://element.nltrix.net/)                |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                |       |
 | `houtworm.im`           | [houtworm.im](https://houtworm.im/)                  |       |
 
@@ -102,6 +102,10 @@ You may need to Email an admin to get an account.
 
 ## Do not use
 
+The list contains popular servers that have proven themselves unreliable.
+A server is added to this list if it has been caught banning user accounts
+or rooms without prior notice.
+
 | Server                         | Information                                                     |
 | :---                           | :---                                                            |
 | `matrix.org`                   | Explained above.                                                |
@@ -111,6 +115,9 @@ You may need to Email an admin to get an account.
 | `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports. |
 | `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
 | `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason.       |
+
+A full list that includes less popular servers is available
+[here](https://tatsumoto-ren.github.io/matrix/#blocklist).
 
 ## Other servers
 
