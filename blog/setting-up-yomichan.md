@@ -1,4 +1,7 @@
-# Setting up Yomichan
+---
+title: Setting up Yomichan
+tags: [guide, dictionaries, yomichan]
+---
 
 [Yomichan](https://foosoft.net/projects/yomichan/) is a browser extension
 with a pop-up dictionary
@@ -247,11 +250,19 @@ Under "Conditions" select:
 if "Modifier Keys" "Include" "Ctrl"
 ```
 
+<p align="center"><img alt="Profile Conditions" src="img/yomichan-profile-conditions.webp"></p>
+<p align="center"><i>Profile Conditions.</i></p>
+
+The modifier key can be anything.
+To insert `Ctrl` you sometimes have to press both Ctrl and Shift at the same time,
+which appears to be a bug of Yomichan.
+
 Change which profile is being modified under "Profile" > "Editing profile",
 go back to [Anki settings](#anki-settings) and set up a second Note Type to mine simple word cards.
 An example Note Type can be found
 [here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words).
-Now when you press `Shift+Ctrl` while reading Yomichan is going to use the new profile.
+Now when you press `Shift+Ctrl` while reading,
+Yomichan is going to use the new profile.
 
 ### Replacement patterns
 
@@ -366,5 +377,3 @@ The ![plus](https://foosoft.net/projects/yomichan/img/btn-add-expression.png) bu
 allows you to make Anki cards in one click.
 Assuming you've configured your Note Type,
 now you can create properly formatted targeted sentence cards while reading.
-
-Tags: guide, dictionaries, yomichan
