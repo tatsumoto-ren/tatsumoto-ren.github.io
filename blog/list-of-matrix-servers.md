@@ -90,7 +90,6 @@ You may need to Email an admin to get an account.
 | `maeli.net`             | None                                                 |       |
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)              |       |
 | `nltrix`                | [nltrix](https://element.nltrix.net/)                |       |
-| `lolisho.chat`          | [lolisho.chat](https://lolisho.chat/)                |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                |       |
 | `houtworm.im`           | [houtworm.im](https://houtworm.im/)                  |       |
 
@@ -111,6 +110,7 @@ You may need to Email an admin to get an account.
 | `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports. |
 | `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports. |
 | `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
+| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason.       |
 
 ## Other servers
 
@@ -175,7 +175,6 @@ without having to use a desktop client.
 * https://chat.mistli.net/ `matrix.mistli.net` 🏆
 * https://fsoc.lol/matrix/ 🏆
 * https://riot.shendai.rip/ 🏆
-* https://element.gogel.me/ 🏆
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
 * https://matrix.nixxda.net/ 🏆
