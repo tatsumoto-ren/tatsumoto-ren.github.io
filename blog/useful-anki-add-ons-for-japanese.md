@@ -1,4 +1,7 @@
-# Useful Anki add-ons for Japanese
+---
+title: Useful Anki add-ons for Japanese
+tags: [anki]
+---
 
 In this article I want to talk about Anki add-ons I recommend using when studying Japanese.
 Anki add-ons are small Python programs that extend or change functionality of Anki.
@@ -59,10 +62,9 @@ and punish yourself if you won't be able to fulfill it.
 
 ### [Speed Focus Mode](https://ankiweb.net/shared/info/1046608507)
 
-Sentence cards usually take longer to review than word cards.
-People who review them normally
-report spending `20` seconds per rep on average.
-It is likely that they get stuck on some sentences for too long,
+It is not uncommon for people to spend more time than necessary on their reviews.
+It is likely that they get stuck on some material for too long,
+their reading speed is slow,
 or they start mind-wandering in the process.
 With this add-on it is possible to stay focused and do your reviews quickly.
 
@@ -70,22 +72,20 @@ The add-on takes a few days to adjust to,
 but after that you get used to reading your sentences faster.
 I don't recommend this add-on to beginners though.
 If you've just started
-[mining sentences](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/),
+[mining sentences](sentence-mining.html),
 you are lucky to read them at all,
 let alone doing it fast.
-
-This is my monthly average (I only counted classical sentence cards):
-
-```
-Average answer time:	⁨11.78⁩s (⁨5.09⁩ cards/minute)
-```
-
-As the answers get automatically revealed
-I simply can't spend too much time each card
-unless I want to re-read the target word's definition.
-This also encourages you to make your sentence cards shorter, which is a good practice.
+At the intermediate stage the add-on is certainly useful,
+and becomes unnecessary once you're advanced.
 
 <p align="center"><img alt="speed-focus-mode" class="shadow" src="img/speed-focus-mode.png"></p>
+<p align="center"><i>Screenshot.</i></p>
+
+As the answers get automatically revealed,
+you can't spend too much time on a card
+unless you want to re-read the target word's definition.
+This also encourages you to add shorter sentences to your deck,
+which is a good practice.
 
 ### [Reset Card Scheduling](https://ankiweb.net/shared/info/300884351)
 
@@ -338,5 +338,3 @@ Terrible idea.
 ### Migaku add-ons
 
 They're big, slow, redundant and intrusive.
-
-Tags: anki
