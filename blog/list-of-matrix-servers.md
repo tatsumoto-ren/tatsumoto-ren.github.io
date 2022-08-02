@@ -116,6 +116,7 @@ or rooms without prior notice.
 | `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
 | `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason.       |
 | `synod.im`                     | Admin deactivated users' accounts for no apparent reason.       |
+| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.       |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -185,7 +186,6 @@ without having to use a desktop client.
 * https://riot.shendai.rip/ 🏆
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
-* https://matrix.nixxda.net/ 🏆
 * https://element.avlikos.gr/ 🏆
 * https://element.entr0py.de/ 🏆
 * https://chat.inscomers.net/ 🏆
@@ -237,8 +237,6 @@ without having to use a desktop client.
 * https://element.sebdu.de/
 * https://okaris.de/
 * https://element.juniorjpdj.pl/
-* https://chat.techsaviours.org/
-* https://chat.decred.org/
 * https://matrix.dalek.zone/
 * https://chat.greensteps.cn/
 * https://element.matrix4ulm.de/
@@ -274,7 +272,6 @@ without having to use a desktop client.
 * https://matrix.btln.de/
 * https://my.m4tr1x.chat/
 * https://riot.ukvly.org/
-* https://chat.utwente.io/
 * https://matrix.mlp.chat/
 * https://el.aria-net.org/
 * https://element.1984.cz/
@@ -368,8 +365,6 @@ and change the server from the default to the one you want.
 * https://lolison.chat/ 🏆
 * https://ellipsys.xyz/ 🏆
 * https://halogen.city/ 🏆
-* https://kameron.cloud/ 🏆
-* https://kameron.cloud/ 🏆
 * https://cl0secall.net/ 🏆
 * https://juniorjpdj.pl/ 🏆
 * https://matrix.47q.de/ 🏆
@@ -422,7 +417,6 @@ and change the server from the default to the one you want.
 * https://matrix.neaweb.ch/ 🏆
 * https://matrix.dapor.net/ 🏆
 * https://matrix.asger.xyz/ 🏆
-* https://matrix.decred.org/ 🏆
 * https://matrix.lasi-it.de/ 🏆
 * https://matrix.dificen.to/ 🏆
 * https://matrix.binwang.me/ 🏆
