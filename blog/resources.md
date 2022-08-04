@@ -459,9 +459,13 @@ The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typef
 * [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
 A good brush font.
 Supports around 13,000 characters.
+* [Asebi Mincho](https://metasta.github.io/asebi/).
+A font that displays all 新字体 kanji in their 旧字体(正字体) form,
+including all the undocumented changes as well.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
 The fonts I use.
 Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
+You can simply extract the entire folder to `~/.local/share/fonts` to install them.
 
 ### mpv
 
