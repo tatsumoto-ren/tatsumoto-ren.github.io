@@ -794,7 +794,7 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Immersion Wiki](https://drive.google.com/drive/folders/1gDpwFl07a0EO_pTHLLVn_Waz2GXwwSE1)
-* [Mia's Japanese quickstart guide](https://archive.md/6kMEg).
+* [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
 Her guide is a little outdated but can still be useful.
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
 `subs2srs` Anki decks for popular anime and movies.
