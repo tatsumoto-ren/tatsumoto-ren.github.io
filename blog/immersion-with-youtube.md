@@ -1,4 +1,7 @@
-# Immersion with YouTube
+---
+title: Immersion with YouTube
+tags: [guide]
+---
 
 YouTube is a popular website where people can upload and watch videos.
 Through watching YouTube you can immerse with native Japanese content.
@@ -93,7 +96,7 @@ See `$ man youtube-dl` for a comprehensive list of options.
 ## Notes
 
 * In my dotfiles I have
-  [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank_invidious_instances)
+  [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
   that sorts Invidious instances based on the number of users.
   The least used instances are usually faster.
 * There's a fork of Youtube-dl called [yt-dlp](https://github.com/yt-dlp/yt-dlp) with more features.
