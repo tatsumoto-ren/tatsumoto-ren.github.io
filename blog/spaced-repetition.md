@@ -191,6 +191,18 @@ where you only remember things learned recently.
 With the SRS you are sure you don't slide down,
 you are only moving forward.
 
+Anki is popular among people learning Japanese,
+and apparently Chinese,
+but it's not that popular among learners of other languages.
+The reason Anki's popular is most likely that
+Japanese learners have to memorize how to read words written in kanji.
+I've been using Anki for many years,
+and I notice that most of the time when I fail a card
+it is because I don't remember the reading,
+not because I don't remember the meaning.
+People learning other languages don't have to deal with kanji,
+so it is easier for them to get to fluency without using the SRS.
+
 ## The chosen SRS
 
 Anki still remains my SRS of choice.
