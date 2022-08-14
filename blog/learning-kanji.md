@@ -1,4 +1,7 @@
-# Learning Kanji
+---
+title: Learning Kanji
+tags: [kanji, guide]
+---
 
 Unlike kana which you can learn in a matter of few days no matter what method you pick,
 learning kanji is apparently more difficult, and there are many methods of doing it.
@@ -171,7 +174,8 @@ Other options that use the mnemonic-based approach but are not based on RTK:
   While RTK gives mnemonic stories for some kanji,
   KanjiDamage has them for every kanji.
   The mnemonics are usually pretty great.
-  There's also a mnemonic for the most important reading, usually an onyomi.
+  There's also a mnemonic for the most important reading, usually
+  <abbr title="on'yomi, Chinese-derived reading of a kanji">音読み</abbr>.
 * [KanjiDamage Plus](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
   A slightly larger version of KanjiDamage which contains ~200 additional kanji.
   Some component names were renamed.
@@ -271,4 +275,44 @@ Either path will result in success
 so long as you [persist](https://redirect.invidious.io/watch?v=S-ixV6nV0HU?t=18),
 so the choice comes down to what you personally like more.
 
-Tags: kanji, guide
+## Notes
+
+### RTK books
+
+There are 3 RTK books total.
+
+1) Teaches how to write ~2000 kanji.
+   The list of kanji taught roughly matches the `常用漢字` list.
+2) Teaches readings of kanji introduced in the first book.
+3) Teaches how to write additional ~1000 kanji.
+   The list of kanji taught roughly matches the `人名用漢字` list.
+
+For the purpose of training kanji recognition and reaching the point of kanji fluency
+it is sufficient to learn only ~1000 kanji from the first book,
+which is exactly what RRTK does.
+As mentioned before, learning how to write them is not recommended.
+The second book is not needed either,
+kanji readings should be learned in context.
+
+### Isolated kanji study and retention
+
+If you go with any isolated kanji deck,
+you will notice that after completing it
+the retention rate of the deck will start to decline.
+This happens to almost everyone.
+After you finish the deck,
+you still remember most of the kanji,
+but after several months the retention rate plummets to 45-50%.
+
+Once the retention rate starts to decline,
+it's time to delete the deck.
+By the time it happens,
+you can already read some Japanese
+and don't need to rely on English keywords to recognize kanji.
+
+To avoid quickly forgetting most of the kanji you learned
+before you have a chance to develop reading ability,
+continue reviewing for 3 to 6 months after completing the deck.
+
+The problem with retention when learning kanji in isolatoin
+is one of the reasons why the JP1K method was created.
