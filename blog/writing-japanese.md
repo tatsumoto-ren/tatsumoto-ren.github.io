@@ -1,4 +1,7 @@
-# Writing Japanese
+---
+title: Writing Japanese
+tags: [guide]
+---
 
 After you've got a few thousand hours of input
 and can read content made for natives relatively effortlessly
@@ -67,7 +70,6 @@ Otherwise press "Again".
 After you finish the kana, it's time to start learning how to write kanji.
 This step is more complex and is going to take much longer.
 
-
 ### How Japanese do it
 
 While watching real Japanese people in anime I noticed how they're tested on kanji in school.
@@ -98,7 +100,7 @@ Feel free to use this note type for your own sentence cards.
 <a class="download_button" href="setting-up-anki.html#import-an-example-mining-deck">Download</a>
 </p>
 
-As with kana cards, if you could produce the word
+As with kana cards, if you could produce a word
 with the right stroke order, grade the card "good".
 If you couldn't write it, then mark the card "again".
 
@@ -116,6 +118,21 @@ To do so choose a kanji you want to learn and find a note in your sentence bank
 where the target word contains this kanji.
 I recommend against using recently learned or new vocabulary for production cards,
 doing so can negatively affect retention.
+
+### Place production cards in another deck
+
+Instead of moving cards manually to a writing deck,
+you can put an override option on a specific card type,
+so all your production cards go in a specific deck when they are generated.
+
+If you want your production cards to be in another deck,
+open Anki's main window and select
+"Tools" > "Manage Note Types" > Select your Note Type >
+"Cards" > Select your production Card Type > "Options" > "Deck override".
+I put `筆記` here which is the name of my writing deck.
+
+<p align="center"><img alt="deck override" src="img/anki-deck-override.webp"></p>
+<p align="center"><i>Deck override.</i></p>
 
 ### In what order should I learn words
 
@@ -175,5 +192,3 @@ Learning how to produce parts of words
 doesn't guarantee the ability to write whole words when necessary.
 Moreover, this method requires to replace all Heisig's keywords with your own,
 essentially presenting a task comparable to writing your own RTK.
-
-Tags: guide
