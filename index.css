@@ -43,13 +43,13 @@ img {
 a,
 a:visited {
     text-decoration: none;
-    color: SteelBlue;
     transition: color 0.2s;
+    color: #292a73;
 }
 
 a:hover,
 a:active {
-    color: #0366d6;
+    color: #0074D9;
 }
 
 /* Top div */
