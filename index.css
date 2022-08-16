@@ -59,12 +59,13 @@ a:active {
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/bg.webp");
     text-shadow: #000c 1px 1px 2px;
+    background-attachment: fixed;
+    position: relative;
 }
 
 /* Header */
 
 header {
-    padding: 2px 2px 0;
     font-family:
         "Noto Serif",
         "DejaVu Serif",
@@ -80,11 +81,13 @@ header {
 }
 
 header>a.logo {
+    height: 52px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     color: white;
     text-decoration: none;
+    gap: 6px;
 }
 
 header>a.logo:hover,
@@ -98,8 +101,8 @@ header>a.logo>h1 {
 }
 
 header>a.logo>img {
-    margin-right: 8px;
-    height: 48px;
+    height: 100%;
+    padding: 2px;
 }
 
 header>span.space {
@@ -107,13 +110,12 @@ header>span.space {
 }
 
 header>a.donate {
+    width: 52px;
+    height: 52px;
     background: url("img/heart.svg");
-    background-size: 24px 24px;
+    background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 48px;
-    height: 48px;
-    padding: 24px;
 }
 
 /* Header images transition on hover */
@@ -129,13 +131,66 @@ header>a.donate:hover {
     filter: invert(90%) drop-shadow(1px 1px 2px #000c);
 }
 
+/* Presentation */
+
+div.presentation {
+    position: relative;
+    margin: 0 4px;
+    padding: 90px 0px;
+    background-image: url("img/motivated_learner.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+div.presentation>p {
+    margin: 20px 0;
+    max-width: 550px;
+}
+
+/* Get started and Community buttons */
+
+div.start_buttons {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.start_buttons>a,
+div.start_buttons>a:visited {
+    white-space: nowrap;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+}
+
+div.start_buttons>a:hover,
+div.start_buttons>a:active {
+    background-color: #fff2;
+}
+
+div.start_buttons>a:first-child {
+    color: black;
+    background-color: white;
+    margin-right: 10px;
+    text-shadow: none;
+}
+
 /* Navigation */
 
 nav {
-    margin: 20px 4px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
 }
 
 nav>a,
@@ -151,60 +206,27 @@ nav>a:active {
     color: #ddd;
 }
 
-/* Presentation */
+/* Rows */
 
-div.presentation {
-    margin: 0 4px 0;
-    padding: 80px 0px;
-    background-image: url("img/motivated_learner.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-
-div.presentation>p {
-    margin: 20px 0;
-    max-width: 550px;
-}
-
-div.presentation div.start_buttons {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-div.presentation div.start_buttons>a {
-    white-space: nowrap;
-    display: inline-block;
-    border: 2px solid white;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: background-color 0.2s;
-}
-
-div.presentation div.start_buttons>a:hover {
-    background-color: #fff2;
-}
-
-div.presentation div.start_buttons>a:first-child {
-    color: black;
-    background-color: white;
-    margin-right: 10px;
-    text-shadow: none;
+div.row {
+    max-width: 1350px;
+    padding: 40px 4px;
+    margin: 0 auto;
+    min-height: 300px;
 }
 
 /* Key points */
 
 div.key_points {
-    padding: 0 4px;
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
-div.key_points h2 {
-    margin: 50px 0 10px;
+    display: grid;
+    justify-content: stretch;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+    grid-auto-columns: 1fr;
+    column-gap: 40px;
+    row-gap: 1rem;
+    align-items: start;
 }
 
 /* Point icons */
@@ -232,13 +254,52 @@ div.key_points .bomb {
     content: url("img/bomb.svg");
 }
 
+/* Tiles */
+
+div.tile-guide {
+    color: #3c2a4d;
+    background-color: #e7eff6;
+}
+
+div.tile-anki {
+    background-color: #e6e2dd;
+}
+
+/* Tile container */
+
+div.tile-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "text"
+        "image";
+}
+
+div.tile-container>div {
+    grid-area: text;
+}
+
+div.tile-container>img {
+    grid-area: image;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    place-self: center;
+    max-height: 200px;
+}
+
+div.tile-container h2,
+div.tile-container p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 
 footer {
-    border-top: 1px solid #eee;
     text-align: center;
-    padding-top: 50px;
-    margin-top: 50px;
+    padding: 40px 0;
 }
 
 footer img {
@@ -257,18 +318,25 @@ footer img {
     }
 
     div.presentation {
-        max-width: 850px;
+        max-width: 900px;
         margin: 0 0 0 15vw;
     }
 
     div.key_points {
-        padding: 0 20px;
-        display: grid;
-        justify-content: stretch;
-        grid-auto-flow: column;
         grid-template-rows: repeat(4, auto);
-        grid-auto-columns: 1fr;
-        column-gap: 40px;
+    }
+
+    div.row {
+        padding: 40px 20px;
+    }
+
+    div.tile-container {
+        grid-auto-flow: column;
+        grid-template-areas: "text image";
+    }
+
+    div.tile-container.mirror {
+        grid-template-areas: "image text";
     }
 }
 
