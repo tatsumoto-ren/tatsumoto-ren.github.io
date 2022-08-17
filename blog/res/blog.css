@@ -239,14 +239,14 @@ header a.logo {
     align-items: center;
     justify-content: flex-start;
     transition: opacity 0.2s;
+    gap: 6px;
 }
 
 header a.logo>h1 {
     font-size: 20px;
     color: black;
     text-align: center;
-    transition: letter-spacing 0.3s;
-    padding: 0 8px 0;
+    margin-right: 8px;
 }
 
 header a.logo:hover {
@@ -254,13 +254,9 @@ header a.logo:hover {
     background-color: var(--header-background);
 }
 
-header a.logo:hover>h1 {
-    letter-spacing: 0px;
-}
-
 header a.logo>img {
-    height: 48px;
-    margin-left: 2px;
+    height: 100%;
+    padding: 2px;
 }
 
 /* Show sidebar button */
@@ -522,15 +518,15 @@ main pre,
 main details,
 main hr,
 main table {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 main li>p {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 details {
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 summary {
@@ -539,7 +535,7 @@ summary {
 }
 
 summary+* {
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 blockquote {
@@ -558,7 +554,7 @@ main p {
 
 main :is(h1, h2, h3, h4, h5, h6) {
     margin-top: var(--gap-small);
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     line-height: 1.25;
 }
 
@@ -617,7 +613,7 @@ article :is(h1, h2, h3, h4, h5, h6):hover .anchor>svg {
 
 .subtitle {
     font-size: small;
-    margin: 3px 0 16px;
+    margin: 3px 0 1rem;
 }
 
 code,
@@ -643,7 +639,7 @@ pre {
     overflow: auto;
     background-color: #f6f8fa;
     border-radius: 6px;
-    padding: 16px;
+    padding: 1rem;
     line-height: 1.45;
 }
 
@@ -758,7 +754,7 @@ article :target:before {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    font-size: 16px;
+    font-size: 1rem;
     z-index: 150;
     background-color: var(--sidebar-background);
     color: gray;
@@ -1007,7 +1003,7 @@ a.md-button.donations::before {
 .toc_navigation {
     position: absolute;
     z-index: 50;
-    bottom: -16px;
+    bottom: -1rem;
     right: 0px;
     padding-right: inherit;
     display: flex;
