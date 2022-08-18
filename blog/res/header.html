@@ -1,14 +1,14 @@
 <div id="headerholder" class="headerholder">
     <header>
         <div class="logoholder">
-            <a href="index.html" class="logo">
+            <a href="{{$index_file}}" class="logo">
                 <img alt="達元" src="/img/logo.webp" />
                 <h1>Tatsumoto</h1>
             </a>
         </div>
         <input class="menu" type="checkbox" id="menu-btn" />
         <label class="menu" for="menu-btn"><span class="hamburger"></span></label>
-        <div id="description">How to use Free Software to learn Japanese, and more.</div>
+        <div id="description">{{$global_description}}</div>
         <nav>
             <a href="table-of-contents.html">Guide</a>
             <a href="our-immersion-learning-toolset.html">Tools</a>
