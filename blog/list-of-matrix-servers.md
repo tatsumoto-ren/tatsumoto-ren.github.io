@@ -106,17 +106,17 @@ The list contains popular servers that have proven themselves unreliable.
 A server is added to this list if it has been caught banning user accounts
 or rooms without prior notice.
 
-| Server                         | Information                                                     |
-| :---                           | :---                                                            |
-| `matrix.org`                   | Explained above.                                                |
-| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                     |
-| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                   |
-| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports. |
-| `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports. |
-| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports. |
-| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason.       |
-| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.       |
-| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.       |
+| Server                         | Information                                                                                          |
+| :---                           | :---                                                                                                 |
+| `matrix.org`                   | Explained above.                                                                                     |
+| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                          |
+| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                        |
+| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                      |
+| `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports.                                      |
+| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                      |
+| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.   |
+| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                            |
+| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                            |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -227,7 +227,6 @@ without having to use a desktop client.
 * https://element.simonetti.nl/
 * https://www.schotty.com/
 * https://matrix.riotcat.org/
-* https://element.magnumchaos.org/
 * https://chat.thorko.de/
 * https://chat.cambsac.org.uk/
 * https://cell.linuxbrujo.net/
@@ -486,7 +485,6 @@ and change the server from the default to the one you want.
 * https://sergiotarxz.hopto.org/ 🏆
 * https://matrix.thecovrigs.net/ 🏆
 * https://matrix.familyhainz.de/ 🏆
-* https://matrix.garudalinux.org/ 🏆
 * https://matrix.muensterhack.de/ 🏆
 * https://matrix.otonokizaka.moe/ 🏆
 * https://matrix.mueller.network/ 🏆
@@ -596,4 +594,3 @@ and change the server from the default to the one you want.
 * https://matrix.get-racing.de/
 * https://matrix.intahnet.co.uk/
 * https://matrix.fatherjim.tech/
-* https://matrix.magnumchaos.org/
