@@ -920,13 +920,15 @@ Decide if you're ready before starting the "advanced grammar" part.
 ### When should I change my devices to Japanese?
 
 When you can read Japanese comfortably.
+Not when you're still a total beginner because it will just make everything harder.
+But you want to do it sooner for additional Japanese gains.
 
 User interfaces use a limited range of relatively specific vocabulary.
 If you want to speed things up,
 frontload the vocabulary before switching your devices.
 [Here](https://gist.github.com/tatsumoto-ren/844c4a36491aee2820d09f4852c18172)
 I have a list of sentences ripped from Android's system UI.
-Go through the list and use Yomichan to make cards for words you don't know.
+Go through the list and use Yomichan to make targeted sentence cards for words you don't know.
 
 ### Should I up my active immersion?
 
@@ -1131,8 +1133,15 @@ It's more organized.
 
 ### Should I put English translations on Bilingual TSCs?
 
-You may put the corresponding line from English subs.
-However, don't use Google Translate or anything like that.
+In a very rare situation
+you may put the corresponding line from English subtitles.
+English subtitles help you catch the gist of the sentence,
+but they are almost always not fully correct.
+Individual words never translate literally,
+word order and other nuances are often deliberately changed.
+
+Machine translation is even worse.
+Don't use Google Translate or anything like that.
 
 ### Passive immersion playlist structure?
 
@@ -1220,6 +1229,15 @@ Lastly, choose the option "Change Note Type" from the context menu
 or go to menu "Notes" > "Change Note Type..." (shortcut: `Ctrl+Shift+M`).
 The rest is a matter of mapping the right fields and pressing `OK`.
 
+### How to change the font in an entire Anki deck?
+
+Change the styling of your card template.
+
+Go to "Tools" > "Manage Note Types" > select the note type > "Cards" > "Styling".
+Change `font-family` to fit your needs.
+See [this](https://github.com/Ajatt-Tools/AnkiNoteTypes/blob/main/templates/Japanese%20sentences/template.css)
+example.
+
 ### What are your current thoughts on Morphman? Do you recommend it?
 
 I used
@@ -1250,12 +1268,12 @@ I recommend
 guide written by mattvsjapan.
 There's also a
 [video](https://redirect.invidious.io/watch?v=wwp1lJZPBXg)
-guide by OhTalkWho.
+guide by `OhTalkWho`.
 
 ### Is listening to text-to-speech bad?
 
 The robot voice doesn't sound like real Japanese.
-Particulary, it makes a lot of pitch accent mistakes.
+Particularly, it makes a lot of pitch accent mistakes.
 Even if you don't count pitch accent, the computer-generated audio is still very bad.
 You never want to be feeding your brain toxic input.
 
@@ -1275,6 +1293,14 @@ Instead of adding text-to-speech audio to your Anki cards,
 [copy pronunciations from Qolibri](setting-up-qolibri.html#playing-nhk-audio),
 [Forvo](https://forvo.com/)
 or other sources (banks) that provide native audio.
+
+### As a beginner learning Japanese through anime, should I lower the speed to hear the words better or should I leave it at normal speed?
+
+Audio recordings become robotic and distorted when you lower the speed,
+but in some corner cases it helps catch a word you would otherwise not hear.
+
+Surprisingly, increasing volume helps too,
+but you also should only use it for specific words instead of a whole recording.
 
 ### MorphMan for the monolingual transition?
 
