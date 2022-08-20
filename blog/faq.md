@@ -249,6 +249,8 @@ they learned words right from the start.
 
 ### What are the downsides of using WaniKani?
 
+> TL,DR: Instead of Wanikani do [this](jp1k-anki-deck.html).
+
 WaniKani is inspired by Remembering the Kanji.
 Similarly to RTK,
 in WaniKani kanji are presented in an efficient order,
@@ -270,14 +272,14 @@ The pros end here. Let's list the cons.
   The fact that you can't use Anki with WaniKani is a huge downside.
 
   Note that on the Internet you can find third-party Anki decks ripped from WaniKani.
-  If you want to try WaniKani, download them instead of using the site and paying for it.
+  If you want to try WaniKani, **download them instead** of using the site and paying for it.
 * It's a paid service. It costs money.
   It also means that if you want to keep reviewing
   so that you don't forget what you've already learned
   then you have to keep paying
   which is pretty lame.
 
-  Learning Japanese to from the beginning to fluency without spending any money
+  Learning Japanese from the zero to fluency without spending any money
   is the main idea that stands at the core of our method.
 * It makes you learn isolated kanji readings and vocab out of context.
   Learning a bunch of similar information at the same time out of
