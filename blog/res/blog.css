@@ -247,8 +247,9 @@ header a.logo {
     gap: 6px;
 }
 
-header a.logo>h1 {
+header a.logo>span {
     font-size: 20px;
+    font-weight: bold;
     color: black;
     text-align: center;
     margin-right: 8px;

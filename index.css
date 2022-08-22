@@ -98,9 +98,10 @@ header>a.logo:active {
     color: #ddd;
 }
 
-header>a.logo>h1 {
+header>a.logo>span {
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: bold;
 }
 
 header>a.logo>img {
