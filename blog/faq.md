@@ -569,6 +569,22 @@ you don't have to change it to kanji because it's not the **target word** anymor
 Try putting each spelling in a search engine.
 Mine the one that brings more results.
 
+[rankspellings](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rankspellings)
+is a script that searches words on Google or Yahoo
+and prints the number of search results for each.
+You can use it to find the most common spelling of a word.
+
+For example:
+
+```
+> rankspellings -g 川蝉 翡翠 魚狗
+翡翠	19300000
+川蝉	487000
+魚狗	6130
+```
+
+`翡翠` appears to be the most *useful* spelling among others.
+
 ### How can I improve at reading Japanese names?
 
 Make an Anki deck and fill it with Japanese names.
