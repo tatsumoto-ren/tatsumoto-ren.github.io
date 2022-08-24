@@ -1,4 +1,8 @@
-# How to review
+---
+title: How to review
+date: 1626142570
+tags: [anki]
+---
 
 Though Anki is an excellent piece of software,
 you can learn languages more effectively if you tweak some settings and know how to review.
@@ -461,5 +465,3 @@ The SRS best practices:
 1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
 1) Use the **Pass-Fail** mode to avoid "Hard" and "Easy" buttons.
 1) Grade easy cards from their front side.
-
-Tags: anki

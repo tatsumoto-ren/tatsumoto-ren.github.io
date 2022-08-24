@@ -1,6 +1,7 @@
 ---
 title: Japanese locale
-tags: [guide]
+date: 1657735823
+tags: ['guide']
 ---
 
 A [Locale](https://wiki.archlinux.org/title/Locale)

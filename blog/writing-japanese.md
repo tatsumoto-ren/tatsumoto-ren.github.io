@@ -1,6 +1,7 @@
 ---
 title: Writing Japanese
-tags: [guide]
+date: 1615918788
+tags: ['guide']
 ---
 
 After you've got a few thousand hours of input

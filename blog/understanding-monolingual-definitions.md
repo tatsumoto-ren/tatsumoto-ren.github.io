@@ -1,4 +1,8 @@
-# Understanding monolingual definitions
+---
+title: Understanding monolingual definitions
+date: 1641419148
+tags: [dictionaries, epwing]
+---
 
 A typical entry in a monolingual dictionary looks similar to this:
 
@@ -254,5 +258,3 @@ The 5th version of Shinmeikai may list two pitch accent numbers separated by a c
 This means that only the second one tells you the pitch accent of the word in its dictionary form
 and the other one you can ignore
 because it tells you the pitch accent of the word when it modifies a noun.
-
-Tags: dictionaries, epwing

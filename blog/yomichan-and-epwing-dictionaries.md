@@ -1,4 +1,8 @@
-# Yomichan and EPWING dictionaries
+---
+title: Yomichan and EPWING dictionaries
+date: 1607878153
+tags: [dictionaries, yomichan, epwing]
+---
 
 [Yomichan](https://foosoft.net/projects/yomichan)
 is a web browser extension with a pop-up dictionary
@@ -303,5 +307,3 @@ img {
 ```
 
 </details>
-
-Tags: dictionaries, yomichan, epwing

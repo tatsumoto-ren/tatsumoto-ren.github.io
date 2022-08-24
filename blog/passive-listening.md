@@ -1,4 +1,8 @@
-# Passive listening
+---
+title: Passive listening
+date: 1618268880
+tags: [guide]
+---
 
 When we talk about immersion, we usually divide it into active and passive.
 *Active immersion* requires full attention to the content
@@ -234,5 +238,3 @@ It's a very easy way to immerse, but it doesn't beat condensed audio.
 I also tried this method with [radio](https://search.f-droid.org/?q=radio&lang=en),
 specifically [RadioDroid](https://f-droid.org/en/packages/net.programmierecke.radiodroid2/),
 though the results weren't as good because radio is often more about music than talking.
-
-Tags: guide

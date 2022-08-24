@@ -1,4 +1,8 @@
-# Learning grammar
+---
+title: Learning grammar
+date: 1648695316
+tags: [guide]
+---
 
 What's grammar?
 Should you learn grammar?
@@ -314,5 +318,3 @@ Studying <abbr title="敬語, honorific speech in Japanese">keigo</abbr>
 in Japanese can also be seen as a part of this process.
 
 See [Resources](resources.html#grammar-in-japanese) for grammar resources in Japanese.
-
-Tags: guide

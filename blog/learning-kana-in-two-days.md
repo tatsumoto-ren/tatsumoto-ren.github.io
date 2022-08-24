@@ -1,4 +1,8 @@
-# Learning kana in two days
+---
+title: Learning kana in two days
+date: 1607313668
+tags: [kana, anki, guide]
+---
 
 Learning kana is usually taken as one of the first steps to learn Japanese.
 As you know,
@@ -202,5 +206,3 @@ You can go on and on.
 
 I advocate that Japanese must switch to Cyrillic script.
 Cyrillic has worked remarkably well for many Asian and European languages.
-
-Tags: kana, anki, guide

@@ -1,4 +1,8 @@
-# Table of Contents
+---
+title: Table of Contents
+date: 1616375454
+tags: [guide]
+---
 
 * [Foreword](foreword.html)
 * Introduction
@@ -43,5 +47,3 @@
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
-
-Tags: guide

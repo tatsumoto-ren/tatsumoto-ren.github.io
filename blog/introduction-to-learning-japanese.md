@@ -1,4 +1,8 @@
-# Introduction to learning Japanese
+---
+title: Introduction to learning Japanese
+date: 1615372627
+tags: [guide]
+---
 
 Below is a quick rundown of a typical Japanese learning journey
 that should get you to basic fluency in less than two years.
@@ -441,5 +445,3 @@ Start consuming native Japanese content actively and passively.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
 <p align="center"><i>Watch anime.</i></p>
-
-Tags: guide

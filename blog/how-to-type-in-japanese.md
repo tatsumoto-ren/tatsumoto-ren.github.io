@@ -1,4 +1,8 @@
-# How to type in Japanese
+---
+title: How to type in Japanese
+date: 1640684087
+tags: [guide]
+---
 
 <p align="center">
 <img alt="Japanese keyboard" src="img/keyboard.webp" style="width: 400px;">
@@ -216,5 +220,3 @@ To type the small `っ` character, select `つ`, then tap on the `大⇔小` but
 
 If you don't like the 12 keys keyboard layout,
 you can switch to the QWERTY layout in settings.
-
-Tags: guide

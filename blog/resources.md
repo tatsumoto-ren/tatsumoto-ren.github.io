@@ -1,6 +1,7 @@
 ---
 title: Resources
-tags: [guide]
+date: 1621275994
+tags: ['guide']
 ---
 
 This is the Ajatt-Tools Resources List.

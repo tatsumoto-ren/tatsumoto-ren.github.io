@@ -1,4 +1,7 @@
-# Donating to Tatsumoto
+---
+title: Donating to Tatsumoto
+date: 1619200733
+---
 
 Because almost all my content is offered free of charge,
 this site and the

@@ -1,4 +1,8 @@
-# Ankidrone Starter Pack
+---
+title: Ankidrone Starter Pack
+date: 1612117335
+tags: [vocab, anki, decks]
+---
 
 After finishing kanji, kana and essential grammar
 the bulk of your AJATT journey will consist of learning vocabulary.
@@ -298,5 +302,3 @@ The more words you learn from that point, the slower your comprehension grows.
 The bright side is that you can use the numbers as milestones.
 Reaching each milestone is like winning a small game,
 and it makes learning your target langauge feel less like a routine.
-
-Tags: vocab, anki, decks

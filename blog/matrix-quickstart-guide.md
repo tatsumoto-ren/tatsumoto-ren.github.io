@@ -1,4 +1,8 @@
-# Matrix quickstart guide
+---
+title: Matrix quickstart guide
+date: 1655322524
+tags: [matrix]
+---
 
 This article is a user guide to Matrix.
 It also covers the most popular Matrix client program, Element.
@@ -488,5 +492,3 @@ The homeserver which gets blocked the most often is, you guessed it, `matrix.org
 * https://www.schotty.com/Services/Matrix/
 * https://community.kde.org/Matrix
 * https://calcuode.com/matrix/
-
-Tags: matrix

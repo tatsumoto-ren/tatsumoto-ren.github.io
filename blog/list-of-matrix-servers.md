@@ -1,6 +1,7 @@
 ---
 title: List of Matrix servers
-tags: [matrix]
+date: 1611943875
+tags: ['matrix']
 ---
 
 [Matrix](https://wiki.archlinux.org/index.php/Matrix)

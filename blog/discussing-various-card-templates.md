@@ -1,4 +1,8 @@
-# Discussing various card templates
+---
+title: Discussing various card templates
+date: 1610646660
+tags: [anki]
+---
 
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>
 
@@ -543,5 +547,3 @@ And then there are targeted sentence cards.
 They take the speed of word cards
 and combine it with the effectiveness of in-context learning with sentence cards,
 which makes them the best card template.
-
-Tags: anki

@@ -1,4 +1,8 @@
-# Retiming subtitles
+---
+title: Retiming subtitles
+date: 1634149975
+tags: [guide]
+---
 
 Japanese subtitles can be found in
 [many places](resources.html#japanese-subtitles).
@@ -239,5 +243,3 @@ Choose `Sync to another subtitle` if you have a reference subtitle in another la
 Otherwise, choose `Sync to audio`.
 If you have made changes to the timings by pressing `z` and `Z` in mpv,
 you have an option to permanently save them to a file if you choose `Save current timings`.
-
-Tags: guide

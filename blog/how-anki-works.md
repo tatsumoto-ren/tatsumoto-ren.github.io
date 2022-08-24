@@ -1,4 +1,8 @@
-# How Anki works
+---
+title: How Anki works
+date: 1655135740
+tags: [anki, guide]
+---
 
 Since in this guide we are going to use Anki to study our target language,
 let's talk about how it works.
@@ -77,5 +81,3 @@ To have a better understanding of Anki
 I advise you to read
 [Getting Started](https://docs.ankiweb.net/getting-started.html)
 part of the Anki manual.
-
-Tags: anki, guide

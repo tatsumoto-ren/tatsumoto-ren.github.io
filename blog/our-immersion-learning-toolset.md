@@ -1,4 +1,8 @@
-# Our Immersion Learning Toolset
+---
+title: Our Immersion Learning Toolset
+date: 1612374836
+tags: [anki]
+---
 
 <p align="center"><img alt="Ajatt-Tools" class="shadow" src="https://avatars.githubusercontent.com/u/69172625?s=200&v=4"></p>
 
@@ -112,5 +116,3 @@ based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
 
 * [AUR package](https://aur.archlinux.org/packages/subs2srs/)
-
-Tags: anki

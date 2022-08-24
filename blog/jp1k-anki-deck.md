@@ -1,4 +1,8 @@
-# KanjiTransition Anki deck
+---
+title: KanjiTransition Anki deck
+date: 1614246289
+tags: [anki, decks, kanji, vocab]
+---
 
 The most important part of learning Japanese with the
 [AJATT](faq.html#whats-ajatt)
@@ -254,5 +258,3 @@ and a second rule that tells to make it visible on hover.
 ```
 
 This should be it. Enjoy your own JP1K deck.
-
-Tags: anki, decks, kanji, vocab

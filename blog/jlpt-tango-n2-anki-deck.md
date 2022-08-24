@@ -1,4 +1,8 @@
-# JLPT Tango N2 Anki deck
+---
+title: JLPT Tango N2 Anki deck
+date: 1640034837
+tags: [anki, vocab]
+---
 
 <p align="center">
 <img src="img/tango_n2.webp" alt="cover" style="max-height: 400px;">
@@ -140,5 +144,3 @@ If you have any questions, ideas, or errors to report, please
 1) [Froas](https://t.me/froas) made cards 1001-1150.
 1) [fakana357](https://t.me/fakana357) made cards 1251-1300.
 1) Anonymous made cards 251-500.
-
-Tags: anki, vocab

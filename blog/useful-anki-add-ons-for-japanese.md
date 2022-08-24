@@ -1,6 +1,7 @@
 ---
 title: Useful Anki add-ons for Japanese
-tags: [anki]
+date: 1609282554
+tags: ['anki']
 ---
 
 In this article I want to talk about Anki add-ons I recommend using when studying Japanese.

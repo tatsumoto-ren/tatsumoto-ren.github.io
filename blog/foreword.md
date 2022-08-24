@@ -1,4 +1,8 @@
-# Foreword
+---
+title: Foreword
+date: 1619998706
+tags: [guide]
+---
 
 Congratulations! You've taken your first step towards learning Japanese!
 
@@ -128,5 +132,3 @@ Examples of low quality resources.
 The next article will provide you with an overview of the method,
 and the most important steps you need to take.
 The remaining articles address each step in detail.
-
-Tags: guide

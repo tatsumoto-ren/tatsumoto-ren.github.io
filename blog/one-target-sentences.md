@@ -1,4 +1,8 @@
-# One target sentences
+---
+title: One target sentences
+date: 1631221476
+tags: [guide]
+---
 
 Let's define a "target" as any unknown piece of information
 in a given sentence in a foreign language.
@@ -75,5 +79,3 @@ It refers to a level of input that is slightly above the learner's current level
 whose meanings can be inferred entirely through context,
 while "1T" implies that there's a concrete sentence that can't be understood
 until one particular piece of information is looked up in a dictionary.
-
-Tags: guide

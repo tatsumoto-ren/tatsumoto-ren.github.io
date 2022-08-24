@@ -1,4 +1,8 @@
-# JLPT Tango N1 Anki deck
+---
+title: JLPT Tango N1 Anki deck
+date: 1649616674
+tags: [anki, vocab]
+---
 
 <p align="center">
 <img src="img/tango_n1.webp" alt="cover" style="max-height: 400px;">
@@ -148,5 +152,3 @@ Thanks to everybody who helped put this together.
 * [Alxindrs](https://t.me/Alxindrs)
 * Kimchi Waalalaa
 * Tatsumoto
-
-Tags: anki, vocab

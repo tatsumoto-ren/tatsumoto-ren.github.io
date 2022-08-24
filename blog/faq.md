@@ -1,6 +1,7 @@
 ---
 title: FAQ
-tags: [guide]
+date: 1623885893
+tags: ['guide']
 ---
 
 This is Tatsumoto's AJATT FAQ.

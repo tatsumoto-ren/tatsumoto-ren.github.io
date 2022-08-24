@@ -1,4 +1,8 @@
-# Setting up Qolibri
+---
+title: Setting up Qolibri
+date: 1632881424
+tags: [dictionaries, epwing]
+---
 
 [Qolibri](https://aur.archlinux.org/packages/qolibri/)
 is a Qt-based dictionary viewer.
@@ -202,5 +206,3 @@ but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and se
 <p align="center"><img alt="read book" src="img/qolibri-read-book.webp"></p>
 
 Here you can find the explanations what all the symbols mean.
-
-Tags: dictionaries, epwing

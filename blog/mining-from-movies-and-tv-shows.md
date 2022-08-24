@@ -1,4 +1,8 @@
-# Mining from movies and TV-shows
+---
+title: Mining from movies and TV-shows
+date: 1622909216
+tags: [guide]
+---
 
 *Sentence mining* is the process of picking sentences from your immersion and making Anki cards.
 Each sentence has one unknown piece of information,
@@ -246,5 +250,3 @@ No.
 Though you often see such recommendations,
 I think it unnecessarily complicates your setup.
 Yomichan Search can do the same thing simpler.
-
-Tags: guide

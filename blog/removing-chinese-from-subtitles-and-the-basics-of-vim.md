@@ -1,4 +1,8 @@
-# Removing Chinese from subtitles and the basics of vim
+---
+title: Removing Chinese from subtitles and the basics of vim
+date: 1606984029
+tags: [vim, subtitles]
+---
 
 Let's talk about Japanese subtitles. Many of us have used [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
 and have seen those strange subtitles with Chinese translation on the first line and then below it
@@ -34,5 +38,3 @@ supplying the pattern:
 * `/d` - delete the matched lines
 
 And you're done! Now you can save the file and exit `vim` by pressing `ZZ`.
-
-Tags: vim, subtitles

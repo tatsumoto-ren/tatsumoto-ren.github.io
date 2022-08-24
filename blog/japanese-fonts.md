@@ -1,4 +1,8 @@
-# Japanese fonts
+---
+title: Japanese fonts
+date: 1624216840
+tags: [guide]
+---
 
 On a freshly installed GNU/Linux distro
 Japanese characters may not look pretty.
@@ -237,5 +241,3 @@ They're pixelated, and they literally glow.
 
 <p align="center"><img alt="comparison" src="img/windows_ui_example.webp"></p>
 <p align="center"><i>How fonts typically look on Windows.</i></p>
-
-Tags: guide

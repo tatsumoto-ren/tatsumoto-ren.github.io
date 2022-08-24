@@ -1,4 +1,8 @@
-# Mining from manga
+---
+title: Mining from manga
+date: 1617260890
+tags: [guide]
+---
 
 When we read manga,
 sometimes there's a need to quickly
@@ -268,5 +272,3 @@ is another program that can add screenshots to Anki.
 ## Other software
 
 See [Resources](resources.html#ocr-for-manga).
-
-Tags: guide

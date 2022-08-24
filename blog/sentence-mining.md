@@ -1,4 +1,8 @@
-# Sentence mining
+---
+title: Sentence mining
+date: 1638303348
+tags: [guide]
+---
 
 **Sentence mining** is a process of extracting sentences
 that contain unknown words
@@ -209,5 +213,3 @@ There are people who make cards in advance on a weekend and slowly learn them on
 Some people make cards and learn them right away.
 Some people learn the cards they have already made on the next day.
 What's important is that you always have sentences in your deck ready to be learned.
-
-Tags: guide

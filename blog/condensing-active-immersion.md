@@ -1,4 +1,8 @@
-# Condensing active immersion
+---
+title: Condensing active immersion
+date: 1656087109
+tags: [guide]
+---
 
 Watching movies and TV shows counts towards active immersion
 and requires full attention to the content.
@@ -45,5 +49,3 @@ Press `t` to toggle transtions.
 Use the vim keys (`h`,`j`,`k`,`l`)
 to move through the settings list and change values.
 Press `s` to save the settings.
-
-Tags: guide

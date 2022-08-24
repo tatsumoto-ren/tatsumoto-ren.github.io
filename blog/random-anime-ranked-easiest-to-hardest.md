@@ -1,4 +1,7 @@
-# Random Anime Ranked Easiest to Hardest
+---
+title: Random Anime Ranked Easiest to Hardest
+date: 1606494205
+---
 
 A list of anime shows sorted from shows for beginners to shows for advanced learners.
 

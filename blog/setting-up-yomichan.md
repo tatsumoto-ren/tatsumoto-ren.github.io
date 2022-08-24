@@ -1,6 +1,7 @@
 ---
 title: Setting up Yomichan
-tags: [guide, dictionaries, yomichan]
+date: 1619220247
+tags: ['guide', 'dictionaries', 'yomichan']
 ---
 
 [Yomichan](https://foosoft.net/projects/yomichan/) is a browser extension

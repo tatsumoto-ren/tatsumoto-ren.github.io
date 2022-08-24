@@ -1,4 +1,8 @@
-# How to save the Japanese learning community
+---
+title: How to save the Japanese learning community
+date: 1611102279
+tags: [matrix]
+---
 
 Even big figureheads in the Japanese learning community still recommend
 other learners to join their discord servers to ask questions
@@ -100,5 +104,3 @@ Make sure to run a matrix client on a phone
 [without Gapps](https://fsfe.org/activities/android/liberate.en.html)
 or other proprietary software installed
 that can potentially breach your privacy.
-
-Tags: matrix

@@ -1,4 +1,8 @@
-# Join our community
+---
+title: Join our community
+date: 1612779384
+tags: [matrix]
+---
 
 Daily Japanese Thread is a friendly place
 for people learning Japanese through immersion.
@@ -108,5 +112,3 @@ or copy the URL of
 [the pack I host for myself](https://tatsumoto-ren.github.io/stickerpicker/web/).
 To add the sticker pack to your Matrix account, follow the instructions
 [here](https://github.com/maunium/stickerpicker/wiki/Enabling-the-widget).
-
-Tags: matrix

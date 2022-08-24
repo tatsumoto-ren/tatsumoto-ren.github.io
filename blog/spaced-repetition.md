@@ -1,6 +1,7 @@
 ---
 title: Spaced repetition
-tags: [guide]
+date: 1655007397
+tags: ['guide']
 ---
 
 To study efficiently

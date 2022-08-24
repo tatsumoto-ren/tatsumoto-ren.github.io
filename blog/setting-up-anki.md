@@ -1,4 +1,8 @@
-# Setting up Anki
+---
+title: Setting up Anki
+date: 1609127492
+tags: [anki]
+---
 
 <img alt="anki" src="img/anki_logo.webp" style="float:right; max-height: 200px;">
 
@@ -552,5 +556,3 @@ anki_test_run() {
 
 These functions are
 [available on my GitHub](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc).
-
-Tags: anki
