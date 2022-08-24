@@ -568,6 +568,9 @@ you don't have to change it to kanji because it's not the **target word** anymor
 
 Try putting each spelling in a search engine.
 Mine the one that brings more results.
+When searching, restrict the language to Japanese,
+or there will be Chinese sites in the results,
+and the number of occurrences of a word will be incorrect.
 
 [rankspellings](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rankspellings)
 is a script that searches words on Google or Yahoo
