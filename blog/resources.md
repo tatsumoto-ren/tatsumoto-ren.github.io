@@ -136,37 +136,39 @@ The torrent client then downloads the actual content.
 Before using the torrent sites, [choose a torrent client](#torrent-clients).
 
 * [Nyaa](https://nyaa.si/).
-A torrent site with anime, manga, light novels and Japanese dramas.
-Contains 98% of what you need to actually learn Japanese.
+  A torrent site with anime, manga, light novels and Japanese dramas.
+  Contains 98% of what you need to actually learn Japanese.
 
-	Unfortunately, Nyaa is blocked in some countries.
-	Accessing it through Tor can be difficult due to DDOS protection.
-	If you can't access the site, use a mirror.
-	Currently, there's only one working mirror I know,
-	[Nyaa ISS](https://nyaa.iss.one/).
+  Unfortunately, Nyaa is blocked in some countries.
+  Accessing it through Tor can be difficult due to DDOS protection.
+  If you can't access the site, use a mirror.
+  Currently, there's only one working mirror I know,
+  [Nyaa ISS](https://nyaa.iss.ink/).
 * [Tokyo Toshokan](https://www.tokyotosho.info/).
-A BitTorrent library for Japanese media.
+  A BitTorrent library for Japanese media.
 * [Rutracker](https://rutracker.org/).
-Another torrent site.
-Has lots of Japanese movies, dramas and anime.
-Ongoing anime gets uploaded with a noticeable delay.
-Refer to Nyaa first if you watch ongoings.
+  Another torrent site.
+  Has lots of Japanese movies, dramas and anime.
+  Ongoing anime gets uploaded with a noticeable delay.
+  Refer to Nyaa first if you watch ongoings.
 
-	This site can be accessed through Tor.
+  This site can be accessed through Tor.
 * [Animebytes](https://animebytes.tv/).
-A private tracker. Offers content similar to what you find on Nyaa ISS.
+  A private tracker. Offers content similar to what you find on Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
-A private tracker for Asian movies and TV-shows.
+  A private tracker for Asian movies and TV-shows.
 * [AsianCinema.Me](https://asiancinema.me/).
-Asian private tracker for Movies only.
+  Asian private tracker for Movies only.
 * [JPTVTS.US](https://jptvts.us/).
-A private tracker for japanese content only.
+  A private tracker for japanese content only.
 * [JPTV.CLUB](https://jptv.club/).
-Another private tracker.
-You can join if you have accounts on other private trackers.
-Most uploads contain Japanese subs straight from the broadcast.
+  Another private tracker.
+  You can join if you have accounts on other private trackers.
+  Here you can find Japanese TV programs.
+  Most uploads contain Japanese subs straight from the broadcast.
+  They are extremely good for mining.
 * [anisource](https://asnet.pw/).
-An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
+  An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
 
 ### Streaming
 
@@ -344,7 +346,7 @@ Proprietary software should not exist and should not be used if you want to have
 * [Watkins 2channel](https://www2.5ch.net/5ch.html)
 * [Nishimura 2channel](https://www.2ch.sc/2ch.html)
 * [Futaba channel](https://www.2chan.net)
-* [librejp](https://sportschan.org/librejp/catalog.html)
+* [librejp](https://sportschan.org/librejp/) ([Tor](http://ylcjjrqko7pgobnvzreemm565ea3oj3c7rfqqb4x4twmay6hafv54mid.onion/librejp/index.html))
 
 You may need a Japanese IP address for some of these.
 
