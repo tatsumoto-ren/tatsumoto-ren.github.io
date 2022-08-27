@@ -15,13 +15,44 @@ projects developed by the community will help you in your language learning jour
 
 ****
 
+## Overview
+
+Technical instructions on this site are intended for GNU/Linux users,
+but most of the software I list here is cross-platform.
+If you're not using GNU/Linux yet,
+you should be able to use the tools on any OS in the meantime
+while you're preparing to switch.
+
+<details>
+
+<summary>Our software recommendations</summary>
+
+I deliberately advocate for free/libre software.
+Quitting Windows is like quitting tobacco.
+Tobacco is bad for your health.
+Likewise, non-free software is
+[bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
+
+The point of free software is that we have control of our software and our computing.
+A system with a back door doesn't qualify.
+
+If you think you can't be bothered to install the GNU operating system,
+bear in mind that it only takes about 20 minutes to do so.
+It will take you years to master a foreign language, so it's a good investment.
+
+</details>
+
 ## [GNU/Linux](https://www.gnu.org/gnu/about-gnu.html)
 
 GNU/Linux is a suitable replacement for
 [Windows](https://www.gnu.org/proprietary/malware-microsoft.html)
 or
 [macOS](https://www.gnu.org/proprietary/malware-apple.html).
-An Arch-based distro is recommended.
+
+I favor
+[Arch Linux](https://archlinux.org/) and distributions based on it,
+but any other distro is fine
+as long as it's not overly complicated or difficult to use as a daily driver.
 If you've ever used a Debian-based distro, you know how slow the package manager is.
 On the other hand, the package manager used in Arch-based distros
 is one of the fastest package managers out there.
@@ -116,3 +147,47 @@ based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
 
 * [AUR package](https://aur.archlinux.org/packages/subs2srs/)
+
+## Android
+
+Having a mobile device is not strictly necessary for learning Japanese,
+but it can be handy.
+It can be used to review Anki flashcards when you're not home.
+You can use it for passive listening if you load it with
+[condensed audio](passive-listening.html#condensing-audio).
+Some people are even able to do active immersion on Android,
+though I think it's a torture with such a small screen.
+
+Not all Android phones or tablets are safe to use out of the box.
+If you do own an Android device, be sure to install
+[F-Droid](https://f-droid.org/en/),
+which is an application catalog for libre programs.
+Liberate your device by flashing a new aftermarket
+<abbr title="a third-party operating system that replaces the factory-installed one">ROM</abbr>.
+If aftermarket ROMs are not available for your device,
+obtain root access and get rid of Google Play and all Google applications.
+
+F-Droid [can be flashed](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged.ota/)
+using TWRP or other Android recovery
+to allow for automatic background updates.
+
+Most Android devices can't be fully liberated
+because they depend on nonfree drivers and firmware.
+These drivers control things like WiFi, Bluetooth, GPS, microphone, camera.
+
+Don't buy iThings, you can't install a free OS on them.
+Most Anki decks linked on this site come with
+[ogg/opus](https://opus-codec.org/) audio
+and [webp](https://developers.google.com/speed/webp) images.
+These formats are not supported on iThings.
+
+Some people would like to completely reject mobile phones because they are surveillance tools.
+
+**Further information:**
+
+* [Android - Privacy Guides](https://www.privacyguides.org/android/)
+* [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid/) is a more modern F-Droid client.
+* [Liberate your device - FSF](https://fsfe.org/activities/android/liberate.en.html)
+* [Android and Users' Freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html)
+* [Recommended Apps from F-Droid - DivestOS](https://divestos.org/index.php?page=recommended_apps)
+* **[Android software for learning Japanese](resources.html#android-software)**
