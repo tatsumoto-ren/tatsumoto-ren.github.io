@@ -112,6 +112,8 @@ Otherwise, set it to `false`.
 
 Install [lxappearance](https://archlinux.org/packages/?name=lxappearance).
 The program lets you change various font settings.
+In the "Widget" tab select a font that can display Japanese characters.
+For example, "Noto Sans CJK JP".
 Antialiasing and hinting aren't too noticeable,
 feel free to experiment for yourself.
 I just leave them on.
@@ -143,10 +145,30 @@ Xft.rgba:	none
 If it doesn't happen automatically, you need to edit your `.xinitrc` file or change other settings.
 Refer to Arch Wiki for instructions.
 
+## i3wm
+
+To render Japanese characters in window titles and in the bar,
+[i3wm](https://i3wm.org/) users can specify Japanese fonts in the config file.
+
+Edit `~/.config/i3/config` and define a list of fonts separated by commas.
+Font size is added once at the end of the line.
+Here's an example:
+
+```
+font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font Mono 9
+```
+
+* My i3 config can be found [in my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config).
+* [i3 config reference](https://i3wm.org/docs/userguide#fonts).
+
 ## Firefox
 
 Firefox should automatically pick up your Fontconfig settings.
 If it doesn't, go to "Settings" > "Fonts and Colors" and set the fonts there.
+
+It is a good idea to disable the
+"Allow pages to choose their own fonts instead of your selections above" setting.
+It can interfere with the fonts set with fontconfig.
 
 ## Yomichan
 

@@ -127,6 +127,8 @@ Otherwise, set it to <code>false</code>.</p>
 <h2 id="fonts-in-gtk-apps"><a class="anchor" href="#fonts-in-gtk-apps" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fonts in GTK apps</h2>
 <p>Install <a href="https://archlinux.org/packages/?name=lxappearance">lxappearance</a>.
 The program lets you change various font settings.
+In the &quot;Widget&quot; tab select a font that can display Japanese characters.
+For example, &quot;Noto Sans CJK JP&quot;.
 Antialiasing and hinting aren't too noticeable,
 feel free to experiment for yourself.
 I just leave them on.</p>
@@ -150,9 +152,24 @@ Xft.rgba:	none
 <p><strong>Note:</strong> Make sure that you load the X resources file on login.
 If it doesn't happen automatically, you need to edit your <code>.xinitrc</code> file or change other settings.
 Refer to Arch Wiki for instructions.</p>
+<h2 id="i3wm"><a class="anchor" href="#i3wm" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>i3wm</h2>
+<p>To render Japanese characters in window titles and in the bar,
+<a href="https://i3wm.org/">i3wm</a> users can specify Japanese fonts in the config file.</p>
+<p>Edit <code>~/.config/i3/config</code> and define a list of fonts separated by commas.
+Font size is added once at the end of the line.
+Here's an example:</p>
+<pre><code>font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font Mono 9
+</code></pre>
+<ul>
+<li>My i3 config can be found <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config">in my dotfiles</a>.</li>
+<li><a href="https://i3wm.org/docs/userguide#fonts">i3 config reference</a>.</li>
+</ul>
 <h2 id="firefox"><a class="anchor" href="#firefox" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Firefox</h2>
 <p>Firefox should automatically pick up your Fontconfig settings.
 If it doesn't, go to &quot;Settings&quot; &gt; &quot;Fonts and Colors&quot; and set the fonts there.</p>
+<p>It is a good idea to disable the
+&quot;Allow pages to choose their own fonts instead of your selections above&quot; setting.
+It can interfere with the fonts set with fontconfig.</p>
 <h2 id="yomichan"><a class="anchor" href="#yomichan" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Yomichan</h2>
 <p>Likewise, no special configuration required.
 If you wish to specify a different font, edit the Popup CSS.</p>
