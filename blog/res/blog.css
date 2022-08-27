@@ -75,7 +75,7 @@ body>div#divbodyholder {
     flex: 1 0 auto;
 }
 
-body>.headerholder,
+body>header,
 body>footer {
     flex-shrink: 0;
 }
@@ -178,15 +178,6 @@ a.ablack {
 
 /* header */
 
-.headerholder {
-    background-color: var(--background-secondary-color);
-    padding-bottom: 5px;
-    width: 100%;
-    position: sticky;
-    z-index: 100;
-    top: 0;
-}
-
 header {
     font-family:
         "Noto Serif",
@@ -198,6 +189,10 @@ header {
         "Noto Serif CJK JP",
         serif;
     width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 5px 0 var(--background-secondary-color);
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
