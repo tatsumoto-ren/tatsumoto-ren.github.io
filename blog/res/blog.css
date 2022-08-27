@@ -60,6 +60,7 @@ body {
         "Helvetica Neue",
         Helvetica,
         "Noto Color Emoji",
+        "Noto Sans CJK JP",
         sans-serif;
     background-color: #f3f3f3;
     color: #24292e;
@@ -193,6 +194,7 @@ header {
         "Times New Roman",
         Georgia,
         Times,
+        "Noto Serif CJK JP",
         serif;
     width: 100%;
     min-width: 256px;
@@ -631,6 +633,8 @@ pre {
         "Courier New",
         "Lucida Console",
         Courier,
+        Consolas,
+        "Noto Sans Mono CJK JP",
         monospace;
 }
 
