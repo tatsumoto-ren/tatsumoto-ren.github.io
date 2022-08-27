@@ -556,3 +556,28 @@ anki_test_run() {
 
 These functions are
 [available on my GitHub](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc).
+
+## Unicode normalization
+
+If you are studying certain
+<abbr title="traditional kanji used in Japan before 1946">旧字体</abbr>
+characters,
+you may have noticed that when you put them in Anki,
+they are [automatically converted](https://docs.ankiweb.net/editing.html?highlight=norma#unicode-normalization)
+to their
+<abbr title="simplified form of kanji used in Japan since 1946">新字体</abbr>
+versions.
+For example, you make a card with 「[禎](https://kanji.jitenon.jp/kanjim/6401.html)」,
+and when you open the card again it is replaced with 「[禎](https://kanji.jitenon.jp/kanjif/2754.html)」.
+
+If you are studying rare characters
+and wish to prevent them from being converted into modern equivalents,
+open the debug console by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>
+and pasting the following.
+Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to apply.
+
+```
+mw.col.conf["normalize_note_text"] = False
+```
+
+This setting should be applied to each collection (Anki profile) individually.
