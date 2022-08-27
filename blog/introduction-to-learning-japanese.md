@@ -55,22 +55,25 @@ It can't be substituted with taking classes or buying textbooks.
 
 No, you're not going to go to the country and ask a Japanese person to speak to you.
 Immersion refers to any form of listening or reading in your target language.
+The best type of content to use is anything you're interested in.
+As long as it's **by natives for natives**, it's fine.
 
 The process is divided into two steps.
 
 1) Watch a movie or a TV-show in Japanese.
-The visual component will help you understand what's going on.
-Use Japanese subtitles, if available, to look up unknown words and grammar.
-If not, you might be surprised at how much you can learn
-from simply watching *raw*, with no subtitles.
-This is called **active immersion**.
+   The visual component will help you understand what's going on.
+   Use Japanese subtitles, if available, to look up unknown words and grammar.
+   If not, you might be surprised at how much you can learn
+   from simply watching *raw*, with no subtitles.
+   This is called **active immersion**.
 2) Reuse what you've watched for **passive immersion**.
-Passive immersion is when you have audio playing in the background
-while you're doing something else.
-A popular practice among ajatters is to take an episode of a TV show you've watched,
-extract the audio track and add it to your playlist.
-I am going to tell you how to do it in the article about
-[passive listening](passive-listening.html).
+   Passive immersion is when you have audio playing in the background
+   while you're doing something else.
+   A popular practice among people doing AJATT
+   is to take an episode of a TV show they have watched,
+   extract the audio track and add it to a playlist.
+   I am going to tell you how to do it in the article about
+   [passive listening](passive-listening.html).
 
 As for reading, the above applies if for a book you read you find the corresponding audiobook.
 If not, just read it and skip the second step.
@@ -81,46 +84,65 @@ It is true that actively consuming native media,
 looking up words and trying to learn them
 is an immense task for a beginner.
 You're going to spend your first weeks learning the basics of the language.
+Your active study time during this stage will include
+learning the alphabets, kanji, basic vocabulary and grammar.
+Nonetheless, you have to do immersion from day one.
 What I recommend you do at this stage is watch easy anime without subtitles.
 Instead of looking up words rely on imagery and context to infer what's going on in the show.
-You can use Japanese subs once you have a foundation in the Japanese writing systems.
+You can start using Japanese subtitles once you have a foundation in the Japanese writing systems.
 Passively listen to each episode after you complete it to maximize time spent immersing.
-Dedicate your active study time to learning **basic vocabulary**.
-I'll show you how to do it shortly.
+By simply listening, your brain will slowly get better at parsing and understanding the language.
+Listening a lot is going to eventually enable you
+to understand spoken language,
+be it a conversation or your favorite anime.
 
-Once you complete the basic vocabulary phase,
+Once you learn the basic vocabulary,
 nothing stops you from learning just from immersion.
 Don't wait for too long.
 There are people who trap themselves into thinking,
-"I'm going to start watching raw when I'm good.
-I don't immerse because I don't understand Japanese yet."
+"I'm going to start watching raw anime when I'm good",
+"I don't immerse because I don't understand Japanese yet".
 This is a very dangerous pattern.
 You start wearing skates before you know how to skate.
 You start watching without subs before you understand.
 
-Listen to `10,000` hours of Japanese over the next `2` years.
-This roughly amounts to about 14 hours of listening per day.
-Listening a lot is what is going to enable you
-to follow a conversation or your favorite anime without subtitles.
+For passive listening try to choose the material
+that you previously actively watched and comprehended.
+The quality of passive immersion is lower if you don't actively work with it beforehand.
+Avoid listening to "white noise",
+you only really make gains when you understand the language you are consuming.
+You won't be able to comprehend everything right away,
+but as you learn new words from your immersion,
+expect your comprehension to quickly grow within the first few months.
+You have to make effort to make the content comprehensible.
+Look up words, rely on the imagery, choose material with simpler language.
 
-No matter what you're doing,
-try to do passive immersion whenever you can.
-There are countless opportunities to immerse throughout a day.
-You can do it in the shower,
-as you're getting ready,
-while taking a walk,
-driving,
-going somewhere,
-cooking meals,
-on the bus,
-on the subway,
-while exercising,
-etc.
-No matter what type of lifestyle you have,
-you should be able to fit in multiple hours a day of passive immersion.
-Fill in every single crack in your day possible.
-Every waking moment counts.
-By simply listening, your brain will slowly get better at parsing and understanding the language.
+Slice of life anime is the easiest genre to learn from in the beginning.
+To find easy anime you can search [MAL](https://myanimelist.net/).
+Make sure there are as few genres as possible
+and exclude other genres to prevent difficult anime from appearing in the results.
+Here's an [example search](https://myanimelist.net/anime.php?cat=0&q=&type=1&score=0&status=2&p=0&r=0&sm=0&sd=0&sy=2000&em=0&ed=0&ey=0&c[0]=a&c[1]=b&c[2]=c&c[3]=d&c[4]=e&c[5]=f&c[6]=g&genre_ex[0]=1&genre_ex[1]=2&genre_ex[2]=10&genre_ex[3]=24&genre_ex[4]=37&genre_ex[5]=39&genre_ex[6]=13&genre_ex[7]=62&genre_ex[8]=66&genre_ex[9]=18&genre_ex[10]=67&genre_ex[11]=38&genre_ex[12]=6&genre_ex[13]=68&genre_ex[14]=40&genre_ex[15]=3&genre_ex[16]=21&genre_ex[17]=29&genre_ex[18]=78&genre_ex[19]=32&genre[0]=4&genre[1]=36&o=3&w=1).
+
+The more *language-dense* your immersion content is, the better.
+It's a good idea to choose content where people talk a lot, with some caveats.
+* In general podcasts and radio are more challenging for beginners,
+  and they rarely have transcriptions.
+  Learning from such content is harder than, say, anime,
+  where you can open a subtitle file and look up unknown words.
+  I recommend podcasts for intermediate learners and above.
+* Songs contain unnatural sentence structures, grammar, word choice.
+  They tend to use more "poetic", uncommon words.
+  Sometimes if a word can be read many ways,
+  they choose to sing the less common version.
+
+  It's hard to hear the lyrics through music.
+  Even in our native language we often fail to hear or make sense of some parts of songs.
+  Instead of listening to songs for the sake of immersion,
+  it's better to choose a more comprehensible material.
+
+  But music is fun.
+  Reading song lyrics is a fun way to find new, often cool and rare words.
+  Give it a try once you're advanced.
 
 I hope you'll find an immersion routine that suits your life.
 If you think you can't do it, don't worry.
@@ -128,29 +150,6 @@ Even Khatz, the AJATT founder, said in his blog that he wasn't always able to im
 He still tried to do as much as he could,
 while having a job and studying at a university at the same time.
 AJATT has existed for years, many people went through the program and achieved fluency.
-
-For passive listening try to choose the material
-that you previously actively watched and comprehended.
-Avoid listening to "white noise",
-you only really make gains when you understand the language you are consuming.
-You won't be able to comprehend everything right away,
-but as you learn new words from your immersion,
-expect your comprehension to reach a solid level within the first few months.
-You have to make effort to make the content comprehensible.
-Look up words, rely on the imagery, choose material with simpler language.
-
-Slice of life anime is the easiest genre to learn from in the beginning.
-If you need more specific recommendations,
-I have a list of anime ranked by difficulty [here](random-anime-ranked-easiest-to-hardest.html).
-
-The more *language-dense* your immersion content is, the better.
-You can listen to podcasts but keep in mind that they're more challenging for beginners.
-If you like Japanese music, bear in mind that
-songs contain unnatural speech,
-and it's hard to hear the lyrics through music.
-Even in our native language we often fail to understand some parts of songs.
-Instead of listening to songs for the sake of immersion,
-it's better to choose a more comprehensible material.
 
 ### Outputting
 
@@ -161,21 +160,35 @@ there is no way you will be able to successfully communicate with others
 even if you memorize basic phrases from a textbook.
 Premature speaking has other negative effects.
 It can mess up your accent and solidify your mistakes.
+Traditional language learners often demonstrate the effect in their speech.
+
 * It takes time to train your listening
-to become able to hear native speech at natural speed and comprehend it.
-If you can't hear the sounds yet, there's no way you can repeat them
-without a strong foreign accent.
-Think about Japanese people. After getting crippled by the school system
-that doesn't and can't offer enough listening practice
-they confuse the `l` and `r` sounds when they try to speak English.
+  until you can hear native speech at natural speed and comprehend it.
+  If you can't hear the sounds yet, there's no way you can repeat them
+  without a strong foreign accent.
+  Traditional language learners start speaking very early, from day one.
+  As they speak, they get used to pronouncing words incorrectly.
+
+  Think about Japanese people. After getting crippled by the school system
+  that doesn't and can't offer enough listening practice
+  they confuse the `l` and `r` sounds when they try to speak English.
+
+  A lot of people think, "I'll have native speakers correct me and tell me where I'm off".
+  Imagine a blind person trying to draw a self-portrait and someone telling them,
+  "oh, the nose is a little bigger".
+  That's not going to help them too much.
+
+  If you want good pronunciation,
+  you need to rely on your own ability to correct yourself.
+  You need to develop a good listening ability before you start speaking.
 * Mistakes are bad because they [become habits](http://www.antimoon.com/how/mistakes-damage.htm).
-If you make a mistake,
-you are more likely to say the same construction the next time.
-Don't hope that a native speaker will correct your mistakes.
-Unless the other party didn't understand you at all,
-they are not going to point out where you're off.
-Even if you ask them to correct all your mistakes,
-there's no guarantee that you'll be able to apply the corrections.
+  If you make a mistake,
+  you are more likely to say the same construction the next time.
+  Don't hope that a native speaker will correct your mistakes.
+  Unless the other party didn't understand you at all,
+  they are not going to point out where you're off.
+  Even if you ask them to correct all your mistakes,
+  there's no guarantee that you'll be able to apply the corrections.
 
 **Go through a silent period.**
 A very popular community guideline is to avoid speaking to anyone in Japanese
@@ -185,98 +198,91 @@ for the first 1.5-2 years of learning.
 Once you get a few thousand hours of input,
 your speaking ability is going to emerge gradually.
 Forcing it usually doesn't work.
+Again, remember how small children learn to speak their native language.
+Their output ability emerges as a result of immersion.
 
-## Prepare your devices
+## Software overview
 
-Technical instructions on this site are intended for GNU/Linux users,
-but most of the software I list here is cross-platform.
-If you're not ready to install GNU/Linux yet,
-you should be able to use the tools on any OS in the meantime
-while you're preparing to switch to GNU/Linux.
-
-<details>
-
-<summary>Our software recommendations</summary>
-
-I deliberately advocate for free/libre software.
-Quitting Windows is like quitting tobacco.
-Tobacco is bad for your health.
-Likewise, non-free software is
-[bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
-
-I
-[favor](our-immersion-learning-toolset.html#gnulinux)
-Arch-based distributions like [Manjaro](https://manjaro.org/), but any other distro is fine
-as long as it's not overly complicated or difficult to use as a daily driver.
-
-Instructions for mobile phones are made assuming that you have
-[liberated](https://fsfe.org/activities/android/liberate.en.html)
-your phone.
-This means having an Android device with a good aftermarket
-<abbr title="a third-party operating system that replaces the factory-installed one">ROM</abbr>
-installed.
-
-All Anki decks linked in the guide come with [ogg/opus](https://opus-codec.org/) audio.
-This coding format is not supported by Anki on iThings.
-
-</details>
-
+We're going to use various programs to help us with Japanese.
 Since this is an intro article, you don't have to install everything right now.
 It's just an outline.
 We have more complete suggestions on the Resources page.
 
 * **Desktop**
-	* Install Japanese fonts.
-	I suggest
-	[noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
-	Refer to
-	[Japanese fonts](japanese-fonts.html)
-	for detailed instructions.
-	* Install and configure
-	[Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
-	to type in Japanese.
-	The input method I use is
-	[fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
-	but other options are also available.
-	* For passive immersion use [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
-	together with
-	[ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
-	Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
-	* *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
-	Condensing takes a video file with subtitles and removes all parts where no one is speaking,
-	producing an audio file with increased language density for passive listening.
-	* The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
-	It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
-	many of which can be used to make language learning easier.
-	* Install and [set up](setting-up-anki.html) Anki.
-	It's a flashcard program used to memorize words, phrases and sentences.
-	* The most popular offline dictionaries are:
-		1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
-		Dictionary files for qolibri are available
-		[here](yomichan-and-epwing-dictionaries.html).
-		1) [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
-		1) [Tagaini Jisho](https://www.tagaini.net/)
-	* When you read in your browser, use
-	[Yomichan](https://foosoft.net/projects/yomichan/)
-	to discover meanings of unknown words.
+  * Install Japanese fonts.
+    I suggest
+    [noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
+    Refer to
+    [Japanese fonts](japanese-fonts.html)
+    for detailed instructions.
+  * Install and configure
+    [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
+    to type in Japanese.
+    The input method I use is
+    [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
+    but other options are also available.
+  * For passive immersion use [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
+    together with
+    [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
+    Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
+  * *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
+    Condensing takes a video file with subtitles and removes all parts where no one is speaking,
+    producing an audio file with increased language density for passive listening.
+  * The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
+    It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+    many of which can be used to make language learning easier.
+  * Install and [set up](setting-up-anki.html) Anki.
+    It's a flashcard program used to memorize words, phrases and sentences.
+  * The most popular offline dictionaries are:
+    1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
+    Dictionary files for qolibri are available
+    [here](yomichan-and-epwing-dictionaries.html).
+    1) [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
+    1) [Tagaini Jisho](https://www.tagaini.net/)
+  * When you read in your browser, use
+    [Yomichan](https://foosoft.net/projects/yomichan/)
+    to discover meanings of unknown words.
 * **Mobile**
-	* Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
-	to be able to type in Japanese.
-	Because Android lacks free/libre keyboards,
-	you can also use `Gboard` if you want, but make sure
-	to completely block it from accessing the Internet.
-	* [AntennaPod](https://f-droid.org/en/packages/de.danoeh.antennapod/)
-	is a great app for playing podcasts.
-	[This list](https://t.me/ajatt_tools/80) of podcasts is a good starting point.
-	* Get [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-	It doesn't require any specific steps to set it up
-	other than entering your AnkiWeb credentials to sync with the desktop.
-	* Offline Japanese dictionaries available are
-	[Sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
-	and
-	[jiten](https://github.com/obfusk/jiten).
+  * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
+    to be able to type in Japanese.
+    Because Android lacks free/libre keyboards,
+    you can also use `Gboard` if you want, but make sure
+    to completely block it from accessing the Internet.
+  * [AntennaPod](https://f-droid.org/en/packages/de.danoeh.antennapod/)
+    is a great app for playing podcasts.
+    [This list](https://t.me/ajatt_tools/80) of podcasts is a good starting point.
+  * Get [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
+    It doesn't require any specific steps to set it up
+    other than entering your AnkiWeb credentials to sync with the desktop.
+  * Offline Japanese dictionaries available are
+    [Sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/),
+    [jiten](https://github.com/obfusk/jiten)
+    or anything else you find on F-Droid.
+* **Do not use**
+  * Machine translators.
+    Every translation is different from the original thought
+    because no word has an exact equivalent in another language.
+    To understand something, you need to understand it in the original language the first time.
+    And to do that, you have to get comprehensible input, have knowledge of words and grammar.
 
-Once you get comfortable reading, switch the language of your devices to Japanese.
+    Machine translations are extremely unnatural, wrong or misleading.
+    They can give you a rough idea of what's being said, but that's really all.
+    I guess it's okay to translate individual words, but then why don't you use a dictionary.
+
+    Google Translate is good at recognizing drawn characters.
+    You can use it to draw a kanji that you can't copy-paste
+    in a situation where
+    <abbr title="Optical Character Recognition">OCR</abbr> software doesn't recognize it.
+  * Paid software.
+    For language learning there is no paid software
+    that offers any unique functionality
+    that isn't available in the free alternatives
+    or isn't useless from our point of view.
+    Besides, if you're going to spend 10 years learning Japanese,
+    do you really want to continue paying all that time?
+  * Proprietary software.
+    Most [proprietary software is malware](https://www.gnu.org/proprietary/),
+    that's just the reality we live in.
 
 ## Writing systems
 
@@ -433,9 +439,9 @@ Below is a quick overview.
 Start consuming native Japanese content actively and passively.
 1) Quickly learn the Japanese alphabets with a drilling app or an Anki deck.
 1) The basics.
-	* Do Kanji Transition or an isolated kanji deck.
+	* Do KanjiTransition or an isolated kanji deck.
 	* Immerse in Japanese media.
-	* While doing Kanji Transition, find a grammar guide you like and read it.
+	* While doing KanjiTransition, find a grammar guide you like and read it.
 	Every day dedicate a short period of time, 30 minutes to an hour, to study grammar.
 	* Create your own mining deck.
 	You will be adding everything else you don't know to this deck.
