@@ -90,6 +90,9 @@ You have to change the card template from Word Cards to Targeted Sentence Cards 
   and probably the best free way to learn grammar used in the JLPT exam.
 * [毎日のんびり日本語教師](https://nihongonosensei.net/).
   Described in [Grammar in Japanese](#grammar-in-japanese).
+* [The JLPT Study Page](https://www.jlptstudy.net/).
+  Materials from N5 to N2.
+  Includes vocabulary, kanji, expressions, reading comprehension, quizzes.
 
 ## Examples and pronunciations
 
@@ -380,6 +383,10 @@ You can find it in
 A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
 An image viewer perfect for reading manga.
+* [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
+Simple manga reader made from a patched nsxiv.
+It extracts archives for you and opens them automatically with sxiv.
+It keeps your progress.
 * [Trackma](https://github.com/z411/trackma).
 Track your immersion on one of the supported sites.
 
@@ -542,17 +549,8 @@ Create condensed audio and automatically rotate your mpd playlist.
 
 ## Android software
 
-I urge everyone to reject mobile phones because they're surveillance tools.
-If you do own a cellphone, be sure to install
-[F-Droid](https://f-droid.org/en/),
-which is an application catalog for libre programs.
-Get rid of Google Play by flashing a new ROM
-or by rooting your phone and deleting all Google applications.
-Don't buy iThings, you can't run a free OS on them.
-
-F-Droid [can be flashed](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged.ota/)
-using TWRP or other Android recovery
-to allow for automatic background updates.
+**Note:** Please read [our recommendations](our-immersion-learning-toolset.html#android)
+regarding using an Android device.
 
 ### General
 
