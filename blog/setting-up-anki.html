@@ -526,15 +526,19 @@ to their
 <abbr title="simplified form of kanji used in Japan since 1946">新字体</abbr>
 versions.
 For example, you make a card with 「<a href="https://kanji.jitenon.jp/kanjim/6401.html">禎</a>」,
-and when you open the card again it is replaced with 「<a href="https://kanji.jitenon.jp/kanjif/2754.html">禎</a>」.</p>
-<p>If you are studying rare characters
+and when you open the card again,
+the kanji is replaced with 「<a href="https://kanji.jitenon.jp/kanjif/2754.html">禎</a>」.</p>
+<p>If you are studying <code>旧字体</code> characters,
+including certain <code>人名用漢字</code>,
 and wish to prevent them from being converted into modern equivalents,
 open the debug console by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>
-and pasting the following.
+and paste the following.
 Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to apply.</p>
 <pre><code>mw.col.conf[&quot;normalize_note_text&quot;] = False
 </code></pre>
-<p>This setting should be applied to each collection (Anki profile) individually.</p>
+<p>This setting should be applied <strong>to each collection</strong> (Anki profile) individually.</p>
+<p>Read this <a href="https://forums.ankiweb.net/t/inconsistent-unicode-normalization/22634">Anki forum post</a>
+for reference.</p>
 <p>Tags: <a href="tag_anki.html">anki</a></p>
 <!-- text end -->
 </article>
