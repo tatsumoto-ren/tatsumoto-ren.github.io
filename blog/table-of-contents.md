@@ -7,6 +7,7 @@ tags: [guide]
 * [Foreword](foreword.html)
 * Introduction
 	* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
+	* [Mass immersion](mass-immersion.html)
 	* [Spaced repetition](spaced-repetition.html)
 	* [How Anki works](how-anki-works.html)
 * Setup
