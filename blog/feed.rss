@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Wed, 13 Jul 2022 21:13:29 +0300</lastBuildDate>
-<pubDate>Wed, 13 Jul 2022 21:13:29 +0300</pubDate>
+<lastBuildDate>Wed, 31 Aug 2022 23:25:10 +0300</lastBuildDate>
+<pubDate>Wed, 31 Aug 2022 23:25:10 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Mass immersion</title><description><![CDATA[
+<p><a href="faq.html#whats-ajatt">AJATT</a>
+targets people who want to reach a high level in the language and truly become fluent.
+One of the most important parts of AJATT is
+immersing yourself in Japanese as close to 24 hours a day as possible,
+combining that with spaced repetition and other technology.</p>
+<p>Immersion is quite important, we already know that.
+Let's figure out how much immersion is necessary.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/mass-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/mass-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 31 Aug 2022 23:21:35 +0300</pubDate></item>
 <item><title>
 Japanese locale</title><description><![CDATA[
 <p>A <a href="https://wiki.archlinux.org/title/Locale">Locale</a>
@@ -116,20 +130,4 @@ You can also find news channels with more formal speech.</p>
 <guid>https://tatsumoto-ren.github.io/blog/immersion-with-youtube.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 20 Mar 2022 17:32:30 +0300</pubDate></item>
-<item><title>
-Understanding monolingual definitions</title><description><![CDATA[
-<p>A typical entry in a monolingual dictionary looks similar to this:</p>
-<pre><code>あした [3] 【明日・朝】 （名）
-（１）今日の次の日。
-（２）夜が終わって，明るくなった時。あさ。
-</code></pre>
-<p>Every dictionary usually has its own, unique system of notation.
-On this page I primarily use <code>大辞泉</code> as an example.
-If you need help finding monolingual dictionaries, see the
-<a href="resources.html#dictionaries">Dictionaries</a> resources section.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/understanding-monolingual-definitions.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 06 Jan 2022 00:45:48 +0300</pubDate></item>
 </channel></rss>
