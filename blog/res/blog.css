@@ -515,18 +515,13 @@ header label:hover {
     }
 }
 
-main p,
-main ol,
-main ul,
-main pre,
-main details,
-main hr,
-main table {
+main :is(p, ul, ol, pre, details, hr, table) {
     margin-bottom: 1rem;
 }
 
-main li>p {
-    margin-top: 1rem;
+:is(ul, ol) :is(ul, ol):last-of-type,
+li>p:last-of-type {
+    margin-bottom: 0;
 }
 
 details {
@@ -546,10 +541,6 @@ blockquote {
     padding: 0 1em;
     color: #6a737d;
     border-left: 0.25em solid #dfe2e5;
-}
-
-main ul ul {
-    margin: 0px;
 }
 
 main p {
@@ -586,8 +577,7 @@ article>h1:first-child {
     margin-bottom: 0px;
 }
 
-article ul,
-article ol {
+article :is(ol, ul) {
     padding-left: 2em;
 }
 
@@ -771,7 +761,9 @@ article :target:before {
 /* Contents sidebar */
 
 #sidebar {
-    width: 300px;
+    --sidebar-width: min(100vw, 400px);
+
+    width: var(--sidebar-width);
     max-width: 100vw;
     height: 100%;
     overflow-x: hidden;
@@ -783,7 +775,7 @@ article :target:before {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: -300px;
+    left: calc(-1 * var(--sidebar-width));
     transition: left 0.2s;
 }
 
@@ -813,10 +805,6 @@ article :target:before {
     padding-top: 0.25em;
 }
 
-#sidebar li>a {
-    padding: 4px 0;
-}
-
 #sidebar a,
 #sidebar a:visited {
     display: inline;
@@ -827,17 +815,6 @@ article :target:before {
 #sidebar a:hover,
 #sidebar a:active {
     color: #f1f1f1;
-}
-
-@media screen and (min-width: 600px) {
-    #sidebar {
-        width: 400px;
-        left: -400px;
-    }
-
-    #sidebar li>a {
-        padding: 0;
-    }
 }
 
 /* Contents sidebar: Top links */
@@ -866,6 +843,7 @@ article :target:before {
 #sidebar .sidebar_header>.to_toc {
     font-size: 18px;
     flex: 2 1 auto;
+    overflow: hidden;
 }
 
 #sidebar .sidebar_header>.jump_top_button {
