@@ -6,10 +6,11 @@ tags: [guide]
 
 Congratulations! You've taken your first step towards learning Japanese!
 
-I'm Tatsumoto. I'm primarily known for a [Telegram channel](https://t.me/ajatt_tools)
-with focus on helping foreigners learn Japanese language.
-This site is a quickstart guide for the subscribers
-and anyone who wants to learn Japanese solely through **self-study**.
+This is Tatsumoto's Guide to Learning Japanese.
+I'm Tatsumoto.
+This guide is for people
+who want to learn Japanese solely through **self-study**.
+Do you want to teach yourself Japanese?
 Do you want to reach a high level of fluency fast?
 Then this site is right for you.
 
