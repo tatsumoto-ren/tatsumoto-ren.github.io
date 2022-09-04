@@ -73,7 +73,6 @@ You may need to Email an admin to get an account.
 | Server             | Web client                                            | Extra |
 | :---               | :---                                                  | :---  |
 | `waifuhunter.club` | [waifuhunter.club](https://chat.waifuhunter.club/)    | 🏆    |
-| `nerdsin.space`    | [nerdsin.space](https://nerdsin.space/)               | 🏆    |
 | `midov.pl`         | [midov.pl](https://element.midov.pl/element/)         | 🏆    |
 | `anontier.nl`      | [anontier.nl](https://element.anontier.nl/)           |       |
 
@@ -400,7 +399,6 @@ and change the server from the default to the one you want.
 * https://skylinetv.stream/ 🏆
 * https://chat.twomoons.de/ 🏆
 * https://matrix.ladiv.org/ 🏆
-* https://m.twistednet.org/ 🏆
 * https://matrix.ravc.tech/ 🏆
 * https://matrix.cs-syd.eu/ 🏆
 * https://matrix.vleij.com/ 🏆
