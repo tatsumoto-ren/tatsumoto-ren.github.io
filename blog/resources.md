@@ -246,8 +246,6 @@ A shared folder with movies and other content with Japanese dubs.
 * [jraws](https://jraws.com/). Some jdramas.
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
-* [Audiobooks 1](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
-* [Audiobooks 2](https://drive.google.com/drive/folders/16YDpNeO1FPNl_VK0845o6U6kAUbuFwS_?sort=13&direction=a)
 
 ### Manga
 
@@ -326,12 +324,15 @@ with a number of tools to assist the students of Japanese.
   A site where you can read novels, manga, etc. for free.
   You can disable JavaScript but must allow cookies for books' pages to load.
 
-### Audio
+### Audiobooks
+
+* [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
+
+### Podcasts
 
 * [Podcasts opml](https://t.me/ajatt_tools/80).
 About 200 Japanese podcasts for constant passive listening.
 * [AuDee Podcasts](https://audee.jp/)
-* [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
 
 ### Visual Novels and Games
 
@@ -794,7 +795,6 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
-* [Immersion Wiki](https://drive.google.com/drive/folders/1gDpwFl07a0EO_pTHLLVn_Waz2GXwwSE1)
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
 Her guide is a little outdated but can still be useful.
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
