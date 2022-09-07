@@ -35,7 +35,6 @@ Below is a list of links where you can find dictionaries for qolibri and Yomicha
 
 * [EPWing Collection on Nyaa](https://nyaa.iss.one/view/1194089)
 * [EPWINGs.rar on MediaFire](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
-* [Immersion Wiki](https://drive.google.com/drive/folders/1S8c70eKADlNkyW_Orz2B7Ge49xFQjg42)
 * [Mega 1](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
 * [Mega 2](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
 * [by BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
