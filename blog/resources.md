@@ -417,39 +417,44 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 ### Reading eBooks
 
 * [Cool Reader](https://archlinux.org/packages/community/x86_64/coolreader/).
-E-book viewer.
-One day Foliate stopped working for me, so I had to search for a replacement.
-This one gets the job done, though it lacks a number of features I would like to have.
-After installation open Settings and choose Japanese fonts
-to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
-[Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
-Japanese `Noto` fonts did not, some text was still in Chinese.
+  E-book viewer.
+
+  After installation open Settings and choose Japanese fonts
+  to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
+  [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
+  Japanese `Noto` fonts did not, some text was still in Chinese.
+
+  To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
+  To view saved bookmarks, press <kbd>F6</kbd>.
+
+  Unfortunately,
+  Cool Reader can't automatically copy selected text to the clipboard like Foliate does.
 * [Foliate](https://johnfactotum.github.io/foliate/).
-A simple and modern eBook viewer.
-[Package](https://archlinux.org/packages/?name=foliate).
+  A simple and modern eBook viewer.
+  [Arch Linux package](https://archlinux.org/packages/?name=foliate).
 
-	If you can't open books, run the `chmod` command
-	[from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
-	In **Preferences**, set "When a word is selected" to "Copy"
-	and "When multiple words are selected" to "Copy".
-	This should be enough to comfortably use Foliate with
-	<span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
-	Change Layout to "Scrolled" in Advanced section of the menu
-	to prevent lags and ensure a consistent layout.
+  If you can't open books, run the `chmod` command
+  [from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
+  In **Preferences**, set "When a word is selected" to "Copy"
+  and "When multiple words are selected" to "Copy".
+  This should be enough to comfortably use Foliate with
+  <span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
+  Change Layout to "Scrolled" in Advanced section of the menu
+  to prevent lags and ensure a consistent layout.
 
-	Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
-	To scroll without the mouse, press "j" and "k".
+  Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
+  To scroll without the mouse, press "j" and "k".
 * [KOreader](https://koreader.rocks/).
-A book reader.
-The interface sucks because it was designed to be used on some obscure devices,
-but at least you can open a light novel and see furigana rendered properly.
-I recommend installing the
-[appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
-because the *-bin AUR package didn't work for me.
-* [zathura](https://wiki.archlinux.org/title/Zathura).
-A minimalistic document viewer.
-Can be used to read novels.
-Doesn't display furigana correctly.
+  A book reader.
+  The interface sucks because it was designed to be used on some obscure devices,
+  but at least you can open a light novel and see furigana rendered properly.
+  I recommend installing the
+  [appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
+  because the *-bin AUR package didn't work for me.
+* [Zathura](https://wiki.archlinux.org/title/Zathura).
+  A minimalistic document viewer.
+  Can be used to read novels.
+  Doesn't display furigana correctly.
 
 ### Localization
 
