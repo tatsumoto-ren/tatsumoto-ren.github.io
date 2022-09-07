@@ -328,13 +328,13 @@ provides a way to do it.</p>
 readonly SERVER=matrix-server.com
 readonly TOKEN=my_access_token
 curl -X POST -H &quot;Authorization: Bearer $TOKEN&quot; -H &quot;Content-Type: application/json&quot; &quot;https://$SERVER/_matrix/client/r0/createRoom&quot; --data-binary '{
-    &quot;room_version&quot;: &quot;9&quot;,
+    &quot;room_version&quot;: &quot;10&quot;,
     &quot;name&quot;: &quot;My chat&quot;,
     &quot;preset&quot;: &quot;public_chat&quot;,
     &quot;topic&quot;: &quot;Welcome to my chat&quot;
 }'
 </code></pre>
-<p>At the time of writing <code>9</code> was the latest version.
+<p>At the time of writing <code>10</code> was the latest version.
 <code>SERVER</code> and <code>TOKEN</code> are your homeserver's URL and your account's access token.
 In Element, they can be obtained by going to &quot;Settings&quot; &gt; &quot;Help &amp; About&quot;l &gt; &quot;Advanced&quot;.</p>
 <h2 id="upgrading-to-a-new-room-version"><a class="anchor" href="#upgrading-to-a-new-room-version" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Upgrading to a new room version</h2>
@@ -345,7 +345,7 @@ readonly ID='!room_id:server.com'
 readonly SERVER=server.com
 readonly TOKEN=my_access_token
 curl -X POST -H &quot;Authorization: Bearer $TOKEN&quot; -H &quot;Content-Type: application/json&quot; &quot;https://$SERVER/_matrix/client/r0/rooms/$ID/upgrade&quot; --data-binary '{
-    &quot;new_version&quot;: &quot;9&quot;
+    &quot;new_version&quot;: &quot;10&quot;
 }'
 </code></pre>
 <p>If this doesn't work, you can try <a href="https://gist.github.com/turt2live/a99c8e794d6115d4ddfaadb72aabf063">upgrading manually</a>,

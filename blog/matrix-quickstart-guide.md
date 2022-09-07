@@ -341,14 +341,14 @@ readonly SERVER=matrix-server.com
 readonly TOKEN=my_access_token
 
 curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "https://$SERVER/_matrix/client/r0/createRoom" --data-binary '{
-	"room_version": "9",
+	"room_version": "10",
 	"name": "My chat",
 	"preset": "public_chat",
 	"topic": "Welcome to my chat"
 }'
 ```
 
-At the time of writing `9` was the latest version.
+At the time of writing `10` was the latest version.
 `SERVER` and `TOKEN` are your homeserver's URL and your account's access token.
 In Element, they can be obtained by going to "Settings" > "Help & About"l > "Advanced".
 
@@ -365,7 +365,7 @@ readonly SERVER=server.com
 readonly TOKEN=my_access_token
 
 curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "https://$SERVER/_matrix/client/r0/rooms/$ID/upgrade" --data-binary '{
-    "new_version": "9"
+    "new_version": "10"
 }'
 ```
 
