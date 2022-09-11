@@ -31,6 +31,21 @@ Below is a list of links where you can find dictionaries for qolibri and Yomicha
 
 ## EPWING
 
+Download Epistularum's Tidy EPWing Collection.
+
+<p align="center">
+	<a class="download_button" href="http://rutor.info/torrent/887708">Download</a>
+</p>
+<p align="center">
+	<a href="http://6tor.org/torrent/887708">Mirror 1</a>
+	<a href="https://nyaa.iss.ink/view/1577255">Mirror 2</a>
+</p>
+
+**Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
+
+<details>
+<summary>Other sources</summary>
+
 **Packs:**
 
 * [EPWing Collection on Nyaa](https://nyaa.iss.one/view/1194089)
@@ -45,6 +60,8 @@ Below is a list of links where you can find dictionaries for qolibri and Yomicha
 A very useful EPWING with pitch accent information.
 * [Shinmeikai EPWING with pitch accent](http://www.mediafire.com/file/q9b95d1ad9wnjxd/Shinmeikai.7z)
 * [Kenkyusha J-E Dictionary](https://mega.nz/#F!dcoAlDSB!7ltFSsPmp1JfPhz6U5FaeQ)
+
+</details>
 
 ## Yomichan
 
