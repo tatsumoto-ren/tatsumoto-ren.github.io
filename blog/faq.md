@@ -96,8 +96,9 @@ I want you to become aware of the new approach before you learn about the old wa
 Once you're ready, read the
 [AJATT Table of Contents](https://web.archive.org/web/20220506045940/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/).
 You can ignore everything outside the Table of Contents.
+I also recommend exploring [the old version](https://web.archive.org/web/20080828035044/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency).
 
-The site's homepage contains nothing but ads.
+These days the site's homepage contains nothing but ads.
 Don't enter your Email address and don't buy the paid products it offers,
 there are free alternatives.
 
@@ -149,24 +150,24 @@ But if you're not like that, then why are you learning Japanese in the first pla
 
 ### Is it harmful to always have TL subtitles on?
 
-Yes, definitely.
-What I recommend is either to keep two types of shows,
-one for watching raw and one for watching with subs,
-or always watch raw and turn the subs on only when you miss something.
+Watching with subs is a reading activity.
+If you have subtitles on all the time,
+you have less time to practice your listening.
+If you practice reading more than listening,
+and you're not fluent yet,
+your listening ability starts lagging behind your reading ability.
+
+If developing good accent and listening ability is important for you,
+always watch raw and turn the subs on only when you hear an unknown word.
+Alternatively, keep two types of TV shows,
+one for watching raw and one for watching with subs.
 
 The amount of passive immersion you're doing also plays a role.
-You can allow yourself to watch more subbed content if you do a lot of listening on the side.
-Watching with subs is a reading activity.
-If all you do is reading immersion,
-you have no chance to practice your listening.
-The more you learn in this style,
-the more your listening ability lags behind your reading ability.
+You can allow yourself to watch more content with subs
+if you listen a lot.
 
-What most people are legitimately afraid of is the fact that
-you can't learn a language through listening the first time.
-If you're already fluent but your listening ability is underdeveloped,
-you have to correct that,
-and it always takes more effort than taking a more balanced approach from the beginning.
+If your listening ability is underdeveloped by the time you reach fluency,
+catching up will take more effort than if you listen a lot from the beginning.
 
 ### Pausing. How often should I look things up?
 
@@ -247,6 +248,18 @@ Even if you feel like you lack kanji ability,
 just continuing to learn words is going to improve it.
 Remember, many people never learned kanji through a dedicated deck,
 they learned words right from the start.
+
+### I can only recall kanji when in the context of the specific sentence I learned it in. How do I fix this?
+
+If you've been learning words using sentence cards or TSCs,
+and you have developed context-dependent memories of the words,
+that is not abnormal.
+It happens to many people.
+It goes away over time as you continue reading with a dictionary.
+
+Beginners are more likely to form context-dependent memories when studying with sentence cards.
+Word cards may work better for them in particular,
+at the cost of more difficult reviews.
 
 ### What are the downsides of using WaniKani?
 
@@ -565,6 +578,8 @@ If you already have a targeted sentence card that teaches the kanji version of a
 then the next time you make a card that has that word in it,
 you don't have to change it to kanji because it's not the **target word** anymore.
 
+Most words in Ankidrone Starter Pack are kanjified for this reason.
+
 ### If a word has more than one kanji spellings, which do I mine?
 
 Try putting each spelling in a search engine.
@@ -601,6 +616,22 @@ On the back put the name with furigana, a photo and some basic information about
 Don't make cards for random people,
 instead add names of people you've seen a few times before.
 This is going to ensure that the names are somewhat frequent.
+
+### Do you have any thoughts about struggling with katakana-words while immersing?
+
+Words commonly written in katakana,
+including `和製英語` and `外来語`,
+are annoying because you have to read katakana.
+Due to the shapes of the characters,
+reading katakana is more difficult,
+especially long katakana-words.
+Even Japanese people hate reading such words.
+
+With training you can get used to reading any alphabet,
+but it's inevitable that a badly designed alphabet takes longer to adapt to.
+
+Maybe one day Japan will switch to the Cyrillic script.
+Until then we have to deal with what we have.
 
 ### Can I use Netflix to learn Japanese?
 
@@ -1205,6 +1236,12 @@ The number `3650` corresponds to card's interval in days.
 Don't change anything in the grading process.
 Just have pitch accent information on the back of your cards
 but don't take it into account when grading yourself.
+
+If you test yourself on two or more questions at once,
+your retention of the card will be equal to the hardest of the questions.
+For example,
+you will have to fail a card if you remember what the word means but don't remember its accent.
+
 To learn pitch accent of individual words make separate cards.
 Have a word on the front of the card and its pitch accent on the back.
 
@@ -1231,6 +1268,14 @@ Replace `${HOME}/.local/bin` with the path of the directory you want to add.
 If you use
 [zsh](https://wiki.archlinux.org/title/Zsh),
 instead of `~/.bash_profile` edit `~/.zprofile`.
+
+### How do I make a file executable?
+
+```
+$ chmod +x path/to/file
+```
+
+`-x` will remove the executable flag.
 
 ### How to change note types?
 
