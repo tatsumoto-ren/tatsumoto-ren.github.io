@@ -102,6 +102,7 @@ footer a:visited {
 }
 
 footer a:hover,
+footer a:focus,
 footer a:active {
     color: #fff8ee;
 }
@@ -387,9 +388,9 @@ header input.menu:checked~label.menu>.hamburger:after {
 
 /* Common rules for buttons and anchors */
 
-header button,
 header a,
 header a:visited,
+header button,
 header label {
     display: block;
     color: #333;
@@ -403,9 +404,8 @@ header label {
 
 header button:hover,
 header button[open],
-header a:hover,
-header a:active,
-header label:hover {
+header label:hover,
+header a:is(hover,active,focus) {
     color: black;
     text-decoration: none;
     background-color: var(--header-item-focused-background);
