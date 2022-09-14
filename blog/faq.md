@@ -770,6 +770,8 @@ Read the following:
 * https://www.gnu.org/philosophy/ebooks-must-increase-freedom.html
 * https://www.defectivebydesign.org/amazon-kindle-swindle
 
+There are good alternatives for reading books listed [here](resources.html#reading-ebooks).
+
 ### Should I trust Cure Dolly and "Organic Japanese"?
 
 Sometimes you see people recommending Cure Dolly as a grammar resource.
