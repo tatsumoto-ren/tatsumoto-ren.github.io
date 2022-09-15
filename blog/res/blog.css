@@ -405,7 +405,7 @@ header label {
 header button:hover,
 header button[open],
 header label:hover,
-header a:is(hover,active,focus) {
+header a:is(:hover, :active, :focus) {
     color: black;
     text-decoration: none;
     background-color: var(--header-item-focused-background);
