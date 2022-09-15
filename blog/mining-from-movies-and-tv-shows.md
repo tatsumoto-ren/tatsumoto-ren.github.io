@@ -147,9 +147,12 @@ cut clips,
 and so on.
 Don't use "services" that spy on you such as Netflix, Hulu, VRV, Funimation or Crunchyroll.
 
-Explore
-[Resources](resources.html#immersion-material)
-to find ways to download Japanese content.
+Attempts to create flashcards from streamed video files often fail.
+As a workaround the user can record audio and take a screenshot manually,
+but it is not convenient at all.
+
+Explore [Immersion material](resources.html#immersion-material) to find Japanese content
+and [Download tools](resources.html#downloading) for a ways to download it.
 
 ## Obtain subtitles
 
