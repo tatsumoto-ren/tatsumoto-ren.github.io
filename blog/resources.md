@@ -521,18 +521,19 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 
 ### Downloading
 
-* [Megatools](https://megatools.megous.com/).
-A command line client for Mega.
-* [youtube-dl](https://wiki.archlinux.org/title/Youtube-dl).
-A command-line program that lets you download videos and audio
-from YouTube and more than a thousand other sites.
-	* See our [setup guide](mining-from-movies-and-tv-shows.html#youtube-dl).
-	* [Tartube](https://aur.archlinux.org/packages/tartube/),
-	a GUI front-end for youtube-dl.
+* [yt-dlp](https://wiki.archlinux.org/title/Youtube-dl).
+  A command-line program that lets you download videos and audio
+  from YouTube and more than a thousand other sites.
+
+  * See our [setup guide](immersion-with-youtube.html).
+  * [Tartube](https://aur.archlinux.org/packages/tartube/)
+    is a GUI front-end for youtube-dl.
 * [mangadesk](https://github.com/darylhjd/mangadesk).
-Download manga directly from your terminal.
+  Download manga directly from your terminal.
 * [HakuNeko](https://github.com/manga-download/hakuneko).
-A cross-platform downloader for manga and anime from various websites.
+  A cross-platform downloader for manga and anime from various websites.
+* [Megatools](https://megatools.megous.com/).
+  A command line client for Mega.
 
 ### Subtitle retiming
 
