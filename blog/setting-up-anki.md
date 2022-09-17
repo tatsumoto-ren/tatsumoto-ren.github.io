@@ -177,40 +177,40 @@ I recommend the following settings.
 You can access preferences by going to `Tools > Preferences…` on Anki’s main window.
 
 * **Learn ahead limit.**
-I recommend keeping the value close to the default of 20 minutes.
-Mine is `35` minutes.
-When you finish your daily reviews and new cards,
-Anki will start ignoring intervals of cards in the learning queue `less` than
-this value and showing the cards to you right away.
-This is good for cards with small intervals because it lets you finish your reps
-without breaking the flow and waiting for your cards to become ready to be reviewed.
-But if you set the `Learn ahead limit` too high
-cards with longer learning steps will be shown to you too early.
-Keeping the value on the lower side enforces the wait time of your steps.
-If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
-
+  I recommend keeping the value close to the default of 20 minutes.
+  Mine is `35` minutes.
+  When you finish your daily reviews and new cards,
+  Anki will start ignoring intervals of cards in the learning queue `less` than
+  this value and showing the cards to you right away.
+  This is good for cards with small intervals because it lets you finish your reps
+  without breaking the flow and waiting for your cards to become ready to be reviewed.
+  But if you set the `Learn ahead limit` too high
+  cards with longer learning steps will be shown to you too early.
+  Keeping the value on the lower side enforces the wait time of your steps.
+  If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
 * **Show new cards after reviews.**
-You always want to finish your reviews first,
-and you don't want new cards to slow you down.
-You can choose `Show new cards before reviews`
-if you are consistent and feel confident that you will never have a backlog of Anki reviews.
-Mixing is probably the worst way and will confuse you when
-a new card pops up after a streak of mature cards.
+  You always want to finish your reviews first,
+  and you don't want new cards to slow you down.
+  You can choose `Show new cards before reviews`
+  if you are consistent and feel confident that you will never have a backlog of Anki reviews.
+  Mixing is probably the worst way and will confuse you when
+  a new card pops up after a streak of mature cards.
 
+  **Note:** This option has been moved in newer versions.
 * **Anki 2021 scheduler.**
-This is a
-[new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
-that comes with Anki 2.1.45+.
-If your version of Anki doesn't show this option, it has been already enabled by default.
-Otherwise, make sure to enable it.
-The old `V1` scheduler was buggy and clunky.
-The new one fixes its issues.
+  This is a
+  [new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
+  that comes with Anki 2.1.45+.
+  If your version of Anki doesn't show this option, it has been already enabled by default.
+  Otherwise, make sure to enable it.
+  The old `V1` scheduler was buggy and clunky.
+  The new one fixes its issues.
 
-    Main killer features:
+  Main killer features:
 
-    * You can have subdecks and review all of them at once,
+  * You can have subdecks and review all of them at once,
     the cards will be properly mixed when reviewing.
-    * You can learn new cards in filtered decks.
+  * You can learn new cards in filtered decks.
     Filtered decks no longer reset learning steps when rebuilt or emptied.
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
@@ -251,34 +251,35 @@ Below are the options I recommended using.
 #### New cards
 
 * **Learning steps:** This is the number of times you have to answer `good` on the card
-    before it graduates.
-    I recommend beginners to stick to the default learning steps of `1 10`.
-    When you get more familiar with Anki you can add your custom steps and experiment with them.
-    But don't overdo it: too many steps will make you spend too much time in Anki
-    for no substantial gain in retention.
-    The `learn ahead` option set in the previous section
-    will make sure that you won't be shown cards with large steps too early.
+  before it graduates.
+  I recommend beginners to stick to the default learning steps of `1 10`.
+  When you get more familiar with Anki you can add your custom steps and experiment with them.
+  But don't overdo it: too many steps will make you spend too much time in Anki
+  for no substantial gain in retention.
+  The `learn ahead` option set in the previous section
+  will make sure that you won't be shown cards with large steps too early.
 
-    You can experiment with so-called micro steps
-    if you see that remembering new cards is more difficult than you thought.
-    This means specifying an interval in seconds instead of minutes.
-    For the new settings menu you just type `30s` for 30 seconds.
-    For the old menu you need to specify a decimal like this: `0.5`.
+  You can experiment with so-called micro steps
+  if you see that remembering new cards is more difficult than you thought.
+  This means specifying an interval in seconds instead of minutes.
+  For the new settings menu you just type `30s` for 30 seconds.
+  For the old menu you need to specify a decimal like this: `0.5`.
+* **New cards/day:** In general controls how many cards you learn each day,
+  though you can always learn more if you want.
+  The default value of `20` cards is very reasonable and manageable for most users.
+  However, if you feel overwhelmed by the amount of reviews you have to do,
+  lower it to about `10` new cards a day.
+  Doing more cards is also possible if you can keep up with the review load,
+  but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
 
-* **New cards/day:** The default value of `20` cards is very reasonable and manageable for most users.
-    However, if you feel overwhelmed by the amount of reviews you have to do,
-    lower it to about `10` new cards a day.
-    Doing more cards is also possible if you can keep up with the review load,
-    but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
-
-    As you've noticed, I keep my setting at `0`. That's simply because I use
-    [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
-    to **manually pick** and learn cards from my Sentence Bank.
-
+  I keep my setting at `0`.
+  This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
+  to **manually pick** and learn cards from my Sentence Bank.
+  For me personally it's better than having Anki decide for me.
 * **Starting Ease:** Every card has a property called *Ease factor*.
-Over time the Ease factor can change and cause negative side effects.
-Set the Starting Ease to `131%` to avoid the side effects.
-More about it [later](#ease-hell).
+  Over time the Ease factor can change and cause negative side effects.
+  Set the Starting Ease to `131%` to avoid the side effects.
+  More about it [later](#ease-hell).
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
@@ -376,6 +377,17 @@ the "Hard" and "Easy" buttons.
     For example, on [weblio](https://ejje.weblio.jp/sentence/).
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
+
+### Display order
+
+Here most settings are not that significant.
+Feel free to experiment for yourself.
+
+**New/review order** appears to be the new equivalent
+of the **Show new cards after reviews** setting that was formerly under [Preferences](#preferences).
+To maintain the same behavior, set it to "Show after reviews".
+
+If you have [New cards/day](#new-cards) set to 0, this setting should have no effect.
 
 ## Synchronizing large collections
 
