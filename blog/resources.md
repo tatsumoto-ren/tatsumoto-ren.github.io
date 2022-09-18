@@ -295,34 +295,36 @@ A shared folder with movies and other content with Japanese dubs.
 ### Books
 
 * [zlibrary](https://z-lib.org/).
-A library with books in any language.
-Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
+  A library with books in any language.
+  Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
 * [小説を読もう！](https://yomou.syosetu.com/).
-Lets you read web novels for free.
+  Lets you read web novels for free.
 * [カクヨム](https://kakuyomu.jp/).
-Similar to `小説を読もう！`.
-Search and read web novels online.
+  Similar to `小説を読もう！`.
+  Search and read web novels online.
 * [青空文庫](https://www.aozora.gr.jp/).
-An Internet library of classic Japanese literature.
+  An Internet library of classic Japanese literature.
 * [Aozora Bunko archive](https://archive.org/details/aozorabunko).
-Books from Aozora Bunko in `epub`, `pdf` and other formats.
+  Books from Aozora Bunko in `epub`, `pdf` and other formats.
 * [Aozora Bunko stats](https://core6000.neocities.org/aozora/).
-Books sorted by the number of kanji used.
+  Books sorted by the number of kanji used.
 * [DL-Zip.net](https://dl-zip.net/).
-Download manga, light novels, magazines and books for free.
+  Download manga, light novels, magazines and books for free.
 * [Itazuraneko 小説図書館](https://yonde.itazuraneko.org/).
-A light novel library of questionable quality.
+  A light novel library of questionable quality.
 * [Nyaa](https://nyaa.iss.ink/).
-You can find books on Nyaa too.
+  You can find books on Nyaa too.
 * boroboro [epubs](https://boroboro.neocities.org/listfullepub.html)
-and [azw3](https://boroboro.neocities.org/listfullazw3.html).
-A list of books in Epub and azw3 formats.
+  and [azw3](https://boroboro.neocities.org/listfullazw3.html).
+  A list of books in Epub and azw3 formats.
 * [Sōseki Project](https://www.sosekiproject.org/).
-Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
-with a number of tools to assist the students of Japanese.
+  Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
+  with a number of tools to assist the students of Japanese.
 * [アルファポリス](https://www.alphapolis.co.jp/).
   A site where you can read novels, manga, etc. for free.
   You can disable JavaScript but must allow cookies for books' pages to load.
+* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
+  A torrent with Japanese 30,000 ebooks.
 
 ### Audiobooks
 
