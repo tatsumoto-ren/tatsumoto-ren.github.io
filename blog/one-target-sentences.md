@@ -29,7 +29,7 @@ When making
 I recommend that you only take 1T sentences and avoid MT sentences.
 In other words,
 [stick to the minimum information principle](https://www.supermemo.com/en/archives1990-2015/articles/20rules).
-If for some reason you choose to add a MT sentence to Anki,
+If for some reason you choose to add an MT sentence to Anki,
 only test yourself on the **target word** which you have highlighted.
 
 > A word can be highlighted in Anki by selecting it and pressing `Ctrl+b` to make it bold

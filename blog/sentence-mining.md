@@ -37,7 +37,7 @@ At first, I mixed sentence mining with learning sentences from a premade deck,
 but eventually I stopped using premade decks
 and switched to solely using my immersion to find new sentences.
 
-* If you haven't finished [Kanji Transition](jp1k-anki-deck.html), do it now.
+* If you haven't finished [KanjiTransition](jp1k-anki-deck.html), do it now.
 * If you wish to continue supplementing your study with a premade deck,
 go back to the [Basic vocabulary](basic-vocabulary.html).
 

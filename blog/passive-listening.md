@@ -18,7 +18,8 @@ Although your attention is divided during passive immersion,
 because you're left with no other choice,
 it is still better compared to no immersion at all.
 
-As noted in the introduction article, there are countless opportunities
+As noted in one of the previous articles,
+there are countless opportunities
 to do passive listening throughout the day.
 Make passive listening a habit.
 Every moment of your life has to be spent interacting with Japanese.
@@ -176,17 +177,20 @@ $ echo 'video_dir=/mnt/archive/video/anime' > ~/.config/immersionpod/config
 
 `impd` operates by *rotating* immersion material.
 To rotate your immersion, call `impd rotate`.
+
 Rotation consists of two steps:
+
 1) `impd` searches for recently added files in your video directory,
-extracts audio and condenses it if possible.
-The resulting audio is saved to the `mpd` music directory.
-By default, `impd` considers *recent* all videos
-that were downloaded or modified less than 10 days ago.
-`impd` doesn't touch old videos by default,
-so it won't pick up anime and dramas that you downloaded a long time ago.
+   extracts audio and condenses it if possible.
+   The resulting audio is saved to the `mpd` music directory.
+   By default, `impd` considers *recent* all videos
+   that were downloaded or modified less than 10 days ago.
+   `impd` doesn't touch old videos by default,
+   so it won't pick up anime and dramas that you downloaded a long time ago.
 2) Old immersion material gets archived,
-e.g. moved to the `archive` folder inside your `mpd` music directory.
-`impd` considers *old* audio files that were added to immersion pod more than 10 days ago.
+   i.e., moved to the `archive` folder inside your `mpd` music directory.
+   By default `impd` considers *old* audio files
+   that were added to immersion pod more than 10 days ago.
 
 If you're rewatching an older TV-show
 or if the video file is stored outside the configured `video_dir` folder,
