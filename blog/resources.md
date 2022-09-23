@@ -325,6 +325,8 @@ A shared folder with movies and other content with Japanese dubs.
   You can disable JavaScript but must allow cookies for books' pages to load.
 * [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
   A torrent with Japanese 30,000 ebooks.
+* [Mathematics and japanese fitting together](https://mathematical-knowledge.neocities.org/2022-09-22.html).
+  A blogpost about studying mathematics in Japanese.
 
 ### Audiobooks
 
