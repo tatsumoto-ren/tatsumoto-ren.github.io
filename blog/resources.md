@@ -473,19 +473,22 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
   * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
-The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
+  The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
 * [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/)
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
 * [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
-A good brush font.
-Supports around 13,000 characters.
+  A good brush font.
+  Supports around 13,000 characters.
 * [Asebi Mincho](https://metasta.github.io/asebi/).
-A font that displays all 新字体 kanji in their 旧字体(正字体) form,
-including all the undocumented changes as well.
+  A font that displays all 新字体 kanji in their 旧字体(正字体) form,
+  including all the undocumented changes as well.
+* [花園明朝](http://fonts.jp/hanazono/).
+  This font is made by the glyphwiki project and support all unicode characters.
+  Really good back up font when everything fails.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
-The fonts I use.
-Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
-You can simply extract the entire folder to `~/.local/share/fonts` to install them.
+  The fonts I use.
+  Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
+  You can simply extract the entire folder to `~/.local/share/fonts` to install them.
 
 ### mpv
 
@@ -657,6 +660,8 @@ Monolingual kanji dictionary.
 Jotoba is an open source multilingual Japanese dictionary.
 * [連想類語辞典](https://renso-ruigo.com/).
 A dictionary of synonyms.
+* [Dictionaryphile - 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
+  A list of various online dictoinaries.
 
 ### Offline
 
