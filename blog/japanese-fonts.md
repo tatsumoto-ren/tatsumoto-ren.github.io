@@ -48,16 +48,21 @@ You may have font-rendering issues if you don't do that.
 
 ## Installing fonts
 
-Install
+Essential fonts are
 [otf-ipafont](https://ipafont.ipa.go.jp/)
-and
+or
 [noto-fonts-cjk](https://www.google.com/get/noto/).
 I also recommend installing Noto fonts for non-Asian languages and the Noto Emoji font.
-Arch Linux users can do everything with this command:
+
+On Arch-based distros you can do everything with this command:
 
 ```
 $ sudo pacman -S --needed otf-ipafont noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
+
+[In Resources](resources.html#fonts) you will find other fonts I recommend.
+For example, `花園明朝` is a good fallback font.
+It supports over 100,000 characters.
 
 If you're installing fonts manually,
 they need to be saved in a directory known to Fontconfig.
