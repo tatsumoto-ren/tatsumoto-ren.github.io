@@ -506,12 +506,12 @@ Make Anki cards in mpv:
 
 ### mpd
 
-With
-[mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
+With [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
 you can listen to condensed audio, audiobooks and Japanese music.
 
 * [Passive listening](passive-listening.html) how to.
 * [ncmpcpp](https://rybczak.net/ncmpcpp/). Probably the most popular mpd client.
+* [ncmpcpp cheat sheet](https://pkgbuild.com/~jelle/ncmpcpp/) - for new users.
 * [mpc](https://www.musicpd.org/clients/mpc/). A CLI mpd client, great for scripting.
 
 ### Torrent clients
