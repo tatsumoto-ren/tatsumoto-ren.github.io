@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Wed, 31 Aug 2022 23:25:10 +0300</lastBuildDate>
-<pubDate>Wed, 31 Aug 2022 23:25:10 +0300</pubDate>
+<lastBuildDate>Fri, 30 Sep 2022 23:56:48 +0300</lastBuildDate>
+<pubDate>Fri, 30 Sep 2022 23:56:48 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Plumbing for language learners</title><description><![CDATA[
+<p>In this article let's talk about passing text between applications
+Usually people simply select and copy-paste text from one window to the other,
+but there's a way to make it faster by using the concept of plumbing.</p>
+<p>Plumbing is something that can make using a computer so much more convenient and fast.
+I think everybody should use it.</p>
+<hr>
+]]></description><link>https://tatsumoto-ren.github.io/blog/plumbing-for-language-learners.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/plumbing-for-language-learners.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 30 Sep 2022 23:54:49 +0300</pubDate></item>
 <item><title>
 Mass immersion</title><description><![CDATA[
 <p><a href="faq.html#whats-ajatt">AJATT</a>
@@ -115,19 +127,4 @@ Let's answer these question in this article.</p>
 <guid>https://tatsumoto-ren.github.io/blog/learning-grammar.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 31 Mar 2022 05:55:16 +0300</pubDate></item>
-<item><title>
-Immersion with YouTube</title><description><![CDATA[
-<p>YouTube is a popular website where people can upload and watch videos.
-Through watching YouTube you can immerse with native Japanese content.
-Such content can be of particular interest to people
-who want to understand colloquial Japanese,
-speech with a lot of mumbling, slurs and slang.
-There are many language-dense streams and podcasts on YouTube
-that can be used for background listening.
-You can also find news channels with more formal speech.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/immersion-with-youtube.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/immersion-with-youtube.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 20 Mar 2022 17:32:30 +0300</pubDate></item>
 </channel></rss>

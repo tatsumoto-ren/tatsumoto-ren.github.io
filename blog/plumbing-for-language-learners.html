@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Free Software to learn Japanese, and more." />
+<meta name="author" content="Tatsumoto" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency" />
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="/img/logo.webp"/>
+<title>Plumbing for language learners</title>
+<meta property="og:title" content="Plumbing for language learners">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/plumbing-for-language-learners.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<header>
+<div class="logoholder">
+<a href="index.html" class="logo">
+<img alt="達元" src="/img/logo.webp" />
+<span>Tatsumoto</span>
+</a>
+</div>
+<input class="menu" type="checkbox" id="menu-btn" />
+<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="donating-to-tatsumoto.html">Support</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+</header>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article>
+<h1 class="title"><a class="ablack" href="plumbing-for-language-learners.html">Plumbing for language learners</a></h1>
+<!-- bashblog_timestamp: #1664571289# -->
+<div class="subtitle">September 30, 2022 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>In this article let's talk about passing text between applications
+Usually people simply select and copy-paste text from one window to the other,
+but there's a way to make it faster by using the concept of plumbing.</p>
+<p>Plumbing is something that can make using a computer so much more convenient and fast.
+I think everybody should use it.</p>
+<hr>
+<h2 id="what-is-plumbing"><a class="anchor" href="#what-is-plumbing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is plumbing</h2>
+<p>Plumbing is a style of passing messages between applications.
+Usually it works as follows.
+You can select a piece of text with your mouse and call a plumber program.
+Depending on what the text is,
+the plumber will perform or suggest you different actions. For example:</p>
+<ul>
+<li>A URL opens a browser window.</li>
+<li>A file opens in a text editor.</li>
+<li>A name of a command invokes a man page.</li>
+</ul>
+<p>On GNU+Linux
+you can make a simple plumbing script in Bash,
+taking advantage of the fact that
+the primary selection always contains the last selected text.
+Bind the script to a key combination (like <kbd>Mod</kbd>+<kbd>C</kbd>).
+When you run it,
+it should ask you what to do with the text stored in the primary selection.
+Then you can select an action to perform on the text.</p>
+<p>Among other things,
+the concept of plumbing can be used to help learn languages.
+When the user selects a word in a foreign language,
+it can be sent to a dictionary application
+or a site with definitions, example sentences, images or pronunciations.
+With a plumber you can do a lot of things faster
+and without having to assign dozens of extra keyboard shortcuts.</p>
+<p>Another way to understand plumbing is to look at Android's share menu.
+Android's Share menu makes it easy to pass information to any compatible app on your phone.
+The difference is that on Android you have to use a touch screen.
+On a GNU+Linux machine you operate a plumbing script using the keyboard.</p>
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>You can get an example plumber script from my dotfiles.
+The script is called <code>cabl</code>.
+If you're using my dotfiles, you already have it.</p>
+<p>To install <code>cabl</code> manually,
+save <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl">this file</a>
+to <code>~/.local/bin</code>.</p>
+<pre><code>$ curl -o ~/.local/bin/cabl 'https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl'
+</code></pre>
+<p>Make sure the directory is added <a href="faq.html#how-do-i-add-a-directory-to-the-path">to the PATH</a>
+and the file is executable.</p>
+<h2 id="dependencies"><a class="anchor" href="#dependencies" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dependencies</h2>
+<p>The script depends on:</p>
+<ul>
+<li><a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a></li>
+<li><a href="https://archlinux.org/packages/?name=xclip">xclip</a></li>
+<li><a href="https://archlinux.org/packages/?name=xorg-xprop">xorg-xprop</a></li>
+<li><a href="https://wiki.archlinux.org/title/FFmpeg">ffmpeg</a> - optional</li>
+<li><a href="https://aur.archlinux.org/packages/task-spooler">task-spooler</a> - optional</li>
+</ul>
+<p>Install dependencies:</p>
+<pre><code>$ sudo pacman -S --needed dmenu xclip xorg-xprop
+</code></pre>
+<p>If you use <a href="https://wiki.archlinux.org/title/Rofi">Rofi</a> as a replacement for <code>dmenu</code>,
+you can add <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/dmenu">this script</a>
+to the <code>PATH</code> to redirect <code>dmenu</code> calls to Rofi.</p>
+<h2 id="bind-to-a-shortcut"><a class="anchor" href="#bind-to-a-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bind to a shortcut</h2>
+<p>To add a keyboard shortcut,
+you can use options of your WM or DE.
+You can also use <a href="https://archlinux.org/packages/?name=sxhkd">sxhkd</a>.</p>
+<p>Here is a snippet from my
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config">~/.config/i3/config</a>
+showing how to bind <code>cabl</code> to a keyboard shortcut.</p>
+<pre><code># Run cabl
+bindsym $mod+c          exec --no-startup-id cabl
+# Run cabl on clipboard contents
+bindsym $mod+Shift+v    exec --no-startup-id cabl clip
+</code></pre>
+<p>The first bind takes text from the primary selection.
+The last one takes text from the system clipboard.</p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>While doing anything on your computer,
+select some text and press <kbd>Mod</kbd>+<kbd>C</kbd>.
+A menu will appear asking you where to <em>plumb</em> the selected text.
+You can type or select options the same way you use any other <code>dmenu</code> prompt.</p>
+<p>If you press <kbd>Mod</kbd>+<kbd>Shift</kbd>+<kbd>v</kbd>,
+the script will read the content of the clipboard instead of the primary selection.</p>
+<h2 id="functions"><a class="anchor" href="#functions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functions</h2>
+<p>This plumbing script has a number of useful features directed at language learners.</p>
+<ul>
+<li><code>ankisearch</code> - Search words in your Anki collection.</li>
+<li><code>aozorasearch</code> - Search text in Aozora Bunko novels, find example sentences.</li>
+<li><code>forvo</code> - Find pronunciations on Forvo.</li>
+<li><code>webliosentences</code> - Find sentences on Weblio.</li>
+<li><code>captionpop</code> - Find sentences with audio on Captionpop.</li>
+<li><code>weblio</code> - Search Weblio for a word's definition.</li>
+<li><code>kotobank</code> - Search definitions on Kotobank.</li>
+<li><code>jisho</code> - Search text on Jisho.</li>
+<li><code>massif</code> - Search example sentences on Massif.</li>
+<li><code>nyaasearch</code> - Find text on Nyaa. For example, if it's a name of a TV show.</li>
+<li><code>pronunciation</code> - Search text on Forvo and add found audio file to the Anki collection.</li>
+<li><code>qolibri</code> - Launch qolibri and search for text.</li>
+<li><code>sakuraparis</code> - Search definitions on Sakura-Paris.</li>
+<li><code>simplytranslate</code> - Translate text with Simplytranslate.</li>
+<li><code>weblio</code> - Search definitions on Weblio.</li>
+<li><code>webliosentences</code> - Search example sentences on Weblio.</li>
+<li><code>wikipedia</code> - Search text on Wikipedia.</li>
+<li><code>wiktionary</code> - Search text on Wiktionary.</li>
+<li><code>youglish</code> - Search text on Youglish.</li>
+<li><code>youreijp</code> - Search example sentences on 用例.</li>
+<li><code>furiganainfo</code> - Search text on Furiganainfo. Show different readings of a Japanese word.</li>
+<li><code>mostcommonspelling</code> - Find the most common spelling from a list of words separated by spaces, dots or commas.
+Use this when you don't know which is the most common way to write a specific word.
+This function requires my dotfiles to be installed.</li>
+</ul>
+<h2 id="extra"><a class="anchor" href="#extra" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extra</h2>
+<p>Luke Smith has made a
+<a href="https://odysee.com/@Luke:7/plumbing-in-linux-la-plan-9-from-bell:e">video about plumbing</a>.
+The original Bash script from the video is no longer available,
+but mine has all the same functionality plus more.</p>
+<p>Tags: <a href="tag_guide.html">guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Matrix</h3>
+<ul>
+<li><a href="matrix-quickstart-guide.html">Quickstart guide</a></li>
+<li><a href="list-of-matrix-servers.html">List of servers</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="feed.rss">RSS</a></li>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Join our Patreon or donate cryptocurrency.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>
