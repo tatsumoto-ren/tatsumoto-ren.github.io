@@ -40,6 +40,7 @@ tags: [guide]
 	* [Subtitle Re-sync](retiming-subtitles.html)
 	* [Writing by hand](writing-japanese.html)
 	* [Condensing active immersion](condensing-active-immersion.html)
+	* [Plumbing](plumbing-for-language-learners.html)
 * Apocrypha
 	* [List of resources](resources.html)
 	* [FAQ](faq.html)
