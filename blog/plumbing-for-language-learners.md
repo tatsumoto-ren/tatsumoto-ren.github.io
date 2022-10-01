@@ -31,7 +31,7 @@ taking advantage of the fact that
 the primary selection always contains the last selected text.
 Bind the script to a key combination (like <kbd>Mod</kbd>+<kbd>C</kbd>).
 When you run it,
-it should ask you what to do with the text stored in the primary selection.
+it asks you what to do with the text stored in the primary selection.
 Then you can select an action to perform on the text.
 
 Among other things,
@@ -49,14 +49,18 @@ On a GNU+Linux machine you operate a plumbing script using the keyboard.
 
 ## Demonstration
 
-A video demonstration.
-When `Mod+C` is pressed, a `Rofi` prompt appears.
+Watch the video below.
+I select some text and press <kbd>Mod</kbd>+<kbd>C</kbd> to call the plumber.
+Using `Rofi` I can choose to send the selected text to various apps and websites.
 
-
+<video width="1920" muted loop controls>
+	<source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/9c5a600087544c8d81ff3bd6d30f5389c78652fb" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
 
 ## Installation
 
-You can get an example plumber script from my dotfiles.
+You can get an example plumber script from my [dotfiles](https://github.com/tatsumoto-ren/dotfiles).
 The script is called `cabl`.
 If you're using my dotfiles, you already have it.
 
@@ -126,7 +130,8 @@ the script will read the content of the clipboard instead of the primary selecti
 
 This plumbing script has a number of useful features directed at language learners.
 
-* `ankisearch` - Search words in your Anki collection.
+* `add to impd` - add selected URL to immersion pod, for example a YouTube video.
+* `ankisearch` - Search text in your Anki collection.
 * `aozorasearch` - Search text in Aozora Bunko novels, find example sentences.
 * `forvo` - Find pronunciations on Forvo.
 * `webliosentences` - Find sentences on Weblio.

@@ -67,7 +67,7 @@ taking advantage of the fact that
 the primary selection always contains the last selected text.
 Bind the script to a key combination (like <kbd>Mod</kbd>+<kbd>C</kbd>).
 When you run it,
-it should ask you what to do with the text stored in the primary selection.
+it asks you what to do with the text stored in the primary selection.
 Then you can select an action to perform on the text.</p>
 <p>Among other things,
 the concept of plumbing can be used to help learn languages.
@@ -80,8 +80,16 @@ and without having to assign dozens of extra keyboard shortcuts.</p>
 Android's Share menu makes it easy to pass information to any compatible app on your phone.
 The difference is that on Android you have to use a touch screen.
 On a GNU+Linux machine you operate a plumbing script using the keyboard.</p>
+<h2 id="demonstration"><a class="anchor" href="#demonstration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Demonstration</h2>
+<p>Watch the video below.
+I select some text and press <kbd>Mod</kbd>+<kbd>C</kbd> to call the plumber.
+Using <code>Rofi</code> I can choose to send the selected text to various apps and websites.</p>
+<video width="1920" muted loop controls>
+    <source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/9c5a600087544c8d81ff3bd6d30f5389c78652fb" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p>You can get an example plumber script from my dotfiles.
+<p>You can get an example plumber script from my <a href="https://github.com/tatsumoto-ren/dotfiles">dotfiles</a>.
 The script is called <code>cabl</code>.
 If you're using my dotfiles, you already have it.</p>
 <p>To install <code>cabl</code> manually,
@@ -130,7 +138,8 @@ the script will read the content of the clipboard instead of the primary selecti
 <h2 id="functions"><a class="anchor" href="#functions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functions</h2>
 <p>This plumbing script has a number of useful features directed at language learners.</p>
 <ul>
-<li><code>ankisearch</code> - Search words in your Anki collection.</li>
+<li><code>add to impd</code> - add selected URL to immersion pod, for example a YouTube video.</li>
+<li><code>ankisearch</code> - Search text in your Anki collection.</li>
 <li><code>aozorasearch</code> - Search text in Aozora Bunko novels, find example sentences.</li>
 <li><code>forvo</code> - Find pronunciations on Forvo.</li>
 <li><code>webliosentences</code> - Find sentences on Weblio.</li>
