@@ -65,7 +65,7 @@ The script is called `cabl`.
 If you're using my dotfiles, you already have it.
 
 To install `cabl` manually,
-save [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl)
+save **[this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl)**
 to `~/.local/bin`.
 
 ```
