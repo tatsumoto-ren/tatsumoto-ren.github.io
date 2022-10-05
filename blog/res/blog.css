@@ -3,8 +3,8 @@
 :root {
     --header-height: 52px;
     --n-menu-items: 4;
-    --hamburger-slice-width: 18px;
-    --hamburger-slice-height: 2px;
+    --menu-icon-slice-width: 18px;
+    --menu-icon-slice-height: 2px;
     --link: #0366d6;
     --link-visited: #336699;
     --link-black: #1f2628;
@@ -101,9 +101,7 @@ footer a:visited {
 
 }
 
-footer a:hover,
-footer a:focus,
-footer a:active {
+footer a:is(:hover, :active, :focus) {
     color: #fff8ee;
 }
 
@@ -165,7 +163,7 @@ a {
     color: var(--link);
 }
 
-a:hover {
+a:is(:hover, :active, :focus) {
     text-decoration: underline;
 }
 
@@ -177,7 +175,13 @@ a.ablack {
     color: var(--link-black);
 }
 
-/* header */
+/* Hide checkbox */
+
+input#menu-btn {
+    display: none;
+}
+
+/* Header */
 
 header {
     font-family:
@@ -198,43 +202,15 @@ header {
     min-height: var(--header-height);
     background-color: var(--header-background);
     border-bottom: 1px solid #ccc;
-    display: grid;
-    grid-template-columns: minmax(min-content, 1fr) max-content;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "logo menu-btn"
-        "nav nav";
-}
-
-/* Header grid areas */
-
-header>.logoholder {
-    grid-area: logo;
-}
-
-header>label.menu {
-    grid-area: menu-btn;
-}
-
-header>#description {
-    grid-area: description;
-}
-
-header>nav {
-    grid-area: nav;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 /* logo; icon and title */
 
-header .logoholder {
-    display: flex;
-    flex-flow: row nowrap;
-    height: var(--header-height);
-    align-items: center;
-    justify-content: space-between;
-}
-
-header a.logo {
+header a.logo,
+header a.logo:visited {
     height: var(--header-height);
     text-decoration: none;
     text-transform: uppercase;
@@ -254,7 +230,7 @@ header a.logo>span {
     margin-right: 8px;
 }
 
-header a.logo:hover {
+header a.logo:is(:hover, :active, :focus) {
     opacity: 0.75;
     background-color: var(--header-background);
 }
@@ -264,32 +240,13 @@ header a.logo>img {
     padding: 2px;
 }
 
-/* Show sidebar button */
+/* Hidden elements. Description is visible only on wide screens. */
 
-header #show_sidebar_button {
-    display: flex;
-    border: none;
-    height: var(--header-height);
-    width: var(--header-height);
-    border-left: 1px solid var(--nav-border-color);
+header #description {
+    display: none;
 }
 
-header #show_sidebar_button>svg {
-    width: 18px;
-    margin: auto;
-    fill: #333;
-    transition: fill 0.1s;
-}
-
-header #show_sidebar_button:hover svg,
-header #show_sidebar_button[open] svg {
-    fill: black;
-}
-
-/* Hidden elements. Checkbox is not needed, description is visible only on wide screens. */
-
-header #description,
-header input.menu {
+header nav {
     display: none;
 }
 
@@ -297,20 +254,18 @@ header input.menu {
 
 header>nav {
     clear: both;
-    display: flex;
-    flex-direction: column;
+    flex-flow: row nowrap;
     justify-content: flex-end;
-    max-height: 0px;
+    height: var(--header-height);
+    flex: 2 1 200px;
     overflow-x: hidden;
-    transition: max-height 0.2s ease-out;
 }
 
 header>nav a,
 header>nav a:visited {
     height: var(--header-height);
     white-space: nowrap;
-    padding: 0 12px;
-    border-top: 1px solid var(--nav-border-color);
+    padding: 0 8px;
 }
 
 header>nav a.important {
@@ -319,34 +274,56 @@ header>nav a.important {
     border: none;
 }
 
-header>nav a.important:hover {
+header>nav a.important:is(:hover, :active, :focus) {
     color: #f1f1f1;
     background-color: #3f3f3f;
 }
 
-/* menu button with a hamburger icon */
+/* Header on wide screens */
 
-header label.menu {
-    padding: calc((var(--header-height) - var(--hamburger-slice-height)) / 2) calc((var(--header-height) - var(--hamburger-slice-width)) / 2);
-    user-select: none;
-    border-left: 1px solid var(--nav-border-color);
+@media screen and (min-width: 750px) {
+    header>nav {
+        display: flex;
+    }
 }
 
-/* Hamburger */
+@media screen and (min-width: 850px) {
 
-header label.menu>.hamburger {
-    background: #333;
+    header>nav a,
+    header>nav a:visited {
+        padding: 0 16px;
+
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    header>nav .nav-blank {
+        flex: 2 1 20px;
+    }
+}
+
+/* Menu button */
+
+:is(a, label).menu-btn {
+    padding: calc((var(--header-height) - var(--menu-icon-slice-height)) / 2) calc((var(--header-height) - var(--menu-icon-slice-width)) / 2);
+    user-select: none;
     display: block;
-    width: var(--hamburger-slice-width);
-    height: var(--hamburger-slice-height);
+}
+
+.menu-btn .menu-icon {
+    background-color: #333;
+    display: block;
+    width: var(--menu-icon-slice-width);
+    height: var(--menu-icon-slice-height);
     position: relative;
     transition: background 0.2s ease-out;
+    font-size: 0px;
 }
 
-header label.menu>.hamburger:before,
-header label.menu>.hamburger:after {
+.menu-btn .menu-icon::before,
+.menu-btn .menu-icon::after {
     display: block;
-    background: #333;
+    background-color: #333;
     content: "";
     position: absolute;
     width: 100%;
@@ -354,34 +331,32 @@ header label.menu>.hamburger:after {
     transition: all 0.2s ease-out;
 }
 
-header label.menu>.hamburger:before {
+/* Hamburger */
+
+.menu-btn .hamburger:before {
     top: 5px;
 }
 
-header label.menu>.hamburger:after {
+.menu-btn .hamburger:after {
     top: -5px;
 }
 
-/* when the hamburger is clicked, show the navigation items and change the hamburger icon */
+/* Hamburger checked */
 
-header input.menu:checked~nav {
-    max-height: calc(var(--header-height) * var(--n-menu-items));
-}
-
-header input.menu:checked~label.menu {
+input#menu-btn:checked~header label.menu-btn {
     background-color: var(--header-item-focused-background);
 }
 
-header input.menu:checked~label.menu>.hamburger {
-    background: transparent;
+input#menu-btn:checked~header .hamburger {
+    background-color: transparent;
 }
 
-header input.menu:checked~label.menu>.hamburger:before {
+input#menu-btn:checked~header .hamburger:before {
     transform: rotate(-45deg);
     top: 0;
 }
 
-header input.menu:checked~label.menu>.hamburger:after {
+input#menu-btn:checked~header .hamburger:after {
     transform: rotate(45deg);
     top: 0;
 }
@@ -404,58 +379,10 @@ header label {
 
 header button:hover,
 header button[open],
-header label:hover,
-header a:is(:hover, :active, :focus) {
+header :is(label, a):is(:hover, :active, :focus) {
     color: black;
     text-decoration: none;
     background-color: var(--header-item-focused-background);
-}
-
-/* Header on wide screens */
-
-@media screen and (min-width: 600px) {
-    header {
-        grid-template-columns: 1fr max-content;
-        grid-template-areas: "logo nav";
-    }
-
-    header label.menu {
-        display: none;
-    }
-
-    header>nav {
-        max-height: none;
-        flex-direction: row;
-        overflow: visible;
-    }
-
-    header>nav>a {
-        border-left: 1px solid var(--nav-border-color);
-        border-top: none;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    header>.logoholder {
-        justify-content: flex-start;
-    }
-
-    header #show_sidebar_button {
-        border-right: 1px solid var(--nav-border-color);
-    }
-}
-
-@media screen and (min-width: 1180px) {
-    header {
-        grid-template-columns: 1fr max-content 1fr;
-        grid-template-areas: "logo description nav";
-    }
-
-    header>#description {
-        display: block;
-        place-self: center;
-        max-width: 500px;
-    }
 }
 
 /* body */
@@ -493,8 +420,7 @@ header a:is(:hover, :active, :focus) {
     color: #a85c43;
 }
 
-.indexnagbar a:hover,
-.indexnagbar a:active {
+.indexnagbar a:is(:hover, :active, :focus) {
     color: #ab2f17;
 }
 
@@ -553,7 +479,7 @@ main :is(h1, h2, h3, h4, h5, h6) {
     line-height: 1.25;
 }
 
-main :is(h1, h2, h3, h4, h5, h6)>a:hover {
+main :is(h1, h2, h3, h4, h5, h6)>a:is(:hover, :active, :focus) {
     text-decoration: none;
 }
 
@@ -601,7 +527,7 @@ article .anchor>svg {
     visibility: hidden;
 }
 
-article :is(h1, h2, h3, h4, h5, h6):hover .anchor>svg {
+article :is(h1, h2, h3, h4, h5, h6):is(:hover, :active, :focus) .anchor>svg {
     visibility: visible;
 }
 
@@ -696,8 +622,7 @@ a.download_button {
     transition: all 0.3s;
 }
 
-a.download_button:hover,
-a.download_button:focus {
+a.download_button:is(:hover, :active, :focus) {
     background-color: #0366d60d;
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
@@ -775,12 +700,8 @@ article :target:before {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: calc(-1 * var(--sidebar-width));
-    transition: left 0.2s;
-}
-
-#sidebar[open] {
-    left: 0px;
+    right: calc(-1 * var(--sidebar-width));
+    transition: right 0.2s;
 }
 
 #sidebar ul,
@@ -789,8 +710,8 @@ article :target:before {
     padding-left: 1em;
 }
 
-#sidebar>ul,
-#sidebar>ol {
+#sidebar>.page-contents>ul,
+#sidebar>.page-contents>ol {
     clear: both;
     margin: 8px;
     padding-left: 0;
@@ -812,71 +733,138 @@ article :target:before {
     text-decoration: none;
 }
 
-#sidebar a:hover,
-#sidebar a:active {
+#sidebar a:is(:hover, :active, :focus) {
     color: #f1f1f1;
 }
 
-/* Contents sidebar: Top links */
+#sidebar>hr {
+    border: 0px;
+    border-top: 1px solid white;
+    opacity: 0.25;
+    margin: 10px 20px;
+}
+
+/* Open sidebar */
+
+input#menu-btn:checked~#sidebar {
+    right: 0px;
+}
+
+/* Sidebar: Top links */
 
 #sidebar .sidebar_header {
     display: flex;
     flex-flow: row nowrap;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: var(--sidebar-background);
+    font-size: 18px;
 }
 
-#sidebar .sidebar_header>a,
-#sidebar .sidebar_header>a:visited {
+#sidebar .sidebar_header>:is(a, label),
+#sidebar .sidebar_header>:is(a, label):visited {
+    user-select: none;
     min-width: var(--header-height);
     line-height: var(--header-height);
     height: var(--header-height);
     text-align: center;
-}
-
-#sidebar .sidebar_header>a:hover,
-#sidebar .sidebar_header>a:active {
-    background-color: #3f3f3f;
-}
-
-#sidebar .sidebar_header>.to_toc {
-    font-size: 18px;
-    flex: 2 1 auto;
+    cursor: pointer;
     overflow: hidden;
 }
 
-#sidebar .sidebar_header>.jump_top_button {
-    display: flex;
+#sidebar .sidebar_header>:is(a, label):is(:hover, :active, :focus) {
+    background-color: #3f3f3f;
 }
 
-#sidebar .sidebar_header>.jump_top_button>svg {
-    margin: auto;
-    width: 18px;
-    height: 18px;
-    fill: #ccc;
-    transform: rotate(180deg);
+#sidebar .sidebar_header>a:first-child {
+    flex: 2 1 auto;
 }
 
-#sidebar .sidebar_header>.jump_top_button:hover svg,
-#sidebar .sidebar_header>.jump_top_button:active svg {
-    fill: #f1f1f1;
+/* Sidebar: Buttons */
+
+#sidebar :is(label, a).menu-btn .menu-icon,
+#sidebar :is(label, a).menu-btn .menu-icon::before,
+#sidebar :is(label, a).menu-btn .menu-icon::after {
+    background-color: #ccc;
+    transition: initial;
 }
 
-#sidebar .sidebar_header>.close_button {
-    font-size: 36px;
+#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon,
+#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon::before,
+#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon::after {
+    background-color: #f1f1f1;
+}
+
+/* Sidebar: Jump to top button */
+
+#sidebar .up-arrow {
+    transform: rotate(90deg);
+}
+
+#sidebar .up-arrow::before,
+#sidebar .up-arrow::after {
+    width: 58%;
+    left: -2px;
+}
+
+#sidebar .up-arrow::before {
+    transform: rotate(45deg);
+    top: 3px;
+}
+
+#sidebar .up-arrow::after {
+    transform: rotate(-45deg);
+    top: -3px;
+}
+
+/* Sidebar: Close button */
+
+#sidebar :is(label, a).menu-btn .close-btn:is(*, :hover) {
+    background-color: transparent;
+}
+
+#sidebar :is(label, a).menu-btn .close-btn:after,
+#sidebar :is(label, a).menu-btn .close-btn:before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#sidebar :is(label, a).menu-btn .close-btn:before {
+    transform: rotate(-45deg);
+}
+
+#sidebar :is(label, a).menu-btn .close-btn:after {
+    transform: rotate(45deg);
+}
+
+/* Sidebar: important links */
+
+#sidebar .important-links {
+    margin: 10px 20px;
+    gap: 10px;
+    columns: 2;
+}
+
+#sidebar .important-links a {
+    display: block;
+    padding: 6px;
+    text-align: left;
+    column-gap: 10px;
+}
+
+#sidebar .important-links a:is(:hover, :active, :focus) {
+    background-color: #3f3f3f;
 }
 
 /* Tooltips */
 
-article span[title],
-article abbr[title] {
+article :is(span, abbr)[title] {
     cursor: help;
     text-decoration: underline dotted;
 }
 
-article span[title]:hover,
-article abbr[title]:hover {
+article :is(span, abbr)[title]:is(:hover, :active, :focus) {
     text-decoration: none;
     color: rgb(159, 20, 26);
 }
@@ -907,8 +895,7 @@ a.md-button:visited {
     text-shadow: none;
 }
 
-a.md-button:hover,
-a.md-button:active {
+a.md-button:is(:hover, :active, :focus) {
     text-decoration: none;
     background-color: #00bad6;
     color: white;
@@ -929,7 +916,7 @@ a.md-button.element {
     background-color: #0dbd8b;
 }
 
-a.md-button.element:hover {
+a.md-button.element:is(:hover, :active, :focus) {
     background-color: #099970;
 }
 
@@ -949,7 +936,7 @@ a.md-button.lp {
     color: #1a171b;
 }
 
-a.md-button.lp:hover {
+a.md-button.lp:is(:hover, :active, :focus) {
     background-color: #fff463;
     color: #333;
 }
@@ -965,7 +952,7 @@ a.md-button.patreon {
     background-color: #f96854;
 }
 
-a.md-button.patreon:hover {
+a.md-button.patreon:is(:hover, :active, :focus) {
     background-color: #ff424d;
 }
 
@@ -984,7 +971,7 @@ a.md-button.donations {
     box-shadow: inset 1px 1px 0 #777, 0 2px 3px rgba(0, 0, 0, .4);
 }
 
-a.md-button.donations:hover {
+a.md-button.donations:is(:hover, :active, :focus) {
     background-color: #ff424d;
     background-color: #757575;
 }
@@ -1072,7 +1059,7 @@ article pre>.select_button::before {
     filter: invert(34%) sepia(19%) saturate(307%) hue-rotate(171deg) brightness(99%) contrast(87%);
 }
 
-article pre>.select_button:hover {
+article pre>.select_button:is(:hover, :active, :focus) {
     background-color: #f3f4f6;
 }
 
@@ -1080,7 +1067,7 @@ article pre>.select_button:active {
     background-color: #ebecf0;
 }
 
-article pre:hover>.select_button {
+article pre:is(:hover, :active, :focus)>.select_button {
     visibility: visible;
 }
 
@@ -1103,12 +1090,12 @@ article pre>.select_button::after {
     visibility: hidden;
 }
 
-article pre:hover>.select_button[status=copied]::after {
+article pre:is(:hover, :active, :focus)>.select_button[status=copied]::after {
     visibility: visible;
     content: "Copied.";
 }
 
-article pre:hover>.select_button[status=selected]::after {
+article pre:is(:hover, :active, :focus)>.select_button[status=selected]::after {
     visibility: visible;
     content: "Selected.";
 }

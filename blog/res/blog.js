@@ -116,18 +116,6 @@ const Utils = Object.freeze({
 
 const Sidebar = Object.freeze({
     id: 'sidebar',
-    btn_id: 'show_sidebar_button',
-    open_inline_svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32.055 32.055" xml:space="preserve"><path d="M3.968,12.061C1.775,12.061,0,13.835,0,16.027c0,2.192,1.773,3.967,3.968,3.967c2.189,0,3.966-1.772,3.966-3.967 C7.934,13.835,6.157,12.061,3.968,12.061z M16.233,12.061c-2.188,0-3.968,1.773-3.968,3.965c0,2.192,1.778,3.967,3.968,3.967 s3.97-1.772,3.97-3.967C20.201,13.835,18.423,12.061,16.233,12.061z M28.09,12.061c-2.192,0-3.969,1.774-3.969,3.967 c0,2.19,1.774,3.965,3.969,3.965c2.188,0,3.965-1.772,3.965-3.965S30.278,12.061,28.09,12.061z"/></svg>`,
-    up_inline_svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve"><path d="M64.8,554.8l102.8-102.9l259.7,259.8V10h145.4v701.7l259.7-259.8l102.8,102.9L500.1,990L64.8,554.8z"/></svg>`,
-    make_sidebar_header() {
-        return [
-            `<div class="sidebar_header">`,
-            `<a href="table-of-contents.html" class="to_toc" title="Open Table of Contents">Table of Contents</a>`,
-            `<a href="#" onclick="Sidebar.close()" class="jump_top_button" title="Go to top">${this.up_inline_svg}</a>`,
-            `<a href="javascript:void(0)" onclick="Sidebar.close()" class="close_button" title="Close">×</a>`,
-            `</div>`
-        ].join('');
-    },
     make_list(headers) {
         let prev_level = 0
         let list = ''
@@ -153,38 +141,14 @@ const Sidebar = Object.freeze({
 
         return list
     },
-    make_open_button() {
-        const btn = document.createElement('button')
-        btn.onclick = this.toggle.bind(this)
-        btn.id = this.btn_id
-        btn.title = "Open sidebar"
-        btn.innerHTML = this.open_inline_svg
-        return btn
-    },
-    create(headers) {
-        const div = document.createElement('div')
-        div.id = this.id
-        div.innerHTML = this.make_sidebar_header() + this.make_list(headers)
-        return div
-    },
     close() {
-        Utils.maybe_toggle_attr($(this.id), 'open', false)
-        Utils.maybe_toggle_attr($(this.btn_id), 'open', false)
-    },
-    toggle() {
-        Utils.maybe_toggle_attr($(this.id), 'open')
-        Utils.maybe_toggle_attr($(this.btn_id), 'open')
         $('menu-btn').checked = false
     },
     init() {
-        if (!Utils.is_index()) {
-            const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
-            if (headers.length > 0) {
-                document.body.append(this.create(headers))
-                document.querySelector('header>.logoholder').append(this.make_open_button())
-                document.querySelector('label.menu').addEventListener('click', this.close.bind(this))
-                $('divbody').addEventListener('click', this.close.bind(this))
-            }
+        const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
+        if (headers.length > 0) {
+            $('sidebar').querySelector('.page-contents').innerHTML += this.make_list(headers)
+            $('divbody').addEventListener('click', this.close.bind(this))
         }
     }
 })
