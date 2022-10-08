@@ -148,8 +148,8 @@ const Sidebar = Object.freeze({
         const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
         if (headers.length > 0) {
             $('sidebar').querySelector('.page-contents').innerHTML += this.make_list(headers)
-            $('divbody').addEventListener('click', this.close.bind(this))
         }
+        $('divbody').addEventListener('click', this.close.bind(this))
     }
 })
 

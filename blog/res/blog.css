@@ -98,7 +98,6 @@ footer p {
 footer a,
 footer a:visited {
     color: #e9e2dc;
-
 }
 
 footer a:is(:hover, :active, :focus) {
@@ -163,12 +162,12 @@ a {
     color: var(--link);
 }
 
-a:is(:hover, :active, :focus) {
-    text-decoration: underline;
-}
-
 a:visited {
     color: var(--link-visited);
+}
+
+a:is(:hover, :active, :focus) {
+    text-decoration: underline;
 }
 
 a.ablack {
@@ -242,10 +241,7 @@ header a.logo>img {
 
 /* Hidden elements. Description is visible only on wide screens. */
 
-header #description {
-    display: none;
-}
-
+header #description,
 header nav {
     display: none;
 }
@@ -292,7 +288,6 @@ header>nav a.important:is(:hover, :active, :focus) {
     header>nav a,
     header>nav a:visited {
         padding: 0 16px;
-
     }
 }
 
@@ -698,9 +693,7 @@ article :target:before {
     background-color: var(--sidebar-background);
     color: gray;
     position: fixed;
-    top: 0;
-    bottom: 0;
-    right: calc(-1 * var(--sidebar-width));
+    inset: 0 calc(-1 * var(--sidebar-width)) 0 auto;
     transition: right 0.2s;
 }
 
@@ -742,6 +735,11 @@ article :target:before {
     border-top: 1px solid white;
     opacity: 0.25;
     margin: 10px 20px;
+}
+
+#sidebar>:is(div:empty, div:empty+hr) {
+    visibility: hidden;
+    display: none;
 }
 
 /* Open sidebar */
