@@ -328,11 +328,11 @@ header>nav a.important:is(:hover, :active, :focus) {
 
 /* Hamburger */
 
-.menu-btn .hamburger:before {
+.menu-btn .hamburger::before {
     top: 5px;
 }
 
-.menu-btn .hamburger:after {
+.menu-btn .hamburger::after {
     top: -5px;
 }
 
@@ -346,12 +346,12 @@ input#menu-btn:checked~header .hamburger {
     background-color: transparent;
 }
 
-input#menu-btn:checked~header .hamburger:before {
+input#menu-btn:checked~header .hamburger::before {
     transform: rotate(-45deg);
     top: 0;
 }
 
-input#menu-btn:checked~header .hamburger:after {
+input#menu-btn:checked~header .hamburger::after {
     transform: rotate(45deg);
     top: 0;
 }
@@ -671,7 +671,7 @@ article :target::after {
     margin: -2px 0 0;
 }
 
-article :target:before {
+article :target::before {
     content: "";
     display: block;
     height: var(--target_shift);
@@ -822,17 +822,17 @@ input#menu-btn:checked~#sidebar {
     background-color: transparent;
 }
 
-#sidebar :is(label, a).menu-btn .close-btn:after,
-#sidebar :is(label, a).menu-btn .close-btn:before {
+#sidebar :is(label, a).menu-btn .close-btn::after,
+#sidebar :is(label, a).menu-btn .close-btn::before {
     transform: rotate(45deg);
     top: 0;
 }
 
-#sidebar :is(label, a).menu-btn .close-btn:before {
+#sidebar :is(label, a).menu-btn .close-btn::before {
     transform: rotate(-45deg);
 }
 
-#sidebar :is(label, a).menu-btn .close-btn:after {
+#sidebar :is(label, a).menu-btn .close-btn::after {
     transform: rotate(45deg);
 }
 
@@ -849,6 +849,10 @@ input#menu-btn:checked~#sidebar {
     padding: 6px;
     text-align: left;
     column-gap: 10px;
+}
+
+#sidebar .important-links a:last-child:nth-child(odd) {
+    column-span: all;
 }
 
 #sidebar .important-links a:is(:hover, :active, :focus) {

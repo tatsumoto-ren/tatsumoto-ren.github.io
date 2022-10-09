@@ -114,8 +114,7 @@ const Utils = Object.freeze({
     },
 })
 
-const Sidebar = Object.freeze({
-    id: 'sidebar',
+const PageContents = Object.freeze({
     make_list(headers) {
         let prev_level = 0
         let list = ''
@@ -133,7 +132,7 @@ const Sidebar = Object.freeze({
                     }
                 }();
                 prev_level = header.level
-                part += `<li><a href="#${header.id}" onclick="Sidebar.close()">${header.text}</a></li>`
+                part += `<li><a href="#${header.id}" onclick="close_sidebar()">${header.text}</a></li>`
                 return part
             }
         ).join('')
@@ -141,15 +140,11 @@ const Sidebar = Object.freeze({
 
         return list
     },
-    close() {
-        $('menu-btn').checked = false
-    },
     init() {
         const headers = Utils.query_headers($('divbody')).filter(h => Boolean(h.id))
         if (headers.length > 0) {
             $('sidebar').querySelector('.page-contents').innerHTML += this.make_list(headers)
         }
-        $('divbody').addEventListener('click', this.close.bind(this))
     }
 })
 
@@ -214,10 +209,19 @@ const MegaTags = Object.freeze({
     }
 })
 
+function toggle_body_scroll() {
+    document.body.style.overflowY = $('menu-btn').checked ? "hidden" : ""
+}
+
+function close_sidebar() {
+    $('menu-btn').checked = false
+    toggle_body_scroll()
+}
+
 /* Entry point */
 
 document.addEventListener('DOMContentLoaded', () => {
-    Sidebar.init()
+    PageContents.init()
     Toc.init()
     MegaTags.mark_links()
     Array.from(document.getElementsByTagName("a"))
@@ -226,4 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll("article pre")
         .forEach(pre => pre.append(create_copy_select_button(pre)))
     ReorderTags.init()
+    $('menu-btn').addEventListener('change', toggle_body_scroll)
+    $('divbody').addEventListener('click', close_sidebar)
+    toggle_body_scroll()
 }, false)
