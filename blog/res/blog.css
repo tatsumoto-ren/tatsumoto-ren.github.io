@@ -891,6 +891,8 @@ a.md-button.patreon::before {
 /* Donations */
 
 a.md-button.donations {
+    min-width: 100px;
+    width: 100%;
     text-transform: uppercase;
     background-color: #f96854;
     background-color: #5e5e5e;
