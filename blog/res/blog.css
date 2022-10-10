@@ -251,7 +251,7 @@ header nav {
 header>nav {
     clear: both;
     flex-flow: row nowrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: var(--header-height);
     flex: 2 1 200px;
     overflow-x: hidden;
@@ -261,7 +261,7 @@ header>nav a,
 header>nav a:visited {
     height: var(--header-height);
     white-space: nowrap;
-    padding: 0 8px;
+    padding: 0 4px;
 }
 
 header>nav a.important {
@@ -281,19 +281,20 @@ header>nav a.important:is(:hover, :active, :focus) {
     header>nav {
         display: flex;
     }
-}
 
-@media screen and (min-width: 850px) {
-
-    header>nav a,
-    header>nav a:visited {
-        padding: 0 16px;
+    header>nav a {
+        flex: 2 1 20px;
     }
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1000px) {
     header>nav .nav-blank {
         flex: 2 1 20px;
+    }
+
+    header>nav a {
+        flex: 0 1 20px;
+        padding: 0 16px;
     }
 }
 
