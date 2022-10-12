@@ -273,12 +273,12 @@ input#menu-btn:checked~header .hamburger {
 }
 
 input#menu-btn:checked~header .hamburger::before {
-    transform: rotate(-45deg);
+    rotate: -45deg;
     top: 0;
 }
 
 input#menu-btn:checked~header .hamburger::after {
-    transform: rotate(45deg);
+    rotate: 45deg;
     top: 0;
 }
 
@@ -723,7 +723,7 @@ input#menu-btn:checked~#sidebar {
 /* Sidebar: Jump to top button */
 
 #sidebar .up-arrow {
-    transform: rotate(90deg);
+    rotate: 90deg;
 }
 
 #sidebar .up-arrow::before,
@@ -733,12 +733,12 @@ input#menu-btn:checked~#sidebar {
 }
 
 #sidebar .up-arrow::before {
-    transform: rotate(45deg);
+    rotate: 45deg;
     top: 3px;
 }
 
 #sidebar .up-arrow::after {
-    transform: rotate(-45deg);
+    rotate: -45deg;
     top: -3px;
 }
 
@@ -748,18 +748,14 @@ input#menu-btn:checked~#sidebar {
     background-color: transparent;
 }
 
-#sidebar :is(label, a).menu-btn .close-btn::after,
 #sidebar :is(label, a).menu-btn .close-btn::before {
-    transform: rotate(45deg);
     top: 0;
-}
-
-#sidebar :is(label, a).menu-btn .close-btn::before {
-    transform: rotate(-45deg);
+    rotate: -45deg;
 }
 
 #sidebar :is(label, a).menu-btn .close-btn::after {
-    transform: rotate(45deg);
+    top: 0;
+    rotate: 45deg;
 }
 
 /* Sidebar: important links */
@@ -944,11 +940,11 @@ a.md-button.donations::before {
 }
 
 .toc_navigation>a.next::before {
-    transform: rotate(90deg);
+    rotate: 90deg;
 }
 
 .toc_navigation>a.prev::before {
-    transform: rotate(-90deg);
+    rotate: -90deg;
 }
 
 /* copy/select button for code blocks */
