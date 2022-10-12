@@ -1,7 +1,7 @@
 ---
 title: Retiming subtitles
 date: 1634149975
-tags: [guide]
+tags: [guide, mpv]
 ---
 
 Japanese subtitles can be found in
