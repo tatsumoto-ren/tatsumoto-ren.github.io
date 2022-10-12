@@ -213,8 +213,8 @@ header>nav a.important:is(:hover, :active, :focus) {
 }
 
 @media screen and (min-width: 1000px) {
-    header>nav .nav-blank {
-        flex: 2 1 20px;
+    header>nav a:nth-last-of-type(2) {
+        margin-left: auto;
     }
 
     header>nav a {
