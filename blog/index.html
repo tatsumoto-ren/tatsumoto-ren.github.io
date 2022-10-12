@@ -18,23 +18,46 @@
 <script defer src="res/blog.js"></script>
 </head>
 <body>
+<input type="checkbox" id="menu-btn" />
 <header>
-<div class="logoholder">
 <a href="index.html" class="logo">
 <img alt="達元" src="/img/logo.webp" />
 <span>Tatsumoto</span>
 </a>
-</div>
-<input class="menu" type="checkbox" id="menu-btn" />
-<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
 <div id="description">How to use Free Software to learn Japanese, and more.</div>
 <nav>
 <a href="table-of-contents.html">Guide</a>
 <a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="donating-to-tatsumoto.html">Support</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
 </header>
+<div id="sidebar">
+<div class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</div>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
 <div id="divbodyholder">
 <div class="indexnagbar">
 <div>
@@ -54,7 +77,7 @@ You may want to read <a href="table-of-contents.html">Table of Contents</a> inst
 <div id="divbody">
 <main>
 <article>
-<h1 class="title"><a class="ablack" href="plumbing-for-language-learners.html">Plumbing for language learners</a></h1>
+<h1 class="title" id="plumbing-for-language-learners"><a class="anchor" href="#plumbing-for-language-learners" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="plumbing-for-language-learners.html">Plumbing for language learners</a></h1>
 <!-- bashblog_timestamp: #1664571289# -->
 <div class="subtitle">September 30, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -66,7 +89,7 @@ I think everybody should use it.</p>
 <p class="readmore"><a href="plumbing-for-language-learners.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="mass-immersion.html">Mass immersion</a></h1>
+<h1 class="title" id="mass-immersion"><a class="anchor" href="#mass-immersion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="mass-immersion.html">Mass immersion</a></h1>
 <!-- bashblog_timestamp: #1661977295# -->
 <div class="subtitle">August 31, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -80,7 +103,7 @@ Let's figure out how much immersion is necessary.</p>
 <p class="readmore"><a href="mass-immersion.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="japanese-locale.html">Japanese locale</a></h1>
+<h1 class="title" id="japanese-locale"><a class="anchor" href="#japanese-locale" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="japanese-locale.html">Japanese locale</a></h1>
 <!-- bashblog_timestamp: #1657735823# -->
 <div class="subtitle">July 13, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -92,7 +115,7 @@ generate and enable the Japanese locale on your system.</p>
 <p class="readmore"><a href="japanese-locale.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="condensing-active-immersion.html">Condensing active immersion</a></h1>
+<h1 class="title" id="condensing-active-immersion"><a class="anchor" href="#condensing-active-immersion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="condensing-active-immersion.html">Condensing active immersion</a></h1>
 <!-- bashblog_timestamp: #1656087109# -->
 <div class="subtitle">June 24, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -103,7 +126,7 @@ This small trick helps if you're watching something boring or if you're tight on
 <p class="readmore"><a href="condensing-active-immersion.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="kana-anki-decks.html">Kana Anki decks</a></h1>
+<h1 class="title" id="kana-anki-decks"><a class="anchor" href="#kana-anki-decks" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="kana-anki-decks.html">Kana Anki decks</a></h1>
 <!-- bashblog_timestamp: #1655711767# -->
 <div class="subtitle">June 20, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -114,7 +137,7 @@ the Production deck teaches how to write kana from memory.</p>
 <p class="readmore"><a href="kana-anki-decks.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="matrix-quickstart-guide.html">Matrix quickstart guide</a></h1>
+<h1 class="title" id="matrix-quickstart-guide"><a class="anchor" href="#matrix-quickstart-guide" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="matrix-quickstart-guide.html">Matrix quickstart guide</a></h1>
 <!-- bashblog_timestamp: #1655322524# -->
 <div class="subtitle">June 15, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -123,7 +146,7 @@ It also covers the most popular Matrix client program, Element.</p>
 <p class="readmore"><a href="matrix-quickstart-guide.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="how-anki-works.html">How Anki works</a></h1>
+<h1 class="title" id="how-anki-works"><a class="anchor" href="#how-anki-works" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="how-anki-works.html">How Anki works</a></h1>
 <!-- bashblog_timestamp: #1655135740# -->
 <div class="subtitle">June 13, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -132,7 +155,7 @@ let's talk about how it works.</p>
 <p class="readmore"><a href="how-anki-works.html">Read more...</a></p>
 </article>
 <article>
-<h1 class="title"><a class="ablack" href="spaced-repetition.html">Spaced repetition</a></h1>
+<h1 class="title" id="spaced-repetition"><a class="anchor" href="#spaced-repetition" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="spaced-repetition.html">Spaced repetition</a></h1>
 <!-- bashblog_timestamp: #1655007397# -->
 <div class="subtitle">June 12, 2022 &mdash; Tatsumoto</div>
 <!-- text begin -->
@@ -174,10 +197,13 @@ and what system to use.</p>
 </ul>
 </div>
 <div>
-<h3>Matrix</h3>
+<h3>Software</h3>
 <ul>
-<li><a href="matrix-quickstart-guide.html">Quickstart guide</a></li>
-<li><a href="list-of-matrix-servers.html">List of servers</a></li>
+<li><a href="setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="tag_yomichan.html">Yomichan</a></li>
+<li><a href="tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="tag_matrix.html">Matrix</a></li>
 </ul>
 </div>
 <div>

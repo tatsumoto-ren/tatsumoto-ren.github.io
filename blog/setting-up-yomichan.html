@@ -18,23 +18,46 @@
 <script defer src="res/blog.js"></script>
 </head>
 <body>
+<input type="checkbox" id="menu-btn" />
 <header>
-<div class="logoholder">
 <a href="index.html" class="logo">
 <img alt="達元" src="/img/logo.webp" />
 <span>Tatsumoto</span>
 </a>
-</div>
-<input class="menu" type="checkbox" id="menu-btn" />
-<label class="menu" for="menu-btn"><span class="hamburger"></span></label>
 <div id="description">How to use Free Software to learn Japanese, and more.</div>
 <nav>
 <a href="table-of-contents.html">Guide</a>
 <a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="donating-to-tatsumoto.html">Support</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
 </header>
+<div id="sidebar">
+<div class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</div>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
 <div id="divbodyholder">
 <div id="divbody">
 <main>
@@ -397,10 +420,13 @@ now you can create properly formatted targeted sentence cards while reading.</p>
 </ul>
 </div>
 <div>
-<h3>Matrix</h3>
+<h3>Software</h3>
 <ul>
-<li><a href="matrix-quickstart-guide.html">Quickstart guide</a></li>
-<li><a href="list-of-matrix-servers.html">List of servers</a></li>
+<li><a href="setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="tag_yomichan.html">Yomichan</a></li>
+<li><a href="tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="tag_matrix.html">Matrix</a></li>
 </ul>
 </div>
 <div>
