@@ -199,12 +199,21 @@ This command ignores modification dates of the video files.
 
 ## When you're not home
 
-Synchronize your immersionpod folder to your mobile device with
-[rsync](https://wiki.archlinux.org/index.php/Rsync)
-or
-[syncthing](https://wiki.archlinux.org/index.php/Syncthing).
+Synchronize your immersionpod folder to your mobile device.
+There are many programs for file synchronization.
+
+* [Syncthing](https://wiki.archlinux.org/index.php/Syncthing)
+* [Rsync](https://wiki.archlinux.org/index.php/Rsync)
+
 When you're out, use
 [a compatible music player](resources.html#audio-players) of your choice to continue immersing.
+
+[AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/),
+a podcast player,
+can be used to play condensed audio instead of a conventional music player.
+After you synchronize your `immersionpod` directory,
+open AntennaPod, press "Add podcast" > "Add local folder"
+and select path to `immersionpod/current`.
 
 ## Condensing audiobooks
 
