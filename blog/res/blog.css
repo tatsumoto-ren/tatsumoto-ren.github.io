@@ -223,65 +223,6 @@ header>nav a.important:is(:hover, :active, :focus) {
     }
 }
 
-/* Menu button */
-
-:is(a, label).menu-btn {
-    padding: calc((var(--header-height) - var(--menu-icon-slice-height)) / 2) calc((var(--header-height) - var(--menu-icon-slice-width)) / 2);
-    user-select: none;
-    display: block;
-}
-
-.menu-btn .menu-icon {
-    background-color: #333;
-    display: block;
-    width: var(--menu-icon-slice-width);
-    height: var(--menu-icon-slice-height);
-    position: relative;
-    transition: background 0.2s ease-out;
-    font-size: 0px;
-}
-
-.menu-btn .menu-icon::before,
-.menu-btn .menu-icon::after {
-    display: block;
-    background-color: #333;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transition: all 0.2s ease-out;
-}
-
-/* Hamburger */
-
-.menu-btn .hamburger::before {
-    top: 5px;
-}
-
-.menu-btn .hamburger::after {
-    top: -5px;
-}
-
-/* Hamburger checked */
-
-input#menu-btn:checked~header label.menu-btn {
-    background-color: var(--header-item-focused-background);
-}
-
-input#menu-btn:checked~header .hamburger {
-    background-color: transparent;
-}
-
-input#menu-btn:checked~header .hamburger::before {
-    rotate: -45deg;
-    top: 0;
-}
-
-input#menu-btn:checked~header .hamburger::after {
-    rotate: 45deg;
-    top: 0;
-}
-
 /* Common rules for buttons and anchors */
 
 header a,
@@ -604,6 +545,110 @@ article :target::before {
     margin: calc(-1 * var(--target_shift)) 0 0;
 }
 
+/* Menu button */
+
+.menu-btn {
+    padding: calc((var(--header-height) - var(--menu-icon-slice-height)) / 2) calc((var(--header-height) - var(--menu-icon-slice-width)) / 2);
+    user-select: none;
+    display: block;
+}
+
+.menu-btn>.menu-icon {
+    background-color: #333;
+    display: block;
+    width: var(--menu-icon-slice-width);
+    height: var(--menu-icon-slice-height);
+    position: relative;
+    font-size: 0px;
+}
+
+.menu-btn>.menu-icon::before,
+.menu-btn>.menu-icon::after {
+    content: "";
+    display: block;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hamburger */
+
+.menu-btn>.hamburger,
+.menu-btn>.hamburger::before,
+.menu-btn>.hamburger::after {
+    transition: all 0.2s ease-out;
+}
+
+.menu-btn>.hamburger::before {
+    top: 5px;
+}
+
+.menu-btn>.hamburger::after {
+    top: -5px;
+}
+
+/* Hamburger checked */
+
+input#menu-btn:checked~header label.menu-btn {
+    background-color: var(--header-item-focused-background);
+}
+
+input#menu-btn:checked~header .hamburger {
+    background-color: transparent;
+}
+
+input#menu-btn:checked~header .hamburger::before {
+    rotate: -45deg;
+    top: 0;
+}
+
+input#menu-btn:checked~header .hamburger::after {
+    rotate: 45deg;
+    top: 0;
+}
+
+/* Sidebar: Jump to top button */
+
+.menu-btn>.up-arrow {
+    rotate: 90deg;
+}
+
+.menu-btn>.up-arrow::before,
+.menu-btn>.up-arrow::after {
+    width: 58%;
+    left: -2px;
+}
+
+.menu-btn>.up-arrow::before {
+    rotate: 45deg;
+    top: 3px;
+}
+
+.menu-btn>.up-arrow::after {
+    rotate: -45deg;
+    top: -3px;
+}
+
+/* Sidebar: Close button */
+
+.menu-btn>.close-btn {
+    background-color: transparent;
+}
+
+.menu-btn>.close-btn::before,
+.menu-btn>.close-btn::after {
+    top: 0;
+}
+
+.menu-btn>.close-btn::before {
+    rotate: -45deg;
+}
+
+.menu-btn>.close-btn::after {
+    rotate: 45deg;
+}
+
 /* Contents sidebar */
 
 #sidebar {
@@ -634,6 +679,10 @@ article :target::before {
     clear: both;
     margin: 8px;
     padding-left: 0;
+}
+
+#sidebar>.page-contents ::marker {
+    color: #7fdbffaa;
 }
 
 #sidebar ul:only-child,
@@ -695,6 +744,9 @@ input#menu-btn:checked~#sidebar {
     text-align: center;
     cursor: pointer;
     overflow: hidden;
+    transition:
+        background-color 0.1s,
+        color 0.1s;
 }
 
 #sidebar .sidebar_header>:is(a, label):is(:hover, :active, :focus) {
@@ -707,55 +759,17 @@ input#menu-btn:checked~#sidebar {
 
 /* Sidebar: Buttons */
 
-#sidebar :is(label, a).menu-btn .menu-icon,
-#sidebar :is(label, a).menu-btn .menu-icon::before,
-#sidebar :is(label, a).menu-btn .menu-icon::after {
+#sidebar .menu-btn>.menu-icon:not(.close-btn),
+#sidebar .menu-btn>.menu-icon::before,
+#sidebar .menu-btn>.menu-icon::after {
     background-color: #ccc;
-    transition: initial;
+    transition: background-color 0.1s;
 }
 
-#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon,
-#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon::before,
-#sidebar :is(label, a).menu-btn:is(:hover, :active, :focus)>.menu-icon::after {
+#sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon:not(.close-btn),
+#sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::before,
+#sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::after {
     background-color: #f1f1f1;
-}
-
-/* Sidebar: Jump to top button */
-
-#sidebar .up-arrow {
-    rotate: 90deg;
-}
-
-#sidebar .up-arrow::before,
-#sidebar .up-arrow::after {
-    width: 58%;
-    left: -2px;
-}
-
-#sidebar .up-arrow::before {
-    rotate: 45deg;
-    top: 3px;
-}
-
-#sidebar .up-arrow::after {
-    rotate: -45deg;
-    top: -3px;
-}
-
-/* Sidebar: Close button */
-
-#sidebar :is(label, a).menu-btn .close-btn:is(*, :hover) {
-    background-color: transparent;
-}
-
-#sidebar :is(label, a).menu-btn .close-btn::before {
-    top: 0;
-    rotate: -45deg;
-}
-
-#sidebar :is(label, a).menu-btn .close-btn::after {
-    top: 0;
-    rotate: 45deg;
 }
 
 /* Sidebar: important links */
@@ -771,6 +785,9 @@ input#menu-btn:checked~#sidebar {
     padding: 6px;
     text-align: left;
     column-gap: 10px;
+    transition:
+        background-color 0.1s,
+        color 0.1s;
 }
 
 #sidebar .important-links a:last-child:nth-child(odd) {
