@@ -1,7 +1,6 @@
 ---
 title: How to save the Japanese learning community
 date: 1611102279
-tags: [matrix]
 ---
 
 Even big figureheads in the Japanese learning community still recommend

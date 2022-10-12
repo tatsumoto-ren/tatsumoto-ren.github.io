@@ -1,7 +1,6 @@
 ---
 title: Join our community
 date: 1612779384
-tags: [matrix]
 ---
 
 Daily Japanese Thread is a friendly place
