@@ -152,9 +152,10 @@ This plumbing script has a number of useful features directed at language learne
 * `youglish` - Search text on Youglish.
 * `youreijp` - Search example sentences on 用例.
 * `furiganainfo` - Search text on Furiganainfo. Show different readings of a Japanese word.
-* `mostcommonspelling` - Find the most common spelling from a list of words separated by spaces, dots or commas.
+* `most common spelling` - Find the most common spelling from a list of words separated by spaces, dots or commas.
   Use this when you don't know which is the most common way to write a specific word.
   This function requires my dotfiles to be installed.
+* `audiodl` and `youtubedl` - download audio and video from YouTube (or Invidious).
 
 ## Extra
 
