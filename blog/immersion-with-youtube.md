@@ -102,7 +102,8 @@ See `$ man youtube-dl` for a comprehensive list of options.
   The least used instances are usually faster.
 * There's a fork of Youtube-dl called [yt-dlp](https://github.com/yt-dlp/yt-dlp) with more features.
 * Install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
-  avoid accidentally going to the official website when opening YouTube links.
+  or [LibRedirect](https://libredirect.github.io/)
+  to avoid accidentally going to the official website when opening YouTube links.
 * [Librarian](https://codeberg.org/librarian/librarian)
   is an alternative frontend for Odysee inspired by Invidious.
 * If you go to the YouTube website, keep

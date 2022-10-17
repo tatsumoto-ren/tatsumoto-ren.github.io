@@ -223,6 +223,7 @@ Unfortunately, not all of them can be opened in mpv.
   Science topics.
 
 **Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
+or [LibRedirect](https://libredirect.github.io/)
 to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
 
 ### TikTok
@@ -349,7 +350,7 @@ that exist today are
 [proprietary](https://www.gnu.org/proprietary/proprietary.html).
 Proprietary software should not exist and should not be used if you want to have freedom.
 
-## Japanese boards
+### Japanese boards
 
 * [Watkins 2channel](https://www2.5ch.net/5ch.html)
 * [Nishimura 2channel](https://www.2ch.sc/2ch.html)
