@@ -29,7 +29,7 @@ you need to learn how to do it.
 ## Japanese input
 
 In [Introduction](introduction-to-learning-japanese.html#writing-systems)
-I breifly mentioned what writing systems Japanese has.
+I briefly mentioned what writing systems Japanese has.
 Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana and kanji.
 The writing systems are covered in their own articles.
 For now you need to understand that
@@ -105,10 +105,8 @@ To install Fcitx, run the following command.
 $ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
 ```
 
-Note: `fcitx-qt6` is needed
-to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.
-
-If you're not running an Arch-based distro, find the appropriate packages in the repositories.
+* `fcitx-qt6` is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.
+* If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
 Assuming you're starting Xorg using
@@ -119,7 +117,7 @@ like a Chad, the best way to achieve it is to modify `~/.xinitrc`, adding the fo
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-fcitx &
+fcitx -dr &
 ```
 
 Note that the
@@ -132,7 +130,20 @@ and you source it on start up,
 it is also possible to put the commands there.
 It doesn't really matter which file you put the commands to as long as it is sourced on start up.
 
-You can look at the contents of my `xinitrc` file
+If you previously used `localectl`, `setxkbmap` or X configuration files for
+[setting a keyboard layout](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout),
+edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
+You need to disable the key bindings you plan to use in Fcitx.
+For example, to disable the config file created by `localectl`, run:
+
+```
+sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
+```
+
+Also check other config files located in `/etc/X11/` or `/etc/X11/xorg.conf.d`.
+If you have `setxkbmap` commands in your `xinitrc`, edit them as well.
+
+**Note:** You can look at the contents of my `xinitrc` file
 [here](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/xinitrc).
 
 ## Input method editor
@@ -174,16 +185,19 @@ To configure Mozc, you need to use the Fcitx's tray icon.
 <p align="center"><img src="img/fcitx-configure-mozc.webp" alt="Mozc settings"></p>
 <p align="center"><i>How to access Mozc settings.</i></p>
 
-By default, you switch between IMEs by pressing Ctrl+Space.
+By default, you switch between IMEs by pressing <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
 I prefer to use an add-on called Input method selector instead.
 In the config tool, set the trigger hotkey to none by clicking on it and pressing Enter.
 Then go to "Addon" > "Input method selector", press "Configure" and set Global SelectKey.
-I prefer Super+Space.
+I prefer <kbd>Super</kbd>+<kbd>Space</kbd>.
 
 <p align="center"><img src="img/fcitx-configure-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Enable Input method selector.</i></p>
 
-Now, when you press Super+Space,
+Alternatively you can open `~/.config/fcitx/conf/fcitx-imselector.config`
+and uncomment or add `GlobalInputMethodSelectKey=SUPER_SPACE` there.
+
+Now, when you press <kbd>Super</kbd>+<kbd>Space</kbd>,
 it will bring up a menu where you can choose an input method.
 
 <p align="center"><img src="img/fcitx-im-selector.webp" alt="input methods"></p>

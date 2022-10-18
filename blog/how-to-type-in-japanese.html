@@ -87,7 +87,7 @@ you need to learn how to do it.</p>
 <hr>
 <h2 id="japanese-input"><a class="anchor" href="#japanese-input" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japanese input</h2>
 <p>In <a href="introduction-to-learning-japanese.html#writing-systems">Introduction</a>
-I breifly mentioned what writing systems Japanese has.
+I briefly mentioned what writing systems Japanese has.
 Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana and kanji.
 The writing systems are covered in their own articles.
 For now you need to understand that
@@ -146,9 +146,10 @@ Because I've had problems getting IBus to work with i3wm, I don't recommend it.<
 <p>To install Fcitx, run the following command.</p>
 <pre><code>$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
 </code></pre>
-<p>Note: <code>fcitx-qt6</code> is needed
-to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.</p>
-<p>If you're not running an Arch-based distro, find the appropriate packages in the repositories.</p>
+<ul>
+<li><code>fcitx-qt6</code> is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.</li>
+<li>If you're not running an Arch-based distro, find the appropriate packages in the repositories.</li>
+</ul>
 <p>Next on the list, you need to enable autostart.
 Assuming you're starting Xorg using
 <a href="https://wiki.archlinux.org/title/Xinit">startx/xinit</a>
@@ -156,7 +157,7 @@ like a Chad, the best way to achieve it is to modify <code>~/.xinitrc</code>, ad
 <pre><code>export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-fcitx &amp;
+fcitx -dr &amp;
 </code></pre>
 <p>Note that the
 <a href="https://wiki.archlinux.org/title/Xinit#xinitrc">xinitrc</a>
@@ -167,7 +168,16 @@ If you have an
 and you source it on start up,
 it is also possible to put the commands there.
 It doesn't really matter which file you put the commands to as long as it is sourced on start up.</p>
-<p>You can look at the contents of my <code>xinitrc</code> file
+<p>If you previously used <code>localectl</code>, <code>setxkbmap</code> or X configuration files for
+<a href="https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout">setting a keyboard layout</a>,
+edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
+You need to disable the key bindings you plan to use in Fcitx.
+For example, to disable the config file created by <code>localectl</code>, run:</p>
+<pre><code>sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
+</code></pre>
+<p>Also check other config files located in <code>/etc/X11/</code> or <code>/etc/X11/xorg.conf.d</code>.
+If you have <code>setxkbmap</code> commands in your <code>xinitrc</code>, edit them as well.</p>
+<p><strong>Note:</strong> You can look at the contents of my <code>xinitrc</code> file
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/xinitrc">here</a>.</p>
 <h2 id="input-method-editor"><a class="anchor" href="#input-method-editor" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Input method editor</h2>
 <p>I recommend either KKC or Mozc.</p>
@@ -192,14 +202,16 @@ KKC can be configured by clicking on the gear icon.</p>
 <p>To configure Mozc, you need to use the Fcitx's tray icon.</p>
 <p align="center"><img src="img/fcitx-configure-mozc.webp" alt="Mozc settings"></p>
 <p align="center"><i>How to access Mozc settings.</i></p>
-<p>By default, you switch between IMEs by pressing Ctrl+Space.
+<p>By default, you switch between IMEs by pressing <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
 I prefer to use an add-on called Input method selector instead.
 In the config tool, set the trigger hotkey to none by clicking on it and pressing Enter.
 Then go to &quot;Addon&quot; &gt; &quot;Input method selector&quot;, press &quot;Configure&quot; and set Global SelectKey.
-I prefer Super+Space.</p>
+I prefer <kbd>Super</kbd>+<kbd>Space</kbd>.</p>
 <p align="center"><img src="img/fcitx-configure-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Enable Input method selector.</i></p>
-<p>Now, when you press Super+Space,
+<p>Alternatively you can open <code>~/.config/fcitx/conf/fcitx-imselector.config</code>
+and uncomment or add <code>GlobalInputMethodSelectKey=SUPER_SPACE</code> there.</p>
+<p>Now, when you press <kbd>Super</kbd>+<kbd>Space</kbd>,
 it will bring up a menu where you can choose an input method.</p>
 <p align="center"><img src="img/fcitx-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Input method selector.</i></p>
