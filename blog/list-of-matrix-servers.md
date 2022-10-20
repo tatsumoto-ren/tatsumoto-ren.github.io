@@ -93,12 +93,14 @@ You may need to Email an admin to get an account.
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                |       |
 | `houtworm.im`           | [houtworm.im](https://houtworm.im/)                  |       |
 
-### Servers run by Japanese people ([source](https://matrix-room-list-jp.netlify.app/))
+### Servers run by Japanese people
 
 | Server                | Web client                                       | Extra |
 | :---                  | :---                                             | :---  |
 | `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆    |
 | `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
+
+Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
 
 ## Do not use
 
@@ -285,7 +287,6 @@ without having to use a desktop client.
 * https://element.fff.chat/
 * https://riot.zygoat.club/
 * https://matrix.jdsoft.de/
-* https://chat.sp-codes.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
 * https://element.envs.net/
