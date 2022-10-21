@@ -202,6 +202,12 @@ until they can consume a wide variety of input and understand it perfectly.
 A list of anime sorted from the easiest to hardest can be found
 [here](random-anime-ranked-easiest-to-hardest.html).
 
+### How does the space between words function in Japanese? In English you have a space between words but I can't see that in Japanese.
+
+Usually spaces aren't used in Japanese.
+You understand word boundaries just by reading.
+The alternation between kana and kanji makes it visually easier to tell words apart.
+
 ### Kanji in the current year
 
 Back in my day RRTK didn't exist.
@@ -701,9 +707,13 @@ That's not what a beginner material should do to you.
 Second,
 Itazuraneko recommends that you read Yotsubato very early on,
 before you have had a chance to get used to the sounds of Japanese.
+There's no audio, you don't know how Japanese people pronounce what you're reading.
 Reading anything without accompanying audio
 at this stage is a recipe for failure
 and is going to negatively affect your listening ability.
+
+As a result you're wasting hours trying to read a single page,
+and you're reading with a thick foreign accent in your head.
 
 From day one listen a lot, listen all the time.
 Immerse both passively and actively in voiced Japanese media to train your ears.
@@ -937,6 +947,19 @@ I recommend Tango over Core10k.
 In Tango the sentences are a little more natural,
 and the presented vocabulary looks more useful in everyday life.
 
+### Is studying grammar required?
+
+Studying **anything** is not required for using the AJATT method.
+AJATT is about acquiring a language through immersion.
+At the core there's the idea that if infants can do it, adults can too.
+Instead of studying ajatters make effort to understand messages in the language when they immerse.
+
+If by studying grammar you mean learning from a
+[grammar guide](learning-grammar.html#grammar-guides),
+we often recommend doing it because it optimizes your path to fluency,
+removes extra bumps on the road.
+You learn common patterns early on and as a result it increases your comprehension.
+
 ### Should I read through Tae Kim while going through the Tango decks?
 
 Only if you don't understand some cards in the deck.
@@ -971,6 +994,22 @@ First I learned some vocab, then I read the first section.
 Then I learned more vocab and read the second one, and so on.
 
 Decide if you're ready before starting the "advanced grammar" part.
+
+### Should I make cards for grammar to study in my SRS?
+
+[Mining grammar points](learning-grammar.html#mining-grammar-points)
+from a grammar guide is not required.
+But I did it,
+Khatzumoto did it too.
+If you decide to do the same,
+you may end up creating cards for very basic grammar,
+in which case delete them once you progress towards intermediate.
+I don't recommend mining every sentence like Khatz did,
+instead try choosing only the ones that look challenging.
+
+Mining grammar isn't different from mining regular words.
+You create TSCs as usual.
+Grammar points become *target words*.
 
 ### When should I change my devices to Japanese?
 
@@ -1032,7 +1071,7 @@ Such content is in great scarcity.
 You can, however, try searching for each sound specifically
 when you're not sure how to pronounce it.
 E.g., search "how to pronounce the Japanese R sound" on Invidious.
-There are some sounds in Japanese that require special attention (like らりるれろ and し)
+There are some sounds in Japanese that require special attention (like `らりるれろ` and `し`)
 and some sounds that you get right away without much practice.
 
 Imitating native speakers is also advised, but not for beginners.
