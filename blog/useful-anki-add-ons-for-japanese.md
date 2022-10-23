@@ -199,17 +199,29 @@ After applying the settings you can uninstall the add-on.
 <p align="center"><img alt="refold-ease" class="shadow" src="img/refold-ease.png"></p>
 <p align="center"><i>Settings.</i></p>
 
-### [Learn now Button](https://ankiweb.net/shared/info/1021636467)
+### [Learn now & Grade now](https://ankiweb.net/shared/info/1021636467)
 
-This add-on adds a button to the card browser
-that immediately puts selected new cards in the learning queue.
-You can use it if you have a big sentence bank,
-and you find a perfect sentence that you want to learn right away.
+This add-on adds new buttons to the card browser.
+The `Learn now` button immediately puts selected new cards in the learning queue.
+The `Grade now` button lets you grade selected cards without opening Reviewer.
 
 > Easier than faffing about in the menus to do the same thing in 10 clicks.
+>
+> &mdash; Review on AnkiWeb
 
-<p align="center"><img alt="learn-now-button" class="shadow" src="https://user-images.githubusercontent.com/69171671/94028820-bc621180-fdab-11ea-8adb-fde78e8ca008.jpg"></p>
+<p align="center"><img alt="learn-now-button" class="shadow" src="https://user-images.githubusercontent.com/69171671/197412891-fcef27e4-49ed-4175-a42d-a50ef2252151.png"></p>
 <p align="center"><i>Context menu.</i></p>
+
+**Learn Now** moves selected new cards to the learning queue.
+The cards will be shown to you next time you go to the review screen.
+You can use this feature if you have a big collection of cards,
+and you find a card that you want to learn right away without manually repositioning it.
+
+**Grade Now** answers selected cards right from the Browser window.
+For example, imagine that you learn a new Japanese word.
+Then one day when reading a book in Japanese you see the word but can't recall it.
+In this case it would be rational to open Anki and fail the corresponding card.
+The card will be put in the relearning queue.
 
 ### [Add Hyperlink](https://ankiweb.net/shared/info/318752047)
 
@@ -269,6 +281,12 @@ When you add many cards at once manually, it lets you keep what's typed in a fie
 **Note:**
 This add-on is no longer needed on newer versions of Anki.
 You can achieve the same functionality by pressing the 📌 button.
+
+### [AnkiWebView Inspector](https://ankiweb.net/shared/info/31746032)
+
+This add-on adds a new button named *Inspect* to the right-click context menu in an Anki's WebView.
+For example, by clicking it in the Review screen you can see what HTML code Anki adds to your cards.
+It helps users tweak their Card Templates and developers make new Anki add-ons.
 
 ## Add-ons to avoid
 
