@@ -24,14 +24,28 @@ Languages can only be acquired through massive amounts of watching, listening an
 
 ### What's immersion?
 
-Immersion is the process of reading or listening to your target language.
-It is not necessary to move to Japan or talk to natives to immerse.
-As long as you have access any content in natural, native Japanese, you're covered.
-Watch anime, dramas, read books, light novels, manga in Japanese if you want to learn the language.
+Immersion is the process of reading or listening to the language you're learning,
+your target language.
+It is not necessary to move to the country or talk to natives to immerse.
+As long as you have access to content in your target language, you're covered.
+The immersion content should be made by natives for natives of that language,
+and it should not be translated to your native language.
 
+Japanese learners can immerse by
+watching anime, movies and j-dramas, reading books, light novels and manga.
+In Japanese there is a lot of content that can be used for immersion,
+and it makes Japanese very easy to learn.
+
+In AJATT there's the concept of Japanese Immersion Environment.
+Learners create an environment that simulates the process of living in Japan
+by using immersion content, media in Japanese.
+Japanese Immersion Environment is created by switching
+from media in your native language to media in your target language.
+
+Immersion is also commonly referred to as "input."
 Usually we divide immersion into passive (background) and active.
 Active immersion requires full attention to the content
-while passive immersion is when you're listening to Japanese while doing something else.
+while passive immersion is when you're listening to the target language while doing something else.
 
 ### What's input and output?
 
@@ -420,6 +434,11 @@ The minimum amount of time you need to spend SRSing is highly individual.
 As long as you can finish your daily reviews, learn new cards and add several new cards,
 you should be fine.
 
+### What are the AJATT recommended Anki settings?
+
+[This page](setting-up-anki.html#anki-settings)
+already has all the recommended settings laid out for you.
+
 ### Is there a way to view the cards I have failed the most times on Anki?
 
 You can list them in the Anki Browser.
@@ -503,6 +522,24 @@ you do each activity for 1 hour.
 On a good day when you have 12 hours a day,
 you spend 1 hour on Anki,
 5.5 hours on listening and 5.5 on reading.
+
+### Does time spent in Anki count as immersion time?
+
+Yes and no.
+If you use Anki,
+it has to take some time from the total amount of time available to you.
+Anki occupies a part of your study time.
+
+Whether to call Anki immersion is really a philosophical question.
+In a way it is because in Anki you read sentences created by native speakers
+that you saved previously.
+But since Anki is used for repetition and doesn't provide you with new content,
+it's not a *source of immersion*.
+
+When someone asks you how many hours a day you immerse,
+usually you are expected to separate Anki from other activities.
+State both numbers, how much you spend in Anki and how much you do other stuff.
+Depending on your answers people will give you different advice.
 
 ### How many new cards to learn each day?
 
