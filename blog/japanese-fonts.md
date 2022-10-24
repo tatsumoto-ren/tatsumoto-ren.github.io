@@ -178,7 +178,7 @@ Here's an example:
 font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font Mono 9
 ```
 
-* My i3 config can be found [in my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config).
+* My `i3` config can be found [in my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config).
 * [i3 config reference](https://i3wm.org/docs/userguide#fonts).
 
 ## Firefox
