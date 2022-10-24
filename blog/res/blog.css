@@ -339,6 +339,7 @@ main :is(h1, h2, h3, h4, h5, h6) {
     margin-top: var(--gap-small);
     margin-bottom: 1rem;
     line-height: 1.25;
+    clear: both;
 }
 
 main :is(h1, h2, h3, h4, h5, h6)>a:is(:hover, :active, :focus) {
@@ -469,6 +470,13 @@ kbd {
     color: #333;
     margin-top: var(--gap-small);
     font-size: 14px;
+}
+
+article img.img_float_right {
+    float: right;
+    max-height: 200px;
+    max-width: 33.3%;
+    margin-left: 5px;
 }
 
 /* Download button */
