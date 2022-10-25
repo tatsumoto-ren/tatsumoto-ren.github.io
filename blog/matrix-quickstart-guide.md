@@ -147,10 +147,13 @@ Until then keep in mind that homeservers can die unexpectedly and take accounts 
 ## Install a client program
 
 To talk on Matrix you need any Matrix client.
-All Matrix clients are listed on [Arch Wiki](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients).
 
-If you are a phone poster, open [F-droid](https://f-droid.org/) and search for Matrix clients.
-Usually people install `Element` or `Fluffychat`.
+* All Matrix clients are listed on [Arch Wiki](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients).
+* If you are a phone poster, open [F-droid](https://f-droid.org/) and search for Matrix clients.
+  Usually people install `Element` or `Fluffychat`.
+* [Nheko](https://github.com/Nheko-Reborn/nheko)
+  often requires
+  [this fix](https://github.com/Nheko-Reborn/nheko/issues/1187#issuecomment-1255831124).
 
 ## Choose homeserver
 
