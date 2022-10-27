@@ -6,8 +6,9 @@ tags: ['guide']
 
 This is Tatsumoto's AJATT FAQ.
 You can search questions you're interested in if you press `Ctrl+f`.
-I'm going to update this article as I receive more questions.
-If your question hasn't been answered, ask it in [our chat](join-our-community.html).
+
+**Note:** This article has been replaced and will not be updated anymore.
+All updates and additions will be posted [here](tag_faq.html).
 
 ****
 
