@@ -237,6 +237,7 @@ header label {
     background-color: var(--header-background);
     transition: background-color 0.1s;
     line-height: var(--header-height);
+    user-select: none;
 }
 
 header button:hover,
@@ -329,6 +330,12 @@ blockquote {
     padding: 0 1em;
     color: #6a737d;
     border-left: 0.25em solid #dfe2e5;
+}
+
+main ::selection {
+    background-color: #b3d4fc;
+    color: #000;
+    text-shadow: none;
 }
 
 main p {
@@ -673,7 +680,9 @@ input#menu-btn:checked~header .hamburger::after {
     color: gray;
     position: fixed;
     inset: 0 calc(-1 * var(--sidebar-width)) 0 auto;
-    transition: right 0.2s;
+    visibility: hidden;
+    transition: right 0.2s, visibility 0.2s;
+    box-shadow: 0 0 1rem hsl(0 0% 0% / 33%);
 }
 
 #sidebar ul,
@@ -707,6 +716,7 @@ input#menu-btn:checked~header .hamburger::after {
     display: inline;
     color: #ccc;
     text-decoration: none;
+    user-select: none;
 }
 
 #sidebar a:is(:hover, :active, :focus) {
@@ -729,6 +739,7 @@ input#menu-btn:checked~header .hamburger::after {
 
 input#menu-btn:checked~#sidebar {
     right: 0px;
+    visibility: visible;
 }
 
 /* Sidebar: Top links */
