@@ -74,6 +74,23 @@ To find the code you need to open the corresponding add-on page on
 <a href="https://ankiweb.net/shared/addons/">AnkiWeb</a>
 and scroll down to the &quot;Download&quot; section.</p>
 <hr>
+<h2 id="install-add-ons-i-use"><a class="anchor" href="#install-add-ons-i-use" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install add-ons I use</h2>
+<p>Anki doesn't have an option to install many add-ons at once.
+But there's a hack that allows you to force Anki to do it.
+By following the instructions below
+you can install the add-ons I use in my everyday studies (not every add-on from this page).</p>
+<ol>
+<li>Close Anki.</li>
+<li>Execute this shell-snippet.<div class="pre-wrap"><pre><code>for id in 1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
+do
+    mkdir -p -- &quot;$HOME/.local/share/Anki2/addons21/$id&quot;
+    touch -- &quot;$HOME/.local/share/Anki2/addons21/$id/__init__.py&quot;
+done
+</code></pre></div>
+</li>
+<li>Open Anki and go to &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Check for Updates&quot;.</li>
+<li>Restart Anki.</li>
+</ol>
 <h2 id="add-ons-worth-trying"><a class="anchor" href="#add-ons-worth-trying" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add-ons worth trying</h2>
 <h3 id="furigana"><a class="anchor" href="#furigana" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://ankiweb.net/shared/info/1344485230">Furigana</a></h3>
 <p>The most important add-on you'll need is AJT Furigana.
@@ -170,8 +187,8 @@ Depending on the value of your True Retention for the past month you can adjust 
 If you remember your cards too well it's worth increasing your <code>IM</code>
 and studying more cards a day or spending more time immersing.</p>
 <p>This is how True Retention is calculated:</p>
-<pre><code>tr = passed / (passed + flunked)
-</code></pre>
+<div class="pre-wrap"><pre><code>tr = passed / (passed + flunked)
+</code></pre></div>
 <p>where <code>passed</code> is a number of <code>review</code> cards that you answered <code>hard</code>, <code>good</code> or <code>easy</code>,
 and <code>flunked</code> is a number of <code>review</code> cards that you answered <code>again</code> on.</p>
 <p><strong>Note:</strong> on Anki 2.1.35+ you need to hold <code>Shift</code> down when you click &quot;Stats&quot;

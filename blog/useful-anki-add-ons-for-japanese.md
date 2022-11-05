@@ -14,6 +14,25 @@ and scroll down to the "Download" section.
 
 ****
 
+## Install add-ons I use
+
+Anki doesn't have an option to install many add-ons at once.
+But there's a hack that allows you to force Anki to do it.
+By following the instructions below
+you can install the add-ons I use in my everyday studies (not every add-on from this page).
+
+1) Close Anki.
+1) Execute this shell-snippet.
+   ```
+   for id in 1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
+   do
+       mkdir -p -- "$HOME/.local/share/Anki2/addons21/$id"
+       touch -- "$HOME/.local/share/Anki2/addons21/$id/__init__.py"
+   done
+   ```
+1) Open Anki and go to "Tools" > "Add-ons" > "Check for Updates".
+1) Restart Anki.
+
 ## Add-ons worth trying
 
 ### [Furigana](https://ankiweb.net/shared/info/1344485230)
