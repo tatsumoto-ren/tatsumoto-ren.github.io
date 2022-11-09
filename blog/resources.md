@@ -377,35 +377,41 @@ You may need a Japanese IP address for some of these.
 ### Recommendations
 
 * [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
-* [Luke Smith's Programs and Equipment](https://lukesmith.xyz/articles/programs-and-equipment-i-use)
+* [Luke Smith's Programs and Equipment](https://lukesmith.xyz/programs/)
 
 ### General
 
 * [LibreWolf](https://librewolf-community.gitlab.io/).
-A web browser based on Firefox that comes with an Ad Block by default.
-You can find it in
-[AUR](https://aur.archlinux.org/packages/librewolf-bin/).
+  A web browser based on Firefox that comes with an Ad Block by default.
+
+  I recommend getting LibreWolf [from Chaotic](https://aur.chaotic.cx/),
+  but you can also build it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
 * [Anki](https://wiki.archlinux.org/title/Anki)
-A free/libre flashcard application.
+  A free/libre flashcard application.
 * [Sxiv](https://wiki.archlinux.org/title/Sxiv).
-An image viewer perfect for reading manga.
+  An image viewer perfect for reading manga.
 * [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
-Simple manga reader made from a patched nsxiv.
-It extracts archives for you and opens them automatically with sxiv.
-It keeps your progress.
+  Simple manga reader made from a patched nsxiv.
+  It extracts archives for you and opens them automatically with sxiv.
+  It keeps your progress.
 * [Trackma](https://github.com/z411/trackma).
-Track your immersion on one of the supported sites.
+  Track your immersion on one of the supported sites.
 
 ### Work with subtitles
 
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
-Takes video files and subtitle files
-and creates cards with screenshots and/or audio for each line in the sub file.
-Useful for batch extracting audio from videos.
+  Takes video files and subtitle files
+  and creates cards with screenshots and/or audio for each line in the sub file.
+  Useful for batch extracting audio from videos.
 * [subtitleedit](https://aur.archlinux.org/packages/subtitleedit).
-A subtitle editor.
-It can convert image-based subtitles (`.sup`, `.sub`) to text-based (`.srt`)
-via an OCR engine such as Tesseract.
+  A subtitle editor.
+  It can convert image-based subtitles (`.sup`, `.sub`) to text-based (`.srt`)
+  via an OCR engine such as Tesseract.
+* [pyTranscriber](https://aur.archlinux.org/packages?K=pytranscriber).
+  A GUI program for generating subtitles using Google Speech Recognition.
+  You can use it to generate subtitles for video files that don't have any subtitles
+  or for audiobooks.
+  The produced subs will contain errors due to the nature of speech recognition.
 
 ### OCR for manga
 
@@ -552,14 +558,14 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 ### Tools for condensing audio
 
 * [impd](https://github.com/Ajatt-Tools/impd).
-Create condensed audio and automatically rotate your mpd playlist.
+  Create condensed audio and automatically rotate your mpd playlist.
 * [subs2cia](https://github.com/dxing97/subs2cia)
 
 ### Tools for extracting audio
 
 * [FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
 * [MKVToolNix](https://archlinux.org/packages/?q=mkvtoolnix)
-([official site](https://mkvtoolnix.download/))
+  ([official site](https://mkvtoolnix.download/))
 * [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
 
 ## Android software
@@ -587,12 +593,15 @@ Supports EPWING monolingual dictionaries.
 
 ### Book readers
 
+* [Librera Reader](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/).
+  App for reading books.
+  Was recommended in ラノベスレ.
 * [KOreader](https://f-droid.org/en/packages/org.koreader.launcher/).
-A book reader.
+  A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
-An EPUB reader for Android
-that lets you look up words as you read, similarly to Yomichan.
-Also supports EPWING dictionaries.
+  An EPUB reader for Android
+  that lets you look up words as you read, similarly to Yomichan.
+  Also supports EPWING dictionaries.
 
 ### Video players
 
@@ -718,23 +727,23 @@ A website on Kyoto dialect.
 
 ## Language guides
 
-### [AJATT](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/)
+### [AJATT](https://web.archive.org/web/20221027132422/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/)
 
 How to learn Japanese on your own, having fun and to fluency.
 
 Notable articles:
 
-* [Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
+* [Lazy Kanji](https://web.archive.org/web/20220803200002/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/).
   One of the many methods of learning kanji.
-* [10,000 Sentences: How](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
+* [10,000 Sentences: How](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
   The sentence mining method Khatzumoto used for learning Japanese.
-* [On Grammar](http://www.alljapaneseallthetime.com/blog/on-grammar).
+* [On Grammar](https://web.archive.org/web/20220129053732/http://www.alljapaneseallthetime.com/blog/on-grammar/).
 
 Anti-features:
 
 * Includes links to the Amazon website.
-[Amazon](https://stallman.org/amazon.html)
-is known for spying on and politically suppressing its users.
+  [Amazon](https://stallman.org/amazon.html)
+  is known for spying on and politically suppressing its users.
 * Contains outdated information.
 * Talks about MCD, which is a flashcard format that hasn't received much adoption
   over the years due to being too difficult and complicated.
