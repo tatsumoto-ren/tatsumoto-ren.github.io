@@ -366,6 +366,7 @@ You may need a Japanese IP address for some of these.
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
 * [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
+* [Jpsubbers drama subtitles - archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
 * [動漫花園](https://share.dmhy.org/)
 * [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
