@@ -259,7 +259,7 @@ It's more akin to what you're doing in real life when reading a book.
 The target word is embedded in a context that helps make the meaning of the word clear.
 
 But they have certain weaknesses, the main being **review time**.
-On sentence cards the target word is not emphasized in any way.
+On a sentence card the target word is not emphasized in any way.
 As a result during each rep you have to read the whole sentence
 and essentially test yourself on every word in it.
 On average, it takes 20 seconds to answer a sentence card.
@@ -278,7 +278,7 @@ To a lesser extent this also happens with word cards
 because having no context is a type of context in itself.
 When seeing the word in immersion,
 one might be unable to draw the connection and recall it.
-It is likely that context-dependent memories can form when using any type card templates.
+It is likely that context-dependent memories can form when using any type of card templates.
 To combat context-dependent memories, immersion is key.
 The knowledge of a word internalizes
 after seeing it enough times in different contexts in the wild.
@@ -306,7 +306,7 @@ and shouldn't be treated as an advantage of using sentence cards.
 ## Targeted sentence cards
 
 TSCs are like sentence cards, but you always make sure to highlight the target word.
-This is done by selecting the word and pressing `Ctrl+B` in Anki, nice and simple.
+This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
 Yomichan can do it too if its settings are tweaked in a certain way.
 
 <p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
