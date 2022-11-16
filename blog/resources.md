@@ -37,17 +37,23 @@ KanjiDamage+ kanji list on a single web page.
 * [RTK search](https://hochanh.github.io/rtk/).
 Kanji characters with Koohii stories.
 
-### Vocabulary
+### Anki decks
 
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
 * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
-* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
-This pack has a lot of cards.
-Unless you love doing Anki, I don't think it's necessary.
 * [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/).
-You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
+  You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
+* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
+  `subs2srs` Anki decks for popular anime and movies.
+* [steins-gate-anki](https://github.com/asakura42/steins-gate-anki).
+  Anki deck made from Steins;Gate.
+  Has lots of voiced example sentences.
+  [Version with Opus audio](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
+* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
+  This pack has a lot of cards.
+  Unless you love doing Anki, I don't think it's necessary.
 
 ### Grammar
 
@@ -163,7 +169,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [AsianCinema.Me](https://asiancinema.me/).
   Asian private tracker for Movies only.
 * [JPTVTS.US](https://jptvts.us/).
-  A private tracker for japanese content only.
+  A private tracker for Japanese content only.
 * [JPTV.CLUB](https://jptv.club/).
   Another private tracker.
   You can join if you have accounts on other private trackers.
@@ -251,7 +257,7 @@ A shared folder with movies and other content with Japanese dubs.
 ### Manga
 
 * [Torrent sites](#torrent-trackers).
-  Expore them first.
+  Explore them first.
 * [nhentai](https://nhentai.net/).
   For a bit of light reading.
   Many mangas on the site are just 25-30 pages long,
@@ -298,6 +304,8 @@ A shared folder with movies and other content with Japanese dubs.
 * [zlibrary](https://z-lib.org/).
   A library with books in any language.
   Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
+* [Anna’s Archive](https://annas-archive.org/).
+  A catalog of all the books in existence.
 * [小説を読もう！](https://yomou.syosetu.com/).
   Lets you read web novels for free.
 * [カクヨム](https://kakuyomu.jp/).
@@ -450,7 +458,7 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   In **Preferences**, set "When a word is selected" to "Copy"
   and "When multiple words are selected" to "Copy".
   This should be enough to comfortably use Foliate with
-  <span title="Can be opened by pressing Alt+Insert in you web browser">Yomicah Search</span>.
+  <span title="Can be opened by pressing Alt+Insert in you web browser">Yomichan Search</span>.
   Change Layout to "Scrolled" in Advanced section of the menu
   to prevent lags and ensure a consistent layout.
 
@@ -491,11 +499,11 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   A font that displays all 新字体 kanji in their 旧字体(正字体) form,
   including all the undocumented changes as well.
 * [花園明朝](http://fonts.jp/hanazono/).
-  This font is made by the glyphwiki project and support all unicode characters.
+  This font is made by the `glyphwiki` project and support all Unicode characters.
   Really good back up font when everything fails.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
-  Contains Yu Mincho, semi-cursive fonts and stroke order fonts.
+  Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
   You can simply extract the entire folder to `~/.local/share/fonts` to install them.
 
 ### mpv
@@ -596,7 +604,7 @@ Supports EPWING monolingual dictionaries.
 
 * [Librera Reader](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/).
   App for reading books.
-  Was recommended in ラノベスレ.
+  Was recommended in `ラノベスレ`.
 * [KOreader](https://f-droid.org/en/packages/org.koreader.launcher/).
   A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
@@ -641,36 +649,36 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 ### Online
 
 * [Dictionariez](https://github.com/pnlpal/dictionaries).
-A popup-dictionary extension that works similarly to Yomichan.
-Good for learners of English.
+  A popup-dictionary extension that works similarly to Yomichan.
+  Good for learners of English.
 * [jisho.org](https://jisho.org/)
 * [wadoku.de](https://wadoku.de/).
-Has pitch accent.
+  Has pitch accent.
 * [weblio.jp](https://www.weblio.jp/)
 * [goo辞書](https://dictionary.goo.ne.jp/)
 * [Kotobank](https://kotobank.jp/)
 * [ichi.moe](https://ichi.moe/)
 * [広辞苑無料検索](https://sakura-paris.org/dict/).
-Allows you to search many monolingual dictionaries.
+  Allows you to search many monolingual dictionaries.
 * [OJAD](http://www.gavo.t.u-tokyo.ac.jp/ojad/search).
-A pitch accent dictionary.
+  A pitch accent dictionary.
 * [日本語俗語辞書](http://zokugo-dict.com/).
-A monolingual slang dictionary.
+  A monolingual slang dictionary.
 * [伏字検索](http://fuseji.net/).
-Helps you decipher words partially occluded by symbols like `〇`.
+  Helps you decipher words partially occluded by symbols like `〇`.
 * [ふりがな文庫](https://furigana.info/).
-For any given word, searches through Aozora Bunko
-for all instances where it was used with furigana
-and shows the percentage of each reading.
-Great for when the dictionary lists multiple readings, and you want to know which is dominant.
+  For any given word, searches through Aozora Bunko
+  for all instances where it was used with furigana
+  and shows the percentage of each reading.
+  Great for when the dictionary lists multiple readings, and you want to know which is dominant.
 * [書き順](https://kakijun.jp).
-A website that shows you how to write a given kanji and how it looks written in different fonts.
+  A website that shows you how to write a given kanji and how it looks written in different fonts.
 * [漢字辞典](https://kanji.jitenon.jp/).
-Monolingual kanji dictionary.
+  Monolingual kanji dictionary.
 * [Jotoba](https://jotoba.de/).
-Jotoba is an open source multilingual Japanese dictionary.
+  An open source multilingual Japanese dictionary.
 * [連想類語辞典](https://renso-ruigo.com/).
-A dictionary of synonyms.
+  A dictionary of synonyms.
 * [Dictionaryphile - 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
   A list of various online dictoinaries.
 
@@ -822,6 +830,4 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
-Her guide is a little outdated but can still be useful.
-* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
-`subs2srs` Anki decks for popular anime and movies.
+  Her guide is a little outdated but can still be useful.
