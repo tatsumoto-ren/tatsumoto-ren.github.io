@@ -78,8 +78,8 @@ and a plugin for mpv called mpvacious.</p>
 It is fast, minimal, extensible and compatible with all video formats.
 mpv is available on most distributions of GNU/Linux.
 To install it on Arch Linux, execute the following command:</p>
-<pre><code>$ sudo pacman -S mpv
-</code></pre>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S mpv
+</code></pre></div>
 <p>Make sure you have version 0.33.0 or later.
 If such a version is not available on your distribution, see
 <a href="https://mpv.io/installation/">here</a>
@@ -91,7 +91,7 @@ create and open <code>~/.config/mpv/mpv.conf</code>.
 This step is not strictly necessary.</p>
 <details>
 <summary>Example configuration file</summary>
-<pre><code># Define language preferences
+<div class="pre-wrap"><pre><code># Define language preferences
 alang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
 slang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
 # mpv will resume where you left off when you reopen a media file
@@ -117,7 +117,7 @@ screenshot-template=&quot;%F_%wHh%wMm%wSs%wTms&quot;
 screenshot-format=jpg
 screenshot-jpeg-quality=90
 screenshot-high-bit-depth=yes
-</code></pre>
+</code></pre></div>
 </details>
 <p><strong>Note:</strong> To tell mpv to show subtitles in the font you selected in the config, press <code>u</code>.
 If you want to make the setting permanent, add <code>sub-ass-override=force</code> to <code>mpv.conf</code>.</p>
@@ -125,7 +125,7 @@ If you want to make the setting permanent, add <code>sub-ass-override=force</cod
 For all available bindings, see <code>/usr/share/doc/mpv/input.conf</code>.</p>
 <details>
 <summary>Example input.conf</summary>
-<pre><code># Increase / decrease subtitle font size
+<div class="pre-wrap"><pre><code># Increase / decrease subtitle font size
 # Works only when sub-ass-override=force
 # https://www.reddit.com/r/mpv/comments/dg5yzj/trouble_decreasing_subtitles_size/
 / add sub-scale +0.1
@@ -157,7 +157,7 @@ X sub-step 1
 x sub-step -1
 # Toggle OSD visibility
 V script-binding visibility
-</code></pre>
+</code></pre></div>
 </details>
 <h2 id="download-content"><a class="anchor" href="#download-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download content</h2>
 <p>Always download what you watch.
@@ -209,8 +209,8 @@ and
 to work.</p>
 <h3 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h3>
 <p>mpvacious can be installed with <code>git</code>:</p>
-<pre><code>$ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
-</code></pre>
+<div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+</code></pre></div>
 <h3 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h3>
 <p>Download the
 <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/.github/RELEASE/subs2srs.conf">example config file</a>
@@ -240,12 +240,18 @@ by pressing <code>c</code> and moving the position with <code>Shift+h</code> and
 Finish by pressing <code>m</code>.</li>
 <li>The Anki Browser window should appear with the card updated.</li>
 </ol>
+<h3 id="creating-cards-without-pausing"><a class="anchor" href="#creating-cards-without-pausing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating cards without pausing</h3>
 <p>You can save sentences for later without adding definitions.
-To do so, press <code>Ctrl+n</code>.</p>
+Since you don't have to pause to read the dictionary, this approach is less disruptive.
+Press <code>Ctrl+n</code> to add the current subtitle line to Anki as a new card.
+When you finish watching, open the Anki Browser and type <code>added:1</code> to display cards added today.
+Finally, add dictionary definitions to the cards.</p>
+<p>If you want to create a card from multiple adjacent subtitle lines,
+do it using the advanced menu as described in the previous section.</p>
 <h3 id="updating"><a class="anchor" href="#updating" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating</h3>
 <p>To update mpvacious, run the command below:</p>
-<pre><code>$ cd ~/.config/mpv/scripts/subs2srs &amp;&amp; git pull
-</code></pre>
+<div class="pre-wrap"><pre><code>$ cd ~/.config/mpv/scripts/subs2srs &amp;&amp; git pull
+</code></pre></div>
 <h2 id="should-i-use-a-text-hooker-page"><a class="anchor" href="#should-i-use-a-text-hooker-page" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Should I use a &quot;text hooker&quot; page?</h2>
 <p>No.</p>
 <p>Though you often see such recommendations,

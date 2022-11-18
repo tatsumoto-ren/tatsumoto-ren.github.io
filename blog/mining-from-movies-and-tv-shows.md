@@ -228,15 +228,23 @@ If you don't, make sure to adjust at least the following variables:
 1) Enable clipboard monitor in Yomichan Search.
 1) When there is a word you want to mine, create a card with Yomichan.
 1) Go back to the mpv window and press `Ctrl+m`.
-If you want to grab a sentence that spans multiple lines,
-press `a` to open the advanced menu.
-Then mark the lines you want to appear on the card
-by pressing `c` and moving the position with `Shift+h` and `Shift+l`.
-Finish by pressing `m`.
+   If you want to grab a sentence that spans multiple lines,
+   press `a` to open the advanced menu.
+   Then mark the lines you want to appear on the card
+   by pressing `c` and moving the position with `Shift+h` and `Shift+l`.
+   Finish by pressing `m`.
 1) The Anki Browser window should appear with the card updated.
 
+### Creating cards without pausing
+
 You can save sentences for later without adding definitions.
-To do so, press `Ctrl+n`.
+Since you don't have to pause to read the dictionary, this approach is less disruptive.
+Press `Ctrl+n` to add the current subtitle line to Anki as a new card.
+When you finish watching, open the Anki Browser and type `added:1` to display cards added today.
+Finally, add dictionary definitions to the cards.
+
+If you want to create a card from multiple adjacent subtitle lines,
+do it using the advanced menu as described in the previous section.
 
 ### Updating
 
