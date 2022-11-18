@@ -10,7 +10,7 @@ which is referred to as *target word*.
 
 To mine sentences from movies and TV-shows
 you are going to need the mpv video player,
-and a plugin for mpv called mpvacious.
+and a plugin for mpv called Mpvacious.
 
 ****
 
@@ -110,7 +110,7 @@ k seek  60
 K cycle sub
 J cycle sub down
 
-# Skip to previous/next subtitle line (disabled - use mpvacioius)
+# Skip to previous/next subtitle line (disabled - use Mpvacioius)
 #H no-osd sub-seek -1
 #L no-osd sub-seek 1
 
@@ -177,22 +177,26 @@ Don't forget that if you have English subtitles enabled,
 at best you're going to improve your English,
 but your Japanese is not going to get any better.
 
-## mpvacious
+## Mpvacious
 
-[mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-is a plugin for the mpv video player
+[Mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+is a user-script for the mpv video player
 that allows you to make Anki cards
 while watching movies and TV shows in your target language.
 
-mpvacious can update Anki cards you add with Yomichan
+Mpvacious can update Anki cards you add with Yomichan
 by filling the audio and screenshot fields.
 Here is a video demonstration:
 
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vU85ramvyo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
+The user-script has a long list of features and configuration options.
+For details explore the documentation on GitHub.
+Below I'm going to write about how I use it.
+
 ### Requirements
 
-mpvacious needs
+Mpvacious needs
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159)
 and
 [xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
@@ -200,7 +204,7 @@ to work.
 
 ### Installation
 
-mpvacious can be installed with `git`:
+Mpvacious can be installed with `git`:
 
 ```
 $ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
@@ -248,7 +252,7 @@ do it using the advanced menu as described in the previous section.
 
 ### Updating
 
-To update mpvacious, run the command below:
+To update Mpvacious, run the command below:
 
 ```
 $ cd ~/.config/mpv/scripts/subs2srs && git pull
