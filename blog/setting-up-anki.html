@@ -93,7 +93,8 @@ to help you get things up and running as quickly as possible.</p>
 </ul>
 <p>The first method guarantees that you'll have the right dependencies installed,
 but you may get an old version of Anki.
-Distro maintainers are not very good at keeping Anki up-to-date.
+Distro maintainers are not very good at keeping Anki up-to-date,
+although on rolling release GNU distributions this is not as noticeable.
 The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.</p>
 <p>Please don't install Anki via <strong>FlatPak</strong>, Snap packages or other non-native package managers.
@@ -102,33 +103,41 @@ People have been reporting various problems connected to these installation meth
 to avoid possible issues.</p>
 <h3 id="using-your-package-manager"><a class="anchor" href="#using-your-package-manager" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using your package manager</h3>
 <ul>
-<li>On Arch Linux
-the official binary from
+<li><p>On Arch Linux and other pacman-based distributions the official binary from
 <a href="https://github.com/ankitects/anki/releases/">GitHub</a>
 can be obtained by installing
-<a href="https://aur.archlinux.org/packages/anki-official-binary-bundle/">anki-official-binary-bundle</a>.</li>
-<li>If you're not an Arch Linux user,
-I'm sure you'll find Anki in repositories of your distribution as well.</li>
-<li>Debian users and users of other <em>stable</em> distros should note that
+<a href="https://aur.archlinux.org/packages/anki-official-binary-bundle/">anki-official-binary-bundle</a>
+from the AUR.</p>
+<p>Anki is also available in Chaotic.
+<a href="https://aur.chaotic.cx/">Chaotic</a> is a repository that provides prebuilt AUR packages.
+After you enable the repository,
+install Anki with <code>sudo pacman -S anki</code> as any other package.</p>
+</li>
+<li><p>If you're not an Arch Linux user,
+I'm sure you'll find Anki in repositories of your distribution.
+To find Anki for your OS you can use <a href="https://pkgs.org/search/?q=Anki">pkgs.org</a>.</p>
+</li>
+<li><p>Debian users and users of other <em>stable</em> distros should note that
 outdated versions of Anki work poorly with most add-ons, especially new ones.
-Use a version released at least 6 months ago or newer.</li>
+Use a version released at least 6 months ago or newer.</p>
+</li>
 </ul>
 <h3 id="using-pip"><a class="anchor" href="#using-pip" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using pip</h3>
 <p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
-<pre><code>$ pip install --upgrade aqt
-</code></pre>
+<div class="pre-wrap"><pre><code>$ pip install --upgrade aqt
+</code></pre></div>
 <p>The default toolkit is <code>Qt5</code>.
 If you want Anki to use <code>Qt6</code> instead:</p>
-<pre><code>$ pip install --upgrade 'aqt[qt6]'
-</code></pre>
-<p>On my computer Fcitx refuses to work with the Qt6 version,
+<div class="pre-wrap"><pre><code>$ pip install --upgrade 'aqt[qt6]'
+</code></pre></div>
+<p>On my computer Fcitx refuses to work with the <code>Qt6</code> version,
 I use Qt5 for now.</p>
 <details>
 <summary>Notes</summary>
 <ul>
 <li><code>pip</code> places executable files in <code>~/.local/bin/</code> by default.
 Don't forget to add this directory to the
-<a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</li>
+<a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</li>
 <li>To run Anki, type <code>anki</code> in the terminal and press Enter.
 However, having a
 <a href="https://wiki.archlinux.org/title/Desktop_entries">desktop entry</a>
@@ -154,8 +163,8 @@ from PyPI.</li>
 </ul>
 <p>You can tell <code>pip</code> to install a specific version.
 This is handy when the latest version malfunctions.</p>
-<pre><code>pip3 install --upgrade --pre &quot;aqt==2.1.49&quot;
-</code></pre>
+<div class="pre-wrap"><pre><code>pip3 install --upgrade --pre &quot;aqt==2.1.49&quot;
+</code></pre></div>
 </details>
 <h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
 <ul>
@@ -183,7 +192,7 @@ because AnkiDroid's releases are slow.</p>
 to keep your flashcards formatted as you like.
 Anki comes with a few basic Note Types, but they aren't suited for learning Japanese.</p>
 <p>Because making your own <code>Note Type</code> is a tedious process
-consisting of essentially adding the fields you need and copy-pasting html and css,
+consisting of essentially adding the fields you need and copy-pasting HTML and CSS,
 I recommend you to import a pre-made mining deck.</p>
 <p>A sample mining deck can be found here:</p>
 <ul>
@@ -203,8 +212,10 @@ so you don't need to install any additional dependencies.</p>
 and Anki isn't optimized for any of them in particular.</p>
 <p>To optimize Anki for language learning
 I recommend the following settings.</p>
-<h3 id="preferences"><a class="anchor" href="#preferences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preferences</h3>
-<p>You can access preferences by going to <code>Tools &gt; Preferences…</code> on Anki’s main window.</p>
+<h2 id="preferences"><a class="anchor" href="#preferences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preferences</h2>
+<p>Preferences control behavior of your Anki collection.
+They apply to all decks.
+You can access preferences by going to <code>Tools &gt; Preferences…</code> on Anki’s main window.</p>
 <ul>
 <li><p><strong>Learn ahead limit.</strong>
 I recommend keeping the value close to the default of 20 minutes.
@@ -246,8 +257,10 @@ Filtered decks no longer reset learning steps when rebuilt or emptied.</li>
 </li>
 </ul>
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
-<h3 id="options-groups"><a class="anchor" href="#options-groups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options Groups</h3>
+<h2 id="options-groups"><a class="anchor" href="#options-groups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options Groups</h2>
 <p>Each deck has an Options Group attached to it.
+Options Groups define deck-specific settings.
+Every deck can have different settings depending on its Options Group.
 The sub-deck options will override the parent deck options.
 Click <code>Deck &gt; Options</code> to access Options Groups settings.
 You can hit Manage to create additional options groups.</p>
@@ -269,9 +282,9 @@ The options are described later in this article.</p>
 <p align="center"><i>Settings.</i></p>
 </details>
 <p>Below are the options I recommended using.</p>
-<h4 id="new-cards"><a class="anchor" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h4>
-<ul>
-<li><p><strong>Learning steps:</strong> This is the number of times you have to answer <code>good</code> on the card
+<h3 id="new-cards"><a class="anchor" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h3>
+<h4 id="learning-steps"><a class="anchor" href="#learning-steps" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Learning steps</h4>
+<p>This is the number of times you have to answer <code>good</code> on the card
 before it graduates.
 I recommend beginners to stick to the default learning steps of <code>1 10</code>.
 When you get more familiar with Anki you can add your custom steps and experiment with them.
@@ -284,8 +297,8 @@ if you see that remembering new cards is more difficult than you thought.
 This means specifying an interval in seconds instead of minutes.
 For the new settings menu you just type <code>30s</code> for 30 seconds.
 For the old menu you need to specify a decimal like this: <code>0.5</code>.</p>
-</li>
-<li><p><strong>New cards/day:</strong> In general controls how many cards you learn each day,
+<h4 id="new-cards-day"><a class="anchor" href="#new-cards-day" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards/day</h4>
+<p>In general controls how many cards you learn each day,
 though you can always learn more if you want.
 The default value of <code>20</code> cards is very reasonable and manageable for most users.
 However, if you feel overwhelmed by the amount of reviews you have to do,
@@ -296,26 +309,24 @@ but generally in the AJATT community it is advised to learn no more than <code>3
 This is because I use <a href="https://ankiweb.net/shared/info/1021636467">Learn Now Button</a>
 to <strong>manually pick</strong> and learn cards from my Sentence Bank.
 For me personally it's better than having Anki decide for me.</p>
-</li>
-<li><p><strong>Starting Ease:</strong> Every card has a property called <em>Ease factor</em>.
+<h4 id="starting-ease"><a class="anchor" href="#starting-ease" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starting Ease</h4>
+<p>Every card has a property called <em>Ease factor</em>.
 Over time the Ease factor can change and cause negative side effects.
 Set the Starting Ease to <code>131%</code> to avoid the side effects.
 More about it <a href="#ease-hell">later</a>.</p>
-</li>
-</ul>
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
-<h4 id="reviews"><a class="anchor" href="#reviews" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reviews</h4>
-<ul>
-<li><p><strong>Maximum reviews/day:</strong> This value sets an arbitrary cap on the amount of reviews you can do each day.
+<h3 id="reviews"><a class="anchor" href="#reviews" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reviews</h3>
+<h4 id="maximum-reviews-day"><a class="anchor" href="#maximum-reviews-day" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum reviews/day</h4>
+<p>This value sets an arbitrary cap on the amount of reviews you can do each day.
 If the cap is low, your due cards won't magically disappear after you've done with the reviews.
 Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.</p>
-</li>
-<li><p><strong>Interval modifier:</strong> Now here is where it gets interesting.
+<h4 id="interval-modifier"><a class="anchor" href="#interval-modifier" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interval modifier</h4>
+<p>Now here is where it gets interesting.
 When you answer <strong>Good</strong> on a card, its interval is recalculated:</p>
-<pre><code>New interval = current interval * Card's ease * Interval Modifier
-</code></pre>
+<div class="pre-wrap"><pre><code>New interval = current interval * Card's ease * Interval Modifier
+</code></pre></div>
 <p>By default, new interval is <code>2.5 * last interval</code>.
 At its default value of 100%, <code>Interval Modifier</code> does nothing.
 However, this is not what you want
@@ -325,36 +336,32 @@ To restore the balance bump <code>Interval Modifier</code> up to 192%.
 <p>Later after you've used Anki for a couple of months and have had high <em>retention rate</em>,
 you can increase the value further and do fewer reviews.
 If you forget too many cards, it is recommended to lower it a bit.</p>
-</li>
-<li><p><strong>Easy bonus</strong> and <strong>Hard interval</strong>: Ignore these settings as you should never use
+<h4 id="easy-bonus-and-hard-interval"><a class="anchor" href="#easy-bonus-and-hard-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Easy bonus and Hard interval</h4>
+<p>Ignore these settings as you should never use
 the &quot;Hard&quot; and &quot;Easy&quot; buttons.</p>
-  <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
+<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 <p>The &quot;Hard&quot; and &quot;Easy&quot; buttons have counter-intuitive effects on Anki's algorithm,
 which causes long-term problems with Ease of your cards.</p>
 <p><a href="https://ankiweb.net/shared/info/1715096333">AJT Flexible Grading</a> can hide unwanted buttons.
 It is covered in greater detail later.</p>
 <p>An alternative way to make &quot;Hard&quot;, &quot;Good&quot; and &quot;Easy&quot; buttons behave the same would be
 <a href="https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707">using the V3 scheduler's custom scheduling mechanism</a>.</p>
-</li>
-<li><p><strong>Maximum interval:</strong> Intervals of your cards can never increase beyond this limit.
+<h4 id="maximum-interval"><a class="anchor" href="#maximum-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum interval</h4>
+<p>Intervals of your cards can never increase beyond this limit.
 I advise setting it as big as possible.
 The default is <code>36500</code> days, which is equal to <code>100</code> years.
 However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
-</li>
-</ul>
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
-<h4 id="lapses"><a class="anchor" href="#lapses" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lapses</h4>
-<ul>
-<li><p><strong>Steps (in minutes):</strong>
-Works similar to the setting in the <code>New Cards</code> tab,
+<h3 id="lapses"><a class="anchor" href="#lapses" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lapses</h3>
+<h4 id="steps-in-minutes"><a class="anchor" href="#steps-in-minutes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Steps (in minutes)</h4>
+<p>Works similar to the setting in the <code>New Cards</code> tab,
 except it’s for cards you've pressed “Again” on.
 It affects how well you will relearn your lapsed cards.
 Beginners should set one learning step and observe their experience.
 The default of <code>10</code> minutes is okay, but I prefer a slightly bigger one.
 Later you can experiment with more learning steps.</p>
-</li>
-<li><p><strong>New interval:</strong>
-You often still somewhat remember a word in Japanese even if you fail it.
+<h4 id="new-interval"><a class="anchor" href="#new-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New interval</h4>
+<p>You often still somewhat remember a word in Japanese even if you fail it.
 A different context or another word, or studying it on a different day may jog your memory.
 Thus, we don't need to fully penalize a fail here.</p>
 <p>For example, if you use a new interval of 50%,
@@ -365,9 +372,8 @@ The recommended range in the AJATT community is between 50 and 75%.</p>
 <p>For a <code>word cards</code> deck you may set it to about 30-40%
 because word cards are noticeably harder than <code>sentence cards</code>.
 I explain differences between card templates later.</p>
-</li>
-<li><p><strong>Leech threshold</strong> and <strong>Leech action</strong>:
-<em>Leeches</em> are cards that you keep on forgetting and relearning over and over.
+<h4 id="leech-threshold-and-leech-action"><a class="anchor" href="#leech-threshold-and-leech-action" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Leech threshold and Leech action</h4>
+<p><em>Leeches</em> are cards that you keep on forgetting and relearning over and over.
 Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
 You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.</p>
 <p>Possible ways to deal with leeches:</p>
@@ -387,8 +393,6 @@ you can try to memorize a
 of it.
 Find a different example sentence in your Sentence Bank or online.
 For example, on <a href="https://ejje.weblio.jp/sentence/">weblio</a>.</p>
-</li>
-</ul>
 </li>
 </ul>
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
@@ -472,13 +476,13 @@ install <a href="https://aur.archlinux.org/packages/qt6gtk2">qt6gtk2</a>.</li>
 <li>Set the following
 <a href="https://wiki.archlinux.org/title/Environment_variables#Graphical_environment">environment variable</a>:</li>
 </ol>
-<pre><code>export QT_QPA_PLATFORMTHEME=gtk2
-</code></pre>
+<div class="pre-wrap"><pre><code>export QT_QPA_PLATFORMTHEME=gtk2
+</code></pre></div>
 <p>Then re-login or reboot.</p>
 <h3 id="kvantum"><a class="anchor" href="#kvantum" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>kvantum</h3>
 <p>Install the requirements: <code>kvantum</code>, <code>qt5ct</code>, <code>qt6ct</code>.</p>
-<pre><code>$ sudo pacman -S kvantum qt5ct qt6ct
-</code></pre>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S kvantum qt5ct qt6ct
+</code></pre></div>
 <ol>
 <li><p>Launch <code>kvantummanager</code>,
 select &quot;Change/Delete Theme&quot;
@@ -507,12 +511,12 @@ install the <code>Qt5</code> version of Anki
 and instead of setting the environment variable system-wide,
 set it locally.
 It can be achieved by launching Anki like this:</p>
-<pre><code>QT_QPA_PLATFORMTHEME=qt5ct anki
-</code></pre>
+<div class="pre-wrap"><pre><code>QT_QPA_PLATFORMTHEME=qt5ct anki
+</code></pre></div>
 <p>To make the setting persist,
 in the <code>.desktop</code> file (see <code>pip</code> <a href="setting-up-anki.html#using-pip">install notes</a>) change <code>Exec=</code> to:</p>
-<pre><code>Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
-</code></pre>
+<div class="pre-wrap"><pre><code>Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
+</code></pre></div>
 <h2 id="trying-different-versions"><a class="anchor" href="#trying-different-versions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Trying different versions</h2>
 <p>If you want to install and test multiple versions of Anki at the same time,
 use the following functions.
@@ -522,7 +526,7 @@ or
 <a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh">~/.zshrc</a>.</p>
 <p>Install a specific version.
 For example, run <code>anki_test_install 45</code> to install Anki <code>2.1.45</code>.</p>
-<pre><code>anki_test_install() {
+<div class="pre-wrap"><pre><code>anki_test_install() {
     local -r version=${1:?No version provided.}
     local -r dir=~/.local/share/anki_builds/&quot;anki_$version&quot;
     (
@@ -532,10 +536,10 @@ For example, run <code>anki_test_install 45</code> to install Anki <code>2.1.45<
         ./pyenv/bin/pip3 install --upgrade --pre &quot;aqt==2.1.$version&quot;
     )
 }
-</code></pre>
+</code></pre></div>
 <p>Run a specific version.
 This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to ask what version you want to run.</p>
-<pre><code>anki_test_run() {
+<div class="pre-wrap"><pre><code>anki_test_run() {
     local -r dir=~/.local/share/anki_builds
     if [[ $* ]]; then
         local -r choice=$*
@@ -546,7 +550,7 @@ This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to a
         (cd -- &quot;$dir/$choice&quot; &amp;&amp; ./pyenv/bin/anki)
     fi
 }
-</code></pre>
+</code></pre></div>
 <p>These functions are
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc">available on my GitHub</a>.</p>
 <h2 id="unicode-normalization"><a class="anchor" href="#unicode-normalization" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unicode normalization</h2>
@@ -567,8 +571,8 @@ and wish to prevent them from being converted into modern equivalents,
 open the debug console by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>
 and paste the following.
 Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to apply.</p>
-<pre><code>mw.col.conf[&quot;normalize_note_text&quot;] = False
-</code></pre>
+<div class="pre-wrap"><pre><code>mw.col.conf[&quot;normalize_note_text&quot;] = False
+</code></pre></div>
 <p>This setting should be applied <strong>to each collection</strong> (Anki profile) individually.</p>
 <p>Read this <a href="https://forums.ankiweb.net/t/inconsistent-unicode-normalization/22634">Anki forum post</a>
 for reference.</p>

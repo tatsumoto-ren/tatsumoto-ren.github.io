@@ -37,7 +37,8 @@ There are two main ways to install Anki.
 
 The first method guarantees that you'll have the right dependencies installed,
 but you may get an old version of Anki.
-Distro maintainers are not very good at keeping Anki up-to-date.
+Distro maintainers are not very good at keeping Anki up-to-date,
+although on rolling release GNU distributions this is not as noticeable.
 The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.
 
@@ -49,16 +50,22 @@ to avoid possible issues.
 
 ### Using your package manager
 
-* On Arch Linux
-the official binary from
-[GitHub](https://github.com/ankitects/anki/releases/)
-can be obtained by installing
-[anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/).
+* On Arch Linux and other pacman-based distributions the official binary from
+  [GitHub](https://github.com/ankitects/anki/releases/)
+  can be obtained by installing
+  [anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/)
+  from the AUR.
+
+  Anki is also available in Chaotic.
+  [Chaotic](https://aur.chaotic.cx/) is a repository that provides prebuilt AUR packages.
+  After you enable the repository,
+  install Anki with `sudo pacman -S anki` as any other package.
 * If you're not an Arch Linux user,
-I'm sure you'll find Anki in repositories of your distribution as well.
+  I'm sure you'll find Anki in repositories of your distribution.
+  To find Anki for your OS you can use [pkgs.org](https://pkgs.org/search/?q=Anki).
 * Debian users and users of other *stable* distros should note that
-outdated versions of Anki work poorly with most add-ons, especially new ones.
-Use a version released at least 6 months ago or newer.
+  outdated versions of Anki work poorly with most add-ons, especially new ones.
+  Use a version released at least 6 months ago or newer.
 
 ### Using pip
 
@@ -75,7 +82,7 @@ If you want Anki to use `Qt6` instead:
 $ pip install --upgrade 'aqt[qt6]'
 ```
 
-On my computer Fcitx refuses to work with the Qt6 version,
+On my computer Fcitx refuses to work with the `Qt6` version,
 I use Qt5 for now.
 
 <details>
@@ -83,7 +90,7 @@ I use Qt5 for now.
 
 * `pip` places executable files in `~/.local/bin/` by default.
 Don't forget to add this directory to the
-[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
+[PATH](how-do-i-add-a-directory-to-the-path.html).
 * To run Anki, type `anki` in the terminal and press Enter.
 However, having a
 [desktop entry](https://wiki.archlinux.org/title/Desktop_entries)
@@ -147,7 +154,7 @@ to keep your flashcards formatted as you like.
 Anki comes with a few basic Note Types, but they aren't suited for learning Japanese.
 
 Because making your own `Note Type` is a tedious process
-consisting of essentially adding the fields you need and copy-pasting html and css,
+consisting of essentially adding the fields you need and copy-pasting HTML and CSS,
 I recommend you to import a pre-made mining deck.
 
 A sample mining deck can be found here:
@@ -172,8 +179,10 @@ and Anki isn't optimized for any of them in particular.
 To optimize Anki for language learning
 I recommend the following settings.
 
-### Preferences
+## Preferences
 
+Preferences control behavior of your Anki collection.
+They apply to all decks.
 You can access preferences by going to `Tools > Preferences…` on Anki’s main window.
 
 * **Learn ahead limit.**
@@ -215,9 +224,11 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 
-### Options Groups
+## Options Groups
 
 Each deck has an Options Group attached to it.
+Options Groups define deck-specific settings.
+Every deck can have different settings depending on its Options Group.
 The sub-deck options will override the parent deck options.
 Click `Deck > Options` to access Options Groups settings.
 You can hit Manage to create additional options groups.
@@ -248,133 +259,154 @@ The options are described later in this article.
 
 Below are the options I recommended using.
 
-#### New cards
+### New cards
 
-* **Learning steps:** This is the number of times you have to answer `good` on the card
-  before it graduates.
-  I recommend beginners to stick to the default learning steps of `1 10`.
-  When you get more familiar with Anki you can add your custom steps and experiment with them.
-  But don't overdo it: too many steps will make you spend too much time in Anki
-  for no substantial gain in retention.
-  The `learn ahead` option set in the previous section
-  will make sure that you won't be shown cards with large steps too early.
+#### Learning steps
 
-  You can experiment with so-called micro steps
-  if you see that remembering new cards is more difficult than you thought.
-  This means specifying an interval in seconds instead of minutes.
-  For the new settings menu you just type `30s` for 30 seconds.
-  For the old menu you need to specify a decimal like this: `0.5`.
-* **New cards/day:** In general controls how many cards you learn each day,
-  though you can always learn more if you want.
-  The default value of `20` cards is very reasonable and manageable for most users.
-  However, if you feel overwhelmed by the amount of reviews you have to do,
-  lower it to about `10` new cards a day.
-  Doing more cards is also possible if you can keep up with the review load,
-  but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
+This is the number of times you have to answer `good` on the card
+before it graduates.
+I recommend beginners to stick to the default learning steps of `1 10`.
+When you get more familiar with Anki you can add your custom steps and experiment with them.
+But don't overdo it: too many steps will make you spend too much time in Anki
+for no substantial gain in retention.
+The `learn ahead` option set in the previous section
+will make sure that you won't be shown cards with large steps too early.
 
-  I keep my setting at `0`.
-  This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
-  to **manually pick** and learn cards from my Sentence Bank.
-  For me personally it's better than having Anki decide for me.
-* **Starting Ease:** Every card has a property called *Ease factor*.
-  Over time the Ease factor can change and cause negative side effects.
-  Set the Starting Ease to `131%` to avoid the side effects.
-  More about it [later](#ease-hell).
+You can experiment with so-called micro steps
+if you see that remembering new cards is more difficult than you thought.
+This means specifying an interval in seconds instead of minutes.
+For the new settings menu you just type `30s` for 30 seconds.
+For the old menu you need to specify a decimal like this: `0.5`.
+
+#### New cards/day
+
+In general controls how many cards you learn each day,
+though you can always learn more if you want.
+The default value of `20` cards is very reasonable and manageable for most users.
+However, if you feel overwhelmed by the amount of reviews you have to do,
+lower it to about `10` new cards a day.
+Doing more cards is also possible if you can keep up with the review load,
+but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
+
+I keep my setting at `0`.
+This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
+to **manually pick** and learn cards from my Sentence Bank.
+For me personally it's better than having Anki decide for me.
+
+#### Starting Ease
+
+Every card has a property called *Ease factor*.
+Over time the Ease factor can change and cause negative side effects.
+Set the Starting Ease to `131%` to avoid the side effects.
+More about it [later](#ease-hell).
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
-#### Reviews
+### Reviews
 
-* **Maximum reviews/day:** This value sets an arbitrary cap on the amount of reviews you can do each day.
+#### Maximum reviews/day
+
+This value sets an arbitrary cap on the amount of reviews you can do each day.
 If the cap is low, your due cards won't magically disappear after you've done with the reviews.
 Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.
 
-* **Interval modifier:** Now here is where it gets interesting.
-    When you answer **Good** on a card, its interval is recalculated:
-    ```
-    New interval = current interval * Card's ease * Interval Modifier
-    ```
-    By default, new interval is `2.5 * last interval`.
-    At its default value of 100%, `Interval Modifier` does nothing.
-    However, this is not what you want
-    because you've just lowered `Starting Ease` to 131% in the previous section.
-    To restore the balance bump `Interval Modifier` up to 192%.
-    `1.92 * 1.31` is roughly equal to `2.5`.
+#### Interval modifier
 
-    Later after you've used Anki for a couple of months and have had high *retention rate*,
-    you can increase the value further and do fewer reviews.
-    If you forget too many cards, it is recommended to lower it a bit.
+Now here is where it gets interesting.
+When you answer **Good** on a card, its interval is recalculated:
 
-* **Easy bonus** and **Hard interval**: Ignore these settings as you should never use
+```
+New interval = current interval * Card's ease * Interval Modifier
+```
+
+By default, new interval is `2.5 * last interval`.
+At its default value of 100%, `Interval Modifier` does nothing.
+However, this is not what you want
+because you've just lowered `Starting Ease` to 131% in the previous section.
+To restore the balance bump `Interval Modifier` up to 192%.
+`1.92 * 1.31` is roughly equal to `2.5`.
+
+Later after you've used Anki for a couple of months and have had high *retention rate*,
+you can increase the value further and do fewer reviews.
+If you forget too many cards, it is recommended to lower it a bit.
+
+#### Easy bonus and Hard interval
+
+Ignore these settings as you should never use
 the "Hard" and "Easy" buttons.
 
-    <p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
+<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
 
-    The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
-    which causes long-term problems with Ease of your cards.
+The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
+which causes long-term problems with Ease of your cards.
 
-    [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
-    It is covered in greater detail later.
+[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
+It is covered in greater detail later.
 
-    An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
-    [using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
+An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
+[using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
 
-* **Maximum interval:** Intervals of your cards can never increase beyond this limit.
-    I advise setting it as big as possible.
-    The default is `36500` days, which is equal to `100` years.
-    However, you can decrease this to a smaller number if you want to ensure long-term retention.
+#### Maximum interval
+
+Intervals of your cards can never increase beyond this limit.
+I advise setting it as big as possible.
+The default is `36500` days, which is equal to `100` years.
+However, you can decrease this to a smaller number if you want to ensure long-term retention.
 
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
 
-#### Lapses
+### Lapses
 
-* **Steps (in minutes):**
-    Works similar to the setting in the `New Cards` tab,
-    except it’s for cards you've pressed “Again” on.
-    It affects how well you will relearn your lapsed cards.
-    Beginners should set one learning step and observe their experience.
-    The default of `10` minutes is okay, but I prefer a slightly bigger one.
-    Later you can experiment with more learning steps.
+#### Steps (in minutes)
 
-* **New interval:**
-    You often still somewhat remember a word in Japanese even if you fail it.
-    A different context or another word, or studying it on a different day may jog your memory.
-    Thus, we don't need to fully penalize a fail here.
+Works similar to the setting in the `New Cards` tab,
+except it’s for cards you've pressed “Again” on.
+It affects how well you will relearn your lapsed cards.
+Beginners should set one learning step and observe their experience.
+The default of `10` minutes is okay, but I prefer a slightly bigger one.
+Later you can experiment with more learning steps.
 
-    For example, if you use a new interval of 50%,
-    when you lapse a card and relearn it,
-    the interval won't be reset back to 1 day,
-    it will be half of the previous interval.
-    The recommended range in the AJATT community is between 50 and 75%.
+#### New interval
 
-    For a `word cards` deck you may set it to about 30-40%
-    because word cards are noticeably harder than `sentence cards`.
-    I explain differences between card templates later.
+You often still somewhat remember a word in Japanese even if you fail it.
+A different context or another word, or studying it on a different day may jog your memory.
+Thus, we don't need to fully penalize a fail here.
 
-* **Leech threshold** and **Leech action**:
-    *Leeches* are cards that you keep on forgetting and relearning over and over.
-    Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
-    You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.
+For example, if you use a new interval of 50%,
+when you lapse a card and relearn it,
+the interval won't be reset back to 1 day,
+it will be half of the previous interval.
+The recommended range in the AJATT community is between 50 and 75%.
 
-    Possible ways to deal with leeches:
+For a `word cards` deck you may set it to about 30-40%
+because word cards are noticeably harder than `sentence cards`.
+I explain differences between card templates later.
 
-    * **Delete them:** For those small minority of cards that just won’t stick,
-    it’s best to just get rid of them. Instead of wasting a bunch of time on a single leech,
-    it’s more productive to learn 5 normal cards in its place.
+#### Leech threshold and Leech action
 
-    * **Keep them for later:** If you can't remember a word after 4-5 lapses,
-    it means that your brain hasn't been primed yet to acquire it.
-    Wait a month or two and try again.
-    Often you'll find that cards that would not stick before had become very easy.
+*Leeches* are cards that you keep on forgetting and relearning over and over.
+Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
+You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.
 
-    * **Make a new card for the same target word:** If a word is of high value to you,
-    you can try to memorize a
-    [different representation](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
-    of it.
-    Find a different example sentence in your Sentence Bank or online.
-    For example, on [weblio](https://ejje.weblio.jp/sentence/).
+Possible ways to deal with leeches:
+
+* **Delete them:** For those small minority of cards that just won’t stick,
+  it’s best to just get rid of them. Instead of wasting a bunch of time on a single leech,
+  it’s more productive to learn 5 normal cards in its place.
+
+* **Keep them for later:** If you can't remember a word after 4-5 lapses,
+  it means that your brain hasn't been primed yet to acquire it.
+  Wait a month or two and try again.
+  Often you'll find that cards that would not stick before had become very easy.
+
+* **Make a new card for the same target word:** If a word is of high value to you,
+  you can try to memorize a
+  [different representation](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
+  of it.
+  Find a different example sentence in your Sentence Bank or online.
+  For example, on [weblio](https://ejje.weblio.jp/sentence/).
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
