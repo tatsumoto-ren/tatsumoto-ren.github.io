@@ -82,7 +82,8 @@ body>footer {
 
 /* Links general */
 
-a {
+a,
+a:visited {
     text-decoration: none;
     color: var(--link);
 }
@@ -429,7 +430,7 @@ code {
 }
 
 pre {
-    overflow: auto;
+    overflow-x: auto;
     background-color: var(--code-bg-color);
     border-radius: 6px;
     padding: 1rem;
@@ -479,11 +480,23 @@ kbd {
     font-size: 14px;
 }
 
+article {
+    display: flow-root;
+}
+
 article img.img_float_right {
     float: right;
     max-height: 200px;
     max-width: 33.3%;
     margin-left: 5px;
+}
+
+article a {
+    transition: filter 0.2s;
+}
+
+article a:is(:hover, :active, :focus):not(.mega_link) {
+    filter: hue-rotate(-15deg) brightness(70%);
 }
 
 /* Download button */
@@ -985,7 +998,8 @@ a.md-button.donations::before {
 
 /* copy/select button for code blocks */
 
-article pre {
+article div.pre-wrap {
+    /* Wraps all pre tags. */
     position: relative;
 }
 
@@ -1002,10 +1016,14 @@ article pre>.select_button {
     background-color: var(--code-bg-color);
     border: 1px solid #1b1f2426;
     border-radius: 6px;
-    transition: background-color 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition:
+        background-color cubic-bezier(0.33, 1, 0.68, 1) 80ms,
+        opacity ease-in 0.15s,
+        visibility ease-in 0.15s;
     color: #57606a;
     cursor: pointer;
     visibility: hidden;
+    opacity: 0;
 }
 
 article pre>.select_button::before {
@@ -1031,6 +1049,7 @@ article pre>.select_button:active {
 
 article pre:is(:hover, :active, :focus)>.select_button {
     visibility: visible;
+    opacity: 1;
 }
 
 /* Status tooltip for copy/select button */

@@ -196,6 +196,7 @@ const Toc = Object.freeze({
 const MegaTags = Object.freeze({
     make_tag() {
         const mega_tag = document.createElement('a')
+        mega_tag.classList.add("mega_link")
         mega_tag.target = "_blank"
         mega_tag.title = "Use megatools"
         mega_tag.style = "margin-left: 4px;"
