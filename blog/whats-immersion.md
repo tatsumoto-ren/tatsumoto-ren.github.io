@@ -31,6 +31,6 @@ watch a movie in the target language after coming home,
 etc.
 
 Immersion is also commonly referred to as **input**.
-Usually we divide immersion into passive (background) and active.
+Usually we divide immersion into **passive** (background) and **active**.
 Active immersion requires full attention to the content
 while passive immersion is when you're listening to the target language while doing something else.
