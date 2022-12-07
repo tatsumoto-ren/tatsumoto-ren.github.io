@@ -306,6 +306,9 @@ A shared folder with movies and other content with Japanese dubs.
   Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
 * [Anna’s Archive](https://annas-archive.org/).
   A catalog of all the books in existence.
+* [聖書 on Wikisource](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
+  Here you can read the Bible in Japanese.
+  The `口語訳` version is written in contemporary language and is easy to read.
 * [小説を読もう！](https://yomou.syosetu.com/).
   Lets you read web novels for free.
 * [カクヨム](https://kakuyomu.jp/).
@@ -408,7 +411,7 @@ You may need a Japanese IP address for some of these.
 
 ### Work with subtitles
 
-* [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
+* [subs2srs](our-immersion-learning-toolset.html#subs2srs).
   Takes video files and subtitle files
   and creates cards with screenshots and/or audio for each line in the sub file.
   Useful for batch extracting audio from videos.
@@ -439,16 +442,19 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 * [Cool Reader](https://archlinux.org/packages/community/x86_64/coolreader/).
   E-book viewer.
 
-  After installation open Settings and choose Japanese fonts
+  After installation open Settings, go to "Styles" and choose Japanese fonts
   to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
   [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
   Japanese `Noto` fonts did not, some text was still in Chinese.
+
+  On the "Page" tab you can choose View Mode.
+  I have it set to "Scroll View".
 
   To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
   To view saved bookmarks, press <kbd>F6</kbd>.
 
   Unfortunately,
-  Cool Reader can't automatically copy selected text to the clipboard like Foliate does.
+  Cool Reader can't automatically copy selected text to the clipboard like `Foliate` does.
 * [Foliate](https://johnfactotum.github.io/foliate/).
   A simple and modern eBook viewer.
   [Arch Linux package](https://archlinux.org/packages/?name=foliate).
@@ -560,7 +566,7 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 
 ### Subtitle retiming
 
-* [subs2srs](https://aur.archlinux.org/packages/subs2srs/) includes a semi-automatic subtitle retimer.
+* [subs2srs](our-immersion-learning-toolset.html#subs2srs) includes a semi-automatic subtitle retimer.
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
 
@@ -575,7 +581,7 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 * [FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
 * [MKVToolNix](https://archlinux.org/packages/?q=mkvtoolnix)
   ([official site](https://mkvtoolnix.download/))
-* [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+* [subs2srs](our-immersion-learning-toolset.html#subs2srs)
 
 ## Android software
 
