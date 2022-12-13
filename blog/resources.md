@@ -390,6 +390,7 @@ You may need a Japanese IP address for some of these.
 
 * [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
 * [Luke Smith's Programs and Equipment](https://lukesmith.xyz/programs/)
+* [Stuff that rocks](https://suckless.org/rocks/)
 
 ### General
 
@@ -400,6 +401,11 @@ You may need a Japanese IP address for some of these.
   but you can also build it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
 * [Anki](https://wiki.archlinux.org/title/Anki)
   A free/libre flashcard application.
+* [Trackma](https://github.com/z411/trackma).
+  Track your immersion on one of the supported sites.
+
+### Image viewers
+
 * [nsxiv](https://codeberg.org/nsxiv/nsxiv)
   An image viewer perfect for reading manga.
 
@@ -412,8 +418,6 @@ You may need a Japanese IP address for some of these.
   Simple manga reader made from a patched nsxiv.
   It extracts archives for you and opens them automatically with sxiv.
   It keeps your progress.
-* [Trackma](https://github.com/z411/trackma).
-  Track your immersion on one of the supported sites.
 
 ### Work with subtitles
 
