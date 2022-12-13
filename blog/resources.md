@@ -400,8 +400,14 @@ You may need a Japanese IP address for some of these.
   but you can also build it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
 * [Anki](https://wiki.archlinux.org/title/Anki)
   A free/libre flashcard application.
-* [Sxiv](https://wiki.archlinux.org/title/Sxiv).
+* [nsxiv](https://codeberg.org/nsxiv/nsxiv)
   An image viewer perfect for reading manga.
+
+  It's not available in the official Arch Linux repos yet,
+  but you can install it from the [AUR](https://aur.archlinux.org/packages/nsxiv)
+  or from [Chaotic-AUR](https://aur.chaotic.cx/).
+* [sxiv](https://wiki.archlinux.org/title/Sxiv).
+  An image viewer perfect for reading manga (old version, use `nsxiv` if you can).
 * [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
   Simple manga reader made from a patched nsxiv.
   It extracts archives for you and opens them automatically with sxiv.
