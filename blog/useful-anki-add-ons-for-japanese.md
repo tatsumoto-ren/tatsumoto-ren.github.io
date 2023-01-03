@@ -16,21 +16,15 @@ and scroll down to the "Download" section.
 
 ## Install add-ons I use
 
-Anki doesn't have an option to install many add-ons at once.
-But there's a hack that allows you to force Anki to do it.
+Anki has an option to install many add-ons at once.
 By following the instructions below
 you can install the add-ons I use in my everyday studies (not every add-on from this page).
 
-1) Close Anki.
-1) Execute this shell-snippet.
-   ```
-   for id in 1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
-   do
-       mkdir -p -- "$HOME/.local/share/Anki2/addons21/$id"
-       touch -- "$HOME/.local/share/Anki2/addons21/$id/__init__.py"
-   done
-   ```
 1) Open Anki and go to "Tools" > "Add-ons" > "Check for Updates".
+1) Paste multiple codes separated by spaces.
+    ```
+    1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
+   ```
 1) Restart Anki.
 
 ## Add-ons worth trying
@@ -183,7 +177,7 @@ in order to view add-on based stats information.
 
 ### [Cross Profile Search and Import](https://ankiweb.net/shared/info/1772763629)
 
-With this add-on you can keep your [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+With this add-on you can keep your [subs2srs](our-immersion-learning-toolset.html#subs2srs)
 bank in a different profile and copy cards to your main profile on demand.
 It lets you keep your main profile clean and not overload AnkiWeb servers
 with hundreds of megabytes of media files.
@@ -346,7 +340,7 @@ there won't be many times when you actually need it.
 
 Basically everything that modifies the scheduler is completely unreliable and prone to breakage.
 
-* If an add-on tunes the Ease factor an a card by card basis,
+* If an add-on tunes the Ease factor on a card by card basis,
 you can't predict your retention and will likely be forgetting more cards.
 * If an add-on modifies the Due value,
 a card may come up for review too early or too late, resulting in more forgetting.

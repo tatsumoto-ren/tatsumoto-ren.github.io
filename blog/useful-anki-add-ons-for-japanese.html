@@ -75,20 +75,14 @@ To find the code you need to open the corresponding add-on page on
 and scroll down to the &quot;Download&quot; section.</p>
 <hr>
 <h2 id="install-add-ons-i-use"><a class="anchor" href="#install-add-ons-i-use" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install add-ons I use</h2>
-<p>Anki doesn't have an option to install many add-ons at once.
-But there's a hack that allows you to force Anki to do it.
+<p>Anki has an option to install many add-ons at once.
 By following the instructions below
 you can install the add-ons I use in my everyday studies (not every add-on from this page).</p>
 <ol>
-<li>Close Anki.</li>
-<li>Execute this shell-snippet.<div class="pre-wrap"><pre><code>for id in 1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
-do
-    mkdir -p -- &quot;$HOME/.local/share/Anki2/addons21/$id&quot;
-    touch -- &quot;$HOME/.local/share/Anki2/addons21/$id/__init__.py&quot;
-done
+<li>Open Anki and go to &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Check for Updates&quot;.</li>
+<li>Paste multiple codes separated by spaces.<div class="pre-wrap"><pre><code>1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
 </code></pre></div>
 </li>
-<li>Open Anki and go to &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Check for Updates&quot;.</li>
 <li>Restart Anki.</li>
 </ol>
 <h2 id="add-ons-worth-trying"><a class="anchor" href="#add-ons-worth-trying" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add-ons worth trying</h2>
@@ -195,7 +189,7 @@ and <code>flunked</code> is a number of <code>review</code> cards that you answe
 in order to view add-on based stats information.</p>
 <p align="center"><img alt="true-retention-addon" class="shadow" src="img/true-retention-addon.png"></p>
 <h3 id="cross-profile-search-and-import"><a class="anchor" href="#cross-profile-search-and-import" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://ankiweb.net/shared/info/1772763629">Cross Profile Search and Import</a></h3>
-<p>With this add-on you can keep your <a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>
+<p>With this add-on you can keep your <a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
 bank in a different profile and copy cards to your main profile on demand.
 It lets you keep your main profile clean and not overload AnkiWeb servers
 with hundreds of megabytes of media files.
@@ -317,7 +311,7 @@ there won't be many times when you actually need it.</p>
 <h3 id="add-ons-that-modify-anki-scheduler"><a class="anchor" href="#add-ons-that-modify-anki-scheduler" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add-ons that modify Anki Scheduler</h3>
 <p>Basically everything that modifies the scheduler is completely unreliable and prone to breakage.</p>
 <ul>
-<li>If an add-on tunes the Ease factor an a card by card basis,
+<li>If an add-on tunes the Ease factor on a card by card basis,
 you can't predict your retention and will likely be forgetting more cards.</li>
 <li>If an add-on modifies the Due value,
 a card may come up for review too early or too late, resulting in more forgetting.</li>
@@ -393,7 +387,7 @@ to set your Ease to 131% with <a href="#refoldease">RefoldEase</a> and keep your
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
