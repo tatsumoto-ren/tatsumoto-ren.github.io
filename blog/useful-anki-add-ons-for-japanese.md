@@ -301,6 +301,17 @@ This add-on adds a new button named *Inspect* to the right-click context menu in
 For example, by clicking it in the Review screen you can see what HTML code Anki adds to your cards.
 It helps users tweak their Card Templates and developers make new Anki add-ons.
 
+### [Autocopy](https://ankiweb.net/shared/info/1995103628)
+
+This simple add-on automatically copies text from a card to the clipboard.
+It is intended to assist in editing large amounts of cards.
+For example, when you select a fresh subs2srs (or mpvacious) card in the Anki browser,
+it will copy the sentence to the clipboard.
+Then you can analyze the sentence using Yomichan Search and add dictionary definitions to the card.
+
+<p align="center"><img alt="screenshot" src="https://user-images.githubusercontent.com/69171671/210455938-a84d8bfc-9f87-4608-9c6f-0e52b0fe0da4.png"></p>
+<p align="center"><i>Autocopy - Settings.</i></p>
+
 ## Add-ons to avoid
 
 All Anki add-ons by design add some new functionality to the program.
