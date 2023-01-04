@@ -30,7 +30,6 @@ so I'm going to link a search page where you can find any pdf you want.
 Print the pdf you've downloaded on the paper you've got, and you should be set.
 
 <p align="center"><img width="50%" class="shadow" alt="kanji" src="img/kanji_notebook.webp"></p>
-<p align="center"><i>Source: <a href="https://www.britvsjapan.com/learn-kanji-fast-ultimate-guide-to-remembering-the-kanji/">britvsjapan</a></i></p>
 
 The point of printing 原稿用紙 is to have boxes
 that you should attempt to fit each character in.
