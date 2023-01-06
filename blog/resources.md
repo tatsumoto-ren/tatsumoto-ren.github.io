@@ -178,6 +178,8 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
   They are extremely good for mining.
 * [anisource](https://asnet.pw/).
   An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
+* **[Private trackers](https://wiki.installgentoo.com/wiki/Private_trackers)**.
+  Everything else I didn't mention.
 
 ### Streaming
 
@@ -265,6 +267,12 @@ A shared folder with movies and other content with Japanese dubs.
 
   Translations are also available.
   Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
+
+  The site is behind CloudFlare.
+  Since CloudFlare is known to be a type of a MITM attack,
+  accessing this site maybe dangerous.
+  I often can't access it at all because it shows
+  a banner saying `Checking if the site connection is secure` that never disappears.
 * [Bilingualmanga](https://bilingualmanga.net/).
   Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
@@ -273,6 +281,8 @@ A shared folder with movies and other content with Japanese dubs.
   * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
 * [Manga-zip](http://manga-zip.net/).
   Manga archive.
+* [MANGA ZIP](https://manga-zip.info/).
+  A site that hosts download links to manga and novels.
 * [Rawdevart](https://rawdevart.com/).
   Raw manga online.
 * [同人あんてな](https://doujinantena.top/).
@@ -303,7 +313,7 @@ A shared folder with movies and other content with Japanese dubs.
 
 * [zlibrary](https://z-lib.org/).
   A library with books in any language.
-  Has a [tor version](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/).
+  Has a [tor version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
 * [Anna’s Archive](https://annas-archive.org/).
   A catalog of all the books in existence.
 * [聖書 on Wikisource](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
@@ -487,6 +497,11 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   I recommend installing the
   [appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
   because the *-bin AUR package didn't work for me.
+
+  This app [supports](https://github.com/koreader/koreader/wiki/Dictionary-support) `StarDict` dictionaries.
+  You can convert your dictionaries to the `StarDict` format
+  with [PyGlossary](https://github.com/ilius/pyglossary)
+  to be able to look up unknown words while reading.
 * [Zathura](https://wiki.archlinux.org/title/Zathura).
   A minimalistic document viewer.
   Can be used to read novels.
@@ -506,7 +521,8 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
   The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
-* [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/)
+* [IPAフォント](https://wikiless.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
+  Install the [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/) package group.
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
 * [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
   A good brush font.
@@ -719,6 +735,13 @@ especially the `辞書グループの定義` section.
 * [sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
 * [Nani?](https://f-droid.org/en/packages/eu.lepiller.nani/)
 
+### Something else
+
+[Epistularum's Converted Dictionary Collection](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg).
+Dictionary files.
+Stardict files are meant to be used with KOreader,
+Mdict with GoldenDict.
+
 ## Translators
 
 The quality of machine translation is very low.
@@ -761,7 +784,7 @@ Notable articles:
 * [Lazy Kanji](https://web.archive.org/web/20220803200002/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/).
   One of the many methods of learning kanji.
 * [10,000 Sentences: How](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
-  The sentence mining method Khatzumoto used for learning Japanese.
+  The [sentence mining](sentence-mining.html) method Khatzumoto used for learning Japanese.
 * [On Grammar](https://web.archive.org/web/20220129053732/http://www.alljapaneseallthetime.com/blog/on-grammar/).
 
 Anti-features:
@@ -775,7 +798,7 @@ Anti-features:
 * Advertises unnecessary paid products.
 * Tries to harvest Email addresses.
 
-### [Refold](https://refold.la/)
+### [Refold](https://web.archive.org/web/20210221165727/https://refold.la/roadmap/)
 
 This site was initially introduced as a free guide
 designed to be applicable to any language.
