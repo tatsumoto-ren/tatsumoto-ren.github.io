@@ -236,11 +236,13 @@ to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidio
 
 ### TikTok
 
-Here you can watch videos from TikTok:
-[proxitok.herokuapp.com](https://proxitok.herokuapp.com/)
+You can watch videos from TikTok via [ProxiTok](https://github.com/pablouser1/ProxiTok).
+Browser add-ons like `LibRedirect` can automatically redirect
+from `tiktok.com` to a chosen ProxiTok instance.
+Public instances are listed [here](https://github.com/pablouser1/ProxiTok/wiki/Public-instances).
 
 Find Japanese videos by tags, for example:
-[tiktokでニュース](https://proxitok.herokuapp.com/tag/tiktok%E3%81%A7%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9)
+[tiktokでニュース](https://proxitok.pussthecat.org/tag/tiktok%E3%81%A7%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9)
 
 Browsing will lead you to more tags.
 
