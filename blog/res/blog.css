@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* global */
 
 :root {
@@ -17,6 +19,7 @@
     --sidebar-background: #111;
     --background-secondary-color: #dee2e6;
     --code-bg-color: #f6f8fa;
+    --elem-shadow-color: rgba(0, 0, 0, .05);
 }
 
 *,
@@ -32,6 +35,7 @@ picture,
 svg,
 video {
     max-width: 100%;
+    display: block;
 }
 
 /* Body with sticky footer */
@@ -65,7 +69,7 @@ body {
         sans-serif;
     background-color: #f3f3f3;
     color: #24292e;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     line-height: 1.5;
@@ -122,7 +126,10 @@ header {
     position: sticky;
     z-index: 100;
     top: 0;
-    box-shadow: 0 5px 0 var(--background-secondary-color);
+    box-shadow:
+        0 5px 0 var(--background-secondary-color),
+        0 6px 4px 0 var(--elem-shadow-color);
+    ;
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
@@ -130,6 +137,7 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    font-size: 16px;
 }
 
 /* logo; icon and title */
@@ -257,21 +265,27 @@ header :is(label, a):is(:hover, :active, :focus) {
 }
 
 #divbodyholder>div {
-    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    padding: 0px var(--gap-small) calc(var(--gap-small) / 2);
+    padding: clamp(1.5rem, 3vw, 2rem);
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
+    box-shadow: 0 1px 4px 0 var(--elem-shadow-color);
+}
+
+/* container for articles */
+
+#divbodyholder>#divbody {
+    padding-top: 0;
 }
 
 /* index page nag bar */
 
-#divbodyholder>div.indexnagbar {
+#divbodyholder>.indexnagbar {
     color: #453128;
     background-color: #fbf6e3;
     border: 1px solid #e2c491;
-    padding: var(--gap-small);
     margin-bottom: var(--gap-large);
     display: flex;
     flex-flow: row nowrap;
@@ -290,28 +304,52 @@ header :is(label, a):is(:hover, :active, :focus) {
 
 .indexnagbar svg.nagbar_icon {
     display: block;
-    width: 32px;
-    height: 32px;
+    min-width: 2rem;
+    width: 2rem;
+    height: 2rem;
     fill: #453128;
 }
 
-@media screen and (min-width: 600px) {
-    #divbodyholder>#divbody {
-        padding: 0px var(--gap-large) calc(var(--gap-large) / 2);
-    }
-
-    #divbodyholder>div.indexnagbar {
-        padding: var(--gap-small) var(--gap-large) var(--gap-small);
+@media screen and (max-width: 500px) {
+    #divbodyholder>.indexnagbar {
+        flex-flow: column nowrap;
     }
 }
 
-main :is(p, ul, ol, pre, details, hr, table) {
-    margin-bottom: 1rem;
+/* main */
+
+main *+* {
+    margin-block: 1rem 0;
 }
 
-:is(ul, ol) :is(ul, ol):last-of-type,
-li>p:last-of-type {
-    margin-bottom: 0;
+main li> :is(ol, ul):first-of-type,
+main a,
+main article {
+    margin-block: 0;
+}
+
+main ol,
+main ul {
+    padding-left: 2em;
+}
+
+main li+li {
+    margin-top: 0.25em;
+}
+
+main img.shadow {
+    box-shadow: 2px 2px 3px #999;
+}
+
+article>h1:first-child {
+    margin-block-end: 0px;
+}
+
+article a.anchor {
+    float: left;
+    padding-right: 4px;
+    margin-left: -20px;
+    line-height: 1;
 }
 
 details {
@@ -333,6 +371,10 @@ blockquote {
     border-left: 0.25em solid #dfe2e5;
 }
 
+blockquote a {
+    filter: saturate(33%);
+}
+
 main ::selection {
     background-color: #b3d4fc;
     color: #000;
@@ -341,70 +383,6 @@ main ::selection {
 
 main p {
     line-height: 1.5;
-}
-
-main :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: var(--gap-small);
-    margin-bottom: 1rem;
-    line-height: 1.25;
-    clear: both;
-}
-
-main :is(h1, h2, h3, h4, h5, h6)>a:is(:hover, :active, :focus) {
-    text-decoration: none;
-}
-
-main h1 {
-    font-size: 1.7em;
-}
-
-main h2 {
-    font-size: 1.5em;
-}
-
-main h3 {
-    font-size: 1.25em;
-}
-
-main h4 {
-    font-size: 1em;
-}
-
-article>h1:first-child {
-    margin-bottom: 0px;
-}
-
-article :is(ol, ul) {
-    padding-left: 2em;
-}
-
-article li+li {
-    margin-top: 0.25em;
-}
-
-article p>img.shadow {
-    box-shadow: 2px 2px 3px #999;
-}
-
-article .anchor {
-    float: left;
-    padding-right: 4px;
-    margin-left: -20px;
-    line-height: 1;
-}
-
-article .anchor>svg {
-    vertical-align: middle;
-    visibility: hidden;
-}
-
-article :is(h1, h2, h3, h4, h5, h6):is(:hover, :active, :focus) .anchor>svg {
-    visibility: visible;
-}
-
-.subtitle {
-    font-size: small;
-    margin: 3px 0 1rem;
 }
 
 code,
@@ -470,16 +448,6 @@ kbd {
     text-align: center;
 }
 
-#twitter {
-    line-height: 20px;
-    vertical-align: top;
-    text-align: right;
-    font-style: italic;
-    color: #333;
-    margin-top: var(--gap-small);
-    font-size: 14px;
-}
-
 article {
     display: flow-root;
 }
@@ -492,11 +460,58 @@ article img.img_float_right {
 }
 
 article a {
-    transition: filter 0.2s;
+    transition: filter 0.2s, color 0.2s;
 }
 
-article a:is(:hover, :active, :focus):not(.mega_link) {
-    filter: hue-rotate(-15deg) brightness(70%);
+article a:is(:hover, :active, :focus) {
+    filter: hue-rotate(-20deg) brightness(120%);
+}
+
+article a.ablack:is(:hover, :active, :focus) {
+    color: DarkSlateBlue;
+}
+
+/* Article headers */
+
+main :is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 1.5rem 1rem;
+    line-height: 1.25;
+    clear: both;
+}
+
+main :is(h1, h2, h3, h4, h5, h6)>a:is(:hover, :active, :focus) {
+    text-decoration: none;
+}
+
+main h1 {
+    font-size: 1.7rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+}
+
+main h3 {
+    font-size: 1.25rem;
+}
+
+main h4 {
+    font-size: 1.125rem;
+}
+
+article a.anchor>svg {
+    vertical-align: middle;
+    visibility: hidden;
+    display: inline-block;
+}
+
+article :is(h1, h2, h3, h4, h5, h6):is(:hover, :active, :focus) .anchor>svg {
+    visibility: visible;
+}
+
+article .subtitle {
+    font-size: small;
+    margin: 3px 0 1rem;
 }
 
 /* Download button */
@@ -516,6 +531,7 @@ a.download_button:is(:hover, :active, :focus) {
     background-color: #0366d60d;
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+    filter: none;
 }
 
 /* Cut line */
@@ -556,12 +572,11 @@ article table tr:nth-child(2n) {
 /* Highlight targets */
 
 article :target::after {
-    position: relative;
-    top: 3px;
     content: "";
     display: block;
-    width: 33%;
-    max-width: 120px;
+    position: relative;
+    top: 3px;
+    width: min(33%, 150px);
     border-bottom: 2px solid cornflowerblue;
     margin: -2px 0 0;
 }
@@ -872,6 +887,7 @@ a.md-button:is(:hover, :active, :focus) {
     text-decoration: none;
     background-color: #00bad6;
     color: white;
+    filter: none;
 }
 
 a.md-button::before {
@@ -1068,16 +1084,20 @@ article pre>.select_button::after {
     z-index: 150;
     top: 0px;
     right: calc(100% + 6px);
+    opacity: 0;
     visibility: hidden;
 }
 
-article pre:is(:hover, :active, :focus)>.select_button[status=copied]::after {
+article pre:is(:hover, :active, :focus)>.select_button[status]::after {
     visibility: visible;
+    opacity: 1;
+}
+
+.select_button[status=copied]::after {
     content: "Copied.";
 }
 
-article pre:is(:hover, :active, :focus)>.select_button[status=selected]::after {
-    visibility: visible;
+.select_button[status=selected]::after {
     content: "Selected.";
 }
 
