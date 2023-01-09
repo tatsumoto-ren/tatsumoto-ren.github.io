@@ -21,7 +21,7 @@ Then this site is right for you.
 We divide the process of learning any foreign language into two major steps.
 
 1) Learn to understand the language at a high level.
-2) Use your understanding to learn how speak the language by mimicking native speakers.
+2) Use your understanding to learn to speak the language by mimicking native speakers.
    This is similar to how kids do it.
 
 We focus on understanding before speaking, or input before output.
@@ -40,7 +40,7 @@ so forget about traditional approaches such as taking classes or hiring a tutor.
 ## All Japanese All the Time
 
 The method explained here is widely known as
-[AJATT](faq.html#whats-ajatt),
+[AJATT](whats-ajatt.html),
 or All Japanese All the Time.
 It is directed at people who want to get to fluency as fast as possible
 by spending a lot of time with the language.
@@ -95,6 +95,10 @@ Why classes suck.
   they likely have no idea how language acquisition works,
   they don't remember how they learned Japanese,
   and they've never actually followed their own advice.
+* Premature output.
+  You are forced to speak before you are ready.
+  Usually people start outputting naturally after 1 to 1.5 years of learning,
+  and it's very hard to force output to come out earlier.
 
 ## Don't waste time
 
