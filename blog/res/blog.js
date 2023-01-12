@@ -39,6 +39,8 @@ const copy_to_clipboard = str => {
     }
 }
 
+const strip_ext = (filename) => filename.replace(/\.html$/gi, '');
+
 const select_text = text_node => {
     const [range, sel] = [document.createRange(), window.getSelection()]
     range.selectNodeContents(text_node)
@@ -178,7 +180,7 @@ const Toc = Object.freeze({
     link_adjacent(matches_list) {
         const outer = document.querySelector('div#divbody')
         if (outer.querySelector(".toc_navigation") === null) {
-            const i = matches_list.findIndex(match => match.groups.path === Utils.filename())
+            const i = matches_list.findIndex(match => strip_ext(match.groups.path) === strip_ext(Utils.filename()))
             if (i >= 0 && outer) {
                 const container = outer.appendChild(this.make_nav_container())
                 const [prev, next] = [matches_list[i - 1], matches_list[i + 1]]
