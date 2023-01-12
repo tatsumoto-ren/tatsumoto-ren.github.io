@@ -175,7 +175,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
   You can join if you have accounts on other private trackers.
   Here you can find Japanese TV programs.
   Most uploads contain Japanese subs straight from the broadcast.
-  They are extremely good for mining.
+  It's nice to have them for mining sentences.
 * [anisource](https://asnet.pw/).
   An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
 * **[Private trackers](https://wiki.installgentoo.com/wiki/Private_trackers)**.
@@ -238,7 +238,7 @@ to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidio
 
 You can watch videos from TikTok via [ProxiTok](https://github.com/pablouser1/ProxiTok).
 Browser add-ons like `LibRedirect` can automatically redirect
-from `tiktok.com` to a chosen ProxiTok instance.
+from `tiktok.com` to a chosen `ProxiTok` instance.
 Public instances are listed [here](https://github.com/pablouser1/ProxiTok/wiki/Public-instances).
 
 Find Japanese videos by tags, for example:
@@ -271,7 +271,7 @@ A shared folder with movies and other content with Japanese dubs.
   Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
 
   The site is behind CloudFlare.
-  Since CloudFlare is known to be a type of a MITM attack,
+  Since CloudFlare is known to be a type of MITM attack,
   accessing this site maybe dangerous.
   I often can't access it at all because it shows
   a banner saying `Checking if the site connection is secure` that never disappears.
@@ -345,12 +345,12 @@ A shared folder with movies and other content with Japanese dubs.
   Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
   with a number of tools to assist the students of Japanese.
 * [アルファポリス](https://www.alphapolis.co.jp/).
-  A site where you can read novels, manga, etc. for free.
+  A site where you can read novels, manga, etc., for free.
   You can disable JavaScript but must allow cookies for books' pages to load.
 * [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
   A torrent with Japanese 30,000 ebooks.
 * [Mathematics and japanese fitting together](https://mathematical-knowledge.neocities.org/2022-09-22.html).
-  A blogpost about studying mathematics in Japanese.
+  A blog post about studying mathematics in Japanese.
 
 ### Audiobooks
 
@@ -389,7 +389,7 @@ You may need a Japanese IP address for some of these.
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
 * [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
-* [Jpsubbers drama subtitles - archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
+* [Jpsubbers drama subtitles &mdash; archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
 * [動漫花園](https://share.dmhy.org/)
 * [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
@@ -403,6 +403,13 @@ You may need a Japanese IP address for some of these.
 * [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
 * [Luke Smith's Programs and Equipment](https://lukesmith.xyz/programs/)
 * [Stuff that rocks](https://suckless.org/rocks/)
+* [digdeeper.club](https://digdeeper.club/).
+  Software recommendations, reviews.
+* [Privacy Tools](https://www.privacytools.io/).
+  Privacy tools and services to counter mass surveillance with encryption
+  for better internet privacy.
+* [Online Spyware Watchdog](https://spyware.neocities.org/).
+  Contains articles about popular programs with explanations of the spyware features found in them.
 
 ### General
 
@@ -427,8 +434,8 @@ You may need a Japanese IP address for some of these.
 * [sxiv](https://wiki.archlinux.org/title/Sxiv).
   An image viewer perfect for reading manga (old version, use `nsxiv` if you can).
 * [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
-  Simple manga reader made from a patched nsxiv.
-  It extracts archives for you and opens them automatically with sxiv.
+  Simple manga reader made from a patched `nsxiv`.
+  It extracts archives for you and opens them automatically with `sxiv`.
   It keeps your progress.
 
 ### Work with subtitles
@@ -533,8 +540,8 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   A font that displays all 新字体 kanji in their 旧字体(正字体) form,
   including all the undocumented changes as well.
 * [花園明朝](http://fonts.jp/hanazono/).
-  This font is made by the `glyphwiki` project and support all Unicode characters.
-  Really good back up font when everything fails.
+  This font is made by the `glyphwiki` project and supports all Unicode characters.
+  A perfect back-up font.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
@@ -542,7 +549,7 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 
 ### mpv
 
-mpv is the best video player for language learning.
+`mpv` is the best video player for language learning.
 
 * [Official website](http://mpv.io/)
 * [Arch Wiki page](https://wiki.archlinux.org/title/Mpv)
@@ -561,7 +568,7 @@ you can listen to condensed audio, audiobooks and Japanese music.
 
 * [Passive listening](passive-listening.html) how to.
 * [ncmpcpp](https://rybczak.net/ncmpcpp/). Probably the most popular mpd client.
-* [ncmpcpp cheat sheet](https://pkgbuild.com/~jelle/ncmpcpp/) - for new users.
+* [ncmpcpp cheat sheet](https://pkgbuild.com/~jelle/ncmpcpp/) &mdash; for new users.
 * [mpc](https://www.musicpd.org/clients/mpc/). A CLI mpd client, great for scripting.
 
 ### Torrent clients
@@ -623,7 +630,7 @@ A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
 A free/libre flashcard application, Android version.
 * [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
-A program that helps creating Anki cards on Android.
+A program that helps create Anki cards on Android.
 Probably not needed because AnkiDroid has AnkiDroid API.
 
 ### Manga readers
@@ -713,7 +720,7 @@ Yomichan is a browser extension that lets you easily look up unknown words.
   An open source multilingual Japanese dictionary.
 * [連想類語辞典](https://renso-ruigo.com/).
   A dictionary of synonyms.
-* [Dictionaryphile - 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
+* [Dictionaryphile &mdash; 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
   A list of various online dictoinaries.
 
 ### Offline
@@ -755,25 +762,44 @@ You've been warned.
 * [SimplyTranslate](https://simplytranslate.org/)
 * [LibreTranslate](https://libretranslate.com/)
 
-## Pitch accent
+## Pronunciation and Pitch accent
 
+* [Pitch accent dictionaries for Yomichan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
+  When you look up a word with Yomichan,
+  they will tell you its pitch accent number.
 * [韻律読み上げチュータスズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/phrasing).
-Generate text-to-speech sentences with somewhat accurate pitch accent (don't assume it's correct).
+  Generate text-to-speech sentences with somewhat accurate pitch accent (don't assume it's correct).
 * [Japanese Accent Study Website](https://accent.u-biq.org/).
-A useful site with pitch accent information for counters,
-verb conjugations,
-place names,
-surnames and Japanese celebrities.
+  A useful site with pitch accent information for counters,
+  verb conjugations,
+  place names,
+  surnames and Japanese celebrities.
 * [NHK日本語発音アクセント新辞典・付録](https://www.mediafire.com/file/tsrs58rg61y8x3d/NHK%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E7%2599%25BA%25E9%259F%25B3%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E6%2596%25B0%25E8%25BE%259E%25E5%2585%25B8%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
-A scan of the NHK Pitch Accent dictionary,
-specifically the sections at the back (which aren't in the EPWING)
-that explain the theory, rules and patterns.
+  A scan of the NHK Pitch Accent dictionary,
+  specifically the sections at the back (which aren't in the EPWING)
+  that explain the theory, rules and patterns.
+* [NHK日本語発音アクセント辞典](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/12671999/adb8bd).
+  A PDF of the NHK Pitch Accent dictionary, 1998 edition.
 * [新明解日本語アクセント辞典 第2版・付録](https://www.mediafire.com/file/mwzighd9dnvo63w/%25E6%2596%25B0%25E6%2598%258E%25E8%25A7%25A3%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E8%25BE%259E%25E5%2585%25B8_%25E7%25AC%25AC2%25E7%2589%2588%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
-A scan of the Shinmeikai Pitch Accent dictionary,
-specifically the sections at the back
-that explain the theory, rules and patterns.
+  A scan of the Shinmeikai Pitch Accent dictionary,
+  specifically the sections at the back
+  that explain the theory, rules and patterns.
 * [京言葉](http://www.akenotsuki.com/kyookotoba/).
-A website on Kyoto dialect.
+  A website on Kyoto dialect.
+* [Dogen’s Phonetics Series](https://mega.nz/folder/sVEizTTb#Z_0QKuN2GyMphaK9w4-A5Q).
+  Pitch accent lessons.
+  Yes, everybody hates Dogen because of his personality,
+  but if your Japanese isn't good enough to read the NHK pitch accent dictionary,
+  you can start by watching his tutorials.
+* [YouGlish for Japanese](https://youglish.com/japanese).
+  Look up a word and hear a native speaker pronounce it in a YouTube video.
+* [日本語標準アクセントの概要](https://tokyoaccent.com/accent/accent.htm) + [詳細](https://tokyoaccent.com/accent/accent2.htm)
+* [助詞・助動詞のアクセントについての覚え書き](http://www.lang.osaka-u.ac.jp/~caris/articles/%E5%8A%A9%E8%A9%9E%E3%83%BB%E5%8A%A9%E5%8B%95%E8%A9%9E%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%A6%9A%E3%81%88%E6%9B%B8%E3%81%8D.pdf)
+* [東京外国語大学言語モジュール](http://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/).
+  Listening comprehension and pronunciation training.
+* [日本語の発音を知る](https://ipa-mania.com/category/japanese-pronunciation/).
+  Pronunciation of phonemes described in Japanese.
+  Uses IPA notation + has mouth/tongue diagrams.
 
 ## Language guides
 
@@ -872,3 +898,5 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
   Her guide is a little outdated but can still be useful.
+* [JM Project](https://linuxjm.osdn.jp/index.html). Man pages translated to Japanese.
+* [四字熟語人気ランキング](https://idiom-encyclopedia.com/ninki/)
