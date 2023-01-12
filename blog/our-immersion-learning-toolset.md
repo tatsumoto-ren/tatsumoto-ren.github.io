@@ -58,21 +58,34 @@ On the other hand, the package manager used in Arch-based distros
 is one of the fastest package managers out there.
 
 **Possible options:**
-* [Arch Linux](https://archlinux.org/) - the default installation is very minimal,
-installation steps have to be executed manually.
-* [EndeavourOS](https://endeavouros.com/) - a successor of antergos,
-a lightweight distro close to Arch Linux.
-* [Manjaro](https://manjaro.org/) - aims to be user-friendly and offers lots of goodies out of the box.
-* [Parabola](https://www.parabola.nu/) - a fully free/libre equivalent of Arch Linux.
-* [Hyperbola](https://www.hyperbola.info/) - a distro that aims to be stable and secure,
-as well as fully free/libre.
-* [Artix](https://artixlinux.org/) - Arch Linux without systemd.
+
+* [Arch Linux](https://archlinux.org/).
+  The default installation is very minimal,
+  installation steps have to be executed manually.
+* [EndeavourOS](https://endeavouros.com/).
+  A successor of antergos, a lightweight distro close to Arch Linux.
+* [Manjaro](https://manjaro.org/).
+  Aims to be user-friendly and offers lots of goodies out of the box.
+* [Parabola](https://www.parabola.nu/).
+  A fully free/libre equivalent of Arch Linux.
+
+  Parabola doesn't ship proprietary firmware and uses the Linux-libre kernel.
+  Devices that require proprietary blobs will not function.
+  A lot of WiFi-cards on laptops are affected.
+
+  Software packages tend to be outdated, especially the kernel.
+* [Hyperbola](https://www.hyperbola.info/).
+  A distro that aims to be stable and secure, as well as fully free/libre.
+* [Artix](https://artixlinux.org/).
+  Arch Linux without systemd.
 
 **Alternatives suggested by our members:**
 
 * [NixOS](https://nixos.org/)
 * [GuixSD](https://guix.gnu.org/)
 * [Gentoo](https://www.gentoo.org/)
+
+**Also read**: [Reviews of All Linux Distros](https://lukesmith.xyz/articles/reviews-of-all-linux-distros-that-matter/).
 
 ## [Anki](https://wiki.archlinux.org/index.php/Anki)
 
@@ -118,7 +131,7 @@ and archive audio that you've listened to enough times.
 ## [qolibri](https://aur.archlinux.org/packages/qolibri/)
 
 A QT-based EPWING dictionary viewer.
-qolibri lets you search multiple EPWING dictionaries at the same time,
+Qolibri lets you search multiple EPWING dictionaries at the same time,
 so for any word you look up you get a list of different definitions.
 Since using a Japanese to Japanese dictionary can be difficult for beginners
 being able to see one word described in multiple ways makes it easier
@@ -146,7 +159,7 @@ A small utility that allows you to mass-generate Anki decks
 based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
 
-* [AUR package](https://aur.archlinux.org/packages/subs2srs/)
+* [AUR package](https://aur.archlinux.org/packages?K=subs2srs)
 
 ## Android
 
@@ -163,12 +176,15 @@ If you do own an Android device, be sure to install
 [F-Droid](https://f-droid.org/en/),
 which is an application catalog for libre programs.
 Liberate your device by flashing a new aftermarket
-<abbr title="a third-party operating system that replaces the factory-installed one">ROM</abbr>.
+<abbr title="a third-party operating system that replaces the factory-installed one">ROM</abbr>
+with no Google applications.
+[GrapheneOS](https://grapheneos.org/) is a popular choice, but requires a compatible phone.
 If aftermarket ROMs are not available for your device,
-obtain root access and get rid of Google Play and all Google applications.
+you could at least obtain root access and get rid of Google Play and other Google applications.
 
 F-Droid [can be flashed](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged.ota/)
-using TWRP or other Android recovery
+using TWRP (or other Android recovery)
+or installed as a [Magisk](https://github.com/topjohnwu/Magisk) module
 to allow for automatic background updates.
 
 Most Android devices can't be fully liberated
