@@ -405,8 +405,9 @@ Possible ways to deal with leeches:
   you can try to memorize a
   [different representation](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
   of it.
-  Find a different example sentence in your Sentence Bank or online.
-  For example, on [weblio](https://ejje.weblio.jp/sentence/).
+  Find a different example sentence in your Sentence Bank
+  or [online](resources.html#examples-and-pronunciations).
+  For example, on [Weblio](https://ejje.weblio.jp/sentence/).
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
@@ -425,7 +426,7 @@ If you have [New cards/day](#new-cards) set to 0, this setting should have no ef
 
 Don't sync your collection with AnkiWeb
 if you store large files in it
-or if you are a heavy user of [subs2srs](https://aur.archlinux.org/packages/subs2srs/).
+or if you are a heavy user of [subs2srs](our-immersion-learning-toolset.html#subs2srs).
 `subs2srs` decks take a lot of disk space.
 Use a different Anki profile to store them.
 The extra profile should not be synced.
@@ -487,6 +488,13 @@ More about the Ease Hell:
 * [Ease Hell in Anki](https://readbroca.com/anki/ease-hell/)
 
 ## GTK theme
+
+> Note: The ability to have Anki respect the system's GTK or Plasma theme has been taken away from us in Anki 2.1.55+.
+> The instructions below won't work anymore.
+> Blame Matthias Metelka for this.
+> Let's hope there will be a fix in the future.
+
+<details>
 
 Anki uses the
 [Qt](https://wiki.archlinux.org/title/Qt)
@@ -555,6 +563,8 @@ in the `.desktop` file (see `pip` [install notes](setting-up-anki.html#using-pip
 ```
 Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
 ```
+
+</details>
 
 ## Trying different versions
 
