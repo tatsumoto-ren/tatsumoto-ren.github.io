@@ -78,20 +78,19 @@ You may need to Email an admin to get an account.
 
 ### My selection
 
-| Server                  | Web client                                           | Extra |
-| :---                    | :---                                                 | :---  |
-| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/) | 🏆    |
-| `matrix.lolispace.moe`  | [lolispace.moe](https://element.lolispace.moe/)      | 🏆    |
-| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)    | 🏆    |
-| `kde.org`               | [kde.org](https://webchat.kde.org/)                  |       |
-| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                        |       |
-| `sakura.ci`             | None                                                 |       |
-| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                    |       |
-| `maeli.net`             | None                                                 |       |
-| `trygve.me`             | [trygve.me](https://element.trygve.me/)              |       |
-| `nltrix.net`            | [nltrix](https://element.nltrix.net/)                |       |
-| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                |       |
-| `houtworm.im`           | [houtworm.im](https://houtworm.im/)                  |       |
+| Server                  | Web client                                                  | Extra |
+| :---                    | :---                                                        | :---  |
+| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/)        | 🏆    |
+| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)           | 🏆    |
+| `kde.org`               | [kde.org](https://webchat.kde.org/)                         |       |
+| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                               |       |
+| `sakura.ci`             | None                                                        |       |
+| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                           |       |
+| `maeli.net`             | None                                                        |       |
+| `trygve.me`             | [trygve.me](https://element.trygve.me/)                     |       |
+| `nltrix.net`            | [nltrix](https://element.nltrix.net/)                       |       |
+| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
+| `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
 
 ### Servers run by Japanese people
 
@@ -114,11 +113,11 @@ or rooms without prior notice.
 | `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                          |
 | `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                        |
 | `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                      |
-| `cuteworld.space`              | Admin deactivated users' accounts after receiving fake reports.                                      |
 | `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                      |
 | `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.   |
 | `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                            |
 | `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                            |
+| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                        |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -175,7 +174,6 @@ without having to use a desktop client.
 
 * https://chat.darkcloud.ca/
 * https://element.georgefloyd.link/
-* https://houtworm.im/ 🏆
 * https://chat.cfx.re/ 🏆
 * https://halogen.chat/ 🏆
 * https://element.cpn.so/ 🏆
@@ -214,7 +212,6 @@ without having to use a desktop client.
 * https://matrix.base8.org/
 * https://unita.online/
 * https://chat.zelchat.de/
-* https://houtworm.im/
 * https://element.rptc.bid/
 * https://chat.peek-a-boo.at/
 * https://element.cccgoe.de/
@@ -289,7 +286,6 @@ without having to use a desktop client.
 * https://matrix.jdsoft.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
-* https://element.envs.net/
 * https://element.hope.net/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
