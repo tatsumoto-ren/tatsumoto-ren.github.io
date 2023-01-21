@@ -88,16 +88,16 @@ Invidious is an alternative front-end to YouTube.
 It lets you choose from a number of instances based on their health.
 A list of Invidious instances can be found on <a href="https://api.invidious.io/">https://api.invidious.io/</a>.
 Invidious gives you direct download links for every video.</li>
-<li><a href="https://wiki.archlinux.org/index.php/Youtube-dl">Youtube-dl</a>.
-Youtube-dl is a program to download videos.
+<li><a href="https://wiki.archlinux.org/index.php/yt-dlp">yt-dlp</a>.
+yt-dlp is a program to download videos.
 To search for videos and obtain their links,
 you still need to use a front end such as Invidious or
 <a href="https://github.com/trizen/youtube-viewer">youtube-viewer</a>.</li>
 <li><a href="https://wiki.archlinux.org/title/Mpv">mpv</a>.
 <code>mpv</code> is a video player.
-It can utilize a built-in Youtube-dl hook to play YouTube videos.
+It can utilize a built-in yt-dlp hook to play YouTube videos.
 I recommend downloading videos before watching them, however.
-Storing immersion material locally makes sentence mining substantially easier.</li>
+Storing immersion material locally makes <a href="sentence-mining.html">sentence mining</a> substantially easier.</li>
 <li>Not using YouTube at all.
 Explore privacy-respecting platforms
 like <a href="https://joinpeertube.org/">PeerTube</a> and <a href="https://odysee.com/">Odysee</a>.
@@ -107,48 +107,49 @@ Chances are, you'll find Japanese immersion content there too.</li>
 <p>Subtitles play an important role for language learners.
 On YouTube, you can find a wide variety of videos in Japanese with built-in Japanese subtitles.
 Not every video has human-made subtitles, and auto-generated subtitles aren't accurate.
-Avoid using them if possible.
-After downloading a video with subtitles,
-you can put it into subs2srs
-or watch it in mpv with mpvacious and make flashcards.</p>
-<h2 id="youtube-dl"><a class="anchor" href="#youtube-dl" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Youtube-dl</h2>
-<p><a href="https://wiki.archlinux.org/index.php/Youtube-dl">Youtube-dl</a>
+Avoid using them if possible.</p>
+<p>If you add &quot;字幕可&quot; or &quot;CC&quot; at the end of the search term on YouTube,
+it will try to search for videos that have subtitles.</p>
+<p>After downloading a video and subtitles for it,
+you can put it into <code>subs2srs</code>
+or watch it in <code>mpv</code> with <code>mpvacious</code> and make flashcards.</p>
+<h2 id="yt-dlp"><a class="anchor" href="#yt-dlp" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yt-dlp</h2>
+<p><a href="https://wiki.archlinux.org/index.php/yt-dlp">yt-dlp</a>
 is a program
 that can be used to download videos from YouTube and similar sites.
-Youtube-dl can also download audio tracks separately.</p>
-<p>On Arch Linux, Youtube-dl can be installed by running this command:</p>
-<pre><code>$ sudo pacman -S youtube-dl
-</code></pre>
+<code>yt-dlp</code> can also download audio tracks separately.</p>
+<p>On Arch Linux, yt-dlp can be installed by running this command:</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S yt-dlp
+</code></pre></div>
 <p>To download a video, execute:</p>
-<pre><code>$ youtube-dl 'https://youtube.com/&lt;video&gt;'
-</code></pre>
+<div class="pre-wrap"><pre><code>$ yt-dlp 'https://youtube.com/&lt;video&gt;'
+</code></pre></div>
 <p>If you want to download just the audio, use this command:</p>
-<pre><code>$ youtube-dl --extract-audio --format bestaudio/best 'https://youtube.com/&lt;video&gt;'
-</code></pre>
+<div class="pre-wrap"><pre><code>$ yt-dlp --extract-audio --format bestaudio/best 'https://youtube.com/&lt;video&gt;'
+</code></pre></div>
 <p><strong>Tip:</strong> add these commands as
 <a href="https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias">aliases</a>
 to access them without too much typing.</p>
-<p>Youtube-dl reads its configuration from <code>~/.config/youtube-dl/config</code>.
+<p><code>yt-dlp</code> reads its configuration from <code>~/.config/yt-dlp/config</code>.
 See my
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/youtube-dl/config">example configuration file</a>.
-This configuration enables Youtube-dl to automatically download
+This configuration enables <code>yt-dlp</code> to automatically download
 Japanese (<code>ja</code>) subtitles in <code>ass</code> format
 and save the downloaded files to a dedicated folder.
 Change output location (marked with <code>-o</code>) to a folder of your preference.</p>
-<p>See <code>$ man youtube-dl</code> for a comprehensive list of options.</p>
+<p>See <code>$ man yt-dlp</code> for a comprehensive list of options.</p>
 <h2 id="notes"><a class="anchor" href="#notes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notes</h2>
 <ul>
 <li>In my dotfiles I have
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances">a script</a>
 that sorts Invidious instances based on the number of users.
 The least used instances are usually faster.</li>
-<li>There's a fork of Youtube-dl called <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> with more features.</li>
 <li>Install <a href="https://github.com/SimonBrazell/privacy-redirect">Privacy Redirect</a>
 or <a href="https://libredirect.github.io/">LibRedirect</a>
 to avoid accidentally going to the official website when opening YouTube links.</li>
 <li><a href="https://codeberg.org/librarian/librarian">Librarian</a>
 is an alternative frontend for Odysee inspired by Invidious.</li>
-<li>If you go to the YouTube website, keep
+<li>If you go directly to <code>youtube.com</code>, keep
 <a href="https://github.com/kodxana/Watch-on-Odysee">Watch on Odysee</a>
 enabled to be notified when an alternative Odysee version of the video is available.</li>
 <li><a href="https://f-droid.org/packages/app.fedilab.nitterizeme/">UntrackMe</a>
@@ -211,7 +212,7 @@ you can find channels that stream Japanese all day.</li>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
