@@ -4,7 +4,7 @@ date: 1664571289
 tags: ['guide']
 ---
 
-In this article let's talk about passing text between applications
+In this article let's talk about passing text between applications.
 Usually people simply select and copy-paste text from one window to the other,
 but there's a way to make it faster by using the concept of plumbing.
 
@@ -72,8 +72,8 @@ to `~/.local/bin`.
 $ curl -o ~/.local/bin/cabl 'https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl'
 ```
 
-Make sure the directory is added [to the PATH](faq.html#how-do-i-add-a-directory-to-the-path)
-and the file is executable.
+Make sure the directory is added [to the PATH](how-do-i-add-a-directory-to-the-path.html)
+and the file is [executable](how-do-i-make-a-file-executable.html).
 
 ## Dependencies
 
@@ -142,6 +142,7 @@ This plumbing script has a number of useful features directed at language learne
 * `massif` - Search example sentences on Massif.
 * `nyaasearch` - Find text on Nyaa. For example, if it's a name of a TV show.
 * `pronunciation` - Search text on Forvo and add found audio file to the Anki collection.
+  The audio's code is copied to the clipboard.
 * `qolibri` - Launch qolibri and search for text.
 * `sakuraparis` - Search definitions on Sakura-Paris.
 * `simplytranslate` - Translate text with Simplytranslate.
