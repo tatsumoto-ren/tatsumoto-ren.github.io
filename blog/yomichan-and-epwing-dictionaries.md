@@ -249,11 +249,15 @@ Dictionaries that help you look up Japanese grammar.
   The entries are in English.
   Has example sentences.
 
+### Pitch accent
+
+Dictionaries capable of displaying pitch accents of words.
+The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
+
 ### Other
 
 * [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
 * `漢字源`. Monolingual kanji dictionary.
-* [Kanjium](https://github.com/mifunetoshiro/kanjium). Pitch accent dictionary.
 
 ### Don't import all Yomichan dictionaries
 
