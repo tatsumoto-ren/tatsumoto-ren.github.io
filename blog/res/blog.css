@@ -12,7 +12,6 @@
     --link-black: #1f2628;
     --gap-large: 32px;
     --gap-small: 24px;
-    --target_shift: calc(10px + var(--header-height));
     --nav-border-color: #ebebeb;
     --header-background: #f9f9f9;
     --header-item-focused-background: #eee;
@@ -514,6 +513,34 @@ article .subtitle {
     margin: 3px 0 1rem;
 }
 
+/* Highlight targets */
+
+main [id] {
+    --target-color: cornflowerblue;
+    --target-shift: calc(10px + var(--header-height));
+
+    position: relative;
+    scroll-margin-top: var(--target-shift);
+    scroll-snap-align: start;
+}
+
+main [id]::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    width: min(33%, 250px);
+    background-image: linear-gradient(to right, var(--target-color), var(--target-color) 33%, transparent);
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 1s ease-out;
+}
+
+main [id]:target::after {
+    clip-path: inset(0);
+}
+
 /* Download button */
 
 a.download_button {
@@ -567,25 +594,6 @@ article table td:first-child {
 
 article table tr:nth-child(2n) {
     background-color: var(--code-bg-color);
-}
-
-/* Highlight targets */
-
-article :target::after {
-    content: "";
-    display: block;
-    position: relative;
-    top: 3px;
-    width: min(33%, 150px);
-    border-bottom: 2px solid cornflowerblue;
-    margin: -2px 0 0;
-}
-
-article :target::before {
-    content: "";
-    display: block;
-    height: var(--target_shift);
-    margin: calc(-1 * var(--target_shift)) 0 0;
 }
 
 /* Menu button */
