@@ -700,10 +700,13 @@ input#menu-btn:checked~header .hamburger::after {
     rotate: 45deg;
 }
 
-/* Contents sidebar */
+/* Sidebar */
 
 #sidebar {
     --sidebar-width: min(100vw, 400px);
+    --main-shadow: 0 0 1rem rgb(0 0 0 / .33);
+    --overlay-shadow-off: 0 0 0 200vmax transparent;
+    --overlay-shadow-on: 0 0 0 200vmax rgb(0 0 0 / .25);
 
     width: var(--sidebar-width);
     max-width: 100vw;
@@ -717,9 +720,19 @@ input#menu-btn:checked~header .hamburger::after {
     position: fixed;
     inset: 0 calc(-1 * var(--sidebar-width)) 0 auto;
     visibility: hidden;
-    transition: right 0.2s, visibility 0.2s;
-    box-shadow: 0 0 1rem hsl(0 0% 0% / 33%);
+    transition: right 0.2s, visibility 0.2s, box-shadow 0.33s;
+    box-shadow: var(--main-shadow), var(--overlay-shadow-off);
 }
+
+/* Opened sidebar */
+
+input#menu-btn:checked~#sidebar {
+    right: 0px;
+    visibility: visible;
+    box-shadow: var(--main-shadow), var(--overlay-shadow-on);
+}
+
+/* Inside sidebar */
 
 #sidebar ul,
 #sidebar ol {
@@ -769,13 +782,6 @@ input#menu-btn:checked~header .hamburger::after {
 #sidebar>:is(div:empty, div:empty+hr) {
     visibility: hidden;
     display: none;
-}
-
-/* Open sidebar */
-
-input#menu-btn:checked~#sidebar {
-    right: 0px;
-    visibility: visible;
 }
 
 /* Sidebar: Top links */
