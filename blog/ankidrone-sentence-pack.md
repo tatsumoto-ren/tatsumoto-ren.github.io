@@ -22,7 +22,7 @@ In such situations you can either make a
 or search in a sentence bank.
 I encourage you to build your own sentence bank
 using tools like
-[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+[subs2srs](our-immersion-learning-toolset.html#subs2srs)
 or
 [mpvacious](mining-from-movies-and-tv-shows.html).
 If you don't have a bank yet,
