@@ -143,7 +143,7 @@ and using the
 [Furigana](useful-anki-add-ons-for-japanese.html#furigana)
 add-on to generate furigana.
 * `SentEng` can be used together with
-[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+[subs2srs](our-immersion-learning-toolset.html#subs2srs)
 and premade decks such as
 [AnkiDrone Starter Pack](basic-vocabulary.html#anki-deck).
 * `MorphManFocus`
@@ -243,7 +243,7 @@ For example, by modifying `body` you can set font color and background color:
 Set up a second profile to make it easier to switch between mining
 [simple word cards](discussing-various-card-templates.html#simple-word-cards)
 and
-[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards).
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards).
 Go to "Settings" > "Profile" > "Configure profiles...".
 Under "Conditions" select:
 
@@ -354,12 +354,9 @@ To hide the window press `Esc` or click outside the box.
 If you have KANJIDIC installed, clicking on individual kanji in the expression
 will bring up additional information about the kanji.
 
-You can access Yomichan Search by pressing `Alt+Insert`
-or by clicking
-![yomichan-settings](https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg)
-on the toolbar and choosing "Search".
-There you can use Yomichan similarly to
-[qolibri](https://aur.archlinux.org/packages/qolibri/).
+[Yomichan Search](what-is-yomichan-search.html)
+is a tool that helps analyze text in the system clipboard.
+It is helpful when reading manga, books, or watching videos in `mpv`.
 
 By clicking on
 ![play-audio](https://foosoft.net/projects/yomichan/ext/images/play-audio.svg)

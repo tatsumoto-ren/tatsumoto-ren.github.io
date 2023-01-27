@@ -201,7 +201,7 @@ and using the
 <a href="useful-anki-add-ons-for-japanese.html#furigana">Furigana</a>
 add-on to generate furigana.</li>
 <li><code>SentEng</code> can be used together with
-<a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>
+<a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
 and premade decks such as
 <a href="basic-vocabulary.html#anki-deck">AnkiDrone Starter Pack</a>.</li>
 <li><code>MorphManFocus</code>
@@ -232,13 +232,13 @@ For example, you can remove dictionary bullet points by copying the code below.
 The following snippet was taken from the
 <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Japanese sentences</a>
 Note Type.</p>
-<pre><code>ul, ol {
+<div class="pre-wrap"><pre><code>ul, ol {
     list-style-type: none;
     display: inline;
     margin: 0px;
     padding: 0px;
 }
-</code></pre>
+</code></pre></div>
 <h3 id="popup-size"><a class="anchor" href="#popup-size" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Popup size</h3>
 <p>The default pop up box size is rather small
 which makes it difficult to work with monolingual dictionaries.
@@ -254,41 +254,41 @@ but there are a few important modifications I'd like to mention.</p>
 <li><strong>Hide furigana.</strong>
 When you use the popup window, it shows you all kanji readings right away.
 This is not desirable because you want to recall the readings yourself before looking them up.
-The code below makes furigana appear only when you hover over words.<pre><code>ruby rt { visibility: hidden; }
+The code below makes furigana appear only when you hover over words.<div class="pre-wrap"><pre><code>ruby rt { visibility: hidden; }
 ruby:hover rt { visibility: visible; }
-</code></pre>
+</code></pre></div>
 </li>
 <li><strong>Increase font size.</strong>
 By default, Yomichan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
-To increase its size, the following code can be used:<pre><code>.gloss-item { font-size: 1.5em; }
-</code></pre>
+To increase its size, the following code can be used:<div class="pre-wrap"><pre><code>.gloss-item { font-size: 1.5em; }
+</code></pre></div>
 Adjust the size to suit your preference.</li>
 <li><strong>Make tags smaller.</strong>
-Tags aren't that important, so it makes sense to shrink them a bit to save space.<pre><code>.tag { font-size: 12px; }
-</code></pre>
+Tags aren't that important, so it makes sense to shrink them a bit to save space.<div class="pre-wrap"><pre><code>.tag { font-size: 12px; }
+</code></pre></div>
 </li>
 <li><strong>Miscellaneous.</strong>
 CSS can do almost everything.
-For example, by modifying <code>body</code> you can set font color and background color:<pre><code>body { color: #2A1B0A; background-color: #FFFAF0; }
-</code></pre>
+For example, by modifying <code>body</code> you can set font color and background color:<div class="pre-wrap"><pre><code>body { color: #2A1B0A; background-color: #FFFAF0; }
+</code></pre></div>
 To find the right class name to apply your styles to,
 right-click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
 You will be presented with the html structure of the popup.
 Classes are defined inside html tags.
-For example, the class name for the tag below is <code>gloss-content</code>.<pre><code>&lt;span class=&quot;gloss-content&quot; lang=&quot;ja&quot;&gt;...&lt;/span&gt;
-</code></pre>
+For example, the class name for the tag below is <code>gloss-content</code>.<div class="pre-wrap"><pre><code>&lt;span class=&quot;gloss-content&quot; lang=&quot;ja&quot;&gt;...&lt;/span&gt;
+</code></pre></div>
 </li>
 </ol>
 <h3 id="profiles"><a class="anchor" href="#profiles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiles</h3>
 <p>Set up a second profile to make it easier to switch between mining
 <a href="discussing-various-card-templates.html#simple-word-cards">simple word cards</a>
 and
-<a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">targeted sentence cards</a>.
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence cards</a>.
 Go to &quot;Settings&quot; &gt; &quot;Profile&quot; &gt; &quot;Configure profiles...&quot;.
 Under &quot;Conditions&quot; select:</p>
-<pre><code>if &quot;Modifier Keys&quot; &quot;Include&quot; &quot;Ctrl&quot;
-</code></pre>
+<div class="pre-wrap"><pre><code>if &quot;Modifier Keys&quot; &quot;Include&quot; &quot;Ctrl&quot;
+</code></pre></div>
 <p align="center"><img alt="Profile Conditions" src="img/yomichan-profile-conditions.webp"></p>
 <p align="center"><i>Profile Conditions.</i></p>
 <p>The modifier key can be anything.
@@ -362,20 +362,17 @@ Yomichan won't be able to parse such words if JMdict is not installed.</p>
 <h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
 <p>Yomichan popups appear when you hover over Japanese text while holding down the Shift key.</p>
 <p>You can try it with this text:</p>
-<pre><code>私達はイラク出身です。
-</code></pre>
+<div class="pre-wrap"><pre><code>私達はイラク出身です。
+</code></pre></div>
 <p align="center"><img class="shadow" alt="yomichan window" src="img/yomichan_popup.webp"></p>
 <p align="center"><i>Yomichan popup.</i></p>
 <p>Inside the box you can see definitions grouped by dictionary.
 To hide the window press <code>Esc</code> or click outside the box.
 If you have KANJIDIC installed, clicking on individual kanji in the expression
 will bring up additional information about the kanji.</p>
-<p>You can access Yomichan Search by pressing <code>Alt+Insert</code>
-or by clicking
-<img src="https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg" alt="yomichan-settings">
-on the toolbar and choosing &quot;Search&quot;.
-There you can use Yomichan similarly to
-<a href="https://aur.archlinux.org/packages/qolibri/">qolibri</a>.</p>
+<p><a href="what-is-yomichan-search.html">Yomichan Search</a>
+is a tool that helps analyze text in the system clipboard.
+It is helpful when reading manga, books, or watching videos in <code>mpv</code>.</p>
 <p>By clicking on
 <img src="https://foosoft.net/projects/yomichan/ext/images/play-audio.svg" alt="play-audio">
 you can hear an approximate pronunciation of the selected word.
@@ -445,7 +442,7 @@ now you can create properly formatted targeted sentence cards while reading.</p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
