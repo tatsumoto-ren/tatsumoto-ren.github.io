@@ -1,5 +1,10 @@
 /* Global */
 
+:root {
+    --row-padding-inline: clamp(0.5rem, 2vw, 1.5rem);
+    --row-padding-block: 40px;
+}
+
 *,
 *::before,
 *::after {
@@ -45,25 +50,57 @@ img {
 
 a,
 a:visited {
+    --link-color: #344d92;
     text-decoration: none;
-    transition: color 0.2s;
-    color: #292a73;
+    transition: filter 0.2s, color 0.2s;
+    color: var(--link-color);
 }
 
 a:hover,
-a:active {
-    color: #0074D9;
+a:active,
+a:focus {
+    --link-color: #0074D9;
+    text-decoration: none;
 }
 
 /* Top div */
 
 .top {
+    --gradient: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(255, 166, 0, 0.3), rgba(255, 255, 0, 0.3));
+    --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
     background-color: #51628f;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/bg.webp");
+    background-image:
+        var(--dim),
+        var(--gradient),
+        url("img/bg2.webp");
+    background-size:
+        100%,
+        300%,
+        cover;
+    background-blend-mode:
+        multiply,
+        overlay,
+        normal;
     text-shadow: #000c 1px 1px 2px;
+    background-position: top left;
     background-attachment: fixed;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    animation: bg-animation linear 20s infinite alternate;
     position: relative;
+    box-shadow: 1px 1px 2px rgba(16, 5, 54, 0.2);
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: top left, top left, top center;
+    }
+
+    100% {
+        background-position: top left, top right, top center;
+    }
 }
 
 /* Header */
@@ -138,18 +175,25 @@ header>a.donate:hover {
 /* Presentation */
 
 div.presentation {
+    --font-size-paragraph: clamp(1rem, 2vw, 1.5rem);
+    --font-size-accent: calc(var(--font-size-paragraph) * 2);
+
     position: relative;
-    margin: 0 4px;
-    padding: 90px 0px;
+    padding: 90px var(--row-padding-inline);
     background-image: url("img/motivated_learner.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-div.presentation>p {
-    margin: 20px 0;
-    max-width: 550px;
+div.presentation p {
+    font-size: var(--font-size-paragraph);
+    margin: 2em 0;
+    max-width: max(550px, min(70ch, 60%, 1000px));
+}
+
+div.presentation h1 {
+    font-size: var(--font-size-accent);
 }
 
 /* Get started and Community buttons */
@@ -191,9 +235,7 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-between;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    inset: 0 var(--row-padding-inline) auto;
     padding: 10px 0;
 }
 
@@ -214,21 +256,58 @@ nav>a:active {
 
 div.row {
     max-width: 1350px;
-    padding: 40px 4px;
+    padding-block: var(--row-padding-block);
+    padding-inline: var(--row-padding-inline);
     margin: 0 auto;
     min-height: 300px;
     position: relative;
 }
 
-div.tile.anki div.row {
-    background-color: #fef6ec;
-    box-shadow: 1px 1px 2px rgba(92, 92, 0, 0.164);
+div.row a:focus {
+    box-shadow: inset 0 -2px 0px 0 currentColor;
 }
 
-div.tile.guide div.row {
+div.row h2,
+div.row p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+/* Row - recent articles */
+
+div.tile.recent-articles div.row {
     color: #3c2a4d;
-    background-color: #e7eff6;
+    background-color: #f3f3ec;
     box-shadow: 0 0 2px rgba(0, 0, 61, 0.219);
+}
+
+/* Row - guide */
+
+div.tile.guide {
+    background-color: #191514;
+    color: #f6f5f0;
+    box-shadow: 0 0 2px rgba(61, 40, 0, 0.452);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--row-padding-block)), 0 100%);
+}
+
+div.tile.guide a {
+    --link-color: #d3c98b;
+}
+
+div.tile.guide a:is(:hover, :active, :focus) {
+    filter: hue-rotate(-20deg) brightness(120%);
+}
+
+/* Row - Anki */
+
+div.tile.anki div.row {
+    background-color: #fef6ec;
+    box-shadow: 1px 1px 2px rgba(92, 68, 0, 0.164);
+}
+
+/* Ordered lists inside tiles */
+
+div.tile ol {
+    list-style-type: none;
 }
 
 /* Key points */
@@ -240,7 +319,7 @@ div.key_points {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, auto);
     grid-auto-columns: 1fr;
-    column-gap: 40px;
+    column-gap: var(--row-padding-block);
     row-gap: 1rem;
     align-items: start;
 }
@@ -273,7 +352,7 @@ div.key_points .bomb {
 /* Tiles */
 
 div.tile+div.tile {
-    margin: 40px 0 0;
+    margin-block-start: var(--row-padding-block);
 }
 
 /* Tile container */
@@ -282,7 +361,7 @@ div.tile-container {
     display: grid;
     grid-auto-flow: row;
     grid-auto-columns: 1fr;
-    gap: 20px;
+    gap: var(--row-padding-inline);
     grid-template-areas:
         "text"
         "image";
@@ -301,17 +380,13 @@ div.tile-container>img {
     max-height: 200px;
 }
 
-div.tile-container h2,
-div.tile-container p:not(:last-child) {
-    margin-bottom: 1rem;
-}
-
 /* Footer */
 
 footer {
     color: white;
     text-align: center;
-    padding: 40px 1rem;
+    padding-block: var(--row-padding-block);
+    padding-inline: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,8 +415,11 @@ footer img {
     }
 
     div.presentation {
-        max-width: 900px;
-        margin: 0 0 0 15vw;
+        margin-inline: 15vw 1rem;
+    }
+
+    div.presentation {
+        max-width: max(1200px, min(70vw, 1920px));
     }
 
     div.key_points {
@@ -357,10 +435,6 @@ footer img {
         grid-template-areas: "image text";
     }
 
-    div.row {
-        padding: 40px 20px;
-    }
-
     /* CSS bookmark */
 
     div.tile div.row::before {
@@ -374,13 +448,13 @@ footer img {
     }
 
     div.tile.anki div.row::before {
-        background-color: rgba(224, 223, 216, 0.596);
+        background-color: rgba(224, 222, 216, 0.596);
         top: -16px;
         left: 32px;
     }
 
-    div.tile.guide div.row::before {
-        background-color: rgba(216, 221, 224, 0.61);
+    div.tile.recent-articles div.row::before {
+        background-color: rgba(224, 222, 216, 0.61);
         top: -16px;
         right: 32px;
     }
