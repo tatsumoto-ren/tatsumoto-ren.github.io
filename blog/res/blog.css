@@ -4,7 +4,6 @@
 
 :root {
     --header-height: 52px;
-    --n-menu-items: 4;
     --menu-icon-slice-width: 18px;
     --menu-icon-slice-height: 2px;
     --link: #0366d6;
@@ -194,7 +193,7 @@ header>nav a,
 header>nav a:visited {
     height: var(--header-height);
     white-space: nowrap;
-    padding: 0 4px;
+    padding: 0 2px;
 }
 
 header>nav a.important {
@@ -210,7 +209,7 @@ header>nav a.important:is(:hover, :active, :focus) {
 
 /* Header on wide screens */
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 760px) {
     header>nav {
         display: flex;
     }
@@ -468,6 +467,7 @@ article a:is(:hover, :active, :focus) {
 
 article a.ablack:is(:hover, :active, :focus) {
     color: DarkSlateBlue;
+    filter: hue-rotate(-30deg) brightness(90%);
 }
 
 /* Article headers */
@@ -869,6 +869,16 @@ article :is(span, abbr)[title] {
 article :is(span, abbr)[title]:is(:hover, :active, :focus) {
     text-decoration: none;
     color: rgb(159, 20, 26);
+}
+
+/*
+   Inline images
+   The Yomichan guide utilizes inline images.
+*/
+
+article img {
+    display: inline-block;
+    margin: 0;
 }
 
 /* Link buttons */
