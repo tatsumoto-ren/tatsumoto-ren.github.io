@@ -2,6 +2,7 @@
 title: Understanding monolingual definitions
 date: 1641419148
 tags: [dictionaries, epwing]
+position: 9999
 ---
 
 A typical entry in a monolingual dictionary looks similar to this:
