@@ -3,6 +3,7 @@
 :root {
     --row-padding-inline: clamp(0.5rem, 2vw, 1.5rem);
     --row-padding-block: 40px;
+    --header-logo-height: 52px;
 }
 
 *,
@@ -42,8 +43,12 @@ h2 {
     font-size: 24px;
 }
 
-img {
+img,
+picture,
+svg,
+video {
     max-width: 100%;
+    display: block;
 }
 
 /* Links */
@@ -66,15 +71,15 @@ a:focus {
 /* Top div */
 
 .top {
-    --gradient: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(255, 166, 0, 0.3), rgba(255, 255, 0, 0.3));
-    --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    --fire-gradient: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(255, 166, 0, 0.3), rgba(255, 255, 0, 0.3));
+    --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2) 12%, rgba(0, 0, 0, 0.2));
 
     background-color: #51628f;
     color: white;
     background-image:
         var(--dim),
-        var(--gradient),
-        url("img/bg2.webp");
+        var(--fire-gradient),
+        url("img/bg.webp");
     background-size:
         100%,
         300%,
@@ -121,7 +126,7 @@ header {
 }
 
 header>a.logo {
-    height: 52px;
+    height: var(--header-logo-height);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -297,6 +302,10 @@ div.tile.guide a:is(:hover, :active, :focus) {
     filter: hue-rotate(-20deg) brightness(120%);
 }
 
+div.tile.guide img[alt=book] {
+    max-height: 320px;
+}
+
 /* Row - Anki */
 
 div.tile.anki div.row {
@@ -358,26 +367,23 @@ div.tile+div.tile {
 /* Tile container */
 
 div.tile-container {
-    display: grid;
-    grid-auto-flow: row;
-    grid-auto-columns: 1fr;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column nowrap;
     gap: var(--row-padding-inline);
-    grid-template-areas:
-        "text"
-        "image";
 }
 
-div.tile-container>div {
-    grid-area: text;
+div.tile-container .image {
+    min-width: min(200px, 33%);
+    display: grid;
+    place-items: center;
+    align-self: center;
 }
 
-div.tile-container>img {
-    grid-area: image;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    place-self: center;
-    max-height: 200px;
+div.tile-container .text {
+    max-width: 70ch;
 }
 
 /* Footer */
@@ -401,6 +407,64 @@ footer>a {
 footer img {
     width: 2rem;
     display: inline-block;
+}
+
+/* List of recent articles */
+
+.bb-timestamp {
+    font-style: italic;
+}
+
+.bb-timestamp::after {
+    content: ' — ';
+    color: rgb(34, 38, 41);
+}
+
+/* Shadows for images in tiles */
+
+div.tile:is(.guide, .recent-articles) .image {
+    position: relative;
+    isolation: isolate;
+}
+
+div.tile.guide .image::before {
+    z-index: -1;
+    content: "";
+    display: block;
+    inset: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.322);
+    scale: 40% 70%;
+    translate: 0 -50%;
+    transform: perspective(5rem) rotateX(20deg);
+    filter: blur(4rem);
+}
+
+div.tile.guide .image::after {
+    z-index: -1;
+    content: "";
+    display: block;
+    inset: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.664);
+    scale: 100% 20%;
+    translate: 0 40%;
+    transform: perspective(15rem) rotateX(20deg);
+    filter: blur(4rem);
+}
+
+div.tile.recent-articles .image::after {
+    z-index: -1;
+    content: "";
+    display: block;
+    inset: 0;
+    position: absolute;
+    scale: 80% 25%;
+    translate: 0 40%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.137);
+    rotate: x 20deg;
+    filter: blur(1rem);
 }
 
 /* Wide screens */
@@ -427,12 +491,15 @@ footer img {
     }
 
     div.tile-container {
-        grid-auto-flow: column;
-        grid-template-areas: "text image";
+        flex-direction: row;
     }
 
     div.tile-container.mirror {
-        grid-template-areas: "image text";
+        flex-direction: row-reverse;
+    }
+
+    .recent-articles .tile-container {
+        justify-content: flex-end;
     }
 
     /* CSS bookmark */
