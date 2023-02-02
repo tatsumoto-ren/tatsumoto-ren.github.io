@@ -33,10 +33,10 @@ and studying Japanese grammar
 on your own.
 We recommend this deck if you want to learn vocabulary for the JLPT N2,
 frontload <span title="JLPT N2 vocabulary is rather basic">basic vocabulary</span>
-to increase your comprehension or to aid the process of sentence mining.
+to increase your comprehension or to aid the process of [sentence mining](sentence-mining.html).
 
 The deck has cards formatted as bilingual
-[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards).
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards).
 A sentence is shown on the front,
 the target word on the front is highlighted.
 Readings, translation, word meanings and audio are on the back.
@@ -74,7 +74,7 @@ They are available as a part of Ankidrone Starter Pack.
 
 If you follow the method of language learning described on this site,
 by the time you start this deck,
-you should already be doing sentence mining.
+you should already be doing [sentence mining](sentence-mining.html).
 While you go through the cards in the deck,
 delete the ones you already know.
 
