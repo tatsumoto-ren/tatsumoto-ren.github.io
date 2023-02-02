@@ -15,7 +15,7 @@ In this article let's discuss what you can do to sync them.
 There are two methods of retiming subtitles available today:
 
 1) Manually adjusting timings using the retimer included with
-[subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+[subs2srs](our-immersion-learning-toolset.html#subs2srs)
 or by adjusting the subtitle delay in mpv.
 2) Using an automatic tool,
 [ffsubsync](https://github.com/smacke/ffsubsync)

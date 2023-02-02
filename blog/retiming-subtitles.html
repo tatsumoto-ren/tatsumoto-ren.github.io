@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -75,7 +76,7 @@ In this article let's discuss what you can do to sync them.</p>
 <p>There are two methods of retiming subtitles available today:</p>
 <ol>
 <li>Manually adjusting timings using the retimer included with
-<a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>
+<a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
 or by adjusting the subtitle delay in mpv.</li>
 <li>Using an automatic tool,
 <a href="https://github.com/smacke/ffsubsync">ffsubsync</a>
@@ -92,9 +93,9 @@ To set mpv to load all subs containing media filename, enable <code>fuzzy</code>
 To be able to store subtitles in their own subfolder,
 specify a list of desired folder names separated by colons in <code>sub-file-paths</code> parameter.</p>
 <p>Add the following settings to <code>~/.config/mpv/mpv.conf</code>.</p>
-<pre><code>sub-auto=fuzzy
+<div class="pre-wrap"><pre><code>sub-auto=fuzzy
 sub-file-paths=ass:srt:sub:subs:subtitles:subs.en:subs.ja
-</code></pre>
+</code></pre></div>
 <p>Although you can load a subtitle file if you drag and drop it into a mpv window,
 this requires you to have a graphical file manager installed.
 These days almost everyone uses terminal-based file managers.
@@ -110,11 +111,11 @@ You can configure it to bring vidir for you when you press a certain key.</p>
 Atool is going to help you extract archives
 with subtitles downloaded from the Internet.</p>
 <p>Add the following settings to <code>~/.config/lf/lfrc</code>.</p>
-<pre><code># Set the `b` key to call vidir.
+<div class="pre-wrap"><pre><code># Set the `b` key to call vidir.
 map b $vidir
 # Extract archives by pressing `E`.
 map E !atool -x $fx
-</code></pre>
+</code></pre></div>
 <p>Let's see how you can quickly rename subtitles with vidir.
 For this example I took
 <a href="https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/Stein;Gate/&amp;sort=date&amp;order=desc">subs</a>
@@ -132,35 +133,35 @@ but you can use any editor you want if you change the <code>EDITOR</code> enviro
 Most likely the internal subtitles are going to be English fansubs
 and the ones you want to retime are Japanese subtitles downloaded from kitsunekko.</p>
 <p>To extract all internal subtitles from videos in a folder in one go you can use a bash loop.</p>
-<pre><code>for video in ./*.mkv; do
+<div class="pre-wrap"><pre><code>for video in ./*.mkv; do
     ffmpeg -i &quot;$video&quot; -f srt &quot;${video%.*}&quot;.srt
 done
-</code></pre>
+</code></pre></div>
 <p>Sometimes a video contains multiple subtitle tracks.
 To find out which one to extract, use <code>ffprobe</code>.</p>
-<pre><code>ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
-</code></pre>
+<div class="pre-wrap"><pre><code>ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
+</code></pre></div>
 <p>To select a stream to extract, specify the <code>-map</code> parameter.
 E.g., to extract track #1 you use <code>-map 0:1</code>.</p>
-<pre><code>ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
-</code></pre>
+<div class="pre-wrap"><pre><code>ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
+</code></pre></div>
 <p>Similarly, use a bash loop to convert existing subtitles from one format to another.
 You can swap <code>ass</code> and <code>srt</code> in the example.</p>
-<pre><code>for sub in ./*.ass; do
+<div class="pre-wrap"><pre><code>for sub in ./*.ass; do
     ffmpeg -i &quot;$sub&quot; -f srt &quot;${sub%.*}&quot;.srt
 done
-</code></pre>
+</code></pre></div>
 <h2 id="manual-retiming"><a class="anchor" href="#manual-retiming" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Manual retiming</h2>
 <h3 id="in-mpv"><a class="anchor" href="#in-mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>In mpv</h3>
 <p>If the timings are not too far off, you can adjust them in mpv by using built-in commands.</p>
 <p>Add the following lines to <code>~/.config/mpv/input.conf</code>.</p>
-<pre><code># Add/subtract 50 ms delay from subs
+<div class="pre-wrap"><pre><code># Add/subtract 50 ms delay from subs
 Z add sub-delay +0.05
 z add sub-delay -0.05
 # Adjust timing to previous/next subtitle
 X sub-step 1
 x sub-step -1
-</code></pre>
+</code></pre></div>
 <p>Try to find the right timings
 by pressing <code>z</code>, <code>Z</code>, <code>x</code> and <code>X</code>.</p>
 <ul>
@@ -186,28 +187,28 @@ When synchronizing,
 you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.</p>
 <p>To install FFsubsync, first install ffmpeg, then the program itself.</p>
-<pre><code>$ sudo pacman -S --needed ffmpeg
+<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ffmpeg
 $ pip3 install --upgrade ffsubsync
-</code></pre>
+</code></pre></div>
 <p>I recommend retiming subtitles in bulk, using a bash-loop.
 For this example let's say the videos are stored in the current directory,
 the subtitle files I want to retime are stored in the <code>subs.ja</code> directory
 the reference subtitles are stored in the <code>subs.en</code> directory
 and all subtitles are in <code>ass</code> format.</p>
 <p>This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.</p>
-<pre><code>for reference in ./subs.en/*.ass; do
+<div class="pre-wrap"><pre><code>for reference in ./subs.en/*.ass; do
     to_retime=${reference//.en/.ja}
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
     ffsubsync &quot;$reference&quot; -i &quot;$to_retime&quot; -o &quot;$retimed&quot;
 done
-</code></pre>
+</code></pre></div>
 <p>This loop retimes all Japanese subs using the corresponding videos as reference.</p>
-<pre><code>for reference in ./*.mkv; do
+<div class="pre-wrap"><pre><code>for reference in ./*.mkv; do
     to_retime=./subs.ja/$(basename &quot;${reference/.mkv/.ass}&quot;)
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
     ffsubsync &quot;$reference&quot; -i &quot;$to_retime&quot; -o &quot;$retimed&quot;
 done
-</code></pre>
+</code></pre></div>
 <h3 id="with-alass"><a class="anchor" href="#with-alass" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With alass</h3>
 <p><a href="https://github.com/kaegi/alass">alass</a>
 is a program similar to FFsubsync.
@@ -225,12 +226,12 @@ Watch
 <a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc">this video</a>
 to see how it works and how to set it up.</p>
 <p>To use autosubsync-mpv first have <code>mpv</code>, <code>ffmpeg</code> and <code>ffsubsync</code> installed.</p>
-<pre><code>$ sudo pacman -S --needed mpv ffmpeg
+<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed mpv ffmpeg
 $ pip3 install --upgrade ffsubsync
-</code></pre>
+</code></pre></div>
 <p>Download and install the mpv add-on.</p>
-<pre><code>$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
-</code></pre>
+<div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
+</code></pre></div>
 <p>When you watch a video in mpv,
 press <code>n</code> to bring the add-on's menu.
 It's going to give you the following options:</p>
@@ -278,6 +279,7 @@ you have an option to permanently save them to a file if you choose <code>Save c
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -297,7 +299,7 @@ you have an option to permanently save them to a file if you choose <code>Save c
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
