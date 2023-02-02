@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -66,7 +67,7 @@
 <h1 class="title"><a class="ablack" href="mining-from-movies-and-tv-shows.html">Mining from movies and TV-shows</a></h1>
 <div class="subtitle">June 05, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
-<p><em>Sentence mining</em> is the process of picking sentences from your immersion and making Anki cards.
+<p><a href="sentence-mining.html">Sentence mining</a> is the process of picking sentences from your immersion and making Anki cards.
 Each sentence has one unknown piece of information,
 which is referred to as <em>target word</em>.</p>
 <p>To mine sentences from movies and TV-shows
@@ -74,9 +75,9 @@ you are going to need the mpv video player,
 and a plugin for mpv called Mpvacious.</p>
 <hr>
 <h2 id="mpv"><a class="anchor" href="#mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mpv</h2>
-<p>mpv is the best video player for language learners.
+<p><code>mpv</code> is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
-mpv is available on most distributions of GNU/Linux.
+<code>mpv</code> is available on most distributions of GNU/Linux.
 To install it on Arch Linux, execute the following command:</p>
 <div class="pre-wrap"><pre><code>$ sudo pacman -S mpv
 </code></pre></div>
@@ -178,10 +179,13 @@ and <a href="resources.html#downloading">Download tools</a> for a ways to downlo
 Subtitles can be found on
 <a href="https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F">Kitsunekko</a>
 and on our
-<a href="resources.html#japanese-subtitles">Resources page</a>.
-If you want to synchronize the subtitles, see the
-<a href="https://github.com/Ajatt-Tools/autosubsync-mpv">autosubsync-mpv</a>
-page.</p>
+<a href="resources.html#japanese-subtitles">Resources page</a>.</p>
+<p>If you can't find target language subtitles for a video,
+you can generate them using <a href="https://aur.archlinux.org/packages/pytranscriber-bin">pyTranscriber</a>.
+You're going to get <abbr title="with errors">cursed subtitles</abbr>, but it's better than nothing.
+I have used it a few times for Japanese.</p>
+<p>If you want to synchronize the subtitles, see
+<a href="retiming-subtitles.html">Retiming subtitles</a>.</p>
 <p>Sometimes the only subtitle files
 available for a particular video are image-based (<code>.sup</code> or <code>.sub</code>).
 Often this is the case with subtitles for movies.
@@ -199,8 +203,13 @@ that allows you to make Anki cards
 while watching movies and TV shows in your target language.</p>
 <p>Mpvacious can update Anki cards you add with Yomichan
 by filling the audio and screenshot fields.
-Here is a video demonstration:</p>
-<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vU85ramvyo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+Here is a <a href="https://redirect.invidious.io/watch?v=vU85ramvyo4">video demonstration</a>:</p>
+<video width="1920" controls>
+    <source src="https://invidious.snopyta.org/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+    <source src="https://invidious.silur.me/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+    <source src="https://yt.artemislena.eu/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+    <source src="https://vid.priv.au/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+</video>
 <p>The user-script has a long list of features and configuration options.
 For details explore the documentation on GitHub.
 Below I'm going to write about how I use it.</p>
@@ -232,7 +241,7 @@ If you don't, make sure to adjust at least the following variables:</p>
 <li>Make sure Anki is running.</li>
 <li>Open a video in mpv.</li>
 <li>Press <code>Ctrl+t</code> to activate clipboard autocopy.</li>
-<li>Open your web browser and activate Yomichan Search by pressing <code>Alt+Insert</code>.</li>
+<li>Open your web browser and activate <a href="what-is-yomichan-search.html">Yomichan Search</a>.</li>
 <li>Enable clipboard monitor in Yomichan Search.</li>
 <li>When there is a word you want to mine, create a card with Yomichan.</li>
 <li>Go back to the mpv window and press <code>Ctrl+m</code>.
@@ -295,6 +304,7 @@ Yomichan Search can do the same thing simpler.</p>
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -309,12 +319,12 @@ Yomichan Search can do the same thing simpler.</p>
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>

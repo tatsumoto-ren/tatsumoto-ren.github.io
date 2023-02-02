@@ -4,7 +4,7 @@ date: 1622909216
 tags: [guide, mpv]
 ---
 
-*Sentence mining* is the process of picking sentences from your immersion and making Anki cards.
+[Sentence mining](sentence-mining.html) is the process of picking sentences from your immersion and making Anki cards.
 Each sentence has one unknown piece of information,
 which is referred to as *target word*.
 
@@ -16,9 +16,9 @@ and a plugin for mpv called Mpvacious.
 
 ## mpv
 
-mpv is the best video player for language learners.
+`mpv` is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
-mpv is available on most distributions of GNU/Linux.
+`mpv` is available on most distributions of GNU/Linux.
 To install it on Arch Linux, execute the following command:
 
 ```
@@ -161,9 +161,14 @@ Subtitles can be found on
 [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
 and on our
 [Resources page](resources.html#japanese-subtitles).
-If you want to synchronize the subtitles, see the
-[autosubsync-mpv](https://github.com/Ajatt-Tools/autosubsync-mpv)
-page.
+
+If you can't find target language subtitles for a video,
+you can generate them using [pyTranscriber](https://aur.archlinux.org/packages/pytranscriber-bin).
+You're going to get <abbr title="with errors">cursed subtitles</abbr>, but it's better than nothing.
+I have used it a few times for Japanese.
+
+If you want to synchronize the subtitles, see
+[Retiming subtitles](retiming-subtitles.html).
 
 Sometimes the only subtitle files
 available for a particular video are image-based (`.sup` or `.sub`).
@@ -186,9 +191,14 @@ while watching movies and TV shows in your target language.
 
 Mpvacious can update Anki cards you add with Yomichan
 by filling the audio and screenshot fields.
-Here is a video demonstration:
+Here is a [video demonstration](https://redirect.invidious.io/watch?v=vU85ramvyo4):
 
-<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vU85ramvyo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<video width="1920" controls>
+	<source src="https://invidious.snopyta.org/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="https://invidious.silur.me/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="https://yt.artemislena.eu/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="https://vid.priv.au/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+</video>
 
 The user-script has a long list of features and configuration options.
 For details explore the documentation on GitHub.
@@ -228,7 +238,7 @@ If you don't, make sure to adjust at least the following variables:
 1) Make sure Anki is running.
 1) Open a video in mpv.
 1) Press `Ctrl+t` to activate clipboard autocopy.
-1) Open your web browser and activate Yomichan Search by pressing `Alt+Insert`.
+1) Open your web browser and activate [Yomichan Search](what-is-yomichan-search.html).
 1) Enable clipboard monitor in Yomichan Search.
 1) When there is a word you want to mine, create a card with Yomichan.
 1) Go back to the mpv window and press `Ctrl+m`.
