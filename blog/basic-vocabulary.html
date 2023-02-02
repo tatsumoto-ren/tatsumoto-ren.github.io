@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -67,7 +68,7 @@
 <div class="subtitle">January 31, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
 <p>After finishing kanji, kana and essential grammar
-the bulk of your AJATT journey will consist of learning vocabulary.
+the bulk of your <a href="whats-ajatt.html">AJATT</a> journey will consist of learning vocabulary.
 As the first step in this process,
 it makes sense to go through a basic vocabulary deck
 containing the most frequent words in Japanese.
@@ -139,7 +140,7 @@ There are 5 subdecks.</p>
 </li>
 </ul>
 <p>Most cards are preformatted as
-<a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">targeted sentence cards (TSC)</a>,
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence cards (TSC)</a>,
 the ideal card template for both beginners and advanced learners.
 Note that TSCs are not regular sentence cards you find in other decks
 and should be treated differently.</p>
@@ -187,7 +188,7 @@ skip Tango <code>N5</code> because they're identical and differ only in their ca
 </li>
 <li><p>Start sentence mining using TV-shows with Japanese subtitles, and later manga and novels.</p>
 <blockquote>
-<p><strong>Sentence mining</strong> is the process of finding sentences
+<p><strong><a href="sentence-mining.html">Sentence mining</a></strong> is the process of finding sentences
 with words you don't know in your immersion and making them into sentence cards.
 The browser add-on
 <a href="https://foosoft.net/projects/yomichan/">Yomichan</a>
@@ -198,7 +199,7 @@ and click the <code>+</code> button in the popup.
 is an add-on for
 <a href="https://wiki.archlinux.org/index.php/Mpv">mpv</a>
 that works similarly to
-<a href="https://aur.archlinux.org/packages/subs2srs/">subs2srs</a>
+<a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
 and can be used together with Yomichan
 to create Anki cards while watching subtitled content.</p>
 </blockquote>
@@ -350,11 +351,11 @@ If you download an incorrectly formatted deck, make sure to fix the card templat
 <summary>How do you calculate it?</summary>
 <p>If you have downloaded the frequency list,
 you can calculate the percentage for the first N=1000 words with this Shell snippet.</p>
-<pre><code>N=1000; {
+<div class="pre-wrap"><pre><code>N=1000; {
         sed &quot;1d;$((N+1))q&quot; BCCWJ_frequencylist_suw_ver1_0.tsv | cut -f 8 | awk '{s+=$1} END {print s}'
         echo '/1000000'
 } | paste -s -d '' | bc -l
-</code></pre>
+</code></pre></div>
 </details>
 <p>You're expected to progress very quickly in your first months of doing AJATT.
 Unfortunately, the reality is that we quickly hit the point of diminishing returns.
@@ -397,6 +398,7 @@ and it makes learning your target langauge feel less like a routine.</p>
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -416,7 +418,7 @@ and it makes learning your target langauge feel less like a routine.</p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>

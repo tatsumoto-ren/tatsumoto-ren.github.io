@@ -5,7 +5,7 @@ tags: [vocab, anki, decks]
 ---
 
 After finishing kanji, kana and essential grammar
-the bulk of your AJATT journey will consist of learning vocabulary.
+the bulk of your [AJATT](whats-ajatt.html) journey will consist of learning vocabulary.
 As the first step in this process,
 it makes sense to go through a basic vocabulary deck
 containing the most frequent words in Japanese.
@@ -90,7 +90,7 @@ There are 5 subdecks.
 	1) JLPT Tango `N1`
 
 Most cards are preformatted as
-[targeted sentence cards (TSC)](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
+[targeted sentence cards (TSC)](discussing-various-card-templates.html#targeted-sentence-cards),
 the ideal card template for both beginners and advanced learners.
 Note that TSCs are not regular sentence cards you find in other decks
 and should be treated differently.
@@ -149,7 +149,7 @@ If you've already completed the
 skip Tango `N5` because they're identical and differ only in their card templates.
 2) Start sentence mining using TV-shows with Japanese subtitles, and later manga and novels.
 
-	> **Sentence mining** is the process of finding sentences
+	> **[Sentence mining](sentence-mining.html)** is the process of finding sentences
 	> with words you don't know in your immersion and making them into sentence cards.
 	> The browser add-on
 	> [Yomichan](https://foosoft.net/projects/yomichan/)
@@ -160,7 +160,7 @@ skip Tango `N5` because they're identical and differ only in their card template
 	> is an add-on for
 	> [mpv](https://wiki.archlinux.org/index.php/Mpv)
 	> that works similarly to
-	> [subs2srs](https://aur.archlinux.org/packages/subs2srs/)
+	> [subs2srs](our-immersion-learning-toolset.html#subs2srs)
 	> and can be used together with Yomichan
 	> to create Anki cards while watching subtitled content.
 
