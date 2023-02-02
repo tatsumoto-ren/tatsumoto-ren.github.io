@@ -4,7 +4,7 @@ date: 1661977295
 tags: ['guide']
 ---
 
-[AJATT](faq.html#whats-ajatt)
+[AJATT](whats-ajatt.html)
 targets people who want to reach a high level in the language and truly become fluent.
 One of the most important parts of AJATT is
 immersing yourself in Japanese as close to 24 hours a day as possible,
@@ -69,7 +69,7 @@ mainly through listening.
 Fill every single crack in your life with Japanese.
 Every waking moment counts.
 Put your computer's
-[operating system into Japanese](faq.html#when-should-i-change-my-devices-to-japanese).
+[operating system into Japanese](when-should-i-change-my-devices-to-japanese.html).
 Only watch Japanese movies.
 Get the Japanese dubs of western shows you plan to watch.
 If you are learning about something,
