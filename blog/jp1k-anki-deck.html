@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -67,7 +68,7 @@
 <div class="subtitle">February 25, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
 <p>The most important part of learning Japanese with the
-<a href="faq.html#whats-ajatt">AJATT</a>
+<a href="whats-ajatt.html">AJATT</a>
 method
 is to enjoy native content
 and be able to grow your understanding of the language entirely through immersion
@@ -117,7 +118,7 @@ and you don't want to add another level of complexity just yet.</p>
 <h2 id="anki-deck"><a class="anchor" href="#anki-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki deck</h2>
 <p>We have prepared two versions of the deck.
 One for people who prefer
-<a href="discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards">TSC</a>
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">TSC</a>
 card format and another for people who like
 <a href="discussing-various-card-templates.html#word-context-cards">WCC</a>
 more.</p>
@@ -253,25 +254,25 @@ by clicking &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; &quot;Card
 In the HTML templates
 find the tag that refers to target word or sentence.
 Let's say for the sake of this example that the field's name is <code>Word</code>.</p>
-<pre><code>&lt;div&gt;{{Word}}&lt;/div&gt;
-</code></pre>
+<div class="pre-wrap"><pre><code>&lt;div&gt;{{Word}}&lt;/div&gt;
+</code></pre></div>
 <p>Then replace <code>{{Word}}</code> with the corresponding field that contains furigana
 and add <code>furigana:</code> before its name to tell Anki
 that the field should be rendered with readings shown above the kanji.
 If your premade deck doesn't have a furigana field, you have to add it to the Note Type
 and mass-generate readings with the Japanese support add-on.</p>
-<pre><code>&lt;div&gt;{{furigana:WordFurigana}}&lt;/div&gt;
-</code></pre>
+<div class="pre-wrap"><pre><code>&lt;div&gt;{{furigana:WordFurigana}}&lt;/div&gt;
+</code></pre></div>
 <p>Now to make the furigana hidden by default add a class name or id
 to the tag around the target word.
 The class name will be used to refer to the tag.</p>
-<pre><code>&lt;div class=&quot;question&quot;&gt;{{furigana:WordFurigana}}&lt;/div&gt;
-</code></pre>
+<div class="pre-wrap"><pre><code>&lt;div class=&quot;question&quot;&gt;{{furigana:WordFurigana}}&lt;/div&gt;
+</code></pre></div>
 <p>Finally, you need a CSS rule that tells Anki to keep the furigana hidden by default,
 and a second rule that tells to make it visible on hover.</p>
-<pre><code>.question ruby rt { visibility: hidden; }
+<div class="pre-wrap"><pre><code>.question ruby rt { visibility: hidden; }
 .question ruby:hover rt { visibility: visible; }
-</code></pre>
+</code></pre></div>
 <p>This should be it. Enjoy your own JP1K deck.</p>
 <p>Tags: <a href="tag_anki.html">anki</a>, <a href="tag_decks.html">decks</a>, <a href="tag_kanji.html">kanji</a>, <a href="tag_vocab.html">vocab</a></p>
 <!-- text end -->
@@ -288,7 +289,7 @@ and a second rule that tells to make it visible on hover.</p>
 <li><a href="table-of-contents.html">Table of Contents</a></li>
 <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
 <li><a href="resources.html">Resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
 </ul>
 </div>
 <div>
@@ -308,6 +309,7 @@ and a second rule that tells to make it visible on hover.</p>
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -322,12 +324,12 @@ and a second rule that tells to make it visible on hover.</p>
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>

@@ -5,7 +5,7 @@ tags: [anki, decks, kanji, vocab]
 ---
 
 The most important part of learning Japanese with the
-[AJATT](faq.html#whats-ajatt)
+[AJATT](whats-ajatt.html)
 method
 is to enjoy native content
 and be able to grow your understanding of the language entirely through immersion
@@ -68,7 +68,7 @@ and you don't want to add another level of complexity just yet.
 
 We have prepared two versions of the deck.
 One for people who prefer
-[TSC](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards)
+[TSC](discussing-various-card-templates.html#targeted-sentence-cards)
 card format and another for people who like
 [WCC](discussing-various-card-templates.html#word-context-cards)
 more.
