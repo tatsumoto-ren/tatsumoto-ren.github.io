@@ -48,9 +48,9 @@ I recommend renaming subtitles before opening a video to have mpv load them for 
 The best tool for doing it in my opinion is
 [vidir](https://aur.archlinux.org/packages/vidir/).
 In addition to vidir, I advise you to install
-[lf](https://aur.archlinux.org/packages/lf/).
+[lf](https://github.com/gokcehan/lf).
 It's an excellent terminal-based file manager.
-You can configure it to bring vidir for you when you press a certain key.
+You can configure it to bring `vidir` for you when you press a certain key.
 
 Another helpful program you might need is
 [atool](https://archlinux.org/packages/community/any/atool/).
@@ -76,6 +76,13 @@ from
 Watch
 [this video](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.
+
+<video width="1920" muted controls>
+	<source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/425b2f5de14c6f8cb6458612aa5b5a42be1f6380" type="video/mp4">
+	<source src="https://invidious.snopyta.org/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="https://yt.artemislena.eu/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="https://yewtu.be/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+</video>
 
 By default, vidir lets you edit the directory structure in vim,
 but you can use any editor you want if you change the `EDITOR` environment variable.
