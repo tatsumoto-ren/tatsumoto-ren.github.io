@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -106,9 +107,9 @@ or
 <a href="https://www.google.com/get/noto/">noto-fonts-cjk</a>.
 I also recommend installing Noto fonts for non-Asian languages and the Noto Emoji font.</p>
 <p>On Arch-based distros you can do everything with this command:</p>
-<pre><code>$ sudo pacman -S --needed otf-ipafont noto-fonts noto-fonts-cjk noto-fonts-emoji
-</code></pre>
-<p><a href="resources.html#fonts">In Resources</a> you will find other fonts I recommend.
+<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ipa-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
+</code></pre></div>
+<p>In <a href="resources.html#fonts">Resources</a> you will find other fonts I recommend.
 For example, <code>花園明朝</code> is a good fallback font.
 It supports over 100,000 characters.</p>
 <p>If you're installing fonts manually,
@@ -141,8 +142,8 @@ Truly a nightmare.</p>
 text glows and becomes hard to read.
 Chances are, your system enables it by default.
 To disable sub-pixel rendering with fontconfig, run the following <code>cp</code> command:</p>
-<pre><code>cp -- /usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf ~/.config/fontconfig/conf.d
-</code></pre>
+<div class="pre-wrap"><pre><code>cp -- /usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf ~/.config/fontconfig/conf.d
+</code></pre></div>
 <p>In case this file is not available in your system,
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/10-no-sub-pixel.conf">get it from my dotfiles</a>.</p>
 <h2 id="bitmap-fonts"><a class="anchor" href="#bitmap-fonts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bitmap fonts</h2>
@@ -151,12 +152,12 @@ bitmap fonts are sometimes used as fallbacks for missing fonts,
 which may cause text to be rendered pixelated.
 If you think you need them, open <code>99-japanese-fonts.conf</code> and set <code>embeddedbitmap</code> to <code>true</code>.
 Otherwise, set it to <code>false</code>.</p>
-<pre><code>&lt;match target=&quot;font&quot;&gt;
+<div class="pre-wrap"><pre><code>&lt;match target=&quot;font&quot;&gt;
     &lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&gt;
         &lt;bool&gt;true&lt;/bool&gt;
     &lt;/edit&gt;
 &lt;/match&gt;
-</code></pre>
+</code></pre></div>
 <h2 id="fonts-in-gtk-apps"><a class="anchor" href="#fonts-in-gtk-apps" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fonts in GTK apps</h2>
 <p>Install <a href="https://archlinux.org/packages/?name=lxappearance">lxappearance</a>.
 The program lets you change various font settings.
@@ -174,14 +175,14 @@ If it's set to &quot;RGB&quot;, the text turns into a rainbow, so I recommend ke
 You can work around this by using
 <a href="https://wiki.archlinux.org/title/X_resources">X resources</a>.
 Below is a snippet from my <code>~/.Xresources</code> file.</p>
-<pre><code>Xft.antialias:	1
+<div class="pre-wrap"><pre><code>Xft.antialias:	1
 Xft.autohint:	0
 Xft.dpi:	96
 Xft.hinting:	1
 Xft.hintstyle:	hintslight
 Xft.lcdfilter:	lcddefault
 Xft.rgba:	none
-</code></pre>
+</code></pre></div>
 <p><strong>Note:</strong> Make sure that you load the X resources file on login.
 If it doesn't happen automatically, you need to edit your <code>.xinitrc</code> file or change other settings.
 Refer to Arch Wiki for instructions.</p>
@@ -191,8 +192,8 @@ Refer to Arch Wiki for instructions.</p>
 <p>Edit <code>~/.config/i3/config</code> and define a list of fonts separated by commas.
 Font size is added once at the end of the line.
 Here's an example:</p>
-<pre><code>font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font Mono 9
-</code></pre>
+<div class="pre-wrap"><pre><code>font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font Mono 9
+</code></pre></div>
 <ul>
 <li>My <code>i3</code> config can be found <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config">in my dotfiles</a>.</li>
 <li><a href="https://i3wm.org/docs/userguide#fonts">i3 config reference</a>.</li>
@@ -211,10 +212,10 @@ Use the browser's &quot;Inspect&quot; feature to find out CSS class names you wa
 For example, the content of dictionary definitions
 can be styled by editing rules for <code>.gloss-content</code>.
 Alternatively, you can apply settings to <code>body</code> to change the font of the entire Popup.</p>
-<pre><code>.gloss-content {
+<div class="pre-wrap"><pre><code>.gloss-content {
    font-family: Yu Mincho;
 }
-</code></pre>
+</code></pre></div>
 <h2 id="anki"><a class="anchor" href="#anki" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki</h2>
 <p>Anki has a feature that allows you to store font files in the <code>collection.media</code> folder
 and sync them with all your devices, including mobile.
@@ -236,14 +237,14 @@ For this example I'm going to use a font called <code>_yumin.ttf</code>.</p>
 Go to &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; choose your Note Type &gt; &quot;Cards&quot; &gt; &quot;Styling&quot;.</p>
 </li>
 <li><p>Paste the following CSS to tell Anki to load the font when you open the Reviewer.</p>
-<pre><code>@font-face {
+<div class="pre-wrap"><pre><code>@font-face {
     font-family: &quot;My Yu Mincho&quot;;
     src:
         local(&quot;Yu Mincho&quot;),
         local(&quot;游明朝&quot;),
         url(&quot;_yumin.ttf&quot;);
 }
-</code></pre>
+</code></pre></div>
 <p>The <code>local</code> setting makes sure the font doesn't get loaded
 if it's already installed system-wide.
 Mind what name you specify for the font.
@@ -252,10 +253,10 @@ that prevents different weights of the same font from loading
 if a locally installed font has been found.</p>
 </li>
 <li><p>Scroll down to <code>.card</code> class and change or append the font's name to <code>font-family</code>.</p>
-<pre><code>.card {
+<div class="pre-wrap"><pre><code>.card {
     font-family: &quot;My Yu Mincho&quot;;
 }
-</code></pre>
+</code></pre></div>
 </li>
 </ol>
 <p>If you review on Android,
@@ -295,7 +296,7 @@ They're pixelated, and they literally glow.</p>
 <li><a href="table-of-contents.html">Table of Contents</a></li>
 <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
 <li><a href="resources.html">Resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
 </ul>
 </div>
 <div>
@@ -315,6 +316,7 @@ They're pixelated, and they literally glow.</p>
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -329,12 +331,12 @@ They're pixelated, and they literally glow.</p>
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
