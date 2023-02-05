@@ -25,7 +25,7 @@ or reading the explanation of the unknown grammar structure.
 If you still don't understand it after a lookup then it's not a 1T sentence.
 
 When making
-[TSCs](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
+[TSCs](discussing-various-card-templates.html#targeted-sentence-cards),
 I recommend that you only take 1T sentences and avoid MT sentences.
 In other words,
 [stick to the minimum information principle](https://www.supermemo.com/en/archives1990-2015/articles/20rules).
@@ -60,7 +60,7 @@ from a premade deck
 to "unlock" as many 1T sentences as possible.
 Keeping a large bank of sentences is another good approach.
 The best sentence banks are made by converting anime and dramas to Anki decks with
-[subs2srs](https://aur.archlinux.org/packages/subs2srs/).
+[subs2srs](our-immersion-learning-toolset.html#subs2srs).
 You can also download a collection of premade sentences from
 [here](ankidrone-sentence-pack.html).
 
