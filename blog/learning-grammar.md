@@ -310,7 +310,7 @@ A guide like Tae Kim uses English building blocks
 to make a mental model that resembles the Japanese grammar,
 but it's not all the way there.
 
-Once you get [fluent](faq.html#whats-fluency) in your target language,
+Once you get [fluent](whats-fluency.html) in your target language,
 go back and study your target language's grammar
 in the target language.
 To do that, use resources for native speakers.
