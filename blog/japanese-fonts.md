@@ -72,6 +72,16 @@ To list installed fonts, run `fc-list`.
 To update the font cache, run `fc-cache -fv`
 (usually unnecessary as software using the fontconfig library does this).
 
+## Managing fonts
+
+<img alt="screenshot" float="right" src="img/font-compare.webp">
+
+Install [font-manager](https://archlinux.org/packages/community/x86_64/font-manager/)
+to preview and manage fonts.
+This program lets you compare fonts side by side which is really useful.
+To compare two or more fonts,
+press the *three-dots* button in the topleft corner of the window and select "compare".
+
 ## Fontconfig
 
 Fontconfig affects what fonts are used system-wide.
