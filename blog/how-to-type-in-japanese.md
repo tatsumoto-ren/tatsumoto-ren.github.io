@@ -210,6 +210,11 @@ Every IME wants you to suffer, that's why the way each of them is used slightly 
 Don't expect keyboard shortcuts to be the same across IMEs.
 Some shortcuts may even be missing completely.
 
+## Tips
+
+* Typing with <kbd>Alt</kbd> pressed down forces latin input.
+* Pressing <kbd>alt</kbd>+<kbd>`</kbd> switches to latin mode.
+
 ## Android
 
 On Android, you need to download a Japanese keyboard.

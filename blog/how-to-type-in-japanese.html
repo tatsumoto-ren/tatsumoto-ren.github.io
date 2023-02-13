@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -143,8 +144,8 @@ Because I've had problems getting IBus to work with i3wm, I don't recommend it.<
 <li>Configure everything.</li>
 </ol>
 <p>To install Fcitx, run the following command.</p>
-<pre><code>$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
-</code></pre>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
+</code></pre></div>
 <ul>
 <li><code>fcitx-qt6</code> is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.</li>
 <li>If you're not running an Arch-based distro, find the appropriate packages in the repositories.</li>
@@ -153,11 +154,11 @@ Because I've had problems getting IBus to work with i3wm, I don't recommend it.<
 Assuming you're starting Xorg using
 <a href="https://wiki.archlinux.org/title/Xinit">startx/xinit</a>
 like a Chad, the best way to achieve it is to modify <code>~/.xinitrc</code>, adding the following lines.</p>
-<pre><code>export GTK_IM_MODULE=fcitx
+<div class="pre-wrap"><pre><code>export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 fcitx -dr &amp;
-</code></pre>
+</code></pre></div>
 <p>Note that the
 <a href="https://wiki.archlinux.org/title/Xinit#xinitrc">xinitrc</a>
 file may be located anywhere on your computer depending on how you set up your
@@ -172,8 +173,8 @@ It doesn't really matter which file you put the commands to as long as it is sou
 edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
 You need to disable the key bindings you plan to use in Fcitx.
 For example, to disable the config file created by <code>localectl</code>, run:</p>
-<pre><code>sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
-</code></pre>
+<div class="pre-wrap"><pre><code>sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
+</code></pre></div>
 <p>Also check other config files located in <code>/etc/X11/</code> or <code>/etc/X11/xorg.conf.d</code>.
 If you have <code>setxkbmap</code> commands in your <code>xinitrc</code>, edit them as well.</p>
 <p><strong>Note:</strong> You can look at the contents of my <code>xinitrc</code> file
@@ -182,12 +183,12 @@ If you have <code>setxkbmap</code> commands in your <code>xinitrc</code>, edit t
 <p>I recommend either KKC or Mozc.</p>
 <p>KKC is not as rich as Mozc, but it gives a more plug-and-play experience.</p>
 <p>Install <a href="https://archlinux.org/packages/?name=fcitx-kkc">fcitx-kkc</a>.</p>
-<pre><code>$ sudo pacman -S fcitx-kkc
-</code></pre>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S fcitx-kkc
+</code></pre></div>
 <p>Although Mozc originates from Google Japanese Input, it is free/libre.</p>
 <p>Install <a href="https://archlinux.org/packages/?name=fcitx-mozc">fcitx-mozc</a>.</p>
-<pre><code>$ sudo pacman -S fcitx-mozc
-</code></pre>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S fcitx-mozc
+</code></pre></div>
 <h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
 <p>To configure Fcitx, run <code>fcitx-configtool</code>.
 You can also bring it up via an application launcher, like
@@ -219,6 +220,11 @@ it will bring up a menu where you can choose an input method.</p>
 Every IME wants you to suffer, that's why the way each of them is used slightly differs.
 Don't expect keyboard shortcuts to be the same across IMEs.
 Some shortcuts may even be missing completely.</p>
+<h2 id="tips"><a class="anchor" href="#tips" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h2>
+<ul>
+<li>Typing with <kbd>Alt</kbd> pressed down forces latin input.</li>
+<li>Pressing <kbd>alt</kbd>+<kbd>`</kbd> switches to latin mode.</li>
+</ul>
 <h2 id="android"><a class="anchor" href="#android" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android</h2>
 <p>On Android, you need to download a Japanese keyboard.
 To do this open the <a href="https://f-droid.org/">F-Droid</a> catalog,
@@ -251,7 +257,7 @@ you can switch to the QWERTY layout in settings.</p>
 <li><a href="table-of-contents.html">Table of Contents</a></li>
 <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
 <li><a href="resources.html">Resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
 </ul>
 </div>
 <div>
@@ -271,6 +277,7 @@ you can switch to the QWERTY layout in settings.</p>
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -285,12 +292,12 @@ you can switch to the QWERTY layout in settings.</p>
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
