@@ -17,7 +17,7 @@ When the timer rings, you take a break.
 Then the cycle repeats.
 
 Ever since I found out about timeboxing from the
-[AJATT site](https://web.archive.org/web/20220625112214/http://www.alljapaneseallthetime.com/blog/secrets-to-smoother-srsing-part-5-timeboxing/),
+[AJATT site](https://web.archive.org/web/20081120072552/http://www.alljapaneseallthetime.com/blog/secrets-to-smoother-srsing-part-5-timeboxing),
 I've been doing it often.
 I usually stick to a simple [Pomodoro](https://wikiless.org/wiki/Pomodoro_Technique?lang=en) routine,
 but sometimes I use shorter intervals.
