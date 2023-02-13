@@ -10,8 +10,10 @@ You can't be stuck if you're doing AJATT,
 but you can be stuck if you slack on your immersion.
 
 I've had a feeling of not progressing,
-which is what people call the plateau,
-but I knew that I was actually improving because I trusted the AJATT method.
+which is what people call the plateau.
+Almost everyone who has learned a foreign language had this feeling at some point in the process.
+It didn't bother me.
+I knew that I was actually improving because I trusted the AJATT method.
 I knew that the solution is just to get more input, continue doing what I was doing.
 
 It helps to always seek input that is slightly above your current level.
