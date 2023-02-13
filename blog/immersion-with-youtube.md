@@ -100,6 +100,9 @@ See `$ man yt-dlp` for a comprehensive list of options.
 
 ## Notes
 
+* If you want simple and easy Japanese immersion without having to set things up,
+  just go to [youtube.076.ne.jp](https://youtube.076.ne.jp/).
+  This is a Japanese Invidious instance.
 * In my dotfiles I have
   [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
   that sorts Invidious instances based on the number of users.
