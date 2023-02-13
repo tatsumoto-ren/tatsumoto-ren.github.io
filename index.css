@@ -551,30 +551,6 @@ footer img {
     .recent-articles .polka-dot-bg::after {
         clip-path: polygon(0% 40%, 50% 100%, 100% 100%, 0 100%);
     }
-
-    /* CSS bookmark */
-
-    /* .tile .row::before {
-        content: "";
-        position: absolute;
-        display: block;
-        border-radius: 4px;
-        width: 180px;
-        height: 60px;
-        z-index: -1;
-    }
-
-    .tile.anki .row::before {
-        background-color: rgba(224, 222, 216, 0.596);
-        top: -16px;
-        left: 32px;
-    }
-
-    .tile.recent-articles .row::before {
-        background-color: rgba(224, 222, 216, 0.61);
-        top: -16px;
-        right: 32px;
-    } */
 }
 
 @media only screen and (min-width: 1350px) {
