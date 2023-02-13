@@ -13,7 +13,7 @@ and are interested in Japanese media such as movies, TV shows or novels.
 If you have any questions,
 you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
 and people will help you.
-There are over 3,000 people learning Japanese, and you should be part of it.
+There are thousands people learning Japanese, and you should be part of it.
 
 ****
 
@@ -39,22 +39,26 @@ They insist that adults have to learn languages the same way you learn math or s
 with your rational, logical brain; by consciously memorizing rules and drilling exercises.
 This has proven to be untrue.
 
-[According to Stephen Krashen](https://redirect.invidious.io/watch?v=NiTsduRreug),
-humans acquire language when they understand messages,
-and the process of acquiring a second language
+According to Stephen Krashen,
+humans acquire language when they understand messages.
+Krashen calls it [comprehensible input](what-is-comprehensible-input.html).
+The process of acquiring a second language
 is similar to the process that children undergo when learning their native language.
 You can do it no matter how old you are.
 
 We're not babies, we're smarter, and we can learn faster.
-The process of acquiring a language through immersion
-can be replicated by any adult with the help of technology.
-Immersion is the absolute most important component of the entire process.
-It can't be substituted with taking classes or buying textbooks.
+Any adult with some help of technology can aquire a language through input,
+by immersing themselves in the language.
+Language acquisition can't be substituted with *learning* a language,
+e.g. taking classes or buying textbooks.
+Immersion is the most crucial ingredient of the entire process.
 
 ### How to immerse
 
-No, you're not going to go to the country and ask a Japanese person to speak to you.
-Immersion refers to any form of listening or reading in your target language.
+No, you're not going to [go to the country](https://www.antimoon.com/other/myths-country.htm)
+and ask a Japanese person to speak to you.
+[Immersion](whats-immersion.html)
+refers to any form of listening or reading in your target language.
 The best type of content to use is anything you're interested in.
 As long as it's **by natives for natives**, it's fine.
 
@@ -118,10 +122,7 @@ You have to make effort to make the content comprehensible.
 Look up words, rely on the imagery, choose material with simpler language.
 
 Slice of life anime is the easiest genre to learn from in the beginning.
-To find easy anime you can search [MAL](https://myanimelist.net/).
-Make sure there are as few genres as possible
-and exclude other genres to prevent difficult anime from appearing in the results.
-Here's an [example search](https://myanimelist.net/anime.php?cat=0&q=&type=1&score=0&status=2&p=0&r=0&sm=0&sd=0&sy=2000&em=0&ed=0&ey=0&c[0]=a&c[1]=b&c[2]=c&c[3]=d&c[4]=e&c[5]=f&c[6]=g&genre_ex[0]=1&genre_ex[1]=2&genre_ex[2]=10&genre_ex[3]=24&genre_ex[4]=37&genre_ex[5]=39&genre_ex[6]=13&genre_ex[7]=62&genre_ex[8]=66&genre_ex[9]=18&genre_ex[10]=67&genre_ex[11]=38&genre_ex[12]=6&genre_ex[13]=68&genre_ex[14]=40&genre_ex[15]=3&genre_ex[16]=21&genre_ex[17]=29&genre_ex[18]=78&genre_ex[19]=32&genre[0]=4&genre[1]=36&o=3&w=1).
+To find easy anime you can [search MAL](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
 
 The more *language-dense* your immersion content is, the better.
 It's a good idea to choose content where people talk a lot, with some caveats.
@@ -370,7 +371,7 @@ you won't have to struggle looking up every word on each page.
 Download [Ankidrone Starter Pack](basic-vocabulary.html)
 and learn one or two thousand cards from it.
 You are free to continue learning new cards from the deck,
-but don't get stuck on this step and move to sentence mining (covered later) as soon as possible.
+but don't get stuck on this step and move to [sentence mining](sentence-mining.html) (covered later) as soon as possible.
 
 Each card in Ankidrone Starter Pack has a sentence at the front.
 The target word of the card is shown in bold.
@@ -390,7 +391,7 @@ Khatz used "All About Particles".
 Combining grammar study with the SRS can help you understand the grammar better.
 Put the example sentences in Anki if you like.
 Highlight the grammar point in the sentence to mark it the target
-([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
+([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards),
 covered later).
 If you decide not to bother with Anki at this point,
 make sure to at least read through the whole grammar guide and pay attention to examples.
@@ -411,7 +412,7 @@ The process is no different from making cards for regular words.
 
 The process of making sentence cards (or targeted sentence cards)
 for the words you don't know
-is called sentence mining (or sentence picking).
+is called [sentence mining](sentence-mining.html) (or sentence picking).
 
 Premade Anki decks might seem convenient, but they can't teach you everything,
 so making your own cards is essential to long term success with Japanese.
@@ -436,17 +437,18 @@ Continue reading this site for detailed instructions.
 Below is a quick overview.
 
 1) Build a Japanese immersion environment.
-Start consuming native Japanese content actively and passively.
+   Start consuming native Japanese content actively and passively.
+   This is the first and the most important part.
 1) Quickly learn the Japanese alphabets with a drilling app or an Anki deck.
 1) The basics.
-	* Do KanjiTransition or an isolated kanji deck.
-	* Immerse in Japanese media.
-	* While doing KanjiTransition, find a grammar guide you like and read it.
-	Every day dedicate a short period of time, 30 minutes to an hour, to study grammar.
-	* Create your own mining deck.
-	You will be adding everything else you don't know to this deck.
-	You may add example sentences from the grammar guide to your mining deck.
-	* Do Ankidrone Starter Pack. This step is optional.
+   * Do KanjiTransition or an isolated kanji deck.
+   * Immerse in Japanese media.
+   * While doing KanjiTransition, find a grammar guide you like and read it.
+     Dedicate a short period of time every day, 30 minutes to an hour, to study grammar.
+   * Create your own mining deck.
+     You will be adding everything else you don't know to this deck.
+     You may add example sentences from the grammar guide to your mining deck.
+   * Do Ankidrone Starter Pack. This step is optional.
 1) Continue immersing and making Anki cards.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
