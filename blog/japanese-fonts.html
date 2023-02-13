@@ -147,12 +147,19 @@ Truly a nightmare.</p>
 <p>With sub-pixel rendering
 <a href="https://wiki.archlinux.org/title/Font_configuration#Pixel_alignment">set to &quot;rgb&quot;</a>,
 text glows and becomes hard to read.
-Chances are, your system enables it by default.
-To disable sub-pixel rendering with fontconfig, run the following <code>cp</code> command:</p>
+Chances are, your system enables it by default.</p>
+<p>To disable sub-pixel RGB rendering with fontconfig,
+remove the corresponding config file from <code>/etc/fonts/conf.d</code>.</p>
+<div class="pre-wrap"><pre><code>sudo rm -- /etc/fonts/conf.d/10-sub-pixel-rgb.conf
+</code></pre></div>
+<p>Copy (or symlink) the file that disables sub-pixel RGB rendering
+from <code>/usr/share/fontconfig/conf.avail</code>
+to <code>/etc/fonts/conf.d</code> or <code>~/.config/fontconfig/conf.d</code>.</p>
 <div class="pre-wrap"><pre><code>cp -- /usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf ~/.config/fontconfig/conf.d
 </code></pre></div>
 <p>In case this file is not available in your system,
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/10-no-sub-pixel.conf">get it from my dotfiles</a>.</p>
+<p><strong>Tip:</strong> Install <code>etckeeper</code> to see when software updates mess with with your <code>/etc</code> directory.</p>
 <h2 id="bitmap-fonts"><a class="anchor" href="#bitmap-fonts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bitmap fonts</h2>
 <p>According to Arch Wiki,
 bitmap fonts are sometimes used as fallbacks for missing fonts,

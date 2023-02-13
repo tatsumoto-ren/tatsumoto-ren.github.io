@@ -113,7 +113,17 @@ With sub-pixel rendering
 [set to "rgb"](https://wiki.archlinux.org/title/Font_configuration#Pixel_alignment),
 text glows and becomes hard to read.
 Chances are, your system enables it by default.
-To disable sub-pixel rendering with fontconfig, run the following `cp` command:
+
+To disable sub-pixel RGB rendering with fontconfig,
+remove the corresponding config file from `/etc/fonts/conf.d`.
+
+```
+sudo rm -- /etc/fonts/conf.d/10-sub-pixel-rgb.conf
+```
+
+Copy (or symlink) the file that disables sub-pixel RGB rendering
+from `/usr/share/fontconfig/conf.avail`
+to `/etc/fonts/conf.d` or `~/.config/fontconfig/conf.d`.
 
 ```
 cp -- /usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf ~/.config/fontconfig/conf.d
@@ -121,6 +131,8 @@ cp -- /usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf ~/.config/fontconfig
 
 In case this file is not available in your system,
 [get it from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/10-no-sub-pixel.conf).
+
+**Tip:** Install `etckeeper` to see when software updates mess with with your `/etc` directory.
 
 ## Bitmap fonts
 
