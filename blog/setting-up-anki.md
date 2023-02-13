@@ -4,7 +4,7 @@ date: 1609127492
 tags: [anki]
 ---
 
-<img alt="anki" src="img/anki_logo.webp" style="float:right; max-height: 200px;">
+<img alt="anki logo" src="img/anki_logo.webp" float="right">
 
 [Anki](https://wiki.archlinux.org/index.php/Anki)
 is a
