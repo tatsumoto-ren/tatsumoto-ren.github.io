@@ -157,8 +157,9 @@ a script that can be used to play Qolibri's audio with `mpv`.
 Naturally, you need [mpv](https://wiki.archlinux.org/title/Mpv) to be installed for it to work.
 
 1) Save the script in `~/.local/bin`.
-2) To make it executable, run `chmod +x ~/.local/bin/qolibri-mpv`
-2) Make sure `~/.local/bin` is added to the [PATH](faq.html#how-do-i-add-a-directory-to-the-path).
+2) To make it [executable](how-do-i-make-a-file-executable.html),
+   run `chmod +x ~/.local/bin/qolibri-mpv`
+2) Make sure `~/.local/bin` is added to the [PATH](how-do-i-add-a-directory-to-the-path.html).
 
 In Qolibri, go to "Settings" > "Options..." > "External program" and specify the name of the executable.
 

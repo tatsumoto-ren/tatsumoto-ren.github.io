@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -90,12 +91,12 @@ The main reason you want to use the program is to browse monolingual dictionarie
 <p>On Arch Linux-based distributions you can install Qolibri with
 <a href="https://aur.archlinux.org/packages/trizen/">trizen</a>
 or any other AUR helper.</p>
-<pre><code>$ trizen -S qolibri
-</code></pre>
+<div class="pre-wrap"><pre><code>$ trizen -S qolibri
+</code></pre></div>
 <p>If you don't want to build it yourself, install
 <a href="https://aur.archlinux.org/packages/qolibri-bin/">qolibri-bin</a>:</p>
-<pre><code>$ trizen -S qolibri-bin
-</code></pre>
+<div class="pre-wrap"><pre><code>$ trizen -S qolibri-bin
+</code></pre></div>
 <p>If you're running a different distribution of GNU/Linux or not running GNU/Linux at all,
 check out the <a href="https://github.com/ludios/qolibri">GitHub</a> page
 for installation instructions.</p>
@@ -165,8 +166,8 @@ If you have <code>xclip</code> installed, you can write a small bash script
 that will send the content of the primary selection (or the clipboard, if you want) to Qolibri.</p>
 <p>Configure your DE, WM or a tool like sxhkd
 to bind the following command to a key:</p>
-<pre><code>qolibri &quot;$(xclip -o)&quot;
-</code></pre>
+<div class="pre-wrap"><pre><code>qolibri &quot;$(xclip -o)&quot;
+</code></pre></div>
 <p>Now you can select any text and then press the key you've set to quickly search it.
 I recommend enabling &quot;Server mode&quot; in Qolibri's options.
 Otherwise, every time you press the hotkey,
@@ -186,8 +187,9 @@ a script that can be used to play Qolibri's audio with <code>mpv</code>.
 Naturally, you need <a href="https://wiki.archlinux.org/title/Mpv">mpv</a> to be installed for it to work.</p>
 <ol>
 <li>Save the script in <code>~/.local/bin</code>.</li>
-<li>To make it executable, run <code>chmod +x ~/.local/bin/qolibri-mpv</code></li>
-<li>Make sure <code>~/.local/bin</code> is added to the <a href="faq.html#how-do-i-add-a-directory-to-the-path">PATH</a>.</li>
+<li>To make it <a href="how-do-i-make-a-file-executable.html">executable</a>,
+run <code>chmod +x ~/.local/bin/qolibri-mpv</code></li>
+<li>Make sure <code>~/.local/bin</code> is added to the <a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</li>
 </ol>
 <p>In Qolibri, go to &quot;Settings&quot; &gt; &quot;Options...&quot; &gt; &quot;External program&quot; and specify the name of the executable.</p>
 <p align="center"><img class="shadow" alt="external programs" src="img/qolibri-external-programs.webp"></p>
@@ -238,7 +240,7 @@ but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and se
 <li><a href="table-of-contents.html">Table of Contents</a></li>
 <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
 <li><a href="resources.html">Resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
 </ul>
 </div>
 <div>
@@ -258,6 +260,7 @@ but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and se
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -272,12 +275,12 @@ but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and se
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
