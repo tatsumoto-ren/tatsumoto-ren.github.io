@@ -15,7 +15,7 @@ To pick the right method
 you have to understand why you want to learn kanji in the first place.
 The "practice how you play" principle applies here as well.
 Kanji do not exist in a vacuum, instead people use them to write Japanese words.
-In order to "learn" them all you need to do is learn words.
+In order to "learn" them all you need to do is **learn whole words**.
 The only time you ever need to do anything with kanji is
 when you are either reading a word or writing a word.
 So, as long as you can read and write words, your kanji problems are solved.
@@ -32,7 +32,7 @@ but it's impossible to apply the knowledge to real native content when reading.
 It is glaringly obvious,
 but people who have been exposed to Japanese textbooks
 and traditional language learning in general
-are trapped by Dogma and have simply never actually thought it through.
+are trapped by dogma and have simply never actually thought it through.
 
 ## Kanji composition
 
@@ -88,6 +88,36 @@ but taking the whole character as one unit.
 When you see a new kanji, it will look like *something* to you.
 When you encounter that character again,
 you will instantly recognize it as the same exact character.
+
+In other words,
+if you wanted to test whether you have kanji fluency,
+you could do this experiment.
+
+1) Randomly select one kanji that you have never seen before in your life, look at it.
+   Example: `賃`.
+2) Wait a couple of days.
+3) Take a number of randomly selected kanji that you have also never seen before.
+   The kanji you saw in step 1 can be among them.
+   Example: `責` `魔` `歓` `賃` `脅`.
+   Ask yourself,
+   "which of these kanji is the one I saw a couple of days ago?"
+4) Guess if the kanji you saw in step 1 happens to be among the others.
+
+If you could easily pass the test then that means you have kanji fluency.
+It means just by looking at a kanji you can remember it.
+Maybe you don't remember its exact strokes,
+maybe you don't remember its readings,
+maybe you don't remember its meanings,
+but you can still tell characters apart and recall which kanji you saw the other day.
+Of course, you don't have to do this test.
+It's just an imaginary algorithm that demonstrates what kanji fluency is.
+
+After you've achieved kanji fluency,
+you can continue to improve your kanji ability only by [learning whole words](#how-to-approach-kanji),
+through a process called sentence mining.
+As long as you have that ability,
+with some additional effort you'll be able to memorize
+how to read and understand words that have kanji in them.
 
 ## Two methods of learning kanji
 
@@ -161,7 +191,7 @@ and add the benefits of spaced repetition.
   Kanji are given on the front of the cards,
   and you need to memorize the meanings they represent.
   The format of the flashcards is similar to
-  [Lazy Kanji](http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/),
+  [Lazy Kanji](https://web.archive.org/web/20100403201243/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format),
   which is a card format Khatzumoto from AJATT recommended.
 * AnkiWeb has a [large collection](https://ankiweb.net/shared/decks/rtk) of premade RTK decks.
 
@@ -315,5 +345,5 @@ To avoid quickly forgetting most of the kanji you learned
 before you have a chance to develop reading ability,
 continue reviewing for 3 to 6 months after completing the deck.
 
-The problem with retention when learning kanji in isolatoin
+The problem with retention when learning kanji in isolation
 is one of the reasons why the JP1K method was created.
