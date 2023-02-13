@@ -64,7 +64,6 @@ You may need to Email an admin to get an account.
 | :---                     | :---                                                | :---  |
 | `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) |       |
 | `matrix.kiwifarms.net`   | [kiwifarms.net](https://riot.kiwifarms.net/)        | 🏆    |
-| `halogen.city`           | [halogen.city](https://halogen.chat/)               | 🏆    |
 | `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | 🏆    |
 | `matrix.zygoat.club`     | [zygoat.club](https://riot.zygoat.club/)            | 🏆    |
 
@@ -72,7 +71,6 @@ You may need to Email an admin to get an account.
 
 | Server             | Web client                                            | Extra |
 | :---               | :---                                                  | :---  |
-| `waifuhunter.club` | [waifuhunter.club](https://chat.waifuhunter.club/)    | 🏆    |
 | `midov.pl`         | [midov.pl](https://element.midov.pl/element/)         | 🏆    |
 | `anontier.nl`      | [anontier.nl](https://element.anontier.nl/)           |       |
 
@@ -92,6 +90,10 @@ You may need to Email an admin to get an account.
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
 | `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
 
+### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
+
+Same as some above.
+
 ### Servers run by Japanese people
 
 | Server                | Web client                                       | Extra |
@@ -107,17 +109,19 @@ The list contains popular servers that have proven themselves unreliable.
 A server is added to this list if it has been caught banning user accounts
 or rooms without prior notice.
 
-| Server                         | Information                                                                                          |
-| :---                           | :---                                                                                                 |
-| `matrix.org`                   | Explained above.                                                                                     |
-| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                          |
-| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                        |
-| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                      |
-| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                      |
-| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.   |
-| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                            |
-| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                            |
-| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                        |
+| Server                         | Information                                                                                                                                   |
+| :---                           | :---                                                                                                                                          |
+| `waifuhunter.club`             | Admin deactivated users' accounts without prior notice.                                                                                       |
+| `matrix.org`                   | Explained above.                                                                                                                              |
+| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                                                                   |
+| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                                                                 |
+| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                                                               |
+| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                                                               |
+| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.                                            |
+| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                                                                     |
+| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
+| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
+| `halogen.city`                 | I used to recommend this server, but our members constantly complained about having trouble joining rooms. On top of that the server is slow. |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -175,7 +179,6 @@ without having to use a desktop client.
 * https://chat.darkcloud.ca/
 * https://element.georgefloyd.link/
 * https://chat.cfx.re/ 🏆
-* https://halogen.chat/ 🏆
 * https://element.cpn.so/ 🏆
 * https://matrix.dpin.de/ 🏆
 * https://chat.vscape.tk/ 🏆
@@ -360,7 +363,6 @@ and change the server from the default to the one you want.
 * https://curved.space/ 🏆
 * https://lolison.chat/ 🏆
 * https://ellipsys.xyz/ 🏆
-* https://halogen.city/ 🏆
 * https://cl0secall.net/ 🏆
 * https://juniorjpdj.pl/ 🏆
 * https://matrix.47q.de/ 🏆
