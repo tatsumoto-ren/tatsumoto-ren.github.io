@@ -43,7 +43,7 @@ Kanji characters with Koohii stories.
 * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
 * [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
-* [Core 2.3k](https://anacreondjt.gitlab.io/docs/coredeck/).
+* [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
   `subs2srs` Anki decks for popular anime and movies.
@@ -109,24 +109,26 @@ or you've lost it because you forgot to save it.
 In such cases sites with example sentences come to rescue.
 
 * [Massif](https://massif.la/ja).
-Allows you to search over 30 million unique Japanese sentences.
+  Allows you to search over 30 million unique Japanese sentences.
 * [Sentence Search](https://sentencesearch.neocities.org/).
-Contains voiced sentences from various premade decks.
-Grab an offline version
-[here](ankidrone-sentence-pack.html).
+  Contains voiced sentences from various premade decks.
+  Grab an offline version
+  [here](ankidrone-sentence-pack.html).
 * [Aozorasearch](https://myokoym.net/aozorasearch).
-Performs a full-text search on Aozora Bunko (digital library).
+  Performs a full-text search on Aozora Bunko (digital library).
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
-Made for Japanese people learning English but can be used in reverse.
+  Made for Japanese people learning English but can be used in reverse.
 * [Forvo](https://forvo.com/).
-Has many words pronounced in isolation but not so many sentences.
+  Has many words pronounced in isolation but not so many sentences.
 * [YouGlish for Japanese](https://youglish.com/japanese)
 * [用例.jp](https://yourei.jp/)
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
-I don't recommend Jisho
-because it suggests sentences from Tatoeba.
-Many of them come from non-native speakers.
+  I don't recommend Jisho
+  because it suggests sentences from Tatoeba.
+  Many of them come from non-native speakers.
+* [NHK Accent Audio](https://www.mediafire.com/file/ec0i8omoayfuc75/accentAudio.zip/file).
+  Audio files from the NHK Accent dictionary, 1998 edition.
 
 ## Immersion material
 
@@ -453,6 +455,8 @@ You may need a Japanese IP address for some of these.
   You can use it to generate subtitles for video files that don't have any subtitles
   or for audiobooks.
   The produced subs will contain errors due to the nature of speech recognition.
+* [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools).
+  A set of scripts for creating a local `kitsunekko` mirror.
 
 ### OCR for manga
 
@@ -493,7 +497,7 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   In **Preferences**, set "When a word is selected" to "Copy"
   and "When multiple words are selected" to "Copy".
   This should be enough to comfortably use Foliate with
-  <span title="Can be opened by pressing Alt+Insert in you web browser">Yomichan Search</span>.
+  [Yomichan Search](what-is-yomichan-search.html).
   Change Layout to "Scrolled" in Advanced section of the menu
   to prevent lags and ensure a consistent layout.
 
@@ -726,16 +730,17 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 ### Offline
 
 * [Qolibri](https://aur.archlinux.org/packages/qolibri/).
-A Qt-based EPWING dictionary viewer.
-Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
-Refer to [setup guide](setting-up-qolibri.html).
+  A Qt-based EPWING dictionary viewer.
+  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
+  Refer to [setup guide](setting-up-qolibri.html).
 * [EBView](https://aur.archlinux.org/packages/ebview-git/).
-A GTK2 based EPWING dictionary viewer.
-Like Qolibri, EBView requires you to specify where to look for the dictionary files.
-To set it up, refer to the
-[official documentation](http://ebview.sourceforge.net/help/ja/index.html),
-especially the `辞書グループの定義` section.
-* [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
+  A GTK2 based EPWING dictionary viewer.
+  Like Qolibri, EBView requires you to specify where to look for the dictionary files.
+  To set it up, refer to the
+  [official documentation](http://ebview.sourceforge.net/help/ja/index.html),
+  especially the `辞書グループの定義` section.
+* [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict).
+  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#goldendict).
 * [Tagaini Jisho](https://www.tagaini.net/)
 
 ### Android
@@ -761,6 +766,8 @@ You've been warned.
 
 * [SimplyTranslate](https://simplytranslate.org/)
 * [LibreTranslate](https://libretranslate.com/)
+* [Lingva Translate](https://github.com/thedaviddelta/lingva-translate).
+  Alternative front-end for Google Translate .
 
 ## Pronunciation and Pitch accent
 
@@ -800,20 +807,22 @@ You've been warned.
 * [日本語の発音を知る](https://ipa-mania.com/category/japanese-pronunciation/).
   Pronunciation of phonemes described in Japanese.
   Uses IPA notation + has mouth/tongue diagrams.
+* [Practice Japanese Numbers](https://langpractice.com/japanese/).
+  A page for training listening to numbers.
 
 ## Language guides
 
-### [AJATT](https://web.archive.org/web/20221027132422/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/)
+### [AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 
 How to learn Japanese on your own, having fun and to fluency.
 
 Notable articles:
 
-* [Lazy Kanji](https://web.archive.org/web/20220803200002/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format/).
+* [Lazy Kanji](https://web.archive.org/web/20100403201243/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
   One of the many methods of learning kanji.
 * [10,000 Sentences: How](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
   The [sentence mining](sentence-mining.html) method Khatzumoto used for learning Japanese.
-* [On Grammar](https://web.archive.org/web/20220129053732/http://www.alljapaneseallthetime.com/blog/on-grammar/).
+* [On Grammar](https://web.archive.org/web/20070504025927/http://www.alljapaneseallthetime.com/blog/on-grammar).
 
 Anti-features:
 
@@ -894,6 +903,7 @@ In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
 ## Misc
 
+* [Cornucopia of resources](https://djtguide.neocities.org/cor) from the old DJT site.
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
