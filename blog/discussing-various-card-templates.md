@@ -305,7 +305,8 @@ and shouldn't be treated as an advantage of using sentence cards.
 
 ## Targeted sentence cards
 
-TSCs are like sentence cards, but you always make sure to highlight the target word.
+TSCs are like [sentence cards](#sentence-cards),
+but you always make sure to highlight the target word.
 This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
 Yomichan can do it too if its settings are tweaked in a certain way.
 
@@ -560,6 +561,7 @@ adding audio for the target expression is not necessary.
 #### Distinguishing readings
 
 If a word has many readings,
+there are two words that are written with the same kanji but pronounced differently,
 or if you want to avoid failing a card due to a common reading mistake you tend to make,
 TSCs let you use furigana on top to pinpoint the correct one.
 
