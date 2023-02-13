@@ -28,7 +28,7 @@ that contains a speech bubble with Japanese text.
 To recognize text on the pages of a manga,
 you can use Tesseract or Transformers.
 Tesseract is a more lightweight tool but makes more mistakes on average.
-With Transformers you have to install a big number of
+With Transformers, you have to install a big number of
 [Python](https://docs.python.org/3/faq/general.html#what-is-python)
 packages that take up several gibibytes of disk space,
 but you get much better text recognition.
@@ -38,16 +38,38 @@ The resulting user workflow is identical, see the demo below.
 
 <video width="1920" autoplay loop controls>
 	<source src="https://g33k.se/_matrix/media/r0/download/g33k.se/ybEPaUFRInYLqQsaMKVWdfqp" type="video/mp4">
+	<source src="https://user-images.githubusercontent.com/69171671/177458117-ba858b79-0b2e-4605-9985-5801d9685bd6.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 
 ## Image viewer
 
 To read manga,
-it is nice to have an image viewer.
-I use [sxiv](https://wiki.archlinux.org/title/Sxiv),
+it is nice to have an [image viewer](resources.html#image-viewers).
+I use `nsxiv`,
 but for this setup you can install any image viewer.
 On many manga sites you can also read online in a web browser.
+
+To open an entire image folder in `nsxiv`, you can run `nsxiv .` in the folder.
+
+## File manager
+
+Another quick topic to cover up front is your file manager.
+Very often when you download manga, you get an archive
+which needs to be unpacked (`*.zip`, `*.rar`, etc.).
+For convenience, set up a keyboard shortcut to be able to extract archives in a simple keystroke.
+
+For example, my file manager is [lf](https://github.com/gokcehan/lf).
+To extract archives by pressing <kbd>E</kbd>,
+put `map E aunpack $fx` in the config file
+([atool](https://archlinux.org/packages/community/any/atool/) needs to be installed as well).
+
+`lf` supports **tags**.
+When you finish a reading session,
+tag the last page (image file) you've read by pressing <kbd>t</kbd>
+so that you don't lose the position you're at.
+Next time you open the same folder,
+you will see a red asterisk next to the tagged file.
 
 ## OCR method
 
@@ -88,7 +110,7 @@ $ transformers_ocr download
 It will download [manga-ocr](https://pypi.org/project/manga-ocr/),
 a Python library responsible for optical character recognition.
 The files will be saved to `~/.local/share/manga_ocr`
-and take up `2GiB` of disk space.
+and take up `2 GiB` of disk space.
 
 **Note:** `transformers_ocr` saves the Python packages to a standalone directory
 to ensure that later you can uninstall everything by simply removing the directory.
@@ -104,15 +126,12 @@ $ transformers_ocr recognize
 When run,
 it will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
-Use it in combination with Yomichan Search
+Use it in combination with [Yomichan Search](what-is-yomichan-search.html)
 to quickly lookup Japanese words in real-time.
-
-> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
-> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
 
 The first run will take longer than usual.
 There's yet another set of files that have to be downloaded for the OCR to work.
-The files will be saved to `~/.cache/huggingface` and take up another `500MiB`.
+The files will be saved to `~/.cache/huggingface` and take up another `500 MiB`.
 
 ### Keyboard shortcut
 
@@ -166,14 +185,14 @@ Download
 and save it as `~/.local/bin/maimocr`.
 `maimocr` is a script we are going to use to recognize Japanese text.
 
-Make the file executable:
+Make the file [executable](how-do-i-make-a-file-executable.html):
 
 ```
 $ chmod +x ~/.local/bin/maimocr
 ```
 
 The directory `~/.local/bin` should be in your
-[PATH](faq.html#how-do-i-add-a-directory-to-the-path).
+[PATH](how-do-i-add-a-directory-to-the-path.html).
 
 ### Usage
 
@@ -186,11 +205,8 @@ Check the terminal output to see if the process succeeds.
 When you run it the second time,
 `maimocr` will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
-Use it in combination with Yomichan Search
+Use it in combination with [Yomichan Search](what-is-yomichan-search.html)
 to quickly lookup Japanese words in real-time.
-
-> To open Yomichan Search, open your Web Browser and press `Alt+Insert`.
-> [Yomichan](https://foosoft.net/projects/yomichan/) should be already installed.
 
 ### Keyboard shortcut
 
