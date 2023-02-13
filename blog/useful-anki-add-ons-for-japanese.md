@@ -307,7 +307,8 @@ This simple add-on automatically copies text from a card to the clipboard.
 It is intended to assist in editing large amounts of cards.
 For example, when you select a fresh subs2srs (or mpvacious) card in the Anki browser,
 it will copy the sentence to the clipboard.
-Then you can analyze the sentence using Yomichan Search and add dictionary definitions to the card.
+Then you can analyze the sentence using [Yomichan Search](what-is-yomichan-search.html)
+and add dictionary definitions to the card.
 
 <p align="center"><img alt="screenshot" src="https://user-images.githubusercontent.com/69171671/210455938-a84d8bfc-9f87-4608-9c6f-0e52b0fe0da4.png"></p>
 <p align="center"><i>Autocopy - Settings.</i></p>
