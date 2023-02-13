@@ -220,6 +220,15 @@ function close_sidebar() {
     toggle_body_scroll()
 }
 
+function make_images_expand_on_click() {
+    document.querySelectorAll("article img:not(a>img)").forEach(img => {
+        img.onclick = () => { window.open(img.src, "_blank", "Expanded image"); }
+        img.style.cursor = "pointer";
+        img.title = "Click to open image in a new tab.";
+        console.log(img.src, img.height, img.clientHeight, img.naturalHeight);
+    })
+}
+
 /* Entry point */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -235,4 +244,5 @@ document.addEventListener('DOMContentLoaded', () => {
     $('menu-btn').addEventListener('change', toggle_body_scroll)
     $('divbody').addEventListener('click', close_sidebar)
     toggle_body_scroll()
+    make_images_expand_on_click()
 }, false)
