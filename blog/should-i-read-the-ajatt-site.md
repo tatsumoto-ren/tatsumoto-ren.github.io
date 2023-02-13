@@ -17,7 +17,7 @@ There are ideas in which this site disagrees with the original AJATT method.
 I want you to be aware of the new approach before you learn about the old ways.
 
 Once you're ready, read the
-[AJATT Table of Contents](https://web.archive.org/web/20220506045940/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/).
+[AJATT Table of Contents](https://web.archive.org/web/20150501215239/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency).
 You can ignore everything outside the Table of Contents.
 I also recommend exploring
 [the old version](https://web.archive.org/web/20080828035044/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency).
