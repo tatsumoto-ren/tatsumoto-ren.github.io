@@ -11,9 +11,9 @@ Do I have to start a timer every time I open a book?
 Play an anime episode?
 Read manga?
 That's too tedious.
-[Change your environment](https://web.archive.org/web/20220520144350/http://www.alljapaneseallthetime.com/blog/its-not-choice-its-environment/)
+[Change your environment](https://web.archive.org/web/20110924033326/http://www.alljapaneseallthetime.com/blog/its-not-choice-its-environment)
 and
-[control your space](https://web.archive.org/web/20220519152447/http://www.alljapaneseallthetime.com/blog/immersion-why-you-should-stop-trying-to-control-or-measure-time/)
+[control your space](https://web.archive.org/web/20150321095512/http://www.alljapaneseallthetime.com/blog/immersion-why-you-should-stop-trying-to-control-or-measure-time)
 instead.
 I would just aim for a constant stream of immersion that lasts all day.
 
