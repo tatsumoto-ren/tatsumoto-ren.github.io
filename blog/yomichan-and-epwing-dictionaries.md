@@ -414,7 +414,8 @@ These are a must-have if you watch dramas or anime a lot.
 * Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
 * VN. Visual Novels.
   I don't recommend VNs because most of them are proprietary,
-  but the frequency list may help you detect common words in other types of content.
+  but the frequency list may help you detect common words in other types of content,
+  for example manga and anime.
 * BCCWJ &mdash; Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
 * Daijirin. Words that appear in the `大辞林` monolingual dictionary.
   You may want to take a look at it if you've decided to go monolingual,
