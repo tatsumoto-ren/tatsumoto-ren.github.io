@@ -116,20 +116,44 @@ Most of us pursue the same goal.
 Having that in mind,
 there are words that you may want to focus on
 and words that you may want to save for later.
-To decide which words are more important, pay attention to
-[frequency lists](yomichan-and-epwing-dictionaries.html#frequency-lists).
-Choose frequency lists that match your immersion content.
-If none of your frequency lists have data for a word,
-it's probably better not to mine it.
+Useful words should be added to the SRS so that you don't forget them.
+
+To decide which words are more important, there are two main techniques.
+
+* Pay attention to [frequency lists](yomichan-and-epwing-dictionaries.html#frequency-lists).
+  Choose frequency lists that match your immersion content.
+  If none of your frequency lists has data for a word,
+  it's probably better not to mine it.
+  If there is data for the word, but it's not a frequent word,
+  you can mine it but keep it for later (reposition, suspend) instead of learning it that same day.
+* Mine all words you come across but don't learn them.
+  Later if you notice that you're about to make a card for a word you already have in your SRS,
+  learn it then.
+  So you're learning only the words that you've encountered at least twice.
 
 In the beginning it will be impossible to mine every sentence you come across each day.
-You're going to have to decide when to stop adding new cards to Anki.
+You're going to have to decide when to stop adding new cards to Anki,
+or you'll go crazy trying to chase every word.
 Determine your daily sentence quota.
 Once you reach it, stop collecting new sentences and continue immersing freely.
-Continue paying attention to your immersion during this time.
+But continue paying attention to your active immersion during the time.
 
 Setting the daily quota will quickly become unnecessary
 as your comprehension of the language improves.
+When you get more advanced, you'll be coming across less and less unknown words.
+At some point you turn the tables and have to look for more difficult content
+to maintain the same number of words you mine per day.
+
+Frequency lists also gradually
+[become useless](when-do-i-make-a-card-and-when-do-i-just-keep-going.html)
+as you progress.
+Once you have mined most common words,
+essential or core vocabulary,
+frequency of other, less common words, starts to fluctuate significantly
+depending on the domain of the language, the genre of the content you're immersing with.
+If at that point you continue relying too much on frequency lists,
+it can lead to skipping words that are actually useful to you at that point,
+in the context of the input you are consuming.
 
 ## Card template
 
