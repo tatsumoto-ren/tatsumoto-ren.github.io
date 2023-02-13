@@ -9,7 +9,7 @@ Avoid small fonts, they're bad for your eyes.
 
 Because today almost all reading is done on a computer,
 you can set a larger font no problem.
-Plus, computers make lookups and sentence mining easier.
+Plus, computers make lookups and [sentence mining](sentence-mining.html) easier.
 
 Some printed books are written in small fonts,
 but you don't need to practice reading at smaller font sizes in order to get used to them.
