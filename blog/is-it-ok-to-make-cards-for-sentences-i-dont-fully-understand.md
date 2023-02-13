@@ -12,16 +12,17 @@ You can also swap the sentence with a simpler one from a sentence bank or from a
 If you're using TSCs, you can learn MT sentences just fine.
 You're not restricted to only 1T sentences.
 When you learn a new TSC, you learn the target word.
-You're being tested on the targed word.
+You're being tested on the target word.
 Everything else on the card serves the purpose of increasing your comprehension.
 So because it is not mandatory to know the context,
 you can pay little attention to it.
 
-Ideally you want to stick to the 1T rule and only make TSCs for sentences you understand.
+Ideally you want to stick to the [1T](one-target-sentences.html) rule
+and only make TSCs for sentences you understand.
 A good sentence can help you understand the target word better.
 But if there's no other choice,
 you can go with a sentence that's not fully comprehensible.
-If you just started sentence mining,
+If you just started [sentence mining](sentence-mining.html),
 or you're a beginner learning from a premade deck,
 there will be MT sentences.
 It's okay to tolerate them.
