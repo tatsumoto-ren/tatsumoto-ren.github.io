@@ -30,7 +30,8 @@
 <a href="our-immersion-learning-toolset.html">Tools</a>
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
 <a href="donating-to-tatsumoto.html">Donate</a>
 <a href="join-our-community.html" class="important">Join chat</a>
 </nav>
@@ -48,7 +49,7 @@
 <a href="resources.html">Resources</a>
 <a href="tag_decks.html">Decks</a>
 <a href="tag_dictionaries.html">Dictionaries</a>
-<a href="faq.html">FAQ</a>
+<a href="tag_faq.html">FAQ</a>
 </div>
 <hr>
 <div class="page-contents"></div>
@@ -140,8 +141,8 @@ The most widely used mpd client is <code>ncmpcpp</code>, but there are many alte
 or
 <a href="https://aur.archlinux.org/packages/gmpc/">GMPC</a>.</p>
 <p>After you've installed <code>mpd</code>, create the config and playlists directories:</p>
-<pre><code>$ mkdir -p ~/.config/mpd/playlists
-</code></pre>
+<div class="pre-wrap"><pre><code>$ mkdir -p ~/.config/mpd/playlists
+</code></pre></div>
 <p>To configure <code>mpd</code>, edit <code>~/.config/mpd/mpd.conf</code>.
 Make sure to specify your <code>music_directory</code> correctly.</p>
 <p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/mpd/mpd.conf">Example configuration file</a></p>
@@ -189,13 +190,13 @@ automatically add them to your <code>mpd</code> music directory and start playin
 <p>To get <code>impd</code>, install the
 <a href="https://aur.archlinux.org/packages/impd-git/">impd-git</a>
 AUR package or follow the installation steps on GitHub.</p>
-<pre><code>$ trizen -S impd-git # or yay
-</code></pre>
+<div class="pre-wrap"><pre><code>$ trizen -S impd-git # or yay
+</code></pre></div>
 <p>To complete the installation, create a config file
 to tell <code>impd</code> where to search for the video files.</p>
-<pre><code>$ mkdir ~/.config/immersionpod
+<div class="pre-wrap"><pre><code>$ mkdir ~/.config/immersionpod
 $ echo 'video_dir=/mnt/archive/video/anime' &gt; ~/.config/immersionpod/config
-</code></pre>
+</code></pre></div>
 <p><code>impd</code> operates by <em>rotating</em> immersion material.
 To rotate your immersion, call <code>impd rotate</code>.</p>
 <p>Rotation consists of two steps:</p>
@@ -276,7 +277,7 @@ though the results weren't as good because radio is often more about music than 
 <li><a href="table-of-contents.html">Table of Contents</a></li>
 <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
 <li><a href="resources.html">Resources</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
 </ul>
 </div>
 <div>
@@ -296,6 +297,7 @@ though the results weren't as good because radio is often more about music than 
 <li><a href="tag_mpv.html">MPV</a></li>
 <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
 <li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
 </ul>
 </div>
 <div>
@@ -310,12 +312,12 @@ though the results weren't as good because radio is often more about music than 
 </div>
 <div>
 <h3>Support us</h3>
-<p>Join our Patreon or donate cryptocurrency.</p>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
 <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2022</p>
+<p>Copyright © Tatsumoto 2020-2023</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>

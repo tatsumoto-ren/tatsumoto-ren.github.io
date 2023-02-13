@@ -1,130 +1,483 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>Tatsumoto Ren</title><link>https://tatsumoto-ren.github.io/blog/index.html</link>
-<description>How to use Free Software to learn Japanese, and more.</description><language>en</language>
-<lastBuildDate>Fri, 30 Sep 2022 23:56:48 +0300</lastBuildDate>
-<pubDate>Fri, 30 Sep 2022 23:56:48 +0300</pubDate>
+<channel>
+<title>Tatsumoto Ren</title>
+<link>https://tatsumoto-ren.github.io/blog/index.html</link>
+<description>How to use Free Software to learn Japanese, and more.</description>
+<language>en</language>
+<lastBuildDate>Mon, 13 Feb 2023 11:54:10 +0300</lastBuildDate>
+<pubDate>Mon, 13 Feb 2023 11:54:10 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
-<item><title>
-Plumbing for language learners</title><description><![CDATA[
-<p>In this article let's talk about passing text between applications
-Usually people simply select and copy-paste text from one window to the other,
-but there's a way to make it faster by using the concept of plumbing.</p>
-<p>Plumbing is something that can make using a computer so much more convenient and fast.
-I think everybody should use it.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/plumbing-for-language-learners.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/plumbing-for-language-learners.html</guid>
+<item>
+<title>Pausing. How often should I look things up while actively immersing?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>If you never pause, it means you don't look up words at all.
+The more you look up, the faster you progress.
+If you have to look up a word in every sentence, it quickly becomes tedious.
+So your task is to
+try to find the balance between enjoyment and frequent lookups.</p>
+<p>You can watch raw and try to understand only through the visuals,
+watch with subs and actively look up unknown words,
+or do something in between.
+When it comes to doing something in between,
+it boils down to
+looking things up only once every couple minutes.
+In, practice, however, I find that most people can't do it.
+It's a lot of work to sit with a timer
+or somehow arbitrary track time and decide when to look up and when not to look up.
+So I recommend splitting your time between media where you look up everything
+and media where you don't look up anything.</p>
+<p>One of our community members, <code>ﾌｪﾘﾍﾟ</code>, shares the following routine:</p>
+<blockquote>
+<p>I always keep two TV-shows.
+One for mining <strong>everything</strong>
+and the other one for pure enjoyment, without lookups.</p>
+</blockquote>
+<p>I agree with this.
+I never look up when I'm watching <abbr title="movies and TV-shows without any subtitles">raw</abbr>,
+and always look up when I'm watching with subtitles.
+When reading, I always look up unless I can easily infer the meaning from the context.
+But be careful when skipping lookups when reading
+because you might run across a word written in kanji
+and assume that it is read one way when it is actually read differently.
+This is not a problem when reading alongside an audiobook though.</p>
+<p>If you find yourself looking up too many unknown bits too often,
+switching to easier content is a solution too.
+You can go back to the difficult medium once you increase your skill level.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/pausing-how-often-should-i-look-things-up.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/pausing-how-often-should-i-look-things-up.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 30 Sep 2022 23:54:49 +0300</pubDate></item>
-<item><title>
-Mass immersion</title><description><![CDATA[
-<p><a href="faq.html#whats-ajatt">AJATT</a>
-targets people who want to reach a high level in the language and truly become fluent.
-One of the most important parts of AJATT is
-immersing yourself in Japanese as close to 24 hours a day as possible,
-combining that with spaced repetition and other technology.</p>
-<p>Immersion is quite important, we already know that.
-Let's figure out how much immersion is necessary.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/mass-immersion.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/mass-immersion.html</guid>
+<pubDate>Mon, 13 Feb 2023 06:11:01 +0300</pubDate>
+</item>
+<item>
+<title>In order to increase my reading speed, should I force myself to start skimming?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Khatzumoto recommended skimming mostly as a motivational tool.
+You skim boring parts to get to the fun parts, and it keeps you focused on your immersion.</p>
+<p>When it comes to reading speed, skimming won't help.
+If you read a lot, your reading speed will improve naturally.
+To increase your reading speed
+you need to read at your natural speed, and read a lot.
+Slowly over time your natural reading speed will get better.</p>
+<p>The more you read, the more your brain will be able to recognize patterns and
+group words together. For example, when you first start learning Japanese, you
+may need to read each character individually to understand long patterns
+such as <code>○○ざるを得ない</code>, <code>○○もさることながら</code> or <code>どちらかと言うと</code>.
+But as you become more familiar with the language,
+you will be able to recognize longer patterns instantly,
+without having to say each syllable in your head.
+Your brain will become able to process multiple characters and multiple words as single units.
+With practice,
+you start to chunk the language into larger and larger pieces.
+As you become more accustomed to picking up groups of words as single units,
+your reading speed increases due to the decreased number of chunks you have to process.</p>
+<p>So the key to being able to read faster naturally
+is building the mental infrastructure in your brain.
+Forcing yourself to read faster than you are comfortable will not lead to the desired result.
+Speed is only achievable through dedicated practice and time.</p>
+<p>I don't recommend skimming, as it can lead to missing important information.
+It is much more beneficial to be able to actually read and recognize each piece of the text,
+rather than just jumping through words,
+skipping chunks
+and inferring the meaning from the context.
+While it can be possible to comprehend and infer the meaning of Japanese text without certain parts,
+such as conjugations and particles,
+the lack of exposure to essential words and grammar
+may impede one's ability to use them when speaking.
+For language acquisition
+it is important that you pay attention to each bit of information in the text
+so that your brain can absorb the patterns and acquire grammar.
+Avoid skimming in order to gain maximum exposure to all elements of Japanese.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/to-increase-reading-speed-should-i-start-skimming.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/to-increase-reading-speed-should-i-start-skimming.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 31 Aug 2022 23:21:35 +0300</pubDate></item>
-<item><title>
-Japanese locale</title><description><![CDATA[
-<p>A <a href="https://wiki.archlinux.org/title/Locale">Locale</a>
-is a set of information that most programs use
-for determining country and language specific settings.
-Since you're learning Japanese,
-generate and enable the Japanese locale on your system.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/japanese-locale.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/japanese-locale.html</guid>
+<pubDate>Mon, 13 Feb 2023 04:47:06 +0300</pubDate>
+</item>
+<item>
+<title>Is it more efficient to stick to one genre/domain instead of jumping around?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>It's definitely more efficient to focus on one genre or one domain at a time.
+But of course you need to take enjoyment into account.
+If you stick to one domain for too long then it can become really tedious.</p>
+<p>In the guide I said that in the beginning
+I recommend immersing in slice of life movies and TV shows.
+In slice of life shows you've got a limited range of vocabulary,
+and the words that are being used are common across the entire language.
+This the recommended first domain.
+Having a solid foundation in the initial domain
+makes it much easier to learn new domains.
+When you know the most basic vocabulary,
+you can move forward really quickly.
+You build up a strong base in one domain,
+increase your overall comprehension,
+and then use that to your advantage as you move on to new domains.</p>
+<p>If you focus your attention on a specific domain of your target language,
+it will be much easier for your brain to absorb the patterns.
+By narrowing your field of study and taking it one domain at a time,
+you can ensure that your brain can fully focus on one thing
+and master it before moving on to another.
+This approach is much more efficient than trying to learn many things at once.</p>
+<p>Every time you choose a new genre,
+move to a different domain,
+it will have a different set of commonly used words and expressions.
+Domains can be similar to each other or very different from each other.
+Some specialized domains can be quite difficult to understand without lots of study.
+Try not to jump to a new domain
+that is too distinct from other domains you have immersed in.
+Also, try to get a solid foothold in the domain before moving to the next domain.</p>
+<p>Once you reach advanced stages,
+worrying too much about differences between domains is not going to be productive.
+For example,
+if in the beginning you're immersing only in slice of life TV shows,
+in later stages you don't have to distinguish between anime and reality shows, or anime and dramas.
+Moving from one domain to another becomes pretty easy.</p>
+<p>If you immerse in only one genre,
+you're going to quickly increase your understanding of the content in that genre.
+Once you understand a certain genre well,
+your overall progress in the language will slow down
+until you tackle a new domain.
+So, sticking to one genre for too long is also a bad idea,
+but jumping between many genres will result in facing too many unknown words
+if you're not fluent yet.
+Ultimately it's about finding the balance between
+trying to master domains of the language in the most efficient way
+and immersing in what looks interesting.
+Prioritize enjoyment over &quot;efficiency&quot;.
+The fun cut to Japanese is almost always the shortcut.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-more-efficient-to-stick-to-one-domain.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-more-efficient-to-stick-to-one-domain.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 13 Jul 2022 21:10:23 +0300</pubDate></item>
-<item><title>
-Condensing active immersion</title><description><![CDATA[
-<p>Watching movies and TV shows counts towards active immersion
-and requires full attention to the content.
-We can apply a little optimization to condense active immersion.
-This small trick helps if you're watching something boring or if you're tight on time.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/condensing-active-immersion.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/condensing-active-immersion.html</guid>
+<pubDate>Thu, 09 Feb 2023 00:06:19 +0300</pubDate>
+</item>
+<item>
+<title>I'm not motivated and don't enjoy learning Japanese, is it still worth my time?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Being unmotivated means that you don't actually want to learn Japanese,
+but you want to &quot;want to learn Japanese&quot;.
+And if so I highly recommend quitting.</p>
+<p>Don't learn Japanese.
+It's just honestly stupid.
+Just don't.
+There's no point to learning Japanese.
+There's nothing special about it.
+It's completely meaningless.
+And that's the honest truth.</p>
+<p>Doing Japanese means making a lot of sacrifices.
+To get good at Japanese you have to permanently change your life in a certain way.
+You have to spend multiple years
+reading, watching, listening, looking up words, making flashcards, reviewing flashcards, and so on.
+If you hate all of that then it's not going to be worth it for you.
+Being fluent in Japanese is not going to make you happy if the process didn't.
+And even if it did,
+I don't think the result is worth suffering for several years.</p>
+<p>When I was learning Japanese,
+I never had problems with motivation.
+I had a concrete goal.
+I knew that I wanted to understand untranslated anime.
+Before I started Japanese, I had been watching anime for 7 years,
+so I simply pegged learning Japanese to an existing habit.
+I was going to watch anime almost every day anyway,
+so why not do it in Japanese.</p>
+<p>You have to have a strong passion about something in Japan or about Japanese.
+Otherwise, it's not going to work.
+Instead of <em>learning Japanese</em> enjoy Japanese because it's there.
+Read this book, watch this movie, read this manga, listen to this song.
+Play the short games.</p>
+<p>Now, if you had motivation before, but lost it,
+that's a slightly different problem.
+You've probably lost your goal.
+You need to rediscover it, or find a new one.
+What do you want to do in Japanese?
+Have you watched every movie there is to watch?
+Have you read every book there is to read?
+There's no magic pill for fixing motivation,
+but there's lots of fun things to do in the language.
+Do Japanese because it's fun.</p>
+<p>Lastly,
+think back to when you didn't know anything at all.
+It's important to appreciate how far you have come,
+how much you have learned,
+and how much you already know.
+You have already made it this far, and you can continue to make more progress.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/im-not-motivated-and-dont-enjoy-learning-japanese.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/im-not-motivated-and-dont-enjoy-learning-japanese.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 24 Jun 2022 19:11:49 +0300</pubDate></item>
-<item><title>
-Kana Anki decks</title><description><![CDATA[
-<p>These Anki deck teach hiragana and katakana.
-There's a Recognition deck and a Production deck.
-The Recognition deck teaches how to read kana,
-the Production deck teaches how to write kana from memory.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/kana-anki-decks.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/kana-anki-decks.html</guid>
+<pubDate>Wed, 08 Feb 2023 21:50:02 +0300</pubDate>
+</item>
+<item>
+<title>I am struggling to switch from English to Japanese media. Should I go cold turkey?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>You shouldn't have this problem.
+Most people before they start AJATT
+already have a passion for otaku content
+like anime, manga, ranobe,
+or other types of Japanese media.
+For them learning Japanese is a means to
+get more enjoyment out of the media they are fond of.
+If you decided to learn Japanese out of the blue,
+and you don't like any of the above,
+it's going to be very hard to immerse without quitting and going back to English.</p>
+<p>If you like anime, there will be no temptation to watch crap in English.
+Anime exists only in Japanese.
+Most of the stuff people like in Japanese has no alternatives in the English world.
+So you can either consume translated media which is always worse,
+or you can learn Japanese and experience the original to its fullest.
+A lot of stuff isn't even translated, and isn't going to be.</p>
+<p>Find something you like in Japanese.
+Try to discover new stuff,
+something that has no alternatives in English.
+I feel like most people reading this already have an answer.</p>
+<p>If you look at this from the opposite side, there's no difference.
+Let's say you're Japanese, and you're learning English.
+There is unique, interesting English content.
+You just have to find it, find what you like.</p>
+<p>When it comes to should you go cold turkey,
+you can't do it until you find media you're passionate about.
+When you do, I bet you're going to jump cold turkey without a second thought.
+If you don't find unique and compelling content,
+immersion will feel like study,
+like going to classes,
+and your willpower is not going to last long.</p>
+<p>If there's English media that interest you,
+it's okay if you do English once or twice a week on schedule.
+If you do only Japanese,
+you will be constantly craving the English media you used to consume.
+There's a chance that you end up losing to the temptation,
+dropping Japanese immersion
+and going back to all the English content you've been abstaining from.
+It will be worse than occasional breaks.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/i-am-struggling-to-switch-from-english-to-japanese-media.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/i-am-struggling-to-switch-from-english-to-japanese-media.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 20 Jun 2022 10:56:07 +0300</pubDate></item>
-<item><title>
-Matrix quickstart guide</title><description><![CDATA[
-<p>This article is a user guide to Matrix.
-It also covers the most popular Matrix client program, Element.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/matrix-quickstart-guide.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/matrix-quickstart-guide.html</guid>
+<pubDate>Mon, 06 Feb 2023 21:52:55 +0300</pubDate>
+</item>
+<item>
+<title>How much reading is required to counteract not SRSing?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>You can't fully counteract not SRSing.
+This is true for every use case of the SRS,
+especially when learning things like math, programming, physics, anatomy, biochemistry, etc.
+In language learning it is less noticeable,
+which leads to the idea that one can stop SRSing and experience no negative effects.
+This idea is more common among language learners.</p>
+<p>Now,
+if you learn a language to some level of proficiency,
+and then stop using it completely,
+including immersion and the SRS,
+one day you'll forget all of it.
+If you immerse a little, it will happen later.
+If you immerse a lot, you will be improving.
+This all is pretty obvious.
+Nonetheless,
+language consists of <a href="how-broad-or-narrow-is-a-domain-of-language.html">domains</a> of various sizes.
+Much like if you go to a math class,
+learn something,
+and then stop contacting or using that information,
+you will forget it,
+without the SRS you have to regularly come back to every domain you've immersed with,
+or you'll forget vocabulary specific to that domain.</p>
+<p>There are many corner-case words that could be easily lost without repetition.
+These are words that come up maybe just a few times a year or less.
+Things like names of different
+animals, plants, food, fish and birds, stars and planets;
+words related to various skills,
+fields science and art;
+and many more.
+It's true that they are not very important,
+but they still come up occasionally.
+Every time they come up, you're going to feel like you're a child who's lost.</p>
+<p>The SRS is the reason why AJATTers can have passive vocabulary
+larger than an average native their age.
+They're able to surpass natives in 5-7 years.
+A native speaker has spent their entire life using the language.
+When you take out the SRS,
+you start forgetting words you don't run into often enough,
+and as a result it takes you way longer to catch up to a native.
+Without enough immersion every day you may never be able to do it.</p>
+<p>That's why it's not possible to counteract not SRSing —
+there are too many domains to worry about.
+Even if you read all day, there's always some vocabulary you're not contacting.
+When you stop using the SRS,
+the rules change,
+and you enter the game of fighting a leaking bucket.
+The SRS becomes especially important
+when there's not enough repetition of any kind of information.</p>
+<p>Khatzumoto has an article on this topic,
+<a href="https://web.archive.org/web/20111019215213/http://www.alljapaneseallthetime.com/blog/khatz-if-youre-fluent-why-do-you-still-srs">If You’re Fluent, Why Do You Still SRS</a>.
+In the article he says that once he stopped SRSing,
+he started forgetting words that normally you don't see very often,
+words that you maybe don't see every day but need once in a while.
+Khatz was frustrated with his inability to improve without the SRS,
+so he started SRSing again.</p>
+<p>Throughout my Japanese learning journey I always knew the consequences of dropping the SRS
+from reading about what people before me, including Khatz, experienced,
+so I never stopped SRSing.
+Once you've used SRS for a while,
+you start applying it to all aspects of your life,
+not just language learning.
+You start SRSing your exams, for example.
+When you have a variety of different topics in your SRS,
+it becomes harder to quit it.</p>
+<p>If you have too many due cards each day,
+consider <a href="setting-up-anki.html#options-groups">optimizing your settings</a>
+and <a href="how-to-review.html#card-retirement">retiring mature cards</a>.
+You could even delete some decks that you're sure you don't need anymore,
+though I'm not a fan of deleting entire decks.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-much-reading-is-required-to-counteract-not-srsing.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-much-reading-is-required-to-counteract-not-srsing.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 15 Jun 2022 22:48:44 +0300</pubDate></item>
-<item><title>
-How Anki works</title><description><![CDATA[
-<p>Since in this guide we are going to use Anki to study our target language,
-let's talk about how it works.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/how-anki-works.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-anki-works.html</guid>
+<pubDate>Sun, 05 Feb 2023 11:07:55 +0300</pubDate>
+</item>
+<item>
+<title>I only do passive immersion and things aren't working, what's wrong?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>The answer is obvious. Do active immersion.</p>
+<p>Even if you have headphones on all day,
+without active immersion you can't expect any improvement.
+The whole point of passive immersion
+is to get additional exposure to the sentences you already have learned to some extent.</p>
+<p>Especially in early stages
+during passive immersion
+you generally consume exactly the same content
+that you learn from during active immersion.
+During passive immersion your brain should be exposed to what you've been working on actively.
+If you're doing only passive listening,
+your brain is going to filter the information out as background noise.</p>
+<p>During active immersion
+you need to give your full attention to the immersion
+and try to understand as much as possible.
+Make flashcards for the unknown bits.
+Then, when you're going to re-listen to the same content passively,
+listening is going to help you solidify the knowledge.</p>
+<p>Passive immersion only helps to the extent that you are also doing active immersion.
+If you skip active immersion,
+you won't understand what's going on.
+But if you listen to familiar content,
+it is easier to follow the story.
+Even if your attention moves to something else,
+when you move it back,
+you can still understand what's going on because you already know the plot.</p>
+<p>It is possible to learn a language without passive immersion,
+but it is almost impossible to do without active immersion.
+You need to actively immerse and look up as many words as you can while doing so.</p>
+<p>If you do no active immersion,
+passive immersion does little to nothing.
+If you are doing lots of active immersion each day,
+then passive immersion starts to become very beneficial.</p>
+<p>So what I recommend everyone to do is
+watch anime, movies and dramas actively
+and then put each episode through <a href="passive-listening.html#impd">impd</a> to get condensed audio.
+Listen to the condensed audio in the background until <code>impd</code> archives it.
+The process should not require much time,
+you only need time to watch a few episodes every day.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/i-only-do-passive-immersion-and-things-arent-working-whats-wrong.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/i-only-do-passive-immersion-and-things-arent-working-whats-wrong.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 13 Jun 2022 18:55:40 +0300</pubDate></item>
-<item><title>
-Spaced repetition</title><description><![CDATA[
-<p>To study efficiently
-and help you keep track of the learning process
-one of the first things you're going to want to do is
-obtain a spaced repetition system.
-In this article let's cover the theory behind spaced repetition,
-why you need it
-and what system to use.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/spaced-repetition.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/spaced-repetition.html</guid>
+<pubDate>Wed, 01 Feb 2023 07:50:27 +0300</pubDate>
+</item>
+<item>
+<title>How to learn readings after finishing isolated kanji study?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Through <a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence cards</a>.</p>
+<p>Various methods of <a href="learning-kanji.html#isolated-kanji-study">isolated kanji study</a>
+usually don't cover kanji readings.
+If they do, they have you learn the most common reading,
+as KanjiDamage does, for example.
+Knowing the most common reading helps a little,
+but you still need to learn how to read actual words you come across by yourself.</p>
+<p>After you're done with isolated kanji study,
+learn kanji readings in context.
+Readings should not be learned in isolation.
+You're going to learn words and their readings at the same time.
+So what you need to do is
+read a lot of native Japanese content, look up words and make TSCs.</p>
+<p>At first, you may want to use a premade deck.
+I recommend downloading
+<a href="basic-vocabulary.html">Ankidrone Starter Pack</a>
+and learning from 1,000 to 3,000 cards from it.
+The deck has Japanese sentences on the front,
+English translations on the back.
+It also comes with native audio.
+You learn what the words mean and how to read them.</p>
+<p>So you learn each word by itself,
+as a single unit,
+and over time your ability to predict kanji readings becomes stronger.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-to-learn-readings-after-finishing-isolated-kanji-study.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-to-learn-readings-after-finishing-isolated-kanji-study.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 12 Jun 2022 07:16:37 +0300</pubDate></item>
-<item><title>
-JLPT Tango N1 Anki deck</title><description><![CDATA[
-<p align="center">
-<img src="img/tango_n1.webp" alt="cover" style="max-height: 400px;">
-</p>
-<p>3000 Essential Vocabulary for the JLPT N1,
-also known as JLPT Tango N1,
-is a textbook to prepare for the JLPT N1.
-It contains ~2000 Japanese sentences and their English translations.
-The book includes vocabulary found commonly on the JLPT and often used in everyday life.</p>
-<p>With the help of our chat members,
-we have created an Anki deck from
-sentences listed in the book
-and native audio that comes with it.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/jlpt-tango-n1-anki-deck.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/jlpt-tango-n1-anki-deck.html</guid>
+<pubDate>Sun, 29 Jan 2023 02:20:51 +0300</pubDate>
+</item>
+<item>
+<title>How to make monolingual TSCs for vocab and grammar?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>The process of making monolingual <a href="discussing-various-card-templates.html#targeted-sentence-cards">TSCs</a>
+for grammar and vocab is the same
+because there's no significant difference between the two.</p>
+<p>When you're reading books,
+watching things with subtitles,
+browsing the web,
+you're going to find sentences where
+you know everything in a sentence
+but one grammar point or one word.
+Take that whole sentence,
+put it on the front of your SRS card.
+On the back you're going to put the monolingual definition
+for the grammar point or word you didn't know.</p>
+<ol>
+<li>Download and install monolingual
+<a href="yomichan-and-epwing-dictionaries.html">dictionaries</a>
+for Yomichan.</li>
+<li>Keep JMdict enabled (<a href="setting-up-yomichan.html#collapse-dictionaries">but hidden</a>)
+for times when your monolingual dictionaries don't pick up certain words.
+Monolingual dictionaries tend to be smaller than JMdict.</li>
+<li>Mine sentences as usual, don't add English definitions to your cards.
+Having both English and Japanese definitions is acceptable only during the transition period.</li>
+</ol>
+<p>You will run into grammar points
+that only have English definitions.
+Rely on Yomichan to pin-point the grammar pattern, then use
+<a href="https://www.weblio.jp/">Weblio</a>,
+<a href="https://sakura-paris.org/dict/">sakura-paris</a>
+or any search engine to look it up.
+Searching the web should lead to explanations in Japanese.</p>
+<p>Also try <a href="yomichan-and-epwing-dictionaries.html#grammar">monolingual dictionaries for grammar</a>.
+They cover additional topics and can help when other dictionaries fail.</p>
+<p>Some people would prefer to install as many monolingual dictionaries as possible
+to cover even more ground and minimize the need to look up words online.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-to-make-monolingual-tscs-for-vocab-and-grammar.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-to-make-monolingual-tscs-for-vocab-and-grammar.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 10 Apr 2022 21:51:14 +0300</pubDate></item>
-<item><title>
-Learning grammar</title><description><![CDATA[
-<p>What's grammar?
-Should you learn grammar?
-How to learn grammar?
-Let's answer these question in this article.</p>
-<hr>
-]]></description><link>https://tatsumoto-ren.github.io/blog/learning-grammar.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/learning-grammar.html</guid>
+<pubDate>Sun, 29 Jan 2023 01:00:45 +0300</pubDate>
+</item>
+<item>
+<title>How to rep audio-based sentence cards?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>By pressing <kbd>Ctrl+Delete</kbd>.
+Audio-based cards are completely useless.</p>
+<p>Unlike text-based sentence cards,
+audio-based cards are easier to cheat on.
+You end up memorizing the answer based on the audio clip
+which doesn't necessarily help you remember the target word.</p>
+<p>Doing audio-based cards has no effect on kanji ability.
+To learn how to read kanji one needs to train reading kanji.</p>
+<p>It is also unclear whether audio-based cards can actually help develop listening ability
+because listening to the same audio clip over and over
+is not the same as listening to different representations of words
+being spoken in authentic content.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-to-rep-audiobased-sentence-cards.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-to-rep-audiobased-sentence-cards.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 31 Mar 2022 05:55:16 +0300</pubDate></item>
-</channel></rss>
+<pubDate>Sun, 29 Jan 2023 00:45:24 +0300</pubDate>
+</item>
+</channel>
+</rss>
