@@ -8,7 +8,7 @@ position: -9966
 When people say "animecards" or "high quality vocabulary cards", they mean
 [WCCs](discussing-various-card-templates.html#word-context-cards).
 
-WCCs contain the same information as [TSCs](discussing-various-card-templates.html#targeted-sentence-cards-or-mpvacious-cards),
+WCCs contain the same information as [TSCs](discussing-various-card-templates.html#targeted-sentence-cards),
 but the information is ordered differently.
 There's only the target word on the front,
 other fields are shown on the back.
