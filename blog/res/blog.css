@@ -450,13 +450,6 @@ article {
     display: flow-root;
 }
 
-article img.img_float_right {
-    float: right;
-    max-height: 200px;
-    max-width: 33.3%;
-    margin-left: 5px;
-}
-
 article a {
     transition: filter 0.2s, color 0.2s;
 }
@@ -1215,4 +1208,18 @@ a.mega_link {
     margin-inline-start: 0.5ch;
     user-select: none;
     cursor: pointer;
+}
+
+/* Floating images in articles */
+
+article img.img_float_right,
+article img[float] {
+    float: right;
+    max-height: 200px;
+    max-width: 33.3%;
+    margin-left: 5px;
+}
+
+article img[float=left] {
+    float: left;
 }
