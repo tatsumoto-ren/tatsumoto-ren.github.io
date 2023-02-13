@@ -86,7 +86,7 @@ This means you need to increase you Interval Modifier.
 
 ## Showing up
 
-AJATT has an article about [Showing up](http://www.alljapaneseallthetime.com/blog/showing-up/).
+Khatz's blog has an article about [Showing up](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up).
 100% of winning is showing up.
 Dedicate the time, and you'll see the results.
 
@@ -108,8 +108,7 @@ expect to forget more cards.
 ## Reading sentences aloud
 
 Should you read sentences aloud when doing Anki reps?
-The AJATT site
-[recommends](http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
+Khatz [recommends](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
 that you should.
 I personally don't think it's necessary, and I rarely do it.
 If a sentence looks cool I usually pronounce it just for the fun of it.
@@ -271,7 +270,7 @@ You can get away with learning more new cards if you increase your `Interval mod
 but in return expect your retention to go down.
 
 Do not cap your reviews by decreasing the
-[Maximum reviews/day](setting-up-anki.html#reviews)
+[Maximum reviews/day](setting-up-anki.html#maximum-reviews-day)
 setting in order to do more new cards.
 It will only *hide* the due cards from you.
 Failing to do all of your reviews on schedule will form a backlog.
