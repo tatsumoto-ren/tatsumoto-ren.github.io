@@ -15,10 +15,11 @@ As far as I see, the Tae Kim guide gets divided into 4 sections.
 So the question becomes, "Can I drop Tae Kim after reading the first half?"
 
 The truth is that all 4 sections describe pretty basic grammar.
-You can stop at any point and start sentence mining.
-Looking up grammar and making targeted sentence cards with grammar targets
+You can stop at any point and start [sentence mining](sentence-mining.html).
+Looking up grammar and [making targeted sentence cards with grammar targets](learning-grammar.html#how-to-make-cards)
 is no different from making cards for regular vocabulary.
 Eventually you'll catch up.
+
 I read and mined the entire guide,
 but I took breaks between sections,
 so it wasn't a continuous, boring process.
