@@ -3,6 +3,7 @@ title: Donating to Tatsumoto
 date: 1619200733
 ---
 
+I really appreciate you being here.
 Because almost all my content is offered free of charge,
 this site and the
 [Ajatt-Tools](https://github.com/Ajatt-Tools)
@@ -28,8 +29,10 @@ There are many ways you can buy or sell Monero, one of the simplest ones is thro
 47sD7pSagHF7mp41SwrDj4KF8dSj4kdK6YUZ9fkmnR8h587wVc1kW66iJy9m83maVjWXtDJxmCVxdieMyGZNFHZ2Fifrbr5
 ```
 
+<details>
+<summary>XMR QR</summary>
 <p align="center"><img alt="XMR QR" src="img/xmr_qr.png"></p>
-<p align="center"><i>XMR QR</i></p>
+</details>
 
 ## Bitcoin
 
@@ -43,8 +46,16 @@ where you can buy Bitcoins.
 bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
 ```
 
+<details>
+<summary>BTC QR</summary>
 <p align="center"><img alt="BTC QR" src="img/btc_qr.png"></p>
-<p align="center"><i>BTC QR</i></p>
+</details>
+
+## Cointree
+
+Donate crypto and send a message that I will receive via email.
+
+https://cointr.ee/tatsumoto
 
 ## Liberapay
 
@@ -62,3 +73,7 @@ You can support me over at Patreon by clicking the button below.
 ****
 
 Thank you very much for your support!
+If you're unable to support financially,
+please read and share my articles,
+recommend this site to your friends,
+and of course be a part of our Matrix community.
