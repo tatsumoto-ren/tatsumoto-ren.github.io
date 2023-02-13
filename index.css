@@ -72,45 +72,28 @@ a:focus {
 /* Top div */
 
 .top {
-    --fire-gradient: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(255, 166, 0, 0.3), rgba(255, 255, 0, 0.3));
     --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2) 12%, rgba(0, 0, 0, 0.2));
 
     background-color: #51628f;
     color: white;
     background-image:
         var(--dim),
-        var(--fire-gradient),
         url("img/bg.webp");
     background-size:
         100%,
-        300%,
         cover;
     background-blend-mode:
         multiply,
-        overlay,
         normal;
     text-shadow: #000c 1px 1px 2px;
-    background-position: top left;
+    background-position:
+        top left,
+        top center;
     background-attachment: fixed;
     background-origin: border-box;
     background-repeat: no-repeat;
-    animation: bg-animation linear 25s infinite alternate;
     position: relative;
     box-shadow: 1px 1px 2px rgba(16, 5, 54, 0.2);
-}
-
-@keyframes bg-animation {
-    0% {
-        background-position: top left, top left, top center;
-    }
-
-    50% {
-        background-position: top left, top right, top center;
-    }
-
-    0% {
-        background-position: top left, top left, top center;
-    }
 }
 
 /* Header */
