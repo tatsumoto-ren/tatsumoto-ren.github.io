@@ -22,7 +22,7 @@ Graded readers are dumbed down for the sake of a learner,
 and thus do not teach you the real language.
 They can never be as exciting as understanding something that was meant for real native speakers.
 
-AJATT is about reading stuff made for natives.
+[AJATT](whats-ajatt.html) is about reading stuff made for natives.
 If you're a beginner,
 watch anime with Japanese subtitles to learn the basics of reading.
 Then start reading simple manga, and then finally jump into reading real books.
