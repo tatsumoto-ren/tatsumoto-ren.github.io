@@ -22,9 +22,8 @@ in general the need for a safe place to gather among Japanese learners remains u
 ____
 
 ## Why should discord be avoided
-<div style="float:right">
-<img src="https://spyware.neocities.org/images/discord-no-way-2.gif">
-</div>
+
+<img float="right" src="https://spyware.neocities.org/images/discord-no-way-2.gif">
 
 I really hope that it's not the first time you read about discord being malware,
 silently logging and tracking every action performed within their app.
