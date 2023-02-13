@@ -21,10 +21,11 @@ There are various tips to achieve that.
   Frequency lists are not perfect, but they give you a rough idea of how useful a word is.
   Don't mine the word if it has no frequency data.
   If the word is found in a frequency list, mine it.
+  If you want to be strict, mine a word if its frequency is high enough.
 * Learning only the words that you have encountered at least once before but haven't memorized.
   When you see an unknown word,
   check if you already have it in your Anki deck.
-  If you have a card but the card is still new, learn it now.
+  If you have a card, but the card is still new, learn it now.
 
 As you progress, these tips help less and less.
 
@@ -40,7 +41,7 @@ As you progress, these tips help less and less.
 * Words you learn are not common anymore, and it takes a long time to encounter each word twice.
   Some words come up maybe once or twice a year.
 
-Making cards doesn't take as much effort as it used to several years ago,
+Making cards doesn't take as much effort as it used to in 2010,
 so it's easy to make a card just in case even if you won't need it.
 With Yomichan you can press the <kbd>+</kbd> button and continue reading.
 In mpv with mpvacious you press <kbd>Ctrl</kbd>+<kbd>N</kbd>.
@@ -65,7 +66,8 @@ It comes with only two downsides.
    that were added more than **one** year ago but haven't been learned.
 2) If you're a beginner, having to save everything could be too tedious.
    When there's a new word in every sentence,
-   no technology can help you overcome the inital struggle.
+   no technology can help you overcome the initial struggle.
    If you are stuck and don't want to pause your immersion, let it go.
    This won't be a big problem once you get more advanced,
-   but for the time being decide to mine no more than 10-30 cards a day, for example.
+   but for the time being,
+   decide to mine no more than 10-30 cards a day, for example.
