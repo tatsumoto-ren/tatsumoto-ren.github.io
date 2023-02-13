@@ -21,7 +21,7 @@ Then this site is right for you.
 We divide the process of learning any foreign language into two major steps.
 
 1) Learn to understand the language at a high level.
-2) Use your understanding to learn to speak the language by mimicking native speakers.
+2) Use your comprehension to learn to speak the language by mimicking native speakers.
    This is similar to how kids do it.
 
 We focus on understanding before speaking, or input before output.
@@ -44,24 +44,29 @@ The method explained here is widely known as
 or All Japanese All the Time.
 It is directed at people who want to get to fluency as fast as possible
 by spending a lot of time with the language.
-The key component to succeeding with AJATT is engaging with the language all the time,
+The key component to succeeding with AJATT is engaging with the language every day,
+all the time,
 going as hardcore as you can.
 
-AJATT has very little formal structure.
-You learn the most common words, study some basic grammar,
-but after that you dive into authentic content.
+The logic is very simple.
+The more time each day is spent learning,
+the faster one arrives at the destination.
+And of course, the learning process must be efficient.
+AJATT optimizes learning to achieve the best results.
+But since studying is boring and exhausting,
+AJATT strives to make learning fun and interesting.
+We recommend learning from the language that real native speakers actually use
+because textbooks, courses, classes and apps don't teach how people really speak.
+
+AJATT has very little formal structure
+and doesn't try to force any particular workflow.
+You learn the most common words, study basic grammar,
+but after that you are taught how to dive into authentic content.
 You learn new things as they come up in the content.
 
 The emphasis is very strong on input and comprehension in the beginning.
 You try to get to understand Japanese perfectly
 before concerning with trying to produce Japanese yourself.
-
-AJATT has its own website.
-Some things you find on the old AJATT site may differ with what I recommend here.
-The core principles and theory behind the method never change,
-but the way we practice AJATT tends to shift over time.
-While doing AJATT I came up with new ideas no one else talked about.
-Many tools simply didn't exist at the time the AJATT site was written.
 
 ## Technology
 
@@ -106,7 +111,8 @@ Avoid *blue-pilled* resources.
 There are a myriad of methods out there,
 and each of them tells you to do different things.
 Some methods are effective, but many are not.
-Unfortunately, on the Internet there is much more bad advice than good.
+Unfortunately, the quality of advice on the Internet is often poor,
+with more bad advice than good advice.
 If you want to reach mastery in a foreign language,
 you don't want to waste you time on ineffective methods.
 
