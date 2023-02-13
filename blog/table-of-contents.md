@@ -43,7 +43,7 @@ tags: [guide]
 	* [Plumbing](plumbing-for-language-learners.html)
 * Apocrypha
 	* [List of resources](resources.html)
-	* [FAQ](faq.html)
+	* [FAQ](tag_faq.html)
 	* [Understanding monolingual definitions](understanding-monolingual-definitions.html)
 	* [Sentences with native audio](ankidrone-sentence-pack.html)
 * Contact and Support
