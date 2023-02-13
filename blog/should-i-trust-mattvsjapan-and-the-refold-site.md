@@ -18,9 +18,16 @@ it is hard to find them today.
 Many of the videos are not available on YouTube anymore.
 
 In recent years Matt has been criticized
-for watering down the method
+for watering down his method
 and making it less effective.
 On this site we try to stick to the spirit of AJATT,
 so I recommend getting yourself familiar with the AJATT theory
-before you explore content from Refold.
+before you explore his content.
 It will help you **distinguish** good advice from bad advice.
+
+Refold in particular is just another scam site
+designed to lure as many people as possible and turn them into paypigs.
+You can tell by visiting its home page.
+It tries to sell you shitty courses, coaching, and even cups and glasses.
+Their site contains malicious nonfree JavaScript code which is not safe to run.
+Learning languages is and always will be free.
