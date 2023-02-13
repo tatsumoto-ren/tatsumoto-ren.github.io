@@ -1,37 +1,29 @@
 ---
-title: Yomichan and EPWING dictionaries
+title: Yomichan, EPWING and MDX dictionaries
 date: 1607878153
 tags: [dictionaries, yomichan, epwing]
 ---
 
-[Yomichan](https://foosoft.net/projects/yomichan)
-is a web browser extension with a pop-up dictionary
-that allows you to look up unknown words with the hover of a mouse.
-
-EPWING is a dictionary format
-that was allegedly utilized in portable electronic dictionaries.
-To view EPWINGs you need [qolibri](https://aur.archlinux.org/packages/qolibri/),
-a dictionary viewer that lets you search multiple EPWING files at one time
-so for every word you look up you immediately get multiple definitions.
-
-* To get Yomichan follow
-[this setup guide](setting-up-yomichan.html).
-In order to be able to make Anki cards don't forget to install
-[AnkiConnect](https://ankiweb.net/shared/info/2055492159).
-* To get Qolibri follow
-[this setup guide](setting-up-qolibri.html).
-
-To actually use the software and look up words you need to get dictionary files.
-A few basic Japanese to English dictionaries are available on the
-[Yomichan webpage](https://foosoft.net/projects/yomichan/index.html#dictionaries),
-but most dictionaries you need to acquire yourself.
-Below is a list of links where you can find dictionaries for qolibri and Yomichan.
+In this article
+I will provide you with download links for dictionary files.
+These dictionary files can be opened with various programs,
+including the ones mentioned below.
+These files are almost indispensable for any language learner.
+Having these files will help you to learn new words and get closer to fluency.
+So, let's get started!
 
 ****
 
 ## EPWING
 
-Download Epistularum's Tidy EPWing Collection.
+**EPWING** is a dictionary format
+that was allegedly utilized in portable electronic dictionaries.
+To view EPWINGs you need [Qolibri](setting-up-qolibri.html),
+a dictionary viewer that lets you search multiple EPWING files at one time
+so for every word you look up you immediately get multiple definitions.
+
+Our community member, `Epistularum`,
+made a collection of EPWING dictionaries.
 
 <p align="center">
 	<a class="download_button" href="https://nyaa.iss.ink/view/1577255">Download</a>
@@ -44,7 +36,7 @@ Download Epistularum's Tidy EPWing Collection.
 
 **Packs:**
 
-* [EPWing Collection on Nyaa](https://nyaa.iss.one/view/1194089)
+* [EPWING Collection on Nyaa](https://nyaa.iss.one/view/1194089)
 * [EPWINGs.rar on MediaFire](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
 * [Mega](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
 * [by BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
@@ -60,6 +52,16 @@ A very useful EPWING with pitch accent information.
 
 ## Yomichan
 
+[Yomichan](https://foosoft.net/projects/yomichan)
+is a web browser extension with a pop-up dictionary
+that allows you to look up unknown words with the hover of a mouse.
+To get Yomichan follow [this setup guide](setting-up-yomichan.html).
+In order to be able to make Anki cards don't forget to install [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
+
+A few basic Japanese to English dictionaries are available on the
+[Yomichan webpage](https://foosoft.net/projects/yomichan/index.html#dictionaries),
+but most dictionaries and all Japanese to Japanese dictionaries
+you need to get from other sites.
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
 <p align="center">
@@ -86,186 +88,10 @@ Go to Yomichan settings and select the "Dictionaries" tab on the left side,
 then click the button "Configure installed and enabled dictionaries…".
 Press "Import" to import a new dictionary.
 
-## About
+### About
 
 Each folder in the archive contains a file called "README.md".
 Open it to see additional information about the dictionaries.
-
-### Bilingual
-
-The goal of bilingual dictionaries is to provide you a rough tool
-to help you get by until you switch to monolingual dictionaries.
-On this stage JMdict is going to be enough for most people.
-If you want to explore other available dictionaries, see the recommendations below.
-
-I recommend you get the following dictionaries.
-
-* [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project).
-The same dictionary that you find on
-[Jisho.org](https://jisho.org/).
-JMdict doesn't have example sentences.
-If you need them, try the resources listed
-[here](resources.html#examples-and-pronunciations).
-* `新和英`.
-A dictionary made by Japanese people for Japanese people.
-We can learn Japanese words by using it in reverse.
-
-For people who speak other languages.
-
-* `研究社露和辞典`.
-A Russian-Japanese Dictionary.
-Russian speakers praise it a lot.
-Has example sentences.
-* `Япон-Монгол толь бичиг`.
-A Japanese to Mongolian dictionary.
-
-### Monolingual
-
-Once you've started the monolingual transition, it is time to use real dictionaries.
-`JMdict` is very limited and only contains simple translations, many of which can be misleading
-because it's very rare for a word in one language to have an exact,
-one-to-one correlate in another language.
-Monolingual dictionaries, on the other hand, are very powerful because
-they provide detailed definitions and usage examples.
-With monolingual dictionaries you can learn your target language in your target language.
-
-Pick 3 or 4 monolingual dictionaries you like the most and import them into Yomichan.
-Don't be *that guy*, don't import all dictionaries at once.
-Japanese to Japanese definitions are longer than Japanese to English ones.
-It's easy to clutter Yomichan pop-ups with dozens of definitions.
-Qolibri is much better than Yomichan at handling many dictionaries at the same time.
-
-Some people may tell you that, say,
-dictionary `A` has more precise and easy to read definitions than dictionary `B`.
-In reality the differences between them are not very noticeable,
-especially if you're someone who's already quite good at Japanese.
-Almost all Japanese to Japanese dictionaries copy each other.
-They change one or two words in the definitions here and there
-to essentially avoid copyright strikes.
-The provided example sentences are often the same word by word.
-`新明解` is probably the only monolingual dictionary that offers original definitions,
-but it's harder to follow because of how often it backtracks.
-
-If you're new to monolingual dictionaries, it will take a few weeks to adjust to them.
-
-**Most recommended:**
-
-Below is a short list of dictionaries you see being recommended the most in the AJATT community.
-
-* `大辞林`
-* `新明解`
-* `大辞泉`
-* `明鏡`
-
-Here I specify more or less generic names.
-Often the same dictionary has many versions,
-in which case the names can differ as well.
-For example, `大辞林` and `スーパー大辞林`,
-or `大辞泉` and `デジタル大辞泉`.
-You're free to pick any version you like.
-
-`大辞林` and `大辞泉` are quite similar to each other,
-have good definitions and contain many entries.
-Prefer `デジタル大辞泉` over the original `大辞泉`.
-It has an extra 120 000 entries and contains images.
-`明鏡` and `新明解` use easy language and are considered beginner-friendly.
-`新明解` doesn't have many entries and has a convoluted definition structure
-that employs a lot of redirections marked with `△` and `（）`
-which force the reader to jump back and forth.
-But mostly it's very good.
-`大辞林` and `新明解` contain pitch accent information,
-so you may want to import them first.
-
-**Additional dictionaries:**
-
-* 旺文社国語辞典.
-A dictionary by Oubunsha.
-Advertised as easy to understand for people new to monolingual dictionaries.
-However, I've found that certain definitions use more difficult vocabulary than `大辞林`.
-The file is big because it contains images.
-There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
-* Weblio古語辞典. Archaism dictionary from Weblio.
-* 新辞林. You can treat it as a simplified version of `大辞林`.
-* 日本国語大辞典. The biggest Japanese dictionary in the world.
-	* 精選版 日本国語大辞典
-	* 小学館 国語大辞典
-* 岩波書店 岩波国語辞典
-* 広辞苑
-* 故事ことわざの辞典. Proverb dictionary.
-
-### Frequency lists
-
-Frequency lists are dictionaries
-that display how frequently a word might appear in a given corpus.
-Often frequency dictionaries have different frequency notations.
-In some, a higher frequency number may indicate that the word is more frequent.
-In others, it's the opposite.
-You can use these dictionaries to judge
-whether it is worth for you to learn a certain word or not.
-Words that appear more frequently than others are more useful.
-
-**Recommended:**
-
-* Netflix frequency list
-* Anime & Jdrama frequency list
-
-These are a must-have if you watch dramas or anime a lot.
-
-**Additional frequency lists:**
-
-* Innocent corpus. Based on 5000+ novels.
-* Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
-* VN. Visual Novels.
-I don't recommend VNs because most of them are proprietary,
-but the frequency list may help you detect common words in other types of content.
-* BCCWJ &mdash; Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
-* Daijirin. Words that appear in the `大辞林` monolingual dictionary.
-You may want to take a look at it if you've decided to go monolingual,
-and you need to prioritize learning dictionary vocabulary.
-
-### Grammar
-
-Dictionaries that help you look up Japanese grammar.
-
-* Nihongo no Sensei.
-  Grammar by JLPT levels.
-  The entries are in Japanese and Chinese.
-  Has example sentences.
-  The data comes from [nihongo no sensei](https://nihongonosensei.net).
-* 日本語NET.
-  Grammar by JLPT levels.
-  The entries are in Japanese and English.
-  Has example sentences with English translations.
-  Data comes from [nihongokyoshi-net](https://nihongokyoshi-net.com/jlpt-grammars/).
-* 日本語表現文型辞典.
-  English explanations.
-  Has examples sentences.
-  Data comes from [donnatoki](https://itazuraneko.neocities.org/grammar/donnatoki.html).
-* Dictionary of Japanese grammar.
-  The entries are in English.
-  Has example sentences.
-
-### Pitch accent
-
-Dictionaries capable of displaying pitch accents of words.
-The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
-
-### Kanji
-
-Kanji dictionaries are shown
-when you click on a kanji in the headword.
-
-* [KanjiDic English](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).
-  A Japanese-English kanji dictionary.
-* `漢字源`.
-  Monolingual kanji dictionary.
-* [Wiktionary](https://ja.wiktionary.org/).
-* NipDb Kanji. Kanji information of around 6,000 characters from NipDb.
-* Kanji Map. Information about kanji.
-
-### Other
-
-* [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
 
 ### Don't import all Yomichan dictionaries
 
@@ -284,6 +110,9 @@ isn't the one that comes up first in the dictionary.
 If you want to find it you have to scroll down,
 and if you have many dictionaries imported this is going to be pretty annoying.
 
+Each installed dictionary file causes Yomichan's database to expand significantly
+and take up to several GiB of disk space.
+
 So what I recommend you to do instead is to have as few dictionaries as possible
 and use Qolibri whenever there's a word that you can't find in Yomichan.
 
@@ -297,7 +126,7 @@ If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS.
 <details>
 <summary>Popup CSS for images</summary>
 
-```
+```css
 .gloss-image-description {
     text-align: center;
 }
@@ -389,3 +218,248 @@ div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > 
 ```
 
 </details>
+
+## GoldenDict
+
+[GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
+is yet another dictionary lookup program that can be used for learning Japanese.
+GoldenDict supports MDX dictionaries.
+It can read EPWING dictionaries as well, but the feature is very clunky in my experience.
+Qolibri is much better for EPWING.
+
+I don't use GoldenDict myself, and I don't know how to use it,
+so currently there's no guide for it on this site.
+
+`Epistularum` made a collection of MDX dictionaries for GoldenDict.
+
+<p align="center">
+	<a class="download_button" href="https://nyaa.iss.ink/view/1634529">Download</a>
+</p>
+
+**Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
+
+### GoldenDict tips
+
+* Enable Yomichan-like [de-inflection and popup](https://github.com/epistularum/hunspell-ja-deinflection).
+* Remove duplicate display of EPWING headwords and make things a bit more readable:
+  1) Paste the code below in a file named `article-style.css`
+     in a folder with a name of your choosing in the styles folder of GoldenDict.
+
+     * GNU+Linux folder location: `~/.goldendict/styles/`.
+     * Windows-like (ReactOS) folder location: `C:\Users\<user>\AppData\Roaming\GoldenDict\styles\`.
+  1) Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on style".
+
+     <details>
+     <summary>CSS for GoldenDict</summary>
+
+     ```css
+     /* Add padding and a horizontal bar between each entry for the sake of readability */
+     .mdict {
+         border-top: 0.15em solid #c4c4c4;
+         margin-bottom: 0.5em;
+         padding-top: 0.5em;
+     }
+
+     .gddictname {
+         position: relative;
+         z-index: 9;
+         margin-bottom: -0.16em;
+     }
+
+     /* Remove duplicate headers in EPWING dictionaries. */
+     .epwing_article h3 {
+         display: none;
+     }
+
+     .epwing_text:first-line {
+         text-indent: -1em;
+     }
+
+     .epwing_text {
+         padding-top: 0.5em;
+         padding-left: 1em;
+         border-top: 0.15em solid #c4c4c4;
+         margin-bottom: 0.5em;
+     }
+     ```
+
+     </details>
+
+## Explaining available dictionaries
+
+### Bilingual
+
+The goal of bilingual dictionaries is to provide you a rough tool
+to help you get by until you switch to monolingual dictionaries.
+On this stage JMdict is going to be enough for most people.
+If you want to explore other available dictionaries, see the recommendations below.
+
+I recommend you get the following dictionaries.
+
+* [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project).
+  The same dictionary that you find on
+  [Jisho.org](https://jisho.org/).
+  JMdict doesn't have example sentences.
+  If you need them, try the resources listed
+  [here](resources.html#examples-and-pronunciations).
+* `新和英`.
+  A dictionary made by Japanese people for Japanese people.
+  We can learn Japanese words by using it in reverse.
+
+For people who speak other languages.
+
+* `研究社露和辞典`.
+  A Russian-Japanese Dictionary.
+  Russian speakers praise it a lot.
+  Has example sentences.
+* `Япон-Монгол толь бичиг`.
+  A Japanese to Mongolian dictionary.
+
+### Monolingual
+
+Once you've started the monolingual transition, it is time to use real dictionaries.
+`JMdict` is very limited and only contains simple translations, many of which can be misleading
+because it's very rare for a word in one language to have an exact,
+one-to-one correlate in another language.
+Monolingual dictionaries, on the other hand, are very powerful because
+they provide detailed definitions and usage examples.
+With monolingual dictionaries you can learn your target language in your target language.
+
+Pick 3 or 4 monolingual dictionaries you like the most and import them into Yomichan.
+Don't be *that guy*, don't import all dictionaries at once.
+Japanese to Japanese definitions are longer than Japanese to English ones.
+It's easy to clutter Yomichan pop-ups with dozens of definitions.
+Qolibri is much better than Yomichan at handling many dictionaries at the same time.
+
+Some people may tell you that, say,
+dictionary `A` has more precise and easy to read definitions than dictionary `B`.
+In reality the differences between them are not very noticeable,
+especially if you're someone who's already quite good at Japanese.
+Almost all Japanese to Japanese dictionaries copy each other.
+They change one or two words in the definitions here and there
+to essentially avoid copyright strikes.
+The provided example sentences are often the same word by word.
+`新明解` is probably the only monolingual dictionary that offers original definitions,
+but it's harder to follow because of how often it backtracks.
+
+If you're new to monolingual dictionaries, it will take a few weeks to adjust to them.
+
+**Most recommended:**
+
+Below is a short list of dictionaries you see being recommended the most in the AJATT community.
+
+* `大辞林`
+* `新明解`
+* `大辞泉`
+* `明鏡`
+
+Here I specify more or less generic names.
+Often the same dictionary has many versions,
+in which case the names can differ as well.
+For example, `大辞林` and `スーパー大辞林`,
+or `大辞泉` and `デジタル大辞泉`.
+You're free to pick any version you like.
+
+`大辞林` and `大辞泉` are quite similar to each other,
+have good definitions and contain many entries.
+Prefer `デジタル大辞泉` over the original `大辞泉`.
+It has an extra 120 000 entries and contains images.
+`明鏡` and `新明解` use easy language and are considered beginner-friendly.
+`新明解` doesn't have many entries and has a convoluted definition structure
+that employs a lot of redirections marked with `△` and `（）`
+which force the reader to jump back and forth.
+But mostly it's very good.
+`大辞林` and `新明解` contain pitch accent information,
+so you may want to import them first.
+
+**Additional dictionaries:**
+
+* 旺文社国語辞典.
+A dictionary by Oubunsha.
+Advertised as easy to understand for people new to monolingual dictionaries.
+However, I've found that certain definitions use more difficult vocabulary than `大辞林`.
+The file is big because it contains images.
+There's a version without images called 旺文社国語辞典 第十一版 **画像無し**.
+* Weblio古語辞典. Archaism dictionary from Weblio.
+* 新辞林. You can treat it as a simplified version of `大辞林`.
+* 日本国語大辞典. The biggest Japanese dictionary in the world.
+  * 精選版 日本国語大辞典
+  * 小学館 国語大辞典
+* 岩波書店 岩波国語辞典
+* 広辞苑
+* 故事ことわざの辞典. Proverb dictionary.
+
+### Frequency lists
+
+Frequency lists are dictionaries
+that display how frequently a word might appear in a given corpus.
+They are utilized in Yomichan's headwords and are shown as tags.
+Often frequency dictionaries have different frequency notations.
+In some, a higher frequency number may indicate that the word is more frequent.
+In others, it's the opposite.
+You can use these dictionaries to judge
+whether it is worth for you to learn a certain word or not.
+Words that appear more frequently than others are more useful.
+
+**Recommended:**
+
+* Netflix frequency list
+* Anime & Jdrama frequency list
+
+These are a must-have if you watch dramas or anime a lot.
+
+**Additional frequency lists:**
+
+* Innocent corpus. Based on 5000+ novels.
+* Narou. [Top 300 Narou stories](http://wiki.wareya.moe/Narou).
+* VN. Visual Novels.
+  I don't recommend VNs because most of them are proprietary,
+  but the frequency list may help you detect common words in other types of content.
+* BCCWJ &mdash; Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
+* Daijirin. Words that appear in the `大辞林` monolingual dictionary.
+  You may want to take a look at it if you've decided to go monolingual,
+  and you need to prioritize learning dictionary vocabulary.
+
+### Grammar
+
+Dictionaries for Yomichan that help you look up Japanese grammar.
+
+* Nihongo no Sensei.
+  Grammar by JLPT levels.
+  The entries are in Japanese and Chinese.
+  Has example sentences.
+  The data comes from [nihongo no sensei](https://nihongonosensei.net).
+* 日本語NET.
+  Grammar by JLPT levels.
+  The entries are in Japanese and English.
+  Has example sentences with English translations.
+  Data comes from [nihongokyoshi-net](https://nihongokyoshi-net.com/jlpt-grammars/).
+* 日本語表現文型辞典.
+  English explanations.
+  Has examples sentences.
+  Data comes from [donnatoki](https://itazuraneko.neocities.org/grammar/donnatoki.html).
+* Dictionary of Japanese grammar.
+  The entries are in English.
+  Has example sentences.
+
+### Pitch accent
+
+Dictionaries for Yomichan capable of displaying pitch accents of words.
+The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
+
+### Kanji
+
+In Yomichan Kanji dictionaries are shown
+when you click on a kanji in the headword.
+
+* [KanjiDic English](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).
+  A Japanese-English kanji dictionary.
+* `漢字源`.
+  Monolingual kanji dictionary.
+* [Wiktionary](https://ja.wiktionary.org/).
+* NipDb Kanji. Kanji information of around 6,000 characters from NipDb.
+* Kanji Map. Information about kanji.
+
+### Other
+
+* [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
