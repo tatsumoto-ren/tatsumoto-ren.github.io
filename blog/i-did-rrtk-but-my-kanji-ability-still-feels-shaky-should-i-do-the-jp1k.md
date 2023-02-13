@@ -19,7 +19,7 @@ If you have completed one such deck, you don't need to do another one of the sam
 What you have to do from this point
 is to learn to associate words written in kanji with how to read them and what they mean.
 Move to the next level and do [Ankidrone Starter Pack](basic-vocabulary.html).
-Eventually your goal is to start sentence mining while consuming native content.
+Eventually your goal is to start [sentence mining](sentence-mining.html) while consuming native content.
 
 Even if you feel like you lack kanji ability,
 just continuing to learn words is going to improve it.
