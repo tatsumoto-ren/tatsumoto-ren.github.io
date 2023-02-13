@@ -407,6 +407,7 @@ code {
 
 pre {
     overflow-x: auto;
+    overscroll-behavior-inline: contain;
     background-color: var(--code-bg-color);
     border-radius: 6px;
     padding: 1rem;
@@ -572,6 +573,7 @@ article table {
     display: block;
     max-width: 100%;
     overflow: auto;
+    overscroll-behavior: contain;
     width: max-content;
 }
 
@@ -706,6 +708,7 @@ input#menu-btn:checked~header .hamburger::after {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    overscroll-behavior-block: contain;
     font-size: 1rem;
     z-index: 150;
     background-color: var(--sidebar-background);
