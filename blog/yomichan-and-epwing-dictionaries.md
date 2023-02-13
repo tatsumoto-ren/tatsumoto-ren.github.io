@@ -75,7 +75,6 @@ An archive with dictionaries for Yomichan can be downloaded by following the lin
 The dictionaries were compiled from various places.
 Below is a list of public folders that were used.
 
-* [Immersion Wiki](https://drive.google.com/drive/folders/1S8jeDa5NJt76dn9tq52engRCFLjIzvN1)
 * [This Mega folder](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
 * [Shared by mattvsjapan](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
 * [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
@@ -107,9 +106,6 @@ The same dictionary that you find on
 JMdict doesn't have example sentences.
 If you need them, try the resources listed
 [here](resources.html#examples-and-pronunciations).
-* [KANJIDIC](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).
-A kanji dictionary.
-It pops up when you click on a kanji in the headword.
 * `新和英`.
 A dictionary made by Japanese people for Japanese people.
 We can learn Japanese words by using it in reverse.
@@ -222,7 +218,7 @@ These are a must-have if you watch dramas or anime a lot.
 * VN. Visual Novels.
 I don't recommend VNs because most of them are proprietary,
 but the frequency list may help you detect common words in other types of content.
-* BCCWJ - Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
+* BCCWJ &mdash; Based on [Long Unit Word list data](https://ccd.ninjal.ac.jp/bccwj/en/freq-list.html).
 * Daijirin. Words that appear in the `大辞林` monolingual dictionary.
 You may want to take a look at it if you've decided to go monolingual,
 and you need to prioritize learning dictionary vocabulary.
@@ -254,10 +250,22 @@ Dictionaries that help you look up Japanese grammar.
 Dictionaries capable of displaying pitch accents of words.
 The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
 
+### Kanji
+
+Kanji dictionaries are shown
+when you click on a kanji in the headword.
+
+* [KanjiDic English](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).
+  A Japanese-English kanji dictionary.
+* `漢字源`.
+  Monolingual kanji dictionary.
+* [Wiktionary](https://ja.wiktionary.org/).
+* NipDb Kanji. Kanji information of around 6,000 characters from NipDb.
+* Kanji Map. Information about kanji.
+
 ### Other
 
 * [JMnedict](https://www.edrdg.org/enamdict/enamdict_doc.html). Japanese names.
-* `漢字源`. Monolingual kanji dictionary.
 
 ### Don't import all Yomichan dictionaries
 
@@ -279,7 +287,7 @@ and if you have many dictionaries imported this is going to be pretty annoying.
 So what I recommend you to do instead is to have as few dictionaries as possible
 and use Qolibri whenever there's a word that you can't find in Yomichan.
 
-### Custom CSS note
+### Custom CSS for images
 
 If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
 images may render incorrectly unless you
@@ -318,6 +326,65 @@ If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS.
 
 img {
     will-change: transform;
+}
+```
+
+</details>
+
+### Custom CSS for Kanji Dictionaries
+
+Yomichan's kanji dictionary viewer contains a lot of redundant information,
+such as duplicated tags, stroke order diagrams and empty table rows for each entry.
+To make the kanji entries more concise when using multiple kanji dictionaries,
+you can add some CSS rules.
+
+In "Settings" > "Popup Appearance" > "Configure custom CSS..."
+paste the following CSS to condense displayed entries.
+
+<details>
+<summary>CSS for kanji</summary>
+
+```css
+/* remove misc dict classifications/codepoints/stats */
+.kanji-glyph-data > tbody > tr:nth-child(n + 3) {
+  display: none;
+}
+
+/* remove stroke diagram, freq, header for next entries */
+div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-container,
+div.entry[data-type='kanji']:nth-child(n + 2) [data-section-type='frequencies'],
+div.entry[data-type='kanji']:nth-child(n + 2) table.kanji-glyph-data > tbody > tr:first-child {
+  display: none;
+}
+
+/* remove 'No data found' */
+.kanji-info-table-item-value-empty {
+  display: none;
+}
+
+/* reduce extra padding */
+.kanji-glyph-data,
+div.entry[data-type='kanji'],
+div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-data > tbody > tr > *,
+.kanji-glyph-data dl.kanji-readings-japanese,
+div.entry[data-type='kanji']:nth-child(n + 2)
+  .kanji-glyph-data
+  dl.kanji-readings-chinese[data-count='0'] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0em;
+  margin-top: 0 !important;
+}
+
+/* remove horizontal lines */
+.entry + .entry[data-type='kanji'],
+div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > tr > * {
+  border-top: none !important;
+}
+
+/* change decimal list */
+.kanji-gloss-list {
+  list-style-type: circle;
 }
 ```
 
