@@ -240,6 +240,8 @@ For each grammar point, you choose an example sentence and add it to the SRS.
 Put the sentence on the front of the card.
 Highlight the target grammar point by making it bold, color it or underline it.
 On the back put everything necessary to understand the grammar point.
+Make simple cards.
+Too much information will only slow down the review process.
 
 When I learned Japanese,
 I went with the Tae Kim grammar guide.
@@ -263,7 +265,7 @@ When you finish studying grammar formally and start making cards solely from you
 you'll have plenty of opportunities to encounter new grammar in the wild and fill the gaps.
 
 <p align="center"><img class="shadow" alt="tae kim card" src="img/taekim-grammar.webp"></p>
-<p align="center">An SRS card made from an item in the Tae Kim guide.</p>
+<p align="center"><i>An SRS card made from an item in the Tae Kim guide.</i></p>
 
 ## Long grammar guides
 
