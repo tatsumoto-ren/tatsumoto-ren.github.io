@@ -44,7 +44,7 @@ humans acquire language when they understand messages.
 Krashen calls it [comprehensible input](what-is-comprehensible-input.html).
 The process of acquiring a second language
 is similar to the process that children undergo when learning their native language.
-You can do it no matter how old you are.
+You can do it no matter [how old you are](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
 
 We're not babies, we're smarter, and we can learn faster.
 Any adult with some help of technology can aquire a language through input,
