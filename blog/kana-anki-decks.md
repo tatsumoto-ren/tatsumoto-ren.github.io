@@ -1,7 +1,7 @@
 ---
 title: Kana Anki decks
 date: 1655711767
-tags: ['anki', 'decks', 'kana']
+tags: ['decks', 'kana']
 ---
 
 These Anki deck teach hiragana and katakana.

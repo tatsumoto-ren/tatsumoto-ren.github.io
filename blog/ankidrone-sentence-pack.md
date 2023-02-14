@@ -1,7 +1,7 @@
 ---
 title: Ankidrone Sentence Pack
 date: 1630978085
-tags: ['vocab', 'anki', 'decks']
+tags: ['vocab', 'decks']
 position: 99
 ---
 

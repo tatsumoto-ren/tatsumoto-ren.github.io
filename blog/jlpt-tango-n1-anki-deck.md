@@ -1,7 +1,7 @@
 ---
 title: JLPT Tango N1 Anki deck
 date: 1649616674
-tags: [anki, vocab]
+tags: [vocab]
 ---
 
 <p align="center">

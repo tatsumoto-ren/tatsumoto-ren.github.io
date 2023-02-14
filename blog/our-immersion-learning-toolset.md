@@ -1,7 +1,7 @@
 ---
 title: Our Immersion Learning Toolset
 date: 1612374836
-tags: [anki]
+tags: [guide]
 ---
 
 <p align="center"><img alt="Ajatt-Tools" class="shadow" src="https://avatars.githubusercontent.com/u/69172625?s=200&v=4"></p>
@@ -106,6 +106,14 @@ and make Anki flashcards with a single click.
 * [Setting up Yomichan](setting-up-yomichan.html)
 * [Dictionaries](yomichan-and-epwing-dictionaries.html)
 
+## [mpv](https://wiki.archlinux.org/title/Mpv)
+
+`mpv` is a video player with support for user-scripts.
+
+* [Mining from movies and TV-shows](mining-from-movies-and-tv-shows.html)
+* [User Scripts by Ajatt-Tools](https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories)
+* [User Scripts that users of mpv have published](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+
 ## [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 
 Make instant Anki cards from movies and TV shows.
@@ -188,8 +196,8 @@ or installed as a [Magisk](https://github.com/topjohnwu/Magisk) module
 to allow for automatic background updates.
 
 Most Android devices can't be fully liberated
-because they depend on nonfree drivers and firmware.
-These drivers control things like WiFi, Bluetooth, GPS, microphone, camera.
+because they depend on non-free drivers and firmware.
+These drivers control things like Wi-Fi, Bluetooth, GPS, microphone, camera.
 
 Don't buy iThings, you can't install a free OS on them.
 Most Anki decks linked on this site come with

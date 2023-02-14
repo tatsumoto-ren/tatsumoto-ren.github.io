@@ -1,7 +1,7 @@
 ---
 title: Learning kana in two days
 date: 1607313668
-tags: [kana, anki, guide]
+tags: [kana, guide]
 ---
 
 Learning kana is usually taken as one of the first steps to learn Japanese.

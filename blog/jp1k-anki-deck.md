@@ -1,7 +1,7 @@
 ---
 title: KanjiTransition Anki deck
 date: 1614246289
-tags: [anki, decks, kanji, vocab]
+tags: [decks, kanji, vocab]
 ---
 
 The most important part of learning Japanese with the
@@ -17,6 +17,10 @@ first you need to level up your comprehension.
 is an Anki Deck for newcomers to Japanese based on the JP1K method.
 If you want to learn the theory behind this deck, please read
 [this article](learning-kanji.html).
+
+****
+
+## About
 
 The deck is designed to teach how to recognize Kanji
 along with the most common 1000 words used in everyday conversations.
@@ -37,8 +41,6 @@ The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vo
 and consists of words commonly used in everyday life in Japan.
 Each sentence in the deck tries to introduce only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.
-
-****
 
 ## JP1K method
 
