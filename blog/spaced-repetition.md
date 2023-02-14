@@ -175,8 +175,10 @@ The algorithm Anki uses is actually based on an older version of Supermemo.
 If you had the misfortune of visiting some language learning forums that shall not be named,
 you may have encountered an opinion that using an SRS is not necessary to learn a foreign language.
 Strictly speaking, it's true of course.
+The central part of AJATT is immersion.
 The SRS doesn't play a crucial role in the learning process,
 it is often called "a supplement".
+Many people have become fluent without using spaced repetition.
 
 One alternative to using spaced repetition is
 randomly coming across the same word multiple times.
@@ -195,7 +197,7 @@ you are only moving forward.
 Anki is popular among people learning Japanese,
 and apparently Chinese,
 but it's not that popular among learners of other languages.
-The reason Anki's popular is most likely that
+The reason Anki is popular is most likely that
 Japanese learners have to memorize how to read words written in kanji.
 I've been using Anki for many years,
 and I notice that most of the time when I fail a card
@@ -203,6 +205,15 @@ it is because I don't remember the reading,
 not because I don't remember the meaning.
 People learning other languages don't have to deal with kanji,
 so it is easier for them to get to fluency without using the SRS.
+
+We recommend that people following the AJATT method use spaced repetition.
+For the majority of people the benefits are limitless.
+SRS applications help to learn vocabulary faster,
+overcome forgetting,
+close the gap between you and native speakers.
+But if using the SRS reduces your motivation or enjoyment,
+it may be in your best interest to forgo using any SRS
+and instead focus on the core of the method, getting input.
 
 ## The chosen SRS
 
