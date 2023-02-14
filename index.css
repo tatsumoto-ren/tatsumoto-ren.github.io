@@ -450,8 +450,7 @@ footer img {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: bottom center;
-    filter: drop-shadow(0 0 1rem white) blur(1rem);
-    opacity: 0.333;
+    filter: drop-shadow(0 0 2rem white) blur(1rem) opacity(0.333);
 }
 
 .light-effect::after {
