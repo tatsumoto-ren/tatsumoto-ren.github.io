@@ -40,6 +40,8 @@ Before starting reading manga,
 watch lots of anime with Japanese subtitles.
 Reading along audio is easier and should serve as training wheels
 to prepare you for reading without audio.
+The general rule of thumb is to
+improve your comprehension using anime before moving to manga.
 
 After you've done that,
 you can go back and read Yotsubato if you want.
