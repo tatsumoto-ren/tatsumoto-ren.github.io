@@ -5,9 +5,51 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Tue, 14 Feb 2023 22:12:42 +0300</lastBuildDate>
-<pubDate>Tue, 14 Feb 2023 22:12:42 +0300</pubDate>
+<lastBuildDate>Wed, 15 Feb 2023 02:26:58 +0300</lastBuildDate>
+<pubDate>Wed, 15 Feb 2023 02:26:58 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is it important to practice reading tategaki?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>No, you don't have to practice reading tategaki.</p>
+<p>In Japanese, the term tategaki (<code>縦書き</code>) is used to describe text written vertically.
+This style of writing is read from top to bottom, then right to left,
+and was traditionally the standard for Japanese writing.
+However, in modern times,
+horizontal writing is more common due to the prevalence of the internet and other digital media.
+Modern Japanese people often read both horizontal and vertical text.</p>
+<p>You don't have to go out of your way and practice reading text written vertically.
+It is not something to be overly concerned about.
+As someone learning Japanese,
+it is unavoidable to come across vertical text,
+just like it's hard to avoid reading text with kanji.
+So as long as your immersion is balanced,
+and you regularly read manga or light novels, you're set.
+In light novels and manga text is always vertical, maybe with some exceptions.</p>
+<p>If you only read on a computer screen,
+it is possible that the program you are using to read books shows the text horizontally
+and does not support tategaki.
+If so, don't worry about it too much,
+as manga alone will still provide you with sufficient
+practice to become proficient in reading tategaki.</p>
+<p>Reading tategaki is not difficult.
+I find that reading both vertical and horizontal Japanese is natural,
+and there is no difference in terms of difficulty.
+Even if you totally avoid media that has tategaki,
+it is unlikely to have a major negative impact on your reading ability.
+You still will be able to read vertical Japanese text,
+much like you can read vertical English text.
+Maybe your reading speed will be a bit slower,
+but it's not something that trips people off.</p>
+<p>Ultimately,
+there are more important and challenging aspects of Japanese
+that could benefit from focus and deliberate practice.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-important-to-practice-reading-tategaki.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-important-to-practice-reading-tategaki.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 15 Feb 2023 02:24:50 +0300</pubDate>
+</item>
 <item>
 <title>I'm not a kid anymore. Am I too old to learn a language?</title>
 <author>Tatsumoto</author>
@@ -435,49 +477,6 @@ and over time your ability to predict kanji readings becomes stronger.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-to-learn-readings-after-finishing-isolated-kanji-study.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 29 Jan 2023 02:20:51 +0300</pubDate>
-</item>
-<item>
-<title>How to make monolingual TSCs for vocab and grammar?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>The process of making monolingual <a href="discussing-various-card-templates.html#targeted-sentence-cards">TSCs</a>
-for grammar and vocab is the same
-because there's no significant difference between the two.</p>
-<p>When you're reading books,
-watching things with subtitles,
-browsing the web,
-you're going to find sentences where
-you know everything in a sentence
-but one grammar point or one word.
-Take that whole sentence,
-put it on the front of your SRS card.
-On the back you're going to put the monolingual definition
-for the grammar point or word you didn't know.</p>
-<ol>
-<li>Download and install monolingual
-<a href="yomichan-and-epwing-dictionaries.html">dictionaries</a>
-for Yomichan.</li>
-<li>Keep JMdict enabled (<a href="setting-up-yomichan.html#collapse-dictionaries">but hidden</a>)
-for times when your monolingual dictionaries don't pick up certain words.
-Monolingual dictionaries tend to be smaller than JMdict.</li>
-<li>Mine sentences as usual, don't add English definitions to your cards.
-Having both English and Japanese definitions is acceptable only during the transition period.</li>
-</ol>
-<p>You will run into grammar points
-that only have English definitions.
-Rely on Yomichan to pin-point the grammar pattern, then use
-<a href="https://www.weblio.jp/">Weblio</a>,
-<a href="https://sakura-paris.org/dict/">sakura-paris</a>
-or any search engine to look it up.
-Searching the web should lead to explanations in Japanese.</p>
-<p>Also try <a href="yomichan-and-epwing-dictionaries.html#grammar">monolingual dictionaries for grammar</a>.
-They cover additional topics and can help when other dictionaries fail.</p>
-<p>Some people would prefer to install as many monolingual dictionaries as possible
-to cover even more ground and minimize the need to look up words online.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-to-make-monolingual-tscs-for-vocab-and-grammar.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-to-make-monolingual-tscs-for-vocab-and-grammar.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 29 Jan 2023 01:00:45 +0300</pubDate>
 </item>
 </channel>
 </rss>
