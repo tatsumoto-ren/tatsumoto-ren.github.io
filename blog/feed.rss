@@ -5,9 +5,30 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 13 Feb 2023 11:54:10 +0300</lastBuildDate>
-<pubDate>Mon, 13 Feb 2023 11:54:10 +0300</pubDate>
+<lastBuildDate>Tue, 14 Feb 2023 22:12:42 +0300</lastBuildDate>
+<pubDate>Tue, 14 Feb 2023 22:12:42 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>I'm not a kid anymore. Am I too old to learn a language?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>No matter your age,
+it is never too late to learn a new language.
+Research and anecdotal evidence have both proven that
+adults can acquire languages similarly to how children do it.
+In fact, adults aquire languages faster than babies.
+The advantage of being an adult
+is that we can use various tools and techniques to speed up the process,
+such as the AJATT method,
+which can typically help one become fluent in a language within just 2 years.
+This is a far cry from a typical 4-year-old child who,
+despite having been exposed to language input constantly,
+still doesn't sound very good and still makes some mistakes.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 14 Feb 2023 22:08:43 +0300</pubDate>
+</item>
 <item>
 <title>Pausing. How often should I look things up while actively immersing?</title>
 <author>Tatsumoto</author>
@@ -457,27 +478,6 @@ to cover even more ground and minimize the need to look up words online.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-to-make-monolingual-tscs-for-vocab-and-grammar.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 29 Jan 2023 01:00:45 +0300</pubDate>
-</item>
-<item>
-<title>How to rep audio-based sentence cards?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>By pressing <kbd>Ctrl+Delete</kbd>.
-Audio-based cards are completely useless.</p>
-<p>Unlike text-based sentence cards,
-audio-based cards are easier to cheat on.
-You end up memorizing the answer based on the audio clip
-which doesn't necessarily help you remember the target word.</p>
-<p>Doing audio-based cards has no effect on kanji ability.
-To learn how to read kanji one needs to train reading kanji.</p>
-<p>It is also unclear whether audio-based cards can actually help develop listening ability
-because listening to the same audio clip over and over
-is not the same as listening to different representations of words
-being spoken in authentic content.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-to-rep-audiobased-sentence-cards.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-to-rep-audiobased-sentence-cards.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 29 Jan 2023 00:45:24 +0300</pubDate>
 </item>
 </channel>
 </rss>
