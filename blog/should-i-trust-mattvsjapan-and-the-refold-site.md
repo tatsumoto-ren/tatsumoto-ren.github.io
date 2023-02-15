@@ -28,6 +28,14 @@ It will help you **distinguish** good advice from bad advice.
 Refold in particular is just another scam site
 designed to lure as many people as possible and turn them into paypigs.
 You can tell by visiting its home page.
-It tries to sell you shitty courses, coaching, and even cups and glasses.
-Their site contains malicious nonfree JavaScript code which is not safe to run.
+
+* Tries to sell you shitty courses, coaching, and even cups and glasses.
+* Collects Email addresses and wants you to create an acccount which is to say the least suspicious.
+* The site contains malicious nonfree JavaScript code which is not safe to run.
+* Recommends and includes links to proprietary spyware
+  such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
+* Includes instructions on how to join their
+  [Discord](https://spyware.neocities.org/articles/discord.html) server.
+  Discord is known for spying on and politically suppressing its users.
+
 Learning languages is and always will be free.

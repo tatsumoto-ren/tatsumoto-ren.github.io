@@ -835,31 +835,6 @@ Anti-features:
 * Advertises unnecessary paid products.
 * Tries to harvest Email addresses.
 
-### [Refold](https://web.archive.org/web/20210221165727/https://refold.la/roadmap/)
-
-This site was initially introduced as a free guide
-designed to be applicable to any language.
-Later proved to be a Patreon scam,
-but there are some helpful articles you can read without paying money.
-
-Notable articles:
-
-* [Tolerate the Ambiguity](https://web.archive.org/web/20210318233119/https://refold.la/roadmap/stage-0/b/tolerate-ambiguity/)
-* [Basic Sentence Mining](https://web.archive.org/web/20210702022836/https://refold.la/roadmap/stage-2/a/basic-sentence-mining/)
-* [Basic Anki Setup](https://web.archive.org/web/20210429222205/https://refold.la/roadmap/stage-1/a/anki-setup/)
-* [Grammar](https://web.archive.org/web/20210308092625/https://refold.la/roadmap/stage-1/c/grammar/)
-
-Anti-features:
-
-* The site doesn't work (the menu breaks) unless you enable JavaScript.
-  The JavaScript code is proprietary and is not safe to run.
-* Recommends and includes links to proprietary spyware
-  such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
-* Includes instructions on how to join their [Discord](https://spyware.neocities.org/articles/discord.html) server.
-  Discord is known for spying on and politically suppressing its users.
-* Collects Email addresses which is to say the least suspicious.
-* Tries to sell you useless junk.
-
 ### [Itazuraneko](https://itazuraneko.neocities.org/)
 
 A collection of guides for those interested in learning Japanese.
@@ -881,25 +856,6 @@ Notable articles:
 
 * [Sentence cards](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
 * [Example sentence cards](http://www.antimoon.com/how/examplesent.htm)
-
-### [TheMoeWay](https://learnjapanese.moe/) and [AnimeCards](https://animecards.site/)
-
-Unfortunately, these two sites are clearly made with
-[Windows](https://www.gnu.org/proprietary/malware-microsoft.html)
-users in mind,
-but maybe you'll find useful language learning advice there.
-
-Anti-features:
-
-* The sites try to deny the importance of freedom and legitimize proprietary software.
-* They include instructions for
-[playing visual novels](https://www.gnu.org/philosophy/nonfree-games.html).
-Most visual novels should be avoided since they are proprietary.
-* They mention software that requires proprietary operating systems to run.
-* They include links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
-Discord is known for spying on and politically suppressing its users.
-* Both sites recommend "anime cards".
-In my opinion, TSC is the most efficient way to combine Anki with immersion.
 
 ## Misc
 
