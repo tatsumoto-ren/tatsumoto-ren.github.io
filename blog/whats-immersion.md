@@ -17,7 +17,7 @@ watching anime, movies and j-dramas, reading books, light novels and manga.
 In Japanese there is a lot of content that can be used for immersion,
 and it makes Japanese very easy to learn.
 
-In AJATT there's the concept of **Japanese Immersion Environment**.
+In [AJATT](whats-ajatt.html) there's the concept of **Japanese Immersion Environment**.
 Learners create an environment that simulates the process of living in Japan
 by using immersion content &mdash; media in Japanese.
 Japanese Immersion Environment is created by switching

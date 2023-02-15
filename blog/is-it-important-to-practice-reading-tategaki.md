@@ -18,7 +18,7 @@ It is not something to be overly concerned about.
 As someone learning Japanese,
 it is unavoidable to come across vertical text,
 just like it's hard to avoid reading text with kanji.
-So as long as your immersion is balanced,
+So as long as your [immersion](whats-immersion.html) is balanced,
 and you regularly read manga or light novels, you're set.
 In light novels and manga text is always vertical, maybe with some exceptions.
 
