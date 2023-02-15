@@ -489,13 +489,6 @@ More about the Ease Hell:
 
 ## GTK theme
 
-> Note: The ability to have Anki respect the system's GTK or Plasma theme has been taken away from us in Anki 2.1.55+.
-> The instructions below won't work anymore.
-> Blame Matthias Metelka for this.
-> Let's hope there will be a fix in the future.
-
-<details>
-
 Anki uses the
 [Qt](https://wiki.archlinux.org/title/Qt)
 toolkit.
@@ -505,6 +498,8 @@ according to the GTK theme you may have selected.
 
 There are multiple ways
 to tell Anki to use your GTK theme.
+But before you proceed, go to "Preferences" > "Appearance"
+and make sure that "Style" is set to "Native".
 
 ### qt5-styleplugins
 
@@ -563,8 +558,6 @@ in the `.desktop` file (see `pip` [install notes](setting-up-anki.html#using-pip
 ```
 Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
 ```
-
-</details>
 
 ## Trying different versions
 

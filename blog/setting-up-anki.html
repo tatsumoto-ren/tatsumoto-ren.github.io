@@ -461,13 +461,6 @@ To update older cards, use the <a href="https://ankiweb.net/shared/info/81902366
 <li><a href="https://readbroca.com/anki/ease-hell/">Ease Hell in Anki</a></li>
 </ul>
 <h2 id="gtk-theme"><a class="anchor" href="#gtk-theme" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GTK theme</h2>
-<blockquote>
-<p>Note: The ability to have Anki respect the system's GTK or Plasma theme has been taken away from us in Anki 2.1.55+.
-The instructions below won't work anymore.
-Blame Matthias Metelka for this.
-Let's hope there will be a fix in the future.</p>
-</blockquote>
-<details>
 <p>Anki uses the
 <a href="https://wiki.archlinux.org/title/Qt">Qt</a>
 toolkit.
@@ -475,7 +468,9 @@ If you're not running Plasma (or possibly another Qt-based desktop environment)
 Qt applications won't be styled
 according to the GTK theme you may have selected.</p>
 <p>There are multiple ways
-to tell Anki to use your GTK theme.</p>
+to tell Anki to use your GTK theme.
+But before you proceed, go to &quot;Preferences&quot; &gt; &quot;Appearance&quot;
+and make sure that &quot;Style&quot; is set to &quot;Native&quot;.</p>
 <h3 id="qt5-styleplugins"><a class="anchor" href="#qt5-styleplugins" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>qt5-styleplugins</h3>
 <ol>
 <li>If your version of Anki uses <code>Qt5</code>,
@@ -526,7 +521,6 @@ It can be achieved by launching Anki like this:</p>
 in the <code>.desktop</code> file (see <code>pip</code> <a href="setting-up-anki.html#using-pip">install notes</a>) change <code>Exec=</code> to:</p>
 <div class="pre-wrap"><pre><code>Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f
 </code></pre></div>
-</details>
 <h2 id="trying-different-versions"><a class="anchor" href="#trying-different-versions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Trying different versions</h2>
 <p>If you want to install and test multiple versions of Anki at the same time,
 use the following functions.
