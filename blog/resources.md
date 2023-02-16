@@ -519,6 +519,10 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   A minimalistic document viewer.
   Can be used to read novels.
   Doesn't display furigana correctly.
+* [calibre](https://archlinux.org/packages/community/x86_64/calibre/).
+  Ebook management application.
+  This program is primarily used to convert from various formats (including azw3) to epub.
+  It's not very good as a reader app.
 
 ### Localization
 
