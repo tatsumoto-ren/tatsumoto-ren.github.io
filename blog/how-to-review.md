@@ -28,7 +28,7 @@ This way you hijack Anki's default behavior which otherwise would lead to fallin
 This initial increase counteracts the low Starting Ease.
 You can increase it further if your retention is high enough.
 I think up to 300% should be fine.
-* Enable Anki 2.1 scheduler (`V2` scheduler).
+* Enable Anki 2.1 scheduler (`V3` scheduler).
 It's a little less limiting, less buggy and more convenient.
 In newer Anki versions it's the default.
 
@@ -70,9 +70,9 @@ Sometimes you need to press "again" multiple times until you memorize the card.
 But as soon as you understand the word, hit "good".
 Don't hit "again" over and over because you're not sufficiently confident in your memory.
 
-Anki never guarantees that you will remember every item you put into it.
+Anki never guarantees that you will remember every single item you put into it.
 It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
-Each review session expect to forget a number of cards.
+Each review session, expect to forget a number of cards.
 It's a natural part of using the program.
 
 If you forget too many cards,
@@ -89,21 +89,40 @@ This means you need to increase you Interval Modifier.
 Khatz's blog has an article about [Showing up](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up).
 100% of winning is showing up.
 Dedicate the time, and you'll see the results.
-
 Not only this concept is important when using Anki to learn languages,
 it is mandatory.
-Anki expects you to do your reviews every single day.
+One of the objectives of using an SRS is to achieve long-term retention.
+Long-term retention is impossible without being consistent.
+The only way to benefit from using an SRS is to use it regularly.
+Anki expects you to do your reviews **every single day**.
 If you fail to do so, due cards quickly pile up.
 
 If you do a consistent number of new cards each day,
 the number of reviews tends to be consistent as well.
 So, if you miss a day, expect your review load to double the next day.
-If you miss two days, you'll have to do 3 times as many reviews.
-
-Anki's algorithm schedules cards so that they come up for review
+If you miss two days, you'll have to do roughly 3 times as many reviews.
+Anki's algorithm schedules cards so that ideally they should come up for review
 just before you forget their content.
-If you don't do your reviews on time,
-expect to forget more cards.
+If you don't do your reviews on time, expect to forget more cards.
+
+There are two distinct approaches to dealing with SRS reviews.
+Many people find that they are
+able to form a consistent habit if they do their reviews at the same time each day,
+such as first thing in the morning.
+Others prefer to fit in reviews between activities in their day.
+For example, they may use their [phone](our-immersion-learning-toolset.html#android)
+to complete a few reviews while standing in line, taking a bus, or waiting for something.
+
+Your goal is to experiment and find an approach that works for you
+and enables you to consistently complete your reviews.
+Or you can choose a combination of the two approaches.
+Personally, I find that the first approach works for me well.
+I have a laptop dedicated to doing my Anki reps.
+Besides Anki, the laptop has almost no other software installed
+to prevent all possible distractions.
+But if for some reason I don't have time in the morning,
+I fall back to the second approach
+and try to finish my reviews on a phone in moments when I'm not doing anything in particular.
 
 ## Reading sentences aloud
 
@@ -139,7 +158,7 @@ The recommended retention is 75%-90%.
 If you see that your retention stays out of these boundaries,
 act accordingly.
 Decrease your
-[Interval Modifier](setting-up-anki.html#reviews)
+[Interval Modifier](setting-up-anki.html#interval-modifier)
 if your retention is too low, increase if it's high.
 
 If your retention is below 70%, that's a call to action.
@@ -266,7 +285,7 @@ you can *influence* the number of future reviews by decreasing the number of new
 or stopping learning new cards completely for a period of time.
 If you feel like you have headroom, raise the amount of new cards.
 
-You can get away with learning more new cards if you increase your `Interval modifier`,
+You can get away with learning more new cards if you increase your [Interval Modifier](setting-up-anki.html#interval-modifier),
 but in return expect your retention to go down.
 
 Do not cap your reviews by decreasing the
@@ -373,7 +392,7 @@ by right-clicking `Saved Searches` and choosing `Save Current Search`.
 <p align="center"><i>Anki Browser Search.</i></p>
 
 **Note:** There are some add-ons on AnkiWeb that offer automatic retirement.
-They modify the scheduler in an unpredictable way
+They modify the scheduler unpredictably
 and have earned negative reputation among Japanese learners.
 Don't use any add-ons that mess with the scheduler.
 They often have bugs and may corrupt your collection.
@@ -458,9 +477,12 @@ The SRS best practices:
 
 1) Starting Ease 131%.
 1) Interval Modifier 192%, increase if needed.
-1) Enable the V2 scheduler.
+1) Enable the V3 scheduler.
+1) Show up every day to do your reps.
 1) Don't review in filtered decks.
 1) Use filtered decks for storing old due cards (backlog).
+1) Do no more than 30 new cards a day, unless you know what you're doing.
+1) Have Anki suspend your leeches. Deal with them as they come up.
 1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
 1) Use the **Pass-Fail** mode to avoid "Hard" and "Easy" buttons.
 1) Grade easy cards from their front side.
