@@ -63,9 +63,7 @@ You may need to Email an admin to get an account.
 | Server                   | Web client                                          | Extra |
 | :---                     | :---                                                | :---  |
 | `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) |       |
-| `matrix.kiwifarms.net`   | [kiwifarms.net](https://riot.kiwifarms.net/)        | 🏆    |
 | `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | 🏆    |
-| `matrix.zygoat.club`     | [zygoat.club](https://riot.zygoat.club/)            | 🏆    |
 
 ### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 
@@ -82,11 +80,10 @@ You may need to Email an admin to get an account.
 | `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)           | 🏆    |
 | `kde.org`               | [kde.org](https://webchat.kde.org/)                         |       |
 | `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                               |       |
-| `sakura.ci`             | None                                                        |       |
+| `sakura.ci`             | [web.sakura.ci](https://web.sakura.ci/)                     |       |
 | `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                           |       |
 | `maeli.net`             | None                                                        |       |
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)                     |       |
-| `nltrix.net`            | [nltrix](https://element.nltrix.net/)                       |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
 | `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
 
@@ -285,7 +282,6 @@ without having to use a desktop client.
 * https://webchat.kde.org/
 * https://chat.catgirl.biz/
 * https://element.fff.chat/
-* https://riot.zygoat.club/
 * https://matrix.jdsoft.de/
 * https://matrix.n3xus.one/
 * https://matrix.boba.chat/
@@ -300,9 +296,7 @@ without having to use a desktop client.
 * https://element.trygve.me/
 * https://chat.freakachu.org/
 * https://element.avlikos.gr/
-* https://riot.kiwifarms.net/
 * https://riot.matrix-jp.net/
-* https://element.nltrix.net/
 * https://riot.scamdemic.wtf/
 * https://chat.queersin.space/
 * https://webchat.freitrix.de/
