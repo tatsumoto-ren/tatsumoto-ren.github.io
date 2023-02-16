@@ -242,7 +242,7 @@ header label {
     text-decoration: none;
     cursor: pointer;
     background-color: var(--header-background);
-    transition: background-color 0.1s;
+    transition: background-color 0.1s ease-in-out;
     line-height: var(--header-height);
     user-select: none;
 }
@@ -573,7 +573,7 @@ article table {
     display: block;
     max-width: 100%;
     overflow: auto;
-    overscroll-behavior: contain;
+    overscroll-behavior-inline: contain;
     width: max-content;
 }
 
