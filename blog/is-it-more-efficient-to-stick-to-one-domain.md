@@ -13,7 +13,7 @@ In the guide I said that in the beginning
 I recommend immersing in slice of life movies and TV shows.
 In slice of life shows you've got a limited range of vocabulary,
 and the words that are being used are common across the entire language.
-This the recommended first domain.
+This is the recommended first domain.
 Having a solid foundation in the initial domain
 makes it much easier to learn new domains.
 When you know the most basic vocabulary,
