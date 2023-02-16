@@ -315,7 +315,7 @@ A shared folder with movies and other content with Japanese dubs.
 
 ### Books
 
-* [zlibrary](https://z-lib.org/).
+* [zlibrary](https://singlelogin.me/).
   A library with books in any language.
   Has a [tor version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
 * [Anna’s Archive](https://annas-archive.org/).
