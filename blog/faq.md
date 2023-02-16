@@ -54,7 +54,7 @@ All updates and additions will be posted [here](tag_faq.html).
 
 ### [What are the downsides of using WaniKani?](what-are-the-downsides-of-using-wanikani.html)
 
-### [I just quit WaniKani after learning 1,300 kanji. Should I do JP1K or just jump into sentence mining](i-just-quit-wanikani-should-i-do-jp1k.html)?
+### [I just quit WaniKani after learning 1,300 kanji. Should I do JP1K or just jump into sentence mining?](i-just-quit-wanikani-should-i-do-jp1k.html)
 
 ### [Is JAV good for immersion?](blog/is-jav-good-for-immersion.html)
 
