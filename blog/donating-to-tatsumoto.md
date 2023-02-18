@@ -51,6 +51,14 @@ bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
 <p align="center"><img alt="BTC QR" src="img/btc_qr.png"></p>
 </details>
 
+## Donate bot on Telegram
+
+By clicking the link below,
+you can subscribe to monthly donations.
+You can set a donation amount at checkout in the Tip section.
+
+<a target="_blank" class="md-button telegram" href="https://t.me/donate?start=Y2hhcml0eV9pbnZvaWNlX3JlcXVlc3QtMjY1NzQ=-k1rK">Donate via Telegram</a>
+
 ## Cointree
 
 Donate crypto and send a message that I will receive via email.
