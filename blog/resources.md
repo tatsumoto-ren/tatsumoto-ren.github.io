@@ -315,6 +315,8 @@ A shared folder with movies and other content with Japanese dubs.
 
 ### Books
 
+* [Torrent sites](#torrent-trackers).
+  Explore them first.
 * [zlibrary](https://singlelogin.me/).
   A library with books in any language.
   Has a [tor version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
