@@ -39,7 +39,7 @@ and switched to solely using my immersion to find new sentences.
 
 * If you haven't finished [KanjiTransition](jp1k-anki-deck.html), do it now.
 * If you wish to continue supplementing your study with a premade deck,
-go back to the [Basic vocabulary](basic-vocabulary.html).
+  go back to the [Basic vocabulary](basic-vocabulary.html).
 
 ## Mining process
 
@@ -76,8 +76,8 @@ Reading definitions and adding them to cards takes time,
 so some people may prefer to do it after they finish their immersion session.
 
 * Generate a subs2srs deck before watching a TV show.
-While immersing, mark the 1T sentences in the subs2srs deck by pressing `Ctrl+K` or by tagging them.
-Delete the cards you haven't marked.
+  While immersing, mark the 1T sentences in the subs2srs deck by pressing `Ctrl+K` or by tagging them.
+  Delete the cards you haven't marked.
 * Mpvacious allows you to send sentences directly to Anki by pressing `Ctrl+N`.
 * When reading manga, screenshot the part of the page that contains a 1T sentence.
 
@@ -155,40 +155,73 @@ If at that point you continue relying too much on frequency lists,
 it can lead to skipping words that are actually useful to you at that point,
 in the context of the input you are consuming.
 
+## Many cards for one word
+
+Avoid making multiple cards for the same meaning of the same word.
+In specific cases this might be helpful
+since memorizing different representations tends to improve memories,
+increase the expected recall rate,
+but normally it's not recommended.
+Let's say that making multiple cards for the same meaning of a word
+only makes sense for about 3% to 5% of all cards in your collection.
+
+However,
+if a word has multiple meanings,
+then creating separate cards for each meaning can be necessary.
+Since the word in isolation is not enough to differentiate between different meanings,
+you should use *targeted sentence cards*.
+You don't have to do it for every word with multiple meanings,
+but only when a new meaning is ambiguous.
+
 ## Card template
+
+To help you learn a word effectively,
+you should always choose the most suitable card template for the word.
+In a nutshell,
+SWCs work best for concrete nouns, whereas TSCs are used for everything else.
 
 Refer to [Discussing various card templates](discussing-various-card-templates.html)
 to get an idea of what to put on your cards
 and how they should look.
-If you're using the card template introduced in the beginning of this guide,
+If you're using the card template [introduced in the beginning](setting-up-anki.html#import-an-example-mining-deck) of this guide,
 you don't have to set up everything yourself.
 If you wish to make your own card template, follow these rules.
 
 * Put an example sentence and/or the target word on the front.
-It should be the only thing you have on the front.
+  It should be the only thing you have on the front.
 * All hints should go on the back.
-Furigana, pronunciation, meaning is what you test yourself on.
-Having any of them on the front will spoil the target word.
+  Furigana, pronunciation, meaning is what you test yourself on.
+  Having any of them on the front will spoil the target word.
 * Focus on comprehension.
-The reason you're mining sentences is to understand Japanese.
-Speaking comes naturally through absorbing input.
+  The reason you're mining sentences is to understand Japanese.
+  Speaking comes naturally through absorbing input.
+
+## Extra information on the front
+
+When creating cards for new words,
+it is inadvisable to include extra cues or context, such as images, on the fronts of cards,
+as this can result in the formation of memories that are reliant on the extra cues
+&mdash; context-dependent memories.
+Context-dependent memories hinder your ability to recall the target word when you see it in your immersion.
+
+Your cards should imitate reading practice in real life situations.
+Therefore, don't put pictures or audio clips on the front.
+Out in the wild the hints won't be there to help you.
+Normally, on the front side you see only the target word
+or an example sentence that contains the target word.
 
 ## Aim for high quality cards
 
-TSCs that contain
-audio recordings, pictures or screenshots
-of the scenes they were taken from
-on the back
-are referred to as high quality sentence cards.
+Cards that contain audio recordings,
+pictures or screenshots of the scenes they were taken from on the back
+are referred to as *high quality cards*.
 Additional information on them helps you remember the target word better.
+If the target word is a noun,
+a picture can be even more helpful than a definition.
 
-Your cards should imitate reading practice in real life situations.
-Naturally, don't put the picture or audio on the front.
-Out in the wild the hints won't be there to help you.
-
-Try to make more high quality cards instead of cards that only contain text.
+Try to make more high quality cards instead of cards that contain only text.
 There are many tools available to streamline adding audio and images to your cards.
-They are linked on the Resources page.
+They are linked on the [Resources](resources.html#software) page.
 
 <p align="center"><img src="img/example-tsc.webp"></p>
 <p align="center"><i><a target="_blank" href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Recommended card format</a>.</i></p>
