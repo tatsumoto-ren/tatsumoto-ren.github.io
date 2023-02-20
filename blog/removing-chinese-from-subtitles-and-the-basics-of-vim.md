@@ -1,10 +1,9 @@
 ---
 title: Removing Chinese from subtitles and the basics of vim
 date: 1606984029
-tags: [vim, subtitles]
 ---
 
-Let's talk about Japanese subtitles. Many of us have used [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
+Let's talk about Japanese subtitles. Many of us have used [Kitsunekko](resources.html#japanese-subtitles)
 and have seen those strange subtitles with Chinese translation on the first line and then below it
 the actual Japanese on the second line. When you use [mpv](https://mpv.io/) to
 [mine sentences](https://github.com/Ajatt-Tools/mpvacious) from these subtitles

@@ -157,10 +157,7 @@ and [Download tools](resources.html#downloading) for a ways to download it.
 ## Obtain subtitles
 
 To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
-Subtitles can be found on
-[Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
-and on our
-[Resources page](resources.html#japanese-subtitles).
+Subtitles can be found on the [Resources page](resources.html#japanese-subtitles).
 
 If you can't find target language subtitles for a video,
 you can generate them using [pyTranscriber](https://aur.archlinux.org/packages/pytranscriber-bin).

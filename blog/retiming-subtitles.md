@@ -72,7 +72,7 @@ For this example I took
 for
 [Steins;Gate](https://myanimelist.net/anime/9253/)
 from
-[kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc).
+[Kitsunekko.net](resources.html#japanese-subtitles).
 Watch
 [this video](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.
