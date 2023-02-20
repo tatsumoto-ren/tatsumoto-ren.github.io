@@ -42,6 +42,14 @@ The resulting user workflow is identical, see the demo below.
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 
+## Obtain manga
+
+See [Resources](resources.html#manga) for places where you can get manga.
+For the best image quality, I recommend downloading manga from Torrent sites.
+However, if you don't want to wait for the download,
+you can also read manga online on various websites.
+No matter which option you choose, it's easy to find a great selection of manga to read.
+
 ## Image viewer
 
 To read manga,
