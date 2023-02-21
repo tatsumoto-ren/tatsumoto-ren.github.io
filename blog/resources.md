@@ -283,7 +283,7 @@ A shared folder with movies and other content with Japanese dubs.
   View raw manga online.
   * Make sure you disable JavaScript before opening the site.
   * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
-* [Manga-zip](http://manga-zip.net/).
+* [Manga-zip](https://manga-zip.is/).
   Manga archive.
 * [MANGA ZIP](https://manga-zip.info/).
   A site that hosts download links to manga and novels.
@@ -569,7 +569,6 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 Make Anki cards in mpv:
 
 * [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-* [Automatic mpv script](https://anacreondjt.gitlab.io/docs/mpvscript/)
 
 ### mpd
 
@@ -716,7 +715,7 @@ Yomichan is a browser extension that lets you easily look up unknown words.
 * [日本語俗語辞書](http://zokugo-dict.com/).
   A monolingual slang dictionary.
 * [伏字検索](http://fuseji.net/).
-  Helps you decipher words partially occluded by symbols like `〇`.
+  Helps you decipher words partially occluded by symbols like `〇` and `◯` (maru).
 * [ふりがな文庫](https://furigana.info/).
   For any given word, searches through Aozora Bunko
   for all instances where it was used with furigana
