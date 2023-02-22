@@ -69,7 +69,7 @@ My favorite ones are `大辞林` and `新明解`.
 
 ### Pitch accents
 
-[Pitch accent](https://en.wikipedia.org/wiki/Japanese_pitch_accent)
+[Pitch accent](https://wikiless.org/wiki/Japanese_pitch_accent?lang=en)
 is taken very seriously among Japanese learners.
 If you don't know pitch accent of a word,
 you don't know how it's pronounced.
