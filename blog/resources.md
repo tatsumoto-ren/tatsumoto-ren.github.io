@@ -474,22 +474,23 @@ Note that you can't use Japanese to Japanese dictionaries with it.
 
 ### Reading eBooks
 
-* [Cool Reader](https://archlinux.org/packages/community/x86_64/coolreader/).
+* [CoolReader](https://archlinux.org/packages/community/x86_64/coolreader/).
   E-book viewer.
 
   After installation open Settings, go to "Styles" and choose Japanese fonts
   to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
   [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
   Japanese `Noto` fonts did not, some text was still in Chinese.
-
   On the "Page" tab you can choose View Mode.
   I have it set to "Scroll View".
+  On the "Window" tab
+  you can tell CoolReader to apply your [kvantum](setting-up-anki.html#kvantum) theme.
 
   To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
   To view saved bookmarks, press <kbd>F6</kbd>.
 
   Unfortunately,
-  Cool Reader can't automatically copy selected text to the clipboard like `Foliate` does.
+  CoolReader can't automatically copy selected text to the clipboard like `Foliate` does.
 * [Foliate](https://johnfactotum.github.io/foliate/).
   A simple and modern eBook viewer.
   [Arch Linux package](https://archlinux.org/packages/?name=foliate).
