@@ -529,6 +529,8 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   Under "Font" check "Enable system fonts" (the checkbox is at the beginning of the font list)
   to have access to your [Japanese fonts](japanese-fonts.html).
   Then in document settings set the font to `Noto Serif CJK JP` or a similar Japanese font.
+
+  If you want to create Anki cards, install [Anki plugin for KOreader](https://github.com/Ajatt-Tools/anki.koplugin).
 * [Zathura](https://wiki.archlinux.org/title/Zathura).
   A minimalistic document viewer.
   Can be used to read novels.
