@@ -5,9 +5,51 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Fri, 24 Feb 2023 01:07:45 +0300</lastBuildDate>
-<pubDate>Fri, 24 Feb 2023 01:07:45 +0300</pubDate>
+<lastBuildDate>Fri, 24 Feb 2023 01:13:15 +0300</lastBuildDate>
+<pubDate>Fri, 24 Feb 2023 01:13:15 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>When reviewing cards, if I could only remember a word due to the surrounding context, how should I grade the card?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>This means that you've formed a <a href="discussing-various-card-templates.html#pros-and-cons-of-sentence-cards">context-dependent memory</a>.
+Context-dependent memories can form no matter what card template you're using,
+including word cards,
+since no context is a type of context in itself.
+If you find that you can't remember a particular word on an Anki card,
+and you are only able to understand it due to the context of the sentence,
+it implies that the card is not meeting its intended purpose
+of helping you recognize and comprehend the word.</p>
+<p>Unfortunately, there is no quick fix for context-dependent memories.
+It takes time and exposure to the word in various contexts to fully acquire it.
+If the card isn't fulfilling its intended purpose,
+failing it or grading it good will not make any difference.
+After you've successfully identified that the card is not helping you,
+the best course of action is to modify the card by either swapping the sentence with another
+one or converting it to a word card when applicable.
+An argument against this would be the time it takes to edit the card,
+but it's probably not that difficult and time-consuming these days
+since with <a href="plumbing-for-language-learners.html">cabl</a> you have example sentences at your fingertips.</p>
+<p>The final decision is up to you.
+Personally,
+I prefer not to fail the card since relearning it won't correct the flawed memory.
+Instead, I do one or the combination of the following:</p>
+<ul>
+<li>Swap the card with a different card with the same target word.</li>
+<li>Introduce a second card with the same target word (there's <a href="sentence-mining.html#many-cards-for-one-word">a caveat</a> though).</li>
+<li>Edit the card and swap the sentence.</li>
+<li>Do nothing, just proceed with my reviews and hope to eventually learn the word properly through immersion.</li>
+</ul>
+<p>If you believe that failing the card will be beneficial in some way,
+then there is fundamentally nothing wrong with that.
+However, should you continue to fail it, the card will eventually become a leech.
+If Anki suspends the card,
+you need to create a new one with the same target word but a different sentence.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/i-can-only-remember-word-due-to-context.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/i-can-only-remember-word-due-to-context.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 24 Feb 2023 01:13:08 +0300</pubDate>
+</item>
 <item>
 <title>Should I watch with Japanese subtitles while going through the kanji phase?</title>
 <author>Tatsumoto</author>
@@ -423,54 +465,6 @@ though I'm not a fan of deleting entire decks.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-much-reading-is-required-to-counteract-not-srsing.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 05 Feb 2023 11:07:55 +0300</pubDate>
-</item>
-<item>
-<title>I only do passive immersion and things aren't working, what's wrong?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>The answer is obvious. Do active immersion.</p>
-<p>Even if you have headphones on all day,
-without active immersion you can't expect any improvement.
-The whole point of passive immersion
-is to get additional exposure to the sentences you already have learned to some extent.</p>
-<p>Especially in early stages
-during passive immersion
-you generally consume exactly the same content
-that you learn from during active immersion.
-During passive immersion your brain should be exposed to what you've been working on actively.
-If you're doing only passive listening,
-your brain is going to filter the information out as background noise.</p>
-<p>During active immersion
-you need to give your full attention to the immersion
-and try to understand as much as possible.
-Make flashcards for the unknown bits.
-Then, when you're going to re-listen to the same content passively,
-listening is going to help you solidify the knowledge.</p>
-<p>Passive immersion only helps to the extent that you are also doing active immersion.
-If you skip active immersion,
-you won't understand what's going on.
-But if you listen to familiar content,
-it is easier to follow the story.
-Even if your attention moves to something else,
-when you move it back,
-you can still understand what's going on because you already know the plot.</p>
-<p>It is possible to learn a language without passive immersion,
-but it is almost impossible to do without active immersion.
-You need to actively immerse and look up as many words as you can while doing so.</p>
-<p>If you do no active immersion,
-passive immersion does little to nothing.
-If you are doing lots of active immersion each day,
-then passive immersion starts to become very beneficial.</p>
-<p>So what I recommend everyone to do is
-watch anime, movies and dramas actively
-and then put each episode through <a href="passive-listening.html#impd">impd</a> to get condensed audio.
-Listen to the condensed audio in the background until <code>impd</code> archives it.
-The process should not require much time,
-you only need time to watch a few episodes every day.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/i-only-do-passive-immersion-and-things-arent-working-whats-wrong.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/i-only-do-passive-immersion-and-things-arent-working-whats-wrong.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 01 Feb 2023 07:50:27 +0300</pubDate>
 </item>
 </channel>
 </rss>
