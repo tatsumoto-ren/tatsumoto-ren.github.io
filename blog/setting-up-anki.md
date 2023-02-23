@@ -221,6 +221,13 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
     the cards will be properly mixed when reviewing.
   * You can learn new cards in filtered decks.
     Filtered decks no longer reset learning steps when rebuilt or emptied.
+* **Minimalist mode.**
+  Newer versions of Anki come with an absolutely horrendous UI.
+  The minimalst mode was added after a widespread backlash from the users.
+* **Style: Native.**
+  Same as above.
+  Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
+  and disables the childish Apple-esque theme that is set by default.
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 
