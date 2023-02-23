@@ -203,40 +203,59 @@ Most people keep their settings rather simple,
 but there are a few important modifications I'd like to mention.
 
 1) **Hide furigana.**
-When you use the popup window, it shows you all kanji readings right away.
-This is not desirable because you want to recall the readings yourself before looking them up.
-The code below makes furigana appear only when you hover over words.
-	```
-	ruby rt { visibility: hidden; }
-	ruby:hover rt { visibility: visible; }
-	```
+   When you use the popup window, it shows you all kanji readings right away.
+   This is not desirable because you want to recall the readings yourself before looking them up.
+   The code below makes furigana appear only when you hover over words.
+
+   ```
+   ruby rt { visibility: hidden; }
+   ruby:hover rt { visibility: visible; }
+   ```
 1) **Increase font size.**
-By default, Yomichan uses very small font.
-If you're using monolingual dictionaries, you're going to find the font uncomfortable.
-To increase its size, the following code can be used:
-	```
-	.gloss-item { font-size: 1.5em; }
-	```
-	Adjust the size to suit your preference.
+   By default, Yomichan uses very small font.
+   If you're using monolingual dictionaries, you're going to find the font uncomfortable.
+   To increase its size, the following code can be used:
+
+   ```
+   .gloss-item { font-size: 1.5em; }
+   ```
+
+   Adjust the size to suit your preference.
 1) **Make tags smaller.**
-Tags aren't that important, so it makes sense to shrink them a bit to save space.
-	```
-	.tag { font-size: 12px; }
-	```
+   Tags aren't that important, so it makes sense to shrink them a bit to save space.
+
+   ```
+   .tag { font-size: 12px; }
+   ```
+1) **Popup page in the Anki-card style.**
+   Makes your popups look similar to your targeted sentence cards.
+
+   ```
+   body {
+       background-color: #fffaf0;
+       color: #2a1b0a;
+   }
+   [class^=tag],
+   [class*=icon] {
+       filter: sepia(50%);
+   }
+   [class^=tag] {
+       font-size: 0.9rem;
+       font-weight: 300;
+   }
+   ```
 1) **Miscellaneous.**
-CSS can do almost everything.
-For example, by modifying `body` you can set font color and background color:
-	```
-	body { color: #2A1B0A; background-color: #FFFAF0; }
-	```
-	To find the right class name to apply your styles to,
-	right-click on the part of the popup window that you're interested in and choose "Inspect".
-	You will be presented with the html structure of the popup.
-	Classes are defined inside html tags.
-	For example, the class name for the tag below is `gloss-content`.
-	```
-	<span class="gloss-content" lang="ja">...</span>
-	```
+   CSS can do almost everything.
+
+   To find the right class name to apply your styles to,
+   right-click on the part of the popup window that you're interested in and choose "Inspect".
+   You will be presented with the HTML structure of the popup.
+   Classes are defined inside HTML tags.
+   For example, the class name for the tag below is `gloss-content`.
+
+   ```
+   <span class="gloss-content" lang="ja">...</span>
+   ```
 
 ### Profiles
 
