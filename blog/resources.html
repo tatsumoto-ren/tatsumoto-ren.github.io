@@ -582,16 +582,25 @@ to prevent lags and ensure a consistent layout.</p>
 To scroll without the mouse, press &quot;j&quot; and &quot;k&quot;.</p>
 </li>
 <li><p><a href="https://koreader.rocks/">KOreader</a>.
-A book reader.
-The interface sucks because it was designed to be used on some obscure devices,
-but at least you can open a light novel and see furigana rendered properly.
-I recommend installing the
+KOreader is a book reader application
+that was designed to be used on E-ink devices, but it can also be used on a PC.
+It properly displays furigana.</p>
+<p>The best way to install it is to use the
 <a href="https://aur.archlinux.org/packages/koreader-appimage/">appimage AUR package</a>
-because the *-bin AUR package didn't work for me.</p>
+Alternatively, the
+<a href="https://aur.archlinux.org/packages/koreader-bin">koreader-bin</a>
+AUR package can be used, but it may not work for everyone.</p>
 <p>This app <a href="https://github.com/koreader/koreader/wiki/Dictionary-support">supports</a> <code>StarDict</code> dictionaries.
-You can convert your dictionaries to the <code>StarDict</code> format
-with <a href="https://github.com/ilius/pyglossary">PyGlossary</a>
-to be able to look up unknown words while reading.</p>
+You can download the dictionaries
+<a href="https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg/folder/LYAmgLLI">from here</a>,
+or you can use your own dictionaries,
+converting them to the <code>StarDict</code> format
+with <a href="https://github.com/ilius/pyglossary">PyGlossary</a>.
+The dictionaries should be placed in <code>~/.config/koreader/data/dict</code> if you're on GNU/Linux.
+<a href="https://github.com/koreader/koreader/wiki/Dictionary-support">Refer to the Wiki</a> for other platforms.</p>
+<p>Under &quot;Font&quot; check &quot;Enable system fonts&quot; (the checkbox is at the beginning of the font list)
+to have access to your <a href="japanese-fonts.html">Japanese fonts</a>.
+Then in document settings set the font to <code>Noto Serif CJK JP</code> or a similar Japanese font.</p>
 </li>
 <li><p><a href="https://wiki.archlinux.org/title/Zathura">Zathura</a>.
 A minimalistic document viewer.

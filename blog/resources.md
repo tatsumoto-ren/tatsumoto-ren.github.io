@@ -507,17 +507,28 @@ Note that you can't use Japanese to Japanese dictionaries with it.
   Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
   To scroll without the mouse, press "j" and "k".
 * [KOreader](https://koreader.rocks/).
-  A book reader.
-  The interface sucks because it was designed to be used on some obscure devices,
-  but at least you can open a light novel and see furigana rendered properly.
-  I recommend installing the
+  KOreader is a book reader application
+  that was designed to be used on E-ink devices, but it can also be used on a PC.
+  It properly displays furigana.
+
+  The best way to install it is to use the
   [appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
-  because the *-bin AUR package didn't work for me.
+  Alternatively, the
+  [koreader-bin](https://aur.archlinux.org/packages/koreader-bin)
+  AUR package can be used, but it may not work for everyone.
 
   This app [supports](https://github.com/koreader/koreader/wiki/Dictionary-support) `StarDict` dictionaries.
-  You can convert your dictionaries to the `StarDict` format
-  with [PyGlossary](https://github.com/ilius/pyglossary)
-  to be able to look up unknown words while reading.
+  You can download the dictionaries
+  [from here](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg/folder/LYAmgLLI),
+  or you can use your own dictionaries,
+  converting them to the `StarDict` format
+  with [PyGlossary](https://github.com/ilius/pyglossary).
+  The dictionaries should be placed in `~/.config/koreader/data/dict` if you're on GNU/Linux.
+  [Refer to the Wiki](https://github.com/koreader/koreader/wiki/Dictionary-support) for other platforms.
+
+  Under "Font" check "Enable system fonts" (the checkbox is at the beginning of the font list)
+  to have access to your [Japanese fonts](japanese-fonts.html).
+  Then in document settings set the font to `Noto Serif CJK JP` or a similar Japanese font.
 * [Zathura](https://wiki.archlinux.org/title/Zathura).
   A minimalistic document viewer.
   Can be used to read novels.
