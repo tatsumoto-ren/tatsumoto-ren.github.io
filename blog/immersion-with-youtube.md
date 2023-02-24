@@ -52,8 +52,10 @@ On YouTube, you can find a wide variety of videos in Japanese with built-in Japa
 Not every video has human-made subtitles, and auto-generated subtitles aren't accurate.
 Avoid using them if possible.
 
-If you add "字幕可" or "CC" at the end of the search term on YouTube,
-it will try to search for videos that have subtitles.
+To find content with subtitles,
+open Invidious,
+click on `[+] Filters` and under "Features" enable "Subtitles/CC".
+Or you can try adding "字幕可" or "CC" at the end of the search term.
 
 After downloading a video and subtitles for it,
 you can put it into `subs2srs`
@@ -101,7 +103,7 @@ See `$ man yt-dlp` for a comprehensive list of options.
 ## Notes
 
 * If you want simple and easy Japanese immersion without having to set things up,
-  just go to [youtube.076.ne.jp](https://youtube.076.ne.jp/).
+  just go to **[youtube.076.ne.jp](https://youtube.076.ne.jp/)**.
   This is a Japanese Invidious instance.
 * In my dotfiles I have
   [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
