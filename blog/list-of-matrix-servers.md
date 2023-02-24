@@ -67,10 +67,13 @@ You may need to Email an admin to get an account.
 
 ### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 
-| Server             | Web client                                            | Extra |
-| :---               | :---                                                  | :---  |
-| `midov.pl`         | [midov.pl](https://element.midov.pl/element/)         | 🏆    |
-| `anontier.nl`      | [anontier.nl](https://element.anontier.nl/)           |       |
+| Server                  | Web client                                  | Extra |
+| :---                    | :---                                        | :---  |
+| `community.rs`          | [element](https://element.community.rs)     |       |
+| `matrix.im`             | [element](https://element.matrix.im)        |       |
+| `sibnsk.net`            | [element](https://element.sibnsk.net)       |       |
+| `matrix.unredacted.org` | [element](https://element.unredacted.org)   |       |
+| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/) |       |
 
 ### My selection
 
@@ -86,6 +89,8 @@ You may need to Email an admin to get an account.
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)                     |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
 | `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
+| `midov.pl`              | [midov.pl](https://element.midov.pl/element/) | 🏆    |
+| `anontier.nl`           | [anontier.nl](https://element.anontier.nl/)   |       |
 
 ### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
 
