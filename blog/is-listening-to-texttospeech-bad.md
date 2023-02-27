@@ -1,5 +1,5 @@
 ---
-title: Is listening to text-to-speech bad?
+title: Is listening to TTS (text-to-speech) bad?
 date: 1670241912
 tags: ['faq']
 position: -9891
@@ -24,6 +24,6 @@ For example, instead of generating a text-to-speech audio for a book,
 download an audiobook.
 Instead of adding text-to-speech audio to your Anki cards,
 [copy pronunciations from Qolibri](setting-up-qolibri.html#playing-nhk-audio),
-[Forvo](https://forvo.com/)
+[Forvo](https://forvo.com/),
 or other sources (banks) that provide native audio.
 Also, just try mining from movies and TV shows more because they have audio built-in.
