@@ -158,8 +158,9 @@ consisting of essentially adding the fields you need and copy-pasting HTML and C
 I recommend you to import a pre-made mining deck.
 
 A sample mining deck can be found here:
-* AnkiWeb: https://ankiweb.net/shared/info/1557722832
-* Mirror: https://t.me/ajatt_tools/16
+
+* [AnkiWeb](https://ankiweb.net/shared/info/1557722832)
+* [Mirror](https://disk.yandex.com/d/BSmZ2mCRgMZHgQ)
 
 ## Japanese language support
 
