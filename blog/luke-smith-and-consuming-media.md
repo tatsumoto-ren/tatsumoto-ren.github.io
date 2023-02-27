@@ -1,0 +1,131 @@
+---
+title: Luke Smith says that you will not learn a language by consuming media. Doesn't it contradict the AJATT theory?
+date: 1677467078
+tags: ['faq']
+filename: luke-smith-and-consuming-media
+---
+
+> There's this lazy idea that somehow if you passively sit around and watch
+> people using a language this will somehow endow you with the ability to
+> flexibly produce a language in the same way you see others using it. People
+> want to believe it because they want to be able to watch TV or play a cell
+> phone game like Duolingo or valueless Rosetta Stone-like software and somehow
+> gain competence in a language.
+>
+> It's not going to happen ever. Learning to play a boring computer game using
+> words from a different language is not the same as learning to speak the
+> language.
+>
+> You might say of "just listening to speech" that "that's what children do," but
+> that's not true at all. Children try pretty hard to participate and understand
+> conversation. They sometimes have a desperate personal need to understand each
+> passing sentence and hear the language they are trying to learn for hours a day
+> for years. You watching some forgettable movie in the background as you play
+> with your phone don't.
+>
+> *&mdash; [Notes on Learning Languages - Luke Smith](https://lukesmith.xyz/articles/notes-on-learning-languages/)*
+
+We talk about [input and immersion](whats-immersion.html) a lot on this site.
+But the most important point to take away is that
+the input should be at least somewhat [comprehensible](what-is-comprehensible-input.html)
+and active attempts should be constantly made
+to make the unknown bits more comprehensible.
+If you just sit around watching something that you don't understand at all,
+don't expect to gain any competence in the language.
+
+****
+
+Some remarks about children: children learn to understand their native language first,
+and then learn to speak it.
+If you think about it, it's pretty obvious.
+If you learn a set of phrases in your target language,
+and then have a conversation with a native speaker,
+how are you supposed to understand what the person says back to you?
+As language learners, we need to practice speaking after we learn to understand.
+
+In his post Luke talks specifically about Duolingo and Rosetta Stone.
+They are indeed very ineffective,
+but they have nothing to do with **consuming** media.
+Instead,
+they require active, deliberate yet extremely inefficient **studying**.
+We do not recommend apps like Duolingo as their methodology conflicts
+with [AJATT](whats-ajatt.html)'s ideas of immersion learning.
+These resources base their
+instruction around constructing sentences from grammar rules, memorizing
+vocabulary in a specific order, and using questionable translations and
+low-quality text-to-speech software instead of audio recordings of native speakers.
+
+Duolingo attempts to present itself as a game,
+yet those who have tried it know that it is not a very fun game to play.
+Duolingo has even implemented a notification system
+intended to prompt those who have stopped studying to come back.
+AJATT's concept of "consuming media" is different.
+It involves
+learning by reading, watching, and listening to authentic content in the target language,
+without relying on any phone apps.
+Anki is likely the only app one may need,
+but it is primarily a desktop app,
+with the phone version playing a minor role.
+
+Luke also talks about watching TV or a movie in the target language.
+That's a completely different activity from using a phone app.
+First, I think, not so many people would actually watch a movie they can't understand yet
+without trying to make at least some attempts to understand what they're watching.
+You are watching a movie in your target language because it's fun, and you want to understand it.
+It makes no sense to watch it without trying to understand.
+You either watch a movie and try to comprehend it using a wide range of tools available to you,
+primarily dictionaries,
+or you already understand the movie pretty well,
+and you don't need intensive work to make it comprehensible.
+In AJATT we call the former *intensive* immersion, and the latter *free-flow* immersion.
+
+It sounds like in his post Luke talks about something similar to free-flow immersion.
+During free-flow immersion you're paying attention to the content
+but don't pause, don't look up words and don't make flashcards.
+While it may not be as effective as intensive immersion in terms of learning vocabulary,
+it still has a positive effect on one's ability due to the fact that
+you can already understand most of the story,
+you are paying your full attention,
+and you can infer the unknown pieces from the context.
+Free-flow immersion is enjoyable and helpful,
+especially if you are an intermediate or advanced learner.
+However, it's not the only type of immersion you should be doing.
+You have to do intensive immersion to improve at your target language,
+but at the same time you need to acknowledge
+that it's not feasible to sit and do intensive immersion for 12 hours a day.
+You get tired of constant pausing and lookups.
+Free-flow immersion is a compromise between doing nothing and doing immersion.
+
+AJATT also has passive (background) immersion.
+Passive immersion is when you listen to an audio recording in the foreign language
+while doing something else.
+Passive immersion is less intensive than free-flow immersion,
+is done **only** through listening
+and involves only partial attention.
+While doing passive immersion,
+usually you don't look anything up in a dictionary.
+**Before** immersing passively in a piece of media,
+AJATT recommends that one must first immerse in it actively.
+As an example,
+you could watch a Japanese movie and read its Japanese transcript (subtitles).
+Only then you extract the audio track to play it in the background.
+You need to learn the new words and grammar encountered during active immersion,
+as this will make it easier to comprehend the same piece when listening passively.
+When doing passive immersion,
+you're mostly letting what you've already learned sink in.
+You're not trying to learn new stuff.
+Again, listening to incomprehensible audio is not going to help you.
+
+To summarize, what Luke says is mostly accurate,
+but he mixes together activities that are distinct from one another,
+and uses terms that have different meanings in the context of immersion learning.
+Sometimes he correctly identifies a problem but draws a wrong conclusion.
+Phone apps are not effective.
+Intensive immersion accompanied by using dictionaries
+and looking up words you don't know &mdash; works really well.
+Watching TV and movies in a free-flow mode is beneficial,
+but only when the learner is actively paying attention.
+Free-flow immersion becomes more and more effective as your level in the target language grows.
+Passively listening &mdash; works, but only if the learner has actively immersed themselves in the content before.
+Watching or listening to incomprehensible content &mdash; doesn't work or works poorly at best.
+It is, however, suggested that listening to incomprehensible audio has some positive influence on the ability to discern sounds.
