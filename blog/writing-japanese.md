@@ -62,7 +62,7 @@ Otherwise press "Again".
 <a class="download_button" href="https://ankiweb.net/shared/info/1233553736">Download</a>
 </p>
 <p align="center">
-<a href="https://t.me/ajatt_tools/82">Mirror</a>
+<a href="https://disk.yandex.com/d/EoUsX-t62jiEGg">Mirror</a>
 </p>
 
 ## Writing kanji
