@@ -25,6 +25,6 @@ You make targeted sentence cards with the following sentences.
 
 * **悠々**とビールを一杯飲んだ
 * そんな**悠長**なこと言ってる場合じゃない
-* **我々**は悠久の時を生きるわけではない
+* 我々は**悠久**の時を生きるわけではない
 
 Three sentences, three different words that use the same kanji.
