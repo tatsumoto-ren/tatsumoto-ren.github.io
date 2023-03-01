@@ -156,8 +156,16 @@ and [Download tools](resources.html#downloading) for a ways to download it.
 
 ## Obtain subtitles
 
-To learn Japanese from visual content such as anime or jdramas you need Japanese subtitles.
+To learn Japanese from visual content such as anime or jdramas,
+you need Japanese subtitles.
 Subtitles can be found on the [Resources page](resources.html#japanese-subtitles).
+
+I find that it's easier to download all the subtitles for all the shows and have them saved locally.
+This may require a few GiB of disk space,
+but it will save you the hassle of having to visit subtitle catalogs
+every time you need to find subtitles.
+For example, if you download a mirror of `kitsunekko`,
+you can use [fzf](https://archlinux.org/packages/community/x86_64/fzf/) to search it.
 
 If you can't find target language subtitles for a video,
 you can generate them using [pyTranscriber](https://aur.archlinux.org/packages/pytranscriber-bin).
