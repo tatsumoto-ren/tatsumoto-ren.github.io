@@ -28,3 +28,4 @@ You make targeted sentence cards with the following sentences.
 * 我々は**悠久**の時を生きるわけではない
 
 Three sentences, three different words that use the same kanji.
+The kanji is read `ゆう` in all three examples.
