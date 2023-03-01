@@ -389,7 +389,8 @@ You may need a Japanese IP address for some of these.
 ## Japanese subtitles
 
 * [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
-* **[kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)**
+* [kitsunekko mirror](https://mega.nz/folder/HJJDRapY#CytUKj4Mef0ZUpMNVpy1SA)
+* [kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
 * [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
@@ -482,23 +483,24 @@ Main article: [Mining from manga](mining-from-manga.html).
 
 ### Reading eBooks
 
-* [CoolReader](https://archlinux.org/packages/community/x86_64/coolreader/).
-  E-book viewer.
+* [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng/).
+  E-book reader.
 
-  After installation open Settings, go to "Styles" and choose Japanese fonts
+  After installation open Settings, go to "Styles"
+  and set "Default font" to your Japanese font of choice
   to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
   [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
   Japanese `Noto` fonts did not, some text was still in Chinese.
   On the "Page" tab you can choose View Mode.
   I have it set to "Scroll View".
   On the "Window" tab
-  you can tell CoolReader to apply your [kvantum](setting-up-anki.html#kvantum) theme.
+  you can tell the program to apply your [kvantum](setting-up-anki.html#kvantum) theme.
+  crqt-ng can automatically copy selected text to the clipboard,
+  which is handy when using [Yomichan Search](what-is-yomichan-search.html).
+  To enable the feature, under the "Window" tab check "automatically copy when selected."
 
   To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
   To view saved bookmarks, press <kbd>F6</kbd>.
-
-  Unfortunately,
-  CoolReader can't automatically copy selected text to the clipboard like `Foliate` does.
 * [Foliate](https://johnfactotum.github.io/foliate/).
   A simple and modern eBook viewer.
   [Arch Linux package](https://archlinux.org/packages/?name=foliate).
