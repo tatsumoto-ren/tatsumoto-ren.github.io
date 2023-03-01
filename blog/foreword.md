@@ -81,11 +81,15 @@ and services that mistreat their users.
 
 ## Don't spend money
 
-Money is a concern too.
+It is important to be mindful of your finances when learning a foreign language.
 I learned Japanese without spending any money, and I encourage you to do so too.
-Everything you need to master Japanese can be found online,
-including movies, anime, manga and all kinds of books.
-Dictionaries, grammar guides and software are also available in abundance.
+Everything you need to master Japanese can be found online.
+There is no limit to the amount of media and books you can absorb.
+With torrents, you can find any anime, drama, or manga ever made.
+The internet provides an unlimited number of resources for Japanese media.
+Additionally, you can easily access dictionaries,
+grammar guides,
+and software to facilitate your language learning.
 
 ## Don't go to classes
 
