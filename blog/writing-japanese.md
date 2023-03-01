@@ -16,6 +16,20 @@ However, writing practice has the potential to improve your overall reading abil
 
 ****
 
+## When to learn handwriting
+
+Let's say you want to learn how to write `薔薇` by hand.
+It would be best if you already knew the word,
+what it means and how it is read before learning to write it.
+Of course,
+you can do everything in one go and learn all three components at once:
+how to read it, how to write it, and what it means.
+But it will be more difficult.
+In my experience, it is much more difficult.
+Therefore,
+it is recommended to become comfortable with reading Japanese first
+and then focus on learning handwriting.
+
 ## Preparations
 
 To write Japanese you need something to write on and something to write with.
@@ -77,13 +91,16 @@ While watching real Japanese people in anime I noticed how they're tested on kan
 <p align="center"><img alt="anime kanji test" src="img/kanji_test.webp"></p>
 <p align="center"><i>Episode 3 of <a href="https://myanimelist.net/anime/37450">青春ブタ野郎はバニーガール先輩の夢を見ない</a>.</i></p>
 
-You're given a sentence in Japanese,
-and there's a target word in each sentence written in kana.
-Your job is to write it in kanji.
-Given the example sentence, it is hard to confuse similarly sounding words.
-Notice 保証 vs 保障 on the screenshot above.
+You are presented with sentences in Japanese,
+and each sentence contains a **target word** written in kana.
+The task is to write it in kanji.
+Since you are given example sentences,
+you should be able to differentiate words
+that sound the same but are written with different kanji.
+The screenshot above provides a good illustration of how to use
+the similarly sounding words 保証 and 保障.
 
-This method has been implemented in the Ajatt-Tools TSC note type.
+This method has been implemented in the TSC note type.
 When you download the deck linked below,
 you notice that each note has a field called `MakeProductionCard`.
 If you put any text in the field, a production targeted sentence card will be created.
@@ -113,11 +130,13 @@ you can download [Ankidrone Starter Pack](basic-vocabulary.html).
 
 ### How to make your own cards
 
-I recommend making production cards out of your old targeted sentence cards.
-To do so choose a kanji you want to learn and find a note in your sentence bank
+I recommend making production cards from your existing targeted sentence cards.
+To do this,
+select a kanji you want to learn
+and find a note in your Anki collection
 where the target word contains this kanji.
-I recommend against using recently learned or new vocabulary for production cards,
-doing so can negatively affect retention.
+I advise against using recently learned or new vocabulary for production cards
+as this may have a negative impact on retention.
 
 ### Place production cards in another deck
 
@@ -139,18 +158,19 @@ I put `筆記` here which is the name of my writing deck.
 When applying this method, it is wise to start with simpler kanji first.
 The exact order may wary.
 I would like to note the following options:
+
 * **Working your way up school grades or JLPT levels.**
-Start with the easiest level and make production cards for each kanji.
-The [Kanji Grid](useful-anki-add-ons-for-japanese.html#kanji-grid) add-on
-is going to help you determine what character to learn next.
-You can move production cards to a separate deck to make filtering easier.
+  Start with the easiest level and make production cards for each kanji.
+  The [Kanji Grid](useful-anki-add-ons-for-japanese.html#kanji-grid) add-on
+  is going to help you determine what character to learn next.
+  You can move production cards to a separate deck to make filtering easier.
 * **Following the RTK order.**
-Make cards for each kanji in the Heisig's book.
-Check out [this site](https://hochanh.github.io/rtk/rtk1-v6/index.html)
-for an online RTK index.
+  Make cards for each kanji in the Heisig's book.
+  Check out [this site](https://hochanh.github.io/rtk/rtk1-v6/index.html)
+  for an online RTK index.
 * **Using a custom list.**
-In such lists characters are sorted to ensure that no kanji appears before its parts.
-[TopoKanji](https://github.com/scriptin/topokanji) is a good example.
+  In such lists characters are sorted to ensure that no kanji appears before its parts.
+  [TopoKanji](https://github.com/scriptin/topokanji) is a good example.
 
 ### Learning the stroke order
 
@@ -173,7 +193,9 @@ The second volume is skipped because it teaches readings of kanji, not their mea
 There are two ways of doing it that I know of:
 
 1) Using the English keywords provided by Heisig.
+   You have a keyword on the front of the card, and the corresponding kanji on the back.
 2) Replacing English keywords with Japanese words partially written in kana.
+   You have a partially occluded word on the front, and the hidden kanji on the back.
 
 The first method creates associations between a kanji and an arbitrary English keyword.
 Because English keywords do not connect to real Japanese it **doesn't work**.
@@ -192,3 +214,39 @@ Learning how to produce parts of words
 doesn't guarantee the ability to write whole words when necessary.
 Moreover, this method requires to replace all Heisig's keywords with your own,
 essentially presenting a task comparable to writing your own RTK.
+
+## A look into the past
+
+The AJATT community has come up with the current way to learn writing
+after years of practice, trial and error.
+A long time ago, it was recommended to use Traditional RTK.
+This is a method where
+people have to learn to write kanji from the very beginning,
+right when they start learning Japanese.
+To execute it, you take all kanji from the Heisig's Remembering The Kanji book,
+and create Anki cards where on the front you have an English keyword,
+on the back you have the kanji.
+The goal is to recall the kanji from the keyword and write it down on a piece of paper.
+However, this was found to be very difficult,
+with some people taking a full year to get through Heisig,
+despite it being designed to take about three months.
+It was mentally challenging to do Traditional RTK as a beginner who doesn't know any words yet.
+
+In response,
+it was suggested to do RTK without learning how to write.
+The method is known as "Lazy Kanji" or "Recognition RTK".
+It involves learning only the meanings of characters and how to recognize them.
+Then, the learners start sentence mining,
+and finally do Traditional RTK again once they reach fluency.
+The downside of this method is that it requires doing RTK twice,
+Also, after going through Heisig the first time,
+the memories are weak,
+and the characters are quickly forgotten.
+
+To avoid having to do RTK twice,
+and to completely avoid RTK,
+it was later suggested to replace RTK with learning to read words with hints.
+The JP1K method involves learning the first 1,000 words using cards
+where furigana is visible on mouse hover.
+Then, handwriting can be learned by using Production Targeted Sentence Cards.
+This is the method that is recommended today.
