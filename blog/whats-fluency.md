@@ -17,5 +17,12 @@ you can call yourself fluent.
 	</a>
 </p>
 
+Your level of comprehension depends on the [domain](how-broad-or-narrow-is-a-domain-of-language.html) of interest.
+If you are not a mathematician, watching a lecture on mathematics
+may result in a lower percentage of understanding of the material,
+until you learn what you don't know.
+But, if you have a near-perfect comprehension of everyday speech, anime and dramas, comic books,
+then that is considered fluent.
+
 In other words,
 fluency means being comfortable living your life completely immersed in another language.
