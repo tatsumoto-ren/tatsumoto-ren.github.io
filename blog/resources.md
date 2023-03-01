@@ -485,6 +485,7 @@ Main article: [Mining from manga](mining-from-manga.html).
 
 * [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng/).
   E-book reader.
+  [AUR package](https://aur.archlinux.org/packages?K=crqt).
 
   After installation open Settings, go to "Styles"
   and set "Default font" to your Japanese font of choice
