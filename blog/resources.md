@@ -713,13 +713,19 @@ A podcast player for Android.
 
 ## Dictionaries
 
-### Yomichan
+### Popup dictionaries
 
-Yomichan is a browser extension that lets you easily look up unknown words.
-
-* [Extension homepage](https://foosoft.net/projects/yomichan/)
-* [How to set up Yomichan](setting-up-yomichan.html)
-* [Yomichan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
+* Yomichan.
+  Yomichan is a browser extension that lets you easily look up unknown words.
+  * [Extension homepage](https://foosoft.net/projects/yomichan/)
+  * [How to set up Yomichan](setting-up-yomichan.html)
+  * [Yomichan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
+* [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en).
+* [10ten Japanese Reader](https://github.com/birchill/10ten-ja-reader).
+  Formerly known as Rikaichamp, this browser extension lets you look up Japanese words
+  with the hover of a mouse or tap of a screen.
+  It doesn't support Anki and monolingual dictionaries, but is fine otherwise.
+* [cabl](plumbing-for-language-learners.html).
 
 ### Online
 
