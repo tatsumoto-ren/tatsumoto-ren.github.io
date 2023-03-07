@@ -34,6 +34,7 @@ There are two main ways to install Anki.
 
 * Using your distribution's package manager ([pacman](https://wiki.archlinux.org/title/Pacman), apt, dnf, etc.).
 * Using [pip](https://pip.pypa.io/en/stable/), a software installer for Python programs.
+* By downloading a release from the official website.
 
 The first method guarantees that you'll have the right dependencies installed,
 but you may get an old version of Anki.
@@ -41,6 +42,7 @@ Distro maintainers are not very good at keeping Anki up-to-date,
 although on rolling release GNU distributions this is not as noticeable.
 The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.
+And the third method is for operating systems that don't have package managers.
 
 Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
@@ -75,43 +77,33 @@ The latest version can be installed with the [aqt](https://pypi.org/project/aqt/
 $ pip install --upgrade aqt
 ```
 
-The default toolkit is `Qt5`.
-If you want Anki to use `Qt6` instead:
-
-```
-$ pip install --upgrade 'aqt[qt6]'
-```
-
-On my computer Fcitx refuses to work with the `Qt6` version,
-I use Qt5 for now.
-
 <details>
 <summary>Notes</summary>
 
 * `pip` places executable files in `~/.local/bin/` by default.
-Don't forget to add this directory to the
-[PATH](how-do-i-add-a-directory-to-the-path.html).
+  Don't forget to add this directory to the
+  [PATH](how-do-i-add-a-directory-to-the-path.html).
 * To run Anki, type `anki` in the terminal and press Enter.
-However, having a
-[desktop entry](https://wiki.archlinux.org/title/Desktop_entries)
-is more convenient.
-Download
-[this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
-and save it in `~/.local/share/applications`.
+  However, having a
+  [desktop entry](https://wiki.archlinux.org/title/Desktop_entries)
+  is more convenient.
+  Download
+  [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
+  and save it in `~/.local/share/applications`.
 * If after installing Anki with `pip`
-[Fcitx](https://wiki.archlinux.org/title/Fcitx)
-doesn't work,
-open your `~/.profile` (`~/.pam_environment` or a similar file)
-and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
+  [Fcitx](https://wiki.archlinux.org/title/Fcitx)
+  doesn't work,
+  open your `~/.profile` (`~/.pam_environment` or a similar file)
+  and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
 * Anki depends on [mpv](https://mpv.io/) to play audio.
-You have to install it separately.
+  You have to install it separately.
 * You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
 * Anki `2.1.50` and later additionally requires
-installing
-[PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
-and
-[PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/)
-from PyPI.
+  installing
+  [PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
+  and
+  [PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/)
+  from PyPI.
 * `PyQt5` and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
 
 You can tell `pip` to install a specific version.
@@ -121,7 +113,29 @@ This is handy when the latest version malfunctions.
 pip3 install --upgrade --pre "aqt==2.1.49"
 ```
 
+There are two versions,
+depending on which GUI toolkit is used,
+`Qt6` and `Qt5`.
+You can change the toolkit like this:
+
+```
+$ pip install --upgrade 'aqt[qt5]'
+$ pip install --upgrade 'aqt[qt6]'
+```
+
+Normally, this is not needed.
+
 </details>
+
+### From the official website
+
+If your operating system has a package manager, like most GNU+Linux distros,
+it is not recommended to install directly from the official website,
+since a package manager can automate downloading, installing, uninstalling and updating.
+
+But some operating systems, especially Windows-like OSes such as [ReactOS](https://reactos.org/),
+don't have this feature.
+In this case, head to [apps.ankiweb.net](https://apps.ankiweb.net/) and read the instructions there.
 
 ### Troubleshooting
 

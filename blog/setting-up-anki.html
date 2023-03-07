@@ -91,13 +91,15 @@ to help you get things up and running as quickly as possible.</p>
 <ul>
 <li>Using your distribution's package manager (<a href="https://wiki.archlinux.org/title/Pacman">pacman</a>, apt, dnf, etc.).</li>
 <li>Using <a href="https://pip.pypa.io/en/stable/">pip</a>, a software installer for Python programs.</li>
+<li>By downloading a release from the official website.</li>
 </ul>
 <p>The first method guarantees that you'll have the right dependencies installed,
 but you may get an old version of Anki.
 Distro maintainers are not very good at keeping Anki up-to-date,
 although on rolling release GNU distributions this is not as noticeable.
 The second method guarantees that you get the latest version,
-but you need to make sure you have all the dependencies installed.</p>
+but you need to make sure you have all the dependencies installed.
+And the third method is for operating systems that don't have package managers.</p>
 <p>Please don't install Anki via <strong>FlatPak</strong>, Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.</p>
 <p>If you are running Wayland, please revert to <a href="https://wiki.archlinux.org/title/xorg">Xorg</a>
@@ -127,12 +129,6 @@ Use a version released at least 6 months ago or newer.</p>
 <p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
 <div class="pre-wrap"><pre><code>$ pip install --upgrade aqt
 </code></pre></div>
-<p>The default toolkit is <code>Qt5</code>.
-If you want Anki to use <code>Qt6</code> instead:</p>
-<div class="pre-wrap"><pre><code>$ pip install --upgrade 'aqt[qt6]'
-</code></pre></div>
-<p>On my computer Fcitx refuses to work with the <code>Qt6</code> version,
-I use Qt5 for now.</p>
 <details>
 <summary>Notes</summary>
 <ul>
@@ -166,7 +162,22 @@ from PyPI.</li>
 This is handy when the latest version malfunctions.</p>
 <div class="pre-wrap"><pre><code>pip3 install --upgrade --pre &quot;aqt==2.1.49&quot;
 </code></pre></div>
+<p>There are two versions,
+depending on which GUI toolkit is used,
+<code>Qt6</code> and <code>Qt5</code>.
+You can change the toolkit like this:</p>
+<div class="pre-wrap"><pre><code>$ pip install --upgrade 'aqt[qt5]'
+$ pip install --upgrade 'aqt[qt6]'
+</code></pre></div>
+<p>Normally, this is not needed.</p>
 </details>
+<h3 id="from-the-official-website"><a class="anchor" href="#from-the-official-website" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>From the official website</h3>
+<p>If your operating system has a package manager, like most GNU+Linux distros,
+it is not recommended to install directly from the official website,
+since a package manager can automate downloading, installing, uninstalling and updating.</p>
+<p>But some operating systems, especially Windows-like OSes such as <a href="https://reactos.org/">ReactOS</a>,
+don't have this feature.
+In this case, head to <a href="https://apps.ankiweb.net/">apps.ankiweb.net</a> and read the instructions there.</p>
 <h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
 <ul>
 <li>If you're still unable to install or run Anki, refer to
