@@ -64,6 +64,8 @@ body {
         Helvetica,
         "Noto Color Emoji",
         "Noto Sans CJK JP",
+        IPAGothic,
+        Yu Gothic,
         sans-serif;
     background-color: #f3f3f3;
     color: #24292e;
@@ -116,9 +118,11 @@ header {
         "DejaVu Serif",
         "Liberation Serif",
         "Times New Roman",
+        "Noto Serif CJK JP",
+        "IPAexMincho",
+        "Yu Mincho",
         Georgia,
         Times,
-        "Noto Serif CJK JP",
         serif;
     width: 100%;
     position: sticky;
