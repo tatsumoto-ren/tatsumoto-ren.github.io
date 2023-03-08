@@ -179,11 +179,11 @@ A sample mining deck can be found here:
 ## Japanese language support
 
 Press "Tools" > "Add-ons" > "Get Add-ons" to download and install the
-[AJT Furigana](https://ankiweb.net/shared/info/1344485230)
+[AJT Japanese](https://ankiweb.net/shared/info/1344485230)
 add-on.
 Then restart.
 The add-on is bundled with
-[mecab](https://aur.archlinux.org/packages/mecab),
+[Mecab](https://aur.archlinux.org/packages/mecab),
 so you don't need to install any additional dependencies.
 
 ## Anki settings

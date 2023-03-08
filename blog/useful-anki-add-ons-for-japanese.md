@@ -23,28 +23,33 @@ you can install the add-ons I use in my everyday studies (not every add-on from 
 1) Open Anki and go to "Tools" > "Add-ons" > "Check for Updates".
 1) Paste multiple codes separated by spaces.
     ```
-    1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663
+    1046608507 1374772155 1463041493 1771074083 1779060522 1845503807 1898445115 2055492159 2179254157 2491935955 295889520 300884351 31746032 318752047 385888438 580654285 613684242 874215009 900801631 909972618 1772763629 182970692 196231552 1715096333 1021636467 1425504015 1255924302 1151815987 819023663 1344485230
    ```
 1) Restart Anki.
 
 ## Add-ons worth trying
 
-### [Furigana](https://ankiweb.net/shared/info/1344485230)
+### [Japanese](https://ankiweb.net/shared/info/1344485230)
 
-The most important add-on you'll need is AJT Furigana.
-It's primary and only feature is generating [furigana](https://wikiless.org/wiki/Furigana?lang=en),
+The most important add-on you'll need is AJT Japanese.
+It's primary feature is generating [furigana](https://wikiless.org/wiki/Furigana?lang=en),
 which you're going to need every day.
 
 <p align="center"><img alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/Furigana/main/img/furigana_demo.webp"></p>
 
-The add-on comes bundled with our recommended Note Type from
-[this example deck](setting-up-anki.html#import-an-example-mining-deck).
-
-To configure the add-on, open the Anki Add-on Menu via "Tools" > "Add-ons" and select "AJT Furigana".
-Then click the Config button on the right-side of the screen.
-
 This add-on is similar to
 [Japanese support](https://ankiweb.net/shared/info/3918629684).
+
+To configure the add-on, open Anki and select "AJT" > "Japanese Options...".
+
+The add-on can add pitch accent graphs to your cards.
+Note that
+[Yomichan](setting-up-yomichan.html)
+has a similar feature,
+but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
+It also lets you mass-generate pitches for all cards in your sentence bank.
+
+<p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/PitchAccent/main/img/pitch_accent_demo.webp"></p>
 
 ### [Browser Play Button](https://ankiweb.net/shared/info/182970692)
 
@@ -142,18 +147,6 @@ but comes with the ability to limit results to the required field name
 and has a nicer interface that shows kanji in a colored grid.
 
 <p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.webp"></p>
-
-### [Pitch Accent](https://ankiweb.net/shared/info/1225470483)
-
-
-Adds pitch accent graphs to your cards.
-Note that
-[Yomichan](https://foosoft.net/projects/yomichan/)
-has a similar feature,
-but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
-It also lets you mass-generate pitches for all cards in your sentence bank.
-
-<p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/PitchAccent/main/img/pitch_accent_demo.webp"></p>
 
 ### [True Retention](https://ankiweb.net/shared/info/613684242)
 
