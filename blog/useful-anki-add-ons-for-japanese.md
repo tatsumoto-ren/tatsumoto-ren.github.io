@@ -35,7 +35,7 @@ The most important add-on you'll need is AJT Japanese.
 It's primary feature is generating [furigana](https://wikiless.org/wiki/Furigana?lang=en),
 which you're going to need every day.
 
-<p align="center"><img alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/Furigana/main/img/furigana_demo.webp"></p>
+<p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/Furigana/main/img/furigana_demo.webp"></p>
 
 This add-on is similar to
 [Japanese support](https://ankiweb.net/shared/info/3918629684).
