@@ -139,6 +139,14 @@ I recommend enabling "Server mode" in Qolibri's options.
 Otherwise, every time you press the hotkey,
 a new Qolibri window will be opened instead of a new tab.
 
+**Note:** [Cabl](plumbing-for-language-learners.html)
+has a built-in function that sends selected text to Qolibri.
+
+## Watch clipboard
+
+If you click the "Watch clipboard" button on the top toolbar,
+Qolibri will automatically search any text you copy to the clipboard.
+
 ## Playing NHK audio
 
 One of the dictionaries available for Qolibri is `NHK 日本語発音アクセント辞典`.
