@@ -1,7 +1,6 @@
 ---
 title: Table of Contents
 date: 1616375454
-tags: [guide]
 ---
 
 * [Foreword](foreword.html)
@@ -40,6 +39,7 @@ tags: [guide]
 	* [Subtitle Re-sync](retiming-subtitles.html)
 	* [Writing by hand](writing-japanese.html)
 	* [Condensing active immersion](condensing-active-immersion.html)
+	* [Books](reading-books.html)
 	* [Plumbing](plumbing-for-language-learners.html)
 * Apocrypha
 	* [List of resources](resources.html)
