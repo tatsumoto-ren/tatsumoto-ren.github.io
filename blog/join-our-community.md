@@ -46,7 +46,7 @@ because it is naturally more extensible and user-friendly.
 
 ## Matrix
 
-> Starting Lounge: `#join:g33k.se`
+> Starting Lounge: `#join:midov.pl`
 
 We have a very rich and vibrant community on
 [Matrix](https://wiki.archlinux.org/index.php/Matrix).
@@ -59,13 +59,13 @@ and register an account on one of the servers
 [listed here](list-of-matrix-servers.html).
 If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
 
-<a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:g33k.se">Join us on Element</a>
+<a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:midov.pl">Join us on Element</a>
 
 If the button above doesn't work,
-open your client of choice and join `#join:g33k.se`.
+open your client of choice and join `#join:midov.pl`.
 If you can't or don't want to install a client, use a
-[web app](https://c.wfr.moe/#/room/#join:g33k.se)
-([alternative](https://webchat.kde.org/#/room/#join:g33k.se)).
+[web app](https://c.wfr.moe/#/room/#join:midov.pl)
+([alternative](https://webchat.kde.org/#/room/#join:midov.pl)).
 
 When you join the community, you'll start in *Starting Lounge*.
 This is a room for new members.
