@@ -24,3 +24,7 @@ and automatically pastes text from the clipboard to the search page.
 was made to be paired together with Yomichan Search.
 Yomichan Search is also quite handy
 when [mining from manga](mining-from-manga.html) and reading books.
+
+Alternatives to Yomichan Search are:
+* Qolibri's [Watch clipboard](setting-up-qolibri.html#watch-clipboard) button.
+* GoldenDict's "Enable Scanning" button.
