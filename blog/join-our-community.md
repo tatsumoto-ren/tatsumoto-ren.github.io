@@ -91,7 +91,7 @@ To use Telegram on GNU/Linux, install
 
 If you have a question specifically for me,
 ping me in the chat by prepending your message with
-`@tatsumoto:g33k.se` on Matrix or `@tatsumoto` on Telegram.
+`@tatsumoto:midov.pl` on Matrix or `@tatsumoto` on Telegram.
 
 ## Community stickers
 
