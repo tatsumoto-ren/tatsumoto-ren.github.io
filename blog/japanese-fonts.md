@@ -49,9 +49,9 @@ You may have font-rendering issues if you don't do that.
 ## Installing fonts
 
 Essential fonts are
-[otf-ipafont](https://ipafont.ipa.go.jp/)
+[otf-ipafont](https://archlinux.org/packages/community/any/otf-ipafont/)
 or
-[noto-fonts-cjk](https://www.google.com/get/noto/).
+[noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/).
 I also recommend installing Noto fonts for non-Asian languages and the Noto Emoji font.
 
 On Arch-based distros you can do everything with this command:
