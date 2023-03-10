@@ -103,7 +103,7 @@ you get an error saying,
 "Server is banned from room."
 This indicates that you need a new account on another homeserver to join the room.
 
-Rooms have [versions](https://github.com/matrix-org/matrix-doc/blob/main/content/rooms/_index.md).
+Rooms have [versions](https://spec.matrix.org/unstable/rooms/).
 When creating a new room, you want to pick the latest version to get all the possible features.
 The room's version can't be changed in the future,
 but the room can be upgraded to a newer version.
@@ -473,7 +473,7 @@ Choose a server which runs the latest version of
 Newer versions give you access to higher
 [room versions](https://spec.matrix.org/unstable/rooms/).
 To check a server's Synapse version, run the following shell command.
-Replace `homeserver.name` with the URL of your homeserver, e.g. `g33k.se`.
+Replace `homeserver.name` with the URL of your homeserver, e.g. `midov.pl`.
 
 ```
 curl -s 'https://homeserver.name/_matrix/federation/v1/version'

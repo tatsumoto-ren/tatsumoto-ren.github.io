@@ -156,7 +156,7 @@ If you try to join a room that has blocklisted your homeserver,
 you get an error saying,
 &quot;Server is banned from room.&quot;
 This indicates that you need a new account on another homeserver to join the room.</p>
-<p>Rooms have <a href="https://github.com/matrix-org/matrix-doc/blob/main/content/rooms/_index.md">versions</a>.
+<p>Rooms have <a href="https://spec.matrix.org/unstable/rooms/">versions</a>.
 When creating a new room, you want to pick the latest version to get all the possible features.
 The room's version can't be changed in the future,
 but the room can be upgraded to a newer version.
@@ -452,7 +452,7 @@ always tell your members to use homeservers you trust.</p>
 Newer versions give you access to higher
 <a href="https://spec.matrix.org/unstable/rooms/">room versions</a>.
 To check a server's Synapse version, run the following shell command.
-Replace <code>homeserver.name</code> with the URL of your homeserver, e.g. <code>g33k.se</code>.</p>
+Replace <code>homeserver.name</code> with the URL of your homeserver, e.g. <code>midov.pl</code>.</p>
 <div class="pre-wrap"><pre><code>curl -s 'https://homeserver.name/_matrix/federation/v1/version'
 </code></pre></div>
 <p>Alternatively, paste the server's URL to
