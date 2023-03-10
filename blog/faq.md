@@ -56,7 +56,7 @@ All updates and additions will be posted [here](tag_faq.html).
 
 ### [I just quit WaniKani after learning 1,300 kanji. Should I do JP1K or just jump into sentence mining?](i-just-quit-wanikani-should-i-do-jp1k.html)
 
-### [Is JAV good for immersion?](blog/is-jav-good-for-immersion.html)
+### [Is JAV good for immersion?](is-jav-good-for-immersion.html)
 
 ### [Should I limit how much dubbed content I immerse with? What are the downsides of dubbed content?](should-i-limit-how-much-dubbed-content-i-immerse-with.html)
 
@@ -92,7 +92,7 @@ All updates and additions will be posted [here](tag_faq.html).
 
 ### [How many new cards to learn each day?](how-many-new-cards-to-learn-each-day.html)
 
-### [Should I read sentences aloud when doing Anki reps?](should-i-read-sentences-aloud-when-doing-anki-reps.htm)
+### [Should I read sentences aloud when doing Anki reps?](should-i-read-sentences-aloud-when-doing-anki-reps.html)
 
 ### [How to make monolingual TSCs for vocab and grammar?](how-to-make-monolingual-tscs-for-vocab-and-grammar.html)
 
