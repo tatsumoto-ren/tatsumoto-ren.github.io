@@ -318,8 +318,8 @@ Either way should take you two days or so to complete, and no more than a week i
 [Kanji](https://wikiless.org/wiki/Kanji?lang=en)
 were imported from China a long time ago.
 They are logo-graphic characters used to write words and parts of words.
-To truly learn kanji you need to read Japanese for thousands of hours,
-the resources listed below are designed to prime your brain for recognizing the characters
+To truly learn kanji you need to read native Japanese texts for thousands of hours.
+Kanji study is meant to prime your brain for recognizing the characters
 and make transition to reading easier.
 
 The most recent method for learning kanji is referred to as
@@ -334,16 +334,18 @@ On this site you'll find links to premade JP1K decks
 as well as instructions on how to convert any vocabulary deck into the JP1K format.
 
 Other methods that I'd like to give special attention to:
+
 * [Kanjidamage+](https://mega.nz/file/CQg0SKyI#Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
-You recognize kanji using premade mnemonic stories.
-For each kanji the story includes its most common reading.
+  You recognize kanji using premade mnemonic stories.
+  One flashcard per kanji.
+  For each kanji the story includes its most common reading.
 * [RTK](https://ankiweb.net/shared/decks/rtk).
-Similar to KanjiDamage.
-You study kanji in isolation using the order presented in a book called "Remembering the Kanji".
-Depending on the Anki deck you download,
-you are given premade mnemonics, or you're encouraged to make them yourself.
-Kanji readings are not taken into account,
-instead the method insists on learning them in the wild from native content.
+  Similar to KanjiDamage.
+  You study kanji in isolation using the order presented in a book called "Remembering the Kanji".
+  Depending on the Anki deck you download,
+  you are given premade mnemonics, or you're encouraged to make them yourself.
+  Kanji readings are not taken into account,
+  instead the method insists on learning them in the wild from native content.
 
 Choose only one of the above methods.
 No matter what option you pick, don't bother learning to write the characters just yet.
@@ -356,7 +358,7 @@ later on this site.
 <p align="center"><i>Japanese writing systems.</i></p>
 
 You can totally skip the kanji phase and move straight to learning basic vocabulary.
-If you choose to do so, you're going to memorize words as is.
+If you choose to do so, you're going to memorize words as is, with the kanji.
 For each word just try to remember how it looks, what it means and how it sounds.
 Treat kanji like pictures and memorize kanji compounds as single units.
 No doubt it is more difficult, but it works for many people.
