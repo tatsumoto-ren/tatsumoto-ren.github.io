@@ -353,8 +353,6 @@ A shared folder with movies and other content with Japanese dubs.
   You can disable JavaScript but must allow cookies for books' pages to load.
 * [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
   A torrent with Japanese 30,000 ebooks.
-* [Mathematics and japanese fitting together](https://mathematical-knowledge.neocities.org/2022-09-22.html).
-  A blog post about studying mathematics in Japanese.
 
 ### Audiobooks
 
@@ -680,7 +678,7 @@ Supports EPWING monolingual dictionaries.
 * [Librera Reader](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/).
   App for reading books.
   Was recommended in `ラノベスレ`.
-* [KOreader](https://f-droid.org/en/packages/org.koreader.launcher/).
+* [KOreader](https://f-droid.org/packages/org.koreader.launcher.fdroid/).
   A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
   An EPUB reader for Android
