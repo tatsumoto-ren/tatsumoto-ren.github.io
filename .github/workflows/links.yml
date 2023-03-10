@@ -2,7 +2,6 @@ name: Links
 
 on:
   repository_dispatch:
-  push:
   pull_request:
   workflow_dispatch:
   schedule:
