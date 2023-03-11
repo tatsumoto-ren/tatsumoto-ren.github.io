@@ -140,6 +140,17 @@ seek forward with arrow keys or the <code>h</code> and <code>l</code> keys to th
 and press <kbd>e</kbd> to set the end time.
 Press <kbd>n</kbd> to create a card,
 or update an existing card by pressing <kbd>m</kbd>.</p>
+<h2 id="remove-silence-from-an-audiobook"><a class="anchor" href="#remove-silence-from-an-audiobook" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove silence from an audiobook</h2>
+<p>Before listening to an audiobook,
+it may be desirable to remove any sections containing no spoken dialogue (silence).
+To accomplish this, a command like the following should suffice.
+You need FFmpeg installed to run it.</p>
+<div class="pre-wrap"><pre><code>ffmpeg -i /path/to/audiobook -af silenceremove=stop_periods=-1:stop_duration=0.3:stop_threshold=-50dB -c:a libopus /path/to/output.opus
+</code></pre></div>
+<ul>
+<li>Add this command as a function to your <code>.bashrc</code> to avoid copying it every time.</li>
+<li>See this <a href="http://underpop.online.fr/f/ffmpeg/help/silenceremove.htm.gz">reference</a>.</li>
+</ul>
 <h2 id="hand-held-book-readers"><a class="anchor" href="#hand-held-book-readers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hand-held book readers</h2>
 <p>There are dedicated mobile devices made specifically for reading books.
 My advice regarding them is the same as with <a href="our-immersion-learning-toolset.html#android">Andriod</a>:

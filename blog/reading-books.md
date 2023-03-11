@@ -89,6 +89,20 @@ and press <kbd>e</kbd> to set the end time.
 Press <kbd>n</kbd> to create a card,
 or update an existing card by pressing <kbd>m</kbd>.
 
+## Remove silence from an audiobook
+
+Before listening to an audiobook,
+it may be desirable to remove any sections containing no spoken dialogue (silence).
+To accomplish this, a command like the following should suffice.
+You need FFmpeg installed to run it.
+
+```
+ffmpeg -i /path/to/audiobook -af silenceremove=stop_periods=-1:stop_duration=0.3:stop_threshold=-50dB -c:a libopus /path/to/output.opus
+```
+
+* Add this command as a function to your `.bashrc` to avoid copying it every time.
+* See this [reference](http://underpop.online.fr/f/ffmpeg/help/silenceremove.htm.gz).
+
 ## Hand-held book readers
 
 There are dedicated mobile devices made specifically for reading books.
