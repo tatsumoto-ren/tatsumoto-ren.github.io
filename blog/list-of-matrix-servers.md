@@ -85,7 +85,6 @@ You may need to Email an admin to get an account.
 | `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                               |       |
 | `sakura.ci`             | [web.sakura.ci](https://web.sakura.ci/)                     |       |
 | `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                           |       |
-| `maeli.net`             | None                                                        |       |
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)                     |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
 | `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
