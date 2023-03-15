@@ -230,7 +230,7 @@ Now you can quickly call `maimocr` anywhere by pressing the keyboard shortcut.
 ### Expanding data set
 
 By default, `maimocr` automatically downloads
-[tessdata.zip](https://g33k.se/_matrix/media/r0/download/g33k.se/chvDlHzjiXgDEdeGTFnyOExv)
+[tessdata.zip](https://trygve.me/_matrix/media/r0/download/trygve.me/DYlvuAsYWfLmyixcJTDPdwWW)
 ([mirror](https://t.me/ajatt_tools/173))
 with Tesseract data files,
 then saves the files to `~/.local/share/tessdata`.
