@@ -64,8 +64,12 @@ you're going to need only the English JMdict and optionally the English KANJIDIC
 The first one is a very popular Japanese to English dictionary
 which you can find on [jisho.org](https://jisho.org/),
 the second one lets you see information about individual kanji.
+Apart from regular dictionaries for looking up vocabulary,
+there are grammar dictionaries and frequency lists.
+They are not must have, but consider exploring them too.
+
 After you begin transitioning to Japanese-Japanese dictionaries, install them as well.
-My favorite ones are `大辞林` and `新明解`.
+My favorite ones are `大辞林`, `明鏡` and `新明解`.
 
 ### Pitch accents
 
