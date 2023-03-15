@@ -243,7 +243,7 @@ DJT space has a Tango deck feedback room to give feedback on the deck.
 
 ## Similar Anki decks
 
-[Resources page](resources.html#vocabulary)
+[Resources page](resources.html#anki-decks)
 contains a Vocabulary section with Anki decks suggested by our members.
 
 [AnkiWeb](https://ankiweb.net/shared/decks/japanese)
@@ -256,45 +256,6 @@ If you download an incorrectly formatted deck, make sure to fix the card templat
 
 A little trick you can do to filter results is
 [search AnkiWeb with Google](https://www.google.co.jp/search?q=site%3Aankiweb.net+japanese+sentences+audio&hl=ja).
-
-## Intermission
-
-From the `BCCWJ語彙表` data set mentioned in the beginning of the article we find the following.
-
-| Most frequently used N words | % of written Japanese             |
-| -----------                  | -----------                       |
-| 1,000                        | <abbr title="75.2812%">75%</abbr> |
-| 2,000                        | <abbr title="81.5924%">80%</abbr> |
-| 3,000                        | <abbr title="85.1309%">85%</abbr> |
-| 6,000                        | <abbr title="90.2904%">90%</abbr> |
-| 10,000                       | <abbr title="93.3373%">93%</abbr> |
-| 15,000                       | <abbr title="95.3054%">95%</abbr> |
-| 32,000                       | <abbr title="98.0046%">98%</abbr> |
-| 50,000                       | <abbr title="99.0042%">99%</abbr> |
-
-<details>
-
-<summary>How do you calculate it?</summary>
-
-If you have downloaded the frequency list,
-you can calculate the percentage for the first N=1000 words with this Shell snippet.
-
-```
-N=1000; {
-        sed "1d;$((N+1))q" BCCWJ_frequencylist_suw_ver1_0.tsv | cut -f 8 | awk '{s+=$1} END {print s}'
-        echo '/1000000'
-} | paste -s -d '' | bc -l
-```
-
-</details>
-
-You're expected to progress very quickly in your first months of doing AJATT.
-Unfortunately, the reality is that we quickly hit the point of diminishing returns.
-The more words you learn from that point, the slower your comprehension grows.
-
-The bright side is that you can use the numbers as milestones.
-Reaching each milestone is like winning a small game,
-and it makes learning your target language feel less like a routine.
 
 ## How many words do I need to learn from a premade deck
 
@@ -341,3 +302,42 @@ Premade decks exist to
 to give beginners a shortcut to understanding native media
 and help them quickly reach a point where
 they can start building their own mining decks easily.
+
+## Intermission
+
+From the `BCCWJ語彙表` data set mentioned in the beginning of the article we find the following.
+
+| Most frequently used N words | % of written Japanese             |
+| -----------                  | -----------                       |
+| 1,000                        | <abbr title="75.2812%">75%</abbr> |
+| 2,000                        | <abbr title="81.5924%">80%</abbr> |
+| 3,000                        | <abbr title="85.1309%">85%</abbr> |
+| 6,000                        | <abbr title="90.2904%">90%</abbr> |
+| 10,000                       | <abbr title="93.3373%">93%</abbr> |
+| 15,000                       | <abbr title="95.3054%">95%</abbr> |
+| 32,000                       | <abbr title="98.0046%">98%</abbr> |
+| 50,000                       | <abbr title="99.0042%">99%</abbr> |
+
+<details>
+
+<summary>How do you calculate it?</summary>
+
+If you have downloaded the frequency list,
+you can calculate the percentage for the first N=1000 words with this Shell snippet.
+
+```
+N=1000; {
+        sed "1d;$((N+1))q" BCCWJ_frequencylist_suw_ver1_0.tsv | cut -f 8 | awk '{s+=$1} END {print s}'
+        echo '/1000000'
+} | paste -s -d '' | bc -l
+```
+
+</details>
+
+You're expected to progress very quickly in your first months of doing AJATT.
+Unfortunately, the reality is that we quickly hit the point of diminishing returns.
+The more words you learn from that point, the slower your comprehension grows.
+
+The bright side is that you can use the numbers as milestones.
+Reaching each milestone is like winning a small game,
+and it makes learning your target language feel less like a routine.
