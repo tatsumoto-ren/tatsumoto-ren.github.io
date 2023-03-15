@@ -199,7 +199,7 @@ This is in my opinion the best way to solve the Ease Hell problem once and for a
 because in Anki any given card can't have Ease lower than 130%.
 After applying the settings you can uninstall the add-on.
 
-* [The Ease Factor Problem](https://archive.md/4RJcr)
+* [The Ease Factor Problem](https://web.archive.org/web/20200926103540/https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/)
 * [Guide to Anki Intervals and Learning Steps](https://redirect.invidious.io/watch?v=1XaJjbCSXT0)
 
 <p align="center"><img alt="refold-ease" class="shadow" src="img/refold-ease.png"></p>
