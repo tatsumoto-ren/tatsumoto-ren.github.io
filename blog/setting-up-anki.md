@@ -506,7 +506,7 @@ To update older cards, use the [RefoldEase](https://ankiweb.net/shared/info/8190
 More about the Ease Hell:
 
 * [Guide to Anki Intervals and Learning Steps](https://redirect.invidious.io/watch?v=1XaJjbCSXT0)
-* [The Ease Factor Problem](https://archive.md/4RJcr)
+* [The Ease Factor Problem](https://web.archive.org/web/20200926103540/https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/)
 * [Ease Hell in Anki](https://readbroca.com/anki/ease-hell/)
 
 ## GTK theme
