@@ -1,7 +1,7 @@
 ---
 title: Ankidrone Starter Pack
 date: 1612117335
-tags: [vocab, anki, decks]
+tags: [guide, vocab]
 ---
 
 After finishing kanji, kana and essential grammar
@@ -68,19 +68,14 @@ You don't get any of these benefits if you use isolated vocab cards (word cards)
 
 ## Anki deck
 
-In
-[our community](join-our-community.html)
-*Ankidrone Starter Pack* is the generally recommended Anki deck for newcomers to Japanese
+*Ankidrone Starter Pack* is the universally recommended Anki deck for newcomers to Japanese
 who want to quickly learn basic vocabulary before they start reading.
 Since the first release in February 2020 it has helped many people and received positive feedback.
 
 <p align="center"><a target="_blank" class="download_button" href="https://disk.yandex.com/d/adEb8n9uhOacHw">Download</a></p>
 <p align="center"><a target="_blank" href="https://t.me/ajatt_tools/60">Mirror</a></p>
 
-## Structure
-
-Ankidrone Starter Pack contains sentences extracted from JLPT Tango books.
-There are 5 subdecks.
+## Contents
 
 * Ankidrone Starter Pack
 	1) JLPT Tango `N5`
@@ -177,12 +172,10 @@ Refer to Core10k when you have trouble finding example sentences.
 * Try to recall the meaning and reading of the **bolded** word.
 * Use the context to understand how the word connects with other words.
 * Press "Good" if your guess is correct. Otherwise, press "Again".
-* Don't use the "Hard" and "Easy" buttons. Install
-[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333)
-to hide them.
+* Don't use the "Hard" and "Easy" buttons.
+  Install [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) to hide them.
 
-For more detailed instructions
-see [How to review](how-to-review.html).
+For more detailed instructions see [How to review](how-to-review.html).
 
 ## Tips
 
@@ -266,7 +259,7 @@ A little trick you can do to filter results is
 
 ## Intermission
 
-From the BCCWJ語彙表 dataset mentioned in the beginning of the article we find the following.
+From the `BCCWJ語彙表` data set mentioned in the beginning of the article we find the following.
 
 | Most frequently used N words | % of written Japanese             |
 | -----------                  | -----------                       |
@@ -301,4 +294,50 @@ The more words you learn from that point, the slower your comprehension grows.
 
 The bright side is that you can use the numbers as milestones.
 Reaching each milestone is like winning a small game,
-and it makes learning your target langauge feel less like a routine.
+and it makes learning your target language feel less like a routine.
+
+## How many words do I need to learn from a premade deck
+
+To maximize the benefits that premade structured decks bring,
+we recommended that you learn from 1,000 to 2,000 card from a premade deck of your choice.
+Once you do it, your comprehension goes from 0% to more than 75%,
+which is enough to start learning on your own.
+From that point on, you can simply grab a book, watch a movie
+or do anything else you like doing in your native language
+and learn new vocabulary as it pops up.
+
+If you want, continue learning new words from premade decks.
+They can be handy even for intermediate learners.
+
+## Is 1,000 words enough?
+
+Knowing 75% of the words does not mean that you'll understand 75% of the sentences.
+In every sentence there will be 2 or 3 unknown words.
+You will understand something, but it's not a comfortable level.
+A comfortable level is when you understand *everything*, or at least 99%,
+so you'll have to continue learning new words for quite some time.
+Learning 1,000 words or even completing an entire Anki deck won't make you fluent.
+
+## How to measure comprehension?
+
+If you want to know your real comprehension, you can do the following.
+Take an episode of an anime with Japanese subtitles.
+Watch it and make a list of all sentences where there was at least one unknown word.
+Then count the total number of sentences in the episode.
+Comprehension will be equal to
+the number of **sentences you understood** divided by the **total number of sentences**.
+
+## Can't I build my own vocabulary deck?
+
+You should!
+No premade deck can replace mining you own sentences.
+In fact, the [example mining deck](setting-up-anki.html#import-an-example-mining-deck)
+introduced earlier contains a few dozen example targeted sentence cards
+to show you how your deck should look like.
+
+However, it's not a secret that making your own cards from native Japanese content
+is too difficult in the beginning.
+Premade decks exist to
+to give beginners a shortcut to understanding native media
+and help them quickly reach a point where
+they can start building their own mining decks easily.
