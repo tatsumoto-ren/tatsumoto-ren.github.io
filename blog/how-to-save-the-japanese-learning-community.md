@@ -33,7 +33,7 @@ Here are some of them:
 1) https://spyware.neocities.org/articles/discord.html
 2) https://stallman.org/discord.html
 3) https://cadence.moe/blog/2020-06-06-why-you-shouldnt-trust-discord/
-4) https://archive.is/Q4N9J
+4) https://web.archive.org/web/20230129105117/https://old.reddit.com/r/privacy/comments/8lkb5s/friends_dont_let_friends_use_discord_the/
 
 The key points:
 1) You are forced to run a
