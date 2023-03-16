@@ -16,6 +16,8 @@ date: 1616375454
 	* [Anki add-ons](useful-anki-add-ons-for-japanese.html)
 	* [Card templates](discussing-various-card-templates.html)
 	* [Fonts](japanese-fonts.html)
+* Immersion
+	* [Active immersion](active-immersion.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
