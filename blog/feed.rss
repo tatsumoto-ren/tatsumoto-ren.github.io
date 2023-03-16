@@ -5,9 +5,25 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Fri, 17 Mar 2023 00:21:00 +0300</lastBuildDate>
-<pubDate>Fri, 17 Mar 2023 00:21:00 +0300</pubDate>
+<lastBuildDate>Fri, 17 Mar 2023 02:21:39 +0300</lastBuildDate>
+<pubDate>Fri, 17 Mar 2023 02:21:39 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Passive immersion</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>When we talk about immersion, we usually divide it into active and passive.
+<em>Active immersion</em> requires full attention to the content
+and can be practiced through reading and watching content in the target language.
+<em>Passive immersion</em> means listening to the language while engaging in other activities.
+When listening passively you're not fully focused on the content,
+instead you're doing something else
+while having the speech in your target language play in the background.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/passive-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/passive-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 17 Mar 2023 00:45:18 +0300</pubDate>
+</item>
 <item>
 <title>Active immersion</title>
 <author>Tatsumoto</author>
@@ -299,63 +315,6 @@ Avoid skimming in order to gain maximum exposure to all elements of Japanese.</p
 <guid>https://tatsumoto-ren.github.io/blog/to-increase-reading-speed-should-i-start-skimming.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 13 Feb 2023 04:47:06 +0300</pubDate>
-</item>
-<item>
-<title>Is it more efficient to stick to one genre/domain instead of jumping around?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>It's definitely more efficient to focus on one genre or one domain at a time.
-But of course you need to take enjoyment into account.
-If you stick to one domain for too long then it can become really tedious.</p>
-<p>In the guide I said that in the beginning
-I recommend immersing in slice of life movies and TV shows.
-In slice of life shows you've got a limited range of vocabulary,
-and the words that are being used are common across the entire language.
-This is the recommended first domain.
-Having a solid foundation in the initial domain
-makes it much easier to learn new domains.
-When you know the most basic vocabulary,
-you can move forward really quickly.
-You build up a strong base in one domain,
-increase your overall comprehension,
-and then use that to your advantage as you move on to new domains.</p>
-<p>If you focus your attention on a specific domain of your target language,
-it will be much easier for your brain to absorb the patterns.
-By narrowing your field of study and taking it one domain at a time,
-you can ensure that your brain can fully focus on one thing
-and master it before moving on to another.
-This approach is much more efficient than trying to learn many things at once.</p>
-<p>Every time you choose a new genre,
-move to a different domain,
-it will have a different set of commonly used words and expressions.
-Domains can be similar to each other or very different from each other.
-Some specialized domains can be quite difficult to understand without lots of study.
-Try not to jump to a new domain
-that is too distinct from other domains you have immersed in.
-Also, try to get a solid foothold in the domain before moving to the next domain.</p>
-<p>Once you reach advanced stages,
-worrying too much about differences between domains is not going to be productive.
-For example,
-if in the beginning you're immersing only in slice of life TV shows,
-in later stages you don't have to distinguish between anime and reality shows, or anime and dramas.
-Moving from one domain to another becomes pretty easy.</p>
-<p>If you immerse in only one genre,
-you're going to quickly increase your understanding of the content in that genre.
-Once you understand a certain genre well,
-your overall progress in the language will slow down
-until you tackle a new domain.
-So, sticking to one genre for too long is also a bad idea,
-but jumping between many genres will result in facing too many unknown words
-if you're not fluent yet.
-Ultimately it's about finding the balance between
-trying to master domains of the language in the most efficient way
-and immersing in what looks interesting.
-Prioritize enjoyment over &quot;efficiency&quot;.
-The fun cut to Japanese is almost always the shortcut.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-more-efficient-to-stick-to-one-domain.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-more-efficient-to-stick-to-one-domain.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 09 Feb 2023 00:06:19 +0300</pubDate>
 </item>
 </channel>
 </rss>
