@@ -18,6 +18,7 @@ date: 1616375454
 	* [Fonts](japanese-fonts.html)
 * Immersion
 	* [Active immersion](active-immersion.html)
+	* [Passive immersion](passive-immersion.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
