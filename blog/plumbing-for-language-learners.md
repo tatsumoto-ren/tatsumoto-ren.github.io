@@ -69,7 +69,7 @@ save **[this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bi
 to `~/.local/bin`.
 
 ```
-$ curl -o ~/.local/bin/cabl 'https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl'
+$ curl -o ~/.local/bin/cabl 'https://raw.githubusercontent.com/tatsumoto-ren/dotfiles/main/.local/bin/i3cmds/cabl'
 ```
 
 Make sure the directory is added [to the PATH](how-do-i-add-a-directory-to-the-path.html)
