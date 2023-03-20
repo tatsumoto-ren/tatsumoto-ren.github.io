@@ -1,84 +1,71 @@
 ---
-title: Passive listening
+title: Passive immersion tech
 date: 1618268880
 tags: [guide]
 ---
 
-When we talk about immersion, we usually divide it into active and passive.
-*Active immersion* requires full attention to the content
-and can be practiced through reading and watching content in the target language.
 *Passive immersion* means listening to the language while in idle activities.
 When listening passively you're not fully focused on the content,
 instead you're doing something else
 while having the speech in your target language play in the background.
 
-We do passive immersion during times in a day when we can't actively engage with the language,
-such as when cooking, cleaning or commuting.
-Although your attention is divided during passive immersion,
-because you're left with no other choice,
-it is still better compared to no immersion at all.
-
-As noted in one of the previous articles,
-there are countless opportunities
-to do passive listening throughout the day.
-Make passive listening a habit.
-Every moment of your life has to be spent interacting with Japanese.
-
 Passive listening is one of the key components of the AJATT method,
 so it is important to make it as convenient as possible.
 If preparing immersion content is tedious, you are not going to do it.
+This article covers technology for passive immersion.
 
 ****
 
-## Role of passive listening
+## Prerequisites
 
-In the beginning passive immersion doesn't contribute much to comprehension gains,
-instead it helps you start distinguishing sounds and phonemes of your target language.
-Focus your attention on hearing the sounds.
-Maybe at first you won't even be able to hear where one word ends and another one starts,
-but as you progress expect passive listening to boost your phonetic awareness
-and eventually start contributing to your comprehension.
-Passive immersion doesn't do much without active immersion.
-You shouldn't neglect either of them.
+If you are not familiar with the theory behind passive immersion,
+read [this article](passive-immersion.html).
 
-## Rules of passive immersion
+Key points to take away:
 
-Passive immersion can lead to very little or no language gains if done wrong.
-Stick to the following whenever you engage in passive immersion.
+* We engage in passive immersion when there is no option to do active immersion.
+  For instance, when we are occupied with other, unrelated tasks,
+  we can still listen to our target language while doing so.
+* The hours spent on passive immersion contribute to the overall progress.
+  Even though passive immersion is less effective than active immersion,
+  doing passive immersion is always better than doing nothing.
+* Passive immersion revolves around repetition.
+  It is recommended to actively immerse oneself in the material prior to listening to it passively.
+  This way, you are better equipped to understand what is happening.
+  You know the words, know the story, understand what's going on.
 
-* **Re-listen.**
-Focus on listening passively to the content you've already engaged with actively
-and comprehended via dictionary lookups, attention to scenery
-and other means of making input more comprehensible.
-Re-listening creates repetition, and repetition is good for the brain.
-If you listen to something you haven't previously watched and comprehended,
-it is essentially going to be white noise, and it won't help you much.
-* **Rotate immersion content.**
-Repetition becomes boring if done too many times, and boredom impedes learning.
-It's important to rotate immersion,
-in other words regularly add new content and remove old content from your playlist.
+  During passive immersion usually one pays less attention to the content.
+  You can zone out, but when you turn your attention back,
+  you will not be lost because it's not your first time.
 
-In this article you'll find out how to automatically extract audio from what you've watched
-and how to rotate immersion content.
+  On the other hand, listening to unfamiliar gibberish is not particularly helpful.
+* To maximize the effectiveness of passive immersion,
+  it is beneficial to listen to the same audio file multiple times.
+  But it is also essential to *rotate* the content after a certain point,
+  removing the old files and adding new files on a regular basis.
+  This can be done easily and automatically with the help of scripts.
 
-## Choosing content
+## Obtaining content
 
-The best source of passive immersion is audio from TV shows you've already watched.
-Another option is to listen to an audiobook of a novel you've previously read.
-These two options help the most because you already know the story.
+Passive immersion is largely about repetition.
+So for passive immersion
+you are going to use the content you have previously [downloaded](resources.html#immersion-material)
+and have already actively immersed in.
+For instance, if you watched an episode of a TV show today,
+that episode is going to become your passive immersion content.
+All you need to do is convert it to audio.
 
-Beginners are not recommended listening to podcasts and radio shows.
-It is difficult to make such content comprehensible
-because it lacks transcriptions and visual context.
-Though if you're outside, and you have nothing else to listen to, you must choose something.
+To make things easier,
+make sure to download what you watch,
+so you can extract the audio and add it to your passive listening playlist.
 
-If you're an advanced learner,
-it is okay to use purely audio-based material such as podcasts
-as one of the primary sources of both passive and active immersion.
-
-Music is the worst content for passive immersion.
-It contains unnatural speech, and it is difficult to hear the lyrics.
-We tend to mishear lyrics even when we listen to songs in our native language.
+Other possible types of content to passively immerse in are
+[YouTube](immersion-with-youtube.html) streams, podcasts and radio shows.
+They are more appropriate for intermediate learners.
+Unfortunately,
+transcripts are usually not available for these types of content,
+so actively immersing oneself in them is not an option,
+thus reducing the quality of immersion.
 
 ## mpd
 
@@ -189,7 +176,7 @@ Rotation consists of two steps:
    so it won't pick up anime and dramas that you downloaded a long time ago.
 2) Old immersion material gets archived,
    i.e., moved to the `archive` folder inside your `mpd` music directory.
-   By default `impd` considers *old* audio files
+   By default, `impd` considers *old* audio files
    that were added to immersion pod more than 10 days ago.
 
 If you're rewatching an older TV-show
@@ -229,6 +216,8 @@ Effect > Truncate silence. After you adjust the settings, press OK.
 
 <p align="center"><img src="img/audacity-truncate-silence.webp" alt="Truncate silence" class="shadow"></p>
 <p align="center"><i>Truncate silence.</i></p>
+
+Alternatively, you can [use FFmpeg](reading-books.html#remove-silence-from-an-audiobook).
 
 ## Podcasts
 
