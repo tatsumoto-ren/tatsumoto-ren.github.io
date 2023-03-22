@@ -219,16 +219,13 @@ div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > 
 
 </details>
 
-## GoldenDict
+## MDX
 
 [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
 is yet another dictionary lookup program that can be used for learning Japanese.
-GoldenDict supports MDX dictionaries.
-It can read EPWING dictionaries as well, but the feature is very clunky in my experience.
+GoldenDict supports `MDX` dictionaries.
+It can read `EPWING` dictionaries as well, but the feature is very clunky in my experience.
 Qolibri is much better for EPWING.
-
-I don't use GoldenDict myself, and I don't know how to use it,
-so currently there's no guide for it on this site.
 
 `Epistularum` made a collection of MDX dictionaries for GoldenDict.
 
@@ -237,53 +234,6 @@ so currently there's no guide for it on this site.
 </p>
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
-
-### GoldenDict tips
-
-* Enable Yomichan-like [de-inflection and popup](https://github.com/epistularum/hunspell-ja-deinflection).
-* Remove duplicate display of EPWING headwords and make things a bit more readable:
-  1) Paste the code below in a file named `article-style.css`
-     in a folder with a name of your choosing in the styles folder of GoldenDict.
-
-     * GNU+Linux folder location: `~/.goldendict/styles/`.
-     * Windows-like (ReactOS) folder location: `C:\Users\<user>\AppData\Roaming\GoldenDict\styles\`.
-  1) Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on style".
-
-     <details>
-     <summary>CSS for GoldenDict</summary>
-
-     ```css
-     /* Add padding and a horizontal bar between each entry for the sake of readability */
-     .mdict {
-         border-top: 0.15em solid #c4c4c4;
-         margin-bottom: 0.5em;
-         padding-top: 0.5em;
-     }
-
-     .gddictname {
-         position: relative;
-         z-index: 9;
-         margin-bottom: -0.16em;
-     }
-
-     /* Remove duplicate headers in EPWING dictionaries. */
-     .epwing_article h3 {
-         display: none;
-     }
-
-     .epwing_text:first-line {
-         text-indent: -1em;
-     }
-
-     .epwing_text {
-         padding-top: 0.5em;
-         padding-left: 1em;
-         border-top: 0.15em solid #c4c4c4;
-         margin-bottom: 0.5em;
-     }
-     ```
-
-     </details>
 
 ## Explaining available dictionaries
 
