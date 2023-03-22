@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Free Software to learn Japanese, and more." />
+<meta name="author" content="Tatsumoto" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency" />
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="/img/logo.webp"/>
+<title>Setting up GoldenDict</title>
+<meta property="og:title" content="Setting up GoldenDict">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<input type="checkbox" id="menu-btn" />
+<header>
+<a href="index.html" class="logo">
+<img alt="達元" src="/img/logo.webp" />
+<span>Tatsumoto</span>
+</a>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
+</header>
+<div id="sidebar">
+<div class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</div>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article timestamp="1679452222" position="0">
+<h1 class="title"><a class="ablack" href="setting-up-goldendict.html">Setting up GoldenDict</a></h1>
+<div class="subtitle">March 22, 2023 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
+Like <a href="setting-up-qolibri.html">Qolibri</a>, it lets you search multiple dictionaries at the same time
+so for every word you look up you immediately get a number of definitions.
+GoldenDict is a great tool for language learners,
+and it becomes especially helpful
+when one switches from bilingual dictionaries to monolingual dictionaries.
+It can aid during the monolingual transition
+thanks to the ability to look up many words at once in separate tabs,
+simplifying recursive look-ups.</p>
+<hr>
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>GoldenDict is available as a free download from GitHub
+or from repositories of many GNU distributions.
+The most up-to-date version of GoldenDict
+is a fork by <code>xiaoyifang</code>.
+It can create Anki cards, which is important for people following the AJATT method.</p>
+<p>Installation is easy and straightforward.
+To install GoldenDict,
+users of pacman-based distributions can use
+<a href="https://aur.archlinux.org/packages/goldendict-webengine-git">this AUR package</a>.
+Simply running <code>trizen -S goldendict-webengine-git</code> should be sufficient.</p>
+<p>Users of other distributions need to follow
+<a href="https://github.com/xiaoyifang/goldendict#installation">these instructions</a>
+or clone the repository and
+<a href="https://github.com/xiaoyifang/goldendict#build-from-source">build from source</a>.</p>
+<h2 id="obtain-dictionaries"><a class="anchor" href="#obtain-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain dictionaries</h2>
+<p>GoldenDict supports a wide range of dictionary formats,
+including <a href="yomichan-and-epwing-dictionaries.html#epwing">EPWING</a>
+and <a href="yomichan-and-epwing-dictionaries.html#mdx">MDX</a>.
+They can be downloaded by clicking on the provided links.</p>
+<p>After download finishes, open GoldenDict,
+go to &quot;Dictionaries&quot; (<kbd>F3</kbd>)
+and specify the folders you've downloaded the dictionary files to
+under &quot;Sources&quot; &gt; &quot;Files&quot;.</p>
+<h2 id="dictionary-groups"><a class="anchor" href="#dictionary-groups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dictionary groups</h2>
+<p>Open &quot;Dictionaries&quot; (<kbd>F3</kbd>),
+go to &quot;Groups&quot; and create any groups you want.
+For example, you can have a group of dictionaries for learning English, Japanese, etc.
+Dictionaries can be added to a group by dragging and dropping.</p>
+<p align="center"><img class="shadow" src="img/goldendict-groups.webp" alt="goldendict-groups"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>Place the dictionaries you like the most on top for easy access.
+If you are new to monolingual dictionaries,
+I recommend <code>明鏡</code>, <code>大辞林</code>, <code>大辞泉</code>, <code>新明解</code>.
+During the monolingual transition,
+having as many dictionaries enabled as possible will help you
+find a definition that is easier to understand.</p>
+<h2 id="hunspell-dictionaries"><a class="anchor" href="#hunspell-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hunspell dictionaries</h2>
+<p>Hunspell is a popular spell checker used by many applications, including GoldenDict.
+It helps deinflect Japanese words, catch typos and provide suggestions when searching.
+To set up Hunspell dictionaries in GoldenDict,
+users need to download and install them first.</p>
+<p>Users of pacman-based distributions can install
+<a href="https://aur.archlinux.org/packages/hunspell-ja-git">hunspell-ja-git</a>.
+Others can install the package manually from
+<a href="https://github.com/Ajatt-Tools/hunspell-ja">GitHub</a>.</p>
+<p>If you are learning other languages, install Hunspell dictionaries for them too.
+For example:</p>
+<ul>
+<li><a href="https://archlinux.org/packages/?q=hunspell-en_us">hunspell-en_us</a></li>
+<li><a href="https://archlinux.org/packages/?q=hunspell-ru">hunspell-ru</a></li>
+</ul>
+<p>The advantage of installing Hunspell dictionaries with <code>pacman</code>
+(or the package manager of your distro)
+is that all of them will be placed in the same directory: <code>/usr/share/hunspell</code>.
+GoldenDict doesn't have an option to load Hunspell dictionaries from different folders.
+Once installed, open GoldenDict, go to &quot;Edit&quot; &gt; &quot;Preferences&quot; and finish setting them up.</p>
+<p align="center"><img class="shadow" src="img/goldendict-hunspell.webp" alt="goldendict-hunspell"></p>
+<p align="center"><i>Screenshot.</i></p>
+<h2 id="gd-tools"><a class="anchor" href="#gd-tools" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>gd-tools</h2>
+<p><a href="https://github.com/Ajatt-Tools/gd-tools">gd-tools</a>
+is a collection of tools for GoldenDict
+that aim to help in learning foreign languages.
+To install <code>gd-tools</code>, download the repository and run <code>sudo make install</code>.
+Read the instructions on GitHub for details.</p>
+<p align="center"><img alt="Programs" src="img/goldendict-programs.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>External programs can be added by opening Preferences (<kbd>F4</kbd>)
+and going to &quot;Sources&quot; &gt; &quot;Programs&quot;.</p>
+<p>Available features:</p>
+<ul>
+<li>Image search.</li>
+<li>Stroke order diagrams.</li>
+<li>Example sentences.</li>
+<li>Query Anki collection to see if you already have a card for the word you're lookin up.</li>
+</ul>
+<h2 id="mecab-splitting"><a class="anchor" href="#mecab-splitting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mecab splitting</h2>
+<p><code>gd-mecab</code> is a part of <code>gd-tools</code> and can be used to split sentences into words.
+Each word is clickable.
+It allows you to look up a full sentence and then click on individual words.</p>
+<p align="center"><img src="img/goldendict-mecab.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<h2 id="anki-integration"><a class="anchor" href="#anki-integration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki integration</h2>
+<p>Read <a href="https://github.com/xiaoyifang/goldendict/blob/staged/howto/how%20to%20connect%20with%20anki.md">how to connect with anki</a>
+to configure Anki integration.
+Additionally, you need <a href="https://ankiweb.net/shared/info/2055492159">AnkiConnect</a> installed.</p>
+<p align="center"><img alt="Anki settings" src="img/goldendict-ankiconnect.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>On the &quot;Network&quot; tab fill the following fields:</p>
+<ul>
+<li>Deck: The name of your Anki deck.</li>
+<li>Model: The name of your Note Type</li>
+<li>Word: Headword, vocabulary</li>
+<li>Text: Selected text, definition.</li>
+<li>Sentence: The contents of the search bar.</li>
+</ul>
+<h2 id="mpvacious-setup"><a class="anchor" href="#mpvacious-setup" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mpvacious setup</h2>
+<p><a href="https://github.com/Ajatt-Tools/mpvacious">Mpvacious</a> can work with GoldenDict.
+If you append <code>autoclip_command=goldendict</code> to the config file,
+mpvacious will send every subtitle line directly to GoldenDict
+instead of copying text to the system clipboard.</p>
+<p>A video demonstration is available
+<a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/howto/goldendict.md">here</a>.</p>
+<h2 id="transformers-ocr-setup"><a class="anchor" href="#transformers-ocr-setup" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Transformers OCR setup</h2>
+<p><a href="https://github.com/Ajatt-Tools/transformers_ocr">Transformers OCR</a>
+can pass recognized text directly to GoldenDict
+instead of copying text to the system clipboard.
+To pair them up, append <code>clip_command=goldendict</code> to the config file.</p>
+<h2 id="tips"><a class="anchor" href="#tips" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h2>
+<h3 id="make-the-search-bar-larger"><a class="anchor" href="#make-the-search-bar-larger" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Make the search bar larger</h3>
+<p>Japanese characters look tiny on the search bar.
+But you can click on it and press <kbd>Alt</kbd>+<kbd>+</kbd>
+to make it bigger.</p>
+<h3 id="unclutter-the-top-panel"><a class="anchor" href="#unclutter-the-top-panel" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unclutter the top panel</h3>
+<p>Disabling &quot;Edit&quot; &gt; &quot;Dictionary bar&quot; hides toggleable dictionaries.</p>
+<p align="center"><img alt="toolbar" src="img/goldendict-toolbar.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>A wider search bar is more convenient when editing pasted sentences.</p>
+<h3 id="remove-duplicate-display-of-epwing-headwords"><a class="anchor" href="#remove-duplicate-display-of-epwing-headwords" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove duplicate display of EPWING headwords</h3>
+<p>Paste the code below in a file named <code>article-style.css</code>
+in a folder with a name of your choosing in the <code>styles</code> folder of GoldenDict.</p>
+<ul>
+<li>GNU+Linux folder location: <code>~/.goldendict/styles/</code>.</li>
+<li>Windows-like (ReactOS) folder location: <code>C:\Users\&lt;user&gt;\AppData\Roaming\GoldenDict\styles\</code>.</li>
+</ul>
+<p>Restart GoldenDict and enable the style in &quot;Edit&quot; &gt; &quot;Preferences&quot; &gt; &quot;Add-on style&quot;.</p>
+<details>
+<summary>CSS for GoldenDict</summary>
+<div class="pre-wrap"><pre><code class="language-css">/* Add padding and a horizontal bar between each entry for the sake of readability */
+.mdict {
+    border-top: 0.15em solid #c4c4c4;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+.gddictname {
+    position: relative;
+    z-index: 9;
+    margin-bottom: -0.16em;
+}
+/* Remove duplicate headers in EPWING dictionaries. */
+.epwing_article h3 {
+    display: none;
+}
+.epwing_text:first-line {
+    text-indent: -1em;
+}
+.epwing_text {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    border-top: 0.15em solid #c4c4c4;
+    margin-bottom: 0.5em;
+}
+</code></pre></div>
+</details>
+<h2 id="conclusion"><a class="anchor" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>GoldenDict is an excellent tool that offers users a comprehensive range of features.
+It is easy to install, set up, and users have access to a large number dictionaries.
+The program is capable of generating Anki cards,
+which is ideal for people doing AJATT.
+Additionally, the option to create tabs makes it possible to do recursive look-ups.</p>
+<p>Tags: <a href="tag_guide.html">guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Software</h3>
+<ul>
+<li><a href="setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="tag_yomichan.html">Yomichan</a></li>
+<li><a href="tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="feed.rss">RSS</a></li>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2023</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>

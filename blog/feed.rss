@@ -5,9 +5,27 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Fri, 17 Mar 2023 03:35:35 +0300</lastBuildDate>
-<pubDate>Fri, 17 Mar 2023 03:35:35 +0300</pubDate>
+<lastBuildDate>Wed, 22 Mar 2023 05:32:16 +0300</lastBuildDate>
+<pubDate>Wed, 22 Mar 2023 05:32:16 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Setting up GoldenDict</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
+Like <a href="setting-up-qolibri.html">Qolibri</a>, it lets you search multiple dictionaries at the same time
+so for every word you look up you immediately get a number of definitions.
+GoldenDict is a great tool for language learners,
+and it becomes especially helpful
+when one switches from bilingual dictionaries to monolingual dictionaries.
+It can aid during the monolingual transition
+thanks to the ability to look up many words at once in separate tabs,
+simplifying recursive look-ups.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 22 Mar 2023 05:30:22 +0300</pubDate>
+</item>
 <item>
 <title>Passive immersion</title>
 <author>Tatsumoto</author>
@@ -270,51 +288,6 @@ You can go back to the difficult medium once you increase your skill level.</p>
 <guid>https://tatsumoto-ren.github.io/blog/pausing-how-often-should-i-look-things-up.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 13 Feb 2023 06:11:01 +0300</pubDate>
-</item>
-<item>
-<title>In order to increase my reading speed, should I force myself to start skimming?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>Khatzumoto recommended skimming mostly as a motivational tool.
-You skim boring parts to get to the fun parts, and it keeps you focused on your immersion.</p>
-<p>When it comes to reading speed, skimming won't help.
-If you read a lot, your reading speed will improve naturally.
-To increase your reading speed
-you need to read at your natural speed, and read a lot.
-Slowly over time your natural reading speed will get better.</p>
-<p>The more you read, the more your brain will be able to recognize patterns and
-group words together. For example, when you first start learning Japanese, you
-may need to read each character individually to understand long patterns
-such as <code>○○ざるを得ない</code>, <code>○○もさることながら</code> or <code>どちらかと言うと</code>.
-But as you become more familiar with the language,
-you will be able to recognize longer patterns instantly,
-without having to say each syllable in your head.
-Your brain will become able to process multiple characters and multiple words as single units.
-With practice,
-you start to chunk the language into larger and larger pieces.
-As you become more accustomed to picking up groups of words as single units,
-your reading speed increases due to the decreased number of chunks you have to process.</p>
-<p>So the key to being able to read faster naturally
-is building the mental infrastructure in your brain.
-Forcing yourself to read faster than you are comfortable will not lead to the desired result.
-Speed is only achievable through dedicated practice and time.</p>
-<p>I don't recommend skimming, as it can lead to missing important information.
-It is much more beneficial to be able to actually read and recognize each piece of the text,
-rather than just jumping through words,
-skipping chunks
-and inferring the meaning from the context.
-While it can be possible to comprehend and infer the meaning of Japanese text without certain parts,
-such as conjugations and particles,
-the lack of exposure to essential words and grammar
-may impede one's ability to use them when speaking.
-For language acquisition
-it is important that you pay attention to each bit of information in the text
-so that your brain can absorb the patterns and acquire grammar.
-Avoid skimming in order to gain maximum exposure to all elements of Japanese.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/to-increase-reading-speed-should-i-start-skimming.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/to-increase-reading-speed-should-i-start-skimming.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 13 Feb 2023 04:47:06 +0300</pubDate>
 </item>
 </channel>
 </rss>
