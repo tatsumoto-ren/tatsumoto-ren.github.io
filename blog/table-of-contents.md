@@ -26,8 +26,9 @@ date: 1616375454
 	* [Basic vocabulary](basic-vocabulary.html)
 	* [Grammar](learning-grammar.html)
 * Dictionaries
-	* [Yomichan](setting-up-yomichan.html)
+	* [GoldenDict](setting-up-goldendict.html)
 	* [Qolibri](setting-up-qolibri.html)
+	* [Yomichan](setting-up-yomichan.html)
 	* [Dictionary files](yomichan-and-epwing-dictionaries.html)
 * On the journey
 	* [One target sentences](one-target-sentences.html)

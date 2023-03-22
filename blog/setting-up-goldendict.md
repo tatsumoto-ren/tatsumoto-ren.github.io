@@ -1,7 +1,7 @@
 ---
 title: Setting up GoldenDict
 date: 1679452222
-tags: ['guide']
+tags: ['guide', 'dictionaries']
 ---
 
 GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
@@ -140,6 +140,8 @@ On the "Network" tab fill the following fields:
 
 ## Mpvacious setup
 
+> More information on Mpvacious is provided on subsequent pages.
+
 [Mpvacious](https://github.com/Ajatt-Tools/mpvacious) can work with GoldenDict.
 If you append `autoclip_command=goldendict` to the config file,
 mpvacious will send every subtitle line directly to GoldenDict
@@ -149,6 +151,8 @@ A video demonstration is available
 [here](https://github.com/Ajatt-Tools/mpvacious/blob/master/howto/goldendict.md).
 
 ## Transformers OCR setup
+
+> More information on Transformers OCR is provided on subsequent pages.
 
 [Transformers OCR](https://github.com/Ajatt-Tools/transformers_ocr)
 can pass recognized text directly to GoldenDict
