@@ -121,6 +121,11 @@ It allows you to look up a full sentence and then click on individual words.
 <p align="center"><img src="img/goldendict-mecab.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
+This feature relies on Mecab to work.
+Don't forget to install [mecab-ipadic](https://aur.archlinux.org/packages/mecab-ipadic)
+if you are on a pacman-based system
+or a similar package if you use another distro.
+
 ## Anki integration
 
 Read [how to connect with anki](https://github.com/xiaoyifang/goldendict/blob/staged/howto/how%20to%20connect%20with%20anki.md)
