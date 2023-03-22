@@ -99,7 +99,7 @@ that aim to help in learning foreign languages.
 To install `gd-tools`, download the repository and run `sudo make install`.
 Read the instructions on GitHub for details.
 
-<p align="center"><img alt="Programs" src="img/goldendict-programs.webp"></p>
+<p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
 External programs can be added by opening Preferences (<kbd>F4</kbd>)
@@ -118,7 +118,7 @@ Available features:
 Each word is clickable.
 It allows you to look up a full sentence and then click on individual words.
 
-<p align="center"><img src="img/goldendict-mecab.webp"></p>
+<p align="center"><img class="shadow" src="img/goldendict-mecab.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
 This feature relies on Mecab to work.
@@ -132,7 +132,7 @@ Read [how to connect with anki](https://github.com/xiaoyifang/goldendict/blob/st
 to configure Anki integration.
 Additionally, you need [AnkiConnect](https://ankiweb.net/shared/info/2055492159) installed.
 
-<p align="center"><img alt="Anki settings" src="img/goldendict-ankiconnect.webp"></p>
+<p align="center"><img class="shadow" alt="Anki settings" src="img/goldendict-ankiconnect.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
 On the "Network" tab fill the following fields:
@@ -176,7 +176,7 @@ to make it bigger.
 
 Disabling "Edit" > "Dictionary bar" hides toggleable dictionaries.
 
-<p align="center"><img alt="toolbar" src="img/goldendict-toolbar.webp"></p>
+<p align="center"><img class="shadow" alt="toolbar" src="img/goldendict-toolbar.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
 A wider search bar is more convenient when editing pasted sentences.
@@ -230,7 +230,7 @@ Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on styl
 ## Conclusion
 
 GoldenDict is an excellent tool that offers users a comprehensive range of features.
-It is easy to install, set up, and users have access to a large number dictionaries.
+It is easy to install, set up, and users have access to a large number of dictionaries.
 The program is capable of generating Anki cards,
 which is ideal for people doing AJATT.
 Additionally, the option to create tabs makes it possible to do recursive look-ups.
