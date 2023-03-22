@@ -406,6 +406,7 @@ pre {
 }
 
 code {
+    word-break: keep-all;
     font-size: 85%;
     padding: 0.2em 0.4em;
     background-color: #f3f3f3;
