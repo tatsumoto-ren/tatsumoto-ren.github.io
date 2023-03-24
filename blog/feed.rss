@@ -5,9 +5,55 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 22 Mar 2023 05:42:04 +0300</lastBuildDate>
-<pubDate>Wed, 22 Mar 2023 05:42:04 +0300</pubDate>
+<lastBuildDate>Fri, 24 Mar 2023 03:41:04 +0300</lastBuildDate>
+<pubDate>Fri, 24 Mar 2023 03:41:04 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Are there potential downsides of using audio-only content like podcasts as the main source of free-flow immersion?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>There's really no need to confine yourself to audio-only content,
+such as podcasts,
+for free-flow immersion,
+as audio-visual content like movies and TV shows will be far more effective.</p>
+<p>If you primarily learn through audio and visual materials,
+you will develop strong listening skills.
+This proficiency will be of great value in the long term.
+If you acquire your target language through listening
+before starting to read,
+the way your brain will process the language
+will be more in line with that of native speakers.
+However, native speakers don't limit themselves to listening alone.
+By excluding visual media you are lowering your comprehension for no reason at all.</p>
+<p>Audio-visual content gives you all the benefits of audio-only content,
+and your comprehension will be much higher thanks to the visual cues.
+On the other hand,
+podcasts can be difficult to understand,
+particularly for beginner learners.
+They lack transcripts,
+visual context
+and anything else that could help you understand what is being said.
+In my experience, podcasts are virtually indistinguishable from white noise
+until you reach a solid intermediate level.
+So, there are huge downsides to
+relying solely on audio-only content for free-flow immersion,
+as it will drastically slow down vocabulary acquisition.
+I would recommend audio-visual content instead.</p>
+<p>I deem audio-only free-flow immersion to be comparable to passive immersion.
+It is unlikely that during listening one can maintain the same
+level of focus and attention as when watching.
+While it is acceptable to use podcasts for passive immersion,
+as long as you understand the language used,
+it is advisable to choose a medium that you have previously watched actively.</p>
+<p>The rate of acquisition also depends on what you do during intensive immersion.
+If during intensive immersion you read novels, comic books, or watch movies and TV shows,
+while looking up words and mining sentences, then you will be learning vocabulary faster,
+and the downsides of using audio-only content during free-flow immersion will be less significant.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/audio-as-main-source-of-free-flow-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/audio-as-main-source-of-free-flow-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 24 Mar 2023 03:34:41 +0300</pubDate>
+</item>
 <item>
 <title>Setting up GoldenDict</title>
 <author>Tatsumoto</author>
@@ -246,48 +292,6 @@ still doesn't sound very good and still makes some mistakes.</p>
 <guid>https://tatsumoto-ren.github.io/blog/im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Tue, 14 Feb 2023 22:08:43 +0300</pubDate>
-</item>
-<item>
-<title>Pausing. How often should I look things up while actively immersing?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>If you never pause, it means you don't look up words at all.
-The more you look up, the faster you progress.
-If you have to look up a word in every sentence, it quickly becomes tedious.
-So your task is to
-try to find the balance between enjoyment and frequent lookups.</p>
-<p>You can watch raw and try to understand only through the visuals,
-watch with subs and actively look up unknown words,
-or do something in between.
-When it comes to doing something in between,
-it boils down to
-looking things up only once every couple minutes.
-In practice, however, I find that most people can't do it.
-It's a lot of work to sit with a timer
-or somehow arbitrary track time and decide when to look up and when not to look up.
-So I recommend splitting your time between media where you look up everything
-and media where you don't look up anything.</p>
-<p>One of our community members, <code>ﾌｪﾘﾍﾟ</code>, shares the following routine:</p>
-<blockquote>
-<p>I always keep two TV-shows.
-One for mining <strong>everything</strong>
-and the other one for pure enjoyment, without lookups.</p>
-</blockquote>
-<p>I agree with this.
-I never look up when I'm watching <abbr title="movies and TV-shows without any subtitles">raw</abbr>,
-and always look up when I'm watching with subtitles.
-When reading, I always look up unless I can easily infer the meaning from the context.
-But be careful when skipping lookups when reading
-because you might run across a word written in kanji
-and assume that it is read one way when it is actually read differently.
-This is not a problem when reading alongside an audiobook though.</p>
-<p>If you find yourself looking up too many unknown bits too often,
-switching to easier content is a solution too.
-You can go back to the difficult medium once you increase your skill level.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/pausing-how-often-should-i-look-things-up.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/pausing-how-often-should-i-look-things-up.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 13 Feb 2023 06:11:01 +0300</pubDate>
 </item>
 </channel>
 </rss>
