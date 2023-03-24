@@ -166,6 +166,16 @@ To pair them up, append `clip_command=goldendict` to the config file.
 
 ## Tips
 
+### Enable clipboard scanning
+
+Many third-party programs, such as [crqt-ng](resources.html#reading-ebooks)
+can copy text to the system clipboard when it is selected.
+GoldenDict can watch the clipboard
+and automatically perform lookups new text is copied.
+
+To *enable scanning*, you can click on the light bulb icon on the toolbar.
+The feature can be configured under "Preferences" <kbd>F4</kbd> > "Scan Popup".
+
 ### Make the search bar larger
 
 Japanese characters look tiny on the search bar.
