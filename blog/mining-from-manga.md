@@ -144,6 +144,11 @@ The first run will take longer than usual.
 There's yet another set of files that have to be downloaded for the OCR to work.
 The files will be saved to `~/.cache/huggingface` and take up another `500 MiB`.
 
+To send the recognized text directly to GoldenDict without copying it to the system clipboard,
+[append](https://github.com/Ajatt-Tools/transformers_ocr#send-text-to-an-external-application)
+`clip_command=goldendict` to the config file.
+The config file is read from `~/.config/transformers_ocr/config`.
+
 ### Keyboard shortcut
 
 Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
