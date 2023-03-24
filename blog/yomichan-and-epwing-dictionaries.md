@@ -221,7 +221,7 @@ div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > 
 
 ## MDX
 
-[GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
+[GoldenDict](setting-up-goldendict.html)
 is yet another dictionary lookup program that can be used for learning Japanese.
 GoldenDict supports `MDX` dictionaries.
 It can read `EPWING` dictionaries as well, but the feature is very clunky in my experience.

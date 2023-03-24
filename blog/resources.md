@@ -773,8 +773,8 @@ A podcast player for Android.
   To set it up, refer to the
   [official documentation](http://ebview.sourceforge.net/help/ja/index.html),
   especially the `辞書グループの定義` section.
-* [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict).
-  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#goldendict).
+* [GoldenDict](setting-up-goldendict.html).
+  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
 * [Tagaini Jisho](https://www.tagaini.net/)
 
 ### Android
@@ -788,7 +788,7 @@ A podcast player for Android.
 [Epistularum's Converted Dictionary Collection](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg).
 Dictionary files.
 Stardict files are meant to be used with KOreader,
-Mdict with GoldenDict.
+Mdict with [GoldenDict](setting-up-goldendict.html).
 
 ## Translators
 

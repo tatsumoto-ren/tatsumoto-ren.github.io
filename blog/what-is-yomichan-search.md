@@ -27,4 +27,4 @@ when [mining from manga](mining-from-manga.html) and reading books.
 
 Alternatives to Yomichan Search are:
 * Qolibri's [Watch clipboard](setting-up-qolibri.html#watch-clipboard) button.
-* GoldenDict's "Enable Scanning" button.
+* [GoldenDict](setting-up-goldendict.html)'s "Enable Scanning" button.

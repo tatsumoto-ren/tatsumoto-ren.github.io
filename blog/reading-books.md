@@ -59,7 +59,7 @@ It does a lot of things right.
   This is extremely useful
   if you want to use `crqt-ng` alongside [Yomichan Search](what-is-yomichan-search.html),
   [Qolibri](setting-up-qolibri.html#watch-clipboard)
-  or GoldenDict.
+  or [GoldenDict](setting-up-goldendict.html).
 
 <p align="center"><img src="img/coolreader-yomichan.webp" alt="crqt-ng and Yomichan Search"></p>
 <p align="center"><i>crqt-ng and Yomichan Search, side by side in i3wm.</i></p>

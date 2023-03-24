@@ -238,7 +238,7 @@ We have more complete suggestions on the Resources page.
     1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
     Dictionary files for qolibri are available
     [here](yomichan-and-epwing-dictionaries.html).
-    1) [GoldenDict](https://wiki.archlinux.org/index.php/GoldenDict)
+    1) [GoldenDict](setting-up-goldendict.html)
     1) [Tagaini Jisho](https://www.tagaini.net/)
   * When you read in your browser, use
     [Yomichan](https://foosoft.net/projects/yomichan/)
