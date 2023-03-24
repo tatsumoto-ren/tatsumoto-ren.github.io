@@ -55,10 +55,10 @@ for installation instructions.
 Without dictionary files,
 Qolibri is just an empty window with buttons.
 Download the dictionaries and save them to a folder on your computer.
-EPWINGs are usually larger compared to Yomichan dictionaries.
+`EPWING`s are usually larger compared to Yomichan dictionaries.
 You need several GiB of disk space to store them.
 
-You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
+You can find dictionary files [here](yomichan-and-epwing-dictionaries.html#epwing).
 
 To import the dictionaries to Qolibri click "Setting" > "Book and group settings"
 and insert the location where the dictionary files are stored on your computer.

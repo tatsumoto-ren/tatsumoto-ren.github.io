@@ -219,6 +219,7 @@ We have more complete suggestions on the Resources page.
   * Install and configure
     [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
     to type in Japanese.
+    My Fcitx guide can be found [here](how-to-type-in-japanese.html).
     The input method I use is
     [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
     but other options are also available.
@@ -230,18 +231,16 @@ We have more complete suggestions on the Resources page.
     Condensing takes a video file with subtitles and removes all parts where no one is speaking,
     producing an audio file with increased language density for passive listening.
   * The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
-    It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+    It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts) (user-scripts)
     many of which can be used to make language learning easier.
   * Install and [set up](setting-up-anki.html) Anki.
     It's a flashcard program used to memorize words, phrases and sentences.
   * The most popular offline dictionaries are:
-    1) [qolibri](https://aur.archlinux.org/packages/qolibri/).
-    Dictionary files for qolibri are available
-    [here](yomichan-and-epwing-dictionaries.html).
+    1) [qolibri](setting-up-qolibri.html).
     1) [GoldenDict](setting-up-goldendict.html)
     1) [Tagaini Jisho](https://www.tagaini.net/)
   * When you read in your browser, use
-    [Yomichan](https://foosoft.net/projects/yomichan/)
+    [Yomichan](setting-up-yomichan.html)
     to discover meanings of unknown words.
 * **Mobile**
   * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
