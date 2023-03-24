@@ -146,11 +146,10 @@ skip Tango `N5` because they're identical and differ only in their card template
 
 	> **[Sentence mining](sentence-mining.html)** is the process of finding sentences
 	> with words you don't know in your immersion and making them into sentence cards.
-	> The browser add-on
-	> [Yomichan](https://foosoft.net/projects/yomichan/)
-	> simplifies this process to a single click,
-	> so that all you need to do to add a card to your deck is hover over a word
-	> and click the `+` button in the popup.
+	> Programs like [GoldenDict](setting-up-goldendict.html)
+	> or the browser add-on
+	> [Yomichan](setting-up-yomichan.html)
+	> simplify this process to a single click.
 	> [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 	> is an add-on for
 	> [mpv](https://wiki.archlinux.org/index.php/Mpv)

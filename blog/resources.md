@@ -711,6 +711,23 @@ A podcast player for Android.
 
 ## Dictionaries
 
+### Offline
+
+* [GoldenDict](setting-up-goldendict.html).
+  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
+  Has Anki support.
+* [Qolibri](https://aur.archlinux.org/packages/qolibri/).
+  A Qt-based EPWING dictionary viewer.
+  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
+  Refer to [setup guide](setting-up-qolibri.html).
+* [EBView](https://aur.archlinux.org/packages/ebview-git/).
+  A GTK2 based EPWING dictionary viewer.
+  Like Qolibri, EBView requires you to specify where to look for the dictionary files.
+  To set it up, refer to the
+  [official documentation](http://ebview.sourceforge.net/help/ja/index.html),
+  especially the `辞書グループの定義` section.
+* [Tagaini Jisho](https://www.tagaini.net/)
+
 ### Popup dictionaries
 
 * Yomichan.
@@ -760,22 +777,6 @@ A podcast player for Android.
   A dictionary of synonyms.
 * [Dictionaryphile &mdash; 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
   A list of various online dictoinaries.
-
-### Offline
-
-* [Qolibri](https://aur.archlinux.org/packages/qolibri/).
-  A Qt-based EPWING dictionary viewer.
-  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
-  Refer to [setup guide](setting-up-qolibri.html).
-* [EBView](https://aur.archlinux.org/packages/ebview-git/).
-  A GTK2 based EPWING dictionary viewer.
-  Like Qolibri, EBView requires you to specify where to look for the dictionary files.
-  To set it up, refer to the
-  [official documentation](http://ebview.sourceforge.net/help/ja/index.html),
-  especially the `辞書グループの定義` section.
-* [GoldenDict](setting-up-goldendict.html).
-  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
-* [Tagaini Jisho](https://www.tagaini.net/)
 
 ### Android
 

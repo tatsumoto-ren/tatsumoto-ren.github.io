@@ -418,8 +418,7 @@ is called [sentence mining](sentence-mining.html) (or sentence picking).
 Premade Anki decks might seem convenient, but they can't teach you everything,
 so making your own cards is essential to long term success with Japanese.
 Continue to immerse, read and listen to content created by native speakers for native speakers,
-use software like
-[Yomichan](https://foosoft.net/projects/yomichan/)
+use [dictionaries](resources.html#dictionaries)
 to look up new words and mine sentences.
 
 Don't make too many single word flashcards.

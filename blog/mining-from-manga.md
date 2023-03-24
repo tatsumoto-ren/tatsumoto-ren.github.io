@@ -15,18 +15,21 @@ To do so, you're going to use an optical character recognition program and a few
 
 ## Preface
 
-Our goal is to be able to use [Yomichan](setting-up-yomichan.html) with manga.
+Our goal is to be able to look up words in manga.
 We need a toolchain that does the following:
 
 1) Takes a screenshot,
-selecting the part of the screen
-that contains a speech bubble with Japanese text.
+   selecting the part of the screen
+   that contains a speech bubble with Japanese text.
 2) Processes the taken screenshot.
-3) Recognizes the text and copies it to the system clipboard.
-4) Using Yomichan's Clipboard Monitor we can perform lookups.
+3) Returns the recognized text.
+4) Sends the text to a dictionionary program.
+   For example, [GoldenDict](setting-up-goldendict.html)
+   or [Yomichan Search](what-is-yomichan-search.html).
+5) We can look up words and make Anki flashcards.
 
 To recognize text on the pages of a manga,
-you can use Tesseract or Transformers.
+you can use *Tesseract* or *Transformers*.
 Tesseract is a more lightweight tool but makes more mistakes on average.
 With Transformers, you have to install a big number of
 [Python](https://docs.python.org/3/faq/general.html#what-is-python)

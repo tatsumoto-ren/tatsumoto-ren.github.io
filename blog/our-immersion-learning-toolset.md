@@ -98,14 +98,6 @@ you've studied.
 * [Ajatt-Tools add-ons](https://ankiweb.net/shared/byauthor/1151815987)
 * [Our collection of Note Types](https://github.com/Ajatt-Tools/AnkiNoteTypes)
 
-## [Yomichan](https://foosoft.net/projects/yomichan/)
-
-Look up unknown words with the hover of a mouse
-and make Anki flashcards with a single click.
-
-* [Setting up Yomichan](setting-up-yomichan.html)
-* [Dictionaries](yomichan-and-epwing-dictionaries.html)
-
 ## [mpv](https://wiki.archlinux.org/title/Mpv)
 
 `mpv` is a video player with support for user-scripts.
@@ -136,6 +128,20 @@ and archive audio that you've listened to enough times.
 * [AUR package](https://aur.archlinux.org/packages/impd-git/)
 * [Passive immersion guide](passive-listening.html)
 
+## [GoldenDict](setting-up-goldendict.html)
+
+Goldendict is a libre dictionary program for GNU+Linux and other operating systems.
+It offers an easy-to-use interface and supports a variety of dictionary formats.
+It allows users to quickly look up words and phrases,
+create Anki flashcards,
+and can especially help during and after the monolingual transition.
+
+GoldenDict can be enchanced by adding external programs as dictionaries
+and displaying their output in the search results.
+
+* [Dictionaries](yomichan-and-epwing-dictionaries.html#mdx)
+* [External programs](https://github.com/Ajatt-Tools/gd-tools)
+
 ## [qolibri](https://aur.archlinux.org/packages/qolibri/)
 
 A QT-based EPWING dictionary viewer.
@@ -152,6 +158,14 @@ External resources:
 
 * [In-Depth J-J Dictionary Walk through](https://redirect.invidious.io/watch?v=D-AfT8XW63w)
 * [Making Monolingual Sentence Cards in Real Time](https://redirect.invidious.io/watch?v=BzuLGmkihf4)
+
+## [Yomichan](setting-up-yomichan.html)
+
+Look up unknown words with the hover of a mouse
+and make Anki flashcards with a single click.
+
+* [Setting up Yomichan](setting-up-yomichan.html)
+* [Dictionaries](yomichan-and-epwing-dictionaries.html)
 
 ## [ames](https://github.com/Ajatt-Tools/ames)
 

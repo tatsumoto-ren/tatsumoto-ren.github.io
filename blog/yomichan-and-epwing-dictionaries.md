@@ -52,16 +52,12 @@ A very useful EPWING with pitch accent information.
 
 ## Yomichan
 
-[Yomichan](https://foosoft.net/projects/yomichan)
+Yomichan
 is a web browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 To get Yomichan follow [this setup guide](setting-up-yomichan.html).
 In order to be able to make Anki cards don't forget to install [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
 
-A few basic Japanese to English dictionaries are available on the
-[Yomichan webpage](https://foosoft.net/projects/yomichan/index.html#dictionaries),
-but most dictionaries and all Japanese to Japanese dictionaries
-you need to get from other sites.
 An archive with dictionaries for Yomichan can be downloaded by following the link below.
 
 <p align="center">
