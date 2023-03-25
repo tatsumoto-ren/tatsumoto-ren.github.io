@@ -421,6 +421,12 @@ You may need a Japanese IP address for some of these.
 
   I recommend getting LibreWolf [from Chaotic](https://aur.chaotic.cx/),
   but you can also build it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
+
+  Additionally, there's [pyllyukko user.js](https://github.com/pyllyukko/user.js)
+  to harden the configuration.
+  Before installing I recommend reading the `user.js`
+  and commenting out the settings you don't need
+  because no `user.js` can suit everybody's needs unmodified.
 * [Anki](https://wiki.archlinux.org/title/Anki)
   A free/libre flashcard application.
 * [Trackma](https://github.com/z411/trackma).
