@@ -5,9 +5,42 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Fri, 24 Mar 2023 10:37:53 +0300</lastBuildDate>
-<pubDate>Fri, 24 Mar 2023 10:37:53 +0300</pubDate>
+<lastBuildDate>Mon, 27 Mar 2023 23:30:51 +0300</lastBuildDate>
+<pubDate>Mon, 27 Mar 2023 23:30:51 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is it OK to sentence mine during free-flow immersion instead of intensive-immersion?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>The difference between <a href="active-immersion.html#free-flow-immersion">free-flow</a>
+and <a href="active-immersion.html#intensive-immersion">intensive</a> immersion
+is that free-flow is more passive and relaxed,
+while intensive immersion involves actively looking things up and making cards.
+During intensive immersion,
+it is expected that you make flashcards
+as you are already putting in the effort to look up words.</p>
+<p>However, sentencing mining during free-flow immersion instead of intensive immersion is a viable option.
+If that is the method that works best for you,
+then go for it.
+But you'll have to rearrange the process of making your flashcards.
+When watching a movie, for example, you usually pause to look up an unknown word
+and then make a <a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence card</a>
+with a chosen dictionary definition.
+But since free-flow immersion doesn't involve looking up words,
+when you come across a new word,
+you just make a card with the sentence.
+In MPV with mpvacious you can press one button to make a card.
+The key is not to interrupt the flow.
+Then, you would dedicate a period of time to go through the new flashcards
+and add dictionary definitions, mark the target words, and include other relevant information.</p>
+<p>If making cards during free-flow immersion is more effective for you,
+there is no reason not to do it.
+I do it myself when I feel like it.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-ok-to-mine-during-free-flow-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-ok-to-mine-during-free-flow-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 27 Mar 2023 23:29:45 +0300</pubDate>
+</item>
 <item>
 <title>Are there potential downsides of using audio-only content like podcasts as the main source of free-flow immersion?</title>
 <author>Tatsumoto</author>
@@ -271,27 +304,6 @@ that could benefit from focus and deliberate practice.</p>
 <guid>https://tatsumoto-ren.github.io/blog/is-it-important-to-practice-reading-tategaki.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 15 Feb 2023 02:24:50 +0300</pubDate>
-</item>
-<item>
-<title>I'm not a kid anymore. Am I too old to learn a language?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>No matter your age,
-it is never too late to learn a new language.
-Research and anecdotal evidence have both proven that
-adults can acquire languages similarly to how children do it.
-In fact, adults aquire languages faster than babies.
-The advantage of being an adult
-is that we can use various tools and techniques to speed up the process,
-such as the AJATT method,
-which can typically help one become fluent in a language within just 2 years.
-This is a far cry from a typical 4-year-old child who,
-despite having been exposed to language input constantly,
-still doesn't sound very good and still makes some mistakes.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Tue, 14 Feb 2023 22:08:43 +0300</pubDate>
 </item>
 </channel>
 </rss>
