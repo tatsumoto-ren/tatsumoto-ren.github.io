@@ -5,9 +5,28 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 27 Mar 2023 23:30:51 +0300</lastBuildDate>
-<pubDate>Mon, 27 Mar 2023 23:30:51 +0300</pubDate>
+<lastBuildDate>Thu, 30 Mar 2023 20:58:58 +0300</lastBuildDate>
+<pubDate>Thu, 30 Mar 2023 20:58:58 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is music a good way to learn Japanese?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<blockquote>
+<p>I do my Anki reps and sometimes watch vbijin,
+but I find myself listening to Japanese music more than anything.
+I get that song lyrics aren't representative of real sentences,
+but surely there's still things of worth in there.
+I like Tatsuro Yamashita, Jody is a banger.</p>
+</blockquote>
+<p>I have touched on this topic in several places of the guide,
+but I'm going to reiterate everything here
+since it's easier to read one Q&amp;A than the entire guide.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-music-a-good-way-to-learn-japanese.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-music-a-good-way-to-learn-japanese.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 30 Mar 2023 20:57:29 +0300</pubDate>
+</item>
 <item>
 <title>Is it OK to sentence mine during free-flow immersion instead of intensive-immersion?</title>
 <author>Tatsumoto</author>
@@ -262,48 +281,6 @@ as long as you regularly train your listening ability as well.</p>
 <guid>https://tatsumoto-ren.github.io/blog/should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 16 Feb 2023 14:05:27 +0300</pubDate>
-</item>
-<item>
-<title>Is it important to practice reading tategaki?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>No, you don't have to practice reading tategaki.</p>
-<p>In Japanese, the term tategaki (<code>縦書き</code>) is used to describe text written vertically.
-This style of writing is read from top to bottom, then right to left,
-and was traditionally the standard for Japanese writing.
-However, in modern times,
-horizontal writing is more common due to the prevalence of the internet and other digital media.
-Modern Japanese people often read both horizontal and vertical text.</p>
-<p>You don't have to go out of your way and practice reading text written vertically.
-It is not something to be overly concerned about.
-As someone learning Japanese,
-it is unavoidable to come across vertical text,
-just like it's hard to avoid reading text with kanji.
-So as long as your <a href="whats-immersion.html">immersion</a> is balanced,
-and you regularly read manga or light novels, you're set.
-In light novels and manga text is always vertical, maybe with some exceptions.</p>
-<p>If you only read on a computer screen,
-it is possible that the program you are using to read books shows the text horizontally
-and does not support tategaki.
-If so, don't worry about it too much,
-as manga alone will still provide you with sufficient
-practice to become proficient in reading tategaki.</p>
-<p>Reading tategaki is not difficult.
-I find that reading both vertical and horizontal Japanese is natural,
-and there is no difference in terms of difficulty.
-Even if you totally avoid media that has tategaki,
-it is unlikely to have a major negative impact on your reading ability.
-You still will be able to read vertical Japanese text,
-much like you can read vertical English text.
-Maybe your reading speed will be a bit slower,
-but it's not something that trips people off.</p>
-<p>Ultimately,
-there are more important and challenging aspects of Japanese
-that could benefit from focus and deliberate practice.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-important-to-practice-reading-tategaki.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-important-to-practice-reading-tategaki.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 15 Feb 2023 02:24:50 +0300</pubDate>
 </item>
 </channel>
 </rss>
