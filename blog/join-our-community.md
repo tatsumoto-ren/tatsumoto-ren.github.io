@@ -70,7 +70,8 @@ If you can't or don't want to install a client, use a
 When you join the community, you'll start in *Starting Lounge*.
 This is a room for new members.
 From there you can explore our community
-by following the link in the room's description.
+by following the links in the room's description.
+Note that `matrix.org` users aren't allowed to join any other rooms except Starting Lounge.
 
 If you want to keep in touch from an Android device,
 install [Element for Android](https://f-droid.org/en/packages/im.vector.app/).
