@@ -4,7 +4,7 @@ date: 1619220247
 tags: ['guide', 'dictionaries', 'yomichan']
 ---
 
-[Yomichan](https://foosoft.net/projects/yomichan/) is a browser extension
+Yomichan is a browser extension
 with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Yomichan can be set up to create Anki cards from the words which you look up.
@@ -23,16 +23,38 @@ Your goal is not to mine every word.
 
 ## Installation
 
-Yomichan is available for both Chromium-based and Firefox-based web browsers.
-To install Yomichan, follow one of the download links below.
+Yomichan is not being developed anymore.
+The original developer quit.
+At Ajatt-Tools we have made our own fork and continue to maintain it.
+We call it *Rikaitan*.
 
-* [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/yomichan/)
-* [Chrome Web Store](https://chrome.google.com/webstore/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami)
+Rikaitan is available for Firefox-based web browsers.
+We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
+
+<p align="center">
+<a class="download_button" href="https://addons.mozilla.org/en-US/firefox/addon/rikaitan/">Firefox add-ons</a>
+</p>
 
 In order to be able to create Anki cards later you need the
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
 It can be installed by opening Anki and going to
 Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
+
+If you used Yomichan before, import and export your setting by going to
+"Settings" > "Backup" > "Export/Import settings".
+
+<details>
+
+<summary>Will Rikaitan be available in the Chrome Web Store?</summary>
+
+To upload an extension to the Chrome Web Store I need to
+[register as a developer](https://developer.chrome.com/docs/webstore/register/).
+The process requires paying a one-time registration fee.
+I can't pay it because none of my bank cards work with Google Pay.
+I hope this problem will be resolved eventually.
+If you want to help, please contact me.
+
+</details>
 
 ## Download dictionaries
 
