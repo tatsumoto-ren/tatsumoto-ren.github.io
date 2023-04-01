@@ -67,14 +67,15 @@
 <h1 class="title"><a class="ablack" href="mining-from-movies-and-tv-shows.html">Mining from movies and TV-shows</a></h1>
 <div class="subtitle">June 05, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
-<p><a href="sentence-mining.html">Sentence mining</a> is the process of picking sentences from your immersion and making Anki cards.
+<p><a href="sentence-mining.html">Sentence mining</a>
+is the process of picking sentences from your immersion and making Anki cards.
 Each sentence has one unknown piece of information,
 which is referred to as <em>target word</em>.</p>
 <p>To mine sentences from movies and TV-shows
-you are going to need the mpv video player,
+you are going to need the <code>mpv</code> video player,
 and a plugin for mpv called Mpvacious.</p>
 <hr>
-<h2 id="mpv"><a class="anchor" href="#mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mpv</h2>
+<h2 id="mpv"><a class="anchor" href="#mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MPV</h2>
 <p><code>mpv</code> is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
 <code>mpv</code> is available on most distributions of GNU/Linux.
@@ -85,8 +86,27 @@ To install it on Arch Linux, execute the following command:</p>
 If such a version is not available on your distribution, see
 <a href="https://mpv.io/installation/">here</a>
 for different installation options.</p>
-<p>Start mpv at least once to create the config folder
+<h2 id="mpv-configuration"><a class="anchor" href="#mpv-configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MPV configuration</h2>
+<p>Start <code>mpv</code> at least once to create the config folder
 which will be located at <code>~/.config/mpv/</code>.</p>
+<p><code>mpv</code> reads its configuration from the following directories/files:</p>
+<ul>
+<li><code>~/.config/mpv/mpv.conf</code>.
+The main config file.
+Contains settings related to the player itself.</li>
+<li><code>~/.config/mpv/input.conf</code>. Key bindings.
+Apart from the player's key bindings,
+it can also contain key bindings of third-party user-scripts.</li>
+<li><code>~/.config/mpv/scripts</code>.
+Contains user-scrips.
+User scripts are small programs that extend the player's functionality.
+Usually each user-script is installed in its own folder.</li>
+<li><code>~/.config/mpv/script-opts</code>.
+Config files used by the installed user-scripts.
+Some user-scripts don't have configuration files.</li>
+</ul>
+<p>Note that
+not all the directories or files listed above are created automatically.</p>
 <p>To configure mpv,
 create and open <code>~/.config/mpv/mpv.conf</code>.
 This step is not strictly necessary.</p>
@@ -160,7 +180,7 @@ x sub-step -1
 V script-binding visibility
 </code></pre></div>
 </details>
-<h2 id="download-content"><a class="anchor" href="#download-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download content</h2>
+<h2 id="obtain-content"><a class="anchor" href="#obtain-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain content</h2>
 <p>Always download what you watch.
 This way it's easier to work with the files,
 make Anki cards,
@@ -200,6 +220,13 @@ such as <a href="https://aur.archlinux.org/packages/subtitleedit">subtitleedit</
 <p>Don't forget that if you have English subtitles enabled,
 at best you're going to improve your English,
 but your Japanese is not going to get any better.</p>
+<h2 id="user-scripts-for-mpv"><a class="anchor" href="#user-scripts-for-mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User-scripts for MPV</h2>
+<p><code>mpv</code> is highly configurable and extensible,
+allowing users to customize its interface and functionality.
+One way to do this is through user-scripts,
+which are scripts that can modify <code>mpv</code>'s behavior and add new features.
+User-scripts are written in languages such as Lua or JavaScript.</p>
+<p>You can find a list of user-scripts for <code>mpv</code> <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts">here</a>.</p>
 <h2 id="mpvacious"><a class="anchor" href="#mpvacious" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mpvacious</h2>
 <p><a href="https://github.com/Ajatt-Tools/mpvacious">Mpvacious</a>
 is a user-script for the mpv video player
@@ -244,18 +271,20 @@ If you don't, make sure to adjust at least the following variables:</p>
 <ol>
 <li>Make sure Anki is running.</li>
 <li>Open a video in mpv.</li>
-<li>Press <code>Ctrl+t</code> to activate clipboard autocopy.</li>
-<li>Open your web browser and activate <a href="what-is-yomichan-search.html">Yomichan Search</a>.</li>
-<li>Enable clipboard monitor in Yomichan Search.</li>
-<li>When there is a word you want to mine, create a card with Yomichan.</li>
-<li>Go back to the mpv window and press <code>Ctrl+m</code>.
+<li>Press <kbd>Ctrl</kbd>+<kbd>t</kbd> to activate clipboard autocopy.</li>
+<li>Open <a href="setting-up-goldendict.html">GoldenDict</a>
+or open your web browser and activate <a href="what-is-yomichan-search.html">Yomichan Search</a>.</li>
+<li>Enable GoldendDict's &quot;Scan Popup&quot; or enable clipboard monitor in Yomichan Search.</li>
+<li>When there is a word you want to mine, create a new card.</li>
+<li>Go back to the <code>mpv</code> window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
 If you want to grab a sentence that spans multiple lines,
-press <code>a</code> to open the advanced menu.
+press <kbd>a</kbd> to open the advanced menu.
 Then mark the lines you want to appear on the card
-by pressing <code>c</code> and moving the position with <code>Shift+h</code> and <code>Shift+l</code>.
-Finish by pressing <code>m</code>.</li>
+by pressing <kbd>c</kbd> and moving the position with <kbd>Shift</kbd>+<kbd>h</kbd> and <kbd>Shift</kbd>+<kbd>l</kbd>.
+Finish by pressing <kbd>m</kbd>.</li>
 <li>The Anki Browser window should appear with the card updated.</li>
 </ol>
+<p>See <a href="https://github.com/Ajatt-Tools/mpvacious/tree/master/howto">How to</a> for more detailed explanations.</p>
 <h3 id="creating-cards-without-pausing"><a class="anchor" href="#creating-cards-without-pausing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating cards without pausing</h3>
 <p>You can save sentences for later without adding definitions.
 Since you don't have to pause to read the dictionary, this approach is less disruptive.
@@ -272,6 +301,7 @@ do it using the advanced menu as described in the previous section.</p>
 <p>No.</p>
 <p>Though you often see such recommendations,
 I think it unnecessarily complicates your setup.
+GoldenDict or
 Yomichan Search can do the same thing simpler.</p>
 <p>Tags: <a href="tag_guide.html">guide</a>, <a href="tag_mpv.html">mpv</a></p>
 <!-- text end -->
