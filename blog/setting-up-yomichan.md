@@ -40,7 +40,7 @@ In order to be able to create Anki cards later you need the
 It can be installed by opening Anki and going to
 Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
 
-If you used Yomichan before, import and export your setting by going to
+If you used Yomichan before, export and import your setting by going to
 "Settings" > "Backup" > "Export/Import settings".
 
 <details>
