@@ -61,7 +61,12 @@ They are very effective for studying concrete nouns.
 
 Regardless of the card template,
 you create your cards from words and sentences you encounter while consuming Japanese.
-Learners utilize Yomichan, mpv scripts, Qolibri and other software
+Learners utilize
+[GoldenDict](setting-up-goldendict.html)
+[Qolibri](setting-up-qolibri.html),
+[mpv scripts](mining-from-movies-and-tv-shows.html#user-scripts-for-mpv),
+[Yomichan](setting-up-yomichan.html),
+and [other software](resources.html#dictionaries)
 to make card creation faster and easier.
 
 ## Simple word cards

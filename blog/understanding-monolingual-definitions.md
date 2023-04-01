@@ -111,7 +111,7 @@ For example, `名` means it's a noun, `動五` means it's a `五段活用` verb,
 The part of speech notation can be a bit complex and has to do with 学校文法,
 so I recommend [getting familiar](https://www.kokugobunpou.com/) with that.
 If you have [recursive lookups](setting-up-yomichan.html#recursive-lookups) enabled
-in Yomichan, hover over the part of speech to see what it means.
+in [Yomichan](setting-up-yomichan.html), hover over the part of speech to see what it means.
 
 Sometimes after `[文]` it tells you what part of speech this word was in classical Japanese.
 In the example below it says that the `下一段` verb was `下二段` in classical Japanese.

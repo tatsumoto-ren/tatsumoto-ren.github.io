@@ -43,7 +43,9 @@ As you progress, these tips help less and less.
 
 Making cards doesn't take as much effort as it used to in 2010,
 so it's easy to make a card just in case even if you won't need it.
-With Yomichan you can press the <kbd>+</kbd> button and continue reading.
+With [Yomichan](setting-up-yomichan.html)
+you can press the <kbd>+</kbd> button and continue reading.
+In [GoldenDict](setting-up-goldendict.html) you can use the context menu and click "send to Anki".
 In mpv with mpvacious you press <kbd>Ctrl</kbd>+<kbd>N</kbd>.
 
 Advanced learners definitely don't need any excuses to make a card.

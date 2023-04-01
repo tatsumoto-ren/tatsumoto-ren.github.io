@@ -22,7 +22,7 @@ for the grammar point or word you didn't know.
 
 1) Download and install monolingual
    [dictionaries](yomichan-and-epwing-dictionaries.html)
-   for Yomichan.
+   for GoldenDict, Yomichan, etc.
 2) Keep JMdict enabled ([but hidden](setting-up-yomichan.html#collapse-dictionaries))
    for times when your monolingual dictionaries don't pick up certain words.
    Monolingual dictionaries tend to be smaller than JMdict.

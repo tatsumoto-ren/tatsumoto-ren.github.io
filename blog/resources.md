@@ -586,18 +586,18 @@ Main article: [Mining from manga](mining-from-manga.html).
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
   You can simply extract the entire folder to `~/.local/share/fonts` to install them.
 
-### mpv
+### MPV
 
 `mpv` is the best video player for language learning.
 
 * [Official website](http://mpv.io/)
 * [Arch Wiki page](https://wiki.archlinux.org/title/Mpv)
-* [mpv add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+* [User-scripts for mpv](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 * [mpv for Android](https://github.com/mpv-android/mpv-android)
 
 Make Anki cards in mpv:
 
-* [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+* [Mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 
 ### mpd
 
@@ -688,7 +688,7 @@ Supports EPWING monolingual dictionaries.
   A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
   An EPUB reader for Android
-  that lets you look up words as you read, similarly to Yomichan.
+  that lets you look up words as you read, similarly to [Yomichan](setting-up-yomichan.html).
   Also supports EPWING dictionaries.
 
 ### Video players
@@ -738,7 +738,7 @@ A podcast player for Android.
 
 * Yomichan.
   Yomichan is a browser extension that lets you easily look up unknown words.
-  * [Extension homepage](https://foosoft.net/projects/yomichan/)
+  * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
   * [How to set up Yomichan](setting-up-yomichan.html)
   * [Yomichan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
 * [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en).

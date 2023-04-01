@@ -5,7 +5,7 @@ tags: ['faq']
 position: -9973
 ---
 
-Using OCR software (Tesseract, Transformers) with Yomichan.
+Using OCR software (Tesseract, Transformers) with a dictionary.
 The
 [Mining from manga](mining-from-manga.html)
 article explains how to automate it.
