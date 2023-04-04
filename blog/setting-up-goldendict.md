@@ -143,6 +143,9 @@ On the "Network" tab fill the following fields:
 * Text: Selected text, definition.
 * Sentence: The contents of the search bar.
 
+To create a new Anki card,
+select the definition, right-click and select "Send to Anki".
+
 ## Mpvacious setup
 
 > More information on Mpvacious is provided on subsequent pages.

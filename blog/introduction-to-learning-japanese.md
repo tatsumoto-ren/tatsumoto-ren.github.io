@@ -126,12 +126,14 @@ To find easy anime you can [search MAL](what-good-things-are-there-to-watch-for-
 
 The more *language-dense* your immersion content is, the better.
 It's a good idea to choose content where people talk a lot, with some caveats.
+
 * In general podcasts and radio are more challenging for beginners,
   and they rarely have transcriptions.
   Learning from such content is harder than, say, anime,
   where you can open a subtitle file and look up unknown words.
   I recommend podcasts for intermediate learners and above.
-* Songs contain unnatural sentence structures, grammar, word choice.
+* [Songs](is-music-a-good-way-to-learn-japanese.html)
+  contain unnatural sentence structures, grammar, word choice.
   They tend to use more "poetic", uncommon words.
   Sometimes if a word can be read many ways,
   they choose to sing the less common version.

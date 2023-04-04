@@ -150,7 +150,8 @@ If you're an advanced learner,
 it is okay to use purely audio-based material such as podcasts
 as one of the primary sources of both passive and active immersion.
 
-Music is the worst content for passive immersion.
+[Music](is-music-a-good-way-to-learn-japanese.html)
+is the worst content for passive immersion.
 It contains unnatural speech, and it is difficult to hear the lyrics.
 We tend to mishear lyrics even when we listen to songs in our native language.
 
