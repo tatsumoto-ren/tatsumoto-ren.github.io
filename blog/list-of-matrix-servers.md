@@ -190,7 +190,6 @@ without having to use a desktop client.
 * https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
 * https://element.avlikos.gr/ 🏆
-* https://chat.inscomers.net/ 🏆
 * https://matrix.pittamitz.at/ 🏆
 * https://matrix.dandl.bayern/ 🏆
 * https://chat.samtripoli.com/ 🏆
