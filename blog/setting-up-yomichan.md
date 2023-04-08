@@ -406,15 +406,15 @@ It is helpful when reading manga, books, or watching videos in `mpv`.
 By clicking on
 ![play-audio](https://foosoft.net/projects/yomichan/ext/images/play-audio.svg)
 you can hear an approximate pronunciation of the selected word.
-Unless you're using a custom pronunciation server, don't trust the default audio sources
+Unless you're using a custom pronunciation server, **don't trust** the default audio sources
 and don't add the pronunciations to Anki for the reasons explained earlier.
 
-[Yomichan Forvo Server](https://ankiweb.net/shared/info/580654285)
+[AJT Japanese](https://ankiweb.net/shared/info/1344485230)
 for Anki 2.1 solves the problem with pronunciations
 by letting you add a custom audio source
 that features pronunciations made by native speakers.
-To install and set it up please follow the instructions on the add-on page.
-The add-on is also available on [GitHub](https://github.com/jamesnicolas/yomichan-forvo-server).
+The audio files will be downloaded and added to Anki
+whenever a new cards is created or an existing card is updated.
 
 The ![plus](https://foosoft.net/projects/yomichan/img/btn-add-expression.png) button
 allows you to make Anki cards in one click.
