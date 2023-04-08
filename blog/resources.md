@@ -576,11 +576,14 @@ Main article: [Mining from manga](mining-from-manga.html).
   A good brush font.
   Supports around 13,000 characters.
 * [Asebi Mincho](https://metasta.github.io/asebi/).
-  A font that displays all 新字体 kanji in their 旧字体(正字体) form,
+  A font that displays all `新字体` kanji in their `旧字体`(`正字体`) form,
   including all the undocumented changes as well.
 * [花園明朝](http://fonts.jp/hanazono/).
   This font is made by the `glyphwiki` project and supports all Unicode characters.
   A perfect back-up font.
+* [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
+  A font that imitates handwriting.
+  The font covers all `JIS第２水準` kanji characters.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
