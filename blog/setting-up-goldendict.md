@@ -194,6 +194,12 @@ Disabling "Edit" > "Dictionary bar" hides toggleable dictionaries.
 
 A wider search bar is more convenient when editing pasted sentences.
 
+### Set example sentence
+
+If a dictionary has example sentences, it is possible to send an example to the *translate line*
+before making an Anki card.
+To do so, select the sentence, right-click and choose "Send <sentence> to the input line".
+
 ### Remove duplicate display of EPWING headwords
 
 Paste the code below in a file named `article-style.css`
@@ -243,7 +249,7 @@ Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on styl
 ## Conclusion
 
 GoldenDict is an excellent tool that offers users a comprehensive range of features.
-It is easy to install, set up, and users have access to a large number of dictionaries.
+It is easy to install, set up, and users have access to many dictionaries.
 The program is capable of generating Anki cards,
 which is ideal for people doing AJATT.
 Additionally, the option to create tabs makes it possible to do recursive look-ups.
