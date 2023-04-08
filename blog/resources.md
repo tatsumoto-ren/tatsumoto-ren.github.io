@@ -399,6 +399,34 @@ You may need a Japanese IP address for some of these.
 * [This gist](https://gist.github.com/tatsumoto-ren/78ba4e5b7c53c7ed2c987015fa05cc2b)
 * [Japanese Movie Subtitles](https://github.com/eurusdagr/Japanese-Movies-Subtitles)
 
+## Fonts
+
+* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
+  Google Noto TTF fonts.
+  * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
+  * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
+* [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
+  The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
+* [IPAフォント](https://wikiless.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
+  Install the [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/) package group.
+* [Kanji stroke order font](https://www.nihilist.org.uk/)
+* [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
+  A good brush font.
+  Supports around 13,000 characters.
+* [Asebi Mincho](https://metasta.github.io/asebi/).
+  A font that displays all `新字体` kanji in their `旧字体`(`正字体`) form,
+  including all the undocumented changes as well.
+* [花園明朝](http://fonts.jp/hanazono/).
+  This font is made by the `glyphwiki` project and supports all Unicode characters.
+  A perfect back-up font.
+* [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
+  A font that imitates handwriting.
+  The font covers all `JIS第２水準` kanji characters.
+* [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
+  The fonts I use.
+  Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
+  You can simply extract the entire folder to `~/.local/share/fonts` to install them.
+
 ## Software
 
 ### Recommendations
@@ -431,6 +459,12 @@ You may need a Japanese IP address for some of these.
   A free/libre flashcard application.
 * [Trackma](https://github.com/z411/trackma).
   Track your immersion on one of the supported sites.
+
+### Localization
+
+* [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
+* [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
+* [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
 
 ### Image viewers
 
@@ -554,40 +588,6 @@ Main article: [Mining from manga](mining-from-manga.html).
   Ebook management application.
   This program is primarily used to convert from various formats (including azw3) to epub.
   It's not very good as a reader app.
-
-### Localization
-
-* [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
-* [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
-* [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
-
-### Fonts
-
-* [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
-  Google Noto TTF fonts.
-  * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
-  * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
-* [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
-  The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
-* [IPAフォント](https://wikiless.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
-  Install the [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/) package group.
-* [Kanji stroke order font](https://www.nihilist.org.uk/)
-* [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
-  A good brush font.
-  Supports around 13,000 characters.
-* [Asebi Mincho](https://metasta.github.io/asebi/).
-  A font that displays all `新字体` kanji in their `旧字体`(`正字体`) form,
-  including all the undocumented changes as well.
-* [花園明朝](http://fonts.jp/hanazono/).
-  This font is made by the `glyphwiki` project and supports all Unicode characters.
-  A perfect back-up font.
-* [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
-  A font that imitates handwriting.
-  The font covers all `JIS第２水準` kanji characters.
-* [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
-  The fonts I use.
-  Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
-  You can simply extract the entire folder to `~/.local/share/fonts` to install them.
 
 ### MPV
 
