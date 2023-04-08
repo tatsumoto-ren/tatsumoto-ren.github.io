@@ -44,7 +44,7 @@ and for the most decent ones I have written short [reviews](resources.html#readi
 `crqt-ng` is what I use these days.
 It does a lot of things right.
 
-* It runs natively, without nasty technologies like Electron.
+* It runs natively, without nasty technologies like Electron, JavaScript, etc.
 * It can display furigana correctly.
 * You can set up Japanese fonts instead of Chinese fonts,
   which is important because Chinese kanji and Japanese kanji
