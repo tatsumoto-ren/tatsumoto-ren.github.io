@@ -36,6 +36,7 @@ date: 1616375454
 	* [Reviewing Anki cards](how-to-review.html)
 * Tools and card creation
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
+	* [Japanese support add-on](anki-japanese-support.html)
 	* [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
 	* [YouTube](immersion-with-youtube.html)
 	* [Manga](mining-from-manga.html)
