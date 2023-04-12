@@ -149,7 +149,7 @@ If you practice a lot, you can do it within a couple of days.
 * Very simple and straightforward.
 
 I don't recommend learning vocabulary or kanji using this app.
-Anki is way better for this purpose and will serve you well throughout your AJATT journey.
+Anki is way better for this purpose and will serve you well throughout your [AJATT](whats-ajatt.html) journey.
 
 <p align="center"><img width="320px" alt="main menu" src="img/kakugo-main.webp"></p>
 <p align="center"><i>Main menu.</i></p>

@@ -5,7 +5,7 @@ tags: ['faq']
 position: -9925
 ---
 
-Studying **anything** is not required for using the AJATT method.
+Studying **anything** is not required for using the [AJATT](whats-ajatt.html) method.
 AJATT is about acquiring a language through immersion.
 At the core there's the idea that if infants can do it, adults can too.
 Instead of studying ajatters make effort to understand messages in the language when they immerse.
