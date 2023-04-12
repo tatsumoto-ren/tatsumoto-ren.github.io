@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Free Software to learn Japanese, and more." />
+<meta name="author" content="Tatsumoto" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency" />
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="/img/logo.webp"/>
+<title>Japanese support for Anki</title>
+<meta property="og:title" content="Japanese support for Anki">
+<meta property="og:site_name" content="Tatsumoto Ren">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/anki-japanese-support.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<input type="checkbox" id="menu-btn" />
+<header>
+<a href="index.html" class="logo">
+<img alt="達元" src="/img/logo.webp" />
+<span>Tatsumoto</span>
+</a>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
+</header>
+<div id="sidebar">
+<div class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</div>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article timestamp="1681292213" position="0">
+<h1 class="title"><a class="ablack" href="anki-japanese-support.html">Japanese support for Anki</a></h1>
+<div class="subtitle">April 12, 2023 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p><a href="setting-up-anki.html">Anki</a>
+can be used
+to learn a variety of different subjects,
+including languages.
+What makes Anki such a fantastic tool for Japanese learners is the vast array of plugins or &quot;add-ons&quot;
+that extend its functionality.
+One of the most useful add-ons for learning Japanese is
+<a href="https://ankiweb.net/shared/info/1344485230">AJT Japanese</a>.
+Its main features include
+adding furigana,
+adding pitch accent information,
+and adding pronunciation audio files to Anki cards.</p>
+<hr>
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>The installation process is similar to other Anki plugins and can be accomplished in three steps:</p>
+<ol>
+<li>Open the &quot;Install Add-on&quot; dialog by selecting &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Get Add-ons...&quot; in Anki.</li>
+<li>Input <code>1344485230</code> into the text box labeled <code>Code</code> and press the OK button to proceed.</li>
+<li>Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.</li>
+</ol>
+<h2 id="overview"><a class="anchor" href="#overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p>The AJT Japanese add-on provides a range of features
+to make learning Japanese easier.
+The main feature is the furigana generation,
+which automatically adds <a href="https://ja.wikipedia.org/wiki/%E6%8C%AF%E3%82%8A%E4%BB%AE%E5%90%8D">furigana</a>
+— readings of kanji characters.
+The readings appear as small kana characters above the kanji.
+When a card is created or modified by the user,
+furigana will be placed to a dedicated field,
+allowing the user to learn how words should be read.
+If a word has many readings,
+the add-on will print a list of readings, separated by commas by default.
+The learner needs to be aware that a word can be read different ways
+and learn the reading relevant to the example sentence the word is used in.</p>
+<p><strong>Note:</strong> Apart from some corner cases,
+we always recommend <a href="discussing-various-card-templates.html#targeted-sentence-cards">having an example sentence</a>
+displayed on the front side of a flashcard.
+Words never exist in isolation, people use them to form sentences.
+Without reading a usage example it is nearly impossible to reason
+about the meaning or reading of a word.</p>
+<p>Another important aspect of the Japanese language is pitch accent.
+<a href="https://ja.wikipedia.org/wiki/%E9%AB%98%E4%BD%8E%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88">Pitch accent</a>
+is taken very seriously among Japanese learners,
+and especially among AJATTers.
+Most people study it diligently.
+If you don't know pitch accent of a word, you don't know how to say it.
+AJT Japanese offers two ways to add pitch accent information to your Anki cards.
+It can add pitch numbers or pitch patterns to cards.
+Pattern and number can be placed in separate fields or combined in one field.
+Pitch accent <strong>pattern</strong> indicates the rising and falling tone that occurs when speaking.
+Pitch accent <strong>number</strong> indicates the number of a <a href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%A9">mora</a>
+after which the tone of the voice <strong>drops</strong> from high to low,
+when counting morae from the beginning of the word.
+Most of the time pitch drops only once in a given word,
+so its entire accent can be represented with one number.
+In a few corner cases the add-on will output two digits.</p>
+<p>Of course,
+the best way to learn correct pronunciation is to hear it.
+AJT Japanese includes built-in support for adding pronunciation audio to your cards.
+By default, it comes with audio sources provided by Ajatt-Tools,
+and supports adding custom sources.
+Any user can create their own audio sources.
+The audio files provided by default come from Japanese accent dictionaries,
+so they are pretty accurate.
+Audio sources can be online or offline.
+Online audio sources fetch audio files from the internet,
+whilst offline audio sources are stored locally.
+If you have additional disk space on your computer,
+it is recommended to download and use offline sources
+to ensure that audio files are added instantly.
+The default audio sources are online.</p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>If you have fields named <code>VocabKanji</code>, <code>VocabFurigana</code>, <code>VocabPitchPattern</code>, <code>VocabAudio</code> on your notes,
+the lookups will be performed on the <code>VocabKanji</code> field,
+furigana will be added to the <code>VocabFurigana</code> field,
+accents will be added to the <code>VocabPitchPattern</code> field,
+and audio will be added to the <code>VocabAudio</code> field.</p>
+<video width="1032" autoplay loop controls muted>
+    <source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
+<p>To generate readings, accents and audio,
+focus in the <code>VocabKanji</code> field and press <kbd>Tab</kbd> or switch focus away from the field.</p>
+<p>You can change field names or add more source and destination fields in Options.</p>
+<p>When a new card is created via AnkiConnect
+(by using <a href="setting-up-yomichan.html">Yomichan</a>, <a href="setting-up-goldendict.html">GoldenDict</a>, etc.),
+the add-on detects such events and will append the needed information to the card as well.</p>
+<p>In the Anki Browser's toolbar you will find the following buttons:</p>
+<ul>
+<li>Regenerate all fields.
+A shortcut that allows you to replace all readings,
+accents and audio files with freshly generated information.</li>
+<li>Generate furigana in field.
+Replace the content of the current field with the same text but with furigana added.</li>
+<li>Reconvert field as hiragana.
+Replace all kanji with their kana readings.</li>
+<li>Clean furigana in field.
+Remove all text in brackets, effectively removing furigana.</li>
+</ul>
+<p>Some of these buttons are off by default.
+Check the configuration.</p>
+<p>In the Anki Browser's context menu actions you will find the following options:</p>
+<ul>
+<li>Pitch accent lookup.
+Show a window with the currently selected text split into individual words,
+with pitch accent information shown next to each word.</li>
+<li>Furigana for selection.
+Add furigana to the selected text.</li>
+<li>Convert to katakana.
+Replace hiragana characters with katakana characters.</li>
+<li>Convert to hiragana.
+Replace katakana characters with hiragana characters.</li>
+<li>Literal pronunciation.
+Convert selected text to a form that resembles the way it is actually pronounced.
+Implies conversion to katakana and replacement of certain characters.</li>
+</ul>
+<h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<p>To configure the add-on, open Anki and select &quot;AJT&quot; &gt; &quot;Japanese Options...&quot;.</p>
+<h2 id="profiles"><a class="anchor" href="#profiles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiles</h2>
+<p>Each of the three main features works according to profiles
+which are created by the user.
+A profile specifies a source field, a destination field, and what triggers the profile.
+When the specified conditions are met, the profile invokes a task associated with it.
+For example, when the Note Type is Japanese and the source field is <code>VocabKanji</code>,
+the task is to write furigana to the <code>VocabFurigana</code> field.</p>
+<p>The <code>split morphemes</code> setting determines whether an input string should be split into words.
+It makes sense to enable splitting for fields that are expected to contain more than one word,
+but keep it disabled for fields that are expected to contain only one word.</p>
+<h2 id="audio-files"><a class="anchor" href="#audio-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio files</h2>
+<p>AJT Japanese can add audio files from accent dictionaries to Anki cards.
+To set up audio profiles and audio sources,
+go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Audio&quot;.</p>
+<p>Add at least one audio profile, selecting the source and destination fields.</p>
+<p>Below Profiles, you will see a list of loaded audio sources.
+Sources can be enabled or disabled.
+Each source is given an arbitrary name and a URL that points to its index file.</p>
+<p>When a new source is added, AJT Japanese downloads its index file
+and figures out where to find audio files and what audio files are available
+based on information stored in it.</p>
+<h4 id="online-audio-sources"><a class="anchor" href="#online-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Online audio sources</h4>
+<p>Audio files are stored remotely, only the index file is downloaded.
+When requested, AJT Japanese downloads audio files from the Internet, using the provided URLs.
+All default audio sources are online audio sources.</p>
+<p>To add a new online audio source,
+paste the URL of the index and give it a unique name.</p>
+<p><strong>Currently available online audio sources:</strong></p>
+<ul>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_extended.zip">NHK accent dictionary, 2016, extended</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_standard.zip">NHK accent dictionary, 2016, standard</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.0/NHK_main.zip">NHK accent dictionary, 1998</a>.</li>
+</ul>
+<h4 id="offline-audio-sources"><a class="anchor" href="#offline-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline audio sources</h4>
+<p>Audio files are stored locally, on the hard drive.
+When requested, AJT Japanese copies the needed files to the Anki collection.</p>
+<p>To add a new offline audio source,
+you need to download its entire folder with all audio files (usually a few hundred <code>MiB</code>).
+In the folder you will find a file named <code>index.json</code>.
+Copy the full path to the file and paste it into the &quot;URL&quot; field.
+Give it a unique name.
+The add-on will figure out the rest based on the information inside the json file.</p>
+<p><strong>Currently available offline audio sources:</strong></p>
+<ul>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/extended.zip">NHK accent dictionary, 2016, extended</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/standard.zip">NHK accent dictionary, 2016, standard</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip">NHK accent dictionary, 1998</a>.</li>
+</ul>
+<p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
+<p align="center"><i>Screenshot.</i></p>
+<h4 id="creating-a-custom-audio-source"><a class="anchor" href="#creating-a-custom-audio-source" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a custom audio source</h4>
+<p>To create a new audio source from scratch,
+the first thing you will need is a large folder with audio files
+featuring native speech recordings.
+Name this folder <code>media</code>.</p>
+<p>Next, create the index file for AJT Japanese and name it <code>index.json</code>.
+It should contain the following data:</p>
+<ul>
+<li>Information about the source.</li>
+<li>What words correspond to what files.</li>
+<li>Information about each audio file.</li>
+</ul>
+<details>
+<summary>Example index.json file</summary>
+<div class="pre-wrap"><pre><code>{
+    &quot;meta&quot;: {
+        &quot;name&quot;: &quot;My audio source&quot;,
+        &quot;year&quot;: 2023,
+        &quot;version&quot;: 2,
+        &quot;media_dir&quot;: &quot;media&quot;
+    },
+    &quot;headwords&quot;: {
+        &quot;私&quot;: [&quot;file1.ogg&quot;, &quot;file2.ogg&quot;],
+        &quot;僕&quot;: [&quot;file3.ogg&quot;, &quot;file4.ogg&quot;]
+    },
+    &quot;files&quot;: {
+        &quot;file1.ogg&quot;: {
+            &quot;kana_reading&quot;: &quot;わたし&quot;,
+            &quot;pitch_pattern&quot;: &quot;わたし━&quot;,
+            &quot;pitch_number&quot;: &quot;0&quot;
+        },
+        &quot;file2.ogg&quot;: {
+            &quot;kana_reading&quot;: &quot;わたくし&quot;,
+            &quot;pitch_pattern&quot;: &quot;わたくし━&quot;,
+            &quot;pitch_number&quot;: &quot;0&quot;
+        }
+    }
+}
+</code></pre></div>
+</details>
+<ul>
+<li><code>name</code> — the name of the audio source.</li>
+<li><code>year</code> — when the audio files were created.</li>
+<li><code>version</code> — version of the <code>json</code> file, in case the format will change in the future.</li>
+<li><code>media_dir</code> — relative path to the <code>media</code> directory,
+the folder where the audio files are stored.</li>
+<li><code>media_dir_abs</code> — absolute path to the <code>media</code> directory.
+This property takes precedence over <code>media_dir</code>.
+It is optional and is intended to be specified when <code>index.json</code> and the <code>media</code> folder
+are in different locations.</li>
+</ul>
+<p>The <code>headwords</code> sub-dictionary maps words to files.
+For each word specify what files represent its pronunciation.</p>
+<p>The <code>files</code> sub-dictionary maps files to their properties.
+Supported keys: <code>kana_reading</code>, <code>pitch_pattern</code>, <code>pitch_number</code>.
+At least <code>kana_reading</code> should be present.</p>
+<p>When you finish creating the <code>index.json</code> file,
+add it as a new source in Options.</p>
+<h2 id="overrides"><a class="anchor" href="#overrides" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overrides</h2>
+<p>This table allows you to enter information about words that AJT Japanese doesn't know about.
+The data applies to readings and pitch accents.
+If pitch accent of a word is not known, you can insert <code>?</code> in the &quot;Pitch accent&quot; field.
+If a word has multiple pitch accents, specify them separated by commas, e.g. <code>1,2</code>.</p>
+<h2 id="conclusion"><a class="anchor" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>Overall, AJT Japanese is an incredibly powerful tool
+for anyone who is serious about learning Japanese.
+Its furigana generation,
+multiple readings support,
+pitch accent information,
+and pronunciation audio make it an essential addition to any Japanese learner's toolbox.
+With its range of features,
+it can help learners of all levels become more confident in their Japanese language skills.
+Best of all,
+it's completely free/libre and easy to use.
+Give it a try and see how it can help you master the Japanese language!</p>
+<p>Tags: <a href="tag_guide.html">guide</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="table-of-contents.html">Table of Contents</a></li>
+<li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="tag_faq.html">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="setting-up-anki.html">Setup</a></li>
+<li><a href="how-to-review.html">How to study</a></li>
+<li><a href="tag_decks.html">Decks</a></li>
+<li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Software</h3>
+<ul>
+<li><a href="setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="tag_yomichan.html">Yomichan</a></li>
+<li><a href="tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="tag_matrix.html">Matrix</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="feed.rss">RSS</a></li>
+<li><a href="join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
+<p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto 2020-2023</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>
