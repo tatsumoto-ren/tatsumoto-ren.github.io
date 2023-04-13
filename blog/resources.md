@@ -453,15 +453,18 @@ You may need a Japanese IP address for some of these.
 * [LibreWolf](https://librewolf-community.gitlab.io/).
   A web browser based on Firefox that comes with an Ad Block by default.
 
-  I recommend getting LibreWolf [from Chaotic](https://aur.chaotic.cx/),
-  but you can also build it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
+  I recommend getting LibreWolf
+  [from Chaotic](https://aur.chaotic.cx/)
+  or from [archlinuxcn](https://github.com/archlinuxcn/repo)
+  so that you don't have to build it yourself,
+  but you can also get it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
 
   Additionally, there's [pyllyukko user.js](https://github.com/pyllyukko/user.js)
   to harden the configuration.
   Before installing I recommend reading the `user.js`
   and commenting out the settings you don't need
   because no `user.js` can suit everybody's needs unmodified.
-* [Anki](https://wiki.archlinux.org/title/Anki)
+* [Anki](setting-up-anki.html)
   A free/libre flashcard application.
 * [Trackma](https://github.com/z411/trackma).
   Track your immersion on one of the supported sites.
