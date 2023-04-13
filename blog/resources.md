@@ -356,6 +356,11 @@ A shared folder with movies and other content with Japanese dubs.
 
 ### Audiobooks
 
+* Japanese Audiobook Collection
+  * [Part 1](https://nyaa.si/view/1616763)
+  * [Part 2](https://nyaa.si/view/1616764)
+  * [Part 3](https://nyaa.si/view/1616765)
+  * [Part 4](https://nyaa.si/view/1616766)
 * [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
 
 ### Podcasts
