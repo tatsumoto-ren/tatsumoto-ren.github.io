@@ -58,9 +58,12 @@ to avoid possible issues.
   [anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/)
   from the AUR.
 
-  Anki is also available in Chaotic.
-  [Chaotic](https://aur.chaotic.cx/) is a repository that provides prebuilt AUR packages.
-  After you enable the repository,
+  Anki is also available in third-party repositories:
+  [Chaotic](https://aur.chaotic.cx/) and
+  [archlinuxcn](https://github.com/archlinuxcn/repo).
+  These are repositories that provide prebuilt AUR packages
+  so that users don't need to build such packages themselves.
+  After you enable a third-party repository,
   install Anki with `sudo pacman -S anki` as any other package.
 * If you're not an Arch Linux user,
   I'm sure you'll find Anki in repositories of your distribution.
