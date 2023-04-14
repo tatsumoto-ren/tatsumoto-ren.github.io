@@ -5,9 +5,43 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 12 Apr 2023 12:44:31 +0300</lastBuildDate>
-<pubDate>Wed, 12 Apr 2023 12:44:31 +0300</pubDate>
+<lastBuildDate>Fri, 14 Apr 2023 18:37:52 +0300</lastBuildDate>
+<pubDate>Fri, 14 Apr 2023 18:37:52 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>How much of my immersion should I understand?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>The answer is simple: you should aim to understand 100% of your immersion.
+Everything.
+One hundred percent.
+Every time you come across an unfamiliar word or phrase,
+it is a problem, and it has to be fixed.
+Don't hesitate to take action, you've got thousands of words to acquire.
+The ultimate goal is to reach a point where each unknown word is so rare
+that it stands out, and you just can't ignore it.</p>
+<p>When starting to learn a new language,
+it's normal to understand nothing at first.
+The first step is to train your ears to hear the sounds of the language, which can take time.
+The next step is to immerse for thousands of hours and learn lots of grammar and vocabulary,
+required to reach fluency.
+The more time you invest, the more your language skills will improve.</p>
+<p>To tackle the initial challenge of not understanding,
+it's advisable to prioritize <a href="basic-vocabulary.html">basic vocabulary</a> in the beginning.
+By spending your first month or two on learning the most common words of the language
+you can quickly improve your comprehension and
+start to understand everyday conversations quite well.
+You can then continue learning by mining example sentences from your input,
+starting with slice of life shows
+and eventually moving towards more sophisticated media.</p>
+<p><em>Frontloading</em> the most frequently used words is perhaps one of the most significant techniques
+in mastering the target language,
+which I personally found very helpful in the beginning.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-much-of-my-immersion-should-i-understand.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-much-of-my-immersion-should-i-understand.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Fri, 14 Apr 2023 18:37:32 +0300</pubDate>
+</item>
 <item>
 <title>Japanese support for Anki</title>
 <author>Tatsumoto</author>
@@ -233,48 +267,6 @@ don't expect to gain any competence in the language.</p>
 <guid>https://tatsumoto-ren.github.io/blog/luke-smith-and-consuming-media.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 27 Feb 2023 06:04:38 +0300</pubDate>
-</item>
-<item>
-<title>When reviewing cards, if I could only remember a word due to the surrounding context, how should I grade the card?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>This means that you've formed a <a href="discussing-various-card-templates.html#pros-and-cons-of-sentence-cards">context-dependent memory</a>.
-Context-dependent memories can form no matter what card template you're using,
-including word cards,
-since no context is a type of context in itself.
-If you find that you can't remember a particular word on an Anki card,
-and you are only able to understand it due to the context of the sentence,
-it implies that the card is not meeting its intended purpose
-of helping you recognize and comprehend the word.</p>
-<p>Unfortunately, there is no quick fix for context-dependent memories.
-It takes time and exposure to the word in various contexts to fully acquire it.
-If the card isn't fulfilling its intended purpose,
-failing it or grading it good will not make any difference.
-After you've successfully identified that the card is not helping you,
-the best course of action is to modify the card by either swapping the sentence with another
-one or converting it to a word card when applicable.
-An argument against this would be the time it takes to edit the card,
-but it's probably not that difficult and time-consuming these days
-since with <a href="plumbing-for-language-learners.html">cabl</a> you have example sentences at your fingertips.</p>
-<p>The final decision is up to you.
-Personally,
-I prefer not to fail the card since relearning it won't correct the flawed memory.
-Instead, I do one or the combination of the following:</p>
-<ul>
-<li>Swap the card with a different card with the same target word.</li>
-<li>Introduce a second card with the same target word (there's <a href="sentence-mining.html#many-cards-for-one-word">a caveat</a> though).</li>
-<li>Edit the card and swap the sentence.</li>
-<li>Do nothing, just proceed with my reviews and hope to eventually learn the word properly through immersion.</li>
-</ul>
-<p>If you believe that failing the card will be beneficial in some way,
-then there is fundamentally nothing wrong with that.
-However, should you continue to fail it, the card will eventually become a leech.
-If Anki suspends the card,
-you need to create a new one with the same target word but a different sentence.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/i-can-only-remember-word-due-to-context.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/i-can-only-remember-word-due-to-context.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 24 Feb 2023 01:13:08 +0300</pubDate>
 </item>
 </channel>
 </rss>
