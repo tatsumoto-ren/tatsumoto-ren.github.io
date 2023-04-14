@@ -141,7 +141,7 @@ On the "Network" tab fill the following fields:
 * Model: The name of your Note Type
 * Word: Headword, vocabulary
 * Text: Selected text, definition.
-* Sentence: The contents of the search bar.
+* Sentence: The contents of the translate line.
 
 To create a new Anki card,
 select the definition, right-click and select "Send to Anki".
@@ -179,9 +179,14 @@ and automatically perform lookups new text is copied.
 To *enable scanning*, you can click on the light bulb icon on the toolbar.
 The feature can be configured under "Preferences" <kbd>F4</kbd> > "Scan Popup".
 
-### Make the search bar larger
+### Focus the translate line
 
-Japanese characters look tiny on the search bar.
+Pressing <kbd>Ctrl</kbd>+<kbd>L</kbd> puts the mouse cursor inside the translate line.
+This keyboard shortcut is the same as in web browsers, such as Firefox, so it's easy to remember.
+
+### Make the translate line larger
+
+Japanese characters look tiny on the translate line.
 But you can click on it and press <kbd>Alt</kbd>+<kbd>+</kbd>
 to make it bigger.
 
@@ -192,7 +197,7 @@ Disabling "Edit" > "Dictionary bar" hides toggleable dictionaries.
 <p align="center"><img class="shadow" alt="toolbar" src="img/goldendict-toolbar.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
 
-A wider search bar is more convenient when editing pasted sentences.
+A wider translate line is more convenient when editing pasted sentences.
 
 ### Set example sentence
 
