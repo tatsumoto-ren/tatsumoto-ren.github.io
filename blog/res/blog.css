@@ -1240,7 +1240,6 @@ article img[float=left] {
 article .article-note {
     --paint-with: green;
 
-    font-weight: normal;
     color: var(--paint-with);
     display: inline-flex;
     flex-flow: row nowrap;
