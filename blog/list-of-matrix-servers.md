@@ -179,7 +179,6 @@ without having to use a desktop client.
 * https://chat.darkcloud.ca/
 * https://element.georgefloyd.link/
 * https://chat.cfx.re/ 🏆
-* https://element.cpn.so/ 🏆
 * https://matrix.dpin.de/ 🏆
 * https://chat.vscape.tk/ 🏆
 * https://matrix.radu.at/ 🏆
@@ -187,12 +186,10 @@ without having to use a desktop client.
 * https://chat.mistli.net/ `matrix.mistli.net` 🏆
 * https://fsoc.lol/matrix/ 🏆
 * https://riot.shendai.rip/ 🏆
-* https://chat.mypagenow.de/ 🏆
 * https://matrix.okoyono.de/ 🏆
 * https://element.avlikos.gr/ 🏆
 * https://matrix.pittamitz.at/ 🏆
 * https://matrix.dandl.bayern/ 🏆
-* https://chat.samtripoli.com/ 🏆
 * https://chat.dresden.network/ 🏆
 * https://element.crossbach.de/ 🏆
 * https://element.schaeferit.de/ 🏆
@@ -203,7 +200,6 @@ without having to use a desktop client.
 * https://element.radiowarnerd.org/ 🏆
 * https://element.fablabchemnitz.de/ 🏆
 * https://matrix-client.seditio.xyz/ 🏆
-* https://element.divided-by-zero.eu/ 🏆
 * https://comf.chat/
 * https://web.yuri.im/
 * https://matrix.base8.org/
@@ -239,7 +235,6 @@ without having to use a desktop client.
 * https://ngonbay.com/
 * https://chat.leel.ch/
 * https://im.skytel.ee/
-* https://mazc.riot.im/
 * https://talk.comm.cx/
 * https://chat.gould.cx/
 * https://chat.vyas.net/
@@ -264,9 +259,7 @@ without having to use a desktop client.
 * https://riot.tzchat.org/
 * https://webchat.kde.org/
 * https://element.fff.chat/
-* https://matrix.n3xus.one/
 * https://matrix.boba.chat/
-* https://element.hope.net/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
 * https://3000.chat/element/
@@ -285,7 +278,6 @@ without having to use a desktop client.
 * https://riot.qonfucius.social/
 * https://crystal-temple.flak.is/
 * https://element.fatherjim.tech/
-* https://chat.synistersyntax.com/
 * https://element.privacytools.io/
 * https://element.thisisjoes.site/
 * https://element.midov.pl/element/
@@ -315,13 +307,9 @@ and change the server from the default to the one you want.
 * https://faelix.im/ 🏆
 * https://ruzik.xyz/ 🏆
 * https://denshi.org/ 🏆
-* https://mat.amo.ms/ 🏆
 * https://obermui.de/ 🏆
 * https://kssler.win/ 🏆
 * https://priv8.chat/ 🏆
-* https://3x3cut0r.de/ 🏆
-* https://jfrumen.com/ 🏆
-* https://im.tnode.eu/ 🏆
 * https://www.hellug.gr/
 * https://citadel7.org/ 🏆
 * https://lukas.studio/ 🏆
@@ -344,10 +332,8 @@ and change the server from the default to the one you want.
 * https://matrix.rptc.bid/ 🏆
 * https://matrix.cirk2.de/ 🏆
 * https://matrix.wfrei.de/ 🏆
-* https://matrix.daspr.io/ 🏆
 * https://matrix.knax.xyz/ 🏆
 * https://schaffarzik.net/ 🏆
-* https://chat.jit.social/ 🏆
 * https://tetaneutral.net/ 🏆
 * https://plus-sensible.me/ 🏆
 * https://skylinetv.stream/ 🏆
@@ -388,13 +374,8 @@ and change the server from the default to the one you want.
 * https://matrix.net4sec.com/ 🏆
 * https://matrix.nord.digital/ 🏆
 * https://chat.deprecated.org/ 🏆
-* https://matrix.catchra.host/ 🏆
 * https://matrix.dunkklar.org/ 🏆
-* https://matrix.kengstrom.se/ 🏆
 * https://matrix.googboog.com/ 🏆
-* https://matrix.chaospott.de/ 🏆
-* https://matrix.spectreos.de/ 🏆
-* https://matrix.caracals.org/ 🏆
 * https://matrix.heiming.info/ 🏆
 * https://gottliebtfreitag.de/ 🏆
 * https://matrix.solonari.net/ 🏆
@@ -402,7 +383,6 @@ and change the server from the default to the one you want.
 * https://matrix.zoz-serv.org/ 🏆
 * https://matrix.csrichter.com/ 🏆
 * https://matrix.jerrycrazy.be/ 🏆
-* https://matrixtest.strits.dk/ 🏆
 * https://matrix.foreskin.tips/ 🏆
 * https://matrix.danyocean.com/ 🏆
 * https://matrix.linuxbrujo.net/ 🏆
@@ -411,7 +391,6 @@ and change the server from the default to the one you want.
 * https://matrix.muensterhack.de/ 🏆
 * https://matrix.otonokizaka.moe/ 🏆
 * https://riot.markshorten.co.uk/ 🏆
-* https://matrix.adamcogswell.com/ 🏆
 * https://matrix.budem.de/_matrix/ 🏆
 * https://matrix.leipzigesports.de/ 🏆
 * https://matrix.gears-gadgets.com/ 🏆
@@ -441,13 +420,10 @@ and change the server from the default to the one you want.
 * https://home55.net/
 * https://m.webgo.de/
 * https://kahakai.de/
-* http://im.tnode.eu/
 * https://tusooa.xyz/
-* https://phoxden.net/
 * https://chatmud.com/
 * https://secureim.de/
 * https://cakeboss.it/
-* https://blacksec.de/
 * https://malooma.bzh/
 * https://xentonix.net/
 * https://xentonix.net/
@@ -461,7 +437,6 @@ and change the server from the default to the one you want.
 * http://matrix.lod.com/
 * https://shirokumo.net/
 * https://vanpetegem.me/
-* https://marxwatch.org/
 * https://matrix.pi2.dev/
 * https://drastical.tech/riot/
 * https://matrix.phcn.de/
@@ -475,7 +450,6 @@ and change the server from the default to the one you want.
 * https://matrix.altay.fr/
 * https://matrix.jarno.ca/
 * https://matrix.nx-pod.de/
-* https://matrix.v-lan.org/
 * https://matrix.sensin.eu/
 * https://matrix.privex.io/
 * https://matrix.puhoy.net/
@@ -487,7 +461,6 @@ and change the server from the default to the one you want.
 * https://matrix.sykorp.com/
 * https://matrix.thegolem.cz/
 * https://nekomimi.solutions/
-* https://roleplaygateway.com/
 * https://matrix.unknown.place/
 * https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
