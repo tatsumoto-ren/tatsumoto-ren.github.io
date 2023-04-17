@@ -226,10 +226,10 @@ Unfortunately, not all of them can be opened in mpv.
 **Regular channels.**
 
 * GitHub: [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
-* [テレ東BIZ](https://www.youtube.com/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
+* [テレ東BIZ](https://redirect.invidious.io/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
   News. Doesn't have subs, but has transcriptions.
-* [Discovery Channel Japan](https://www.youtube.com/c/DiscoveryJapan/videos)
-* [Kurzgesagt](https://www.youtube.com/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos).
+* [Discovery Channel Japan](https://redirect.invidious.io/channel/UCxbY38ReXW3LbaviWUE4omg/videos)
+* [Kurzgesagt](https://redirect.invidious.io/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos).
   Science topics.
 
 **Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
@@ -474,6 +474,14 @@ You may need a Japanese IP address for some of these.
 * [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
 * [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
 * [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
+
+### Morphological analysis
+
+* [mecab](https://aur.archlinux.org/packages/mecab).
+* [mecab-ipadic](https://aur.archlinux.org/packages/mecab-ipadic).
+  IPA dictionary for MeCab.
+* [mecab-ipadic-neologd-git](https://aur.archlinux.org/packages/mecab-ipadic-neologd-git).
+  Neologism dictionary for MeCab.
 
 ### Image viewers
 
