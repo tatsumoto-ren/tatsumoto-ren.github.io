@@ -153,6 +153,15 @@ The `split morphemes` setting determines whether an input string should be split
 It makes sense to enable splitting for fields that are expected to contain more than one word,
 but keep it disabled for fields that are expected to contain only one word.
 
+Profile types are tried in this order:
+
+1) Furigana
+2) Pitch accent
+3) Audio
+
+If there is more than one profile inside a profile type,
+the profiles are tried in the order they are listed.
+
 ## Audio files
 
 AJT Japanese can add audio files from accent dictionaries to Anki cards.
