@@ -41,6 +41,8 @@ GoldenDict supports a wide range of dictionary formats,
 including [EPWING](yomichan-and-epwing-dictionaries.html#epwing)
 and [MDX](yomichan-and-epwing-dictionaries.html#mdx).
 They can be downloaded by clicking on the provided links.
+EPWING support is a little buggy,
+so I use GoldenDict to view MDX dictionaries and Qolibri to view EPWING dictionaries.
 
 After download finishes, open GoldenDict,
 go to "Dictionaries" (<kbd>F3</kbd>)
