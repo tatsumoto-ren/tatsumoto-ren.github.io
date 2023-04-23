@@ -77,19 +77,20 @@ You may need to Email an admin to get an account.
 
 ### My selection
 
-| Server                  | Web client                                                  | Extra |
-| :---                    | :---                                                        | :---  |
-| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/)        | 🏆    |
-| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)           | 🏆    |
-| `kde.org`               | [kde.org](https://webchat.kde.org/)                         |       |
-| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                               |       |
-| `sakura.ci`             | [web.sakura.ci](https://web.sakura.ci/)                     |       |
-| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                           |       |
-| `trygve.me`             | [trygve.me](https://element.trygve.me/)                     |       |
-| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                       |       |
-| `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/) |       |
-| `midov.pl`              | [midov.pl](https://element.midov.pl/element/) | 🏆    |
-| `anontier.nl`           | [anontier.nl](https://element.anontier.nl/)   |       |
+| Server                  | Web client                                                                       | Extra |
+| :---                    | :---                                                                             | :---  |
+| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/)                             | 🏆    |
+| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)                                | 🏆    |
+| `kde.org`               | [kde.org](https://webchat.kde.org/)                                              |       |
+| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                                                    |       |
+| `sakura.ci`             | [web.sakura.ci](https://web.sakura.ci/)                                          |       |
+| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                                                |       |
+| `trygve.me`             | [trygve.me](https://element.trygve.me/)                                          |       |
+| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                                            |       |
+| `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/)                      |       |
+| `midov.pl`              | [midov.pl](https://element.midov.pl/element/)                                    | 🏆    |
+| `chat.mistli.net`       | [chat.mistli.net](https://chat.mistli.net/)                                      |       |
+| `koneko.chat`           | [element.koneko.chat](https://element.koneko.chat/)                              |       |
 
 ### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
 
@@ -160,7 +161,6 @@ like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 * https://riot.tzchat.org/
 * https://element.asra.gr/
 * https://webchat.kde.org/
-* https://element.anontier.nl/
 * https://crystal-temple.flak.is/
 * https://element.linuxdelta.com/ 🏆
 * https://im.tetaneutral.net/
