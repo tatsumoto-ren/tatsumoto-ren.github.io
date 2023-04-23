@@ -5,25 +5,40 @@ tags: ['faq']
 position: -9855
 ---
 
-I never play video games.
-Personally, I don't find them interesting or engaging.
+Personally,
+I do not find video games interesting or engaging,
+and as such,
+I never play them.
+However,
+I used to play them as a teenager,
+until I grew frustrated with the limitations of Windows and proprietary software.
+Since switching to GNU+Linux,
+I have stopped playing video games altogether.
+Most games are proprietary,
+and I refuse to run proprietary software.
 
-I used to play video games as a teenager,
-but after I grew frustrated with Windows and proprietary software,
-and after switching to GNU+Linux,
-I stopped playing video games.
-Another reason I don't play video games anymore is because most games are proprietary.
-I refuse to run proprietary software.
+From an efficiency standpoint,
+most video games offer low-quality immersion
+due to their low language density.
+While reading books or listening to podcasts offer a continuous immersion experience,
+video games only allow for occasional interaction with language,
+with most of the playtime being action-oriented.
+However,
+visual novels are an exception
+as they offer a similar experience to reading a book, but with added visuals.
 
-From the efficiency standpoint most video games are low quality immersion.
-If you read a book or listen to a podcast,
-you're getting immersion all the time,
-but in games you get to interact with language only once in a while.
-Most of the playtime is action.
-However, visual novels are the opposite.
-They are very close to books, with some pictures here and there.
-The problem with most visual novels and games in general is that they're proprietary.
-You can't play them and keep your freedom.
-Another point is that
-video games are bad for immersion because they're hard to mine from.
-There are hardly any tools that can automate the process of extracting text, pictures and audio.
+Unfortunately,
+most visual novels and games in general are proprietary,
+which means that playing them comes at the cost of losing one's freedom.
+Furthermore,
+video games are bad for immersion because they're difficult to
+[mine sentences](sentence-mining.html) from.
+There are hardly any tools available to automate the
+process of extracting text, pictures, and audio from games.
+
+In conclusion,
+while video games may offer entertainment value,
+they are bad for language learning due to their low language density
+and lack of tools for sentence mining.
+Additionally,
+the proprietary nature of most games goes against the principles of freedom.
