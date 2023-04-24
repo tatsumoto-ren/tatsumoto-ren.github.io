@@ -5,9 +5,73 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 23 Apr 2023 05:06:11 +0300</lastBuildDate>
-<pubDate>Sun, 23 Apr 2023 05:06:11 +0300</pubDate>
+<lastBuildDate>Mon, 24 Apr 2023 23:41:03 +0300</lastBuildDate>
+<pubDate>Mon, 24 Apr 2023 23:41:03 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>I immerse with English and Japanese subs on at the same time. Is this a bad idea?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>If you watch with English and Japanese subtitles on the screen at the same time,
+consider having both subtitle tracks hidden most of the time.
+In <code>mpv</code> you can press <kbd>v</kbd> to toggle subtitle visibility.
+When you feel like you didn't understand something,
+turn the subs on temporarily.
+Mpvacious has <a href="https://github.com/Ajatt-Tools/mpvacious#secondary-subtitles">key bindings</a>
+that let you toggle secondary subtitles as well,
+or you can have them appear on mouse hover.</p>
+<p>You can approach this question at 2 levels.</p>
+<ol>
+<li><p><strong>Training your listening ability.</strong></p>
+<p>Displaying both Japanese and English subtitles simultaneously
+would occupy a significant portion of the screen,
+making the subtitles difficult to ignore.
+If you have them visible all the time,
+it is likely that you will end up reading them.
+It may happen unconsciously, automatically, accidentally.
+Even if you catch an outline of a sentence in the corner of your eye,
+it could give you a hint and disrupt your listening practice.
+If you're genuinely committed to improving your listening skills,
+consider <strong>hiding all subtitles</strong>.
+This is the only way to ensure that you're not cheating.</p>
+</li>
+<li><p><strong>Increasing your overall comprehension.</strong>
+To ensure effective learning,
+it's crucial that you don't read English subtitles.
+If you do,
+and if you don't pay attention to the Japanese subtitles,
+<a href="should-i-watch-anime-with-english-subtitles.html">your progress will be zero</a>.
+Try to understand the Japanese subs first.</p>
+<p>If you must use English subtitles,
+try to make them less accessible,
+such as requiring a button press or mouse movement to reveal them.</p>
+<p>Then consider whether English subtitles can help you,
+or if it is better to get rid of them completely.
+Prioritize understanding the Japanese subtitles first,
+and only opt for English subtitles if necessary.
+As I previously discussed in
+<a href="should-i-put-english-translations-on-bilingual-tscs.html">Should I put English translations on Bilingual TSCs</a>,
+relying on translations doesn't help in language acquisition.
+While they may help you understand a rough meaning of a sentence,
+they don't aid in understanding how ideas are expressed in Japanese,
+and how grammar works.</p>
+<p>Furthermore,
+using English subtitles carries the risk of creating false associations
+between English words and Japanese words with similar meanings.
+This can lead to biases in your Japanese comprehension.</p>
+</li>
+</ol>
+<p>In conclusion,
+it is OK to keep Japanese subtitles visible,
+but English subtitles are better kept hidden.
+Hiding both English and Japanese subtitles is good for improving your listening abilities.
+And if you hate going forth between turning subs on and off,
+consider <a href="is-it-harmful-to-always-have-tl-subtitles-on.html">watching some shows fully raw and other shows with Japanese subs always on</a>.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 24 Apr 2023 04:28:06 +0300</pubDate>
+</item>
 <item>
 <title>What's the best way to make use of an iTalki teacher?</title>
 <author>Tatsumoto</author>
@@ -320,30 +384,6 @@ and how to deal with the ambiguity that can arise when immersing.</p>
 <guid>https://tatsumoto-ren.github.io/blog/active-immersion.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Fri, 17 Mar 2023 00:13:10 +0300</pubDate>
-</item>
-<item>
-<title>Reading books</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>Reading a book is a simple process.
-You don't need much technology to read a book.
-In contrast,
-when watching a movie,
-you need software that can create Anki cards from the subtitles.
-Or,
-when reading manga,
-you need an OCR tool to extract text from the images.
-But to read a book, all you may need is
-a dictionary on hand to look up unfamiliar words.
-And a program that can open and display books, of course.
-If you have a paper book, you don't even need a computer.
-Nevertheless, there are some tips I'd like to discuss here.</p>
-<p>In this article, we'll discuss a few tips and tricks to help make
-reading books in Japanese easier and more enjoyable.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/reading-books.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/reading-books.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 09 Mar 2023 11:32:56 +0300</pubDate>
 </item>
 </channel>
 </rss>
