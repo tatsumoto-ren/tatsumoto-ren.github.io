@@ -20,20 +20,18 @@ simplifying recursive look-ups.
 
 GoldenDict is available as a free download from GitHub
 or from repositories of many GNU distributions.
-The most up-to-date version of GoldenDict
-is a fork by `xiaoyifang`.
+The most up-to-date version of GoldenDict is `goldendict-ng`.
 It can create Anki cards, which is important for people following the AJATT method.
 
 Installation is easy and straightforward.
-To install GoldenDict,
-users of pacman-based distributions can use
-[this AUR package](https://aur.archlinux.org/packages/goldendict-webengine-git).
-Simply running `trizen -S goldendict-webengine-git` should be sufficient.
+If you use a pacman-based distribution,
+install [goldendict-ng-git](https://aur.archlinux.org/packages/goldendict-ng-git) from the AUR.
+Simply running `trizen -S goldendict-ng-git` should be sufficient.
 
 Users of other distributions need to follow
-[these instructions](https://github.com/xiaoyifang/goldendict#installation)
+[these instructions](https://github.com/xiaoyifang/goldendict-ng#installation)
 or clone the repository and
-[build from source](https://github.com/xiaoyifang/goldendict#build-from-source).
+[build from source](https://github.com/xiaoyifang/goldendict-ng#build-from-source).
 
 ## Obtain dictionaries
 
@@ -130,7 +128,7 @@ or a similar package if you use another distro.
 
 ## Anki integration
 
-Read [how to connect with anki](https://github.com/xiaoyifang/goldendict/blob/staged/howto/how%20to%20connect%20with%20anki.md)
+Read [how to connect with anki](https://github.com/xiaoyifang/goldendict-ng/blob/staged/howto/how%20to%20connect%20with%20anki.md)
 to configure Anki integration.
 Additionally, you need [AnkiConnect](https://ankiweb.net/shared/info/2055492159) installed.
 
