@@ -5,7 +5,9 @@ tags: ['faq']
 position: -9880
 ---
 
-It's basically 90% Yomichan use.
+To make cards you can use [GoldenDict](setting-up-goldendict.html)
+or [Yomichan](setting-up-yomichan.html).
+There are also tools that help create cards depending on the type of media.
 For movies and TV shows, I recommend [mpv scripts](mining-from-movies-and-tv-shows.html).
 For manga, refer to my [Mining from manga](mining-from-manga.html) article to set up OCR.
 When you can't use the sentence you've encountered the word in,
