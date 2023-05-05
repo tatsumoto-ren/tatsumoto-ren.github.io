@@ -192,6 +192,7 @@ paste the URL of the index and give it a unique name.
 * [NHK accent dictionary, 2016, extended](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_extended.zip).
 * [NHK accent dictionary, 2016, standard](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_standard.zip).
 * [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.0/NHK_main.zip).
+* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.0/Shinmeikai-8_main.zip).
 
 #### Offline audio sources
 
@@ -210,6 +211,7 @@ The add-on will figure out the rest based on the information inside the json fil
 * [NHK accent dictionary, 2016, extended](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/extended.zip).
 * [NHK accent dictionary, 2016, standard](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/standard.zip).
 * [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip).
+* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
 
 <p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
 <p align="center"><i>Screenshot.</i></p>
