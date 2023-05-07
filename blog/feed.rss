@@ -5,9 +5,39 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sat, 29 Apr 2023 17:20:01 +0300</lastBuildDate>
-<pubDate>Sat, 29 Apr 2023 17:20:01 +0300</pubDate>
+<lastBuildDate>Sun, 07 May 2023 17:24:20 +0300</lastBuildDate>
+<pubDate>Sun, 07 May 2023 17:24:20 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>I have a deck I haven't reviewed for a whole year. Should I reset it?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>It can be tempting to reset a deck that hasn't been reviewed in a while,
+but I do not recommend doing so for the cards have a review history.
+Despite feeling like you may have forgotten everything,
+you likely remember more than you realize.
+Instead, I suggest reviewing the overdue cards.</p>
+<p>If you select the deck and review the overdue cards,
+the cards you still remember will increase their intervals significantly,
+while the forgotten cards will not lose their intervals completely,
+as long as you have <a href="setting-up-anki.html#new-interval">new interval</a> set to a value greater than <code>0</code>.
+In the end, this approach will require you to review fewer cards than if you started from scratch.</p>
+<p>By contrast,
+If you reset the deck,
+you'll have to relearn each card again,
+with each card graduating with an interval of <code>1</code> day (or the value you set in settings).
+You'll lose any progress you have made on cards that you still remember.</p>
+<p>If you find yourself struggling with a backlog of cards,
+consider reading <a href="how-to-review.html#fighting-backlogs">Fighting backlogs</a>.
+The most important tip is to store overdue cards in a filtered deck
+and take small chunks for review.
+With this approach,
+you avoid overwhelming yourself with hundreds or thousands of cards at once.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 07 May 2023 17:21:10 +0300</pubDate>
+</item>
 <item>
 <title>How do you recommend starting on listening practice?</title>
 <author>Tatsumoto</author>
@@ -388,22 +418,6 @@ simplifying recursive look-ups.</p>
 <guid>https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 22 Mar 2023 05:30:22 +0300</pubDate>
-</item>
-<item>
-<title>Passive immersion</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>When we talk about immersion, we usually divide it into active and passive.
-<em>Active immersion</em> requires full attention to the content
-and can be practiced through reading and watching content in the target language.
-<em>Passive immersion</em> means listening to the language while engaging in other activities.
-When listening passively you're not fully focused on the content,
-instead you're doing something else
-while having the speech in your target language play in the background.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/passive-immersion.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/passive-immersion.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 17 Mar 2023 00:45:18 +0300</pubDate>
 </item>
 </channel>
 </rss>
