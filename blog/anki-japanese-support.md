@@ -192,7 +192,7 @@ paste the URL of the index and give it a unique name.
 * [NHK accent dictionary, 2016, extended](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_extended.zip).
 * [NHK accent dictionary, 2016, standard](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.0/NHK_standard.zip).
 * [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.0/NHK_main.zip).
-* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.0/Shinmeikai-8_main.zip).
+* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.2/Shinmeikai-8_main.zip).
 
 #### Offline audio sources
 
