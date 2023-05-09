@@ -96,8 +96,8 @@ $ pip install --upgrade aqt
 * If after installing Anki with `pip`
   [Fcitx](https://wiki.archlinux.org/title/Fcitx)
   doesn't work,
-  open your `~/.profile` (`~/.pam_environment` or a similar file)
-  and add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`.
+  add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`
+  to the list of [environment variables](how-do-i-change-an-environment-variable.html).
 * Anki depends on [mpv](https://mpv.io/) to play audio.
   You have to install it separately.
 * You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
@@ -241,7 +241,7 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
     Filtered decks no longer reset learning steps when rebuilt or emptied.
 * **Minimalist mode.**
   Newer versions of Anki come with an absolutely horrendous UI.
-  The minimalst mode was added after a widespread backlash from the users.
+  The minimalist mode was added after a widespread backlash from the users.
 * **Style: Native.**
   Same as above.
   Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
@@ -529,15 +529,15 @@ and make sure that "Style" is set to "Native".
 ### qt5-styleplugins
 
 1) If your version of Anki uses `Qt5`,
-install [qt5-styleplugins](https://aur.archlinux.org/packages/qt5-styleplugins/).
-If your version of Anki uses `Qt6`,
-install [qt6gtk2](https://aur.archlinux.org/packages/qt6gtk2).
+   install [qt5-styleplugins](https://aur.archlinux.org/packages/qt5-styleplugins/).
+   If your version of Anki uses `Qt6`,
+   install [qt6gtk2](https://aur.archlinux.org/packages/qt6gtk2).
 2) Set the following
-[environment variable](https://wiki.archlinux.org/title/Environment_variables#Graphical_environment):
+   [environment variable](how-do-i-change-an-environment-variable.html):
 
-```
-export QT_QPA_PLATFORMTHEME=gtk2
-```
+   ```
+   export QT_QPA_PLATFORMTHEME=gtk2
+   ```
 
 Then re-login or reboot.
 
@@ -550,17 +550,17 @@ $ sudo pacman -S kvantum qt5ct qt6ct
 ```
 
 1) Launch `kvantummanager`,
-select "Change/Delete Theme"
-and select your theme from the combo box.
+   select "Change/Delete Theme"
+   and select your theme from the combo box.
 2) Press "Use this theme", then "Quit".
 3) Open `qt5ct`, then `qt6ct`.
-Select `kvantum` as theme engine.
-Apply changes.
+   Select `kvantum` as theme engine.
+   Apply changes.
 4) Set the following
-[environment variable](https://wiki.archlinux.org/title/Environment_variables#Graphical_environment).
+   [environment variable](how-do-i-change-an-environment-variable.html):
 
-	* If your version of Anki uses `Qt6`: `export QT_QPA_PLATFORMTHEME=qt6ct`
-	* If your version of Anki uses `Qt5`: `export QT_QPA_PLATFORMTHEME=qt5ct`
+   * If your version of Anki uses `Qt6`: `export QT_QPA_PLATFORMTHEME=qt6ct`
+   * If your version of Anki uses `Qt5`: `export QT_QPA_PLATFORMTHEME=qt5ct`
 
 Then re-login or reboot.
 
