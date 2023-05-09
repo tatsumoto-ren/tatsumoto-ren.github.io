@@ -84,8 +84,11 @@ to get a gist of how it's done.
 	<source src="https://yewtu.be/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
 </video>
 
-By default, vidir lets you edit the directory structure in vim,
-but you can use any editor you want if you change the `EDITOR` environment variable.
+By default, `vidir` will try to use the text editor
+that you have set in the `EDITOR` [environment variable](how-do-i-change-an-environment-variable.html).
+I have it set to `nvim`.
+To use `nvim`, install [Neovim](https://wiki.archlinux.org/title/Neovim)
+and append `export EDITOR="nvim"` to your profile file.
 
 ## Extracting internal subtitles
 
