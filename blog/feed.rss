@@ -5,9 +5,25 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 07 May 2023 17:24:20 +0300</lastBuildDate>
-<pubDate>Sun, 07 May 2023 17:24:20 +0300</pubDate>
+<lastBuildDate>Wed, 10 May 2023 00:09:55 +0300</lastBuildDate>
+<pubDate>Wed, 10 May 2023 00:09:55 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>How do I change an environment variable?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>In the <a href="table-of-contents.html">guide</a>
+I sometimes instruct to set or change environment variables.
+Environment variables provide a way to store simple settings
+that can be accessed and used by various programs and scripts running on the system.
+Changing environment variables is a common task for users,
+and it can be done in different ways.
+I'm going to present you the easiest way, and you can read about other ways on Arch Wiki.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-do-i-change-an-environment-variable.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-do-i-change-an-environment-variable.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Wed, 10 May 2023 00:09:11 +0300</pubDate>
+</item>
 <item>
 <title>I have a deck I haven't reviewed for a whole year. Should I reset it?</title>
 <author>Tatsumoto</author>
@@ -400,24 +416,6 @@ and the downsides of using audio-only content during free-flow immersion will be
 <guid>https://tatsumoto-ren.github.io/blog/audio-as-main-source-of-free-flow-immersion.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Fri, 24 Mar 2023 03:34:41 +0300</pubDate>
-</item>
-<item>
-<title>Setting up GoldenDict</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
-Like <a href="setting-up-qolibri.html">Qolibri</a>, it lets you search multiple dictionaries at the same time
-so for every word you look up you immediately get a number of definitions.
-GoldenDict is a great tool for language learners,
-and it becomes especially helpful
-when one switches from bilingual dictionaries to monolingual dictionaries.
-It can aid during the monolingual transition
-thanks to the ability to look up many words at once in separate tabs,
-simplifying recursive look-ups.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 22 Mar 2023 05:30:22 +0300</pubDate>
 </item>
 </channel>
 </rss>

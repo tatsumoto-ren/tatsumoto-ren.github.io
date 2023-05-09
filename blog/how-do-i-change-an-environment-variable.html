@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="res/blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Tatsumoto Ren &mdash; All tags</title>
-<meta property="og:title" content="Tatsumoto Ren &mdash; All tags">
+<title>How do I change an environment variable?</title>
+<meta property="og:title" content="How do I change an environment variable?">
 <meta property="og:site_name" content="Tatsumoto Ren">
-<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/all_tags.html">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/how-do-i-change-an-environment-variable.html">
 <meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
 <meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
 <script defer src="res/blog.js"></script>
@@ -62,22 +62,40 @@
 <div id="divbodyholder">
 <div id="divbody">
 <main>
-<h3>All tags</h3>
-<ul>
-<li><a href="tag_anki.html">anki</a> &mdash; 5 posts</li>
-<li><a href="tag_decks.html">decks</a> &mdash; 3 posts</li>
-<li><a href="tag_dictionaries.html">dictionaries</a> &mdash; 5 posts</li>
-<li><a href="tag_epwing.html">epwing</a> &mdash; 3 posts</li>
-<li><a href="tag_faq.html">faq</a> &mdash; 163 posts</li>
-<li><a href="tag_guide.html">guide</a> &mdash; 31 posts</li>
-<li><a href="tag_kana.html">kana</a> &mdash; 2 posts</li>
-<li><a href="tag_kanji.html">kanji</a> &mdash; 2 posts</li>
-<li><a href="tag_matrix.html">matrix</a> &mdash; 2 posts</li>
-<li><a href="tag_mpv.html">mpv</a> &mdash; 2 posts</li>
-<li><a href="tag_vocab.html">vocab</a> &mdash; 5 posts</li>
-<li><a href="tag_yomichan.html">yomichan</a> &mdash; 2 posts</li>
-</ul>
-<div id="all_posts"><a href="index.html">Back to the index page</a></div>
+<!-- entry begin -->
+<article timestamp="1683666551" position="0">
+<h1 class="title"><a class="ablack" href="how-do-i-change-an-environment-variable.html">How do I change an environment variable?</a></h1>
+<div class="subtitle">May 10, 2023 &mdash; Tatsumoto</div>
+<!-- text begin -->
+<p>In the <a href="table-of-contents.html">guide</a>
+I sometimes instruct to set or change environment variables.
+Environment variables provide a way to store simple settings
+that can be accessed and used by various programs and scripts running on the system.
+Changing environment variables is a common task for users,
+and it can be done in different ways.
+I'm going to present you the easiest way, and you can read about other ways on Arch Wiki.</p>
+<hr>
+<p>First, determine what shell you have installed by executing <code>echo $SHELL</code> in the terminal.
+If you have <code>bash</code>, open the <code>~/.bash_profile</code> file.
+If you have <code>zsh</code>, open the <code>~/.zprofile</code> file.</p>
+<p>Next, add the setting you want to add to the file.
+For example, the line below changes the default text editor to
+<a href="https://wiki.archlinux.org/title/Neovim">nvim</a>:</p>
+<div class="pre-wrap"><pre><code>export EDITOR=&quot;nvim&quot;
+</code></pre></div>
+<p>Save the file, then <strong>relogin</strong> or <strong>reboot</strong>
+because the profile file is read only once per user session.</p>
+<p>To learn more, read
+<a href="https://wiki.archlinux.org/title/Environment_variables">Environment varialbes on Arch Wiki</a>.
+For example,
+another way to set environment variables that may be interesting
+is to add them to the <code>/etc/environment</code> file.
+You need root privileges to edit this file.
+The variables will be set globally, for every user in the system.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
 </main>
 </div>
 </div>
