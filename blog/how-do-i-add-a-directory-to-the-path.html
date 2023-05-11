@@ -70,13 +70,11 @@
 <p>Let's say you want to add <code>~/.local/bin</code> to the PATH.
 According to
 <a href="https://wiki.archlinux.org/title/Environment_variables#Per_user">Arch Wiki</a>,
-to add a directory to the PATH for local usage, put following in <code>~/.bash_profile</code>:</p>
+to add a directory to the PATH for local usage, add or edit the following
+<a href="how-do-i-change-an-environment-variable.html">environment variable</a>:</p>
 <div class="pre-wrap"><pre><code>export PATH=&quot;${PATH}:${HOME}/.local/bin&quot;
 </code></pre></div>
 <p>Replace <code>${HOME}/.local/bin</code> with the path of the directory you want to add.</p>
-<p>If you use
-<a href="https://wiki.archlinux.org/title/Zsh">zsh</a>,
-instead of <code>~/.bash_profile</code> edit <code>~/.zprofile</code>.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>
 <!-- text end -->
 </article>
