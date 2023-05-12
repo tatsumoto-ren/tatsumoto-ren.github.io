@@ -70,12 +70,9 @@ Create or edit `~/.config/locale.conf`.
 LANG=ja_JP.UTF-8
 ```
 
-Set `LANG` for your shell as well, by editing startup files.
-
-* [Bash](https://wiki.archlinux.org/title/Bash#Configuration_files): `~/.profile` or `~/.bash_profile`
-* [Zsh](https://wiki.archlinux.org/title/Zsh#Startup/Shutdown_files): `~/.zprofile`
-
-Add the following line.
+Set `LANG` for your shell as well,
+by [editing environment variables](how-do-i-change-an-environment-variable.html).
+Add the following line:
 
 ```
 export LANG=ja_JP.UTF-8
