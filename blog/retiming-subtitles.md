@@ -85,10 +85,10 @@ to get a gist of how it's done.
 </video>
 
 By default, `vidir` will try to use the text editor
-that you have set in the `EDITOR` [environment variable](how-do-i-change-an-environment-variable.html).
+that is set via the `EDITOR` [environment variable](how-do-i-change-an-environment-variable.html).
 I have it set to `nvim`.
 To use `nvim`, install [Neovim](https://wiki.archlinux.org/title/Neovim)
-and append `export EDITOR="nvim"` to your profile file.
+and add `export EDITOR="nvim"` as a new environment variable.
 
 ## Extracting internal subtitles
 
