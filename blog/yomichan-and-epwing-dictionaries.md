@@ -50,6 +50,26 @@ A very useful EPWING with pitch accent information.
 
 </details>
 
+## MDX
+
+[GoldenDict](setting-up-goldendict.html)
+is yet another dictionary lookup program that can be used for learning Japanese.
+GoldenDict supports `MDX` dictionaries.
+It can read `EPWING` dictionaries as well, but the feature is very clunky in my experience.
+Qolibri is much better for EPWING.
+
+`Epistularum` made a collection of MDX dictionaries for GoldenDict.
+
+<p align="center">
+	<a class="download_button" href="https://nyaa.iss.ink/view/1634529">Download</a>
+</p>
+
+**Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
+
+Another collection of dictionaries is stored in
+[Freemdict Cloud](https://cloud.freemdict.com/index.php/s/pgKcDcbSDTCzXCs).
+It has a wider range of bilingual dictionaries.
+
 ## Yomichan
 
 Yomichan
@@ -214,22 +234,6 @@ div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > 
 ```
 
 </details>
-
-## MDX
-
-[GoldenDict](setting-up-goldendict.html)
-is yet another dictionary lookup program that can be used for learning Japanese.
-GoldenDict supports `MDX` dictionaries.
-It can read `EPWING` dictionaries as well, but the feature is very clunky in my experience.
-Qolibri is much better for EPWING.
-
-`Epistularum` made a collection of MDX dictionaries for GoldenDict.
-
-<p align="center">
-	<a class="download_button" href="https://nyaa.iss.ink/view/1634529">Download</a>
-</p>
-
-**Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
 
 ## Explaining available dictionaries
 
