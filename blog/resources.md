@@ -120,7 +120,8 @@ In such cases sites with example sentences come to rescue.
   Made for Japanese people learning English but can be used in reverse.
 * [Forvo](https://forvo.com/).
   Has many words pronounced in isolation but not so many sentences.
-* [YouGlish for Japanese](https://youglish.com/japanese)
+* [YouGlish for Japanese](https://youglish.com/japanese) and [CaptionPop](https://www.captionpop.com/).
+  Find YouTube videos with TL subtitles, download them and watch using `mpv`.
 * [用例.jp](https://yourei.jp/)
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
@@ -487,12 +488,7 @@ You may need a Japanese IP address for some of these.
 
 * [nsxiv](https://codeberg.org/nsxiv/nsxiv)
   An image viewer perfect for reading manga.
-
-  It's not available in the official Arch Linux repos yet,
-  but you can install it from the [AUR](https://aur.archlinux.org/packages/nsxiv)
-  or from [Chaotic-AUR](https://aur.chaotic.cx/).
-* [sxiv](https://wiki.archlinux.org/title/Sxiv).
-  An image viewer perfect for reading manga (old version, use `nsxiv` if you can).
+  [Arch Linux package](https://archlinux.org/packages/community/x86_64/nsxiv/).
 * [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
   Simple manga reader made from a patched `nsxiv`.
   It extracts archives for you and opens them automatically with `sxiv`.
