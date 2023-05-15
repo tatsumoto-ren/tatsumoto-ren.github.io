@@ -61,6 +61,13 @@ After downloading a video and subtitles for it,
 you can put it into `subs2srs`
 or watch it in `mpv` with `mpvacious` and make flashcards.
 
+The following sites offer video search based on target language subtitles:
+
+* [YouGlish](https://youglish.com/japanese)
+* [CaptionPop](https://www.captionpop.com/)
+
+We recommend utilizing their search features but using `mpv` to watch the videos.
+
 ## yt-dlp
 
 [yt-dlp](https://wiki.archlinux.org/index.php/yt-dlp)
@@ -103,7 +110,7 @@ See `$ man yt-dlp` for a comprehensive list of options.
 ## Notes
 
 * If you want simple and easy Japanese immersion without having to set things up,
-  just go to **[youtube.076.ne.jp](https://youtube.076.ne.jp/)**.
+  just go to **[youtube.owacon.moe](https://youtube.owacon.moe/)**.
   This is a Japanese Invidious instance.
 * In my dotfiles I have
   [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
@@ -112,8 +119,6 @@ See `$ man yt-dlp` for a comprehensive list of options.
 * Install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
   or [LibRedirect](https://libredirect.github.io/)
   to avoid accidentally going to the official website when opening YouTube links.
-* [Librarian](https://codeberg.org/librarian/librarian)
-  is an alternative frontend for Odysee inspired by Invidious.
 * If you go directly to `youtube.com`, keep
   [Watch on Odysee](https://github.com/kodxana/Watch-on-Odysee)
   enabled to be notified when an alternative Odysee version of the video is available.
