@@ -5,9 +5,46 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 10 May 2023 00:09:55 +0300</lastBuildDate>
-<pubDate>Wed, 10 May 2023 00:09:55 +0300</pubDate>
+<lastBuildDate>Sat, 20 May 2023 15:27:40 +0300</lastBuildDate>
+<pubDate>Sat, 20 May 2023 15:27:40 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>How strict do you recommend being about 1T?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>In
+<a href="is-it-ok-to-make-cards-for-sentences-i-dont-fully-understand.html">Is it OK to make cards for sentences I don't fully understand</a>
+I said that ideally you need to be strict
+about making only <a href="one-target-sentences.html">1T</a>  sentences.
+I think being strict definitely helps
+because it removes unnecessary ambiguity from the SRS reps.
+If there's no other way,
+making MT cards occasionally won't do too much harm though.</p>
+<p>Try to avoid MT cards where there are two or more words you don't know.
+They may slow you down, and they may be too difficult to review.
+Trying to learn two things on one card uses a lot of mental energy,
+and it can be boring and frustrating.
+Learning 1T sentences is more fun, they are quicker to grasp.
+If everything is easy, you'll enjoy studying more.</p>
+<p>You can make MT cards once in a while,
+but it's smoother when you don't.
+Once you get more advanced,
+you will not need to make MT cards because there will be
+already enough 1T cards you can find just by continuing to immerse.</p>
+<p>If you are in a situation where you want to create a TSC to learn a word,
+but the sentence contains two or more unknown words,
+first create and learn a 1T card where the other unknown word is the target.
+By doing so, the original sentence will transform into being 1T.
+Then you can learn the original sentence as a normal 1T card.</p>
+<p>In summary, it is best to primarily create 1T flashcards
+and only occasionally make MT cards.
+By following this strategy, you will optimize your time
+and energy while making consistent progress towards fluency.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-strict-do-you-recommend-being-about-1t.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-strict-do-you-recommend-being-about-1t.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sat, 20 May 2023 15:25:33 +0300</pubDate>
+</item>
 <item>
 <title>How do I change an environment variable?</title>
 <author>Tatsumoto</author>
@@ -370,52 +407,6 @@ I do it myself when I feel like it.</p>
 <guid>https://tatsumoto-ren.github.io/blog/is-it-ok-to-mine-during-free-flow-immersion.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Mon, 27 Mar 2023 23:29:45 +0300</pubDate>
-</item>
-<item>
-<title>Are there potential downsides of using audio-only content like podcasts as the main source of free-flow immersion?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>There's really no need to confine yourself to audio-only content,
-such as podcasts,
-for free-flow immersion,
-as audio-visual content like movies and TV shows will be far more effective.</p>
-<p>If you primarily learn through audio and visual materials,
-you will develop strong listening skills.
-This proficiency will be of great value in the long term.
-If you acquire your target language through listening
-before starting to read,
-the way your brain will process the language
-will be more in line with that of native speakers.
-However, native speakers don't limit themselves to listening alone.
-By excluding visual media you are lowering your comprehension for no reason at all.</p>
-<p>Audio-visual content gives you all the benefits of audio-only content,
-and your comprehension will be much higher thanks to the visual cues.
-On the other hand,
-podcasts can be difficult to understand,
-particularly for beginner learners.
-They lack transcripts,
-visual context
-and anything else that could help you understand what is being said.
-In my experience, podcasts are virtually indistinguishable from white noise
-until you reach a solid intermediate level.
-So, there are huge downsides to
-relying solely on audio-only content for free-flow immersion,
-as it will drastically slow down vocabulary acquisition.
-I would recommend audio-visual content instead.</p>
-<p>I deem audio-only free-flow immersion to be comparable to passive immersion.
-It is unlikely that during listening one can maintain the same
-level of focus and attention as when watching.
-While it is acceptable to use podcasts for passive immersion,
-as long as you understand the language used,
-it is advisable to choose a medium that you have previously watched actively.</p>
-<p>The rate of acquisition also depends on what you do during intensive immersion.
-If during intensive immersion you read novels, comic books, or watch movies and TV shows,
-while looking up words and mining sentences, then you will be learning vocabulary faster,
-and the downsides of using audio-only content during free-flow immersion will be less significant.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/audio-as-main-source-of-free-flow-immersion.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/audio-as-main-source-of-free-flow-immersion.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 24 Mar 2023 03:34:41 +0300</pubDate>
 </item>
 </channel>
 </rss>
