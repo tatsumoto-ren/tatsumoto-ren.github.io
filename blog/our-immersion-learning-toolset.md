@@ -64,6 +64,9 @@ is one of the fastest package managers out there.
   installation steps have to be executed manually.
 * [EndeavourOS](https://endeavouros.com/).
   A successor of antergos, a lightweight distro close to Arch Linux.
+  [Video](https://youtube.owacon.moe/watch?v=Bl1r6_L2eig)
+* [Garuda Linux](https://garudalinux.org/).
+  A rolling release distro based on Arch Linux with Chaotic AUR enabled by default.
 * [Manjaro](https://manjaro.org/).
   Aims to be user-friendly and offers lots of goodies out of the box.
 * [Parabola](https://www.parabola.nu/).
