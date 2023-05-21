@@ -205,6 +205,13 @@ If a dictionary has example sentences, it is possible to send an example to the 
 before making an Anki card.
 To do so, select the sentence, right-click and choose "Send <sentence> to the input line".
 
+### Disable Full Text Search
+
+[Full Text Search](https://xiaoyifang.github.io/goldendict-ng/ui_fulltextsearch/)
+can cause the program to utilize 100% of the CPU **all the time**.
+This is likely a bug.
+Disable the feature in "Preferences" > "Full-text search".
+
 ### Remove duplicate display of EPWING headwords
 
 Paste the code below in a file named `article-style.css`
