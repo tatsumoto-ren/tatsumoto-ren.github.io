@@ -162,6 +162,18 @@ Profile types are tried in this order:
 If there is more than one profile inside a profile type,
 the profiles are tried in the order they are listed.
 
+Each task can be triggered by one of the 4 callers:
+
+1) `Focus lost`. When the user presses <kbd>Tab</kbd> or switches focus away
+   from the selected source field in the Browser or in the Add dialog.
+1) `Toolbar button`. When the user presses the "Regenerate all fields" button in the Browser's toolbar.
+1) `Note added`. When AnkiConnect adds a new note,
+   but not when the user adds a note manually via the Add dialog.
+1) `Bulk add`. When the user presses the "Bulk-generate" button in the Browser's "Edit" menu.
+
+When editing a profile, you can select what callers the profile should "answer" to.
+For example, you can generate furigana when focus is lost but not when a note is added.
+
 ## Audio files
 
 AJT Japanese can add audio files from accent dictionaries to Anki cards.
