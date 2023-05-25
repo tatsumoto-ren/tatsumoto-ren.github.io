@@ -66,9 +66,14 @@ Qolibri is much better for EPWING.
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
 
-Another collection of dictionaries is stored in
-[Freemdict Cloud](https://cloud.freemdict.com/index.php/s/pgKcDcbSDTCzXCs).
-It has a wider range of bilingual dictionaries.
+<details>
+<summary>Other sources</summary>
+
+* A collection of dictionaries is stored in [Freemdict Cloud](https://cloud.freemdict.com/index.php/s/pgKcDcbSDTCzXCs).
+  It has a wider range of bilingual dictionaries.
+* [A Dictionary of Japanese Grammar](https://forum.freemdict.com/t/topic/15854)
+
+</details>
 
 ## Yomichan
 
