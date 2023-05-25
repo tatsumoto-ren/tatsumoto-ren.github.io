@@ -224,7 +224,7 @@ There are many tools available to streamline adding audio and images to your car
 They are linked on the [Resources](resources.html#software) page.
 
 <p align="center"><img src="img/example-tsc.webp"></p>
-<p align="center"><i><a target="_blank" href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences">Recommended card format</a>.</i></p>
+<p align="center"><i><a target="_blank" href="setting-up-anki.html#import-an-example-mining-deck">Recommended card format</a>.</i></p>
 
 ## Grammar
 
