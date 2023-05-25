@@ -47,7 +47,7 @@ why we normally recommend studying basic vocabulary from a premade deck, &mdash;
 it is going to give you a head start and increase your comprehension of real Japanese
 while you're still a beginner.
 
-Language courses that aren't based on AJATT
+Language courses that aren't based on [AJATT](whats-ajatt.html)
 may suggest that you study grammar to learn to speak your target language.
 They tell you to memorize some grammar, vocabulary
 and then learn to combine them together to form sentences.
