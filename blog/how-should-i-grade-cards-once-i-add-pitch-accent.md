@@ -27,6 +27,10 @@ Have a word on the front of the card and its pitch accent on the back.
 
 For example:
 
-| Front                        | Back       |
-| ---                          | ---        |
-| What's the accent of 出来る? | 中高 （2） |
+| Front                                | Back       |
+| ---                                  | ---        |
+| What's the accent of 出来る?         | 中高 （2） |
+| What's the accent of 入る（はいる）? | 頭高 （1） |
+
+If a word has multiple readings,
+you need to include furigana on the front as well.
