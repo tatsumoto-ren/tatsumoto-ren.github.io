@@ -916,6 +916,9 @@ Notable articles:
 
 ## Misc
 
+* [Matrix日本サーバ勢の公開部屋リスト](https://matrix-room-list-jp.netlify.app/).
+  A list of Matrix rooms in Japanese.
+  Chat with natives on various topics of interest.
 * [Cornucopia of resources](https://djtguide.neocities.org/cor) from the old DJT site.
 * [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
