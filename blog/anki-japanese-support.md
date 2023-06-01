@@ -28,6 +28,20 @@ The installation process is similar to other Anki plugins and can be accomplishe
 2) Input `1344485230` into the text box labeled `Code` and press the OK button to proceed.
 2) Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.
 
+To improve parsing quality (not necessary, but recommended), install these AUR packages:
+
+* [mecab](https://aur.archlinux.org/packages/mecab-git)
+* [mecab-ipadic-neologd](https://aur.archlinux.org/packages/mecab-ipadic-neologd-git)
+
+To install AUR packages, you can use [Trizen](https://github.com/trizen/trizen/blob/master/TRIZEN.md)
+or any other AUR helper.
+
+When Anki starts, AJT Japanese will try to use
+`/usr/lib/mecab/dic/mecab-ipadic-neologd` as a system `dicdir` for Mecab.
+This directory is provided by `mecab-ipadic-neologd`.
+If the directory is not found, the add-on will fall back to the built-in dictionary,
+which is smaller (to fit on AnkiWeb).
+
 ## Overview
 
 The AJT Japanese add-on provides a range of features
