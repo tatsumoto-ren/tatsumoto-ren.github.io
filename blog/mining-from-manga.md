@@ -123,7 +123,7 @@ a Python library responsible for optical character recognition.
 The files will be saved to `~/.local/share/manga_ocr`
 and take up `2 GiB` of disk space.
 
-**Note:** `transformers_ocr` saves the Python packages to a standalone directory
+**Note**: `transformers_ocr` saves the Python packages to a standalone directory
 to ensure that later you can uninstall everything by simply removing the directory.
 
 ### Usage
@@ -144,9 +144,10 @@ The first run will take longer than usual.
 There's yet another set of files that have to be downloaded for the OCR to work.
 The files will be saved to `~/.cache/huggingface` and take up another `500 MiB`.
 
-To send the recognized text directly to GoldenDict without copying it to the system clipboard,
+To send the recognized text directly to [GoldenDict](setting-up-goldendict.html)
+without copying it to the system clipboard,
 [append](https://github.com/Ajatt-Tools/transformers_ocr#send-text-to-an-external-application)
-`clip_command=goldendict` to the config file.
+`clip_command=goldendict %TEXT%` to the config file.
 The config file is read from `~/.config/transformers_ocr/config`.
 
 ### Keyboard shortcut
