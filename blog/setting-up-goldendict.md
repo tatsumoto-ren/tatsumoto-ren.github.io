@@ -165,7 +165,7 @@ A video demonstration is available
 [Transformers OCR](https://github.com/Ajatt-Tools/transformers_ocr)
 can pass recognized text directly to GoldenDict
 instead of copying text to the system clipboard.
-To pair them up, append `clip_command=goldendict` to the config file.
+To pair them up, append `clip_command=goldendict %TEXT%` to the config file.
 
 ## Tips
 
