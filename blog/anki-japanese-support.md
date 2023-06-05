@@ -215,8 +215,8 @@ paste the URL of the index and give it a unique name.
 
 **Currently available online audio sources:**
 
-* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.1/NHK_extended.zip).
-* [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.0/NHK_main.zip).
+* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v.1.2/NHK_main.zip).
+* [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip).
 * [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.2/Shinmeikai-8_main.zip).
 
 #### Offline audio sources
@@ -233,7 +233,7 @@ The add-on will figure out the rest based on the information inside the json fil
 
 **Currently available offline audio sources:**
 
-* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/extended.zip).
+* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip).
 * [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip).
 * [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
 
