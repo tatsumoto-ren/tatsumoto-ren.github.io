@@ -128,7 +128,7 @@ or a similar package if you use another distro.
 
 ## Anki integration
 
-Read [how to connect with anki](https://github.com/xiaoyifang/goldendict-ng/blob/staged/howto/how%20to%20connect%20with%20anki.md)
+Read [how to connect with anki](https://github.com/xiaoyifang/goldendict-ng/blob/staged/website/docs/topic_anki.md)
 to configure Anki integration.
 Additionally, you need [AnkiConnect](https://ankiweb.net/shared/info/2055492159) installed.
 
