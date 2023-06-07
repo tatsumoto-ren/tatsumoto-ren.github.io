@@ -318,9 +318,8 @@ A shared folder with movies and other content with Japanese dubs.
 
 * [Torrent sites](#torrent-trackers).
   Explore them first.
-* [zlibrary](https://singlelogin.me/).
+* [zlibrary](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
   A library with books in any language.
-  Has a [tor version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
 * [Anna’s Archive](https://annas-archive.org/).
   A catalog of all the books in existence.
 * [聖書 on Wikisource](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
@@ -715,6 +714,8 @@ See the mpv section.
 A fast and user-friendly video player for Android.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
 A mobile video player tailored for Japanese language learners.
+* [CloudStream](https://apt.izzysoft.de/fdroid/index/apk/com.lagradost.cloudstream3).
+  Lets you stream and download anime.
 
 ### Audio players
 
