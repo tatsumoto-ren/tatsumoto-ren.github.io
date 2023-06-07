@@ -87,7 +87,6 @@ You may need to Email an admin to get an account.
 | `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                                                |       |
 | `trygve.me`             | [trygve.me](https://element.trygve.me/)                                          |       |
 | `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                                            |       |
-| `cuteworld.space`       | [element.cuteworld.space](https://element.cuteworld.space/)                      |       |
 | `midov.pl`              | [midov.pl](https://element.midov.pl/element/)                                    | 🏆    |
 | `chat.mistli.net`       | [chat.mistli.net](https://chat.mistli.net/)                                      |       |
 | `koneko.chat`           | [element.koneko.chat](https://element.koneko.chat/)                              |       |
@@ -183,7 +182,6 @@ without having to use a desktop client.
 * https://chat.vscape.tk/ 🏆
 * https://matrix.radu.at/ 🏆
 * https://matrix.3dns.eu/ 🏆
-* https://chat.mistli.net/ `matrix.mistli.net` 🏆
 * https://fsoc.lol/matrix/ 🏆
 * https://riot.shendai.rip/ 🏆
 * https://matrix.okoyono.de/ 🏆
@@ -199,7 +197,6 @@ without having to use a desktop client.
 * https://matrix.pancrypticon.net/ 🏆
 * https://element.radiowarnerd.org/ 🏆
 * https://element.fablabchemnitz.de/ 🏆
-* https://matrix-client.seditio.xyz/ 🏆
 * https://comf.chat/
 * https://web.yuri.im/
 * https://matrix.base8.org/
@@ -222,7 +219,6 @@ without having to use a desktop client.
 * https://matrix.n2n.io/
 * https://chat.das-labor.org/
 * https://element.lion.fm/
-* https://element.sebdu.de/
 * https://okaris.de/
 * https://element.juniorjpdj.pl/
 * https://chat.greensteps.cn/
@@ -277,7 +273,6 @@ without having to use a desktop client.
 * https://chat.fairydust.space/
 * https://riot.qonfucius.social/
 * https://crystal-temple.flak.is/
-* https://element.fatherjim.tech/
 * https://element.privacytools.io/
 * https://element.thisisjoes.site/
 * https://element.midov.pl/element/
@@ -299,10 +294,8 @@ and change the server from the default to the one you want.
 * https://cisek.ca/ 🏆
 * https://group.lt/ 🏆
 * https://whyc.dev/ 🏆
-* https://hirt.dev/ 🏆
 * https://kleph.eu/ 🏆
 * https://linkor.io/ 🏆
-* https://prmxcl.fr/ 🏆
 * https://lodere.es/ 🏆
 * https://faelix.im/ 🏆
 * https://ruzik.xyz/ 🏆
@@ -321,12 +314,10 @@ and change the server from the default to the one you want.
 * https://mittelwind.de/ 🏆
 * https://tricuties.com/ 🏆
 * https://matrix.fuz.re/ 🏆
-* https://canarynet.xyz/ 🏆
 * https://matrix.fuz.re/ 🏆
 * https://matrix.lorf.io 🏆
 * https://matrix.dnix.de/ 🏆
 * https://chat.thorko.de/ 🏆
-* https://fatherjim.tech/ 🏆
 * https://matrix.jrop.me/ 🏆
 * https://kansanvalta.org/ 🏆
 * https://matrix.rptc.bid/ 🏆
@@ -368,9 +359,7 @@ and change the server from the default to the one you want.
 * https://matrix.net4sec.com/ 🏆
 * https://chatencriptado.com/ 🏆
 * https://matrix.dabbill.com/ 🏆
-* https://matrix.tmiland.com/ 🏆
 * https://netrunner-vault.de/ 🏆
-* https://matrix.racistism.tk 🏆
 * https://matrix.net4sec.com/ 🏆
 * https://matrix.nord.digital/ 🏆
 * https://chat.deprecated.org/ 🏆
@@ -406,7 +395,6 @@ and change the server from the default to the one you want.
 * https://zoit.net/
 * https://pcg.life/
 * https://oblak.be/
-* https://causa.li/
 * https://kuvio.de/
 * https://m.edw.ai/
 * http://rthome.me/
@@ -415,7 +403,6 @@ and change the server from the default to the one you want.
 * https://furry.lol/
 * https://koehn.com/
 * https://nibbana.jp/
-* https://ramrod.top/
 * https://willy.club/
 * https://home55.net/
 * https://m.webgo.de/
