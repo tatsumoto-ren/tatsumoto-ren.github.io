@@ -166,14 +166,14 @@ const Toc = Object.freeze({
         return div
     },
     init() {
-        fetch("table-of-contents.md")
-            .then(response => {
+        fetch("https://tatsumoto-ren.github.io/blog/table-of-contents.html") /* Firefox 39+ */ 
+            .then(response => { if (response.status = 404) { return false } else {
                 if (response.ok) {
                     return response.text()
                 } else {
                     throw new Error("Couldn't fetch table of contents.");
                 }
-            })
+            }})
             .then(text => this.link_adjacent([...text.matchAll(this.link_regex)]))
             .catch(error => console.error(error));
     },
