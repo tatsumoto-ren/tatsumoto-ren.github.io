@@ -63,9 +63,9 @@ If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.
 
 If the button above doesn't work,
 open your client of choice and join `#join:midov.pl`.
-If you can't or don't want to install a client, use a
-[web app](https://c.wfr.moe/#/room/#join:midov.pl)
-([alternative](https://webchat.kde.org/#/room/#join:midov.pl)).
+If you can't or don't want to install a client program, use a
+[web app](https://matrix.eientei.org/#/room/#join:midov.pl)
+([alternative](https://matrix.mlp.chat/#/room/#join:midov.pl)).
 
 When you join the community, you'll start in *Starting Lounge*.
 This is a room for new members.
