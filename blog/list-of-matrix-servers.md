@@ -155,18 +155,15 @@ to the instance's Element address,
 like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 
 * https://element.fablabchemnitz.de/
-* https://c.wfr.moe/
 * https://riot.ukvly.org/
 * https://riot.tzchat.org/
-* https://element.asra.gr/
-* https://webchat.kde.org/
 * https://crystal-temple.flak.is/
-* https://element.linuxdelta.com/ 🏆
 * https://im.tetaneutral.net/
-* https://element.ggc-project.de/
-* https://matrix.3dns.eu/ 🏆
 * https://nerdsin.space/ 🏆
-* https://www.jabawok.net/riot/
+* https://matrix.mlp.chat/
+* https://matrix.eientei.org/
+* https://im.tetaneutral.net/
+* https://element.arcticfoxes.net/
 
 ### With Element
 
