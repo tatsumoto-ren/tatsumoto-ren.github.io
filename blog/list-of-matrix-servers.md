@@ -59,41 +59,35 @@ With a 🏆 I marked servers that have received a <span title="ACL ban">trophy o
 Not all the servers may be open for registration at any point of time.
 You may need to Email an admin to get an account.
 
-### [A list of homeservers](https://glowers.club/wiki/doku.php?id=wiki:homeservers) recommended by [Glowers Club](https://glowers.club/wiki/)
-| Server                   | Web client                                          | Extra |
-| :---                     | :---                                                | :---  |
-| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) |       |
-| `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | 🏆    |
-
 ### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
 
-| Server                  | Web client                                  | Extra |
-| :---                    | :---                                        | :---  |
-| `community.rs`          | [element](https://element.community.rs)     |       |
-| `matrix.im`             | [element](https://element.matrix.im)        |       |
-| `sibnsk.net`            | [element](https://element.sibnsk.net)       |       |
-| `matrix.unredacted.org` | [element](https://element.unredacted.org)   |       |
-| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/) |       |
+| Server                  | Web client                                  | Extra                 |
+| :---                    | :---                                        | :---                  |
+| `community.rs`          | [element](https://element.community.rs)     |                       |
+| `matrix.im`             | [element](https://element.matrix.im)        |                       |
+| `sibnsk.net`            | [element](https://element.sibnsk.net)       |                       |
+| `matrix.unredacted.org` | [element](https://element.unredacted.org)   | last checked - closed |
+| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/) |                       |
 
 ### My selection
 
-| Server                  | Web client                                                                       | Extra |
-| :---                    | :---                                                                             | :---  |
-| `cutefunny.art`         | [cutefunny.art](https://matrixclient.cutefunny.art/)                             | 🏆    |
-| `matrix.linuxdelta.com` | [linuxdelta.com](https://element.linuxdelta.com/)                                | 🏆    |
-| `kde.org`               | [kde.org](https://webchat.kde.org/)                                              |       |
-| `m.wfr.moe`             | [wfr.moe](https://c.wfr.moe/)                                                    |       |
-| `sakura.ci`             | [web.sakura.ci](https://web.sakura.ci/)                                          |       |
-| `iddqd.chat`            | [iddqd.chat](https://iddqd.chat/)                                                |       |
-| `trygve.me`             | [trygve.me](https://element.trygve.me/)                                          |       |
-| `nitro.chat`            | [nitro.chat](https://app.nitro.chat/)                                            |       |
-| `midov.pl`              | [midov.pl](https://element.midov.pl/element/)                                    | 🏆    |
-| `chat.mistli.net`       | [chat.mistli.net](https://chat.mistli.net/)                                      |       |
-| `koneko.chat`           | [element.koneko.chat](https://element.koneko.chat/)                              |       |
+| Server            | Web client                                           | Extra                                                |
+| :---              | :---                                                 | :---                                                 |
+| `cutefunny.art`   | [cutefunny.art](https://matrixclient.cutefunny.art/) | 🏆                                                   |
+| `sakura.ci`       | [web.sakura.ci](https://web.sakura.ci/)              |                                                      |
+| `iddqd.chat`      | [iddqd.chat](https://iddqd.chat/)                    | last checked - closed                                |
+| `trygve.me`       | [trygve.me](https://element.trygve.me/)              |                                                      |
+| `nitro.chat`      | [nitro.chat](https://app.nitro.chat/)                |                                                      |
+| `midov.pl`        | [midov.pl](https://element.midov.pl/element/)        | [Register here](https://midov.pl/registerform.sh) 🏆 |
+| `koneko.chat`     | [element.koneko.chat](https://element.koneko.chat/)  |                                                      |
 
 ### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
 
 Same as some above.
+
+| Server        | Web client                                        | Extra |
+| :---          | :---                                              | :---  |
+| `eientei.org` | [matrix.eientei.org](https://matrix.eientei.org/) |       |
 
 ### Servers run by Japanese people
 
@@ -103,6 +97,12 @@ Same as some above.
 | `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
 
 Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
+
+### [A list of homeservers](https://web.archive.org/web/20230227042902/https://glowers.club/wiki/doku.php?id=wiki:homeservers) recommended by [Glowers Club](https://web.archive.org/web/20221208070442/https://glowers.club/wiki/doku.php?id=start)
+| Server                   | Web client                                          | Extra                    |
+| :---                     | :---                                                | :---                     |
+| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) | last checked - closed    |
+| `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | last checked - closed 🏆 |
 
 ## Do not use
 
