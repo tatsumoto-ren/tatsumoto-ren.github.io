@@ -5,9 +5,48 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sat, 20 May 2023 15:27:40 +0300</lastBuildDate>
-<pubDate>Sat, 20 May 2023 15:27:40 +0300</pubDate>
+<lastBuildDate>Sun, 11 Jun 2023 10:54:42 +0300</lastBuildDate>
+<pubDate>Sun, 11 Jun 2023 10:54:42 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Does playing Japanese audio on repeat while I sleep count as immersion?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>It doesn't.
+And, generally, it is not recommended.
+But if you understand the mechanics behind this idea,
+you may consider doing it and get some, although little, benefit.</p>
+<p>It is important to note that humans cannot learn anything while sleeping.
+There is no research that suggests that we can.
+As far as I know, the idea was popularized by the old AJATT website.
+AJATT is about <a href="mass-immersion.html">mass immersion</a>, doing Japanese all the time.
+The reason why some AJATTers have Japanese audio playing
+when they sleep is not because you can learn something while you sleep,
+but because you will be hearing Japanese speech
+just before falling asleep and just after waking up.
+You can be exposed to the language more by doing this trick.
+If you pause Japanese before going to bed,
+there will be some time,
+maybe just a few minutes,
+when you are not immersing.</p>
+<p>The other side is that
+any additional learning progress that could be made by the extra listening time
+will be canceled out by low-quality sleep.
+Playing audio while you're trying to sleep can disrupt you.
+If you're constantly being jolted awake by the audio,
+you're not going to get the restorative sleep you need to function at your best.
+Sleeping properly is an essential aspect of the language acquisition process
+and should not be compromised.
+A solution would be to use some technology to pause the audio after falling asleep
+and resuming it just before it's time to wake up.
+For example,
+an alarm clock app that has a feature to trigger a podcast app or a music app
+instead of playing a preset alarm sound by itself.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/does-playing-japanese-audio-on-repeat-while-i-sleep-count-as-immersion.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/does-playing-japanese-audio-on-repeat-while-i-sleep-count-as-immersion.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 11 Jun 2023 10:54:22 +0300</pubDate>
+</item>
 <item>
 <title>How strict do you recommend being about 1T?</title>
 <author>Tatsumoto</author>
@@ -374,39 +413,6 @@ since it's easier to read one Q&amp;A than the entire guide.</p>
 <guid>https://tatsumoto-ren.github.io/blog/is-music-a-good-way-to-learn-japanese.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 30 Mar 2023 20:57:29 +0300</pubDate>
-</item>
-<item>
-<title>Is it OK to sentence mine during free-flow immersion instead of intensive-immersion?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>The difference between <a href="active-immersion.html#free-flow-immersion">free-flow</a>
-and <a href="active-immersion.html#intensive-immersion">intensive</a> immersion
-is that free-flow is more passive and relaxed,
-while intensive immersion involves actively looking things up and making cards.
-During intensive immersion,
-it is expected that you make flashcards
-as you are already putting in the effort to look up words.</p>
-<p>However, sentencing mining during free-flow immersion instead of intensive immersion is a viable option.
-If that is the method that works best for you,
-then go for it.
-But you'll have to rearrange the process of making your flashcards.
-When watching a movie, for example, you usually pause to look up an unknown word
-and then make a <a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence card</a>
-with a chosen dictionary definition.
-But since free-flow immersion doesn't involve looking up words,
-when you come across a new word,
-you just make a card with the sentence.
-In MPV with mpvacious you can press one button to make a card.
-The key is not to interrupt the flow.
-Then, you would dedicate a period of time to go through the new flashcards
-and add dictionary definitions, mark the target words, and include other relevant information.</p>
-<p>If making cards during free-flow immersion is more effective for you,
-there is no reason not to do it.
-I do it myself when I feel like it.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-ok-to-mine-during-free-flow-immersion.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-ok-to-mine-during-free-flow-immersion.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 27 Mar 2023 23:29:45 +0300</pubDate>
 </item>
 </channel>
 </rss>
