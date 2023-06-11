@@ -165,8 +165,13 @@ const Toc = Object.freeze({
         div.className = "toc_navigation"
         return div
     },
+    find_toc_path() {
+        return window.location.hostname.endsWith("github.io") ?
+            "https://raw.githubusercontent.com/tatsumoto-ren/tatsumoto-ren.github.io/main/blog/table-of-contents.md" :
+            "table-of-contents.md";
+    },
     init() {
-        fetch("table-of-contents.md")
+        fetch(this.find_toc_path())
             .then(response => {
                 if (response.ok) {
                     return response.text()
