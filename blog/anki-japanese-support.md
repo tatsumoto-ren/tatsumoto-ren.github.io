@@ -204,7 +204,22 @@ When a new source is added, AJT Japanese downloads its index file
 and figures out where to find audio files and what audio files are available
 based on information stored in it.
 
-#### Online audio sources
+### Available audio formats
+
+The default audio sources for AJT Japanese are availabe in two formats: `opus` and `mp3`.
+Audio sources created by the users, however, can be in any format.
+
+The Opus audio codec provides much better quality at lower bitrates
+(which saves a lot of space and makes syncing large collections faster).
+However, Opus is **not** compatible with the following:
+
+* AnkiWeb.
+* Very old Android devices (Android 4 and below).
+* <abbr title="Note that we reject iThings and urge our users to upgrade to a free system such as postmarketOS, Android, etc.">AnkiMobile on iOS</abbr>
+
+The MP3 audio codec is older and less efficient, but is supported on pretty much all devices.
+
+### Online audio sources
 
 Audio files are stored remotely, only the index file is downloaded.
 When requested, AJT Japanese downloads audio files from the Internet, using the provided URLs.
@@ -215,11 +230,27 @@ paste the URL of the index and give it a unique name.
 
 **Currently available online audio sources:**
 
-* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v.1.2/NHK_main.zip).
+<details>
+
+<summary>ogg/opus files (recommended)</summary>
+
+* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.2/NHK_main.zip).
 * [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip).
 * [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.3/Shinmeikai-8_main.zip).
 
-#### Offline audio sources
+</details>
+
+<details>
+
+<summary>mp3 files</summary>
+
+* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/download/v1.0/NHK-2016_main.zip).
+* [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip).
+* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.0/Shinmeikai-8_main.zip).
+
+</details>
+
+### Offline audio sources
 
 Audio files are stored locally, on the hard drive.
 When requested, AJT Japanese copies the needed files to the Anki collection.
@@ -233,14 +264,30 @@ The add-on will figure out the rest based on the information inside the json fil
 
 **Currently available offline audio sources:**
 
-* [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip).
-* [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip).
-* [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
+<details>
+
+<summary>ogg/opus files (recommended)</summary>
+
+1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip).
+1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip).
+1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
+
+</details>
+
+<details>
+
+<summary>mp3 files</summary>
+
+1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/archive/refs/heads/main.zip).
+1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/archive/refs/heads/main.zip).
+1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/archive/refs/heads/main.zip).
+
+</details>
 
 <p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
 <p align="center"><i>Screenshot.</i></p>
 
-#### Creating a custom audio source
+### Creating a custom audio source
 
 To create a new audio source from scratch,
 the first thing you will need is a large folder with audio files

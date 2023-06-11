@@ -237,19 +237,42 @@ Each source is given an arbitrary name and a URL that points to its index file.<
 <p>When a new source is added, AJT Japanese downloads its index file
 and figures out where to find audio files and what audio files are available
 based on information stored in it.</p>
-<h4 id="online-audio-sources"><a class="anchor" href="#online-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Online audio sources</h4>
+<h3 id="available-audio-formats"><a class="anchor" href="#available-audio-formats" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Available audio formats</h3>
+<p>The default audio sources for AJT Japanese are availabe in two formats: <code>opus</code> and <code>mp3</code>.
+Audio sources created by the users, however, can be in any format.</p>
+<p>The Opus audio codec provides much better quality at lower bitrates
+(which saves a lot of space and makes syncing large collections faster).
+However, Opus is <strong>not</strong> compatible with the following:</p>
+<ul>
+<li>AnkiWeb.</li>
+<li>Very old Android devices (Android 4 and below).</li>
+<li><abbr title="Note that we reject iThings and urge our users to upgrade to a free system such as postmarketOS, Android, etc.">AnkiMobile on iOS</abbr></li>
+</ul>
+<p>The MP3 audio codec is older and less efficient, but is supported on pretty much all devices.</p>
+<h3 id="online-audio-sources"><a class="anchor" href="#online-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Online audio sources</h3>
 <p>Audio files are stored remotely, only the index file is downloaded.
 When requested, AJT Japanese downloads audio files from the Internet, using the provided URLs.
 All default audio sources are online audio sources.</p>
 <p>To add a new online audio source,
 paste the URL of the index and give it a unique name.</p>
 <p><strong>Currently available online audio sources:</strong></p>
+<details>
+<summary>ogg/opus files (recommended)</summary>
 <ul>
-<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v.1.2/NHK_main.zip">NHK accent dictionary, 2016</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.2/NHK_main.zip">NHK accent dictionary, 2016</a>.</li>
 <li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip">NHK accent dictionary, 1998</a>.</li>
 <li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.3/Shinmeikai-8_main.zip">Shinmeikai 8th edition</a>.</li>
 </ul>
-<h4 id="offline-audio-sources"><a class="anchor" href="#offline-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline audio sources</h4>
+</details>
+<details>
+<summary>mp3 files</summary>
+<ul>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/download/v1.0/NHK-2016_main.zip">NHK accent dictionary, 2016</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip">NHK accent dictionary, 1998</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.0/Shinmeikai-8_main.zip">Shinmeikai 8th edition</a>.</li>
+</ul>
+</details>
+<h3 id="offline-audio-sources"><a class="anchor" href="#offline-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline audio sources</h3>
 <p>Audio files are stored locally, on the hard drive.
 When requested, AJT Japanese copies the needed files to the Anki collection.</p>
 <p>To add a new offline audio source,
@@ -259,14 +282,25 @@ Copy the full path to the file and paste it into the &quot;URL&quot; field.
 Give it a unique name.
 The add-on will figure out the rest based on the information inside the json file.</p>
 <p><strong>Currently available offline audio sources:</strong></p>
-<ul>
+<details>
+<summary>ogg/opus files (recommended)</summary>
+<ol>
 <li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip">NHK accent dictionary, 2016</a>.</li>
 <li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip">NHK accent dictionary, 1998</a>.</li>
 <li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip">Shinmeikai 8th edition</a>.</li>
-</ul>
+</ol>
+</details>
+<details>
+<summary>mp3 files</summary>
+<ol>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/archive/refs/heads/main.zip">NHK accent dictionary, 2016</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/archive/refs/heads/main.zip">NHK accent dictionary, 1998</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/archive/refs/heads/main.zip">Shinmeikai 8th edition</a>.</li>
+</ol>
+</details>
 <p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
 <p align="center"><i>Screenshot.</i></p>
-<h4 id="creating-a-custom-audio-source"><a class="anchor" href="#creating-a-custom-audio-source" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a custom audio source</h4>
+<h3 id="creating-a-custom-audio-source"><a class="anchor" href="#creating-a-custom-audio-source" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a custom audio source</h3>
 <p>To create a new audio source from scratch,
 the first thing you will need is a large folder with audio files
 featuring native speech recordings.
