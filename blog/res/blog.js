@@ -166,7 +166,7 @@ const Toc = Object.freeze({
         return div
     },
     init() {
-        fetch("table-of-contents.md")
+        fetch("https://raw.githubusercontent.com/tatsumoto-ren/tatsumoto-ren.github.io/main/blog/table-of-contents.md")
             .then(response => {
                 if (response.ok) {
                     return response.text()
