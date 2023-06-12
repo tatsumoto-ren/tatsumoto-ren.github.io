@@ -217,7 +217,7 @@ const MegaTags = Object.freeze({
 })
 
 function toggle_body_scroll() {
-    document.body.style.overflowY = $('menu-btn').checked ? "hidden" : ""
+    /* Bad code was here */
 }
 
 function close_sidebar() {
