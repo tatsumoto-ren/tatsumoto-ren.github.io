@@ -167,6 +167,10 @@ The `split morphemes` setting determines whether an input string should be split
 It makes sense to enable splitting for fields that are expected to contain more than one word,
 but keep it disabled for fields that are expected to contain only one word.
 
+The `overwrite_destination` setting determines whether the contents of the destination field
+should be replaced if the field is already filled.
+By default, if a field already contains data, it won't be modified.
+
 Profile types are tried in this order:
 
 1) Furigana

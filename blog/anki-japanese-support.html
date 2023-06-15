@@ -207,6 +207,9 @@ the task is to write furigana to the <code>VocabFurigana</code> field.</p>
 <p>The <code>split morphemes</code> setting determines whether an input string should be split into words.
 It makes sense to enable splitting for fields that are expected to contain more than one word,
 but keep it disabled for fields that are expected to contain only one word.</p>
+<p>The <code>overwrite_destination</code> setting determines whether the contents of the destination field
+should be replaced if the field is already filled.
+By default, if a field already contains data, it won't be modified.</p>
 <p>Profile types are tried in this order:</p>
 <ol>
 <li>Furigana</li>
