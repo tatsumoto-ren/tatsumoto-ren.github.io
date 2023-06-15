@@ -287,6 +287,19 @@ The add-on will figure out the rest based on the information inside the json fil
 <p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
 <p align="center"><i>Screenshot.</i></p>
 
+### Audio Search dialog
+
+If you activate the "audio search button" setting in the add-on's Options,
+a button titled "Search audio files to add to note" will appear in the Editor's toolbar.
+By clicking on the button, you can open up the Search dialog box.
+It lets you search words to add audio files for.
+The table below the search bar displays all the audio files that match your search term.
+To add these audio files to your Anki note,
+simply check the "Add to note" checkboxes and click "Ok".
+
+<p align="center"><img alt="search dialog" src="img/search_audio_dialog.webp"></p>
+<p align="center"><i>Search dialog.</i></p>
+
 ### Creating a custom audio source
 
 To create a new audio source from scratch,
