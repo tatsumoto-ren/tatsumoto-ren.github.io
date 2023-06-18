@@ -22,7 +22,8 @@ assume it's wrong or verify by asking people in our chat.
 
 * [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
 A kana training app.
-* [Kana Anki Deck](https://ankiweb.net/shared/info/1233553736)
+* [Kana recognition Anki deck](https://ankiweb.net/shared/info/839782116).
+* [Kana production Anki Deck](https://ankiweb.net/shared/info/1233553736).
 * [Real kana](https://realkana.com/).
 Train kana recognition online.
 
@@ -257,9 +258,14 @@ Install [megatools](https://aur.archlinux.org/packages/megatools/)
 to be able to download files from Mega.
 * [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
 A shared folder with movies and other content with Japanese dubs.
-* [jraws](https://jraws.com/). Some jdramas.
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
+
+### Drama
+
+* [Asian DramaWiki Forum](https://www.d-addicts.com/forums/).
+* [Gaki No Tsukai](https://gaki-no-tsukai.com/index.php).
+* [jraws](https://jraws.com/). Some jdramas.
 
 ### Manga
 
