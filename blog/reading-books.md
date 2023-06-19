@@ -117,7 +117,7 @@ compared to reading on a computer screen.
 One example of such a device is [PineNote](https://wiki.pine64.org/wiki/PineNote).
 
 [KOreader](resources.html#reading-ebooks)
-is a book reader designed for e-ink devices,
+is a book reader application designed for e-ink devices,
 and it supports installing dictionaries,
 which is great for language learners.
 Try it if you have an e-ink device.
