@@ -117,7 +117,6 @@ or rooms without prior notice.
 | `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                                                                   |
 | `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                                                                 |
 | `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                                                               |
-| `3000.chat`                    | Admin deactivated users' accounts after receiving fake reports.                                                                               |
 | `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.                                            |
 | `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 | `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
@@ -255,7 +254,6 @@ without having to use a desktop client.
 * https://matrix.boba.chat/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
-* https://3000.chat/element/
 * https://chat.oscillas.com/
 * https://element.eclabs.de/
 * https://element.myserv.me/
