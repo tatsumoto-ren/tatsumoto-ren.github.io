@@ -184,11 +184,14 @@ or if the video file is stored outside the configured `video_dir` folder,
 you can add individual files to immersion pod by calling `impd add`.
 This command ignores modification dates of the video files.
 
-<br></br>
-You can optionally add a keybinding to make it easier to condense the current content on mpv
-add this line to ~/.mpv/input.conf <br></br>
-`Ctrl+b run "/bin/sh" "-c" "impd add '${=path}'"`
-<br></br>
+You can optionally set a keybinding in `mpv`'s config
+to condense the currently open video.
+Add this line to `~/.config/mpv/input.conf`:
+
+```
+Ctrl+b run "/bin/sh" "-c" "impd add '${=path}'"
+```
+
 ## When you're not home
 
 Synchronize your immersionpod folder to your mobile device.
