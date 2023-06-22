@@ -91,6 +91,25 @@ Once installed, open GoldenDict, go to "Edit" > "Preferences" and finish setting
 <p align="center"><img class="shadow" src="img/goldendict-hunspell.webp" alt="goldendict-hunspell"></p>
 <p align="center"><i>Screenshot.</i></p>
 
+## Pronunciation audio
+
+[Forvo.com pronunciation collection for GoldenDict](https://rutracker.org/forum/viewtopic.php?t=6211002)
+is a collection of audio files from `Forvo.com`.
+Among other languages,
+this torrent includes 292,342 native pronunciations of Japanese words.
+You can use these folders in Goldendict
+after unpacking them into a directory of your choice.
+To add a new folder,
+open GoldenDict,
+go to "Dictionaries (<kbd>F3</kbd>)" > "Sources" > "Sound Dirs" > "Add",
+then paste the path to an extracted folder.
+
+<p align="center"><img class="shadow" alt="Sound Dirs" src="img/goldendict-sound-dirs.webp"></p>
+<p align="center"><i>Sound Dirs Settings.</i></p>
+
+<p align="center"><img class="shadow" alt="Forvo Search" src="img/goldendic-forvo-search.webp"></p>
+<p align="center"><i>Search Forvo audio.</i></p>
+
 ## gd-tools
 
 [gd-tools](https://github.com/Ajatt-Tools/gd-tools)
