@@ -131,6 +131,10 @@ In such cases sites with example sentences come to rescue.
   Many of them come from non-native speakers.
 * [NHK Accent Audio](https://www.mediafire.com/file/ec0i8omoayfuc75/accentAudio.zip/file).
   Audio files from the NHK Accent dictionary, 1998 edition.
+* [Forvo.com pronunciation collection for GoldenDict](https://rutracker.org/forum/viewtopic.php?t=6211002).
+  This torrent includes 292,342 native pronunciations of Japanese words.
+  You can [use these folders in Goldendict](setting-up-goldendict.html#pronunciation-audio)
+  after unpacking them into a directory of your choice.
 
 ## Immersion material
 
