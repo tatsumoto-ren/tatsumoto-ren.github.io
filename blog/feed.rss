@@ -5,9 +5,26 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 11 Jun 2023 10:54:42 +0300</lastBuildDate>
-<pubDate>Sun, 11 Jun 2023 10:54:42 +0300</pubDate>
+<lastBuildDate>Sun, 25 Jun 2023 20:22:54 +0300</lastBuildDate>
+<pubDate>Sun, 25 Jun 2023 20:22:54 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Why shouldn't I just keep using an app instead?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>We do not recommend &quot;language learning&quot; apps like Duolingo, Lingodeer, Babbel,
+and others due to the fact that their methodology conflicts with <a href="whats-ajatt.html">AJATT</a>'s
+principles of <a href="whats-immersion.html">immersion</a> learning.
+Such apps do not actually help you with anything.
+There are no success stories.
+On the other hand, AJATTers typically reach fluency in just 18 months.
+The apps prevent you from reading interesting content in your target language, such as manga.
+And they make you more miserable in the end.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/why-shouldnt-i-just-keep-using-an-app-instead.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/why-shouldnt-i-just-keep-using-an-app-instead.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 25 Jun 2023 20:17:30 +0300</pubDate>
+</item>
 <item>
 <title>Does playing Japanese audio on repeat while I sleep count as immersion?</title>
 <author>Tatsumoto</author>
@@ -394,25 +411,6 @@ and adding pronunciation audio files to Anki cards.</p>
 <guid>https://tatsumoto-ren.github.io/blog/anki-japanese-support.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 12 Apr 2023 12:36:53 +0300</pubDate>
-</item>
-<item>
-<title>Is music a good way to learn Japanese?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<blockquote>
-<p>I do my Anki reps and sometimes watch vbijin,
-but I find myself listening to Japanese music more than anything.
-I get that song lyrics aren't representative of real sentences,
-but surely there's still things of worth in there.
-I like Tatsuro Yamashita, Jody is a banger.</p>
-</blockquote>
-<p>I have touched on this topic in several places of the guide,
-but I'm going to reiterate everything here
-since it's easier to read one Q&amp;A than the entire guide.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-music-a-good-way-to-learn-japanese.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-music-a-good-way-to-learn-japanese.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Thu, 30 Mar 2023 20:57:29 +0300</pubDate>
 </item>
 </channel>
 </rss>
