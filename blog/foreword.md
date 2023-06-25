@@ -127,7 +127,9 @@ Examples of low quality resources.
   If your goal is proficiency, you won't be satisfied with the low level and slow pace of textbooks.
   In the beginning you can use a basic grammar guide,
   everything on top of that won't be necessary.
-* Wanikani, Duolingo, Busuu and most "apps",
+* [Wanikani](what-are-the-downsides-of-using-wanikani.html),
+  [Duolingo](why-shouldnt-i-just-keep-using-an-app-instead.html),
+  Busuu and most "apps",
   especially if they claim that you can learn to speak a language in 10 minutes a day.
   Language apps can't replace learning through massive exposure to the target language,
   and they can't tell you everything you should know.
