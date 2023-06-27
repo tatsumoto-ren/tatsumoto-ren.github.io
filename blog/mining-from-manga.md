@@ -23,7 +23,7 @@ We need a toolchain that does the following:
    that contains a speech bubble with Japanese text.
 2) Processes the taken screenshot.
 3) Returns the recognized text.
-4) Sends the text to a dictionionary program.
+4) Sends the text to a dictionary program.
    For example, [GoldenDict](setting-up-goldendict.html)
    or [Yomichan Search](what-is-yomichan-search.html).
 5) We can look up words and make Anki flashcards.
@@ -70,9 +70,9 @@ Very often when you download manga, you get an archive
 which needs to be unpacked (`*.zip`, `*.rar`, etc.).
 For convenience, set up a keyboard shortcut to be able to extract archives in a simple keystroke.
 
-For example, my file manager is [lf](https://github.com/gokcehan/lf).
+For example, my file manager is [lf](https://wiki.archlinux.org/title/Lf).
 To extract archives by pressing <kbd>E</kbd>,
-put `map E aunpack $fx` in the config file
+put `map E aunpack $fx` in the config file at `~/.config/lf/lfrc`
 ([atool](https://archlinux.org/packages/community/any/atool/) needs to be installed as well).
 
 `lf` supports **tags**.
@@ -81,6 +81,41 @@ tag the last page (image file) you've read by pressing <kbd>t</kbd>
 so that you don't lose the position you're at.
 Next time you open the same folder,
 you will see a red asterisk next to the tagged file.
+
+To have `lf` automatically select the image currently displayed in `nsxiv`,
+add the following code to `~/.config/nsxiv/exec/image-info`.
+The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/image-info).
+
+```
+# If running as a child of lf, select the current file.
+if [ -n "$id" ]; then
+	lf -remote "send $id select \"$1\""
+fi
+```
+
+It is possible to set up a keyboard shortcut in `nsxiv`
+that tells `lf` to add a tag to the currently displayed image.
+For example,
+to tag the current file by pressing <kbd>t</kbd>,
+add the following code to `~/.config/nsxiv/exec/key-handler`.
+The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/key-handler).
+
+```
+while read file; do
+	case "$1" in
+	# ...
+	# other keys you may have set
+	# ...
+	"t")
+		# Tag the current file using lf. E.g, the last read manga page.
+		if [ -n "$id" ]; then
+			 lf -remote "send $id select \"$file\""
+			 lf -remote "send $id tag x"
+		fi
+		;;
+	esac
+done
+```
 
 ## OCR method
 
