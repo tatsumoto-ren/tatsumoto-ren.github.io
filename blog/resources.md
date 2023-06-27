@@ -493,6 +493,15 @@ You may need a Japanese IP address for some of these.
 * [mecab-ipadic-neologd-git](https://aur.archlinux.org/packages/mecab-ipadic-neologd-git).
   Neologism dictionary for MeCab.
 
+### Productivity
+
+* [tatsumato](https://aur.archlinux.org/packages/tatsumato).
+  Tatsumoto's Pomodoro timer.
+* [potato](https://aur.archlinux.org/packages/potato).
+  A pomodoro timer for the shell.
+* [pomodoro](https://aur.archlinux.org/packages/pomodoro).
+  A simple dmenu pomodoro timer tool.
+
 ### Image viewers
 
 * [nsxiv](https://codeberg.org/nsxiv/nsxiv)
