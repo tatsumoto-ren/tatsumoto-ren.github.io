@@ -162,6 +162,11 @@ External resources:
 * [In-Depth J-J Dictionary Walk through](https://redirect.invidious.io/watch?v=D-AfT8XW63w)
 * [Making Monolingual Sentence Cards in Real Time](https://redirect.invidious.io/watch?v=BzuLGmkihf4)
 
+## [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng)
+
+* [Install from the AUR](https://aur.archlinux.org/packages?K=crqt-ng)
+* [Reading books](reading-books.html)
+
 ## [Yomichan](setting-up-yomichan.html)
 
 Look up unknown words with the hover of a mouse
@@ -176,7 +181,6 @@ Anki Media Extractor Script.
 Allows you to easily add screenshots and audio recordings to your Anki cards.
 
 * [AUR package](https://aur.archlinux.org/packages/ames/)
-* [VN mining guide](https://gist.github.com/eshrh/5bbf4deab58fefdab9eacf77b450efc0)
 
 ## [subs2srs](http://subs2srs.sourceforge.net/)
 
