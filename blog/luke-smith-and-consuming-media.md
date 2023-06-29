@@ -48,7 +48,8 @@ They are indeed very ineffective,
 but they have nothing to do with **consuming** media.
 Instead,
 they require active, deliberate yet extremely inefficient **studying**.
-We do not recommend apps like Duolingo as their methodology conflicts
+We do not recommend apps [like Duolingo](why-shouldnt-i-just-keep-using-an-app-instead.html)
+as their methodology conflicts
 with [AJATT](whats-ajatt.html)'s ideas of immersion learning.
 These resources base their
 instruction around constructing sentences from grammar rules, memorizing
