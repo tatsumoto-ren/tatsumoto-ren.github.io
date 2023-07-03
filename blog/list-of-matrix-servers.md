@@ -102,7 +102,6 @@ Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
 | Server                   | Web client                                          | Extra                    |
 | :---                     | :---                                                | :---                     |
 | `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) | last checked - closed    |
-| `nerdsin.space`          | [nerdsin.space](https://nerdsin.space/)             | last checked - closed 🏆 |
 
 ## Do not use
 
@@ -122,6 +121,7 @@ or rooms without prior notice.
 | `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 | `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
 | `halogen.city`                 | I used to recommend this server, but our members constantly complained about having trouble joining rooms. On top of that the server is slow. |
+| `nerdsin.space`                | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
@@ -158,7 +158,6 @@ like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 * https://riot.tzchat.org/
 * https://crystal-temple.flak.is/
 * https://im.tetaneutral.net/
-* https://nerdsin.space/ 🏆
 * https://matrix.mlp.chat/
 * https://matrix.eientei.org/
 * https://im.tetaneutral.net/
@@ -231,7 +230,6 @@ without having to use a desktop client.
 * https://chat.gould.cx/
 * https://chat.vyas.net/
 * https://gnome.riot.im/
-* https://nerdsin.space/
 * https://riot.kudos.im/
 * https://riot.pcg.life/
 * https://riot.zorc.xyz/
