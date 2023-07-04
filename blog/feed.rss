@@ -5,9 +5,32 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 25 Jun 2023 20:22:54 +0300</lastBuildDate>
-<pubDate>Sun, 25 Jun 2023 20:22:54 +0300</pubDate>
+<lastBuildDate>Tue, 04 Jul 2023 23:38:15 +0300</lastBuildDate>
+<pubDate>Tue, 04 Jul 2023 23:38:15 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>If you're almost done with Tango N5, is it worth switching to the KanjiTransition deck?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>No.
+The <a href="learning-kanji.html#jp1k-method">JP1K method</a>
+was invented so that people can skip RTK
+(or any other <a href="learning-kanji.html#isolated-kanji-study">isolated kanji</a> study deck).
+For a lot of people learning kanji out of context is boring and difficult.
+The benefit of the JP1K method is that you can start learning
+from authentic Japanese sentences almost from the start
+instead of spending time on memorizing individual characters.
+If you've basically finished the <a href="basic-vocabulary.html#anki-deck">Tango N5</a> deck,
+it's safe to assume that you've already got enough kanji reading ability
+to continue learning vocabulary from native content.
+Moreover, the <a href="jp1k-anki-deck.html">KanjiTransition deck</a> is largely based on Tango N5.
+The only thing that's different is the card template.
+So there's no point in studying the same material twice.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-worth-switching-from-tango-to-jp1k.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-worth-switching-from-tango-to-jp1k.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 04 Jul 2023 23:37:21 +0300</pubDate>
+</item>
 <item>
 <title>Why shouldn't I just keep using an app instead?</title>
 <author>Tatsumoto</author>
@@ -390,27 +413,6 @@ which I personally found very helpful in the beginning.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-much-of-my-immersion-should-i-understand.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Fri, 14 Apr 2023 18:37:32 +0300</pubDate>
-</item>
-<item>
-<title>Japanese support for Anki</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p><a href="setting-up-anki.html">Anki</a>
-can be used
-to learn a variety of different subjects,
-including languages.
-What makes Anki such a fantastic tool for Japanese learners is the vast array of plugins or &quot;add-ons&quot;
-that extend its functionality.
-One of the most useful add-ons for learning Japanese is
-<a href="https://ankiweb.net/shared/info/1344485230">AJT Japanese</a>.
-Its main features include
-adding furigana,
-adding pitch accent information,
-and adding pronunciation audio files to Anki cards.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/anki-japanese-support.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/anki-japanese-support.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Wed, 12 Apr 2023 12:36:53 +0300</pubDate>
 </item>
 </channel>
 </rss>
