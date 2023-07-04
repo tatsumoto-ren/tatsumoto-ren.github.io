@@ -240,7 +240,7 @@ paste the URL of the index and give it a unique name.
 
 1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.2/NHK_main.zip).
 1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip).
-1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.3/Shinmeikai-8_main.zip).
+1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.4/Shinmeikai-8_main.zip).
 1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/download/v1.0/TAAS_main.zip).
 
 </details>
@@ -251,7 +251,7 @@ paste the URL of the index and give it a unique name.
 
 1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/download/v1.0/NHK-2016_main.zip).
 1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip).
-1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.0/Shinmeikai-8_main.zip).
+1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.1/Shinmeikai-8_main.zip).
 
 </details>
 
