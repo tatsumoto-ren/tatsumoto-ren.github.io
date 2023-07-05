@@ -121,7 +121,7 @@ or rooms without prior notice.
 | `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 | `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
 | `halogen.city`                 | I used to recommend this server, but our members constantly complained about having trouble joining rooms. On top of that the server is slow. |
-| `nerdsin.space`                | Admin deactivated users' accounts for no apparent reason.                                                                                     |
+| `nerdsin.space`                | Admin deactivated users' accounts after receiving fake reports.                                                                               |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
