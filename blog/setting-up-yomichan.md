@@ -159,34 +159,34 @@ and everyone is welcome to add their templates by making a pull request.
 #### Commentary
 
 * The value set for `SentKanji` lets you automatically make the target word bold.
-Alternatively, replace it with `{sentence}` if you don't want it to be highlighted.
+  Alternatively, replace it with `{sentence}` if you don't want it to be highlighted.
 * `SentFurigana` is left empty.
-You may have noticed that Yomichan can add furigana to sentences
-with the `{sentence-furigana}` tag.
-Unfortunately, it uses a html-based `ruby` format which is hard for the user to edit.
-I recommend leaving the `SentFurigana` field blank
-and using the
-[Furigana](useful-anki-add-ons-for-japanese.html#furigana)
-add-on to generate furigana.
+  You may have noticed that Yomichan can add furigana to sentences
+  with the `{sentence-furigana}` tag.
+  Unfortunately, it uses a html-based `ruby` format which is hard for the user to edit.
+  I recommend leaving the `SentFurigana` field blank
+  and using the [AJT Japanese](anki-japanese-support.html)
+  add-on to generate furigana.
 * `SentEng` can be used together with
-[subs2srs](our-immersion-learning-toolset.html#subs2srs)
-and premade decks such as
-[AnkiDrone Starter Pack](basic-vocabulary.html#anki-deck).
+  [subs2srs](our-immersion-learning-toolset.html#subs2srs)
+  and premade decks such as
+  [AnkiDrone Starter Pack](basic-vocabulary.html#anki-deck).
 * `MorphManFocus`
-is a field for compatibility with
-[Morphman](https://ankiweb.net/shared/info/900801631).
+  is a field for compatibility with
+  [Morphman](https://ankiweb.net/shared/info/900801631).
 * `SentAudio` and `Image` are to be filled by [mpvacious](mining-from-movies-and-tv-shows.html).
 * If you set `VocabDef` to `{clipboard-text}`
-you can manually select which part of the definition you want
-by pressing `Ctrl+C` before you make a card.
+  you can manually select which part of the definition you want
+  by pressing `Ctrl+C` before you make a card.
 * `VocabAudio` is left empty.
-I don't recommend assigning `{audio}`
-because all default audio sources in Yomichan
-often provide samples with incorrect pronunciation and pitch accent.
-For example, you can get `はは` instead of `はば` or `ぼせい` instead of `ほせい`.
-It's pretty bad.
-Furthermore, enabling `{audio}` significantly slows down card creation
-because Yomichan has to access pronunciation servers and download audio every time.
+  I don't recommend assigning `{audio}`
+  because all default audio sources in Yomichan
+  often provide samples with **incorrect pronunciation** and pitch accent.
+  For example, you get `はは` instead of `はば` or `ぼせい` instead of `ほせい`.
+  It's pretty bad, even harmful for language learning.
+  Furthermore, enabling `{audio}` significantly slows down card creation
+  because Yomichan has to access pronunciation servers and download audio every time.
+  Instead you can use [audio sources](anki-japanese-support.html#audio-files) provided by AJT Japanese.
 
 ### Handlebars
 

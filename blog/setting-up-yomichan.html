@@ -215,8 +215,7 @@ You may have noticed that Yomichan can add furigana to sentences
 with the <code>{sentence-furigana}</code> tag.
 Unfortunately, it uses a html-based <code>ruby</code> format which is hard for the user to edit.
 I recommend leaving the <code>SentFurigana</code> field blank
-and using the
-<a href="useful-anki-add-ons-for-japanese.html#furigana">Furigana</a>
+and using the <a href="anki-japanese-support.html">AJT Japanese</a>
 add-on to generate furigana.</li>
 <li><code>SentEng</code> can be used together with
 <a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
@@ -232,11 +231,12 @@ by pressing <code>Ctrl+C</code> before you make a card.</li>
 <li><code>VocabAudio</code> is left empty.
 I don't recommend assigning <code>{audio}</code>
 because all default audio sources in Yomichan
-often provide samples with incorrect pronunciation and pitch accent.
-For example, you can get <code>はは</code> instead of <code>はば</code> or <code>ぼせい</code> instead of <code>ほせい</code>.
-It's pretty bad.
+often provide samples with <strong>incorrect pronunciation</strong> and pitch accent.
+For example, you get <code>はは</code> instead of <code>はば</code> or <code>ぼせい</code> instead of <code>ほせい</code>.
+It's pretty bad, even harmful for language learning.
 Furthermore, enabling <code>{audio}</code> significantly slows down card creation
-because Yomichan has to access pronunciation servers and download audio every time.</li>
+because Yomichan has to access pronunciation servers and download audio every time.
+Instead you can use <a href="anki-japanese-support.html#audio-files">audio sources</a> provided by AJT Japanese.</li>
 </ul>
 <h3 id="handlebars"><a class="anchor" href="#handlebars" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Handlebars</h3>
 <p>Usually the term <em>handlebars</em> is used to refer to the formatting of Anki cards created by Yomichan.
