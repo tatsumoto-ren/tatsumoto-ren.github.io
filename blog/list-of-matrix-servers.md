@@ -81,13 +81,13 @@ You may need to Email an admin to get an account.
 | `midov.pl`        | [midov.pl](https://element.midov.pl/element/)        | [Register here](https://midov.pl/registerform.sh) 🏆 |
 | `koneko.chat`     | [element.koneko.chat](https://element.koneko.chat/)  |                                                      |
 
-### [Intelligent Selections Regarding Account Entrustment, Listed](https://plan9.rocks/israel/)
+### [Intelligent Selections Regarding Account Entrustment, Listed](https://web.archive.org/web/20230529080517/https://israel.plan9.rocks/)
 
 Same as some above.
 
-| Server        | Web client                                        | Extra |
-| :---          | :---                                              | :---  |
-| `eientei.org` | [matrix.eientei.org](https://matrix.eientei.org/) |       |
+| Server              | Web client                                        | Extra |
+| :---                | :---                                              | :---  |
+| `eientei.org`       | [matrix.eientei.org](https://matrix.eientei.org/) |       |
 
 ### Servers run by Japanese people
 
