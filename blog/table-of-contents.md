@@ -46,6 +46,7 @@ date: 1616375454
 	* [Writing by hand](writing-japanese.html)
 	* [Condensing active immersion](condensing-active-immersion.html)
 	* [Plumbing](plumbing-for-language-learners.html)
+	* [Timeboxing](timeboxing.html)
 * Apocrypha
 	* [List of resources](resources.html)
 	* [FAQ](tag_faq.html)
