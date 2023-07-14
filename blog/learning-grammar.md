@@ -142,29 +142,29 @@ third party guides may contain what Tatsumoto considers to be ineffective langua
 We recommend making use of their grammar explanations
 but disregarding their language learning advice.
 
-* [All About Particles](https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/71441b2fea92b7e2d387893b54772cc4f45fb9c0)
-([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/1095266/8abab5)).
-A nicely organized book simply described as "godsend".
-For each grammar point in the book there's a short explanation
-and several natural example sentences with translations.
-Khatz used this book a long time ago when he learned Japanese.
+* [All About Particles](https://comm.cx/_matrix/media/r0/download/comm.cx/ac729abd7e7bd8c7192faa7956e4b8f951e12399)
+  ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
+  A nicely organized book simply described as "godsend".
+  For each grammar point in the book there's a short explanation
+  and several natural example sentences with translations.
+  Khatz used this book a long time ago when he learned Japanese.
 * [Sakubi](https://sakubi.neocities.org/).
-It is written with immersion learners in mind.
-The guide stresses the importance of reading and listening as opposed to drilling and memorizing.
+  It is written with immersion learners in mind.
+  The guide stresses the importance of reading and listening as opposed to drilling and memorizing.
 * [Tae Kim](http://www.guidetojapanese.org/learn/grammar).
-Written with traditional learners in mind,
-but is still a good guide recommended by many.
-Sections you need to read are
-"Basic Grammar", "Essential Grammar", "Special Expressions" and "Advanced Topics".
-You have already covered everything else.
-Don't touch any conjugation tables and exercises.
-In AJATT, the goal of studying grammar
-is strictly to increase the comprehensibility of your immersion.
+  Written with traditional learners in mind,
+  but is still a good guide recommended by many.
+  Sections you need to read are
+  "Basic Grammar", "Essential Grammar", "Special Expressions" and "Advanced Topics".
+  You have already covered everything else.
+  Don't touch any conjugation tables and exercises.
+  In AJATT, the goal of studying grammar
+  is strictly to increase the comprehensibility of your immersion.
 * [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
-([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
-You can skip the "Alphabets" page as you have already covered that.
-Example sentences are listed at the end of each page.
-Each sentence is broken down into pieces and translated.
+  ([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
+  You can skip the "Alphabets" page as you have already covered that.
+  Example sentences are listed at the end of each page.
+  Each sentence is broken down into pieces and translated.
 
 <p align="center"><img class="shadow" alt="all about particles" src="img/about_particles.webp"></p>
 <p align="center"><i>All About Particles. Example sentences help understand the grammar.</i></p>
