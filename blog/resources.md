@@ -378,10 +378,10 @@ A shared folder with movies and other content with Japanese dubs.
 ### Audiobooks
 
 * Japanese Audiobook Collection
-  * [Part 1](https://nyaa.si/view/1616763)
-  * [Part 2](https://nyaa.si/view/1616764)
-  * [Part 3](https://nyaa.si/view/1616765)
-  * [Part 4](https://nyaa.si/view/1616766)
+  * [Part 1](https://nyaa.si/view/1616763) or [Magnet](magnet:?xt=urn:btih:4ee70a18d55d3745bf45d3c8889ec3d8f7319fda&dn=Japanese%20Audiobook%20Collection%20%28Part%201%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 2](https://nyaa.si/view/1616764) or [Magnet](magnet:?xt=urn:btih:6088af63cc4dbe448f77155264f2fdd025674160&dn=Japanese%20Audiobook%20Collection%20%28Part%202%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 3](https://nyaa.si/view/1616765) or [Magnet](magnet:?xt=urn:btih:3bf6c62e02d56268b5d25f9608700248872d2795&dn=Japanese%20Audiobook%20Collection%20%28Part%203%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 4](https://nyaa.si/view/1616766) or [Magnet](magnet:?xt=urn:btih:fba92e76cb70c41e666b49cd255200a1bc57de8b&dn=Japanese%20Audiobook%20Collection%20%28Part%204%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
 
 ### Podcasts
@@ -415,7 +415,7 @@ You may need a Japanese IP address for some of these.
 * [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
 * [kitsunekko mirror](https://mega.nz/folder/jIxCCAjK#AYd_T5HsTrJRsaWwTtspjQ)
 * [kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)
-* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
+* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
 * [Jpsubbers drama subtitles &mdash; archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
@@ -951,7 +951,7 @@ Notable articles:
   A list of Matrix rooms in Japanese.
   Chat with natives on various topics of interest.
 * [Cornucopia of resources](https://djtguide.neocities.org/cor) from the old DJT site.
-* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
+* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367) or [Magnet](magnet:?xt=urn:btih:8a02cdf9cbfdec95e0a61d5381d80f46aea911f8&dn=Japanese%20Mega%20Learning%20Pack%20-%20Remake&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
   Her guide is a little outdated but can still be useful.
