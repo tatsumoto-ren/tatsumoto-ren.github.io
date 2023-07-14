@@ -265,7 +265,7 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
 /* body */
 
 #divbodyholder {
-    word-wrap: break-word;
+    overflow-wrap: break-word;
     margin: var(--gap-large) 0 var(--gap-large);
 }
 
@@ -1235,25 +1235,42 @@ article img[float=left] {
     float: left;
 }
 
-/* Notes in articles */
+/* Notes in articles and Magnet links */
 
-article .article-note {
+article .article-note,
+article a[href^="magnet:?"] {
     --paint-with: green;
 
-    color: var(--paint-with);
+    color: var(--paint-with, black);
     display: inline-flex;
     flex-flow: row nowrap;
     align-items: baseline;
     font-weight: bold;
+    gap: 3px;
 }
 
-article .article-note::before {
+article .article-note::before,
+article a[href^="magnet:?"]::before {
     content: "";
-    margin-right: 4px;
     background-color: var(--paint-with);
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='octicon octicon-info mr-2' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath d='M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z'%3E%3C/path%3E%3C/svg%3E");
     background-repeat: no-repeat;
     width: 16px;
     aspect-ratio: 1/1;
     align-self: center;
+}
+
+/* Magnet links, Magnet icon */
+
+article a[href^="magnet:?"] {
+    --paint-with: #cb4154;
+    flex-direction: row-reverse;
+}
+
+article a[href^="magnet:?"]:is(:hover, :active, :focus) {
+    filter: hue-rotate(20deg) saturate(140%);
+}
+
+article a[href^="magnet:?"]::before {
+    mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='black' d='M11 0h5v4h-5v-4z'%3E%3C/path%3E%3Cpath fill='blac4' d='M11 5v3c0 1.6-1.4 3-3 3s-3-1.4-3-3v-3h-5v3c0 4.4 3.6 8 8 8s8-3.6 8-8v-3h-5z'%3E%3C/path%3E%3Cpath fill='blac4' d='M0 0h5v4h-5v-4z'%3E%3C/path%3E%3C/svg%3E%0A");
 }
