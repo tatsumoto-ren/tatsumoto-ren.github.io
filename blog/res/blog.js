@@ -206,7 +206,7 @@ const MegaTags = Object.freeze({
         mega_tag.classList.add("mega_link")
         mega_tag.target = "_blank"
         mega_tag.title = "Use megatools"
-        mega_tag.href = "https://aur.archlinux.org/packages/megatools"
+        mega_tag.href = "https://archlinux.org/packages/extra/x86_64/megatools/"
         mega_tag.innerHTML = ""
         return mega_tag
     },
