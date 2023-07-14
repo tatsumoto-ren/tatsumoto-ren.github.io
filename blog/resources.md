@@ -58,6 +58,12 @@ Kanji characters with Koohii stories.
 
 ### Grammar
 
+> Main article: [Learning grammar](learning-grammar.html)
+
+* [All About Particles](https://comm.cx/_matrix/media/r0/download/comm.cx/ac729abd7e7bd8c7192faa7956e4b8f951e12399)
+  ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
+  A nicely organized book simply described by many as "godsend".
+  Khatz used this book a long time ago when he learned Japanese.
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
   A guide to Japanese grammar.
   It breaks down Japanese in a logical and straightforward way
@@ -68,6 +74,10 @@ Kanji characters with Koohii stories.
   Another online DoJG reference.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
   An Anki deck that contains example sentences from DoJG.
+* [Sakubi](https://sakubi.neocities.org/).
+  A rather short guide written for immersion learners.
+* [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
+  ([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
 
 ### Grammar in Japanese
 
@@ -361,8 +371,9 @@ A shared folder with movies and other content with Japanese dubs.
 * [アルファポリス](https://www.alphapolis.co.jp/).
   A site where you can read novels, manga, etc., for free.
   You can disable JavaScript but must allow cookies for books' pages to load.
-* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
-  A torrent with Japanese 30,000 ebooks.
+* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943) or
+  [Magnet](magnet:?xt=urn:btih:b2ab5fbffdf5d11477c6cd9c6738bfadecc67f43&dn=%5BPeepoHappyBooks%5D%20Japanese%20Learner%E2%80%99s%20Anthology%20v2&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+  A torrent with 30,000 Japanese ebooks.
 
 ### Audiobooks
 
