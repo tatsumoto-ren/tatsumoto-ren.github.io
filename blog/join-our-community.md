@@ -13,37 +13,6 @@ You can join us on Matrix or on Telegram.
 
 ****
 
-## Rules
-
-1) **Speak English.**
-Do not use your Japanese unless you're already fluent.
-Remember that [talking is not practicing](https://redirect.invidious.io/watch?v=NiTsduRreug&t=352s).
-Your time is better spent immersing.
-1) **Be ethical.**
-Do not post promotions or spam unrelated to learning Japanese.
-However, feel free to share with us your learning resources.
-Be minimally polite, don't troll and don't post porn.
-1) **Stay on topic.**
-Try to keep the conversation centered around
-immersion, software for language learning,
-Japanese language, the country and its culture.
-Everything else should be discussed in the room dedicated to off-topic
-which you'll find after you've joined.
-1) **Read the guide.**
-Most questions we get are already answered in [our guide](table-of-contents.html).
-Our members are volunteering their time to help everybody.
-Try to reduce the amount of reoccurring questions so that everyone has more time to immerse.
-1) **No proprietary software.**
-We don't use, support or recommend
-[proprietary software](https://www.gnu.org/proprietary/).
-We use
-[free/libre software](https://www.gnu.org/philosophy/free-sw.html)
-because it is naturally more extensible and user-friendly.
-	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
-	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
-
-*Certain rooms may have their own sets of rules.*
-
 ## Matrix
 
 > Starting Lounge: `#join:midov.pl`
@@ -87,6 +56,37 @@ To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
 
 <a target="_blank" class="md-button telegram" href="https://t.me/+cEpSHZC_tMI4NDZi">Join us on Telegram</a>
+
+## Rules
+
+1) **Speak English.**
+Do not use your Japanese unless you're already fluent.
+Remember that [talking is not practicing](https://redirect.invidious.io/watch?v=NiTsduRreug&t=352s).
+Your time is better spent immersing.
+1) **Be ethical.**
+Do not post promotions or spam unrelated to learning Japanese.
+However, feel free to share with us your learning resources.
+Be minimally polite, don't troll and don't post porn.
+1) **Stay on topic.**
+Try to keep the conversation centered around
+immersion, software for language learning,
+Japanese language, the country and its culture.
+Everything else should be discussed in the room dedicated to off-topic
+which you'll find after you've joined.
+1) **Read the guide.**
+Most questions we get are already answered in [our guide](table-of-contents.html).
+Our members are volunteering their time to help everybody.
+Try to reduce the amount of reoccurring questions so that everyone has more time to immerse.
+1) **No proprietary software.**
+We don't use, support or recommend
+[proprietary software](https://www.gnu.org/proprietary/).
+We use
+[free/libre software](https://www.gnu.org/philosophy/free-sw.html)
+because it is naturally more extensible and user-friendly.
+	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
+	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
+
+*Certain rooms may have their own sets of rules.*
 
 ## Questions
 
