@@ -393,7 +393,7 @@ Dictionaries for Yomichan that help you look up Japanese grammar.
 * 日本語表現文型辞典.
   English explanations.
   Has examples sentences.
-  Data comes from [donnatoki](https://itazuraneko.neocities.org/grammar/donnatoki.html).
+  Data comes from [donnatoki](https://djtguide.github.io/grammar/donnatoki).
 * Dictionary of Japanese grammar.
   The entries are in English.
   Has example sentences.
