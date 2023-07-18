@@ -37,13 +37,14 @@ There are several ways you can watch YouTube.
    [youtube-viewer](https://github.com/trizen/youtube-viewer).
 3) [mpv](https://wiki.archlinux.org/title/Mpv).
    `mpv` is a video player.
-   It can utilize a built-in yt-dlp hook to play YouTube videos.
+   It can utilize a built-in `yt-dlp` hook to play YouTube videos.
    I recommend downloading videos before watching them, however.
    Storing immersion material locally makes [sentence mining](sentence-mining.html) substantially easier.
 4) Not using YouTube at all.
    Explore privacy-respecting platforms
    like [PeerTube](https://joinpeertube.org/) and [Odysee](https://odysee.com/).
    Chances are, you'll find Japanese immersion content there too.
+   `yt-dlp` works on these websites as well.
 
 ## Subtitles
 
