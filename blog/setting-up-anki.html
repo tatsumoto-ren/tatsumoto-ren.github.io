@@ -90,7 +90,7 @@ to help you get things up and running as quickly as possible.</p>
 <p>There are two main ways to install Anki.</p>
 <ul>
 <li>Using your distribution's package manager (<a href="https://wiki.archlinux.org/title/Pacman">pacman</a>, apt, dnf, etc.).</li>
-<li>Using <a href="https://pip.pypa.io/en/stable/">pip</a>, a software installer for Python programs.</li>
+<li>Using <a href="https://pypa.github.io/pipx/">pipx</a>, a software installer for Python programs.</li>
 <li>By downloading a release from the official website.</li>
 </ul>
 <p>The first method guarantees that you'll have the right dependencies installed,
@@ -128,14 +128,14 @@ outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.</p>
 </li>
 </ul>
-<h3 id="using-pip"><a class="anchor" href="#using-pip" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using pip</h3>
+<h3 id="using-pipx"><a class="anchor" href="#using-pipx" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using pipx</h3>
 <p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
-<div class="pre-wrap"><pre><code>$ pip install --upgrade aqt
+<div class="pre-wrap"><pre><code>$ pipx install aqt
 </code></pre></div>
 <details>
 <summary>Notes</summary>
 <ul>
-<li><code>pip</code> places executable files in <code>~/.local/bin/</code> by default.
+<li><code>pipx</code> places executable files in <code>~/.local/bin/</code> by default.
 Don't forget to add this directory to the
 <a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</li>
 <li>To run Anki, type <code>anki</code> in the terminal and press Enter.
@@ -151,7 +151,7 @@ doesn't work,
 add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>
 to the list of <a href="how-do-i-change-an-environment-variable.html">environment variables</a>.</li>
 <li>Anki depends on <a href="https://mpv.io/">mpv</a> to play audio.
-You have to install it separately.</li>
+You have to install it separately with <code>pacman</code> or another package manager.</li>
 <li>You may have to install <a href="https://pypi.org/project/PyQt5/">PyQt5</a> as well.</li>
 <li>Anki <code>2.1.50</code> and later additionally requires
 installing
@@ -161,16 +161,16 @@ and
 from PyPI.</li>
 <li><code>PyQt5</code> and <code>PyQtWebEngine</code> can be also obtained from the official Arch Linux repositories.</li>
 </ul>
-<p>You can tell <code>pip</code> to install a specific version.
+<p>You can tell <code>pipx</code> to install a specific version.
 This is handy when the latest version malfunctions.</p>
-<div class="pre-wrap"><pre><code>pip3 install --upgrade --pre &quot;aqt==2.1.49&quot;
+<div class="pre-wrap"><pre><code>pipx install &quot;aqt==2.1.60&quot;
 </code></pre></div>
 <p>There are two versions,
 depending on which GUI toolkit is used,
 <code>Qt6</code> and <code>Qt5</code>.
 You can change the toolkit like this:</p>
-<div class="pre-wrap"><pre><code>$ pip install --upgrade 'aqt[qt5]'
-$ pip install --upgrade 'aqt[qt6]'
+<div class="pre-wrap"><pre><code>$ pipx install 'aqt[qt5]'
+$ pipx install 'aqt[qt6]'
 </code></pre></div>
 <p>Normally, this is not needed.</p>
 </details>
@@ -554,7 +554,7 @@ Add them to your
 or
 <a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh">~/.zshrc</a>.</p>
 <p>Install a specific version.
-For example, run <code>anki_test_install 45</code> to install Anki <code>2.1.45</code>.</p>
+For example, run <code>anki_test_install 2.1.45</code> to install Anki <code>2.1.45</code>.</p>
 <div class="pre-wrap"><pre><code>anki_test_install() {
     local -r version=${1:?No version provided.}
     local -r dir=~/.local/share/anki_builds/&quot;anki_$version&quot;
@@ -562,7 +562,7 @@ For example, run <code>anki_test_install 45</code> to install Anki <code>2.1.45<
         mkdir -p -- &quot;$dir&quot; &amp;&amp; cd -- &quot;$dir&quot; || exit
         python -m venv --system-site-packages pyenv
         ./pyenv/bin/pip3 install --upgrade pip
-        ./pyenv/bin/pip3 install --upgrade --pre &quot;aqt==2.1.$version&quot;
+        ./pyenv/bin/pip3 install --upgrade --pre &quot;aqt==$version&quot;
     )
 }
 </code></pre></div>
@@ -573,7 +573,7 @@ This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to a
     if [[ $* ]]; then
         local -r choice=$*
     else
-        local -r choice=$(ls -1 &quot;$dir&quot; | dmenu)
+        local -r choice=$(find &quot;$dir&quot; -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | dmenu)
     fi
     if [[ -n $choice ]]; then
         (cd -- &quot;$dir/$choice&quot; &amp;&amp; ./pyenv/bin/anki)
