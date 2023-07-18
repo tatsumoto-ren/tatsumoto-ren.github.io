@@ -187,7 +187,7 @@ This may require a few GiB of disk space,
 but it will save you the hassle of having to visit subtitle catalogs
 every time you need to find subtitles.
 For example, if you download a mirror of `kitsunekko`,
-you can use [fzf](https://archlinux.org/packages/community/x86_64/fzf/) to search it.
+you can use [fzf](https://archlinux.org/packages/extra/x86_64/fzf/) to search it.
 
 If you can't find target language subtitles for a video,
 you can generate them using [pyTranscriber](https://aur.archlinux.org/packages/pytranscriber-bin).
