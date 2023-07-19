@@ -195,9 +195,9 @@ is an automatic synchronization utility.
 When synchronizing,
 you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.</p>
-<p>To install FFsubsync, first install ffmpeg, then the program itself.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ffmpeg
-$ pip3 install --upgrade ffsubsync
+<p>To install FFsubsync, first install <code>ffmpeg</code>, <code>pipx</code>, then the program itself.</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ffmpeg python-pipx
+$ pipx install ffsubsync
 </code></pre></div>
 <p>I recommend retiming subtitles in bulk, using a bash-loop.
 For this example let's say the videos are stored in the current directory,
@@ -234,9 +234,9 @@ Autosubsync-mpv is an add-on for the mpv media player.
 Watch
 <a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc">this video</a>
 to see how it works and how to set it up.</p>
-<p>To use autosubsync-mpv first have <code>mpv</code>, <code>ffmpeg</code> and <code>ffsubsync</code> installed.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed mpv ffmpeg
-$ pip3 install --upgrade ffsubsync
+<p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed mpv ffmpeg python-pipx
+$ pipx install ffsubsync
 </code></pre></div>
 <p>Download and install the mpv add-on.</p>
 <div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
