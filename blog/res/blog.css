@@ -357,19 +357,6 @@ article a.anchor {
     line-height: 1;
 }
 
-details {
-    border-radius: 0.5rem;
-}
-
-summary {
-    color: #1f56aa;
-    cursor: pointer;
-}
-
-summary+* {
-    margin-top: 0.5rem;
-}
-
 blockquote {
     padding: 0 1em;
     color: #6a737d;
@@ -1273,4 +1260,63 @@ article a[href^="magnet:?"]:is(:hover, :active, :focus) {
 
 article a[href^="magnet:?"]::before {
     mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='black' d='M11 0h5v4h-5v-4z'%3E%3C/path%3E%3Cpath fill='blac4' d='M11 5v3c0 1.6-1.4 3-3 3s-3-1.4-3-3v-3h-5v3c0 4.4 3.6 8 8 8s8-3.6 8-8v-3h-5z'%3E%3C/path%3E%3Cpath fill='blac4' d='M0 0h5v4h-5v-4z'%3E%3C/path%3E%3C/svg%3E%0A");
+}
+
+/* Details elements */
+
+details {
+    --spacing: 0.5rem;
+    outline: 1px solid #0098d4;
+    border-radius: calc(var(--spacing) / 3);
+    padding: 0 var(--spacing);
+}
+
+details[open] {
+    padding: 0 var(--spacing) var(--spacing);
+}
+
+details summary {
+    background-color: #00b8d415;
+    color: #1f56aa;
+    cursor: pointer;
+    padding: calc(var(--spacing) / 3) var(--spacing);
+    margin: 0 calc(-1 * var(--spacing));
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: calc(var(--spacing) / 1.5);
+}
+
+details summary::before {
+    --tri-size: 0.4rem;
+    --tri-color: currentColor;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: var(--tri-size) solid transparent;
+    border-right: var(--tri-size) solid transparent;
+    border-top: calc(var(--tri-size) * 1.5) solid var(--tri-color);
+    rotate: -90deg;
+    transition: rotate 0.2s;
+}
+
+details[open] summary::before {
+    rotate: 0deg;
+}
+
+details summary::after {
+    content: "(click here)";
+    color: grey;
+    font-size: 70%;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+details summary+* {
+    margin-top: var(--spacing);
+}
+
+details summary>* {
+    display: inline;
 }
