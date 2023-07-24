@@ -115,8 +115,8 @@ then paste the path to an extracted folder.
 [gd-tools](https://github.com/Ajatt-Tools/gd-tools)
 is a collection of tools for GoldenDict
 that aim to help in learning foreign languages.
-To install `gd-tools`, download the repository and run `sudo make install`.
-Read the instructions on GitHub for details.
+To install `gd-tools`, follow the [instructions on GitHub](https://github.com/Ajatt-Tools/gd-tools#installation).
+Arch Linux users can install the program [from the AUR](https://aur.archlinux.org/packages/gd-tools-git).
 
 <p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
