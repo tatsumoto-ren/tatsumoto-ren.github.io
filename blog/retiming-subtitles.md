@@ -153,7 +153,7 @@ by pressing `z`, `Z`, `x` and `X`.
 
 ### With subs2srs
 
-Subs2srs ships with a
+[Subs2srs](our-immersion-learning-toolset.html#subs2srs) ships with a
 [sub retimer tool](http://subs2srs.sourceforge.net/SubsReTimer/usage.html).
 After you install subs2srs, you can find the retimer by its desktop entry.
 This tool is helpful when you have a reference subtitle file that is already synced.
