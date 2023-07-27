@@ -161,7 +161,7 @@ Your goal is to understand Japanese.
 If you can't understand it,
 there is no way you will be able to successfully communicate with others
 even if you memorize basic phrases from a textbook.
-Premature speaking has other negative effects.
+[Premature speaking](can-i-speak-early.html) has other negative effects.
 It can mess up your accent and solidify your mistakes.
 Traditional language learners often demonstrate the effect in their speech.
 
