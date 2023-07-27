@@ -207,11 +207,12 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   I recommend keeping the value close to the default of 20 minutes.
   Mine is `35` minutes.
   When you finish your daily reviews and new cards,
-  Anki will start ignoring intervals of cards in the learning queue `less` than
-  this value and showing the cards to you right away.
+  Anki will start ignoring intervals of cards in the learning queue
+  **less** than this value
+  and will start showing the cards to you right away.
   This is good for cards with small intervals because it lets you finish your reps
   without breaking the flow and waiting for your cards to become ready to be reviewed.
-  But if you set the `Learn ahead limit` too high
+  But if you set the `Learn ahead limit` too high,
   cards with longer learning steps will be shown to you too early.
   Keeping the value on the lower side enforces the wait time of your steps.
   If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
@@ -223,7 +224,7 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   Mixing is probably the worst way and will confuse you when
   a new card pops up after a streak of mature cards.
 
-  **Note:** This option has been moved in newer versions.
+  **Note:** This option has been [moved](#display-order) in newer versions.
 * **Anki 2021 scheduler.**
   This is a
   [new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
