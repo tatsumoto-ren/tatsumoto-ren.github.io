@@ -5,7 +5,8 @@ tags: ['faq']
 ---
 
 It can be tempting to reset a deck that hasn't been reviewed in a while,
-but I do not recommend doing so for the cards have a review history.
+but I do not recommend doing so
+if a large number of cards have graduated and have a review history.
 Despite feeling like you may have forgotten everything,
 you likely remember more than you realize.
 Instead, I suggest reviewing the overdue cards.
