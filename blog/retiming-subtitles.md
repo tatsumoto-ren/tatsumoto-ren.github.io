@@ -4,27 +4,20 @@ date: 1634149975
 tags: [guide, mpv]
 ---
 
-Japanese subtitles can be found in
-[many places](resources.html#japanese-subtitles).
-Often after downloading an archive with subtitles for your show
+Reading target language subtitles
+is a great way to improve at your target language
+and grow your vocabulary when watching movies and TV-shows.
+Often,
+after downloading an archive with subtitles for a show
 you find that the subtitles are not in sync with the video files you have on your computer.
 In this article let's discuss what you can do to sync them.
 
 ****
 
-There are two methods of retiming subtitles available today:
+## Obtaining subtitles
 
-1) Manually adjusting timings using the retimer included with
-[subs2srs](our-immersion-learning-toolset.html#subs2srs)
-or by adjusting the subtitle delay in mpv.
-2) Using an automatic tool,
-[ffsubsync](https://github.com/smacke/ffsubsync)
-or
-[alass](https://github.com/kaegi/alass).
-
-FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
-unless the same breaks are present in the video file, which is almost never the case.
-Otherwise, the automatic tools are almost always faster than using a manual retimer.
+Japanese subtitles can be found in
+[Resources](resources.html#japanese-subtitles).
 
 ## Loading subtitles
 
@@ -126,6 +119,22 @@ for sub in ./*.ass; do
 	ffmpeg -i "$sub" -f srt "${sub%.*}".srt
 done
 ```
+
+## Retiming methods
+
+There are two methods of retiming subtitles available today:
+
+1) Manually adjusting timings using the retimer included with
+   [subs2srs](our-immersion-learning-toolset.html#subs2srs)
+   or by adjusting the subtitle delay in mpv.
+2) Using an automatic tool,
+   [ffsubsync](https://github.com/smacke/ffsubsync)
+   or
+   [alass](https://github.com/kaegi/alass).
+
+FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
+unless the same breaks are present in the video file, which is almost never the case.
+Otherwise, the automatic tools are almost always faster than using a manual retimer.
 
 ## Manual retiming
 
