@@ -5,9 +5,43 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Tue, 25 Jul 2023 15:44:51 +0300</lastBuildDate>
-<pubDate>Tue, 25 Jul 2023 15:44:51 +0300</pubDate>
+<lastBuildDate>Sat, 29 Jul 2023 02:44:00 +0300</lastBuildDate>
+<pubDate>Sat, 29 Jul 2023 02:44:00 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Do I have to use an SRS?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p><a href="whats-immersion.html">Immersion</a> is the cornerstone of <a href="whats-ajatt.html">AJATT</a>,
+with the <a href="spaced-repetition.html">SRS</a> serving as an optional supplement.
+While <a href="setting-up-anki.html">Anki</a>
+or other SRS applications can be useful for helping learn vocabulary faster,
+it is possible to become fluent without using them.
+If using an SRS reduces your motivation or enjoyment,
+it may be in your best interest to forgo using any SRS
+and instead focus on the core of the method.</p>
+<p>To improve learning speed and efficiency,
+it is recommended to incorporate some form of repetition,
+provided <a href="minimum-amount-of-anki.html">you can tolerate it</a>.
+We eventually forget <a href="how-much-reading-is-required-to-counteract-not-srsing.html">everything that we don't review</a>.
+While total, mass immersion can partially counteract the forgetting curve,
+it can't help when trying to memorize more uncommon words.</p>
+<p>In the case of Japanese,
+the SRS proves especially useful
+because it helps you learn how to read words written in kanji
+and ensures that you don't forget kanji readings.
+It is particularly helpul when dealing with rare kanji.</p>
+<p>Personally,
+I have observed that the majority of my failed Anki reviews
+stem from forgotten kanji readings.
+I may recall the meaning of a word, but struggle to recall its pronunciation.
+Therefore, if your target language does not utilize kanji or hanzi characters,
+it is totally fine to omit the use of Anki.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/do-i-have-to-use-an-srs.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/do-i-have-to-use-an-srs.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sat, 29 Jul 2023 02:38:41 +0300</pubDate>
+</item>
 <item>
 <title>Can I speak early?</title>
 <author>Tatsumoto</author>
@@ -194,7 +228,8 @@ I'm going to present you the easiest way, and you can read about other ways on A
 <title>I have a deck I haven't reviewed for a whole year. Should I reset it?</title>
 <author>Tatsumoto</author>
 <description><![CDATA[<p>It can be tempting to reset a deck that hasn't been reviewed in a while,
-but I do not recommend doing so for the cards have a review history.
+but I do not recommend doing so
+if a large number of cards have graduated and have a review history.
 Despite feeling like you may have forgotten everything,
 you likely remember more than you realize.
 Instead, I suggest reviewing the overdue cards.</p>
@@ -254,70 +289,6 @@ comprehend more and more of what you hear.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-do-you-recommend-starting-on-listening-practice.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sat, 29 Apr 2023 16:54:05 +0300</pubDate>
-</item>
-<item>
-<title>I immerse with English and Japanese subs on at the same time. Is this a bad idea?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>If you watch with English and Japanese subtitles on the screen at the same time,
-consider having both subtitle tracks hidden most of the time.
-In <code>mpv</code> you can press <kbd>v</kbd> to toggle subtitle visibility.
-When you feel like you didn't understand something,
-turn the subs on temporarily.
-Mpvacious has <a href="https://github.com/Ajatt-Tools/mpvacious#secondary-subtitles">key bindings</a>
-that let you toggle secondary subtitles as well,
-or you can have them appear on mouse hover.</p>
-<p>You can approach this question at 2 levels.</p>
-<ol>
-<li><p><strong>Training your listening ability.</strong></p>
-<p>Displaying both Japanese and English subtitles simultaneously
-would occupy a significant portion of the screen,
-making the subtitles difficult to ignore.
-If you have them visible all the time,
-it is likely that you will end up reading them.
-It may happen unconsciously, automatically, accidentally.
-Even if you catch an outline of a sentence in the corner of your eye,
-it could give you a hint and disrupt your listening practice.
-If you're genuinely committed to improving your listening skills,
-consider <strong>hiding all subtitles</strong>.
-This is the only way to ensure that you're not cheating.</p>
-</li>
-<li><p><strong>Increasing your overall comprehension.</strong>
-To ensure effective learning,
-it's crucial that you don't read English subtitles.
-If you do,
-and if you don't pay attention to the Japanese subtitles,
-<a href="should-i-watch-anime-with-english-subtitles.html">your progress will be zero</a>.
-Try to understand the Japanese subs first.</p>
-<p>If you must use English subtitles,
-try to make them less accessible,
-such as requiring a button press or mouse movement to reveal them.</p>
-<p>Then consider whether English subtitles can help you,
-or if it is better to get rid of them completely.
-Prioritize understanding the Japanese subtitles first,
-and only opt for English subtitles if necessary.
-As I previously discussed in
-<a href="should-i-put-english-translations-on-bilingual-tscs.html">Should I put English translations on Bilingual TSCs</a>,
-relying on translations doesn't help in language acquisition.
-While they may help you understand a rough meaning of a sentence,
-they don't aid in understanding how ideas are expressed in Japanese,
-and how grammar works.</p>
-<p>Furthermore,
-using English subtitles carries the risk of creating false associations
-between English words and Japanese words with similar meanings.
-This can lead to biases in your Japanese comprehension.</p>
-</li>
-</ol>
-<p>In conclusion,
-it is OK to keep Japanese subtitles visible,
-but English subtitles are better kept hidden.
-Hiding both English and Japanese subtitles is good for improving your listening abilities.
-And if you hate going forth between turning subs on and off,
-consider <a href="is-it-harmful-to-always-have-tl-subtitles-on.html">watching some shows fully raw and other shows with Japanese subs always on</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 24 Apr 2023 04:28:06 +0300</pubDate>
 </item>
 </channel>
 </rss>
