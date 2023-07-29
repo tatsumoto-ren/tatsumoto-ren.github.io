@@ -86,7 +86,8 @@ Later go back to the sentences you've saved and finish making the cards.
 ## Words and sentences
 
 Though in certain cases it's fine to make a word card,
-making a targeted sentence card instead brings more advantage.
+making a [targeted sentence card](discussing-various-card-templates.html#targeted-sentence-cards)
+instead brings more advantage.
 The meaning is only half of the picture.
 To understand a word, how it's used, and be able to use it correctly when speaking
 you need to know how the word connects with other words.
