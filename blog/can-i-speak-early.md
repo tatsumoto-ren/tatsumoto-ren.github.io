@@ -5,14 +5,15 @@ tags: ['faq']
 ---
 
 Generally,
-AJATT does not recommend speaking (or outputting) early.
+[AJATT](whats-ajatt.html) does not recommend speaking (or outputting) early.
 Typically,
 this means avoiding speaking in the first 1 to 2 years,
 or until your comprehension reaches fluency.
 AJATT's core philosophy is based on learning to
 understand your target language before you start outputting.
 We have found that  waiting until you have accumulated
-10,000 hours of input yields better results when you start learning to speak.
+[10,000 hours](mass-immersion.html)
+of input yields better results when you start learning to speak.
 
 Speaking early is [associated with long-term negative effects](bad-habits-due-to-being-forced-to-prematurely-output.html)
 which require time and deliberate practice to fix later.
