@@ -43,19 +43,6 @@ Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
 If you used Yomichan before, export and import your setting by going to
 "Settings" > "Backup" > "Export/Import settings".
 
-<details>
-
-<summary>Will Rikaitan be available in the Chrome Web Store?</summary>
-
-To upload an extension to the Chrome Web Store I need to
-[register as a developer](https://developer.chrome.com/docs/webstore/register/).
-The process requires paying a one-time registration fee.
-I can't pay it because none of my bank cards work with Google Pay.
-I hope this problem will be resolved eventually.
-If you want to help, please contact me.
-
-</details>
-
 ## Download dictionaries
 
 Yomichan needs dictionary files to operate.
