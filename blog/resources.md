@@ -202,30 +202,30 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 ### Streaming
 
 * [Animelon](https://animelon.com/).
-Watch anime with Japanese subtitles.
+  Watch anime with Japanese subtitles.
 * [Anjsub](https://anjsub.com/).
-A site similar to Animelon.
+  A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
-Watch raw anime online.
+  Watch raw anime online.
 * [ZORO.to](https://zoro.to/).
-Another anime streaming site.
-You can switch between audio and subtitle tracks in multiple languages.
+  Another anime streaming site.
+  You can switch between audio and subtitle tracks in multiple languages.
 * [AQStream](https://aqstream.com/).
-Watch Japanese TV.
+  Watch Japanese TV.
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
-A Chinese website with a bunch of TV shows.
+  A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
-You can switch channels in mpv by pressing `<` and `>`.
+  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
+  You can switch channels in mpv by pressing `<` and `>`.
 * [News24.jp](https://www.news24.jp/).
-Lets you watch a live stream with news,
-but you have to allow to run an obscene amount of nonfree JavaScript code.
-To avoid running nonfree JS,
-[watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
-by creating a desktop shortcut.
+  Lets you watch a live stream with news,
+  but you have to allow to run an obscene amount of nonfree JavaScript code.
+  To avoid running nonfree JS,
+  [watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
+  by creating a desktop shortcut.
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
-Similarly to News24, lists a number of channels you can watch online.
-Unfortunately, not all of them can be opened in mpv.
+  Similarly to News24, lists a number of channels you can watch online.
+  Unfortunately, not all of them can be opened in mpv.
 
 ### YouTube with subtitles
 
@@ -449,6 +449,8 @@ You may need a Japanese IP address for some of these.
 * [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
   A font that imitates handwriting.
   The font covers all `JIS第２水準` kanji characters.
+* [kanji-restoration](https://github.com/epistularum/kanji-restoration).
+  A custom font that only displays `旧字体`.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
@@ -709,12 +711,14 @@ regarding using an Android device.
 ### General
 
 * [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
-A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
+  A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-A free/libre flashcard application, Android version.
+  A free/libre flashcard application, Android version.
 * [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
-A program that helps create Anki cards on Android.
-Probably not needed because AnkiDroid has AnkiDroid API.
+  A program that helps create Anki cards on Android.
+  Probably not needed because AnkiDroid has AnkiDroid API.
+* [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/).
+  An alternative front-end to Google Translate.
 
 ### Manga readers
 
@@ -760,7 +764,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 * [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 * [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
-A podcast player for Android.
+  A podcast player for Android.
 
 ## Dictionaries
 
@@ -852,7 +856,8 @@ but to be able to understand it the first time.
 Don't use translators for anything serious.
 You've been warned.
 
-* [SimplyTranslate](https://simplytranslate.org/)
+* [SimplyTranslate](https://simplytranslate.vern.cc/)
+  and [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/) for Android.
 * [LibreTranslate](https://libretranslate.com/)
 * [Lingva Translate](https://github.com/thedaviddelta/lingva-translate).
   Alternative front-end for Google Translate .
