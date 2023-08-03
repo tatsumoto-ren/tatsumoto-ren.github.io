@@ -11,7 +11,7 @@ this means avoiding speaking in the first 1 to 2 years,
 or until your comprehension reaches fluency.
 AJATT's core philosophy is based on learning to
 understand your target language before you start outputting.
-We have found that  waiting until you have accumulated
+We have found that waiting until you have accumulated
 [10,000 hours](mass-immersion.html)
 of input yields better results when you start learning to speak.
 
@@ -25,8 +25,14 @@ a technique known as "shadowing."
 Alternative approaches,
 such as trying to find native speakers to talk to,
 often result in frustration.
+When you're still a beginner,
+you will be making a ton of mistakes.
 Native speakers are not motivated to notice, point out, and correct your mistakes.
 They just want to speak English with you.
+Natives will be annoyed by you and will try to speak to you as if you were a baby,
+using very simple language.
+You won't learn much from such conversations.
+That's why your time during the beginner stage is better spent immersing.
 
 Furthermore,
 for Japanese learners
