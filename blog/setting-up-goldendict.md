@@ -218,6 +218,9 @@ Disabling "Edit" > "Dictionary bar" hides toggleable dictionaries.
 
 A wider translate line is more convenient when editing pasted sentences.
 
+Alternatively, enable "View" > "Search Pane".
+The advantage of this mode is that there's a separate box for search suggestions.
+
 ### Set example sentence
 
 If a dictionary has example sentences, it is possible to send an example to the *translate line*
