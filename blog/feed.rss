@@ -5,9 +5,44 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Fri, 04 Aug 2023 23:41:33 +0300</lastBuildDate>
-<pubDate>Fri, 04 Aug 2023 23:41:33 +0300</pubDate>
+<lastBuildDate>Mon, 07 Aug 2023 23:57:18 +0300</lastBuildDate>
+<pubDate>Mon, 07 Aug 2023 23:57:18 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is it a good idea to read mostly manga in the beginning?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Immersion is immersion.
+Consuming any native content is almost always the best strategy.
+There are some pitfalls associated with reading manga,
+but they're not too significant.
+Still, I would rather immerse in anime as a beginner,
+with manga taking a secondary role.</p>
+<p>Firstly,
+it's important to note that manga is not voiced, unlike anime.
+Consequently,
+often when reading you may get lost
+because you won't know how to say certain words correctly and with the right pitch accent.
+If you read something incorrectly, you may accidentally create a bad habit.</p>
+<p>Since reading manga is reading immersion,
+it is crucial to balance reading with listening.
+Only through listening we can get exposure to native speech,
+get used to the sounds of the language
+and learn to understand speech without relying on textual cues.</p>
+<p>You may not have access to high resolution scans.
+Reading text on low-resolution images can be frustrating,
+particularly when dealing with small text and complex kanji containing many strokes.</p>
+<p>Lastly,
+setting up the sentence mining workflow for reading manga
+requires more steps than for watching anime.
+You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
+and how to connect it with Japanese dictionaries and Anki,
+which may be tedious for some people.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 07 Aug 2023 23:56:46 +0300</pubDate>
+</item>
 <item>
 <title>Do I have to use an SRS?</title>
 <author>Tatsumoto</author>
@@ -261,41 +296,6 @@ you avoid overwhelming yourself with hundreds or thousands of cards at once.</p>
 <guid>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 07 May 2023 17:21:10 +0300</pubDate>
-</item>
-<item>
-<title>How do you recommend starting on listening practice?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>There's really not that much to it.</p>
-<p>The way I learned to understand spoken Japanese is by watching raw anime.
-If you're a fan of anime, you'll find this method enjoyable and engaging.
-Anime is easy to understand
-because it is voiced by professional voice actors who typically speak clearly
-and use the standard Japanese dialect.
-This ensures that you're learning from high-quality,
-accurate sources of spoken Japanese.
-Moreover,
-anime covers a wide range of vocabulary,
-including both formal and informal expressions.</p>
-<p>But how do you make the most out of this practice? Here are some tips:</p>
-<ol>
-<li>Watch an episode first without subtitles or translations.
-This helps you focus on the sounds of the language rather than relying on written cues.</li>
-<li>After watching, read the Japanese subtitles and learn any unknown words.
-This expands your vocabulary
-and helps you notice the words when you hear them again later.</li>
-<li>Extract the audio track and listen to it multiple times using <a href="passive-listening.html#mpd">mpd</a>.
-You will hear and notice the words you've learned recently.
-Repetition helps train your ear to distinguish individual sounds and patterns.</li>
-</ol>
-<p>Mastering a language takes time and effort.
-But as you continue to practice,
-your listening abilities will improve and you'll be able to easily
-comprehend more and more of what you hear.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-do-you-recommend-starting-on-listening-practice.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-do-you-recommend-starting-on-listening-practice.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sat, 29 Apr 2023 16:54:05 +0300</pubDate>
 </item>
 </channel>
 </rss>
