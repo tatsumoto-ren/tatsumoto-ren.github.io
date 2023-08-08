@@ -29,8 +29,13 @@ Reading text on low-resolution images can be frustrating,
 particularly when dealing with small text and complex kanji containing many strokes.
 
 Lastly,
-setting up the sentence mining workflow for reading manga
-requires more steps than for watching anime.
+setting up a sentence mining workflow for manga
+requires more steps compared to anime.
 You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
 and how to connect it with Japanese dictionaries and Anki,
 which may be tedious for some people.
+OCR software often makes mistakes when recognizing text from images,
+and it can hinder your ability to quickly look up words.
+In contrast,
+when reading books or watching anime with TL subtitles
+you don't have to rely on OCR.

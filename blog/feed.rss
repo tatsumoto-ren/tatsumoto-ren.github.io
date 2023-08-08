@@ -5,8 +5,8 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 07 Aug 2023 23:57:18 +0300</lastBuildDate>
-<pubDate>Mon, 07 Aug 2023 23:57:18 +0300</pubDate>
+<lastBuildDate>Tue, 08 Aug 2023 17:09:37 +0300</lastBuildDate>
+<pubDate>Tue, 08 Aug 2023 17:09:37 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item>
 <title>Is it a good idea to read mostly manga in the beginning?</title>
@@ -32,11 +32,16 @@ and learn to understand speech without relying on textual cues.</p>
 Reading text on low-resolution images can be frustrating,
 particularly when dealing with small text and complex kanji containing many strokes.</p>
 <p>Lastly,
-setting up the sentence mining workflow for reading manga
-requires more steps than for watching anime.
+setting up a sentence mining workflow for manga
+requires more steps compared to anime.
 You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
 and how to connect it with Japanese dictionaries and Anki,
-which may be tedious for some people.</p>
+which may be tedious for some people.
+OCR software often makes mistakes when recognizing text from images,
+and it can hinder your ability to quickly look up words.
+In contrast,
+when reading books or watching anime with TL subtitles
+you don't have to rely on OCR.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</guid>
