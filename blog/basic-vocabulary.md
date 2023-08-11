@@ -119,7 +119,7 @@ makes these decks an ideal instrument to complete the basic vocabulary stage.
 
 ## Core10k
 
-Ankidrone Core10k is an extra deck that contains sentences from iKnow.
+Ankidrone Core10k is an extra deck that contains sentences from `iKnow`.
 
 Core10k is a very famous deck among Japanese learners.
 Its format is roughly similar to the Tango decks.
@@ -168,13 +168,25 @@ Refer to Core10k when you have trouble finding example sentences.
 
 ## How to review
 
-* Try to recall the meaning and reading of the **bolded** word.
-* Use the context to understand how the word connects with other words.
+* When a flashcard comes up,
+  read the bolded word (the target word),
+  or the full sentence if you want.
+* If the **target** word contains kanji, try to recall the reading of the word from memory.
+* Try to recall general the meaning of the **target** word.
+* Use the context as an aid to understand how the target word connects with other words.
+* Reveal the back of the card.
+  Confirm whether you recalled the correct meaning (and reading if the word contains kanji).
 * Press "Good" if your guess is correct. Otherwise, press "Again".
 * Don't use the "Hard" and "Easy" buttons.
   Install [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) to hide them.
 
 For more detailed instructions see [How to review](how-to-review.html).
+
+**Note:** The meaning does not have to be precise.
+All you need to do is have a very basic understanding of what each word means.
+English translations are not enough to fully teach you the nuances
+of what a word means and how it is used.
+That level of understanding can only be achieved through **immersion**.
 
 ## Tips
 
