@@ -51,6 +51,12 @@ bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
 <p align="center"><img alt="BTC QR" src="img/btc_qr.png"></p>
 </details>
 
+## Boosty
+
+You can donate on Boosty too, which is a platform similar to Patreon.
+
+https://boosty.to/tatsumoto/donate
+
 ## Donate bot on Telegram
 
 By clicking the link below,
