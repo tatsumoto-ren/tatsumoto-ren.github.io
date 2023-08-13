@@ -234,6 +234,16 @@ can cause the program to utilize 100% of the CPU **all the time**.
 This is likely a bug.
 Disable the feature in "Preferences" > "Full-text search".
 
+### Keyboard shortcuts
+
+All the available keyboard shortcuts are listed [here](https://xiaoyifang.github.io/goldendict-ng/ui_shortcuts/).
+It's nice to memorize some of them to make navigation easier.
+
+### Jump between definitions
+
+Pressing <kbd>Alt</kbd>+Up arrow or <kbd>Alt</kbd>+Down arrow
+switches to the previous or next dictionary definition.
+
 ### Remove duplicate display of EPWING headwords
 
 Paste the code below in a file named `article-style.css`
