@@ -32,7 +32,10 @@ watching long TV shows or movies,
 or just as a general productivity tool.
 
 I think a physical device,
-e.g. a kitchen timer,
+e.g., a kitchen timer,
 would be nice for timeboxing,
 but since I currently don't have one,
 I use a Bash script instead.
+
+To learn more,
+read [my article about timeboxing](timeboxing.html).
