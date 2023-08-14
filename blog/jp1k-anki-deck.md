@@ -28,12 +28,16 @@ Once you finish this deck, you should be able to understand enough Japanese
 to start learning directly from your immersion.
 
 Prior knowledge of [kana](learning-kana-in-two-days.html) is required
-but there is no need to do any isolated kanji study.
+but there is no need to do any isolated kanji study
+before starting this deck.
 
-If you have already learned basic vocabulary through a premade deck like Core or Tango
-and know more than 1000 words
-or have gone through isolated kanji study with a book like RTK,
+If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck like **Core** or **Tango**
+and know more than 1,000 words
+or have gone through [isolated kanji study](learning-kanji#isolated-kanji-study.html)
+with a book like RTK,
 you are unlikely to benefit from the deck.
+People who know more than 1,000 words are advised to do [sentence mining](sentence-mining.html) instead,
+if they haven't started doing it already.
 However, if your vocabulary is below 1000 words,
 I recommend that you give the KanjiTransition deck a try.
 
@@ -54,7 +58,7 @@ When a flashcard pops up,
 try to recall the reading of the target word,
 then use your mouse to **hover over** the word to see how it's read.
 After you have seen the reading, try to recall the meaning of the word.
-Afterwards reveal the back side of the card and see if your memory is correct.
+Afterwards, reveal the back side of the card and see if your guess is correct.
 Listen and try to understand the example sentence, if available.
 Pass the card if you've correctly recalled the **meaning** of the target word.
 Otherwise, hit "Again".
@@ -66,17 +70,17 @@ However, don't penalize yourself for being unable to do recall readings.
 As a beginner, it's already quite difficult to remember Japanese words,
 and you don't want to add another level of complexity just yet.
 
-## Anki deck
+After you finish KanjiTransition,
+you're going to start using regular [Targeted Sentence Cards](discussing-various-card-templates.html#targeted-sentence-cards).
+When reviewing regular TSCs,
+you pass a card only if you recall both the reading and meaning correctly.
+But when doing KanjiTransition,
+knowing the readings is not necessary,
+since you're still *transitioning* to reading native Japanese sentences.
 
-We have prepared two versions of the deck.
-One for people who prefer
-[TSC](discussing-various-card-templates.html#targeted-sentence-cards)
-card format and another for people who like
-[WCC](discussing-various-card-templates.html#word-context-cards)
-more.
+## Downloads
 
-Download the folder below to get the decks.
-Choose to study only one deck.
+Download the folder below to get the deck.
 
 <p align="center">
 <a class="download_button" href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Download</a>
@@ -87,11 +91,14 @@ Choose to study only one deck.
 
 The following sections explain what these decks are.
 
-### TSCs deck
+## Anki deck
 
-At AJT we believe that
+At Ajatt-Tools we believe that
 the most effective way to learn vocabulary is through targeted sentence cards.
-This version of the deck is what I personally recommend.
+This deck contains modified targeted sentence cards.
+They differ from regular TSCs.
+If a word contains kanji,
+you can view the furigana reading by hovering over the word with your mouse or clicking on it.
 
 On the front there's an example sentence.
 The target word appears highlighted.
@@ -102,31 +109,17 @@ You can also press the `p` key on your keyboard to immediately reveal all kanji 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
 <p align="center"><i>An example TSC from KanjiTransition.</i></p>
 
-If you're going to read the full sentence every time you rep a card,
+When trying to read sentences while reviewing,
 prior knowledge of some grammar might be necessary.
 The deck explains certain grammar points and particles,
 but it is not enough to replace a proper grammar guide.
-Refer to
-[Tae Kim guide](http://www.guidetojapanese.org/learn/grammar)
+Refer to one of the
+[recommended grammar guides](learning-grammar.html#grammar-guides)
 when there's a sentence you don't grasp fully.
 
-If a word contains kanji,
-you can view the furigana reading by hovering over it with your mouse.
+## Extra
 
-### WCCs deck
-
-If you think that word cards suit you better, try this version of the deck.
-Each card has only the target word on the front.
-An example sentence is hidden behind the "Reveal context" button.
-Similarly to the TSC deck, you can reveal furigana by pressing the `p` button on the keyboard.
-The content on the back is identical to the TSC deck.
-
-<p align="center"><img alt="tsc" class="shadow" src="img/jp1k-wcc.webp"></p>
-<p align="center"><i>An example WCC from KanjiTransition.</i></p>
-
-### Extra
-
-The "Extra" folder contains JP1K-style decks shared by our community members.
+The "Extra" folder in the linked archive contains JP1K-style decks shared by our community members.
 
 ## Q&A
 
@@ -145,7 +138,7 @@ If you don't want to learn them, press `@` to suspend such cards.
 > Do I really need to learn kanji spellings of words normally written in kana?
 
 If you feel intimidated by them, it's okay to suspend the cards.
-I like to always learn kanji versions
+I like to [always learn kanji versions](should-i-learn-kanji-forms-of-words-usually-written-in-kana.html)
 because even if you see a word in its kana reading most of the time,
 there's a chance that you eventually encounter the kanjified version.
 You want to be prepared when it happens.
@@ -169,7 +162,7 @@ but still remember the meaning of the whole sentence,
 therefore I can infer the meaning of the target word.
 Is it alright to do that?
 
-Yes.
+[Yes](i-can-only-recall-kanji-when-in-the-context-of-the-specific-sentence.html).
 Sentence cards tend to form context-dependent memories,
 but eventually knowledge transfers from being context-dependent to context-independent.
 
@@ -195,12 +188,12 @@ that's what helps you transition to reading kanji once you graduate from this de
 
 By doing the two steps separately
 you learn the meanings of words through their readings,
-and this process is not affected by your performance on memorizing kanji.
+and this process is not affected by your performance in memorizing kanji.
 When you hear a word in your immersion, you'll be able to recognize it.
 
 Because you're still new to kanji,
 trying to recognize the meaning and the reading at the same time is going to be more difficult.
-You can try doing it anyway, but this is not what the JP1K method was intended for.
+You can try doing it anyway, but this is **not** what the JP1K method was intended for.
 
 > What to do next?
 
