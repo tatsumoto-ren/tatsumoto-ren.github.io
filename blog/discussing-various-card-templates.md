@@ -1,7 +1,7 @@
 ---
 title: Discussing various card templates
 date: 1610646660
-tags: [anki]
+tags: [guide, anki]
 ---
 
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>
@@ -106,7 +106,7 @@ But because most concrete nouns
 have clear meanings,
 are used similarly
 and are surrounded by similar grammar patterns
-that can be easily picked up from repeated exposure
+that can be easily picked up from repeated exposure,
 providing context is completely unnecessary in my opinion.
 Often you can understand the meaning of a concrete noun even without a dictionary.
 To understand what <span title="ねこ ー a cat">猫</span> means,
