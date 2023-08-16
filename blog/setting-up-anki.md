@@ -44,7 +44,8 @@ The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.
 And the third method is for operating systems that don't have package managers.
 
-Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
+Please don't install Anki via [FlatPak](https://flatkill.org/),
+Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
 If you are running Wayland, please revert to [Xorg](https://wiki.archlinux.org/title/xorg)
