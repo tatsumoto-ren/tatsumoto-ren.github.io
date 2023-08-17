@@ -239,7 +239,7 @@ indicates where the pitch drop occurs, counting by **moras**.
 A mora can be defined as
 a single kana character except small kana (`ゃ`,`ゅ`,`ょ` but not `っ`),
 optionally followed by a small kana.
-Each mora is given the same amount of time when pronounced.
+Each mora is given **the same** amount of time when pronounced.
 
 Examples:
 
@@ -248,12 +248,78 @@ Examples:
 * `ー` (long vowel mark) and small `っ` each count as one mora.
 * `東京(とうきょう)` has 4 moras: `と`, `う`, `きょ` and `う`.
 
-The word `せいけん-ほうそう【政見放送】` has accent `[5]`
-which means that the drop occurs on the 5th mora.
-In other words, all moras after `ほ` should be pronounced low (セイケンホ↓ウソウ).
+Every mora is either pronounced with low tone of voice or with high tone of voice.
+In most Japanese words,
+the pitch starts low, then raises after the first mora, and then **drops** somewhere after the second mora.
+There can be **only one** pitch drop in any single word,
+unless it's a combination of two words.
+Pitch accent number in a monolingual dictionary tells where tone of voice changes from high to low.
+
+The word [おうだんほどう【横断歩道】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E6%A8%AA%E6%96%AD%E6%AD%A9%E9%81%93) has accent `[5]`
+which means that the drop occurs after the 5th mora.
+In other words,
+`お` is pronounced low,
+moras after `お` are high,
+all moras after `ほ` are low.
+The word is pronounced like this: `オ↑ーダンホ↓ドー`.
+
+If the accent number is `[0]`, it means there is no pitch drop.
+The word is pronounced with a *flat accent*.
+The first mora is low, and every mora after the first is high.
+After the word ends, the following syllables remain high
+until there's a drop in any word that comes after in a sentence.
+
+The word [せいかつ【生活】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E7%94%9F%E6%B4%BB) has accent `[0]`
+which means that the drop doesn't occur.
+`せ` is pronounced low,
+moras after `せ` are high.
+The word is pronounced like this: `セ↑イカツ`.
+
+If the accent number is `[1]`,
+it means that the first mora is high
+and the drop occurs after the first mora.
+Then the accent stays low until there's a rise in any following word in a sentence.
+
+The word [かいがい【海外】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E6%B5%B7%E5%A4%96) has accent `[1]`
+which means that the drop happens after the first mora.
+`か` is pronounced high,
+moras after `か` are pronounced low.
+The word is pronounced like this: `カ↓イガイ`.
+
+Any Japanese word has one of the `4` pitch accent *patterns*.
+Pitch accent patterns make categorizing Japanese words easier
+since instead of memorizing a number it is sufficient to memorize what group a word belongs to.
+
+* `平板型`.
+  Pitch number is `0`.
+  Flat accent.
+  The first mora is low, then accent stays high.
+  Examples: [しんじん【新人】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E6%96%B0%E4%BA%BA), [ピアノ](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E3%83%94%E3%82%A2%E3%83%8E), [じょゆう【女優】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E5%A5%B3%E5%84%AA), [ふくそう【服装】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E6%9C%8D%E8%A3%85).
+* `頭高型`.
+  Pitch number is `1`.
+  Accent on the head.
+  The first mora is high, the following moras are low.
+  Examples: [あう【会う】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E4%BC%9A%E3%81%86), [らいげつ【来月】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E6%9D%A5%E6%9C%88), [スーツ](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E3%82%B9%E3%83%BC%E3%83%84).
+* `中高型`. Pitch number is `2`, `3`, `4`, and so on,
+  but is always **less** than the number of moras.
+  Pitch drops somewhere before the end of the word.
+  Examples: [はやい【速い】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E9%80%9F%E3%81%84), [おてあらい【お手洗い】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E3%81%8A%E6%89%8B%E6%B4%97%E3%81%84), [へいわじょうやく【平和条約】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E5%B9%B3%E5%92%8C%E6%9D%A1%E7%B4%84), [うごきまわる【動き回る】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E5%8B%95%E3%81%8D%E5%9B%9E%E3%82%8B).
+* `尾高型`. Pitch number is equal to the number of moras.
+  Pitch drops immediately after the end of the word
+  and stays low until there's a rise in any following word.
+  The `尾高型` pattern is different from the `平板型` pattern which doesn't cause pitch to drop.
+  However, when said in isolation, `尾高型` words sound just like `平板型` words.
+  Thus,
+  when listening,
+  it's impossible to tell if a word is `尾高型` or `平板型` without hearing the following word
+  because the two patterns are distinguished by the presence of a drop after the last mora.
+  Examples: [ゆき【雪】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E9%9B%AA), [しっぽ【尻尾】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E5%B0%BB%E5%B0%BE), [いもうと【妹】](https://sakura-paris.org/dict/NHK%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%99%BA%E9%9F%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E8%BE%9E%E5%85%B8/exact/%E5%A6%B9).
 
 Sometimes a dictionary entry contains several pitch accent numbers.
 It means that the word can be pronounced with either of them.
+In real life one of the accents is usually more common than others.
+To tell which accent is dominant and how you should say the word,
+you need to listen to native speakers and find out how they say it.
 
 The 5th version of Shinmeikai may list two pitch accent numbers separated by a colon.
 This means that only the second one tells you the pitch accent of the word in its dictionary form
