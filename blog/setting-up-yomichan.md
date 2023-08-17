@@ -28,7 +28,7 @@ The original developer quit.
 At Ajatt-Tools we have made our own fork and continue to maintain it.
 We call it *Rikaitan*.
 
-Rikaitan is available for Firefox-based web browsers.
+Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-based web browsers.
 We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 
 <p align="center">
