@@ -72,7 +72,7 @@ and especially among AJATTers.
 Most people study it diligently.
 If you don't know pitch accent of a word, you don't know how to say it.
 AJT Japanese offers two ways to add pitch accent information to your Anki cards.
-It can add pitch numbers or pitch patterns to cards.
+It can add [pitch numbers](understanding-monolingual-definitions.html#understanding-pitch-accent) or pitch patterns to cards.
 Pattern and number can be placed in separate fields or combined in one field.
 Pitch accent **pattern** indicates the rising and falling tone that occurs when speaking.
 Pitch accent **number** indicates the number of a [mora](https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%A9)
