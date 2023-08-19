@@ -9,7 +9,9 @@ You should never stop using the SRS,
 even after you <abbr title="Master your target language">make it</abbr>.
 
 If you stop using the SRS,
-you'll notice that you've forgotten many things here and there that you used to know.
+you'll notice that you have
+[forgotten many things](how-much-reading-is-required-to-counteract-not-srsing.html)
+here and there that you used to know.
 Maybe you would still like to remember them because you could use them yourself in your output.
 
 If a word is rare enough,
