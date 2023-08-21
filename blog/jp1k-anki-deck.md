@@ -33,7 +33,7 @@ before starting this deck.
 
 If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck like **Core** or **Tango**
 and know more than 1,000 words
-or have gone through [isolated kanji study](learning-kanji#isolated-kanji-study.html)
+or have gone through [isolated kanji study](learning-kanji.html#isolated-kanji-study.html)
 with a book like RTK,
 you are unlikely to benefit from the deck.
 People who know more than 1,000 words are advised to do [sentence mining](sentence-mining.html) instead,
