@@ -207,7 +207,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
   A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
   Watch raw anime online.
-* [ZORO.to](https://zoro.to/).
+* [Aniwatch](https://aniwatch.to/).
   Another anime streaming site.
   You can switch between audio and subtitle tracks in multiple languages.
 * [AQStream](https://aqstream.com/).
