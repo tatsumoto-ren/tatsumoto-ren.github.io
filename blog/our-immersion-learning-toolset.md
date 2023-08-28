@@ -99,7 +99,7 @@ you've studied.
 
 * [Setting up Anki](setting-up-anki.html)
 * [Useful Anki add-ons](useful-anki-add-ons-for-japanese.html)
-* [Ajatt-Tools add-ons](https://ankiweb.net/shared/byauthor/1151815987)
+* [Ajatt-Tools add-ons](https://ankiweb.net/shared/by-author/1344485230)
 * [Our collection of Note Types](https://github.com/Ajatt-Tools/AnkiNoteTypes)
 
 ## [mpv](https://wiki.archlinux.org/title/Mpv)
