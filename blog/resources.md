@@ -169,8 +169,11 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
   Unfortunately, Nyaa is blocked in some countries.
   Accessing it through Tor can be difficult due to DDOS protection.
   If you can't access the site, use a mirror.
-  Currently, there's only one working mirror I know,
-  [Nyaa ISS](https://nyaa.iss.ink/).
+
+  Available mirrors:
+
+  1) [Nyaa ISS](https://nyaa.iss.ink/).
+  1) [Nyaa Land](https://nyaa.land/).
 * [Tokyo Toshokan](https://www.tokyotosho.info/).
   A BitTorrent library for Japanese media.
 * [Rutracker](https://rutracker.org/).
