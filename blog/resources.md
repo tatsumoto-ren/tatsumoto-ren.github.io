@@ -336,6 +336,7 @@ A shared folder with movies and other content with Japanese dubs.
   Like Senmanga, hosts manga online.
   * The site does not work with JavaScript disabled.
   * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
+* [Manga on 千手柱間](http://y5ieb27by6rsrcku2iqwx7detmem44tzwojxn3ezhsefgcnadaugz6yd.onion/Manga/)
 
 ### Books
 
@@ -386,6 +387,7 @@ A shared folder with movies and other content with Japanese dubs.
   * [Part 3](https://nyaa.si/view/1616765) or [Magnet](magnet:?xt=urn:btih:3bf6c62e02d56268b5d25f9608700248872d2795&dn=Japanese%20Audiobook%20Collection%20%28Part%203%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
   * [Part 4](https://nyaa.si/view/1616766) or [Magnet](magnet:?xt=urn:btih:fba92e76cb70c41e666b49cd255200a1bc57de8b&dn=Japanese%20Audiobook%20Collection%20%28Part%204%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [Audiobooks on Itazuraneko](https://djtguide.github.io/library/onsei.html)
+* [Audiobooks on 千手柱間](http://y5ieb27by6rsrcku2iqwx7detmem44tzwojxn3ezhsefgcnadaugz6yd.onion/Japanese%20Audiobooks/)
 
 ### Podcasts
 
@@ -965,3 +967,4 @@ Notable articles:
   Her guide is a little outdated but can still be useful.
 * [JM Project](https://linuxjm.osdn.jp/index.html). Man pages translated to Japanese.
 * [四字熟語人気ランキング](https://idiom-encyclopedia.com/ninki/)
+* [Japanese/Chinese Resources by 千手柱間](http://y5ieb27by6rsrcku2iqwx7detmem44tzwojxn3ezhsefgcnadaugz6yd.onion/)
