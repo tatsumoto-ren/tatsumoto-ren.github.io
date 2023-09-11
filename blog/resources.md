@@ -60,7 +60,7 @@ Kanji characters with Koohii stories.
 
 > Main article: [Learning grammar](learning-grammar.html)
 
-* [All About Particles](https://comm.cx/_matrix/media/r0/download/comm.cx/ac729abd7e7bd8c7192faa7956e4b8f951e12399)
+* [All About Particles](https://matrix.org/_matrix/media/r0/download/matrix.org/GqYvdEhgKNOcBDSZnDDGsWGc)
   ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
   A nicely organized book simply described by many as "godsend".
   Khatz used this book a long time ago when he learned Japanese.
