@@ -197,11 +197,20 @@ For example, you can generate furigana when focus is lost but not when a note is
 Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "Style".
 The following styles are built-in:
 
-* `javdejong`.
-  The style used in the original Japanese Pitch Accent Anki add-on by `javdejong`.
-  Low accents aren't marked, high accents are marked with an `overline`.
-* `u-biq`.
-  The style used to show pitch on the [u-biq website](https://accent.u-biq.org/).
+1) `javdejong`.
+   The style used in the original Japanese Pitch Accent Anki add-on by `javdejong`.
+
+   * Overline: indicates "High" pitch.
+   * Downfall arrow: indictates an end of moras with "High" accent.
+   * Red circle mark: nasal pronunciation、e.g. `げ` would be a nasal `け`.
+   * Blue color: devoiced. Barely pronounced at all.
+2) `u-biq`.
+   The style used to show pitch on the [u-biq website](https://accent.u-biq.org/).
+
+   * Overline: indicates "High" pitch.
+   * Underline: indicates "Low" pitch.
+   * Red circle mark: nasal pronunciation.
+   * Blue color: devoiced.
 
 The last option, `None` allows you to configure your own style
 using CSS classes in your Note Type's Styling section
