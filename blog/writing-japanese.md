@@ -131,12 +131,42 @@ you can download [Ankidrone Starter Pack](basic-vocabulary.html).
 ### How to make your own cards
 
 I recommend making production cards from your existing targeted sentence cards.
-To do this,
-select a kanji you want to learn
-and find a note in your Anki collection
-where the target word contains this kanji.
+To do this:
+1) Choose a kanji you want to learn.
+2) Find a note in your Anki collection
+   where the target word contains this kanji.
+3) Fill the `MakeProductionCard` field to create a new Production card.
+1) Learn the card later.
+
+For example,
+if you want to learn how to write this kanji `鬱`,
+open the Anki Browser (shortcut: <kbd>b</kbd>) and type the following in the search bar:
+
+```
+is:review "note:Japanese sentences" card:Recognition VocabKanji:*鬱*
+```
+
+This search query assumes you're using our
+[Japanese sentences Note Type](setting-up-anki.html#import-an-example-mining-deck).
+If not, replace `note:NoteTypeName` with your Note Type
+and `VocabKanji:*kanji*` with the name of your Vocabulary field.
+`is:review` means that you're searching for cards that have graduated before.
+This is important because you don't want to try learning how to write words that you don't know yet,
+or the process is going to be too difficult.
+
 I advise against using recently learned or new vocabulary for production cards
 as this may have a negative impact on retention.
+You can add `prop:ivl>180` to the search query to guard against freshly learned cards.
+
+Now let's say Anki has shown you a card with this sentence in the search results:
+```
+病院で鬱病と診断されると、抗鬱薬が処方されます
+```
+The target word here is `抗鬱薬`, and it contains the kanji you need `鬱`.
+Now you can create a Production cards from the existing Recognition card and learn it.
+
+If there are no results, you haven't learned any words with this kanji yet,
+and it's too early for you to learn how to write the kanji.
 
 ### Place production cards in another deck
 
