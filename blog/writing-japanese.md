@@ -164,6 +164,8 @@ Now let's say Anki has shown you a card with this sentence in the search results
 ```
 The target word here is `抗鬱薬`, and it contains the kanji you need `鬱`.
 Now you can create a Production cards from the existing Recognition card and learn it.
+You can see a list of all newly created Production cards
+by typing `added:1 card:Production` in the Anki Browser's search bar.
 
 If there are no results, you haven't learned any words with this kanji yet,
 and it's too early for you to learn how to write the kanji.
