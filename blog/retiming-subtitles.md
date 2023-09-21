@@ -31,6 +31,7 @@ Add the following settings to `~/.config/mpv/mpv.conf`.
 
 ```
 sub-auto=fuzzy
+subs-with-matching-audio=yes
 sub-file-paths=ass:srt:sub:subs:subtitles:subs.en:subs.ja
 ```
 

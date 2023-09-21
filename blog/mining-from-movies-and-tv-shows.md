@@ -73,6 +73,7 @@ save-position-on-quit=yes
 
 # Automatically use external subtitle files that contain the name of the media file
 sub-auto=fuzzy
+subs-with-matching-audio=yes
 
 # Additional folders for storing subtitle files.
 # You can drop all subs in the "subs" folder to keep files organized.
