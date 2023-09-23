@@ -211,6 +211,13 @@ The following styles are built-in:
    * Underline: indicates "Low" pitch.
    * Red circle mark: nasal pronunciation.
    * Blue color: devoiced.
+3) `kanjium`.
+   Style which is part of the [kanjium project](https://github.com/mifunetoshiro/kanjium).
+
+   * Overline: indicates "High" pitch.
+   * ⌝: indictates an end of moras with "High" accent.
+   * Red circle mark: nasal pronunciation.
+   * Blue color: devoiced.
 
 The last option, `None` allows you to configure your own style
 using CSS classes in your Note Type's Styling section
