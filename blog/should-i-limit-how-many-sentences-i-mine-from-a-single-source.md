@@ -5,15 +5,26 @@ tags: ['faq']
 position: -9878
 ---
 
-No. Mine as many as you want.
+No.
+You can [mine](sentence-mining.html) as many sentences as you want.
 
-If, for example, you find a long anime that you like, mine from it.
-It's totally fine as long as you're having fun and keep finding 1T sentences.
+For instance,
+if you come across a lengthy anime series that is compelling to you,
+feel free to mine sentences from it until it ends.
+There are no limitations
+as long as you enjoy the process and continue discovering [1T](one-target-sentences.html) sentences.
 
-In the long run you may reach a point
-where you have mined most vocabulary that is often used in that particular source.
-If it happens, you won't be able to mine enough sentences each day.
-In my experience it's unlikely to happen,
-but if it happens,
-you want to limit the amount of time you immerse with it.
-Find something new to immerse with and mine.
+However,
+over time,
+there may come a point where you have mined
+most of the commonly used vocabulary from that particular source.
+At this stage,
+you might struggle to find enough new sentences [to reach your daily goal](how-many-new-cards-to-learn-each-day.html).
+When this happens,
+it is recommended to limit the amount of time you spend immersing in that specific source.
+Instead,
+seek new materials to immerse in and start mining sentences from them.
+
+Even if you immerse yourself in various sources within the same domain,
+it is inevitable that you will eventually exhaust the pool of new vocabulary within that domain.
+Therefore, switching from one domain to another is also important for making faster progress.
