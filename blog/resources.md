@@ -891,11 +891,13 @@ You've been warned.
   that explain the theory, rules and patterns.
 * [京言葉](http://www.akenotsuki.com/kyookotoba/).
   A website on Kyoto dialect.
-* [Dogen’s Phonetics Series](https://mega.nz/folder/sVEizTTb#Z_0QKuN2GyMphaK9w4-A5Q).
+* **Dogen's Phonetics Series**.
   Pitch accent lessons.
   Yes, everybody hates Dogen because of his personality,
   but if your Japanese isn't good enough to read the NHK pitch accent dictionary,
   you can start by watching his tutorials.
+  1) [Mega](https://mega.nz/folder/sVEizTTb#Z_0QKuN2GyMphaK9w4-A5Q).
+  2) [Yandex](https://disk.yandex.com/d/xcNycta7K59RWg).
 * [YouGlish for Japanese](https://youglish.com/japanese).
   Look up a word and hear a native speaker pronounce it in a YouTube video.
 * [日本語標準アクセントの概要](https://tokyoaccent.com/accent/accent.htm) + [詳細](https://tokyoaccent.com/accent/accent2.htm)
