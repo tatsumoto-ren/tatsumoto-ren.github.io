@@ -5,9 +5,27 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 27 Sep 2023 21:45:31 +0300</lastBuildDate>
-<pubDate>Wed, 27 Sep 2023 21:45:31 +0300</pubDate>
+<lastBuildDate>Sun, 01 Oct 2023 23:23:47 +0300</lastBuildDate>
+<pubDate>Sun, 01 Oct 2023 23:23:47 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>How do I know I have finished an Anki deck?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<ol>
+<li>Open the Anki Browser (shortcut: <kbd>b</kbd>).</li>
+<li>From the left sidebar select the deck you want to check.</li>
+<li>Add <code>is:new</code> to the search query.</li>
+</ol>
+<p>If there are no <em>new</em> cards left, you're done.</p>
+<p align="center"><img src="img/anki-browser-new-cards.webp" alt="screenshot"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>See also: <a href="https://docs.ankiweb.net/searching.html?highlight=is%3Anew#card-state">Card states</a>.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/how-do-i-know-i-have-finished-an-anki-deck.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/how-do-i-know-i-have-finished-an-anki-deck.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sun, 01 Oct 2023 23:23:37 +0300</pubDate>
+</item>
 <item>
 <title>Is it a good idea to read mostly manga in the beginning?</title>
 <author>Tatsumoto</author>
@@ -270,37 +288,6 @@ I'm going to present you the easiest way, and you can read about other ways on A
 <guid>https://tatsumoto-ren.github.io/blog/how-do-i-change-an-environment-variable.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Wed, 10 May 2023 00:09:11 +0300</pubDate>
-</item>
-<item>
-<title>I have a deck I haven't reviewed for a whole year. Should I reset it?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>It can be tempting to reset a deck that hasn't been reviewed in a while,
-but I do not recommend doing so
-if a large number of cards have graduated and have a review history.
-Despite feeling like you may have forgotten everything,
-you likely remember more than you realize.
-Instead, I suggest reviewing the overdue cards.</p>
-<p>If you select the deck and review the overdue cards,
-the cards you still remember will increase their intervals significantly,
-while the forgotten cards will not lose their intervals completely,
-as long as you have <a href="setting-up-anki.html#new-interval">new interval</a> set to a value greater than <code>0</code>.
-In the end, this approach will require you to review fewer cards than if you started from scratch.</p>
-<p>By contrast,
-If you reset the deck,
-you'll have to relearn each card again,
-with each card graduating with an interval of <code>1</code> day (or the value you set in settings).
-You'll lose any progress you have made on cards that you still remember.</p>
-<p>If you find yourself struggling with a backlog of cards,
-consider reading <a href="how-to-review.html#fighting-backlogs">Fighting backlogs</a>.
-The most important tip is to store overdue cards in a filtered deck
-and take small chunks for review.
-With this approach,
-you avoid overwhelming yourself with hundreds or thousands of cards at once.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 07 May 2023 17:21:10 +0300</pubDate>
 </item>
 </channel>
 </rss>
