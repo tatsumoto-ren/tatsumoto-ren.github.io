@@ -173,7 +173,6 @@ It's a web application that you can use to chat
 without having to use a desktop client.
 
 * https://chat.darkcloud.ca/
-* https://element.georgefloyd.link/
 * https://chat.cfx.re/ 🏆
 * https://matrix.dpin.de/ 🏆
 * https://chat.vscape.tk/ 🏆
@@ -202,7 +201,6 @@ without having to use a desktop client.
 * https://chat.peek-a-boo.at/
 * https://element.cccgoe.de/
 * https://mx.aire.ml/
-* https://matrix.therealblue.de/
 * https://element.internet-portal.cz/
 * https://element.w1l.duckdns.org/
 * https://chat.leon.wtf/
@@ -232,7 +230,6 @@ without having to use a desktop client.
 * https://chat.gould.cx/
 * https://chat.vyas.net/
 * https://gnome.riot.im/
-* https://riot.kudos.im/
 * https://riot.pcg.life/
 * https://riot.zorc.xyz/
 * https://salty.riot.im/
@@ -243,7 +240,6 @@ without having to use a desktop client.
 * https://my.m4tr1x.chat/
 * https://riot.ukvly.org/
 * https://matrix.mlp.chat/
-* https://el.aria-net.org/
 * https://element.1984.cz/
 * https://element.asra.gr/
 * https://im.solokeys.com/
@@ -254,7 +250,6 @@ without having to use a desktop client.
 * https://matrix.boba.chat/
 * https://riot.backstop.it/
 * https://element.kif.rocks/
-* https://chat.oscillas.com/
 * https://element.eclabs.de/
 * https://element.myserv.me/
 * https://element.pwoss.org/
@@ -263,7 +258,6 @@ without having to use a desktop client.
 * https://element.avlikos.gr/
 * https://riot.scamdemic.wtf/
 * https://webchat.freitrix.de/
-* https://mailstation.de/riot/
 * https://the-apothecary.club/
 * https://chat.fairydust.space/
 * https://riot.qonfucius.social/
@@ -308,20 +302,15 @@ and change the server from the default to the one you want.
 * https://matrix.47q.de/ 🏆
 * https://mittelwind.de/ 🏆
 * https://tricuties.com/ 🏆
-* https://matrix.fuz.re/ 🏆
-* https://matrix.fuz.re/ 🏆
 * https://matrix.lorf.io 🏆
 * https://matrix.dnix.de/ 🏆
 * https://chat.thorko.de/ 🏆
-* https://matrix.jrop.me/ 🏆
 * https://kansanvalta.org/ 🏆
 * https://matrix.rptc.bid/ 🏆
 * https://matrix.cirk2.de/ 🏆
 * https://matrix.wfrei.de/ 🏆
 * https://matrix.knax.xyz/ 🏆
-* https://schaffarzik.net/ 🏆
 * https://tetaneutral.net/ 🏆
-* https://plus-sensible.me/ 🏆
 * https://skylinetv.stream/ 🏆
 * https://matrix.ladiv.org/ 🏆
 * https://matrix.ravc.tech/ 🏆
@@ -330,12 +319,10 @@ and change the server from the default to the one you want.
 * https://matrix.rakozy.us/ 🏆
 * https://matrix.glargh.fr/ 🏆
 * https://matrix.nesven.eu/ 🏆
-* https://matrix.jibby.org/ 🏆
 * https://matrix.nesven.eu/ 🏆
 * https://pancrypticon.net/ 🏆
 * https://matrix.neaweb.ch/ 🏆
 * https://matrix.dificen.to/ 🏆
-* https://matrix.binwang.me/ 🏆
 * https://matrix.huneck.net/ 🏆
 * https://matrix.cabaal.net/ 🏆
 * https://matrix.prof-x.net/ 🏆
@@ -362,7 +349,6 @@ and change the server from the default to the one you want.
 * https://matrix.googboog.com/ 🏆
 * https://matrix.heiming.info/ 🏆
 * https://gottliebtfreitag.de/ 🏆
-* https://matrix.solonari.net/ 🏆
 * https://matrix.petrutoni.nl/ 🏆
 * https://matrix.zoz-serv.org/ 🏆
 * https://matrix.csrichter.com/ 🏆
@@ -371,7 +357,6 @@ and change the server from the default to the one you want.
 * https://matrix.danyocean.com/ 🏆
 * https://matrix.linuxbrujo.net/ 🏆
 * https://matrix.thecovrigs.net/ 🏆
-* https://matrix.familyhainz.de/ 🏆
 * https://matrix.muensterhack.de/ 🏆
 * https://matrix.otonokizaka.moe/ 🏆
 * https://riot.markshorten.co.uk/ 🏆
@@ -409,7 +394,6 @@ and change the server from the default to the one you want.
 * https://malooma.bzh/
 * https://xentonix.net/
 * https://xentonix.net/
-* https://lolifan.club/
 * https://kotilo.dy.fi/
 * https://calcuode.com/
 * https://converser.eu/
@@ -443,7 +427,6 @@ and change the server from the default to the one you want.
 * https://matrix.sykorp.com/
 * https://matrix.thegolem.cz/
 * https://nekomimi.solutions/
-* https://matrix.unknown.place/
 * https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
 * https://matrix.intahnet.co.uk/
