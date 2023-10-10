@@ -13,8 +13,11 @@ Many existing add-ons break with each new release.
 Maybe Anki needs to be completely replaced by another SRS.
 
 I still use Anki because the benefits outweigh the costs.
-The way I think about it is that some amount of Anki is better than no Anki at all.
-Anki helps you learn more efficiently than you would be doing otherwise.
+The way I think about it is that some amount of Anki is better than no Anki at all,
+provided you do daily immersion.
+Without [mass immersion](mass-immersion.html) Anki is not very effective.
+When using Anki as a supplement to immersion,
+it helps you learn more efficiently than you would be doing otherwise.
 If you power through and do just 20 reviews a day,
 that's 20 words that you won't forget for quite some time.
 
