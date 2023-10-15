@@ -149,6 +149,11 @@ In the Anki Browser's context menu actions you will find the following options:
 * Literal pronunciation.
   Convert selected text to a form that resembles the way it is actually pronounced.
   Implies conversion to katakana and replacement of certain characters.
+* Look up in GoldenDict.
+  A handy shortcut to send the selected text to GoldenDict.
+  Requires GoldenDict to be
+  [installed](setting-up-goldendict.html)
+  and [added to the PATH](how-do-i-add-a-directory-to-the-path.html).
 
 ## Configuration
 
@@ -411,6 +416,12 @@ At least `kana_reading` should be present.
 
 When you finish creating the `index.json` file,
 add it as a new source in Options.
+
+## Context menu
+
+By going to the add-on's options and selecting "Menus" > "Context menu"
+you can configure what context menu actions are visible
+when you select text in the Anki Browser and press the right mouse button.
 
 ## Overrides
 
