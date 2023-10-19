@@ -5,9 +5,22 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 08 Oct 2023 04:02:54 +0300</lastBuildDate>
-<pubDate>Sun, 08 Oct 2023 04:02:54 +0300</pubDate>
+<lastBuildDate>Thu, 19 Oct 2023 23:55:26 +0300</lastBuildDate>
+<pubDate>Thu, 19 Oct 2023 23:55:26 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Language domains</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>As learners,
+we can divide our target language into domains
+to better navigate the territory.
+Being aware of language domains helps find the most optimal path to fluency.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/language-domains.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/language-domains.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 19 Oct 2023 23:52:34 +0300</pubDate>
+</item>
 <item>
 <title>I don't know how to say something. Should I translate in my head?</title>
 <author>Tatsumoto</author>
@@ -268,43 +281,6 @@ instead of playing a preset alarm sound by itself.</p>
 <guid>https://tatsumoto-ren.github.io/blog/does-playing-japanese-audio-on-repeat-while-i-sleep-count-as-immersion.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 11 Jun 2023 10:54:22 +0300</pubDate>
-</item>
-<item>
-<title>How strict do you recommend being about 1T?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>In
-<a href="is-it-ok-to-make-cards-for-sentences-i-dont-fully-understand.html">Is it OK to make cards for sentences I don't fully understand</a>
-I said that ideally you need to be strict
-about making only <a href="one-target-sentences.html">1T</a>  sentences.
-I think being strict definitely helps
-because it removes unnecessary ambiguity from the SRS reps.
-If there's no other way,
-making MT cards occasionally won't do too much harm though.</p>
-<p>Try to avoid MT cards where there are two or more words you don't know.
-They may slow you down, and they may be too difficult to review.
-Trying to learn two things on one card uses a lot of mental energy,
-and it can be boring and frustrating.
-Learning 1T sentences is more fun, they are quicker to grasp.
-If everything is easy, you'll enjoy studying more.</p>
-<p>You can make MT cards once in a while,
-but it's smoother when you don't.
-Once you get more advanced,
-you will not need to make MT cards because there will be
-already enough 1T cards you can find just by continuing to immerse.</p>
-<p>If you are in a situation where you want to create a TSC to learn a word,
-but the sentence contains two or more unknown words,
-first create and learn a 1T card where the other unknown word is the target.
-By doing so, the original sentence will transform into being 1T.
-Then you can learn the original sentence as a normal 1T card.</p>
-<p>In summary, it is best to primarily create 1T flashcards
-and only occasionally make MT cards.
-By following this strategy, you will optimize your time
-and energy while making consistent progress towards fluency.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-strict-do-you-recommend-being-about-1t.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-strict-do-you-recommend-being-about-1t.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sat, 20 May 2023 15:25:33 +0300</pubDate>
 </item>
 </channel>
 </rss>
