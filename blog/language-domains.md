@@ -60,10 +60,10 @@ two dialects can be so distinct that they are considered separate languages.
 ## Role of domains
 
 Why do we need to care about domains?
-Because the fastest way to obtain high-level comprehension in your target language
-is to narrow your immersion focus to a particular domain of the TL,
+Because the fastest way to obtain high-level comprehension in your target language is to
+narrow your immersion focus to a particular domain of the TL,
 master that subset, then move to another domain and repeat.
-On the opposite, [jumping between different domians](is-it-more-efficient-to-stick-to-one-domain.html) too often
+On the opposite, frequently [jumping between different domians](is-it-more-efficient-to-stick-to-one-domain.html)
 will cause a lot of frustration
 and slow down your progress
 since each new domain will meet you with a load of unfamiliar words.
@@ -78,9 +78,9 @@ You frequently encounter the same words used in different contexts.
 This helps you memorize the words better in addition to using the [SRS](spaced-repetition.html).
 
 Another reason why domains are important
-is that you want to avoid content that is way above your current level.
+is that you want to avoid content that is way above your current skill level.
 Choose immersion content that is not too difficult but is challenging enough
-to learn something new from it.
+to learn something new from it and grow your ability.
 
 ## First domain
 
