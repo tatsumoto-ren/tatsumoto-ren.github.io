@@ -40,7 +40,7 @@ Here are some examples of language domains:
 
 As you can see,
 any language can be easily divided into numerous domains.
-This list can be further expanded or modified.
+This list can be [further expanded or modified](how-broad-or-narrow-is-a-domain-of-language.html).
 
 Generally,
 the more a genre deviates from everyday conversation,
