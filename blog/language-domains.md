@@ -17,18 +17,18 @@ A domain is a subset of the target language
 that is characterized by frequent use of certain vocabulary.
 Such vocabulary is often specific to the domain
 and is used noticeably more than in other areas of the language, in other domains.
-Words used frequently in one domain are comparatively less frequent in other domains.
+Words that are commonly used in one domain tend to be less frequently used in other domains.
 
 Here are some examples of language domains:
 
 * Everyday conversation, real life conversation.
-  Vocabulary related to talking about nothing.
+  This domain includes vocabulary related to talking about nothing.
   For example, asking "how are you?" or chatting about the weather.
   Real life conversation is different from scripted, edited, and acted content.
 * Slice of life drama, anime, movies, etc.
   Everyday conversation, but scripted, more detailed, more structured.
-  Includes common words from a variety of other domains.
-  Often includes household-related topics, as well as school, work, etc.
+  May include common words from a variety of other domains.
+  Often covers topics related to household, school, work, and more.
 * Various fiction genres, each genre representing its own domain.
   We encounter fiction in the form of drama, anime, movies, etc.
   * Science fiction.
@@ -38,9 +38,24 @@ Here are some examples of language domains:
 * Non-fiction.
   For example, documentaries.
 
-As you see,
-any language is easily divided into a large variety of domains.
-This list can be expanded or modified further.
+As you can see,
+any language can be easily divided into numerous domains.
+This list can be further expanded or modified.
+
+Generally,
+the more a genre deviates from everyday conversation,
+the less comprehensible it is going to be in the beginning.
+The medium in which content is presented or recorded also influences the level of difficulty.
+Usually, books are more challenging than comic books,
+and comic books are more challenging than movies and TV shows.
+
+Another factor to consider is dialect.
+Many languages, including Japanese, have regional dialects
+that can significantly differ from one another.
+Differences in accents alone can make the language incomprehensible,
+even to native speakers.
+In some cases,
+two dialects can be so distinct that they are considered separate languages.
 
 ## Role of domains
 
@@ -55,7 +70,7 @@ since each new domain will meet you with a load of unfamiliar words.
 
 It's more efficient to master a small set of domains first,
 take each domain one at a time,
-than tackle a large number of domains at the same time
+than tackle many domains at the same time
 and have a bad time immersing in either of them.
 Immersing oneself in one domain at a time
 creates a natural spaced repetition environment.
@@ -172,7 +187,7 @@ Of course, it's also different from the way you talk about the topic in your nat
 
 For example, you may learn about history of Japan, and then you can talk about it.
 Or, you learn about Japanese food, and then you can talk about it.
-After you master a large number of domains and become able to speak your target language,
+After you master numerous domains and become able to speak your target language,
 identify a few specific topics and situations you want to feel comfortable in
 when having conversations with native speakers.
 Focus all your immersion and output practice on those topics (domains).
@@ -222,7 +237,7 @@ or about 3+ months after starting to learn your target language.
 Although people may choose to go monolingual at any other point in the learning process.
 
 Once you learn defining vocabulary,
-definitions written in your target language will become much more comprehensible
+definitions written in your target language will become much more comprehensible,
 and you will be able to completely ditch bilingual dictionaries, such as JMdict.
 
 ## When to move to another domain
