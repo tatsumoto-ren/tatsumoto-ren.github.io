@@ -69,7 +69,7 @@ and slow down your progress
 since each new domain will meet you with a load of unfamiliar words.
 
 It's more efficient to master a small set of domains first,
-take each domain one at a time,
+taking one domain at a time,
 than tackle many domains at the same time
 and have a bad time immersing in either of them.
 Immersing oneself in one domain at a time
@@ -210,9 +210,9 @@ AJATTers who have dedicated multiple years to learning Japanese
 are able to choose a wide range of immersion content freely,
 understand it effortlessly and have fun consuming it.
 So, after a certain point in the journey
-you won't have to use domains boundaries anymore to guide your choices of immersion content.
+you won't have to use domain boundaries anymore to guide your choices of immersion content.
 However,
-reaching such proficiency,
+reaching such proficiency
 requires immersing all the time,
 having a high level of comprehension in a variety of different genres of content,
 acquiring vocabulary from a wide range of domains.
