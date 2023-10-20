@@ -19,6 +19,7 @@ date: 1616375454
 * Immersion
 	* [Active immersion](active-immersion.html)
 	* [Passive immersion](passive-immersion.html)
+	* [Domains](language-domains.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
