@@ -227,10 +227,7 @@ function close_sidebar() {
 
 function make_images_expand_on_click() {
     document.querySelectorAll("article img:not(a>img)").forEach(img => {
-        img.onclick = () => { window.open(img.src, "_blank", "Expanded image"); }
-        img.style.cursor = "pointer";
-        img.title = "Click to open image in a new tab.";
-        console.log(img.src, img.height, img.clientHeight, img.naturalHeight);
+        /* This code is not needed */
     })
 }
 
