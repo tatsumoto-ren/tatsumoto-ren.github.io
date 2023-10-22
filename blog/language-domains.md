@@ -61,7 +61,7 @@ two dialects can be so distinct that they are considered separate languages.
 
 Why do we need to care about domains?
 Because the fastest way to obtain high-level comprehension in your target language is to
-narrow your immersion focus to a particular domain of the TL,
+narrow your [immersion](whats-immersion.html) focus to a particular domain of the TL,
 master that subset, then move to another domain and repeat.
 On the opposite, frequently [jumping between different domians](is-it-more-efficient-to-stick-to-one-domain.html)
 will cause a lot of frustration
