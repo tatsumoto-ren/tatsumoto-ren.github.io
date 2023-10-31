@@ -20,11 +20,14 @@
 </header>
 
 <div id="sidebar">
-    <div class="sidebar_header">
+    <form action="" name="sidebar_header" class="sidebar_header">
         <a href="/" title="Go home">Home</a>
+        <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+        <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+        <input title="Dark theme" type="radio" name="blog-theme" id="dark">
         <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
         <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
-    </div>
+    </form>
     <div class="important-links on-mobile">
         <a href="table-of-contents.html">Guide</a>
         <a href="our-immersion-learning-toolset.html">Tools</a>

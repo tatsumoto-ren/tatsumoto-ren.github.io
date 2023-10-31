@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* global */
+/* Global */
 
 :root {
     --header-height: 52px;
@@ -11,14 +11,77 @@
     --link-black: #1f2628;
     --gap-large: 32px;
     --gap-small: 24px;
-    --nav-border-color: #ebebeb;
     --header-background: #f9f9f9;
-    --header-item-focused-background: #eee;
+    --header-item-focused-background: rgba(0, 0, 0, 0.04);
     --sidebar-background: #111;
     --background-secondary-color: #dee2e6;
     --code-bg-color: #f6f8fa;
     --elem-shadow-color: rgba(0, 0, 0, .05);
+    --article-background: white;
+    --logo-text-color: black;
+    --body-text-color: #24292e;
+    --header-link-color: #333;
+    --header-link-color-hover: black;
+    --box-sep-color: rgba(0, 0, 0, 10%);
+    --sidebar-link-color: #ccc;
+    --sidebar-link-color-hover: #f1f1f1;
+    --article-page-width: 1000px;
 }
+
+/* Document rules for each theme */
+
+:root.pink {
+    --body-text-color: #955e4b;
+    --body-bg-color: white;
+    --logo-text-color: var(--body-text-color);
+    --header-link-color: var(--body-text-color);
+    --header-link-color-hover: #ac370d;
+    --logo-img-filter: invert(39%) sepia(24%) saturate(834%) hue-rotate(329deg) brightness(97%) contrast(90%);
+    --header-background: #FFF9F3;
+    --background-secondary-color: #f2ddd4cc;
+    --article-background: #fff9f3cc;
+    --link: #D47999;
+    --link-visited: var(--link);
+    --link-black: #973f22;
+    --link-black-hover: #cf572f;
+    --header-color: var(--link-black);
+    --code-inline-color: white;
+    --code-inline-bg: #E6A2BA;
+    --code-bg-color: #ffdeeb;
+    --blockquote-text-color: #d49ea4;
+    --blockquote-border-color: var(--code-inline-bg);
+    --sidebar-link-color: hsl(0, 30%, 81%);
+    --sidebar-link-color-hover: hsl(341, 100%, 95%);
+    --sidebar-list-marker: var(--link);
+    --md-button-background: var(--code-inline-bg);
+    --md-button-background-hover: var(--link);
+    --summary-text-color: var(--link);
+    --summary-background-color: var(--code-bg-color);
+    --details-border-color: var(--link);
+    --box-sep-color: rgba(149, 93, 75, 0.231);
+}
+
+:root.pink body::before,
+:root.pink body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20vw;
+    z-index: -1;
+    background-repeat: repeat-y;
+    background-image: url("/blog/img/deco_side.svg");
+    background-position: top right;
+    background-size: 100% auto;
+}
+
+:root.pink body::before {
+    left: 0;
+    transform: scaleX(-1);
+}
+
+/* Main elements */
 
 *,
 *::before,
@@ -67,8 +130,8 @@ body {
         IPAGothic,
         Yu Gothic,
         sans-serif;
-    background-color: #f3f3f3;
-    color: #24292e;
+    background-color: var(--body-bg-color, #f3f3f3);
+    color: var(--body-text-color, black);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -100,8 +163,15 @@ a:is(:hover, :active, :focus) {
     text-decoration: underline;
 }
 
+/* Accented links */
+
 a.ablack {
     color: var(--link-black);
+}
+
+a.ablack:is(:hover, :active, :focus) {
+    color: var(--link-black-hover, DarkSlateBlue);
+    filter: hue-rotate(-30deg) brightness(90%);
 }
 
 /* Hide checkbox */
@@ -135,7 +205,7 @@ header {
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--box-sep-color);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -160,19 +230,20 @@ header a.logo:visited {
 header a.logo>span {
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: var(--logo-text-color, black);
     text-align: center;
     margin-right: 8px;
 }
 
 header a.logo:is(:hover, :active, :focus) {
-    opacity: 0.75;
+    filter: saturate(1.5);
     background-color: var(--header-background);
 }
 
 header a.logo>img {
     height: 100%;
     padding: 2px;
+    filter: var(--logo-img-filter, none);
 }
 
 /* Hidden elements. Description is visible only on wide screens. */
@@ -241,7 +312,7 @@ header a:visited,
 header button,
 header label {
     display: block;
-    color: #333;
+    color: var(--header-link-color, #333);
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -256,7 +327,7 @@ header label {
 header button:hover,
 header button[open],
 header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
-    color: black;
+    color: var(--header-link-color-hover, black);
     text-decoration: none;
     background-color: var(--header-item-focused-background);
     box-shadow: inset 0 1px 2px 0 rgba(0, 8, 15, 0.125);
@@ -270,12 +341,12 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
 }
 
 #divbodyholder>div {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    border: 1px solid var(--box-sep-color);
+    background-color: var(--article-background, white);
     padding: clamp(1.5rem, 3vw, 2rem);
     margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
+    max-width: var(--article-page-width);
     box-shadow: 0 1px 4px 0 var(--elem-shadow-color);
 }
 
@@ -359,8 +430,8 @@ article a.anchor {
 
 blockquote {
     padding: 0 1em;
-    color: #6a737d;
-    border-left: 0.25em solid #dfe2e5;
+    color: var(--blockquote-text-color, #6a737d);
+    border-left: 0.25em solid var(--blockquote-border-color, #dfe2e5);
 }
 
 blockquote a {
@@ -396,7 +467,8 @@ code {
     word-break: keep-all;
     font-size: 85%;
     padding: 0.2em 0.4em;
-    background-color: #f3f3f3;
+    background-color: var(--code-inline-bg, #f3f3f3);
+    color: var(--code-inline-color, currentColor);
     border-radius: 4px;
 }
 
@@ -420,6 +492,7 @@ pre iframe {
 pre code {
     padding: 0;
     background-color: initial;
+    color: inherit;
 }
 
 kbd {
@@ -454,17 +527,13 @@ article a:is(:hover, :active, :focus) {
     filter: hue-rotate(-20deg) brightness(120%);
 }
 
-article a.ablack:is(:hover, :active, :focus) {
-    color: DarkSlateBlue;
-    filter: hue-rotate(-30deg) brightness(90%);
-}
-
 /* Article headers */
 
 main :is(h1, h2, h3, h4, h5, h6) {
     margin-block: 1.5rem 1rem;
     line-height: 1.25;
     clear: both;
+    color: var(--header-color, currentColor);
 }
 
 main :is(h1, h2, h3, h4, h5, h6)>a:is(:hover, :active, :focus) {
@@ -739,7 +808,7 @@ input#menu-btn:checked~#sidebar {
 }
 
 #sidebar>.page-contents ::marker {
-    color: #7fdbffaa;
+    color: var(--sidebar-list-marker, #7fdbffaa);
 }
 
 #sidebar ul:only-child,
@@ -754,13 +823,13 @@ input#menu-btn:checked~#sidebar {
 #sidebar a,
 #sidebar a:visited {
     display: inline;
-    color: #ccc;
+    color: var(--sidebar-link-color);
     text-decoration: none;
     user-select: none;
 }
 
 #sidebar a:is(:hover, :active, :focus) {
-    color: #f1f1f1;
+    color: var(--sidebar-link-color-hover, #f1f1f1);
 }
 
 #sidebar>hr {
@@ -777,22 +846,28 @@ input#menu-btn:checked~#sidebar {
 
 /* Sidebar: Top links */
 
-#sidebar .sidebar_header {
+.sidebar_header {
     display: flex;
+    align-content: stretch;
+    align-items: stretch;
     flex-flow: row nowrap;
     position: sticky;
     top: 0;
     z-index: 1;
     background-color: var(--sidebar-background);
     font-size: 18px;
+    height: var(--header-height);
 }
 
-#sidebar .sidebar_header>:is(a, label),
-#sidebar .sidebar_header>:is(a, label):visited {
+.sidebar_header>a:first-child {
+    flex: 2 1 auto;
+}
+
+.sidebar_header>*,
+.sidebar_header>*:visited {
     user-select: none;
     min-width: var(--header-height);
     line-height: var(--header-height);
-    height: var(--header-height);
     text-align: center;
     cursor: pointer;
     overflow: hidden;
@@ -801,12 +876,45 @@ input#menu-btn:checked~#sidebar {
         color 0.1s;
 }
 
-#sidebar .sidebar_header>:is(a, label):is(:hover, :active, :focus) {
+.sidebar_header>*:is(:hover, :active, :focus) {
     background-color: #3f3f3f;
 }
 
-#sidebar .sidebar_header>a:first-child {
-    flex: 2 1 auto;
+/* Theme selector */
+
+.sidebar_header input[type="radio"] {
+    --button-size: 14px;
+    --button-outline: 3px;
+    appearance: none;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar_header input[type="radio"]::after {
+    display: block;
+    content: "";
+    width: var(--button-size);
+    height: var(--button-size);
+    outline: var(--button-outline) solid var(--theme-radio-color, currentColor);
+    outline-offset: var(--button-outline);
+    border-radius: 100vmax;
+    margin: auto;
+}
+
+.sidebar_header input[type="radio"]:checked::after {
+    background-color: var(--theme-radio-color, currentColor);
+}
+
+.sidebar_header input[type="radio"]#light {
+    --theme-radio-color: lightgrey;
+}
+
+.sidebar_header input[type="radio"]#pink {
+    --theme-radio-color: pink;
+}
+
+.sidebar_header input[type="radio"]#dark {
+    --theme-radio-color: rgb(94, 94, 94);
 }
 
 /* Sidebar: Buttons */
@@ -814,14 +922,14 @@ input#menu-btn:checked~#sidebar {
 #sidebar .menu-btn>.menu-icon:not(.close-btn),
 #sidebar .menu-btn>.menu-icon::before,
 #sidebar .menu-btn>.menu-icon::after {
-    background-color: #ccc;
+    background-color: var(--sidebar-link-color);
     transition: background-color 0.1s;
 }
 
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon:not(.close-btn),
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::before,
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::after {
-    background-color: #f1f1f1;
+    background-color: var(--sidebar-link-color-hover);
 }
 
 /* Sidebar: important links */
@@ -880,7 +988,7 @@ a.md-button:visited {
     max-width: 100%;
     height: 50px;
     color: white;
-    background-color: #0b5570;
+    background-color: var(--md-button-background, #0b5570);
     font-weight: 700;
     border-radius: 2.2px;
     text-decoration: none;
@@ -900,7 +1008,7 @@ a.md-button:visited {
 
 a.md-button:is(:hover, :active, :focus) {
     text-decoration: none;
-    background-color: #00bad6;
+    background-color: var(--md-button-background-hover, #00bad6);
     color: white;
     filter: none;
 }
@@ -1284,7 +1392,7 @@ article a[href^="http://"][href*=".onion"]::after {
 
 details {
     --spacing: 0.5rem;
-    outline: 1px solid #0098d4;
+    outline: 1px solid var(--details-border-color, #0098d4);
     border-radius: calc(var(--spacing) / 3);
     padding: 0 var(--spacing);
 }
@@ -1294,8 +1402,8 @@ details[open] {
 }
 
 details summary {
-    background-color: #00b8d415;
-    color: #1f56aa;
+    background-color: var(--summary-background-color, #00b8d415);
+    color: var(--summary-text-color, #1f56aa);
     cursor: pointer;
     padding: calc(var(--spacing) / 3) var(--spacing);
     margin: 0 calc(-1 * var(--spacing));
@@ -1326,7 +1434,8 @@ details[open] summary::before {
 
 details summary::after {
     content: "(click here)";
-    color: grey;
+    color: var(--summary-text-color);
+    opacity: 60%;
     font-size: 70%;
     font-weight: bold;
     margin-left: auto;
