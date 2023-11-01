@@ -24,8 +24,11 @@
     --header-link-color-hover: black;
     --box-sep-color: rgba(0, 0, 0, 10%);
     --sidebar-link-color: #ccc;
-    --sidebar-link-color-hover: #f1f1f1;
     --article-page-width: 1000px;
+    --target-color: cornflowerblue;
+
+    --sidebar-link-color-hover: #f1f1f1;
+    --sidebar-important-link-color-hover: #fff6f1;
 }
 
 /* Document rules for each theme */
@@ -40,10 +43,12 @@
     --header-background: #FFF9F3;
     --background-secondary-color: #f2ddd4cc;
     --article-background: #fff9f3cc;
+
     --link: #D47999;
     --link-visited: var(--link);
     --link-black: #973f22;
     --link-black-hover: #cf572f;
+
     --header-color: var(--link-black);
     --code-inline-color: white;
     --code-inline-bg: #E6A2BA;
@@ -51,8 +56,9 @@
     --blockquote-text-color: #d49ea4;
     --blockquote-border-color: var(--code-inline-bg);
 
-    --sidebar-link-color: #f59f92;
-    --sidebar-link-color-hover: #fff6f1;;
+    --sidebar-link-color: #f98e9a;;
+    --sidebar-link-color-hover: #D47999;
+    --sidebar-important-link-color-hover:#fff6f1;
     --sidebar-list-marker: var(--link);
     --sidebar-item-background-color-hover: #f59f92;
 
@@ -63,6 +69,9 @@
     --details-border-color: var(--link);
     --box-sep-color: rgba(149, 93, 75, 0.231);
     --hr-color: #FF9999;
+    --target-color: var(--hr-color);
+
+    list-style-image: url("/blog/img/list-style-image.webp");
 }
 
 :root.pink body::before,
@@ -75,7 +84,7 @@
     width: 20vw;
     z-index: -1;
     background-repeat: repeat-y;
-    background-image: url("/blog/img/deco_side.svg");
+    background-image: url("/blog/img/deco-side.svg");
     background-position: top right;
     background-size: 100% auto;
 }
@@ -93,7 +102,7 @@
     top: calc(-1*var(--decor-height));
     height: var(--decor-height);
     width: 100%;
-    background-image: url("/blog/img/bottom_pattern.webp");
+    background-image: url("/blog/img/bottom-pattern.webp");
     background-position: bottom left;
     background-repeat: repeat-x;
     background-size: auto;
@@ -101,7 +110,7 @@
 }
 
 :root.pink #sidebar {
-    background-image: url("/blog/img/bg_pattern.webp");
+    background-image: url("/blog/img/bg-pattern.webp");
     background-position: top left;
     background-repeat: repeat;
 }
@@ -630,7 +639,6 @@ article .subtitle {
 /* Highlight targets */
 
 main [id] {
-    --target-color: cornflowerblue;
     --target-shift: calc(10px + var(--header-height));
 
     position: relative;
@@ -644,7 +652,7 @@ main [id]::after {
     display: block;
     left: 0;
     bottom: -3px;
-    height: 2px;
+    height: 2.2px;
     width: min(33%, 250px);
     background-image: linear-gradient(to right, var(--target-color), var(--target-color) 33%, transparent);
     clip-path: inset(0 100% 0 0);
@@ -902,7 +910,7 @@ input#menu-btn:checked~#sidebar {
 
 /* Sidebar: Top links */
 
-.sidebar_header {
+#sidebar .sidebar_header {
     display: flex;
     align-content: stretch;
     align-items: stretch;
@@ -914,12 +922,12 @@ input#menu-btn:checked~#sidebar {
     height: var(--header-height);
 }
 
-.sidebar_header>a:first-child {
+#sidebar .sidebar_header>a:first-child {
     flex: 2 1 auto;
 }
 
-.sidebar_header>*,
-.sidebar_header>*:visited {
+#sidebar .sidebar_header>*,
+#sidebar .sidebar_header>*:visited {
     user-select: none;
     min-width: var(--header-height);
     line-height: var(--header-height);
@@ -931,8 +939,9 @@ input#menu-btn:checked~#sidebar {
         color 0.1s;
 }
 
-.sidebar_header>*:is(:hover, :active) {
+#sidebar .sidebar_header>:is(:hover, :active) {
     background-color: var(--sidebar-item-background-color-hover, #3f3f3f);
+    color: var(--sidebar-important-link-color-hover, #f1f1f1);
 }
 
 /* Theme selector */
@@ -984,7 +993,7 @@ input#menu-btn:checked~#sidebar {
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon:not(.close-btn),
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::before,
 #sidebar .menu-btn:is(:hover, :active, :focus)>.menu-icon::after {
-    background-color: var(--sidebar-link-color-hover);
+    background-color: var(--sidebar-important-link-color-hover);
 }
 
 /* Sidebar: important links */
@@ -1010,6 +1019,7 @@ input#menu-btn:checked~#sidebar {
 }
 
 #sidebar .important-links a:is(:hover, :active, :focus) {
+    color: var(--sidebar-important-link-color-hover, #f1f1f1);
     background-color: var(--sidebar-item-background-color-hover, #3f3f3f);
 }
 
