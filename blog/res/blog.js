@@ -229,7 +229,6 @@ const ThemePicker = Object.freeze({
     },
     restore_theme_on_load() {
         const user_selected_theme = localStorage.getItem(this.key);
-        console.log(user_selected_theme);
         if (user_selected_theme) {
             document.querySelector(`input[name="${this.key}"]#${user_selected_theme}`).checked = true;
             document.documentElement.className = user_selected_theme;

@@ -44,7 +44,7 @@
 
 :root.pink {
     --body-text-color: #955e4b;
-    --body-bg-color: #f3edee;
+    --body-bg-color: #fcf2f5;
     --logo-text-color: var(--body-text-color);
 
     --header-link-color: var(--body-text-color);
@@ -157,7 +157,7 @@
     --header-link-color: var(--body-text-color);
     --logo-img-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
     --header-background: #2E2E2E;
-    --header-item-focused-shadow-color: transparent;
+    --header-item-focused-shadow-color: rgba(0, 0, 0, 0.7);
     --header-item-focused-background-color: rgba(255, 255, 255, 0.219);
     --header-link-color-hover: rgba(245, 250, 255, 0.9);
     --background-secondary-color: rgba(255, 255, 255, 0.25);
