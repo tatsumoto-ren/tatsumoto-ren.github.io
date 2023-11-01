@@ -75,7 +75,7 @@
     --blockquote-border-color: var(--code-inline-bg);
 
     --sidebar-link-color: #f98e9a;
-    ;
+    --sidebar-background-color: #fff1ea;
     --sidebar-link-color-hover: #D47999;
     --sidebar-important-link-color-hover: #fff6f1;
     --sidebar-list-marker: var(--link);
@@ -160,9 +160,9 @@
     --header-item-focused-shadow-color: transparent;
     --header-item-focused-background-color: rgba(255, 255, 255, 0.219);
     --header-link-color-hover: rgba(245, 250, 255, 0.9);
-    --background-secondary-color: rgba(255, 255, 255, 0.089);
+    --background-secondary-color: rgba(255, 255, 255, 0.25);
     --article-background: #3C3C3C;
-    --link: #8fb9e9;
+    --link: #7eb0e9;
     --link-visited: var(--link);
     --link-black: #A6A6A6;
     --link-black-hover: #808080;
@@ -177,7 +177,7 @@
     --summary-text-color: var(--link);
     --summary-background-color: var(--code-bg-color);
     --details-border-color: var(--link);
-    --box-sep-color: rgba(233, 233, 233, 0.178);
+    --box-sep-color: rgba(233, 233, 233, 0.1);
     --kbd-color: var(--body-text-color);
 }
 
@@ -948,6 +948,7 @@ input#menu-btn:checked~#sidebar {
 
 #sidebar .sidebar_header {
     display: flex;
+    background-color: inherit;
     align-content: stretch;
     align-items: stretch;
     flex-flow: row nowrap;
