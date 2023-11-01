@@ -35,7 +35,7 @@
 
 :root.pink {
     --body-text-color: #955e4b;
-    --body-bg-color: white;
+    --body-bg-color: #f3edee;
     --logo-text-color: var(--body-text-color);
     --header-link-color: var(--body-text-color);
     --header-link-color-hover: #ac370d;
@@ -56,9 +56,10 @@
     --blockquote-text-color: #d49ea4;
     --blockquote-border-color: var(--code-inline-bg);
 
-    --sidebar-link-color: #f98e9a;;
+    --sidebar-link-color: #f98e9a;
+    ;
     --sidebar-link-color-hover: #D47999;
-    --sidebar-important-link-color-hover:#fff6f1;
+    --sidebar-important-link-color-hover: #fff6f1;
     --sidebar-list-marker: var(--link);
     --sidebar-item-background-color-hover: #f59f92;
 
@@ -71,6 +72,13 @@
     --hr-color: #FF9999;
     --target-color: var(--hr-color);
 
+    --download-button-text-color: var(--link);
+    --download-button-border-color: var(--link);
+    --download-button-background-color: rgba(248, 181, 189, 0.15);
+    --download-button-shadow-color: rgba(248, 181, 189, 0.5);
+}
+
+:root.pink ul li {
     list-style-image: url("/blog/img/list-style-image.webp");
 }
 
@@ -92,6 +100,15 @@
 :root.pink body::before {
     left: 0;
     transform: scaleX(-1);
+}
+
+:root.pink footer {
+    background-color: #744356;
+    background-image:
+        linear-gradient(rgba(230, 162, 186, 0.33), rgba(68, 47, 55, 0.66)),
+        url("/blog/img/blog-bg-pink-theme.webp");
+    background-size: cover;
+    background-position: center 20%;
 }
 
 :root.pink footer::after {
@@ -224,7 +241,7 @@ a:visited {
     color: var(--link-visited);
 }
 
-a:is(:hover, :active, :focus) {
+a:hover {
     text-decoration: underline;
 }
 
@@ -588,7 +605,7 @@ article a {
     transition: filter 0.2s, color 0.2s;
 }
 
-article a:is(:hover, :active, :focus) {
+article a:hover {
     filter: hue-rotate(-20deg) brightness(120%);
 }
 
@@ -671,15 +688,16 @@ a.download_button {
     line-height: 49px;
     min-width: 220px;
     padding: 0 5px;
-    border: 1px solid #0366d6;
+    color: var(--download-button-text-color, var(--link));
+    border: 1px solid var(--download-button-border-color, #0366d6);
     border-radius: 2px;
     transition: all 0.3s;
 }
 
 a.download_button:is(:hover, :active, :focus) {
-    background-color: #0366d60d;
+    background-color: var(--download-button-background-color, rgba(3, 102, 214, 0.05));
     text-decoration: none;
-    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+    box-shadow: 0 2px 4px var(--download-button-shadow-color, rgba(83, 100, 255, 0.45));
     filter: none;
 }
 
@@ -1305,7 +1323,9 @@ footer {
     font-size: 1rem;
     border-top: solid 1px var(--box-sep-color, #ccc);
     background-color: #51628f;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)), url("/img/bg.webp");
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)),
+        url("/img/bg.webp");
     color: white;
     text-shadow: #0006 1px 1px 2px;
     position: relative;
