@@ -144,11 +144,11 @@ In this case, head to [apps.ankiweb.net](https://apps.ankiweb.net/) and read the
 ### Troubleshooting
 
 * If you're still unable to install or run Anki, refer to
-[Anki Manual](https://docs.ankiweb.net/platform/linux/installing.html)
-and
-[Anki Betas guide](https://betas.ankiweb.net/).
+  [Anki Manual](https://docs.ankiweb.net/platform/linux/installing.html)
+  and
+  [Anki Betas guide](https://betas.ankiweb.net/).
 * Some people report that they see a black screen on startup,
-and that you should run Anki with the no sandbox parameter: `anki --no-sandbox` to avoid it.
+  and that you should run Anki with the no sandbox parameter: `anki --no-sandbox` to avoid it.
 
 ## Sync your mobile device
 
@@ -204,6 +204,20 @@ Preferences control behavior of your Anki collection.
 They apply to all decks.
 You can access preferences by going to `Tools > Preferences…` on Anki’s main window.
 
+### Appearance
+
+* **Video driver: Vulkan.**
+  Enabling Vulkan helps reduce lags.
+* **Style: Native.**
+  Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
+  and disables the childish Apple-esque theme that is set by default.
+* **Minimalist mode.**
+  Newer versions of Anki come with an absolutely horrendous UI.
+  The minimalist mode was added after a widespread backlash from the users.
+  Enable it to debloat the UI.
+
+### Review
+
 * **Learn ahead limit.**
   I recommend keeping the value close to the default of 20 minutes.
   Mine is `35` minutes.
@@ -217,6 +231,23 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   cards with longer learning steps will be shown to you too early.
   Keeping the value on the lower side enforces the wait time of your steps.
   If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
+* **Spacebar also answers card &mdash; disabled.**
+  It is possible to accidentally press Space twice when grading.
+  It's also confusing when one key serves two different purposes at the same time.
+
+### Editing
+
+* **Paste clipboard images as PNG &mdash disabled.**
+  PNG images take more disk space than WebP images.
+  To paste images as WebP, install
+  [this addon](useful-anki-add-ons-for-japanese.html#paste-images-as-webp).
+
+### Other
+
+<details>
+
+<summary>Deprecated</summary>
+
 * **Show new cards after reviews.**
   You always want to finish your reviews first,
   and you don't want new cards to slow you down.
@@ -232,22 +263,8 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   that comes with Anki 2.1.45+.
   If your version of Anki doesn't show this option, it has been already enabled by default.
   Otherwise, make sure to enable it.
-  The old `V1` scheduler was buggy and clunky.
-  The new one fixes its issues.
 
-  Main killer features:
-
-  * You can have subdecks and review all of them at once,
-    the cards will be properly mixed when reviewing.
-  * You can learn new cards in filtered decks.
-    Filtered decks no longer reset learning steps when rebuilt or emptied.
-* **Minimalist mode.**
-  Newer versions of Anki come with an absolutely horrendous UI.
-  The minimalist mode was added after a widespread backlash from the users.
-* **Style: Native.**
-  Same as above.
-  Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
-  and disables the childish Apple-esque theme that is set by default.
+</details>
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 
