@@ -135,7 +135,7 @@ Next time you open the same folder,
 you will see a red asterisk next to the tagged file.</p>
 <p>To have <code>lf</code> automatically select the image currently displayed in <code>nsxiv</code>,
 add the following code to <code>~/.config/nsxiv/exec/image-info</code>.
-The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/image-info">taken from my dotfiles</a>.</p>
+The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info">taken from my dotfiles</a>.</p>
 <div class="pre-wrap"><pre><code># If running as a child of lf, select the current file.
 if [ -n &quot;$id&quot; ]; then
     lf -remote &quot;send $id select \&quot;$1\&quot;&quot;
@@ -146,7 +146,7 @@ that tells <code>lf</code> to add a tag to the currently displayed image.
 For example,
 to tag the current file by pressing <kbd>t</kbd>,
 add the following code to <code>~/.config/nsxiv/exec/key-handler</code>.
-The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/key-handler">taken from my dotfiles</a>.</p>
+The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/key-handler">taken from my dotfiles</a>.</p>
 <div class="pre-wrap"><pre><code>while read file; do
     case &quot;$1&quot; in
     # ...

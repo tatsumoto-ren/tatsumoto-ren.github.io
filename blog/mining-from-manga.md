@@ -84,7 +84,7 @@ you will see a red asterisk next to the tagged file.
 
 To have `lf` automatically select the image currently displayed in `nsxiv`,
 add the following code to `~/.config/nsxiv/exec/image-info`.
-The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/image-info).
+The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info).
 
 ```
 # If running as a child of lf, select the current file.
@@ -98,7 +98,7 @@ that tells `lf` to add a tag to the currently displayed image.
 For example,
 to tag the current file by pressing <kbd>t</kbd>,
 add the following code to `~/.config/nsxiv/exec/key-handler`.
-The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/sxiv/exec/key-handler).
+The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/key-handler).
 
 ```
 while read file; do
