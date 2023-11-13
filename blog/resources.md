@@ -301,7 +301,7 @@ A shared folder with movies and other content with Japanese dubs.
   accessing this site maybe dangerous.
   I often can't access it at all because it shows
   a banner saying `Checking if the site connection is secure` that never disappears.
-* [Bilingualmanga](https://bilingualmanga.net/).
+* [Bilingualmanga](https://bilingualmanga.org/).
   Bilingual manga reader where you can switch from English to Japanese with furigana.
 * [Raw Senmanga](https://raw.senmanga.com/).
   View raw manga online.
