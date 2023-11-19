@@ -198,6 +198,15 @@ and automatically perform lookups new text is copied.
 To *enable scanning*, you can click on the light bulb icon on the toolbar.
 The feature can be configured under "Preferences" <kbd>F4</kbd> > "Scan Popup".
 
+### Disable main window stealing focus when searching
+
+When a search is triggered (for example, by mpvacious),
+the main window focuses itself even if it's already visible,
+which may be undesirable for some users.
+To change this behavior,
+go to "Preferences" > "Advanced" >
+disable "On a new search, focus the main window even if it's visible."
+
 ### Focus the translate line
 
 Pressing <kbd>Ctrl</kbd>+<kbd>L</kbd> puts the mouse cursor inside the translate line.
