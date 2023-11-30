@@ -96,7 +96,7 @@
     --download-button-shadow-color: rgba(248, 181, 189, 0.5);
 }
 
-:root.pink main ul li {
+:root.pink main ul>li {
     list-style-image: url("/blog/img/list-style-image.webp");
 }
 
