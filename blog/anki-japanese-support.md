@@ -285,6 +285,7 @@ paste the URL of the index and give it a unique name.
 1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.2/NHK_main.zip).
 1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip).
 1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.5/Shinmeikai-8_main.zip).
+1) [Daijisen](https://github.com/Ajatt-Tools/daijisen_pronunciations_index/releases/download/v1.0/Daijisen_main.zip)
 1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/download/v1.0/TAAS_main.zip).
 
 </details>
@@ -320,6 +321,7 @@ The add-on will figure out the rest based on the information inside the json fil
 1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip).
 1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip).
 1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
+1) [Daijisen](https://github.com/Ajatt-Tools/daijisen_pronunciations_index/archive/refs/heads/main.zip)
 1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/archive/refs/heads/main.zip).
 
 </details>
