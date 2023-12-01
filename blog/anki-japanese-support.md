@@ -337,7 +337,7 @@ The add-on will figure out the rest based on the information inside the json fil
 </details>
 
 <p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
-<p align="center"><i>Screenshot.</i></p>
+<p align="center"><i>Adding a local audio source.</i></p>
 
 ### Audio Search dialog
 
