@@ -170,7 +170,7 @@ select the definition, right-click and select "Send to Anki".
 > More information on Mpvacious is provided on subsequent pages.
 
 [Mpvacious](https://github.com/Ajatt-Tools/mpvacious) can work with GoldenDict.
-If you append `autoclip_command=goldendict` to the config file,
+If you append `autoclip_method=goldendict` to the config file (`subs2srs.conf`),
 mpvacious will send every subtitle line directly to GoldenDict
 instead of copying text to the system clipboard.
 
