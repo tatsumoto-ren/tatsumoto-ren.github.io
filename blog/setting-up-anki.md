@@ -53,13 +53,8 @@ to avoid possible issues.
 
 ### Using your package manager
 
-* On Arch Linux and other pacman-based distributions the official binary from
-  [GitHub](https://github.com/ankitects/anki/releases/)
-  can be obtained by installing
-  [anki-official-binary-bundle](https://aur.archlinux.org/packages/anki-official-binary-bundle/)
-  from the AUR.
-
-  Anki is also available in third-party repositories:
+* On [Arch Linux](https://wiki.archlinux.org/) and other pacman-based distributions
+  Anki is available in third-party repositories:
   [Chaotic](https://aur.chaotic.cx/) and
   [archlinuxcn](https://github.com/archlinuxcn/repo).
   These are repositories that provide prebuilt AUR packages
