@@ -23,10 +23,27 @@ or from repositories of many GNU distributions.
 The most up-to-date version of GoldenDict is `goldendict-ng`.
 It can create Anki cards, which is important for people following the AJATT method.
 
-Installation is easy and straightforward.
-If you use a pacman-based distribution,
-install [goldendict-ng-git](https://aur.archlinux.org/packages/goldendict-ng-git) from the AUR.
-Simply running `trizen -S goldendict-ng-git` should be sufficient.
+### Pacman-based distributions
+
+If you use a Pacman-based distribution,
+you can enable the
+[archlinuxcn](https://github.com/archlinuxcn/repo/blob/master/README.md) repository
+and then run Pacman to install GoldenDict.
+
+```
+sudo pacman -S goldendict-ng-git
+```
+
+Alternatively,
+install [goldendict-ng-git](https://aur.archlinux.org/packages/goldendict-ng-git)
+from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
+You're going to have to wait for it to compile.
+
+```
+trizen -S goldendict-ng-git
+```
+
+### Other distributions
 
 Users of other distributions need to follow
 [these instructions](https://github.com/xiaoyifang/goldendict-ng#installation)
