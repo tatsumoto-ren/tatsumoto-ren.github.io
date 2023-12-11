@@ -23,9 +23,10 @@ Your goal is not to mine every word.
 
 ## Installation
 
-Yomichan is not being developed anymore.
-The original developer quit.
-At Ajatt-Tools we have made our own fork and continue to maintain it.
+**Note**: Yomichan is not being developed anymore.
+The original developer quit and deleted the extension from web stores.
+At [Ajatt-Tools](https://github.com/Ajatt-Tools)
+we have made our own fork and continue to maintain it.
 We call it *Rikaitan*.
 
 Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-based web browsers.
