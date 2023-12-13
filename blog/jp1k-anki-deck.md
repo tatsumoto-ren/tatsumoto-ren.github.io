@@ -127,6 +127,16 @@ The "Extra" folder in the linked archive contains JP1K-style decks shared by our
 
 There are `776` unique kanji used in the deck.
 
+> After importing the deck I only got 50 notes or so.
+
+Anki doesn't import notes that are already present in your collection.
+If you have prevously downloaded [Ankidrone Starter Pack](basic-vocabulary.html) (covered later),
+you already have got all the cards from this deck.
+You don't need to import this deck and can continue learning new cards from Ankidrone Starter Pack.
+The only difference is that this deck utilizes a note type designed to work with the JP1K method.
+On the other hand, Ankidrone Starter Pack is designed for people
+who either have already completed KanjiTransition or decided to skip it.
+
 > The deck contains some words that I don't think will be useful for me.
 
 The main source of words in the deck is a book called
