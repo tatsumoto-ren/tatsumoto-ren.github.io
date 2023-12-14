@@ -56,7 +56,7 @@ You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
 The great thing about Yomichan is that it is customizable.
 To access the settings page, click the
-![yomichan-settings](https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg)
+![yomichan-settings](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg)
 button in the browser toolbar and choose "Settings".
 In the bottom left corner enable "Advanced" to access hidden settings mentioned in this guide.
 
@@ -392,7 +392,7 @@ is a tool that helps analyze text in the system clipboard.
 It is helpful when reading manga, books, or watching videos in `mpv`.
 
 By clicking on
-![play-audio](https://foosoft.net/projects/yomichan/ext/images/play-audio.svg)
+![play-audio](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/play-audio.svg)
 you can hear an approximate pronunciation of the selected word.
 Unless you're using a custom pronunciation server, **don't trust** the default audio sources
 and don't add the pronunciations to Anki for the reasons explained earlier.
@@ -404,7 +404,7 @@ that features pronunciations made by native speakers.
 The audio files will be downloaded and added to Anki
 whenever a new cards is created or an existing card is updated.
 
-The ![plus](https://foosoft.net/projects/yomichan/img/btn-add-expression.png) button
+The ![plus](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/add-term-kanji.svg) button
 allows you to make Anki cards in one click.
 Assuming you've configured your Note Type,
 now you can create properly formatted targeted sentence cards while reading.

@@ -14,7 +14,7 @@ but in addition it can parse and analyze entire sentences.
 After you set it up,
 you can access Yomichan Search by pressing <kbd>Alt+Insert</kbd>
 or by clicking
-![yomichan-settings](https://foosoft.net/projects/yomichan/ext/images/yomichan-icon.svg)
+![yomichan-settings](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg)
 on the toolbar and pressing "Search".
 
 It has a clipboard monitor which is something I use all the time.
