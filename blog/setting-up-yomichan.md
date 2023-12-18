@@ -29,6 +29,8 @@ At [Ajatt-Tools](https://github.com/Ajatt-Tools)
 we have made our own fork and continue to maintain it.
 We call it *Rikaitan*.
 
+### Gecko-based
+
 Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-based web browsers.
 We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 
@@ -36,13 +38,21 @@ We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 <a class="download_button" href="https://addons.mozilla.org/en-US/firefox/addon/rikaitan/">Firefox add-ons</a>
 </p>
 
+### Chromium-based
+
+Rikaitan is available for [Chromium](https://wiki.archlinux.org/title/Chromium)-based web browsers.
+We recommend [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-chromium) as your everyday web browser.
+
+<p align="center">
+<a class="download_button" href="https://chromewebstore.google.com/detail/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
+</p>
+
+### AnkiConnect plugin
+
 In order to be able to create Anki cards later you need the
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
 It can be installed by opening Anki and going to
 Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
-
-If you used Yomichan before, export and import your setting by going to
-"Settings" > "Backup" > "Export/Import settings".
 
 ## Download dictionaries
 
@@ -59,6 +69,12 @@ To access the settings page, click the
 ![yomichan-settings](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg)
 button in the browser toolbar and choose "Settings".
 In the bottom left corner enable "Advanced" to access hidden settings mentioned in this guide.
+
+### Backups
+
+If you are installing the extension on a new device,
+export and import your setting by going to
+"Settings" > "Backup" > "Export/Import settings".
 
 ### Install dictionaries
 
