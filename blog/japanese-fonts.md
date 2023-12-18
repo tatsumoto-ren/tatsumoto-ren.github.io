@@ -84,20 +84,27 @@ press the *three-dots* button in the topleft corner of the window and select "co
 
 ## Fontconfig
 
-Fontconfig affects what fonts are used system-wide.
-By applying Fontconfig settings you can kill all birds with one stone,
-bypassing the need to individually configure each program you use.
-This applies to fonts in your browser, Yomichan popups, Anki, etc.
+[Fontconfig](https://wiki.archlinux.org/title/Font_configuration)
+determines the system-wide font settings.
+You can use Fontconfig to set the fonts for all the programs you use at once,
+instead of adjusting them one by one.
+This affects the fonts in your browser, Yomichan popups, Anki, and so on.
 
-Create a config file `~/.config/fontconfig/conf.d/99-japanese-fonts.conf`.
-The name of the file should always start with a two-digit number.
-Applications automatically find and read this file
-to discover available fonts and how they get rendered.
-After you make changes to it,
-you may need to restart the applications to load the new configuration.
-In a web browser, it is usually sufficient to reload a page.
+**Note**: as with most configurations,
+it is necessary to manually create the corresponding folder in your home directory
+before creating the configuration file:
 
-Below you can find a recommended configuration file to render Japanese fonts.
+```
+mkdir -p -- ~/.config/fontconfig/conf.d/
+```
+
+Then, create a config file named `~/.config/fontconfig/conf.d/99-japanese-fonts.conf`.
+The name of the file must always begin with a two-digit number.
+The system reads this file to discover the preferred fonts and rendering settings.
+After making changes to the configuration file,
+you may need to restart the applications to load the new settings.
+
+Below you will find the recommended configuration file for rendering Japanese fonts.
 
 <p align="center"><a class="download_button" href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf">Download</a>
 
