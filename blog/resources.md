@@ -456,6 +456,7 @@ You may need a Japanese IP address for some of these.
   The font covers all `JIS第２水準` kanji characters.
 * [kanji-restoration](https://github.com/epistularum/kanji-restoration).
   A custom font that only displays `旧字体`.
+* [Motomachi](https://github.com/kwing0310/motomachi).
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
@@ -529,6 +530,9 @@ You may need a Japanese IP address for some of these.
   Simple manga reader made from a patched `nsxiv`.
   It extracts archives for you and opens them automatically with `sxiv`.
   It keeps your progress.
+* [Gomicsv](https://github.com/fauu/gomicsv).
+  A very fast manga reader that can read zip/cbz files directly.
+  It has a lot of features, like double-page mode and smart resizing to make the manga fit on your screen.
 
 ### Work with subtitles
 
@@ -732,9 +736,6 @@ Free/libre manga reader for Android.
 * [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
 Android Manga reader with Japanese OCR and dictionary capabilities.
 Supports EPWING monolingual dictionaries.
-* [Gomicsv](https://github.com/fauu/gomicsv).
-A very fast manga reader that can read zip/cbz files directly.
-It has a lot of features, like double-page mode and smart resizing to make the manga fit on your screen.
 
 ### Book readers
 
