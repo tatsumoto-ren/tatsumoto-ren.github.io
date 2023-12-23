@@ -232,6 +232,7 @@ Some people would like to completely reject mobile phones because they are surve
 **Further information:**
 
 * [Android - Privacy Guides](https://www.privacyguides.org/android/)
+* [LineageOS](https://lineageos.org/), a custom ROM that supports many devices.
 * [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid/) is a more modern F-Droid client.
 * [Liberate your device - FSF](https://fsfe.org/activities/android/liberate.en.html)
 * [Android and Users' Freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html)
