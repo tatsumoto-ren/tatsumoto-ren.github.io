@@ -19,7 +19,7 @@ and stop depending on languages other than their TL.
 When translating individual words,
 it's generally better to use a dictionary app
 (see [GoldenDict-NG](setting-up-goldendict.html), for example)
-instead of a machine translator,
+instead of a machine translator.
 Dictionary apps are more versatile
 and can display results from multiple installed dictionaries.
 Besides,
