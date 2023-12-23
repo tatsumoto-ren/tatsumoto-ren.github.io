@@ -92,7 +92,7 @@ because it is naturally more extensible and user-friendly.
 
 If you have a question specifically for me,
 ping me in the chat by prepending your message with
-`@tatsumoto:midov.pl` on Matrix or `@tatsumoto` on Telegram.
+`@tatsumoto:4d2.org` on Matrix or `@tatsumoto` on Telegram.
 
 ## Community stickers
 
