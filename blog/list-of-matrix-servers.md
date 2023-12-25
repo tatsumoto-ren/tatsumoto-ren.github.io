@@ -63,7 +63,6 @@ You may need to Email an admin to get an account.
 
 | Server                  | Web client                                  | Extra                 |
 | :---                    | :---                                        | :---                  |
-| `community.rs`          | [element](https://element.community.rs)     |                       |
 | `matrix.im`             | [element](https://element.matrix.im)        |                       |
 | `sibnsk.net`            | [element](https://element.sibnsk.net)       |                       |
 | `matrix.unredacted.org` | [element](https://element.unredacted.org)   | last checked - closed |
@@ -81,7 +80,7 @@ You may need to Email an admin to get an account.
 | `trygve.me`        | [trygve.me](https://element.trygve.me/)                       |                                                      |
 | `nitro.chat`       | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
 | `midov.pl`         | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
-| `koneko.chat`      | [element.koneko.chat](https://element.koneko.chat/)           |                                                      |
+| `w33b.cloud`       | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
 
 ### [Intelligent Selections Regarding Account Entrustment, Listed](https://web.archive.org/web/20230529080517/https://israel.plan9.rocks/)
 
@@ -160,7 +159,6 @@ like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 * https://riot.tzchat.org/
 * https://crystal-temple.flak.is/
 * https://im.tetaneutral.net/
-* https://matrix.mlp.chat/
 * https://matrix.eientei.org/
 * https://im.tetaneutral.net/
 * https://element.arcticfoxes.net/
@@ -186,8 +184,6 @@ without having to use a desktop client.
 * https://matrix.dandl.bayern/ 🏆
 * https://chat.dresden.network/ 🏆
 * https://element.crossbach.de/ 🏆
-* https://element.schaeferit.de/ 🏆
-* https://matrix.patricknour.de/ 🏆
 * https://element.tinternet.net/ 🏆
 * https://www.schotty.com/matrix/ 🏆
 * https://matrix.pancrypticon.net/ 🏆
@@ -230,8 +226,6 @@ without having to use a desktop client.
 * https://chat.gould.cx/
 * https://chat.vyas.net/
 * https://gnome.riot.im/
-* https://riot.pcg.life/
-* https://riot.zorc.xyz/
 * https://salty.riot.im/
 * https://app.nitro.chat/
 * https://chat.eforah.nl/
@@ -239,7 +233,6 @@ without having to use a desktop client.
 * https://chat.thorko.de/
 * https://my.m4tr1x.chat/
 * https://riot.ukvly.org/
-* https://matrix.mlp.chat/
 * https://element.1984.cz/
 * https://element.asra.gr/
 * https://im.solokeys.com/
@@ -312,12 +305,11 @@ and change the server from the default to the one you want.
 * https://matrix.knax.xyz/ 🏆
 * https://tetaneutral.net/ 🏆
 * https://skylinetv.stream/ 🏆
-* https://matrix.ladiv.org/ 🏆
+* https://riot.ladiv.org/
 * https://matrix.ravc.tech/ 🏆
 * https://matrix.vleij.com/ 🏆
 * https://vanderwarker.dev/ 🏆
 * https://matrix.rakozy.us/ 🏆
-* https://matrix.glargh.fr/ 🏆
 * https://matrix.nesven.eu/ 🏆
 * https://matrix.nesven.eu/ 🏆
 * https://pancrypticon.net/ 🏆
@@ -332,29 +324,24 @@ and change the server from the default to the one you want.
 * https://definitionhub.com/ 🏆
 * https://matrix.sumill.com/ 🏆
 * https://matrix.grusbv.com/ 🏆
-* https://matrix.emri.online/ 🏆
 * https://matrix.hofra.rocks/ 🏆
-* https://matrix.troback.com/ 🏆
 * https://matrix.flick-it.de/ 🏆
 * https://neuland.technology/ 🏆
 * https://matrix.pangrand.fr/ 🏆
 * https://matrix.net4sec.com/ 🏆
 * https://chatencriptado.com/ 🏆
 * https://matrix.dabbill.com/ 🏆
-* https://netrunner-vault.de/ 🏆
 * https://matrix.net4sec.com/ 🏆
 * https://matrix.nord.digital/ 🏆
 * https://chat.deprecated.org/ 🏆
 * https://matrix.dunkklar.org/ 🏆
 * https://matrix.googboog.com/ 🏆
-* https://matrix.heiming.info/ 🏆
 * https://gottliebtfreitag.de/ 🏆
 * https://matrix.petrutoni.nl/ 🏆
 * https://matrix.zoz-serv.org/ 🏆
 * https://matrix.csrichter.com/ 🏆
 * https://matrix.jerrycrazy.be/ 🏆
 * https://matrix.foreskin.tips/ 🏆
-* https://matrix.danyocean.com/ 🏆
 * https://matrix.linuxbrujo.net/ 🏆
 * https://matrix.thecovrigs.net/ 🏆
 * https://matrix.muensterhack.de/ 🏆
@@ -362,9 +349,7 @@ and change the server from the default to the one you want.
 * https://riot.markshorten.co.uk/ 🏆
 * https://matrix.budem.de/_matrix/ 🏆
 * https://matrix.leipzigesports.de/ 🏆
-* https://matrix.gears-gadgets.com/ 🏆
 * https://slipstream.thebell.house/ 🏆
-* https://matrix.niveau-keller.com/ 🏆
 * https://synapse.mateuszreszka.xyz/ 🏆
 * https://llllllllllllllllllllllllllllllllllllllllllllllll.space/ 🏆
 * https://mcl.gg/
@@ -373,7 +358,6 @@ and change the server from the default to the one you want.
 * https://kvbx.de/
 * https://stop.pe/
 * https://zoit.net/
-* https://pcg.life/
 * https://oblak.be/
 * https://kuvio.de/
 * https://m.edw.ai/
@@ -427,6 +411,5 @@ and change the server from the default to the one you want.
 * https://matrix.sykorp.com/
 * https://matrix.thegolem.cz/
 * https://nekomimi.solutions/
-* https://matrix.danyocean.com/
 * https://matrix.get-racing.de/
 * https://matrix.intahnet.co.uk/
