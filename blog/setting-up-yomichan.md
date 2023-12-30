@@ -1,13 +1,13 @@
 ---
-title: Setting up Yomichan
+title: Setting up Rikaitan
 date: 1619220247
 tags: ['guide', 'dictionaries', 'yomichan']
 ---
 
-Yomichan is a browser extension
+Rikaitan is a browser extension
 with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
-On top of that Yomichan can be set up to create Anki cards from the words which you look up.
+On top of that Rikaitan can be set up to create Anki cards from the words which you look up.
 
 The process of picking sentences from your immersion
 and making Anki cards is called *sentence-mining* or *sentence-picking*.
@@ -22,12 +22,6 @@ Your goal is not to mine every word.
 ****
 
 ## Installation
-
-**Note**: Yomichan is not being developed anymore.
-The original developer quit and deleted the extension from web stores.
-At [Ajatt-Tools](https://github.com/Ajatt-Tools)
-we have made our own fork and continue to maintain it.
-We call it *Rikaitan*.
 
 ### Gecko-based
 
@@ -56,7 +50,7 @@ Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
 
 ## Download dictionaries
 
-Yomichan needs dictionary files to operate.
+Rikaitan needs dictionary files to operate.
 Dictionaries are distributed in `.zip` archives.
 The archives should not be unzipped before installation.
 
@@ -64,7 +58,7 @@ You can find dictionary files [here](yomichan-and-epwing-dictionaries.html).
 
 ## Configuration
 
-The great thing about Yomichan is that it is customizable.
+The great thing about Rikaitan is that it is customizable.
 To access the settings page, click the
 ![yomichan-settings](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg)
 button in the browser toolbar and choose "Settings".
@@ -104,7 +98,7 @@ is taken very seriously among Japanese learners.
 If you don't know pitch accent of a word,
 you don't know how it's pronounced.
 
-To view pitch accent information in Yomichan popups,
+To view pitch accent information in Rikaitan popups,
 you need to install **Kanjium dictionary**.
 You can find it in the archive with all the other dictionaries you downloaded earlier.
 
@@ -125,7 +119,7 @@ I advise you to disable the "Check for card duplicates" option
 unless you are sure that you need duplicate checking.
 Although it's a very useful feature,
 it is known to significantly affect performance
-to the point when Yomichan and Anki freeze and become unusable.
+to the point when Rikaitan and Anki freeze and become unusable.
 
 Scroll down and click "Configure Anki card format..."
 to select the Note Type for your mining deck.
@@ -165,7 +159,7 @@ and everyone is welcome to add their templates by making a pull request.
 * The value set for `SentKanji` lets you automatically make the target word bold.
   Alternatively, replace it with `{sentence}` if you don't want it to be highlighted.
 * `SentFurigana` is left empty.
-  You may have noticed that Yomichan can add furigana to sentences
+  You may have noticed that Rikaitan can add furigana to sentences
   with the `{sentence-furigana}` tag.
   Unfortunately, it uses a html-based `ruby` format which is hard for the user to edit.
   I recommend leaving the `SentFurigana` field blank
@@ -184,22 +178,22 @@ and everyone is welcome to add their templates by making a pull request.
   by pressing `Ctrl+C` before you make a card.
 * `VocabAudio` is left empty.
   I don't recommend assigning `{audio}`
-  because all default audio sources in Yomichan
+  because all default audio sources in Rikaitan
   often provide samples with **incorrect pronunciation** and pitch accent.
   For example, you get `はは` instead of `はば` or `ぼせい` instead of `ほせい`.
   It's pretty bad, even harmful for language learning.
   Furthermore, enabling `{audio}` significantly slows down card creation
-  because Yomichan has to access pronunciation servers and download audio every time.
+  because Rikaitan has to access pronunciation servers and download audio every time.
   Instead you can use [audio sources](anki-japanese-support.html#audio-files) provided by AJT Japanese.
 
 ### Handlebars
 
-Usually the term *handlebars* is used to refer to the formatting of Anki cards created by Yomichan.
+Usually the term *handlebars* is used to refer to the formatting of Anki cards created by Rikaitan.
 Handlebars can be configured by going to
 "Settings" > "Anki" > "Configure Anki card templates...".
 Some people may recommend you to modify the handlebars
 but no matter what you do your settings
-are going to be broken on next Yomichan update anyway, and you can't prevent it.
+are going to be broken on next Rikaitan update anyway, and you can't prevent it.
 
 Instead, it is advised to modify styling of your Note Type directly in Anki.
 For example, you can remove dictionary bullet points by copying the code below.
@@ -225,7 +219,7 @@ I use `480x480`.
 
 ### Styling
 
-Yomichan offers rich capabilities for styling thanks to the use of CSS.
+Rikaitan offers rich capabilities for styling thanks to the use of CSS.
 The appearance of the popup window can be changed by going to
 "Settings" > "Appearance" > "Configure custom CSS...".
 
@@ -242,7 +236,7 @@ but there are a few important modifications I'd like to mention.
    ruby:hover rt { visibility: visible; }
    ```
 1) **Increase font size.**
-   By default, Yomichan uses very small font.
+   By default, Rikaitan uses very small font.
    If you're using monolingual dictionaries, you're going to find the font uncomfortable.
    To increase its size, the following code can be used:
 
@@ -305,18 +299,18 @@ if "Modifier Keys" "Include" "Ctrl"
 
 The modifier key can be anything.
 To insert `Ctrl` you sometimes have to press both Ctrl and Shift at the same time,
-which appears to be a bug of Yomichan.
+which appears to be a bug of Rikaitan.
 
 Change which profile is being modified under "Profile" > "Editing profile",
 go back to [Anki settings](#anki-settings) and set up a second Note Type to mine simple word cards.
 An example Note Type can be found
 [here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words).
 Now when you press `Shift+Ctrl` while reading,
-Yomichan is going to use the new profile.
+Rikaitan is going to use the new profile.
 
 ### Replacement patterns
 
-If Yomichan fails to look up words such as
+If Rikaitan fails to look up words such as
 `近々` or `屡々`,
 try adding the following replacement pattern.
 Go to "Settings" > "Translation" > "Configure custom text replacement patterns…",
@@ -344,7 +338,7 @@ Change the following settings:
 
 ### Keyboard shortcuts
 
-There's one thing about Yomichan that probably annoys everyone.
+There's one thing about Rikaitan that probably annoys everyone.
 That's having to scroll down to find the right definition.
 Before you lose your mind,
 change some keyboard shortcuts.
@@ -375,7 +369,7 @@ to avoid associating Japanese words with their English translations.
 
 This is different from simply uninstalling bilingual dictionaries.
 Often there are words that Jp-Jp dictionaries don't define.
-Yomichan won't be able to parse such words if JMdict is not installed.
+Rikaitan won't be able to parse such words if JMdict is not installed.
 
 ### Miscellaneous
 
@@ -387,7 +381,7 @@ Yomichan won't be able to parse such words if JMdict is not installed.
 
 ## Usage
 
-Yomichan popups appear when you hover over Japanese text while holding down the Shift key.
+Rikaitan popups appear when you hover over Japanese text while holding down the Shift key.
 
 You can try it with this text:
 
@@ -396,14 +390,14 @@ You can try it with this text:
 ```
 
 <p align="center"><img class="shadow" alt="yomichan window" src="img/yomichan_popup.webp"></p>
-<p align="center"><i>Yomichan popup.</i></p>
+<p align="center"><i>Rikaitan popup.</i></p>
 
 Inside the box you can see definitions grouped by dictionary.
 To hide the window press `Esc` or click outside the box.
 If you have KANJIDIC installed, clicking on individual kanji in the expression
 will bring up additional information about the kanji.
 
-[Yomichan Search](what-is-yomichan-search.html)
+[Rikaitan Search](what-is-yomichan-search.html)
 is a tool that helps analyze text in the system clipboard.
 It is helpful when reading manga, books, or watching videos in `mpv`.
 

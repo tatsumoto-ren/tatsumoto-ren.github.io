@@ -563,7 +563,7 @@ Main article: [Mining from manga](mining-from-manga.html).
   Press a configured keyboard shortcut
   and select the portion of the manga page to convert.
   The text is then recognized and copied to the clipboard.
-  This makes it easy to look up words with [Yomichan Search](what-is-yomichan-search.html).
+  This makes it easy to look up words with [Rikaitan Search](what-is-yomichan-search.html).
 * [mokuro](https://github.com/kha-white/mokuro).
   Can be used to OCR Japanese text instead of Tesseract.
 * [Poricom](https://github.com/bluaxees/Poricom).
@@ -588,7 +588,7 @@ Main article: [Mining from manga](mining-from-manga.html).
   On the "Window" tab
   you can tell the program to apply your [kvantum](setting-up-anki.html#kvantum) theme.
   crqt-ng can automatically copy selected text to the clipboard,
-  which is handy when using [Yomichan Search](what-is-yomichan-search.html).
+  which is handy when using [Rikaitan Search](what-is-yomichan-search.html).
   To enable the feature, under the "Window" tab check "automatically copy when selected."
 
   To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
@@ -602,7 +602,7 @@ Main article: [Mining from manga](mining-from-manga.html).
   In **Preferences**, set "When a word is selected" to "Copy"
   and "When multiple words are selected" to "Copy".
   This should be enough to comfortably use Foliate with
-  [Yomichan Search](what-is-yomichan-search.html).
+  [Rikaitan Search](what-is-yomichan-search.html).
   Change Layout to "Scrolled" in Advanced section of the menu
   to prevent lags and ensure a consistent layout.
 
@@ -746,7 +746,7 @@ Supports EPWING monolingual dictionaries.
   A book reader.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
   An EPUB reader for Android
-  that lets you look up words as you read, similarly to [Yomichan](setting-up-yomichan.html).
+  that lets you look up words as you read, similarly to [Rikaitan](setting-up-yomichan.html).
   Also supports EPWING dictionaries.
 
 ### Video players
@@ -796,11 +796,11 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 
 ### Popup dictionaries
 
-* Yomichan.
-  Yomichan is a browser extension that lets you easily look up unknown words.
+* Rikaitan.
+  Rikaitan is a browser extension that lets you easily look up unknown words.
   * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
-  * [How to set up Yomichan](setting-up-yomichan.html)
-  * [Yomichan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
+  * [How to set up Rikaitan](setting-up-yomichan.html)
+  * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
 * [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en).
 * [10ten Japanese Reader](https://github.com/birchill/10ten-ja-reader).
   Formerly known as Rikaichamp, this browser extension lets you look up Japanese words
@@ -811,7 +811,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 ### Online
 
 * [Dictionariez](https://github.com/pnlpal/dictionaries).
-  A popup-dictionary extension that works similarly to Yomichan.
+  A popup-dictionary extension that works similarly to Rikaitan.
   Good for learners of English.
 * [jisho.org](https://jisho.org/)
 * [wadoku.de](https://wadoku.de/).
@@ -873,8 +873,8 @@ You've been warned.
 
 ## Pronunciation and Pitch accent
 
-* [Pitch accent dictionaries for Yomichan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
-  When you look up a word with Yomichan,
+* [Pitch accent dictionaries for Rikaitan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
+  When you look up a word with Rikaitan,
   they will tell you its pitch accent number.
 * [韻律読み上げチュータスズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/phrasing).
   Generate text-to-speech sentences with somewhat accurate pitch accent (don't assume it's correct).

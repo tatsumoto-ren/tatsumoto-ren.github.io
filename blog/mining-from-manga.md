@@ -25,7 +25,7 @@ We need a toolchain that does the following:
 3) Returns the recognized text.
 4) Sends the text to a dictionary program.
    For example, [GoldenDict](setting-up-goldendict.html)
-   or [Yomichan Search](what-is-yomichan-search.html).
+   or [Rikaitan Search](what-is-yomichan-search.html).
 5) We can look up words and make Anki flashcards.
 
 To recognize text on the pages of a manga,
@@ -172,7 +172,7 @@ $ transformers_ocr recognize
 When run,
 it will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
-Use it in combination with [Yomichan Search](what-is-yomichan-search.html)
+Use it in combination with [Rikaitan Search](what-is-yomichan-search.html)
 to quickly lookup Japanese words in real-time.
 
 The first run will take longer than usual.
@@ -257,7 +257,7 @@ Check the terminal output to see if the process succeeds.
 When you run it the second time,
 `maimocr` will ask you to select an area with Japanese text and try to OCR it.
 The resulting text will be saved to the system clipboard.
-Use it in combination with [Yomichan Search](what-is-yomichan-search.html)
+Use it in combination with [Rikaitan Search](what-is-yomichan-search.html)
 to quickly lookup Japanese words in real-time.
 
 ### Keyboard shortcut

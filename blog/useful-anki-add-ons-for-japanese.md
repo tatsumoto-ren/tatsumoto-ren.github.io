@@ -44,9 +44,9 @@ To configure the add-on, open Anki and select "AJT" > "Japanese Options...".
 
 The add-on can add pitch accent graphs to your cards.
 Note that
-[Yomichan](setting-up-yomichan.html)
+[Rikaitan](setting-up-yomichan.html)
 has a similar feature,
-but this add-on can be used when Yomichan doesn't have pitch graphs for the target word.
+but this add-on can be used when Rikaitan doesn't have pitch graphs for the target word.
 It also lets you mass-generate pitches for all cards in your sentence bank.
 
 <p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/PitchAccent/main/img/pitch_accent_demo.webp"></p>
@@ -300,7 +300,7 @@ This simple add-on automatically copies text from a card to the clipboard.
 It is intended to assist in editing large amounts of cards.
 For example, when you select a fresh subs2srs (or mpvacious) card in the Anki browser,
 it will copy the sentence to the clipboard.
-Then you can analyze the sentence using [Yomichan Search](what-is-yomichan-search.html)
+Then you can analyze the sentence using [Rikaitan Search](what-is-yomichan-search.html)
 and add dictionary definitions to the card.
 
 <p align="center"><img alt="screenshot" src="https://user-images.githubusercontent.com/69171671/210455938-a84d8bfc-9f87-4608-9c6f-0e52b0fe0da4.png"></p>

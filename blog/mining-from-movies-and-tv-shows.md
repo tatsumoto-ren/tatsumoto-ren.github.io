@@ -227,7 +227,7 @@ is a user-script for the mpv video player
 that allows you to make Anki cards
 while watching movies and TV shows in your target language.
 
-Mpvacious can update Anki cards you add with Yomichan
+Mpvacious can update Anki cards you add with Rikaitan
 by filling the audio and screenshot fields.
 Here is a [video demonstration](https://redirect.invidious.io/watch?v=vU85ramvyo4):
 
@@ -278,8 +278,8 @@ If you don't, make sure to adjust at least the following variables:
 1) Open a video in mpv.
 1) Press <kbd>Ctrl</kbd>+<kbd>t</kbd> to activate clipboard autocopy.
 1) Open [GoldenDict](setting-up-goldendict.html)
-   or open your web browser and activate [Yomichan Search](what-is-yomichan-search.html).
-1) Enable GoldendDict's "Scan Popup" or enable clipboard monitor in Yomichan Search.
+   or open your web browser and activate [Rikaitan Search](what-is-yomichan-search.html).
+1) Enable GoldendDict's "Scan Popup" or enable clipboard monitor in Rikaitan Search.
 1) When there is a word you want to mine, create a new card.
 1) Go back to the `mpv` window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
    If you want to grab a sentence that spans multiple lines,
@@ -317,4 +317,4 @@ No.
 Though you often see such recommendations,
 I think it unnecessarily complicates your setup.
 GoldenDict or
-Yomichan Search can do the same thing simpler.
+Rikaitan Search can do the same thing simpler.

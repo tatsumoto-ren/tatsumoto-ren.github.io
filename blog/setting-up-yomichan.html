@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="res/blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Setting up Yomichan</title>
-<meta property="og:title" content="Setting up Yomichan">
+<title>Setting up Rikaitan</title>
+<meta property="og:title" content="Setting up Rikaitan">
 <meta property="og:site_name" content="Tatsumoto Ren">
 <meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html">
 <meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
@@ -67,13 +67,13 @@
 <main>
 <!-- entry begin -->
 <article timestamp="1619220247" position="0">
-<h1 class="title"><a class="ablack" href="setting-up-yomichan.html">Setting up Yomichan</a></h1>
+<h1 class="title"><a class="ablack" href="setting-up-yomichan.html">Setting up Rikaitan</a></h1>
 <div class="subtitle">April 24, 2021 &mdash; Tatsumoto</div>
 <!-- text begin -->
-<p>Yomichan is a browser extension
+<p>Rikaitan is a browser extension
 with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
-On top of that Yomichan can be set up to create Anki cards from the words which you look up.</p>
+On top of that Rikaitan can be set up to create Anki cards from the words which you look up.</p>
 <p>The process of picking sentences from your immersion
 and making Anki cards is called <em>sentence-mining</em> or <em>sentence-picking</em>.
 Each mined sentence has to contain one unknown piece of information,
@@ -84,11 +84,6 @@ When you're out in the wild picking sentences, select the ones that are interest
 Your goal is not to mine every word.</p>
 <hr>
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p><span class="article-note">Note</span>: Yomichan is not being developed anymore.
-The original developer quit and deleted the extension from web stores.
-At <a href="https://github.com/Ajatt-Tools">Ajatt-Tools</a>
-we have made our own fork and continue to maintain it.
-We call it <em>Rikaitan</em>.</p>
 <h3 id="gecko-based"><a class="anchor" href="#gecko-based" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gecko-based</h3>
 <p>Rikaitan is available for <a href="https://wiki.archlinux.org/title/Firefox">Firefox</a>-based web browsers.
 We recommend <a href="https://librewolf.net/">LibreWolf</a> as your everyday web browser.</p>
@@ -107,12 +102,12 @@ We recommend <a href="https://aur.archlinux.org/packages/ungoogled-chromium">ung
 It can be installed by opening Anki and going to
 Tools &gt; Add-ons &gt; Get Add-ons... &gt; Code: <code>2055492159</code> &gt; OK.</p>
 <h2 id="download-dictionaries"><a class="anchor" href="#download-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download dictionaries</h2>
-<p>Yomichan needs dictionary files to operate.
+<p>Rikaitan needs dictionary files to operate.
 Dictionaries are distributed in <code>.zip</code> archives.
 The archives should not be unzipped before installation.</p>
 <p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
 <h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
-<p>The great thing about Yomichan is that it is customizable.
+<p>The great thing about Rikaitan is that it is customizable.
 To access the settings page, click the
 <img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg" alt="yomichan-settings">
 button in the browser toolbar and choose &quot;Settings&quot;.
@@ -143,7 +138,7 @@ My favorite ones are <code>大辞林</code>, <code>明鏡</code> and <code>新�
 is taken very seriously among Japanese learners.
 If you don't know pitch accent of a word,
 you don't know how it's pronounced.</p>
-<p>To view pitch accent information in Yomichan popups,
+<p>To view pitch accent information in Rikaitan popups,
 you need to install <strong>Kanjium dictionary</strong>.
 You can find it in the archive with all the other dictionaries you downloaded earlier.</p>
 <p>To configure how pitch accent information is displayed,
@@ -160,7 +155,7 @@ Anki is running and AnkiConnect is installed.</p>
 unless you are sure that you need duplicate checking.
 Although it's a very useful feature,
 it is known to significantly affect performance
-to the point when Yomichan and Anki freeze and become unusable.</p>
+to the point when Rikaitan and Anki freeze and become unusable.</p>
 <p>Scroll down and click &quot;Configure Anki card format...&quot;
 to select the Note Type for your mining deck.</p>
 <p>The settings below are for the
@@ -216,7 +211,7 @@ and everyone is welcome to add their templates by making a pull request.</p>
 <li>The value set for <code>SentKanji</code> lets you automatically make the target word bold.
 Alternatively, replace it with <code>{sentence}</code> if you don't want it to be highlighted.</li>
 <li><code>SentFurigana</code> is left empty.
-You may have noticed that Yomichan can add furigana to sentences
+You may have noticed that Rikaitan can add furigana to sentences
 with the <code>{sentence-furigana}</code> tag.
 Unfortunately, it uses a html-based <code>ruby</code> format which is hard for the user to edit.
 I recommend leaving the <code>SentFurigana</code> field blank
@@ -235,21 +230,21 @@ you can manually select which part of the definition you want
 by pressing <code>Ctrl+C</code> before you make a card.</li>
 <li><code>VocabAudio</code> is left empty.
 I don't recommend assigning <code>{audio}</code>
-because all default audio sources in Yomichan
+because all default audio sources in Rikaitan
 often provide samples with <strong>incorrect pronunciation</strong> and pitch accent.
 For example, you get <code>はは</code> instead of <code>はば</code> or <code>ぼせい</code> instead of <code>ほせい</code>.
 It's pretty bad, even harmful for language learning.
 Furthermore, enabling <code>{audio}</code> significantly slows down card creation
-because Yomichan has to access pronunciation servers and download audio every time.
+because Rikaitan has to access pronunciation servers and download audio every time.
 Instead you can use <a href="anki-japanese-support.html#audio-files">audio sources</a> provided by AJT Japanese.</li>
 </ul>
 <h3 id="handlebars"><a class="anchor" href="#handlebars" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Handlebars</h3>
-<p>Usually the term <em>handlebars</em> is used to refer to the formatting of Anki cards created by Yomichan.
+<p>Usually the term <em>handlebars</em> is used to refer to the formatting of Anki cards created by Rikaitan.
 Handlebars can be configured by going to
 &quot;Settings&quot; &gt; &quot;Anki&quot; &gt; &quot;Configure Anki card templates...&quot;.
 Some people may recommend you to modify the handlebars
 but no matter what you do your settings
-are going to be broken on next Yomichan update anyway, and you can't prevent it.</p>
+are going to be broken on next Rikaitan update anyway, and you can't prevent it.</p>
 <p>Instead, it is advised to modify styling of your Note Type directly in Anki.
 For example, you can remove dictionary bullet points by copying the code below.
 The following snippet was taken from the
@@ -268,7 +263,7 @@ which makes it difficult to work with monolingual dictionaries.
 To increase its size, go to &quot;Settings&quot; &gt; &quot;Position &amp; Size&quot; and set the size to a higher value.
 I use <code>480x480</code>.</p>
 <h3 id="styling"><a class="anchor" href="#styling" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styling</h3>
-<p>Yomichan offers rich capabilities for styling thanks to the use of CSS.
+<p>Rikaitan offers rich capabilities for styling thanks to the use of CSS.
 The appearance of the popup window can be changed by going to
 &quot;Settings&quot; &gt; &quot;Appearance&quot; &gt; &quot;Configure custom CSS...&quot;.</p>
 <p>Most people keep their settings rather simple,
@@ -283,7 +278,7 @@ ruby:hover rt { visibility: visible; }
 </code></pre></div>
 </li>
 <li><p><strong>Increase font size.</strong>
-By default, Yomichan uses very small font.
+By default, Rikaitan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
 To increase its size, the following code can be used:</p>
 <div class="pre-wrap"><pre><code>.gloss-item { font-size: 1.5em; }
@@ -335,15 +330,15 @@ Under &quot;Conditions&quot; select:</p>
 <p align="center"><i>Profile Conditions.</i></p>
 <p>The modifier key can be anything.
 To insert <code>Ctrl</code> you sometimes have to press both Ctrl and Shift at the same time,
-which appears to be a bug of Yomichan.</p>
+which appears to be a bug of Rikaitan.</p>
 <p>Change which profile is being modified under &quot;Profile&quot; &gt; &quot;Editing profile&quot;,
 go back to <a href="#anki-settings">Anki settings</a> and set up a second Note Type to mine simple word cards.
 An example Note Type can be found
 <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words">here</a>.
 Now when you press <code>Shift+Ctrl</code> while reading,
-Yomichan is going to use the new profile.</p>
+Rikaitan is going to use the new profile.</p>
 <h3 id="replacement-patterns"><a class="anchor" href="#replacement-patterns" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Replacement patterns</h3>
-<p>If Yomichan fails to look up words such as
+<p>If Rikaitan fails to look up words such as
 <code>近々</code> or <code>屡々</code>,
 try adding the following replacement pattern.
 Go to &quot;Settings&quot; &gt; &quot;Translation&quot; &gt; &quot;Configure custom text replacement patterns…&quot;,
@@ -367,7 +362,7 @@ Change the following settings:</p>
 <p align="center"><img class="shadow" alt="child popups settings" src="img/child-popups-settings.webp"></p>
 <p align="center"><i>Settings.</i></p>
 <h3 id="keyboard-shortcuts"><a class="anchor" href="#keyboard-shortcuts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcuts</h3>
-<p>There's one thing about Yomichan that probably annoys everyone.
+<p>There's one thing about Rikaitan that probably annoys everyone.
 That's having to scroll down to find the right definition.
 Before you lose your mind,
 change some keyboard shortcuts.
@@ -392,7 +387,7 @@ hide JMdict and other bilingual dictionaries
 to avoid associating Japanese words with their English translations.</p>
 <p>This is different from simply uninstalling bilingual dictionaries.
 Often there are words that Jp-Jp dictionaries don't define.
-Yomichan won't be able to parse such words if JMdict is not installed.</p>
+Rikaitan won't be able to parse such words if JMdict is not installed.</p>
 <h3 id="miscellaneous"><a class="anchor" href="#miscellaneous" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h3>
 <ul>
 <li>&quot;General&quot; &gt; &quot;Show the welcome guide on browser startup&quot;: disable.</li>
@@ -402,17 +397,17 @@ Yomichan won't be able to parse such words if JMdict is not installed.</p>
 <li>&quot;Clipboard&quot; &gt; &quot;Enable search page clipboard text monitoring&quot;: enable.</li>
 </ul>
 <h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
-<p>Yomichan popups appear when you hover over Japanese text while holding down the Shift key.</p>
+<p>Rikaitan popups appear when you hover over Japanese text while holding down the Shift key.</p>
 <p>You can try it with this text:</p>
 <div class="pre-wrap"><pre><code>私達はイラク出身です。
 </code></pre></div>
 <p align="center"><img class="shadow" alt="yomichan window" src="img/yomichan_popup.webp"></p>
-<p align="center"><i>Yomichan popup.</i></p>
+<p align="center"><i>Rikaitan popup.</i></p>
 <p>Inside the box you can see definitions grouped by dictionary.
 To hide the window press <code>Esc</code> or click outside the box.
 If you have KANJIDIC installed, clicking on individual kanji in the expression
 will bring up additional information about the kanji.</p>
-<p><a href="what-is-yomichan-search.html">Yomichan Search</a>
+<p><a href="what-is-yomichan-search.html">Rikaitan Search</a>
 is a tool that helps analyze text in the system clipboard.
 It is helpful when reading manga, books, or watching videos in <code>mpv</code>.</p>
 <p>By clicking on

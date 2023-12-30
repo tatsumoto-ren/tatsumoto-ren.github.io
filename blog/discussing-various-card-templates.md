@@ -65,7 +65,7 @@ Learners utilize
 [GoldenDict](setting-up-goldendict.html)
 [Qolibri](setting-up-qolibri.html),
 [mpv scripts](mining-from-movies-and-tv-shows.html#user-scripts-for-mpv),
-[Yomichan](setting-up-yomichan.html),
+[Rikaitan](setting-up-yomichan.html),
 and [other software](resources.html#dictionaries)
 to make card creation faster and easier.
 
@@ -313,7 +313,7 @@ and shouldn't be treated as an advantage of using sentence cards.
 TSCs are like [sentence cards](#sentence-cards),
 but you always make sure to highlight the target word.
 This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
-Yomichan can do it too if its settings are tweaked in a certain way.
+Rikaitan can do it too if its settings are tweaked in a certain way.
 
 <p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
 
@@ -348,21 +348,21 @@ in the articles about making your own cards.
 Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
 a deck with example Targeted Sentence Cards.
 
-### Make Yomichan highlight the target word for you
+### Make Rikaitan highlight the target word for you
 
-I recommend setting up Yomichan to mark the target word automatically when a new card is made.
+I recommend setting up Rikaitan to mark the target word automatically when a new card is made.
 This saves you the extra step
 that you'd otherwise have to take every time you make a new targeted sentence card.
 [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 is aware of this setting and preserves highlighted words when updating sentences.
 
-Go to Yomichan Settings > "Anki" > "Configure Anki card format…".
+Go to Rikaitan Settings > "Anki" > "Configure Anki card format…".
 
 <p align="center"><img alt="highlight-target-word" class="shadow" src="img/highlight-target-word.png"></p>
 
-<p align="center"><i>Yomichan settings.</i></p>
+<p align="center"><i>Rikaitan settings.</i></p>
 
-**Note:** All Yomichan settings are covered in [Setting up Yomichan](setting-up-yomichan.html#anki-settings) later.
+**Note:** All Rikaitan settings are covered in [Setting up Rikaitan](setting-up-yomichan.html#anki-settings) later.
 
 ### Why TSCs?
 
@@ -376,7 +376,7 @@ Go to Yomichan Settings > "Anki" > "Configure Anki card format…".
 * **TSCs are easy to make.**
   You can use mpv scripts such as [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
   to make each card in just a few seconds.
-  When you're reading a novel, Yomichan alone can handle everything.
+  When you're reading a novel, Rikaitan alone can handle everything.
 * **Context is always there.**
   You don't deprive yourself of the full sentence, and it makes your reviews easier.
 * **You see how the word is used.**
@@ -548,14 +548,14 @@ You can also make a second card for another meaning if you want.
 
 > What if an expression does not have an entry in a Japanese to Japanese dictionary?
 
-It most certainly has. If you can't find it in a Yomichan dictionary,
+It most certainly has. If you can't find it in a Rikaitan dictionary,
 look it up on
 [www.weblio.jp](https://www.weblio.jp/)
 or use the web search.
 For example, [here](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%28%E3%81%A8%E3%81%86%E3%81%8B%E3%81%8F%29%E3%82%92%E7%8F%BE%28%E3%81%82%E3%82%89%E3%82%8F%29%E3%83%BB%E3%81%99)
 you can find a definition for 「頭角を現す」.
 
-> What if it's not voiced in the Yomichan audio?
+> What if it's not voiced in the Rikaitan audio?
 
 It's not a big deal,
 but you can try searching on

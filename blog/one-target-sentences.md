@@ -33,7 +33,7 @@ If for some reason you choose to add an MT sentence to Anki,
 only test yourself on the **target word** which you have highlighted.
 
 > A word can be highlighted in Anki by selecting it and pressing `Ctrl+b` to make it bold
-> or by [setting up](setting-up-yomichan.html#settings-overview) Yomichan to do it for you.
+> or by [setting up](setting-up-yomichan.html#settings-overview) Rikaitan to do it for you.
 
 Having to recall several unknown words at once is very difficult
 and lowers your retention.

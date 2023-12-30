@@ -242,7 +242,7 @@ We have more complete suggestions on the Resources page.
     1) [GoldenDict](setting-up-goldendict.html)
     1) [Tagaini Jisho](https://www.tagaini.net/)
   * When you read in your browser, use
-    [Yomichan](setting-up-yomichan.html)
+    [Rikaitan](setting-up-yomichan.html)
     to discover meanings of unknown words.
 * **Mobile**
   * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)

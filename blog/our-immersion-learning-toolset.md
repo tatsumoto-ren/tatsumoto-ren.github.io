@@ -168,12 +168,12 @@ External resources:
 * [Install from the AUR](https://aur.archlinux.org/packages?K=crqt-ng)
 * [Reading books](reading-books.html)
 
-## [Yomichan](setting-up-yomichan.html)
+## [Rikaitan](setting-up-yomichan.html)
 
 Look up unknown words with the hover of a mouse
 and make Anki flashcards with a single click.
 
-* [Setting up Yomichan](setting-up-yomichan.html)
+* [Setting up Rikaitan](setting-up-yomichan.html)
 * [Dictionaries](yomichan-and-epwing-dictionaries.html)
 
 ## [ames](https://github.com/Ajatt-Tools/ames)

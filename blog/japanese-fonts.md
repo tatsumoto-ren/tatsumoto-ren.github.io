@@ -88,7 +88,7 @@ press the *three-dots* button in the topleft corner of the window and select "co
 determines the system-wide font settings.
 You can use Fontconfig to set the fonts for all the programs you use at once,
 instead of adjusting them one by one.
-This affects the fonts in your browser, Yomichan popups, Anki, and so on.
+This affects the fonts in your browser, Rikaitan popups, Anki, and so on.
 
 **Note**: as with most configurations,
 it is necessary to manually create the corresponding folder in your home directory
@@ -219,12 +219,12 @@ It is a good idea to disable the
 "Allow pages to choose their own fonts instead of your selections above" setting.
 It can interfere with the fonts set with fontconfig.
 
-## Yomichan
+## Rikaitan
 
 Likewise, no special configuration required.
 If you wish to specify a different font, edit the Popup CSS.
 
-Go to Yomichan Settings > "Appearance" > "Configure custom CSS...".
+Go to Rikaitan Settings > "Appearance" > "Configure custom CSS...".
 Use the browser's "Inspect" feature to find out CSS class names you want to apply font settings to.
 For example, the content of dictionary definitions
 can be styled by editing rules for `.gloss-content`.

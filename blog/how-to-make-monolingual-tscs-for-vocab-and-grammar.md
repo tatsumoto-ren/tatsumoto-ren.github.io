@@ -22,7 +22,7 @@ for the grammar point or word you didn't know.
 
 1) Download and install monolingual
    [dictionaries](yomichan-and-epwing-dictionaries.html)
-   for GoldenDict, Yomichan, etc.
+   for GoldenDict, Rikaitan, etc.
 2) Keep JMdict enabled ([but hidden](setting-up-yomichan.html#collapse-dictionaries))
    for times when your monolingual dictionaries don't pick up certain words.
    Monolingual dictionaries tend to be smaller than JMdict.
@@ -31,7 +31,7 @@ for the grammar point or word you didn't know.
 
 You will run into grammar points
 that only have English definitions.
-Rely on Yomichan to pin-point the grammar pattern, then use
+Rely on Rikaitan to pin-point the grammar pattern, then use
 [Weblio](https://www.weblio.jp/),
 [sakura-paris](https://sakura-paris.org/dict/)
 or any search engine to look it up.

@@ -117,7 +117,7 @@ focus in the `VocabKanji` field and press <kbd>Tab</kbd> or switch focus away fr
 You can change field names or add more source and destination fields in Options.
 
 When a new card is created via AnkiConnect
-(by using [Yomichan](setting-up-yomichan.html), [GoldenDict](setting-up-goldendict.html), etc.),
+(by using [Rikaitan](setting-up-yomichan.html), [GoldenDict](setting-up-goldendict.html), etc.),
 the add-on detects such events and will append the needed information to the card as well.
 
 In the Anki Browser's toolbar you will find the following buttons:

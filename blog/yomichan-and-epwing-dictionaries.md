@@ -1,5 +1,5 @@
 ---
-title: Yomichan, EPWING and MDX dictionaries
+title: Rikaitan, EPWING and MDX dictionaries
 date: 1607878153
 tags: [dictionaries, yomichan, epwing]
 ---
@@ -76,15 +76,15 @@ Qolibri is much better for EPWING.
 
 </details>
 
-## Yomichan
+## Rikaitan
 
-Yomichan
+Rikaitan
 is a web browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
-To get Yomichan follow [this setup guide](setting-up-yomichan.html).
+To get Rikaitan follow [this setup guide](setting-up-yomichan.html).
 In order to be able to make Anki cards don't forget to install [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
 
-An archive with dictionaries for Yomichan can be downloaded by following the link below.
+An archive with dictionaries for Rikaitan can be downloaded by following the link below.
 
 <p align="center">
 	<a class="download_button" href="https://disk.yandex.com/d/dmS_-JVE2fkMDQ">Download</a>
@@ -100,13 +100,13 @@ The dictionaries were compiled from various places.
 Below is a list of public folders that were used.
 
 * [This Mega folder](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg)
-* [Shared by mattvsjapan](https://www.mediafire.com/file/o3b6jt999dtd9vc/Yomichan_Dictionaries.zip/file)
+* [Shared by mattvsjapan](https://www.mediafire.com/file/o3b6jt999dtd9vc/Rikaitan_Dictionaries.zip/file)
 * [Shinmeikai5](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
 * [Pitch Accent Dictionary](https://mega.nz/file/A5cRxIpY#fcCGZyWX6cZoFYwKoKzbdHnxm_S86WM3PSbDA4ifKUM)
 
 </details>
 
-Go to Yomichan settings and select the "Dictionaries" tab on the left side,
+Go to Rikaitan settings and select the "Dictionaries" tab on the left side,
 then click the button "Configure installed and enabled dictionaries…".
 Press "Import" to import a new dictionary.
 
@@ -115,7 +115,7 @@ Press "Import" to import a new dictionary.
 Each folder in the archive contains a file called "README.md".
 Open it to see additional information about the dictionaries.
 
-### Don't import all Yomichan dictionaries
+### Don't import all Rikaitan dictionaries
 
 You need to have a lot of dictionaries at hand
 because Japanese to Japanese dictionaries always have gaps in them.
@@ -125,25 +125,25 @@ There will always be words that are in some dictionaries and not in others.
 * `夢海鼠` is only in `日本国語大辞典`.
 * `禿同` is only in `実用日本語表現辞典`.
 
-Though you might think that using every dictionary in Yomichan is a good idea
+Though you might think that using every dictionary in Rikaitan is a good idea
 and load up all of them, I would advise you not to do so.
 Sometimes the word that you're trying to look up
 isn't the one that comes up first in the dictionary.
 If you want to find it you have to scroll down,
 and if you have many dictionaries imported this is going to be pretty annoying.
 
-Each installed dictionary file causes Yomichan's database to expand significantly
+Each installed dictionary file causes Rikaitan's database to expand significantly
 and take up to several GiB of disk space.
 
 So what I recommend you to do instead is to have as few dictionaries as possible
-and use Qolibri whenever there's a word that you can't find in Yomichan.
+and use Qolibri whenever there's a word that you can't find in Rikaitan.
 
 ### Custom CSS for images
 
 If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
 images may render incorrectly unless you
 append the following rules to your Popup CSS.
-If this happens, go to Yomichan settings > "Appearance" > "Configure custom CSS...".
+If this happens, go to Rikaitan settings > "Appearance" > "Configure custom CSS...".
 
 <details>
 <summary>Popup CSS for images</summary>
@@ -184,7 +184,7 @@ img {
 
 ### Custom CSS for Kanji Dictionaries
 
-Yomichan's kanji dictionary viewer contains a lot of redundant information,
+Rikaitan's kanji dictionary viewer contains a lot of redundant information,
 such as duplicated tags, stroke order diagrams and empty table rows for each entry.
 To make the kanji entries more concise when using multiple kanji dictionaries,
 you can add some CSS rules.
@@ -281,11 +281,11 @@ Monolingual dictionaries, on the other hand, are very powerful because
 they provide detailed definitions and usage examples.
 With monolingual dictionaries you can learn your target language in your target language.
 
-Pick 3 or 4 monolingual dictionaries you like the most and import them into Yomichan.
+Pick 3 or 4 monolingual dictionaries you like the most and import them into Rikaitan.
 Don't be *that guy*, don't import all dictionaries at once.
 Japanese to Japanese definitions are longer than Japanese to English ones.
-It's easy to clutter Yomichan pop-ups with dozens of definitions.
-Qolibri is much better than Yomichan at handling many dictionaries at the same time.
+It's easy to clutter Rikaitan pop-ups with dozens of definitions.
+Qolibri is much better than Rikaitan at handling many dictionaries at the same time.
 
 Some people may tell you that, say,
 dictionary `A` has more precise and easy to read definitions than dictionary `B`.
@@ -349,7 +349,7 @@ There's a version without images called 旺文社国語辞典 第十一版 **画
 
 Frequency lists are dictionaries
 that display how frequently a word might appear in a given corpus.
-They are utilized in Yomichan's headwords and are shown as tags.
+They are utilized in Rikaitan's headwords and are shown as tags.
 Often frequency dictionaries have different frequency notations.
 In some, a higher frequency number may indicate that the word is more frequent.
 In others, it's the opposite.
@@ -379,7 +379,7 @@ These are a must-have if you watch dramas or anime a lot.
 
 ### Grammar
 
-Dictionaries for Yomichan that help you look up Japanese grammar.
+Dictionaries for Rikaitan that help you look up Japanese grammar.
 
 * Nihongo no Sensei.
   Grammar by JLPT levels.
@@ -401,12 +401,12 @@ Dictionaries for Yomichan that help you look up Japanese grammar.
 
 ### Pitch accent
 
-Dictionaries for Yomichan capable of displaying pitch accents of words.
+Dictionaries for Rikaitan capable of displaying pitch accents of words.
 The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
 
 ### Kanji
 
-In Yomichan Kanji dictionaries are shown
+In Rikaitan Kanji dictionaries are shown
 when you click on a kanji in the headword.
 
 * [KanjiDic English](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project).

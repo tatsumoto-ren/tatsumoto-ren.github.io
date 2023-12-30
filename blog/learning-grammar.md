@@ -296,7 +296,7 @@ when you notice an unknown grammar pattern.
 
 * Look it up in a [regular dictionary](resources.html#dictionaries).
 Most things should be defined there.
-Yomichan and Qolibri are covered later in this guide.
+Rikaitan and Qolibri are covered later in this guide.
 * Consult a grammar guide or a grammar dictionary.
 This is where DoJG or the DoJG Anki deck come handy.
 Tae Kim is another good source.

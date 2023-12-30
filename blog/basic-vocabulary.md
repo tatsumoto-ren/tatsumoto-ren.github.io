@@ -148,14 +148,14 @@ skip Tango `N5` because they're identical and differ only in their card template
 	> with words you don't know in your immersion and making them into sentence cards.
 	> Programs like [GoldenDict](setting-up-goldendict.html)
 	> or the browser add-on
-	> [Yomichan](setting-up-yomichan.html)
+	> [Rikaitan](setting-up-yomichan.html)
 	> simplify this process to a single click.
 	> [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 	> is an add-on for
 	> [mpv](https://wiki.archlinux.org/index.php/Mpv)
 	> that works similarly to
 	> [subs2srs](our-immersion-learning-toolset.html#subs2srs)
-	> and can be used together with Yomichan
+	> and can be used together with Rikaitan
 	> to create Anki cards while watching subtitled content.
 
 	You'll learn more about sentence mining on the subsequent pages of this guide.

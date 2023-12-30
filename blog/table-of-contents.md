@@ -29,7 +29,7 @@ date: 1616375454
 * Dictionaries
 	* [GoldenDict](setting-up-goldendict.html)
 	* [Qolibri](setting-up-qolibri.html)
-	* [Yomichan](setting-up-yomichan.html)
+	* [Rikaitan](setting-up-yomichan.html)
 	* [Dictionary files](yomichan-and-epwing-dictionaries.html)
 * On the journey
 	* [One target sentences](one-target-sentences.html)

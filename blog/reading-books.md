@@ -57,12 +57,12 @@ It does a lot of things right.
   and they are easy to spot visually.
 * It can automatically send text to the system clipboard when you select it.
   This is extremely useful
-  if you want to use `crqt-ng` alongside [Yomichan Search](what-is-yomichan-search.html),
+  if you want to use `crqt-ng` alongside [Rikaitan Search](what-is-yomichan-search.html),
   [Qolibri](setting-up-qolibri.html#watch-clipboard)
   or [GoldenDict](setting-up-goldendict.html#enable-clipboard-scanning).
 
-<p align="center"><img src="img/coolreader-yomichan.webp" alt="crqt-ng and Yomichan Search"></p>
-<p align="center"><i>crqt-ng and Yomichan Search, side by side in i3wm.</i></p>
+<p align="center"><img src="img/coolreader-yomichan.webp" alt="crqt-ng and Rikaitan Search"></p>
+<p align="center"><i>crqt-ng and Rikaitan Search, side by side in i3wm.</i></p>
 
 ## Reading alongside an audiobook
 

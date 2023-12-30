@@ -16,8 +16,8 @@ The dictionary files Qolibri reads are called [EPWING](https://ja.wikipedia.org/
 EPWING (electronic publishing WING) is a dictionary format
 that was allegedly utilized in portable electronic dictionaries.
 
-Qolibri is much better than Yomichan at searching a big number of dictionaries at the same time.
-If you try to use more than 5 dictionaries with Yomichan,
+Qolibri is much better than Rikaitan at searching a big number of dictionaries at the same time.
+If you try to use more than 5 dictionaries with Rikaitan,
 it quickly becomes very cluttered and hard to navigate.
 Qolibri lists all dictionaries you have on a sidebar.
 It is easy to jump between them if you need to.
@@ -55,7 +55,7 @@ for installation instructions.
 Without dictionary files,
 Qolibri is just an empty window with buttons.
 Download the dictionaries and save them to a folder on your computer.
-`EPWING`s are usually larger compared to Yomichan dictionaries.
+`EPWING`s are usually larger compared to Rikaitan dictionaries.
 You need several GiB of disk space to store them.
 
 You can find dictionary files [here](yomichan-and-epwing-dictionaries.html#epwing).
