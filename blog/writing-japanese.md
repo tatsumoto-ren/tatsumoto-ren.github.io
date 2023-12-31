@@ -73,10 +73,10 @@ If you are able to do it with the correct stroke order then press "Good".
 Otherwise press "Again".
 
 <p align="center">
-<a class="download_button" href="https://ankiweb.net/shared/info/1233553736">Download</a>
+<a class="download_button" href="https://disk.yandex.com/d/EoUsX-t62jiEGg">Download</a>
 </p>
 <p align="center">
-<a href="https://disk.yandex.com/d/EoUsX-t62jiEGg">Mirror</a>
+<a href="https://ankiweb.net/shared/info/1312311543">Mirror</a>
 </p>
 
 ## Writing kanji

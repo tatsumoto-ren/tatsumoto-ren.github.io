@@ -96,10 +96,10 @@ Don't forget to [install Anki](setting-up-anki.html) if you haven't done so.
 Download the deck at the link below.
 
 <p align="center">
-<a target="_blank" class="download_button" href="https://ankiweb.net/shared/info/839782116">Download</a>
+<a target="_blank" class="download_button" href="https://disk.yandex.com/d/BK9Jqeml6CqU8Q">Download</a>
 </p>
 <p align="center">
-<a target="_blank" href="https://disk.yandex.com/d/BK9Jqeml6CqU8Q">Mirror</a>
+<a target="_blank" href="https://ankiweb.net/shared/info/839782116">Mirror</a>
 </p>
 
 Now that the deck is downloaded,
