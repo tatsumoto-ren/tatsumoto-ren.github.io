@@ -261,20 +261,29 @@ We have more complete suggestions on the Resources page.
     [jiten](https://github.com/obfusk/jiten)
     or anything else you find on F-Droid.
 * **Do not use**
-  * Machine translators.
-    Every translation is different from the original thought
+  * [Machine translators](could-machine-translation-be-useful-to-language-learners.html).
+    Every translation differs from the original thought
     because no word has an exact equivalent in another language.
-    To understand something, you need to understand it in the original language the first time.
-    And to do that, you have to get comprehensible input, have knowledge of words and grammar.
+    Japanese honorifics, levels of politeness, and other things
+    don't exist in English and get lost in translation.
 
-    Machine translations are extremely unnatural, wrong or misleading.
-    They can give you a rough idea of what's being said, but that's really all.
-    I guess it's okay to translate individual words, but then why don't you use a dictionary.
+    In order to truly understand anything in your target language,
+    you have to understand it in the target language the first time.
+    To achieve this,
+    the goal is to receive thousands of hours of comprehensible input
+    and acquire the necessary vocabulary and grammar.
+
+    Machine translations are often unnatural, erroneous, or misleading.
+    While they may provide a general idea of what's being said,
+    they cannot convey the full meaning and all the details of the original message.
+    It is acceptable to use machine translations for individual words,
+    although it is safer to consult a dictionary instead.
 
     Google Translate is good at recognizing drawn characters.
-    You can use it to draw a kanji that you can't copy-paste
-    in a situation where
-    <abbr title="Optical Character Recognition">OCR</abbr> software doesn't recognize it.
+    You can use it to transcribe a kanji character that cannot be copy-pasted
+    (when reading manga, for example)
+    and in situations where <abbr title="Optical Character Recognition">OCR</abbr>
+    software fails to do so.
   * Paid software.
     For language learning there is no paid software
     that offers any unique functionality
