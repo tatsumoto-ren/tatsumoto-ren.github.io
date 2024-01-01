@@ -211,7 +211,8 @@ Since this is an intro article, you don't have to install everything right now.
 It's just an outline.
 We have more complete suggestions on the Resources page.
 
-* **Desktop**
+### Desktop
+
   * Install Japanese fonts.
     I suggest
     [noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
@@ -244,7 +245,9 @@ We have more complete suggestions on the Resources page.
   * When you read in your browser, use
     [Rikaitan](setting-up-yomichan.html)
     to discover meanings of unknown words.
-* **Mobile**
+
+### Mobile
+
   * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
     to be able to type in Japanese.
     Because Android lacks free/libre keyboards,
@@ -260,7 +263,9 @@ We have more complete suggestions on the Resources page.
     [Sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/),
     [jiten](https://github.com/obfusk/jiten)
     or anything else you find on F-Droid.
-* **Do not use**
+
+### Do not use
+
   * [Machine translators](could-machine-translation-be-useful-to-language-learners.html).
     Every translation differs from the original thought
     because no word has an exact equivalent in another language.
