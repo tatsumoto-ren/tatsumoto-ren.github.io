@@ -14,7 +14,8 @@ First,
 assume that anything that doesn't come from a native speaker is incorrect.
 This includes:
 
-* Machine translations from sources like Google or Deepl.
+* [Machine translations](could-machine-translation-be-useful-to-language-learners.html)
+  from sources like Google or Deepl.
 * Sentences you construct using memorized words and grammar rules.
 
 Try searching examples online.
