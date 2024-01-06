@@ -213,6 +213,8 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [Aniwatch](https://aniwatch.to/).
   Another anime streaming site.
   You can switch between audio and subtitle tracks in multiple languages.
+* [Animerulz](https://animerulz.in).
+  An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil.
 * [AQStream](https://aqstream.com/).
   Watch Japanese TV.
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
