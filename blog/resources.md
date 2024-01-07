@@ -241,7 +241,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [Onomappu](https://www.youtube.com/c/Onomappu/videos).
 * [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
 * [Comprehensible Japanese](https://www.youtube.com/c/ComprehensibleJapanese).
-  Inspired by Steven Krashen's idea of comprehensible input.
+  Inspired by Steven Krashen's idea of [comprehensible input](what-is-comprehensible-input.html).
   The language is slow and is even easier than Tango N5.
 
 **Regular channels.**
@@ -861,7 +861,9 @@ Mdict with [GoldenDict](setting-up-goldendict.html).
 
 ## Translators
 
-The quality of machine translation is very low.
+The quality of
+[machine translation](could-machine-translation-be-useful-to-language-learners.html)
+is very low.
 Your goal is not to translate Japanese
 but to be able to understand it the first time.
 Don't use translators for anything serious.
