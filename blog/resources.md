@@ -153,6 +153,9 @@ Don't use streaming sites and sites for reading manga online if possible.
 Always download what you consume.
 Storing immersion material locally makes mining substantially easier.
 
+Can't decide what to immerse in?
+Explore [Japanese Media Recommendations](https://ixrec.neocities.org/immersion/).
+
 ### Torrent trackers
 
 A [torrent](https://wikiless.org/wiki/BitTorrent)
