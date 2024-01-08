@@ -15,7 +15,8 @@ without sacrificing listening abilities too much.
 It is recommended to **avoid reading** for the first year
 in order to allow listening abilities to mature.
 Therefore, active immersion mainly consists of watching anime, dramas, movies, etc.
-Afterwards audio tracks are extracted from the video files and reused for passive immersion.
+Afterwards audio tracks are extracted from the video files
+and reused for [passive immersion](passive-listening.html).
 
 A limited amount of reading is necessary to grow one's vocabulary.
 Target language subtitles are used to look up unknown words,
