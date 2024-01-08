@@ -46,7 +46,8 @@ Learn to tolerate the ambiguity and let your mind clear it naturally over time.
 Translations exist for people who don't speak the original language.
 They help catch the gist, transmit the meaning.
 If a translation is good, it is still not a language learning tool.
-Machine translation is even worse.
+[Machine translation](could-machine-translation-be-useful-to-language-learners.html)
+is even worse.
 Don't use Google Translate or anything like that.
 
 **Reading English sentences is acceptable in:**
