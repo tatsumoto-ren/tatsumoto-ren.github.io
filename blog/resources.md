@@ -77,7 +77,8 @@ Kanji characters with Koohii stories.
 * [Sakubi](https://sakubi.neocities.org/).
   A rather short guide written for immersion learners.
 * [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
-  ([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
+  * [On Djtguide](https://djtguide.github.io/learn/anon/ixrec.html). With better formatting.
+  * [Archive.org](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/).
 
 ### Grammar in Japanese
 
@@ -272,11 +273,14 @@ Browsing will lead you to more tags.
 ### Downloads
 
 * [Japan Encodings](https://japanencodings.blogspot.com/).
-A site with Mega links to western movies with Japanese dubs.
-Install [megatools](https://aur.archlinux.org/packages/megatools/)
+  A site with Mega links to western movies with Japanese dubs.
+  Install [megatools](https://aur.archlinux.org/packages/megatools/)
 to be able to download files from Mega.
 * [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
-A shared folder with movies and other content with Japanese dubs.
+  A shared folder with movies and other content with Japanese dubs.
+* [Terrace House BGND](https://web.archive.org/web/20231128141849/https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177).
+  Terrace House torrent files from Nyaa in one place.
+
 * [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
 * [Condensed audio catalog](https://condensedaudiocatalog.com/)
 
