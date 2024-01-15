@@ -146,13 +146,10 @@ and everyone is welcome to add their templates by making a pull request.
 | `VocabPitchNum`      | `{pitch-accent-positions}`                        |
 | `VocabDef`           | `{glossary-brief}`                                |
 
-<details>
-
-<summary>Screenshot</summary>
+#### Screenshot
 
 <p align="center"><img class="shadow" alt="yomichan settings" src="img/yomichan_anki_settings.webp"></p>
-
-</details>
+<p align="center"><i>Anki Cards settings.</i></p>
 
 #### Commentary
 
