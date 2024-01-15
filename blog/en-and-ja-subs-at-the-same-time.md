@@ -52,6 +52,10 @@ You can approach this question at 2 levels.
    they don't aid in understanding how ideas are expressed in Japanese,
    and how grammar works.
 
+   The most harmful aspect of reading English subtitles is that
+   one may feel like they comprehend the original text when,
+   in reality,
+   they understand only the translated meaning.
    Furthermore,
    using English subtitles carries the risk of creating false associations
    between English words and Japanese words with similar meanings.
