@@ -178,6 +178,8 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 
   1) [Nyaa ISS](https://nyaa.iss.ink/).
   1) [Nyaa Land](https://nyaa.land/).
+  1) https://nyaa.mrunblock.bond/
+  1) https://nyaa.unblockninja.com/
 * [Tokyo Toshokan](https://www.tokyotosho.info/).
   A BitTorrent library for Japanese media.
 * [Rutracker](https://rutracker.org/).
@@ -275,10 +277,6 @@ Browsing will lead you to more tags.
 
 ### Downloads
 
-* [Japan Encodings](https://japanencodings.blogspot.com/).
-  A site with Mega links to western movies with Japanese dubs.
-  Install [megatools](https://aur.archlinux.org/packages/megatools/)
-to be able to download files from Mega.
 * [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
   A shared folder with movies and other content with Japanese dubs.
 * [Terrace House BGND](https://web.archive.org/web/20231128141849/https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177).
