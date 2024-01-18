@@ -33,7 +33,7 @@ to help you get things up and running as quickly as possible.
 There are two main ways to install Anki.
 
 * Using your distribution's package manager ([pacman](https://wiki.archlinux.org/title/Pacman), apt, dnf, etc.).
-* Using [pipx](https://pypa.github.io/pipx/), a software installer for Python programs.
+* Using [pipx](https://pipx.pypa.io/stable/), a software installer for Python programs.
 * By downloading a release from the official website.
 
 The first method guarantees that you'll have the right dependencies installed,
