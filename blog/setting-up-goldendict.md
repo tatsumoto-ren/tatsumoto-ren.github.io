@@ -1,13 +1,13 @@
 ---
-title: Setting up GoldenDict
+title: Setting up GoldenDict-NG
 date: 1679452222
 tags: ['guide', 'dictionaries']
 ---
 
-GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
+GoldenDict-NG is a libre dictionary application for GNU/Linux and other OSes.
 Like [Qolibri](setting-up-qolibri.html), it lets you search multiple dictionaries at the same time
 so for every word you look up you immediately get a number of definitions.
-GoldenDict is a great tool for language learners,
+GoldenDict-NG is a great tool for language learners,
 and it becomes especially helpful
 when one switches from bilingual dictionaries to monolingual dictionaries.
 It can aid during the monolingual transition
@@ -18,9 +18,9 @@ simplifying recursive look-ups.
 
 ## Installation
 
-GoldenDict is available as a free download from GitHub
+GoldenDict-NG is available as a free download from GitHub
 or from repositories of many GNU distributions.
-The most up-to-date version of GoldenDict is `goldendict-ng`.
+GoldenDict-NG is a successor of the vanilla GoldenDict.
 It can create Anki cards, which is important for people following the AJATT method.
 
 ### Pacman-based distributions
@@ -28,7 +28,7 @@ It can create Anki cards, which is important for people following the AJATT meth
 If you use a Pacman-based distribution,
 you can enable the
 [archlinuxcn](https://github.com/archlinuxcn/repo/blob/master/README.md) repository
-and then run Pacman to install GoldenDict.
+and then run Pacman to install GoldenDict-NG.
 
 ```
 sudo pacman -S goldendict-ng-git
@@ -52,14 +52,14 @@ or clone the repository and
 
 ## Obtain dictionaries
 
-GoldenDict supports a wide range of dictionary formats,
+GoldenDict-NG supports a wide range of dictionary formats,
 including [EPWING](yomichan-and-epwing-dictionaries.html#epwing)
 and [MDX](yomichan-and-epwing-dictionaries.html#mdx).
 They can be downloaded by clicking on the provided links.
 EPWING support is a little buggy,
-so I use GoldenDict to view MDX dictionaries and Qolibri to view EPWING dictionaries.
+so I use GoldenDict-NG to view MDX dictionaries and Qolibri to view EPWING dictionaries.
 
-After download finishes, open GoldenDict,
+After download finishes, open GoldenDict-NG,
 go to "Dictionaries" (<kbd>F3</kbd>)
 and specify the folders you've downloaded the dictionary files to
 under "Sources" > "Files".
@@ -83,9 +83,9 @@ find a definition that is easier to understand.
 
 ## Hunspell dictionaries
 
-Hunspell is a popular spell checker used by many applications, including GoldenDict.
+Hunspell is a popular spell checker used by many applications, including GoldenDict-NG.
 It helps deinflect Japanese words, catch typos and provide suggestions when searching.
-To set up Hunspell dictionaries in GoldenDict,
+To set up Hunspell dictionaries in GoldenDict-NG,
 users need to download and install them first.
 
 Users of pacman-based distributions can install
@@ -102,8 +102,8 @@ For example:
 The advantage of installing Hunspell dictionaries with `pacman`
 (or the package manager of your distro)
 is that all of them will be placed in the same directory: `/usr/share/hunspell`.
-GoldenDict doesn't have an option to load Hunspell dictionaries from different folders.
-Once installed, open GoldenDict, go to "Edit" > "Preferences" and finish setting them up.
+GoldenDict-NG doesn't have an option to load Hunspell dictionaries from different folders.
+Once installed, open GoldenDict-NG, go to "Edit" > "Preferences" and finish setting them up.
 
 <p align="center"><img class="shadow" src="img/goldendict-hunspell.webp" alt="goldendict-hunspell"></p>
 <p align="center"><i>Screenshot.</i></p>
@@ -117,7 +117,7 @@ this torrent includes 292,342 native pronunciations of Japanese words.
 You can use these folders in Goldendict
 after unpacking them into a directory of your choice.
 To add a new folder,
-open GoldenDict,
+open GoldenDict-NG,
 go to "Dictionaries (<kbd>F3</kbd>)" > "Sources" > "Sound Dirs" > "Add",
 then paste the path to an extracted folder.
 
@@ -130,7 +130,7 @@ then paste the path to an extracted folder.
 ## gd-tools
 
 [gd-tools](https://github.com/Ajatt-Tools/gd-tools)
-is a collection of tools for GoldenDict
+is a collection of tools for GoldenDict-NG
 that aim to help in learning foreign languages.
 To install `gd-tools`, follow the [instructions on GitHub](https://github.com/Ajatt-Tools/gd-tools#installation).
 Arch Linux users can install the program [from the AUR](https://aur.archlinux.org/packages/gd-tools-git).
@@ -186,9 +186,9 @@ select the definition, right-click and select "Send to Anki".
 
 > More information on Mpvacious is provided on subsequent pages.
 
-[Mpvacious](https://github.com/Ajatt-Tools/mpvacious) can work with GoldenDict.
+[Mpvacious](https://github.com/Ajatt-Tools/mpvacious) can work with GoldenDict-NG.
 If you append `autoclip_method=goldendict` to the config file (`subs2srs.conf`),
-mpvacious will send every subtitle line directly to GoldenDict
+mpvacious will send every subtitle line directly to GoldenDict-NG
 instead of copying text to the system clipboard.
 
 A video demonstration is available
@@ -199,7 +199,7 @@ A video demonstration is available
 > More information on Transformers OCR is provided on subsequent pages.
 
 [Transformers OCR](https://github.com/Ajatt-Tools/transformers_ocr)
-can pass recognized text directly to GoldenDict
+can pass recognized text directly to GoldenDict-NG
 instead of copying text to the system clipboard.
 To pair them up, append `clip_command=goldendict %TEXT%` to the config file.
 
@@ -209,7 +209,7 @@ To pair them up, append `clip_command=goldendict %TEXT%` to the config file.
 
 Many third-party programs, such as [crqt-ng](resources.html#reading-ebooks)
 can copy text to the system clipboard when it is selected.
-GoldenDict can watch the clipboard
+GoldenDict-NG can watch the clipboard
 and automatically perform lookups new text is copied.
 
 To *enable scanning*, you can click on the light bulb icon on the toolbar.
@@ -273,15 +273,15 @@ switches to the previous or next dictionary definition.
 ### Remove duplicate display of EPWING headwords
 
 Paste the code below in a file named `article-style.css`
-in a folder with a name of your choosing in the `styles` folder of GoldenDict.
+in a folder with a name of your choosing in the `styles` folder of GoldenDict-NG.
 
 * GNU+Linux folder location: `~/.goldendict/styles/`.
 * Windows-like (ReactOS) folder location: `C:\Users\<user>\AppData\Roaming\GoldenDict\styles\`.
 
-Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on style".
+Restart GoldenDict-NG and enable the style in "Edit" > "Preferences" > "Add-on style".
 
 <details>
-<summary>CSS for GoldenDict</summary>
+<summary>CSS for GoldenDict-NG</summary>
 
 ```css
 /* Add padding and a horizontal bar between each entry for the sake of readability */
@@ -318,7 +318,7 @@ Restart GoldenDict and enable the style in "Edit" > "Preferences" > "Add-on styl
 
 ## Conclusion
 
-GoldenDict is an excellent tool that offers users a comprehensive range of features.
+GoldenDict-NG is an excellent tool that offers users a comprehensive range of features.
 It is easy to install, set up, and users have access to many dictionaries.
 The program is capable of generating Anki cards,
 which is ideal for people doing AJATT.

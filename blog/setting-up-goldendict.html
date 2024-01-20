@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="res/blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Setting up GoldenDict</title>
-<meta property="og:title" content="Setting up GoldenDict">
+<title>Setting up GoldenDict-NG</title>
+<meta property="og:title" content="Setting up GoldenDict-NG">
 <meta property="og:site_name" content="Tatsumoto Ren">
 <meta property="og:url" content="https://tatsumoto-ren.github.io/blog/setting-up-goldendict.html">
 <meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
@@ -67,13 +67,13 @@
 <main>
 <!-- entry begin -->
 <article timestamp="1679452222" position="0">
-<h1 class="title"><a class="ablack" href="setting-up-goldendict.html">Setting up GoldenDict</a></h1>
+<h1 class="title"><a class="ablack" href="setting-up-goldendict.html">Setting up GoldenDict-NG</a></h1>
 <div class="subtitle">March 22, 2023 &mdash; Tatsumoto</div>
 <!-- text begin -->
-<p>GoldenDict is a libre dictionary application for GNU/Linux and other OSes.
+<p>GoldenDict-NG is a libre dictionary application for GNU/Linux and other OSes.
 Like <a href="setting-up-qolibri.html">Qolibri</a>, it lets you search multiple dictionaries at the same time
 so for every word you look up you immediately get a number of definitions.
-GoldenDict is a great tool for language learners,
+GoldenDict-NG is a great tool for language learners,
 and it becomes especially helpful
 when one switches from bilingual dictionaries to monolingual dictionaries.
 It can aid during the monolingual transition
@@ -81,15 +81,15 @@ thanks to the ability to look up many words at once in separate tabs,
 simplifying recursive look-ups.</p>
 <hr>
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p>GoldenDict is available as a free download from GitHub
+<p>GoldenDict-NG is available as a free download from GitHub
 or from repositories of many GNU distributions.
-The most up-to-date version of GoldenDict is <code>goldendict-ng</code>.
+GoldenDict-NG is a successor of the vanilla GoldenDict.
 It can create Anki cards, which is important for people following the AJATT method.</p>
 <h3 id="pacman-based-distributions"><a class="anchor" href="#pacman-based-distributions" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pacman-based distributions</h3>
 <p>If you use a Pacman-based distribution,
 you can enable the
 <a href="https://github.com/archlinuxcn/repo/blob/master/README.md">archlinuxcn</a> repository
-and then run Pacman to install GoldenDict.</p>
+and then run Pacman to install GoldenDict-NG.</p>
 <div class="pre-wrap"><pre><code>sudo pacman -S goldendict-ng-git
 </code></pre></div>
 <p>Alternatively,
@@ -104,13 +104,13 @@ You're going to have to wait for it to compile.</p>
 or clone the repository and
 <a href="https://github.com/xiaoyifang/goldendict-ng#build-from-source">build from source</a>.</p>
 <h2 id="obtain-dictionaries"><a class="anchor" href="#obtain-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain dictionaries</h2>
-<p>GoldenDict supports a wide range of dictionary formats,
+<p>GoldenDict-NG supports a wide range of dictionary formats,
 including <a href="yomichan-and-epwing-dictionaries.html#epwing">EPWING</a>
 and <a href="yomichan-and-epwing-dictionaries.html#mdx">MDX</a>.
 They can be downloaded by clicking on the provided links.
 EPWING support is a little buggy,
-so I use GoldenDict to view MDX dictionaries and Qolibri to view EPWING dictionaries.</p>
-<p>After download finishes, open GoldenDict,
+so I use GoldenDict-NG to view MDX dictionaries and Qolibri to view EPWING dictionaries.</p>
+<p>After download finishes, open GoldenDict-NG,
 go to &quot;Dictionaries&quot; (<kbd>F3</kbd>)
 and specify the folders you've downloaded the dictionary files to
 under &quot;Sources&quot; &gt; &quot;Files&quot;.</p>
@@ -128,9 +128,9 @@ During the monolingual transition,
 having as many dictionaries enabled as possible will help you
 find a definition that is easier to understand.</p>
 <h2 id="hunspell-dictionaries"><a class="anchor" href="#hunspell-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hunspell dictionaries</h2>
-<p>Hunspell is a popular spell checker used by many applications, including GoldenDict.
+<p>Hunspell is a popular spell checker used by many applications, including GoldenDict-NG.
 It helps deinflect Japanese words, catch typos and provide suggestions when searching.
-To set up Hunspell dictionaries in GoldenDict,
+To set up Hunspell dictionaries in GoldenDict-NG,
 users need to download and install them first.</p>
 <p>Users of pacman-based distributions can install
 <a href="https://aur.archlinux.org/packages/hunspell-ja-git">hunspell-ja-git</a>.
@@ -145,8 +145,8 @@ For example:</p>
 <p>The advantage of installing Hunspell dictionaries with <code>pacman</code>
 (or the package manager of your distro)
 is that all of them will be placed in the same directory: <code>/usr/share/hunspell</code>.
-GoldenDict doesn't have an option to load Hunspell dictionaries from different folders.
-Once installed, open GoldenDict, go to &quot;Edit&quot; &gt; &quot;Preferences&quot; and finish setting them up.</p>
+GoldenDict-NG doesn't have an option to load Hunspell dictionaries from different folders.
+Once installed, open GoldenDict-NG, go to &quot;Edit&quot; &gt; &quot;Preferences&quot; and finish setting them up.</p>
 <p align="center"><img class="shadow" src="img/goldendict-hunspell.webp" alt="goldendict-hunspell"></p>
 <p align="center"><i>Screenshot.</i></p>
 <h2 id="pronunciation-audio"><a class="anchor" href="#pronunciation-audio" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pronunciation audio</h2>
@@ -157,7 +157,7 @@ this torrent includes 292,342 native pronunciations of Japanese words.
 You can use these folders in Goldendict
 after unpacking them into a directory of your choice.
 To add a new folder,
-open GoldenDict,
+open GoldenDict-NG,
 go to &quot;Dictionaries (<kbd>F3</kbd>)&quot; &gt; &quot;Sources&quot; &gt; &quot;Sound Dirs&quot; &gt; &quot;Add&quot;,
 then paste the path to an extracted folder.</p>
 <p align="center"><img class="shadow" alt="Sound Dirs" src="img/goldendict-sound-dirs.webp"></p>
@@ -166,7 +166,7 @@ then paste the path to an extracted folder.</p>
 <p align="center"><i>Search Forvo audio.</i></p>
 <h2 id="gd-tools"><a class="anchor" href="#gd-tools" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>gd-tools</h2>
 <p><a href="https://github.com/Ajatt-Tools/gd-tools">gd-tools</a>
-is a collection of tools for GoldenDict
+is a collection of tools for GoldenDict-NG
 that aim to help in learning foreign languages.
 To install <code>gd-tools</code>, follow the <a href="https://github.com/Ajatt-Tools/gd-tools#installation">instructions on GitHub</a>.
 Arch Linux users can install the program <a href="https://aur.archlinux.org/packages/gd-tools-git">from the AUR</a>.</p>
@@ -211,9 +211,9 @@ select the definition, right-click and select &quot;Send to Anki&quot;.</p>
 <blockquote>
 <p>More information on Mpvacious is provided on subsequent pages.</p>
 </blockquote>
-<p><a href="https://github.com/Ajatt-Tools/mpvacious">Mpvacious</a> can work with GoldenDict.
+<p><a href="https://github.com/Ajatt-Tools/mpvacious">Mpvacious</a> can work with GoldenDict-NG.
 If you append <code>autoclip_method=goldendict</code> to the config file (<code>subs2srs.conf</code>),
-mpvacious will send every subtitle line directly to GoldenDict
+mpvacious will send every subtitle line directly to GoldenDict-NG
 instead of copying text to the system clipboard.</p>
 <p>A video demonstration is available
 <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/howto/goldendict.md">here</a>.</p>
@@ -222,14 +222,14 @@ instead of copying text to the system clipboard.</p>
 <p>More information on Transformers OCR is provided on subsequent pages.</p>
 </blockquote>
 <p><a href="https://github.com/Ajatt-Tools/transformers_ocr">Transformers OCR</a>
-can pass recognized text directly to GoldenDict
+can pass recognized text directly to GoldenDict-NG
 instead of copying text to the system clipboard.
 To pair them up, append <code>clip_command=goldendict %TEXT%</code> to the config file.</p>
 <h2 id="tips"><a class="anchor" href="#tips" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h2>
 <h3 id="enable-clipboard-scanning"><a class="anchor" href="#enable-clipboard-scanning" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enable clipboard scanning</h3>
 <p>Many third-party programs, such as <a href="resources.html#reading-ebooks">crqt-ng</a>
 can copy text to the system clipboard when it is selected.
-GoldenDict can watch the clipboard
+GoldenDict-NG can watch the clipboard
 and automatically perform lookups new text is copied.</p>
 <p>To <em>enable scanning</em>, you can click on the light bulb icon on the toolbar.
 The feature can be configured under &quot;Preferences&quot; <kbd>F4</kbd> &gt; &quot;Scan Popup&quot;.</p>
@@ -271,14 +271,14 @@ It's nice to memorize some of them to make navigation easier.</p>
 switches to the previous or next dictionary definition.</p>
 <h3 id="remove-duplicate-display-of-epwing-headwords"><a class="anchor" href="#remove-duplicate-display-of-epwing-headwords" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove duplicate display of EPWING headwords</h3>
 <p>Paste the code below in a file named <code>article-style.css</code>
-in a folder with a name of your choosing in the <code>styles</code> folder of GoldenDict.</p>
+in a folder with a name of your choosing in the <code>styles</code> folder of GoldenDict-NG.</p>
 <ul>
 <li>GNU+Linux folder location: <code>~/.goldendict/styles/</code>.</li>
 <li>Windows-like (ReactOS) folder location: <code>C:\Users\&lt;user&gt;\AppData\Roaming\GoldenDict\styles\</code>.</li>
 </ul>
-<p>Restart GoldenDict and enable the style in &quot;Edit&quot; &gt; &quot;Preferences&quot; &gt; &quot;Add-on style&quot;.</p>
+<p>Restart GoldenDict-NG and enable the style in &quot;Edit&quot; &gt; &quot;Preferences&quot; &gt; &quot;Add-on style&quot;.</p>
 <details>
-<summary>CSS for GoldenDict</summary>
+<summary>CSS for GoldenDict-NG</summary>
 <div class="pre-wrap"><pre><code class="language-css">/* Add padding and a horizontal bar between each entry for the sake of readability */
 .mdict {
     border-top: 0.15em solid #c4c4c4;
@@ -306,7 +306,7 @@ in a folder with a name of your choosing in the <code>styles</code> folder of Go
 </code></pre></div>
 </details>
 <h2 id="conclusion"><a class="anchor" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
-<p>GoldenDict is an excellent tool that offers users a comprehensive range of features.
+<p>GoldenDict-NG is an excellent tool that offers users a comprehensive range of features.
 It is easy to install, set up, and users have access to many dictionaries.
 The program is capable of generating Anki cards,
 which is ideal for people doing AJATT.
@@ -366,7 +366,7 @@ Additionally, the option to create tabs makes it possible to do recursive look-u
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto 2020-2023</p>
+<p>Copyright © Tatsumoto 2020-2024</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>
