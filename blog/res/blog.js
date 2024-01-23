@@ -240,13 +240,8 @@ const ThemePicker = Object.freeze({
     }
 })
 
-function toggle_body_scroll() {
-    document.body.style.overflowY = $('menu-btn').checked ? "hidden" : ""
-}
-
 function close_sidebar() {
     $('menu-btn').checked = false
-    toggle_body_scroll()
 }
 
 function make_images_expand_on_click() {
@@ -271,8 +266,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll("article pre")
         .forEach(pre => pre.append(create_copy_select_button(pre)))
     ReorderTags.init()
-    $('menu-btn').addEventListener('change', toggle_body_scroll)
     $('divbody').addEventListener('click', close_sidebar)
-    toggle_body_scroll()
     make_images_expand_on_click()
 }, false)

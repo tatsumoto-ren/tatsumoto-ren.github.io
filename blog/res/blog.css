@@ -818,6 +818,12 @@ input#menu-btn:checked~header .hamburger::after {
     top: 0;
 }
 
+body:has(input#menu-btn:checked) {
+    /* When the sidebar is visible, the body shouldn't scroll.
+       Instead the user scrolls the sidebar (if the sidebar is tall enough). */
+    overflow-y: hidden;
+}
+
 /* Sidebar: Jump to top button */
 
 .menu-btn>.up-arrow {
