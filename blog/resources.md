@@ -929,6 +929,7 @@ You've been warned.
 ### [AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 
 How to learn Japanese on your own, having fun and to fluency.
+[Should I read the AJATT site?](should-i-read-the-ajatt-site.html)
 
 Notable articles:
 
@@ -948,6 +949,8 @@ Anti-features:
   over the years due to being too difficult and complicated.
 * Advertises unnecessary paid products.
 * Tries to harvest Email addresses.
+
+Epub book version: [link](https://github.com/enymuss/AJATTBook/raw/master/Ajatt%20-%20The%20Book%20-%20calibre.epub).
 
 ### [Itazuraneko](https://djtguide.github.io/)
 
