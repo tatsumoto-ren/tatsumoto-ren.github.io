@@ -274,12 +274,6 @@ a.ablack:is(:hover, :active, :focus) {
     filter: hue-rotate(-30deg) brightness(90%);
 }
 
-/* Hide checkbox */
-
-input#menu-btn {
-    display: none;
-}
-
 /* Header */
 
 header {
@@ -756,6 +750,12 @@ article table tr:nth-child(2n) {
 }
 
 /* Menu button */
+
+input#menu-btn {
+    /* Hide checkbox, the input tag.
+       The user clicks on the label instead. */
+    display: none;
+}
 
 .menu-btn {
     padding: calc((var(--header-height) - var(--menu-icon-slice-height)) / 2) calc((var(--header-height) - var(--menu-icon-slice-width)) / 2);
