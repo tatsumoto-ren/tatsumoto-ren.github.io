@@ -253,6 +253,12 @@ function make_images_expand_on_click() {
     })
 }
 
+function open_all_external_links_in_a_new_tab() {
+    Array.from(document.getElementsByTagName("a"))
+        .filter(is_external)
+        .forEach((a) => (a.target = "_blank"));
+}
+
 /* Entry point */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -260,9 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
     PageContents.init()
     Toc.init()
     MegaTags.mark_links()
-    Array.from(document.getElementsByTagName("a"))
-        .filter(is_external)
-        .forEach(a => a.target = "_blank")
+    open_all_external_links_in_a_new_tab()
     document.querySelectorAll("article pre")
         .forEach(pre => pre.append(create_copy_select_button(pre)))
     ReorderTags.init()
