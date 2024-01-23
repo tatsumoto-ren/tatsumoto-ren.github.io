@@ -5,27 +5,40 @@ tags: ['faq']
 position: -9700
 ---
 
-In [What's AJATT](whats-ajatt.html) I said that
-the AJATT method was created by Khatzumoto in 2006.
-If you're interested in Khatzumoto's original ideas,
+In my previous article,
+"[What's AJATT](whats-ajatt.html),"
+I introduced the AJATT method,
+which was created by Khatzumoto in 2006.
+If you're interested in learning more about Khatzumoto's original ideas,
 you may want to read the AJATT site.
-It can help you answer some language learning questions you have.
+It can help answer some of your language learning questions.
 
-Not everything on the old AJATT site is particulary useful.
-First make sure you've read [our guide](table-of-contents.html).
-There are ideas in which this site disagrees with the original AJATT method.
-I want you to be aware of the new approach before you learn about the old ways.
+Khatzumoto was active from 2006 to 2010,
+during which time he wrote a series of articles
+that formed the bulk of the original table of contents.
+Although the site disappeared from the Internet around 2023,
+you can still access the articles on archive.org.
 
-Once you're ready, read the
-[AJATT Table of Contents](https://web.archive.org/web/20150501215239/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency).
-You can ignore everything outside the Table of Contents.
+Not everything on the old AJATT site is particularly useful.
+Before diving into the archives,
+I recommend reading
+[the new guide](table-of-contents.html)
+to ensure you're familiar with the latest version of the AJATT method.
+The method has evolved since Khatzumoto left,
+and it's important to be aware of the new approach
+before learning about the old ways.
+
+Once you're ready, focus on the
+[AJATT Table of Contents](https://web.archive.org/web/20150501215239/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
+and ignore everything outside of it.
 I also recommend exploring
-[the old version](https://web.archive.org/web/20080828035044/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency).
+[the older version](https://web.archive.org/web/20080828035044/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
+which contains less junk.
 
-Today the AJATT site is a mess.
+The latest available version of the AJATT site is a mess.
 Although AJATT began as a free blog,
-these days the site's homepage and many articles
-contain nothing but ads for Khatzumoto's language learning products.
+the articles outside the table of contents
+are cluttered with ads for Khatzumoto's language learning products.
 They are frankly just useless junk of questionable quality.
-Don't enter your Email address and don't buy the paid products,
-there are free alternatives.
+There are free (and libre) alternatives available.
+Therefore, reading only the table of contents should suffice.
