@@ -123,6 +123,8 @@ Look up words, rely on the imagery, choose material with simpler language.
 
 Slice of life anime is the easiest genre to learn from in the beginning.
 To find easy anime you can [search MAL](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
+Additionally, the ixrec website has a page with
+[media recommendations](https://ixrec.neocities.org/immersion/).
 
 The more *language-dense* your immersion content is, the better.
 It's a good idea to choose content where people talk a lot, with some caveats.
@@ -278,7 +280,7 @@ We have more complete suggestions on the Resources page.
     the goal is to receive thousands of hours of comprehensible input
     and acquire the necessary vocabulary and grammar.
 
-    Machine translations are often unnatural, erroneous, or misleading.
+    Machine translations are often unnatural, wrong, or misleading.
     While they may provide a general idea of what's being said,
     they cannot convey the full meaning and all the details of the original message.
     It is acceptable to use machine translations for individual words,
@@ -403,7 +405,7 @@ but neglecting the word's context can make the reviews harder.
 [Choose a grammar guide](learning-grammar.html) and read it.
 It is the only *textbook* that you're really going to need through your AJATT journey.
 When I learned Japanese, I chose Tae Kim.
-Khatz used "All About Particles".
+Khatz used "[All About Particles](all-about-particles.html)".
 
 Combining grammar study with the SRS can help you understand the grammar better.
 Put the example sentences in Anki if you like.
