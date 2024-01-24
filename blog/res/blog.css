@@ -55,7 +55,7 @@
     --header-item-focused-shadow-color: rgba(189, 119, 108, 0.33);
     --logo-img-filter: invert(39%) sepia(24%) saturate(834%) hue-rotate(329deg) brightness(97%) contrast(90%);
 
-    --header-important-item-background-color: #D47999;;
+    --header-important-item-background-color: #D47999;
     --header-important-item-color: #f2f2f2;
     --header-important-item-hover-color: #f1f1f1;
     --header-important-item-hover-background-color: #d6366e;
@@ -758,6 +758,7 @@ input#menu-btn {
 }
 
 .menu-btn {
+    /* Label*/
     padding: calc((var(--header-height) - var(--menu-icon-slice-height)) / 2) calc((var(--header-height) - var(--menu-icon-slice-width)) / 2);
     user-select: none;
     display: block;
