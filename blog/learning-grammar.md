@@ -142,13 +142,11 @@ third party guides may contain what Tatsumoto considers to be ineffective langua
 We recommend making use of their grammar explanations
 but disregarding their language learning advice.
 
-* [All About Particles](https://ixrec.neocities.org/all-about-particles.html).
+* [All About Particles](all-about-particles.html).
   A nicely organized book simply described as "godsend".
   For each grammar point in the book there's a short explanation
   and several natural example sentences with translations.
   Khatz used this book a long time ago when he learned Japanese.
-
-  [PDF version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13).
 * [Sakubi](https://sakubi.neocities.org/).
   It is written with immersion learners in mind.
   The guide stresses the importance of reading and listening as opposed to drilling and memorizing.
