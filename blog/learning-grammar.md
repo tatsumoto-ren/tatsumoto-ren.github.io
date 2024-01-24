@@ -142,12 +142,13 @@ third party guides may contain what Tatsumoto considers to be ineffective langua
 We recommend making use of their grammar explanations
 but disregarding their language learning advice.
 
-* [All About Particles](https://matrix.org/_matrix/media/r0/download/matrix.org/GqYvdEhgKNOcBDSZnDDGsWGc)
-  ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
+* [All About Particles](https://ixrec.neocities.org/all-about-particles.html).
   A nicely organized book simply described as "godsend".
   For each grammar point in the book there's a short explanation
   and several natural example sentences with translations.
   Khatz used this book a long time ago when he learned Japanese.
+
+  [PDF version](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13).
 * [Sakubi](https://sakubi.neocities.org/).
   It is written with immersion learners in mind.
   The guide stresses the importance of reading and listening as opposed to drilling and memorizing.
@@ -277,6 +278,7 @@ You may refer to them to look up individual grammar points on a case-by-case bas
 
 * [DoJG](https://japbase.neocities.org/)
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
+* [Other grammar resources](resources.html#grammar)
 
 Don't learn cards from the DoJG deck in order,
 rather keep it as a reference and as a source of example sentences.
