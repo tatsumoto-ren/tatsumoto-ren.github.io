@@ -60,8 +60,7 @@ Kanji characters with Koohii stories.
 
 > Main article: [Learning grammar](learning-grammar.html)
 
-* [All About Particles](https://matrix.org/_matrix/media/r0/download/matrix.org/GqYvdEhgKNOcBDSZnDDGsWGc)
-  ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
+* [All About Particles](all-about-particles.html).
   A nicely organized book simply described by many as "godsend".
   Khatz used this book a long time ago when he learned Japanese.
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
@@ -79,6 +78,9 @@ Kanji characters with Koohii stories.
 * [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
   * [On Djtguide](https://djtguide.github.io/learn/anon/ixrec.html). With better formatting.
   * [Archive.org](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/).
+* [Itazuraneko's 文型一覧表](https://djtguide.github.io/grammar/masterreference).
+  Master reference table of all grammar pattern entries
+  from a number of grammar dictionaries.
 
 ### Grammar in Japanese
 
@@ -253,6 +255,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 **Regular channels.**
 
 * GitHub: [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
+* Ixrec: [Recommended YouTube channels](https://ixrec.neocities.org/immersion/youtube_channels.html)
 * [テレ東BIZ](https://redirect.invidious.io/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
   News. Doesn't have subs, but has transcriptions.
 * [Discovery Channel Japan](https://redirect.invidious.io/channel/UCxbY38ReXW3LbaviWUE4omg/videos)
