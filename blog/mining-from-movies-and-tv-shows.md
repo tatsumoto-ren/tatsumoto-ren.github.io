@@ -234,7 +234,7 @@ Here is a [video demonstration](https://redirect.invidious.io/watch?v=vU85ramvyo
 <video width="1920" controls>
 	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/qToxurOlXfToNasVwEWweBUw" type="video/mp4">
 	<source src="https://invidious.snopyta.org/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-	<source src="https://invidious.silur.me/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="https://inv.us.projectsegfau.lt/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
 	<source src="https://yt.artemislena.eu/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
 	<source src="https://vid.priv.au/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
 </video>
