@@ -52,8 +52,10 @@ Don't use Google Translate or anything like that.
 
 **Reading English sentences is acceptable in:**
 
-* Premade decks, such as *Core10k* and *Ankidrone Starter Pack*.
-* Grammar guides, such as *Tae Kim* and *All About Particles*.
+* [Premade decks](basic-vocabulary.html),
+  such as *Core10k* and *Ankidrone Starter Pack*.
+* [Grammar guides](learning-grammar.html#grammar-guides),
+  such as *Tae Kim* and *All About Particles*.
 
 In these cases translations are made for language learners.
 They are aimed to increase understanding of the target language.
