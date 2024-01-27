@@ -48,10 +48,9 @@ Kanji characters with Koohii stories.
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
   `subs2srs` Anki decks for popular anime and movies.
-* [steins-gate-anki](https://github.com/asakura42/steins-gate-anki).
+* [steins-gate-anki](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
   Anki deck made from Steins;Gate.
   Has lots of voiced example sentences.
-  [Version with Opus audio](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
 * [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
   This pack has a lot of cards.
   Unless you love doing Anki, I don't think it's necessary.
