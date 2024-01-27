@@ -16,4 +16,4 @@ Maybe you need to learn more words first.
 
 Tae Kim has vocabulary lists built-in, but they're pretty much useless without example sentences.
 It's better to learn vocabulary using targeted sentence cards.
-This is another reason I started recommending "All About Particles" more.
+This is another reason I started recommending "[All About Particles](all-about-particles.html)" more.
