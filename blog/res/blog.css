@@ -197,6 +197,7 @@ svg,
 video {
     max-width: 100%;
     display: block;
+    font-style: italic;
 }
 
 /* Body with sticky footer */
@@ -1438,16 +1439,16 @@ a.mega_link {
 
 /* Floating images in articles */
 
-article img.img_float_right,
 article img[float] {
     float: right;
     max-height: 200px;
     max-width: 33.3%;
-    margin-left: 5px;
+    margin-inline: 5px 0;
 }
 
 article img[float=left] {
     float: left;
+    margin-inline: 0 5px;
 }
 
 /* Notes in articles and Magnet links */
