@@ -352,6 +352,25 @@ simply check the "Add to note" checkboxes and click "Ok".
 <p align="center"><img alt="search dialog" src="img/search_audio_dialog.webp"></p>
 <p align="center"><i>Search dialog.</i></p>
 
+### Audio settings
+
+Go to "Japanese options" > "Audio" > Audio settings.
+Below is an overview of some settings you might want to toggle on/off.
+
+* **Ignore inflections**.
+  Some dictionaries may return inflected pronunciations.
+  For example, for the target word `死ぬ`,
+  the available pronunciations could be `しぬ`, `しなない`, `しにます`.
+  If you don't want so many files
+  and only want to add audio for the dictionary form (e.g. `しぬ`),
+  enable this checkbox.
+* **Stop if one source has results**.
+  When the add-on checks each audio source in order,
+  it will stop searching after the first source that returned any audio.
+  So only the files from that audio source will be added.
+* **Maximum results**.
+  The maximum number of audio files that can be added to cards.
+
 ### Creating a custom audio source
 
 To create a new audio source from scratch,
