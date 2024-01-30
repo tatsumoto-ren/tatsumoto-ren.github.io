@@ -198,7 +198,6 @@ without having to use a desktop client.
 * https://element.cccgoe.de/
 * https://mx.aire.ml/
 * https://element.internet-portal.cz/
-* https://element.w1l.duckdns.org/
 * https://chat.leon.wtf/
 * https://matrix.club-tech.fr/
 * https://chat.joinpoint.org/
@@ -247,7 +246,6 @@ without having to use a desktop client.
 * https://element.myserv.me/
 * https://element.pwoss.org/
 * https://element.trygve.me/
-* https://chat.freakachu.org/
 * https://element.avlikos.gr/
 * https://riot.scamdemic.wtf/
 * https://webchat.freitrix.de/
@@ -347,7 +345,7 @@ and change the server from the default to the one you want.
 * https://matrix.muensterhack.de/ 🏆
 * https://matrix.otonokizaka.moe/ 🏆
 * https://riot.markshorten.co.uk/ 🏆
-* https://matrix.budem.de/_matrix/ 🏆
+* https://matrix.budem.de/ 🏆
 * https://matrix.leipzigesports.de/ 🏆
 * https://slipstream.thebell.house/ 🏆
 * https://synapse.mateuszreszka.xyz/ 🏆
