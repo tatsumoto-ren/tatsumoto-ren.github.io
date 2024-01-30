@@ -26,7 +26,7 @@ Our community member, `Epistularum`,
 made a collection of EPWING dictionaries.
 
 <p align="center">
-	<a class="download_button" href="https://nyaa.iss.ink/view/1577255">Download</a>
+	<a class="download_button" href="https://nyaa.land/view/1577255">Download</a>
 </p>
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
@@ -36,7 +36,7 @@ made a collection of EPWING dictionaries.
 
 **Packs:**
 
-* [EPWING Collection on Nyaa](https://nyaa.iss.one/view/1194089)
+* [EPWING Collection on Nyaa](https://nyaa.land/view/1194089)
 * [EPWINGs.rar on MediaFire](https://www.mediafire.com/file/hr30l1pw004gac9/EPWINGs.rar/file)
 * [Mega](https://mega.nz/folder/UxhhlKzb#9T8-35RugwmkuZ33oTqVrQ)
 * [by BritVSJapan](https://www.mediafire.com/folder/ldyklp3362pgg/Japanese_Dictionaries)
@@ -61,7 +61,7 @@ Qolibri is much better for EPWING.
 `Epistularum` made a collection of MDX dictionaries for GoldenDict.
 
 <p align="center">
-	<a class="download_button" href="https://nyaa.iss.ink/view/1634529">Download</a>
+	<a class="download_button" href="https://nyaa.land/view/1634529">Download</a>
 </p>
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
