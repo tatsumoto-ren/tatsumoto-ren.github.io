@@ -53,6 +53,7 @@ Kanji characters with Koohii stories.
 * [steins-gate-anki](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
   Anki deck made from Steins;Gate.
   Has lots of voiced example sentences.
+  [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
 * [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
   This pack has a lot of cards.
   Unless you love doing Anki, I don't think it's necessary.
@@ -292,7 +293,7 @@ Browsing will lead you to more tags.
 ### Drama
 
 * [Asian DramaWiki Forum](https://www.d-addicts.com/forums/).
-* [Gaki No Tsukai](https://gaki-no-tsukai.com/index.php).
+* [Gaki No Tsukai](https://gaki-no-tsukai.com/).
 * [jraws](https://jraws.com/). Some jdramas.
 
 ### Manga
