@@ -89,21 +89,21 @@ $ pipx install aqt
   Download
   [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
   and save it in `~/.local/share/applications`.
-* If after installing Anki with `pip`
+* If after installing Anki with `pipx`
   [Fcitx](https://wiki.archlinux.org/title/Fcitx)
   doesn't work,
   add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`
   to the list of [environment variables](how-do-i-change-an-environment-variable.html).
 * Anki depends on [mpv](https://mpv.io/) to play audio.
   You have to install it separately with `pacman` or another package manager.
-* You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
+* You may have to install [PyQt5](https://pypi.org/project/PyQt5/) (PyQt6) as well.
 * Anki `2.1.50` and later additionally requires
   installing
   [PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
   and
-  [PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/)
+  [PyQt5-stubs](https://pypi.org/project/PyQt5-stubs/) (PyQt6-stubs)
   from PyPI.
-* `PyQt5` and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
+* `PyQt5` (PyQt6) and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
 
 You can tell `pipx` to install a specific version.
 This is handy when the latest version malfunctions.

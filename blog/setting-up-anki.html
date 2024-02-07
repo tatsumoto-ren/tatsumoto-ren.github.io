@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="How to use Free Software to learn Japanese, and more." />
 <meta name="author" content="Tatsumoto" />
-<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
 <link rel="stylesheet" href="res/blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="/img/logo.webp"/>
@@ -142,21 +142,21 @@ is more convenient.
 Download
 <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop">this file</a>
 and save it in <code>~/.local/share/applications</code>.</li>
-<li>If after installing Anki with <code>pip</code>
+<li>If after installing Anki with <code>pipx</code>
 <a href="https://wiki.archlinux.org/title/Fcitx">Fcitx</a>
 doesn't work,
 add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>
 to the list of <a href="how-do-i-change-an-environment-variable.html">environment variables</a>.</li>
 <li>Anki depends on <a href="https://mpv.io/">mpv</a> to play audio.
 You have to install it separately with <code>pacman</code> or another package manager.</li>
-<li>You may have to install <a href="https://pypi.org/project/PyQt5/">PyQt5</a> as well.</li>
+<li>You may have to install <a href="https://pypi.org/project/PyQt5/">PyQt5</a> (PyQt6) as well.</li>
 <li>Anki <code>2.1.50</code> and later additionally requires
 installing
 <a href="https://pypi.org/project/PyQtWebEngine/">PyQtWebEngine</a>
 and
-<a href="https://pypi.org/project/PyQt5-stubs/">PyQt5-stubs</a>
+<a href="https://pypi.org/project/PyQt5-stubs/">PyQt5-stubs</a> (PyQt6-stubs)
 from PyPI.</li>
-<li><code>PyQt5</code> and <code>PyQtWebEngine</code> can be also obtained from the official Arch Linux repositories.</li>
+<li><code>PyQt5</code> (PyQt6) and <code>PyQtWebEngine</code> can be also obtained from the official Arch Linux repositories.</li>
 </ul>
 <p>You can tell <code>pipx</code> to install a specific version.
 This is handy when the latest version malfunctions.</p>
