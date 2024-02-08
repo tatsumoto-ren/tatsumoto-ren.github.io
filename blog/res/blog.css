@@ -1446,6 +1446,10 @@ article img[float] {
     margin-inline: 5px 0;
 }
 
+article p + img[float] {
+    margin-block: 1rem 0;
+}
+
 article img[float=left] {
     float: left;
     margin-inline: 0 5px;
