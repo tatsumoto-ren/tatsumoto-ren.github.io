@@ -197,6 +197,31 @@ Each task can be triggered by one of the 4 callers:
 When editing a profile, you can select what callers the profile should "answer" to.
 For example, you can generate furigana when focus is lost but not when a note is added.
 
+## Furigana
+
+Furigana can be configured in "AJT" > "Japanese Options" > "Furigana".
+
+<img float="right" src="img/ajt-japanese-furigana-display.webp">
+
+By default,
+for each word you can get up to 3 different readings.
+Normally,
+when there's more than one reading,
+they stack on top of each other.
+[Import the example mining deck](setting-up-anki.html#import-an-example-mining-deck)
+to ensure that furigana is displayed correctly.
+
+As a workaround you can change "Reading separator" to `<br>`
+but it won't have the same effect.
+
+If you want to generate only one reading for a word,
+you can change "Maximum results" to 1.
+However,
+I think it's nice to have more than one reading visible.
+Sometimes,
+if the results are not desirable,
+you can edit them.
+
 ## Pitch accent style
 
 Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "Style".
