@@ -53,7 +53,18 @@ When we read translated sentences,
 we understand the meaning in translation,
 not the original meaning.
 The important features of the message in the target language get lost.
+
 To acquire our target language successfully,
 we have to understand the messages in their raw form,
 as we do in our native language every day.
 And the way we do that is by doing [mass immersion](mass-immersion.html), of course.
+You acquire the real meaning of an expression
+only after hearing it said in your immersion dozens of times.
+If you can't understand an expression even after looking up individual words,
+the best course of action is to search for various example sentences that use the expression.
+
+I have observed that AI-powered translators,
+including ChatGPT (GPT 4, etc.),
+often generate translations of poor quality and should not be used.
+Although this may change in the future,
+the lack of improvement thus far does not inspire much hope.
