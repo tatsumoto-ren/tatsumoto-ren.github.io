@@ -226,6 +226,11 @@ then in the search bar type `Mozc`.
 
 Once installed, launch the app and follow the instructions to set it up.
 
+Mozc for Android hasn't been updated for a while.
+If this upsets you, you can use any alternative Japanese keyboard.
+Google's proprietary app **Gboard** is malware
+but you can probably get around it by blocking the app's access to the Internet.
+
 Most Japanese people use a 12 keys type layout.
 This is how the keyboard looks like.
 You tap and pull toward the character you'd like to input.
@@ -235,7 +240,13 @@ because typing words requires less total keystrokes.
 <p align="center"><img src="img/f-droid-mozc-keyboard.webp" alt="input methods" style="width: 400px;"></p>
 <p align="center"><i>Japanese keyboard.</i></p>
 
-To type the small `っ` character, select `つ`, then tap on the `大⇔小` button and pull up.
+* To type the small `っ` character, select `つ`, then tap on the `大⇔小` button and pull up.
+* In order to type brackets, simply swipe left and right on the `や` key.
+* By default,
+  if you simply pressed the `あ` button twice,
+  you would end up with `い` instead of `ああ`.
+  This happens because the two inputs register as toggling.
+  Instead you need to press `あ`, then the right arrow (`>`), then `あ` again.
 
 If you don't like the 12 keys keyboard layout,
 you can switch to the QWERTY layout in settings.
