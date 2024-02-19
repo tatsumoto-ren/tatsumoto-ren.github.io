@@ -38,7 +38,7 @@ Rikaitan is available for [Chromium](https://wiki.archlinux.org/title/Chromium)-
 We recommend [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-chromium) as your everyday web browser.
 
 <p align="center">
-<a class="download_button" href="https://chromewebstore.google.com/detail/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
+<a class="download_button" href="https://chromewebstore.google.com/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
 </p>
 
 ### AnkiConnect plugin
