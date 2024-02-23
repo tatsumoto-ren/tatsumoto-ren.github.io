@@ -191,6 +191,7 @@ based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
 
 * [AUR package](https://aur.archlinux.org/packages?K=subs2srs)
+* [FAQ](https://subs2srs.sourceforge.net/#faq)
 
 ## Android
 
