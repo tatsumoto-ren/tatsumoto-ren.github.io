@@ -20,8 +20,9 @@ So one note helps you acquire one new word.
 Therefore,
 to count your "known words,"
 just count the number of unique notes you have.
-How much media you understand matters more than how many cards you have mined,
-since you can mine a lot but immerse very little.
+Still,
+how much media you understand matters more than how many cards you have mined
+because you can mine a lot but immerse very little, or vice versa.
 
 Personally,
 I wouldn't make both listening and reading cards for the same sentence.
