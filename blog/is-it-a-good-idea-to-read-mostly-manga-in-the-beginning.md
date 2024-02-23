@@ -5,7 +5,8 @@ tags: ['faq']
 ---
 
 Immersion is immersion.
-Consuming any native content is almost always the best strategy.
+Consuming any native content is almost always the best strategy
+(unlike [non-native content](what-do-you-think-about-graded-readers.html)).
 There are some pitfalls associated with reading manga,
 but they're not too significant.
 Still, I would rather immerse in anime as a beginner,
