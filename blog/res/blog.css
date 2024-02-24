@@ -594,7 +594,7 @@ kbd {
     display: inline-block;
     margin: 0 1px 2px;
     padding: 3px 4px;
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: normal;
     line-height: 10px;
     color: var(--kbd-color, #24292f);
@@ -697,7 +697,7 @@ main [id]:target::after {
 
 a.download_button {
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 49px;
     min-width: 220px;
     padding: 0 5px;
@@ -1263,7 +1263,7 @@ article div.pre-wrap {
 article pre>.select_button {
     position: absolute;
     display: block;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     padding: 3px 6px;
     margin: 0;
@@ -1387,7 +1387,7 @@ footer>.footer-linkbox div {
 
 footer>.footer-linkbox h3 {
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 1.3125rem;
     line-height: 25px;
     letter-spacing: 0px;
     margin-bottom: 10px;
@@ -1414,7 +1414,7 @@ footer>.footer-linkbox ul li a {
 
 footer>.footer-bottom {
     background-color: #0004;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
     padding: 10px 4px;
     border-top: 1px solid #ffffff1e;
