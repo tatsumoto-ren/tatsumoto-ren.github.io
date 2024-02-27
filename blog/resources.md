@@ -300,6 +300,11 @@ Browsing will lead you to more tags.
 
 * [Torrent sites](#torrent-trackers).
   Explore them first.
+* [少年マンガのパンツ カウンター](https://comic-pantser.seesaa.net/).
+  This site can be used to search for manga recommendations.
+  For each series covered, the author notes the number of pages that depict panties.
+  The site doesn't offer download links.
+  When you find a manga you want to read, look it up on torrent sites.
 * [nhentai](https://nhentai.net/).
   For a bit of light reading.
   Many mangas on the site are just 25-30 pages long,
