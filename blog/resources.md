@@ -305,6 +305,8 @@ Browsing will lead you to more tags.
   For each series covered, the author notes the number of pages that depict panties.
   The site doesn't offer download links.
   When you find a manga you want to read, look it up on torrent sites.
+* [Reader Store](https://ebookstore.sony.jp/adult/).
+  Adult manga catalog.
 * [nhentai](https://nhentai.net/).
   For a bit of light reading.
   Many mangas on the site are just 25-30 pages long,
