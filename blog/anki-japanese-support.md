@@ -301,17 +301,35 @@ All default audio sources are online audio sources.
 To add a new online audio source,
 paste the URL of the index and give it a unique name.
 
+<p align="center"><img src="img/ajt-japanese-add-online-source.webp" alt="add online source"/></p>
+<p align="center"><i>Adding an online audio source.</i></p>
+
 **Currently available online audio sources:**
 
 <details>
 
 <summary>ogg/opus files (recommended)</summary>
 
-1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.2/NHK_main.zip).
-1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip).
-1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.5/Shinmeikai-8_main.zip).
-1) [Daijisen](https://github.com/Ajatt-Tools/daijisen_pronunciations_index/releases/download/v1.0/Daijisen_main.zip)
-1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/download/v1.0/TAAS_main.zip).
+1) NHK accent dictionary, 2016.
+   ```
+   https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/download/v1.3/NHK-2016_main.zip
+   ```
+1) NHK accent dictionary, 1998.
+   ```
+   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip
+   ```
+1) Shinmeikai 8th edition.
+   ```
+   https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/download/v1.5/Shinmeikai-8_main.zip
+   ```
+1) Daijisen.
+   ```
+   https://github.com/Ajatt-Tools/daijisen_pronunciations_index/releases/download/v1.0/Daijisen_main.zip
+   ```
+1) TAAS.
+   ```
+   https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/download/v1.0/TAAS_main.zip
+   ```
 
 </details>
 
@@ -319,9 +337,18 @@ paste the URL of the index and give it a unique name.
 
 <summary>mp3 files</summary>
 
-1) [NHK accent dictionary, 2016](https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/download/v1.0/NHK-2016_main.zip).
-1) [NHK accent dictionary, 1998](https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip).
-1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.2/Shinmeikai-8_main.zip).
+1) NHK accent dictionary, 2016.
+   ```
+   https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/download/v1.1/NHK-2016_main.zip
+   ```
+1) NHK accent dictionary, 1998
+   ```
+   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip
+   ```
+1) Shinmeikai 8th edition
+   ```
+   https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/download/v1.2/Shinmeikai-8_main.zip
+   ```
 
 </details>
 
@@ -336,6 +363,9 @@ In the folder you will find a file named `index.json`.
 Copy the full path to the file and paste it into the "URL" field.
 Give it a unique name.
 The add-on will figure out the rest based on the information inside the json file.
+
+<p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
+<p align="center"><i>Adding a local audio source.</i></p>
 
 **Currently available offline audio sources:**
 
@@ -360,9 +390,6 @@ The add-on will figure out the rest based on the information inside the json fil
 1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/archive/refs/heads/main.zip).
 
 </details>
-
-<p align="center"><img src="img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
-<p align="center"><i>Adding a local audio source.</i></p>
 
 ### Audio Search dialog
 
