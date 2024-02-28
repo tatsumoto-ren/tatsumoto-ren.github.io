@@ -64,6 +64,8 @@ To access the settings page, click the
 button in the browser toolbar and choose "Settings".
 In the bottom left corner enable "Advanced" to access hidden settings mentioned in this guide.
 
+![screenshot](img/rikaitan-advanced-toggle.webp)
+
 ### Backups
 
 If you are installing the extension on a new device,
