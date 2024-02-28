@@ -373,10 +373,14 @@ Rikaitan won't be able to parse such words if JMdict is not installed.
 ### Miscellaneous
 
 * "General" > "Show the welcome guide on browser startup": disable.
-* "Scanning" > "Scan delay": `0`.
+* "Scanning" > "Scan delay": `0`. You don't want to be slowed down by anything.
 * "Popup Position & Size" > "Scale": adjust to your preference.
 * "Text Parsing" > "Show space between parsed words": disable.
 * "Clipboard" > "Enable search page clipboard text monitoring": enable.
+
+
+<p align="center"><img alt="screenshot" class="shadow" src="img/rikaitan-scan-delay.webp"></p>
+<p align="center"><i>Scan delay.</i></p>
 
 ## Usage
 
