@@ -170,27 +170,27 @@ is a collection of tools for GoldenDict-NG
 that aim to help in learning foreign languages.
 To install <code>gd-tools</code>, follow the <a href="https://github.com/Ajatt-Tools/gd-tools#installation">instructions on GitHub</a>.
 Arch Linux users can install the program <a href="https://aur.archlinux.org/packages/gd-tools-git">from the AUR</a>.</p>
-<p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
-<p align="center"><i>Screenshot.</i></p>
 <p>External programs can be added by opening Preferences (<kbd>F4</kbd>)
 and going to &quot;Sources&quot; &gt; &quot;Programs&quot;.</p>
-<p>Available features:</p>
+<p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p><strong>Available features:</strong></p>
 <ul>
+<li>Sentence parsing.</li>
 <li>Image search.</li>
 <li>Stroke order diagrams.</li>
 <li>Example sentences.</li>
 <li>Query Anki collection to see if you already have a card for the word you're lookin up.</li>
 </ul>
-<h2 id="mecab-splitting"><a class="anchor" href="#mecab-splitting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mecab splitting</h2>
-<p><code>gd-mecab</code> is a part of <code>gd-tools</code> and can be used to split sentences into words.
+<h2 id="sentence-splitting"><a class="anchor" href="#sentence-splitting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sentence splitting</h2>
+<p><code>gd-marisa</code> is a part of <code>gd-tools</code> and can be used to split sentences into words.
 Each word is clickable.
 It allows you to look up a full sentence and then click on individual words.</p>
-<p align="center"><img class="shadow" src="img/goldendict-mecab.webp"></p>
+<p>Add the following command as and <strong>external program</strong>.</p>
+<div class="pre-wrap"><pre><code>gd-marisa --word %GDWORD% --sentence %GDSEARCH%
+</code></pre></div>
+<p align="center"><img class="shadow" src="img/goldendict-marisa-trie.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
-<p>This feature relies on Mecab to work.
-Don't forget to install <a href="https://aur.archlinux.org/packages/mecab-ipadic">mecab-ipadic</a>
-if you are on a pacman-based system
-or a similar package if you use another distro.</p>
 <h2 id="anki-integration"><a class="anchor" href="#anki-integration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki integration</h2>
 <p>Read <a href="https://github.com/xiaoyifang/goldendict-ng/blob/staged/website/docs/topic_anki.md">how to connect with anki</a>
 to configure Anki integration.

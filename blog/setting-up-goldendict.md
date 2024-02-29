@@ -135,32 +135,35 @@ that aim to help in learning foreign languages.
 To install `gd-tools`, follow the [instructions on GitHub](https://github.com/Ajatt-Tools/gd-tools#installation).
 Arch Linux users can install the program [from the AUR](https://aur.archlinux.org/packages/gd-tools-git).
 
-<p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
-<p align="center"><i>Screenshot.</i></p>
-
 External programs can be added by opening Preferences (<kbd>F4</kbd>)
 and going to "Sources" > "Programs".
 
-Available features:
+<p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
 
+
+**Available features:**
+
+* Sentence parsing.
 * Image search.
 * Stroke order diagrams.
 * Example sentences.
 * Query Anki collection to see if you already have a card for the word you're lookin up.
 
-## Mecab splitting
+## Sentence splitting
 
-`gd-mecab` is a part of `gd-tools` and can be used to split sentences into words.
+`gd-marisa` is a part of `gd-tools` and can be used to split sentences into words.
 Each word is clickable.
 It allows you to look up a full sentence and then click on individual words.
 
-<p align="center"><img class="shadow" src="img/goldendict-mecab.webp"></p>
-<p align="center"><i>Screenshot.</i></p>
+Add the following command as and **external program**.
 
-This feature relies on Mecab to work.
-Don't forget to install [mecab-ipadic](https://aur.archlinux.org/packages/mecab-ipadic)
-if you are on a pacman-based system
-or a similar package if you use another distro.
+```
+gd-marisa --word %GDWORD% --sentence %GDSEARCH%
+```
+
+<p align="center"><img class="shadow" src="img/goldendict-marisa-trie.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
 
 ## Anki integration
 
