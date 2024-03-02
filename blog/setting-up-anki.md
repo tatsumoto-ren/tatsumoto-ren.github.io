@@ -332,15 +332,6 @@ This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636
 to **manually pick** and learn cards from my Sentence Bank.
 For me personally it's better than having Anki decide for me.
 
-#### Starting Ease
-
-Every card has a property called *Ease factor*.
-Over time the Ease factor can change and cause negative side effects.
-Set the Starting Ease to `131%` to avoid the side effects.
-More about it [later](#ease-hell).
-
-<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
-
 ### Reviews
 
 #### Maximum reviews/day
@@ -351,50 +342,10 @@ Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.
 
-#### Interval modifier
-
-Now here is where it gets interesting.
-When you answer **Good** on a card, its interval is recalculated:
-
-```
-New interval = current interval * Card's ease * Interval Modifier
-```
-
-By default, new interval is `2.5 * last interval`.
-At its default value of 100%, `Interval Modifier` does nothing.
-However, this is not what you want
-because you've just lowered `Starting Ease` to 131% in the previous section.
-To restore the balance bump `Interval Modifier` up to 192%.
-`1.92 * 1.31` is roughly equal to `2.5`.
-
-Later after you've used Anki for a couple of months and have had high *retention rate*,
-you can increase the value further and do fewer reviews.
-If you forget too many cards, it is recommended to lower it a bit.
-
-#### Easy bonus and Hard interval
-
-Ignore these settings as you should never use
-the "Hard" and "Easy" buttons.
-
-<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
-
-The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
-which causes long-term problems with Ease of your cards.
-
-[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
-It is covered in greater detail later.
-
-An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
-[using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
-
-#### Maximum interval
-
-Intervals of your cards can never increase beyond this limit.
-I advise setting it as big as possible.
-The default is `36500` days, which is equal to `100` years.
-However, you can decrease this to a smaller number if you want to ensure long-term retention.
-
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
+<p align="center"><i>Reviews.</i></p>
+
+Other settings have been moved to [Advanced](#advanced).
 
 ### Lapses
 
@@ -406,22 +357,6 @@ It affects how well you will relearn your lapsed cards.
 Beginners should set one learning step and observe their experience.
 The default of `10` minutes is okay, but I prefer a slightly bigger one.
 Later you can experiment with more learning steps.
-
-#### New interval
-
-You often still somewhat remember a word in Japanese even if you fail it.
-A different context or another word, or studying it on a different day may jog your memory.
-Thus, we don't need to fully penalize a fail here.
-
-For example, if you use a new interval of 50%,
-when you lapse a card and relearn it,
-the interval won't be reset back to 1 day,
-it will be half of the previous interval.
-The recommended range in the AJATT community is between 50 and 75%.
-
-For a `word cards` deck you may set it to about 30-40%
-because word cards are noticeably harder than `sentence cards`.
-I explain differences between card templates later.
 
 #### Leech threshold and Leech action
 
@@ -460,6 +395,85 @@ of the **Show new cards after reviews** setting that was formerly under [Prefere
 To maintain the same behavior, set it to "Show after reviews".
 
 If you have [New cards/day](#new-cards) set to 0, this setting should have no effect.
+
+### Advanced
+
+#### FSRS
+
+TBA
+
+#### Maximum interval
+
+Intervals of your cards can never increase beyond this limit.
+I advise setting it as big as possible.
+The default is `36500` days, which is equal to `100` years.
+However, you can decrease this to a smaller number if you want to ensure long-term retention.
+
+#### Starting ease
+
+Every card has a property called *Ease factor*.
+Over time the Ease factor can change and cause negative side effects.
+Set the Starting Ease to `131%` to avoid the side effects.
+More about it [later](#ease-hell).
+
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
+
+#### Easy bonus and Hard interval
+
+Extra multipliers
+that are applied to a review card's interval
+when you rate it "Easy" or "Hard".
+
+Ignore these settings as you should never use the "Hard" and "Easy" buttons
+and don't need to introduce additional variables in the grading process.
+
+<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
+<p align="center"><i>Hard and Easy buttons.</i></p>
+
+The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
+which causes long-term problems with Ease of your cards.
+
+[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
+It is covered in greater detail later.
+
+**Note**: An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
+[using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
+
+#### Interval modifier
+
+A multiplier that is applied to a review interval when answering Again.
+When you answer **Good** on a card, its interval is recalculated.
+
+```
+New interval = current interval * Card's ease * Interval Modifier
+```
+
+By default, new interval is `2.5 * last interval`.
+At its default value of 100%, `Interval Modifier` does nothing.
+However, this is not what you want
+because you've just lowered `Starting Ease` to 131% in a previous setting.
+To restore the balance bump `Interval Modifier` up to 192%.
+`1.92 * 1.31` is roughly equal to `2.5`.
+
+Later after you've used Anki for a couple of months and have had high *retention rate*,
+you can increase the value further and do fewer reviews.
+If you forget too many cards, it is recommended to lower it a bit.
+
+#### New interval
+
+You often still somewhat remember a word in Japanese even if you fail the card.
+A different context or another word, or studying it on a different day may jog your memory.
+Thus, we don't need to *fully* penalize a fail here.
+
+For example, if you use a new interval of 50%,
+when you lapse a card and relearn it,
+the interval won't be reset back to 1 day.
+It will be half of the previous interval.
+The recommended range in the AJATT community is between 50 and 75%.
+
+For a `word cards` deck you may set it to about 30-40%
+because word cards are noticeably harder than `sentence cards`.
+I explain differences between card templates [later](discussing-various-card-templates.html).
 
 ## Synchronizing large collections
 

@@ -341,12 +341,6 @@ but generally in the AJATT community it is advised to learn no more than <code>3
 This is because I use <a href="https://ankiweb.net/shared/info/1021636467">Learn Now Button</a>
 to <strong>manually pick</strong> and learn cards from my Sentence Bank.
 For me personally it's better than having Anki decide for me.</p>
-<h4 id="starting-ease"><a class="anchor" href="#starting-ease" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starting Ease</h4>
-<p>Every card has a property called <em>Ease factor</em>.
-Over time the Ease factor can change and cause negative side effects.
-Set the Starting Ease to <code>131%</code> to avoid the side effects.
-More about it <a href="#ease-hell">later</a>.</p>
-<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 <h3 id="reviews"><a class="anchor" href="#reviews" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reviews</h3>
 <h4 id="maximum-reviews-day"><a class="anchor" href="#maximum-reviews-day" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum reviews/day</h4>
 <p>This value sets an arbitrary cap on the amount of reviews you can do each day.
@@ -354,36 +348,9 @@ If the cap is low, your due cards won't magically disappear after you've done wi
 Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.</p>
-<h4 id="interval-modifier"><a class="anchor" href="#interval-modifier" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interval modifier</h4>
-<p>Now here is where it gets interesting.
-When you answer <strong>Good</strong> on a card, its interval is recalculated:</p>
-<div class="pre-wrap"><pre><code>New interval = current interval * Card's ease * Interval Modifier
-</code></pre></div>
-<p>By default, new interval is <code>2.5 * last interval</code>.
-At its default value of 100%, <code>Interval Modifier</code> does nothing.
-However, this is not what you want
-because you've just lowered <code>Starting Ease</code> to 131% in the previous section.
-To restore the balance bump <code>Interval Modifier</code> up to 192%.
-<code>1.92 * 1.31</code> is roughly equal to <code>2.5</code>.</p>
-<p>Later after you've used Anki for a couple of months and have had high <em>retention rate</em>,
-you can increase the value further and do fewer reviews.
-If you forget too many cards, it is recommended to lower it a bit.</p>
-<h4 id="easy-bonus-and-hard-interval"><a class="anchor" href="#easy-bonus-and-hard-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Easy bonus and Hard interval</h4>
-<p>Ignore these settings as you should never use
-the &quot;Hard&quot; and &quot;Easy&quot; buttons.</p>
-<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
-<p>The &quot;Hard&quot; and &quot;Easy&quot; buttons have counter-intuitive effects on Anki's algorithm,
-which causes long-term problems with Ease of your cards.</p>
-<p><a href="https://ankiweb.net/shared/info/1715096333">AJT Flexible Grading</a> can hide unwanted buttons.
-It is covered in greater detail later.</p>
-<p>An alternative way to make &quot;Hard&quot;, &quot;Good&quot; and &quot;Easy&quot; buttons behave the same would be
-<a href="https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707">using the V3 scheduler's custom scheduling mechanism</a>.</p>
-<h4 id="maximum-interval"><a class="anchor" href="#maximum-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum interval</h4>
-<p>Intervals of your cards can never increase beyond this limit.
-I advise setting it as big as possible.
-The default is <code>36500</code> days, which is equal to <code>100</code> years.
-However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
+<p align="center"><i>Reviews.</i></p>
+<p>Other settings have been moved to <a href="#advanced">Advanced</a>.</p>
 <h3 id="lapses"><a class="anchor" href="#lapses" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lapses</h3>
 <h4 id="steps-in-minutes"><a class="anchor" href="#steps-in-minutes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Steps (in minutes)</h4>
 <p>Works similar to the setting in the <code>New Cards</code> tab,
@@ -392,18 +359,6 @@ It affects how well you will relearn your lapsed cards.
 Beginners should set one learning step and observe their experience.
 The default of <code>10</code> minutes is okay, but I prefer a slightly bigger one.
 Later you can experiment with more learning steps.</p>
-<h4 id="new-interval"><a class="anchor" href="#new-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New interval</h4>
-<p>You often still somewhat remember a word in Japanese even if you fail it.
-A different context or another word, or studying it on a different day may jog your memory.
-Thus, we don't need to fully penalize a fail here.</p>
-<p>For example, if you use a new interval of 50%,
-when you lapse a card and relearn it,
-the interval won't be reset back to 1 day,
-it will be half of the previous interval.
-The recommended range in the AJATT community is between 50 and 75%.</p>
-<p>For a <code>word cards</code> deck you may set it to about 30-40%
-because word cards are noticeably harder than <code>sentence cards</code>.
-I explain differences between card templates later.</p>
 <h4 id="leech-threshold-and-leech-action"><a class="anchor" href="#leech-threshold-and-leech-action" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Leech threshold and Leech action</h4>
 <p><em>Leeches</em> are cards that you keep on forgetting and relearning over and over.
 Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
@@ -436,6 +391,60 @@ Feel free to experiment for yourself.</p>
 of the <strong>Show new cards after reviews</strong> setting that was formerly under <a href="#preferences">Preferences</a>.
 To maintain the same behavior, set it to &quot;Show after reviews&quot;.</p>
 <p>If you have <a href="#new-cards">New cards/day</a> set to 0, this setting should have no effect.</p>
+<h3 id="advanced"><a class="anchor" href="#advanced" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced</h3>
+<h4 id="fsrs"><a class="anchor" href="#fsrs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FSRS</h4>
+<p>TBA</p>
+<h4 id="maximum-interval"><a class="anchor" href="#maximum-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum interval</h4>
+<p>Intervals of your cards can never increase beyond this limit.
+I advise setting it as big as possible.
+The default is <code>36500</code> days, which is equal to <code>100</code> years.
+However, you can decrease this to a smaller number if you want to ensure long-term retention.</p>
+<h4 id="starting-ease"><a class="anchor" href="#starting-ease" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starting ease</h4>
+<p>Every card has a property called <em>Ease factor</em>.
+Over time the Ease factor can change and cause negative side effects.
+Set the Starting Ease to <code>131%</code> to avoid the side effects.
+More about it <a href="#ease-hell">later</a>.</p>
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
+<h4 id="easy-bonus-and-hard-interval"><a class="anchor" href="#easy-bonus-and-hard-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Easy bonus and Hard interval</h4>
+<p>Extra multipliers
+that are applied to a review card's interval
+when you rate it &quot;Easy&quot; or &quot;Hard&quot;.</p>
+<p>Ignore these settings as you should never use the &quot;Hard&quot; and &quot;Easy&quot; buttons
+and don't need to introduce additional variables in the grading process.</p>
+<p align="center"><img alt="hard-easy" class="shadow" src="img/anki-buttons.webp"></p>
+<p align="center"><i>Hard and Easy buttons.</i></p>
+<p>The &quot;Hard&quot; and &quot;Easy&quot; buttons have counter-intuitive effects on Anki's algorithm,
+which causes long-term problems with Ease of your cards.</p>
+<p><a href="https://ankiweb.net/shared/info/1715096333">AJT Flexible Grading</a> can hide unwanted buttons.
+It is covered in greater detail later.</p>
+<p><span class="article-note">Note</span>: An alternative way to make &quot;Hard&quot;, &quot;Good&quot; and &quot;Easy&quot; buttons behave the same would be
+<a href="https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707">using the V3 scheduler's custom scheduling mechanism</a>.</p>
+<h4 id="interval-modifier"><a class="anchor" href="#interval-modifier" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interval modifier</h4>
+<p>A multiplier that is applied to a review interval when answering Again.
+When you answer <strong>Good</strong> on a card, its interval is recalculated.</p>
+<div class="pre-wrap"><pre><code>New interval = current interval * Card's ease * Interval Modifier
+</code></pre></div>
+<p>By default, new interval is <code>2.5 * last interval</code>.
+At its default value of 100%, <code>Interval Modifier</code> does nothing.
+However, this is not what you want
+because you've just lowered <code>Starting Ease</code> to 131% in a previous setting.
+To restore the balance bump <code>Interval Modifier</code> up to 192%.
+<code>1.92 * 1.31</code> is roughly equal to <code>2.5</code>.</p>
+<p>Later after you've used Anki for a couple of months and have had high <em>retention rate</em>,
+you can increase the value further and do fewer reviews.
+If you forget too many cards, it is recommended to lower it a bit.</p>
+<h4 id="new-interval"><a class="anchor" href="#new-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New interval</h4>
+<p>You often still somewhat remember a word in Japanese even if you fail the card.
+A different context or another word, or studying it on a different day may jog your memory.
+Thus, we don't need to <em>fully</em> penalize a fail here.</p>
+<p>For example, if you use a new interval of 50%,
+when you lapse a card and relearn it,
+the interval won't be reset back to 1 day.
+It will be half of the previous interval.
+The recommended range in the AJATT community is between 50 and 75%.</p>
+<p>For a <code>word cards</code> deck you may set it to about 30-40%
+because word cards are noticeably harder than <code>sentence cards</code>.
+I explain differences between card templates <a href="discussing-various-card-templates.html">later</a>.</p>
 <h2 id="synchronizing-large-collections"><a class="anchor" href="#synchronizing-large-collections" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Synchronizing large collections</h2>
 <p>Don't sync your collection with AnkiWeb
 if you store large files in it
