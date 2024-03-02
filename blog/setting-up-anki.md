@@ -409,7 +409,14 @@ If you have [New cards/day](#new-cards) set to 0, this setting should have no ef
 
 #### FSRS
 
-TBA
+FSRS is a new scheduler that replaces the default one.
+Although for some reason this setting resides in "Options Groups",
+it works for the entire Collection (profile).
+Leave it disabled since FSRS is not mature enough
+for us to be able to say with confidence that it is better than the default scheduler.
+As of 2024,
+due to various bugs people have reported negative things about it.
+Bugs tend to get fixed over time, so this section might be revised in the future.
 
 #### Maximum interval
 
