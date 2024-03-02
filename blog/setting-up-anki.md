@@ -262,6 +262,7 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
 </details>
 
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
+<p align="center"><i>Preferences.</i></p>
 
 ## Options Groups
 
@@ -300,6 +301,12 @@ Below are the options I recommended using.
 
 ### New cards
 
+<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
+<p align="center"><i>New cards.</i></p>
+
+<p align="center"><img alt="new cards" class="shadow" src="img/anki-new-cards-settings.webp"></p>
+<p align="center"><i>New cards &mdash; Updated menu.</i></p>
+
 #### Learning steps
 
 This is the number of times you have to answer `good` on the card
@@ -334,6 +341,11 @@ For me personally it's better than having Anki decide for me.
 
 ### Reviews
 
+<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
+<p align="center"><i>Reviews.</i></p>
+
+Most settings have been moved to [Advanced](#advanced) due to a UI update.
+
 #### Maximum reviews/day
 
 This value sets an arbitrary cap on the amount of reviews you can do each day.
@@ -342,12 +354,10 @@ Instead, they will form a backlog of likely forgotten cards.
 Because you want to review all your due cards every day,
 set this at a high value.
 
-<p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
-<p align="center"><i>Reviews.</i></p>
-
-Other settings have been moved to [Advanced](#advanced).
-
 ### Lapses
+
+<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
+<p align="center"><i>Lapses.</i></p>
 
 #### Steps (in minutes)
 
@@ -383,7 +393,6 @@ Possible ways to deal with leeches:
   or [online](resources.html#examples-and-pronunciations).
   For example, on [Weblio](https://ejje.weblio.jp/sentence/).
 
-<p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 
 ### Display order
 
@@ -415,8 +424,6 @@ Every card has a property called *Ease factor*.
 Over time the Ease factor can change and cause negative side effects.
 Set the Starting Ease to `131%` to avoid the side effects.
 More about it [later](#ease-hell).
-
-<p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 
 #### Easy bonus and Hard interval
 
