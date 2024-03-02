@@ -440,10 +440,9 @@ and don't need to introduce additional variables in the grading process.
 The "Hard" and "Easy" buttons have counter-intuitive effects on Anki's algorithm,
 which causes long-term problems with Ease of your cards.
 
-[AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
+**Note**: [AJT Flexible Grading](https://ankiweb.net/shared/info/1715096333) can hide unwanted buttons.
 It is covered in greater detail later.
-
-**Note**: An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
+An alternative way to make "Hard", "Good" and "Easy" buttons behave the same would be
 [using the V3 scheduler's custom scheduling mechanism](https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707).
 
 #### Interval modifier
