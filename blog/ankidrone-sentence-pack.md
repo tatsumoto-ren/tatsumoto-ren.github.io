@@ -49,6 +49,10 @@ or download the "no duplicates" version.
 
 <p align="center"><a class="download_button" href="https://disk.yandex.com/d/yZsomdq4WB-crg">Download</a></p>
 
+If you have a different profile to store your sentence bank,
+use [Cross Profile Search And Import](useful-anki-add-ons-for-japanese.html#cross-profile-search-and-import)
+to copy cards from the bank profile to your main profile.
+
 This deck is not a replacement for
 [Ankidrone Starter Pack](basic-vocabulary.html).
 It doesn't contain dictionary definitions.
