@@ -20,14 +20,18 @@ assume it's wrong or verify by asking people in our chat.
 
 ### Kana
 
+> Main article: [Learning kana in two days](learning-kana-in-two-days.html)
+
 * [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
-A kana training app.
+  A kana training app.
 * [Kana recognition Anki deck](https://ankiweb.net/shared/info/839782116).
 * [Kana production Anki Deck](https://ankiweb.net/shared/info/1233553736).
 * [Real kana](https://realkana.com/).
-Train kana recognition online.
+  Train kana recognition online.
 
 ### Kanji
+
+> Main article: [Learning Kanji](learning-kanji.html)
 
 * [KanjiTransition](https://ankiweb.net/shared/info/917377946).
 Learn words with the kanji used to write them.
@@ -42,21 +46,14 @@ Kanji characters with Koohii stories.
 
 > Main article: [Basic vocabulary](basic-vocabulary.html)
 
+You typically only need one deck to teach you basic vocabulary.
+All other decks that you download should go in your [sentence bank](TBA) profile.
+
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
-* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
-* [Core 6k/10k vocabulary reference](https://core6000.neocities.org/)
-* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc)
+* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc),
+  [Core 6k/10k vocabulary reference](https://core6000.neocities.org/).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
-* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks).
-  `subs2srs` Anki decks for popular anime and movies.
-* [steins-gate-anki](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
-  Anki deck made from Steins;Gate.
-  Has lots of voiced example sentences.
-  [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
-* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
-  This pack has a lot of cards.
-  Unless you love doing Anki, I don't think it's necessary.
 
 ### Grammar
 
@@ -573,9 +570,10 @@ You may need a Japanese IP address for some of these.
 
 ### OCR for manga
 
+> Main article: [Mining from manga](mining-from-manga.html)
+
 Optical character recognition (OCR) tools
 convert text in manga into a digital form.
-Main article: [Mining from manga](mining-from-manga.html).
 
 * [transformers-ocr](https://aur.archlinux.org/packages/transformers_ocr).
   A powerful tool for mining from manga.
@@ -592,6 +590,8 @@ Main article: [Mining from manga](mining-from-manga.html).
   Note that you can't use Japanese to Japanese dictionaries with it.
 
 ### Reading eBooks
+
+> Main article [Reading books](reading-books.html)
 
 * [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng/).
   E-book reader.
@@ -875,6 +875,26 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 Dictionary files.
 Stardict files are meant to be used with KOreader,
 Mdict with [GoldenDict](setting-up-goldendict.html).
+
+## Sentence banks
+
+> Main article: [TBA](#TBA)
+
+Any Anki decks with voiced sentences can be used to build a sentence bank.
+Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
+
+* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
+* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks)
+  ([source](https://web.archive.org/web/20220521002417/https://japanesedecks.blogspot.com/p/free.html)).
+* [Sentence bank](https://www.mediafire.com/folder/h88cb94x24n4i/Sentence_Bank).
+* [subs2srs decks](https://www.mediafire.com/folder/h3c999hbd9r6m/subs2srs_decks).
+* [steins-gate-anki](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
+  Anki deck made from Steins;Gate.
+  Has lots of voiced example sentences.
+  [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
+* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
+* You can also try [AnkiWeb](https://ankiweb.net/shared/decks?search=anime),
+  although pirated content is not common there.
 
 ## Translators
 
