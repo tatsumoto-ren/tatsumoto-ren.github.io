@@ -189,9 +189,21 @@ Allows you to easily add screenshots and audio recordings to your Anki cards.
 A small utility that allows you to mass-generate Anki decks
 based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
+For example, if you had a Japanese movie and the accompanying Japanese subtitle file,
+you could use subs2srs to automatically create an Anki deck with one card for each subtitle line,
+along with the corresponding audio and snapshot.
 
 * [AUR package](https://aur.archlinux.org/packages?K=subs2srs)
 * [FAQ](https://subs2srs.sourceforge.net/#faq)
+
+subs2srs opens up the possibility of making large amounts of high quality,
+original sentence cards extremely quickly.
+It also allows you to have native audio on all of your cards,
+which is extremely useful.
+
+The downside of subs2srs is that in order to use it, you need to acquire the
+file for the show/movie you want to use,
+along with a correctly timed subtitle file for that show/movie.
 
 ## Android
 
