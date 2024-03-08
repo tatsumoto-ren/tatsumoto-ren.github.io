@@ -26,7 +26,7 @@ using tools like
 or
 [mpvacious](mining-from-movies-and-tv-shows.html).
 If you don't have a bank yet,
-Ankidrone Sentence Pack is going to be a good starting point
+**Ankidrone Sentence Pack** is going to be a good starting point
 and the first building block of your bank.
 
 The deck is a complete offline copy of the
@@ -42,10 +42,9 @@ format to save disk space.
 Anki supports Opus on both PC and Android.
 
 Sentence Search contains sentences from the Core10k deck (iKnow, core10k) and Tango decks,
-thus this data is also present in Ankidrone Sentence Pack.
+thus this data is also present in **Ankidrone Sentence Pack**.
 If you already have these decks in your collection,
-delete the duplicates after importing the deck
-or download the "no duplicates" version.
+delete the duplicates after importing the deck.
 
 <p align="center"><a class="download_button" href="https://disk.yandex.com/d/yZsomdq4WB-crg">Download</a></p>
 
@@ -53,7 +52,7 @@ If you have a different profile to store your sentence bank,
 use [Cross Profile Search And Import](useful-anki-add-ons-for-japanese.html#cross-profile-search-and-import)
 to copy cards from the bank profile to your main profile.
 
-This deck is not a replacement for
+This deck is **not** a replacement for
 [Ankidrone Starter Pack](basic-vocabulary.html).
 It doesn't contain dictionary definitions.
 I recommend you start with Ankidrone Starter Pack if you're a beginner.
