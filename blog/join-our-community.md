@@ -28,7 +28,7 @@ and register an account on one of the servers
 [listed here](list-of-matrix-servers.html).
 If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
 
-<a target="_blank" class="md-button element" href="element://vector/webapp/#/room/#join:midov.pl">Join us on Element</a>
+<a target="_blank" class="md-button element" href="https://matrix.to/#/#join:midov.pl">Join us on Element</a>
 
 If the button above doesn't work,
 open your client of choice and join `#join:midov.pl`.
