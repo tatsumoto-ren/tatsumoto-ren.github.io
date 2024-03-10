@@ -9,13 +9,15 @@
 
     --menu-icon-slice-width: 18px;
     --menu-icon-slice-height: 2px;
+    --article-page-width: 1000px;
+    --gap-large: 2rem;
+    --gap-small: 1.5rem;
+    --header-height: 52px;
+
     --link: #0366d6;
     --link-visited: #336699;
     --link-black: #1f2628;
-    --gap-large: 32px;
-    --gap-small: 24px;
 
-    --header-height: 52px;
     --header-background: #f9f9f9;
     --header-item-focused-background-color: rgba(0, 0, 0, 0.04);
     --header-item-focused-shadow-color: rgba(0, 8, 15, 0.125);
@@ -37,7 +39,6 @@
     --body-text-color: #24292e;
     --box-sep-color: rgba(0, 0, 0, 10%);
     --sidebar-link-color: #ccc;
-    --article-page-width: 1000px;
     --target-color: cornflowerblue;
     --code-inline-bg: #f3f3f3;
 
