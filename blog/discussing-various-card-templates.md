@@ -416,7 +416,7 @@ Go to Rikaitan Settings > "Anki" > "Configure Anki card format…".
   it does not become a burden
   &mdash; when grading yourself you skip everything but the main target.
 * **Keep your cards.**
-  There's an idea in the community that cards should get deleted or suspended
+  There's an idea that cards should get deleted or suspended
   after they reach a certain interval.
   The idea is justified by an assumption that immersion alone is enough
   to keep any word in memory after it's been acquired.
