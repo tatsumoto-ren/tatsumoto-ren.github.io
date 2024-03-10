@@ -49,7 +49,9 @@ Kanji characters with Koohii stories.
 You typically only need one deck to teach you basic vocabulary.
 All other decks that you download should go in your [sentence bank](TBA) profile.
 
-* [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck)
+* [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck).
+  This is our main deck.
+  Other decks are third-party.
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc),
   [Core 6k/10k vocabulary reference](https://core6000.neocities.org/).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
@@ -883,7 +885,7 @@ Mdict with [GoldenDict](setting-up-goldendict.html).
 Any Anki decks with voiced sentences can be used to build a sentence bank.
 Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
 
-* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
+* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html).
 * [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks)
   ([source](https://web.archive.org/web/20220521002417/https://japanesedecks.blogspot.com/p/free.html)).
 * [Sentence bank](https://www.mediafire.com/folder/h88cb94x24n4i/Sentence_Bank).
