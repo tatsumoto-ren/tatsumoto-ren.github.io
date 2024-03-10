@@ -1190,7 +1190,21 @@ a.md-button.patreon::before {
     background-image: url("/blog/img/patreon_logo.webp");
 }
 
-/* Donations */
+/* DonationAlerts */
+
+a.md-button.donationalerts {
+    background-color: color-mix(in srgb, #ff6701, #262626 30%);
+}
+
+a.md-button.donationalerts:is(:hover, :active, :focus) {
+    background-color: color-mix(in srgb, #ff8101, #262626 10%);
+}
+
+a.md-button.donationalerts::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 20'%3E%3Cdefs%3E%3ClinearGradient id='da_svg__a' x1='71.526%25' x2='20.024%25' y1='13.678%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23F59C07'%3E%3C/stop%3E%3Cstop offset='100%25' stop-color='%23F57507'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23da_svg__a)' d='M12.647 0c.242 0 .473.107.63.293l3.524 4.148c.144.17.215.393.196.617l-.532 6.132a.839.839 0 01-.248.528l-4.348 4.259a.825.825 0 01-.579.235H6.662L2.587 20l.316-3.79H.83a.829.829 0 01-.612-.271.843.843 0 01-.215-.638L1.268.75c.042-.425.4-.75.827-.75zm-1.558 3.021H4.828a.833.833 0 00-.827.752l-.746 8.517a.852.852 0 00.219.635.839.839 0 00.609.274h6.156c.214 0 .42-.082.574-.23l2.517-2.418a.834.834 0 00.248-.531l.338-3.785a.84.84 0 00-.214-.611l-1.987-2.315a.827.827 0 00-.626-.288zm-2.383 6.9c.078 0 .152.03.205.082a.24.24 0 01.07.193l-.118 1.222c-.012.13-.131.23-.275.23H7.253a.286.286 0 01-.204-.083.231.231 0 01-.07-.192l.118-1.222c.011-.13.13-.23.274-.23h1.335zm.466-5.294c.15 0 .272.12.272.266l-.38 4.13a.27.27 0 01-.262.232h-1.36a.27.27 0 01-.272-.266l.37-4.128a.27.27 0 01.272-.234h1.36z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* Donations button (footer) */
 
 a.md-button.donations {
     min-width: 100px;

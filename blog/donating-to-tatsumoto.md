@@ -10,12 +10,33 @@ this site and the
 project relies on donations and support from its community to stay alive.
 We do not have ads or privacy-violating trackers, we are entirely dependent on you.
 
-If this site, our community or my free software projects were useful to you,
+If this site,
+our community
+or the free software projects developed at Ajatt-Tools were useful to you,
 I'll appreciate if you donate to help me support myself
 and continue delivering new guides, tools and resources.
 You can support me over at one of the membership platforms or donate cryptocurrency.
 
 ****
+
+## Fundraising
+
+Our project exists solely on the funds of subscribers.
+Since 2020, I have been working on Ajatt-Tools full time.
+Ajatt-Tools can't be sustainable if I can't buy food and pay my bills.
+Thousands of people visit this site every day.
+If even some of them contribute `$1`, it will be a huge help for us!
+A small symbolic donation of `$1` or `$5` will not make you poorer,
+but will save our common cause!
+❤️  Please follow the links below and donate according to your abilities.
+Any amount of help is important.
+Do not let our common cause fail!
+
+Depending on the monthly earnings we might be able to afford a domain name and
+a hosting for this site,
+which is currently hosted for free on Neocities.
+A huge thank you to everyone who stays with us!
+It is only thanks to you that we are still standing!
 
 ## Monero
 
@@ -57,6 +78,10 @@ You can donate on Boosty too, which is a platform similar to Patreon.
 
 https://boosty.to/tatsumoto/donate
 
+## DonationAlerts
+
+<a target="_blank" class="md-button donationalerts" href="https://www.donationalerts.com/r/tatsumoto">DonationAlerts</a>
+
 ## Donate bot on Telegram
 
 By clicking the link below,
@@ -72,6 +97,8 @@ Donate crypto and send a message that I will receive via email.
 
 https://cointr.ee/tatsumoto
 
+<!-- Deprecated methods
+
 ## Liberapay
 
 Liberapay is a recurrent donations platform.
@@ -84,6 +111,8 @@ Liberapay does not take a cut of payments.
 You can support me over at Patreon by clicking the button below.
 
 <a target="_blank" class="md-button patreon" href="https://www.patreon.com/bePatron?u=43555128">Become a patron</a>
+
+/Deprecated methods -->
 
 ****
 
