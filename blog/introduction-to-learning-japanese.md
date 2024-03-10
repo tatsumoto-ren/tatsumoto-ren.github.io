@@ -211,7 +211,10 @@ Their output ability emerges as a result of immersion.
 We're going to use various programs to help us with Japanese.
 Since this is an intro article, you don't have to install everything right now.
 It's just an outline.
-We have more complete suggestions on the Resources page.
+The most important tools will be described in [Our Immersion Learning Toolset](our-immersion-learning-toolset.html).
+Afterwards, you'll presented with articles that teach comprehensively how to use the tools.
+Additionally, we have more suggestions in [Resources](resources.html)
+and throughout the rest of the guide.
 
 ### Desktop
 
@@ -224,7 +227,7 @@ We have more complete suggestions on the Resources page.
   * Install and configure
     [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
     to type in Japanese.
-    My Fcitx guide can be found [here](how-to-type-in-japanese.html).
+    The Fcitx guide can be found [here](how-to-type-in-japanese.html).
     The input method I use is
     [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
     but other options are also available.
@@ -317,14 +320,15 @@ and
 to understand what you're dealing with.
 Together they're referred to as the [kana](https://wikiless.org/wiki/Kana?lang=en).
 The key points to take away:
+
 * The two alphabets represent the same sounds.
-Katakana is mostly used to write loan words and onomatopoeia,
-Hiragana for everything else not written in kanji.
+  Katakana is mostly used to write loan words and onomatopoeia,
+  Hiragana for everything else not written in kanji.
 * Due to its purpose, katakana is not used as often as hiragana,
-as you will notice once you start reading.
+  as you will notice once you start reading.
 * They are very easy. Each can be learned in a day.
 * Any Japanese text not aimed at preschoolers contains kanji,
-so learning only the kana won't cut it.
+  so learning only the kana won't cut it.
 
 In the article about learning kana (later in this guide)
 I recommend using a training app or a premade Anki deck.
