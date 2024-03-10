@@ -2,7 +2,8 @@
 
 /* Global */
 
-:root {
+:root,
+:root.light {
     /* The default color scheme is light. */
     color-scheme: light;
 
@@ -51,7 +52,7 @@
     --download-button-text-color: var(--link);
     --download-button-border-color: var(--link);
     --blockquote-bg-start: color-mix(in srgb, var(--blockquote-border-color), transparent 80%);
-    --blockquote-bg-end:  color-mix(in srgb, var(--blockquote-border-color), transparent 95%);
+    --blockquote-bg-end: color-mix(in srgb, var(--blockquote-border-color), transparent 95%);
 
     --img-shadow-color: #999;
 }
@@ -196,7 +197,6 @@
     --code-bg-color: #4d4d4d;
     --code-inline-bg: #1b3535;
     --code-inline-color: var(--link);
-
 
     --sidebar-link-color: var(--header-link-color);
     --sidebar-link-color-hover: var(--header-link-color-hover);
