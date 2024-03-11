@@ -27,19 +27,28 @@ learning kanji through [KanjiTransition](jp1k-anki-deck.html),
 using the [SRS](spaced-repetition.html) to help remember new words and phrases,
 the focus on [learning sentences](sentence-mining.html) instead of vocabulary and grammar.
 
-AJATT was influenced by Antimoon,
+AJATT was also influenced by [Antimoon](https://www.antimoon.com/),
 another input-based language learning method.
 While Antimoon focuses on learning English,
-AJATT revolves around Japanese.
-Later on AJATT influenced many other language learning methods.
-This site is also heavily inspired by AJATT.
-AJATT can also be applicable for learning any language
+AJATT mostly revolves around Japanese.
+However, the principles can be adapted for learning any language
 if Japanese-specific parts are replaced.
 
+This site was heavily inspired by AJATT.
 While doing AJATT I came up with new ideas no one else talked about
 and made some tools that make learning languages easier.
-My goal is to bring AJATT's insights to a larger audience
-and continue updating and improving the method.
+Following Khatzumoto's retirement in 2023,
+Tatsumoto took the reins as the successor of the original AJATT.
+Here on this site
+and within [our community](join-our-community.html),
+we not only teach the AJATT method,
+but also continue to refine and enhance it.
+The goal is to bring AJATT's insights to a larger audience,
+consistently updating and improving the method as we go along.
+As Katsumoto once said,
+AJATT does not stand still,
+it is flexible and should evolve.
+Therefore, we are happy to continue his work.
 
 To start learning with the AJATT method,
 read our [Table of Contents](table-of-contents.html).
