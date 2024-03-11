@@ -52,10 +52,14 @@
 
     --download-button-text-color: var(--link);
     --download-button-border-color: var(--link);
-    --blockquote-bg-start: color-mix(in srgb, var(--blockquote-border-color), transparent 80%);
-    --blockquote-bg-end: color-mix(in srgb, var(--blockquote-border-color), transparent 95%);
+    --blockquote-bg-start: color-mix(in srgb, var(--blockquote-border-color), transparent 90%);
+    --blockquote-bg-end: color-mix(in srgb, var(--blockquote-border-color), transparent 98%);
 
     --img-shadow-color: #999;
+
+    --nagbar-color: #453128;
+    --nagbar-bg: #fbf6e3;
+    --nagbar-border: #e2c491;
 }
 
 /* Document rules for each theme */
@@ -216,6 +220,10 @@
 
     --blockquote-text-color: #9c9c9c;
     --blockquote-border-color: var(--code-inline-bg);
+
+    --nagbar-color: #f1b79c;
+    --nagbar-bg: #313127;
+    --nagbar-border: #554a38;
 }
 
 /* Main elements */
@@ -462,9 +470,9 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
 /* index page nag bar */
 
 #divbodyholder > .indexnagbar {
-    color: #453128;
-    background-color: #fbf6e3;
-    border: 1px solid #e2c491;
+    color: var(--nagbar-color, black);
+    background-color: var(--nagbar-bg, yellow);
+    border: 1px solid var(--nagbar-border, brown);
     margin-bottom: var(--gap-large);
     display: flex;
     flex-flow: row nowrap;
@@ -486,7 +494,7 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
     min-width: 2rem;
     width: 2rem;
     height: 2rem;
-    fill: #453128;
+    fill: var(--nagbar-color, black);
 }
 
 @media screen and (max-width: 500px) {
@@ -539,7 +547,7 @@ blockquote {
 }
 
 blockquote a {
-    filter: saturate(33%);
+    filter: saturate(70%);
 }
 
 main ::selection {
