@@ -212,7 +212,7 @@ We're going to use various programs to help us with Japanese.
 Since this is an intro article, you don't have to install everything right now.
 It's just an outline.
 The most important tools will be described in [Our Immersion Learning Toolset](our-immersion-learning-toolset.html).
-Afterwards, you'll presented with articles that teach comprehensively how to use the tools.
+Afterwards, you'll be presented with articles that teach comprehensively how to use the tools.
 Additionally, we have more suggestions in [Resources](resources.html)
 and throughout the rest of the guide.
 
