@@ -44,6 +44,7 @@ date: 1616375454
 	* [Books](reading-books.html)
 	* [Passive immersion tech](passive-listening.html)
 	* [Retiming subtitles](retiming-subtitles.html)
+	* [Sentence banks](cross-profile-search-and-import.html)
 	* [Writing by hand](writing-japanese.html)
 	* [Condensing active immersion](condensing-active-immersion.html)
 	* [Plumbing](plumbing-for-language-learners.html)
