@@ -31,6 +31,8 @@ you can install the add-ons I use in my everyday studies (not every add-on from 
 
 ### [Japanese](https://ankiweb.net/shared/info/1344485230)
 
+> Main article: [Japanese support for Anki](anki-japanese-support.html)
+
 The most important add-on you'll need is AJT Japanese.
 It's primary feature is generating [furigana](https://wikiless.org/wiki/Furigana?lang=en),
 which you're going to need every day.
@@ -169,6 +171,8 @@ in order to view add-on based stats information.
 <p align="center"><img alt="true-retention-addon" class="shadow" src="img/true-retention-addon.png"></p>
 
 ### [Cross Profile Search and Import](https://ankiweb.net/shared/info/1772763629)
+
+> Main article: [Cross Profile Search And Import](cross-profile-search-and-import.html)
 
 With this add-on you can keep your [subs2srs](our-immersion-learning-toolset.html#subs2srs)
 bank in a different profile and copy cards to your main profile on demand.
