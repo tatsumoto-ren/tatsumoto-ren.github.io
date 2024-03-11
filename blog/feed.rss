@@ -5,9 +5,27 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 11 Mar 2024 07:28:17 +0300</lastBuildDate>
-<pubDate>Mon, 11 Mar 2024 07:28:17 +0300</pubDate>
+<lastBuildDate>Mon, 11 Mar 2024 10:04:42 +0300</lastBuildDate>
+<pubDate>Mon, 11 Mar 2024 10:04:42 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Cross Profile Search And Import</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>The <a href="https://ankiweb.net/shared/info/1772763629">Cross Profile Search and Import</a> add-on
+is a tool that helps you maintain a neat,
+uncluttered main profile while still having access to an extensive sentence bank.
+This tool allows you to store your sentence bank
+in a separate profile which is not synchronized with AnkiWeb,
+and then easily search and import cards into your main profile when required.
+In doing so,
+it keeps your main profile tidy
+while sparing AnkiWeb servers from hefty media uploads.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 11 Mar 2024 09:39:56 +0300</pubDate>
+</item>
 <item>
 <title>Do I have to run GNU?</title>
 <author>Tatsumoto</author>
@@ -390,47 +408,6 @@ It may contain mistakes.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-do-i-know-i-have-finished-an-anki-deck.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 01 Oct 2023 23:23:37 +0300</pubDate>
-</item>
-<item>
-<title>Is it a good idea to read mostly manga in the beginning?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>Immersion is immersion.
-Consuming any native content is almost always the best strategy
-(unlike <a href="what-do-you-think-about-graded-readers.html">non-native content</a>).
-There are some pitfalls associated with reading manga,
-but they're not too significant.
-Still, I would rather immerse in anime as a beginner,
-with manga taking a secondary role.</p>
-<p>Firstly,
-it's important to note that manga is not voiced, unlike anime.
-Consequently,
-often when reading you may get lost
-because you won't know how to say certain words correctly and with the right pitch accent.
-If you read something incorrectly, you may accidentally create a bad habit.</p>
-<p>Since reading manga is reading immersion,
-it is crucial to balance reading with listening.
-Only through listening we can get exposure to native speech,
-get used to the sounds of the language
-and learn to understand speech without relying on textual cues.</p>
-<p>You may not have access to high resolution scans.
-Reading text on low-resolution images can be frustrating,
-particularly when dealing with small text and complex kanji containing many strokes.</p>
-<p>Lastly,
-setting up a sentence mining workflow for manga
-requires more steps compared to anime.
-You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
-and how to connect it with Japanese dictionaries and Anki,
-which may be tedious for some people.
-OCR software often makes mistakes when recognizing text from images,
-and it can hinder your ability to quickly look up words.
-In contrast,
-when reading books or watching anime with TL subtitles
-you don't have to rely on OCR.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 07 Aug 2023 23:56:46 +0300</pubDate>
 </item>
 </channel>
 </rss>
