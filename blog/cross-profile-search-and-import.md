@@ -39,7 +39,7 @@ which you can then use to select cards to study
 by searching for words that you want to learn.
 Sentence banks are useful when there's a word you want to learn,
 but you don't have a [1T](one-target-sentences.html) example sentence
-to create a [targeted sentnece card](discussing-various-card-templates.html#targeted-sentence-cards).
+to create a [targeted sentence card](discussing-various-card-templates.html#targeted-sentence-cards).
 You then use the bank to find a suitable sentence.
 
 ## Setup
