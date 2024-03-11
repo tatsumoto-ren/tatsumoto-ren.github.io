@@ -8,7 +8,7 @@ tags: [guide]
 
 At
 [Ajatt Tools](https://github.com/Ajatt-Tools)
-we're developing tools to help you connect with another language.
+we're designing tools to help you connect with another language.
 We hope that they and other
 [libre](https://www.gnu.org/philosophy/free-sw.html)
 projects developed by the community will help you in your language learning journey.
@@ -17,32 +17,32 @@ projects developed by the community will help you in your language learning jour
 
 ## Overview
 
-Technical instructions on this site are intended for GNU/Linux users,
-but most of the software I list here is cross-platform.
-If you're not using GNU/Linux yet,
-you should be able to use the tools on any OS in the meantime
-while you're preparing to switch.
+Technical instructions on this site target GNU/Linux users.
+That's what I use.
+But most of the software I list here is cross-platform.
+So if you're currently not using GNU/Linux, don't worry!
+You should be able to use the tools on any OS in the meantime
+while you're preparing to upgrade to the better system.
 
-<details>
+## How we choose software
 
-<summary>Our software recommendations</summary>
-
-I deliberately advocate for free/libre software.
-Quitting Windows is like quitting tobacco.
-Tobacco is bad for your health.
-Likewise, non-free software is
-[bad for your freedom](https://www.gnu.org/proprietary/proprietary.html).
-
+All software that we use and approve must
+[respect the users' freedom](https://www.gnu.org/philosophy/free-sw.html).
 The point of free software is that we have control of our software and our computing.
-A system with a back door doesn't qualify.
+A proprietary program doesn't qualify
+because there is no way to tell if it doesn't have hidden malicious functionalities.
+Often [it is the case](https://www.gnu.org/proprietary/proprietary.html).
+The good news is that
+the majority of language learning software that exist today is already free.
+So as far as language learning goes,
+feel lucky that you're learning Japanese because we have some killer tools and resources.
 
-If you think you can't be bothered to install the GNU operating system,
-bear in mind that it only takes about 20 minutes to do so.
-It will take you years to master a foreign language, so it's a good investment.
-
-</details>
+Moving on,
+let's dive into our immersion learning toolset!
 
 ## [GNU/Linux](https://www.gnu.org/gnu/about-gnu.html)
+
+> If in doubt: [Do I have to run GNU?](do-i-have-to-run-gnu.html)
 
 GNU/Linux is a suitable replacement for
 [Windows](https://www.gnu.org/proprietary/malware-microsoft.html)
