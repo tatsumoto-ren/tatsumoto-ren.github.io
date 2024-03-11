@@ -47,7 +47,8 @@ Kanji characters with Koohii stories.
 > Main article: [Basic vocabulary](basic-vocabulary.html)
 
 You typically only need one deck to teach you basic vocabulary.
-All other decks that you download should go in your [sentence bank](TBA) profile.
+All other decks that you download should go in
+your [sentence bank](cross-profile-search-and-import.html) profile.
 
 * [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck).
   This is our main deck.
@@ -880,7 +881,7 @@ Mdict with [GoldenDict](setting-up-goldendict.html).
 
 ## Sentence banks
 
-> Main article: [TBA](#TBA)
+> Main article: [Cross Profile Search And Import](cross-profile-search-and-import.html)
 
 Any Anki decks with voiced sentences can be used to build a sentence bank.
 Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
