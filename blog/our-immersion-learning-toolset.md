@@ -186,6 +186,8 @@ Allows you to easily add screenshots and audio recordings to your Anki cards.
 
 ## [subs2srs](http://subs2srs.sourceforge.net/)
 
+> Related: [Cross Profile Search And Import](cross-profile-search-and-import.html)
+
 A small utility that allows you to mass-generate Anki decks
 based on your favorite foreign language movies and TV shows
 to aid in the language learning process.
