@@ -69,6 +69,34 @@ Decks from different people will inevitably have different formatting.
 Convert all of them [to one note type](how-to-change-note-types.html)
 in order to make working with the bank easier.
 
+## Media formats
+
+One thing that bothers people is that subs2srs decks come with `mp3` audio and `jpg` images.
+So you most likely want to bulk-convert all audio files that come with the decks to `opus`
+and image files to `webp` to save disk space.
+
+The simplest solution is to call `ffmpeg`
+in the `collection.media` directory after you import a deck.
+
+1) Import a subs2srs deck, then open your terminal and `cd` into the `collection.media` directory.
+   Example:
+
+   ```
+   cd ~/.local/share/Anki2/<PROFILE>/collection.media
+   ```
+2) Use a ffmpeg script to convert all media files in this directory.
+   I use [cm](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/cm).
+   Call it like this:
+
+   ```
+   cm ftogg
+   cm ftswebp
+   ```
+
+   These two commands will take care of all `mp3` and `jpg` media files.
+3) In the Anki Browser, click "Notes" > "Find and Replace..." to replace all occurrences of `.mp3` with `.ogg`
+   and all occurrences of `.jpg` with `.webp`.
+
 ## Configuration
 
 Once you have Cross Profile Search and Import installed,
