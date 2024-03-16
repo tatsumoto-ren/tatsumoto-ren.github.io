@@ -83,18 +83,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [Itazuraneko's 文型一覧表](https://djtguide.github.io/grammar/masterreference).
   Master reference table of all grammar pattern entries
   from a number of grammar dictionaries.
-
-### Grammar in Japanese
-
-* [毎日のんびり日本語教師](https://nihongonosensei.net/).
-  A website run by a Japanese teacher living in China.
-  Grammar is sorted by JLPT levels.
-  The entries are in Japanese (monolingual definitions) and Chinese.
-  Provides example sentences.
-* [国語文法](http://xn--vcs415akpfnn7a.com/).
-  Japanese grammar taught by a Japanese teacher.
-* [国語の文法](https://www.kokugobunpou.com/).
-* [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
+* [Grammar in Japanese](#grammar-in-japanese).
 
 ### JLPT
 
@@ -467,16 +456,18 @@ You may need a Japanese IP address for some of these.
 * [Asebi Mincho](https://metasta.github.io/asebi/).
   A font that displays all `新字体` kanji in their `旧字体`(`正字体`) form,
   including all the undocumented changes as well.
-* [花園明朝](http://fonts.jp/hanazono/).
+* [花園明朝](https://disk.yandex.com/d/cj0hetiqGjhDiA/Hanazono-mincho).
   This font is made by the `glyphwiki` project and supports all Unicode characters.
   A perfect back-up font.
+
+  Related: [Font test page](https://ctext.org/font-test-page) with download links.
 * [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
   A font that imitates handwriting.
   The font covers all `JIS第２水準` kanji characters.
 * [kanji-restoration](https://github.com/epistularum/kanji-restoration).
   A custom font that only displays `旧字体`.
 * [Motomachi](https://github.com/kwing0310/motomachi).
-* [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
+* **[AJATT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA)**.
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
   You can simply extract the entire folder to `~/.local/share/fonts` to install them.
@@ -958,6 +949,28 @@ You've been warned.
   Uses IPA notation + has mouth/tongue diagrams.
 * [Practice Japanese Numbers](https://langpractice.com/japanese/).
   A page for training listening to numbers.
+
+## Past-beginner
+
+### Grammar in Japanese
+
+* [毎日のんびり日本語教師](https://nihongonosensei.net/).
+  A website run by a Japanese teacher living in China.
+  Grammar is sorted by JLPT levels.
+  The entries are in Japanese (monolingual definitions) and Chinese.
+  Provides example sentences.
+* [国語文法](http://xn--vcs415akpfnn7a.com/).
+  Japanese grammar taught by a Japanese teacher.
+* [国語の文法](https://www.kokugobunpou.com/).
+* [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
+
+### Kanken (漢字検定)
+
+* [Brett Mayer's Kanken Site](https://www.bretmayer.com/kanji.html).
+  Lists of kanken relevant vocab and kanji.
+* [漢字検定一級・日本語検定一級に受かったロシア人](https://roshiajin.jp/).
+  Site of a Russian national who passed Kanken 1.
+  Tells you the contents of the exam and how to study for Kanken.
 
 ## Language guides
 
