@@ -108,14 +108,15 @@ unless you want to re-read the target word's definition.
 This also encourages you to add shorter sentences to your deck,
 which is a good practice.
 
-### [Reset Card Scheduling](https://ankiweb.net/shared/info/300884351)
+### [Reset Card Scheduling](https://ankiweb.net/shared/info/1021636467)
 
 This add-on turns selected cards back into new cards and erases any recorded lapse and repetition counts.
 It is very handy for dealing with [leeches](setting-up-anki.html#lapses)
 because you can reset a card and then change its contents
 to make sure that you won't forget it anymore, and then learn it again.
 
-<p align="center"><img alt="reset-card" class="shadow" src="img/reset-card.png"></p>
+<p align="center"><img alt="reset-card" class="shadow" src="img/reset-card.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
 
 ### [Mortician](https://ankiweb.net/shared/info/1255924302)
 
