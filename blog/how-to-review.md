@@ -86,6 +86,8 @@ This means you need to increase you Interval Modifier.
 
 ## Showing up
 
+<img src="img/dekinai-anki-rock.webp" float="right">
+
 Khatz's blog has an article about [Showing up](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up).
 100% of winning is showing up.
 Dedicate the time, and you'll see the results.
