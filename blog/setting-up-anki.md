@@ -4,8 +4,6 @@ date: 1609127492
 tags: [anki]
 ---
 
-<img alt="anki logo" src="img/anki_logo.webp" float="right">
-
 [Anki](https://wiki.archlinux.org/index.php/Anki)
 is a
 [Spaced repetition](https://wikiless.org/wiki/Spaced_repetition?lang=en)
@@ -29,6 +27,8 @@ to help you get things up and running as quickly as possible.
 ****
 
 ## Installation
+
+<img alt="anki logo" src="img/anki_logo.webp" float="right">
 
 There are two main ways to install Anki.
 
