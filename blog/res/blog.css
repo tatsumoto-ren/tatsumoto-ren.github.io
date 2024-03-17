@@ -1455,19 +1455,28 @@ a.mega_link {
 /* Floating images in articles */
 
 article img[float] {
-    float: right;
-    max-height: 200px;
-    max-width: 33.3%;
-    margin-inline: 5px 0;
+    /* Mobile screens first */
+    float: none;
+    display: block;
+    margin-inline: auto;
 }
 
-article p + img[float] {
-    margin-block: 1rem 0;
-}
+@media only screen and (min-width: 800px) {
+    article img[float] {
+        float: right;
+        max-height: 250px;
+        max-width: 33.3%;
+        margin-inline: 5px 0;
+    }
 
-article img[float="left"] {
-    float: left;
-    margin-inline: 0 5px;
+    article p + img[float] {
+        margin-block: 1rem 0;
+    }
+
+    article img[float="left"] {
+        float: left;
+        margin-inline: 0 5px;
+    }
 }
 
 /* Notes in articles and Magnet links */
