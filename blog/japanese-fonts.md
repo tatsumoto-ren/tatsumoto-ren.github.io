@@ -37,6 +37,8 @@ This kanji is quite common and can be seen in words like `正直` or `直ぐ`.
 <p align="center"><img src="img/glyph_comparison.webp"></p>
 <p align="center"><i>Noto Serif CJK SC vs Noto Serif CJK JP.</i></p>
 
+<img src="img/unihan test.webp" float="right">
+
 If `直` renders without the vertical line on the left side,
 your browser is using Chinese fonts for Japanese.
 You need to install Japanese fonts and change your system settings.
