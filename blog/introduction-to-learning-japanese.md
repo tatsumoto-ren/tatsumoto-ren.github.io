@@ -24,6 +24,8 @@ There are thousands people learning Japanese, and you should be part of it.
 >
 > *― Khatzumoto*
 
+<img src="img/yoshi.webp" float="right">
+
 Consuming the language is how you learn the language.
 You know, babies can only cry and poop their pants
 but within the first few years from birth they learn to speak their first language.
