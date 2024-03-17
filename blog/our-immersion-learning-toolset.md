@@ -166,6 +166,8 @@ External resources:
 
 ## [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng)
 
+A cross-platform open source e-book reader using crengine-ng.
+
 * [Install from the AUR](https://aur.archlinux.org/packages?K=crqt-ng)
 * [Reading books](reading-books.html)
 
