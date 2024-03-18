@@ -27,9 +27,12 @@ along with the most common 1000 words used in everyday conversations.
 Once you finish this deck, you should be able to understand enough Japanese
 to start learning directly from your immersion.
 
+<img src="img/kanji-drill.webp" float="right">
+
 Prior knowledge of [kana](learning-kana-in-two-days.html) is required
 but there is no need to do any isolated kanji study
 before starting this deck.
+You're going to learn kanji and vocabulary at the same time.
 
 If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck like **Core** or **Tango**
 and know more than 1,000 words
@@ -43,6 +46,8 @@ I recommend that you give the KanjiTransition deck a try.
 
 The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vocabulary.html)
 and consists of words commonly used in everyday life in Japan.
+Most cards in the deck have example sentences.
+Cards are presented relatively in the [1T](one-target-sentences.html) order.
 Each sentence in the deck tries to introduce only one unknown word or structure.
 Each word along with each sentence has native audio and an English translation.
 
@@ -83,10 +88,11 @@ since you're still *transitioning* to reading native Japanese sentences.
 Download the folder below to get the deck.
 
 <p align="center">
-<a class="download_button" href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Download</a>
+<a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
 </p>
 <p align="center">
 <a href="https://t.me/ajatt_tools/72" target="_blank">Mirror</a>
+<a href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Mirror</a>
 </p>
 
 The following sections explain what these decks are.
@@ -94,10 +100,13 @@ The following sections explain what these decks are.
 ## Anki deck
 
 At Ajatt-Tools we believe that
-the most effective way to learn vocabulary is through targeted sentence cards.
+the most effective way to learn vocabulary is through
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards).
+The target word on the cards is highlighted.
+You decide if you want to read the whole sentence or just the word.
 This deck contains modified targeted sentence cards.
 They differ from regular TSCs.
-If a word contains kanji,
+The difference is that if a word contains kanji,
 you can view the furigana reading by hovering over the word with your mouse or clicking on it.
 
 On the front there's an example sentence.
