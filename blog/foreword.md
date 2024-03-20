@@ -68,6 +68,18 @@ The emphasis is very strong on input and comprehension in the beginning.
 You try to get to understand Japanese perfectly
 before concerning with trying to produce Japanese yourself.
 
+## It's free
+
+It is important to be mindful of your finances when learning a foreign language.
+I learned Japanese without spending any money, and I encourage you to do so too.
+Everything you need to master Japanese can be found here and online.
+There is no limit to the amount of media and books you can absorb.
+With torrents, you can find any anime, drama, or manga ever made.
+The internet provides an unlimited number of resources for Japanese media.
+Additionally, you can easily access dictionaries,
+grammar guides,
+and software to facilitate your language learning.
+
 ## Technology
 
 We use a variety of
@@ -75,21 +87,10 @@ We use a variety of
 to help in the learning process.
 The tools introduced in this guide are
 [free as in freedom](https://www.gnu.org/philosophy/free-sw.html).
+We use what we recommend.
 We don't endorse
 [proprietary software](https://www.gnu.org/proprietary/proprietary.html)
 and services that mistreat their users.
-
-## Don't spend money
-
-It is important to be mindful of your finances when learning a foreign language.
-I learned Japanese without spending any money, and I encourage you to do so too.
-Everything you need to master Japanese can be found online.
-There is no limit to the amount of media and books you can absorb.
-With torrents, you can find any anime, drama, or manga ever made.
-The internet provides an unlimited number of resources for Japanese media.
-Additionally, you can easily access dictionaries,
-grammar guides,
-and software to facilitate your language learning.
 
 ## Don't go to classes
 
