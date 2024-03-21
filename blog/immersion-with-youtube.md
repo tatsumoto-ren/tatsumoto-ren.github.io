@@ -42,7 +42,7 @@ There are several ways you can watch YouTube.
    Storing immersion material locally makes [sentence mining](sentence-mining.html) substantially easier.
 4) Not using YouTube at all.
    Explore privacy-respecting platforms
-   like [PeerTube](https://joinpeertube.org/) and [Odysee](https://odysee.com/).
+   like [PeerTube](https://joinpeertube.org/) (https://video.076.moe) and [Odysee](https://odysee.com/).
    Chances are, you'll find Japanese immersion content there too.
    `yt-dlp` works on these websites as well.
 
@@ -110,9 +110,7 @@ See `$ man yt-dlp` for a comprehensive list of options.
 
 ## Notes
 
-* If you want simple and easy Japanese immersion without having to set things up,
-  just go to **[youtube.owacon.moe](https://youtube.owacon.moe/)**.
-  This is a Japanese Invidious instance.
+* [pipe-viewer](https://github.com/trizen/pipe-viewer) is a lightweight YouTube client for Linux.
 * In my dotfiles I have
   [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
   that sorts Invidious instances based on the number of users.
