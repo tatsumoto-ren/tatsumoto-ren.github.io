@@ -196,6 +196,8 @@ As your comprehension grows, the formerly challenging language will become easie
 
 ## Free flow immersion
 
+<img src="img/free-flow.webp" float="left">
+
 If you sit all day and mine sentences, you're going to lose your mind, or die from exhaustion.
 Free-flow immersion is when you allow yourself to relax without having to mine or look up words,
 while still paying attention to the content.
