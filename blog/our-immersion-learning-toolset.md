@@ -26,6 +26,8 @@ while you're preparing to upgrade to the better system.
 
 ## How we choose software
 
+<img src="img/using-computer.webp" float="right">
+
 All software that we use and approve must
 [respect the users' freedom](https://www.gnu.org/philosophy/free-sw.html).
 The point of free software is that we have control of our software and our computing.
