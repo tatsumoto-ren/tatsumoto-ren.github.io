@@ -164,6 +164,8 @@ it is recommended that you carry them out as separate exercises,
 
 ## Intensive immersion
 
+<img src="img/intensive-immersion.webp" float="right">
+
 When you look up everything trying to comprehend 100%, it is known as intensive immersion.
 During intensive immersion you're in a more conscious mode
 where you're thoroughly analyzing the language as you're going.
