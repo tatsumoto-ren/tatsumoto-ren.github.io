@@ -13,6 +13,8 @@ and how to deal with the ambiguity that can arise when immersing.
 
 ****
 
+<p align="center"><img src="img/active-immersion.webp" alt="active immersion"></p>
+
 ## What is active immersion
 
 Active immersion is the most crucial element in language learning.
