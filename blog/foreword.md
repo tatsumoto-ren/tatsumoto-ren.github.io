@@ -92,61 +92,8 @@ We don't endorse
 [proprietary software](https://www.gnu.org/proprietary/proprietary.html)
 and services that mistreat their users.
 
-## Don't go to classes
-
-Why classes suck.
-
-* They cost money.
-* They don't provide compelling content, they're boring.
-* In class, you get *toxic input*,
-  you get to listen to speech produced by other foreigners which is ridden with mistakes.
-* Your teacher doesn't know Japanese that well.
-* If you happen to get a native as your teacher,
-  they likely have no idea how language acquisition works,
-  they don't remember how they learned Japanese,
-  and they've never actually followed their own advice.
-* Premature output.
-  You are forced to speak before you are ready.
-  Usually people start outputting naturally after 1 to 1.5 years of learning,
-  and it's very hard to force output to come out earlier.
-
-## Don't waste time
-
-Avoid *blue-pilled* resources.
-There are a myriad of methods out there,
-and each of them tells you to do different things.
-Some methods are effective, but many are not.
-Unfortunately, the quality of advice on the Internet is often poor,
-with more bad advice than good advice.
-If you want to reach mastery in a foreign language,
-you don't want to waste you time on ineffective methods.
-
-Examples of low quality resources.
-
-* Textbooks made for foreigners.
-  Examples include Genki, Minna no Nihongo, Japanese From Zero, etc.
-  If your goal is proficiency, you won't be satisfied with the low level and slow pace of textbooks.
-  In the beginning you can use a basic grammar guide,
-  everything on top of that won't be necessary.
-* [Wanikani](what-are-the-downsides-of-using-wanikani.html),
-  [Duolingo](why-shouldnt-i-just-keep-using-an-app-instead.html),
-  Busuu and most "apps",
-  especially if they claim that you can learn to speak a language in 10 minutes a day.
-  Language apps can't replace learning through massive exposure to the target language,
-  and they can't tell you everything you should know.
-  Language is not an app that you open and close.
-  Reaching fluency is more like multi-booting,
-  i.e., installing multiple operating systems on a single computer,
-  and being able to choose which one to boot.
-  Each OS has to be useful,
-  you should be able to do anything you want with it.
-
-  The only real "app" you need is a flashcard application to review what you've learned.
-* YouTube channels where everybody speaks English all the time, like JapanesePod101.
-* Any method that doesn't put immersion first or forces premature speaking.
-
 ## What's next
 
-The next article will provide you with an overview of the method,
+The following articles we will will provide you with an overview of the method,
 and the most important steps you need to take.
 The remaining articles address each step in detail.

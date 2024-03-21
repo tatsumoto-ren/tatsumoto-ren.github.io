@@ -5,9 +5,26 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 21 Mar 2024 04:41:38 +0300</lastBuildDate>
-<pubDate>Thu, 21 Mar 2024 04:41:38 +0300</pubDate>
+<lastBuildDate>Thu, 21 Mar 2024 07:43:45 +0300</lastBuildDate>
+<pubDate>Thu, 21 Mar 2024 07:43:45 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Avoiding bad advice</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Countless language-learning methods exist,
+and each of them tells you to do different things.
+Some methods are effective, but many are not.
+Unfortunately,
+the Internet is brimming with advice that might sound good
+but often leads to little progress.
+If you want to reach mastery in a foreign language,
+you don't want to waste precious time on ineffective methods.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/bad-advice.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/bad-advice.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 21 Mar 2024 03:51:27 +0300</pubDate>
+</item>
 <item>
 <title>Cross Profile Search And Import</title>
 <author>Tatsumoto</author>
@@ -390,24 +407,6 @@ It may contain mistakes.</p>
 <guid>https://tatsumoto-ren.github.io/blog/i-dont-know-how-to-say-something-should-i-translate-in-my-head.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 08 Oct 2023 03:49:57 +0300</pubDate>
-</item>
-<item>
-<title>How do I know I have finished an Anki deck?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<ol>
-<li>Open the Anki Browser (shortcut: <kbd>b</kbd>).</li>
-<li>From the left sidebar select the deck you want to check.</li>
-<li>Add <code>is:new</code> to the search query.</li>
-</ol>
-<p>If there are no <em>new</em> cards left, you're done.</p>
-<p align="center"><img src="img/anki-browser-new-cards.webp" alt="screenshot"></p>
-<p align="center"><i>Screenshot.</i></p>
-<p>See also: <a href="https://docs.ankiweb.net/searching.html?highlight=is%3Anew#card-state">Card states</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-do-i-know-i-have-finished-an-anki-deck.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-do-i-know-i-have-finished-an-anki-deck.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 01 Oct 2023 23:23:37 +0300</pubDate>
 </item>
 </channel>
 </rss>
