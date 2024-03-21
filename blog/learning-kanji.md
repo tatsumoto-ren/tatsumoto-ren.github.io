@@ -11,6 +11,8 @@ learning kanji is apparently more difficult, and there are many methods of doing
 
 ## How to approach kanji
 
+<img src="img/kanji-book.webp" float="right">
+
 To pick the right method
 you have to understand why you want to learn kanji in the first place.
 The "practice how you play" principle applies here as well.
