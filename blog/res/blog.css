@@ -1459,12 +1459,12 @@ article img[float] {
     float: none;
     display: block;
     margin-inline: auto;
+    max-height: min(40vh, 250px);
 }
 
 @media only screen and (min-width: 800px) {
     article img[float] {
         float: right;
-        max-height: 250px;
         max-width: 33.3%;
         margin-inline: 5px 0;
     }
