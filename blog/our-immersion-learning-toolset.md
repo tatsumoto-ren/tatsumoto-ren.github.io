@@ -211,6 +211,8 @@ along with a correctly timed subtitle file for that show/movie.
 
 ## Android
 
+<img src="img/keitai.webp" float="right">
+
 Having a mobile device is not strictly necessary for learning Japanese,
 but it can be handy.
 It can be used to review Anki flashcards when you're not home.
