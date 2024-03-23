@@ -382,8 +382,8 @@ nav>a:focus {
     content: url("img/anki.webp");
 }
 
-.key_points .bomb {
-    content: url("img/bomb.svg");
+.key_points .chat {
+    content: url("img/element.svg");
 }
 
 /* Footer */
