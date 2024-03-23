@@ -30,7 +30,7 @@ to help you get things up and running as quickly as possible.
 
 <img alt="anki logo" src="img/anki_logo.webp" float="right">
 
-There are two main ways to install Anki.
+There are several ways to install Anki.
 
 * Using your distribution's package manager ([pacman](https://wiki.archlinux.org/title/Pacman), apt, dnf, etc.).
 * Using [pipx](https://pipx.pypa.io/stable/), a software installer for Python programs.
@@ -48,7 +48,8 @@ Please don't install Anki via [FlatPak](https://flatkill.org/),
 Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
-If you are running Wayland, please revert to [Xorg](https://wiki.archlinux.org/title/xorg)
+If you are running Wayland,
+please switch to [Xorg](https://wiki.archlinux.org/title/xorg)
 to avoid possible issues.
 
 ### Using your package manager
@@ -156,9 +157,9 @@ This will allow you to review your flashcards when you're outside
 and don't have access to your computer.
 I prefer downloading the latest alpha from
 [GitHub](https://github.com/ankidroid/Anki-Android/releases)
-because AnkiDroid's releases are slow.
+because the releases on F-Droid tend to be slow.
 
-To sync your collection on desktop, press `Y` or click "Sync" on the toolbar.
+To sync your collection on desktop, press <kbd>Y</kbd> or click "Sync" on the toolbar.
 
 ## Import an example mining deck
 
