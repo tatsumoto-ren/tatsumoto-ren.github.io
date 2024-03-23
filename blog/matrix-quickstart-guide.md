@@ -202,8 +202,6 @@ Now go to http://127.0.0.1:8000/ and sign in to your account.
 I have written
 [a little script](https://aur.archlinux.org/cgit/aur.git/tree/element-web.sh?h=element-desktop-git-greentext)
 to quickly **start** and **stop** a local instance of element-web.
-It is a part of
-[my build of Element](https://aur.archlinux.org/packages/element-web-greentext/).
 
 **Caveats.**
 
@@ -441,9 +439,8 @@ for a list of Element instances that can replace `app.element.io`.
 
 ## How do I greentext?
 
-You can greentext [like this](https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext),
-or you can install [element-web-greentext](https://aur.archlinux.org/packages/element-web-greentext)
-with `/greentext` command built-in.
+You can greentext
+[like this](https://web.archive.org/web/20230128120535/https://glowers.club/wiki/doku.php?id=wiki:newfriends#how_do_i_greentext).
 [QuickMedia](https://git.dec05eba.com/QuickMedia/about/) supports greentext out of the box.
 
 <p align="center"><img src="img/element-greentext.webp"></p>
