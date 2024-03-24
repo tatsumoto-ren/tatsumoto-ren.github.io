@@ -395,7 +395,7 @@ footer {
     text-align: center;
     margin-block-start: var(--tile-margin-start);
     padding-block: 0.5rem;
-    padding-inline: 1rem;
+    padding-inline: var(--row-padding-inline);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
