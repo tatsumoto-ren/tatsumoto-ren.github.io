@@ -5,6 +5,7 @@
 :root {
     --row-padding-inline: clamp(0.5rem, 2vw, 1.5rem);
     --row-padding-block: 40px;
+    --tile-margin-start: 4rem;
     --header-logo-height: 52px;
     --link-color: #344d92;
     --link-color-hover: #0074D9;
@@ -254,7 +255,7 @@ nav>a:focus {
 /* Tiles */
 
 .tile+.tile {
-    margin-block-start: 4rem;
+    margin-block-start: var(--tile-margin-start);
 }
 
 /*
@@ -389,24 +390,36 @@ nav>a:focus {
 /* Footer */
 
 footer {
+    background-color: #1b1a1a;
     color: white;
     text-align: center;
-    padding-block: var(--row-padding-block);
+    margin-block-start: var(--tile-margin-start);
+    padding-block: 0.5rem;
     padding-inline: 1rem;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-}
+    gap: 1ch;
 
-footer>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    --link-color: rgb(188, 201, 240);
+    --link-color-hover: rgb(232, 235, 245);
 
-footer img {
-    width: 2rem;
-    display: inline-block;
+    a {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1ch;
+    }
+
+    img {
+        width: 1.5rem;
+        display: block;
+        background-color: white;
+        border-radius: 100vmax;
+        padding: 2px;
+    }
 }
 
 /* List of recent articles */
