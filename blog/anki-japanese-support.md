@@ -316,7 +316,7 @@ paste the URL of the index and give it a unique name.
    ```
 1) NHK accent dictionary, 1998.
    ```
-   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.1/NHK_main.zip
+   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/download/v1.2/NHK-1998_main.zip
    ```
 1) Shinmeikai 8th edition.
    ```
@@ -343,7 +343,7 @@ paste the URL of the index and give it a unique name.
    ```
 1) NHK accent dictionary, 1998
    ```
-   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.0/NHK-1998_main.zip
+   https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/download/v1.1/NHK-1998_main.zip
    ```
 1) Shinmeikai 8th edition
    ```
