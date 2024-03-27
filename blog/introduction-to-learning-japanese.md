@@ -160,14 +160,26 @@ AJATT has existed for years, many people went through the program and achieved f
 
 ### Outputting
 
-**Shut up before you hurt yourself.**
-Your goal is to understand Japanese.
-If you can't understand it,
-there is no way you will be able to successfully communicate with others
-even if you memorize basic phrases from a textbook.
-[Premature speaking](can-i-speak-early.html) has other negative effects.
-It can mess up your accent and solidify your mistakes.
-Traditional language learners often demonstrate the effect in their speech.
+In AJATT, *to output* simply means to speak your target language,
+to interact with native speakers.
+Many language learners are eager to start speaking from day one.
+Unfortunately,
+this approach doesn't quite work,
+especially for those striving for true mastery of a language.
+While memorizing set phrases
+and practicing them can be helpful for very basic conversations,
+it is not a sustainable method for long-term progress.
+
+The *AJATT way* is to acquire language before engaging in speaking practice.
+As Khatz, the founder of AJATT, once said, "Shut up before you hurt yourself."
+The primary goal is to understand the language first.
+Without comprehension,
+successful communication with others becomes challenging,
+even if you have memorized basic phrases from a textbook.
+
+[Premature speaking](can-i-speak-early.html) can have other negative effects,
+such as impacting your accent and reinforcing common mistakes.
+These effects are often evident in traditional language learners' speech patterns.
 
 * It takes time to train your listening
   until you can hear native speech at natural speed and comprehend it.
@@ -199,7 +211,7 @@ Traditional language learners often demonstrate the effect in their speech.
 
 **Go through a silent period.**
 A very popular community guideline is to avoid speaking to anyone in Japanese
-for the first 1.5-2 years of learning.
+for the first 1 or 2 years of learning.
 
 **Output comes naturally.**
 Once you get a few thousand hours of input,
