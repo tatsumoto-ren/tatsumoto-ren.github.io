@@ -795,7 +795,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 * [GoldenDict](setting-up-goldendict.html).
   Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
   Has Anki support.
-* [Qolibri](https://aur.archlinux.org/packages/qolibri/).
+* [Qolibri](setting-up-qolibri.html).
   A Qt-based EPWING dictionary viewer.
   Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
   Refer to [setup guide](setting-up-qolibri.html).
