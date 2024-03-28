@@ -466,6 +466,72 @@ This number is nothing special, but it's more fun to have a goal to work towards
 I managed to learn 10,000 sentence cards in 11 months.
 Try this challenge too, but remember that Anki is just a supplement for immersion learning.
 
+## How to divide your study time
+
+Learning a language involves three main components:
+
+* Reviewing flashcards.
+* Reading immersion.
+  Watching with target language subtitles
+  ([never with native language subtitles](should-i-watch-anime-with-english-subtitles.html)),
+  reading manga and books.
+* Listening immersion.
+  Watching without subtitles (raw),
+  listening to audiobooks, radio, podcasts.
+
+Naturally, people [often ask](how-should-i-divide-my-study-time.html)
+about how to allocate their study time effectively.
+
+The general guideline
+is to divide your time equally between listening and reading
+(maintaining a `1:1` ratio),
+with an additional hour dedicated to flashcards.
+However,
+beginners should prioritize spending more time on **listening** than reading,
+while advanced learners will benefit more from **reading** than listening.
+
+For beginners,
+reading is more daunting and [has potential negative effects](thoughts-on-reading-before-listening.html)
+that most people would like to avoid.
+Reading leads to subvocalization.
+The act of reading activates muscles in the throat.
+If one doesn't have decent pronunciation yet,
+subvocalization will reinforce their bad pronunciation habits
+and further negatively influence the way they perceive spoken language.
+But learning through reading allows to learn vocabulary faster
+because the words are written down for you,
+you don't have to decipher them from speech,
+and you can read at your own pace.
+Learning through listening takes more time,
+but it doesn't have the same negative impact.
+Listening helps train your ears and enhances your ability to comprehend spoken language.
+
+In conclusion,
+it is advisable to begin with **listening immersion** only.
+For example,
+start by watching easy anime.
+Note that you need subtitles to look up unknown words, but you
+[don't need them to be visible all the time](is-it-harmful-to-always-have-tl-subtitles-on.html).
+Then, gradually incorporate **reading immersion** into your routine.
+As you progress, increase the time allocated to reading.
+Adjust the ratio
+[depending on your personal goals](how-much-listening-should-i-do-before-i-start-reading.html).
+
+We recommend not to exceed **one** hour per day on flashcards for two main reasons.
+First,
+most people find the SRS ([spaced repetition](spaced-repetition.html) systems) quite boring.
+Second,
+the SRS is just a supplement.
+It helps strengthen your memory,
+but language acquisition happens only while immersing.
+
+Watching with subtitles counts towards reading immersion
+because reading the subtitles creates an inner voice
+that competes with the speech in your target language.
+Consequently,
+you are not actively listening to the native speech
+but rather focusing on your internal subvocalization while reading the subtitles.
+
 ## Summary
 
 In the following articles you'll find out how to go through the learning steps.
