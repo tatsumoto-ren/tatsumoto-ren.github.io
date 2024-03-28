@@ -330,6 +330,8 @@ To enable this feature, go to "Settings" > "Popup".
 Change the following settings:
 * Allow scanning popup content - on.
 * Maximum number of child popups - any high number.
+  When using [monolingual dictionaries](going-monolingual.html),
+  you want to be able to look up any words you don't know **within** definitons.
 * Allow scanning popup source terms - on.
 
 <p align="center"><img class="shadow" alt="child popups settings" src="img/child-popups-settings.webp"></p>
@@ -370,6 +372,15 @@ This is different from simply uninstalling bilingual dictionaries.
 Often there are words that Jp-Jp dictionaries don't define.
 Rikaitan won't be able to parse such words if JMdict is not installed.
 
+### Audio
+
+Since the offered pronunciations are not correct,
+just disable them and rely on other sources of audio.
+AJT Japanese can add audio files to Anki cards.
+
+* "Auto-play search result audio" - disable.
+* "Enable audio playback for terms" - disable.
+
 ### Miscellaneous
 
 * "General" > "Show the welcome guide on browser startup": disable.
@@ -377,7 +388,6 @@ Rikaitan won't be able to parse such words if JMdict is not installed.
 * "Popup Position & Size" > "Scale": adjust to your preference.
 * "Text Parsing" > "Show space between parsed words": disable.
 * "Clipboard" > "Enable search page clipboard text monitoring": enable.
-
 
 <p align="center"><img alt="screenshot" class="shadow" src="img/rikaitan-scan-delay.webp"></p>
 <p align="center"><i>Scan delay.</i></p>

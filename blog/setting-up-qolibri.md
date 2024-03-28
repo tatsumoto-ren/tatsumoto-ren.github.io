@@ -74,7 +74,7 @@ most Qolibri dictionaries are old, they date back to the 1990s.
 But don't worry about it,
 in rare occasions when you can't find a definition for a new word or slang,
 you can use the web search or consult
-[online dictionaries](resources.html#online).
+[online dictionaries](resources.html#online-dictionaries).
 
 ## Recommended dictionaries
 

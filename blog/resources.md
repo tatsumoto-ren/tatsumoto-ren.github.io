@@ -821,7 +821,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
   It doesn't support Anki and monolingual dictionaries, but is fine otherwise.
 * [cabl](plumbing-for-language-learners.html).
 
-### Online
+### Online dictionaries
 
 * [Dictionariez](https://github.com/pnlpal/dictionaries).
   A popup-dictionary extension that works similarly to Rikaitan.

@@ -5,9 +5,28 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 28 Mar 2024 09:15:02 +0300</lastBuildDate>
-<pubDate>Thu, 28 Mar 2024 09:15:02 +0300</pubDate>
+<lastBuildDate>Thu, 28 Mar 2024 11:09:11 +0300</lastBuildDate>
+<pubDate>Thu, 28 Mar 2024 11:09:11 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Going monolingual</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>So far,
+you have been relying on bilingual dictionaries to learn new words.
+For those studying Japanese,
+JMdict is a frequently used resource,
+offering Japanese-to-English translations.
+Going monolingual means moving from bilingual to monolingual dictionaries.
+It is an important step forward in your language acquisition journey.
+This shift is crucial for achieving long-term success and mastering the language.</p>
+<p>In this article,
+we will explore how to transition from bilingual to monolingual dictionaries effectively.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/going-monolingual.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/going-monolingual.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 28 Mar 2024 11:08:05 +0300</pubDate>
+</item>
 <item>
 <title>Avoiding bad advice</title>
 <author>Tatsumoto</author>
@@ -373,40 +392,6 @@ Being aware of language domains helps find the most optimal path to fluency.</p>
 <guid>https://tatsumoto-ren.github.io/blog/language-domains.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Thu, 19 Oct 2023 23:52:34 +0300</pubDate>
-</item>
-<item>
-<title>I don't know how to say something. Should I translate in my head?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>You should only say something you know is correct.
-You know that a sentence is correct if you've heard a native speaker say it before.
-Or if you've heard them say something very similar.
-However, this may not always be possible.
-In such cases, there are several options available to you.</p>
-<p>First,
-assume that anything that doesn't come from a native speaker is incorrect.
-This includes:</p>
-<ul>
-<li><a href="could-machine-translation-be-useful-to-language-learners.html">Machine translations</a>
-from sources like Google or Deepl.</li>
-<li>Sentences you construct using memorized words and grammar rules.</li>
-</ul>
-<p>Try searching examples online.
-There are <a href="resources.html#examples-and-pronunciations">many websites that can help</a>.
-By typing in the words you want to say,
-you can find similar sentences in your target language.
-You can also search in your Anki collection.
-Chances are, you've mined a sentence that is close to what you want to say.</p>
-<p>In a situation where you can't use the Internet,
-your only option is to say something different.
-Or to say what you've come up with yourself and remember to check later if it's correct.
-Keep in mind that just because a native speaker understands you,
-it does not mean the sentence is correct.
-It may contain mistakes.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/i-dont-know-how-to-say-something-should-i-translate-in-my-head.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/i-dont-know-how-to-say-something-should-i-translate-in-my-head.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 08 Oct 2023 03:49:57 +0300</pubDate>
 </item>
 </channel>
 </rss>
