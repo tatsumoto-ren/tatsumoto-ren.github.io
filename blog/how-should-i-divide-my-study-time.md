@@ -27,3 +27,5 @@ at the expense of reading time.
 
 Without immersion, Anki helps very little.
 Trading immersion time for more Anki is definitely not a good idea.
+
+Related: [How much time should I spend SRSing?](how-much-time-should-i-spend-srsing.html)
