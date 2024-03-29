@@ -91,7 +91,6 @@ Download the folder below to get the deck.
 <a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
 </p>
 <p align="center">
-<a href="https://t.me/ajatt_tools/72" target="_blank">Mirror</a>
 <a href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Mirror</a>
 </p>
 
