@@ -26,7 +26,7 @@ These dictionaries are designed for native speakers of your target language.
 They define words in the TL.
 For example,
 `大辞林`, `明鏡`, and `新明解` are
-[monolingual Japanese dictionaries](yomichan-and-epwing-dictionaries.html#monolingual).
+monolingual Japanese dictionaries.
 
 In English,
 you can find monolingual learner's dictionaries.
