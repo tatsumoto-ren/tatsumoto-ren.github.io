@@ -46,15 +46,16 @@ date: 1616375454
 	* [Passive immersion tech](passive-listening.html)
 	* [Retiming subtitles](retiming-subtitles.html)
 	* [Sentence banks](cross-profile-search-and-import.html)
-	* [Writing by hand](writing-japanese.html)
 	* [Condensing active immersion](condensing-active-immersion.html)
 	* [Plumbing](plumbing-for-language-learners.html)
 	* [Timeboxing](timeboxing.html)
-* [Going monolingual](going-monolingual.html)
+* Subsequent topics
+	* [Going monolingual](going-monolingual.html)
+	* [Understanding monolingual definitions](understanding-monolingual-definitions.html)
+	* [Writing by hand](writing-japanese.html)
 * Apocrypha
 	* [List of resources](resources.html)
 	* [FAQ](tag_faq.html)
-	* [Understanding monolingual definitions](understanding-monolingual-definitions.html)
 	* [Sentences with native audio](ankidrone-sentence-pack.html)
 * Contact and Support
 	* [Join our community](join-our-community.html)
