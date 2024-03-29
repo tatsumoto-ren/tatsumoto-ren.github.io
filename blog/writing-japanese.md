@@ -5,18 +5,18 @@ tags: ['guide']
 ---
 
 After you've got a few thousand hours of input
-and can read content made for natives relatively effortlessly
+and can read content made for natives relatively effortlessly,
 it makes sense to start practicing writing Japanese by hand.
 Bear in mind that being able to do so is not necessary unless you plan to live in Japan.
 Nowadays writing is done on a keyboard
 and doesn't require recalling characters from memory.
 However, writing practice has the potential to improve your overall reading ability.
 
-<p align="center"><img alt="write japanese" src="img/write_japanese.webp"></p>
-
 ****
 
 ## When to learn handwriting
+
+<img alt="write japanese" src="img/writing.webp" float="right">
 
 Let's say you want to learn how to write `薔薇` by hand.
 It would be best if you already knew the word,
