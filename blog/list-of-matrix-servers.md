@@ -59,38 +59,25 @@ With a 🏆 I marked servers that have received a <span title="ACL ban">trophy o
 Not all the servers may be open for registration at any point of time.
 You may need to Email an admin to get an account.
 
-### Homeservers recommended by [#d:anontier.nl](https://matrix.to/#/#d:anontier.nl):
+| Server                   | Web client                                                    | Extra                                                |
+| :---                     | :---                                                          | :---                                                 |
+| `moriyashrine.org`       | [element.moriyashrine.org](https://element.moriyashrine.org/) |                                                      |
+| `plan9.rocks`            | None                                                          | [Register here](https://plan9.rocks/register/)       |
+| `cutefunny.art`          | [cutefunny.art](https://matrixclient.cutefunny.art/)          | 🏆                                                   |
+| `sakura.ci`              | [web.sakura.ci](https://web.sakura.ci/)                       |                                                      |
+| `iddqd.chat`             | [iddqd.chat](https://iddqd.chat/)                             | last checked - closed                                |
+| `trygve.me`              | [trygve.me](https://element.trygve.me/)                       |                                                      |
+| `nitro.chat`             | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
+| `midov.pl`               | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
+| `w33b.cloud`             | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
+| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/)           | last checked - closed                                |
+| `eientei.org`            | [matrix.eientei.org](https://matrix.eientei.org/)             |                                                      |
+| `matrix.im`              | [element](https://element.matrix.im)                          |                                                      |
+| `sibnsk.net`             | [element](https://element.sibnsk.net)                         |                                                      |
+| `matrix.unredacted.org`  | [element](https://element.unredacted.org)                     | last checked - closed                                |
+| `zelchat.de`             | [chat.zelchat.de](https://chat.zelchat.de/)                   |                                                      |
 
-| Server                  | Web client                                  | Extra                 |
-| :---                    | :---                                        | :---                  |
-| `matrix.im`             | [element](https://element.matrix.im)        |                       |
-| `sibnsk.net`            | [element](https://element.sibnsk.net)       |                       |
-| `matrix.unredacted.org` | [element](https://element.unredacted.org)   | last checked - closed |
-| `zelchat.de`            | [chat.zelchat.de](https://chat.zelchat.de/) |                       |
-
-### My selection
-
-| Server             | Web client                                                    | Extra                                                |
-| :---               | :---                                                          | :---                                                 |
-| `moriyashrine.org` | [element.moriyashrine.org](https://element.moriyashrine.org/) |                                                      |
-| `plan9.rocks`      | None                                                          | [Register here](https://plan9.rocks/register/)       |
-| `cutefunny.art`    | [cutefunny.art](https://matrixclient.cutefunny.art/)          | 🏆                                                   |
-| `sakura.ci`        | [web.sakura.ci](https://web.sakura.ci/)                       |                                                      |
-| `iddqd.chat`       | [iddqd.chat](https://iddqd.chat/)                             | last checked - closed                                |
-| `trygve.me`        | [trygve.me](https://element.trygve.me/)                       |                                                      |
-| `nitro.chat`       | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
-| `midov.pl`         | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
-| `w33b.cloud`       | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
-
-### [Intelligent Selections Regarding Account Entrustment, Listed](https://web.archive.org/web/20230529080517/https://israel.plan9.rocks/)
-
-Same as some above.
-
-| Server              | Web client                                        | Extra |
-| :---                | :---                                              | :---  |
-| `eientei.org`       | [matrix.eientei.org](https://matrix.eientei.org/) |       |
-
-### Servers run by Japanese people
+## Servers run by Japanese people
 
 | Server                | Web client                                       | Extra |
 | :---                  | :---                                             | :---  |
@@ -98,11 +85,6 @@ Same as some above.
 | `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
 
 Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
-
-### [A list of homeservers](https://web.archive.org/web/20230227042902/https://glowers.club/wiki/doku.php?id=wiki:homeservers) recommended by [Glowers Club](https://web.archive.org/web/20221208070442/https://glowers.club/wiki/doku.php?id=start)
-| Server                   | Web client                                          | Extra                    |
-| :---                     | :---                                                | :---                     |
-| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/) | last checked - closed    |
 
 ## Do not use
 
