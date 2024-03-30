@@ -524,6 +524,8 @@ You may need a Japanese IP address for some of these.
 
 ### Productivity
 
+> Main article: [Timeboxing](timeboxing.html)
+
 * [tatsumato](https://aur.archlinux.org/packages/tatsumato).
   Tatsumoto's Pomodoro timer.
 * [potato](https://aur.archlinux.org/packages/potato).
