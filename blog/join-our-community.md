@@ -24,8 +24,7 @@ Matrix is federated and consists of many servers, much like Email.
 Different Matrix servers are able to talk to each other.
 Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
-and register an account on one of the servers
-[listed here](list-of-matrix-servers.html).
+and register an account on one of the [servers listed here](list-of-matrix-servers.html).
 If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
 
 <a target="_blank" class="md-button element" href="https://matrix.to/#/#join:midov.pl">Join us on Element</a>
