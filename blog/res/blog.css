@@ -384,15 +384,40 @@ header > nav a:visited {
     padding: 0 2px;
 }
 
+/* Important links inside Header */
+
 header > nav a.important {
+    --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+    --gradient: linear-gradient(to right, rgb(200, 0, 68), rgb(128, 0, 128));
+    --header-item-focused-shadow-color: rgba(0, 8, 15, 0.8);
+
     color: var(--header-important-item-color);
     background-color: var(--header-important-item-background-color);
+    background-image: var(--gradient);
+    background-size: 1000% 100%;
+    animation: slide-bg-gradient 20s linear infinite alternate;
     border: none;
+    background-position: left;
+    transition: all 0.3s;
+
+    &:is(:hover, :active, :focus) {
+        color: var(--header-important-item-hover-color);
+        background-color: var(--header-important-item-hover-background-color);
+        background-image: var(--dim), var(--gradient);
+        text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+    }
 }
 
-header > nav a.important:is(:hover, :active, :focus) {
-    color: var(--header-important-item-hover-color);
-    background-color: var(--header-important-item-hover-background-color);
+@keyframes slide-bg-gradient {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
 }
 
 /* Header on wide screens */
