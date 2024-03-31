@@ -18,6 +18,8 @@ Then this site is right for you.
 
 ## Our approach
 
+<img src="img/dekinai.webp" float="right">
+
 We divide the process of learning any foreign language into two major steps.
 
 1) Learn to understand the language at a high level.
