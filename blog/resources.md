@@ -816,9 +816,9 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 
 * Rikaitan.
   Rikaitan is a browser extension that lets you easily look up unknown words.
-  * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
   * [How to set up Rikaitan](setting-up-yomichan.html)
   * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
+  * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
 * [Rikaikun](https://chromewebstore.google.com/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp).
 * [10ten Japanese Reader](https://github.com/birchill/10ten-ja-reader).
   Formerly known as Rikaichamp, this browser extension lets you look up Japanese words
@@ -892,7 +892,7 @@ Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.
   Has lots of voiced example sentences.
   [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
 * [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
-* If you have Rikaitan installed,
+* If you have [Rikaitan](setting-up-yomichan.html) installed,
   you can mine from [online sentence banks](#examples-and-pronunciations).
 * You can also try [AnkiWeb](https://ankiweb.net/shared/decks?search=anime),
   although pirated content is not common there.
