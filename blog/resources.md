@@ -57,6 +57,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
   [Core 6k/10k vocabulary reference](https://core6000.neocities.org/).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
+* Other [sentence banks](#sentence-banks).
 
 ### Grammar
 
@@ -139,6 +140,8 @@ In such cases sites with example sentences come to rescue.
   This torrent includes 292,342 native pronunciations of Japanese words.
   You can [use these folders in Goldendict](setting-up-goldendict.html#pronunciation-audio)
   after unpacking them into a directory of your choice.
+* If you have [CroPro](cross-profile-search-and-import.html) installed,
+  you can use [Anki decks](#anki-decks) as offline sentence banks.
 
 ## Immersion material
 
@@ -889,6 +892,8 @@ Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.
   Has lots of voiced example sentences.
   [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
 * [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
+* If you have Rikaitan installed,
+  you can mine from [online sentence banks](#examples-and-pronunciations).
 * You can also try [AnkiWeb](https://ankiweb.net/shared/decks?search=anime),
   although pirated content is not common there.
 
