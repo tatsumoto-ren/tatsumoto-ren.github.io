@@ -226,12 +226,14 @@ provided that the content is of personal interest.
 Monolingual dictionaries,
 e.g. Japanese to Japanese dictionaries such as `大辞林` or `明鏡`
 form a standalone domain.
+The language used in definitions differs from everyday speech or other domains of Japanese.
 This domain uses vocabulary that you rarely encounter elsewhere.
-We call it *defining vocabulary*.
+We sometimes call it *defining vocabulary*.
 The domain is quite small compared to others,
 but it's a good idea to tackle this domain in a structured and deliberate manner
 because you won't see these words in your immersion as much.
-This process is often called *going monolingual* and you're supposed to start it
+This process is often called [going monolingual](going-monolingual.html),
+and you're supposed to start it
 after your learn about 3,000 sentences bilingually,
 or about 3+ months after starting to learn your target language.
 Although people may choose to go monolingual at any other point in the learning process.
