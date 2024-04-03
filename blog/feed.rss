@@ -5,8 +5,8 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 03 Apr 2024 22:35:46 +0300</lastBuildDate>
-<pubDate>Wed, 03 Apr 2024 22:35:46 +0300</pubDate>
+<lastBuildDate>Wed, 03 Apr 2024 22:38:28 +0300</lastBuildDate>
+<pubDate>Wed, 03 Apr 2024 22:38:28 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item>
 <title>Is it best to make the monolingual transition as soon as possible?</title>
@@ -365,7 +365,7 @@ because they often introduce errors and inaccuracies.</p>
 for the first couple months of learning the target language.
 We think it is acceptable to do so because there is no other option
 since the learner can't use monolingual dictionaries yet.
-But later on learners are expected to switch to monolingual dictionaries
+But later on learners are expected to <a href="going-monolingual.html">switch to monolingual dictionaries</a>
 and stop depending on languages other than their TL.
 When translating individual words,
 it's generally better to use a dictionary app

@@ -14,7 +14,7 @@ It is permitted to translate individual words
 for the first couple months of learning the target language.
 We think it is acceptable to do so because there is no other option
 since the learner can't use monolingual dictionaries yet.
-But later on learners are expected to switch to monolingual dictionaries
+But later on learners are expected to [switch to monolingual dictionaries](going-monolingual.html)
 and stop depending on languages other than their TL.
 When translating individual words,
 it's generally better to use a dictionary app
