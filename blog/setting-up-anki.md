@@ -74,7 +74,7 @@ to avoid possible issues.
 The latest version can be installed with the [aqt](https://pypi.org/project/aqt/) package.
 
 ```
-$ pipx install aqt
+$ pipx install "aqt[qt6]"
 ```
 
 <details>
