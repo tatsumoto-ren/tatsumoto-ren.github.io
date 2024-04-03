@@ -10,7 +10,7 @@ so for every word you look up you immediately get a number of definitions.
 GoldenDict-NG is a great tool for language learners,
 and it becomes especially helpful
 when one switches from bilingual dictionaries to monolingual dictionaries.
-It can aid during the monolingual transition
+It can aid during the [monolingual transition](going-monolingual.html)
 thanks to the ability to look up many words at once in separate tabs,
 simplifying recursive look-ups.
 
@@ -77,7 +77,7 @@ Dictionaries can be added to a group by dragging and dropping.
 Place the dictionaries you like the most on top for easy access.
 If you are new to monolingual dictionaries,
 I recommend `明鏡`, `大辞林`, `大辞泉`, `新明解`.
-During the monolingual transition,
+During the [monolingual transition](going-monolingual.html),
 having as many dictionaries enabled as possible will help you
 find a definition that is easier to understand.
 
