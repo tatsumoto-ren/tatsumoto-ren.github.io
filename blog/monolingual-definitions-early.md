@@ -8,7 +8,7 @@ filename: monolingual-definitions-early
 It is a good idea.
 But it is not strictly required to do so.
 
-We recommend going monolingual eventually in the learning process.
+We recommend [going monolingual](going-monolingual.html) eventually in the learning process.
 And it is highly advisable to do it at an early stage.
 The monolingual definitions added in advance
 will prove to be useful when the time comes.
