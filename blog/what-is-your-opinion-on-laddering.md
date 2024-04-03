@@ -30,7 +30,7 @@ the more accurate it can be at describing the target language.
 Another point is that if you keep using L2 resources for the sake of laddering,
 it will slow you down.
 The best way to learn any language is by using resources made in the language itself.
-*Go monolingual* as soon as possible
+[Go monolingual](going-monolingual.html) as soon as possible
 by switching to resources and dictionaries made for native speakers of the target language.
 
 Until you go monolingual,
