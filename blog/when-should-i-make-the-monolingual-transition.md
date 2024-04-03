@@ -10,7 +10,8 @@ Premade ones don't count.
 Or if you know at least ~3,000 words total.
 
 The longer you wait, the easier it becomes.
-And the earlier you make the transition, the more difficult it will be.
+And the earlier you [make the transition](going-monolingual.html),
+the more difficult it will be.
 One of the requirements for going monolingual is learning *defining vocabulary*,
 or words that appear frequently inside monolingual definitions but aren't common otherwise.
 Chances are, if you go monolingual later, you won't have to learn so many of them
