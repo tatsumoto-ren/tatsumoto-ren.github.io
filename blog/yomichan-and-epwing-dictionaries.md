@@ -273,7 +273,8 @@ For people who speak other languages.
 
 ### Monolingual
 
-Once you've started the monolingual transition, it is time to use real dictionaries.
+Once you've started the [monolingual transition](going-monolingual.html),
+it is time to use real dictionaries.
 `JMdict` is very limited and only contains simple translations, many of which can be misleading
 because it's very rare for a word in one language to have an exact,
 one-to-one correlate in another language.
