@@ -154,6 +154,8 @@ In the Anki Browser's context menu actions you will find the following options:
   Requires GoldenDict to be
   [installed](setting-up-goldendict.html)
   and [added to the PATH](how-do-i-add-a-directory-to-the-path.html).
+* Browser search.
+  Search the current selection in Anki Browser.
 
 ## Configuration
 
