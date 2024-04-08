@@ -214,7 +214,7 @@ Some shortcuts may even be missing completely.
 
 * Typing with <kbd>Alt</kbd> pressed down forces latin input.
 * Pressing <kbd>alt</kbd>+<kbd>&#96;</kbd> switches to latin mode.
-* [How to type X](tag_ime.html)?
+* [How to type X](how-to-type-x-with-fcitx.html)?
 
 ## Android
 
