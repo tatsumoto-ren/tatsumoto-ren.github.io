@@ -374,7 +374,6 @@ header > nav {
     justify-content: space-between;
     height: var(--header-height);
     flex: 2 1 200px;
-    overflow-x: hidden;
 }
 
 header > nav a,
@@ -445,6 +444,11 @@ header > nav a.important {
 
 /* Common rules for buttons and anchors */
 
+header {
+    --normal-underline-color: transparent;
+    --hover-underline-color: rgba(0, 0, 0, 0.5);
+}
+
 header a,
 header a:visited,
 header button,
@@ -458,6 +462,19 @@ header label {
     transition: background-color 0.08s ease-in-out, box-shadow 0.12s ease-in-out;
     line-height: var(--header-height);
     user-select: none;
+    position: relative;
+
+    &:not(.logo)::after {
+        content: "";
+        position: absolute;
+        display: block;
+        inset: 0;
+        box-shadow: 0px 5px 0px 0px var(--normal-underline-color);
+        transition: box-shadow 0.1s;
+    }
+    &:is(:hover, :active, :focus)::after {
+        box-shadow: 0px 5px 0px 0px var(--hover-underline-color);
+    }
 }
 
 header button:hover,
@@ -467,6 +484,13 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
     text-decoration: none;
     background-color: var(--header-item-focused-background-color);
     box-shadow: inset 0 1px 2px 0 var(--header-item-focused-shadow-color, rgba(0, 8, 15, 0.125));
+}
+
+/* Mark guide link */
+
+header a.guide_link {
+    --normal-underline-color: rgb(253, 140, 115);
+    --hover-underline-color: rgb(200, 0, 68);
 }
 
 /* body */
