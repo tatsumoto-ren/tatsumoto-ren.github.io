@@ -1,7 +1,7 @@
 ---
 title: How to type the ￥ symbol with Fcitx?
 date: 1671792463
-tags: ['faq']
+tags: ['faq', 'ime']
 position: -9874
 ---
 

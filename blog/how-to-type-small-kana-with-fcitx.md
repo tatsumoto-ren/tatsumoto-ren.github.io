@@ -1,7 +1,7 @@
 ---
-title: How to type small kana with Fcitx/KKC?
+title: How to type small kana with Fcitx?
 date: 1671488991
-tags: ['faq']
+tags: ['faq', 'ime']
 position: -9874
 ---
 
