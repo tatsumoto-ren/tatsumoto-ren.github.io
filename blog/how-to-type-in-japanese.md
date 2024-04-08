@@ -1,7 +1,7 @@
 ---
 title: How to type in Japanese
 date: 1640684087
-tags: [guide]
+tags: [guide, ime]
 ---
 
 <p align="center">
