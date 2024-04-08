@@ -25,7 +25,7 @@
     --header-link-color-hover: black;
     --logo-img-filter: none;
 
-    --header-important-item-background-color: #110c0c;
+    --header-important-item-background-color: rgb(200, 0, 68);
     --header-important-item-color: #f2f2f2;
     --header-important-item-hover-color: #f1f1f1;
     --header-important-item-hover-background-color: #2c1f1c;
@@ -62,7 +62,7 @@
     --nagbar-border: #e2c491;
 
     --normal-underline-color: transparent;
-    --hover-underline-color: rgba(0, 0, 0, 0.6);
+    --hover-underline-color: transparent;
 }
 
 /* Document rules for each theme */
@@ -82,11 +82,6 @@
     --header-item-focused-background-color: rgba(245, 159, 146, 0.2);
     --header-item-focused-shadow-color: rgba(189, 119, 108, 0.33);
     --logo-img-filter: invert(39%) sepia(24%) saturate(834%) hue-rotate(329deg) brightness(97%) contrast(90%);
-
-    --header-important-item-background-color: #d47999;
-    --header-important-item-color: #f2f2f2;
-    --header-important-item-hover-color: #f1f1f1;
-    --header-important-item-hover-background-color: #d6366e;
 
     --background-secondary-color: #f2ddd4cc;
     --article-background: #fff9f3cc;
@@ -123,8 +118,6 @@
 
     --blockquote-text-color: #cf828b;
     --blockquote-border-color: var(--code-inline-bg);
-
-    --hover-underline-color: rgba(185, 103, 85, 0.5);
 }
 
 :root.pink main ul > li {
@@ -203,6 +196,8 @@
     --header-item-focused-background-color: rgba(255, 255, 255, 0.219);
     --header-link-color-hover: rgba(245, 250, 255, 0.9);
 
+    --header-important-item-hover-background-color: rgb(255, 0, 55);
+
     --code-inline-color: black;
     --code-bg-color: #4d4d4d;
     --code-inline-bg: #1b3535;
@@ -229,8 +224,6 @@
     --nagbar-color: #f1b79c;
     --nagbar-bg: #313127;
     --nagbar-border: #554a38;
-
-    --hover-underline-color: rgba(62, 175, 175, 0.7);
 }
 
 /* Main elements */
@@ -392,36 +385,12 @@ header > nav a:visited {
 /* Important links inside Header */
 
 header > nav a.important {
-    --dim: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
-    --gradient: linear-gradient(to right, rgb(200, 0, 68), rgb(128, 0, 128));
-    --header-item-focused-shadow-color: rgba(0, 8, 15, 0.8);
-
     color: var(--header-important-item-color);
     background-color: var(--header-important-item-background-color);
-    background-image: var(--gradient);
-    background-size: 1000% 100%;
-    animation: slide-bg-gradient 20s linear infinite alternate;
-    border: none;
-    background-position: left;
-    transition: all 0.3s;
 
     &:is(:hover, :active, :focus) {
         color: var(--header-important-item-hover-color);
         background-color: var(--header-important-item-hover-background-color);
-        background-image: var(--dim), var(--gradient);
-        text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
-    }
-}
-
-@keyframes slide-bg-gradient {
-    0% {
-        background-position: left;
-    }
-    50% {
-        background-position: right;
-    }
-    100% {
-        background-position: left;
     }
 }
 
