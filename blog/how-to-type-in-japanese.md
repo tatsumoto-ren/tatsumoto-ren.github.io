@@ -213,7 +213,7 @@ Some shortcuts may even be missing completely.
 ## Tips
 
 * Typing with <kbd>Alt</kbd> pressed down forces latin input.
-* Pressing <kbd>alt</kbd>+<kbd>`</kbd> switches to latin mode.
+* Pressing <kbd>alt</kbd>+<kbd>&#96;</kbd> switches to latin mode.
 * [How to type X](tag_ime.html)?
 
 ## Android
