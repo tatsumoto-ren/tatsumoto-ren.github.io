@@ -318,7 +318,6 @@ header {
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
-    border-bottom: 1px solid var(--box-sep-color);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
