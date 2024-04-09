@@ -213,7 +213,7 @@ along with a correctly timed subtitle file for that show/movie.
 
 ## Android
 
-<img src="img/keitai.webp" float="right">
+<img src="img/with-phone.webp" float="right">
 
 Having a mobile device is not strictly necessary for learning Japanese,
 but it can be handy.
