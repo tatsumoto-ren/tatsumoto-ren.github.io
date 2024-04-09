@@ -251,12 +251,19 @@ These formats are not supported on iThings.
 
 Some people would like to completely reject mobile phones because they are surveillance tools.
 
-**Further information:**
+**Further information**:
 
 * [Android - Privacy Guides](https://www.privacyguides.org/android/)
-* [LineageOS](https://lineageos.org/), a custom ROM that supports many devices.
-* [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid/) is a more modern F-Droid client.
 * [Liberate your device - FSF](https://fsfe.org/activities/android/liberate.en.html)
 * [Android and Users' Freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html)
 * [Recommended Apps from F-Droid - DivestOS](https://divestos.org/index.php?page=recommended_apps)
+* [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid/) is a more modern F-Droid client.
 * **[Android software for learning Japanese](resources.html#android-software)**
+
+**ROM suggestions**:
+
+* [LineageOS](https://lineageos.org/), a custom ROM that supports many devices.
+* [/e/OS](https://e.foundation/) is a privacy-enabled ROM
+  with no Google apps or Google services accessing your personal data.
+* [GrapheneOS](https://grapheneos.org/).
+* [CalyxOS](https://calyxos.org/).
