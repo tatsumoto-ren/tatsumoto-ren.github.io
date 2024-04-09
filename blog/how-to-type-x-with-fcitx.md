@@ -39,7 +39,7 @@ The "　" (blank space) can be spelled as `kankaku`.
 
 ## Asterisk ※
 
-Type `komejirushi`.
+Type `komejirushi` or `hoshi`.
 
 ## Middle dot ・
 
