@@ -74,7 +74,7 @@ Set it up following the instructions [here](japanese-locale.html).
 ## Input method framework
 
 In this tutorial, I'm going to explain how to use
-[Fcitx](https://wiki.archlinux.org/index.php/Fcitx),
+[Fcitx](https://wiki.archlinux.org/index.php/Fcitx) [ˈfaɪtɪks],
 but other frameworks are also available.
 
 <details>
