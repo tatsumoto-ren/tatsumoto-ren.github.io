@@ -30,6 +30,12 @@ We advise against learning kanji readings in isolation.
 Very often a kanji character has a number of completely different readings.
 Not only learning all of them is an enormous task,
 but it's impossible to apply the knowledge to real native content when reading.
+Take, for instance, this kanji: `生`.
+[Looking it up](https://jisho.org/search/%E7%94%9F%20%23kanji)
+on Jisho reveals that it has `10` readings.
+When you see a word that contains this kanji (for example, `生きる`),
+knowing the individual readings is not going to help.
+You need to know the word itself to be able to pick the right reading.
 
 It is glaringly obvious,
 but people who have been exposed to Japanese textbooks
@@ -121,24 +127,109 @@ As long as you have that ability,
 with some additional effort you'll be able to memorize
 how to read and understand words that have kanji in them.
 
-## Two methods of learning kanji
+## Methods of learning kanji
 
-I'm going to present two main methods of learning kanji that I think are the most effective.
-One is isolated kanji study, the other is JP1K.
-Isolated kanji study is when you learn meanings of one or two thousand
-most common or most useful individual kanji characters in a span of a couple of months.
-Knowing the meanings later aids in memorization of words.
-JP1K is a method that was invented in the Japanese learning community quite recently.
-It consists of learning the most common 1,000 words
-with a trick that makes memorizing kanji readings easier.
+Now that you undersand the concept of kanji fluency,
+it's important to keep in mind that the objective of *learning kanji*
+isn't just to memorize a set number of kanji characters.
+Rather,
+it's about reaching kanji fluency in order to start **learning words** later.
+Initially,
+it's crucial to focus on recognizing and distinguishing kanji visually
+without getting bogged down by their readings.
+The readings will come into play when you start learning vocabulary.
+
+Here are what I consider the most effective methods for learning kanji:
+
+* In-Context Vocabulary Study.
+  This method involves learning **words** from the start.
+  You memorize their meanings and readings.
+  It's a natural, authentic approach,
+  reflecting how all Japanese words are typically learned.
+  However,
+  it can be challenging for beginners who haven't yet developed kanji fluency.
+
+  To help beginners remember words that contain kanji,
+  we've created the JP1K method.
+  *JP1K* is a method of in-context kanji study,
+  where learners memorize words and their meanings,
+  but the readings of the kanji are not hidden.
+  This method is like having training wheels,
+  giving you a chance to peek at kanji readings to jog your memory.
+  After learning 1,000 common words this way,
+  you'll remove the "training wheels" and continue learning new words in the standard way.
+* Out-of-Context Isolated Kanji Study.
+  This method focuses on learning the **meanings** of individual kanji characters.
+  Understanding the meanings of kanji helps to memorize words.
+  Typically,
+  learners dedicate two or three months
+  to learn one to two thousand kanji characters Out-of-Context.
+  Afterwards,
+  like with the the In-Context approach,
+  you'll proceed to learn words in the standard way.
+  RRTK and KanjiDamage
+  are examples of isolated kanji study methods.
+
+## JP1K method
+
+The method is aimed at complete beginners
+who don't want to go through isolated kanji study
+but feel intimidated by the idea of learning whole words from the start.
+JP1K is intended to be a compromise between the two.
+
+To execute it,
+you need an [Anki](setting-up-anki.html) deck formatted in a specific way.
+On the front of each card you have a word, phrase or sentence in Japanese language
+written in full kanji and without furigana,
+but if you **hover** over it
+then the furigana readings will appear.
+On the back you have everything necessary to understand the flashcard,
+which may include English translations, dictionary definitions and native audio.
+
+The important part is how you review the deck:
+
+1) A flashcard comes up, furigana is **hidden**.
+1) Read the target word, or the whole sentence if you want.
+1) If the word contains kanji try to recall its reading.
+   Then hover over the word to make the furigana pop up
+   and see if you've recalled the reading correctly.
+1) Try to recall the meaning of the target word.
+   It doesn't need to be precise.
+1) Reveal the back side of the card and see if the meaning was correct.
+1) When grading yourself, pass the card if you understand the **meaning**.
+   Whether you remembered the reading or not doesn't matter.
+   Avoid "Hard" and "Easy" buttons as usual.
+
+This way when you review a card you may completely forget the reading,
+but then if you get the meaning right you still **pass** the card.
+
+The idea here is that this will make the process of going through the deck
+much more enjoyable because all you have to do is remember the meaning
+to pass the card. It's not that hard.
+The advantage over isolated kanji study
+is that you're going to start noticing
+the new words you've learned in your immersion much earlier.
+
+This should be enough to eventually achieve kanji fluency
+because every time you're **still trying** to recall the reading,
+you're just not taking it into account when grading yourself.
+On the other hand, if you could see the reading immediately
+then there would be no deliberate practice involved,
+so you'd eventually start ignoring the kanji.
+
+At Ajatt-Tools we have made an Anki deck
+for people who wish to follow this method.
+To download it, visit the linked page.
+
+<p align="center"><a class="download_button" href="jp1k-anki-deck.html">KanjiTransition</a></p>
 
 ## Isolated kanji study
 
 Training kanji recognition through isolated kanji study
 can be used as a ladder to help you achieve kanji fluency
 and to make moving on to learning vocabulary less of a burden.
-You start by learning meanings of individual kanji.
-By doing so you create mental anchors in your brain
+You start by learning **meanings** of **individual** kanji.
+By doing so you create **mental anchors** in your brain
 which help you associate words with the kanji.
 Kanji are learned by breaking them up into their components
 and viewing each kanji as a combination of its parts.
@@ -154,20 +245,20 @@ where recognizing a kanji feels similar to recognizing a human face.
 Now, another way to look at this is
 if we watch Chinese people who learn Japanese,
 they improve so much faster and reach higher levels
-than traditional western learners of the language
+than traditional Japanse learners from the West
 because they know the characters already.
 So you first need to become like a Chinese person.
 Chinese people don't know how to read the kanji in Japanese,
 but they know how kanji look like,
 and they know the meanings.
-After you catch up to a Chinese person
-then you can move on to learning grammar and sentences.
+After you **catch up** to a Chinese person
+then you can move on to learning words, sentences, and grammar.
 
 Many commonly used resources that encourage mnemonics are based on RTK.
 Originally, RTK refers to a book "Remembering the Kanji" by James Heisig.
 The ordering of characters in the book
 and its component-based mnemonic system
-are used in combination with the SRS.
+are used in combination with the [SRS](spaced-repetition.html).
 
 Kanji in the book are ordered by the complexity and number of their components.
 So for example before you learn `拐`, you have to learn `手`, `口` and `刀`.
@@ -222,54 +313,6 @@ by incorporating the main reading of each kanji into the mnemonic story.
 Knowing the most common reading helps you trigger your memory
 as you take your first steps in reading native Japanese.
 
-## JP1K method
-
-The method is aimed at complete beginners who don't want to go through RTK
-but feel intimidated by the idea of learning whole words from the start.
-JP1K is intended to be a compromise between the two.
-
-To execute it you need an Anki deck formatted in a specific way.
-On the front of each card you have a word, phrase or sentence in Japanese language
-written in full kanji and without furigana but if you hover over it
-then the furigana readings will appear.
-On the back you have everything necessary to understand the flashcard,
-which may include English translations, dictionary definitions and native audio.
-
-The important part is how you review the deck:
-
-1) A flashcard comes up, furigana is hidden.
-1) Read the target word, or the whole sentence if you want.
-1) If the word contains kanji try to recall its reading.
-Then hover over the word to make the furigana pop up
-and see if you've recalled the reading correctly.
-1) Try to recall the meaning of the target word. It doesn't need to be precise.
-1) Reveal the back side of the card and see if the meaning was correct.
-1) When grading yourself, pass the card if you understand the meaning.
-Whether you remembered the reading or not doesn't matter.
-Avoid "Hard" and "Easy" buttons.
-
-This way when you review a card you may completely forget the reading,
-but then if you get the meaning right you still pass the card.
-
-The idea here is that this will make the process of going through the deck
-much more enjoyable because all you have to do is remember the meaning
-to pass the card. It's not that hard.
-The advantage over isolated kanji study
-is that you're going to start noticing
-the new words you've learned in your immersion.
-
-This should be enough to eventually achieve kanji fluency
-because every time you're still trying to recall the reading,
-you're just not taking it into account when grading yourself.
-On the other hand, if you could see the reading immediately
-then there would be no deliberate practice involved,
-so you'd eventually start ignoring the kanji.
-
-At Ajatt-Tools we have made our own Anki deck for people who wish to follow this method.
-To download it, visit the linked page.
-
-<p align="center"><a class="download_button" href="jp1k-anki-deck.html">KanjiTransition</a></p>
-
 ## Learning radicals
 
 I often see people asking,
@@ -293,12 +336,12 @@ So the answer is "no".
 There are three paths you can take:
 
 1) Learning words from the start.
-This is going to be a little difficult at first,
-but all of us learn this way past the beginner stage.
+   This is going to be a little difficult at first,
+   but all of us learn this way past the beginner stage.
 2) Study kanji in isolation using a mnemonic-based method such as KanjiDamage or RTK.
-For each kanji you memorize its meaning
-which later acts like a mental anchor making associating words with kanji easier.
-Out of the available options my favorite one is KanjiDamage Plus.
+   For each kanji you memorize its meaning
+   which later acts like a mental anchor making associating words with kanji easier.
+   Out of the available options my favorite one is KanjiDamage Plus.
 3) Use the JP1K method to learn words without penalizing yourself for not knowing their readings.
 
 The last two paths only serve as intermediate steps to prepare you for reading native content.
