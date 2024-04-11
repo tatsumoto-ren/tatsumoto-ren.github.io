@@ -17,6 +17,8 @@ and a plugin for mpv called Mpvacious.
 
 ## MPV
 
+<img float="right" src="img/movies.webp" alt="movies and tv shows">
+
 `mpv` is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
 `mpv` is available on most distributions of GNU/Linux.
@@ -247,9 +249,12 @@ Below I'm going to write about how I use it.
 
 Mpvacious needs
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159)
-and
-[xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
 to work.
+If you're using Xorg,
+[xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
+is required to copy text to the clipboard.
+[wl-copy](https://archlinux.org/packages/extra/x86_64/wl-clipboard/)
+is required on Wayland.
 
 ### Installation
 
