@@ -7,9 +7,10 @@ tags: [guide]
 **Sentence mining** is a process of extracting sentences
 that contain unknown words
 from the content you read, watch or listen to in your target language
-and adding them to Anki in a form of targeted sentence cards (TSCs).
+and adding them to Anki in a form of
+[targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards) (TSCs).
 You put an example sentence in the question field
-and the definitions, pictures and pronunciations in the answer field.
+and the definitions, pictures and pronunciations in the answer field (fields).
 
 Sentence mining and immersion are the two most important components of our method.
 Immersion provides you with new vocabulary to be mined,
@@ -32,7 +33,7 @@ Once you do it, you are going to encounter way more
 [1T](one-target-sentences.html)
 sentences in your immersion.
 
-I started doing sentence mining after I learned 1000 words.
+I started doing sentence mining after I learned 1,000 words.
 At first, I mixed sentence mining with learning sentences from a premade deck,
 but eventually I stopped using premade decks
 and switched to solely using my immersion to find new sentences.
@@ -53,13 +54,14 @@ The process of mining sentences roughly consists of:
 
 We recommend picking the original sentence you found the word in.
 Using a sentence from a familiar source greatly aids memorization.
-Try to abstain from picking MT sentences.
+Try to abstain from picking <abbr title="multi target">MT</abbr> sentences.
 When reviewing a card,
 you shouldn't force yourself to recall more than one difficult thing at the same time.
 If for some reason the sentence is not comprehensible to you,
-substitute it with a different sentence from your sentence bank
+substitute it with a different sentence from your [sentence bank](cross-profile-search-and-import.html)
 or from an online sentence bank.
-You can generate a large sentence bank by processing several TV shows with subs2srs.
+You can generate a large sentence bank by processing several TV shows
+with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
 See [Examples and pronunciations](resources.html#examples-and-pronunciations)
 for available sources of sentences.
 
@@ -78,7 +80,8 @@ so some people may prefer to do it after they finish their immersion session.
 * Generate a subs2srs deck before watching a TV show.
   While immersing, mark the 1T sentences in the subs2srs deck by pressing `Ctrl+K` or by tagging them.
   Delete the cards you haven't marked.
-* Mpvacious allows you to send sentences directly to Anki by pressing `Ctrl+N`.
+* [Mpvacious](mining-from-movies-and-tv-shows.html#mpvacious)
+  allows you to send sentences directly to Anki by pressing `Ctrl+N`.
 * When reading manga, screenshot the part of the page that contains a 1T sentence.
 
 Later go back to the sentences you've saved and finish making the cards.
@@ -93,7 +96,7 @@ To understand a word, how it's used, and be able to use it correctly when speaki
 you need to know how the word connects with other words.
 Without an example you may misunderstand the word's meaning without realizing it.
 That's why making word cards is only recommended
-[for concrete nouns](discussing-various-card-templates.html#are-swcs-worth-it).
+[for concrete nouns](discussing-various-card-templates.html#pros-and-cons-of-swcs).
 It is unlikely that you will misunderstand the meaning of a concrete noun,
 but you can cut a corner and save some time if you don't add an example to your card.
 
@@ -114,47 +117,66 @@ The clause must remain grammatically correct and retain a distinct meaning.
 Being a hardcore ajatter,
 you probably want to eventually learn every word in your target language.
 Most of us pursue the same goal.
-Having that in mind,
-there are words that you may want to focus on
-and words that you may want to save for later.
-Useful words should be added to the SRS so that you don't forget them.
+Bearing this goal in mind,
+there are certain words you might prioritize learning now
+and others you can hold off on until later.
+Useful words should be added to the SRS
+to ensure you don't forget them.
 
-To decide which words are more important, there are two main techniques.
+When it comes to identifying which words deserve attention,
+there are a couple of major strategies to follow:
 
-* Pay attention to [frequency lists](yomichan-and-epwing-dictionaries.html#frequency-lists).
-  Choose frequency lists that match your immersion content.
-  If none of your frequency lists has data for a word,
-  it's probably better not to mine it.
-  If there is data for the word, but it's not a frequent word,
-  you can mine it but keep it for later (reposition, suspend) instead of learning it that same day.
-* Mine all words you come across but don't learn them.
-  Later if you notice that you're about to make a card for a word you already have in your SRS,
-  learn it then.
-  So you're learning only the words that you've encountered at least twice.
+* Take advantage of [frequency lists](yomichan-and-epwing-dictionaries.html#frequency-lists).
+  Choose frequency lists that align with the material
+  you're consuming during your immersion.
+  If a word is not included in your frequency lists,
+  perhaps don't mine it.
+  If the word is present but is not ranked as a frequent term,
+  you might decide to mine it,
+  but then keep it for later
+  by repositioning or suspending it in your SRS,
+  instead of learning it right away.
+* Mine all words you come across, but don't learn them.
+  Hold them off.
+  Later,
+  if you notice that you're about to make a card for a word
+  that is already in your SRS,
+  that's your cue to learn it.
+  This way you're only learning the words that
+  have appeared at least twice in your immersion.
 
 In the beginning it will be impossible to mine every sentence you come across each day.
-You're going to have to decide when to stop adding new cards to Anki,
+To manage this,
+you're going to have to decide when to stop adding new cards to Anki,
 or you'll go crazy trying to chase every word.
 Determine your daily sentence quota.
-Once you reach it, stop collecting new sentences and continue immersing freely.
-But continue paying attention to your active immersion during the time.
+Once you hit that number,
+stop collecting new sentences
+and just continue [immersing freely](active-immersion.html#free-flow-immersion).
+But continue paying attention to your [active immersion](active-immersion.html) during the time.
 
 Setting the daily quota will quickly become unnecessary
 as your comprehension of the language improves.
-When you get more advanced, you'll be coming across less and less unknown words.
+As you advance,
+you'll be coming across fewer unknown words.
 At some point you turn the tables and have to look for more difficult content
 to maintain the same number of words you mine per day.
 
-Frequency lists also gradually
+Frequency lists gradually
 [become useless](when-do-i-make-a-card-and-when-do-i-just-keep-going.html)
 as you progress.
 Once you have mined most common words,
 essential or core vocabulary,
-frequency of other, less common words, starts to fluctuate significantly
-depending on the domain of the language, the genre of the content you're immersing with.
+the relative frequency of less common words becomes more variable,
+shifting notably based on the [domain](language-domains.html) of the language
+and the genre of your immersion content.
 If at that point you continue relying too much on frequency lists,
-it can lead to skipping words that are actually useful to you at that point,
-in the context of the input you are consuming.
+it can cause you to skip words that are actually useful to you,
+given the input you are consuming.
+Frequency lists are inherently incapable of accurately reflecting the frequency of rarer words,
+so advnaced learners can move past them.
+At this stage,
+feel free to mine any word that simply looks interesting.
 
 ## Many cards for one word
 
@@ -169,10 +191,10 @@ only makes sense for about 3% to 5% of all cards in your collection.
 However,
 if a word has multiple meanings,
 then creating separate cards for each meaning can be necessary.
-Since the word in isolation is not enough to differentiate between different meanings,
-you should use *targeted sentence cards*.
 You don't have to do it for every word with multiple meanings,
 but only when a new meaning is ambiguous.
+Since the word in isolation is not enough to differentiate between different meanings,
+you should use *targeted sentence cards*.
 
 ## Card template
 
@@ -184,7 +206,8 @@ SWCs work best for concrete nouns, whereas TSCs are used for everything else.
 Refer to [Discussing various card templates](discussing-various-card-templates.html)
 to get an idea of what to put on your cards
 and how they should look.
-If you're using the card template [introduced in the beginning](setting-up-anki.html#import-an-example-mining-deck) of this guide,
+If you're using the card template
+[introduced in the beginning](setting-up-anki.html#import-an-example-mining-deck) of this guide,
 you don't have to set up everything yourself.
 If you wish to make your own card template, follow these rules.
 
@@ -229,7 +252,7 @@ They are linked on the [Resources](resources.html#software) page.
 
 ## Grammar
 
-In essence grammar is a set of special words or phrases
+In essence [grammar](learning-grammar.html) is a set of special words or phrases
 which don't bear any meanings themselves,
 but are used to connect the words that surround them.
 For example, the particle `は`, commonly referred to as the "topic particle",
@@ -238,23 +261,27 @@ By itself it means nothing.
 There's no need to make a distinction between regular words and grammar points when sentence mining.
 TSCs can be used to learn both vocabulary and grammar the same way.
 Grammar points can be looked up in a regular dictionary,
-both bilingual like JMdict and monolingual like `大辞林`.
+both bilingual like `JMdict` and monolingual like `大辞林`.
 
 Let's say you want to learn what
-[によって](http://guidetojapanese.org/learn/grammar/comparison#Using_to_express_dependency)
+[によって](https://guidetojapanese.org/learn/grammar/comparison#part5)
 means.
 Make a TSC with the grammar point as the target.
 On the back of the card, put a definition from a dictionary or from a grammar guide.
-I mined sentences from grammar guides in my beginner days.
-Though it is boring, I recommend it.
+Personally,
+I [mined sentences from grammar guides](learning-grammar.html#mining-grammar-points)
+in my beginner days.
+Although it may seem dry, I recommend this practice.
 
 ## Translations
 
 You can consult a translation
 while you're immersing
-to clarify certain nuances of the original sentence,
-but putting full translations on cards is discouraged.
-Translations are never accurate and don't make any sense
+to clarify certain nuances of the original word or sentence,
+but putting full translations on cards
+[is discouraged](should-i-put-english-translations-on-bilingual-tscs.html).
+Translations are [never accurate](could-machine-translation-be-useful-to-language-learners.html)
+and don't make any sense
 if you compare them with the original word-for-word.
 Even in premade decks like Core and Tango the translations are far from perfect.
 Machine translations are the least preferable.
