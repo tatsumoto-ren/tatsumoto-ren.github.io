@@ -749,11 +749,11 @@ regarding using an Android device.
 
 ### Manga readers
 
-* [Tachiyomi](https://tachiyomi.org/).
-Free/libre manga reader for Android.
+* [Tachiyomi](https://f-droid.org/en/packages/eu.kanade.tachiyomi/).
+  Free/libre manga reader for Android.
 * [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
-Android Manga reader with Japanese OCR and dictionary capabilities.
-Supports EPWING monolingual dictionaries.
+  Android Manga reader with Japanese OCR and dictionary capabilities.
+  Supports EPWING monolingual dictionaries.
 
 ### Book readers
 
