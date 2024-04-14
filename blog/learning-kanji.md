@@ -372,23 +372,27 @@ kanji readings should be learned in context.
 
 ### Isolated kanji study and retention
 
-If you go with any isolated kanji deck,
-you will notice that after completing it
-the retention rate of the deck will start to decline.
-This happens to almost everyone.
-After you finish the deck,
-you still remember most of the kanji,
-but after several months the retention rate plummets to 45-50%.
+If you decide to study kanji through any isolated kanji deck (RTK, KanjiDamage),
+it's common to see a good initial retention rate.
+However,
+a few months after completing the deck,
+you'll likely notice a significant drop in retention.
+This is a common experience for many learners.
+Initially,
+they remember most of the kanji,
+but the retention rate plummets to about 45-50% several months later.
 
-Once the retention rate starts to decline,
-it's time to delete the deck.
-By the time it happens,
-you can already read some Japanese
-and don't need to rely on English keywords to recognize kanji.
+Once you observe this decline in retention,
+it might be time to consider **deleting** the deck.
+At this stage,
+you likely have some basic ability to read Japanese
+and no longer need to rely heavily on English keywords to recognize kanji.
 
-To avoid quickly forgetting most of the kanji you learned
-before you have a chance to develop reading ability,
-continue reviewing for 3 to 6 months after completing the deck.
+To mitigate the rapid loss of kanji recognition abilities
+before fully developing your reading skills,
+it's advisable to continue reviewing the kanji deck
+for some number of months after you've completed the deck.
+But don't try to continue reviewing it after your retention drops.
 
-The problem with retention when learning kanji in isolation
-is one of the reasons why the JP1K method was created.
+The challenge with retention when learning kanji in isolation
+led to the creation of the JP1K method.
