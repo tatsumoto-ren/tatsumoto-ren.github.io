@@ -751,6 +751,11 @@ regarding using an Android device.
 
 * [Tachiyomi](https://f-droid.org/en/packages/eu.kanade.tachiyomi/).
   Free/libre manga reader for Android.
+* [Mihon](https://github.com/mihonapp/mihon) ([mihon.app](https://mihon.app/))
+  is a successor to Tachiyomi.
+  Not in F-Droid.
+* [tachiyomiJ2K](https://github.com/Jays2Kings/tachiyomiJ2K) is a fork of Tachiyomi.
+  Not in F-Droid.
 * [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
   Android Manga reader with Japanese OCR and dictionary capabilities.
   Supports EPWING monolingual dictionaries.
