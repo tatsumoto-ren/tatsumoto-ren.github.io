@@ -50,12 +50,114 @@ To someone who hasn't started learning Japanese yet,
 kanji may look like blobs of random scribbles.
 Thankfully, in reality each kanji is just a composition
 of either simpler kanji or primitive components called radicals.
-For example, `曇` is a combination of `日`, `雨` and `云`.
+For example, [曇](https://kanji.jitenon.jp/kanjic/1221.html)
+is a combination of [日](https://kanji.jitenon.jp/kanji/065.html),
+[雨](https://kanji.jitenon.jp/kanji/003.html)
+and [云](https://kanji.jitenon.jp/kanjie/2171.html).
 There are only about 200 of such basic components.
 
 This property of kanji can be and often used to aid memorization.
 Many kanji study methods exploit kanji composition and teach kanji in terms of their parts.
 Being able to see kanji in terms of their components makes learning words easier.
+
+## Types of readings
+
+Usually,
+a kanji has one or more Chinese-derived readings (音読み, on-yomi)
+and one or more native Japanese readings (訓読み, kun-yomi).
+Occasionally,
+a kanji may have only *kun-yomi* or only *on-yomi* readings.
+
+*Kun-yomi* readings are the native Japanese readings of kanji characters.
+These readings are typically used when a kanji character appears
+as part of a standalone word or in combination with hiragana characters.
+Verbs like [逃げる](https://jisho.org/search/%E9%80%83%E3%81%92%E3%82%8B) (にげる),
+adjectives like [苦い](https://jisho.org/search/%E8%8B%A6%E3%81%84) (にがい),
+or standalone-kanji words like [肉](https://jisho.org/search/%E8%82%89) (にく)
+are pronounced using Japanese readings.
+
+*On-yomi* readings are borrowed readings from the Chinese language.
+When kanji characters were introduced to Japan from China,
+they brought along their Chinese pronunciation,
+which became known as on-yomi.
+On-yomi readings are often used in compound words,
+especially in formal or technical contexts.
+Compound words such as [特定](https://jisho.org/search/%E7%89%B9%E5%AE%9A),
+[原案](https://jisho.org/search/%E5%8E%9F%E6%A1%88),
+[脂肪](https://jisho.org/search/%E8%84%82%E8%82%AA)
+are read using Chinese readings.
+
+Understanding this trait of kanji will help you learn new words.
+If you see a kanji on its own (e.g. [木](https://jisho.org/search/%E6%9C%A8)),
+it is likely pronounced with a Japanese reading.
+Likewise,
+if you see a kanji compound (e.g. [綺麗](https://jisho.org/search/%E7%B6%BA%E9%BA%97)),
+it's safe to assume that the kanji within the word
+are pronounced using Chinese readings.
+
+## Kanji sounds
+
+The more words you learn,
+the easier it becomes to learn new ones.
+While each kanji character may have multiple readings,
+there are patterns that you start to notice
+as you grow your vocabulary.
+
+For example:
+
+- Learning the word [人生](https://jisho.org/search/%E4%BA%BA%E7%94%9F)
+  makes learning [生活](https://jisho.org/search/%E7%94%9F%E6%B4%BB) easier,
+  as both share the character [生](https://kanji.jitenon.jp/kanji/043.html) pronounced as せい.
+- Similarly, learning the word [会社](https://jisho.org/search/%E4%BC%9A%E7%A4%BE)
+  can help memorize [会議](https://jisho.org/search/%E4%BC%9A%E8%AD%B0),
+  given their common [会](https://kanji.jitenon.jp/kanji/092.html) character pronounced as かい.
+
+Understanding the following kanji trait can also aid in memorization.
+The majority of all kanji look like two less complex halves joined together (known as 形声 kanji).
+Such kanji are comprised of two different parts:
+a left part denoting the vague meaning (semantic component)
+and a right part indicating the pronunciation (phonetic component).
+In cases where there is no left part,
+the entire kanji represents both the reading and meaning.
+
+Examples include:
+
+* Kanji [招](https://kanji.jitenon.jp/kanjib/736.html),
+  [沼](https://kanji.jitenon.jp/kanjic/1139.html),
+  [昭](https://kanji.jitenon.jp/kanji/332.html),
+  [紹](https://kanji.jitenon.jp/kanjic/1137.html),
+  [詔](https://kanji.jitenon.jp/kanjid/1755.html)
+  share the phonetic component [召](https://kanji.jitenon.jp/kanjic/1138.html)
+  and are all read as しょう
+  in words like [湖沼](https://jisho.org/search/%E6%B9%96%E6%B2%BC),
+  [招待](https://jisho.org/search/%E6%8B%9B%E5%BE%85),
+  [詔書](https://jisho.org/search/%E8%A9%94%E6%9B%B8).
+* Kanji [冷](https://kanji.jitenon.jp/kanjib/633.html),
+  [鈴](https://kanji.jitenon.jp/kanjid/1934.html),
+  [齢](https://kanji.jitenon.jp/kanjic/1310.html),
+  [鈴](https://kanji.jitenon.jp/kanjid/1934.html)
+  share the phonetic component [令](https://kanji.jitenon.jp/kanjib/632.html)
+  and are all read as れい
+  in words like [年齢](https://jisho.org/search/%E5%B9%B4%E9%BD%A2),
+  [予鈴](https://jisho.org/search/%E4%BA%88%E9%88%B4),
+  [冷蔵](https://jisho.org/search/%E5%86%B7%E8%94%B5).
+* Kanji [経](https://kanji.jitenon.jp/kanjib/684.html),
+  [軽](https://kanji.jitenon.jp/kanji/285.html),
+  [経](https://kanji.jitenon.jp/kanjib/684.html)
+  share the phonetic component [圣](https://kanji.jitenon.jp/kanjiy/13633.html)
+  and are all read as けい
+  in words like [経済](https://jisho.org/search/%E7%B5%8C%E6%B8%88),
+  [軽蔑](https://jisho.org/search/%E8%BB%BD%E8%94%91),
+  [経路](https://jisho.org/search/%E7%B5%8C%E8%B7%AF).
+* Kanji [償](https://kanji.jitenon.jp/kanjid/1746.html)
+  and [賞](https://kanji.jitenon.jp/kanjib/538.html)
+  share the phonetic component [賞](https://kanji.jitenon.jp/kanjib/538.html)
+  and are read as しょう
+  in words [弁償](https://jisho.org/search/%E5%BC%81%E5%84%9F)
+  and [賞金](https://jisho.org/search/%E8%B3%9E%E9%87%91).
+
+Recognizing various patterns can enhance your ability
+to memorize words more efficiently.
 
 ## Kanji production
 
