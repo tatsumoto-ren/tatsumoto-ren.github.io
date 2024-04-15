@@ -15,6 +15,8 @@ As before, you are going to use [Anki](setting-up-anki.html) to do it.
 
 ## Motivation behind studying basic vocabulary
 
+<img src="img/reading-book.webp" alt="book" float="right">
+
 Not all words are created equal.
 [In Japanese](https://web.archive.org/web/20210119135229/https://pj.ninjal.ac.jp/corpus_center/bccwj/freq-list.html),
 the most frequently used 1,000 words comprise around 75% of all written language.
