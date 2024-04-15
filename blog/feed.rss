@@ -5,12 +5,12 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 14 Apr 2024 17:20:09 +0300</lastBuildDate>
-<pubDate>Sun, 14 Apr 2024 17:20:09 +0300</pubDate>
+<lastBuildDate>Mon, 15 Apr 2024 04:12:37 +0300</lastBuildDate>
+<pubDate>Mon, 15 Apr 2024 04:12:37 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item>
 <title>How to type X with Fcitx?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>This article addresses common questions about typing with Fcitx.</p>
 <p>To enter anything when using Fcitx,
 type what you want to type and then press the space bar.
@@ -23,12 +23,12 @@ continue pressing the space bar until you find the correct one.</p>
 <hr>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/how-to-type-x-with-fcitx.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/how-to-type-x-with-fcitx.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Tue, 09 Apr 2024 01:44:07 +0300</pubDate>
 </item>
 <item>
 <title>Is it best to make the monolingual transition as soon as possible?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>No.</p>
 <p>There's a <a href="going-monolingual.html#when-to-go-monolingual">sweet spot</a>
 for making the monolingual transition,
@@ -63,12 +63,12 @@ This strategy allows for a smoother shift and sets you up for success.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/is-it-best-to-make-the-monolingual-transition-as-soon-as-possible.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/is-it-best-to-make-the-monolingual-transition-as-soon-as-possible.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Wed, 03 Apr 2024 22:15:29 +0300</pubDate>
 </item>
 <item>
 <title>Going monolingual</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>So far,
 you have been relying on bilingual dictionaries to learn new words.
 For those studying Japanese,
@@ -82,12 +82,12 @@ we will explore how to transition from bilingual to monolingual dictionaries eff
 <hr>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/going-monolingual.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/going-monolingual.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 28 Mar 2024 11:08:05 +0300</pubDate>
 </item>
 <item>
 <title>Avoiding bad advice</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>Countless language-learning methods exist,
 and each of them tells you to do different things.
 Some methods are effective, but many are not.
@@ -99,12 +99,12 @@ you don't want to waste precious time on ineffective methods.</p>
 <hr>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/bad-advice.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/bad-advice.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 21 Mar 2024 03:51:27 +0300</pubDate>
 </item>
 <item>
 <title>Cross Profile Search And Import</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>The <a href="https://ankiweb.net/shared/info/1772763629">Cross Profile Search and Import</a> add-on
 is a tool that helps you maintain a neat,
 uncluttered main profile while still having access to an extensive sentence bank.
@@ -117,12 +117,12 @@ while sparing AnkiWeb servers from hefty media uploads.</p>
 <hr>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 11 Mar 2024 09:39:56 +0300</pubDate>
 </item>
 <item>
 <title>Do I have to run GNU?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>If you've made the decision to start <a href="whats-ajatt.html">AJATT</a>,
 you might be curious about why
 <a href="our-immersion-learning-toolset.html#gnu-linux">it suggests upgrading</a>
@@ -157,12 +157,12 @@ In return, you'll save hours each week on various tasks.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/do-i-have-to-run-gnu.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/do-i-have-to-run-gnu.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 11 Mar 2024 07:13:39 +0300</pubDate>
 </item>
 <item>
 <title>How should I count my cards if I make more than one card per note?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<blockquote>
 <p>I have reached almost 4,000 cards but it represents only
 2,500 different notes because for most of them
@@ -219,12 +219,12 @@ trust your experience over any advice.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/how-should-i-count-my-cards-if-i-make-more-than-one-card-per-note.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/how-should-i-count-my-cards-if-i-make-more-than-one-card-per-note.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 22 Feb 2024 20:31:16 +0300</pubDate>
 </item>
 <item>
 <title>How should I make cards for Japanese words that don't have any kanji?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<blockquote>
 <p>How do you deal with flashcards where the <a href="one-target-sentences.html">1T</a> word is in katakana or hiragana?
 When I see a word in kanji and have to recall the reading,
@@ -299,12 +299,12 @@ You will still make progress and succeed in your language journey.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/how-should-i-make-cards-for-japanese-words-that-dont-have-any-kanji.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/how-should-i-make-cards-for-japanese-words-that-dont-have-any-kanji.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Fri, 09 Feb 2024 19:25:04 +0300</pubDate>
 </item>
 <item>
 <title>All About Particles</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>&quot;All About Particles&quot; is a grammar book.</p>
 <ul>
 <li><a href="https://matrix.org/_matrix/media/r0/download/matrix.org/GqYvdEhgKNOcBDSZnDDGsWGc">PDF version</a></li>
@@ -313,12 +313,12 @@ You will still make progress and succeed in your language journey.</p>
 </ul>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/all-about-particles.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/all-about-particles.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Wed, 24 Jan 2024 11:40:57 +0300</pubDate>
 </item>
 <item>
 <title>Should I include monolingual definitions on the back of my Anki cards, even if I don't fully understand them?</title>
-<author>Tatsumoto</author>
+<author>Tatsumoto Ren</author>
 <description><![CDATA[<p>It is a good idea.
 But it is not strictly required to do so.</p>
 <p>We recommend <a href="going-monolingual.html">going monolingual</a> eventually in the learning process.
@@ -368,7 +368,7 @@ it's a good time to start including monolingual definitions on your cards.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
 <link>https://tatsumoto-ren.github.io/blog/monolingual-definitions-early.html</link>
 <guid>https://tatsumoto-ren.github.io/blog/monolingual-definitions-early.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
+<dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 22 Jan 2024 09:22:59 +0300</pubDate>
 </item>
 </channel>
