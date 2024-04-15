@@ -44,6 +44,8 @@ are trapped by dogma and have simply never actually thought it through.
 
 ## Kanji composition
 
+<img src="img/曇.svg" alt="kanji composition" float="right">
+
 To someone who hasn't started learning Japanese yet,
 kanji may look like blobs of random scribbles.
 Thankfully, in reality each kanji is just a composition
