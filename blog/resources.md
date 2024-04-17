@@ -961,6 +961,13 @@ You've been warned.
   Uses IPA notation + has mouth/tongue diagrams.
 * [Practice Japanese Numbers](https://langpractice.com/japanese/).
   A page for training listening to numbers.
+* [Pitch accent perception](pitch-accent-perception.html) word list.
+  When immersing yourself in Japanese,
+  actively listen for the words in the list
+  and challenge yourself to identify the pitch patterns.
+  For example,
+  if you hear someone say the word `建物`,
+  you need to guess if it's atamadaka, heiban, odaka, or nakadaka.
 
 ## Past-beginner
 
