@@ -967,7 +967,7 @@ You've been warned.
   and challenge yourself to identify the pitch patterns.
   For example,
   if you hear someone say the word `建物`,
-  you need to guess if it's atamadaka, heiban, odaka, or nakadaka.
+  you need to tell if it's atamadaka, heiban, odaka, or nakadaka.
 
 ## Past-beginner
 
