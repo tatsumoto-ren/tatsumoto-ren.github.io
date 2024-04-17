@@ -243,7 +243,8 @@ Most Android devices can't be fully liberated
 because they depend on non-free drivers and firmware.
 These drivers control things like Wi-Fi, Bluetooth, GPS, microphone, camera.
 
-Don't buy iThings, you can't install a free OS on them.
+[Don't buy iThings](https://www.fsf.org/campaigns/apple),
+you can't install a free OS on them.
 Most Anki decks linked on this site come with
 [ogg/opus](https://opus-codec.org/) audio
 and [webp](https://developers.google.com/speed/webp) images.
