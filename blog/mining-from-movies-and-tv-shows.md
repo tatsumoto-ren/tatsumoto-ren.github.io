@@ -173,7 +173,8 @@ and so on.
 Don't use "services" that spy on you such as Netflix, Hulu, VRV, Funimation or Crunchyroll.
 
 Attempts to create flashcards from streamed video files often fail.
-As a workaround the user can record audio and take a screenshot manually,
+As a workaround,
+the user can record audio and take a screenshot manually,
 but it is not convenient at all.
 
 Explore [Immersion material](resources.html#immersion-material) to find Japanese content
@@ -190,7 +191,16 @@ This may require a few GiB of disk space,
 but it will save you the hassle of having to visit subtitle catalogs
 every time you need to find subtitles.
 For example, if you download a mirror of `kitsunekko`,
-you can use [fzf](https://archlinux.org/packages/extra/x86_64/fzf/) to search it.
+you can use
+[lf](https://wiki.archlinux.org/title/Lf) to browse it,
+and [fzf](https://wiki.archlinux.org/title/Fzf) to search it.
+
+To create your own local mirror of `kitsunekko`,
+use [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools).
+This simple program downloads all files from `kitsunekko`
+and saves them in a specified directory on your hard drive.
+You need roughly `8` GiB on your disk
+to store a copy of the entire subtitle catalogue.
 
 If you can't find target language subtitles for a video,
 you can generate them using [pyTranscriber](https://aur.archlinux.org/packages/pytranscriber-bin).
