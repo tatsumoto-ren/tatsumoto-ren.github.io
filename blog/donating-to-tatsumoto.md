@@ -55,6 +55,20 @@ There are many ways you can buy or sell Monero, one of the simplest ones is thro
 <p align="center"><img alt="XMR QR" src="img/xmr_qr.png"></p>
 </details>
 
+## TON
+
+TON is a blockchain platform developed by Telegram.
+You can donate to Tatsumoto easily through the Telegram [wallet](https://t.me/wallet).
+
+```
+UQD-nERqJDsG-WqaG_FpcupEFDuhWaLTF_C-dliiS-NLf-9t
+```
+
+<details>
+<summary>TON QR</summary>
+<p align="center"><img src="img/ton_qr.webp" alt="TON QR"></p>
+</details>
+
 ## Bitcoin
 
 Bitcoin is another cryptocurrency.
