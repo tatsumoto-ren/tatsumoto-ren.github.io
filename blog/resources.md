@@ -428,6 +428,10 @@ You may need a Japanese IP address for some of these.
 
 ## Japanese subtitles
 
+> See also:
+> [Mining from movies and TV-shows](mining-from-movies-and-tv-shows.html)
+> and [Retiming subtitles](retiming-subtitles.html).
+
 * [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
 * [kitsunekko mirror](https://mega.nz/folder/jIxCCAjK#AYd_T5HsTrJRsaWwTtspjQ) (most recent)
 * [kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)
