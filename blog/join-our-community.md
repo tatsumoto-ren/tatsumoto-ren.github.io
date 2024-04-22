@@ -15,8 +15,6 @@ You can join us on Matrix or on Telegram.
 
 ## Matrix
 
-> Starting Lounge: `#join:midov.pl`
-
 We have a very rich and vibrant community on
 [Matrix](https://wiki.archlinux.org/index.php/Matrix).
 Matrix is great because it's a completely libre communication protocol.
