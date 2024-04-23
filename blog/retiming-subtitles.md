@@ -68,14 +68,13 @@ for
 from
 [Kitsunekko.net](resources.html#japanese-subtitles).
 Watch
-[this video](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
+[this video on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.
 
 <video width="1920" muted controls>
-	<source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/425b2f5de14c6f8cb6458612aa5b5a42be1f6380" type="video/mp4">
-	<source src="https://invidious.snopyta.org/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-	<source src="https://yt.artemislena.eu/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-	<source src="https://yewtu.be/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="https://cutefunny.art/_matrix/media/r0/download/cutefunny.art/6440df28dae9796cfeb4dcd4eb6bdc33f658dc98" type="video/mp4">
+	<source src="https://invidious.private.coffee/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
 </video>
 
 By default, `vidir` will try to use the text editor
