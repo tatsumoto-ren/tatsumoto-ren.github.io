@@ -201,6 +201,7 @@ and [fzf](https://wiki.archlinux.org/title/Fzf) to search it.
 <video width="1920" controls>
 	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/iPCcTkzkhOYtqGlrygjUnNwo" type="video/mp4">
 	<source src="https://invidious.private.coffee/latest_version?id=WVDRbR7C6js&itag=22" type="video/mp4">
+	<source src="vid/search_anime_subtitles.mp4" type="video/mp4">
 </video>
 
 In the video,
@@ -270,6 +271,7 @@ by filling the audio and screenshot fields.
 <video width="1920" controls>
 	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/qToxurOlXfToNasVwEWweBUw" type="video/mp4">
 	<source src="https://invidious.private.coffee/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 </video>
 
 The user-script has a long list of features and configuration options.
