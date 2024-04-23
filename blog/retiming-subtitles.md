@@ -92,7 +92,7 @@ and the ones you want to retime are Japanese subtitles downloaded from kitsunekk
 
 To extract all internal subtitles from videos in a folder in one go you can use a bash loop.
 
-```
+```bash
 for video in ./*.mkv; do
 	ffmpeg -i "$video" -f srt "${video%.*}".srt
 done
@@ -101,21 +101,21 @@ done
 Sometimes a video contains multiple subtitle tracks.
 To find out which one to extract, use `ffprobe`.
 
-```
+```bash
 ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
 ```
 
 To select a stream to extract, specify the `-map` parameter.
 E.g., to extract track #1 you use `-map 0:1`.
 
-```
+```bash
 ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
 ```
 
 Similarly, use a bash loop to convert existing subtitles from one format to another.
 You can swap `ass` and `srt` in the example.
 
-```
+```bash
 for sub in ./*.ass; do
 	ffmpeg -i "$sub" -f srt "${sub%.*}".srt
 done
@@ -187,7 +187,7 @@ as a reference for synchronization.
 
 To install FFsubsync, first install `ffmpeg`, `pipx`, then the program itself.
 
-```
+```bash
 sudo pacman -S --needed ffmpeg python-pipx
 pipx install ffsubsync
 ```
@@ -203,7 +203,7 @@ and all subtitles are in `ass` format.
 
 This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.
 
-```
+```bash
 for reference in ./subs.en/*.ass; do
 	to_retime=${reference//.en/.ja}
 	retimed=${to_retime%.*}_retimed.${to_retime##*.}
@@ -213,7 +213,7 @@ done
 
 This loop retimes all Japanese subs using the corresponding videos as reference.
 
-```
+```bash
 for reference in ./*.mkv; do
 	to_retime=./subs.ja/$(basename "${reference/.mkv/.ass}")
 	retimed=${to_retime%.*}_retimed.${to_retime##*.}
@@ -244,14 +244,14 @@ to see how it works and how to set it up.
 To use autosubsync-mpv first ensure that `mpv`, `ffmpeg`, `pipx` and `ffsubsync` are installed.
 Run the following commands.
 
-```
+```bash
 sudo pacman -S --needed mpv ffmpeg python-pipx
 pipx install ffsubsync
 ```
 
 Download and install the mpv add-on.
 
-```
+```bash
 mkdir -p ~/.config/mpv/scripts/
 git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
 ```
