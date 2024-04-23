@@ -105,7 +105,8 @@ screenshot-high-bit-depth=yes
 
 </details>
 
-**Note:** To tell mpv to show subtitles in the font you selected in the config, press `u`.
+**Note:**
+To tell mpv to show subtitles in the font you selected in the config, press `u`.
 If you want to make the setting permanent, add `sub-ass-override=force` to `mpv.conf`.
 
 `~/.config/mpv/input.conf` contains key bindings.
@@ -190,7 +191,8 @@ I find that it's easier to download all the subtitles for all the shows and have
 This may require a few GiB of disk space,
 but it will save you the hassle of having to visit subtitle catalogs
 every time you need to find subtitles.
-For example, if you download a mirror of `kitsunekko`,
+For example, if you download
+the [mirror of kitsunekko](https://github.com/Ajatt-Tools/kitsunekko-mirror),
 you can use
 [lf](https://wiki.archlinux.org/title/Lf) to browse it,
 and [fzf](https://wiki.archlinux.org/title/Fzf) to search it.
@@ -200,6 +202,22 @@ and [fzf](https://wiki.archlinux.org/title/Fzf) to search it.
 	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/iPCcTkzkhOYtqGlrygjUnNwo" type="video/mp4">
 	<source src="https://invidious.private.coffee/latest_version?id=WVDRbR7C6js&itag=22" type="video/mp4">
 </video>
+
+In the video,
+I'm using a [shell alias](https://wiki.archlinux.org/title/Bash#Aliases)
+to enter the directory with Japanese anime subtitles.
+I'm also using keyboard shortcuts to call `fzf` and `lf`.
+Shortcuts and aliases can be
+[configured](https://wiki.archlinux.org/title/Zsh#Configure_Zsh) in the `.zshrc` file.
+
+```
+# Change directory
+alias subs='cd -- "/path/to/directory"'
+# Ctrl+O to launch lf file manager.
+bindkey -s '^o' '^ulf\n'
+# Ctrl+F to search directory with fzf.
+bindkey -s '^f' '^ucd -- "$(dirname -- "$(fzf)")"\n'
+```
 
 To create your own local mirror of `kitsunekko`,
 use [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools).
