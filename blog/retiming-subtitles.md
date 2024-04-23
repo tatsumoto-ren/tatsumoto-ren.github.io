@@ -188,8 +188,8 @@ as a reference for synchronization.
 To install FFsubsync, first install `ffmpeg`, `pipx`, then the program itself.
 
 ```
-$ sudo pacman -S --needed ffmpeg python-pipx
-$ pipx install ffsubsync
+sudo pacman -S --needed ffmpeg python-pipx
+pipx install ffsubsync
 ```
 
 Read [Usage](https://github.com/smacke/ffsubsync#usage) on GitHub
@@ -242,16 +242,18 @@ Watch
 to see how it works and how to set it up.
 
 To use autosubsync-mpv first ensure that `mpv`, `ffmpeg`, `pipx` and `ffsubsync` are installed.
+Run the following commands.
 
 ```
-$ sudo pacman -S --needed mpv ffmpeg python-pipx
-$ pipx install ffsubsync
+sudo pacman -S --needed mpv ffmpeg python-pipx
+pipx install ffsubsync
 ```
 
 Download and install the mpv add-on.
 
 ```
-$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
+mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
 ```
 
 When you watch a video in mpv,

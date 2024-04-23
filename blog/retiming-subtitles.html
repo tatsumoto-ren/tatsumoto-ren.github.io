@@ -206,8 +206,8 @@ When synchronizing,
 you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.</p>
 <p>To install FFsubsync, first install <code>ffmpeg</code>, <code>pipx</code>, then the program itself.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ffmpeg python-pipx
-$ pipx install ffsubsync
+<div class="pre-wrap"><pre><code>sudo pacman -S --needed ffmpeg python-pipx
+pipx install ffsubsync
 </code></pre></div>
 <p>Read <a href="https://github.com/smacke/ffsubsync#usage">Usage</a> on GitHub
 to understand how to use the program to retime individual files.</p>
@@ -246,12 +246,14 @@ Autosubsync-mpv is an add-on for the mpv media player.
 Watch
 <a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc">this video</a>
 to see how it works and how to set it up.</p>
-<p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed mpv ffmpeg python-pipx
-$ pipx install ffsubsync
+<p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.
+Run the following commands.</p>
+<div class="pre-wrap"><pre><code>sudo pacman -S --needed mpv ffmpeg python-pipx
+pipx install ffsubsync
 </code></pre></div>
 <p>Download and install the mpv add-on.</p>
-<div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
+<div class="pre-wrap"><pre><code>mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
 </code></pre></div>
 <p>When you watch a video in mpv,
 press <code>n</code> to bring the add-on's menu.
