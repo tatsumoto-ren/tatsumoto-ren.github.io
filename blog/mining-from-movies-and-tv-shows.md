@@ -194,6 +194,12 @@ For example, if you download a mirror of `kitsunekko`,
 you can use
 [lf](https://wiki.archlinux.org/title/Lf) to browse it,
 and [fzf](https://wiki.archlinux.org/title/Fzf) to search it.
+[Watch a demonstration on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=WVDRbR7C6js).
+
+<video width="1920" controls>
+	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/iPCcTkzkhOYtqGlrygjUnNwo" type="video/mp4">
+	<source src="https://invidious.private.coffee/latest_version?id=WVDRbR7C6js&itag=22" type="video/mp4">
+</video>
 
 To create your own local mirror of `kitsunekko`,
 use [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools).
@@ -241,14 +247,11 @@ while watching movies and TV shows in your target language.
 
 Mpvacious can update Anki cards you add with Rikaitan
 by filling the audio and screenshot fields.
-Here is a [video demonstration](https://redirect.invidious.io/watch?v=vU85ramvyo4):
+[Watch a demonstration on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=vU85ramvyo4).
 
 <video width="1920" controls>
 	<source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/qToxurOlXfToNasVwEWweBUw" type="video/mp4">
-	<source src="https://invidious.snopyta.org/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-	<source src="https://inv.us.projectsegfau.lt/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-	<source src="https://yt.artemislena.eu/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-	<source src="https://vid.priv.au/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+	<source src="https://invidious.private.coffee/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
 </video>
 
 The user-script has a long list of features and configuration options.
