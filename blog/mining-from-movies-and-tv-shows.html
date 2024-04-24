@@ -145,7 +145,8 @@ screenshot-jpeg-quality=90
 screenshot-high-bit-depth=yes
 </code></pre></div>
 </details>
-<p><span class="article-note">Note</span>: To tell mpv to show subtitles in the font you selected in the config, press <code>u</code>.
+<p><span class="article-note">Note</span>:
+To tell mpv to show subtitles in the font you selected in the config, press <code>u</code>.
 If you want to make the setting permanent, add <code>sub-ass-override=force</code> to <code>mpv.conf</code>.</p>
 <p><code>~/.config/mpv/input.conf</code> contains key bindings.
 For all available bindings, see <code>/usr/share/doc/mpv/input.conf</code>.</p>
@@ -208,10 +209,30 @@ Subtitles can be found on the <a href="resources.html#japanese-subtitles">Resour
 This may require a few GiB of disk space,
 but it will save you the hassle of having to visit subtitle catalogs
 every time you need to find subtitles.
-For example, if you download a mirror of <code>kitsunekko</code>,
+For example, if you download
+the <a href="https://github.com/Ajatt-Tools/kitsunekko-mirror">mirror of kitsunekko</a>,
 you can use
 <a href="https://wiki.archlinux.org/title/Lf">lf</a> to browse it,
-and <a href="https://wiki.archlinux.org/title/Fzf">fzf</a> to search it.</p>
+and <a href="https://wiki.archlinux.org/title/Fzf">fzf</a> to search it.
+<a href="https://redirect.invidious.io/watch?v=WVDRbR7C6js">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube"></a>.</p>
+<video width="1920" controls>
+    <source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/iPCcTkzkhOYtqGlrygjUnNwo" type="video/mp4">
+    <source src="https://invidious.private.coffee/latest_version?id=WVDRbR7C6js&itag=22" type="video/mp4">
+    <source src="vid/search_anime_subtitles.mp4" type="video/mp4">
+</video>
+<p>In the video,
+I'm using a <a href="https://wiki.archlinux.org/title/Bash#Aliases">shell alias</a>
+to enter the directory with Japanese anime subtitles.
+I'm also using keyboard shortcuts to call <code>fzf</code> and <code>lf</code>.
+Shortcuts and aliases can be
+<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh">configured</a> in the <code>.zshrc</code> file.</p>
+<div class="pre-wrap"><pre><code># Change directory
+alias subs='cd -- &quot;/path/to/directory&quot;'
+# Ctrl+O to launch lf file manager.
+bindkey -s '^o' '^ulf\n'
+# Ctrl+F to search directory with fzf.
+bindkey -s '^f' '^ucd -- &quot;$(dirname -- &quot;$(fzf)&quot;)&quot;\n'
+</code></pre></div>
 <p>To create your own local mirror of <code>kitsunekko</code>,
 use <a href="https://github.com/Ajatt-Tools/kitsunekko-tools">kitsunekko-tools</a>.
 This simple program downloads all files from <code>kitsunekko</code>
@@ -248,13 +269,11 @@ that allows you to make Anki cards
 while watching movies and TV shows in your target language.</p>
 <p>Mpvacious can update Anki cards you add with Rikaitan
 by filling the audio and screenshot fields.
-Here is a <a href="https://redirect.invidious.io/watch?v=vU85ramvyo4">video demonstration</a>:</p>
+<a href="https://redirect.invidious.io/watch?v=vU85ramvyo4">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube"></a>.</p>
 <video width="1920" controls>
     <source src="https://matrix.fedibird.com/_matrix/media/r0/download/matrix.fedibird.com/qToxurOlXfToNasVwEWweBUw" type="video/mp4">
-    <source src="https://invidious.snopyta.org/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-    <source src="https://inv.us.projectsegfau.lt/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-    <source src="https://yt.artemislena.eu/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
-    <source src="https://vid.priv.au/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+    <source src="https://invidious.private.coffee/latest_version?id=vU85ramvyo4&itag=22" type="video/mp4">
+    <source src="vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 </video>
 <p>The user-script has a long list of features and configuration options.
 For details explore the documentation on GitHub.

@@ -120,13 +120,12 @@ for
 from
 <a href="resources.html#japanese-subtitles">Kitsunekko.net</a>.
 Watch
-<a href="https://redirect.invidious.io/watch?v=qasLFv8Rv7o">this video</a>
+<a href="https://redirect.invidious.io/watch?v=qasLFv8Rv7o">this video on <img src="img/youtube_logo.webp" alt="YouTube"></a>
 to get a gist of how it's done.</p>
 <video width="1920" muted controls>
-    <source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/425b2f5de14c6f8cb6458612aa5b5a42be1f6380" type="video/mp4">
-    <source src="https://invidious.snopyta.org/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-    <source src="https://yt.artemislena.eu/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-    <source src="https://yewtu.be/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+    <source src="https://cutefunny.art/_matrix/media/r0/download/cutefunny.art/6440df28dae9796cfeb4dcd4eb6bdc33f658dc98" type="video/mp4">
+    <source src="https://invidious.private.coffee/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+    <source src="vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
 </video>
 <p>By default, <code>vidir</code> will try to use the text editor
 that is set via the <code>EDITOR</code> <a href="how-do-i-change-an-environment-variable.html">environment variable</a>.
@@ -138,21 +137,21 @@ and add <code>export EDITOR=&quot;nvim&quot;</code> as a new environment variabl
 Most likely the internal subtitles are going to be English fansubs
 and the ones you want to retime are Japanese subtitles downloaded from kitsunekko.</p>
 <p>To extract all internal subtitles from videos in a folder in one go you can use a bash loop.</p>
-<div class="pre-wrap"><pre><code>for video in ./*.mkv; do
+<div class="pre-wrap"><pre><code class="language-bash">for video in ./*.mkv; do
     ffmpeg -i &quot;$video&quot; -f srt &quot;${video%.*}&quot;.srt
 done
 </code></pre></div>
 <p>Sometimes a video contains multiple subtitle tracks.
 To find out which one to extract, use <code>ffprobe</code>.</p>
-<div class="pre-wrap"><pre><code>ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
+<div class="pre-wrap"><pre><code class="language-bash">ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
 </code></pre></div>
 <p>To select a stream to extract, specify the <code>-map</code> parameter.
 E.g., to extract track #1 you use <code>-map 0:1</code>.</p>
-<div class="pre-wrap"><pre><code>ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
+<div class="pre-wrap"><pre><code class="language-bash">ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
 </code></pre></div>
 <p>Similarly, use a bash loop to convert existing subtitles from one format to another.
 You can swap <code>ass</code> and <code>srt</code> in the example.</p>
-<div class="pre-wrap"><pre><code>for sub in ./*.ass; do
+<div class="pre-wrap"><pre><code class="language-bash">for sub in ./*.ass; do
     ffmpeg -i &quot;$sub&quot; -f srt &quot;${sub%.*}&quot;.srt
 done
 </code></pre></div>
@@ -206,8 +205,8 @@ When synchronizing,
 you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.</p>
 <p>To install FFsubsync, first install <code>ffmpeg</code>, <code>pipx</code>, then the program itself.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed ffmpeg python-pipx
-$ pipx install ffsubsync
+<div class="pre-wrap"><pre><code class="language-bash">sudo pacman -S --needed ffmpeg python-pipx
+pipx install ffsubsync
 </code></pre></div>
 <p>Read <a href="https://github.com/smacke/ffsubsync#usage">Usage</a> on GitHub
 to understand how to use the program to retime individual files.</p>
@@ -217,14 +216,14 @@ the subtitle files I want to retime are stored in the <code>subs.ja</code> direc
 the reference subtitles are stored in the <code>subs.en</code> directory
 and all subtitles are in <code>ass</code> format.</p>
 <p>This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.</p>
-<div class="pre-wrap"><pre><code>for reference in ./subs.en/*.ass; do
+<div class="pre-wrap"><pre><code class="language-bash">for reference in ./subs.en/*.ass; do
     to_retime=${reference//.en/.ja}
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
     ffsubsync &quot;$reference&quot; -i &quot;$to_retime&quot; -o &quot;$retimed&quot;
 done
 </code></pre></div>
 <p>This loop retimes all Japanese subs using the corresponding videos as reference.</p>
-<div class="pre-wrap"><pre><code>for reference in ./*.mkv; do
+<div class="pre-wrap"><pre><code class="language-bash">for reference in ./*.mkv; do
     to_retime=./subs.ja/$(basename &quot;${reference/.mkv/.ass}&quot;)
     retimed=${to_retime%.*}_retimed.${to_retime##*.}
     ffsubsync &quot;$reference&quot; -i &quot;$to_retime&quot; -o &quot;$retimed&quot;
@@ -246,12 +245,14 @@ Autosubsync-mpv is an add-on for the mpv media player.
 Watch
 <a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc">this video</a>
 to see how it works and how to set it up.</p>
-<p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.</p>
-<div class="pre-wrap"><pre><code>$ sudo pacman -S --needed mpv ffmpeg python-pipx
-$ pipx install ffsubsync
+<p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.
+Run the following commands.</p>
+<div class="pre-wrap"><pre><code class="language-bash">sudo pacman -S --needed mpv ffmpeg python-pipx
+pipx install ffsubsync
 </code></pre></div>
 <p>Download and install the mpv add-on.</p>
-<div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
+<div class="pre-wrap"><pre><code class="language-bash">mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
 </code></pre></div>
 <p>When you watch a video in mpv,
 press <code>n</code> to bring the add-on's menu.

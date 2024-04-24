@@ -68,14 +68,13 @@ for
 from
 [Kitsunekko.net](resources.html#japanese-subtitles).
 Watch
-[this video](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
+[this video on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.
 
 <video width="1920" muted controls>
-	<source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/425b2f5de14c6f8cb6458612aa5b5a42be1f6380" type="video/mp4">
-	<source src="https://invidious.snopyta.org/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-	<source src="https://yt.artemislena.eu/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
-	<source src="https://yewtu.be/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="https://cutefunny.art/_matrix/media/r0/download/cutefunny.art/6440df28dae9796cfeb4dcd4eb6bdc33f658dc98" type="video/mp4">
+	<source src="https://invidious.private.coffee/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
+	<source src="vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
 </video>
 
 By default, `vidir` will try to use the text editor
@@ -92,7 +91,7 @@ and the ones you want to retime are Japanese subtitles downloaded from kitsunekk
 
 To extract all internal subtitles from videos in a folder in one go you can use a bash loop.
 
-```
+```bash
 for video in ./*.mkv; do
 	ffmpeg -i "$video" -f srt "${video%.*}".srt
 done
@@ -101,21 +100,21 @@ done
 Sometimes a video contains multiple subtitle tracks.
 To find out which one to extract, use `ffprobe`.
 
-```
+```bash
 ffprobe -loglevel error -select_streams s -show_entries stream_tags=language,title:stream=index -of compact video.mkv
 ```
 
 To select a stream to extract, specify the `-map` parameter.
 E.g., to extract track #1 you use `-map 0:1`.
 
-```
+```bash
 ffmpeg -i video.mkv -map 0:1 -f srt subs.srt
 ```
 
 Similarly, use a bash loop to convert existing subtitles from one format to another.
 You can swap `ass` and `srt` in the example.
 
-```
+```bash
 for sub in ./*.ass; do
 	ffmpeg -i "$sub" -f srt "${sub%.*}".srt
 done
@@ -187,9 +186,9 @@ as a reference for synchronization.
 
 To install FFsubsync, first install `ffmpeg`, `pipx`, then the program itself.
 
-```
-$ sudo pacman -S --needed ffmpeg python-pipx
-$ pipx install ffsubsync
+```bash
+sudo pacman -S --needed ffmpeg python-pipx
+pipx install ffsubsync
 ```
 
 Read [Usage](https://github.com/smacke/ffsubsync#usage) on GitHub
@@ -203,7 +202,7 @@ and all subtitles are in `ass` format.
 
 This loop retimes all Japanese subs in the folder using the corresponding English subs as reference.
 
-```
+```bash
 for reference in ./subs.en/*.ass; do
 	to_retime=${reference//.en/.ja}
 	retimed=${to_retime%.*}_retimed.${to_retime##*.}
@@ -213,7 +212,7 @@ done
 
 This loop retimes all Japanese subs using the corresponding videos as reference.
 
-```
+```bash
 for reference in ./*.mkv; do
 	to_retime=./subs.ja/$(basename "${reference/.mkv/.ass}")
 	retimed=${to_retime%.*}_retimed.${to_retime##*.}
@@ -242,16 +241,18 @@ Watch
 to see how it works and how to set it up.
 
 To use autosubsync-mpv first ensure that `mpv`, `ffmpeg`, `pipx` and `ffsubsync` are installed.
+Run the following commands.
 
-```
-$ sudo pacman -S --needed mpv ffmpeg python-pipx
-$ pipx install ffsubsync
+```bash
+sudo pacman -S --needed mpv ffmpeg python-pipx
+pipx install ffsubsync
 ```
 
 Download and install the mpv add-on.
 
-```
-$ git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
+```bash
+mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/autosubsync-mpv' ~/.config/mpv/scripts/autosubsync
 ```
 
 When you watch a video in mpv,
