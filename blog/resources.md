@@ -450,7 +450,8 @@ You may need a Japanese IP address for some of these.
 * [Anime Japanese subtitles](https://github.com/kienkzz/NanakoRaws-Anime-Japanese-subtitles)
 * [jimaku.cc](https://jimaku.cc/).
   A subtitle catalog, alternative to Kitsunekko.
-  Warning: the site promotes non-free (spyware) network services.
+  Includes links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
+  Discord is known for spying on and politically suppressing its users.
 
 ## Fonts
 
