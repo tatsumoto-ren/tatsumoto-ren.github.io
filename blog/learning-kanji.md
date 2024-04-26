@@ -48,7 +48,8 @@ are trapped by dogma and have simply never actually thought it through.
 
 To someone who hasn't started learning Japanese yet,
 kanji may look like blobs of random scribbles.
-Thankfully, in reality each kanji is just a composition
+Thankfully, in reality each kanji is just a
+[composition](kanji-composition-in-relation-to-reading-japanese.html)
 of either simpler kanji or primitive components called radicals.
 For example, [曇](https://kanji.jitenon.jp/kanjic/1221.html)
 is a combination of [日](https://kanji.jitenon.jp/kanji/065.html),
