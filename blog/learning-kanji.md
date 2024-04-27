@@ -182,7 +182,9 @@ Similar characters often look the same
 and remembering words takes many repetitions.
 You have to somehow force the words into your brain
 and there are no mental anchors to help you.
-However, if you do this enough eventually you arrive at the point when kanji stop being foreign anymore.
+However,
+if you do this enough,
+eventually you arrive at the point when kanji stop being foreign anymore.
 Once you reach this point, your brain starts to recognize each kanji as a whole
 without paying attention to its component parts.
 You start distinguishing them easily from each other,
@@ -422,34 +424,40 @@ as you take your first steps in reading native Japanese.
 
 I often see people asking,
 "should I learn radicals? Is it worth studying kanji radicals?"
+The answer is no.
+Here's why.
 
-If you're taking an isolated kanji study approach,
-you will be learning radicals and kanji composition with the Anki deck you have downloaded.
-For example, KanjiDamage introduces a new radical or kanji part before all the kanji that use it.
-RTK does the same.
-There's no need to study radicals separately.
+If you're following an isolated kanji study approach,
+you're already learning radicals and kanji composition through your Anki deck.
+For example,
+KanjiDamage and RTK introduce a new radical or kanji part
+before presenting all the kanji that use it.
+Therefore,
+there's no need to study radicals separately.
 
 If you're doing the JP1K method,
 radicals are skipped altogether.
 The method is designed to teach kanji like pictures.
 You memorize kanji by simply seeing them many times.
 
-So the answer is "no".
-
 ## Conclusion
 
 There are three paths you can take:
 
-1) Learning words from the start.
+1) Learn words from the start.
    This is going to be a little difficult at first,
    but all of us learn this way past the beginner stage.
-2) Study kanji in isolation using a mnemonic-based method such as KanjiDamage or RTK.
+2) Use the JP1K method to learn words without penalizing yourself for not knowing their readings.
+3) Study kanji in isolation using a mnemonic-based method
+   such as KanjiDamage, KanjiDamagePlus, or RTK.
    For each kanji you memorize its meaning
-   which later acts like a mental anchor making associating words with kanji easier.
-   Out of the available options my favorite one is KanjiDamage Plus.
-3) Use the JP1K method to learn words without penalizing yourself for not knowing their readings.
+   which later acts as a mental anchor making associating words with kanji easier.
+   However,
+   this path is likely the least preferable
+   due to the loose correlation between English and Japanese names of the kanji parts.
 
-The last two paths only serve as intermediate steps to prepare you for reading native content.
+The latter two paths only serve as intermediate steps
+to prepare you for reading native content.
 Any of them should take about a month or two to complete.
 
 Either path will result in success
