@@ -432,7 +432,7 @@ You may need a Japanese IP address for some of these.
 > [Mining from movies and TV-shows](mining-from-movies-and-tv-shows.html)
 > and [Retiming subtitles](retiming-subtitles.html).
 
-* [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc).
+* [kitsunekko.net](https://kitsunekko.net/subtitles/japanese/).
   A large repository of japanese subtitles.
 * [kitsunekko mirror](https://github.com/Ajatt-Tools/kitsunekko-mirror).
   You can clone this repository to have all subtitles from kitsunekko saved locally.
