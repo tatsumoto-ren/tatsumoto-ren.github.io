@@ -835,6 +835,9 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
   * [How to set up Rikaitan](setting-up-yomichan.html)
   * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
   * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
+* [dictpopup](https://github.com/Ajatt-Tools/dictpopup).
+  Looks up selected (Japanese) text in your Yomichan/Rikaitan dictionaries
+  and displays the result as a popup.
 * [Rikaikun](https://chromewebstore.google.com/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp).
 * [10ten Japanese Reader](https://github.com/birchill/10ten-ja-reader).
   Formerly known as Rikaichamp, this browser extension lets you look up Japanese words
