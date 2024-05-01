@@ -54,16 +54,17 @@ and its Japanese name on the **back**.
 
 Here's an example of what such flashcards might look like:
 
-| Front | Back                    |
-| ---   | ---                     |
-| ⺿    | 草冠(くさかんむり)      |
-| 氵    | 三水(さんずい)          |
-| 虫    | 虫偏(むしへん)          |
-| 木    | 木偏(きへん)            |
-| 疒    | 病垂れ(やまいだれ)      |
-| 訁    | 言偏(ごんべん)          |
-| 忄    | 立心偏(りっしんべん)    |
-| ⺗    | 下心(したごころ)        |
+| Front | Back                                                             |
+| ---   | ---                                                              |
+| ⺿    | [草冠](https://kanjijoho.com/cat/busyu609.html) (くさかんむり)   |
+| 氵    | [三水](https://kanjijoho.com/cat/busyu434.html) (さんずい)       |
+| 虫    | [虫偏](https://kanjijoho.com/cat/busyu626.html) (むしへん)       |
+| 木    | [木偏](https://kanjijoho.com/cat/busyu409.html) (きへん)         |
+| 疒    | [病垂れ](https://kanjijoho.com/cat/busyu522.html) (やまいだれ)   |
+| 訁    | [言偏](https://kanjijoho.com/cat/busyu707.html) (ごんべん)       |
+| 魚    | [魚偏](https://kanjijoho.com/cat/busyu1102.html) (うおへん)      |
+| 忄    | [立心偏](https://kanjijoho.com/cat/busyu415.html) (りっしんべん) |
+| ⺗    | [下心](https://kanjijoho.com/cat/busyu415.html) (したごころ)     |
 
 For each radical that you want to learn,
 you need to know what Japanese people call it before you make a card.
