@@ -61,7 +61,6 @@ You may need to Email an admin to get an account.
 
 | Server                   | Web client                                                    | Extra                                                |
 | :---                     | :---                                                          | :---                                                 |
-| `moriyashrine.org`       | [element.moriyashrine.org](https://element.moriyashrine.org/) |                                                      |
 | `plan9.rocks`            | None                                                          | [Register here](https://plan9.rocks/register/)       |
 | `cutefunny.art`          | [cutefunny.art](https://matrixclient.cutefunny.art/)          | 🏆                                                   |
 | `sakura.ci`              | [web.sakura.ci](https://web.sakura.ci/)                       |                                                      |
