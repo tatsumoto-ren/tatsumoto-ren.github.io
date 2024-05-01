@@ -79,10 +79,10 @@ You may need to Email an admin to get an account.
 
 ## Servers run by Japanese people
 
-| Server                | Web client                                       | Extra |
-| :---                  | :---                                             | :---  |
-| `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆    |
-| `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |       |
+| Server                | Web client                                       | Extra                    |
+| :---                  | :---                                             | :---                     |
+| `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆 last checked - closed |
+| `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |                          |
 
 Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
 
@@ -103,7 +103,6 @@ or rooms without prior notice.
 | `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 | `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
 | `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
-| `halogen.city`                 | I used to recommend this server, but our members constantly complained about having trouble joining rooms. On top of that the server is slow. |
 | `nerdsin.space`                | Admin deactivated users' accounts after receiving fake reports.                                                                               |
 
 A full list that includes less popular servers is available
