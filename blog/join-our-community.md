@@ -22,22 +22,20 @@ Matrix is federated and consists of many servers, much like Email.
 Different Matrix servers are able to talk to each other.
 Before you join, install a
 [Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
-and register an account on one of the [servers listed here](list-of-matrix-servers.html).
+and register an account on one of the [servers](list-of-matrix-servers.html).
 If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
 
 <a target="_blank" class="md-button element" href="https://matrix.to/#/#join:midov.pl">Join us on Element</a>
 
-If the button above doesn't work,
-open your client of choice and join `#join:midov.pl`.
-If you can't or don't want to install a client program, use a
-[web app](https://matrix.eientei.org/#/room/#join:midov.pl)
-([alternative](https://chat.jc1.ca/#/room/#join:midov.pl)).
+If you already have a Matrix client,
+you can simply open it and join `#join:midov.pl`.
 
 When you join the community, you'll start in *Starting Lounge*.
 This is a room for new members.
 From there you can explore our community
 by following the links in the room's description.
-Note that `matrix.org` users aren't allowed to join any other rooms except Starting Lounge.
+Note that `matrix.org` users aren't allowed to join any other rooms
+except Starting Lounge and a couple others.
 
 If you want to keep in touch from an Android device,
 install [Element for Android](https://f-droid.org/en/packages/im.vector.app/).
