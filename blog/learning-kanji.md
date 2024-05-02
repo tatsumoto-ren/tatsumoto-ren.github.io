@@ -422,23 +422,41 @@ as you take your first steps in reading native Japanese.
 
 ## Learning radicals
 
-I often see people asking,
-"should I learn radicals? Is it worth studying kanji radicals?"
-The answer is no.
+The question of whether one should learn kanji radicals is a common one.
+The answer is **no**.
 Here's why.
 
 If you're following an isolated kanji study approach,
-you're already learning radicals and kanji composition through your Anki deck.
-For example,
-KanjiDamage and RTK introduce a new radical or kanji part
-before presenting all the kanji that use it.
+such as using Anki decks like KanjiDamage or RTK,
+you're already learning radicals and kanji composition.
+These methods introduce new radicals or kanji components (primitives)
+before presenting the kanji that use them.
 Therefore,
-there's no need to study radicals separately.
+there is no need to separately study radicals in this case.
 
-If you're doing the JP1K method,
-radicals are skipped altogether.
-The method is designed to teach kanji like pictures.
-You memorize kanji by simply seeing them many times.
+If you are following the JP1K method,
+radicals are not learned at all.
+The method is designed to teach kanji like pictures,
+as whole characters,
+rather than breaking them down into parts.
+The goal is to memorize kanji by repeated exposure.
+
+RTK and KanjiDamage teach kanji parts in English.
+It's important to note that the English keywords used for kanji components
+are chosen to facilitate the creation of
+[mnemonic stories](https://en.wikipedia.org/wiki/Mnemonic)
+and may not accurately represent the Japanese meanings.
+While these English keywords can be helpful in the beginning,
+they are often forgotten once one becomes more proficient in reading Japanese,
+as they are useless for actual language comprehension.
+
+However,
+in spoken Japanese,
+people use radicals to explain how to write kanji.
+To better understand these conversations during immersion,
+you may actually want to
+[learn the proper Japanese names](learning-kanji-radicals.html) for common radicals.
+You can do it after you learn more fundamental aspects of Japanese.
 
 ## Conclusion
 
