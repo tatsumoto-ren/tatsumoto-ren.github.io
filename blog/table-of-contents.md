@@ -57,6 +57,8 @@ date: 1616375454
 	* [List of resources](resources.html)
 	* [FAQ](tag_faq.html)
 	* [Sentences with native audio](ankidrone-sentence-pack.html)
+	* [Kanji composition](kanji-composition-in-relation-to-reading-japanese.html)
+	* [Learning Kanji Radicals](learning-kanji-radicals.html)
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
