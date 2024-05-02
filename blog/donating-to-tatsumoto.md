@@ -102,8 +102,7 @@ By clicking the link below,
 you can subscribe to monthly donations.
 You can set a donation amount at checkout in the Tip section.
 
-<a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools/299">One-time donation</a>
-<a target="_blank" class="md-button telegram" href="https://t.me/donate?start=Y2hhcml0eV9pbnZvaWNlX3JlcXVlc3QtMjY1NzQ=-k1rK">Monthly donations</a>
+<a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools/348">Subscribe</a>
 
 ## Cointree
 
