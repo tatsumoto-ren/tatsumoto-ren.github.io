@@ -68,6 +68,7 @@ Here's an example of what such flashcards might look like:
 
 For each radical that you want to learn,
 you need to know what Japanese people call it before you make a card.
+For a comprehensive list of radicals visit [部首一覧](https://kanjitisiki.com/busyu/).
 
 In Japanese,
 radicals are primarily mentioned when people explain how to write kanji.
