@@ -124,7 +124,8 @@ before focusing on speaking.
 
 ## YouTube
 
-YouTube presents great opportunities for language learning if used correctly.
+YouTube presents [great opportunities](immersion-with-youtube.html)
+for language learning if used correctly.
 Mainly by watching videos created by native speakers
 intended primarily for other natives speakers of your target language.
 
