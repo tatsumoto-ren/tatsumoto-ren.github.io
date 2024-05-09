@@ -304,51 +304,45 @@ But among them are those that just feel like a fifth wheel
 and don't bring a lot of value for language learners.
 Nevertheless, they're popular, so I might as well mention them.</p>
 <h3 id="kanji-colorizer"><a class="anchor" href="#kanji-colorizer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kanji Colorizer</h3>
-<p>Stores a bunch of bloated svg data in your Anki collection.</p>
 <p>If you want to add stroke diagrams to your cards,
-use the <code>KanjiStrokeOrders</code> font.
+use the <code>KanjiStrokeOrders</code> font instead.
 The font can be stored in your <code>collection.media</code> folder
 and used to display kanji on your writing cards.
 It comes with the <a href="setting-up-anki.html#import-an-example-mining-deck">example mining deck</a>
-or can be downloaded separately from <a href="https://t.me/ajatt_tools/48">here</a>.</p>
+or can be downloaded separately from <a href="https://disk.yandex.com/d/cj0hetiqGjhDiA/Stroke%20order">here</a>.</p>
 <p align="center"><img alt="writing-card" class="shadow" src="img/mpvacious-writing-card.png"></p>
 <p align="center"><i>Example mpvacious writing card.</i></p>
 <h3 id="awesome-tts"><a class="anchor" href="#awesome-tts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome TTS</h3>
 <p>The plugin adds computer-generated audio to your Anki cards using text-to-speech.
-Obviously, listening to robotic voice is not ideal when you're learning a language.
+Obviously, listening to robotic voice
+<a href="is-listening-to-texttospeech-bad.html">is not ideal</a>
+when you're learning a language.
 To acquire phonetics of your target language you need to listen to native speech,
 you don't want to pick up weird habits from the robot.
-And due to abundance of voiced native media in Japanese and the ability to mine sentences
-with mpv scripts such as
-<a href="https://github.com/Ajatt-Tools/mpvacious">mpvacious</a>
-or
-<a href="https://github.com/SenneH/mpv2anki">mpv2anki</a>
+And due to abundance of voiced native media in Japanese
+and the ability to mine sentences <a href="mining-from-movies-and-tv-shows.html">with mpv scripts</a>
 there won't be many times when you actually need it.</p>
 <h3 id="add-ons-that-modify-anki-scheduler"><a class="anchor" href="#add-ons-that-modify-anki-scheduler" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add-ons that modify Anki Scheduler</h3>
 <p>Basically everything that modifies the scheduler is completely unreliable and prone to breakage.</p>
 <ul>
-<li>If an add-on tunes the Ease factor on a card by card basis,
+<li>If an add-on tunes the <strong>Ease</strong> factor on a card by card basis,
 you can't predict your retention and will likely be forgetting more cards.</li>
-<li>If an add-on modifies the Due value,
+<li>If an add-on modifies the <strong>Due</strong> value,
 a card may come up for review too early or too late, resulting in more forgetting.</li>
 </ul>
 <p>I provide some examples below.</p>
-<h4 id="straight-reward"><a class="anchor" href="#straight-reward" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Straight Reward</h4>
-<p>This add-on messes your Anki cards when you rate them &quot;Good&quot; or &quot;Easy&quot;.
+<p>Straight Reward
+messes your Anki cards when you rate them &quot;Good&quot; or &quot;Easy&quot;.
 The idea is that with the add-on your Ease will eventually recover after a lapse.
 After trying it for a week with default Anki settings I found that it simply doesn't work,
 and my cards aren't modified in any way. So the only thing I can recommend you is
 to set your Ease to 131% with <a href="#refoldease">RefoldEase</a> and keep your Anki setup simple.</p>
-<h4 id="load-balancer"><a class="anchor" href="#load-balancer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Load Balancer</h4>
-<p>Prevents you from reviewing your cards on the right day, when they should be reviewed.</p>
-<h4 id="auto-ease-factor"><a class="anchor" href="#auto-ease-factor" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Auto Ease Factor</h4>
-<p>It's similar to Straight Reward.</p>
-<blockquote>
-<p>Adjusts ease factor on cards automatically after each rep</p>
-</blockquote>
-<p>Terrible idea.</p>
-<h3 id="migaku-add-ons"><a class="anchor" href="#migaku-add-ons" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Migaku add-ons</h3>
-<p>They're big, slow, redundant and intrusive.</p>
+<p>Load Balancer
+prevents you from reviewing your cards on the right day, when they should be reviewed.</p>
+<p>Auto Ease Factor
+is similar to Straight Reward.
+It adjusts ease factor on cards automatically after each rep.
+Terrible idea.</p>
 <p>Tags: <a href="tag_anki.html">anki</a></p>
 <!-- text end -->
 </article>

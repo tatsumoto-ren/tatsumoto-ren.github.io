@@ -320,14 +320,12 @@ Nevertheless, they're popular, so I might as well mention them.
 
 ### Kanji Colorizer
 
-Stores a bunch of bloated svg data in your Anki collection.
-
 If you want to add stroke diagrams to your cards,
-use the `KanjiStrokeOrders` font.
+use the `KanjiStrokeOrders` font instead.
 The font can be stored in your `collection.media` folder
 and used to display kanji on your writing cards.
 It comes with the [example mining deck](setting-up-anki.html#import-an-example-mining-deck)
-or can be downloaded separately from [here](https://t.me/ajatt_tools/48).
+or can be downloaded separately from [here](https://disk.yandex.com/d/cj0hetiqGjhDiA/Stroke%20order).
 
 <p align="center"><img alt="writing-card" class="shadow" src="img/mpvacious-writing-card.png"></p>
 
@@ -336,47 +334,37 @@ or can be downloaded separately from [here](https://t.me/ajatt_tools/48).
 ### Awesome TTS
 
 The plugin adds computer-generated audio to your Anki cards using text-to-speech.
-Obviously, listening to robotic voice is not ideal when you're learning a language.
+Obviously, listening to robotic voice
+[is not ideal](is-listening-to-texttospeech-bad.html)
+when you're learning a language.
 To acquire phonetics of your target language you need to listen to native speech,
 you don't want to pick up weird habits from the robot.
-And due to abundance of voiced native media in Japanese and the ability to mine sentences
-with mpv scripts such as
-[mpvacious](https://github.com/Ajatt-Tools/mpvacious)
-or
-[mpv2anki](https://github.com/SenneH/mpv2anki)
+And due to abundance of voiced native media in Japanese
+and the ability to mine sentences [with mpv scripts](mining-from-movies-and-tv-shows.html)
 there won't be many times when you actually need it.
 
 ### Add-ons that modify Anki Scheduler
 
 Basically everything that modifies the scheduler is completely unreliable and prone to breakage.
 
-* If an add-on tunes the Ease factor on a card by card basis,
-you can't predict your retention and will likely be forgetting more cards.
-* If an add-on modifies the Due value,
-a card may come up for review too early or too late, resulting in more forgetting.
+* If an add-on tunes the **Ease** factor on a card by card basis,
+  you can't predict your retention and will likely be forgetting more cards.
+* If an add-on modifies the **Due** value,
+  a card may come up for review too early or too late, resulting in more forgetting.
 
 I provide some examples below.
 
-#### Straight Reward
-
-This add-on messes your Anki cards when you rate them "Good" or "Easy".
+Straight Reward
+messes your Anki cards when you rate them "Good" or "Easy".
 The idea is that with the add-on your Ease will eventually recover after a lapse.
 After trying it for a week with default Anki settings I found that it simply doesn't work,
 and my cards aren't modified in any way. So the only thing I can recommend you is
 to set your Ease to 131% with [RefoldEase](#refoldease) and keep your Anki setup simple.
 
-#### Load Balancer
+Load Balancer
+prevents you from reviewing your cards on the right day, when they should be reviewed.
 
-Prevents you from reviewing your cards on the right day, when they should be reviewed.
-
-#### Auto Ease Factor
-
-It's similar to Straight Reward.
-
-> Adjusts ease factor on cards automatically after each rep
-
+Auto Ease Factor
+is similar to Straight Reward.
+It adjusts ease factor on cards automatically after each rep.
 Terrible idea.
-
-### Migaku add-ons
-
-They're big, slow, redundant and intrusive.
