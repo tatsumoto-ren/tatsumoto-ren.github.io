@@ -280,14 +280,30 @@ ruby:hover rt { visibility: visible; }
 <li><p><strong>Increase font size.</strong>
 By default, Rikaitan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
-To increase its size, the following code can be used:</p>
-<div class="pre-wrap"><pre><code>.gloss-item { font-size: 1.5em; }
+To increase its size, the following code can be used.</p>
+<div class="pre-wrap"><pre><code>.gloss-content { font-size: 1.5em; }
+</code></pre></div>
+<p>Or, more complex rules with the popups and the search page styled separately.</p>
+<div class="pre-wrap"><pre><code>/* popup */
+[data-page-type=&quot;popup&quot;] .gloss-content  {
+    font-size: clamp(1rem, 6.5vw, 4rem);
+    font-weight: 300;
+}
+/* search page */
+[data-page-type=&quot;search&quot;] .gloss-content {
+    font-size: 2rem;
+}
 </code></pre></div>
 <p>Adjust the size to suit your preference.</p>
 </li>
 <li><p><strong>Make tags smaller.</strong>
 Tags aren't that important, so it makes sense to shrink them a bit to save space.</p>
-<div class="pre-wrap"><pre><code>.tag { font-size: 12px; }
+<div class="pre-wrap"><pre><code>.tag-label-content { font-size: 12px; }
+</code></pre></div>
+<div class="pre-wrap"><pre><code>[data-page-type=&quot;popup&quot;] .tag-label-content {
+    font-size: 3vw;
+    font-weight: 300;
+}
 </code></pre></div>
 </li>
 <li><p><strong>Popup page in the Anki-card style.</strong>

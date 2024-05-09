@@ -237,10 +237,24 @@ but there are a few important modifications I'd like to mention.
 1) **Increase font size.**
    By default, Rikaitan uses very small font.
    If you're using monolingual dictionaries, you're going to find the font uncomfortable.
-   To increase its size, the following code can be used:
+   To increase its size, the following code can be used.
 
    ```
-   .gloss-item { font-size: 1.5em; }
+   .gloss-content { font-size: 1.5em; }
+   ```
+
+   Or, more complex rules with the popups and the search page styled separately.
+
+   ```
+   /* popup */
+   [data-page-type="popup"] .gloss-content  {
+       font-size: clamp(1rem, 6.5vw, 4rem);
+       font-weight: 300;
+   }
+   /* search page */
+   [data-page-type="search"] .gloss-content {
+       font-size: 2rem;
+   }
    ```
 
    Adjust the size to suit your preference.
@@ -248,7 +262,14 @@ but there are a few important modifications I'd like to mention.
    Tags aren't that important, so it makes sense to shrink them a bit to save space.
 
    ```
-   .tag { font-size: 12px; }
+   .tag-label-content { font-size: 12px; }
+   ```
+
+   ```
+   [data-page-type="popup"] .tag-label-content {
+       font-size: 3vw;
+       font-weight: 300;
+   }
    ```
 1) **Popup page in the Anki-card style.**
    Makes your popups look similar to your targeted sentence cards.
