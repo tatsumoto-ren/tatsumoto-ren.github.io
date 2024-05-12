@@ -127,6 +127,20 @@ then paste the path to an extracted folder.
 <p align="center"><img class="shadow" alt="Forvo Search" src="img/goldendic-forvo-search.webp"></p>
 <p align="center"><i>Search Forvo audio.</i></p>
 
+**Note:**
+GoldenDict scans the sound directory on each startup.
+It may take a long time because audio files are stored in folders,
+each folder being named after the person who recorded the audio clips.
+To help the scanning finish faster,
+*flatten* the directory by moving the audio files from the subfolders
+into the parent directory.
+You can do it by launching a terminal in the directory and executing:
+
+```
+find . -type f -exec mv -n -- "{}" ./ \;
+find . -empty -delete
+```
+
 ## gd-tools
 
 [gd-tools](https://github.com/Ajatt-Tools/gd-tools)
