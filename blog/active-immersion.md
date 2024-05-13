@@ -235,7 +235,7 @@ Remember,
 we all learned our native language entirely through free-flow immersion,
 so I believe that free-flow immersion is more important
 than intensive immersion in the grand scheme of things.
-Intensive immersion, on the other hide,
+Intensive immersion, on the other side,
 is great for expanding your vocabulary.
 
 During free-flow immersion,
