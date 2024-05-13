@@ -127,11 +127,15 @@ before focusing on speaking.
 YouTube presents [great opportunities](immersion-with-youtube.html)
 for language learning if used correctly.
 Mainly by watching videos created by native speakers
-intended primarily for other natives speakers of your target language.
+intended primarily [for other natives speakers](whats-immersion.html)
+of your target language.
 
+There's a difference between learning a language and learning about the language.
 YouTube channels where everybody speaks English all the time,
 like JapanesePod101,
 will only waste your time.
+Videos where Japanese people are asked to answer JLPT quizzes on the street
+are equally useless.
 Some channels simply recite textbook materials in audio-visual format,
 which is not just inefficient,
 but is also slower than reading a book
