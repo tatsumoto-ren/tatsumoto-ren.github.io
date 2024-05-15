@@ -34,12 +34,13 @@ The issues with Cure Dolly that stood out to me:
   because they rely on English to describe Japanese,
   but Cure Dolly takes it to another level.
 * Cure Dolly's delivery can be off-putting.
+  It can come off as a bit creepy.
   Not everyone's going to have enough willpower to sit through its robotic voice.
 * It's lengthy.
   Most of the content is in video format.
   I'm not a big fan of videos.
   Reading a written grammar guide is going to be more efficient.
-  The grammar guide should be concise
+  A good grammar guide should be concise
   and have natural example sentences with translations for each grammar point it covers.
   Example sentences are **more important** than explanations.
 * The text version is long.
@@ -47,33 +48,36 @@ The issues with Cure Dolly that stood out to me:
   By the time you finish it,
   you will still not know Japanese,
   while someone who started AJATT instead of Cure Dolly will be already fluent in Japanese.
-* Although Dolly provides some example sentences,
-  the ratio of sentences to explanations is very low.
-  The examples provided are sparse and often feel contrived or artificial.
 * In lesson 41 (page ~370) we finally learn:
   > Nearly all Japanese words fall into one of three categories. Just three.
   > And those three categories are: Nouns, Verbs, and Adjectives.
 
   Long before you hit page 370, the grammar guide should be over.
+  To succeed,
+  Japanese learners have to spend a lot of time on [mass immersion](mass-immersion.html).
+  A 1,000 pages book in English will just eat away the immersion time.
+* Although Dolly provides some example sentences,
+  the ratio of sentences to explanations is very low.
+  The examples provided are sparse and often feel contrived or artificial.
 * There are two whole lessons dedicated to criticizing Tae Kim.
   Instead of learning Japanese,
   you are invited to learn the reasons why Tae Kim is bad.
   Tae Kim is not the best, but at least it gives readers more comprehensible input
   with multiple example sentences for each grammar rule.
   The biggest problems of Tae Kim are that
-  it has unnecessary conjugation tables and vocabulary lists,
+  it has unnecessary conjugation tables and vocabulary lists to memorize,
   but you can skip those.
 
 On this site,
 we recommend reading one of the [recommended grammar guides](learning-grammar.html#grammar-guides)
-to acquire a rough understanding
+to get a rough understanding
 of what each of the most common grammar patterns means
 in order to comprehend more of your input.
 My personal favorite is [All About Particles](all-about-particles.html).
-We don't concern ourselves with how to apply the rules to produce Japanese,
-this is something that comes naturally with immersion.
+We don't worry too much about applying rules to produce Japanese
+because that comes naturally with immersion.
 Humans learn grammar by [understanding messages](what-is-comprehensible-input.html),
-so it's important that the guide gives plenty of examples.
+so a grammar guide should provide plenty of examples.
 It's also helpful to [add the example sentences](learning-grammar.html#mining-grammar-points)
 to the SRS to remember them better.
 Most grammar rules are not covered in guides.
