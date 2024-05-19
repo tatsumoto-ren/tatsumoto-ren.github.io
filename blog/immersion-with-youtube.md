@@ -79,23 +79,23 @@ that can be used to download videos from YouTube and similar sites.
 On Arch Linux, yt-dlp can be installed by running this command:
 
 ```
-$ sudo pacman -S yt-dlp
+sudo pacman -S yt-dlp
 ```
 
 To download a video, execute:
 
 ```
-$ yt-dlp 'https://youtube.com/<video>'
+yt-dlp 'https://youtube.com/<video>'
 ```
 
 If you want to download just the audio, use this command:
 
 ```
-$ yt-dlp --extract-audio --format bestaudio/best 'https://youtube.com/<video>'
+yt-dlp --extract-audio --format bestaudio/best 'https://youtube.com/<video>'
 ```
 
-**Tip:** add these commands as
-[aliases](https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias)
+**Tip:**
+add these commands as [aliases](https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias)
 to access them without too much typing.
 
 `yt-dlp` reads its configuration from `~/.config/yt-dlp/config`.
@@ -106,7 +106,20 @@ Japanese (`ja`) subtitles in `ass` format
 and save the downloaded files to a dedicated folder.
 Change output location (marked with `-o`) to a folder of your preference.
 
-See `$ man yt-dlp` for a comprehensive list of options.
+See `man yt-dlp` for a comprehensive list of options.
+
+## mpv
+
+It is possible to open a YouTube link directly in mpv
+and watch it without saving the video on the hard drive.
+All you need to do is pass a video link as an argument to mpv.
+
+```
+mpv 'https://youtube.com/<video>'
+```
+
+I personally don't do so because there's a few hiccups
+that interfere with things like rewinding and making Anki cards.
 
 ## Notes
 
