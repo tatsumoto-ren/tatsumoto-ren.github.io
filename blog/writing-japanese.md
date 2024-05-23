@@ -100,7 +100,8 @@ that sound the same but are written with different kanji.
 The screenshot above provides a good illustration of how to use
 the similarly sounding words 保証 and 保障.
 
-This method has been implemented in the TSC note type.
+This method has been implemented in the
+[TSC](discussing-various-card-templates.html#targeted-sentence-cards) note type.
 When you download the deck linked below,
 you notice that each note has a field called `MakeProductionCard`.
 If you put any text in the field, a production targeted sentence card will be created.
