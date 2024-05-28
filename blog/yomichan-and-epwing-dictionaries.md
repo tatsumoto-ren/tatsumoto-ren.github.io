@@ -78,11 +78,63 @@ Qolibri is much better for EPWING.
 
 ## Rikaitan
 
-Rikaitan
+[Rikaitan](setting-up-yomichan.html)
 is a web browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 To get Rikaitan follow [this setup guide](setting-up-yomichan.html).
 In order to be able to make Anki cards don't forget to install [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
+
+### Beginner dictionaries
+
+For beginners Rikaitan provides a set of basic bilingual dictionaries.
+Leaners can use these dictionaries for the first few months of learning Japanese.
+We recommend deleting them after [going monolingual](going-monolingual.html) (covered later).
+You must download and import the dictionaries you wish to use
+in order to enable Rikaitan definition lookups.
+
+<details>
+<summary>Downloads</summary>
+
+- JMdict (English).
+  JMdict is the most common Japanese-English dictionary for beginners.
+  - [JMdict_english.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_english.zip).
+    This is the JMdict but without example sentences.
+  - [JMdict_english_with_examples.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_english_with_examples.zip).
+    This is the version of JMdict with example sentences from the [Tatoeba Project](http://tatoeba.org/home).
+    Note that Tatoeba doesn't always have correct example sentences.
+- JMdict (Other Languages).
+  Be aware that the non-English dictionaries contain fewer entries
+  than their English counterparts.
+  Even if your primary language is not English,
+  you may consider also importing the English version for better coverage.
+  - [JMdict_dutch.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_dutch.zip)
+  - [JMdict_french.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_french.zip)
+  - [JMdict_german.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_german.zip)
+  - [JMdict_hungarian.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_hungarian.zip)
+  - [JMdict_russian.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_russian.zip)
+  - [JMdict_slovenian.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_slovenian.zip)
+  - [JMdict_spanish.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_spanish.zip)
+  - [JMdict_swedish.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_swedish.zip)
+- [JMdict_forms.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_forms.zip).
+  This is a version of JMdict that includes only the alternate forms of each
+  entry. This is useful for conjugation lookup for those who do not wish to
+  have any dictionary definitons, and is unnecessary if you are using the
+  regular JMdict.
+- [JMnedict.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMnedict.zip).
+  JMnedict is a dictionary of Japanese names.
+  It tells you how to read names of people, places, etc.
+- KANJIDIC.
+  Kanjidic is a kanji dictionary.
+  - [KANJIDIC_english.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/KANJIDIC_english.zip)
+  - [KANJIDIC_french.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/KANJIDIC_french.zip)
+  - [KANJIDIC_portuguese.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/KANJIDIC_portuguese.zip)
+  - [KANJIDIC_spanish.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/KANJIDIC_spanish.zip)
+- [Kanjium Pitch Accent dictionary](https://github.com/Ajatt-Tools/rikaitan/raw/dictionaries/kanjium_pitch_accents.zip).
+  Made from [Kanjium](https://github.com/mifunetoshiro/kanjium) data.
+
+</details>
+
+### Mainline dictionaries
 
 An archive with dictionaries for Rikaitan can be downloaded by following the link below.
 
@@ -112,7 +164,7 @@ Press "Import" to import a new dictionary.
 
 ### About
 
-Each folder in the archive contains a file called "README.md".
+Each folder in the main archive contains a file called "README.md".
 Open it to see additional information about the dictionaries.
 
 ### Don't import all Rikaitan dictionaries
