@@ -653,7 +653,7 @@ article a:hover {
 /* Article headers */
 
 main :is(h1, h2, h3, h4, h5, h6) {
-    margin-block: 1.5rem 1rem;
+    margin-block: 1.5rem 0;
     line-height: 1.25;
     clear: both;
     color: var(--header-color, currentColor);
@@ -1481,8 +1481,7 @@ article img[float] {
     max-height: min(40vh, 250px);
 }
 
-article p + img[float],
-article hr + img[float] {
+article * + img[float] {
     margin-block: 1rem 0;
 }
 
