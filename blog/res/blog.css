@@ -1481,17 +1481,17 @@ article img[float] {
     max-height: min(40vh, 250px);
 }
 
+article p + img[float],
+article hr + img[float] {
+    margin-block: 1rem 0;
+}
+
 @media only screen and (min-width: 800px) {
     /* Wide screens. Enable floating. */
     article img[float] {
         float: right;
         max-width: 33.3%;
         margin-inline: 5px 0;
-    }
-
-    article p + img[float],
-    article hr + img[float] {
-        margin-block: 1rem 0;
     }
 
     article img[float="left"] {
