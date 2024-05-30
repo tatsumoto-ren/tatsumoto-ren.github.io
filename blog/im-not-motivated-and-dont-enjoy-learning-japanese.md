@@ -1,13 +1,15 @@
 ---
 title: I'm not motivated and don't enjoy learning Japanese, is it still worth my time?
 date: 1675882202
-tags: ['faq']
+tags: ['faq', 'guide']
 position: -9928
 ---
 
 Being unmotivated means that you don't actually want to learn Japanese,
 but you want to "want to learn Japanese".
 And if so I highly recommend quitting.
+
+****
 
 Don't learn Japanese.
 It's just honestly stupid.
@@ -16,6 +18,8 @@ There's no point to learning Japanese.
 There's nothing special about it.
 It's completely meaningless.
 And that's the honest truth.
+
+<img src="img/bored.webp" float="right">
 
 Doing Japanese means making a lot of sacrifices.
 To get good at Japanese you have to permanently change your life in a certain way.
