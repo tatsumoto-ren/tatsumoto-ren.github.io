@@ -55,10 +55,24 @@ The way Anki schedules flashcards is easy to understand.
 First a card is created.
 Then you learn it, and it receives a starting interval, `1` day by default.
 After the interval expires, the card needs to be reviewed.
-If you tell Anki that you remember the card, you've "passed" the review.
-Each time you successfully review a flashcard after its interval ends,
-the interval multiplies by `2.5`.
-The multiplier, the starting interval and other variables can be changed in Settings.
+If you tell Anki that you remember the card, that means you've "passed" the review.
+Each time you successfully review a flashcard after its interval ends, the interval increases.
+When using the default Anki algorithm, the interval grows like this:
+
+```
+New interval = Old interval * Ease factor * Interval modifier
+```
+
+The Ease is `2.5` by default, and Interval modifier is `1` by default.
+We have two different parameters because
+the Interval modifier is set for a deck (or multiple decks)
+and the Ease factor is attached to each individual card,
+so two cards can have different Ease factors.
+If you have a card, and you constantly answer "Good" when it comes up for review,
+its interval will grow something like this: 1 day, 3 days, 8 days, 20 days, etc.
+The Interval modifier, initial Ease factor, Starting interval,
+and other variables can be changed in Settings.
+
 If you forget a flashcard,
 it enters a "relearn" queue and has to be relearned.
 After a previously forgotten flashcard is relearned,
