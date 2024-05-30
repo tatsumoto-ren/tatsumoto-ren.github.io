@@ -41,6 +41,21 @@ Instead of *learning Japanese* enjoy Japanese because it's there.
 Read this book, watch this movie, read this manga, listen to this song.
 Play the short games.
 
+[AJATT](whats-ajatt.html)
+is a method that involves living your life fully immersed in the target language,
+much like being born and raised in the country where the language is spoken.
+And if you look at the process this way, motivation is out of the equation.
+Japanese people are never off the AJATT grind.
+Japanese people are never bored with Japanese.
+They simply live their daily lives in the language.
+So, what do you typically do each day?
+Try doing it in Japanese.
+Do you enjoy watching anime? Watch it in Japanese.
+Are you interested in cooking? Learn new recipes in Japanese.
+Stay up-to-date with current events by reading news in Japanese.
+By incorporating the target language into your daily activities,
+you will find it increasingly difficult to fall out of the habit.
+
 Now, if you had motivation before, but lost it,
 that's a slightly different problem.
 You've probably lost your goal.
