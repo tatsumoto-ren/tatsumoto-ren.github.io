@@ -53,9 +53,10 @@ date: 1616375454
 	* [Going monolingual](going-monolingual.html)
 	* [Understanding monolingual definitions](understanding-monolingual-definitions.html)
 	* [Writing by hand](writing-japanese.html)
+	* [On motivation](im-not-motivated-and-dont-enjoy-learning-japanese.html)
+* [FAQ](tag_faq.html)
 * Apocrypha
 	* [List of resources](resources.html)
-	* [FAQ](tag_faq.html)
 	* [Sentences with native audio](ankidrone-sentence-pack.html)
 	* [Kanji composition](kanji-composition-in-relation-to-reading-japanese.html)
 	* [Learning Kanji Radicals](learning-kanji-radicals.html)
