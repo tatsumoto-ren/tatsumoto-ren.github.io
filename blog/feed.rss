@@ -5,9 +5,27 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 23 May 2024 13:53:56 +0300</lastBuildDate>
-<pubDate>Thu, 23 May 2024 13:53:56 +0300</pubDate>
+<lastBuildDate>Sun, 02 Jun 2024 09:51:58 +0300</lastBuildDate>
+<pubDate>Sun, 02 Jun 2024 09:51:58 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Mitigating the Impact of Early Output</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>I'm forced to output early. How can I mitigate the damage?</p>
+</blockquote>
+<p>If you're already living in Japan,
+or taking Japanese classes,
+you may find yourself in situations where you need to speak Japanese.
+If you're not fluent yet,
+<a href="introduction-to-learning-japanese.html#outputting">early output</a> will damage your Japanese.
+In this article, we'll explore strategies to help you mitigate the damage.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/mitigating-the-impact-of-early-output.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/mitigating-the-impact-of-early-output.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 02 Jun 2024 09:34:57 +0300</pubDate>
+</item>
 <item>
 <title>Learning Kanji Radicals</title>
 <author>Tatsumoto Ren</author>
@@ -321,20 +339,6 @@ You will still make progress and succeed in your language journey.</p>
 <guid>https://tatsumoto-ren.github.io/blog/how-should-i-make-cards-for-japanese-words-that-dont-have-any-kanji.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Fri, 09 Feb 2024 19:25:04 +0300</pubDate>
-</item>
-<item>
-<title>All About Particles</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>&quot;All About Particles&quot; is a grammar book.</p>
-<ul>
-<li><a href="https://matrix.org/_matrix/media/r0/download/matrix.org/GqYvdEhgKNOcBDSZnDDGsWGc">PDF version</a></li>
-<li><a href="http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13">PDF version on Zlib</a></li>
-<li><a href="https://ixrec.neocities.org/all-about-particles.html">HTML version</a></li>
-</ul>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/all-about-particles.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/all-about-particles.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Wed, 24 Jan 2024 11:40:57 +0300</pubDate>
 </item>
 </channel>
 </rss>
