@@ -450,21 +450,30 @@ The process is no different from making cards for regular words.
 The process of making sentence cards (or targeted sentence cards)
 for the words you don't know
 is called [sentence mining](sentence-mining.html) (or sentence picking).
+A mining deck is an Anki deck you create yourself,
+as opposed to decks you download from the Internet,
+and fill it with sentences (and less often words) extracted from the content that you read
+(or watch with subtitles).
+Hence, you "mine" sentences from texts you read in the wild.
 
-Premade Anki decks might seem convenient, but they can't teach you everything,
-so making your own cards is essential to long term success with Japanese.
-Continue to immerse, read and listen to content created by native speakers for native speakers,
-use [dictionaries](resources.html#dictionaries)
-to look up new words and mine sentences.
+While premade Anki decks might seem convenient,
+they can't teach you everything,
+so making your own cards is essential to long-term success with Japanese.
+Continue to [immerse](whats-immersion.html)
+by reading and listening to content created by native speakers for native speakers,
+and use [dictionaries](resources.html#dictionaries) to look up new words and mine sentences.
 
-Don't make too many single word flashcards.
+Avoid creating too many single word flashcards.
 They're fine for nouns representing concrete objects but bad for other types of speech.
-Do not translate sentences, understand them instead.
+Do not translate sentences.
+Understand them instead.
 
-There's a popular goal in the community to make 10,000 flashcards in the first 18 months.
-This number is nothing special, but it's more fun to have a goal to work towards to.
+There is a popular goal in the community to create 10,000 flashcards within the first 18 months.
+While this number is not special,
+having a goal to work towards can be motivating.
 I managed to learn 10,000 sentence cards in 11 months.
-Try this challenge too, but remember that Anki is just a supplement for immersion learning.
+Feel free to take on this challenge as well,
+but remember that Anki is just a supplement for immersion learning.
 
 ## How to divide your study time
 
