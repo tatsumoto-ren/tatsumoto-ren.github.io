@@ -225,9 +225,36 @@ Sometimes,
 if the results are not desirable,
 you can edit them.
 
+## Pitch output format
+
+Pitch output format can be configured in
+"AJT" > "Japanese Options" "Pitch Accent" > selected profile > "Output format".
+It can be one of the following:
+
+* Html
+* Html and number
+* Number
+* Svg
+
+When set to "Html",
+the tone of the voice is marked using HTML tags and styles.
+When set to "Svg",
+the add-on generates SVG pictures to allow for a more elaborate graphical representation.
+"Number" simply indicates
+[where pitch drops](understanding-monolingual-definitions#understanding-pitch-accent).
+
+Appearance of SVG graphs can be configured in
+"AJT" -> "Japanese options" > "Pitch accent" > "SVG graphs".
+There are many different knobs,
+but you can play with them while looking at the previews on the right side if you want.
+
+<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change svg appearance"/></p>
+<p align="center"><i>SVG appearance settings.</i></p>
+
 ## Pitch accent style
 
 Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "Style".
+This setting is applied when pitch output format is set to "Html" or "Html and Number".
 The following styles are built-in:
 
 1) `javdejong`.
