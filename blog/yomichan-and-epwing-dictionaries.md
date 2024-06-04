@@ -131,6 +131,10 @@ in order to enable Rikaitan definition lookups.
   - [KANJIDIC_spanish.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/KANJIDIC_spanish.zip)
 - [Kanjium Pitch Accent dictionary](https://github.com/Ajatt-Tools/rikaitan/raw/dictionaries/kanjium_pitch_accents.zip).
   Made from [Kanjium](https://github.com/mifunetoshiro/kanjium) data.
+- BCCWJ Frequency Dictionary
+  ([large](https://github.com/toasted-nutbread/yomichan-bccwj-frequency-dictionary/releases/download/1.0.1/BCCWJ-LUW.zip),
+  [small](https://github.com/toasted-nutbread/yomichan-bccwj-frequency-dictionary/releases/download/1.0.1/BCCWJ-SUW.zip)).
+  A frequency dictionary based on the Balanced Corpus of Contemporary Written Japanese.
 
 </details>
 
