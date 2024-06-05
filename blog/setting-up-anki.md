@@ -233,7 +233,7 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
 
 ### Editing
 
-* **Paste clipboard images as PNG &mdash disabled.**
+* **Paste clipboard images as PNG &mdash; disabled.**
   PNG images take more disk space than WebP images.
   To paste images as WebP, install
   [this addon](useful-anki-add-ons-for-japanese.html#paste-images-as-webp).
