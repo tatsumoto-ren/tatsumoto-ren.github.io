@@ -274,3 +274,29 @@ As we don't have 20 years of time to acquire all the vocabulary naturally,
 through free-flow immersion alone.
 We have to use dictionaries and create SRS cards in order to really expand our vocabulary.
 The best way to do this is to read extensively.
+
+## Immersion gets easier over time
+
+As you begin your AJATT journey,
+your first reading material will be challenging.
+You will likely encounter numerous unfamiliar grammar patterns
+and unknown words in nearly every sentence.
+This is a natural part of the learning process.
+The key is to trust in the effectiveness of immersion:
+the more you read, the easier it becomes.
+
+Similarly,
+when you first attempt to watch a Japanese drama episode,
+you may find it difficult to follow along.
+The rapid speech,
+lack of visual cues,
+and underdeveloped listening skills
+can make it challenging to understand.
+However,
+as you consistently engage with this type of content,
+your listening comprehension will steadily improve.
+
+Both reading and listening are essential skills,
+and it is crucial to dedicate time and effort to developing proficiency in both areas.
+With persistence and a commitment to immersion,
+you will witness a gradual yet significant enhancement in your overall language abilities.
