@@ -81,7 +81,7 @@ and punish yourself if you won't be able to fulfill it.
 <p align="center"><img alt="heatmap-screenshot" class="shadow" src="img/review-heatmap.png"></p>
 <p align="center"><i>Maintaining long streaks is very easy.</i></p>
 
-### [Speed Focus Mode](https://ankiweb.net/shared/info/1046608507)
+### [Speed Focus Mode](https://docs.ankiweb.net/deck-options.html#auto-advance)
 
 It is not uncommon for people to spend more time than necessary on their reviews.
 It is likely that they get stuck on some material for too long,
@@ -282,6 +282,12 @@ are split between two and more notes.
 
 <p align="center"><img class="shadow" alt="merge notes" src="img/mergenotes.webp"></p>
 <p align="center"><i>Context menu and settings.</i></p>
+
+### [Advanced Copy Fields](https://ankiweb.net/shared/info/1898445115)
+
+I use this add-on when editing Ankidrone decks.
+It helps mass-generate/replace/copy data.
+[Repo](https://github.com/Ambriel/advanced_copy_fields).
 
 ### [Ze Frozen Fields](https://ankiweb.net/shared/info/94610912)
 
