@@ -403,7 +403,8 @@ Browsing will lead you to more tags.
 ### Podcasts
 
 * [Podcasts opml](https://t.me/ajatt_tools/80).
-About 200 Japanese podcasts for constant passive listening.
+  About 200 Japanese podcasts for constant passive listening.
+  [Mirror](https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml).
 * [AuDee Podcasts](https://audee.jp/)
 
 ### Visual Novels and Games
@@ -793,6 +794,9 @@ A fast and user-friendly video player for Android.
 A mobile video player tailored for Japanese language learners.
 * [CloudStream](https://apt.izzysoft.de/fdroid/index/apk/com.lagradost.cloudstream3).
   Lets you stream and download anime.
+* [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular).
+  A libre lightweight streaming front-end for Android.
+  Also adds features from SponsorBlock and ReturnYouTubeDislike.
 
 ### Audio players
 
