@@ -121,6 +121,12 @@ mpv 'https://youtube.com/<video>'
 I personally don't do so because there's a few hiccups
 that interfere with things like rewinding and making Anki cards.
 
+## Mobile devices
+
+If you have an [Android](our-immersion-learning-toolset.html#android) device,
+install [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular)
+to access YouTube and keep your privacy.
+
 ## Notes
 
 * [pipe-viewer](https://github.com/trizen/pipe-viewer) is a lightweight YouTube client for Linux.
