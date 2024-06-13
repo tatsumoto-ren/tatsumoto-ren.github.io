@@ -241,9 +241,10 @@ Word Context Cards, much like Simple Word Cards,
 can be useful,
 but I wouldn't recommend using them as your primary card template.</p>
 <h2 id="sentence-cards"><a class="anchor" href="#sentence-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sentence cards</h2>
-<p>A <a href="http://www.antimoon.com/how/usingsm-makeitems-sentence.htm">sentence card</a>
+<p>A sentence card
 is an SRS card with a sentence in the question field.
-The sentence has <strong>one</strong> unknown word or phrase.</p>
+The sentence has <strong>one</strong> unknown word or phrase.
+Sentence cards originate from <a href="http://www.antimoon.com/how/usingsm-makeitems-sentence.htm">Antimoon</a>.</p>
 <p>Some people might make cards with multiple unknowns,
 but it comes at the expense of harder reviews.
 If you have a sentence card that tests two (or more) words at the same time,
@@ -256,9 +257,9 @@ and a picture if the sentence comes from a video.</p>
 <p align="center"><img alt="example-sentence-card" class="shadow" src="img/example-sentence-card.webp"></p>
 <p align="center"><i>A sentence card.</i></p>
 <h3 id="how-to-review-sentence-cards"><a class="anchor" href="#how-to-review-sentence-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to review sentence cards</h3>
-<p>The algorithm is
+<p>The algorithm was originally
 <a href="https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/">explained</a>
-on the AJATT site.
+in Khatz's blog.
 I simplified it a bit, below are the main steps:</p>
 <ol>
 <li>You read the full sentence.</li>
@@ -267,7 +268,7 @@ I simplified it a bit, below are the main steps:</p>
 </ol>
 <p>If the above requirements are satisfied, press <code>Good</code>.
 Otherwise, choose <code>Again</code> so that you will see the card sooner.</p>
-<p>There are other steps and nuances described on the AJATT site
+<p>There are other steps and nuances that Khatz suggested
 but most sentence cards users skip them.
 In particular, I don't think many people read sentences out loud
 or copy them by hand onto a piece of paper.
@@ -326,38 +327,62 @@ but you will almost certainly not memorize all of them.
 I must point out that it's a mere side effect
 and shouldn't be treated as an advantage of using sentence cards.</p>
 <h2 id="targeted-sentence-cards"><a class="anchor" href="#targeted-sentence-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Targeted sentence cards</h2>
-<p>TSCs are like <a href="#sentence-cards">sentence cards</a>,
-but you always make sure to highlight the target word.
-This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
-Rikaitan can do it too if its settings are tweaked in a certain way.</p>
+<p>TSC is an optimized card template designed for speed and ease of repetition.
+They are similar <a href="#sentence-cards">sentence cards</a>,
+but with a key difference: you always <strong>highlight</strong> the target word.</p>
+<p>The front side of a TSC typically includes a sentence, phrase, or a few sentences
+that provide <strong>context</strong> for the word you are learning.
+The <strong>target word</strong> should be highlighted to mark the part of the sentence
+which you're trying to memorize.
+If you accidentally forget some part that is not highlighted,
+it shouldn't be taken into account when grading the card.</p>
+<p>On the back side,
+it is enough to write the definition (or translation) of the target word.
+You can also include the translation of the entire sentence,
+although in the AJATT method,
+this is <a href="should-i-put-english-translations-on-bilingual-tscs.html">usually not practiced</a>.
+If available,
+consider adding audio recordings, pictures, or screenshots to the back of the card.
+Additional information helps you remember the target word better.</p>
+<p>To highlight the target word in Anki,
+select it and press <kbd>Ctrl</kbd>+<kbd>B</kbd>, nice and simple.
+<a href="setting-up-yomichan.html">Rikaitan</a>
+can also be used to highlight the target word if its settings are adjusted accordingly.</p>
 <p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
 <p align="center"><i>A targeted sentence card.</i></p>
-<p>TSCs are very flexible and give their users a lot of choices of how to review them.
-Depending on your liking, you can:</p>
+<h3 id="how-to-review-targeted-sentence-cards"><a class="anchor" href="#how-to-review-targeted-sentence-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to review targeted sentence cards</h3>
+<p>TSCs offer flexibility in how you review them,
+allowing you to tailor the process to your preferences.
+Here are some options:</p>
 <ul>
-<li>Rep them as regular sentence cards.
-You read the full sentence
-and decide whether you understood all bits and pieces.</li>
-<li>Read the whole sentence but only test yourself on the target word.
-This has a positive effect of lifting the mental burden of testing yourself
-on too many things at the same time.</li>
-<li>Only read the target word, and probably a few words surrounding it.
-This way of reviewing TSCs is close to WCCs and SWCs and can save a lot of review time.
+<li>Read the entire sentence
+and decide whether you understood all the bits and pieces.
+This approach is similar to reviewing <strong>regular sentence cards</strong>.</li>
+<li>Read the whole sentence
+but only test yourself on the <strong>target word</strong>.
+This method helps reduce the mental burden of testing yourself on too many things simultaneously.
+We think it is more preferable as it follows the Wozniak's
+<a href="https://web.archive.org/web/20140605022438if_/http://www.super-memory.com/articles/20rules.htm#minimum%20information%20principle">minimum information principle</a> better.</li>
+<li>Read only the target word,
+and probably a few words surrounding it.
+This way of reviewing TSCs is similar to WCCs and SWCs,
+and it can save a significant amount of review time.
 If a sentence is too long,
-I usually start reading a few words behind the target word
-and stop as soon as I've understood the clause.
-Grade yourself on the target word only, don't penalize yourself for failing other words.</li>
+start reading a few words behind the target word
+and stop as soon as you've understood the clause.
+Grade yourself based on the target word only.
+Don't penalize yourself for failing to understand other words.</li>
 </ul>
-<p>When you learn a sentence for the first time,
-make sure to read and understand it fully,
+<p>When learning a targeted sentence card for the first time,
+make sure to read and understand the sentence fully
 even if you don't want to read it every time the card comes up.
-Understanding the context greatly helps in understanding of the target word.</p>
+Understanding the context greatly helps in understanding the target word.</p>
 <p>It is also important that you already know all the words besides the target word.
-You don't want to stumble upon words you haven't learned each time you review the card.
-This concept is called &quot;one target sentences&quot; and is discussed later on this site,
-in the articles about making your own cards.</p>
-<p>Follow <a href="setting-up-anki.html#import-an-example-mining-deck">this link</a> to download
-a deck with example Targeted Sentence Cards.</p>
+You don't want to stumble upon unfamiliar words each time you review the card.
+This concept is called &quot;one target sentences&quot;
+and is <a href="one-target-sentences.html">discussed later</a> on this site.</p>
+<p>To download a deck with example Targeted Sentence Cards,
+follow <a href="setting-up-anki.html#import-an-example-mining-deck">this link</a>.</p>
 <h3 id="make-rikaitan-highlight-the-target-word-for-you"><a class="anchor" href="#make-rikaitan-highlight-the-target-word-for-you" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Make Rikaitan highlight the target word for you</h3>
 <p>I recommend setting up Rikaitan to mark the target word automatically when a new card is made.
 This saves you the extra step
@@ -367,7 +392,8 @@ is aware of this setting and preserves highlighted words when updating sentences
 <p>Go to Rikaitan Settings &gt; &quot;Anki&quot; &gt; &quot;Configure Anki card format…&quot;.</p>
 <p align="center"><img alt="highlight-target-word" class="shadow" src="img/highlight-target-word.png"></p>
 <p align="center"><i>Rikaitan settings.</i></p>
-<p><span class="article-note">Note</span>: All Rikaitan settings are covered in <a href="setting-up-yomichan.html#anki-settings">Setting up Rikaitan</a> later.</p>
+<p><span class="article-note">Note</span>:
+All Rikaitan settings are covered in <a href="setting-up-yomichan.html#anki-settings">Setting up Rikaitan</a> later.</p>
 <h3 id="why-tscs"><a class="anchor" href="#why-tscs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why TSCs?</h3>
 <ul>
 <li><strong>TSCs are stress-free.</strong>
@@ -565,7 +591,7 @@ TSCs let you use furigana on top to pinpoint the correct one.</p>
 <p align="center"><img alt="reading-2" class="shadow" src="img/sanaka.png"></p>
 <p align="center"><i>Point to the right reading.</i></p>
 <h3 id="fallback-cards"><a class="anchor" href="#fallback-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fallback cards</h3>
-<p>The idea behind fallback cards is similar to that of targeted sentence cards
+<p>The idea behind fallback cards is similar to that of targeted sentence cards,
 but the front side is different.
 When a fallback card comes up for review, it looks like a regular <strong>word card</strong>,
 but you can hover over the target word to reveal the full sentence.
@@ -574,7 +600,7 @@ but are designed for people who worry about forming context-dependent memories.<
 <p align="center"><img alt="fallback card" class="shadow" src="img/fallback_card.webp"></p>
 <p align="center"><i>Front side of a fallback card.</i></p>
 <p>One disadvantage is that this card template is somewhat tricky to make yourself.
-You have to play around with css and html of your cards
+You have to play around with CSS and HTML of your cards
 to make the context appear when you hover over the word.</p>
 <p>A DJT user shared his card template on <a href="https://pastebin.com/pAVvqLPd">Pastebin</a>,
 take a look if you need help setting up fallback cards.
@@ -584,12 +610,137 @@ you may want to install the
 Anki add-on to be able to use it.</p>
 <p>From
 <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20fallback">here</a>
-you can download the Japanese fallback Note Type made by ﾌｪﾘﾍﾟ.</p>
+you can download the Japanese fallback Note Type made by <code>ﾌｪﾘﾍﾟ</code>.</p>
+<h2 id="cloze-cards"><a class="anchor" href="#cloze-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cloze cards</h2>
+<p>Cloze cards (cloze deletions) are a type of flashcard
+where you have a piece of information occluded.
+They are different from other card templates
+in that they require you to fill in the missing information on an existing piece of text
+instead of simply recalling the answer to a question.
+For example, a cloze card might have a sentence with a word missing,
+and you have to fill in the word to complete the sentence.</p>
+<h3 id="how-to-review-cloze-cards"><a class="anchor" href="#how-to-review-cloze-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to review cloze cards</h3>
+<p>The front of the card shows some text with a part blanked out.
+You have to fill in the blank.</p>
+<p>Recall the hidden piece and reveal the back side of the card.
+Press &quot;Good&quot; if your guess was correct.
+Press &quot;Again&quot; if you couldn't recall the right answer.</p>
+<h3 id="pros-and-cons-of-cloze-cards"><a class="anchor" href="#pros-and-cons-of-cloze-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pros and cons of cloze cards</h3>
+<p>Medical students
+use cloze deletion flashcards
+and <a href="https://ankiweb.net/shared/info/1374772155">image occlusion</a> flashcards a lot.
+People who make Anki tutorials,
+many of whom are medical students,
+advocate for cloze deletion flashcards
+as the most important card template for learning.
+I think they are right.
+Cloze cards can be used to learn all kinds of things.
+For example,
+I have been using them to learn programming for many years.
+But the consensus is that
+while they can be powerful for memorizing facts,
+they are generally considered <strong>ineffective</strong> for language study.</p>
+<p>Cloze deletion flashcards work well when the task is to recall a specific fact,
+but they fall short when it comes to language learning.
+Typically,
+on a cloze card there is a target language sentence,
+the target language sentence has something missing,
+and you have to fill in the blank.
+The problem is that
+there is always an infinite number of possible answers
+for any given &quot;fill in the blank&quot; question.
+But the card only allows for one correct answer,
+so basically you have to memorize the card,
+and this knowledge is different from understanding the target language.
+Cloze cards only work well for questions where alternative answers are not possible,
+but language is never like this.
+Language is fluid,
+with many ways to express the same idea,
+which cloze deletion flashcards fail to capture.</p>
+<p>The problem gets worse especially if the card is old.
+As the intervals between reviews grow longer,
+cloze deletion flashcards become even less effective.
+When a card comes up for review,
+it becomes difficult to recall the specific word you entered as the answer
+when creating the card.
+You either memorize the card itself,
+and your mind goes,
+&quot;oh, it's <em>that</em> card, so the answer should be <em>this</em>.&quot;
+Or you just try to guess the word that goes in the blank.</p>
+<p>Another reason cloze cards are not good for language learning
+is that they aim to train you to <strong>produce</strong> the language.
+However,
+language learning is primarily about comprehending and acquiring the language,
+not just producing it.
+The exercise is to drill which words go with which sentences.
+It is based on the skill-building methodology and mindset.
+Skill building assumes that if you want to get good at expressing a certain idea,
+you should practice saying that idea repeatedly using a concrete formula,
+and then you'll be good to go.
+The problem with this approach is that
+you don't get good at saying something in your target language
+solely by practicing saying it over and over.
+Every word in a language has an entire web of nuances
+and connotations associated with it,
+and you should not attempt to use a word
+until you have fully acquired that web of connotations.
+Essentially,
+you cannot use a word until you have heard it said many times
+by different people in a myriad of different situations.
+Your brain first needs to internalize the word and <strong>acquire it through immersion</strong>.</p>
+<p>Often beginners ask questions like,
+&quot;what's the difference between 嫌い(きらい) and 憎い(にくい)&quot;,
+and where should you use which.
+If you're trying to learn those differences through a cloze card,
+by trying to memorize in what situation you should say what word,
+you don't acquire an intuitive sense for exactly when one is used versus the other.
+It's going to lead to you probably using that word
+in cases where it doesn't fit.</p>
+<p>Cloze cards are rarely used in language learning, and for good reason.
+Your ultimate goal should be to learn to comprehend your target language
+so that you can acquire it naturally.
+So,
+if you want to get better at comprehending your target language,
+practice comprehending your target language in the SRS.
+For remembering vocabulary and grammar,
+<a href="#targeted-sentence-cards">TSCs</a> and <a href="#simple-word-cards">SWCs</a>
+are more effective.
+TSCs challenge you to understand words in context.
+This works very well because it replicates real-life situations
+such as reading texts (novels, manga, websites, etc).
+SWCs test your understanding of specific words (nouns),
+helping you build a larger vocabulary in your target language.</p>
+<p>Filling in a cloze card is a very different mental activity
+from understanding a target language sentence.
+When you engage this &quot;filling in a cloze card&quot; type of activity,
+you're not activating your language acquisition part of the brain.
+Instead,
+you're using your crossword-solving skills.
+It's like a puzzle.
+This approach may help you answer intellectual questions,
+but it's not an effective way to learn a language.
+Getting good at answering these little mini crossword puzzles
+is a totally different skill than understanding <strong>native input</strong> in your language.</p>
+<p>So,
+there is no good application for cloze cards in general when learning languages.
+However,
+it's essential to remember that the cloze card template
+is in your tool belt.
+It is included in Anki by default,
+and you can use it when necessary.
+Cloze cards are just not for language learning.</p>
+<p>The screenshot below illustrates a good application of the cloze card template.
+It doesn't teach you how to say something in a language,
+it tests you on specific knowledge.
+The language used is irrelevant in this context.</p>
+<p align="center"><img class="shadow" src="img/cloze_card.webp" alt="cloze card"></p>
+<p align="center"><i>A cloze card.</i></p>
 <h2 id="conclusion"><a class="anchor" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
 <p>The lack of context makes word cards harder to learn,
 but they are quick to review and are effective for concrete nouns.</p>
-<p>Sentence cards take longer to complete your daily reviews
-but because the target word has context it makes meaning and usage of the word clear.</p>
+<p>Sentence cards take longer to complete your daily reviews,
+but because the target word has context,
+it makes meaning and usage of the word clear.</p>
 <p>Targeted sentence cards take the speed of word cards
 and combine it with the effectiveness of in-context learning with sentence cards,
 which makes them the best card template.</p>

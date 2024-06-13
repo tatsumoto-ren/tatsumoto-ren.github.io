@@ -76,7 +76,6 @@ and a definition and usually audio and a picture on the back.
 No context is present on this type of cards.
 
 <p align="center"><img alt="word-card" class="shadow" src="img/example-word-card.webp"></p>
-
 <p align="center"><i>A simple word card.</i></p>
 
 SWCs are the easiest to make and the fastest to review.
@@ -209,9 +208,10 @@ but I wouldn't recommend using them as your primary card template.
 
 ## Sentence cards
 
-A [sentence card](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
+A sentence card
 is an SRS card with a sentence in the question field.
 The sentence has **one** unknown word or phrase.
+Sentence cards originate from [Antimoon](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm).
 
 Some people might make cards with multiple unknowns,
 but it comes at the expense of harder reviews.
@@ -230,9 +230,9 @@ and a picture if the sentence comes from a video.
 
 ### How to review sentence cards
 
-The algorithm is
+The algorithm was originally
 [explained](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
-on the AJATT site.
+in Khatz's blog.
 I simplified it a bit, below are the main steps:
 
 1) You read the full sentence.
@@ -242,7 +242,7 @@ I simplified it a bit, below are the main steps:
 If the above requirements are satisfied, press `Good`.
 Otherwise, choose `Again` so that you will see the card sooner.
 
-There are other steps and nuances described on the AJATT site
+There are other steps and nuances that Khatz suggested
 but most sentence cards users skip them.
 In particular, I don't think many people read sentences out loud
 or copy them by hand onto a piece of paper.
@@ -310,43 +310,70 @@ and shouldn't be treated as an advantage of using sentence cards.
 
 ## Targeted sentence cards
 
-TSCs are like [sentence cards](#sentence-cards),
-but you always make sure to highlight the target word.
-This is done by selecting the word and pressing <kbd>Ctrl</kbd>+<kbd>B</kbd> in Anki, nice and simple.
-Rikaitan can do it too if its settings are tweaked in a certain way.
+TSC is an optimized card template designed for speed and ease of repetition.
+They are similar [sentence cards](#sentence-cards),
+but with a key difference: you always **highlight** the target word.
+
+The front side of a TSC typically includes a sentence, phrase, or a few sentences
+that provide **context** for the word you are learning.
+The **target word** should be highlighted to mark the part of the sentence
+which you're trying to memorize.
+If you accidentally forget some part that is not highlighted,
+it shouldn't be taken into account when grading the card.
+
+On the back side,
+it is enough to write the definition (or translation) of the target word.
+You can also include the translation of the entire sentence,
+although in the AJATT method,
+this is [usually not practiced](should-i-put-english-translations-on-bilingual-tscs.html).
+If available,
+consider adding audio recordings, pictures, or screenshots to the back of the card.
+Additional information helps you remember the target word better.
+
+To highlight the target word in Anki,
+select it and press <kbd>Ctrl</kbd>+<kbd>B</kbd>, nice and simple.
+[Rikaitan](setting-up-yomichan.html)
+can also be used to highlight the target word if its settings are adjusted accordingly.
 
 <p align="center"><img alt="example-mpvacious-card" class="shadow" src="img/example-mpvacious-card.webp"></p>
-
 <p align="center"><i>A targeted sentence card.</i></p>
 
-TSCs are very flexible and give their users a lot of choices of how to review them.
-Depending on your liking, you can:
+### How to review targeted sentence cards
 
-* Rep them as regular sentence cards.
-  You read the full sentence
-  and decide whether you understood all bits and pieces.
-* Read the whole sentence but only test yourself on the target word.
-  This has a positive effect of lifting the mental burden of testing yourself
-  on too many things at the same time.
-* Only read the target word, and probably a few words surrounding it.
-  This way of reviewing TSCs is close to WCCs and SWCs and can save a lot of review time.
+TSCs offer flexibility in how you review them,
+allowing you to tailor the process to your preferences.
+Here are some options:
+
+* Read the entire sentence
+  and decide whether you understood all the bits and pieces.
+  This approach is similar to reviewing **regular sentence cards**.
+* Read the whole sentence
+  but only test yourself on the **target word**.
+  This method helps reduce the mental burden of testing yourself on too many things simultaneously.
+  We think it is more preferable as it follows the Wozniak's
+  [minimum information principle](https://web.archive.org/web/20140605022438if_/http://www.super-memory.com/articles/20rules.htm#minimum%20information%20principle) better.
+* Read only the target word,
+  and probably a few words surrounding it.
+  This way of reviewing TSCs is similar to WCCs and SWCs,
+  and it can save a significant amount of review time.
   If a sentence is too long,
-  I usually start reading a few words behind the target word
-  and stop as soon as I've understood the clause.
-  Grade yourself on the target word only, don't penalize yourself for failing other words.
+  start reading a few words behind the target word
+  and stop as soon as you've understood the clause.
+  Grade yourself based on the target word only.
+  Don't penalize yourself for failing to understand other words.
 
-When you learn a sentence for the first time,
-make sure to read and understand it fully,
+When learning a targeted sentence card for the first time,
+make sure to read and understand the sentence fully
 even if you don't want to read it every time the card comes up.
-Understanding the context greatly helps in understanding of the target word.
+Understanding the context greatly helps in understanding the target word.
 
 It is also important that you already know all the words besides the target word.
-You don't want to stumble upon words you haven't learned each time you review the card.
-This concept is called "one target sentences" and is discussed later on this site,
-in the articles about making your own cards.
+You don't want to stumble upon unfamiliar words each time you review the card.
+This concept is called "one target sentences"
+and is [discussed later](one-target-sentences.html) on this site.
 
-Follow [this link](setting-up-anki.html#import-an-example-mining-deck) to download
-a deck with example Targeted Sentence Cards.
+To download a deck with example Targeted Sentence Cards,
+follow [this link](setting-up-anki.html#import-an-example-mining-deck).
 
 ### Make Rikaitan highlight the target word for you
 
@@ -359,10 +386,10 @@ is aware of this setting and preserves highlighted words when updating sentences
 Go to Rikaitan Settings > "Anki" > "Configure Anki card format…".
 
 <p align="center"><img alt="highlight-target-word" class="shadow" src="img/highlight-target-word.png"></p>
-
 <p align="center"><i>Rikaitan settings.</i></p>
 
-**Note:** All Rikaitan settings are covered in [Setting up Rikaitan](setting-up-yomichan.html#anki-settings) later.
+**Note:**
+All Rikaitan settings are covered in [Setting up Rikaitan](setting-up-yomichan.html#anki-settings) later.
 
 ### Why TSCs?
 
@@ -588,7 +615,7 @@ And to add furigana on the front you simply specify it in square brackets as usu
 
 ### Fallback cards
 
-The idea behind fallback cards is similar to that of targeted sentence cards
+The idea behind fallback cards is similar to that of targeted sentence cards,
 but the front side is different.
 When a fallback card comes up for review, it looks like a regular **word card**,
 but you can hover over the target word to reveal the full sentence.
@@ -599,7 +626,7 @@ but are designed for people who worry about forming context-dependent memories.
 <p align="center"><i>Front side of a fallback card.</i></p>
 
 One disadvantage is that this card template is somewhat tricky to make yourself.
-You have to play around with css and html of your cards
+You have to play around with CSS and HTML of your cards
 to make the context appear when you hover over the word.
 
 A DJT user shared his card template on [Pastebin](https://pastebin.com/pAVvqLPd),
@@ -611,15 +638,156 @@ Anki add-on to be able to use it.
 
 From
 [here](https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20fallback)
-you can download the Japanese fallback Note Type made by ﾌｪﾘﾍﾟ.
+you can download the Japanese fallback Note Type made by `ﾌｪﾘﾍﾟ`.
+
+## Cloze cards
+
+Cloze cards (cloze deletions) are a type of flashcard
+where you have a piece of information occluded.
+They are different from other card templates
+in that they require you to fill in the missing information on an existing piece of text
+instead of simply recalling the answer to a question.
+For example, a cloze card might have a sentence with a word missing,
+and you have to fill in the word to complete the sentence.
+
+### How to review cloze cards
+
+The front of the card shows some text with a part blanked out.
+You have to fill in the blank.
+
+Recall the hidden piece and reveal the back side of the card.
+Press "Good" if your guess was correct.
+Press "Again" if you couldn't recall the right answer.
+
+### Pros and cons of cloze cards
+
+Medical students
+use cloze deletion flashcards
+and [image occlusion](https://ankiweb.net/shared/info/1374772155) flashcards a lot.
+People who make Anki tutorials,
+many of whom are medical students,
+advocate for cloze deletion flashcards
+as the most important card template for learning.
+I think they are right.
+Cloze cards can be used to learn all kinds of things.
+For example,
+I have been using them to learn programming for many years.
+But the consensus is that
+while they can be powerful for memorizing facts,
+they are generally considered **ineffective** for language study.
+
+Cloze deletion flashcards work well when the task is to recall a specific fact,
+but they fall short when it comes to language learning.
+Typically,
+on a cloze card there is a target language sentence,
+the target language sentence has something missing,
+and you have to fill in the blank.
+The problem is that
+there is always an infinite number of possible answers
+for any given "fill in the blank" question.
+But the card only allows for one correct answer,
+so basically you have to memorize the card,
+and this knowledge is different from understanding the target language.
+Cloze cards only work well for questions where alternative answers are not possible,
+but language is never like this.
+Language is fluid,
+with many ways to express the same idea,
+which cloze deletion flashcards fail to capture.
+
+The problem gets worse especially if the card is old.
+As the intervals between reviews grow longer,
+cloze deletion flashcards become even less effective.
+When a card comes up for review,
+it becomes difficult to recall the specific word you entered as the answer
+when creating the card.
+You either memorize the card itself,
+and your mind goes,
+"oh, it's *that* card, so the answer should be *this*."
+Or you just try to guess the word that goes in the blank.
+
+Another reason cloze cards are not good for language learning
+is that they aim to train you to **produce** the language.
+However,
+language learning is primarily about comprehending and acquiring the language,
+not just producing it.
+The exercise is to drill which words go with which sentences.
+It is based on the skill-building methodology and mindset.
+Skill building assumes that if you want to get good at expressing a certain idea,
+you should practice saying that idea repeatedly using a concrete formula,
+and then you'll be good to go.
+The problem with this approach is that
+you don't get good at saying something in your target language
+solely by practicing saying it over and over.
+Every word in a language has an entire web of nuances
+and connotations associated with it,
+and you should not attempt to use a word
+until you have fully acquired that web of connotations.
+Essentially,
+you cannot use a word until you have heard it said many times
+by different people in a myriad of different situations.
+Your brain first needs to internalize the word and **acquire it through immersion**.
+
+Often beginners ask questions like,
+"what's the difference between 嫌い(きらい) and 憎い(にくい)",
+and where should you use which.
+If you're trying to learn those differences through a cloze card,
+by trying to memorize in what situation you should say what word,
+you don't acquire an intuitive sense for exactly when one is used versus the other.
+It's going to lead to you probably using that word
+in cases where it doesn't fit.
+
+Cloze cards are rarely used in language learning, and for good reason.
+Your ultimate goal should be to learn to comprehend your target language
+so that you can acquire it naturally.
+So,
+if you want to get better at comprehending your target language,
+practice comprehending your target language in the SRS.
+For remembering vocabulary and grammar,
+[TSCs](#targeted-sentence-cards) and [SWCs](#simple-word-cards)
+are more effective.
+TSCs challenge you to understand words in context.
+This works very well because it replicates real-life situations
+such as reading texts (novels, manga, websites, etc).
+SWCs test your understanding of specific words (nouns),
+helping you build a larger vocabulary in your target language.
+
+Filling in a cloze card is a very different mental activity
+from understanding a target language sentence.
+When you engage this "filling in a cloze card" type of activity,
+you're not activating your language acquisition part of the brain.
+Instead,
+you're using your crossword-solving skills.
+It's like a puzzle.
+This approach may help you answer intellectual questions,
+but it's not an effective way to learn a language.
+Getting good at answering these little mini crossword puzzles
+is a totally different skill than understanding **native input** in your language.
+
+So,
+there is no good application for cloze cards in general when learning languages.
+However,
+it's essential to remember that the cloze card template
+is in your tool belt.
+It is included in Anki by default,
+and you can use it when necessary.
+Cloze cards are just not for language learning.
+
+The screenshot below illustrates a good application of the cloze card template.
+It doesn't teach you how to say something in a language,
+it tests you on specific knowledge.
+The language used is irrelevant in this context.
+
+<p align="center"><img class="shadow" src="img/cloze_card.webp" alt="cloze card"></p>
+<p align="center"><i>A cloze card.</i></p>
 
 ## Conclusion
 
 The lack of context makes word cards harder to learn,
 but they are quick to review and are effective for concrete nouns.
 
-Sentence cards take longer to complete your daily reviews
-but because the target word has context it makes meaning and usage of the word clear.
+Sentence cards take longer to complete your daily reviews,
+but because the target word has context,
+it makes meaning and usage of the word clear.
 
 Targeted sentence cards take the speed of word cards
 and combine it with the effectiveness of in-context learning with sentence cards,
