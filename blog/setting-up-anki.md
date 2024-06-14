@@ -62,6 +62,7 @@ to avoid possible issues.
   so that users don't need to build such packages themselves.
   After you enable a third-party repository,
   install Anki with `sudo pacman -S anki` as any other package.
+* There's a prebuilt [anki-bin](https://aur.archlinux.org/packages/anki-bin) package in the AUR.
 * If you're not an Arch Linux user,
   I'm sure you'll find Anki in repositories of your distribution.
   To find Anki for your OS you can use [pkgs.org](https://pkgs.org/search/?q=Anki).
