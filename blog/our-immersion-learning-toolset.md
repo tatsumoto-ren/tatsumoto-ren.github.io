@@ -65,8 +65,12 @@ is one of the fastest package managers out there.
   The default installation is very minimal,
   installation steps have to be executed manually.
 * [ArcoLinux](https://www.arcolinux.info/downloads/).
-   ArchLinux made easy and beautiful. Whether you’re just starting with Arch Linux or have been using it for years, there’s an option perfectly suited to your level of expertise and requirements. ArcoLinux installs with a graphical installer (Calamares) with ease and comfort. There are 3 major projects- Arconet(XFCE), Arcopro(bare arch-like install), Arcoplasma.
-   [Video](https://www.youtube.com/watch?list=PLlloYVGq5pS4_yK-607gnfynjoWoR8spq&v=qPiN2E0hCrk)
+  Arch Linux made easy and beautiful.
+  Whether you’re just starting with Arch Linux or have been using it for years,
+  there’s an option perfectly suited to your level of expertise and requirements.
+  ArcoLinux installs with a graphical installer (Calamares) with ease and comfort.
+  There are 3 major projects- Arconet(XFCE), Arcopro(bare arch-like install), Arcoplasma.
+  [Video](https://www.youtube.com/watch?list=PLlloYVGq5pS4_yK-607gnfynjoWoR8spq&v=qPiN2E0hCrk)
 * [EndeavourOS](https://endeavouros.com/).
   A successor of Antergos, a lightweight distro close to Arch Linux.
   A really good, user-friendly starting distro.
