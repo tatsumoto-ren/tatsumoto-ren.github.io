@@ -19,16 +19,25 @@ Examples:
 * 蒟蒻
 
 If you can read the kanji, then you can automatically read the kana.
-But if you can read the kana, it doesn't mean that you can read the kanji.
+But the reverse is not necessarily true.
+If you can read the kana, it doesn't mean that you can read the kanji.
 By learning the kanji version you're getting both at the same time.
 
-You could say that learning kanjified words is harder,
+Some might argue that learning kanjified words is more difficult,
 but I don't see it as a big problem.
-Memorizing kanji readings is only difficult in the beginning.
-Plus, by learning kanjified words you create stronger memories.
+Memorizing kanji readings can be difficult in the beginning,
+but it becomes easier with practice.
+Moreover,
+learning kanjified words helps create stronger memories.
 
-If you already have a targeted sentence card that teaches the kanji version of a word,
+If you already have a
+[targeted sentence card](discussing-various-card-templates.html#targeted-sentence-cards)
+that teaches the kanji version of a word,
 then the next time you make a card that has that word in it,
 you don't have to change it to kanji because it's not the **target word** anymore.
+However,
+if the word is written in kanji in the original text,
+do not convert it to kana.
 
-Most words in Ankidrone Starter Pack are kanjified for this reason.
+Most words in [Ankidrone Starter Pack](basic-vocabulary.html)
+are kanjified for this reason.
