@@ -183,7 +183,7 @@ it is advisable to engage in intensive immersion when you are feeling more refre
 switching to free-flow immersion when your cognitive capacities are depleted.
 
 A plethora of tools exist to facilitate intensive immersion,
-There are dictionary apps, browser extensions, mpv plugins, etc.
+There are [dictionary](tag_dictionaries.html) apps, browser extensions, mpv plugins, etc.
 They make it effortless to look up words and create SRS cards during immersion.
 
 In the beginning,
