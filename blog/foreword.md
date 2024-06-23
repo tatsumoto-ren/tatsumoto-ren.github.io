@@ -4,15 +4,20 @@ date: 1619998706
 tags: [guide]
 ---
 
-Congratulations! You've taken your first step towards learning Japanese!
+Congratulations!
+You've taken your first step towards learning Japanese!
 
 This is Tatsumoto's Guide to Learning Japanese.
-I'm Tatsumoto.
-This guide is for people
-who want to learn Japanese solely through **self-study**.
-Do you want to teach yourself Japanese?
-Do you want to reach a high level of fluency fast?
-Then this site is right for you.
+I'm Tatsumoto Ren,
+and I'm excited to help you begin your journey to learn Japanese.
+This guide is designed specifically for individuals who want to master Japanese
+through **self-study**,
+without relying on traditional textbooks and classes.
+Are you eager to take control of your learning
+and achieve a high level of fluency faster than with any other method in the world?
+If so, you're in the right place.
+This site is dedicated to providing you
+with the theory, strategies, and tools you need to succeed.
 
 ****
 
@@ -78,7 +83,7 @@ Everything you need to master Japanese can be found here and online.
 There is no limit to the amount of media and books you can absorb.
 With torrents, you can find any anime, drama, or manga ever made.
 The internet provides an unlimited number of resources for Japanese media.
-Additionally, you can easily access dictionaries,
+Additionally, you can easily access [dictionaries](tag_dictionaries.html),
 grammar guides,
 and software to facilitate your language learning.
 
