@@ -9,6 +9,8 @@ let's talk about how it works.
 
 ****
 
+<img src="img/how-anki-works.webp" float="right">
+
 Studying in Anki consists of the following points.
 
 * Creating *notes*.
