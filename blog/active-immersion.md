@@ -102,12 +102,20 @@ as developing your listening ability is also important.
 
 There are several reasons why TV and movies
 with <abbr title="target language">TL</abbr> subtitles are an excellent choice.
-The visuals can provide additional context which aids comprehension.
-Additionally, you can hear the proper pronunciation of the words you are reading.
-As you hear the subtitles spoken aloud,
-through pauses and intonation,
-you can better interpret the sentence structure and parse the clauses.
-Finally, the language in TV and movies is generally simpler than books, blogs, or news articles.
+
+* The visuals can provide additional context which aids comprehension.
+* You can hear the proper pronunciation of the words you are reading.
+* As you hear the subtitles spoken aloud,
+  through pauses and intonation,
+  you can better interpret the sentence structure and parse the clauses.
+* Words in Japanese sometimes can have multiple readings,
+  and the meaning of a word can depend on how you read it.
+  For instance,
+  I saw this one student who looked up the phrase `あなたが空から降ってきた` in a dictionary,
+  and they assumed `降る` was read as `くだる`,
+  when in fact the appropriate reading is `ふる`.
+  Hearing the word spoken first would have resolved this ambiguity.
+* Finally, the language in TV and movies is generally simpler than books, blogs, or news articles.
 
 The lack of understanding can lead to a feeling of despondency.
 You may want to turn on English subtitles or subtitles in your native language.
@@ -136,7 +144,7 @@ This way you don't waste your active immersion hours on repetition.
 When first getting started,
 things like science fiction or fantasy novels will be too difficult to read.
 Choosing content that has **simpler language** is another great technique for beginners.
-For example, slice of life shows or romantic comedies can be a good choice.
+For example, **slice of life** shows or romantic comedies can be a good choice.
 However, avoid content made for children
 as it is often not enjoyable for adults.
 The language is too simple even for a beginner language learner.
@@ -144,6 +152,33 @@ The plot is too silly and dumbed down.
 After learning your first 1,000 words from a pre-made Anki deck,
 you won't need to restrict yourself so much,
 as *frontloading* vocabulary in the beginning greatly improves comprehension.
+
+We recommend starting with slice-of-life anime
+and gradually moving on to media with more complex language as your comprehension improves.
+However,
+there are some additional strategies
+you can employ in the beginning to make understanding the content easier:
+
+* Read a summary of the anime in a language you know before watching it.
+* Read a Wikipedia article about the anime in a language you know prior to watching it.
+* If the anime is adapted from a manga,
+  read the manga in a language you know before watching the anime version.
+
+These activities help make the anime easier to follow and comprehend.
+Because you are doing them in a known language,
+they shouldn't take too much time away from your immersion.
+For example,
+reading a manga chapter that corresponds to the anime episode you are about to watch
+will only take a couple minutes.
+In return,
+you significantly enhance the quality of your immersion.
+
+We don't recommend watching translated anime and then watching the same anime raw though.
+The reason is that anime has some duration built into it.
+It is hard to skip or speed up without losing information,
+and it will waste a lot of your immersion time.
+Additionally,
+watching the same exact thing twice makes the second time more boring.
 
 ## Types of active immersion
 
