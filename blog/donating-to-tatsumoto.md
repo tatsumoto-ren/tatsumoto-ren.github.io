@@ -22,8 +22,8 @@ You can support me over at one of the membership platforms or donate cryptocurre
 ## Fundraising
 
 Our project exists solely on the funds of subscribers.
-Since 2020, I have been working on Ajatt-Tools full time.
-Ajatt-Tools can't be sustainable if I can't buy food and pay my bills.
+Since 2020, I have been working on AJATT full time.
+AJATT cannot be sustainable if I cannot buy food and pay my bills.
 Thousands of people visit this site every day.
 If even some of them contribute `$1`, it will be a huge help for us!
 A small symbolic donation of `$1` or `$5` will not make you poorer,
@@ -32,9 +32,23 @@ but will save our common cause!
 Any amount of help is important.
 Do not let our common cause fail!
 
-Depending on the monthly earnings we might be able to afford a domain name and
+The money you donate primarily goes towards my paycheck for maintaining the website,
+updating and improving the existing articles (lessons),
+and writing new lessons.
+Additionally,
+the funds are used for working on Ajatt-Tools,
+which includes making, updating, and improving
+our software toolset, Anki add-ons, Anki decks,
+and other resources used in conjunction with the AJATT method.
+Depending on the monthly earnings, we might be able to afford a domain name and
 a hosting for this site,
 which is currently hosted for free on Neocities.
+If the funding is not sufficient,
+I may have to seek job opportunities elsewhere,
+which in turn would slow down the evolution and development of the AJATT method.
+
+Your continued support through donations is crucial to the ongoing progress
+and maintenance of this valuable resource for language learners.
 A huge thank you to everyone who stays with us!
 It is only thanks to you that we are still standing!
 
@@ -88,9 +102,9 @@ bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
 
 ## Boosty
 
-You can donate on Boosty too, which is a platform similar to Patreon.
-
-https://boosty.to/tatsumoto/donate
+You can donate on
+[Boosty](https://boosty.to/tatsumoto/donate)
+too, which is a platform similar to Patreon.
 
 ## DonationAlerts
 
@@ -133,4 +147,4 @@ Thank you very much for your support!
 If you're unable to support financially,
 please read and share my articles,
 recommend this site to your friends,
-and of course be a part of our Matrix community.
+and of course be a part of our [community](join-our-community.html).
