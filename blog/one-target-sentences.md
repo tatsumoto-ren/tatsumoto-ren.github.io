@@ -27,8 +27,8 @@ If you still don't understand it after a lookup then it's not a 1T sentence.
 When making
 [TSCs](discussing-various-card-templates.html#targeted-sentence-cards),
 I recommend that you only take 1T sentences and avoid MT sentences.
-In other words,
-[stick to the minimum information principle](https://www.supermemo.com/en/archives1990-2015/articles/20rules).
+In other words, stick to the
+[minimum information principle](https://web.archive.org/web/20140605022438if_/http://www.super-memory.com/articles/20rules.htm#minimum%20information%20principle).
 If for some reason you choose to add an MT sentence to Anki,
 only test yourself on the **target word** which you have highlighted.
 
