@@ -354,5 +354,6 @@ No.
 
 Though you often see such recommendations,
 I think it unnecessarily complicates your setup.
-GoldenDict or
-Rikaitan Search can do the same thing simpler.
+[GoldenDict](setting-up-goldendict.html) or
+[Rikaitan Search](what-is-yomichan-search.html)
+can do the same thing simpler.
