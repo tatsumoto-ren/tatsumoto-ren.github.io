@@ -89,6 +89,8 @@ and software to facilitate your language learning.
 
 ## Technology
 
+You are going to need a desktop computer or a laptop to learn Japanese effectively.
+This is because it's a lot easier to work with text when you have a physical keyboard.
 We use a variety of
 [software](our-immersion-learning-toolset.html)
 to help in the learning process.
