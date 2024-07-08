@@ -311,23 +311,65 @@ It will only <em>hide</em> the due cards from you.
 Failing to do all of your reviews on schedule will form a backlog.
 What's worse, the backlog will be invisible because Anki will hide it from you.</p>
 <h2 id="leeches"><a class="anchor" href="#leeches" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Leeches</h2>
-<p>Anki has a setting that controls how many times you can fail a card before it becomes a leech,
-<a href="setting-up-anki.html#lapses">Leech threshold</a>.
-It doesn't mean the number of times you simply press &quot;Again&quot; on a card,
+<p><em>Leeches</em> are cards that you keep <strong>forgetting</strong> and <strong>relearning</strong> over and over.
+Anki has a setting that controls how many times you can fail a card before it becomes a leech,
+called <a href="setting-up-anki.html#lapses">Leech threshold</a>.
+It's important to note that
+this setting doesn't refer to the number of times you simply press &quot;Again&quot; on a card,
 but rather the number of times you fail a card that has previously graduated to the review queue.
-In other words, hitting &quot;Again&quot; on a card over an over on the same day
-doesn't make it a leech.</p>
+In other words,
+hitting &quot;Again&quot; on a card repeatedly on the same day doesn't make it a leech.
+Usually,
+Anki marks a card as a &quot;leech&quot; after it's been stuck in the forget-relearn loop
+for several days or more.
+We recommend keeping the leech threshold low (<code>4</code>-<code>6</code> lapses)
+and suspending the cards when they become leeches.
+You have to properly deal with leeches instead of letting them rotate in your deck
+and slow down your progress.</p>
 <p>When Anki marks a card as a &quot;leech&quot;,
 the card receives a &quot;leech&quot; tag.
 You can later find leeches by opening the Anki Browser and typing <code>tag:leech</code> in the search field.
-If <code>Leech Action</code> is set to &quot;Suspend card&quot;, the card won't come up for review anymore.
+If <a href="setting-up-anki.html#leech-threshold-and-leech-action">&quot;Leech Action&quot;</a> is set to &quot;Suspend card&quot;,
+the card won't come up for review anymore.
 It's important to quickly pull leeches out of rotation by suspending them
-so that they don't waste your review time.</p>
+so that they don't waste your review time.
+By suspending leeches,
+you can focus on the cards you're actually learning.</p>
 <p>After you've neutralized a leech, decide what to do with it.
 Change the content of the card to make it easier to memorize
 or just wait until your brain is ready to learn it again.
 Before you re-learn the card, you have to
 <a href="useful-anki-add-ons-for-japanese.html#reset-card-scheduling">reset it</a>.</p>
+<p>There are several effective strategies to handle leeches.</p>
+<ul>
+<li><strong>Delete them</strong>.
+For the small minority of cards that just won't stick,
+it's best to just get rid of them.
+If you encounter the target word in your immersion often enough,
+you will eventually memorize it.
+But if not,
+you don't need to know the word.
+Instead of wasting a bunch of time on a single leech,
+it's more productive to learn several normal cards in its place.</li>
+<li><strong>Keep them for later</strong>.
+If you can't remember a word after 4-5 lapses,
+it means your brain hasn't been primed yet to acquire it.
+Wait a month or two and try again.
+Often,
+you'll find that cards that would not stick before have become very easy.</li>
+<li><strong>Change the card</strong>.
+If a word is of high value to you,
+you can try to memorize a
+<a href="https://web.archive.org/web/20180303225205if_/http://super-memory.com/articles/20rules.htm#Redundancy">different representation</a>
+of it.
+Find a <strong>different example sentence</strong> in your Sentence Bank
+or <a href="resources.html#examples-and-pronunciations">online</a>.
+For example, on <a href="https://ejje.weblio.jp/sentence/">Weblio</a>.
+Reset the card and edit it,
+or make a new
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence card</a>
+with the same target word but a different sentence.</li>
+</ul>
 <p>In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
 The best way to force a particular reading into your memory
 is to memorize multiple words that use the same reading.
@@ -348,7 +390,7 @@ where Khatz fiercely recommends deleting cards.</p>
 </blockquote>
 <blockquote>
 <p>Get rid of anything even remotely sucky.
-Delete. Delete. Delete. Don’t worry. You obviously don’t need them.</p>
+Delete. Delete. Delete. Don't worry. You obviously don't need them.</p>
 </blockquote>
 <p>Later many methods derived from AJATT copied this advice.</p>
 <p>There are situations when it makes sense to <em>pull a card out of the review queue</em>:</p>

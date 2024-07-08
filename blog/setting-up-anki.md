@@ -375,26 +375,7 @@ Later you can experiment with more learning steps.
 *Leeches* are cards that you keep on forgetting and relearning over and over.
 Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches.
 You have to properly deal with leeches instead of letting them rotate in your deck and slow you down.
-
-Possible ways to deal with leeches:
-
-* **Delete them:** For those small minority of cards that just won’t stick,
-  it’s best to just get rid of them. Instead of wasting a bunch of time on a single leech,
-  it’s more productive to learn 5 normal cards in its place.
-
-* **Keep them for later:** If you can't remember a word after 4-5 lapses,
-  it means that your brain hasn't been primed yet to acquire it.
-  Wait a month or two and try again.
-  Often you'll find that cards that would not stick before had become very easy.
-
-* **Make a new card for the same target word:** If a word is of high value to you,
-  you can try to memorize a
-  [different representation](https://www.supermemo.com/de/archives1990-2015/articles/20rules)
-  of it.
-  Find a different example sentence in your Sentence Bank
-  or [online](resources.html#examples-and-pronunciations).
-  For example, on [Weblio](https://ejje.weblio.jp/sentence/).
-
+Possible ways to deal with leeches will be explained in [How to review](how-to-review.html#leeches).
 
 ### Display order
 
