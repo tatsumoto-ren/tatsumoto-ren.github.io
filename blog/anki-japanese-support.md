@@ -28,6 +28,8 @@ The installation process is similar to other Anki plugins and can be accomplishe
 2) Input `1344485230` into the text box labeled `Code` and press the OK button to proceed.
 2) Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.
 
+<img src="img/鳥でも分かる.webp" float="right">
+
 To improve parsing quality (not necessary, but recommended), install these AUR packages:
 
 * [mecab](https://aur.archlinux.org/packages/mecab-git)
