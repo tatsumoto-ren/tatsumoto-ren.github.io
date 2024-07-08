@@ -220,6 +220,10 @@ Forcing it usually doesn't work.
 Again, remember how small children learn to speak their native language.
 Their output ability emerges as a result of immersion.
 
+1) Immersion + [SRS](spaced-repetition.html) = comprehension ability.
+1) Immersion + comprehension ability = output ability.
+1) Output ability + practice = output mastery.
+
 ## Software overview
 
 We're going to use various programs to help us with Japanese.
