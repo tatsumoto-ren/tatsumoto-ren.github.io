@@ -389,6 +389,8 @@ Browsing will lead you to more tags.
 * [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943) or
   [Magnet](magnet:?xt=urn:btih:b2ab5fbffdf5d11477c6cd9c6738bfadecc67f43&dn=%5BPeepoHappyBooks%5D%20Japanese%20Learner%E2%80%99s%20Anthology%20v2&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
   A torrent with 30,000 Japanese ebooks.
+* [Itazuraneko's 小説一覧表](https://djtguide.github.io/library/shousetu/shousetulist.html).
+  Light novels downloads in epub, mobi, and azw3.
 
 ### Audiobooks
 
