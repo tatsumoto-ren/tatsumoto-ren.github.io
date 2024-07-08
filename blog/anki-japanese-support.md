@@ -317,13 +317,16 @@ The colors used are:
 * Odaka words: Green
 * Nakadaka words: Orange
 
-<p align="center"><img src="https://github.com/Ajatt-Tools/Japanese/raw/main/img/pitch_accent_on_hover.webp" alt="add online source"/></p>
+<p align="center"><img src="https://github.com/Ajatt-Tools/Japanese/raw/main/img/pitch_accent_on_hover.webp" alt="color coded words"/></p>
 <p align="center"><i>Color-coded words in a sentence.</i></p>
 
 This feature is experimental and disabled by default,
 but you can enable it by setting the "color code pitch" option to "color" or "underline".
 Additionally, if the "attributes" option is turned on,
 you'll see detailed pitch accent information when hovering over words with your mouse.
+
+<p align="center"><img src="img/ajt-japanese-color-code-pitch.webp" alt="settings"/></p>
+<p align="center"><i>Settings.</i></p>
 
 ## Audio files
 
