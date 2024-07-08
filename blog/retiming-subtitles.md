@@ -145,9 +145,9 @@ If the timings are not too far off, you can adjust them in mpv by using built-in
 Add the following lines to `~/.config/mpv/input.conf`.
 
 ```
-# Add/subtract 50 ms delay from subs
-Z add sub-delay +0.05
-z add sub-delay -0.05
+# Add/subtract 100 ms delay from subs
+Z add sub-delay +0.1
+z add sub-delay -0.1
 
 # Adjust timing to previous/next subtitle
 X sub-step 1
