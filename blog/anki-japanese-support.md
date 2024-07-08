@@ -291,6 +291,38 @@ You can define CSS rules for the following classes:
 * `.nasal`. Nasal sound, e.g., shown in a different color.
 * `.devoiced`. Devoiced sound.
 
+## Color coding
+
+Because humans have extremely strong visual memories,
+color coding words in terms of their pitch accent pattern
+can make memorizing the pitch accents of individual words nearly effortless.
+
+For example,
+if a word is colored blue every time you see it in Anki,
+that word will likely become associated with the color blue in your head.
+When you recall the word later,
+the blue color may appear in your mind's eye.
+If you know that "blue" means a word is pronounced with the "heiban" pitch accent pattern,
+then this association would be enough for you to remember the pitch accent of the word.
+
+AJT Japanese makes it easy to take advantage of this color coding technique.
+The software can automatically generate pitch accent information for entire sentences
+and color code the words accordingly.
+The colors used are:
+
+* Heiban words: Blue
+* Atamadaka words: Red
+* Odaka words: Green
+* Nakadaka words: Orange
+
+<p align="center"><img src="https://github.com/Ajatt-Tools/Japanese/raw/main/img/pitch_accent_on_hover.webp" alt="add online source"/></p>
+<p align="center"><i>Color-coded words in a sentence.</i></p>
+
+This feature is experimental and disabled by default,
+but you can enable it by setting the "color code pitch" option to "color" or "underline".
+Additionally, if the "attributes" option is turned on,
+you'll see detailed pitch accent information when hovering over words with your mouse.
+
 ## Audio files
 
 AJT Japanese can add audio files from accent dictionaries to Anki cards.
