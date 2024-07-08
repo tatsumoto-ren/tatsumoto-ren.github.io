@@ -251,7 +251,7 @@ Simply click the field you want to edit and make changes directly on the card.
 
 <p align="center"><img alt="edit-during-review" class="shadow" src="https://i.imgur.com/Wzg6Snl.gif"></p>
 
-### [Paste Images As WebP](https://ankiweb.net/shared/info/1151815987)
+### [Media Converter](https://ankiweb.net/shared/info/1151815987)
 
 Convert images to
 [WebP](https://developers.google.com/speed/webp)
