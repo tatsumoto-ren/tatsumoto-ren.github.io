@@ -255,7 +255,7 @@ but you can play with them while looking at the previews on the right side if yo
 
 ## Pitch accent style
 
-Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "Style".
+Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "HTML style".
 This setting is applied when pitch output format is set to "Html" or "Html and Number".
 The following styles are built-in:
 
@@ -280,6 +280,9 @@ The following styles are built-in:
    * ⌝: indictates an end of moras with "High" accent.
    * Red circle mark: nasal pronunciation.
    * Blue color: devoiced.
+
+<p align="center"><img src="img/ajt-japanese-pitch-html-style.webp" alt="change HTML style"/></p>
+<p align="center"><i>HTML style settings.</i></p>
 
 The last option, `None` allows you to configure your own style
 using CSS classes in your Note Type's Styling section
