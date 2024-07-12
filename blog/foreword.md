@@ -78,14 +78,21 @@ before concerning with trying to produce Japanese yourself.
 ## It's free
 
 It is important to be mindful of your finances when learning a foreign language.
-I learned Japanese without spending any money, and I encourage you to do so too.
+I learned Japanese without spending any money,
+and I encourage you to do the same.
 Everything you need to master Japanese can be found here and online.
 There is no limit to the amount of media and books you can absorb.
 With torrents, you can find any anime, drama, or manga ever made.
 The internet provides an unlimited number of resources for Japanese media.
 Additionally, you can easily access [dictionaries](tag_dictionaries.html),
-grammar guides,
-and software to facilitate your language learning.
+[grammar guides](resources.html#grammar),
+and [software](resources.html#software) to facilitate your language learning.
+
+The AJATT method doesn't require any payments.
+However,
+because the method is based on self-study,
+you'll need to study by yourself and ensure you follow everything the guide says.
+Everything depends on how well you study.
 
 ## Technology
 
