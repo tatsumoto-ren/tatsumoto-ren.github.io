@@ -99,10 +99,16 @@ in the `collection.media` directory after you import a deck.
 
 ## Configuration
 
-Once you have Cross Profile Search and Import installed,
-navigate through "AJT" > "Cross Profile Search and Import" > "Tools" > "Add-on options".
+Once you have Cross Profile Search and Import installed, navigate to
+"AJT" > "Cross Profile Search and Import" > "Tools" > "Add-on options".
 There you can change a number of settings to suit your needs.
 Each setting can be hovered over in order to show a tooltip that explains what does.
+
+To be able to see all the cards available **without** doing a search,
+click on "Local search" and enable the "Allow empty search" checkbox.
+You can use this if,
+for example,
+you have only pictures on your cards and can not do a word search.
 
 ## Usage
 
@@ -133,6 +139,8 @@ Press "Tools" > "Search the web" to enable the feature.
 * <kbd>Ctrl</kbd>+<kbd>K</kbd> Focus the search bar.
 * <kbd>Ctrl</kbd>+<kbd>L</kbd> Focus the list of notes.
 * <kbd>Ctrl</kbd>+<kbd>I</kbd> Import.
+* <kbd>Ctrl</kbd>+<kbd>Left Arrow</kbd> Flip page to the left.
+* <kbd>Ctrl</kbd>+<kbd>Right Arrow</kbd> Flip page to the right.
 
 ## Conclusion
 
