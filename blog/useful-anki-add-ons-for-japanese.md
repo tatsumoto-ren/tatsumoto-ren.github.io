@@ -317,6 +317,14 @@ and add dictionary definitions to the card.
 <p align="center"><img alt="screenshot" src="https://user-images.githubusercontent.com/69171671/210455938-a84d8bfc-9f87-4608-9c6f-0e52b0fe0da4.png"></p>
 <p align="center"><i>Autocopy - Settings.</i></p>
 
+### [Anki Preview Reloader](https://ankiweb.net/shared/info/571150035)
+
+This add-on helps when editing card templates.
+It allows you to edit your card templates in Vscodium
+and automatically reload the preview.
+
+****
+
 ## Add-ons to avoid
 
 All Anki add-ons by design add some new functionality to the program.
