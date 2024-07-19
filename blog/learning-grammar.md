@@ -73,26 +73,31 @@ until your brain internalizes it.
 
 ## When to study grammar
 
-There's no discrete stage where you should learn grammar.
+There is no distinct stage where you should learn grammar.
 Since grammar connects words together,
-basic grammar and basic vocabulary have to be studied roughly at the same time.
+basic grammar and basic vocabulary must be studied approximately at the same time.
 
-* You can't learn grammar right after you have learned the kana
+* You cannot learn grammar after learning the kana
   and before learning vocabulary
-  because to understand how grammar works
-  you have to know at least some basic vocabulary.
-* You can't learn grammar after you have learned basic vocabulary
-  because to understand how words function in sentences
-  you have to know at least some basic grammar.
+  because to understand how grammar works,
+  you need to know at least some basic vocabulary.
+* You cannot learn basic vocabulary before learning grammar
+  because to understand how words function in sentences,
+  you need to know at least some basic grammar.
 
-After you have learned the kana,
+After learning the kana,
 start going through a basic vocabulary deck.
 The vocabulary decks we recommend on this site are KanjiTransition and Ankidrone Starter Pack.
 As you progress through a vocabulary deck,
-you will be encountering new grammar used in example sentences.
+you will encounter new grammar used in example sentences.
 Learn this extremely basic grammar.
 As you continue to immerse,
-you will be seeing less common grammar until you learn most of it.
+you will see less common grammar until you learn most of it.
+
+By learning grammar and vocabulary simultaneously,
+you can better understand how words are connected and how they function in sentences.
+This approach allows you to develop a more comprehensive understanding of the language
+as you progress through your studies.
 
 ## How to study grammar
 
