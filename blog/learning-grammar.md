@@ -43,8 +43,9 @@ and the rules may change too.
 It is possible to completely skip formal grammar study
 and learn grammar points from immersion alone.
 Arguments for grammar study are very similar to
-why we normally recommend studying basic vocabulary from a premade deck, &mdash;
-it is going to give you a head start and increase your comprehension of real Japanese
+why we normally recommend studying basic vocabulary
+[from a premade Anki deck](basic-vocabulary.html),
+&mdash; it is going to give you a head start and increase your comprehension of real Japanese
 while you're still a beginner.
 
 Language courses that aren't based on [AJATT](whats-ajatt.html)
@@ -52,14 +53,15 @@ may suggest that you study grammar to learn to speak your target language.
 They tell you to memorize some grammar, vocabulary
 and then learn to combine them together to form sentences.
 This approach never works, because:
-* Language is highly specific and unpredictable.
-You have to know ahead of time how certain thoughts are expressed in your target language,
-not invent language on the spot.
-Invented language almost always sounds unnatural.
+
+* Language is highly specific in unpredictable ways.
+  You have to know ahead of time how certain thoughts are expressed in your target language.
+  You cannot invent language on the spot.
+  Invented language almost always sounds unnatural.
 * Consciously thinking about grammar rules while speaking is so slow,
-you won't have enough time to use that knowledge.
-By the time you construct a grammatically correct sentence,
-your conversation partner will be long gone.
+  you won't have enough time to use that knowledge.
+  By the time you construct a grammatically correct sentence,
+  your conversation partner will be long gone.
 * It's impossible to memorize every rule and exception.
 
 Output ability is the result of subconscious acquisition.
@@ -75,10 +77,13 @@ There's no discrete stage where you should learn grammar.
 Since grammar connects words together,
 basic grammar and basic vocabulary have to be studied roughly at the same time.
 
-* You can't learn grammar after you have learned the kana
-because to understand how grammar works you have to know at least some basic vocabulary.
+* You can't learn grammar right after you have learned the kana
+  and before learning vocabulary
+  because to understand how grammar works
+  you have to know at least some basic vocabulary.
 * You can't learn grammar after you have learned basic vocabulary
-because to understand how words function in sentences you have to know at least some basic grammar.
+  because to understand how words function in sentences
+  you have to know at least some basic grammar.
 
 After you have learned the kana,
 start going through a basic vocabulary deck.
@@ -124,7 +129,7 @@ getting used to frequently spoken collocations, phrases and sentences.
 Note that at this stage of the AJATT journey
 you don't need to worry about things like
 all the different types of verbs and exactly how they conjugate.
-Casually read through the guide and focus on understanding example sentences.
+Casually read through the guide and focus on **understanding example sentences**.
 When you see a word in a different form, all you need is to understand what it means.
 
 ## Grammar guides
@@ -176,10 +181,6 @@ you will be like someone who has read 10 books on how to swim but has never been
 
 ## On "basic" grammar
 
-> Ahahahahaha good luck trying to learn this from a grammar guide
->
-> &mdash; from ボイロ大好き
-
 In grammar guides,
 items described in the basic sections are usually not basic in a sense that they're easy to grasp.
 They are listed as basic and taught very early because they're frequently used.
@@ -211,6 +212,7 @@ simply read the explanation of what a structures means,
 and don't make any more effort to master it.
 Just notice it each time it comes up in your immersion
 and focus on understanding the message being conveyed without attention to details.
+Your understanding will get better each time you see the structure in your immersion.
 
 Grammar that doesn't stick until much later in the learning process
 is one of the reasons why we delay speaking and writing practice
@@ -272,10 +274,13 @@ There are guides out there that are too big in volume.
 Namely, Imabi and <abbr title="Dictionary of Japanese Grammar">DoJG</abbr>.
 You don't want to choose them for a basic grammar guide,
 they're supposed to be used more like dictionaries.
+For this reason we don't include them in the list of recommended beginner guides above.
+Instead we mention them here.
 You may refer to them to look up individual grammar points on a case-by-case basis.
 
 * [DoJG](https://japbase.neocities.org/)
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
+* [Itazuraneko Master Reference](https://djtguide.github.io/grammar/masterreference.html)
 * [Other grammar resources](resources.html#grammar)
 
 Don't learn cards from the DoJG deck in order,
