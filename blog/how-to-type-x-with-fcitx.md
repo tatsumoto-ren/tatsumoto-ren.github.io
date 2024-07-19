@@ -44,3 +44,7 @@ Type `komejirushi` or `hoshi`.
 ## Middle dot ・
 
 Type `nakaten` or `nakaguro`.
+
+# N
+
+Typing "xn" outputs ん.
