@@ -128,8 +128,14 @@ that interfere with things like rewinding and making Anki cards.
 ## Mobile devices
 
 If you have an [Android](our-immersion-learning-toolset.html#android) device,
-install [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular)
+install one of the YouTube clients from F-Droid
 to access YouTube and keep your privacy.
+
+* [NewPipe](https://f-droid.org/en/packages/org.schabi.newpipe/).
+* [LibreTube](https://f-droid.org/en/packages/com.github.libretube/)
+  An alternative frontend for that uses the Piped API to load data and play videos.
+* [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular).
+  NewPipe with SponsorBlock.
 
 ## Notes
 
