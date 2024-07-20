@@ -233,6 +233,12 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
   Similarly to News24, lists a number of channels you can watch online.
   Unfortunately, not all of them can be opened in mpv.
+* [Tokyo MX](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tokyomx.desktop).
+  Tokyo MX desktop shortcut.
+* [テレビ朝日](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_asahi.desktop).
+  TV Asahi desktop shortcut.
+* [テレビ東京](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_tokyo.desktop).
+  TV Tokyo desktop shortcut.
 
 ### YouTube with subtitles
 
