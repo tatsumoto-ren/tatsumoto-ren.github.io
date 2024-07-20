@@ -15,6 +15,10 @@ You can also find news channels with more formal speech.
 
 ****
 
+<p align="center">
+<img alt="watching youtube" src="img/watching-youtube.webp">
+</p>
+
 ## How to access
 
 Like many popular big tech websites today,
