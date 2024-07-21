@@ -264,7 +264,7 @@ The following styles are built-in:
 
    * Overline: indicates "High" pitch.
    * Downfall arrow: indictates an end of moras with "High" accent.
-   * Red circle mark: nasal pronunciation、e.g. `げ` would be a nasal `け`.
+   * Red circle mark: nasal pronunciation、e.g. `げ` would be a nasal `け゚`.
    * Blue color: devoiced. Barely pronounced at all.
 2) `u-biq`.
    The style used to show pitch on the [u-biq website](https://accent.u-biq.org/).
@@ -294,6 +294,7 @@ You can define CSS rules for the following classes:
 * `.high`. High accent, e.g., an overline.
 * `.high_drop`. High accent, then drop.
 * `.nasal`. Nasal sound, e.g., shown in a different color.
+* `.handakuten`. The `°` mark that is a part of a nasal sound.
 * `.devoiced`. Devoiced sound.
 
 ## Color coding
@@ -330,6 +331,37 @@ you'll see detailed pitch accent information when hovering over words with your 
 
 <p align="center"><img src="img/ajt-japanese-color-code-pitch.webp" alt="settings"/></p>
 <p align="center"><i>Settings.</i></p>
+
+**Note:**
+AJT Japanese
+inserts additional JavaScript code into the card templates
+to enable the display of pitch accent information on mouse hover.
+If you do not require this feature,
+you can disable the script loading
+in Advanced settings.
+
+<details>
+
+<summary>Steps to Disable JavaScript loading</summary>
+
+Go to "AJT" > "Japanese Options" > "Advanced".
+Find the parameter named "insert_scripts_into_templates" and flip it to `false`.
+Click Save.
+
+Locate the lines in your card template that contain the following script tag:
+
+```
+<script>
+/* AJT Japanese JS ... */
+...
+...
+</script>
+```
+
+Remove the lines.
+Save the changes.
+
+</details>
 
 ## Audio files
 

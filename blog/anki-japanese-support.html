@@ -292,7 +292,7 @@ The style used in the original Japanese Pitch Accent Anki add-on by <code>javdej
 <ul>
 <li>Overline: indicates &quot;High&quot; pitch.</li>
 <li>Downfall arrow: indictates an end of moras with &quot;High&quot; accent.</li>
-<li>Red circle mark: nasal pronunciation、e.g. <code>げ</code> would be a nasal <code>け</code>.</li>
+<li>Red circle mark: nasal pronunciation、e.g. <code>げ</code> would be a nasal <code>け゚</code>.</li>
 <li>Blue color: devoiced. Barely pronounced at all.</li>
 </ul>
 </li>
@@ -327,6 +327,7 @@ You can define CSS rules for the following classes:</p>
 <li><code>.high</code>. High accent, e.g., an overline.</li>
 <li><code>.high_drop</code>. High accent, then drop.</li>
 <li><code>.nasal</code>. Nasal sound, e.g., shown in a different color.</li>
+<li><code>.handakuten</code>. The <code>°</code> mark that is a part of a nasal sound.</li>
 <li><code>.devoiced</code>. Devoiced sound.</li>
 </ul>
 <h2 id="color-coding"><a class="anchor" href="#color-coding" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Color coding</h2>
@@ -358,6 +359,28 @@ Additionally, if the &quot;attributes&quot; option is turned on,
 you'll see detailed pitch accent information when hovering over words with your mouse.</p>
 <p align="center"><img src="img/ajt-japanese-color-code-pitch.webp" alt="settings"/></p>
 <p align="center"><i>Settings.</i></p>
+<p><span class="article-note">Note</span>:
+AJT Japanese
+inserts additional JavaScript code into the card templates
+to enable the display of pitch accent information on mouse hover.
+If you do not require this feature,
+you can disable the script loading
+in Advanced settings.</p>
+<details>
+<summary>Steps to Disable JavaScript loading</summary>
+<p>Go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Advanced&quot;.
+Find the parameter named &quot;insert_scripts_into_templates&quot; and flip it to <code>false</code>.
+Click Save.</p>
+<p>Locate the lines in your card template that contain the following script tag:</p>
+<div class="pre-wrap"><pre><code>&lt;script&gt;
+/* AJT Japanese JS ... */
+...
+...
+&lt;/script&gt;
+</code></pre></div>
+<p>Remove the lines.
+Save the changes.</p>
+</details>
 <h2 id="audio-files"><a class="anchor" href="#audio-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio files</h2>
 <p>AJT Japanese can add audio files from accent dictionaries to Anki cards.
 To set up audio profiles and audio sources,
