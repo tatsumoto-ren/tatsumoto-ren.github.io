@@ -648,10 +648,14 @@ when you select text in the Anki Browser and press the right mouse button.
 
 ## Overrides
 
-This table allows you to enter information about words that AJT Japanese doesn't know about.
+This table allows you to enter information about words that AJT Japanese doesn't know about,
+or words that you want to override.
 The data applies to readings and pitch accents.
 If pitch accent of a word is not known, you can insert `?` in the "Pitch accent" field.
 If a word has multiple pitch accents, specify them separated by commas, e.g. `1,2`.
+
+<p align="center"><img src="img/ajt-japanese-overrides.webp" alt="pitch overrides"/></p>
+<p align="center"><i>Pitch accent overrides.</i></p>
 
 ## Conclusion
 
