@@ -253,6 +253,54 @@ but you can play with them while looking at the previews on the right side if yo
 <p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change svg appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
 
+<details>
+
+<summary>SVG: Further styling</summary>
+
+You can achieve further customization by applying styles to SVG tags
+in your Note Type's Styling section.
+To access this, go to "Anki" > "Tools" > "Manage Note Types" > "Cards" > "Styling."
+
+For example, to color the SVG graphs in *white*, you can add the following styles:
+
+```
+.ajt__pitch_svg text {
+    fill: white;
+}
+.ajt__pitch_svg circle:not(.devoiced) {
+    fill: white;
+    stroke: white;
+}
+.ajt__pitch_svg circle.devoiced {
+    fill: none;
+    stroke: white;
+}
+.ajt__pitch_svg line {
+    stroke: white;
+}
+```
+
+Or, if you want to color all nakadaka words in *orange*, use this code:
+
+```
+.ajt__pitch_svg .nakadaka text {
+    fill: orange;
+}
+.ajt__pitch_svg .nakadaka circle:not(.devoiced) {
+    fill: orange;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka circle.devoiced {
+    fill: none;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka line {
+    stroke: orange;
+}
+```
+
+</details>
+
 ## Pitch accent style
 
 Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "HTML style".

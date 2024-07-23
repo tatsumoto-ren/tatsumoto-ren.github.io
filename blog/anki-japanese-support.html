@@ -282,6 +282,44 @@ There are many different knobs,
 but you can play with them while looking at the previews on the right side if you want.</p>
 <p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change svg appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
+<details>
+<summary>SVG: Further styling</summary>
+<p>You can achieve further customization by applying styles to SVG tags
+in your Note Type's Styling section.
+To access this, go to &quot;Anki&quot; &gt; &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; &quot;Cards&quot; &gt; &quot;Styling.&quot;</p>
+<p>For example, to color the SVG graphs in <em>white</em>, you can add the following styles:</p>
+<div class="pre-wrap"><pre><code>.ajt__pitch_svg text {
+    fill: white;
+}
+.ajt__pitch_svg circle:not(.devoiced) {
+    fill: white;
+    stroke: white;
+}
+.ajt__pitch_svg circle.devoiced {
+    fill: none;
+    stroke: white;
+}
+.ajt__pitch_svg line {
+    stroke: white;
+}
+</code></pre></div>
+<p>Or, if you want to color all nakadaka words in <em>orange</em>, use this code:</p>
+<div class="pre-wrap"><pre><code>.ajt__pitch_svg .nakadaka text {
+    fill: orange;
+}
+.ajt__pitch_svg .nakadaka circle:not(.devoiced) {
+    fill: orange;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka circle.devoiced {
+    fill: none;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka line {
+    stroke: orange;
+}
+</code></pre></div>
+</details>
 <h2 id="pitch-accent-style"><a class="anchor" href="#pitch-accent-style" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch accent style</h2>
 <p>Pitch accent style can be configured in &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Pitch Accent&quot; &gt; &quot;HTML style&quot;.
 This setting is applied when pitch output format is set to &quot;Html&quot; or &quot;Html and Number&quot;.
