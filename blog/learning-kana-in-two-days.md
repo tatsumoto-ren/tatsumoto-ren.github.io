@@ -56,24 +56,27 @@ Symbols of katakana:
 There are three things that may confuse you.
 
 1) The small `tsu` character.
-It is written as ッ (katakana) or as っ (hiragana).
-Unlike the other characters, it doesn't have a sound.
-Instead, it [marks a geminate consonant](https://wikiless.org/wiki/Sokuon?lang=en).
-2) There are versions of kana with a
-<span title="dakuten (濁点)">ﾞ mark</span>
-such as
-<span title="ga">が</span> or <span title="da">だ</span>,
-or kana with a
-<span title="handakuten (半濁点)">ﾟ mark</span>
-such as <span title="pa">ぱ</span> or <span title="pu">ぷ</span>.
+   It is written as ッ (katakana) or as っ (hiragana).
+   Unlike the other characters, it doesn't have a sound.
+   Instead, it [marks a geminate consonant](https://wikiless.org/wiki/Sokuon?lang=en).
+2) `っさ` sounds like *ssa*, repeating the *s* sound.
+3) `あっ` sounds like *ah* (a sudden stop).
+4) There are versions of kana with a
+   <span title="dakuten (濁点)">ﾞ mark</span>
+   such as
+   <span title="ga">が</span> or <span title="da">だ</span>,
+   or kana with a
+   <span title="handakuten (半濁点)">ﾟ mark</span>
+   such as <span title="pa">ぱ</span> or <span title="pu">ぷ</span>.
 3) Kana combinations (glides).
-A kana character may combine with one of the small ゃ, ゅ or ょ (or their katakana variants)
-to produce new sounds, such as
-<span title="kya">きゃ</span>,
-<span title="kyu">きゅ</span>
-or <span title="kyo">きょ</span>.
-The sounds of the two kana blend together.
-All glides require the second letter to be written smaller than usual.
+   A kana character may combine with one of the small ゃ, ゅ or ょ (or their katakana variants)
+   to produce new sounds, such as
+   <span title="kya">きゃ</span>,
+   <span title="kyu">きゅ</span>
+   or <span title="kyo">きょ</span>.
+   The sounds of the two kana blend together.
+   All glides require the second letter to be written smaller than usual.
+4) In the Tokyo dialect, `ず`, `づ`, `ズ`, and `ヅ` all have the same *dzu* sound.
 
 In addition to the characters listed above,
 there are 4 additional kana that you only see in old (pre-1946) books,
