@@ -46,9 +46,9 @@ trizen -S goldendict-ng-git
 ### Other distributions
 
 Users of other distributions need to follow
-[these instructions](https://github.com/xiaoyifang/goldendict-ng#installation)
+[these instructions](https://xiaoyifang.github.io/goldendict-ng/install/)
 or clone the repository and
-[build from source](https://github.com/xiaoyifang/goldendict-ng#build-from-source).
+[build from source](https://xiaoyifang.github.io/goldendict-ng/howto/build_from_source/).
 
 ## Obtain dictionaries
 
