@@ -4,8 +4,8 @@ date: 1619220247
 tags: ['guide', 'dictionaries', 'yomichan']
 ---
 
-Rikaitan is a browser extension
-with a pop-up dictionary
+[Rikaitan](https://rikaitan.github.io/)
+is a browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Rikaitan can be set up to create Anki cards from the words which you look up.
 
