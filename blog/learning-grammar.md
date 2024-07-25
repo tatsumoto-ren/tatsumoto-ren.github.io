@@ -40,29 +40,56 @@ and the rules may change too.
 
 > Grammar guides are for making it easier to understand things, not to learn how to say them.
 
-It is possible to completely skip formal grammar study
-and learn grammar points from immersion alone.
-Arguments for grammar study are very similar to
-why we normally recommend studying basic vocabulary
-[from a premade Anki deck](basic-vocabulary.html),
-&mdash; it is going to give you a head start and increase your comprehension of real Japanese
-while you're still a beginner.
+It is entirely possible to skip formal grammar study
+and learn grammar points solely through immersion.
+The arguments in favor of studying grammar are quite similar
+to those for learning basic vocabulary
+[from a premade Anki deck](basic-vocabulary.html).
+Doing so can give you a head start and improve your comprehension of real Japanese
+while you are still a beginner.
 
-Language courses that aren't based on [AJATT](whats-ajatt.html)
-may suggest that you study grammar to learn to speak your target language.
-They tell you to memorize some grammar, vocabulary
-and then learn to combine them together to form sentences.
-This approach never works, because:
+To really understand grammar,
+it is crucial to understand it in your target language.
+Knowing what it means in English will not be very helpful.
+Language acquisition occurs
+[when we understand messages](what-is-comprehensible-input.html),
+when we comprehend what is being communicated.
+From the AJATT perspective,
+to fully acquire a grammar rule,
+it is best to read as many usage examples as possible
+to provide your brain with the essential [input](whats-immersion.html).
+The brain needs this input to decipher and figure out
+the structures, rules, and building blocks of your target language.
+This process largely happens unconsciously.
+
+The best source of examples is immersion.
+The primary reason to consult a grammar guide
+is to learn what specific grammar points mean when they are used.
+While you can learn everything through immersion,
+we believe that reading a grammar guide can expedite the process.
+For example,
+by learning from a guide what the construction "としても" means,
+you won't have to look it up when you encounter it while watching anime.
+Knowing what common grammar patterns mean will make it easier to follow your immersion
+and help you acquire your target language through extensive listening and reading.
+A good grammar guide should provide concise explanations
+and include many example sentences.
+
+Language courses that do not follow the [AJATT](whats-ajatt.html) method
+may suggest that you study grammar to learn how to speak your target language.
+They tell you to memorize grammar rules and vocabulary,
+and then combine them to form sentences.
+This approach does not work for several reasons:
 
 * Language is highly specific in unpredictable ways.
   You have to know ahead of time how certain thoughts are expressed in your target language.
   You cannot invent language on the spot.
   Invented language almost always sounds unnatural.
-* Consciously thinking about grammar rules while speaking is so slow,
-  you won't have enough time to use that knowledge.
+* Consciously thinking about grammar rules while speaking is too slow.
+  You won't have enough time to apply that knowledge.
   By the time you construct a grammatically correct sentence,
   your conversation partner will be long gone.
-* It's impossible to memorize every rule and exception.
+* It is impossible to memorize every rule and exception.
 
 Output ability is the result of subconscious acquisition.
 The only true way to acquire grammar
@@ -127,7 +154,7 @@ Use the time spent immersing to notice the new grammar being used in different s
 There are grammar guides that tell you to memorize conjugations, do exercises or drills.
 They are attempting to teach grammar similar to math,
 treating grammar as formulas.
-Since grammar is made up of speech patterns native speakers say often and find natural,
+Since grammar is made up of speech patterns native speakers often say and find natural,
 the focus should be on learning the patterns,
 getting used to frequently spoken collocations, phrases and sentences.
 
@@ -136,6 +163,12 @@ you don't need to worry about things like
 all the different types of verbs and exactly how they conjugate.
 Casually read through the guide and focus on **understanding example sentences**.
 When you see a word in a different form, all you need is to understand what it means.
+
+As grammar explanations don't directly help to acquire language,
+they take a secondary role.
+We think that if you don't understand some grammar,
+it won't be beneficial to spend more time trying to understand the explanations.
+It's better to read more example sentences if your grammar book provides them.
 
 ## Grammar guides
 
@@ -213,7 +246,7 @@ you don't really have to do anything.
 As long as you **keep immersing**, everything will eventually become clear on its own.
 
 When going through a grammar guide,
-simply read the explanation of what a structures means,
+simply read the explanation of what a structure means,
 and don't make any more effort to master it.
 Just notice it each time it comes up in your immersion
 and focus on understanding the message being conveyed without attention to details.
@@ -280,7 +313,7 @@ Namely, Imabi and <abbr title="Dictionary of Japanese Grammar">DoJG</abbr>.
 You don't want to choose them for a basic grammar guide,
 they're supposed to be used more like dictionaries.
 For this reason we don't include them in the list of recommended beginner guides above.
-Instead we mention them here.
+Instead, we mention them here.
 You may refer to them to look up individual grammar points on a case-by-case basis.
 
 * [DoJG](https://japbase.neocities.org/)
