@@ -60,6 +60,8 @@ map b $vidir
 map E !atool -x $fx
 ```
 
+## Renaming subtitles
+
 Let's see how you can quickly rename subtitles with vidir.
 For this example I took
 [subs](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/Stein;Gate/&sort=date&order=desc)
@@ -157,8 +159,14 @@ x sub-step -1
 Try to find the right timings
 by pressing `z`, `Z`, `x` and `X`.
 
-* `z` and `Z` change the sub delay,
+* `z` and `Z` change the subtitle delay,
 * `x` and `X` jump between adjacent subtitles.
+
+In my experience,
+this method is usually sufficient.
+However,
+if you are unable to adjust your subtitles using MPV alone,
+consider other options.
 
 ### With subs2srs
 
