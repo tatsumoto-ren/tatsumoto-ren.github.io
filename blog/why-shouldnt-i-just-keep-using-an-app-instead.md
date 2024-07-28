@@ -22,11 +22,11 @@ AJATT says that the most effective method of learning a foreign language
 is to surround yourself with the language as much as possible.
 We call this immersion.
 Immersion can be practiced through various activities,
-such as watching Japanese [TV shows and movies](mining-from-movies-and-tv-shows.html),
-reading Japanese [manga](mining-from-manga.html) and [books](reading-books.html),
+such as watching [TV shows and movies](mining-from-movies-and-tv-shows.html),
+reading [manga](mining-from-manga.html) and [books](reading-books.html) in the target language,
 and so on.
 In contrast,
-phone apps for learning Japanese typically rely on
+phone apps for learning foreign languages typically rely on
 repetitive exercises and memorization drills,
 which are ineffective in helping learners achieve fluency in the language.
 Instead of immersion,
