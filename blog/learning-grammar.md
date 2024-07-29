@@ -42,7 +42,7 @@ and the rules may change too.
 
 It is entirely possible to skip formal grammar study
 and learn grammar points solely through immersion.
-The arguments in favor of studying grammar are quite similar
+The arguments **in favor** of studying grammar are quite similar
 to those for learning basic vocabulary
 [from a premade Anki deck](basic-vocabulary.html).
 Doing so can give you a head start and improve your comprehension of real Japanese
@@ -92,6 +92,13 @@ This approach does not work for several reasons:
 * It is impossible to memorize every rule and exception.
 
 Output ability is the result of subconscious acquisition.
+In our native language,
+most of us don't know grammar rules.
+We just know what sounds right and what doesn't.
+When speaking,
+we don't have to think about grammar or vocabulary.
+We just think about the meaning we want to convey,
+and the words flow naturally.
 The only true way to acquire grammar
 in order to use it in your speech
 is by immersing in the target language,
