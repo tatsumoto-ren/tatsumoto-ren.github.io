@@ -823,7 +823,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 
 ## Dictionaries
 
-### Offline
+### Offline dictionaries
 
 * [GoldenDict](setting-up-goldendict.html).
   Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
