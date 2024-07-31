@@ -96,7 +96,12 @@ fostering a more authentic understanding and use of the language.
 
 You don't need much &mdash; just the desire to build a new habit
 and access to quality monolingual dictionaries.
-Use apps like GoldenDict, Qolibri, and Rikaitan, or online dictionaries like Weblio.
+Use [apps](resources.html#offline-dictionaries) like
+[GoldenDict](setting-up-goldendict.html),
+[Qolibri](setting-up-qolibri.html),
+[Rikaitan](setting-up-yomichan.html), etc.,
+or [online dictionaries](resources.html#online-dictionaries)
+like [Weblio](https://www.weblio.jp/).
 
 The prerequisites are that you're already doing [AJATT](whats-ajatt.html),
 spending multiple hours a day immersing,
