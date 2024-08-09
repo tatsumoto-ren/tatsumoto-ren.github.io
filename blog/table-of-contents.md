@@ -26,6 +26,7 @@ date: 1616375454
 	* [Kanji](learning-kanji.html)
 	* [Kanji Anki deck](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
+	* [Ankidrone Essentials](ankidrone-essentials.html)
 	* [Grammar](learning-grammar.html)
 * Dictionaries
 	* [GoldenDict](setting-up-goldendict.html)
@@ -57,7 +58,7 @@ date: 1616375454
 * [FAQ](tag_faq.html)
 * Apocrypha
 	* [List of resources](resources.html)
-	* [Sentences with native audio](ankidrone-sentence-pack.html)
+	* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
 	* [Kanji composition](kanji-composition-in-relation-to-reading-japanese.html)
 	* [Learning Kanji Radicals](learning-kanji-radicals.html)
 * Contact and Support
