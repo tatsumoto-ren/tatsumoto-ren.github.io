@@ -53,6 +53,6 @@ use [Cross Profile Search And Import](useful-anki-add-ons-for-japanese.html#cros
 to copy cards from the bank profile to your main profile.
 
 This deck is **not** a replacement for
-[Ankidrone Starter Pack](basic-vocabulary.html).
+[Ankidrone Essentials](ankidrone-essentials.html).
 It doesn't contain dictionary definitions.
-I recommend you start with Ankidrone Starter Pack if you're a beginner.
+I recommend you start with **Ankidrone Essentials** if you're a beginner.
