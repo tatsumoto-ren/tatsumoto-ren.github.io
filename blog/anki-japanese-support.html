@@ -98,10 +98,13 @@ and adding pronunciation audio files to Anki cards.</p>
 </ul>
 <p>To install AUR packages, you can use <a href="https://github.com/trizen/trizen/blob/master/TRIZEN.md">Trizen</a>
 or any other AUR helper.</p>
-<p>When Anki starts, AJT Japanese will try to use
-<code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code> as a system <code>dicdir</code> for Mecab.
-This directory is provided by <code>mecab-ipadic-neologd</code>.
-If the directory is not found, the add-on will fall back to the built-in dictionary,
+<p>If you install the <code>mecab-ipadic-neologd</code> AUR package,
+AJT Japanese will try to use
+<code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code> as a system <code>dicdir</code> for Mecab
+when Anki starts.
+If neologd is not found in this directory,
+the add-on will try to search other directories on the hard drive.
+If the directory is not found, it will fall back to the built-in dictionary,
 which is smaller (to fit on AnkiWeb).</p>
 <h2 id="overview"><a class="anchor" href="#overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
 <p>The AJT Japanese add-on provides a range of features
@@ -148,7 +151,7 @@ Any user can create their own audio sources.
 The audio files provided by default come from Japanese accent dictionaries,
 so they are pretty accurate.
 Audio sources can be online or offline.
-Online audio sources fetch audio files from the internet,
+Online audio sources fetch audio files from the Internet,
 whilst offline audio sources are stored locally.
 If you have additional disk space on your computer,
 it is recommended to download and use offline sources
@@ -277,10 +280,10 @@ the add-on generates SVG pictures to allow for a more elaborate graphical repres
 &quot;Number&quot; simply indicates
 <a href="understanding-monolingual-definitions#understanding-pitch-accent">where pitch drops</a>.</p>
 <p>Appearance of SVG graphs can be configured in
-&quot;AJT&quot; -&gt; &quot;Japanese options&quot; &gt; &quot;Pitch accent&quot; &gt; &quot;SVG graphs&quot;.
-There are many different knobs,
+&quot;AJT&quot; &gt; &quot;Japanese options&quot; &gt; &quot;Pitch accent&quot; &gt; &quot;SVG graphs&quot;.
+There are many knobs,
 but you can play with them while looking at the previews on the right side if you want.</p>
-<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change svg appearance"/></p>
+<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change SVG appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
 <details>
 <summary>SVG: Further styling</summary>

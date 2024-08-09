@@ -38,10 +38,13 @@ To improve parsing quality (not necessary, but recommended), install these AUR p
 To install AUR packages, you can use [Trizen](https://github.com/trizen/trizen/blob/master/TRIZEN.md)
 or any other AUR helper.
 
-When Anki starts, AJT Japanese will try to use
-`/usr/lib/mecab/dic/mecab-ipadic-neologd` as a system `dicdir` for Mecab.
-This directory is provided by `mecab-ipadic-neologd`.
-If the directory is not found, the add-on will fall back to the built-in dictionary,
+If you install the `mecab-ipadic-neologd` AUR package,
+AJT Japanese will try to use
+`/usr/lib/mecab/dic/mecab-ipadic-neologd` as a system `dicdir` for Mecab
+when Anki starts.
+If neologd is not found in this directory,
+the add-on will try to search other directories on the hard drive.
+If the directory is not found, it will fall back to the built-in dictionary,
 which is smaller (to fit on AnkiWeb).
 
 ## Overview
@@ -93,7 +96,7 @@ Any user can create their own audio sources.
 The audio files provided by default come from Japanese accent dictionaries,
 so they are pretty accurate.
 Audio sources can be online or offline.
-Online audio sources fetch audio files from the internet,
+Online audio sources fetch audio files from the Internet,
 whilst offline audio sources are stored locally.
 If you have additional disk space on your computer,
 it is recommended to download and use offline sources
@@ -246,11 +249,11 @@ the add-on generates SVG pictures to allow for a more elaborate graphical repres
 [where pitch drops](understanding-monolingual-definitions#understanding-pitch-accent).
 
 Appearance of SVG graphs can be configured in
-"AJT" -> "Japanese options" > "Pitch accent" > "SVG graphs".
-There are many different knobs,
+"AJT" > "Japanese options" > "Pitch accent" > "SVG graphs".
+There are many knobs,
 but you can play with them while looking at the previews on the right side if you want.
 
-<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change svg appearance"/></p>
+<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change SVG appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
 
 <details>
