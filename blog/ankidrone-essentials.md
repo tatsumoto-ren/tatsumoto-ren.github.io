@@ -5,12 +5,17 @@ tags: ['decks', 'vocab', 'guide']
 ---
 
 *Ankidrone Essentials* is the generally recommended Anki deck for newcomers to Japanese
-who want to quickly learn basic vocabulary.
+who want to quickly learn [basic vocabulary](basic-vocabulary.html).
 Ankidrone Essentials is made to skyrocket your comprehension of native Japanese.
 Since the first release in February 2020,
 it has helped many people and received positive feedback.
 
 ****
+
+## About
+
+To learn the details about studying basic vocabulary,
+read [this article](basic-vocabulary.html) first.
 
 ## Structure
 
