@@ -4,13 +4,14 @@ date: 1621275994
 tags: ['guide']
 ---
 
-This is the Ajatt-Tools Resources List.
-With the help of our community we've gathered the links to help you in your Japanese studies.
+This is the [AJATT](whats-ajatt.html) Resources List.
+With the help of [our community](join-our-community.html)
+we've gathered the links to help you in your Japanese studies.
 We prioritize libre software and content that you can download for free.
 Everyone is welcome to suggest more resources in our chat.
 
 The third party resources below
-may contain what Tatsumoto considers to be ineffective language learning advice.
+may contain what AJATT considers to be ineffective language learning advice.
 If you find something that contradicts what's written in this guide,
 assume it's wrong or verify by asking people in our chat.
 
