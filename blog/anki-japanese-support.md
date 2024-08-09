@@ -28,6 +28,8 @@ The installation process is similar to other Anki plugins and can be accomplishe
 2) Input `1344485230` into the text box labeled `Code` and press the OK button to proceed.
 2) Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.
 
+## Neologism dictionary
+
 <img src="img/鳥でも分かる.webp" float="right">
 
 To improve parsing quality (not necessary, but recommended), install these AUR packages:
@@ -44,7 +46,22 @@ AJT Japanese will try to use
 when Anki starts.
 If neologd is not found in this directory,
 the add-on will try to search other directories on the hard drive.
-If the directory is not found, it will fall back to the built-in dictionary,
+
+<details>
+
+<summary>Expected locations</summary>
+
+* `/usr/lib/mecab/dic/mecab-ipadic-neologd`
+* `/usr/local/lib/mecab/dic/mecab-ipadic-neologd`
+* `/opt/homebrew/lib/mecab/dic/mecab-ipadic-neologd`
+* `/usr/lib/mecab/dic/ipadic`
+* `/usr/local/lib/mecab/dic/ipadic`
+* `/opt/homebrew/lib/mecab/dic/ipadic`
+
+</details>
+
+If the directory is not found in either of the expected directories,
+the add-on will fall back to the built-in dictionary,
 which is smaller (to fit on AnkiWeb).
 
 ## Overview

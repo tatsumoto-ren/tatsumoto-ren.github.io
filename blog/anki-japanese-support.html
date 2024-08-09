@@ -90,6 +90,7 @@ and adding pronunciation audio files to Anki cards.</p>
 <li>Input <code>1344485230</code> into the text box labeled <code>Code</code> and press the OK button to proceed.</li>
 <li>Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.</li>
 </ol>
+<h2 id="neologism-dictionary"><a class="anchor" href="#neologism-dictionary" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Neologism dictionary</h2>
 <img src="img/鳥でも分かる.webp" float="right">
 <p>To improve parsing quality (not necessary, but recommended), install these AUR packages:</p>
 <ul>
@@ -103,8 +104,20 @@ AJT Japanese will try to use
 <code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code> as a system <code>dicdir</code> for Mecab
 when Anki starts.
 If neologd is not found in this directory,
-the add-on will try to search other directories on the hard drive.
-If the directory is not found, it will fall back to the built-in dictionary,
+the add-on will try to search other directories on the hard drive.</p>
+<details>
+<summary>Expected locations</summary>
+<ul>
+<li><code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/usr/local/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/opt/homebrew/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/usr/lib/mecab/dic/ipadic</code></li>
+<li><code>/usr/local/lib/mecab/dic/ipadic</code></li>
+<li><code>/opt/homebrew/lib/mecab/dic/ipadic</code></li>
+</ul>
+</details>
+<p>If the directory is not found in either of the expected directories,
+the add-on will fall back to the built-in dictionary,
 which is smaller (to fit on AnkiWeb).</p>
 <h2 id="overview"><a class="anchor" href="#overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
 <p>The AJT Japanese add-on provides a range of features
