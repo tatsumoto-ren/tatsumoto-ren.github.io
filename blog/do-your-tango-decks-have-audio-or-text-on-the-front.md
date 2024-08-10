@@ -5,5 +5,7 @@ tags: ['faq']
 position: -9906
 ---
 
-Ankidrone Starter Pack contains bilingual TSCs with sentences on the front.
+[Ankidrone Essentials](ankidrone-essentials.md)
+contains bilingual TSCs with sentences on the front.
+
 Don't put audio on the front of your cards.
