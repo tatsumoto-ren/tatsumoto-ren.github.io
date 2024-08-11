@@ -34,7 +34,8 @@ but there is no need to do any isolated kanji study
 before starting this deck.
 You're going to learn kanji and vocabulary at the same time.
 
-If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck like **Core** or **Tango**
+If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck
+like **Core10k** or **[Ankidrone Essentials](ankidrone-essentials.html)**
 and know more than 1,000 words
 or have gone through [isolated kanji study](learning-kanji.html#isolated-kanji-study.html)
 with a book like RTK,
@@ -44,8 +45,9 @@ if they haven't started doing it already.
 However, if your vocabulary is below 1000 words,
 I recommend that you give the KanjiTransition deck a try.
 
-The vocabulary used in the deck was taken from [Ankidrone Starter Pack](basic-vocabulary.html)
-and consists of words commonly used in everyday life in Japan.
+The vocabulary used in the deck was taken from [Ankidrone Essentials](ankidrone-essentials.html)
+and other premade Anki decks.
+It consists of words commonly used in everyday life in Japan.
 Most cards in the deck have example sentences.
 Cards are presented relatively in the [1T](one-target-sentences.html) order.
 Each sentence in the deck tries to introduce only one unknown word or structure.
@@ -138,11 +140,11 @@ There are `776` unique kanji used in the deck.
 > After importing the deck I only got 50 notes or so.
 
 Anki doesn't import notes that are already present in your collection.
-If you have prevously downloaded [Ankidrone Starter Pack](basic-vocabulary.html) (covered later),
+If you have prevously downloaded [Ankidrone Essentials](ankidrone-essentials.html) (covered later),
 you already have got all the cards from this deck.
-You don't need to import this deck and can continue learning new cards from Ankidrone Starter Pack.
+You don't need to import this deck and can continue learning new cards from Ankidrone Essentials.
 The only difference is that this deck utilizes a note type designed to work with the JP1K method.
-On the other hand, Ankidrone Starter Pack is designed for people
+On the other hand, Ankidrone Essentials is designed for people
 who either have already completed KanjiTransition or decided to skip it.
 
 > The deck contains some words that I don't think will be useful for me.
