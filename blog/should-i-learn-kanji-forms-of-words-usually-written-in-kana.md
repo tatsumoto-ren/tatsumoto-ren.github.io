@@ -39,5 +39,5 @@ However,
 if the word is written in kanji in the original text,
 do not convert it to kana.
 
-Most words in [Ankidrone Starter Pack](basic-vocabulary.html)
+Most words in [Ankidrone Essentials](ankidrone-essentials.html)
 are kanjified for this reason.
