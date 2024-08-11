@@ -127,7 +127,7 @@ it requires making your own cards.
 By the time you start learning to write,
 you should have plenty of sentence cards in your Anki collection to generate production cards from.
 However, if you want a premade sentence pack that can be used for writing,
-you can download [Ankidrone Starter Pack](basic-vocabulary.html).
+you can download [Ankidrone Essentials](ankidrone-essentials.html).
 
 ### How to make your own cards
 
