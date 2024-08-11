@@ -34,7 +34,7 @@ and you're reading with a thick foreign accent in your head.
 
 From day one listen a lot, listen all the time.
 Immerse both passively and actively in voiced Japanese media to train your ears.
-Complete the first two subdecks from [Ankidrone Starter Pack](basic-vocabulary.html),
+Complete the first two subdecks from [Ankidrone Essentials](ankidrone-essentials.html),
 they contain natural, correct, easy to understand sentences with clear native audio.
 Before starting reading manga,
 watch lots of anime with Japanese subtitles.
