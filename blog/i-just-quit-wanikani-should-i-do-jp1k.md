@@ -6,7 +6,7 @@ position: -9977
 ---
 
 Just go to the next step.
-Do the N5 and N4 levels of Ankidrone Starter Pack,
+Do the N5 and N4 levels of [Ankidrone Essentials](ankidrone-essentials.html),
 then jump into [sentence mining](sentence-mining.html).
 
 JP1K is made for beginners, for people who don't know any Japanese yet.
