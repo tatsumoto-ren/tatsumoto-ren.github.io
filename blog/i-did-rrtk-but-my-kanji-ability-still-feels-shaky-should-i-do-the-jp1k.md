@@ -18,7 +18,7 @@ It doesn't matter if you don't remember its *name*.
 If you have completed one such deck, you don't need to do another one of the same kind.
 What you have to do from this point
 is to learn to associate words written in kanji with how to read them and what they mean.
-Move to the next level and do [Ankidrone Starter Pack](basic-vocabulary.html).
+Move to the next level and do [Ankidrone Essentials](ankidrone-essentials.html).
 Eventually your goal is to start [sentence mining](sentence-mining.html) while consuming native content.
 
 Even if you feel like you lack kanji ability,
