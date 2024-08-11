@@ -167,7 +167,7 @@ and everyone is welcome to add their templates by making a pull request.
 * `SentEng` can be used together with
   [subs2srs](our-immersion-learning-toolset.html#subs2srs)
   and premade decks such as
-  [AnkiDrone Starter Pack](basic-vocabulary.html#anki-deck).
+  [Ankidrone Essentials](ankidrone-essentials.html).
 * `MorphManFocus`
   is a field for compatibility with
   [Morphman](https://ankiweb.net/shared/info/900801631).
