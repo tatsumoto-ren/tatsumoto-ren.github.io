@@ -53,7 +53,7 @@ Don't use Google Translate or anything like that.
 **Reading English sentences is acceptable in:**
 
 * [Premade decks](basic-vocabulary.html),
-  such as *Core10k* and *Ankidrone Starter Pack*.
+  such as *Core10k* and [Ankidrone Essentials](ankidrone-essentials.html).
 * [Grammar guides](learning-grammar.html#grammar-guides),
   such as *Tae Kim* and *All About Particles*.
 
