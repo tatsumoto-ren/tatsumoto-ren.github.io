@@ -121,7 +121,8 @@ basic grammar and basic vocabulary must be studied approximately at the same tim
 
 After learning the kana,
 start going through a basic vocabulary deck.
-The vocabulary decks we recommend on this site are KanjiTransition and Ankidrone Starter Pack.
+The vocabulary decks we recommend on this site are
+[KanjiTransition](jp1k-anki-deck.html) and [Ankidrone Essentials](ankidrone-essentials.html).
 As you progress through a vocabulary deck,
 you will encounter new grammar used in example sentences.
 Learn this extremely basic grammar.
