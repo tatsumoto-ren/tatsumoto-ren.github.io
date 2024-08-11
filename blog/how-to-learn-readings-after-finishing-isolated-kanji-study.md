@@ -23,7 +23,7 @@ read a lot of native Japanese content, look up words and make TSCs.
 
 At first, you may want to use a premade deck.
 I recommend downloading
-[Ankidrone Starter Pack](basic-vocabulary.html)
+[Ankidrone Essentials](ankidrone-essentials.html)
 and learning from 1,000 to 3,000 cards from it.
 The deck has Japanese sentences on the front,
 English translations on the back.
