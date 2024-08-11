@@ -65,14 +65,14 @@ we were able to create a **high quality TSC deck**.
 
 ## Download
 
-To download the deck, get [Ankidrone Starter Pack](basic-vocabulary.html) version 7 or later.
+To download the deck, get [Ankidrone Essentials](ankidrone-essentials.html) version 7 or later.
 
 ## The Rest of the Tango Series
 
 The JLPT Tango N1 book is actually one in a series of JLPT prep books.
 There are five books total, one for each level of the JLPT.
 Prior to starting this deck I advise you to complete Tango N5, N4, N3 and N2 decks.
-They are available as a part of Ankidrone Starter Pack.
+They are available as a part of Ankidrone Essentials.
 
 ## How To Study
 
@@ -94,9 +94,9 @@ see [How to review](how-to-review.html).
 ## Commentary
 
 This is the last deck in the Tango series.
-Its release completes Ankidrone Starter Pack,
+Its release completes Ankidrone Essentials,
 the basic vocabulary deck I worked on for two years.
-Ankidrone Starter Pack has been immensely successful,
+Ankidrone Essentials has been immensely successful,
 and since it first came out in February 2020
 it has helped thousands of people with studying Japanese.
 
