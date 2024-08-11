@@ -409,12 +409,12 @@ use a premade Anki deck to build up the basic vocabulary.
 Completing this step makes learning from input easier,
 you won't have to struggle looking up every word on each page.
 
-Download [Ankidrone Starter Pack](basic-vocabulary.html)
+Download [Ankidrone Essentials](ankidrone-essentials.html)
 and learn one or two thousand cards from it.
 You are free to continue learning new cards from the deck,
 but don't get stuck on this step and move to [sentence mining](sentence-mining.html) (covered later) as soon as possible.
 
-Each card in Ankidrone Starter Pack has a sentence at the front.
+Each card in *Ankidrone Essentials* has a sentence at the front.
 The target word of the card is shown in bold.
 The information needed to understand the sentence and the target word is provided at the back,
 it includes a rough translation and kanji readings.
@@ -563,7 +563,7 @@ Below is a quick overview.
    * Create your own mining deck.
      You will be adding everything else you don't know to this deck.
      You may add example sentences from the grammar guide to your mining deck.
-   * Do Ankidrone Starter Pack. This step is optional.
+   * Do [Ankidrone Essentials](ankidrone-essentials.html). This step is optional.
 1) Continue immersing and making Anki cards.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
