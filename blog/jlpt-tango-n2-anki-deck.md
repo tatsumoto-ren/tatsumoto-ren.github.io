@@ -61,14 +61,14 @@ we were able to create a **high quality TSC deck**.
 
 ## Download
 
-To download the deck, get [Ankidrone Starter Pack](basic-vocabulary.html) version 6 or later.
+To download the deck, get [Ankidrone Essentials](ankidrone-essentials.html) version 6 or later.
 
 ## The Rest of the Tango Series
 
 The JLPT Tango N2 book is actually one in a series of JLPT prep books.
 There are five books in total, one for each level of the JLPT.
 Prior to starting this deck I advise you to complete Tango N5, N4 and N3 decks.
-They are available as a part of Ankidrone Starter Pack.
+They are available as a part of Ankidrone Essentials.
 
 ## How To Study
 
