@@ -51,7 +51,7 @@ You typically only need one deck to teach you basic vocabulary.
 All other decks that you download should go in
 your [sentence bank](cross-profile-search-and-import.html) profile.
 
-* [Ankidrone Starter Pack](basic-vocabulary.html#anki-deck).
+* [Ankidrone Essentials](ankidrone-essentials.html).
   This is our main deck.
   Other decks are third-party.
 * [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc),
