@@ -17,7 +17,7 @@ Find another method of attaining kanji fluency.
 
 There are several paths to take from here.
 
-* Switch to [Ankidrone Starter Pack](basic-vocabulary.html).
+* Switch to [Ankidrone Essentials](ankidrone-essentials.html).
 
   Abandon the idea of *learning kanji* and start learning words.
   When doing Ankidrone, try to learn each word as is, through the so-called *brute force* method.
