@@ -372,19 +372,12 @@ together with words that represent them.
 On this site you'll find links to premade JP1K decks
 as well as instructions on how to convert any vocabulary deck into the JP1K format.
 
-Other methods that I'd like to give special attention to:
-
-* [Kanjidamage+](https://mega.nz/file/CQg0SKyI#Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
-  You recognize kanji using premade mnemonic stories.
-  One flashcard per kanji.
-  For each kanji the story includes its most common reading.
-* [RTK](https://ankiweb.net/shared/decks/rtk).
-  Similar to KanjiDamage.
-  You study kanji in isolation using the order presented in a book called "Remembering the Kanji".
-  Depending on the Anki deck you download,
-  you are given premade mnemonics, or you're encouraged to make them yourself.
-  Kanji readings are not taken into account,
-  instead the method insists on learning them in the wild from native content.
+The are other,
+older methods of learning kanji.
+One of the most well-known is called
+[isolated kanji study](learning-kanji.html#isolated-kanji-study).
+While we at AJATT don't recommend this method as much,
+it may still be of interest to some learners.
 
 Choose only one of the above methods.
 No matter what option you pick, don't bother learning to write the characters just yet.
