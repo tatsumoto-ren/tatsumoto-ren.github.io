@@ -24,7 +24,7 @@ date: 1616375454
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
-	* [Kanji Anki deck](jp1k-anki-deck.html)
+	* [Ankidrone Foundation](jp1k-anki-deck.html)
 	* [Basic vocabulary](basic-vocabulary.html)
 	* [Ankidrone Essentials](ankidrone-essentials.html)
 	* [Grammar](learning-grammar.html)
