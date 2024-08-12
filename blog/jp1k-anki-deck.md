@@ -1,7 +1,8 @@
 ---
-title: KanjiTransition Anki deck
-date: 1614246289
-tags: [decks, kanji, vocab]
+title: Ankidrone Foundation
+date: 1723344192
+tags: ['decks', 'kanji', 'vocab']
+position: 2
 ---
 
 The most important part of learning Japanese with the
@@ -13,7 +14,7 @@ by picking up new words from the media you read, watch or listen to.
 To transition towards learning directly from Japanese media,
 first you need to level up your comprehension.
 
-**KanjiTransition deck**
+*Ankidrone Foundation*
 is an Anki Deck for newcomers to Japanese based on the JP1K method.
 If you want to learn the theory behind this deck, please read
 [this article](learning-kanji.html).
@@ -22,9 +23,10 @@ If you want to learn the theory behind this deck, please read
 
 ## About
 
-The deck is designed to teach how to recognize Kanji
-along with the most common 1000 words used in everyday conversations.
-Once you finish this deck, you should be able to understand enough Japanese
+The deck is designed to teach you how to recognize kanji
+along with the most common 1,000 words used in everyday Japanese conversations.
+Once you finish this deck,
+you should be able to understand enough Japanese
 to start learning directly from your immersion.
 
 <img src="img/kanji-drill.webp" float="right">
@@ -35,15 +37,15 @@ before starting this deck.
 You're going to learn kanji and vocabulary at the same time.
 
 If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck
-like **Core10k** or **[Ankidrone Essentials](ankidrone-essentials.html)**
-and know more than 1,000 words
+like *Core10k* or *Ankidrone Essentials*
+and know more than 1,000 words,
 or have gone through [isolated kanji study](learning-kanji.html#isolated-kanji-study.html)
 with a book like RTK,
 you are unlikely to benefit from the deck.
 People who know more than 1,000 words are advised to do [sentence mining](sentence-mining.html) instead,
 if they haven't started doing it already.
 However, if your vocabulary is below 1000 words,
-I recommend that you give the KanjiTransition deck a try.
+I recommend that you give *Ankidrone Foundation* a try.
 
 The vocabulary used in the deck was taken from [Ankidrone Essentials](ankidrone-essentials.html)
 and other premade Anki decks.
@@ -55,69 +57,89 @@ Each word along with each sentence has native audio and an English translation.
 
 ## JP1K method
 
+The JP1K method is a powerful technique
+that can help you effectively learn kanji readings while building your vocabulary.
 I explain the method in more detail [here](learning-kanji.html#jp1k-method).
+This approach allows you to gradually improve your reading skills as a beginner
+and learn words
+while not letting difficult kanji characters slow you down as much.
 
-The idea behind the JP1K method is that
-you try to recall kanji readings when you review the cards,
+The core idea behind the JP1K method is that
+you try to actively recall kanji readings when you review the cards from this deck,
 but you **don't take** them into account when grading yourself.
 
-When a flashcard pops up,
-try to recall the reading of the target word,
-then use your mouse to **hover over** the word to see how it's read.
-After you have seen the reading, try to recall the meaning of the word.
-Afterwards, reveal the back side of the card and see if your guess is correct.
-Listen and try to understand the example sentence, if available.
-Pass the card if you've correctly recalled the **meaning** of the target word.
-Otherwise, hit "Again".
+When a flashcard appears,
+try to recall the reading of the target word.
+Use your mouse to **hover over** the word to reveal its reading (pronunciation).
+After seeing the reading,
+try to recall the meaning of the word.
+Next,
+flip the card over to **reveal the back side**
+and check if your guess was correct.
+Listen to the audio and try to understand the example sentence, if available.
+If you've successfully recalled the **meaning** of the target word,
+pass the card (press "Good").
+If not, click "Again" to review it later.
 
-It is important that you try to recall the reading of the target word every time you see the card.
+It is important that you try to recall the **reading** of the target word
+every time you see the card.
 By doing so, you engage in deliberate practice,
 which should help you eventually remember the reading.
-However, don't penalize yourself for being unable to do recall readings.
-As a beginner, it's already quite difficult to remember Japanese words,
+Deliberate practice helps gradually build the neural pathways necessary to remember the reading.
+However,
+don't penalize yourself for being unable to do recall readings.
+Don't press "Again" if you recalled the meaning but forgot the reading.
+As a beginner,
+it's already quite difficult to memorize Japanese words,
 and you don't want to add another level of complexity just yet.
 
-After you finish KanjiTransition,
-you're going to start using regular [Targeted Sentence Cards](discussing-various-card-templates.html#targeted-sentence-cards).
-When reviewing regular TSCs,
-you pass a card only if you recall both the reading and meaning correctly.
-But when doing KanjiTransition,
-knowing the readings is not necessary,
-since you're still *transitioning* to reading native Japanese sentences.
+Once you've completed *Ankidrone Foundation*,
+you'll start using regular
+[Targeted Sentence Cards](discussing-various-card-templates.html#targeted-sentence-cards).
+When reviewing TSCs,
+you'll need to accurately recall **both** the reading and meaning to pass each card.
+But the difference is that when doing *Ankidrone Foundation*,
+knowing the readings is **not necessary**,
+as you're still in the process of adapting to reading native Japanese sentences.
+
+By understanding the JP1K method and consistently applying it when studying this deck,
+you'll be well on your way to mastering kanji and expanding your vocabulary.
 
 ## Downloads
 
 Download the folder below to get the deck.
 
 <p align="center">
-<a class="download_button" href="https://ankiweb.net/shared/info/917377946" target="_blank">Download</a>
+<a target="_blank" class="download_button" href="https://disk.yandex.com/d/N2gncNlCP0tBiA">Download</a>
 </p>
 <p align="center">
-<a href="https://disk.yandex.com/d/N2gncNlCP0tBiA" target="_blank">Mirror</a>
+<a target="_blank" href="https://ankiweb.net/shared/info/917377946">Mirror</a>
 </p>
 
 The following sections explain what these decks are.
 
 ## Anki deck
 
-At Ajatt-Tools we believe that
-the most effective way to learn vocabulary is through
+At [AJATT](whats-ajatt.html),
+we believe that the most effective way to learn vocabulary is through
 [targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards).
 The target word on the cards is highlighted.
 You decide if you want to read the whole sentence or just the word.
-This deck contains modified targeted sentence cards.
+This deck contains **modified** targeted sentence cards.
 They differ from regular TSCs.
 The difference is that if a word contains kanji,
 you can view the furigana reading by hovering over the word with your mouse or clicking on it.
+This is an aid for beginners who don't know any Japanese yet.
+In normal TSCs this is not allowed.
 
 On the front there's an example sentence.
 The target word appears highlighted.
 When reviewing the cards you can decide whether you want to read the whole sentence or not.
 When you hover over each word, a furigana reading appears on top.
-You can also press the `p` key on your keyboard to immediately reveal all kanji readings.
+You can also press the <kbd>p</kbd> key on your keyboard to immediately reveal all kanji readings.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
-<p align="center"><i>An example TSC from KanjiTransition.</i></p>
+<p align="center"><i>An example TSC from Ankidrone Foundation.</i></p>
 
 When trying to read sentences while reviewing,
 prior knowledge of some grammar might be necessary.
@@ -129,7 +151,8 @@ when there's a sentence you don't grasp fully.
 
 ## Extra
 
-The "Extra" folder in the linked archive contains JP1K-style decks shared by our community members.
+The "[Extra](https://disk.yandex.com/d/N2gncNlCP0tBiA/Extra)" folder in the linked archive
+contains JP1K-style decks shared by our community members.
 
 ## Q&A
 
@@ -145,7 +168,7 @@ you already have got all the cards from this deck.
 You don't need to import this deck and can continue learning new cards from Ankidrone Essentials.
 The only difference is that this deck utilizes a note type designed to work with the JP1K method.
 On the other hand, Ankidrone Essentials is designed for people
-who either have already completed KanjiTransition or decided to skip it.
+who either have already completed Ankidrone Foundation or decided to skip it.
 
 > The deck contains some words that I don't think will be useful for me.
 
