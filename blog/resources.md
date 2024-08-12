@@ -34,14 +34,14 @@ assume it's wrong or verify by asking people in our chat.
 
 > Main article: [Learning Kanji](learning-kanji.html)
 
-* [KanjiTransition](https://ankiweb.net/shared/info/917377946).
-Learn words with the kanji used to write them.
+* [Ankidrone Foundation](jp1k-anki-deck.html).
+  Learn words with the kanji used to write them.
 * [Kanjidamage](http://www.kanjidamage.com/).
-The best mnemonic-based method of learning kanji in isolation.
+  The best mnemonic-based method of learning kanji in isolation.
 * [Kanjidamage+ reference](https://kanjidamageplus.neocities.org/).
-KanjiDamage+ kanji list on a single web page.
+  KanjiDamage+ kanji list on a single web page.
 * [RTK search](https://hochanh.github.io/rtk/).
-Kanji characters with Koohii stories.
+  Kanji characters with Koohii stories.
 
 ### Anki decks
 
