@@ -324,11 +324,9 @@ On the other hand, if you could see the reading immediately
 then there would be no deliberate practice involved,
 so you'd eventually start ignoring the kanji.
 
-At Ajatt-Tools we have made an Anki deck
+At AJATT, we have made an Anki deck
 for people who wish to follow this method.
-To download it, visit the linked page.
-
-<p align="center"><a class="download_button" href="jp1k-anki-deck.html">KanjiTransition</a></p>
+To download it, [visit this page](jp1k-anki-deck.html).
 
 ## Isolated kanji study
 
@@ -394,6 +392,11 @@ and add the benefits of spaced repetition.
   [Lazy Kanji](https://web.archive.org/web/20100403201243/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format),
   which is a card format Khatzumoto from AJATT recommended.
 * AnkiWeb has a [large collection](https://ankiweb.net/shared/decks/rtk) of premade RTK decks.
+  You study kanji in isolation using the order presented in the "Remembering the Kanji" book.
+  Depending on the Anki deck you download,
+  you are given premade mnemonics, or you're encouraged to make them yourself.
+  Kanji readings are not taken into account,
+  instead the method insists on learning them in the wild from native content.
 
 Other options that use the mnemonic-based approach but are not based on RTK:
 
@@ -410,6 +413,9 @@ Other options that use the mnemonic-based approach but are not based on RTK:
 * [KanjiDamage Plus](https://mega.nz/#!CQg0SKyI!Ufho0RKmmW8P6XRx8KiDY1JeAXoGOgmjrEscayil8cA).
   A slightly larger version of KanjiDamage which contains ~200 additional kanji.
   Some component names were renamed.
+  You recognize kanji using premade mnemonic stories.
+  One flashcard per kanji.
+  For each kanji, the story includes its most common reading.
   See [the online reference](https://kanjidamageplus.neocities.org/).
 
 The downside is that although this method makes it easier to remember words later on,
