@@ -5,7 +5,7 @@ tags: ['faq']
 position: -9980
 ---
 
-Decks like RTK, RRTK, KanjiDamage and KanjiTransition
+Decks like RTK, RRTK, KanjiDamage and [Ankidrone Foundation](jp1k-anki-deck.html)
 are designed to give you training wheels
 so that you could practice kanji in a modified environment for a while
 and then transition to reading real Japanese and learn real words.
