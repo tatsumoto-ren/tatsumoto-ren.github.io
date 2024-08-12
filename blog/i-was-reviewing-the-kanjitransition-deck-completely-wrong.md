@@ -1,5 +1,5 @@
 ---
-title: I just learned that I was reviewing the KanjiTransition deck completely wrong. What should I do from here?
+title: I just learned that I was reviewing the Ankidrone Foundation deck completely wrong. What should I do from here?
 date: 1670228293
 tags: ['faq']
 position: -9909
@@ -7,7 +7,7 @@ position: -9909
 
 The [JP1K method](learning-kanji.html#jp1k-method) is structured in a way that is a little hard to grasp for some people.
 Normally on an Anki card you only have one question and one answer,
-but the KanjiTransition deck and other JP1K-style decks out there
+but [Ankidrone Foundation](jp1k-anki-deck.html) and other JP1K-style decks out there
 have you review each card in multiple steps.
 If you suddenly realized that you didn't follow the instructions,
 e.g., recalled only meanings of words and didn't try to recall the readings,
@@ -20,10 +20,11 @@ There are several paths to take from here.
 * Switch to [Ankidrone Essentials](ankidrone-essentials.html).
 
   Abandon the idea of *learning kanji* and start learning words.
-  When doing Ankidrone, try to learn each word as is, through the so-called *brute force* method.
+  When doing Ankidrone Essentials,
+  try to learn each word as is, through the so-called *brute force* method.
   Memorize how the word is read and what it means.
 
-  This path is for people who failed to reach kanji fluency with JP1K
+  This path is for people who failed to reach kanji fluency with the JP1K method
   but already learned more than half of the deck.
 * Do [Kanjidamage+](learning-kanji.html#isolated-kanji-study).
   Or RTK.
