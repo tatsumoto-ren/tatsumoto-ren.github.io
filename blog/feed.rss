@@ -5,9 +5,30 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 11 Aug 2024 05:35:48 +0300</lastBuildDate>
-<pubDate>Sun, 11 Aug 2024 05:35:48 +0300</pubDate>
+<lastBuildDate>Mon, 12 Aug 2024 20:04:18 +0300</lastBuildDate>
+<pubDate>Mon, 12 Aug 2024 20:04:18 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Ankidrone Foundation</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>The most important part of learning Japanese with the
+<a href="whats-ajatt.html">AJATT</a>
+method
+is to enjoy native content
+and be able to grow your understanding of the language entirely through immersion
+by picking up new words from the media you read, watch or listen to.
+To transition towards learning directly from Japanese media,
+first you need to level up your comprehension.</p>
+<p><em>Ankidrone Foundation</em>
+is an Anki Deck for newcomers to Japanese based on the JP1K method.
+If you want to learn the theory behind this deck, please read
+<a href="learning-kanji.html">this article</a>.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 11 Aug 2024 05:43:12 +0300</pubDate>
+</item>
 <item>
 <title>Ankidrone Essentials</title>
 <author>Tatsumoto Ren</author>
@@ -211,68 +232,6 @@ In return, you'll save hours each week on various tasks.</p>
 <guid>https://tatsumoto-ren.github.io/blog/do-i-have-to-run-gnu.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 11 Mar 2024 07:13:39 +0300</pubDate>
-</item>
-<item>
-<title>How should I count my cards if I make more than one card per note?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
-<p>I have reached almost 4,000 cards but it represents only
-2,500 different notes because for most of them
-I create a reading card and an audio card with the same sentence.
-It actually really helps for
-learning both listening and reading.
-What do you think about, it and how should I
-count the number of cards I've reached?</p>
-</blockquote>
-<p>The number of words you know is roughly equivalent
-to the number of unique sentences you have mined into Anki.
-With targeted sentence cards (TSCs),
-each note should have one target word.
-So one note helps you acquire one new word.
-Therefore,
-to count your &quot;known words,&quot;
-just count the number of unique notes you have.
-Still,
-how much media you understand matters more than how many cards you have mined
-because you can mine a lot but immerse very little, or vice versa.</p>
-<p>Personally,
-I wouldn't make both listening and reading cards for the same sentence.
-I don't think it would be worth the extra time and effort.
-With two cards per note,
-you may end up knowing the target word a bit better than with just one card.
-But you're also spending twice as much time studying it.
-Are you really getting twice the benefit?
-It's probably closer to 1.25x.</p>
-<p>Keep in mind,
-especially early on,
-the goal of using Anki isn't to learn a word perfectly.
-It's creating a mental dictionary entry
-so you notice the word during immersion and absorb content more easily.
-One text card per note will likely be enough for that purpose
-— to let your brain know the word exists,
-what it looks like,
-sounds like,
-and means roughly.
-Then immersion will fill in the gaps.</p>
-<p>So personally,
-I'd just make text cards and let immersion smooth everything out.
-You could add audio to the back of cards if you want, but not the front.
-When I learned Japanese,
-I never used audio cards
-since I <a href="how-to-rep-audiobased-sentence-cards.html">saw them as pretty much useless</a>.
-I mostly made sentence cards or targeted sentence cards.
-It worked very well for me.</p>
-<p>However,
-if your current technique works for you,
-by all means keep doing it.
-We all have slightly different learning styles.
-If you found an approach you enjoy and that's effective,
-trust your experience over any advice.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-should-i-count-my-cards-if-i-make-more-than-one-card-per-note.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-should-i-count-my-cards-if-i-make-more-than-one-card-per-note.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Thu, 22 Feb 2024 20:31:16 +0300</pubDate>
 </item>
 </channel>
 </rss>
