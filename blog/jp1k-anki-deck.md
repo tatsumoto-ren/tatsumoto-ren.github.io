@@ -296,3 +296,9 @@ and a second rule that tells to make it visible on hover.
 ```
 
 This should be it. Enjoy your own JP1K deck.
+
+## Feedback
+
+The deck still has room for improvement.
+Please share any feedback, suggestions, or corrections you have in our chat.
+[Join us](join-our-community.html).

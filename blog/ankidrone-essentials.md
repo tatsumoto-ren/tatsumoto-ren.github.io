@@ -2,6 +2,7 @@
 title: Ankidrone Essentials
 date: 1723216111
 tags: ['decks', 'vocab', 'guide']
+position: 3
 ---
 
 *Ankidrone Essentials* is the generally recommended Anki deck for newcomers to Japanese
@@ -108,7 +109,7 @@ but it cannot replace or substitute immersion.
 Anki is used to help you reinforce and strengthen your memory,
 notice and recognize the learned words in native Japanese.
 
-**Note:** If you have completed the [Kanji Transition deck](jp1k-anki-deck.html),
+**Note:** If you have completed [Ankidrone Foundation](jp1k-anki-deck.html),
 skip Tango `N5` because they teach roughly the same words
 and differ mostly in their card templates.
 
@@ -206,5 +207,6 @@ Having access to high quality example sentences is important for a language lear
 
 ## Feedback
 
-DJT space has a Tango deck feedback room to give feedback on the deck.
+The deck still has room for improvement.
+Please share any feedback, suggestions, or corrections you have in our chat.
 [Join us](join-our-community.html).
