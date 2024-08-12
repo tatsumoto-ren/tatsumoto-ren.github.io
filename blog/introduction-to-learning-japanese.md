@@ -553,14 +553,17 @@ Below is a quick overview.
 
 1) Build a Japanese immersion environment.
    Start consuming native Japanese content actively and passively.
-   This is the first and the most important part.
-1) Quickly learn the Japanese alphabets with a drilling app or an Anki deck.
+   For example, watch anime in Japanese without translation.
+   This is the **first** and the most important part.
+1) Quickly learn the [Japanese alphabets](learning-kana-in-two-days.html)
+   with a drilling app or an Anki deck.
 1) The basics.
-   * Do KanjiTransition or an isolated kanji deck.
+   * Do [Ankidrone Foundation](jp1k-anki-deck.html).
    * Immerse in Japanese media.
-   * While doing KanjiTransition, find a grammar guide you like and read it.
+   * While doing Ankidrone Foundation,
+     find a [grammar guide](learning-grammar.html) you like and read it.
      Dedicate a short period of time every day, 30 minutes to an hour, to study grammar.
-   * Create your own mining deck.
+   * Create your own [mining deck](sentence-mining.html).
      You will be adding everything else you don't know to this deck.
      You may add example sentences from the grammar guide to your mining deck.
    * Do [Ankidrone Essentials](ankidrone-essentials.html). This step is optional.
