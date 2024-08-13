@@ -5,9 +5,21 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 12 Aug 2024 20:04:18 +0300</lastBuildDate>
-<pubDate>Mon, 12 Aug 2024 20:04:18 +0300</pubDate>
+<lastBuildDate>Tue, 13 Aug 2024 04:42:23 +0300</lastBuildDate>
+<pubDate>Tue, 13 Aug 2024 04:42:23 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Ankidrone Anki Decks</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>Our <a href="tag_decks.html">Anki decks</a> are organized into a comprehensive system
+designed to guide learners through the process of mastering the Japanese language
+using the <a href="whats-ajatt.html">AJATT</a> method.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/ankidrone-decks.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/ankidrone-decks.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Tue, 13 Aug 2024 02:24:58 +0300</pubDate>
+</item>
 <item>
 <title>Ankidrone Foundation</title>
 <author>Tatsumoto Ren</author>
@@ -192,46 +204,6 @@ while sparing AnkiWeb servers from hefty media uploads.</p>
 <guid>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 11 Mar 2024 09:39:56 +0300</pubDate>
-</item>
-<item>
-<title>Do I have to run GNU?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>If you've made the decision to start <a href="whats-ajatt.html">AJATT</a>,
-you might be curious about why
-<a href="our-immersion-learning-toolset.html#gnu-linux">it suggests upgrading</a>
-to the GNU operating system.
-The answer is quite simple.
-The GNU system and Libre/free software,
-by their nature,
-are inherently more constructive and extensible.</p>
-<p>We prefer GNU/Linux because it just makes everything easier.
-It's more user-friendly,
-which is great for beginners.
-This means you won't have to jump through all the hoops like people do on Windows.
-With more simple and convenient software,
-you can carry out your everyday tasks swiftly and efficiently.
-For instance,
-in <code>i3wm</code>,
-you can set up key bindings to perform any task with just a few keypresses.
-Most of the time, you won't even need a mouse.
-I have a binding that lets me add an image to an Anki card with just one keypress
-or extract text from a manga page with another keypress.</p>
-<p>There's also more software for Japanese available on GNU.
-Some tools like <code>impd</code>, <code>transformers_ocr</code>, and <code>gd-tools</code>,
-which are covered in our Japanese guide,
-only work on GNU.
-While Windows offers a wide range of software,
-much of it is either useless or comes with malicious features.</p>
-<p>If you're debating whether installing the GNU operating system is worth it,
-consider that it only takes about 20 minutes to do so.
-Mastering a foreign language will take years,
-so this is a good investment.
-In return, you'll save hours each week on various tasks.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/do-i-have-to-run-gnu.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/do-i-have-to-run-gnu.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Mon, 11 Mar 2024 07:13:39 +0300</pubDate>
 </item>
 </channel>
 </rss>
