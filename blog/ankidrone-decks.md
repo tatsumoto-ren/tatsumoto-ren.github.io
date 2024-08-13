@@ -38,6 +38,9 @@ all AJATTers must start building their own mining deck.
 A mining deck is a personalized deck that you create yourself,
 filling it with sentences you encounter while immersing in Japanese.
 This process is known as [sentence mining](sentence-mining.html).
+To start your mining deck
+and understand the desired card format,
+download [the examples](setting-up-anki.html#import-an-example-mining-deck).
 
 ## Vocabulary
 
