@@ -22,6 +22,7 @@ Both Anki decks are available in a shared folder linked below.
 
 This deck is intended for people who just started learning Japanese.
 Learning kana is one of the first steps you take.
+For more details, read [Learning Kana In Two Days](learning-kana-in-two-days.html).
 
 <p align="center"><img class="shadow" src="img/kana-anki-deck.webp" alt="kana recognition deck"></p>
 <p align="center"><i>An example card.</i></p>
@@ -35,6 +36,7 @@ How To Study:
 
 This deck is intended for people who already understand Japanese to an extent,
 and want to start learning how to write by hand.
+For more details, read [Writing Japanese](writing-japanese.html).
 
 <p align="center"><img class="shadow" src="img/kana_writing_card.webp" alt="kana production deck"></p>
 <p align="center"><i>An example card.</i></p>
