@@ -1,5 +1,5 @@
 ---
-title: Learning kana in two days
+title: Learning Kana In Two Days
 date: 1607313668
 tags: [kana, guide]
 ---
