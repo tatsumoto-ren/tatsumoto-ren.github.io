@@ -41,7 +41,8 @@ Audio files were converted from mp3 to a superior
 format to save disk space.
 Anki supports Opus on both PC and Android.
 
-Sentence Search contains sentences from the Core10k deck (iKnow, core10k) and Tango decks,
+Sentence Search contains sentences from the Core10k deck (iKnow, core10k)
+and Tango decks ([Ankidrone Essentials](ankidrone-essentials.html)),
 thus this data is also present in **Ankidrone Sentence Pack**.
 If you already have these decks in your collection,
 delete the duplicates after importing the deck.
