@@ -69,7 +69,7 @@ You may need to Email an admin to get an account.
 | `w33b.cloud`             | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
 | `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/)           | last checked - closed                                |
 | `eientei.org`            | [matrix.eientei.org](https://matrix.eientei.org/)             |                                                      |
-| `matrix.im`              | [element](https://element.matrix.im)                          |                                                      |
+| `matrix.im`              |                                                               |                                                      |
 | `sibnsk.net`             | [element](https://element.sibnsk.net)                         |                                                      |
 | `matrix.unredacted.org`  | [element](https://element.unredacted.org)                     | last checked - closed                                |
 | `zelchat.de`             | [chat.zelchat.de](https://chat.zelchat.de/)                   |                                                      |
@@ -80,8 +80,6 @@ You may need to Email an admin to get an account.
 | :---                  | :---                                             | :---                     |
 | `matrix.fedibird.com` | [fedibird.com](https://element.fedibird.com/)    | 🏆 last checked - closed |
 | `matrix.juggler.jp`   | [juggler.jp](https://matrix-element.juggler.jp/) |                          |
-
-Source: [matrix-room-list-jp](https://matrix-room-list-jp.netlify.app/)
 
 ## Do not use
 
@@ -133,9 +131,7 @@ to the instance's Element address,
 like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 
 * https://element.fablabchemnitz.de/
-* https://riot.ukvly.org/
 * https://riot.tzchat.org/
-* https://crystal-temple.flak.is/
 * https://im.tetaneutral.net/
 * https://matrix.eientei.org/
 * https://im.tetaneutral.net/
