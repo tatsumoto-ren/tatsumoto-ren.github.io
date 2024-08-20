@@ -48,6 +48,13 @@ In order to be able to create Anki cards later you need the
 It can be installed by opening Anki and going to
 Tools > Add-ons > Get Add-ons... > Code: `2055492159` > OK.
 
+### Mobile devices
+
+On [Android](our-immersion-learning-toolset.html#android) devices
+you can install
+[Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)
+and then install Rikaitan from [Firefox add-ons](#gecko-based).
+
 ## Download dictionaries
 
 Rikaitan needs dictionary files to operate.
