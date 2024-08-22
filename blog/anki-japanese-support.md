@@ -266,11 +266,15 @@ the add-on generates SVG pictures to allow for a more elaborate graphical repres
 [where pitch drops](understanding-monolingual-definitions#understanding-pitch-accent).
 
 Appearance of SVG graphs can be configured in
-"AJT" > "Japanese options" > "Pitch accent" > "SVG graphs".
+"AJT" > "Japanese options" > "SVG graphs".
 There are many knobs,
 but you can play with them while looking at the previews on the right side if you want.
+These settings take effect if you have "Output format" set to "Svg".
 
-<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change SVG appearance"/></p>
+<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="SVG output format"/></p>
+<p align="center"><i>SVG output format.</i></p>
+
+<p align="center"><img src="img/ajt-japanese-svg-appearance.webp" alt="change SVG appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
 
 <details>
@@ -389,7 +393,7 @@ The colors used are:
 * Odaka words: Green
 * Nakadaka words: Orange
 
-<p align="center"><img src="https://github.com/Ajatt-Tools/Japanese/raw/main/img/pitch_accent_on_hover.webp" alt="color coded words"/></p>
+<p align="center"><img src="img/ajt-japanese-pitch_accent_on_hover.webp" alt="color coded words"/></p>
 <p align="center"><i>Color-coded words in a sentence.</i></p>
 
 This feature is experimental and disabled by default,
@@ -434,12 +438,14 @@ Save the changes.
 ## Audio files
 
 AJT Japanese can add audio files from accent dictionaries to Anki cards.
-To set up audio profiles and audio sources,
+To set up audio profiles,
 go to "AJT" > "Japanese Options" > "Audio".
 
 Add at least one audio profile, selecting the source and destination fields.
 
-Below Profiles, you will see a list of loaded audio sources.
+To set up audio sources,
+go to "AJT" > "Japanese Options" > "Audio sources".
+There you will see a list of loaded audio sources.
 Sources can be enabled or disabled.
 Each source is given an arbitrary name and a URL that points to its index file.
 

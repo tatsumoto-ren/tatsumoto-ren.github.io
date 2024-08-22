@@ -293,10 +293,13 @@ the add-on generates SVG pictures to allow for a more elaborate graphical repres
 &quot;Number&quot; simply indicates
 <a href="understanding-monolingual-definitions#understanding-pitch-accent">where pitch drops</a>.</p>
 <p>Appearance of SVG graphs can be configured in
-&quot;AJT&quot; &gt; &quot;Japanese options&quot; &gt; &quot;Pitch accent&quot; &gt; &quot;SVG graphs&quot;.
+&quot;AJT&quot; &gt; &quot;Japanese options&quot; &gt; &quot;SVG graphs&quot;.
 There are many knobs,
-but you can play with them while looking at the previews on the right side if you want.</p>
-<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="change SVG appearance"/></p>
+but you can play with them while looking at the previews on the right side if you want.
+These settings take effect if you have &quot;Output format&quot; set to &quot;Svg&quot;.</p>
+<p align="center"><img src="img/ajt-japanese-svg-opts.webp" alt="SVG output format"/></p>
+<p align="center"><i>SVG output format.</i></p>
+<p align="center"><img src="img/ajt-japanese-svg-appearance.webp" alt="change SVG appearance"/></p>
 <p align="center"><i>SVG appearance settings.</i></p>
 <details>
 <summary>SVG: Further styling</summary>
@@ -405,7 +408,7 @@ The colors used are:</p>
 <li>Odaka words: Green</li>
 <li>Nakadaka words: Orange</li>
 </ul>
-<p align="center"><img src="https://github.com/Ajatt-Tools/Japanese/raw/main/img/pitch_accent_on_hover.webp" alt="color coded words"/></p>
+<p align="center"><img src="img/ajt-japanese-pitch_accent_on_hover.webp" alt="color coded words"/></p>
 <p align="center"><i>Color-coded words in a sentence.</i></p>
 <p>This feature is experimental and disabled by default,
 but you can enable it by setting the &quot;color code pitch&quot; option to &quot;color&quot; or &quot;underline&quot;.
@@ -437,10 +440,12 @@ Save the changes.</p>
 </details>
 <h2 id="audio-files"><a class="anchor" href="#audio-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio files</h2>
 <p>AJT Japanese can add audio files from accent dictionaries to Anki cards.
-To set up audio profiles and audio sources,
+To set up audio profiles,
 go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Audio&quot;.</p>
 <p>Add at least one audio profile, selecting the source and destination fields.</p>
-<p>Below Profiles, you will see a list of loaded audio sources.
+<p>To set up audio sources,
+go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Audio sources&quot;.
+There you will see a list of loaded audio sources.
 Sources can be enabled or disabled.
 Each source is given an arbitrary name and a URL that points to its index file.</p>
 <p>When a new source is added, AJT Japanese downloads its index file
