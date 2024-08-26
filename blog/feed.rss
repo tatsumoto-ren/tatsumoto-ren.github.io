@@ -5,9 +5,61 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 26 Aug 2024 23:15:20 +0300</lastBuildDate>
-<pubDate>Mon, 26 Aug 2024 23:15:20 +0300</pubDate>
+<lastBuildDate>Mon, 26 Aug 2024 23:36:09 +0300</lastBuildDate>
+<pubDate>Mon, 26 Aug 2024 23:36:09 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>What is the difference between the Foundation and Essential decks besides the way the cards are reviewed?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p><a href="ankidrone-essentials.html">Ankidrone Essentials</a>
+consists solely of cards from the JLPT Tango textbooks,
+maintaining the original order and content.
+The deck is designed for those who have completed Ankidrone Foundation
+or wish to expand their vocabulary
+and supplement <a href="sentence-mining.html">sentence mining</a>.</p>
+<p>In contrast,
+<a href="jp1k-anki-deck.html">Ankidrone Foundation</a>
+takes the N5 subdeck from Ankidrone Essentials,
+but the card order is rearranged.
+We tried to arrange the cards so that each new card is <a href="one-target-sentences.html">1T</a>.
+The sorting algorithm we used prefers cards
+with the fewest estimated number of unknown words per example sentence
+and puts them in the beginning of the deck.
+The deck is intended for complete beginners who only know hiragana and katakana.
+The <a href="learning-kanji.html#jp1k-method">JP1K method</a>
+helps new learners get used to reading words with kanji characters
+which can initially seem difficult.</p>
+<p>Additionally,
+many katakana words and place names have been removed from Ankidrone Foundation,
+as they are typically unnecessary for learners.
+For instance,
+words like <code>コンサート</code> are straightforward since they are borrowed from English.
+On the other hand,
+Ankidrone Essentials includes these terms because they appear in the Tango textbooks.</p>
+<p>We also introduced new cards into Ankidrone Foundation
+when we saw that certain words needed to be learned before others to preserve the 1T order.</p>
+<p>If you decide to skip Ankidrone Foundation
+and jump straight into Ankidrone Essentials,
+you will need to learn kanji and their readings from the beginning,
+which can be more challenging compared to following the JP1K method.
+However, this is a choice some learners prefer.
+You will also need to suspend or delete any cards you already know,
+as Ankidrone Essentials retains all content from the Tango textbooks.
+And since Ankidrone Essentials does not maintain the 1T order
+as effectively as Ankidrone Foundation,
+you may encounter more unfamiliar words within sentences.
+However,
+it's worth noting that the Foundation deck is not flawless in this regard either.</p>
+<p>If you have completed Ankidrone Foundation,
+skip the Tango N5 subdeck in Ankidrone Essentials,
+as they cover similar vocabulary,
+differing mainly in card templates and order.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/difference-between-foundation-and-essential-decks.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/difference-between-foundation-and-essential-decks.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Mon, 26 Aug 2024 23:30:51 +0300</pubDate>
+</item>
 <item>
 <title>Ankidrone Anki Decks</title>
 <author>Tatsumoto Ren</author>
@@ -186,24 +238,6 @@ you don't want to waste precious time on ineffective methods.</p>
 <guid>https://tatsumoto-ren.github.io/blog/bad-advice.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 21 Mar 2024 03:51:27 +0300</pubDate>
-</item>
-<item>
-<title>Cross Profile Search And Import</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>The <a href="https://ankiweb.net/shared/info/1772763629">Cross Profile Search and Import</a> add-on
-is a tool that helps you maintain a neat,
-uncluttered main profile while still having access to an extensive sentence bank.
-This tool allows you to store your sentence bank
-in a separate profile which is not synchronized with AnkiWeb,
-and then easily search and import cards into your main profile when required.
-In doing so,
-it keeps your main profile tidy
-while sparing AnkiWeb servers from hefty media uploads.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/cross-profile-search-and-import.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Mon, 11 Mar 2024 09:39:56 +0300</pubDate>
 </item>
 </channel>
 </rss>
