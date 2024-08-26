@@ -1,7 +1,7 @@
 ---
 title: Do I have to use an SRS?
 date: 1690587521
-tags: ['faq']
+tags: ['faq', 'anki']
 ---
 
 [Immersion](whats-immersion.html) is the cornerstone of [AJATT](whats-ajatt.html),
@@ -22,9 +22,11 @@ it can't help when trying to memorize more uncommon words.
 
 In the case of Japanese,
 the SRS proves especially useful
-because it helps you learn how to read words written in kanji
+because it helps you learn how to read **words written in kanji**
 and ensures that you don't forget kanji readings.
 It is particularly helpul when dealing with rare kanji.
+Japanese learners who avoid using the SRS
+often struggle more with remembering word readings.
 
 Personally,
 I have observed that the majority of my failed Anki reviews
