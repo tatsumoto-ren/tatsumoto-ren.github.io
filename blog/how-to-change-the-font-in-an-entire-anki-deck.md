@@ -1,7 +1,7 @@
 ---
 title: How to change the font in an entire Anki deck?
 date: 1672078617
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9893
 ---
 

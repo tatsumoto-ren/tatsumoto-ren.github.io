@@ -1,7 +1,7 @@
 ---
 title: Anki to immersion ratio. How much time should I spend SRSing?
 date: 1671792222
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9964
 ---
 

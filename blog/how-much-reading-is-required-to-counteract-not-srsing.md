@@ -1,7 +1,7 @@
 ---
 title: How much reading is required to counteract not SRSing?
 date: 1675584475
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9873
 ---
 

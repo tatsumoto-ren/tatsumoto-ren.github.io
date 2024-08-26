@@ -1,7 +1,7 @@
 ---
 title: How do I know I have finished an Anki deck?
 date: 1696191817
-tags: ['faq']
+tags: ['faq', 'anki']
 ---
 
 1) Open the Anki Browser (shortcut: <kbd>b</kbd>).

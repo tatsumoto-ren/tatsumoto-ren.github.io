@@ -1,7 +1,7 @@
 ---
 title: Does time spent in Anki count as immersion time?
 date: 1673467596
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9960
 ---
 

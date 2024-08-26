@@ -1,7 +1,7 @@
 ---
 title: Should I read sentences aloud when doing Anki reps?
 date: 1669592149
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9958
 ---
 

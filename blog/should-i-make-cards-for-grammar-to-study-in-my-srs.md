@@ -1,7 +1,7 @@
 ---
 title: Should I make cards for grammar to study in my SRS?
 date: 1669839115
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9921
 ---
 

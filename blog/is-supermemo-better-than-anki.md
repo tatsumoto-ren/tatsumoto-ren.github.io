@@ -1,7 +1,7 @@
 ---
 title: Is SuperMemo better than Anki?
 date: 1670241170
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9972
 ---
 

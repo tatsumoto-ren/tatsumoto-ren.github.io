@@ -1,7 +1,7 @@
 ---
 title: When and how to go about dropping the SRS?
 date: 1666824719
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9927
 ---
 

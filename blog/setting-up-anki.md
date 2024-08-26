@@ -1,7 +1,7 @@
 ---
 title: Setting up Anki
 date: 1609127492
-tags: [anki]
+tags: ['anki']
 ---
 
 [Anki](https://wiki.archlinux.org/index.php/Anki)

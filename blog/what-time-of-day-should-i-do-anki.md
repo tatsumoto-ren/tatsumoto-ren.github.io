@@ -1,7 +1,7 @@
 ---
 title: What time of day should I do Anki?
 date: 1666824719
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9971
 ---
 

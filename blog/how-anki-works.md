@@ -1,7 +1,7 @@
 ---
 title: How Anki works
 date: 1655135740
-tags: [anki, guide]
+tags: ['anki', 'guide']
 ---
 
 Since in this guide we are going to use Anki to study our target language,

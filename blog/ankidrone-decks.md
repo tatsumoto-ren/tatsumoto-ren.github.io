@@ -2,6 +2,7 @@
 title: Ankidrone Anki Decks
 date: 1723505098
 filename: ankidrone-decks
+tags: ['decks']
 ---
 
 Our [Anki decks](tag_decks.html) are organized into a comprehensive system

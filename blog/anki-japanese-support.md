@@ -1,7 +1,7 @@
 ---
 title: Japanese support for Anki
 date: 1681292213
-tags: ['guide']
+tags: ['guide', 'anki']
 filename: anki-japanese-support
 ---
 

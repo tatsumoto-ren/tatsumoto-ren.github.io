@@ -1,7 +1,7 @@
 ---
 title: What are the AJATT recommended Anki settings?
 date: 1666824717
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9969
 ---
 

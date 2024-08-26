@@ -1,7 +1,7 @@
 ---
 title: Is there a "bare minimum" amount of Anki you would recommend to people who hate Anki?
 date: 1670027798
-tags: ['faq']
+tags: ['faq', 'anki']
 position: -9970
 ---
 
@@ -10,7 +10,8 @@ I somewhat dislike Anki too.
 So you're definitely not alone.
 Since around 2020 Anki has undergone significant changes that outraged the users.
 Many existing add-ons break with each new release.
-Maybe Anki needs to be completely replaced by another SRS.
+Maybe Anki needs to be completely replaced by another SRS,
+provided that it will be FOSS.
 
 I still use Anki because the benefits outweigh the costs.
 The way I think about it is that some amount of Anki is better than no Anki at all,
