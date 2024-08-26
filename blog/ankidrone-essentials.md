@@ -112,6 +112,7 @@ notice and recognize the learned words in native Japanese.
 **Note:** If you have completed [Ankidrone Foundation](jp1k-anki-deck.html),
 skip Tango `N5` because they teach roughly the same words
 and differ mostly in their card templates.
+For more information, read [this article](difference-between-foundation-and-essential-decks.html).
 
 ## How to review
 
