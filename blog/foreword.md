@@ -21,6 +21,22 @@ with the theory, strategies, and tools you need to succeed.
 
 ****
 
+## How to use this site
+
+Begin by reading the guide and the [FAQ](tag_faq.html) section thoroughly.
+It's essential to go through the entire guide,
+as you might overlook crucial information.
+However,
+you don't need to complete the guide
+before starting to apply the concepts discussed.
+Feel free to start your Japanese learning journey as soon as you grasp the initial steps.
+Once you've finished the guide,
+you may have further questions that aren't addressed in the FAQ.
+If that happens,
+don't hesitate to ask in [our chat](join-our-community.html).
+It will help us expand the FAQ page
+and reduce the number of recurring questions.
+
 ## Our approach
 
 <img src="img/dekinai.webp" float="right">
