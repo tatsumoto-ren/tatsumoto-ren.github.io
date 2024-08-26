@@ -129,6 +129,10 @@ Key points:
 ## Tips
 
 * See [basic vocabulary tips](basic-vocabulary.html#tips).
+* If `.webp` and `.ogg` files do not load properly in AnkiDroid on Android,
+  update AnkiDroid [to the latest Alpha version](https://github.com/ankidroid/Anki-Android/releases/).
+  Media sync can take a while.
+  You need to sync your collection with AnkiWeb and wait for it to finish.
 * In the Tango books they teach many country names.
   The purpose of learning them is apparently to understand self introductions
   as well as be able to give one yourself.
