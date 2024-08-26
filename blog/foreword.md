@@ -23,7 +23,8 @@ with the theory, strategies, and tools you need to succeed.
 
 ## How to use this site
 
-Begin by reading the guide and the [FAQ](tag_faq.html) section thoroughly.
+Begin by reading the [guide](table-of-contents.html)
+and the [FAQ](tag_faq.html) section thoroughly.
 It's essential to go through the entire guide,
 as you might overlook crucial information.
 However,
