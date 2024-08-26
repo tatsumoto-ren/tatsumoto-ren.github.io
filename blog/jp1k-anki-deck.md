@@ -156,6 +156,12 @@ contains JP1K-style decks shared by our community members.
 
 ## Q&A
 
+> The deck doesn't work properly in AnkiDroid on Android.
+> The .webp files and the .ogg files do not load properly.
+
+1) Update AnkiDroid [to the latest Alpha version](https://github.com/ankidroid/Anki-Android/releases/).
+1) Media sync can take a while. You need to sync with AnkiWeb and wait for it to finish.
+
 > How many kanji are taught through the deck?
 
 There are `776` unique kanji used in the deck.
