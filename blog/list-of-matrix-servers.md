@@ -62,7 +62,6 @@ You may need to Email an admin to get an account.
 | Server                   | Web client                                                    | Extra                                                |
 | :---                     | :---                                                          | :---                                                 |
 | `cutefunny.art`          | [cutefunny.art](https://matrixclient.cutefunny.art/)          | 🏆                                                   |
-| `sakura.ci`              | [web.sakura.ci](https://web.sakura.ci/)                       |                                                      |
 | `iddqd.chat`             | [iddqd.chat](https://iddqd.chat/)                             | last checked - closed                                |
 | `nitro.chat`             | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
 | `midov.pl`               | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
