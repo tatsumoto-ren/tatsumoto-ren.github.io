@@ -15,6 +15,8 @@ And they make you more miserable in the end.
 
 ****
 
+<img src="img/phone-ring.webp" float="right">
+
 To elaborate,
 apps such as Duolingo are not designed in a way that aligns with AJATT methodology.
 They reinforce traditional learning habits, which are not efficient.
