@@ -5,9 +5,21 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Mon, 26 Aug 2024 23:37:32 +0300</lastBuildDate>
-<pubDate>Mon, 26 Aug 2024 23:37:32 +0300</pubDate>
+<lastBuildDate>Mon, 02 Sep 2024 06:47:00 +0300</lastBuildDate>
+<pubDate>Mon, 02 Sep 2024 06:47:00 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Can't I just read a textbook? Are textbooks inherently bad?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>If you seriously want to master your target language,
+textbooks are not for you.
+We recommend skipping them entirely and learning the language through immersion.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/are-textbooks-bad.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/are-textbooks-bad.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 01 Sep 2024 22:00:04 +0300</pubDate>
+</item>
 <item>
 <title>What is the difference between the Foundation and Essential decks besides the way the cards are reviewed?</title>
 <author>Tatsumoto Ren</author>
@@ -221,23 +233,6 @@ we will explore how to transition from bilingual to monolingual dictionaries eff
 <guid>https://tatsumoto-ren.github.io/blog/going-monolingual.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 28 Mar 2024 11:08:05 +0300</pubDate>
-</item>
-<item>
-<title>Avoiding bad advice</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>Countless language-learning methods exist,
-and each of them tells you to do different things.
-Some methods are effective, but many are not.
-Unfortunately,
-the Internet is brimming with advice that might sound good
-but often leads to little progress.
-If you want to reach mastery in a foreign language,
-you don't want to waste precious time on ineffective methods.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/bad-advice.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/bad-advice.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Thu, 21 Mar 2024 03:51:27 +0300</pubDate>
 </item>
 </channel>
 </rss>
