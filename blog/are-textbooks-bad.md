@@ -155,6 +155,7 @@ and you will learn more from a single anime series than from any textbook.
 ## How to use textbooks
 
 > Go straight for the dialogues and example sentences. Copy those into your SRS.
+>
 > &mdash; [How To Use a Japanese Textbook](https://web.archive.org/web/20071028172022/http://www.alljapaneseallthetime.com/blog/how-to-use-a-japanese-textbook), article by Khatz.
 
 Textbooks **can** be used in an way that aligns with the AJATT method.
