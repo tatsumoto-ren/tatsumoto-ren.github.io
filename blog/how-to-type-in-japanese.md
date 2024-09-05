@@ -227,11 +227,6 @@ then in the search bar type `Mozc`.
 
 Once installed, launch the app and follow the instructions to set it up.
 
-Mozc for Android hasn't been updated for a while.
-If this upsets you, you can use any alternative Japanese keyboard.
-Google's proprietary app **Gboard** is malware
-but you can probably get around it by blocking the app's access to the Internet.
-
 Most Japanese people use a 12 keys type layout.
 This is how the keyboard looks like.
 You tap and pull toward the character you'd like to input.
@@ -251,3 +246,15 @@ because typing words requires less total keystrokes.
 
 If you don't like the 12 keys keyboard layout,
 you can switch to the QWERTY layout in settings.
+
+## Notes
+
+Mozc for Android hasn't been updated for a while.
+If this upsets you, you can use any alternative Japanese keyboard.
+Google's proprietary app **Gboard** is malware
+but you can probably get around it by blocking the app's access to the Internet.
+
+Other FOSS keyboards have issues opened to add the Japanese layout.
+
+* [Helium](https://github.com/Helium314/HeliBoard/issues/639)
+* [FlorisBoard](https://github.com/florisboard/florisboard/issues/2290)
