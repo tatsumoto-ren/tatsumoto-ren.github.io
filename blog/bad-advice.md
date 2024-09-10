@@ -61,6 +61,9 @@ Anything on top of the grammar guide won't be necessary.
 The purpose behind studying grammar is not to learn how to speak
 but to improve comprehension when interacting with native content.
 
+For more information about the dangers of textbooks,
+see [here](are-textbooks-bad.html).
+
 ## Apps
 
 [Wanikani](what-are-the-downsides-of-using-wanikani.html),
