@@ -217,7 +217,7 @@ the number of **sentences you understood** divided by the **total number of sent
 ## Can't I build my own vocabulary deck?
 
 You should!
-No premade deck can replace mining you own sentences.
+No premade deck can replace mining your own sentences.
 In fact, the [example mining deck](setting-up-anki.html#import-an-example-mining-deck)
 introduced earlier contains a few dozen example targeted sentence cards
 to show you how your deck should look like.
