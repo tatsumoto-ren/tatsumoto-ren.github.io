@@ -245,6 +245,15 @@ video {
     font-style: italic;
 }
 
+/* Audio elements with controls */
+
+audio {
+    display: block;
+    max-width: 100%;
+    margin: 0.25em 0 0;
+    height: 1.8em;
+}
+
 /* Body with sticky footer */
 
 html,
