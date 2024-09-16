@@ -245,15 +245,6 @@ video {
     font-style: italic;
 }
 
-/* Audio elements with controls */
-
-audio {
-    display: block;
-    max-width: 100%;
-    margin: 0.25em 0 0;
-    height: 1.8em;
-}
-
 /* Body with sticky footer */
 
 html,
@@ -1506,6 +1497,15 @@ article * + img[float] {
         float: left;
         margin-inline: 0 5px;
     }
+}
+
+/* Audio elements with controls */
+
+article audio {
+    display: block;
+    max-width: 100%;
+    margin: 0.25em 0 0;
+    height: 1.8em;
 }
 
 /* Notes in articles and Magnet links */
