@@ -5,6 +5,7 @@ date: 1616375454
 
 * [Foreword](foreword.html)
 * Introduction
+	* [What's AJATT?](whats-ajatt.html)
 	* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
 	* [Avoiding bad advice](bad-advice.html)
 	* [Mass immersion](mass-immersion.html)
