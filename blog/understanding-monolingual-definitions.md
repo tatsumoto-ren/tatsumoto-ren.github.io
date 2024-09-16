@@ -1,7 +1,7 @@
 ---
 title: Understanding monolingual definitions
 date: 1641419148
-tags: [dictionaries, epwing]
+tags: ['dictionaries', 'epwing', 'pitch']
 position: 9999
 ---
 

@@ -2,6 +2,7 @@
 title: Pitch accent perception
 date: 1613316799
 author: Bundou Makoto
+tags: ['pitch']
 ---
 
 Below is a list of common words,

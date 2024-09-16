@@ -1,7 +1,7 @@
 ---
 title: I would like to start adding pitch accent to my cards. How should I grade the cards once I add pitch accent?
 date: 1671497660
-tags: ['faq']
+tags: ['faq', 'pitch']
 position: -9898
 ---
 
