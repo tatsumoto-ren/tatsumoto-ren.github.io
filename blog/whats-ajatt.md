@@ -11,9 +11,12 @@ It encourages doing as much Japanese as you can every day,
 [immersing](whats-immersion.html) yourself in the language and culture of Japan
 without having to travel to the country,
 take classes,
-or use outdated and boring textbooks.
+use outdated and boring textbooks,
+or spend any money.
 Essentially,
-this means that the shortest path to fluency is to make Japanese a part of your daily life.
+this means that the shortest path to fluency
+is to integrate Japanese into your daily life
+with the help of the Internet and modern technology.
 
 The AJATT method primarily involves learning the language
 through a combination of reading and listening.
