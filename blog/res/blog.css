@@ -1628,3 +1628,33 @@ details summary + * {
 details summary > * {
     display: inline;
 }
+
+/* Downstep line colors (used in articles about pitch accent) */
+
+.heiban {
+    --downstep-color: #3366cc;
+}
+.atamadaka {
+    --downstep-color: #ff0000;
+}
+.odaka {
+    --downstep-color: #008000;
+}
+.nakadaka {
+    --downstep-color: #eb8500;
+}
+
+/* Downstep lines. */
+
+.HL {
+    box-shadow: inset -2px 2px 0 0px var(--downstep-color, currentColor);
+}
+.L {
+    box-shadow: inset 0px -2px 0 0px var(--downstep-color, currentColor);
+}
+.LH {
+    box-shadow: inset -2px -2px 0 0 var(--downstep-color, currentColor);
+}
+.H {
+    box-shadow: inset 0px 2px 0 0px var(--downstep-color, currentColor);
+}
