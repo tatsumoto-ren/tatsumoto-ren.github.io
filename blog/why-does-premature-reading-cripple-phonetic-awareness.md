@@ -68,3 +68,9 @@ gradually increasing the amount of reading.
 While there will be negative effects from reading,
 they can be managed through pronunciation training
 and studying phonetics and pitch accent.
+
+People learning Japanese solely for the purpose of consuming content,
+such as reading ranobe or watching anime,
+and who do not plan to live in Japan and talk to natives,
+should not be overly concerned about their accent
+or the balance between listening and reading.
