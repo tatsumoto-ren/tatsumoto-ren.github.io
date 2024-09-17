@@ -56,6 +56,7 @@ date: 1616375454
 	* [Understanding monolingual definitions](understanding-monolingual-definitions.html)
 	* [Writing by hand](writing-japanese.html)
 	* [On motivation](im-not-motivated-and-dont-enjoy-learning-japanese.html)
+	* [Dangers of reading](why-does-premature-reading-cripple-phonetic-awareness.html)
 * [FAQ](tag_faq.html)
 * Apocrypha
 	* [List of resources](resources.html)
