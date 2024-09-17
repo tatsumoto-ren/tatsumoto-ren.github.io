@@ -8,7 +8,7 @@ position: -9946
 Reading,
 along with using text-based [flashcards](spaced-repetition.html)
 and [dictionaries](tag_dictionaries.html),
-[leads to sub-vocalization](early-output-or-reading-ahead-of-listening.html).
+leads to sub-vocalization.
 In other words,
 the act of reading activates the muscles in your throat.
 If you haven't developed a solid intuitive understanding
