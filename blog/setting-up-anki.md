@@ -204,7 +204,8 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
 ### Appearance
 
 * **Video driver: Vulkan.**
-  Enabling Vulkan helps reduce lags.
+  Vulkan is supposed to be the latest and greatest thing out there.
+  If you encounter visual glitches, set this to 'OpenGL' or 'Software'.
 * **Style: Native.**
   Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
   and disables the childish Apple-esque theme that is set by default.
