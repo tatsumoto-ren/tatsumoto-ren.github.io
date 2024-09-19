@@ -64,6 +64,28 @@ It does a lot of things right.
 <p align="center"><img src="img/coolreader-yomichan.webp" alt="crqt-ng and Rikaitan Search"></p>
 <p align="center"><i>crqt-ng and Rikaitan Search, side by side in i3wm.</i></p>
 
+## Reading on Android
+
+If you have an [Andriod](our-immersion-learning-toolset.html#android) device,
+try [KOreader](https://f-droid.org/en/packages/org.koreader.launcher.fdroid/) from F-Droid.
+KOreader is a book reader application
+that was designed to be used on E-ink devices,
+but it can also be used on Android.
+It properly displays furigana.
+
+This app [supports](https://github.com/koreader/koreader/wiki/Dictionary-support) `StarDict` dictionaries.
+You can download the dictionaries
+[from here](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg/folder/LYAmgLLI),
+or you can use your own dictionaries,
+converting them to the `StarDict` format
+with [PyGlossary](https://github.com/ilius/pyglossary).
+The dictionaries should be placed in `/sdcard/koreader/data/dict`.
+[Refer to the Wiki](https://github.com/koreader/koreader/wiki/Dictionary-support)
+for further details.
+
+If you want to create Anki cards,
+install [Anki plugin for KOreader](https://github.com/Ajatt-Tools/anki.koplugin).
+
 ## Reading alongside an audiobook
 
 This is a tip for people who aren't used to reading in a foreign language yet.
