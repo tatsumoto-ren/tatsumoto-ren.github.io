@@ -282,7 +282,7 @@ but there are a few important modifications I'd like to mention.
    Makes your popups look similar to your targeted sentence cards.
 
    ```
-   body {
+   .content-body {
        background-color: #fffaf0;
        color: #2a1b0a;
    }
