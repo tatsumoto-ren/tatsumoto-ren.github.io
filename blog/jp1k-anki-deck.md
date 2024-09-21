@@ -81,6 +81,9 @@ If you've successfully recalled the **meaning** of the target word,
 pass the card (press "Good").
 If not, click "Again" to review it later.
 
+**Note:**
+You can press the <kbd>x</kbd> key on the keyboard to reveal the English translation.
+
 It is important that you try to recall the **reading** of the target word
 every time you see the card.
 By doing so, you engage in deliberate practice,
@@ -136,7 +139,9 @@ On the front there's an example sentence.
 The target word appears highlighted.
 When reviewing the cards you can decide whether you want to read the whole sentence or not.
 When you hover over each word, a furigana reading appears on top.
-You can also press the <kbd>p</kbd> key on your keyboard to immediately reveal all kanji readings.
+
+**Note:**
+You can press the <kbd>p</kbd> key on the keyboard to immediately reveal all kanji readings.
 
 <p align="center"><img alt="tsc" class="shadow" src="img/jp1k-tsc.webp"></p>
 <p align="center"><i>An example TSC from Ankidrone Foundation.</i></p>
