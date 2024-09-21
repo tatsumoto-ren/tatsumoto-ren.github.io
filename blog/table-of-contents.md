@@ -63,6 +63,7 @@ date: 1616375454
 	* [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
 	* [Kanji composition](kanji-composition-in-relation-to-reading-japanese.html)
 	* [Learning Kanji Radicals](learning-kanji-radicals.html)
+	* [How to type something with Fcitx](how-to-type-x-with-fcitx.html)
 * Contact and Support
 	* [Join our community](join-our-community.html)
 	* [Support](donating-to-tatsumoto.html)
