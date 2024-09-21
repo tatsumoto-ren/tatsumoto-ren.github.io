@@ -48,3 +48,11 @@ Type `nakaten` or `nakaguro`.
 # N
 
 Typing "xn" outputs ん.
+
+# Overline ￣
+
+Type `うえ`.
+
+**Note**:
+Overlines are used in the NHK accent dictionary to mark high pitch accent, e.g. `いっぱい￣`.
+When pitch drops, slashes are used `＼`.
