@@ -26,7 +26,8 @@ until your output ability emerges naturally.
 This mirrors the learning process of young children acquiring their native language.
 
 We recommend this approach based on the observation that
-attempting to speak before your brain is ready leads to the formation of bad habits.
+attempting to speak before your brain is ready leads to the
+[formation of bad habits](bad-habits-due-to-being-forced-to-prematurely-output.html).
 You make a lot of mistakes,
 and there is a tendency to repeat mistakes if they have been made before.
 Additionally,
