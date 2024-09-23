@@ -274,4 +274,4 @@ Some people would like to completely reject mobile phones because they are surve
 * [/e/OS](https://e.foundation/) is a privacy-enabled ROM
   with no Google apps or Google services accessing your personal data.
 * [GrapheneOS](https://grapheneos.org/).
-* [CalyxOS](https://calyxos.org/).
+* [DivestOS](https://divestos.org/).
