@@ -261,7 +261,7 @@ Some people would like to completely reject mobile phones because they are surve
 
 **Further information**:
 
-* [Android - Privacy Guides](https://www.privacyguides.org/android/)
+* [Android - Privacy Guides](https://www.privacyguides.org/en/android/)
 * [Liberate your device - FSF](https://fsfe.org/activities/android/liberate.en.html)
 * [Android and Users' Freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html)
 * [Recommended Apps from F-Droid - DivestOS](https://divestos.org/index.php?page=recommended_apps)
