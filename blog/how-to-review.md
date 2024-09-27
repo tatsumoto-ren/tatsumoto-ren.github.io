@@ -375,6 +375,9 @@ Personally I wouldn't do this myself, but it's a cheap way out.
 [Mortician](https://ankiweb.net/shared/info/1255924302)
 automatically buries cars that you fail too many times.
 Use it to prevent potential leeches from wasting your time.
+Evidence shows that repeating a card multiple times in a single day
+does not significantly contribute to long-term memory,
+so your time is better spent on other cards or a shorter study session.
 
 ## Deleting and suspending cards
 
