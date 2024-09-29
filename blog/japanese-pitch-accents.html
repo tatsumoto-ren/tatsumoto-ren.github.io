@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Free Software to learn Japanese, and more." />
+<meta name="author" content="Tatsumoto Ren" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="/img/logo.webp"/>
+<title>Japanese Pitch Accent Primer</title>
+<meta property="og:title" content="Japanese Pitch Accent Primer">
+<meta property="og:site_name" content="Tatsumoto's guide to learning Japanese">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/japanese-pitch-accents.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<input type="checkbox" id="menu-btn" />
+<header>
+<a href="index.html" class="logo">
+<img alt="達元" src="/img/logo.webp" />
+<span>Tatsumoto</span>
+</a>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html" class="guide_link">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="ankidrone-decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
+</header>
+<div id="sidebar">
+<form action="" name="sidebar_header" class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+<input title="Pink theme" type="radio" name="blog-theme" id="pink">
+<input title="Dark theme" type="radio" name="blog-theme" id="dark">
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</form>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="tag_decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article timestamp="1626459250" position="0">
+<h1 class="title"><a class="ablack" href="japanese-pitch-accents.html">Japanese Pitch Accent Primer</a></h1>
+<div class="subtitle">July 16, 2021 &mdash; Bundou Makoto</div>
+<!-- text begin -->
+<p>Correctly accenting Japanese words when you speak is essential
+for sounding like a native speaker,
+and in some situations essential for communication.
+In this article, we will introduce you to the way accents work in Japanese,
+help you understand how to determine the correct accents of words and sentences,
+show you some commonly confused word groups,
+and explain how to look up accents in Japanese dictionaries.</p>
+<hr>
+<h2 id="preparations"><a class="anchor" href="#preparations" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preparations</h2>
+<p>Ensure that you have installed
+<a href="setting-up-goldendict.html">GoldenDict</a>,
+<a href="setting-up-qolibri.html">Qolibri</a>,
+or that you have imported monolingual dictionaries into
+<a href="setting-up-yomichan.html">Rikaitan</a>.</p>
+<p>You need access to monolingual dictionaries
+because they provide information about the pitch accents of words.
+In particular,
+<code>大辞林</code> (or <code>スーパー大辞林</code>), <code>新明解</code>, and <code>NHK日本語発音アクセント辞典</code>
+contain pitch accent information,
+so you need to import them.
+Downloads are listed <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
+<h2 id="what-are-pitch-accents"><a class="anchor" href="#what-are-pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What are pitch accents?</h2>
+<p>Japanese is a pitch-accented language.
+Slight differences in the pitch of sounds are used to differentiate words
+and convey sentence structure.
+This is different from a stress-accented language such as English,
+where certain sounds are emphasized by changing both the pitch and the duration.
+In Japanese,
+the duration of each sound that makes up a word (known as a 'mora') remains consistent,
+and only the pitch varies.</p>
+<p>As a result of this rhythmic consistency,
+it is sometimes inaccurately claimed that Japanese does not have accents.
+However,
+this is not true.
+The pitch does vary within words and sentences.
+If you do not reproduce this accurately when speaking,
+your Japanese will not sound natural.
+In some cases,
+multiple words use the same sounds but <strong>differ</strong> in pitch,
+so you may actually be hard to understand if your pitch is incorrect.</p>
+<h2 id="intonation"><a class="anchor" href="#intonation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intonation</h2>
+<p>In Japanese,
+pitch accent is correctly referred to as 高低アクセント.
+However,
+casually,
+Japanese speakers may mistakenly call it イントネーション.
+While this is incorrect,
+when a native Japanese speaker who is not a linguist tells you that your <em>intonation</em> is bad,
+they most likely mean that you need to work on your pitch accent.</p>
+<h2 id="do-i-need-to-learn-pitch-accent"><a class="anchor" href="#do-i-need-to-learn-pitch-accent" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Do I need to learn pitch accent?</h2>
+<p>Having correct pitch accent improves your speaking
+and allows you to sound native or almost native.
+If you're doing <a href="whats-ajatt.html">AJATT</a>,
+you've been listening to Japanese a lot,
+and your listening ability and phonetic awareness is really strong.
+Having great listening skills thanks to AJATTing
+leads to naturally acquiring a significant portion of native pitch accent,
+much like native speakers who never consciously study pitch accent.
+You will never confuse 橋 with 箸, or 神 with 髪.
+You will be better than 90% of gaijin out there.</p>
+<p>However,
+based on our observations,
+even AJATTers typically <strong>do not</strong> achieve native-level pitch accent
+through immersion alone.
+Their pitch accent is usually only 50%, maybe 60% correct.
+So they still make lots of mistakes when they speak.
+Because we <a href="why-does-premature-reading-cripple-phonetic-awareness.html">read</a> a lot,
+use text-based flashcards, and use dictionaries,
+we progress faster in acquiring the language and achieving literacy,
+but we also damage our pitch accent and pronunciation.
+Avoiding this issue is hard
+because the alternative would be learning Japanese <strong>entirely</strong> through listening,
+identical to how infants learn.
+Obviously,
+it will take much longer to become fluent this way.
+And it's impossible to sell this approach to beginners
+who initially feel overwhelmed
+by their inability to understand anything during immersion
+and will refuse to listen to <em>white noise</em> for many months.
+So,
+most AJATTers learn the usual way,
+by utilizing reading, dictionaries, and text-based flashcards to speedup acquisition.</p>
+<p>To sum it up,
+if you want to narrow the gap between yourself and native speakers
+in terms speaking ability,
+studying pitch accent is a good idea.
+If not, it's perfectly fine not to learn it.
+That said,
+every once in a while you run into situations
+where understanding pitch accent is necessary for comprehension.
+Some jokes in Japanese involve pitch accent as well.
+Even if you don't want to live in Japan and speak to natives,
+knowing a little about pitch accent can improve your immersion experience.</p>
+<h2 id="mora"><a class="anchor" href="#mora" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mora</h2>
+<p>When you read about Japanese pitch accents,
+you will often come across the term
+&quot;<a href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%A9">mora</a>&quot;,
+which is a linguistic term used to refer to a single &quot;unit&quot; of sound in a language.</p>
+<p><span class="article-note">Note</span>:
+&quot;mora&quot; is singular,
+while the plural form is usually &quot;moras&quot; in modern English.
+But since it is derived from a Latin word, &quot;morae&quot; is also acceptable.</p>
+<p>A mora can be defined as a single kana character
+excluding small kana (<code>ゃ</code>,<code>ゅ</code>,<code>ょ</code> but not <code>っ</code>),
+optionally followed by a small kana.
+Each mora is given <strong>the same</strong> amount of time when pronounced.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><code>にゃ</code> is one mora.</li>
+<li><code>あ</code> is one mora.</li>
+<li><code>ー</code> (long vowel mark) and small <code>っ</code> each count as one mora.</li>
+<li><code>東京(とうきょう)</code> has 4 moras: <code>と</code>, <code>う</code>, <code>きょ</code> and <code>う</code>.</li>
+</ul>
+<h2 id="mora-vs-syllable"><a class="anchor" href="#mora-vs-syllable" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mora vs syllable</h2>
+<p>In English,
+we use the term &quot;syllable&quot; to describe the sounds that make up a word.
+Although the terms &quot;syllable&quot; and &quot;mora&quot; are sometimes used interchangeably,
+they have slightly different meanings.
+Both syllables and moras refer to the sounds that make up words in a language.
+In a language such as English,
+which is not a rhythmic or timed language,
+the sounds that make up a word may have different durations.
+Thus, the standard &quot;unit&quot; of sound is a syllable.
+In contrast,
+Japanese is a rhythmic language
+where each consecutive sound has the same duration.
+Therefore,
+the standard unit of sound is a mora.</p>
+<h2 id="pitch-number"><a class="anchor" href="#pitch-number" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch number</h2>
+<p>Japanese dictionaries utilize <strong>pitch number</strong> notation to define pitch accents.
+This notation is used in
+<a href="understanding-monolingual-definitions.html#understanding-pitch-accent">monolingual dictionaries</a>
+and provides the shortest way for readers to understand the accent of a word.
+If you know the number, you know the accent.
+For more details, see the linked article.</p>
+<p>The pitch accent <strong>number</strong> indicates the position of a mora
+after which the tone of voice <strong>drops</strong> from high to low.
+The first mora has number <code>1</code>,
+the second mora has number <code>2</code>,
+and so on.
+<code>0</code> is used to indicate that there is no downstep.</p>
+<p align="center"><img alt="screenshot" src="img/goldendict-lookup-人生.webp"></p>
+<p align="center"><i>Look up 人生 in スーパー大辞林</i></p>
+<p align="center"><img alt="screenshot" src="img/goldendict-lookup-生活.webp"></p>
+<p align="center"><i>Look up 生活 in スーパー大辞林</i></p>
+<p>In order to use this notation,
+just count the number of moras in the word.
+Remember that small kana symbols (except for <code>っ</code>) are included with the previous character.
+So, <code>きよ</code> is two moras, but <code>きょ</code> is only one.
+When the pitch of a compound word is based on the pitch of the words it comes from,
+the pitch of each word is shown joined by a hyphen (<code>-</code>).</p>
+<h2 id="dialects"><a class="anchor" href="#dialects" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dialects</h2>
+<p>This guide explains the pitch accents of words in 標準語 (ひょうじゅんご),
+or &quot;Standard Japanese&quot;,
+which is the form of Japanese taught in schools and used by NHK announcers.
+In the real world,
+accents vary significantly across Japan,
+meaning that a single word can be pronounced differently depending on the region.
+Even in Tokyo,
+the way people speak differs from Standard Japanese
+despite the fact that 標準語 is often referred to as &quot;Tokyo dialect&quot;.</p>
+<h2 id="words-with-multiple-pitch-accents"><a class="anchor" href="#words-with-multiple-pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Words with Multiple Pitch Accents</h2>
+<p>There are cases where even in 標準語
+one word can have several different pronunciations.
+Where that happens,
+Japanese dictionaries display each of the possible options,
+with the most common listed first.
+When you look up such a word,
+you will see several pitch accent numbers.
+For example,
+ちょっと (a little) has two accents, <code>1</code> and <code>0</code>.</p>
+<p align="center"><img src="img/goldendict-lookup-ちょっと.webp" alt="screenshot"></p>
+<p align="center"><i>Look up ちょっと in 新明解国語辞典.</i></p>
+<p>In real life one of the accents is usually more common than the others,
+but you cannot trust the dictionary 100%
+to determine which pronunciation is most commonly used by native speakers.
+To tell which accent is dominant and how you should say the word correctly,
+you need to listen to native speakers and find out how they say it.</p>
+<h2 id="accent-patterns-for-japanese-words"><a class="anchor" href="#accent-patterns-for-japanese-words" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accent patterns for Japanese words</h2>
+<p>All Japanese words follow one of just 4 pitch accent patterns.
+If you ensure that your speech always uses one of the four patterns,
+you will sound natural 90% of the time,
+even if you occasionally use the wrong pattern.
+The most &quot;unnatural&quot;-sounding Japanese comes from using a pitch pattern
+that does not actually exist in Japanese,
+because it is a mistake that no native speaker would ever make.
+Let's take a look at these patterns one by one.</p>
+<h2 id="heiban"><a class="anchor" href="#heiban" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Heiban</h2>
+<p>The term 平板 (へいばん) literally means &quot;flat board&quot;,
+so this accent pattern is generally understood to mean &quot;accentless&quot;,
+or a <em>flat</em> pitch pattern.
+In any 平板 word with more than one mora,
+the first mora is pronounced with a low pitch,
+while all subsequent moras are pronounced with a high pitch.
+Any particle that follows the word is also pronounced with a high pitch.</p>
+<p>Since the pitch does not drop in heiban words,
+in monolingual dictionaries all 平板 words are represented by a <code>0</code>.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>気 (spirit; mind).<ul>
+<li>In isolation: <span class="heiban"><span class="LH">き</span></span>
+<audio controls>
+<source src="aud/ki-spirit.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="heiban"><span class="LH">き</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/kiga-spirit.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>国 (country).<ul>
+<li>In isolation: <span class="heiban"><span class="LH">く</span><span class="H">に</span></span>
+<audio controls>
+<source src="aud/kuni.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="heiban"><span class="LH">く</span><span class="H">に</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/kuniga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>時間 (time).<ul>
+<li>In isolation: <span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span>
+<audio controls>
+<source src="aud/jikan.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/jikanga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+</ol>
+<h2 id="atamadaka"><a class="anchor" href="#atamadaka" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Atamadaka</h2>
+<p>頭高 (あたまだか) means &quot;head high&quot;.
+In this pattern,
+the first mora is high,
+and then all subsequent moras are pronounced with a low pitch.
+The drop in pitch is more pronounced than the slight rise in pitch we see at the beginning of 平板 words.
+Any particle following the word is also pronounced with a low pitch.
+Essentially,
+頭高 is the opposite of the 平板 pattern.</p>
+<p>Since the pitch drops after the first mora,
+in monolingual dictionaries all 頭高 words are represented by a <code>1</code>.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>何時 (いつ, when).<ul>
+<li>In isolation: <span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span>
+<audio controls>
+<source src="aud/itsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/itsuga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>天気 (weather).<ul>
+<li>In isolation: <span class="atamadaka"><span class="HL">て</span><span class="L">んき</span></span>
+<audio controls>
+<source src="aud/tenki.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="atamadaka"><span class="HL">て</span><span class="L">んき</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/tenkiga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>毎日 (every day).<ul>
+<li>In isolation: <span class="atamadaka"><span class="HL">ま</span><span class="L">いにち</span></span>
+<audio controls>
+<source src="aud/mainichi.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="atamadaka"><span class="HL">ま</span><span class="L">いにち</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/mainichiga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+</ol>
+<h2 id="nakadaka"><a class="anchor" href="#nakadaka" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nakadaka</h2>
+<p>中高 (なかだか) means &quot;middle high&quot;,
+and the key characteristic of this pattern is that the pitch drops from high
+to low somewhere within of the word.
+The first mora is low,
+and any particle following the word is also pronounced with a low pitch.
+Similar to 平板 words,
+the rise in pitch at the beginning of the word is smaller
+than the drop in pitch that occurs later.
+All 中高 words have at least three moras.</p>
+<p>Since the pitch drops somewhere before the end of a word,
+in monolingual dictionaries 中高 words are represented by numbers such as <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, etc.
+However, the pitch number cannot be equal to the number of moras.
+There is another pattern name for those words.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>一つ (one). Accent: 2.<ul>
+<li>In isolation: <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span>
+<audio controls>
+<source src="aud/hitotsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/hitotsuga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>スポーツ (sports). Accent: 2.<ul>
+<li>In isolation: <span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span>
+<audio controls>
+<source src="aud/supootsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/supootsuga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>工場 (factory). Accent: 3.<ul>
+<li>In isolation: <span class="nakadaka"><span class="LH">こ</span><span class="HL">うじょ</span><span class="L">う</span></span>
+<audio controls>
+<source src="aud/koujou.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="nakadaka"><span class="LH">こ</span><span class="HL">うじょ</span><span class="L">う</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/koujouga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+</ol>
+<p><span class="article-note">Note</span>:
+In Japanese,
+the use of 'う' to lengthen the 'お' sound is primarily a written convention.
+For instance,
+When pronouncing a word such as 工場(こうじょう), the こ sound is simply extended,
+resulting in こお (or 'こー' as they also spell it).
+The 'う' is not pronounced.
+Listen to the example above to understand it better.</p>
+<h2 id="odaka"><a class="anchor" href="#odaka" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Odaka</h2>
+<p>尾高 (おだか) means &quot;tail high&quot;.
+In this pattern,
+the first mora is low (unless the word only has a single mora),
+then the pitch rises and remains high until the end of the word.
+Any particle following the word has a low pitch.</p>
+<p>Since the pitch drops immediately after the end of odaka words,
+in monolingual dictionaries the pitch number of an 尾高 word is equal
+to the total number of moras in it.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>木 (tree). Accent: 1.<ul>
+<li>In isolation: <span class="odaka"><span class="HL">き</span></span>
+<audio controls>
+<source src="aud/ki-tree.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="odaka"><span class="HL">き</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kiga-tree.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>川 (river). Accent: 2.<ul>
+<li>In isolation: <span class="odaka"><span class="LH">か</span><span class="HL">わ</span></span>
+<audio controls>
+<source src="aud/kawa.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="odaka"><span class="LH">か</span><span class="HL">わ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kawaga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>二つ (two). Accent: 3.<ul>
+<li>In isolation: <span class="odaka"><span class="LH">ふ</span><span class="HL">たつ</span></span>
+<audio controls>
+<source src="aud/futatsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>With a particle: <span class="odaka"><span class="LH">ふ</span><span class="HL">たつ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/futatsuga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+</ol>
+<h2 id="kifuku"><a class="anchor" href="#kifuku" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kifuku</h2>
+<p>You may encounter the term 起伏式 (きふく‐しき) describing pitch accent patterns.
+起伏式 literally means &quot;undulating form&quot;,
+and it is a collective term representing the three patterns 頭高, 中高 and 尾高.
+Another way to understand these accent patterns is that 平板 starts low and stays high,
+whereas each of the other patterns starts low, goes high, and then goes low again
+(in other words, undulates).</p>
+<p>Since this is just an umbrella term, kifuku is not one of the 4 pitch accent patterns.</p>
+<ul>
+<li>Flat accent.
+<span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/jikanga.ogg" type="audio/ogg" />
+</audio></li>
+<li>Undulating accent.
+<span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/hitotsuga.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+<h2 id="rules-for-determining-pitch-accents"><a class="anchor" href="#rules-for-determining-pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rules for determining pitch accents</h2>
+<h3 id="rule-0-any-word-that-is-not-a-particle-has-a-fixed-pitch-accent"><a class="anchor" href="#rule-0-any-word-that-is-not-a-particle-has-a-fixed-pitch-accent" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 0. Any word that is not a particle has a fixed pitch accent.</h3>
+<p>The pitch accent will remain the same whenever you encounter the word.
+If you learn the pitch accent of a particular word (and pitch accent rules),
+that's all you need to accent it correctly.
+However,
+you may not always remember the pitch of a word.
+Below
+we will cover some rules that will help you guess correctly most of the time.</p>
+<h3 id="rule-1-if-the-first-mora-is-low-the-second-is-high-and-vice-versa"><a class="anchor" href="#rule-1-if-the-first-mora-is-low-the-second-is-high-and-vice-versa" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 1. If the first mora is low, the second is high, and vice versa.</h3>
+<p>If you look at the four basic patterns,
+you'll notice they all have something in common.
+If the first mora has a high pitch, the second has a low pitch.
+Conversely,
+if the first mora has a low pitch, the second mora has a high pitch.</p>
+<p>The pitches of the first and second moras in a standalone word are always different.
+It is impossible for every mora in a word to be either entirely high or entirely low.</p>
+<ul>
+<li>Low to high.
+<span class="heiban"><span class="LH">く</span><span class="H">に</span></span>
+<audio controls>
+<source src="aud/kuni.ogg" type="audio/ogg" />
+</audio></li>
+<li>High to low.
+<span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span>
+<audio controls>
+<source src="aud/itsu.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+<h3 id="rule-2-once-pitch-drops-it-stays-low"><a class="anchor" href="#rule-2-once-pitch-drops-it-stays-low" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 2 Once pitch drops, it stays low.</h3>
+<p>We can see something else from our 4 patterns.
+Once the pitch of a word goes low,
+it remains low until the end of the word.
+No matter how long a word is,
+there will only ever be at most three pitches (low, then high, then low again).</p>
+<p><span class="article-note">Note</span>:
+This rule does not apply to particles or all inflected forms.
+We'll cover that in <a href="#particles">Particles</a> below.</p>
+<ul>
+<li>一つ (one).
+<span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span>
+<audio controls>
+<source src="aud/hitotsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>スポーツ (sports).
+<span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span>
+<audio controls>
+<source src="aud/supootsu.ogg" type="audio/ogg" />
+</audio></li>
+<li>お母さん (mother).
+<span class="nakadaka"><span class="LH">お</span><span class="HL">か</span><span class="L">あさん</span></span>
+<audio controls>
+<source src="aud/okaasan.ogg" type="audio/ogg" />
+</audio></li>
+<li>お巡さん (policeman).
+<span class="nakadaka"><span class="LH">お</span><span class="HL">ま</span><span class="L">わりさん</span></span>
+<audio controls>
+<source src="aud/omawarisan.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+<h3 id="rule-3-if-in-doubt-guess"><a class="anchor" href="#rule-3-if-in-doubt-guess" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 3. If in doubt, guess 平板.</h3>
+<p>If you are not sure about the correct accent of a word,
+this rule will be particularly useful.
+Among the 10,000 most commonly used words in Japanese,
+the 平板 pattern is used about 55% of the time.
+Therefore,
+if you are completely unsure of a word's accent,
+guess 平板 (start low, then go high and stay high).
+You will be correct more often than not.</p>
+<p>If you have any reason to believe a word is <em>not</em> 平板,
+the next most common pattern is 頭高,
+which is used in about 25% of the 10,000 most useful words.
+In this case, start high, then drop to low on the second mora and stay low.</p>
+<p>After 平板 and 頭高, the next most common is 中高,
+which is used about 15% of the time.
+However,
+it is hard to guess where pitch drops in 中高 words
+because the 中高 pattern covers all words which go low <em>at some point</em> in the middle of the word.
+The classification alone does not give you enough information
+to determine <em>where</em> in the word you should go low.</p>
+<h3 id="additional-considerations"><a class="anchor" href="#additional-considerations" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Additional Considerations</h3>
+<p>There are two more points to keep in mind when you are trying to determine pitch accent.</p>
+<p>First,
+the accent of a word may change if the word is incorporated into a larger word.
+We will cover this in <a href="#caveats">Caveats</a> below.
+For example,
+when two heiban nouns form a compound word,
+they become nakadaka,
+and the drop occurs after the first mora of the second word.
+If you combine 携帯
+<span class="heiban"><span class="LH">け</span><span class="H">いたい</span></span> (0)
+and 電話
+<span class="heiban"><span class="LH">で</span><span class="H">んわ</span></span> (0),
+the result will be 携帯電話
+<span class="nakadaka"><span class="LH">け</span><span class="HL">いたいで</span><span class="L">んわ</span></span> (5).</p>
+<p>Second,
+when combining words into sentences,
+you need to understand how to address the pitch of particles
+and how to handle the overall pitch of the sentence.
+We will cover this in <a href="#pitch-accents-in-sentences">Pitch accents in sentences</a> below.
+The pitch can be modified based on the other words in the sentence and the applicable rules.
+For example,
+odaka nouns followed by the particle の become heiban.
+If you take the phrase 部屋の中, it will be pronounced as
+<span class="LH">へ</span><span class="HL">やのな</span><span class="L">か</span>.</p>
+<p>There are countless pitch accent rules like these.</p>
+<h2 id="commonly-confused-words"><a class="anchor" href="#commonly-confused-words" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commonly confused words</h2>
+<p>Most of the time,
+if you get the pitch accent of a word wrong,
+your Japanese will sound a little odd,
+but it will be perfectly understandable.
+However,
+in certain situations,
+it could lead to an unfortunate miscommunication.
+Some Japanese words which use the same sounds
+(known as 'homonyms')
+are distinguished by their pitch accent.
+Therefore,
+if you use the incorrect accent,
+you are actually using the incorrect word!
+Below are a few of the most common and important examples.</p>
+<ol>
+<li>ひ.<ul>
+<li>日 (day). Accent: 0.
+<span class="heiban"><span class="LH">ひ</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/hi-day.ogg" type="audio/ogg" />
+</audio></li>
+<li>火 (fire). Accent: 1.
+<span class="atamadaka"><span class="HL">ひ</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/hi-fire.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>き.<ul>
+<li>木 (tree). Accent: 1.
+<span class="atamadaka"><span class="HL">き</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kiga-tree.ogg" type="audio/ogg" />
+</audio></li>
+<li>気 (spirit). Accent: 0.
+<span class="heiban"><span class="LH">き</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/kiga-spirit.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>いち.<ul>
+<li>一 (one). Accent: 2.
+<span class="odaka"><span class="LH">い</span><span class="HL">ち</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/ichiga-one.ogg" type="audio/ogg" />
+</audio></li>
+<li>位置 (position). Accent: 1.
+<span class="atamadaka"><span class="HL">い</span><span class="L">ち</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/ichiwo-position.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>かみ.<ul>
+<li>紙 (paper). Accent: 2.
+<span class="odaka"><span class="LH">か</span><span class="HL">み</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kamiga-paper-hair.ogg" type="audio/ogg" />
+</audio></li>
+<li>髪 (hair). Accent: 2.
+<span class="odaka"><span class="LH">か</span><span class="HL">み</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kamiga-paper-hair.ogg" type="audio/ogg" />
+</audio></li>
+<li>神 (god). Accent: 1.
+<span class="atamadaka"><span class="HL">か</span><span class="L">み</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/kamiwo-god.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>はな.<ul>
+<li>花 (flower). Accent: 2.
+<span class="odaka"><span class="LH">は</span><span class="HL">な</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/hanawo-flower.ogg" type="audio/ogg" />
+</audio></li>
+<li>鼻 (nose). Accent: 0.
+<span class="heiban"><span class="LH">は</span><span class="H">な</span></span><span class="H">を</span>
+<audio controls>
+<source src="aud/hanawo-nose.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>あさ.<ul>
+<li>朝 (morning). Accent: 1.
+<span class="atamadaka"><span class="HL">あ</span><span class="L">さ</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/asawo-morning.ogg" type="audio/ogg" />
+</audio></li>
+<li>麻 (cannabis, flax). Accent: 2.
+<span class="odaka"><span class="LH">あ</span><span class="HL">さ</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/asawo-cannabis.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>ようい.<ul>
+<li>用意 (use). Accent: 1.
+<span class="atamadaka"><span class="HL">よ</span><span class="L">うい</span></span>
+<audio controls>
+<source src="aud/youi-use.ogg" type="audio/ogg" />
+</audio></li>
+<li>容易 (ease). Accent: 0.
+<span class="heiban"><span class="LH">よ</span><span class="H">うい</span></span>
+<audio controls>
+<source src="aud/youi-ease.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>おもい.<ul>
+<li>重い (heavy). Accent: 0.
+<span class="heiban"><span class="LH">お</span><span class="H">もい</span></span>
+<audio controls>
+<source src="aud/omoi-heavy.ogg" type="audio/ogg" />
+</audio></li>
+<li>思い (thought). Accent: 2.
+<span class="nakadaka"><span class="LH">お</span><span class="HL">も</span><span class="L">い</span></span>
+<audio controls>
+<source src="aud/omoi-thought.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>かう.<ul>
+<li>買う (to buy). Accent: 0.
+<span class="heiban"><span class="LH">か</span><span class="H">う</span></span>
+<audio controls>
+<source src="aud/kau-to-buy.ogg" type="audio/ogg" />
+</audio></li>
+<li>飼う (to have a pet). Accent: 1.
+<span class="atamadaka"><span class="HL">か</span><span class="L">う</span></span>
+<audio controls>
+<source src="aud/kau-to-own.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>はし.<ul>
+<li>橋 (bridge). Accent: 2.
+<span class="odaka"><span class="LH">は</span><span class="HL">し</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/hashiwo-bridge.ogg" type="audio/ogg" />
+</audio></li>
+<li>端 (edge). Accent: 0.
+<span class="heiban"><span class="LH">は</span><span class="H">し</span></span><span class="H">を</span>
+<audio controls>
+<source src="aud/hashiwo-edge.ogg" type="audio/ogg" />
+</audio></li>
+<li>箸 (chopsticks). Accent: 1.
+<span class="atamadaka"><span class="HL">は</span><span class="L">し</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/hashiwo-chopsticks.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+<li>かた.<ul>
+<li>肩 (shoulder). Accent: 1.
+<span class="atamadaka"><span class="HL">か</span><span class="L">た</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/katawo-shoulder.ogg" type="audio/ogg" />
+</audio></li>
+<li>型 (type). Accent: 2.
+<span class="odaka"><span class="LH">か</span><span class="HL">た</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/katawo-type-person.ogg" type="audio/ogg" />
+</audio></li>
+<li>方 (person). Accent: 2.
+<span class="odaka"><span class="LH">か</span><span class="HL">た</span></span><span class="L">を</span>
+<audio controls>
+<source src="aud/katawo-type-person.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+</li>
+</ol>
+<h2 id="particles"><a class="anchor" href="#particles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Particles</h2>
+<p>Particles don't really have their own standalone pitch accent
+in the same way that other parts of speech do.
+The pitch of a particle is determined by the accent type of the word it follows.
+For 平板 words,
+the pitch of the particle is high.</p>
+<ul>
+<li>会社 (company). Accent: 0.
+<span class="heiban"><span class="LH">か</span><span class="H">いしゃ</span></span><span class="H">が</span>
+<audio controls>
+<source src="aud/kaishaga-company.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+<p>For 頭高, 中高 and 尾高 words, the particle pitch is low.</p>
+<ul>
+<li>世界 (world). Accent: 1.
+<span class="atamadaka"><span class="HL">せ</span><span class="L">かい</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/sekaiga-world.ogg" type="audio/ogg" />
+</audio></li>
+<li>日本 (Japan). Accent: 2.
+<span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">ん</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/nihonga-japan.ogg" type="audio/ogg" />
+</audio></li>
+<li>言葉 (word). Accent: 3.
+<span class="odaka"><span class="LH">こ</span><span class="HL">とば</span></span><span class="L">が</span>
+<audio controls>
+<source src="aud/kotobaga-word.ogg" type="audio/ogg" />
+</audio></li>
+</ul>
+<h2 id="polite-forms-of-verbs"><a class="anchor" href="#polite-forms-of-verbs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Polite forms of verbs</h2>
+<p>When ます attaches to any verb,
+it overrides the verb's original pitch accent.
+The original accent of the verb does not matter.</p>
+<ol>
+<li>ます. Drop after ま.<ul>
+<li>行く. Accent: 0.
+<span class="LH">い</span><span class="HL">きま</span><span class="L">す</span></li>
+<li>見る. Accent: 1.
+<span class="LH">み</span><span class="HL">ま</span><span class="L">す</span></li>
+<li>食べる. Accent: 2.
+<span class="LH">た</span><span class="HL">べま</span><span class="L">す</span></li>
+</ul>
+</li>
+<li>ました. Drop after ま.<ul>
+<li>行く. Accent: 0.
+<span class="LH">い</span><span class="HL">きま</span><span class="L">した</span></li>
+<li>見る. Accent: 1.
+<span class="LH">み</span><span class="HL">ま</span><span class="L">した</span></li>
+<li>食べる. Accent: 2.
+<span class="LH">た</span><span class="HL">べま</span><span class="L">した</span></li>
+</ul>
+</li>
+<li>ません. Drop after せ.
+Also applies to …ませんでした.<ul>
+<li>行く. Accent: 0.
+<span class="LH">い</span><span class="HL">きませ</span><span class="L">ん</span></li>
+<li>見る. Accent: 1.
+<span class="LH">み</span><span class="HL">ませ</span><span class="L">ん</span></li>
+<li>食べる. Accent: 2.
+<span class="LH">た</span><span class="HL">べませ</span><span class="L">ん</span></li>
+</ul>
+</li>
+</ol>
+<p>For other forms, the pitch depends on the category of verb.</p>
+<h2 id="heiban-verbs"><a class="anchor" href="#heiban-verbs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Heiban verbs</h2>
+<p><span class="article-note">Note</span>: Most Japanese words are 平板,
+and this is especially true for verbs.
+Nearly 65% of the most useful 1,000 verbs in Japanese are 平板.</p>
+<p>When a 平板 verb is inflected,
+most inflections retain the 平板 pattern.</p>
+<p><strong>Inflections of 平板 verbs with the 平板 pattern:</strong></p>
+<ol>
+<li>Plain. 言う (say).
+<span class="heiban"><span class="LH">い</span><span class="H">う</span></span>
+<audio controls>
+<source src="aud/iu-say.ogg" type="audio/ogg" />
+</audio></li>
+<li>Plain negative. 言わない (does not say).
+<span class="heiban"><span class="LH">い</span><span class="H">わない</span></span>
+<audio controls>
+<source src="aud/iwanai-doesntsay.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past. 言った (said).
+<span class="heiban"><span class="LH">い</span><span class="H">った</span></span>
+<audio controls>
+<source src="aud/itta-said.ogg" type="audio/ogg" />
+</audio></li>
+<li>&quot;Te form&quot;. 言って (saying).
+<span class="heiban"><span class="LH">い</span><span class="H">って</span></span>
+<audio controls>
+<source src="aud/itte-saying.ogg" type="audio/ogg" />
+</audio></li>
+<li>Potential. 言える (can say).
+<span class="heiban"><span class="LH">い</span><span class="H">える</span></span>
+<audio controls>
+<source src="aud/ieru-cansay.ogg" type="audio/ogg" />
+</audio></li>
+<li>Passive. 言われる (is said).
+<span class="heiban"><span class="LH">い</span><span class="H">われる</span></span>
+<audio controls>
+<source src="aud/iwareru-issaid.ogg" type="audio/ogg" />
+</audio></li>
+<li>Causative. 言わせる (make say).
+<span class="heiban"><span class="LH">い</span><span class="H">わせる</span></span>
+<audio controls>
+<source src="aud/iwaseru-makesay.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>The following inflections of 平板 verbs do not follow the 平板 pattern,
+and these inflections do not have the same pattern in non-平板 verbs.</p>
+<p><strong>Inflections of 平板 verbs with the 中高 pattern:</strong></p>
+<ol>
+<li>Past negative. 言わなかった (did not say).
+<span class="nakadaka"><span class="LH">い</span><span class="HL">わな</span><span class="L">かった</span></span>
+<audio controls>
+<source src="aud/iwanakatta-didnotsay.ogg" type="audio/ogg" />
+</audio></li>
+<li>Conditional. 言えば (if I say).
+<span class="nakadaka"><span class="LH">い</span><span class="HL">え</span><span class="L">ば</span></span>
+<audio controls>
+<source src="aud/ieba-ifisay.ogg" type="audio/ogg" />
+</audio></li>
+<li>Volitional. 言おう (want to say).
+<span class="nakadaka"><span class="LH">い</span><span class="HL">お</span><span class="L">う</span></span>
+<audio controls>
+<source src="aud/iou-wanttosay.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<h2 id="non-heiban-verbs"><a class="anchor" href="#non-heiban-verbs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Non-heiban verbs</h2>
+<p>Verbs that are not 平板 are either 頭高 or 中高.
+There are no 尾高 verbs.
+Almost all of the 頭高 verbs have only two moras.
+Most non-negative inflections of 頭高 verbs are also 頭高.</p>
+<p><strong>Inflections of 頭高 verbs:</strong></p>
+<ol>
+<li>Plain. 見る (see).
+<span class="atamadaka"><span class="HL">み</span><span class="L">る</span></span>
+<audio controls>
+<source src="aud/miru-see.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past. 見た (saw).
+<span class="atamadaka"><span class="HL">み</span><span class="L">た</span></span>
+<audio controls>
+<source src="aud/mita-saw.ogg" type="audio/ogg" />
+</audio></li>
+<li>Te. 見て (seeing).
+<span class="atamadaka"><span class="HL">み</span><span class="L">て</span></span>
+<audio controls>
+<source src="aud/mite-seeing.ogg" type="audio/ogg" />
+</audio></li>
+<li>Conditional. 見れば (if I see).
+<span class="atamadaka"><span class="HL">み</span><span class="L">れば</span></span>
+<audio controls>
+<source src="aud/mireba-ifisee.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>中高 verbs are a little more difficult to predict,
+but some generalizations do exist.</p>
+<p>The downstep in the plain form always occurs before the final mora.</p>
+<ol>
+<li>Plain. 食べる (eat).
+<span class="nakadaka"><span class="LH">た</span><span class="HL">べ</span><span class="L">る</span></span>
+<audio controls>
+<source src="aud/taberu-eat.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>For the past, -te, and conditional forms, the downstep is on the third-to-last mora.</p>
+<ol>
+<li>Past. 食べた (ate).
+<span class="nakadaka"><span class="HL">た</span><span class="L">べた</span></span>
+<audio controls>
+<source src="aud/tabeta-ate.ogg" type="audio/ogg" />
+</audio></li>
+<li>Te. 食べて (eating).
+<span class="nakadaka"><span class="HL">た</span><span class="L">べて</span></span>
+<audio controls>
+<source src="aud/tabete-eating.ogg" type="audio/ogg" />
+</audio></li>
+<li>Conditional. 食べれば (if I eat).
+<span class="nakadaka"><span class="LH">た</span><span class="HL">べ</span><span class="L">れば</span></span>
+<audio controls>
+<source src="aud/tabereba-ifieat.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>For negative forms of both 頭高 and 中高 verbs,
+the downstep comes on the mora before the な.
+So, for two-mora verbs such as 見る,
+negative forms are also 頭高,
+and for longer verbs,
+they are 中高.</p>
+<ol>
+<li>Plain negative. 見ない (doesn't see).
+<span class="atamadaka"><span class="HL">み</span><span class="L">ない</span></span>
+<audio controls>
+<source src="aud/minai-doesntsee.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past negative. 見なかった (didn't see).
+<span class="atamadaka"><span class="HL">み</span><span class="L">なかった</span></span>
+<audio controls>
+<source src="aud/minakatta-didntsee.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>The remaining common forms of both 頭高 and 中高 verbs are 中高.</p>
+<ol>
+<li>Potential / passive. 見られる (is seen / be able to see).
+<span class="atamadaka"><span class="LH">み</span><span class="HL">られ</span><span class="L">る</span></span>
+<audio controls>
+<source src="aud/mirareru-isseen.ogg" type="audio/ogg" />
+</audio></li>
+<li>Causative. 見させる (make see).
+<span class="atamadaka"><span class="LH">み</span><span class="HL">させ</span><span class="L">る</span></span>
+<audio controls>
+<source src="aud/misaseru-makesee.ogg" type="audio/ogg" />
+</audio></li>
+<li>-nagara. 見ながら (while seeing).
+<span class="atamadaka"><span class="LH">み</span><span class="HL">な</span><span class="L">がら</span></span>
+<audio controls>
+<source src="aud/minagara-whileseeing.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<h2 id="adjectives"><a class="anchor" href="#adjectives" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adjectives</h2>
+<p>The vast majority of 形容詞 (い-adjectives) are 中高 with the downstep occurring before the い.
+In most cases,
+any conjugated form shifts the downstep one mora back.</p>
+<ol>
+<li>Plain. 暑い (hot).
+<span class="nakadaka"><span class="LH">あ</span><span class="HL">つ</span><span class="L">い</span></span>
+<audio controls>
+<source src="aud/atsui-hot.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past. 暑かった (was hot).
+<span class="nakadaka"><span class="HL">あ</span><span class="L">つかった</span></span>
+<audio controls>
+<source src="aud/atsukatta-washot.ogg" type="audio/ogg" />
+</audio></li>
+<li>Te. 暑くて (hot...).
+<span class="nakadaka"><span class="HL">あ</span><span class="L">つくて</span></span>
+<audio controls>
+<source src="aud/atsukute-hot.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>Negative forms of い-adjectives are one of the rare exceptions
+to the 'once you go low, stay low' rule.
+Negative forms function as if they are a combination
+of the pitch pattern of the く form of the adjective,
+plus a suitably conjugated form of the 頭高 word ない (in other words, the な is high).</p>
+<ol>
+<li>Plain. 暑くない (not hot).
+<span class="nakadaka"><span class="HL">あ</span><span class="LH">つく</span><span class="HL">な</span><span class="L">い</span></span>
+<audio controls>
+<source src="aud/atsukunai-nothot.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past. 暑くなかった (was not hot).
+<span class="nakadaka"><span class="HL">あ</span><span class="LH">つく</span><span class="HL">な</span><span class="L">かった</span></span>
+<audio controls>
+<source src="aud/atsukunakatta-wasnothot.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>形容動詞 (な-adjectives)
+can be 頭高 or 中高 (most 2-mora and 3-mora words)
+or 平板 (most 4-mora words consisting of kanji only).</p>
+<ol>
+<li>静か (quiet). Accent: 1.
+<span class="atamadaka"><span class="HL">し</span><span class="L">ずか</span></span><span class="L">な</span>
+<audio controls>
+<source src="aud/shizuka-quiet.ogg" type="audio/ogg" />
+</audio></li>
+<li>安全 (safe). Accent: 0.
+<span class="heiban"><span class="LH">あ</span><span class="H">んぜん</span></span><span class="H">な</span>
+<audio controls>
+<source src="aud/anzen-safe.ogg" type="audio/ogg" />
+</audio></li>
+<li>賑やか (lively). Accent: 2.
+<span class="nakadaka"><span class="LH">に</span><span class="HL">ぎ</span><span class="L">やか</span></span><span class="L">な</span>
+<audio controls>
+<source src="aud/nigiyaka-lively.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>Negative forms of な-adjectives are also exceptions to the 'once you go low, stay low' rule.
+Negative forms function as if they are a combination of the dictionary form of the adjective,
+plus では with low pitch,
+plus a suitably conjugated form of the 頭高 word ない.</p>
+<ol>
+<li>Plain. 静かではない (not quiet).
+<span class="atamadaka"><span class="HL">し</span><span class="LH">ずかでは</span><span class="HL">な</span><span class="L">い</span></span>
+<audio controls>
+<source src="aud/shizukadehanai-notquiet.ogg" type="audio/ogg" />
+</audio></li>
+<li>Past. 静かではなかった (was not quiet).
+<span class="atamadaka"><span class="HL">し</span><span class="LH">ずかでは</span><span class="HL">な</span><span class="L">かった</span></span>
+<audio controls>
+<source src="aud/shizukadehanaatta-wasnotquiet.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<h2 id="sentence-ending-words"><a class="anchor" href="#sentence-ending-words" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sentence-ending words</h2>
+<p>Many common sentence-ending words,
+such as だ, です, でしょう, だろう, みたい, etc.,
+follow a simple pattern:
+if the last mora of the previous word is low,
+they start low and stay low.
+If the last mora of the previous word is high,
+they start high and go low after the first mora.</p>
+<ol>
+<li>秋です (is autumn, it is autumn).
+<span class="atamadaka"><span class="HL">あ</span><span class="L">き</span></span><span class="L">です</span>
+<audio controls>
+<source src="aud/akidesu-isautumn.ogg" type="audio/ogg" />
+</audio></li>
+<li>学生です (is a student, I'm a student).
+<span class="heiban"><span class="LH">が</span><span class="H">くせい</span></span><span class="HL">で</span><span class="L">す</span>
+<audio controls>
+<source src="aud/gakuseedesu-isastudent.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<h2 id="pitch-accents-in-sentences"><a class="anchor" href="#pitch-accents-in-sentences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch accents in sentences</h2>
+<p>So now we are well equipped to pronounce individual words correctly,
+but what happens when we put words together in sentences?
+How do things change?
+What does the overall pitch pattern of a sentence look like?
+We can determine sentence-level pitch by thinking of it as a combination of three rules.</p>
+<h3 id="rule-1-pitch-stays-high-across-word-boundaries-until-it-reaches-a-downstep"><a class="anchor" href="#rule-1-pitch-stays-high-across-word-boundaries-until-it-reaches-a-downstep" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 1. Pitch stays high across word boundaries until it reaches a downstep.</h3>
+<p>When a word that ordinarily has a low pitch on the first mora
+(such as 中高 or 平板 words with 2 and more moras)
+follows a mora with high pitch,
+the pitch remains high on the first mora of the word.</p>
+<p>Let's use this sentence as an example:</p>
+<p>私は日本語を勉強しています。 (I am studying Japanese.)</p>
+<p>Looking at the words individually, we would expect the following pattern:</p>
+<p><span class="heiban"><span class="LH">わ</span><span class="H">たし</span></span><span class="H">は</span>
+<span class="heiban"><span class="LH">に</span><span class="H">ほんご</span></span><span class="H">を</span>
+<span class="heiban"><span class="LH">べ</span><span class="H">んきょう</span></span>
+<span class="heiban"><span class="LH">し</span><span class="H">て</span></span>
+<span class="nakadaka"><span class="LH">い</span><span class="HL">ま</span><span class="L">す</span></span>
+<audio controls>
+<source src="aud/watashiha-nihongowo-benkyoo-shite-imasu.ogg" type="audio/ogg" />
+</audio></p>
+<p>When we combine the words,
+we stay high until the first downstep,
+which occurs when we reach the ま of います.
+So the lower pitch at the start of にほんご, べんきょう, して and います is omitted,
+and the pitch stays high:</p>
+<p><span class="LH">わ</span><span class="HL">たしはにほんごをべんきょうしていま</span><span class="L">す</span>
+<audio controls>
+<source src="aud/watashihanihongowobenkyooshiteimasu.ogg" type="audio/ogg" />
+</audio></p>
+<h3 id="rule-2-after-a-downstep-the-next-rise-in-pitch-is-not-as-high-as-the-downstep"><a class="anchor" href="#rule-2-after-a-downstep-the-next-rise-in-pitch-is-not-as-high-as-the-downstep" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 2. After a downstep, the next rise in pitch is not as high as the downstep.</h3>
+<p>This pattern is known as 'terracing',
+because it creates a pitch pattern that looks like a series of steps going down from left to right.
+In fact,
+the whole pitch of a sentence starts high and gradually shifts downwards.</p>
+<p>Let's use this sentence as an example:</p>
+<p>僕は先生をしています。 (I am a teacher.)</p>
+<p>Unlike our first example,
+we now have three separate downsteps: in 僕, 先生 and しています.
+So,
+looking at the words individually, we expect to see this:</p>
+<p><span class="atamadaka"><span class="HL">ぼ</span><span class="L">く</span></span><span class="L">は</span>
+<span class="nakadaka"><span class="LH">せ</span><span class="HL">んせ</span><span class="L">い</span></span><span class="L">を</span>
+<span class="heiban"><span class="LH">し</span><span class="H">て</span></span>
+<span class="nakadaka"><span class="LH">い</span><span class="HL">ま</span><span class="L">す</span></span>
+<audio controls>
+<source src="aud/bokuha-senseiwo-shite-imasu.ogg" type="audio/ogg" />
+</audio></p>
+<p>Applying our first rule, we would expect to see something like this:</p>
+<p><span class="HL">ぼ</span><span class="LH">くはせ</span><span class="HL">んせ</span><span class="LH">いをし</span><span class="HL">ていま</span><span class="L">す</span></p>
+<p>In fact, this is basically correct.
+But simply alternating between two levels of pitch sounds unnaturally robotic,
+and rule 2 tells us that the high pitch of ぼ is a little higher than the high pitch of んせ,
+which in turn is a little higher than the high pitch of ています.
+Here's a diagram generated by the <a href="https://www.gavo.t.u-tokyo.ac.jp/ojad/phrasing/">OJAD tool</a>.</p>
+<img alt="僕は先生をしています gradual" src="img/bokuhasenseiwoshiteimasu-gradual.webp">
+<audio controls>
+<source src="aud/bokuhasenseiwoshiteimasu_gradual.ogg" type="audio/ogg" />
+</audio>
+<p><span class="article-note">Note</span>:
+OJAD is not perfect and makes many mistakes,
+but it is sufficient in this example.
+You don't really need OJAD that much,
+and it is not particularly useful because,
+essentially,
+either you already understand all the pitch accent rules at play,
+and you don't need the answer,
+or you don't know some of the rules.
+In that case,
+this site won't be very helpful
+because it doesn't actually explain the rules.
+It only gives you the final answer.</p>
+<h3 id="rule-3-words-you-want-to-emphasize-should-have-a-somewhat-higher-pitch"><a class="anchor" href="#rule-3-words-you-want-to-emphasize-should-have-a-somewhat-higher-pitch" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rule 3. Words you want to emphasize should have a somewhat higher pitch.</h3>
+<p>The pitch pattern of the word to be emphasized does not change,
+but its overall pitch relative to its neighbors is somewhat higher.
+Using the same example as Rule #2,
+let's say we want to emphasize the fact that we are a <em>teacher</em>
+(as opposed to an astronaut).
+In English, we would do this by stressing the word 'teacher'.
+In Japanese, we do it by giving the word せんせい relatively higher pitch.</p>
+<img alt="僕は先生をしています emphasis" src="img/bokuhasenseiwoshiteimasu_emphasis.webp">
+<audio controls>
+<source src="aud/bokuhasenseiwoshiteimasu_emphasis.ogg" type="audio/ogg" />
+</audio>
+<p>Notice how the overall rise-fall pattern is the same,
+but now the word せんせい has the highest pitch.</p>
+<h2 id="prosody"><a class="anchor" href="#prosody" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prosody</h2>
+<p>You will often encounter the term 'prosody' in connection with pitch accents.
+Prosody refers to the elements of real speech
+that convey meaning over and above the words themselves.
+A great example of prosody would be using rising pitch
+to indicate a question in a sentence that would otherwise be a statement.
+Looking at the sentence written down,
+you may not realize it is a question,
+but if you heard it spoken aloud,
+the prosody would make it obvious.
+In Japanese,
+prosody typically refers to changes in pitch at the sentence level,
+as described in the sections above.</p>
+<h2 id="caveats"><a class="anchor" href="#caveats" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caveats</h2>
+<p>Japanese pitch accents are relatively straightforward, but as we have seen,
+they are not completely regular.
+Until <a href="mass-immersion.html">repeated exposure</a> trains your ear naturally,
+trying to remember the rules that govern accents can seem overwhelming.
+Try not to be discouraged.
+Correct accents can make you sound much more natural,
+but they are generally not vital for communication.</p>
+<p>As we have seen, most words in Japanese are 平板,
+and this is especially true for verbs.
+The 平板 pattern does not exist in English,
+so the most common mistake beginners make is
+imposing an English accent pattern on Japanese 平板 words.
+In American English,
+words are most commonly accented on their second syllable,
+which corresponds most closely to a 中高 2 pattern,
+where the downstep occurs after the second mora of a word.
+Consider the word &quot;America&quot;:
+Americans pronounce the <em>ME</em> with a slightly higher pitch
+and a slightly longer duration: a-ME-ri-ca.
+While this pattern does exist in Japanese,
+it is not the most common one,
+so you will often sound unnatural if you use it constantly.</p>
+<p>One thing to be aware of is that numbers and counters are quite irregular.
+For example:</p>
+<ul>
+<li>一つ (one) is 2</li>
+<li>二つ (two) is 3</li>
+<li>三つ (three) is 3</li>
+<li>四つ (four) is 3</li>
+<li>五つ (five) is 2</li>
+<li>六つ (six) is 3</li>
+<li>七つ (seven) is 2</li>
+<li>八つ (eight) is 3</li>
+<li>九つ (nine) is 2</li>
+</ul>
+<p>The pitch accent of compound words is usually the combination
+of the pitch accents of the individual words.
+However, it is not uncommon for words to change their pattern
+when they are absorbed into larger words.
+For example:</p>
+<ol>
+<li>日本 (Japan). Accent: 2.
+<span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">ん</span></span>
+<audio controls>
+<source src="aud/nihon-japan.ogg" type="audio/ogg" />
+</audio></li>
+<li>日本語 (Japanese language). Accent: 0.
+<span class="heiban"><span class="LH">に</span><span class="H">ほんご</span></span>
+<audio controls>
+<source src="aud/nihongo-japaneselang.ogg" type="audio/ogg" />
+</audio></li>
+<li>日本人 (Japanese person). Accent: 4.
+<span class="nakadaka"><span class="LH">に</span><span class="HL">ほんじ</span><span class="L">ん</span></span>
+<audio controls>
+<source src="aud/nihonjin-japaneseperson.ogg" type="audio/ogg" />
+</audio></li>
+<li>日本海 (Japan Sea). Accent: 2.
+<span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">んかい</span></span>
+<audio controls>
+<source src="aud/nihonkai-japansea.ogg" type="audio/ogg" />
+</audio></li>
+</ol>
+<p>Ultimately,
+you have to memorize pitch accent of each individual word you care about.
+We think that <a href="how-should-i-grade-cards-once-i-add-pitch-accent.html">learning pitch accents</a>
+of the most common 2,000 words would be enough for most learners.</p>
+<h2 id="how-to-learn-pitch-accents"><a class="anchor" href="#how-to-learn-pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to learn pitch accents</h2>
+<p>Congratulations!
+If you have read this far,
+you have already taken the most important step
+in mastering pitch accents by familiarizing yourself
+with the categories and the basic conventions.</p>
+<p>The next step is to <a href="pitch-accent-perception.html">train your ear</a>
+to recognize these categories when you hear them.
+If you do that,
+your brain will start to classify words into the correct categories automatically
+as you hear words in context.
+You will find that this &quot;automatic learning&quot;
+will significantly reduce the amount of rote memorization you need to do.</p>
+<p>However,
+some rote memorization will still be necessary,
+in particular for the easily confused words mentioned above.
+Study those carefully and test yourself on them.</p>
+<p>Finally,
+it is important to confirm that you can reproduce the correct accent even when you know it.
+There is no better technique for that than mimicking correct pronunciation.
+You can record yourself and then listen to yourself alongside the original
+to identify where you need to improve.</p>
+<h2 id="resources"><a class="anchor" href="#resources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<p>In <a href="resources.html#pronunciation-and-pitch-accent">Resources</a>
+you can find resources for studying pitch accents and Japanese pronunciation in depth.</p>
+<p>For a definitive written guide,
+you can't do better than one or both of these books:</p>
+<ul>
+<li>The NHK accent dictionary 「NHK日本語発音アクセント新辞典」.</li>
+<li>The Shin Meikai accent dictionary 「新明解日本語アクセント辞典 第２版」.</li>
+</ul>
+<p>You can find both books in <a href="resources.html#pronunciation-and-pitch-accent">Resources</a>,
+on Torrents,
+or in Zlibrary.</p>
+<p>Tags: <a href="tag_guide.html">guide</a>, <a href="tag_pitch.html">pitch</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
+<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="/blog/resources.html">Resources</a></li>
+<li><a href="/blog/tag_faq.html">FAQ</a></li>
+<li><a href="/blog/all_tags.html">All tags</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="/blog/setting-up-anki.html">Setup</a></li>
+<li><a href="/blog/how-to-review.html">How to study</a></li>
+<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
+<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Software</h3>
+<ul>
+<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
+<li><a href="/blog/tag_matrix.html">Matrix</a></li>
+<li><a href="/blog/tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="feed.rss">RSS</a></li>
+<li><a href="/blog/join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
+<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto Ren 2020-2024</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>

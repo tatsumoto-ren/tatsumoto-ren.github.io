@@ -23,7 +23,7 @@ it talks to other Matrix servers on your behalf and sends the data to you.
 Email is an example of a federated protocol.
 
 On Matrix, usernames are referred to as `MXID`s (Matrix IDs),
-chats as `room`s
+chats as `room`s,
 servers as `homeserver`s.
 You can also group rooms together to form `space`s.
 Matrix spaces behave like Discord "servers".

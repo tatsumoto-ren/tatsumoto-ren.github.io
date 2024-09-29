@@ -947,6 +947,8 @@ You've been warned.
 
 ## Pronunciation and Pitch accent
 
+> Main article: [Japanese Pitch Accent Primer](japanese-pitch-accents.html)
+
 * [Pitch accent dictionaries for Rikaitan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
   When you look up a word with Rikaitan,
   they will tell you its pitch accent number.
