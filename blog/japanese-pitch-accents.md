@@ -244,28 +244,34 @@ in monolingual dictionaries all 平板 words are represented by a `0`.
    * In isolation: <span class="heiban"><span class="LH">き</span></span>
      <audio controls>
      <source src="aud/ki-spirit.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/ki-spirit.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="heiban"><span class="LH">き</span></span><span class="H">が</span>
      <audio controls>
      <source src="aud/kiga-spirit.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kiga-spirit.ogg" type="audio/ogg" />
      </audio>
 1) 国 (country).
    * In isolation: <span class="heiban"><span class="LH">く</span><span class="H">に</span></span>
      <audio controls>
      <source src="aud/kuni.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kuni.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="heiban"><span class="LH">く</span><span class="H">に</span></span><span class="H">が</span>
      <audio controls>
      <source src="aud/kuniga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kuniga.ogg" type="audio/ogg" />
      </audio>
 1) 時間 (time).
    * In isolation: <span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span>
      <audio controls>
      <source src="aud/jikan.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/jikan.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span><span class="H">が</span>
      <audio controls>
      <source src="aud/jikanga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/jikanga.ogg" type="audio/ogg" />
      </audio>
 
 ## Atamadaka
@@ -288,28 +294,34 @@ in monolingual dictionaries all 頭高 words are represented by a `1`.
    * In isolation: <span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span>
      <audio controls>
      <source src="aud/itsu.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/itsu.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/itsuga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/itsuga.ogg" type="audio/ogg" />
      </audio>
 1) 天気 (weather).
    * In isolation: <span class="atamadaka"><span class="HL">て</span><span class="L">んき</span></span>
      <audio controls>
      <source src="aud/tenki.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/tenki.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="atamadaka"><span class="HL">て</span><span class="L">んき</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/tenkiga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/tenkiga.ogg" type="audio/ogg" />
      </audio>
 1) 毎日 (every day).
    * In isolation: <span class="atamadaka"><span class="HL">ま</span><span class="L">いにち</span></span>
      <audio controls>
      <source src="aud/mainichi.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/mainichi.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="atamadaka"><span class="HL">ま</span><span class="L">いにち</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/mainichiga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/mainichiga.ogg" type="audio/ogg" />
      </audio>
 
 ## Nakadaka
@@ -335,28 +347,34 @@ There is another pattern name for those words.
    * In isolation: <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span>
      <audio controls>
      <source src="aud/hitotsu.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hitotsu.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/hitotsuga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hitotsuga.ogg" type="audio/ogg" />
      </audio>
 1) スポーツ (sports). Accent: 2.
    * In isolation: <span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span>
      <audio controls>
      <source src="aud/supootsu.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/supootsu.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/supootsuga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/supootsuga.ogg" type="audio/ogg" />
      </audio>
 1) 工場 (factory). Accent: 3.
    * In isolation: <span class="nakadaka"><span class="LH">こ</span><span class="HL">うじょ</span><span class="L">う</span></span>
      <audio controls>
      <source src="aud/koujou.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/koujou.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="nakadaka"><span class="LH">こ</span><span class="HL">うじょ</span><span class="L">う</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/koujouga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/koujouga.ogg" type="audio/ogg" />
      </audio>
 
 **Note:**
@@ -386,28 +404,34 @@ to the total number of moras in it.
    * In isolation: <span class="odaka"><span class="HL">き</span></span>
      <audio controls>
      <source src="aud/ki-tree.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/ki-tree.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="odaka"><span class="HL">き</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/kiga-tree.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kiga-tree.ogg" type="audio/ogg" />
      </audio>
 1) 川 (river). Accent: 2.
    * In isolation: <span class="odaka"><span class="LH">か</span><span class="HL">わ</span></span>
      <audio controls>
      <source src="aud/kawa.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kawa.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="odaka"><span class="LH">か</span><span class="HL">わ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/kawaga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kawaga.ogg" type="audio/ogg" />
      </audio>
 1) 二つ (two). Accent: 3.
    * In isolation: <span class="odaka"><span class="LH">ふ</span><span class="HL">たつ</span></span>
      <audio controls>
      <source src="aud/futatsu.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/futatsu.ogg" type="audio/ogg" />
      </audio>
    * With a particle: <span class="odaka"><span class="LH">ふ</span><span class="HL">たつ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/futatsuga.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/futatsuga.ogg" type="audio/ogg" />
      </audio>
 
 ## Kifuku
@@ -425,11 +449,13 @@ Since this is just an umbrella term, kifuku is not one of the 4 pitch accent pat
   <span class="heiban"><span class="LH">じ</span><span class="H">かん</span></span><span class="H">が</span>
   <audio controls>
   <source src="aud/jikanga.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/jikanga.ogg" type="audio/ogg" />
   </audio>
 * Undulating accent.
   <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span><span class="L">が</span>
   <audio controls>
   <source src="aud/hitotsuga.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/hitotsuga.ogg" type="audio/ogg" />
   </audio>
 
 ## Rules for determining pitch accents
@@ -459,11 +485,13 @@ It is impossible for every mora in a word to be either entirely high or entirely
   <span class="heiban"><span class="LH">く</span><span class="H">に</span></span>
   <audio controls>
   <source src="aud/kuni.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/kuni.ogg" type="audio/ogg" />
   </audio>
 * High to low.
   <span class="atamadaka"><span class="HL">い</span><span class="L">つ</span></span>
   <audio controls>
   <source src="aud/itsu.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/itsu.ogg" type="audio/ogg" />
   </audio>
 
 ### Rule 2 Once pitch drops, it stays low.
@@ -482,21 +510,25 @@ We'll cover that in [Particles](#particles) below.
   <span class="nakadaka"><span class="LH">ひ</span><span class="HL">と</span><span class="L">つ</span></span>
   <audio controls>
   <source src="aud/hitotsu.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/hitotsu.ogg" type="audio/ogg" />
   </audio>
 * スポーツ (sports).
   <span class="nakadaka"><span class="LH">ス</span><span class="HL">ポ</span><span class="L">ーツ</span></span>
   <audio controls>
   <source src="aud/supootsu.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/supootsu.ogg" type="audio/ogg" />
   </audio>
 * お母さん (mother).
   <span class="nakadaka"><span class="LH">お</span><span class="HL">か</span><span class="L">あさん</span></span>
   <audio controls>
   <source src="aud/okaasan.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/okaasan.ogg" type="audio/ogg" />
   </audio>
 * お巡さん (policeman).
   <span class="nakadaka"><span class="LH">お</span><span class="HL">ま</span><span class="L">わりさん</span></span>
   <audio controls>
   <source src="aud/omawarisan.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/omawarisan.ogg" type="audio/ogg" />
   </audio>
 
 ### Rule 3. If in doubt, guess 平板.
@@ -576,136 +608,161 @@ Below are a few of the most common and important examples.
      <span class="heiban"><span class="LH">ひ</span></span><span class="H">が</span>
      <audio controls>
      <source src="aud/hi-day.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hi-day.ogg" type="audio/ogg" />
      </audio>
    * 火 (fire). Accent: 1.
      <span class="atamadaka"><span class="HL">ひ</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/hi-fire.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hi-fire.ogg" type="audio/ogg" />
      </audio>
 1) き.
    * 木 (tree). Accent: 1.
      <span class="atamadaka"><span class="HL">き</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/kiga-tree.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kiga-tree.ogg" type="audio/ogg" />
      </audio>
    * 気 (spirit). Accent: 0.
      <span class="heiban"><span class="LH">き</span></span><span class="H">が</span>
      <audio controls>
      <source src="aud/kiga-spirit.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kiga-spirit.ogg" type="audio/ogg" />
      </audio>
 1) いち.
    * 一 (one). Accent: 2.
      <span class="odaka"><span class="LH">い</span><span class="HL">ち</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/ichiga-one.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/ichiga-one.ogg" type="audio/ogg" />
      </audio>
    * 位置 (position). Accent: 1.
      <span class="atamadaka"><span class="HL">い</span><span class="L">ち</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/ichiwo-position.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/ichiwo-position.ogg" type="audio/ogg" />
      </audio>
 1) かみ.
    * 紙 (paper). Accent: 2.
      <span class="odaka"><span class="LH">か</span><span class="HL">み</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/kamiga-paper-hair.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kamiga-paper-hair.ogg" type="audio/ogg" />
      </audio>
    * 髪 (hair). Accent: 2.
      <span class="odaka"><span class="LH">か</span><span class="HL">み</span></span><span class="L">が</span>
      <audio controls>
      <source src="aud/kamiga-paper-hair.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kamiga-paper-hair.ogg" type="audio/ogg" />
      </audio>
    * 神 (god). Accent: 1.
      <span class="atamadaka"><span class="HL">か</span><span class="L">み</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/kamiwo-god.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kamiwo-god.ogg" type="audio/ogg" />
      </audio>
 1) はな.
    * 花 (flower). Accent: 2.
      <span class="odaka"><span class="LH">は</span><span class="HL">な</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/hanawo-flower.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hanawo-flower.ogg" type="audio/ogg" />
      </audio>
    * 鼻 (nose). Accent: 0.
      <span class="heiban"><span class="LH">は</span><span class="H">な</span></span><span class="H">を</span>
      <audio controls>
      <source src="aud/hanawo-nose.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hanawo-nose.ogg" type="audio/ogg" />
      </audio>
 1) あさ.
    * 朝 (morning). Accent: 1.
      <span class="atamadaka"><span class="HL">あ</span><span class="L">さ</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/asawo-morning.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/asawo-morning.ogg" type="audio/ogg" />
      </audio>
    * 麻 (cannabis, flax). Accent: 2.
      <span class="odaka"><span class="LH">あ</span><span class="HL">さ</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/asawo-cannabis.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/asawo-cannabis.ogg" type="audio/ogg" />
      </audio>
 1) ようい.
    * 用意 (use). Accent: 1.
      <span class="atamadaka"><span class="HL">よ</span><span class="L">うい</span></span>
      <audio controls>
      <source src="aud/youi-use.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/youi-use.ogg" type="audio/ogg" />
      </audio>
    * 容易 (ease). Accent: 0.
      <span class="heiban"><span class="LH">よ</span><span class="H">うい</span></span>
      <audio controls>
      <source src="aud/youi-ease.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/youi-ease.ogg" type="audio/ogg" />
      </audio>
 1) おもい.
    * 重い (heavy). Accent: 0.
      <span class="heiban"><span class="LH">お</span><span class="H">もい</span></span>
      <audio controls>
      <source src="aud/omoi-heavy.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/omoi-heavy.ogg" type="audio/ogg" />
      </audio>
    * 思い (thought). Accent: 2.
      <span class="nakadaka"><span class="LH">お</span><span class="HL">も</span><span class="L">い</span></span>
      <audio controls>
      <source src="aud/omoi-thought.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/omoi-thought.ogg" type="audio/ogg" />
      </audio>
 1) かう.
    * 買う (to buy). Accent: 0.
      <span class="heiban"><span class="LH">か</span><span class="H">う</span></span>
      <audio controls>
      <source src="aud/kau-to-buy.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kau-to-buy.ogg" type="audio/ogg" />
      </audio>
    * 飼う (to have a pet). Accent: 1.
      <span class="atamadaka"><span class="HL">か</span><span class="L">う</span></span>
      <audio controls>
      <source src="aud/kau-to-own.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/kau-to-own.ogg" type="audio/ogg" />
      </audio>
 1) はし.
    * 橋 (bridge). Accent: 2.
      <span class="odaka"><span class="LH">は</span><span class="HL">し</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/hashiwo-bridge.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hashiwo-bridge.ogg" type="audio/ogg" />
      </audio>
    * 端 (edge). Accent: 0.
      <span class="heiban"><span class="LH">は</span><span class="H">し</span></span><span class="H">を</span>
      <audio controls>
      <source src="aud/hashiwo-edge.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hashiwo-edge.ogg" type="audio/ogg" />
      </audio>
    * 箸 (chopsticks). Accent: 1.
      <span class="atamadaka"><span class="HL">は</span><span class="L">し</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/hashiwo-chopsticks.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/hashiwo-chopsticks.ogg" type="audio/ogg" />
      </audio>
 1) かた.
    * 肩 (shoulder). Accent: 1.
      <span class="atamadaka"><span class="HL">か</span><span class="L">た</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/katawo-shoulder.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/katawo-shoulder.ogg" type="audio/ogg" />
      </audio>
    * 型 (type). Accent: 2.
      <span class="odaka"><span class="LH">か</span><span class="HL">た</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/katawo-type-person.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/katawo-type-person.ogg" type="audio/ogg" />
      </audio>
    * 方 (person). Accent: 2.
      <span class="odaka"><span class="LH">か</span><span class="HL">た</span></span><span class="L">を</span>
      <audio controls>
      <source src="aud/katawo-type-person.ogg" type="audio/ogg" />
+     <source src="https://tatsumoto-ren.github.io/blog/aud/katawo-type-person.ogg" type="audio/ogg" />
      </audio>
 
 ## Particles
@@ -720,6 +777,7 @@ the pitch of the particle is high.
   <span class="heiban"><span class="LH">か</span><span class="H">いしゃ</span></span><span class="H">が</span>
   <audio controls>
   <source src="aud/kaishaga-company.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/kaishaga-company.ogg" type="audio/ogg" />
   </audio>
 
 For 頭高, 中高 and 尾高 words, the particle pitch is low.
@@ -728,16 +786,19 @@ For 頭高, 中高 and 尾高 words, the particle pitch is low.
   <span class="atamadaka"><span class="HL">せ</span><span class="L">かい</span></span><span class="L">が</span>
   <audio controls>
   <source src="aud/sekaiga-world.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/sekaiga-world.ogg" type="audio/ogg" />
   </audio>
 * 日本 (Japan). Accent: 2.
   <span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">ん</span></span><span class="L">が</span>
   <audio controls>
   <source src="aud/nihonga-japan.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/nihonga-japan.ogg" type="audio/ogg" />
   </audio>
 * 言葉 (word). Accent: 3.
   <span class="odaka"><span class="LH">こ</span><span class="HL">とば</span></span><span class="L">が</span>
   <audio controls>
   <source src="aud/kotobaga-word.ogg" type="audio/ogg" />
+  <source src="https://tatsumoto-ren.github.io/blog/aud/kotobaga-word.ogg" type="audio/ogg" />
   </audio>
 
 ## Polite forms of verbs
@@ -786,36 +847,43 @@ most inflections retain the 平板 pattern.
    <span class="heiban"><span class="LH">い</span><span class="H">う</span></span>
    <audio controls>
    <source src="aud/iu-say.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iu-say.ogg" type="audio/ogg" />
    </audio>
 1) Plain negative. 言わない (does not say).
    <span class="heiban"><span class="LH">い</span><span class="H">わない</span></span>
    <audio controls>
    <source src="aud/iwanai-doesntsay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iwanai-doesntsay.ogg" type="audio/ogg" />
    </audio>
 1) Past. 言った (said).
    <span class="heiban"><span class="LH">い</span><span class="H">った</span></span>
    <audio controls>
    <source src="aud/itta-said.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/itta-said.ogg" type="audio/ogg" />
    </audio>
 1) "Te form". 言って (saying).
    <span class="heiban"><span class="LH">い</span><span class="H">って</span></span>
    <audio controls>
    <source src="aud/itte-saying.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/itte-saying.ogg" type="audio/ogg" />
    </audio>
 1) Potential. 言える (can say).
    <span class="heiban"><span class="LH">い</span><span class="H">える</span></span>
    <audio controls>
    <source src="aud/ieru-cansay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/ieru-cansay.ogg" type="audio/ogg" />
    </audio>
 1) Passive. 言われる (is said).
    <span class="heiban"><span class="LH">い</span><span class="H">われる</span></span>
    <audio controls>
    <source src="aud/iwareru-issaid.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iwareru-issaid.ogg" type="audio/ogg" />
    </audio>
 1) Causative. 言わせる (make say).
    <span class="heiban"><span class="LH">い</span><span class="H">わせる</span></span>
    <audio controls>
    <source src="aud/iwaseru-makesay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iwaseru-makesay.ogg" type="audio/ogg" />
    </audio>
 
 The following inflections of 平板 verbs do not follow the 平板 pattern,
@@ -827,16 +895,19 @@ and these inflections do not have the same pattern in non-平板 verbs.
    <span class="nakadaka"><span class="LH">い</span><span class="HL">わな</span><span class="L">かった</span></span>
    <audio controls>
    <source src="aud/iwanakatta-didnotsay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iwanakatta-didnotsay.ogg" type="audio/ogg" />
    </audio>
 1) Conditional. 言えば (if I say).
    <span class="nakadaka"><span class="LH">い</span><span class="HL">え</span><span class="L">ば</span></span>
    <audio controls>
    <source src="aud/ieba-ifisay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/ieba-ifisay.ogg" type="audio/ogg" />
    </audio>
 1) Volitional. 言おう (want to say).
    <span class="nakadaka"><span class="LH">い</span><span class="HL">お</span><span class="L">う</span></span>
    <audio controls>
    <source src="aud/iou-wanttosay.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/iou-wanttosay.ogg" type="audio/ogg" />
    </audio>
 
 ## Non-heiban verbs
@@ -852,21 +923,25 @@ Most non-negative inflections of 頭高 verbs are also 頭高.
    <span class="atamadaka"><span class="HL">み</span><span class="L">る</span></span>
    <audio controls>
    <source src="aud/miru-see.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/miru-see.ogg" type="audio/ogg" />
    </audio>
 1) Past. 見た (saw).
    <span class="atamadaka"><span class="HL">み</span><span class="L">た</span></span>
    <audio controls>
    <source src="aud/mita-saw.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/mita-saw.ogg" type="audio/ogg" />
    </audio>
 1) Te. 見て (seeing).
    <span class="atamadaka"><span class="HL">み</span><span class="L">て</span></span>
    <audio controls>
    <source src="aud/mite-seeing.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/mite-seeing.ogg" type="audio/ogg" />
    </audio>
 1) Conditional. 見れば (if I see).
    <span class="atamadaka"><span class="HL">み</span><span class="L">れば</span></span>
    <audio controls>
    <source src="aud/mireba-ifisee.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/mireba-ifisee.ogg" type="audio/ogg" />
    </audio>
 
 中高 verbs are a little more difficult to predict,
@@ -878,6 +953,7 @@ The downstep in the plain form always occurs before the final mora.
    <span class="nakadaka"><span class="LH">た</span><span class="HL">べ</span><span class="L">る</span></span>
    <audio controls>
    <source src="aud/taberu-eat.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/taberu-eat.ogg" type="audio/ogg" />
    </audio>
 
 For the past, -te, and conditional forms, the downstep is on the third-to-last mora.
@@ -886,16 +962,19 @@ For the past, -te, and conditional forms, the downstep is on the third-to-last m
    <span class="nakadaka"><span class="HL">た</span><span class="L">べた</span></span>
    <audio controls>
    <source src="aud/tabeta-ate.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/tabeta-ate.ogg" type="audio/ogg" />
    </audio>
 1) Te. 食べて (eating).
    <span class="nakadaka"><span class="HL">た</span><span class="L">べて</span></span>
    <audio controls>
    <source src="aud/tabete-eating.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/tabete-eating.ogg" type="audio/ogg" />
    </audio>
 1) Conditional. 食べれば (if I eat).
    <span class="nakadaka"><span class="LH">た</span><span class="HL">べ</span><span class="L">れば</span></span>
    <audio controls>
    <source src="aud/tabereba-ifieat.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/tabereba-ifieat.ogg" type="audio/ogg" />
    </audio>
 
 For negative forms of both 頭高 and 中高 verbs,
@@ -909,11 +988,13 @@ they are 中高.
    <span class="atamadaka"><span class="HL">み</span><span class="L">ない</span></span>
    <audio controls>
    <source src="aud/minai-doesntsee.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/minai-doesntsee.ogg" type="audio/ogg" />
    </audio>
 1) Past negative. 見なかった (didn't see).
    <span class="atamadaka"><span class="HL">み</span><span class="L">なかった</span></span>
    <audio controls>
    <source src="aud/minakatta-didntsee.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/minakatta-didntsee.ogg" type="audio/ogg" />
    </audio>
 
 The remaining common forms of both 頭高 and 中高 verbs are 中高.
@@ -922,16 +1003,19 @@ The remaining common forms of both 頭高 and 中高 verbs are 中高.
    <span class="atamadaka"><span class="LH">み</span><span class="HL">られ</span><span class="L">る</span></span>
    <audio controls>
    <source src="aud/mirareru-isseen.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/mirareru-isseen.ogg" type="audio/ogg" />
    </audio>
 1) Causative. 見させる (make see).
    <span class="atamadaka"><span class="LH">み</span><span class="HL">させ</span><span class="L">る</span></span>
    <audio controls>
    <source src="aud/misaseru-makesee.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/misaseru-makesee.ogg" type="audio/ogg" />
    </audio>
 1) -nagara. 見ながら (while seeing).
    <span class="atamadaka"><span class="LH">み</span><span class="HL">な</span><span class="L">がら</span></span>
    <audio controls>
    <source src="aud/minagara-whileseeing.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/minagara-whileseeing.ogg" type="audio/ogg" />
    </audio>
 
 ## Adjectives
@@ -944,16 +1028,19 @@ any conjugated form shifts the downstep one mora back.
    <span class="nakadaka"><span class="LH">あ</span><span class="HL">つ</span><span class="L">い</span></span>
    <audio controls>
    <source src="aud/atsui-hot.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/atsui-hot.ogg" type="audio/ogg" />
    </audio>
 1) Past. 暑かった (was hot).
    <span class="nakadaka"><span class="HL">あ</span><span class="L">つかった</span></span>
    <audio controls>
    <source src="aud/atsukatta-washot.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/atsukatta-washot.ogg" type="audio/ogg" />
    </audio>
 1) Te. 暑くて (hot...).
    <span class="nakadaka"><span class="HL">あ</span><span class="L">つくて</span></span>
    <audio controls>
    <source src="aud/atsukute-hot.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/atsukute-hot.ogg" type="audio/ogg" />
    </audio>
 
 Negative forms of い-adjectives are one of the rare exceptions
@@ -966,11 +1053,13 @@ plus a suitably conjugated form of the 頭高 word ない (in other words, the �
    <span class="nakadaka"><span class="HL">あ</span><span class="LH">つく</span><span class="HL">な</span><span class="L">い</span></span>
    <audio controls>
    <source src="aud/atsukunai-nothot.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/atsukunai-nothot.ogg" type="audio/ogg" />
    </audio>
 1) Past. 暑くなかった (was not hot).
    <span class="nakadaka"><span class="HL">あ</span><span class="LH">つく</span><span class="HL">な</span><span class="L">かった</span></span>
    <audio controls>
    <source src="aud/atsukunakatta-wasnothot.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/atsukunakatta-wasnothot.ogg" type="audio/ogg" />
    </audio>
 
 形容動詞 (な-adjectives)
@@ -981,16 +1070,19 @@ or 平板 (most 4-mora words consisting of kanji only).
    <span class="atamadaka"><span class="HL">し</span><span class="L">ずか</span></span><span class="L">な</span>
    <audio controls>
    <source src="aud/shizuka-quiet.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/shizuka-quiet.ogg" type="audio/ogg" />
    </audio>
 1) 安全 (safe). Accent: 0.
    <span class="heiban"><span class="LH">あ</span><span class="H">んぜん</span></span><span class="H">な</span>
    <audio controls>
    <source src="aud/anzen-safe.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/anzen-safe.ogg" type="audio/ogg" />
    </audio>
 1) 賑やか (lively). Accent: 2.
    <span class="nakadaka"><span class="LH">に</span><span class="HL">ぎ</span><span class="L">やか</span></span><span class="L">な</span>
    <audio controls>
    <source src="aud/nigiyaka-lively.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/nigiyaka-lively.ogg" type="audio/ogg" />
    </audio>
 
 Negative forms of な-adjectives are also exceptions to the 'once you go low, stay low' rule.
@@ -1002,11 +1094,13 @@ plus a suitably conjugated form of the 頭高 word ない.
    <span class="atamadaka"><span class="HL">し</span><span class="LH">ずかでは</span><span class="HL">な</span><span class="L">い</span></span>
    <audio controls>
    <source src="aud/shizukadehanai-notquiet.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/shizukadehanai-notquiet.ogg" type="audio/ogg" />
    </audio>
 1) Past. 静かではなかった (was not quiet).
    <span class="atamadaka"><span class="HL">し</span><span class="LH">ずかでは</span><span class="HL">な</span><span class="L">かった</span></span>
    <audio controls>
    <source src="aud/shizukadehanaatta-wasnotquiet.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/shizukadehanaatta-wasnotquiet.ogg" type="audio/ogg" />
    </audio>
 
 ## Sentence-ending words
@@ -1023,11 +1117,13 @@ they start high and go low after the first mora.
    <span class="atamadaka"><span class="HL">あ</span><span class="L">き</span></span><span class="L">です</span>
    <audio controls>
    <source src="aud/akidesu-isautumn.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/akidesu-isautumn.ogg" type="audio/ogg" />
    </audio>
 1) 学生です (is a student, I'm a student).
    <span class="heiban"><span class="LH">が</span><span class="H">くせい</span></span><span class="HL">で</span><span class="L">す</span>
    <audio controls>
    <source src="aud/gakuseedesu-isastudent.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/gakuseedesu-isastudent.ogg" type="audio/ogg" />
    </audio>
 
 ## Pitch accents in sentences
@@ -1058,6 +1154,7 @@ Looking at the words individually, we would expect the following pattern:
 <span class="nakadaka"><span class="LH">い</span><span class="HL">ま</span><span class="L">す</span></span>
 <audio controls>
 <source src="aud/watashiha-nihongowo-benkyoo-shite-imasu.ogg" type="audio/ogg" />
+<source src="https://tatsumoto-ren.github.io/blog/aud/watashiha-nihongowo-benkyoo-shite-imasu.ogg" type="audio/ogg" />
 </audio>
 
 When we combine the words,
@@ -1069,6 +1166,7 @@ and the pitch stays high:
 <span class="LH">わ</span><span class="HL">たしはにほんごをべんきょうしていま</span><span class="L">す</span>
 <audio controls>
 <source src="aud/watashihanihongowobenkyooshiteimasu.ogg" type="audio/ogg" />
+<source src="https://tatsumoto-ren.github.io/blog/aud/watashihanihongowobenkyooshiteimasu.ogg" type="audio/ogg" />
 </audio>
 
 ### Rule 2. After a downstep, the next rise in pitch is not as high as the downstep.
@@ -1093,6 +1191,7 @@ looking at the words individually, we expect to see this:
 <span class="nakadaka"><span class="LH">い</span><span class="HL">ま</span><span class="L">す</span></span>
 <audio controls>
 <source src="aud/bokuha-senseiwo-shite-imasu.ogg" type="audio/ogg" />
+<source src="https://tatsumoto-ren.github.io/blog/aud/bokuha-senseiwo-shite-imasu.ogg" type="audio/ogg" />
 </audio>
 
 Applying our first rule, we would expect to see something like this:
@@ -1109,6 +1208,7 @@ Here's a diagram generated by the [OJAD tool](https://www.gavo.t.u-tokyo.ac.jp/o
 
 <audio controls>
 <source src="aud/bokuhasenseiwoshiteimasu_gradual.ogg" type="audio/ogg" />
+<source src="https://tatsumoto-ren.github.io/blog/aud/bokuhasenseiwoshiteimasu_gradual.ogg" type="audio/ogg" />
 </audio>
 
 **Note:**
@@ -1139,6 +1239,7 @@ In Japanese, we do it by giving the word せんせい relatively higher pitch.
 
 <audio controls>
 <source src="aud/bokuhasenseiwoshiteimasu_emphasis.ogg" type="audio/ogg" />
+<source src="https://tatsumoto-ren.github.io/blog/aud/bokuhasenseiwoshiteimasu_emphasis.ogg" type="audio/ogg" />
 </audio>
 
 Notice how the overall rise-fall pattern is the same,
@@ -1208,21 +1309,25 @@ For example:
    <span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">ん</span></span>
    <audio controls>
    <source src="aud/nihon-japan.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/nihon-japan.ogg" type="audio/ogg" />
    </audio>
 1) 日本語 (Japanese language). Accent: 0.
    <span class="heiban"><span class="LH">に</span><span class="H">ほんご</span></span>
    <audio controls>
    <source src="aud/nihongo-japaneselang.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/nihongo-japaneselang.ogg" type="audio/ogg" />
    </audio>
 1) 日本人 (Japanese person). Accent: 4.
    <span class="nakadaka"><span class="LH">に</span><span class="HL">ほんじ</span><span class="L">ん</span></span>
    <audio controls>
    <source src="aud/nihonjin-japaneseperson.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/nihonjin-japaneseperson.ogg" type="audio/ogg" />
    </audio>
 1) 日本海 (Japan Sea). Accent: 2.
    <span class="nakadaka"><span class="LH">に</span><span class="HL">ほ</span><span class="L">んかい</span></span>
    <audio controls>
    <source src="aud/nihonkai-japansea.ogg" type="audio/ogg" />
+   <source src="https://tatsumoto-ren.github.io/blog/aud/nihonkai-japansea.ogg" type="audio/ogg" />
    </audio>
 
 Ultimately,
