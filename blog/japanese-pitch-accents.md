@@ -327,8 +327,9 @@ in monolingual dictionaries all 頭高 words are represented by a `1`.
 ## Nakadaka
 
 中高 (なかだか) means "middle high",
-and the key characteristic of this pattern is that the pitch drops from high
-to low somewhere within of the word.
+and the key characteristic of this pattern is that
+the pitch drops from high to low
+at some point within the word.
 The first mora is low,
 and any particle following the word is also pronounced with a low pitch.
 Similar to 平板 words,
