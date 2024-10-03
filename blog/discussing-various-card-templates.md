@@ -311,7 +311,7 @@ and shouldn't be treated as an advantage of using sentence cards.
 ## Targeted sentence cards
 
 TSC is an optimized card template designed for speed and ease of repetition.
-They are similar [sentence cards](#sentence-cards),
+They are similar to [sentence cards](#sentence-cards),
 but with a key difference: you always **highlight** the target word.
 
 The front side of a TSC typically includes a sentence, phrase, or a few sentences
