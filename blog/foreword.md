@@ -105,10 +105,16 @@ Additionally, you can easily access [dictionaries](tag_dictionaries.html),
 [grammar guides](resources.html#grammar),
 and [software](resources.html#software) to facilitate your language learning.
 
-The AJATT method doesn't require any payments.
+On the other hand,
+if someone tries to sell you language learning courses,
+books, software, or any other resources, it's best to avoid them.
+We believe these are simply scams.
+No one needs to pay money to learn a language.
+
+The AJATT method does not require any payments.
 However,
 because the method is based on self-study,
-you'll need to study by yourself and ensure you follow everything the guide says.
+you will need to study by yourself and ensure you follow everything the guide says.
 Everything depends on how well you study.
 
 ## Technology
