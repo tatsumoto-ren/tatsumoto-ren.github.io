@@ -28,7 +28,8 @@ choose the 20 words that you feel you hear most often in your daily immersion.
 
 ## How to Practice
 
-Deliberate practice is key to improving your pitch accent perception skills.
+Deliberate practice is key to improving your
+[pitch accent](japanese-pitch-accents.html) perception skills.
 *Deliberate practice* is anytime when you engage in a specific activity
 where you can either **succeed or fail**,
 and receive **immediate feedback** on your performance.
