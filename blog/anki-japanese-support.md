@@ -88,7 +88,7 @@ Without reading a usage example it is nearly impossible to reason
 about the meaning or reading of a word.
 
 Another important aspect of the Japanese language is pitch accent.
-[Pitch accent](https://ja.wikipedia.org/wiki/%E9%AB%98%E4%BD%8E%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88)
+[Pitch accent](japanese-pitch-accents.html)
 is taken very seriously among Japanese learners,
 and especially among AJATTers.
 Most people study it diligently.
