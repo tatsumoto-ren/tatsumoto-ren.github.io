@@ -164,7 +164,7 @@ With the mutual support you should be able to migrate back and forth if you want
 
 ### Supermemo
 
-[Supermemo](https://wikiless.org/wiki/SuperMemo?lang=en)
+[Supermemo](https://wikipedia.org/wiki/SuperMemo?lang=en)
 is a [proprietary malware](https://www.gnu.org/proprietary/) program.
 You can't use Supermemo on GNU/Linux and Android.
 
