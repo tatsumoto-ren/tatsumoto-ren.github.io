@@ -73,7 +73,7 @@ The text-to-speech software Duolingo uses is simply awful.
 Mistakes, mistakes, mistakes.
 They are everywhere.
 It pronounces Japanese incorrectly.
-The pitch accent is totally wrong.
+The [pitch accent](japanese-pitch-accents.html) is totally wrong.
 Correctly answered questions are counted as incorrect,
 or vice versa.
 
