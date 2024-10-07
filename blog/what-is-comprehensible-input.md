@@ -17,7 +17,7 @@ tags: ['faq']
 > Understanding spoken and written language input
 > is seen as the only mechanism that results in the increase of underlying linguistic competence.
 >
-> *&mdash; [Input hypothesis](https://wikiless.org/wiki/Input_hypothesis)*
+> *&mdash; [Input hypothesis](https://wikipedia.org/wiki/Input_hypothesis)*
 
 In practice *comprehensible input* is some content in a foreign language.
 It can be anything, text, audio, video.
