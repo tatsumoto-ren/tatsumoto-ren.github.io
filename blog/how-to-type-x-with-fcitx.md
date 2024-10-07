@@ -54,5 +54,6 @@ Typing "xn" outputs ん.
 Type `うえ`.
 
 **Note**:
-Overlines are used in the NHK accent dictionary to mark high pitch accent, e.g. `いっぱい￣`.
+Overlines are used in the NHK accent dictionary to mark high
+[pitch accent](japanese-pitch-accents.html), e.g. `いっぱい￣`.
 When pitch drops, slashes are used `＼`.
