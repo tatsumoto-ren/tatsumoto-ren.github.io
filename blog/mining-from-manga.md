@@ -6,7 +6,7 @@ tags: [guide]
 
 When we read manga,
 sometimes there's a need to quickly
-[OCR](https://wikiless.org/wiki/Optical_character_recognition?lang=en)
+[OCR](https://wikipedia.org/wiki/Optical_character_recognition?lang=en)
 a portion of the screen
 to look up new words and add sentences to Anki.
 To do so, you're going to use an optical character recognition program and a few helper tools.
