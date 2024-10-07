@@ -16,7 +16,8 @@ Firstly,
 it's important to note that manga is not voiced, unlike anime.
 Consequently,
 often when reading you may get lost
-because you won't know how to say certain words correctly and with the right pitch accent.
+because you won't know how to say certain words correctly and with the right
+[pitch accent](japanese-pitch-accents.html).
 If you read something incorrectly, you may accidentally create a bad habit.
 
 Since reading manga is reading immersion,
