@@ -88,7 +88,7 @@ Here I list generic names stripped of version notations, editions, etc.
 * `広辞苑`
 
 Usually people keep `NHK日本語発音アクセント辞典` at the very top
-to quickly access pitch accent information and audio.
+to quickly access [pitch accent](japanese-pitch-accents.html) information and audio.
 
 ## Searching
 
