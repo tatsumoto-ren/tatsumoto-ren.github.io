@@ -37,7 +37,7 @@ That's why your time during the beginner stage is better spent immersing.
 Furthermore,
 for Japanese learners
 it is extremely challenging
-to find someone who understands the pitch accent theory,
+to find someone who understands the [pitch accent](japanese-pitch-accents.html) theory,
 knows pitch accent rules,
 and can assist in developing a native-like accent.
 Self-study has proven to be the most effective method for achieving this objective.
