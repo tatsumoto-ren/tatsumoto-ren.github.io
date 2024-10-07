@@ -125,8 +125,8 @@ and going through the decks will help you better understand your immersion.
 add-on.
 If you notice that the machine-generated readings contain errors,
 please report them in our chat.
-* Pitch accents were mass-generated using the
-[AJT Pitch Accent](https://ankiweb.net/shared/info/1225470483)
+* [Pitch accents](japanese-pitch-accents.html) were mass-generated using the
+[AJT Japanese](https://ankiweb.net/shared/info/1344485230)
 add-on.
 * On cards where vocabulary definitions didn't make much sense
 we replaced them with definitions from JMdict.
