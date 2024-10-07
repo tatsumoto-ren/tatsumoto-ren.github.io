@@ -64,4 +64,4 @@ To record audio on the spot there's a script called [dmenurecord](https://github
 English learners should always check the IPA notations
 of the words they are learning to pronounce.
 For Japanese learners knowing IPA isn't necessary,
-but they need to pay attention to the pitch accent.
+but they need to pay attention to the [pitch accent](japanese-pitch-accents.html).
