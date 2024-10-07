@@ -8,4 +8,4 @@ position: -9864
 Zero.
 
 I assume drinking from bottles is some weird American thing.
-I drink from [cups](https://wikiless.org/wiki/Cup?lang=en).
+I drink from [cups](https://wikipedia.org/wiki/Cup?lang=en).
