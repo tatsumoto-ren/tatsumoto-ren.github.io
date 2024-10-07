@@ -66,7 +66,8 @@ To be able to speak a foreign language well, you need to be able to hear well.
 Pronunciation comes from listening.
 If you can't hear it, you can't say it.
 If you are able to understand everything you hear, you will be able to speak well.
-In addition, a good grasp of the language's phonetics and pitch accent is vital.
+In addition, a good grasp of the language's phonetics
+and [pitch accent](japanese-pitch-accents.html) is vital.
 Lastly,
 research the topic you want to discuss and learn how native speakers converse about it.
 You can't talk about something if you don't know how and what to say.
