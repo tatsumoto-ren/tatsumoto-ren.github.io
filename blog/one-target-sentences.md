@@ -68,7 +68,7 @@ You can also download a collection of premade sentences from
 though they mean slightly different things.
 The term "i+1" was coined by Stephen Krashen
 as a part of his
-[Input hypothesis](https://wikiless.org/wiki/Input_hypothesis?lang=en).
+[Input hypothesis](https://wikipedia.org/wiki/Input_hypothesis?lang=en).
 It refers to a level of input that is slightly above the learner's current level.
 
 > Krashen called this level of input "i+1",
