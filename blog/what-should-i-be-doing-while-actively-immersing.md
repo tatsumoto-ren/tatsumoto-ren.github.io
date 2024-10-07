@@ -11,7 +11,8 @@ position: -9963
 Active immersion is all about making your input comprehensible.
 The main way that we make input comprehensible is through dictionary lookups.
 Aside from that you can pay attention to
-scenery, intonation, pitch accent, levels of politeness and other cultural things.
+scenery, intonation, [pitch accent](japanese-pitch-accents.html),
+levels of politeness (keigo) and other cultural things.
 
 When you're a beginner,
 you will often unable to keep up with the plot.
