@@ -58,7 +58,7 @@ There are three things that may confuse you.
 1) The small `tsu` character.
    It is written as ッ (katakana) or as っ (hiragana).
    Unlike the other characters, it doesn't have a sound.
-   Instead, it [marks a geminate consonant](https://wikiless.org/wiki/Sokuon?lang=en).
+   Instead, it [marks a geminate consonant](https://wikipedia.org/wiki/Sokuon?lang=en).
 2) `っさ` sounds like *ssa*, repeating the *s* sound.
 3) `あっ` sounds like *ah* (a sudden stop).
 4) There are versions of kana with a
