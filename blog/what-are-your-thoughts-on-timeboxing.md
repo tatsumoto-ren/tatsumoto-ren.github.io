@@ -6,7 +6,7 @@ position: -9866
 ---
 
 For those who don't know
-[Timeboxing](https://wikiless.org/wiki/Timeboxing?lang=en)
+[Timeboxing](https://wikipedia.org/wiki/Timeboxing?lang=en)
 is a time management technique
 that helps improve productivity and overcome procrastination.
 To put it in a nutshell,
@@ -19,7 +19,7 @@ Then the cycle repeats.
 Ever since I found out about timeboxing from the
 [AJATT site](https://web.archive.org/web/20081120072552/http://www.alljapaneseallthetime.com/blog/secrets-to-smoother-srsing-part-5-timeboxing),
 I've been doing it often.
-I usually stick to a simple [Pomodoro](https://wikiless.org/wiki/Pomodoro_Technique?lang=en) routine,
+I usually stick to a simple [Pomodoro](https://wikipedia.org/wiki/Pomodoro_Technique?lang=en) routine,
 but sometimes I use shorter intervals.
 
 In language learning,
