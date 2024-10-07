@@ -6,9 +6,9 @@ tags: ['anki']
 
 [Anki](https://wiki.archlinux.org/index.php/Anki)
 is a
-[Spaced repetition](https://wikiless.org/wiki/Spaced_repetition?lang=en)
+[Spaced repetition](https://wikipedia.org/wiki/Spaced_repetition?lang=en)
 system (SRS), a program which allows you to create, manage and review
-[flashcards](https://wikiless.org/wiki/Flashcard?lang=en).
+[flashcards](https://wikipedia.org/wiki/Flashcard?lang=en).
 
 Many language learners find Anki useful to quickly memorize (front-load)
 core vocabulary of their target language (TL),
