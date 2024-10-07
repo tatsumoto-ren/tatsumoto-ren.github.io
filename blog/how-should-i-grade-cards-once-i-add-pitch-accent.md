@@ -6,7 +6,7 @@ position: -9898
 ---
 
 Don't change anything in the grading process.
-Just have pitch accent information on the back of your cards
+Just have [pitch accent](japanese-pitch-accents.html) information on the back of your cards
 but don't take it into account when grading yourself.
 
 If you force yourself to recall the target word **and** its pitch accent at the same time,
