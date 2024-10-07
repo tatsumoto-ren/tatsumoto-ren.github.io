@@ -155,9 +155,9 @@ Explore [Japanese Media Recommendations](https://ixrec.neocities.org/immersion/)
 
 ### Torrent trackers
 
-A [torrent](https://wikiless.org/wiki/BitTorrent)
+A [torrent](https://wikipedia.org/wiki/BitTorrent)
 tracker is a site that hosts user-uploaded
-[torrent files](https://wikiless.org/wiki/Torrent_file).
+[torrent files](https://wikipedia.org/wiki/Torrent_file).
 To download something (like an anime) using torrents
 you usually download a torrent file and open it with a torrent client.
 The torrent client then downloads the actual content.
@@ -388,7 +388,7 @@ Browsing will lead you to more tags.
   and [azw3](https://boroboro.neocities.org/listfullazw3.html).
   A list of books in Epub and azw3 formats.
 * [Sōseki Project](https://www.sosekiproject.org/).
-  Works of [夏目漱石](https://wikiless.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
+  Works of [夏目漱石](https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
   with a number of tools to assist the students of Japanese.
 * [アルファポリス](https://www.alphapolis.co.jp/).
   A site where you can read novels, manga, etc., for free.
@@ -471,7 +471,7 @@ You may need a Japanese IP address for some of these.
   * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
   The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
-* [IPAフォント](https://wikiless.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
+* [IPAフォント](https://ja.wikipedia.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
   Install the [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/) package group.
 * [Kanji stroke order font](https://www.nihilist.org.uk/)
 * [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
