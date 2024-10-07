@@ -458,7 +458,8 @@ Dictionaries for Rikaitan that help you look up Japanese grammar.
 
 ### Pitch accent
 
-Dictionaries for Rikaitan capable of displaying pitch accents of words.
+Dictionaries for Rikaitan capable of displaying
+[pitch accents](japanese-pitch-accents.html) of words.
 The default dictionary is [Kanjium](https://github.com/mifunetoshiro/kanjium).
 
 ### Kanji
