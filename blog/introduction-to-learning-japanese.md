@@ -332,11 +332,11 @@ Kanji come from Chinese and are complex characters that represent concepts.
 ### Kana
 
 Have a look at the Wikipedia pages on
-[Hiragana](https://wikiless.org/wiki/Hiragana?lang=en)
+[Hiragana](https://wikipedia.org/wiki/Hiragana?lang=en)
 and
-[Katakana](https://wikiless.org/wiki/Katakana?lang=en)
+[Katakana](https://wikipedia.org/wiki/Katakana?lang=en)
 to understand what you're dealing with.
-Together they're referred to as the [kana](https://wikiless.org/wiki/Kana?lang=en).
+Together they're referred to as the [kana](https://wikipedia.org/wiki/Kana?lang=en).
 The key points to take away:
 
 * The two alphabets represent the same sounds.
@@ -354,7 +354,7 @@ Either way should take you two days or so to complete, and no more than a week i
 
 ### Kanji
 
-[Kanji](https://wikiless.org/wiki/Kanji?lang=en)
+[Kanji](https://wikipedia.org/wiki/Kanji?lang=en)
 were imported from China a long time ago.
 They are logo-graphic characters used to write words and parts of words.
 To truly learn kanji you need to read native Japanese texts for thousands of hours.
