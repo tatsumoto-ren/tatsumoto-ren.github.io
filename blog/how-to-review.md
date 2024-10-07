@@ -145,7 +145,8 @@ Any type of pronunciation practice requires you to have acquired large aspects o
 and have built strong phonetic awareness.
 If you lack these competences,
 you set yourself to repeat pronunciation mistakes over and over.
-Ideally, you should also actively think about pitch accent when you're practicing speaking,
+Ideally, you should also actively think about
+[pitch accent](japanese-pitch-accents.html) when you're practicing speaking,
 which requires you to know the rules and the accents of individual words.
 
 With this in mind, reading sentences aloud can be helpful,
