@@ -34,7 +34,7 @@ you can install the add-ons I use in my everyday studies (not every add-on from 
 > Main article: [Japanese support for Anki](anki-japanese-support.html)
 
 The most important add-on you'll need is AJT Japanese.
-It's primary feature is generating [furigana](https://wikiless.org/wiki/Furigana?lang=en),
+It's primary feature is generating [furigana](https://wikipedia.org/wiki/Furigana?lang=en),
 which you're going to need every day.
 
 <p align="center"><img class="shadow" alt="demo" src="https://raw.githubusercontent.com/Ajatt-Tools/Furigana/main/img/furigana_demo.webp"></p>
@@ -44,7 +44,7 @@ This add-on is similar to
 
 To configure the add-on, open Anki and select "AJT" > "Japanese Options...".
 
-The add-on can add pitch accent graphs to your cards.
+The add-on can add [pitch accent](japanese-pitch-accents.html) graphs to your cards.
 Note that
 [Rikaitan](setting-up-yomichan.html)
 has a similar feature,
@@ -263,7 +263,7 @@ out of respect for people who run AnkiWeb servers
 as well as to make syncing faster.
 Paste Images As WebP helps to compress images on-the-fly when you make Anki cards.
 As the name says, it does that by converting images to
-[WebP](https://wikiless.org/wiki/WebP?lang=en)
+[WebP](https://wikipedia.org/wiki/WebP?lang=en)
 format which is famous for excellent compression.
 
 The add-on comes with a number of settings,
