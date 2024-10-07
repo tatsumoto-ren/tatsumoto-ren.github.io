@@ -126,7 +126,7 @@ that disambiguate certain aspects of the target word.
 
 The back of the card contains everything you need to understand the target word:
 
-* Readings and pitch accents
+* Readings and [pitch accents](japanese-pitch-accents.html)
 * Example sentence
 * Definitions
 * Audio
@@ -221,7 +221,7 @@ that are frequent enough to keep the more difficult word in memory.
 
 On the back you find readings and dictionary definitions.
 Optimally you also want to add audio for the entire sentence and/or the target word,
-pitch accent information
+[pitch accent](japanese-pitch-accents.html) information
 and a picture if the sentence comes from a video.
 
 <p align="center"><img alt="example-sentence-card" class="shadow" src="img/example-sentence-card.webp"></p>
