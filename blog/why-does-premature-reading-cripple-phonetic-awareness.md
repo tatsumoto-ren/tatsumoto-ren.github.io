@@ -52,7 +52,7 @@ in [AJATT](whats-ajatt.html),
 we must find a compromise between listening and reading.
 By utilizing the power of reading,
 we can progress more quickly in acquiring the language and achieving literacy,
-but we also harm our pitch accent and speaking skills.
+but we also harm our [pitch accent](japanese-pitch-accents.html) and speaking skills.
 
 The toughest decision you will face
 is determining the right balance between listening and reading.
