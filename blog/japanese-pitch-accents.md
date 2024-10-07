@@ -56,7 +56,8 @@ so you may actually be hard to understand if your pitch is incorrect.
 ## Intonation
 
 In Japanese,
-pitch accent is correctly referred to as 高低アクセント.
+pitch accent is correctly referred to as
+[高低アクセント](https://ja.wikipedia.org/wiki/%E9%AB%98%E4%BD%8E%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88).
 However,
 casually,
 Japanese speakers may mistakenly call it イントネーション.
