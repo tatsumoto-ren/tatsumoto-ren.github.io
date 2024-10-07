@@ -5,6 +5,5 @@ tags: ['faq']
 position: -9875
 ---
 
-See [this entry](https://wikiless.org/wiki/%E3%81%8B%E3%82%9C?wprov=sfla1&lang=ja)
-on WikiLess.
+See [this page](https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%9C?wprov=sfla1&lang=ja).
 This is called <abbr title="bidakuon, nasal muddy sound">鼻濁音</abbr>.
