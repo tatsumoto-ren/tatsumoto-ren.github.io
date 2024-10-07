@@ -194,7 +194,8 @@ But mostly it's very good.
 
 `大辞林` and `新明解` provide pitch accent information,
 so you may want to install them first.
-Pitch accent is a topic that is given significant attention among Japanese learners.
+[Pitch accent](japanese-pitch-accents.html)
+is a topic that is given significant attention among Japanese learners.
 
 ## Looking up unknown words
 
