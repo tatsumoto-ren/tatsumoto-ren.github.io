@@ -6,7 +6,7 @@ position: -9891
 ---
 
 The robot voice doesn't sound like real Japanese.
-Particularly, it makes a lot of pitch accent mistakes.
+Particularly, it makes a lot of [pitch accent](japanese-pitch-accents.html) mistakes.
 Even if you don't count pitch accent, the computer-generated audio is still very bad.
 You never want to be feeding your brain toxic input.
 
