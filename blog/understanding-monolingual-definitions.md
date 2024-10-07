@@ -35,7 +35,7 @@ followed by the name of the dictionary.
 ## Headword
 
 First you see the word in kana.
-The number to the right in square brackets `[]` is pitch accent.
+The number to the right in square brackets `[]` is [pitch accent](japanese-pitch-accents.html).
 You'll find about pitch accent at the end of the page.
 
 If next to the hiragana reading you see a slightly different reading in katakana,
