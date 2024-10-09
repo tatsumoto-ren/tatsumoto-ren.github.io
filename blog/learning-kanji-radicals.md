@@ -44,6 +44,7 @@ although it is not essential for reading and writing kanji.
 	<source src="https://matrix.cutefunny.art/_matrix/media/r0/download/cutefunny.art/1658370db82ae62bc2ef131cffb30e00178dfacf" type="video/mp4">
 	<source src="https://invidious.private.coffee/latest_version?id=Dz7Wt7dT6aI&itag=22" type="video/mp4">
 	<source src="vid/explaining_radicals.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/explaining_radicals.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 
