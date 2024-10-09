@@ -733,6 +733,9 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
   A cross-platform downloader for manga and anime from various websites.
 * [Megatools](https://megatools.megous.com/).
   A command line client for Mega.
+* [JDownloader](https://wiki.archlinux.org/title/JDownloader).
+  A download manager that can download normal files and files from online file hosting services,
+  such as Mail.ru Cloud.
 
 ### Subtitle retiming
 
