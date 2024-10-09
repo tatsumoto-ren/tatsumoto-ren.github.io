@@ -57,6 +57,7 @@ Using `Rofi` I can choose to send the selected text to various apps and websites
 	<source src="https://nerdsin.space/_matrix/media/r0/download/nerdsin.space/9c5a600087544c8d81ff3bd6d30f5389c78652fb" type="video/mp4">
 	<source src="https://invidious.private.coffee/latest_version?id=ZEaF4RS1Ta0&itag=22" type="video/mp4">
 	<source src="vid/plumbing_video_demo.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/plumbing_video_demo.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 
