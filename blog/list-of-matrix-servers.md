@@ -71,7 +71,6 @@ You may need to Email an admin to get an account.
 | `matrix.im`              |                                                               |                                                      |
 | `sibnsk.net`             | [element](https://element.sibnsk.net)                         |                                                      |
 | `matrix.unredacted.org`  | [element](https://element.unredacted.org)                     | last checked - closed                                |
-| `zelchat.de`             | [chat.zelchat.de](https://chat.zelchat.de/)                   |                                                      |
 
 ## Servers run by Japanese people
 
