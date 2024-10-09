@@ -283,6 +283,8 @@ Browsing will lead you to more tags.
 
 * [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
   A shared folder with movies and other content with Japanese dubs.
+  You can use something like [JDownloader](https://wiki.archlinux.org/title/JDownloader)
+  to download from Mail Cloud.
 * [Terrace House BGND](https://web.archive.org/web/20231128141849/https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177).
   Terrace House torrent files from Nyaa in one place.
 
