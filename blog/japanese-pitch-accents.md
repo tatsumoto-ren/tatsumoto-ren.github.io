@@ -136,6 +136,7 @@ Each mora is given **the same** amount of time when pronounced.
 * `あ` is one mora.
 * `ー` (long vowel mark) and small `っ` each count as one mora.
 * `東京(とうきょう)` has 4 moras: `と`, `う`, `きょ` and `う`.
+* `借金(しゃっきん)` has 4 moras: `しゃ`, `っ`, `き`, `ん`.
 
 ## Mora vs syllable
 
