@@ -5,24 +5,35 @@ tags: ['faq']
 position: -9961
 ---
 
-Roughly in three parts.
+You can divide your **active study** time roughly in three parts.
 
-* Spend 1/3 of your time reading, 1/3 listening and 1/3 doing Anki.
-* Don't spend more than 1 hour a day on Anki, distribute the rest.
-* Watching TV with subtitles counts towards reading.
-* Here passive immersion doesn't count as "studying".
+* Spend 1/3 of your time reading, 1/3 listening, and 1/3 using [Anki](setting-up-anki.html).
+* Limit your Anki usage to no more than 1 hour a day.
+  Dedicate the rest of your time to immersion.
+* Watching movies and TV shows with subtitles counts as reading.
+* Note that here we don't take into account passive immersion.
 
-So, on a bad day when you have only `3` hours of study time,
-you do each activity for `1` hour.
-On a good day when you have, let's say, `12` hours a day,
-you spend `1` hour on Anki,
-`5.5` hours on listening and `5.5` hours on reading.
+In other words,
+[immerse](whats-immersion.html) as much as possible.
+Try to immerse all the time,
+but additionally dedicate 1 hour a day to the [SRS](spaced-repetition.html)
+to help retain what you learn.
+
+For example,
+on a bad day
+when you only have `3` hours to study,
+spend `1` hour on each activity.
+On a good day
+when you have, say, `12` hours,
+allocate `1` hour to Anki,
+`5.5` hours for listening,
+and `5.5` hours for reading.
 
 We know that [due to subvocalizing](early-output-or-reading-ahead-of-listening.html)
-too much reading causes harm in long term.
+too much reading as a beginner causes harm in long term.
 Depending on your goals,
 when allocating your study time,
-you could **increase the time spent listening** (and watching raw)
+you may want to **increase the time spent listening** (and watching raw content)
 at the expense of reading time.
 
 Without immersion, Anki helps very little.
