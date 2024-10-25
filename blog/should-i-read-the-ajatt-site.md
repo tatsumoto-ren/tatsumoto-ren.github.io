@@ -1,5 +1,5 @@
 ---
-title: Should I read the AJATT site?
+title: Should I read Khatzumoto's blog?
 date: 1666824716
 tags: ['faq']
 position: -9700
@@ -10,12 +10,12 @@ In my previous article,
 I introduced the AJATT method,
 which was created by Khatzumoto in 2006.
 If you're interested in learning more about Khatzumoto's original ideas,
-you may want to read the AJATT site.
+you may want to read his blog.
 It can help answer some of your language learning questions.
 
 Khatzumoto was active from 2006 to 2010,
 during which time he wrote a series of articles
-that formed the bulk of the original table of contents.
+that formed the bulk of the original Table Of Contents.
 Although the site disappeared from the Internet around 2023,
 you can still access the articles on archive.org.
 
@@ -35,10 +35,10 @@ I also recommend exploring
 [the older version](https://web.archive.org/web/20080828035044/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 which contains less junk.
 
-The latest available version of the AJATT site is a mess.
+The latest available version of the old AJATT blog is a mess.
 Although AJATT began as a free blog,
-the articles outside the table of contents
+the articles outside the Table Of Contents
 are cluttered with ads for Khatzumoto's language learning products.
 They are frankly just useless junk of questionable quality.
 There are free (and libre) alternatives available.
-Therefore, reading only the table of contents should suffice.
+Therefore, reading only the Table Of Contents should suffice.
