@@ -765,6 +765,8 @@ regarding using an Android device.
 
 * [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
   A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
+* [Fcitx repo](https://f5a.torus.icu/fdroid/repo?fingerprint=5D87CE1FAD3772425C2A7ED987A57595A20B07543B9595A7FD2CED25DFF3CF12).
+  Fcitx for Android.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
   A free/libre flashcard application, Android version.
 * [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
