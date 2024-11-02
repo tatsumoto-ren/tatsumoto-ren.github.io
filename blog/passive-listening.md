@@ -75,10 +75,7 @@ is a music player with a server-client architecture,
 it runs in the background as a daemon,
 and you need a separate client application to connect to it.
 The most widely used mpd client is `ncmpcpp`, but there are many alternatives listed on
-[Arch Wiki](https://wiki.archlinux.org/index.php/Music_Player_Daemon#Clients), such as
-[Cantata](https://archlinux.org/packages/?name=cantata)
-or
-[GMPC](https://aur.archlinux.org/packages/gmpc/).
+[Arch Wiki](https://wiki.archlinux.org/index.php/Music_Player_Daemon#Clients).
 
 After you've installed `mpd`, create the config and playlists directories:
 
