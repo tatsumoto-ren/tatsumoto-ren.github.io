@@ -4,9 +4,10 @@ date: 1682776445
 tags: ['faq']
 ---
 
-There's really not that much to it.
+There's really not much to it.
 
-The way I learned to understand spoken Japanese is by watching raw anime.
+The way I learned to understand spoken Japanese
+was by [watching raw anime](mining-from-movies-and-tv-shows.html).
 If you're a fan of anime, you'll find this method enjoyable and engaging.
 Anime is easy to understand
 because it is voiced by professional voice actors who typically speak clearly
@@ -21,10 +22,19 @@ But how do you make the most out of this practice? Here are some tips:
 
 1) Watch an episode first without subtitles or translations.
    This helps you focus on the sounds of the language rather than relying on written cues.
-1) After watching, read the Japanese subtitles and learn any unknown words.
-   This expands your vocabulary
-   and helps you notice the words when you hear them again later.
-1) Extract the audio track and listen to it multiple times using [mpd](passive-listening.html#mpd).
+   Alternatively,
+   you can watch without subs,
+   but read the Japanese subtitles only when you hear something you can't understand.
+1) Whenever you notice words you don't understand,
+   look them up in a dictionary.
+   [Make flashcards](sentence-mining.html) to ensure you don't forget what you've learned.
+   This will expand your vocabulary
+   and help you recognize the words when you hear them again later.
+
+   If you didn't pause during the episode,
+   read the Japanese subtitles after finishing watching
+   and learn any unknown words that you missed.
+1) Extract the audio track and listen to it multiple times [using mpd](passive-listening.html#mpd).
    You will hear and notice the words you've learned recently.
    Repetition helps train your ear to distinguish individual sounds and patterns.
 
