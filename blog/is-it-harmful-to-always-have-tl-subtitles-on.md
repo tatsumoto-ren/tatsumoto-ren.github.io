@@ -27,7 +27,7 @@ And if you don't care about accent at all,
 maybe if you're learning your TL only to be able to read TL books or watch TV shows with subs,
 then it's okay to have them on all the time.
 
-The amount of passive immersion you're doing also plays a role.
+The amount of [passive immersion](passive-immersion.html) you're doing also plays a role.
 You can allow yourself to watch more content with subs
 if you listen a lot in the background.
 
