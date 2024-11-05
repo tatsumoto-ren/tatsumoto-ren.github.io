@@ -5,7 +5,8 @@ tags: ['faq']
 position: -9987
 ---
 
-Watching with subs is a reading activity.
+Watching with subs is a
+[reading activity](is-watching-anime-with-jp-subtitles-considered-as-reading.html).
 If you have subtitles on all the time,
 you have less,
 maybe even no time to practice listening to the target language.
