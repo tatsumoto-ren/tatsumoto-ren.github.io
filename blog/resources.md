@@ -853,7 +853,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 * Rikaitan.
   Rikaitan is a browser extension that lets you easily look up unknown words.
   * [How to set up Rikaitan](setting-up-yomichan.html)
-  * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#yomichan)
+  * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#rikaitan)
   * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
 * [dictpopup](https://github.com/Ajatt-Tools/dictpopup).
   Looks up selected (Japanese) text in your Yomichan/Rikaitan dictionaries
