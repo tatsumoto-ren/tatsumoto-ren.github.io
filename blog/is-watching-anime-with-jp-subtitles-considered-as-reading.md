@@ -15,7 +15,6 @@ you are not fully paying attention to the native speech.
 Instead,
 you focus on your internal subvocalization while reading the subtitles.
 
-
 If you watched anime with English subtitles before starting to learn Japanese,
 you've likely spent thousands of hours listening to native Japanese.
 However,
@@ -46,4 +45,14 @@ while you're still a beginner.
 Therefore,
 AJATT recommends prioritizing listening to avoid this issue.
 
-Related: [How should I divide my study time?](how-should-i-divide-my-study-time.html)
+We recommend disabling subtitles if you don't need them.
+For those who need them,
+enable them only when you don't understand something.
+Keeping them visible creates a hindrance,
+and you can't help but read the subs even if it's unintentional.
+It's [difficult to ignore](en-and-ja-subs-at-the-same-time.html) them completely.
+
+So,
+regardless of your current skill level,
+when we [divide our study time](how-should-i-divide-my-study-time.html),
+watching something with TL subs counts toward your reading time.
