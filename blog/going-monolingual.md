@@ -36,6 +36,9 @@ are such dictionaries.
 They provide definitions using a restricted vocabulary,
 helping non-native English speakers understand meanings easily.
 
+<p align="center"><img class="shadow" src="img/goldendict-lookup-主導権.webp" alt="Monolingual definitions"></p>
+<p align="center"><i>Monolingual definitions.</i></p>
+
 ## What does it mean to Go Monolingual?
 
 "Going monolingual" refers to the transition process
@@ -46,9 +49,9 @@ including bilingual dictionaries,
 as an aid.
 
 Once you fully go monolingual,
-whenever you stumble upon an unknown word during immersion,
-you look up its meaning in a monolingual dictionary
-and add only the monolingual definition to your Anki card.
+whenever you stumble upon an unknown word during [immersion](whats-immersion.html),
+you look up its meaning in a [monolingual dictionary](yomichan-and-epwing-dictionaries.html)
+and add only the monolingual definition to your [Anki](setting-up-anki.html) card.
 You want to avoid bilingual definitions
 because they often fail to correctly express the real meanings of words.
 
