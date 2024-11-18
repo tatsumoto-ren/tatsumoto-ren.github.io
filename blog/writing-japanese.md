@@ -164,7 +164,7 @@ Now let's say Anki has shown you a card with this sentence in the search results
 病院で鬱病と診断されると、抗鬱薬が処方されます
 ```
 The target word here is `抗鬱薬`, and it contains the kanji you need `鬱`.
-Now you can create a Production cards from the existing Recognition card and learn it.
+Now you can create a Production card from the existing Recognition card and learn it.
 You can see a list of all newly created Production cards
 by typing `added:1 card:Production` in the Anki Browser's search bar.
 
