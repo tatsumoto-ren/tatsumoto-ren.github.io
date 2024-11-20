@@ -7,7 +7,7 @@ position: -9984
 
 Slice of life shows.
 
-You can divide the language into domains of interest.
+You can divide the language into [domains of interest](language-domains.html).
 The easiest domains are shows for children, slice of life and romance anime.
 Since in TV shows for kids there's often very little dialogue,
 and the speech is too simplified,
