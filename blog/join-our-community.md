@@ -23,7 +23,17 @@ it is still better than many proprietary services.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
 
+## Our group
+
+This is the main group for chatting about Japan, the Japanese language, and other things.
+
 <a target="_blank" class="md-button telegram" href="https://t.me/+cEpSHZC_tMI4NDZi">Join us on Telegram</a>
+
+## Channel
+
+I post announcements in this channel.
+
+<a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools">Telegram Channel</a>
 
 ## Rules
 
@@ -60,7 +70,7 @@ because it is naturally more extensible and user-friendly.
 
 If you have a question specifically for me,
 ping me in the chat by prepending your message with
-`@tatsumoto:cutefunny.art` on Matrix or `@tatsumoto` on Telegram.
+`@tatsumoto` on Telegram.
 
 ## Community stickers
 
