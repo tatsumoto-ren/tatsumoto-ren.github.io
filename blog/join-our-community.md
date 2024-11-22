@@ -9,36 +9,9 @@ Join us to make friends, get help, ask questions,
 contribute to our [projects](https://github.com/Ajatt-Tools)
 and find countless new learning resources!
 
-You can join us on Matrix or on Telegram.
+You can join us on Telegram.
 
 ****
-
-## Matrix
-
-We have a very rich and vibrant community on
-[Matrix](https://wiki.archlinux.org/index.php/Matrix).
-Matrix is great because it's a completely libre communication protocol.
-Matrix is federated and consists of many servers, much like Email.
-Different Matrix servers are able to talk to each other.
-Before you join, install a
-[Matrix client](https://wiki.archlinux.org/index.php/List_of_applications/Internet#Matrix_clients)
-and register an account on one of the [servers](list-of-matrix-servers.html).
-If you're new to Matrix, read [Matrix quickstart guide](matrix-quickstart-guide.html).
-
-<a target="_blank" class="md-button element" href="https://matrix.to/#/#join:midov.pl">Join us on Element</a>
-
-If you already have a Matrix client,
-you can simply open it and join `#join:midov.pl`.
-
-When you join the community, you'll start in *Starting Lounge*.
-This is a room for new members.
-From there you can explore our community
-by following the links in the room's description.
-Note that `matrix.org` users aren't allowed to join any other rooms
-except Starting Lounge and a couple others.
-
-If you want to keep in touch from an Android device,
-install [Element for Android](https://f-droid.org/en/packages/im.vector.app/).
 
 ## Telegram
 
@@ -91,19 +64,8 @@ ping me in the chat by prepending your message with
 
 ## Community stickers
 
-If you're a Telegram user, installing
-[our community sticker pack](https://t.me/addstickers/ajatt)
-is easy, you just click on the link.
-On Matrix, it's a little more tricky.
-You need to host your stickers yourself.
-See the
-[stickerpicker](https://github.com/maunium/stickerpicker)
-GitHub repo and
-[this video](https://redirect.invidious.io/watch?v=Yz3H6KJTEI0)
-for detailed instructions.
-To use our Telegram stickers on Matrix,
-import them to your self-hosted repo using the `sticker-import` command
-or copy the URL of
-[the pack I host for myself](https://tatsumoto-ren.github.io/stickerpicker/web/).
-To add the sticker pack to your Matrix account, follow the instructions
-[here](https://github.com/maunium/stickerpicker/wiki/Enabling-the-widget).
+To install our community sticker packs,
+just click on the links below.
+
+* [Part 1](https://t.me/addstickers/ajatt)
+* [Part 2](https://t.me/addstickers/ajatt2)
