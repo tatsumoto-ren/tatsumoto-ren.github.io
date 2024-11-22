@@ -61,7 +61,6 @@ You may need to Email an admin to get an account.
 
 | Server                   | Web client                                                    | Extra                                                |
 | :---                     | :---                                                          | :---                                                 |
-| `cutefunny.art`          | [cutefunny.art](https://matrixclient.cutefunny.art/)          | 🏆                                                   |
 | `iddqd.chat`             | [iddqd.chat](https://iddqd.chat/)                             | last checked - closed                                |
 | `nitro.chat`             | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
 | `midov.pl`               | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
@@ -85,18 +84,19 @@ The list contains popular servers that have proven themselves unreliable.
 A server is added to this list if it has been caught banning user accounts
 or rooms without prior notice.
 
-| Server                         | Information                                                                                                                                   |
-| :---                           | :---                                                                                                                                          |
-| `waifuhunter.club`             | Admin deactivated users' accounts without prior notice.                                                                                       |
-| `matrix.org`                   | Explained above.                                                                                                                              |
-| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                                                                   |
-| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                                                                 |
-| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                                                               |
-| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users.                                            |
-| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                                                                     |
-| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                                                                     |
-| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                                                                 |
-| `nerdsin.space`                | Admin deactivated users' accounts after receiving fake reports.                                                                               |
+| Server                         | Information                                                                                        |
+| :---                           | :---                                                                                               |
+| `waifuhunter.club`             | Admin deactivated users' accounts without prior notice.                                            |
+| `matrix.org`                   | Explained above.                                                                                   |
+| `*.modular.im` or `*.ems.host` | Affiliated with matrix.org.                                                                        |
+| `tchncs.de`                    | Admin blocked rooms in pursuit of censorship.                                                      |
+| `asra.gr`                      | Admin deactivated users' accounts after receiving fake reports.                                    |
+| `lolisho.chat`                 | Admin deactivated users' accounts for no apparent reason. Admin leaked IP addresses of some users. |
+| `synod.im`                     | Admin deactivated users' accounts for no apparent reason.                                          |
+| `utwente.io`                   | Admin deactivated users' accounts for no apparent reason.                                          |
+| `envs.net`                     | Admin blocked rooms in pursuit of censorship.                                                      |
+| `nerdsin.space`                | Admin deactivated users' accounts after receiving fake reports.                                    |
+| `cutefunny.art`                | Admin logged in to users' accounts without their consent. Admin hijacked users' accounts.          |
 
 A full list that includes less popular servers is available
 [here](https://tatsumoto-ren.github.io/matrix/#blocklist).
