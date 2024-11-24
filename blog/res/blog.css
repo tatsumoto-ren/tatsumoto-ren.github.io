@@ -1186,6 +1186,20 @@ a.md-button.telegram::before {
     background-image: url("https://telegram.org/img/t_logo.svg");
 }
 
+/* Chats - SimpleX */
+
+a.md-button.simplex {
+    background-color: #0053d0;
+}
+
+a.md-button.simplex:is(:hover, :active, :focus) {
+    background-color: #063b8c;
+}
+
+a.md-button.simplex::before {
+    background-image: url("https://raw.githubusercontent.com/simplex-chat/simplex-chat/refs/heads/stable/website/src/img/icon.svg");
+}
+
 /* LibrePay */
 
 a.md-button.lp {
