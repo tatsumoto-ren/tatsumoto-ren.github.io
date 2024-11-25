@@ -44,9 +44,12 @@ I post announcements in this channel.
 <p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
 </details>
 
-You can install
+On GNU/Linux,
+you can install
 <a href="https://aur.archlinux.org/packages/simplex-desktop-bin">simplex-desktop-bin</a>
 from the AUR in order to use SimpleX chat.
+On Android,
+install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
 
 ## Rules
 
