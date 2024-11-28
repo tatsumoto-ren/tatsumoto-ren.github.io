@@ -37,19 +37,20 @@ I post announcements in this channel.
 
 ## SimpleX chat
 
-<a target="_blank" class="md-button simplex" href="https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FzhO5MVmLUUhH5hh-te8Ka8rp1CQqq8kZ%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAX5m140ScsaXwqLoZtI0vtCRN4T8PCxEf-m0G-0vEbFQ%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22i28MPKFVNz_u7jjOG-CUGA%3D%3D%22%7D">SimpleX chat</a>
-
-<details>
-<summary>QR code</summary>
-<p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
-</details>
-
+SimpleX is a private and secure messenger without any user IDs.
 On GNU/Linux,
 you can install
 <a href="https://aur.archlinux.org/packages/simplex-desktop-bin">simplex-desktop-bin</a>
 from the AUR in order to use SimpleX chat.
 On Android,
 install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
+
+<a target="_blank" class="md-button simplex" href="https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2FzhO5MVmLUUhH5hh-te8Ka8rp1CQqq8kZ%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAX5m140ScsaXwqLoZtI0vtCRN4T8PCxEf-m0G-0vEbFQ%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22i28MPKFVNz_u7jjOG-CUGA%3D%3D%22%7D">SimpleX chat</a>
+
+<details>
+<summary>QR code</summary>
+<p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
+</details>
 
 ## Rules
 
