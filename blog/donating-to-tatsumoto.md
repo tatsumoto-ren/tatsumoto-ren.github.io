@@ -106,6 +106,8 @@ You can donate on
 [Boosty](https://boosty.to/tatsumoto/donate)
 too, which is a platform similar to Patreon.
 
+<a target="_blank" class="md-button boosty" href="https://boosty.to/tatsumoto/donate">Boosty</a>
+
 ## DonationAlerts
 
 <a target="_blank" class="md-button donationalerts" href="https://www.donationalerts.com/r/tatsumoto">DonationAlerts</a>

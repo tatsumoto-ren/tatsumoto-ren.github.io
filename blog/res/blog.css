@@ -1231,6 +1231,21 @@ a.md-button.patreon::before {
     background-image: url("/blog/img/patreon_logo.webp");
 }
 
+/* Boosty */
+
+a.md-button.boosty {
+    background-color: color-mix(in srgb, #ff6701, #262626 30%);
+}
+
+a.md-button.boosty:is(:hover, :active, :focus) {
+    background-color: color-mix(in srgb, #ff8101, #262626 10%);
+}
+
+a.md-button.boosty::before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Слой_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 235.6 292.2' style='enable-background:new 0 0 235.6 292.2;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:url(%23SVGID_1_);%7D%0A%3C/style%3E%3Cg id='b_1_'%3E%3ClinearGradient id='SVGID_1_' gradientUnits='userSpaceOnUse' x1='145.0777' y1='76.148' x2='80.5868' y2='296.0785'%3E%3Cstop offset='0' style='stop-color:%23EF7829'/%3E%3Cstop offset='5.189538e-02' style='stop-color:%23F07529'/%3E%3Cstop offset='0.3551' style='stop-color:%23F0672B'/%3E%3Cstop offset='0.6673' style='stop-color:%23F15E2C'/%3E%3Cstop offset='1' style='stop-color:%23F15A2C'/%3E%3C/linearGradient%3E%3Cpath class='st0' d='M44.3,164.5L76.9,51.6H127l-10.1,35c-0.1,0.2-0.2,0.4-0.3,0.6L90,179.6h24.8c-10.4,25.9-18.5,46.2-24.3,60.9 c-45.8-0.5-58.6-33.3-47.4-72.1 M90.7,240.6l60.4-86.9h-25.6l22.3-55.7c38.2,4,56.2,34.1,45.6,70.5 c-11.3,39.1-57.1,72.1-101.7,72.1C91.3,240.6,91,240.6,90.7,240.6z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 28px;
+}
+
 /* DonationAlerts */
 
 a.md-button.donationalerts {
