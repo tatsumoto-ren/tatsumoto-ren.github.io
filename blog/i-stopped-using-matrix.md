@@ -15,7 +15,7 @@ I started using Matrix in 2018 and became a strong advocate for it in 2020.
 In that year,
 I created DJT (Daily Japanese Thread),
 a Japanese learning community on Matrix
-dedicated to discussing about the [AJATT](whats-ajatt.html) method of language learning.
+dedicated to talking about the [AJATT](whats-ajatt.html) method of language learning.
 For a long time,
 I tried to persuade people to join Matrix,
 but now it's time to cut my losses and move on.
@@ -130,7 +130,7 @@ the platform **shouldn't depend on third-party servers for hosting users' data**
 And of course,
 only you should have the power to deactivate or remove your account,
 which is not the case on Matrix.
-There are [many alteranives to Matrix](https://bkil.gitlab.io/secuchart/)
+There are [many alternatives to Matrix](https://bkil.gitlab.io/secuchart/)
 that do not host conversations on servers you can't control.
 Good options that I've found include Session and SimpleX.
 Since Session doesn't support large groups,
