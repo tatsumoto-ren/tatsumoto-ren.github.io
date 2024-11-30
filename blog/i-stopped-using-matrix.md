@@ -156,7 +156,7 @@ people are not moving to Matrix at the rate I had hoped.
 So,
 over the past couple of months,
 I've been considering telling our members on Matrix to migrate to something else.
-The upside is that we won't lose many members by discontinuing our Matrix community.
+The upside is that we won't lose many active members by discontinuing our Matrix community.
 
 If you've been a member of our Matrix chat,
 please feel free to [migrate to Telegram](join-our-community.html#our-group) instead.
