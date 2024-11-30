@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to use Free Software to learn Japanese, and more." />
+<meta name="author" content="Tatsumoto Ren" />
+<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
+<link rel="stylesheet" href="res/blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<link rel="icon" type="image/webp" href="/img/logo.webp"/>
+<title>I Stopped Using Matrix</title>
+<meta property="og:title" content="I Stopped Using Matrix">
+<meta property="og:site_name" content="Tatsumoto's guide to learning Japanese">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html">
+<meta property="og:description" content="How to use Free Software to learn Japanese, and more.">
+<meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
+<script defer src="res/blog.js"></script>
+</head>
+<body>
+<input type="checkbox" id="menu-btn" />
+<header>
+<a href="index.html" class="logo">
+<img alt="達元" src="/img/logo.webp" />
+<span>Tatsumoto</span>
+</a>
+<div id="description">How to use Free Software to learn Japanese, and more.</div>
+<nav>
+<a href="table-of-contents.html" class="guide_link">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="ankidrone-decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html" class="important">Join chat</a>
+</nav>
+<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
+</header>
+<div id="sidebar">
+<form action="" name="sidebar_header" class="sidebar_header">
+<a href="/" title="Go home">Home</a>
+<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+<input title="Pink theme" type="radio" name="blog-theme" id="pink">
+<input title="Dark theme" type="radio" name="blog-theme" id="dark">
+<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+</form>
+<div class="important-links on-mobile">
+<a href="table-of-contents.html">Guide</a>
+<a href="our-immersion-learning-toolset.html">Tools</a>
+<a href="resources.html">Resources</a>
+<a href="ankidrone-decks.html">Decks</a>
+<a href="tag_dictionaries.html">Dictionaries</a>
+<a href="tag_faq.html">FAQ</a>
+</div>
+<hr>
+<div class="page-contents"></div>
+<hr>
+<div class="important-links">
+<a href="donating-to-tatsumoto.html">Donate</a>
+<a href="join-our-community.html">Join chat</a>
+</div>
+</div>
+<div id="divbodyholder">
+<div id="divbody">
+<main>
+<!-- entry begin -->
+<article timestamp="1732986171" position="0">
+<h1 class="title"><a class="ablack" href="i-stopped-using-matrix.html">I Stopped Using Matrix</a></h1>
+<div class="subtitle">November 30, 2024 &mdash; Tatsumoto Ren</div>
+<!-- text begin -->
+<p>I have some exciting news, folks!
+You've been asking me to do this for a long time,
+and now the moment has finally arrived.
+I've decided to discontinue our Matrix community
+in favor of a different platform.</p>
+<hr>
+<p>I started using Matrix in 2018 and became a strong advocate for it in 2020.
+In that year,
+I created DJT (Daily Japanese Thread),
+a Japanese learning community on Matrix
+dedicated to discussing about the <a href="whats-ajatt.html">AJATT</a> method of language learning.
+For a long time,
+I tried to persuade people to join Matrix,
+but now it's time to cut my losses and move on.</p>
+<p>Matrix has its drawbacks, which isn't surprising.
+I've ignored them for quite some time,
+but I can't continue doing that.</p>
+<p>The reality is that all Matrix clients are hideous.
+They are slow,
+and every time I open Element,
+I have to wait for ages for everything to load.
+Some clients fail to load anything at all.
+Some clients also consume a lot of RAM.
+If a room has many service events (like joins, nickname changes, avatar changes, etc.),
+it starts to lag when you try to scroll through the timeline.
+As an admin,
+you can't clear a room's history with just one click.
+Moreover,
+if you attempt to redact all messages from a particular user,
+which is often necessary when someone posts spam,
+you'll be rate-limited by your homeserver,
+and eventually,
+the room will start lagging.
+Meanwhile, <a href="https://wiki.archlinux.org/title/Telegram">Telegram</a> works instantly.</p>
+<p>Most Matrix servers are also awful.
+They often have strict and unreasonable rules,
+or no rules at all,
+and they tend to be very slow.
+You can get banned randomly.
+I once got banned from a server because the admin ran out of disk space
+and started purging people's accounts to reclaim it back.
+Servers don't sync properly,
+which can leave rooms in conflicting states.
+For example,
+you might appear as an admin of a room on one server
+but as a regular user on another.
+Even worse,
+your account may be completely absent from a room when viewed from a different server.
+There are also many spammers,
+and we constantly have to deal with deleting their spam.
+Another issue is that people are often reluctant to register on Matrix.
+DJT is also available on Telegram, where the community is noticeably more active.</p>
+<p>These downsides are well-known, and I've dealt with them for years.
+I considered quitting but kept putting it off until now.
+The real reason I decided to leave is different from what most people talk about.</p>
+<p>What ultimately pushed me to leave Matrix was discovering that
+my homeserver's admin was using my account without my consent.
+Specifically,
+he used some sort of server
+<a href="https://web.archive.org/web/20240619034056if_/https://matrix-org.github.io/synapse/v1.46/admin_api/rooms.html#make-room-admin-api">admin API</a>
+to send events to my room under my name
+without logging into my account.
+To anyone present in the room,
+it appeared as though I was sending those events myself.
+This is simply insane!
+No messaging platform should allow this.
+Only you should have access to your account.</p>
+<p>This might sound too terrible to be true,
+but in fact,
+<a href="https://anarc.at/blog/2022-06-17-matrix-notes/#room-admins">this article</a>
+mentions the possibility.</p>
+<blockquote>
+<p>Room administrators are bound to their Matrix ID which is, in turn, bound to
+their home servers. This implies that a home server administrators could (1)
+impersonate a given user and (2) use that to hijack the room. So in practice,
+the home server is the trust anchor for rooms, not the user themselves.</p>
+<p>In an encrypted room even with fully verified members, a compromised or
+hostile home server can still take over the room by impersonating an admin.
+That admin (or even a newly minted user) can then send events or listen on
+the conversations.</p>
+</blockquote>
+<p>When I noticed this happening,
+I messaged the server's admin.
+At the time,
+I was using the <code>cutefunny.art</code> homeserver.
+Here's what he told me:</p>
+<blockquote>
+<p>I can understand how it feels a little intrusive,
+but it doesn't invade on peoples privacy, private conversations stay private.</p>
+</blockquote>
+<p>Even if private conversations are encrypted and cannot be tampered with,
+I primarily use Matrix for public discussions.
+The fact that a room's timeline can be manipulated
+to make it appear as though I did something I never actually did
+is deeply concerning.</p>
+<p>This whole situation shows that Matrix is intrinsically unsafe.
+I understand that most Matrix server admins use their power responsibly,
+but I think it shouldn't be possible for such abuses to occur in the first place.
+It's easy to misuse this power.
+I've seen it happen.
+There are hundreds of Matrix servers,
+and many people choose a server randomly.
+If it happened to me,
+it could easily happen to someone else as well.</p>
+<p>Basically,
+if you use Matrix,
+you either have to host your own server
+or be at the mercy of whoever is hosting it for you.
+I think it's unreasonable to expect everyone to host their own server.
+Therefore,
+the next best option is to find a better place to communicate.
+Ideally,
+the platform <strong>shouldn't depend on third-party servers for hosting users' data</strong>.
+And of course,
+only you should have the power to deactivate or remove your account,
+which is not the case on Matrix.
+There are <a href="https://bkil.gitlab.io/secuchart/">many alteranives to Matrix</a>
+that do not host conversations on servers you can't control.
+Good options that I've found include Session and SimpleX.
+Since Session doesn't support large groups,
+I've decided to move my conversations over to <a href="https://simplex.chat/">SimpleX</a>.</p>
+<p>When I decided to create a Japanese learning community in 2020,
+I chose both Matrix and Telegram.
+The reason I chose Matrix was that other options
+(like <a href="https://spyware.neocities.org/articles/discord">Discord</a>)
+were unfit due to being proprietary and/or spyware.
+The Telegram and Matrix chats have existed somewhat independently of each other,
+although we used a <a href="https://t2bot.io/telegram/">Matrix-to-Telegram bridge bot</a> at some point.
+Eventually,
+we removed the bot because it caused more inconvenience than it was worth.</p>
+<p>For the past few months,
+the Matrix community has been largely inactive (despite having over 5,000 members),
+while the Telegram community has remained much more vibrant.
+This is disappointing given that I have been a strong advocate for using Matrix
+and have promoted it widely.
+For some reason,
+people are not moving to Matrix at the rate I had hoped.
+So,
+over the past couple of months,
+I've been considering telling our members on Matrix to migrate to something else.
+The upside is that we won't lose many members by discontinuing our Matrix community.</p>
+<p>If you've been a member of our Matrix chat,
+please feel free to <a href="join-our-community.html#our-group">migrate to Telegram</a> instead.
+Additionally,
+I recently created a <a href="join-our-community.html#simplex-chat">chat on SimpleX</a>.</p>
+<p>The Telegram group has been around since 2020.
+There,
+you can discuss learning Japanese
+and ask our longtime members who already know Japanese for advice.
+While it's unfortunate that Telegram's backend is proprietary,
+at least you're not running any non-free code on your computer when using the
+<a href="https://github.com/telegramdesktop/tdesktop/">FOSS client</a>.</p>
+<p>I don't expect SimpleX to become popular anytime soon.
+As of 2024,
+SimpleX is still in its early stages in terms of features and usability.
+However,
+since many people refuse to use Telegram
+because it requires registering with a phone number,
+SimpleX will serve as a viable alternative.</p>
+<hr>
+<p>Things to read:</p>
+<ul>
+<li><a href="https://anarc.at/blog/2022-06-17-matrix-notes/">Matrix notes</a>.</li>
+<li><a href="https://bkil.gitlab.io/secuchart/">Possible alternatives to Matrix</a>.</li>
+</ul>
+<!-- text end -->
+</article>
+<!-- entry end -->
+</main>
+</div>
+</div>
+<footer>
+<div class="footer-linkbox">
+<div>
+<h3>Learn Japanese</h3>
+<ul>
+<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
+<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
+<li><a href="/blog/resources.html">Resources</a></li>
+<li><a href="/blog/tag_faq.html">FAQ</a></li>
+<li><a href="/blog/all_tags.html">All tags</a></li>
+</ul>
+</div>
+<div>
+<h3>Anki</h3>
+<ul>
+<li><a href="/blog/setting-up-anki.html">Setup</a></li>
+<li><a href="/blog/how-to-review.html">How to study</a></li>
+<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
+<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+</ul>
+</div>
+<div>
+<h3>Software</h3>
+<ul>
+<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
+<li><a href="/blog/setting-up-goldendict.html">GoldenDict-NG</a></li>
+<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
+<li><a href="/blog/tag_mpv.html">MPV</a></li>
+<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+</ul>
+</div>
+<div>
+<h3>Get in touch</h3>
+<ul>
+<li><a href="feed.rss">RSS</a></li>
+<li><a href="/blog/join-our-community.html">Our community</a></li>
+<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+</ul>
+</div>
+<div>
+<h3>Support us</h3>
+<p>Tatsumoto is a reader-funded site. Consider donating if you found the site useful.</p>
+<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Copyright © Tatsumoto Ren 2020-2024</p>
+<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
+</div>
+</footer>
+</body>
+</html>

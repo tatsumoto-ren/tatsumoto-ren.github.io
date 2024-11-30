@@ -5,9 +5,23 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 28 Nov 2024 21:11:09 +0300</lastBuildDate>
-<pubDate>Thu, 28 Nov 2024 21:11:09 +0300</pubDate>
+<lastBuildDate>Sat, 30 Nov 2024 21:57:05 +0300</lastBuildDate>
+<pubDate>Sat, 30 Nov 2024 21:57:05 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>I Stopped Using Matrix</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>I have some exciting news, folks!
+You've been asking me to do this for a long time,
+and now the moment has finally arrived.
+I've decided to discontinue our Matrix community
+in favor of a different platform.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sat, 30 Nov 2024 20:02:51 +0300</pubDate>
+</item>
 <item>
 <title>How much time should I spend studying basic grammar each day?</title>
 <author>Tatsumoto Ren</author>
@@ -233,24 +247,6 @@ I recommend focusing on <a href="table-of-contents.html">more essential aspects<
 <guid>https://tatsumoto-ren.github.io/blog/learning-kanji-radicals.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 02 May 2024 01:54:15 +0300</pubDate>
-</item>
-<item>
-<title>How to type X with Fcitx?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>This article addresses common questions about typing with Fcitx.</p>
-<p>To enter anything when using Fcitx,
-type what you want to type and then press the space bar.
-Fcitx will provide predictions for the characters you intend to insert.
-If the prediction is incorrect,
-continue pressing the space bar until you find the correct one.</p>
-<blockquote>
-<p>Main article: <a href="how-to-type-in-japanese.html">How to type in Japanese</a></p>
-</blockquote>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-to-type-x-with-fcitx.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-to-type-x-with-fcitx.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Tue, 09 Apr 2024 01:44:07 +0300</pubDate>
 </item>
 </channel>
 </rss>
