@@ -1,6 +1,7 @@
 ---
 title: I Stopped Using Matrix
 date: 1732986171
+tags: ['matrix']
 ---
 
 I have some exciting news, folks!
