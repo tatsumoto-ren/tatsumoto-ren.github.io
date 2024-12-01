@@ -381,13 +381,29 @@ Possible ways to deal with leeches will be explained in [How to review](how-to-r
 ### Display order
 
 Here most settings are not that significant.
+They control how cards are ordered when you review them.
 Feel free to experiment for yourself.
 
-**New/review order** appears to be the new equivalent
+#### New/review order
+
+*New/review order* appears to be the new equivalent
 of the **Show new cards after reviews** setting that was formerly under [Preferences](#preferences).
 To maintain the same behavior, set it to "Show after reviews".
 
 If you have [New cards/day](#new-cards) set to 0, this setting should have no effect.
+
+#### Review sort order
+
+In newer versions of Anki (24.11+) descending retrievability is recommended.
+But this option is not for everybody
+because it will always try to show easy cards first.
+
+According to Dae,
+
+> Decks can be sorted by descending retrievability.
+> Simulations have shown this is a better choice
+> [when you have a backlog](how-to-review.html#fighting-backlogs),
+> and this sort order is likely to become the default in the future.
 
 ### Advanced
 
