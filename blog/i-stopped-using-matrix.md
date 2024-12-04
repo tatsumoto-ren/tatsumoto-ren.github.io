@@ -186,3 +186,4 @@ Things to read:
 
 * [Matrix notes](https://anarc.at/blog/2022-06-17-matrix-notes/).
 * [Possible alternatives to Matrix](https://bkil.gitlab.io/secuchart/).
+* [Messaging apps spreadsheet](https://privacyspreadsheet.com/messaging-apps)
