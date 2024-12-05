@@ -26,7 +26,7 @@ assume it's wrong or verify by asking people in our chat.
 * [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
   A kana training app.
 * [Kana recognition Anki deck](https://ankiweb.net/shared/info/839782116).
-* [Kana production Anki Deck](https://ankiweb.net/shared/info/1233553736).
+* [Kana production Anki Deck](https://ankiweb.net/shared/info/1312311543).
 * [Real kana](https://realkana.com/).
   Train kana recognition online.
 
