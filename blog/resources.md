@@ -808,8 +808,6 @@ See the mpv section.
 A fast and user-friendly video player for Android.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
 A mobile video player tailored for Japanese language learners.
-* [CloudStream](https://apt.izzysoft.de/fdroid/index/apk/com.lagradost.cloudstream3).
-  Lets you stream and download anime.
 * [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular).
   A libre lightweight streaming front-end for Android.
   Also adds features from SponsorBlock and ReturnYouTubeDislike.
