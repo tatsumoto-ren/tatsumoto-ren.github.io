@@ -184,7 +184,7 @@ Press "Tools" > "Add-ons" > "Get Add-ons" to download and install the
 add-on.
 Then restart.
 The add-on is bundled with
-[Mecab](https://aur.archlinux.org/packages/mecab),
+[Mecab](https://aur.archlinux.org/packages/mecab-git),
 so you don't need to install any additional dependencies.
 
 ## Anki settings
