@@ -39,7 +39,7 @@ This kanji is quite common and can be seen in words like `正直` or `直ぐ`.
 
 <img src="img/unihan test.webp" float="right">
 
-If `直` renders without the vertical line on the left side,
+If `直` and `置` render without the vertical line on the left side,
 your browser is using Chinese fonts for Japanese.
 You need to install Japanese fonts and change your system settings.
 
