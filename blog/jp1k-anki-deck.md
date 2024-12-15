@@ -161,6 +161,20 @@ contains JP1K-style decks shared by our community members.
 
 ## Q&A
 
+> I downloaded the example deck a while ago and got the *Japanese sentences* note type.
+> Then I downloaded the Ankidrone deck and got a new *Japanese sentences\+* note type.
+> What happened?
+
+Anki automatically adds a '+' to the name of a note type
+if another note type with the same name already exists.
+Ideally,
+these note types should be merged since they are essentially the same
+(we use one note type across [all our decks](ankidrone-decks.html)),
+but Anki cannot detect this.
+It checks the note type IDs and changes the name if the ID is different.
+You can either choose to ignore the "+"
+or convert the notes to one of the note types and delete the duplicate note type.
+
 > The deck doesn't work properly in AnkiDroid on Android.
 > The .webp files and the .ogg files do not load properly.
 

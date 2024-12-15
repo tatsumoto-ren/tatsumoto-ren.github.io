@@ -197,6 +197,20 @@ when there's a sentence you don't grasp fully.</p>
 contains JP1K-style decks shared by our community members.</p>
 <h2 id="q-and-a"><a class="anchor" href="#q-and-a" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q&amp;A</h2>
 <blockquote>
+<p>I downloaded the example deck a while ago and got the <em>Japanese sentences</em> note type.
+Then I downloaded the Ankidrone deck and got a new <em>Japanese sentences+</em> note type.
+What happened?</p>
+</blockquote>
+<p>Anki automatically adds a '+' to the name of a note type
+if another note type with the same name already exists.
+Ideally,
+these note types should be merged since they are essentially the same
+(we use one note type across <a href="ankidrone-decks.html">all our decks</a>),
+but Anki cannot detect this.
+It checks the note type IDs and changes the name if the ID is different.
+You can either choose to ignore the &quot;+&quot;
+or convert the notes to one of the note types and delete the duplicate note type.</p>
+<blockquote>
 <p>The deck doesn't work properly in AnkiDroid on Android.
 The .webp files and the .ogg files do not load properly.</p>
 </blockquote>
