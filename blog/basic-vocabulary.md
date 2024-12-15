@@ -187,7 +187,8 @@ That level of understanding can only be achieved through **immersion**.
 
 To maximize the benefits that premade structured decks bring,
 we recommended that you learn from 1,000 to 2,000 cards from a premade deck of your choice.
-Once you do it, your comprehension goes from 0% to more than 75%,
+Once you do it, your comprehension of the content you immerse with
+goes from 0% to more than 75%,
 which is enough to start learning on your own.
 From that point on, you can simply grab a book, watch a movie
 or do anything else you like doing in your native language
@@ -230,6 +231,23 @@ and help them quickly reach a point where
 they can start building their own mining decks easily.
 
 You will learn about [sentence mining](sentence-mining.html) later in this guide.
+
+## Should I delete my premade deck after completing it?
+
+We recommend moving the cards you have learned from a premade deck
+to your mining deck instead of deleting the entire deck.
+However,
+there are some very basic words,
+especially in the Ankidrone Foundation deck,
+and to a lesser extent in Ankidrone Essentials,
+that you might consider deleting because it's unlikely you'll forget them.
+For example, words like 凄い or 食べる.
+When these cards come up for review,
+feel free to delete them,
+as you may find them useless.
+
+If you delete the entire deck,
+you risk forgetting words that could still be useful to you in the future.
 
 ## Intermission
 
