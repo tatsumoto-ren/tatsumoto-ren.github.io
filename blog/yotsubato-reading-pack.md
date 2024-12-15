@@ -7,46 +7,56 @@ position: -9943
 
 Yotsubato is often recommended as a "beginner manga".
 
-Even though Yotsubato is quite simple compared to many other mangas,
-it contains lots of colloquial speech, slang, slurred speech, sentence endings and grammar
-that drive beginners crazy.
-Vocabulary in the manga is no doubt very simple,
-and there aren't that many words,
+While Yotsubato is relatively simple compared to many other manga,
+it includes a lot of colloquial speech,
+slang, slurred speech, sentence endings,
+and grammar that can drive beginners crazy.
+The vocabulary in the manga is undoubtedly basic,
+and there aren't many words,
 but it's not the vocabulary that trips people up.
 
-I have seen countless questions like, "What does this line in Yotsubato mean?"
+I've seen countless questions like,
+"What does this line in Yotsubato mean?"
 When reading the manga,
-people get so confused,
-they can't find unknown phrases anywhere in a grammar book or in a dictionary,
-so the only thing left for them is to beg other learners for explanations on a forum.
-That's not what a beginner material should do to you.
+people often get so confused,
+they can't find unknown phrases anywhere in grammar books or dictionaries,
+leaving them with no choice but to beg other learners for explanations on forums.
+This is not what beginner material should do to you.
 
 Second,
-Itazuraneko recommends that you read Yotsubato very early on,
-before you have had a chance to get used to the sounds of Japanese.
-There's no audio, you don't know how Japanese people pronounce what you're reading.
+Itazuraneko recommends reading Yotsubato very early on,
+before you've had a chance to get used to the sounds of Japanese.
+Since there's no audio,
+you won't know how Japanese speakers pronounce what you're reading.
 Reading anything without accompanying audio
 at this stage is a recipe for failure
-and is going to negatively affect your listening ability.
+and is going to negatively impact your listening ability.
 
 As a result you're wasting hours trying to read a single page,
 and you're reading with a thick foreign accent in your head.
 
-From day one listen a lot, listen all the time.
-Immerse both passively and actively in voiced Japanese media to train your ears.
-Complete the first two subdecks from [Ankidrone Essentials](ankidrone-essentials.html),
-they contain natural, correct, easy to understand sentences with clear native audio.
-Before starting reading manga,
-watch lots of anime with Japanese subtitles.
-Reading along audio is easier and should serve as training wheels
+From day one, listen a lot.
+Listen [all the time](whats-ajatt.html).
+[Immerse](whats-immersion.html)
+both passively and actively in voiced Japanese media to train your ears.
+Complete [Ankidrone Foundation](jp1k-anki-deck.html).
+It contains natural, correct, and easy to understand sentences with clear native audio.
+Before starting to read manga,
+watch [lots of anime](what-good-things-are-there-to-watch-for-a-complete-beginner)
+with Japanese subtitles.
+Reading along with audio is easier and should serve as training wheels
 to prepare you for reading without audio.
 The general rule of thumb is to
-improve your comprehension using anime before moving to manga.
+improve your comprehension using anime before moving on to manga.
 
 After you've done that,
-you can go back and read Yotsubato if you want.
+feel free to go back and read Yotsubato if you want.
 Although I personally would choose some other manga,
 I don't find Yotsubato particularly interesting.
+[As with anime](language-domains.html#first-domain),
+it is recommended to start with slice-of-life as your first [domain](language-domains.html)
+and then gradually move on to other domains that feature more complex language
+as you gain proficiency in Japanese.
 
 You also need to
 [set up OCR](mining-from-manga.html)
