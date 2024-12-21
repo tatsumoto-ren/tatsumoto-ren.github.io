@@ -12,4 +12,4 @@ so that's a good way to start, and that's how I started too.
 The audio should guide you as you read.
 
 Then try manga and eventually novels.
-Use a popup dictionary (like Rikaitan) to look up unknown words.
+Use a popup dictionary (like [Rikaitan](setting-up-yomichan.html)) to look up unknown words.
