@@ -129,8 +129,6 @@ and try to finish my reviews on a phone in moments when I'm not doing anything i
 ## Reading sentences aloud
 
 Should you read sentences aloud when doing Anki reps?
-Khatz [recommends](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/)
-that you should.
 I personally don't think it's necessary, and I rarely do it.
 If a sentence looks cool I usually pronounce it just for the fun of it.
 
@@ -332,10 +330,10 @@ or just wait until your brain is ready to learn it again.
 Before you re-learn the card, you have to
 [reset it](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
 
-There are several effective strategies to handle leeches.
+There are several effective strategies for dealing with leeches:
 
 * **Delete them**.
-  For the small minority of cards that just won't stick,
+  For the small number of cards that just won't stick,
   it's best to just get rid of them.
   If you encounter the target word in your immersion often enough,
   you will eventually memorize it.
@@ -345,22 +343,24 @@ There are several effective strategies to handle leeches.
   it's more productive to learn several normal cards in its place.
 * **Keep them for later**.
   If you can't remember a word after 4-5 lapses,
-  it means your brain hasn't been primed yet to acquire it.
+  it means your brain hasn't been primed to acquire it yet.
   Wait a month or two and try again.
   Often,
   you'll find that cards that would not stick before have become very easy.
+  This indicates that your language ability has improved
+  and the word's intrinsic difficulty now matches your level.
 * **Change the card**.
   If a word is of high value to you,
   you can try to memorize a
   [different representation](https://web.archive.org/web/20180303225205if_/http://super-memory.com/articles/20rules.htm#Redundancy)
   of it.
-  Find a **different example sentence** in your Sentence Bank
+  Find a **different example sentence** in your [Sentence Bank](cross-profile-search-and-import.html)
   or [online](resources.html#examples-and-pronunciations).
   For example, on [Weblio](https://ejje.weblio.jp/sentence/).
   Reset the card and edit it,
   or make a new
   [targeted sentence card](discussing-various-card-templates.html#targeted-sentence-cards)
-  with the same target word but a different sentence.
+  using the same target word but a different sentence.
 
 In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
 The best way to force a particular reading into your memory
@@ -382,33 +382,26 @@ so your time is better spent on other cards or a shorter study session.
 
 ## Deleting and suspending cards
 
-There are several articles on the AJATT site
-where Khatz fiercely recommends deleting cards.
-
-> Delete. For happiness, for hygiene, for the smell, for sanity, for fun.
-
-> Get rid of anything even remotely sucky.
-> Delete. Delete. Delete. Don't worry. You obviously don't need them.
-
-Later many methods derived from AJATT copied this advice.
-
 There are situations when it makes sense to *pull a card out of the review queue*:
 
-* You can't seem to remember a card.
-* A card is too hard or too easy.
-* It takes too much time to rep.
+* You can't seem to remember the card.
+* The card is too hard or too easy.
+* It takes too much time to review.
 * You mined it thinking it was a
-[1T](one-target-sentences.html)
-card and turns out it's not.
+* You initially mined it thinking it was a [1T](one-target-sentences.html) card,
+  but it turns out it's not.
 
-Preemptively getting rid of cards that have a potential to become leeches
-or cards that are too complicated and waste your time is a valuable technique.
-It is going to help you avoid getting overwhelmed with the SRS in the long run.
+Proactively getting rid of cards that have the potential to become leeches
+or that are too complicated and waste your time is a valuable strategy.
+This approach can help you avoid feeling overwhelmed
+by the [SRS](spaced-repetition.html) in the long run.
 
-However, I advise you to **be careful** with deletions.
-It's way harder to restore a deleted card than bring back a suspended one.
+However,
+I advise you to **be careful** with deletions.
+It's much harder to restore a deleted card than to bring back a suspended one.
 **Suspend** cards instead.
-If you change your mind, put the card back into the rotation and try to learn it again.
+If you change your mind later,
+you can easily put the card back into rotation and try to learn it again.
 
 ## Card retirement
 
