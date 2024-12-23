@@ -9,6 +9,10 @@ It also covers the most popular Matrix client program, Element.
 
 ****
 
+**Note:**
+Due to privacy concerns [I no longer use Matrix](i-stopped-using-matrix.html).
+If you need a private means of communication, please look elsewhere.
+
 ## What is Matrix?
 
 Matrix is an internet chat protocol.

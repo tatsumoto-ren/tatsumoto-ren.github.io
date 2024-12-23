@@ -21,6 +21,10 @@ If you are new to Matrix, read
 
 ****
 
+**Note:**
+Due to privacy concerns [I no longer use Matrix](i-stopped-using-matrix.html).
+If you need a private means of communication, please look elsewhere.
+
 ## Matrix.org users
 
 If you already have an account hosted on Matrix.org,
