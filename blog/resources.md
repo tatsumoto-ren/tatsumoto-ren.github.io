@@ -901,6 +901,8 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 
 ### Android
 
+* [Ciyue](https://f-droid.org/packages/org.eu.mumulhl.ciyue/).
+  This dictionary supports [MDX](yomichan-and-epwing-dictionaries.html#mdx) dictionary files.
 * [jiten](https://github.com/obfusk/jiten)
 * [sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
 * [Nani?](https://f-droid.org/en/packages/eu.lepiller.nani/)
