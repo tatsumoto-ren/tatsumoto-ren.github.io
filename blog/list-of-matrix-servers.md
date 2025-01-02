@@ -65,11 +65,10 @@ You may need to Email an admin to get an account.
 
 | Server                   | Web client                                                    | Extra                                                |
 | :---                     | :---                                                          | :---                                                 |
-| `iddqd.chat`             | [iddqd.chat](https://iddqd.chat/)                             | last checked - closed                                |
 | `nitro.chat`             | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
 | `midov.pl`               | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
 | `w33b.cloud`             | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
-| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/)           | last checked - closed                                |
+| `matrix.thisisjoes.site` | [thisisjoes.site](https://element.thisisjoes.site/)           |                                                      |
 | `eientei.org`            | [matrix.eientei.org](https://matrix.eientei.org/)             |                                                      |
 | `matrix.im`              |                                                               |                                                      |
 | `sibnsk.net`             | [element](https://element.sibnsk.net)                         |                                                      |
