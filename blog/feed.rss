@@ -5,9 +5,27 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sat, 04 Jan 2025 07:32:58 +0300</lastBuildDate>
-<pubDate>Sat, 04 Jan 2025 07:32:58 +0300</pubDate>
+<lastBuildDate>Wed, 08 Jan 2025 21:17:44 +0300</lastBuildDate>
+<pubDate>Wed, 08 Jan 2025 21:17:44 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Classes</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>Traditional language classes suck.
+They cost money.
+They are boring.
+And they are not effective.</p>
+<p>If you're enrolling in a typical textbook-based Japanese class,
+hoping that teachers will magically transfer
+<a href="are-textbooks-bad.html">textbook</a> material into your brain
+during short daily lessons,
+you might want to rethink your strategy.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/classes.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/classes.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Wed, 08 Jan 2025 21:17:08 +0300</pubDate>
+</item>
 <item>
 <title>I Stopped Using Matrix</title>
 <author>Tatsumoto Ren</author>
@@ -227,26 +245,6 @@ In this article, we'll explore strategies to help you mitigate the damage.</p>
 <guid>https://tatsumoto-ren.github.io/blog/mitigating-the-impact-of-early-output.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sun, 02 Jun 2024 09:34:57 +0300</pubDate>
-</item>
-<item>
-<title>Learning Kanji Radicals</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>In my previous article on <a href="learning-kanji.html">Learning Kanji</a>,
-I mentioned that beginners do not need to
-<a href="learning-kanji.html#learning-radicals">learn kanji radicals</a>.
-However,
-radicals play a significant role in the Japanese language.
-Understanding the proper Japanese names for common radicals
-aids in grasping spoken conversations about kanji.</p>
-<p>The advice provided in this article is tailored for people
-who already understand Japanese.
-If you are still a beginner,
-I recommend focusing on <a href="table-of-contents.html">more essential aspects</a> of Japanese learning.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/learning-kanji-radicals.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/learning-kanji-radicals.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Thu, 02 May 2024 01:54:15 +0300</pubDate>
 </item>
 </channel>
 </rss>
