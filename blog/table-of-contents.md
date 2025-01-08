@@ -22,6 +22,12 @@ date: 1616375454
 	* [Active immersion](active-immersion.html)
 	* [Passive immersion](passive-immersion.html)
 	* [Domains](language-domains.html)
+* Things that smell
+	* [Textbooks](are-textbooks-bad.html)
+	* [Classes](classes.html)
+	* [Graded readers](what-do-you-think-about-graded-readers.html)
+	* [Machine translation](could-machine-translation-be-useful-to-language-learners.html)
+	* [Apps](why-shouldnt-i-just-keep-using-an-app-instead.html)
 * Basics
 	* [Kana](learning-kana-in-two-days.html)
 	* [Kanji](learning-kanji.html)
