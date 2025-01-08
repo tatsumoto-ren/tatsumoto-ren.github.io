@@ -19,6 +19,8 @@ you might want to rethink your strategy.
 
 ## Toxic input
 
+<img src="img/people-in-class.webp" float="right">
+
 In class, you receive *toxic [input](whats-immersion.html).*
 You listen to speech produced by other learners,
 which is filled with mistakes.
