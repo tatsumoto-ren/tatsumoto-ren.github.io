@@ -13,23 +13,18 @@ You can join us on Telegram or SimpleX chat.
 
 ****
 
-## Telegram
+## Telegram group
 
 [Telegram](https://telegram.org/)
 is a messenger with a focus on speed and security.
-Although Telegram
-[is not ideal](https://spyware.neocities.org/articles/telegram.html)
-it is still better than many proprietary services.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
-
-## Our group
 
 This is the main group for chatting about Japan, the Japanese language, and other things.
 
 <a target="_blank" class="md-button telegram" href="https://t.me/+cEpSHZC_tMI4NDZi">Join us on Telegram</a>
 
-## Channel
+## Telegram channel
 
 I post announcements in this channel.
 
@@ -40,7 +35,7 @@ I post announcements in this channel.
 SimpleX is a private and secure messenger without any user IDs.
 On GNU/Linux,
 you can install
-<a href="https://aur.archlinux.org/packages/simplex-desktop-bin">simplex-desktop-bin</a>
+[simplex-desktop-bin](https://aur.archlinux.org/packages/simplex-desktop-bin)
 from the AUR in order to use SimpleX chat.
 On Android,
 install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
@@ -51,6 +46,12 @@ install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F
 <summary>QR code</summary>
 <p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
 </details>
+
+## Pleroma
+
+I also post announcements on Pleroma.
+
+<a target="_blank" class="md-button pleroma" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a>
 
 ## Rules
 
