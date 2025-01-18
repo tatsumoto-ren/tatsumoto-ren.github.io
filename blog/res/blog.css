@@ -1149,10 +1149,12 @@ a.md-button:is(:hover, :active, :focus) {
 }
 
 a.md-button::before {
+    --icon-side: 1.4em;
+
     content: "";
-    width: 1.4em;
-    height: 1.4em;
-    background-size: 1.4em;
+    width: var(--icon-side);
+    height: var(--icon-side);
+    background-size: auto var(--icon-side);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1199,6 +1201,21 @@ a.md-button.simplex:is(:hover, :active, :focus) {
 a.md-button.simplex::before {
     background-image: url("https://raw.githubusercontent.com/simplex-chat/simplex-chat/refs/heads/stable/website/src/img/icon.svg");
 }
+
+/* Fediverse - Pleroma */
+
+a.md-button.pleroma {
+    background-color: #0f161e;
+}
+
+a.md-button.pleroma:is(:hover, :active, :focus) {
+    background-color: #18232f;
+}
+
+a.md-button.pleroma::before {
+    background-image: url("https://pleroma.social/images/pleroma_logo_vector_nobg_nopan.svg");
+}
+
 
 /* LibrePay */
 
