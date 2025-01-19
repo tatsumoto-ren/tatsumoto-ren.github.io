@@ -467,6 +467,8 @@ You may need a Japanese IP address for some of these.
 
 ## Fonts
 
+> Main article: [Japanese fonts](japanese-fonts.html)
+
 * [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
   Google Noto TTF fonts.
   * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
