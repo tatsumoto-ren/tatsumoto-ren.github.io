@@ -20,7 +20,7 @@ Let's highlight examples of low-quality resources.
 
 ## Classes
 
-Traditional language classes have several issues.
+Traditional [language classes](classes.html) have several issues.
 
 <img src="img/in-class.webp" float="right">
 
