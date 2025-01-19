@@ -139,6 +139,10 @@ to access YouTube and keep your privacy.
 
 ## Notes
 
+* [BlockTube](https://github.com/amitbl/blocktube).
+  This browser extension allows you
+  to block videos and channels that are not in your target language.
+  It is for people who use the official YouTube website.
 * [pipe-viewer](https://github.com/trizen/pipe-viewer) is a lightweight YouTube client for Linux.
 * In my dotfiles I have
   [a script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances)
