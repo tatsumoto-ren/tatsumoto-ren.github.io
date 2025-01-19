@@ -16,12 +16,13 @@ even if you don't notice it.
 
 ****
 
-The AJATT method encourages you to integrate your TL into your daily life
+The [AJATT](whats-ajatt.html)
+method encourages you to integrate your TL into your daily life
 through various forms of media,
 such as watching movies, TV shows, reading books or manga.
-The method allows you to immerse in the language
+The method allows you to [immerse](whats-immersion.html) in the language
 without needing to travel to a country where the language is spoken
-or take traditional classes.
+or take traditional [classes](classes.html).
 
 When you spend a significant amount of time immersed in a foreign language,
 your brain automatically starts to decode it.
