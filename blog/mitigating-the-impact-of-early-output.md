@@ -84,7 +84,7 @@ If you get a lot of high quality input,
 you will be less prone to solidifying your speaking mistakes.
 
 Let's also cover toxic input that comes from other learners' output.
-If you attend classes with other non-native speakers,
+If you attend [classes](classes.html) with other non-native speakers,
 you have to listen to your classmates speak,
 and a lot of them speak incorrectly and have bad pronunciation,
 so you receive toxic input.
