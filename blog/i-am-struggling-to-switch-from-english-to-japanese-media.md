@@ -38,7 +38,7 @@ you can't do it until you find media you're passionate about.
 When you do, I bet you're going to jump cold turkey without a second thought.
 If you don't find unique and compelling content,
 immersion will feel like study,
-like going to classes,
+like going to [classes](classes.html),
 and your willpower is not going to last long.
 
 If there's English media that interest you,
