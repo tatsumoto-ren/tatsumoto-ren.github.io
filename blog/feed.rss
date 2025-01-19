@@ -5,9 +5,26 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sat, 18 Jan 2025 02:32:08 +0300</lastBuildDate>
-<pubDate>Sat, 18 Jan 2025 02:32:08 +0300</pubDate>
+<lastBuildDate>Sat, 18 Jan 2025 21:45:07 +0300</lastBuildDate>
+<pubDate>Sat, 18 Jan 2025 21:45:07 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>I barely understand anything. Is immersion actually helpful?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>Absolutely!</p>
+<p>Immersion is crucial for mastering a foreign language.
+Your brain is a pattern-recognition machine,
+optimized for language learning
+and designed to learn languages naturally.
+By surrounding yourself with content in the target language (TL),
+you begin to internalize vocabulary and grammar intuitively,
+even if you don't notice it.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sat, 18 Jan 2025 05:06:48 +0300</pubDate>
+</item>
 <item>
 <title>Classes</title>
 <author>Tatsumoto Ren</author>
@@ -227,24 +244,6 @@ it has helped many people and received positive feedback.</p>
 <guid>https://tatsumoto-ren.github.io/blog/ankidrone-essentials.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Fri, 09 Aug 2024 18:08:31 +0300</pubDate>
-</item>
-<item>
-<title>Mitigating the Impact of Early Output</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
-<p>I'm forced to output early. How can I mitigate the damage?</p>
-</blockquote>
-<p>If you're already living in Japan,
-or taking Japanese classes,
-you may find yourself in situations where you need to speak Japanese.
-If you're not fluent yet,
-<a href="introduction-to-learning-japanese.html#outputting">early output</a> will damage your Japanese.
-In this article, we'll explore strategies to help you mitigate the damage.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/mitigating-the-impact-of-early-output.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/mitigating-the-impact-of-early-output.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 02 Jun 2024 09:34:57 +0300</pubDate>
 </item>
 </channel>
 </rss>
