@@ -10,8 +10,8 @@ It is a method of reaching fluency in Japanese in a relatively short period of t
 It encourages doing as much Japanese as you can every day,
 [immersing](whats-immersion.html) yourself in the language and culture of Japan
 without having to travel to the country,
-take classes,
-use outdated and boring textbooks,
+take [classes](classes.html),
+use outdated and boring [textbooks](are-textbooks-bad.html),
 or spend any money.
 Essentially,
 this means that the shortest path to fluency
