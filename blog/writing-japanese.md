@@ -86,7 +86,7 @@ This step is more complex and is going to take much longer.
 
 ### How Japanese do it
 
-While watching real Japanese people in anime I noticed how they're tested on kanji in school.
+While watching *real Japanese people* in anime I noticed how they're tested on kanji in school.
 
 <p align="center"><img alt="anime kanji test" src="img/kanji_test.webp"></p>
 <p align="center"><i>Episode 3 of <a href="https://myanimelist.net/anime/37450">青春ブタ野郎はバニーガール先輩の夢を見ない</a>.</i></p>
