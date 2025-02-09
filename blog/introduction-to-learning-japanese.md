@@ -57,12 +57,28 @@ Immersion is the most crucial ingredient of the entire process.
 
 ### How to immerse
 
-No, you're not going to [go to the country](https://www.antimoon.com/other/myths-country.htm)
-and ask a Japanese person to speak to you.
-[Immersion](whats-immersion.html)
+When newcomers hear the word "immersion,"
+they often mistake it for simply
+[going to the country](https://www.antimoon.com/other/myths-country.htm),
+being present where the target language is spoken,
+and asking a Japanese person to speak to them.
+In AJATT,
+we see that as a pretty bad, an impractical and ineffective approach.
+Instead,
+we're going to build our own Japanese immersion environment at home.
+Here,
+[immersion](whats-immersion.html)
 refers to any form of listening or reading in your target language.
-The best type of content to use is anything you're interested in.
+The AJATT method encourages you to integrate Japanese into your daily life
+through different kinds of media,
+such as watching Japanese movies or TV shows,
+and reading books or manga.
+The method allows you to immerse yourself in the language and culture
+without needing to travel to Japan or take traditional classes.
+The best type of content to use is anything that genuinely interests you.
 As long as it's **by natives for natives**, it's fine.
+Simply surround yourself with Japanese content,
+and you will acquire the language.
 
 The process is divided into two steps.
 
@@ -85,7 +101,8 @@ As for reading, the above applies if for a book you read you find the correspond
 If not, just read it and skip the second step.
 
 It is reasonable to ask
-how you're supposed to learn from native content if you still understand nothing.
+how you're supposed to learn from native content
+[if you still understand nothing](is-it-helpful-to-immerse-if-i-barely-understand.html).
 It is true that actively consuming native media,
 looking up words and trying to learn them
 is an immense task for a beginner.
