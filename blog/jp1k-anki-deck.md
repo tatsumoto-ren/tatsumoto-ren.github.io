@@ -263,6 +263,19 @@ Because you're still new to kanji,
 trying to recognize the meaning and the reading at the same time is going to be more difficult.
 You can try doing it anyway, but this is **not** what the JP1K method was intended for.
 
+> Nothing seems to work for me, and I can't remember anything.
+
+The JP1K method may not work for everyone.
+If you often have trouble recalling the words taught in Ankidrone Foundation,
+we recommend setting the deck aside
+and spending a couple of weeks
+on [Kanjidamage or RRTK](learning-kanji.html#isolated-kanji-study).
+But,
+instead of trying to go through all the kanji,
+concentrate on learning to recognize about 400-500 kanji (which is less than half of the deck).
+After that,
+you can either return to this deck or start [Ankidrone Essentials](ankidrone-essentials.html) instead.
+
 > What to do next?
 
 If you try the deck out,
