@@ -186,6 +186,9 @@ and [Download tools](resources.html#downloading) for a ways to download it.
 To learn Japanese from visual content such as anime or jdramas,
 you need Japanese subtitles.
 Subtitles can be found on the [Resources page](resources.html#japanese-subtitles).
+Don't forget that if you have English subtitles enabled,
+at best you're going to improve your English,
+but your Japanese is not going to get any better.
 
 I find that it's easier to download all the subtitles for all the shows and have them saved locally.
 This may require a few GiB of disk space,
@@ -245,10 +248,6 @@ They don't contain any text and by themselves are not very useful.
 SUP files can be converted to plain text (`.srt`)
 using OCR (Optical Character Recognition) programs
 such as [subtitleedit](https://aur.archlinux.org/packages/subtitleedit).
-
-Don't forget that if you have English subtitles enabled,
-at best you're going to improve your English,
-but your Japanese is not going to get any better.
 
 ## User-scripts for MPV
 
