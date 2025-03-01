@@ -236,6 +236,8 @@ I have used it a few times for Japanese.
 If you want to synchronize the subtitles, see
 [Retiming subtitles](retiming-subtitles.html).
 
+## SUP subtitles
+
 Sometimes the only subtitle files
 available for a particular video are image-based (`.sup` or `.sub`).
 Often this is the case with subtitles for movies.
