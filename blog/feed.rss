@@ -5,9 +5,26 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sat, 01 Mar 2025 21:03:26 +0300</lastBuildDate>
-<pubDate>Sat, 01 Mar 2025 21:03:26 +0300</pubDate>
+<lastBuildDate>Sun, 02 Mar 2025 04:55:02 +0300</lastBuildDate>
+<pubDate>Sun, 02 Mar 2025 04:55:02 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is it worth making production cards?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>Is it worth learning words not just by associating a word with its translation,
+but also in reverse — from translation to word?
+For example,
+if I look at a list of translations and try to recall the corresponding Japanese word.
+It feels much harder than simply memorizing the translation.
+However, this method seems to strengthens my memory.</p>
+</blockquote>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-worth-making-production-cards.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-worth-making-production-cards.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 02 Mar 2025 04:48:15 +0300</pubDate>
+</item>
 <item>
 <title>I barely understand anything. Is immersion actually helpful?</title>
 <author>Tatsumoto Ren</author>
@@ -230,20 +247,6 @@ If you want to learn the theory behind this deck, please read
 <guid>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sun, 11 Aug 2024 05:43:12 +0300</pubDate>
-</item>
-<item>
-<title>Ankidrone Essentials</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p><em>Ankidrone Essentials</em> is the generally recommended Anki deck for newcomers to Japanese
-who want to quickly learn <a href="basic-vocabulary.html">basic vocabulary</a>.
-Ankidrone Essentials is made to skyrocket your comprehension of native Japanese.
-Since the first release in February 2020,
-it has helped many people and received positive feedback.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/ankidrone-essentials.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/ankidrone-essentials.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Fri, 09 Aug 2024 18:08:31 +0300</pubDate>
 </item>
 </channel>
 </rss>
