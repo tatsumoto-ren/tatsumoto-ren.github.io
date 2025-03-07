@@ -203,42 +203,69 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
 
 ### Appearance
 
-* **Video driver: Vulkan.**
-  Vulkan is supposed to be the latest and greatest thing out there.
-  If you encounter visual glitches, set this to 'OpenGL' or 'Software'.
-* **Style: Native.**
-  Enabling native styles allows the user to apply their preferred [kvantum](#kvantum) theme
-  and disables the childish Apple-esque theme that is set by default.
-* **Minimalist mode.**
-  Newer versions of Anki come with an absolutely horrendous UI.
-  The minimalist mode was added after a widespread backlash from the users.
-  Enable it to debloat the UI.
+####  Video driver
+
+`Vulkan` is supposed to be the latest and greatest thing out there.
+If you encounter visual glitches, set this to `OpenGL` or `Software`.
+
+#### Style
+
+Enabling `Native` styles allows the user to apply their preferred [kvantum](#kvantum) theme
+and disables the childish Apple-esque theme that is set by default.
+
+#### Minimalist mode
+
+Newer versions of Anki come with an absolutely horrendous UI.
+The minimalist mode was added after a widespread backlash from the users.
+Enable it to debloat the UI.
 
 ### Review
 
-* **Learn ahead limit.**
-  I recommend keeping the value close to the default of 20 minutes.
-  Mine is `35` minutes.
-  When you finish your daily reviews and new cards,
-  Anki will start ignoring intervals of cards in the learning queue
-  **less** than this value
-  and will start showing the cards to you right away.
-  This is good for cards with small intervals because it lets you finish your reps
-  without breaking the flow and waiting for your cards to become ready to be reviewed.
-  But if you set the `Learn ahead limit` too high,
-  cards with longer learning steps will be shown to you too early.
-  Keeping the value on the lower side enforces the wait time of your steps.
-  If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
-* **Spacebar also answers card &mdash; disabled.**
-  It is possible to accidentally press Space twice when grading.
-  It's also confusing when one key serves two different purposes at the same time.
+#### Learn ahead limit
+
+I recommend keeping the value close to the default of 20 minutes.
+Mine is `35` minutes.
+
+When you finish your daily reviews and new cards,
+Anki will start ignoring intervals of cards in the learning queue
+**less** than this value
+and will start showing the cards to you right away.
+This is good for cards with small intervals because it lets you finish your reps
+without breaking the flow and waiting for your cards to become ready to be reviewed.
+But if you set the *Learn ahead limit* too high,
+cards with longer learning steps will be shown to you too early.
+Keeping the value on the lower side enforces the wait time of your steps.
+If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
+
+#### Show play buttons on cards with audio
+
+When learning a foreign language,
+adding audio files to your flashcards is essential for learning accurate pronunciations.
+
+#### Spacebar (or Enter) also answers card
+
+I recommend disabling this checkbox.
+It is possible to accidentally press <kbd>Space</kbd> twice when grading.
+It's also confusing when one key serves two different purposes at the same time.
 
 ### Editing
 
-* **Paste clipboard images as PNG &mdash; disabled.**
-  PNG images take more disk space than WebP images.
-  To paste images as WebP, install
-  [this addon](useful-anki-add-ons-for-japanese.html#paste-images-as-webp).
+#### Paste clipboard images as PNG
+
+Disable.
+PNG images take more disk space than `WebP` or `Avif` images.
+To paste images as WebP, install
+[this addon](https://ankiweb.net/shared/info/1151815987).
+
+### Syncing
+
+Here you need to ensure that your profile is synced with AnkiWeb.
+Log in and enable *synchronize audio and images*.
+
+### Third-party services
+
+Ignore this tab because it suggests using non-free network services.
+This tab should be removed from Anki completely.
 
 ### Other
 
@@ -262,10 +289,10 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   If your version of Anki doesn't show this option, it has been already enabled by default.
   Otherwise, make sure to enable it.
 
-</details>
-
 <p align="center"><img alt="preferences" class="shadow" src="img/anki-preferences.webp"></p>
 <p align="center"><i>Preferences.</i></p>
+
+</details>
 
 ## Options Groups
 
