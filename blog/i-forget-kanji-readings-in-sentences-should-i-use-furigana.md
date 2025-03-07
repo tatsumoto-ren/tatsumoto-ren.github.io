@@ -21,7 +21,8 @@ Then I would deliberately find example sentences
 with the words that use the character and make Anki cards.
 
 Let's say you can't remember how to read `悠長`.
-You make targeted sentence cards with the following sentences.
+You make [targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards)
+with the following sentences.
 
 * **悠々**とビールを一杯飲んだ
 * そんな**悠長**なこと言ってる場合じゃない
