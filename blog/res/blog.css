@@ -710,11 +710,12 @@ main [id]::after {
     display: block;
     left: 0;
     bottom: -3px;
-    height: 2.2px;
-    width: min(33%, 250px);
+    height: 2px;
+    width: min(33%, 275px);
     background-image: linear-gradient(to right, var(--target-color), var(--target-color) 33%, transparent);
-    clip-path: inset(0 100% 0 0);
     transition: clip-path 1s ease-out;
+    /* Hidden by default */
+    clip-path: inset(0 100% 0 0);
 }
 
 main [id]:target::after {
