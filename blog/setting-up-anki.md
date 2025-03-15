@@ -440,6 +440,8 @@ Feel free to experiment for yourself.
 *New/review order* appears to be the new equivalent
 of the **Show new cards after reviews** setting that was formerly under [Preferences](#preferences).
 To maintain the same behavior, set it to "Show after reviews".
+You always want to finish your reviews first before learning new cards.
+New cards may slow you down and prevent you from finishing your reviews.
 
 If you have [New cards/day](#new-cards) set to 0, this setting should have no effect.
 
