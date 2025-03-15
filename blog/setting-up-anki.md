@@ -303,10 +303,11 @@ The sub-deck options will override the parent deck options.
 Click `Deck > Options` to access Options Groups settings.
 You can hit Manage to create additional options groups.
 
-**Warning:** If you're running Anki 2.1.45+,
+**Warning:**
+If you're running Anki 2.1.45+,
 you will be presented with a new "Options Groups" settings dialog.
 As usual, Anki developers are making the app worse with each release.
-The new layout won't match with the screenshots shown on this page.
+The new UI is bloated and is built with HTML and JavaScript instead of native widgets as before.
 If you want to bring up the old version of the dialog,
 click "Deck Options" while holding `Shift`.
 
@@ -329,21 +330,54 @@ The options are described later in this article.
 
 Below are the options I recommended using.
 
+### Daily limits
+
+<p align="center"><img alt="new cards" class="shadow" src="img/anki-daily-limits.webp"></p>
+<p align="center"><i>Daily limits.</i></p>
+
+#### New cards/day
+
+In general,
+this option controls how many cards you learn each day,
+but you can always learn more if you want.
+The default value of `20` cards is very reasonable and manageable for most users.
+However, if you feel overwhelmed by the amount of reviews you have to do,
+lower it to about `10` new cards a day.
+Doing more cards is also possible if you can keep up with the review load,
+but generally in the AJATT community [it is advised](how-to-review.html#new-cards)
+to learn no more than `30` new cards a day.
+
+I keep my setting at `0`.
+This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
+to **manually pick** and learn cards from my Sentence Bank.
+For me personally it's better than having Anki decide for me.
+
+#### Maximum reviews/day
+
+This value sets an arbitrary cap on the amount of reviews you can do each day.
+If the cap is low, your due cards won't magically disappear after you've done with the reviews.
+Instead, they will form a backlog of likely forgotten cards.
+Because you want to review **all** your due cards every day,
+set this at a high value like 9999.
+
 ### New cards
 
 <p align="center"><img alt="new cards" class="shadow" src="img/options-groups-new-cards.webp"></p>
 <p align="center"><i>New cards.</i></p>
 
 <p align="center"><img alt="new cards" class="shadow" src="img/anki-new-cards-settings.webp"></p>
-<p align="center"><i>New cards &mdash; Updated menu.</i></p>
+<p align="center"><i>New cards &mdash; new UI.</i></p>
 
 #### Learning steps
 
-This is the number of times you have to answer `good` on the card
-before it graduates.
+This is the number of times you have to answer `good` on the card before it graduates.
+Pressing `Again` on a new card resets the learning steps.
+
 I recommend beginners to stick to the default learning steps of `1 10`.
-When you get more familiar with Anki you can add your custom steps and experiment with them.
-But don't overdo it: too many steps will make you spend too much time in Anki
+When you get more familiar with Anki,
+you can add your custom steps and experiment with them.
+But don't overdo it.
+Too many steps will make you spend too much time in Anki
 for no substantial gain in retention.
 The `learn ahead` option set in the previous section
 will make sure that you won't be shown cards with large steps too early.
@@ -354,35 +388,12 @@ This means specifying an interval in seconds instead of minutes.
 For the new settings menu you just type `30s` for 30 seconds.
 For the old menu you need to specify a decimal like this: `0.5`.
 
-#### New cards/day
-
-In general controls how many cards you learn each day,
-though you can always learn more if you want.
-The default value of `20` cards is very reasonable and manageable for most users.
-However, if you feel overwhelmed by the amount of reviews you have to do,
-lower it to about `10` new cards a day.
-Doing more cards is also possible if you can keep up with the review load,
-but generally in the AJATT community it is advised to learn no more than `30` new cards a day.
-
-I keep my setting at `0`.
-This is because I use [Learn Now Button](https://ankiweb.net/shared/info/1021636467)
-to **manually pick** and learn cards from my Sentence Bank.
-For me personally it's better than having Anki decide for me.
-
 ### Reviews
 
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
 <p align="center"><i>Reviews.</i></p>
 
 Most settings have been moved to [Advanced](#advanced) due to a UI update.
-
-#### Maximum reviews/day
-
-This value sets an arbitrary cap on the amount of reviews you can do each day.
-If the cap is low, your due cards won't magically disappear after you've done with the reviews.
-Instead, they will form a backlog of likely forgotten cards.
-Because you want to review all your due cards every day,
-set this at a high value.
 
 ### Lapses
 
