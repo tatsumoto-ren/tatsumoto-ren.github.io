@@ -388,17 +388,27 @@ This means specifying an interval in seconds instead of minutes.
 For the new settings menu you just type `30s` for 30 seconds.
 For the old menu you need to specify a decimal like this: `0.5`.
 
+#### Graduating interval
+
+Every new card eventually passes its final learning step and graduates,
+becoming a *review* card.
+This parameter sets the first interval that a card gets after it graduates.
+`1` day means that you'll have to review the card the next day.
+
 ### Reviews
 
 <p align="center"><img alt="reviews" class="shadow" src="img/options-groups-reviews.webp"></p>
 <p align="center"><i>Reviews.</i></p>
 
-Most settings have been moved to [Advanced](#advanced) due to a UI update.
+Most settings that were here have been moved to [Advanced](#advanced) due to an unfortunate UI update.
 
 ### Lapses
 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 <p align="center"><i>Lapses.</i></p>
+
+<p align="center"><img alt="new cards" class="shadow" src="img/anki-new-lapses-settings.webp"></p>
+<p align="center"><i>Lapses &mdash; new UI.</i></p>
 
 #### Steps (in minutes)
 
