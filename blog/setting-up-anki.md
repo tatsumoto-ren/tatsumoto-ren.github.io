@@ -407,7 +407,7 @@ Most settings that were here have been moved to [Advanced](#advanced) due to an 
 <p align="center"><img alt="lapses" class="shadow" src="img/options-groups-lapses.webp"></p>
 <p align="center"><i>Lapses.</i></p>
 
-<p align="center"><img alt="new cards" class="shadow" src="img/anki-new-lapses-settings.webp"></p>
+<p align="center"><img alt="lapses" class="shadow" src="img/anki-lapses-settings.webp"></p>
 <p align="center"><i>Lapses &mdash; new UI.</i></p>
 
 #### Steps (in minutes)
@@ -431,6 +431,9 @@ Possible ways to deal with leeches will be explained in [How to review](how-to-r
 Here most settings are not that significant.
 They control how cards are ordered when you review them.
 Feel free to experiment for yourself.
+
+<p align="center"><img alt="display order" class="shadow" src="img/anki-display-order-settings.webp"></p>
+<p align="center"><i>Display order &mdash; new UI.</i></p>
 
 #### New/review order
 
