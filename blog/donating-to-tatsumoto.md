@@ -73,9 +73,10 @@ There are many ways you can buy or sell Monero, one of the simplest ones is thro
 
 TON is a blockchain platform developed by Telegram.
 You can donate to Tatsumoto easily through the Telegram [wallet](https://t.me/wallet).
+Send Toncoin (TON) to this address.
 
 ```
-UQD-nERqJDsG-WqaG_FpcupEFDuhWaLTF_C-dliiS-NLf-9t
+UQCxboiT7ArP1oNvV-QENzlKYzVKmqXbBp9LRdaneHhbsEk2
 ```
 
 <details>
