@@ -163,7 +163,9 @@ The best TSCs for practice are those you mined from
 If you've been doing AJATT for a few months,
 you likely have thousands of high-quality TSCs in your Anki collection,
 so this shouldn't be a problem.
-You can also import decks like Ankidrone Essentials and Core10k to get more high-quality TSCs,
+You can also import decks like
+[Ankidrone Essentials](ankidrone-essentials.html) and [Core10k](basic-vocabulary.html#core10k)
+to get more high-quality TSCs,
 since every sentence in those decks includes audio.
 
 Pressing <kbd>Shift</kbd>+<kbd>V</kbd> lets you record your voice,
