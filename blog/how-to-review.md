@@ -129,15 +129,13 @@ and try to finish my reviews on a phone in moments when I'm not doing anything i
 ## Reading sentences aloud
 
 Should you read sentences aloud when doing Anki reps?
-I personally don't think it's necessary, and I rarely do it.
-If a sentence looks cool I usually pronounce it just for the fun of it.
+Personally,
+I don't think it's necessary.
+I rarely do it because it takes extra time.
+If a sentence interests me, I might read it aloud just for fun.
 
-Reading out loud can definitely help you remember the sentences better
-because you're actively using your muscles.
-It's harder to skim when you're engaged.
-
-Another thing to consider is whether you are going to build bad pronunciation habits
-by pronouncing Japanese out loud.
+There's also the risk of developing bad pronunciation habits
+when reading Japanese aloud and incorrectly pronouncing words.
 In this regard, I would definitely recommend avoiding doing it if you're a beginner.
 Any type of pronunciation practice requires you to have acquired large aspects of the language
 and have built strong phonetic awareness.
@@ -146,9 +144,52 @@ you set yourself to repeat pronunciation mistakes over and over.
 Ideally, you should also actively think about
 [pitch accent](japanese-pitch-accents.html) when you're practicing speaking,
 which requires you to know the rules and the accents of individual words.
+In short,
+first learn to understand the language,
+and then learn to speak it.
 
-With this in mind, reading sentences aloud can be helpful,
-but only if you're already intermediate or above.
+In summary,
+reading sentences aloud can be beneficial,
+but only if you're already at an intermediate level or higher.
+
+## Built-in Speech Training
+
+If your computer has a microphone,
+you can practice your pronunciation in Anki while reviewing your flashcards.
+To do this,
+you will need [TSCs with audio](sentence-mining.html#aim-for-high-quality-cards).
+The best TSCs for practice are those you mined from
+[anime, movies and dramas](mining-from-movies-and-tv-shows.html).
+If you've been doing AJATT for a few months,
+you likely have thousands of high-quality TSCs in your Anki collection,
+so this shouldn't be a problem.
+You can also import decks like Ankidrone Essentials and Core10k to get more high-quality TSCs,
+since every sentence in those decks includes audio.
+
+Pressing <kbd>Shift</kbd>+<kbd>V</kbd> lets you record your voice,
+and it plays back immediately after you stop recording.
+
+1) First, press <kbd>R</kbd> to listen to the native audio recording on the back of the card.
+1) Record your voice.
+1) Listen to your recording and compare it with the native audio.
+   Try to correct any differences you hear.
+   Pressing <kbd>V</kbd> again will replay your most recent recording.
+
+Alternatively,
+you can play the native audio and immediately start recording yourself.
+This lets you say the sentence while listening to the native version.
+
+Your voice recordings in Anki are temporary and will be deleted once you move to the next card.
+
+This method makes your Anki reviews longer,
+but because it integrates speaking practice into your SRS sessions,
+you don't need to set aside dedicated time for speaking practice.
+If you want to practice speaking, in the long run, doing it in Anki might even save you time.
+And if you don't want to practice speaking, you can simply skip this step.
+
+When grading your cards,
+don't take into account how well you pronounced the words and sentences.
+This training is an optional supplement to your flashcard reviews.
 
 ## Check your retention
 
