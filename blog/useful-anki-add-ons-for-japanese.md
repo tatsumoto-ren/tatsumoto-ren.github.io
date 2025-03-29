@@ -151,26 +151,6 @@ and has a nicer interface that shows kanji in a colored grid.
 
 <p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.webp"></p>
 
-### [True Retention](https://ankiweb.net/shared/info/613684242)
-
-Adds more info to the "Stats" window.
-Depending on the value of your True Retention for the past month you can adjust your
-[Interval Modifier](setting-up-anki.html#reviews). Aim at around 75-90%.
-If you remember your cards too well it's worth increasing your `IM`
-and studying more cards a day or spending more time immersing.
-
-This is how True Retention is calculated:
-```
-tr = passed / (passed + flunked)
-```
-where `passed` is a number of `review` cards that you answered `hard`, `good` or `easy`,
-and `flunked` is a number of `review` cards that you answered `again` on.
-
-**Note:** on Anki 2.1.35+ you need to hold `Shift` down when you click "Stats"
-in order to view add-on based stats information.
-
-<p align="center"><img alt="true-retention-addon" class="shadow" src="img/true-retention-addon.png"></p>
-
 ### [Cross Profile Search and Import](https://ankiweb.net/shared/info/1772763629)
 
 > Main article: [Cross Profile Search And Import](cross-profile-search-and-import.html)
@@ -322,6 +302,28 @@ and add dictionary definitions to the card.
 This add-on helps when editing card templates.
 It allows you to edit your card templates in Vscodium
 and automatically reload the preview.
+
+### [True Retention](https://ankiweb.net/shared/info/613684242)
+
+Adds more info to the "Stats" window.
+Depending on the value of your True Retention for the past month you can adjust your
+[Interval Modifier](setting-up-anki.html#reviews). Aim at around 75-90%.
+If you remember your cards too well it's worth increasing your `IM`
+and studying more cards a day or spending more time immersing.
+
+This is how True Retention is calculated:
+```
+tr = passed / (passed + flunked)
+```
+where `passed` is a number of `review` cards that you answered `hard`, `good` or `easy`,
+and `flunked` is a number of `review` cards that you answered `again` on.
+
+**Note:** on Anki 2.1.35+ you need to hold `Shift` down when you click "Stats"
+in order to view add-on based stats information.
+If you open the new Stats window,
+True Retention will be available without having to install this add-on.
+
+<p align="center"><img alt="true-retention-addon" class="shadow" src="img/true-retention-addon.png"></p>
 
 ****
 
