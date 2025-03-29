@@ -1033,10 +1033,13 @@ You've been warned.
 
 ## Language guides
 
-### [AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
+### [Old AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 
 How to learn Japanese on your own, having fun and to fluency.
-[Should I read the AJATT site?](should-i-read-the-ajatt-site.html)
+Khatzumoto's old blog where he talks about how to learn Japanese.
+If you're interested in learning more about Khatzumoto's original ideas,
+you may want to read his blog.
+See also: [Should I read Khatzumoto's blog?](should-i-read-the-ajatt-site.html)
 
 Notable articles:
 
