@@ -507,6 +507,10 @@ paste the URL of the index and give it a unique name.
    ```
    https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/latest/download/TAAS_main.zip
    ```
+1) 旺文社全訳古語辞典.
+   ```
+   https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/releases/latest/download/Oubunsha-Kogo_main.zip
+   ```
 
 </details>
 
@@ -555,6 +559,7 @@ The add-on will figure out the rest based on the information inside the json fil
 1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
 1) [Daijisen](https://github.com/Ajatt-Tools/daijisen_pronunciations_index/archive/refs/heads/main.zip)
 1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/archive/refs/heads/main.zip).
+1) [旺文社全訳古語辞典](https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/archive/refs/heads/main.zip).
 
 </details>
 
@@ -650,6 +655,7 @@ It should contain the following data:
 * `name` &mdash; the name of the audio source.
 * `year` &mdash; when the audio files were created.
 * `version` &mdash; version of the `json` file, in case the format will change in the future.
+  Currently, the latest version is `2`.
 * `media_dir` &mdash; relative path to the `media` directory,
   the folder where the audio files are stored.
 * `media_dir_abs` &mdash; absolute path to the `media` directory.
