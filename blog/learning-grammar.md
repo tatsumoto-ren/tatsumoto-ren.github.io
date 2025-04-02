@@ -40,6 +40,15 @@ and the rules may change too.
 
 > Grammar guides are for making it easier to understand things, not to learn how to say them.
 
+Native speakers perceive language entirely on a subconscious level,
+so it makes sense that the best way to learn a language is **through immersion**.
+When you try to analyze the language by studying grammar rules,
+you end up using completely different parts of your brain than native speakers do.
+Once your brain gets used to perceiving language through this analytical lens,
+it's nearly impossible to revert.
+At best, you can train yourself until it becomes automatic,
+but it will still feel different from a native.
+
 It is entirely possible to skip formal grammar study
 and learn grammar points solely through immersion.
 The arguments **in favor** of studying grammar are quite similar
@@ -47,11 +56,15 @@ to those for learning basic vocabulary
 [from a premade Anki deck](basic-vocabulary.html).
 Doing so can give you a head start and improve your comprehension of real Japanese
 while you are still a beginner.
+We usually recommend using grammar only as a tool to enhance comprehension.
+In other words, we don't waste time drilling rules or verb conjugations.
+Instead, we focus on understanding what each structure means in a sentence.
+This makes it easier to understand speech during immersion.
 
 To really understand grammar,
 it is crucial to understand it in your target language.
 Knowing what it means in English will not be very helpful.
-Language acquisition occurs
+Language acquisition happens
 [when we understand messages](what-is-comprehensible-input.html),
 when we comprehend what is being communicated.
 From the AJATT perspective,
@@ -61,6 +74,7 @@ to provide your brain with the essential [input](whats-immersion.html).
 The brain needs this input to decipher and figure out
 the structures, rules, and building blocks of your target language.
 This process largely happens unconsciously.
+Overanalyzing language with your brain's logical side may be counterproductive.
 
 The best source of examples is immersion.
 The primary reason to consult a grammar guide
@@ -90,6 +104,7 @@ This approach does not work for several reasons:
   By the time you construct a grammatically correct sentence,
   your conversation partner will be long gone.
 * It is impossible to memorize every rule and exception.
+  Even linguists don't know all the rules because rules are formed on an ad hoc basis.
 
 Output ability is the result of subconscious acquisition.
 In our native language,
