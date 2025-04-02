@@ -508,6 +508,8 @@ You may need a Japanese IP address for some of these.
 
 * [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
 * [Luke Smith's Programs and Equipment](https://lukesmith.xyz/programs/)
+* [ALTERNATIVES TO BLOATWARE](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md).
+  A comprehensive list of software that has alternatives with less dependencies.
 * [Stuff that rocks](https://suckless.org/rocks/)
 * [digdeeper.club](https://digdeeper.club/).
   Software recommendations, reviews.
