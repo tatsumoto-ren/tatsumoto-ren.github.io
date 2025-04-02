@@ -198,6 +198,7 @@ This training is an optional supplement to your flashcard reviews.
 I recommend periodically checking your monthly
 [True Retention](useful-anki-add-ons-for-japanese.html#true-retention).
 Shift-click on the "Stats" button at the top of the Anki window.
+If you use a newer version of Anki, True Retention is available in the new "Stats" window.
 The recommended retention is 75%-90%.
 If you see that your retention stays out of these boundaries,
 act accordingly.
