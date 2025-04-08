@@ -225,6 +225,9 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
   A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
   You can switch channels in mpv by pressing `<` and `>`.
+* [TV garden](https://tv.garden/jp).
+  Japanese live TV streams.
+  Only works with JS enabled.
 * [News24.jp](https://www.news24.jp/).
   Lets you watch a live stream with news,
   but you have to allow to run an obscene amount of nonfree JavaScript code.
