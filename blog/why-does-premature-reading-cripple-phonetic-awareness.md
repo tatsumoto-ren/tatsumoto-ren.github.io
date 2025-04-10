@@ -1,76 +1,153 @@
 ---
 title: Why does premature reading cripple phonetic awareness?
 date: 1666824719
-tags: ['faq']
+tags: ['guide', 'faq']
 position: -9946
 ---
 
-Reading,
-along with using text-based [flashcards](spaced-repetition.html)
-and [dictionaries](tag_dictionaries.html),
-leads to sub-vocalization.
-In other words,
-the act of reading activates the muscles in your throat.
-If you haven't developed a solid intuitive understanding
-of the phonetics of your target language through listening,
-your subvocalization while reading will be incorrect and foreign.
-This is akin to deliberately practicing poor pronunciation.
-Reading forms bad pronunciation habits
-and negatively influences how you perceive spoken language.
-Undoing these habits later is more difficult than avoiding them in the beginning,
-requiring thousands of hours of listening,
-training pronunciation,
-and studying phonetics and pitch accent.
+Native speakers absorb language subconsciously through constant exposure,
+whereas non-native learners often rely on reading and analyzing sentences
+when acquiring their target language.
+Premature reading can interfere with
+developing a native-like understanding of the language,
+and it can harm phonetic awareness and negatively affect your pronunciation.
+This article explores how premature reading can limit your ability to internalize phonetics,
+and why balancing listening and reading is crucial for mastering any language.
 
 ****
 
-In the beginning,
-I recommend dedicating more time to listening than to reading.
-Passive listening also adds up to the total hours.
-If the text is voiced,
-such as anime with subtitles,
-it counts towards reading practice
-unless you do not read along.
+## The Impact of Reading on Perception
 
-Reading may be a challenge at first,
-but getting good at reading is not that hard,
-and it's never late to start reading.
-Getting perfect at listening and speaking is much harder.
-If your reading gets too good
-and your listening lags too far behind,
-your brain will start to become too reading-dominant.
-This imbalance is hard to reverse later.
+Native speakers process language on a subconscious level,
+so it's only logical that the best way to learn a language is [through immersion](whats-immersion.html).
+When people read, they inevitably analyze the language.
+They can go at their own pace, taking time to process and think about every word.
+Consequently,
+when you learn through reading,
+you engage entirely different parts of your brain compared to those of native speakers.
+Essentially,
+you end up learning not the language itself,
+but rather how to translate it into your own mental model,
+a sort of *mathematical formula* defined by words and grammatical rules.
+Once your brain gets used to understanding language through this analytical lens,
+there's no going back.
+It's hard to revert to the natural intuitive processing that native speakers use.
+At best,
+you might be able to train yourself to a point where it becomes automatic,
+but the experience will still differ
+from the natural perception of a native speaker
+who learns to read years after acquiring the language.
+
+## How Spoken and Written Language Differ
+
+Consider, for example, how things are said in English.
+In casual speech,
+natives often use contractions or altered forms that aren't reflected in their writing.
+For instance,
+instead of saying "let me," they might say "lemme".
+"Going to" often becomes "gonna",
+and "want to" might sound like "wanna."
+In writing,
+native speakers make mistakes that no second-language speaker would make,
+such as writing "their" instead of "they're" because they sound alike.
+
+When natives speak,
+their speech flows continuously with no clear boundaries between words.
+There's no telling where one word ends and another word starts.
+Everything is connected.
+In contrast,
+second-language speakers,
+who rely on reading to learn a language,
+perceive the language through its written form,
+and it influences how they hear and speak it.
+When they listen to spoken language,
+their brains map what they hear to an internal text-like representation.
+Consequently,
+when they speak,
+their output tends to be segmented,
+word-by-word,
+with noticeable pauses between words.
+
+These examples illustrate how native pronunciation diverges significantly from the written language
+because natives process language differently.
+Therefore,
+early reading can shape your perception of language in ways
+that prevent you from hearing, speaking, and thinking **naturally**.
+
+## The Impact of Reading on Pronunciation
+
+Reading, along with the use of text-based
+[flashcards](spaced-repetition.html) and [dictionaries](tag_dictionaries.html),
+leads to **subvocalization**.
+In other words,
+the act of reading activates the muscles in your throat.
+If you have not yet developed a solid,
+intuitive understanding of the phonetics of your target language (TL) through listening,
+your subvocalization during reading will be incorrect and foreign.
+This is akin to deliberately practicing poor pronunciation.
+Premature reading fosters bad pronunciation habits
+and negatively influences how you perceive spoken language.
+Undoing these habits later is much more challenging than avoiding them in the first place.
+It may take thousands of hours of listening practice,
+pronunciation training,
+and extensive study of phonetics and [pitch accent](japanese-pitch-accents.html).
+
+## Prioritizing Listening Over Reading
+
+At the beginning of your [AJATT](whats-ajatt.html) journey,
+it is advisable to dedicate more time to listening than to reading.
+[Passive listening](passive-immersion.html) also counts toward your total listening hours.
+When you immerse with voiced text,
+such as when watching movies and TV shows with TL subtitles,
+it counts as **reading practice**.
+
+While reading might be challenging at first,
+getting good at it isn't overly difficult,
+and it's never too late to start.
+However,
+mastering listening and speaking is much harder.
+If you become too proficient at reading
+while your listening skills lag behind,
+your brain will become reading-dominant, which is nearly irreversible.
 It cripples you almost permanently.
 
-However,
-it's more difficult and takes longer to learn through listening alone.
-You have to rely on nothing but sound to understand what's going on.
-This approach is impossible to sell to beginners
-who feel discouraged when they understand nothing during immersion.
-As a result,
+That said,
+learning solely through listening is more difficult and takes longer.
+You have to rely exclusively on sound to comprehend meaning.
+And this approach is nearly impossible to sell to beginners
+who often feel discouraged when they understand nothing during immersion.
+Therefore,
 in [AJATT](whats-ajatt.html),
-we must find a compromise between listening and reading.
-By utilizing the power of reading,
-we can progress more quickly in acquiring the language and achieving literacy,
-but we also harm our [pitch accent](japanese-pitch-accents.html) and speaking skills.
+we must find a balance between listening and reading.
+Reading can speed up progress in acquiring the language and achieving literacy.
+However,
+over-reliance on reading will have negative impacts
+on your [pitch accent](japanese-pitch-accents.html) and speaking skills.
 
-The toughest decision you will face
+The most challenging decision you'll face
 is determining the right balance between listening and reading.
 For most learners,
 [we recommend](how-much-listening-should-i-do-before-i-start-reading.html)
-avoiding reading at first
-and primarily immersing in anime
-while using text-based flashcards and dictionaries
+avoiding reading initially
+and instead immersing in media like anime.
+Use text-based flashcards and dictionaries
 to [learn sentences](sentence-mining.html) you hear while watching.
 Once you have established a solid foundation,
-you can begin reading manga and novels,
-gradually increasing the amount of reading.
-While there will be negative effects from reading,
-they can be managed through pronunciation training
-and studying phonetics and pitch accent.
+you can gradually incorporate reading materials such as manga and novels.
+While some adverse effects from reading are inevitable,
+they can be mitigated through pronunciation training
+and the study of phonetics and pitch accent.
 
-People learning Japanese solely for the purpose of consuming content,
-such as reading ranobe or watching anime,
-and who do not plan to live in Japan and talk to natives,
-should not be overly concerned about their accent
-or the balance between listening and reading.
+## Final Thoughts
+
+If you're learning your target language primarily to enjoy content,
+such as reading light novels or watching anime,
+and you don't plan to live in Japan or speak with natives,
+you shouldn't care about your accent
+and the balance between listening and reading.
+Immerse with what you want to immerse.
+
+On the other hand,
+if you aim for prefect pronunciation,
+it makes sense to delay reading
+until after you've learned to understand the TL through sound alone.
