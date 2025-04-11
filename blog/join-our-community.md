@@ -49,9 +49,12 @@ install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F
 
 ## Pleroma
 
-I also post announcements on Pleroma.
+I post announcements and site updates on Pleroma.
+I also share posts about Japan and the Japanese language.
 
 <a target="_blank" class="md-button pleroma" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a>
+
+If you're new to the Fediverse, [check out this article](the-fediverse.html).
 
 ## Rules
 
