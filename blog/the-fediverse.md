@@ -3,9 +3,13 @@ title: The Fediverse
 date: 1644361520
 ---
 
-Do you use the Fediverse (Pleroma, Mastodon, or Misskey)? All three platforms
-use the same protocol, ActivityPub, so you can easily communicate with users on
-Misskey even if you're on Pleroma, for example. Misskey is a Japanese technology,
+Do you use the Fediverse
+([Pleroma](https://pleroma.social/),
+[Mastodon](https://joinmastodon.org/),
+or [Misskey](https://misskey.io/))?
+All three platforms use the same protocol, ActivityPub,
+so you can easily communicate with users on Misskey even if you're on Pleroma, for example.
+Misskey is a Japanese technology,
 which is pretty fascinating on its own. It seems that nearly everyone
 using it is Japanese.
 
