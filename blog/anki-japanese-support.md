@@ -507,6 +507,10 @@ paste the URL of the index and give it a unique name.
    ```
    https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/latest/download/TAAS_main.zip
    ```
+1) JapanesePod101.
+   ```
+   https://github.com/Ajatt-Tools/jpod_pronunciations_index/releases/latest/download/JapanesePod101_main.zip
+   ```
 1) 旺文社全訳古語辞典.
    ```
    https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/releases/latest/download/Oubunsha-Kogo_main.zip
@@ -559,6 +563,7 @@ The add-on will figure out the rest based on the information inside the json fil
 1) [Shinmeikai 8th edition](https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip).
 1) [Daijisen](https://github.com/Ajatt-Tools/daijisen_pronunciations_index/archive/refs/heads/main.zip)
 1) [TAAS](https://github.com/Ajatt-Tools/taas_pronunciations_index/archive/refs/heads/main.zip).
+1) [JapanesePod101](https://github.com/Ajatt-Tools/jpod_pronunciations_index/archive/refs/heads/main.zip)
 1) [旺文社全訳古語辞典](https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/archive/refs/heads/main.zip).
 
 </details>
