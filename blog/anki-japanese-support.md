@@ -591,6 +591,11 @@ simply check the "Add to note" checkboxes and click "Ok".
 <p align="center"><img alt="search dialog" src="img/search_audio_dialog.webp"></p>
 <p align="center"><i>Search dialog.</i></p>
 
+To configure Forvo, go to "AJT" > "Menus" > "Forvo settings".
+When Forvo Search is enabled,
+the add-on searches audio files on Forvo in addition to the enabled audio sources.
+[Watch a demonstration on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=9e7CkXSdYok).
+
 ### Audio settings
 
 Go to "Japanese options" > "Audio" > Audio settings.
