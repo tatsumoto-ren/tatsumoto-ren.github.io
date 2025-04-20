@@ -47,6 +47,12 @@ install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F
 <p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
 </details>
 
+## Group for Russian speakers
+
+I have a separate group chat for Russian speakers who are learning Japanese.
+
+<a target="_blank" class="md-button telegram" href="https://t.me/+QBdRJO7lCKgxMDcy">Японский язык</a>
+
 ## Pleroma
 
 I post announcements and site updates on Pleroma.
