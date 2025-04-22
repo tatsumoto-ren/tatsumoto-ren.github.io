@@ -55,7 +55,7 @@ Language acquisition can't be substituted with *learning* a language,
 e.g. taking classes or buying textbooks.
 Immersion is the most crucial ingredient of the entire process.
 
-### How to immerse
+## How to immerse
 
 When newcomers hear the word "immersion,"
 they often mistake it for simply
@@ -175,7 +175,7 @@ He still tried to do as much as he could,
 while having a job and studying at a university at the same time.
 AJATT has existed for years, many people went through the program and achieved fluency.
 
-### Outputting
+## Outputting
 
 In AJATT, *to output* simply means to speak your target language,
 to interact with native speakers.
@@ -187,8 +187,17 @@ While memorizing set phrases
 and practicing them can be helpful for very basic conversations,
 it is not a sustainable method for long-term progress.
 
-The *AJATT way* is to acquire language before engaging in speaking practice.
-As Khatz, the founder of AJATT, once said, "Shut up before you hurt yourself."
+One of the core components of the AJATT philosophy is the
+idea of input before output.
+This basically means that that
+if you want to become fluent in a foreign language,
+the most efficient approach is
+to focus exclusively on learning to understand the language
+through listening, and later reading.
+We call this a silent period, which may be observed in infants too.
+They don't speak from day one.
+They acquire language before they begin to speak.
+
 The primary goal is to understand the language first.
 Without comprehension,
 successful communication with others becomes challenging,
@@ -218,19 +227,35 @@ These effects are often evident in traditional language learners' speech pattern
   you need to rely on your own ability to correct yourself.
   You need to develop a good listening ability before you start speaking.
 * Mistakes are bad because they [become habits](http://www.antimoon.com/how/mistakes-damage.htm).
-  If you make a mistake,
-  you are more likely to say the same construction the next time.
+  When you first start learning a new language,
+  you're going to make many mistakes when you try to speak.
+  If you make a mistake once,
+  you are more likely to repeat the same construction the next time.
+  Repeating the same mistakes over and over
+  turns them into ingrained habits
+  that can be very hard to overcome later.
+
   Don't hope that a native speaker will correct your mistakes.
   Unless the other party didn't understand you at all,
   they are not going to point out where you're off.
   Even if you ask them to correct all your mistakes,
   there's no guarantee that you'll be able to apply the corrections.
 
-**Go through a silent period.**
-A very popular community guideline is to avoid speaking to anyone in Japanese
-for the first 1 or 2 years of learning.
+## Go through a silent period
 
-**Output comes naturally.**
+Avoid speaking in your target language
+until your speaking ability develops naturally.
+Typically,
+this occurs after doing AJATT for about a year.
+
+If you want to sound good,
+you'll still need to practice speaking.
+Immersion alone isn't enough to make you speak like a native.
+But as a beginner,
+it shouldn’t be your primary focus.
+
+## Output comes naturally
+
 Once you get a few thousand hours of input,
 your speaking ability is going to emerge gradually.
 Forcing it usually doesn't work.
@@ -240,6 +265,34 @@ Their output ability emerges as a result of immersion.
 1) Immersion + [SRS](spaced-repetition.html) = comprehension ability.
 1) Immersion + comprehension ability = output ability.
 1) Output ability + practice = output mastery.
+
+## Controlled Output
+
+When you start to notice that your ability to speak has emerged,
+that's when you may begin practicing output.
+When you already **have high comprehension**,
+your ears should be well-trained,
+so you'll be able to notice and correct your mistakes
+when you listen to a recording of yourself.
+You can practice speaking by repeating sentences aloud using recordings of native speakers:
+clips from anime, TV shows, or movies, for example.
+It is also helpful to start writing blog posts and essays.
+Always verify that your output is correct.
+Correct your mistakes when you find them.
+You can have your essays checked and corrected by native speakers
+or by automated tools
+(e.g. `Duck.ai`, an AI chatbot that you can ask to check your text).
+
+If speaking isn't your top priority,
+you can neglect speaking practice.
+However,
+evidence shows that avoiding output practice for too long has negative effects.
+If you never attempt to speak,
+your ability to output will remain dormant.
+Then,
+when you finally do go out and speak, you won't be ready.
+Your speaking ability might feel like a dry lemon,
+making it a struggle to squeeze out any words.
 
 ## Software overview
 
@@ -561,23 +614,63 @@ In the following articles you'll find out how to go through the learning steps.
 Continue reading this site for detailed instructions.
 Below is a quick overview.
 
-1) Build a Japanese immersion environment.
-   Start consuming native Japanese content actively and passively.
-   For example, watch anime in Japanese without translation.
+### Laying the ground work
+
+1) Build a **Japanese Immersion Environment**.
+   Start consuming untranslated native Japanese content actively and passively.
+   For example, watch anime in Japanese.
    This is the **first** and the most important part.
+1) Set up a consistent sleep schedule.
+1) To improve your concentration and attention span,
+   start meditating 5 minutes a day,
+   first thing in the morning.
+   Increase meditation time by 5 minutes a week until reaching one hour per day.
+1) Free yourself from (anti)social media,
+   [proprietary software](https://www.gnu.org/proprietary/proprietary.html) (malware),
+   gaming,
+   and other distractions.
+
+### Introduction
+
 1) Quickly learn the [Japanese alphabets](learning-kana-in-two-days.html)
    with a drilling app or an Anki deck.
-1) The basics.
-   * Do [Ankidrone Foundation](jp1k-anki-deck.html).
-   * Immerse in Japanese media.
-   * While doing Ankidrone Foundation,
-     find a [grammar guide](learning-grammar.html) you like and read it.
-     Dedicate a short period of time every day, 30 minutes to an hour, to study grammar.
-   * Create your own [mining deck](sentence-mining.html).
-     You will be adding everything else you don't know to this deck.
-     You may add example sentences from the grammar guide to your mining deck.
-   * Do [Ankidrone Essentials](ankidrone-essentials.html). This step is optional.
+1) Do [Ankidrone Foundation](jp1k-anki-deck.html).
+   Learn the most common 1,000 words up front to jumpstart your comprehension
+   and unlock access to sentence mining from untranslated media.
+1) While doing Ankidrone Foundation,
+   find a [grammar guide](learning-grammar.html) you like and read it.
+   Dedicate a short period of time every day, 30 minutes to an hour, to study grammar.
+1) Create your own [mining deck](sentence-mining.html).
+   You will be adding everything else you don't know to this deck.
+   You may add example sentences from the grammar guide to your mining deck.
+1) Do [Ankidrone Essentials](ankidrone-essentials.html).
+   This step is optional.
+   Ankidrone Essentials contains thousands of premade targeted sentence cards
+   that can help you improve your comprehension.
 1) Continue immersing and making Anki cards.
+
+### Growth
+
+1) Make the [monolingual transition](going-monolingual.html),
+   and start only adding monolingual cards.
+1) Learn [pitch accent theory](japanese-syntax-parser-similar-to-jisho.html).
+   Start learning the pitch accent of words.
+1) Once you master anime with J-subs/manga,
+   start branching out to ranobe, and eventually real novels.
+1) At some point in the process your ability to output emerges naturally.
+   Start outputting.
+   Do imitation exercises.
+   Imitation exercises involve repeating after a recording of a native speaker talking.
+1) Write essays in Japanese.
+   Have them checked and corrected by automated tools (e.g. `Duck.ai`) or native speakers.
+
+### Proficiency
+
+1) Start learning literally every word you come across.
+1) Start seeking out weak spots, and immerse with that you need.
+1) Start studying culture, history, keigo, and linguistics in Japanese.
+1) Learn classical Japanese. This step is optional.
+1) Continue immersing. Continue to fill holes in your knowledge.
 
 <p align="center"><img alt="watch anime" width="50%" src="img/watch_anime.webp"></p>
 <p align="center"><i>Watch anime.</i></p>
