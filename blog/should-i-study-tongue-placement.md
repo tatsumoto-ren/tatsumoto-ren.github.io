@@ -18,7 +18,9 @@ There are some sounds in Japanese that require special attention (like `らり�
 and some sounds that you get right away without much practice.
 
 Imitating native speakers is also advised, but not for beginners.
-It's a practice people do after around **a year** of studying, or even **later**.
+It's a practice people do after they've immersed long enough
+and their speaking ability has emerged naturally.
+Typically, this happens after around **a year** of studying.
 
 Imitating native speakers and speaking in general may lead to damaging results
 when you don't have a good foundation in listening.
