@@ -40,7 +40,7 @@ this requires you to have a graphical file manager installed.
 These days almost everyone uses terminal-based file managers.
 I recommend renaming subtitles before opening a video to have mpv load them for you.
 The best tool for doing it in my opinion is
-[vidir](https://aur.archlinux.org/packages/vidir/).
+[vidir](https://archlinux.org/packages/extra/x86_64/moreutils/).
 In addition to vidir, I advise you to install
 [lf](https://github.com/gokcehan/lf).
 It's an excellent terminal-based file manager.
@@ -58,6 +58,36 @@ Add the following settings to `~/.config/lf/lfrc`.
 map b $vidir
 # Extract archives by pressing `E`.
 map E !atool -x $fx
+```
+
+If you don't have vidir installed, you can use
+[this bulkrename cmd](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/lf/lfrc#L177).
+It works the same way as vidir does.
+Add it to your `lfrc` file.
+
+```
+cmd bulkrename ${{
+    tmpfile_old="$(mktemp)"
+    tmpfile_new="$(mktemp)"
+
+    [ -n "$fs" ] && fs=$(basename -a $fs) || fs=$(ls -A)
+
+    echo "$fs" > "$tmpfile_old"
+    echo "$fs" > "$tmpfile_new"
+    $EDITOR "$tmpfile_new"
+
+    [ "$(wc -l < "$tmpfile_old")" -eq "$(wc -l < "$tmpfile_new")" ] || { rm -f "$tmpfile_old" "$tmpfile_new"; exit 1; }
+
+    paste "$tmpfile_old" "$tmpfile_new" | while IFS="$(printf '\t')" read -r src dst
+    do
+        [ "$src" = "$dst" ] || [ -e "$dst" ] || mv -- "$src" "$dst"
+    done
+
+    rm -f -- "$tmpfile_old" "$tmpfile_new"
+    lf -remote "send $id unselect"
+}}
+
+map b bulkrename
 ```
 
 ## Renaming subtitles
