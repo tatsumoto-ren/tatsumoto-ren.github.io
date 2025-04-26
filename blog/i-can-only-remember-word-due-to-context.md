@@ -15,12 +15,15 @@ it implies that the card is not meeting its intended purpose
 of helping you recognize and comprehend the word.
 
 Unfortunately, there is no quick fix for context-dependent memories.
-It takes time and exposure to the word in various contexts to fully acquire it.
+It takes time and
+[exposure to the word in various contexts](i-can-only-recall-kanji-when-in-the-context-of-the-specific-sentence.html)
+to fully acquire it.
 If the card isn't fulfilling its intended purpose,
 failing it or grading it good will not make any difference.
 After you've successfully identified that the card is not helping you,
 the best course of action is to modify the card by either swapping the sentence with another
-one or converting it to a word card when applicable.
+one or converting it to a word card when applicable
+(e.g. [when it is a concrete noun](discussing-various-card-templates.html#pros-and-cons-of-swcs)).
 An argument against this would be the time it takes to edit the card,
 but it's probably not that difficult and time-consuming these days
 since with [cabl](plumbing-for-language-learners.html) you have example sentences at your fingertips.
@@ -37,6 +40,6 @@ Instead, I do one or the combination of the following:
 
 If you believe that failing the card will be beneficial in some way,
 then there is fundamentally nothing wrong with that.
-However, should you continue to fail it, the card will eventually become a leech.
+However, should you continue to fail it, the card will eventually [become a leech](how-to-review.html#leeches).
 If Anki suspends the card,
 you need to create a new one with the same target word but a different sentence.
