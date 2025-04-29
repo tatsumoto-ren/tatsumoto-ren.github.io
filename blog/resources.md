@@ -303,7 +303,7 @@ Browsing will lead you to more tags.
 ### Documentaries
 
 * [NHK specials](https://nyaa.si/?q=ＮＨＫスペシャル).
-* [ザ・ノンフィクション](https://nyaa.si/?q=ザ ノンフィクション).
+* [ザ・ノンフィクション](https://nyaa.si/?q=ザ・ノンフィクション).
 
 ### Manga
 
