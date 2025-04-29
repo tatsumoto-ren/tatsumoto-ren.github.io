@@ -300,6 +300,11 @@ Browsing will lead you to more tags.
 * [Gaki No Tsukai](https://gaki-no-tsukai.com/).
 * [jraws](https://jraws.com/). Some jdramas.
 
+### Documentaries
+
+* [NHK specials](https://nyaa.si/?q=ＮＨＫスペシャル).
+* [ザ・ノンフィクション](https://nyaa.si/?q=ザ ノンフィクション).
+
 ### Manga
 
 * [Torrent sites](#torrent-trackers).
@@ -901,6 +906,13 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
   A website that shows you how to write a given kanji and how it looks written in different fonts.
 * [漢字辞典](https://kanji.jitenon.jp/).
   Monolingual kanji dictionary.
+* [Kanjijoho 漢字辞典](https://kanjijoho.com/).
+  A kanji dictionary.
+  In addition to details such as radicals, stroke counts, and readings,
+  it also provides examples of 熟語 and 四字熟語 that use each character.
+* [Kanjitisiki 漢字辞典](https://kanjitisiki.com/).
+  A kanji dictionary.
+  It contains various details about Kanji such as meanings, readings, radicals, stroke counts, etc.
 * [Jotoba](https://jotoba.de/).
   An open source multilingual Japanese dictionary.
 * [連想類語辞典](https://renso-ruigo.com/).
