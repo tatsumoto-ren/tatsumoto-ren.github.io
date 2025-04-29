@@ -124,20 +124,26 @@ You can find some of them in Resources below.</p>
 Convert all of them <a href="how-to-change-note-types.html">to one note type</a>
 in order to make working with the bank easier.</p>
 <h2 id="media-formats"><a class="anchor" href="#media-formats" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Media formats</h2>
-<p>One thing that bothers people is that subs2srs decks come with <code>mp3</code> audio and <code>jpg</code> images.
-So you most likely want to bulk-convert all audio files that come with the decks to <code>opus</code>
-and image files to <code>webp</code> to save disk space.</p>
-<p>The simplest solution is to call <code>ffmpeg</code>
-in the <code>collection.media</code> directory after you import a deck.</p>
+<p>One issue people often encounter is that many subs2srs decks
+include audio files in <code>MP3</code> format and images in <code>JPG</code> format.
+To save disk space,
+you'll likely want to bulk-convert the audio files to <code>Opus</code>
+and the image files to either <code>WebP</code> or <code>AVIF</code>.</p>
+<p>To convert the files in your Anki collection,
+you can use <a href="useful-anki-add-ons-for-japanese#media-converter">AJT Media Converter</a>.
+This add-on converts <code>JPG</code> images to <code>WebP</code> or <code>AVIF</code>,
+and <code>MP3</code> audio files to <code>OGG/Opus</code>.</p>
+<p>Another option is to call <code>ffmpeg</code>
+in the <code>collection.media</code> directory after importing a deck.</p>
 <ol>
 <li><p>Import a subs2srs deck, then open your terminal and <code>cd</code> into the <code>collection.media</code> directory.
 Example:</p>
 <div class="pre-wrap"><pre><code>cd ~/.local/share/Anki2/&lt;PROFILE&gt;/collection.media
 </code></pre></div>
 </li>
-<li><p>Use a ffmpeg script to convert all media files in this directory.
+<li><p>Use an ffmpeg script to convert all the media files in this directory.
 I use <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/cm">cm</a>.
-Call it like this:</p>
+Run the commands as follows:</p>
 <div class="pre-wrap"><pre><code>cm ftogg
 cm ftswebp
 </code></pre></div>

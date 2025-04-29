@@ -71,12 +71,19 @@ in order to make working with the bank easier.
 
 ## Media formats
 
-One thing that bothers people is that subs2srs decks come with `mp3` audio and `jpg` images.
-So you most likely want to bulk-convert all audio files that come with the decks to `opus`
-and image files to `webp` to save disk space.
+One issue people often encounter is that many subs2srs decks
+include audio files in `MP3` format and images in `JPG` format.
+To save disk space,
+you'll likely want to bulk-convert the audio files to `Opus`
+and the image files to either `WebP` or `AVIF`.
 
-The simplest solution is to call `ffmpeg`
-in the `collection.media` directory after you import a deck.
+To convert the files in your Anki collection,
+you can use [AJT Media Converter](useful-anki-add-ons-for-japanese#media-converter).
+This add-on converts `JPG` images to `WebP` or `AVIF`,
+and `MP3` audio files to `OGG/Opus`.
+
+Another option is to call `ffmpeg`
+in the `collection.media` directory after importing a deck.
 
 1) Import a subs2srs deck, then open your terminal and `cd` into the `collection.media` directory.
    Example:
@@ -84,9 +91,9 @@ in the `collection.media` directory after you import a deck.
    ```
    cd ~/.local/share/Anki2/<PROFILE>/collection.media
    ```
-2) Use a ffmpeg script to convert all media files in this directory.
+2) Use an ffmpeg script to convert all the media files in this directory.
    I use [cm](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/cm).
-   Call it like this:
+   Run the commands as follows:
 
    ```
    cm ftogg
