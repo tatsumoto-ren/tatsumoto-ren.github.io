@@ -5,11 +5,14 @@ tags: ['faq']
 position: -9976
 ---
 
-I'm guessing that's a joke.
-JAV has extremely poor language density.
-If you watch JAV, skip all the parts where no one's talking.
+JAV stands for Japanese Adult Video.
+It refers to porn produced in Japan.
+JAV typically features very little dialogue.
+When watching JAV,
+consider skipping the sections where people aren't talking.
 
-If you like erotic content, I recommend reading doujinshi,
-maybe something from Nhentai or a similar site.
-In them you see lots of dialogues
-They're better for immersion.
+If you enjoy erotic content,
+I recommend reading doujinshi,
+perhaps something from Nhentai or a similar site.
+Doujinshi often contain plenty of dialogue,
+which is great for immersion.
