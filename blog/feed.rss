@@ -5,9 +5,40 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 30 Apr 2025 03:06:19 +0300</lastBuildDate>
-<pubDate>Wed, 30 Apr 2025 03:06:19 +0300</pubDate>
+<lastBuildDate>Wed, 30 Apr 2025 03:11:15 +0300</lastBuildDate>
+<pubDate>Wed, 30 Apr 2025 03:11:15 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Should I write each word once or many times while practicing handwriting?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>I printed out some handwriting practice templates.
+However,
+I haven't found any recommendations on
+how many times to write each word when reviewing in Anki.
+My question is,
+should I write each word only once, or should I practice in batches?
+If the latter, how many repetitions should I do per batch?</p>
+</blockquote>
+<p>Write each word once.
+You just need to write a word correctly with the correct stroke order.</p>
+<p>The goal is to test whether you can recall how to write something from memory.
+For example,
+if you were to go to Japan and needed to write by hand, you'd want to be prepared.
+Although writing a word multiple times in a row might help a little,
+the real benefits come from <a href="spaced-repetition.html">spaced repetition</a>.
+Waiting before trying to recall a word again is more effective,
+which is why <a href="setting-up-anki.html">Anki</a> has learning steps.
+Anki takes care of the intervals for you,
+and if you forget how to write a word,
+the program will show you the corresponding flashcard more often.</p>
+<p>For learning handwriting, see <a href="writing-japanese.html#writing-kanji">Writing TSCs</a>.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/should-i-write-each-word-many-times.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/should-i-write-each-word-many-times.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Wed, 30 Apr 2025 03:07:10 +0300</pubDate>
+</item>
 <item>
 <title>Is it worth making production cards?</title>
 <author>Tatsumoto Ren</author>
@@ -226,27 +257,6 @@ using the <a href="whats-ajatt.html">AJATT</a> method.</p>
 <guid>https://tatsumoto-ren.github.io/blog/ankidrone-decks.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Tue, 13 Aug 2024 02:24:58 +0300</pubDate>
-</item>
-<item>
-<title>Ankidrone Foundation</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>The most important part of learning Japanese with the
-<a href="whats-ajatt.html">AJATT</a>
-method
-is to enjoy native content
-and be able to grow your understanding of the language entirely through immersion
-by picking up new words from the media you read, watch or listen to.
-To transition towards learning directly from Japanese media,
-first you need to level up your comprehension.</p>
-<p><em>Ankidrone Foundation</em>
-is an Anki Deck for newcomers to Japanese based on the JP1K method.
-If you want to learn the theory behind this deck, please read
-<a href="learning-kanji.html">this article</a>.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 11 Aug 2024 05:43:12 +0300</pubDate>
 </item>
 </channel>
 </rss>
