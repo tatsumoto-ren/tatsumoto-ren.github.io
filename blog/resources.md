@@ -173,10 +173,9 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 
   Available mirrors:
 
-  1) [Nyaa ISS](https://nyaa.iss.ink/).
+  1) [ny.iss.one](https://ny.iss.one/).
+  1) [nyaa.digital](https://nyaa.digital/)
   1) [Nyaa Land](https://nyaa.land/).
-  1) https://nyaa.mrunblock.bond/
-  1) https://nyaa.unblockninja.com/
 * [Tokyo Toshokan](https://www.tokyotosho.info/).
   A BitTorrent library for Japanese media.
 * [Rutracker](https://rutracker.org/).
