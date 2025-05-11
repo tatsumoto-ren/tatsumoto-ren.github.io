@@ -71,3 +71,6 @@ consider that it only takes about 20 minutes to do so.
 Mastering a foreign language will take years,
 so this is a good investment.
 In return, you'll save hours each week on various tasks.
+
+**Note:** If you're new to GNU/Linux,
+read [this book](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/s/4863543468).
