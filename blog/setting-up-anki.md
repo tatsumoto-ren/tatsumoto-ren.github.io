@@ -752,3 +752,10 @@ This setting should be applied **to each collection** (Anki profile) individuall
 
 Read this [Anki forum post](https://forums.ankiweb.net/t/inconsistent-unicode-normalization/22634)
 for reference.
+
+## Note Types for Anki
+
+The AJATT community has developed a variety of note types to use in Anki for different purposes,
+including language learning.
+We store all of our note types in one Git repository for convenience.
+You can find the repository [on GitHub](https://github.com/Ajatt-Tools/AnkiNoteTypes).
