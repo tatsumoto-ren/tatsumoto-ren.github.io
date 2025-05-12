@@ -73,4 +73,4 @@ so this is a good investment.
 In return, you'll save hours each week on various tasks.
 
 **Note:** If you're new to GNU/Linux,
-read [this book](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/s/4863543468).
+read [this book](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/117521939/cb30dc/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E5%B8%B8%E8%AD%98-%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8Blinux%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89.html).
