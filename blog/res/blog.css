@@ -18,6 +18,11 @@
     --link-visited: #336699;
     --link-black: #1f2628;
 
+    /* Headers in articles */
+    --color-article-h2: #30040f;
+    --color-article-h3: #0a5261;
+    --color-article-h4: #055c26;
+
     --header-background: #f9f9f9;
     --header-item-focused-background-color: rgba(0, 0, 0, 0.04);
     --header-item-focused-shadow-color: rgba(0, 8, 15, 0.125);
@@ -184,6 +189,11 @@
     --link-black-hover: #808080;
     --link-visited: var(--link);
     --header-color: var(--link-black);
+
+    /* Headers in articles */
+    --color-article-h2: #e42253;
+    --color-article-h3: #23bbda;
+    --color-article-h4: #21cf64;
 
     --body-text-color: #c5c5c5;
     --body-bg-color: #161818;
@@ -669,17 +679,17 @@ main h1 {
 
 main h2 {
     font-size: 1.5rem;
-    color: #30040f;
+    color: var(--color-article-h2, currentColor);
 }
 
 main h3 {
     font-size: 1.25rem;
-    color: #0a5261;
+    color: var(--color-article-h3, currentColor);
 }
 
 main h4 {
     font-size: 1.125rem;
-    color: #055c26;
+    color: var(--color-article-h4, currentColor);
 }
 
 article a.anchor > svg {
