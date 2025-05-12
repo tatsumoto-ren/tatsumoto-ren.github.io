@@ -221,7 +221,7 @@
     --summary-background-color: var(--code-inline-bg);
 
     --details-border-color: var(--link);
-    --box-sep-color: rgba(233, 233, 233, 0.05);
+    --box-sep-color: rgba(233, 233, 233, 0.16);
     --kbd-color: var(--body-text-color);
     --img-shadow-color: #333;
 
