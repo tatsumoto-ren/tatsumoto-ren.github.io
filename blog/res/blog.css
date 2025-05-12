@@ -234,6 +234,11 @@
     --nagbar-color: #f1b79c;
     --nagbar-bg: #313127;
     --nagbar-border: #554a38;
+
+    a.anchor svg {
+        /* Fix anchor visibility */
+        filter: invert(1);
+    }
 }
 
 /* Main elements */
