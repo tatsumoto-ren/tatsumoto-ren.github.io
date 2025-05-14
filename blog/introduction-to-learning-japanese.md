@@ -653,7 +653,7 @@ Below is a quick overview.
 
 1) Make the [monolingual transition](going-monolingual.html),
    and start only adding monolingual cards.
-1) Learn [pitch accent theory](japanese-syntax-parser-similar-to-jisho.html).
+1) Learn [pitch accent theory](japanese-pitch-accents.html).
    Start learning the pitch accent of words.
 1) Once you master anime with J-subs/manga,
    start branching out to ranobe, and eventually real novels.
