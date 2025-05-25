@@ -5,9 +5,46 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 25 May 2025 12:04:39 +0300</lastBuildDate>
-<pubDate>Sun, 25 May 2025 12:04:39 +0300</pubDate>
+<lastBuildDate>Sun, 25 May 2025 18:34:40 +0300</lastBuildDate>
+<pubDate>Sun, 25 May 2025 18:34:40 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>What's actually the best way to find easy anime?</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>What's actually the best way to find easy anime?
+You would think just analyzing the subs for speed,
+frequency and words you know, maybe even grammar,
+would make it possible to rate how easy it will be for you.</p>
+</blockquote>
+<p>When I learned Japanese,
+I didn't worry about categorizing anime into <em>easy</em> VS <em>hard</em>.
+The first anime I mined after making my mining deck was Steins;Gate.
+Although it isn't the simplest anime if you count the difficulty of every word,
+it wasn't hard to mine from it.
+I simply went through it line by line,
+adding every sentence with unknown words to Anki.</p>
+<p>For beginners,
+it's fine to start with
+<a href="what-good-things-are-there-to-watch-for-a-complete-beginner.html">any slice of life anime</a>
+without stressing over the difficulty.</p>
+<p>Don't try to mine sentences right from day one.
+I only began sentence mining after I had learned more than 1,000 words
+<a href="basic-vocabulary.html">from a premade deck</a>.</p>
+<p>There are many resources that claim to organize anime by difficulty for Japanese learners.
+I think it's best to avoid them.
+They often miss the mark,
+potentially leading you to anime that isn't interesting or suitable for your level.
+Plus,
+many of these resources require you to create an account
+and come with questionable money-grab schemes.
+If you find an anime that looks fun, it's probably the best one for you personally.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/whats-actually-the-best-way-to-find-easy-anime.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/whats-actually-the-best-way-to-find-easy-anime.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 25 May 2025 18:22:10 +0300</pubDate>
+</item>
 <item>
 <title>Should I write each word once or many times while practicing handwriting?</title>
 <author>Tatsumoto Ren</author>
@@ -245,18 +282,6 @@ differing mainly in card templates and order.</p>
 <guid>https://tatsumoto-ren.github.io/blog/difference-between-foundation-and-essential-decks.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 26 Aug 2024 23:30:51 +0300</pubDate>
-</item>
-<item>
-<title>Ankidrone Anki Decks</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>Our <a href="tag_decks.html">Anki decks</a> are organized into a comprehensive system
-designed to guide learners through the process of mastering the Japanese language
-using the <a href="whats-ajatt.html">AJATT</a> method.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/ankidrone-decks.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/ankidrone-decks.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Tue, 13 Aug 2024 02:24:58 +0300</pubDate>
 </item>
 </channel>
 </rss>
