@@ -66,6 +66,9 @@ to avoid possible issues.
 * If you're not an Arch Linux user,
   I'm sure you'll find Anki in repositories of your distribution.
   To find Anki for your OS you can use [pkgs.org](https://pkgs.org/search/?q=Anki).
+  Note: `pkgs.org` requires JS to be enabled.
+* [Ubuntu](https://ubuntu.com/) users can use the *App Center* to install Anki.
+  However, be aware that under the hood it installs a Snap package.
 * Debian users and users of other *stable* distros should note that
   outdated versions of Anki work poorly with most add-ons, especially new ones.
   Use a version released at least 6 months ago or newer.
