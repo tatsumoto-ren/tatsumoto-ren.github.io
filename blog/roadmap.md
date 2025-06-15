@@ -13,9 +13,10 @@ Below is a quick overview.
 
 ## Laying the ground work
 
-1) Build a **Japanese Immersion Environment**.
-   Start consuming untranslated native Japanese content actively and passively.
-   For example, watch anime in Japanese.
+1) Build a [Japanese Immersion Environment](introduction-to-learning-japanese.html#how-to-immerse).
+   Start consuming untranslated native Japanese content
+   [actively](active-immersion.html) and [passively](passive-immersion.html).
+   For example, watch [anime in Japanese](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
    This is the **first** and the most important part.
 1) Set up a consistent sleep schedule.
 1) To improve your concentration and attention span,
@@ -29,6 +30,7 @@ Below is a quick overview.
 
 ## Introduction
 
+1) Set up an [SRS](spaced-repetition.html), such as [Anki](setting-up-anki.html).
 1) Quickly learn the [Japanese alphabets](learning-kana-in-two-days.html)
    with a drilling app or an Anki deck.
 1) Do [Ankidrone Foundation](jp1k-anki-deck.html).
