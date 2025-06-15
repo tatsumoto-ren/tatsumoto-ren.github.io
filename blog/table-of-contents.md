@@ -7,6 +7,7 @@ date: 1616375454
 * Introduction
 	* [What's AJATT?](whats-ajatt.html)
 	* [Introduction to learning Japanese](introduction-to-learning-japanese.html)
+	* [Japanese Roadmap](roadmap.html)
 	* [Avoiding bad advice](bad-advice.html)
 	* [Mass immersion](mass-immersion.html)
 	* [Spaced repetition](spaced-repetition.html)
