@@ -88,7 +88,7 @@ a:focus {
     background-blend-mode:
         multiply,
         normal;
-    text-shadow: #000c 1px 1px 2px;
+    text-shadow: rgb(0, 0, 0) 0px 1px 2px;
     background-position:
         top left,
         top center;
@@ -179,7 +179,7 @@ header>a.donate:hover {
 
     position: relative;
     padding: 90px var(--row-padding-inline);
-    background-image: url("img/motivated_learner.webp");
+    background-image: url("img/kanade.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -189,10 +189,13 @@ header>a.donate:hover {
     font-size: var(--font-size-paragraph);
     margin: 2em 0;
     max-width: max(550px, min(70ch, 60%, 1000px));
+    font-weight: 500;
+    color: white;
 }
 
 .presentation h1 {
     font-size: var(--font-size-accent);
+    color: #ff7701;
 }
 
 /* Get started and Community buttons */
@@ -213,6 +216,7 @@ header>a.donate:hover {
     text-decoration: none;
     border-radius: 2px;
     transition: background-color 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
 }
 
 .start_buttons>a:hover,
