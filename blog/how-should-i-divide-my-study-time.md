@@ -7,8 +7,10 @@ position: -9961
 
 You can divide your **active study** time roughly in three parts.
 
-* Spend 1/3 of your time reading, 1/3 listening, and 1/3 using [Anki](setting-up-anki.html).
-* Limit your Anki usage to no more than 1 hour a day.
+* Spend 1/3 of your time reading,
+  1/3 listening,
+  and 1/3 reviewing [Anki](setting-up-anki.html) cards.
+* Limit your Anki usage to no more than 1 or 2 hours a day.
   Dedicate the rest of your time to immersion.
 * Watching movies and TV shows with subtitles counts as reading.
 * Note that here we don't take into account passive immersion.
@@ -16,8 +18,19 @@ You can divide your **active study** time roughly in three parts.
 In other words,
 [immerse](whats-immersion.html) as much as possible.
 Try to immerse all the time,
-but additionally dedicate 1 hour a day to the [SRS](spaced-repetition.html)
+but additionally dedicate 1 or 2 hours a day to the [SRS](spaced-repetition.html)
 to help retain what you learn.
+
+I would recommend never spending more than two hours total on [SRS](spaced-repetition.html),
+which includes an hour reviewing cards and an hour making cards.
+If you try to learn too many new cards a day,
+you'll quickly end up with a massive pile of reviews.
+Most people don't really enjoy Anki that much,
+even if they can tolerate it to some degree.
+Most people, once they hit around 300 reviews a day,
+they typically can't maintain that pace and fall into "Anki hell",
+burning out and ultimately quitting.
+And burning out is definitely the worst thing that can happen to your learning process.
 
 For example,
 on a bad day
