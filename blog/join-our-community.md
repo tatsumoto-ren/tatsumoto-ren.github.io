@@ -42,6 +42,8 @@ install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F
 
 <a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">SimpleX chat</a>
 
+Scan the QR code with the SimpleX Chat app on your phone or tablet.
+
 <details>
 <summary>QR code</summary>
 <p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
