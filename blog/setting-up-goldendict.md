@@ -227,10 +227,22 @@ To pair them up, append `clip_command=goldendict %TEXT%` to the config file.
 Many third-party programs, such as [crqt-ng](resources.html#reading-ebooks)
 can copy text to the system clipboard when it is selected.
 GoldenDict-NG can watch the clipboard
-and automatically perform lookups new text is copied.
+and automatically perform lookups when new text is copied.
 
-To *enable scanning*, you can click on the light bulb icon on the toolbar.
-The feature can be configured under "Preferences" <kbd>F4</kbd> > "Scan Popup".
+To *enable scanning*,
+click on the **light bulb icon** on the toolbar.
+You can configure this feature under "Preferences" (<kbd>F4</kbd>) > "Popup".
+Enable the "Track clipboard change" checkbox.
+
+### Disable Popup
+
+The annoying dictionary Popup may significantly degrade user experience.
+Thankfully, it can be disabled in Preferences.
+Navigate to "Preferences" (<kbd>F4</kbd>) > "Popup",
+and check the "Send translated word to main window" checkbox.
+
+<p align="center"><img class="shadow" alt="toolbar" src="img/goldendict-popup-settings.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
 
 ### Disable main window stealing focus when searching
 
