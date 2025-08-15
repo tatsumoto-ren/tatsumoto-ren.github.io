@@ -445,6 +445,13 @@ Proprietary software should not exist and should not be used if you want to have
 
 You may need a Japanese IP address for some of these.
 
+### Other
+
+* [NHK News Web Easy](https://www3.nhk.or.jp/news/easy/).
+  News articles written in simple Japanese.
+* [NHK News Web Easy &mdash; Telegram Channel](https://t.me/nhknewseasy).
+  Unofficial.
+
 ## Japanese subtitles
 
 > See also:
