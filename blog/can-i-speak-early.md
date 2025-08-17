@@ -20,7 +20,7 @@ which require time and deliberate practice to fix later.
 
 We highly recommend immersing yourself in the language for 10,000 hours
 and then starting practicing speaking by imitating native speakers,
-a technique known as "shadowing."
+a technique known as "imitation exercises."
 
 Alternative approaches,
 such as trying to find native speakers to talk to,
