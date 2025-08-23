@@ -94,18 +94,18 @@ most individuals can speak proficiently
 and can improve naturally by simply talking with native speakers on the topics of interest.
 If the answer is yes,
 AJATT recommends practicing by imitating native speakers.
-This is done through shadowing exercises.
+This is done through imitation exercises.
 
-Shadowing is a language learning technique where you listen to a native speaker
-and repeat what they say, trying to match their speed, rhythm, and intonation
-as closely as possible.
-Here's how you can go about shadowing:
+Imitation is a language learning technique where you listen to a native speaker
+and repeat what they say,
+trying to match their speed, rhythm, and intonation as closely as possible.
+Here's how you can go about imitation:
 
 1) Choose an audio or video recording of a native speaker speaking your target language.
    It could be a [YouTube](immersion-with-youtube.html) video or an audiobook.
    Obtain the text version, the transcript of the recording as well.
 2) Listen to the recording.
-   Start shadowing by repeating what the speaker says,
+   Start imitating by repeating what the speaker says,
    trying to match their speed, rhythm, intonation and pitch accent as closely as possible.
 3) Record yourself.
    Pay attention to your own pronunciation and try to correct any mistakes you notice.

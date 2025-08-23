@@ -39,5 +39,5 @@ If you want to practice speaking,
 flashcards aren't really used for this,
 or at least they're not effective.
 Instead people rely on getting massive amounts of input,
-shadowing exercises,
+imitation exercises,
 writing essays.
