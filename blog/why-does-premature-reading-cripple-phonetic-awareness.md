@@ -140,14 +140,27 @@ and the study of phonetics and pitch accent.
 
 ## Final Thoughts
 
-If you're learning your target language primarily to enjoy content,
-such as reading light novels or watching anime,
-and you don't plan to live in Japan or speak with natives,
-you shouldn't care about your accent
-and the balance between listening and reading.
-Immerse with what you want to immerse.
+When you're just starting out with a new language,
+reading can have negative long-term effects
+on your **perception** and **pronunciation** in that language.
 
-On the other hand,
-if you aim for prefect pronunciation,
-it makes sense to delay reading
-until after you've learned to understand the TL through sound alone.
+* The impact on perception affects the language flow,
+  or how quickly and effortlessly you can construct sentences in your head compared to native speakers.
+* The impact on pronunciation affects how you sound,
+  how your pronunciation differs from that of native speakers.
+  When learners rely heavily on written text
+  before fully internalizing the language's sound system,
+  they develop bad pronunciation.
+
+If you're learning your target language primarily **to enjoy content**,
+such as reading light novels or watching anime,
+and you don't plan to live in a country where the language is spoken
+or speak with native speakers,
+you don't need to worry too much about your accent
+or the balance between listening and reading.
+In this case, feel free to immerse in any content you enjoy.
+
+However,
+if you aim for **perfect pronunciation**,
+consider delaying reading until you can understand the TL through sound alone.
+This approach can help you develop a more native-like linguistic intuition.
