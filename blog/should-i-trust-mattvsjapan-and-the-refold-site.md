@@ -1,41 +1,89 @@
 ---
 title: Should I trust mattvsjapan and the "Refold" site?
-date: 1669582223
+date: 1715864692
 tags: ['faq']
-position: -9936
 ---
 
-Mattvsjapan wants you to pay money for his courses and paywalled content.
-This radically contradicts the core idea of this site,
-which is to learn a language without spending any money at all.
+MattvsJapan is an American content creator who focuses on language learning.
+His business model relies heavily on upsells and recurring payments.
+His language learning methodology is structured in ways that encourage continued purchases.
+He has developed numerous paid Japanese courses,
+and some users report
+the products failed to deliver promised results or value.
 
-If you want to watch his channel,
-stick to the videos he published before around mid 2018,
-he seems to be quite honest in them.
-The old videos were inspired by AJATT and taught a lot of good things.
-Unfortunately,
-it is hard to find them today.
-Many of the videos are not available on YouTube anymore.
+****
 
-In recent years Matt has been criticized
-for watering down his method
-and making it less effective.
-On this site we try to stick to the spirit of AJATT,
-so I recommend getting yourself familiar with the AJATT theory
-before you explore his content.
-It will help you **distinguish** good advice from bad advice.
+## Origin story
 
-Refold in particular is just another scam site
-designed to lure as many people as possible and turn them into paypigs.
-You can tell by visiting its home page.
+MattvsJapan began as a YouTube channel
+offering AJATT-influenced Japanese learning advice.
+However,
+with no skills beyond Japanese,
+he could only teach other foreigners Japanese to make a living.
 
-* Tries to sell you shitty courses, coaching, and even cups and glasses.
-* Collects Email addresses and wants you to create an acccount which is to say the least suspicious.
-* The site contains malicious nonfree JavaScript code which is not safe to run.
-* Recommends and includes links to proprietary spyware
-  such as Hellotalk, Tandem, Bilingua, Netflix, Migaku, etc.
-* Includes instructions on how to join their
-  [Discord](https://spyware.neocities.org/articles/discord.html) server.
-  Discord is known for spying on and politically suppressing its users.
+Eventually,
+his desire for profit took over,
+and he turned teaching into a business.
+He removed his older videos
+and replaced them with low-quality slop,
+paywalled material,
+course launches,
+and merchandise.
 
-Learning languages is and always will be free.
+By mid-2018,
+he had ceased producing genuinely helpful content.
+His most useful videos are no longer available on YouTube.
+
+## Contradicting the AJATT philosophy
+
+[AJATT](whats-ajatt.html) promotes cost-free,
+[immersion](whats-immersion.html)-based learning,
+with the help of [Free (Libre) software](https://www.gnu.org/philosophy/free-sw.html).
+MattvsJapan's business model,
+which relies on paid courses, coaching, and paywalled content,
+directly contradicts
+**AJATT's core principle**
+of learning a language [without spending money](foreword.html#its-free).
+For that reason,
+AJATT **does not** recommend his products.
+
+## Lack of credibility
+
+Language learning communities have widely criticized MattvsJapan's practices.
+English speakers are already aware of his past and current scams,
+so they no longer trust him.
+As a result,
+he has a minimal following among Japanese learners.
+To compensate for his shrinking audience,
+he has attempted to pivot,
+targeting Japanese audiences and offering "English lessons" instead.
+
+## Refold: another scam site
+
+Refold is a "language learning" website created by Mattvsjapan,
+but now run by other people.
+Refold is another scam site designed to lure people in and exploit them.
+
+A quick visit to their homepage reveals some red flags:
+
+* The site sells shitty and overpriced courses, coaching, and merchandise.
+* It collects email addresses
+  and requires users to create an account,
+  which is suspicious at best.
+* It contains malicious,
+  non-free JavaScript code that's not safe to run.
+* It recommends and links to proprietary spyware
+  like Hellotalk, Tandem, Bilingua, Netflix, and Migaku.
+* It provides instructions on joining their Discord server.
+  [Discord](https://spyware.neocities.org/articles/discord.html)
+  is known for spying on and politically suppressing its users.
+
+## The truth about language learning
+
+[Learning languages](table-of-contents.html) **should always be free**.
+Be cautious of scams,
+ineffective learning methods,
+and sites that try to exploit your desire to learn.
+Stay informed,
+use only Free and Libre software,
+and don't fall prey to those who seek to profit from your language learning journey.
