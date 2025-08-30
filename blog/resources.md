@@ -201,7 +201,7 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
   It's nice to have them for mining sentences.
 * [anisource](https://asnet.pw/).
   An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
-* **[Private trackers](https://wiki.installgentoo.com/wiki/Private_trackers)**.
+* **[Private trackers](https://web.archive.org/web/20250821194854if_/https://igwiki.lyci.de/wiki/Private_trackers)**.
   Everything else I didn't mention.
 
 ### Streaming
