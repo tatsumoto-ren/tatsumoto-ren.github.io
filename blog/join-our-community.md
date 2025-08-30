@@ -91,7 +91,7 @@ We use
 [free/libre software](https://www.gnu.org/philosophy/free-sw.html)
 because it is naturally more extensible and user-friendly.
 	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
-	* [Communication software](https://web.archive.org/web/https://wiki.installgentoo.com/wiki/Communication#Synchronous_Communication_.28Real_time.29)
+	* [Communication software](https://web.archive.org/web/20250117045046if_/https://igwiki.lyci.de/wiki/Communication#Synchronous_Communication_(Real_time))
 
 *Certain rooms may have their own sets of rules.*
 
