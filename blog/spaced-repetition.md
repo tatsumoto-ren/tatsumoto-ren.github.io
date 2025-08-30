@@ -124,7 +124,7 @@ Because of the add-ons it's in my opinion really the only SRS application worth 
 What's most important, Anki is
 [libre software](https://www.gnu.org/philosophy/free-sw.html)
 that respects the users'
-[freedom](https://web.archive.org/web/20220318054539/https://wiki.installgentoo.com/wiki/Freedom)
+[freedom](https://web.archive.org/web/20250717095705if_/https://igwiki.lyci.de/wiki/Freedom)
 and community.
 
 Today Anki is considerably worse than it was back in 2006, or even in 2017.
