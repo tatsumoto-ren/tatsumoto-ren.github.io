@@ -12,7 +12,7 @@ it's unnecessary to get corrected by native speakers,
 and it's also a bad idea to rely on other people to correct your output.
 Most AJATTers who sound good never relied on corrections.
 Instead, they got many thousand hours of [input](whats-input-and-output.html)
-and imitated native speakers through a technique called shadowing.
+and imitated native speakers through a technique called "imitation exercises".
 
 * If you haven't got enough immersion and can't output naturally yet, don't say anything.
   You're going to sound too bad,
