@@ -218,20 +218,43 @@ Some shortcuts may even be missing completely.
 
 ## Android
 
-On Android, you need to download a Japanese keyboard.
-To do this open the [F-Droid](https://f-droid.org/) catalog,
-then in the search bar type `Mozc`.
+On Android,
+you'll need to download a Japanese keyboard.
+To do this, use
+the [F-Droid](https://f-droid.org/) catalog.
 
 <p align="center"><img src="img/f-droid-mozc.webp" alt="input methods" style="width: 400px;"></p>
 <p align="center"><i>Mozc for Android.</i></p>
 
-Once installed, launch the app and follow the instructions to set it up.
+Available Japanese input apps:
 
-Most Japanese people use a 12 keys type layout.
-This is how the keyboard looks like.
-You tap and pull toward the character you'd like to input.
-Once you get used to it, it's much faster than the QWERTY layout
-because typing words requires less total keystrokes.
+* [Fcitx5](https://f-droid.org/packages/org.fcitx.fcitx5.android/).
+  Supports Japanese input via
+  the [Anthy Plugin](https://f-droid.org/packages/org.fcitx.fcitx5.android.plugin.anthy).
+* [Mozc](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
+  Mozc's F‑Droid build is old and may have issues on newer Android versions.
+* Gboard.
+  Google's proprietary app **Gboard** is [malware](https://www.gnu.org/proprietary/).
+  If you still choose it,
+  **block** the app's internet access to limit telemetry.
+  Install it using
+  [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/).
+
+Other FOSS keyboards have open issues requesting a Japanese layout:
+
+* [Helium](https://github.com/Helium314/HeliBoard/issues/639)
+* [FlorisBoard](https://github.com/florisboard/florisboard/issues/2290)
+
+Once you've installed an input method,
+launch the app and follow the instructions to set it up.
+
+Most Japanese people prefer a **12-key layout**.
+Here's what the keyboard looks like.
+In this layout,
+you tap and flick toward the character you want.
+Once you get used to it,
+it's much faster than the QWERTY layout
+because typing words requires fewer total keystrokes.
 
 <p align="center"><img src="img/f-droid-mozc-keyboard.webp" alt="input methods" style="width: 400px;"></p>
 <p align="center"><i>Japanese keyboard.</i></p>
@@ -246,15 +269,3 @@ because typing words requires less total keystrokes.
 
 If you don't like the 12 keys keyboard layout,
 you can switch to the QWERTY layout in settings.
-
-## Notes
-
-Mozc for Android hasn't been updated for a while.
-If this upsets you, you can use any alternative Japanese keyboard.
-Google's proprietary app **Gboard** is malware
-but you can probably get around it by blocking the app's access to the Internet.
-
-Other FOSS keyboards have issues opened to add the Japanese layout.
-
-* [Helium](https://github.com/Helium314/HeliBoard/issues/639)
-* [FlorisBoard](https://github.com/florisboard/florisboard/issues/2290)
