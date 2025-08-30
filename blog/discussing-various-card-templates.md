@@ -780,6 +780,49 @@ The language used is irrelevant in this context.
 <p align="center"><img class="shadow" src="img/cloze_card.webp" alt="cloze card"></p>
 <p align="center"><i>A cloze card.</i></p>
 
+## Audio-based cards
+
+Audio-based cards,
+or audio cards,
+are a type of flashcard that features only an audio recording on the front side.
+On the back,
+you'll find the spoken piece in text form,
+along with its meaning.
+This type of card can be helpful for those who want to improve their listening skills
+by memorizing words based on how they sound.
+
+### How to review audio cards
+
+When you review an audio card,
+the front side plays an audio file with a word, phrase, or sentence in the target language.
+Your task is to recognize it and understand what it means.
+
+Try to recall the meaning,
+then flip the card over to see the back side.
+If your guess was correct, press "Good".
+If you couldn't recall the right answer, press "Again".
+
+### Pros and cons of audio cards
+
+I think audio cards can be beneficial for some people.
+But I don't think they're the most essential or effective tool for the job.
+Personally, I didn't use them when I learned my target languages.
+To improve your listening skills,
+it's way more effective and fun to just listen to a lot of content,
+like watching anime, movies, or TV shows.
+
+One downside of audio cards is that they're easier to cheat on
+compared to text-based cards.
+When you listen to the same recordings in Anki,
+you might find yourself getting trained to answer those specific recordings
+instead of actually learning to recognize the sounds.
+This can lead to memorizing the answer based on the audio clip
+rather than truly hearing the sounds and understanding the language.
+
+It's also unclear whether audio-based cards can actually help develop your listening ability,
+since listening to the same audio clip over and over isn't the same
+as listening to different representations of words being spoken in authentic content.
+
 ## Conclusion
 
 The lack of context makes word cards harder to learn,
