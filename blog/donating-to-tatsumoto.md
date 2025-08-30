@@ -89,7 +89,7 @@ UQCxboiT7ArP1oNvV-QENzlKYzVKmqXbBp9LRdaneHhbsEk2
 Bitcoin is another cryptocurrency.
 Bitcoin is not meant to be anonymous, but it's widely used.
 Here's
-[a list of places](https://wiki.installgentoo.com/wiki/Cryptocurrency#Where_You_Can_Buy)
+[a list of places](https://web.archive.org/web/20250513142814if_/https://igwiki.lyci.de/wiki/Cryptocurrency#Where_You_Can_Buy)
 where you can buy Bitcoins.
 
 ```
