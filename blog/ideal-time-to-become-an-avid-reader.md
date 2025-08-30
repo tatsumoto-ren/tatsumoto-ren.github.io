@@ -23,5 +23,5 @@ unless they immerse a lot before they become readers.
 And of course you can improve your pronunciation later.
 To do that you'll have to go through a period where
 you focus on listening instead of reading,
-deliberately practice your pronunciation by doing shadowing excercies,
+deliberately practice your pronunciation by doing imitation excercies,
 etc.
