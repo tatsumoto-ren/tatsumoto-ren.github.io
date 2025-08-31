@@ -94,60 +94,62 @@ and extensive study of phonetics and [pitch accent](japanese-pitch-accents.html)
 
 ## Prioritizing Listening Over Reading
 
-At the beginning of your [AJATT](whats-ajatt.html) journey,
-it is advisable to dedicate more time to listening than to reading.
-[Passive listening](passive-immersion.html) also counts toward your total listening hours.
+At the start of your [AJATT](whats-ajatt.html) journey,
+focus more on listening than reading.
+[Passive listening](passive-immersion.html)
+also counts toward your total listening hours.
 When you immerse with voiced text,
-such as when watching movies and TV shows with TL subtitles,
+like watching movies and TV shows with TL subtitles,
 it counts as **reading practice**.
 
-While reading might be challenging at first,
-getting good at it isn't overly difficult,
+While reading might be difficult at first,
+it's not too hard to get good,
 and it's never too late to start.
 However,
 mastering listening and speaking is much harder.
-If you become too proficient at reading
-while your listening skills lag behind,
-your brain will become reading-dominant, which is nearly irreversible.
+If your reading skills **outpace** your listening skills,
+your brain will become **reading-dominant**,
+which is nearly irreversible.
 It cripples you almost permanently.
 
 That said,
-learning solely through listening is more difficult and takes longer.
-You have to rely exclusively on sound to comprehend meaning.
+relying solely on listening is more challenging
+and takes longer to achieve fluency.
+You have to rely entirely on sound to understand meaning.
 And this approach is nearly impossible to sell to beginners
-who often feel discouraged when they understand nothing during immersion.
+who often feel discouraged when they don't understand anything during immersion.
 Therefore,
 in [AJATT](whats-ajatt.html),
 we must find a balance between listening and reading.
-Reading can speed up progress in acquiring the language and achieving literacy.
+Reading can accelerate language acquisition and achieving literacy.
 However,
-over-reliance on reading will have negative impacts
-on your [pitch accent](japanese-pitch-accents.html) and speaking skills.
+relying too much on reading will negatively impact
+your [pitch accent](japanese-pitch-accents.html) and speaking skills.
 
 The most challenging decision you'll face
-is determining the right balance between listening and reading.
+is finding the right balance between listening and reading.
 For most learners,
 [we recommend](how-much-listening-should-i-do-before-i-start-reading.html)
-avoiding reading initially
-and instead immersing in media like anime.
+starting with media like anime and **avoiding reading at first**.
 Use text-based flashcards and dictionaries
 to [learn sentences](sentence-mining.html) you hear while watching.
-Once you have established a solid foundation,
-you can gradually incorporate reading materials such as manga and novels.
-While some adverse effects from reading are inevitable,
-they can be mitigated through pronunciation training
-and the study of phonetics and pitch accent.
+Limit reading to only flashcards and dictionary lookups.
+Once you've built a solid foundation,
+you can gradually add reading materials like manga and novels.
+While some negative effects from reading are unavoidable,
+they can be minimized through pronunciation training
+and studying phonetics and pitch accent.
 
 ## Final Thoughts
 
 When you're just starting out with a new language,
-reading can have negative long-term effects
+reading will have negative long-term effects
 on your **perception** and **pronunciation** in that language.
 
 * The impact on perception affects the language flow,
   or how quickly and effortlessly you can construct sentences in your head compared to native speakers.
-* The impact on pronunciation affects how you sound,
-  how your pronunciation differs from that of native speakers.
+* The impact on pronunciation affects how you sound
+  and how your pronunciation differs from that of native speakers.
   When learners rely heavily on written text
   before fully internalizing the language's sound system,
   they develop bad pronunciation.
