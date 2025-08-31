@@ -45,7 +45,7 @@ According to Stephen Krashen,
 humans acquire language when they understand messages.
 Krashen calls it [comprehensible input](what-is-comprehensible-input.html).
 The process of acquiring a second language
-is similar to the process that children undergo when learning their native language.
+is similar to the process that **children undergo** when learning their native language.
 You can do it no matter [how old you are](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
 
 We're not babies, we're smarter, and we can learn faster.
@@ -259,7 +259,7 @@ it shouldn’t be your primary focus.
 Once you get a few thousand hours of input,
 your speaking ability is going to emerge gradually.
 Forcing it usually doesn't work.
-Again, remember how small children learn to speak their native language.
+Again, remember **how small children learn** to speak their native language.
 Their output ability emerges as a result of immersion.
 
 1) Immersion + [SRS](spaced-repetition.html) = comprehension ability.
@@ -269,21 +269,37 @@ Their output ability emerges as a result of immersion.
 ## Controlled Output
 
 When you start to notice that your ability to speak has emerged,
-that's when you may begin practicing output.
+that's when you can begin practicing output.
 When you already **have high comprehension**,
 your ears should be well-trained,
 so you'll be able to notice and correct your mistakes
 when you listen to a recording of yourself.
-You can practice speaking by repeating sentences aloud using recordings of native speakers:
-clips from anime, TV shows, or movies, for example.
-It is also helpful to start writing blog posts and essays.
-Always verify that your output is correct.
-Correct your mistakes when you find them.
-You can have your essays checked and corrected by native speakers
-or by automated tools
-(e.g. `Duck.ai`, an AI chatbot that you can ask to check your text).
 
-If speaking isn't your top priority,
+You can practice speaking by repeating sentences aloud
+using recordings of native speakers,
+such as clips from anime, TV shows, or movies.
+This technique is known as "imitation exercise."
+Imitation involves listening to a recording of a native speaker talking
+and repeating what they say,
+trying to match their speed, rhythm, and intonation as closely as possible.
+Record yourself and pay attention to your own pronunciation.
+Try to correct all the mistakes you notice.
+
+It's also helpful to start writing blog posts and essays.
+Always verify that your output is correct &mdash; control yourself.
+Correct your mistakes when you find them.
+You can have your essays **checked** and corrected by native speakers
+or by automated tools
+(e.g., [Duck.ai](http://duck.ai/), an AI chatbot that you can ask to check your text).
+
+Remember that you must not practice speaking until your listening ability is really good.
+If you start speaking before you can hear all the sounds of your target language,
+you'll reinforce bad habits,
+making them nearly impossible to fix later.
+Every time you say something incorrectly,
+you're training your brain to store that warped pronunciation.
+
+**If speaking isn't your top priority**,
 you can neglect speaking practice.
 However,
 evidence shows that avoiding output practice for too long has negative effects.
@@ -487,29 +503,39 @@ but neglecting the word's context can make the reviews harder.
 
 ## Grammar
 
+Children don't learn grammar rules from books.
+They learn by hearing lots and lots of language they can understand.
+Over time,
+their brains figure out how the language works all on their own.
+Your goal in this step is to read a grammar guide and just skim the rules.
+You're looking for example sentences.
+A good grammar book should have plenty of example sentences for you to absorb.
+
 [Choose a grammar guide](learning-grammar.html) and read it.
-It is the only *textbook* that you're really going to need through your AJATT journey.
+It's the only *textbook* you're really going to need throughout your AJATT journey.
 When I learned Japanese, I chose Tae Kim.
 Khatz used "[All About Particles](all-about-particles.html)".
 
 Combining grammar study with the SRS can help you understand the grammar better.
 Put the example sentences in Anki if you like.
-Highlight the grammar point in the sentence to mark it the target
+Highlight the grammar point in the sentence to mark it as the target
 ([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards),
 covered later).
 If you decide not to bother with Anki at this point,
 make sure to at least read through the whole grammar guide and pay attention to examples.
 
 Don't waste your time memorizing conjugation tables.
-The grammar is a tool to aid comprehension, and knowing the rules won't help you output.
+Grammar is a tool to aid comprehension,
+and knowing the rules won't help you output.
 By the time you recall a grammar rule and apply it to your thoughts,
 your conversation partner will be long gone.
 
 A guide like Tae Kim doesn't cover everything.
 Even certain grammar in the advanced section can be considered pretty basic.
 As you continue to immerse,
-look up and when necessary make Anki cards
-for the rest of the grammar not covered in the grammar guide.
+look up and,
+when necessary,
+make Anki cards for the rest of the grammar not covered in the grammar guide.
 The process is no different from making cards for regular words.
 
 ## Create your own mining deck
@@ -541,6 +567,87 @@ having a goal to work towards can be motivating.
 I managed to learn 10,000 sentence cards in 11 months.
 Feel free to take on this challenge as well,
 but remember that Anki is just a supplement for immersion learning.
+
+## Reading immersion VS Listening immersion
+
+AJATT is based on learning languages the natural way,
+**like children** do.
+However,
+while reading immersion is powerful and can help you improve quickly,
+it's not how children actually learn languages.
+Children spend years mastering the spoken language
+**before they read a single written character**.
+They build a foundation in sound first, then learn to read.
+
+Reading in a foreign language
+[harms](why-does-premature-reading-cripple-phonetic-awareness.html)
+**perception** and **pronunciation**.
+The impact on perception affects language flow,
+or how quickly and effortlessly you can construct sentences in your head compared to native speakers.
+The impact on pronunciation affects how you sound
+and how your pronunciation differs from that of native speakers.
+
+Native speakers process language subconsciously.
+Their speech is automatic and flows effortlessly
+without conscious attention to structure or word order.
+In contrast,
+when learning through reading,
+you analyze language
+and use different parts of your brain than native speakers,
+essentially learning to translate the language into your own mental model
+rather than intuitively understanding it.
+That limits your ability to produce natural, fluent speech.
+
+Adults who neglect listening and rely mostly on reading
+often develop good grammar but retain a **foreign accent**.
+This often stems from
+**[subvocalization](https://en.wikipedia.org/wiki/Subvocalization)**.
+I.e., the act of reading activates muscles in the throat.
+Without a solid foundation in listening,
+learners make up sounds in their head while reading,
+forming **bad pronunciation habits**.
+This effect is similar to [premature output](#outputting).
+Because training listening comprehension requires more effort,
+their reading ability quickly outpaces their listening ability.
+Every time they see a word in text,
+their brain creates its own made-up pronunciation based on how they *think* it should sound,
+and they subvocalize it,
+effectively training themselves to sound bad.
+By learning to read before they can **properly hear** the language,
+they sabotage their ability to speak.
+
+To develop listening skills and a good accent,
+start with **only audio-visual input** (TV shows, movies, anime, dramas).
+It's hard to completely avoid reading,
+so try to limit it to looking up unknown words in Japanese subtitles,
+using dictionaries,
+and making Anki cards.
+
+Improving your listening after the damage is done will be a significant uphill battle,
+as the sounds in your head won't match what native speakers are actually saying.
+You want to avoid such an outcome at all costs.
+
+In the beginning,
+limit reading **only** to flashcards and dictionary lookups.
+Avoid active reading beyond text‑based flashcards.
+**Focus on listening** to lots of native Japanese
+to build a phonetic foundation.
+Once you develop good listening comprehension,
+add light reading,
+such as easy comics or manga,
+then progress to ranobe and novels.
+
+If you're learning Japanese primarily **to enjoy content**,
+such as anime, manga, or light novels,
+and you're not interested in immigrating to Japan,
+it's actually [more effective](how-much-listening-should-i-do-before-i-start-reading.html)
+to start reading manga and novels early.
+As an adult,
+learning foreign languages by reading is considerably easier
+than learning by listening to spoken language.
+You can improve much more quickly.
+You can still address accent later,
+but correction will take substantial effort.
 
 ## How to divide your study time
 
