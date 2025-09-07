@@ -228,6 +228,8 @@ the [F-Droid](https://f-droid.org/) catalog.
 
 Available Japanese input apps:
 
+* [スミレ 日本語キーボード](https://f-droid.org/packages/com.kazumaproject.markdownhelperkeyboard/).
+  Sumire is a privacy-first Japanese keyboard for simple, fast typing.
 * [Fcitx5](https://f-droid.org/packages/org.fcitx.fcitx5.android/).
   Supports Japanese input via
   the [Anthy Plugin](https://f-droid.org/packages/org.fcitx.fcitx5.android.plugin.anthy).
