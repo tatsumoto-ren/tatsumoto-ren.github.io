@@ -785,8 +785,8 @@ regarding using an Android device.
 
 ### General
 
-* [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
-  A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
+* [Japanese keyboards](how-to-type-in-japanese.html#android).
+  Choose a Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [Fcitx repo](https://f5a.torus.icu/fdroid/repo?fingerprint=5D87CE1FAD3772425C2A7ED987A57595A20B07543B9595A7FD2CED25DFF3CF12).
   Fcitx for Android.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
@@ -928,7 +928,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 * [Dictionaryphile &mdash; 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
   A list of various online dictoinaries.
 
-### Android
+### Android dictionaries
 
 * [Ciyue](https://f-droid.org/packages/org.eu.mumulhl.ciyue/).
   This dictionary supports [MDX](yomichan-and-epwing-dictionaries.html#mdx) dictionary files.
