@@ -19,6 +19,8 @@ You can join us on Telegram or SimpleX chat.
 is a messenger with a focus on speed and security.
 To use Telegram on GNU/Linux, install
 [the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
+Telegram also can be found on F-Droid,
+The package is named [Forkgram](https://f-droid.org/en/packages/org.forkgram.messenger/).
 
 This is the main group for chatting about Japan, the Japanese language, and other things.
 
