@@ -288,13 +288,41 @@ Machine translations are the least preferable.
 
 ## Daily amount of cards
 
-It is advised to learn from 10 to 30 new cards a day
-depending on your preference and the amount of time you have for Anki.
-One way to determine your organic limit is to start with 10 cards a day and see how it goes.
-Increase the daily amount if you feel like you can handle more.
+Every day you **create** or import a number of new cards and **learn** a number of new cards.
+These two numbers don't have to match.
+If you make more cards than you learn, the extras sit in your sentence bank.
 
-When it comes to how many cards you should make, there is no concrete number.
-There are people who make cards in advance on a weekend and slowly learn them on weekdays.
-Some people make cards and learn them right away.
-Some people learn the cards they have already made on the next day.
-What's important is that you always have sentences in your deck ready to be learned.
+There's no fixed number of cards we recommend you should **make**.
+Some people batch-create cards on weekends and learn them slowly during the week.
+Some people make cards and learn them immediately.
+Others learn the cards they made the day before.
+You can create more cards than you learn each day.
+It's fine to keep them in your sentence bank.
+You might need them later.
+What matters is that you always have sentences in your deck ready to learn.
+
+Choose how many new cards you want to **learn** each day, and stick to that number.
+We recommend learning **10–30 new cards per day**,
+depending on your preference, schedule, and how much time you have for Anki each day.
+One way to determine your organic limit is to start with 10 new cards a day and see how it goes.
+Increase the daily amount if you can handle more.
+
+Don't introduce too many new cards at once.
+The number of new cards and your retention rate determine
+how many reviews you'll need to complete.
+If you feel overwhelmed by daily reviews,
+you can *influence* future review load by lowering your daily new-card count
+or stopping learning new cards entirely for a while.
+If you have headroom, raise the number of new cards.
+
+You can get away with more new cards if you raise your
+[Interval Modifier](setting-up-anki.html#interval-modifier),
+but expect your retention to drop.
+
+Don't cap reviews by lowering the
+[Maximum reviews/day](setting-up-anki.html#maximum-reviews-day)
+setting to make room for more new cards.
+It only *hides* due cards from you.
+Not completing reviews on schedule creates a backlog.
+Worse,
+the backlog stays invisible because Anki hides it.
