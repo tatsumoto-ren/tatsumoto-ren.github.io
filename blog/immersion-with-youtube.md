@@ -159,3 +159,5 @@ to access YouTube and keep your privacy.
   On top of that it can transform many other links.
 * If you add `24/7` or `ライブ` behind your searches on YouTube,
   you can find channels that stream Japanese all day.
+* [charts.youtube.com/jp](https://charts.youtube.com/jp).
+  Songs trending in Japan.
