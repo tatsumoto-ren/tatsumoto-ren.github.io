@@ -320,25 +320,8 @@ Send all your learning cards to this deck, then pull out 10~20 at a time and gra
 
 ## New cards
 
-Choose how many new cards you want to do each day and stick to that number.
-We recommend learning between 10~30 cards a day.
-Don't learn too many new cards.
-The amount of new cards together with retention determine
-how many reviews you will have to complete.
-If you feel overwhelmed by the number of daily reviews,
-you can *influence* the number of future reviews by decreasing the number of new cards
-or stopping learning new cards completely for a period of time.
-If you feel like you have headroom, raise the amount of new cards.
-
-You can get away with learning more new cards if you increase your [Interval Modifier](setting-up-anki.html#interval-modifier),
-but in return expect your retention to go down.
-
-Do not cap your reviews by decreasing the
-[Maximum reviews/day](setting-up-anki.html#maximum-reviews-day)
-setting in order to do more new cards.
-It will only *hide* the due cards from you.
-Failing to do all of your reviews on schedule will form a backlog.
-What's worse, the backlog will be invisible because Anki will hide it from you.
+Choose how many new cards you want to learn each day and stick to that number.
+See [Daily amount of cards](sentence-mining.html#daily-amount-of-cards).
 
 ## Leeches
 
