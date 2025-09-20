@@ -32,6 +32,7 @@ Alternatively, you can try `onaji`.
 ## Yen symbol ￥
 
 Press `＼` (backslash). Find `￥` among the predictions.
+Alternatively, type `えん` and find `¥` in the conversion candidates.
 
 ## Whitespace
 
@@ -45,11 +46,11 @@ Type `komejirushi` or `hoshi`.
 
 Type `nakaten` or `nakaguro`.
 
-# N
+## N
 
 Typing "xn" outputs ん.
 
-# Overline ￣
+## Overline ￣
 
 Type `うえ`.
 
@@ -57,3 +58,16 @@ Type `うえ`.
 Overlines are used in the NHK accent dictionary to mark high
 [pitch accent](japanese-pitch-accents.html), e.g. `いっぱい￣`.
 When pitch drops, slashes are used `＼`.
+
+## lambda λ
+
+`らむだ` can give you the greek symbol `λ`
+
+## Pound £
+
+`ぽんど` can give you the British pound symbol `£`.
+
+## Arrows
+
+`やじるし` can give you any arrow.
+`みぎ` can give you `→`, `ひだり` can give you `←`, etc.
