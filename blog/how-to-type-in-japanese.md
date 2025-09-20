@@ -205,15 +205,52 @@ it will bring up a menu where you can choose an input method.
 
 ## Usage
 
-Using an IME usually comes down to typing what you want, then pressing Space to convert it.
-Every IME wants you to suffer, that's why the way each of them is used slightly differs.
+Using an IME usually means typing what you want,
+then pressing Space to convert it.
+Every IME wants you to suffer,
+so usage differs slightly between them.
 Don't expect keyboard shortcuts to be the same across IMEs.
-Some shortcuts may even be missing completely.
+Some shortcuts may be missing entirely.
+
+To enable Japanese input in Fcitx,
+press <kbd>Super</kbd>+<kbd>Space</kbd> and select it (Kana-kanji, Mozc, etc.).
+Alternatively,
+click the Fcitx icon in the taskbar and choose a Japanese input method.
+
+The Kana-kanji keyboard layout has multiple input modes: `あ ア ｱ A Ａ`.
+
+To cycle between Latin input modes, press <kbd>Alt</kbd>+<kbd>L</kbd>.
+There are two Direct (Latin) input modes:
+Half-width (`English`) and the full-width (`Ｅｎｇｌｉｓｈ`).
+Direct Input types letters exactly as they appear on your keyboard, like an English layout.
+
+To cycle between Japanese input modes, press <kbd>Alt</kbd>+<kbd>K</kbd>.
+There are three Japanese input modes:
+Hiragana (`ひらがな`), katakana (`カタカナ`), and half-width katakana (`ｶﾀｶﾅ`).
+Hiragana mode activates the input method editor (IME) as you type
+and attempts to interpret your input as Japanese.
+
+<p align="center"><img src="img/fcitx-input-modes.webp" alt="input methods"></p>
+<p align="center"><i>Kana-Kanji input modes in Fcitx.</i></p>
+
+Fcitx can remember the input mode you were using, either *per-app* or *per-window*.
+This setting can be controlled in fcitx-configtool > "Global Config" > "Share State Among Window".
 
 ## Tips
 
 * Typing with <kbd>Alt</kbd> pressed down forces latin input.
-* Pressing <kbd>alt</kbd>+<kbd>&#96;</kbd> switches to latin mode.
+* When in Hiragana mode, Pressing <kbd>Alt</kbd>+<kbd>&#96;</kbd> switches to latin mode.
+* Finish and commit edit: <kbd>Enter</kbd>.
+* Discard current edit: <kbd>Esc</kbd>.
+* Convert, or press again to select a different candidate: <kbd>Space</kbd>.
+* Autocomplete: <kbd>Tab</kbd>.
+* Navigate candidates: <kbd>Up</kbd> and <kbd>Down</kbd>, or number keys for quick selection.
+* Convert to hiragana: <kbd>F6</kbd>.
+* Convert to katakana: <kbd>F7</kbd>.
+* Convert to half-width katakana: <kbd>F8</kbd>.
+* Convert to full-width romaji: <kbd>F9</kbd>.
+* Convert to romaji: <kbd>F10</kbd>
+* Undo last edit: <kbd>Ctrl</kbd>+<kbd>Z</kbd>.
 * [How to type X](how-to-type-x-with-fcitx.html)?
 
 ## Android

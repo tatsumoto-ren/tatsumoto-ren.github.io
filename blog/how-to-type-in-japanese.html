@@ -219,14 +219,45 @@ it will bring up a menu where you can choose an input method.</p>
 <p align="center"><img src="img/fcitx-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Input method selector.</i></p>
 <h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
-<p>Using an IME usually comes down to typing what you want, then pressing Space to convert it.
-Every IME wants you to suffer, that's why the way each of them is used slightly differs.
+<p>Using an IME usually means typing what you want,
+then pressing Space to convert it.
+Every IME wants you to suffer,
+so usage differs slightly between them.
 Don't expect keyboard shortcuts to be the same across IMEs.
-Some shortcuts may even be missing completely.</p>
+Some shortcuts may be missing entirely.</p>
+<p>To enable Japanese input in Fcitx,
+press <kbd>Super</kbd>+<kbd>Space</kbd> and select it (Kana-kanji, Mozc, etc.).
+Alternatively,
+click the Fcitx icon in the taskbar and choose a Japanese input method.</p>
+<p>The Kana-kanji keyboard layout has multiple input modes: <code>あ ア ｱ A Ａ</code>.</p>
+<p>To cycle between Latin input modes, press <kbd>Alt</kbd>+<kbd>L</kbd>.
+There are two Direct (Latin) input modes:
+Half-width (<code>English</code>) and the full-width (<code>Ｅｎｇｌｉｓｈ</code>).
+Direct Input types letters exactly as they appear on your keyboard, like an English layout.</p>
+<p>To cycle between Japanese input modes, press <kbd>Alt</kbd>+<kbd>K</kbd>.
+There are three Japanese input modes:
+Hiragana (<code>ひらがな</code>), katakana (<code>カタカナ</code>), and half-width katakana (<code>ｶﾀｶﾅ</code>).
+Hiragana mode activates the input method editor (IME) as you type
+and attempts to interpret your input as Japanese.</p>
+<p align="center"><img src="img/fcitx-input-modes.webp" alt="input methods"></p>
+<p align="center"><i>Kana-Kanji input modes in Fcitx.</i></p>
+<p>Fcitx can remember the input mode you were using, either <em>per-app</em> or <em>per-window</em>.
+This setting can be controlled in fcitx-configtool &gt; &quot;Global Config&quot; &gt; &quot;Share State Among Window&quot;.</p>
 <h2 id="tips"><a class="anchor" href="#tips" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h2>
 <ul>
 <li>Typing with <kbd>Alt</kbd> pressed down forces latin input.</li>
-<li>Pressing <kbd>alt</kbd>+<kbd>`</kbd> switches to latin mode.</li>
+<li>When in Hiragana mode, Pressing <kbd>Alt</kbd>+<kbd>`</kbd> switches to latin mode.</li>
+<li>Finish and commit edit: <kbd>Enter</kbd>.</li>
+<li>Discard current edit: <kbd>Esc</kbd>.</li>
+<li>Convert, or press again to select a different candidate: <kbd>Space</kbd>.</li>
+<li>Autocomplete: <kbd>Tab</kbd>.</li>
+<li>Navigate candidates: <kbd>Up</kbd> and <kbd>Down</kbd>, or number keys for quick selection.</li>
+<li>Convert to hiragana: <kbd>F6</kbd>.</li>
+<li>Convert to katakana: <kbd>F7</kbd>.</li>
+<li>Convert to half-width katakana: <kbd>F8</kbd>.</li>
+<li>Convert to full-width romaji: <kbd>F9</kbd>.</li>
+<li>Convert to romaji: <kbd>F10</kbd></li>
+<li>Undo last edit: <kbd>Ctrl</kbd>+<kbd>Z</kbd>.</li>
 <li><a href="how-to-type-x-with-fcitx.html">How to type X</a>?</li>
 </ul>
 <h2 id="android"><a class="anchor" href="#android" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android</h2>
