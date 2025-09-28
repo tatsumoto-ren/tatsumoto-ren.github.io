@@ -139,6 +139,9 @@ to access YouTube and keep your privacy.
 
 ## Notes
 
+* [YouTube No Translation](https://github.com/YouG-o/YouTube_No_Translation).
+  Web browser add-on that prevents YouTube's automatic translations.
+  It keeps titles, descriptions, and audio in their original language.
 * [BlockTube](https://github.com/amitbl/blocktube).
   This browser extension allows you
   to block videos and channels that are not in your target language.
