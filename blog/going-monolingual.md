@@ -171,6 +171,7 @@ frequently recommended within the AJATT community:
 * `大辞泉`
 * `明鏡`
 * `広辞苑`
+* `実用日本語表現辞典`
 
 These are more or less generic names.
 Often,
