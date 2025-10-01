@@ -76,7 +76,7 @@ Dictionaries can be added to a group by dragging and dropping.
 
 Place the dictionaries you like the most on top for easy access.
 If you are new to monolingual dictionaries,
-I recommend `明鏡`, `大辞林`, `大辞泉`, `新明解`.
+I recommend `明鏡`, `大辞林`, `大辞泉`, `新明解`, `実用日本語表現辞典`.
 During the [monolingual transition](going-monolingual.html),
 having as many dictionaries enabled as possible will help you
 find a definition that is easier to understand.
