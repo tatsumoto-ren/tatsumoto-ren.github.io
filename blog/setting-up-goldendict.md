@@ -31,16 +31,16 @@ you can enable the
 and then run Pacman to install GoldenDict-NG.
 
 ```
-sudo pacman -S goldendict-ng-git
+sudo pacman -S goldendict-ng
 ```
 
 Alternatively,
-install [goldendict-ng-git](https://aur.archlinux.org/packages/goldendict-ng-git)
+install [goldendict-ng](https://aur.archlinux.org/packages/goldendict-ng)
 from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
 You're going to have to wait for it to compile.
 
 ```
-trizen -S goldendict-ng-git
+trizen -S goldendict-ng
 ```
 
 ### Other distributions
