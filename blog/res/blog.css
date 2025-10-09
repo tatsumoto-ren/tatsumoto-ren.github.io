@@ -1693,6 +1693,19 @@ details summary > * {
     display: inline;
 }
 
+/* Highlight important blocks */
+
+details.important_details {
+    --main-color: green;
+
+    outline-color: color-mix(  in oklab, var(--main-color) 70%, rgba(0 0 0 / 0%)  );
+    background-color: color-mix(  in oklab, var(--main-color) 5%, rgba(0 0 0 / 0%)  );
+    summary {
+      background-color: color-mix(  in oklab, var(--main-color) 20%, rgba(0 0 0 / 0%)  );
+      color: black;
+    }
+}
+
 /* Downstep line colors (used in articles about pitch accent) */
 
 .heiban {
@@ -1721,16 +1734,4 @@ details summary > * {
 }
 .H {
     box-shadow: inset 0px 2px 0 0px var(--downstep-color, currentColor);
-}
-
-/* Highlight important blocks */
-
-.highlight_block_important {
-    --spacing: 0.5rem;
-
-    display: block;
-    outline: 1px solid color-mix(in oklab, red 70%, rgba(0 0 0 / 0%));;
-    border-radius: calc(var(--spacing) / 3);
-    background-color: color-mix(in oklab, red 5%, rgba(0 0 0 / 0%));
-    padding: calc(var(--spacing) / 3) 0;
 }

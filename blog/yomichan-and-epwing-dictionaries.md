@@ -25,11 +25,13 @@ so for every word you look up you immediately get multiple definitions.
 Our community member, `Epistularum`,
 made a collection of EPWING dictionaries.
 
-<div class="highlight_block_important">
+<details open class="important_details">
+<summary>Download links</summary>
 
-* [Torrent](https://nyaa.si/view/1577255) or [Magnet](magnet:?xt=urn:btih:825ade169e0318482e24966ce5a22034fe9dc136&dn=Epistularum%27s%20Tidy%20EPWing%20Collection%20%5BVersion%201.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [Magnet](magnet:?xt=urn:btih:825ade169e0318482e24966ce5a22034fe9dc136&dn=Epistularum%27s%20Tidy%20EPWing%20Collection%20%5BVersion%201.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [Torrent file](https://nyaa.si/view/1577255)
 
-</div>
+</details>
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
 
@@ -62,17 +64,23 @@ Qolibri is much better for EPWING.
 
 `Epistularum` made a collection of MDX dictionaries for GoldenDict.
 
-<div class="highlight_block_important">
+<details open class="important_details">
+<summary>Download links</summary>
 
-* [Large version (66 GiB)](https://nyaa.si/view/2024101) or [Magnet](magnet:?xt=urn:btih:b0f0b1e9a7b74a87eb9808141a79828b074f8b15&dn=Epistularum%27s%20Tidy%20MDX%20Collection%20%5BVersion%202.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+1) Large version (66 GiB).
 
-  To reduce the size, you can exclude optional directories, such as:
+   * [Magnet](magnet:?xt=urn:btih:b0f0b1e9a7b74a87eb9808141a79828b074f8b15&dn=Epistularum%27s%20Tidy%20MDX%20Collection%20%5BVersion%202.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+   * [Torrent file](https://nyaa.si/view/2024101).
 
-  * 11 他言語
-  * 13 書道
-* [Small version (19 GiB)](https://nyaa.si/view/1634529) or [Magnet](magnet:?xt=urn:btih:8a6101ffb51caf247d9f2d78d7b467b06c706498&dn=Epistularum%27s%20Tidy%20MDX%20Collection%20%5BVersion%201.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+   To reduce the size, you can exclude optional directories, such as:
 
-</div>
+   * 11 他言語 (other languages).
+   * 13 書道 (calligraphy).
+1) Small version (19 GiB)
+   * [Magnet](magnet:?xt=urn:btih:8a6101ffb51caf247d9f2d78d7b467b06c706498&dn=Epistularum%27s%20Tidy%20MDX%20Collection%20%5BVersion%201.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+   * [Torrent file](https://nyaa.si/view/1634529).
+
+</details>
 
 **Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
 
@@ -152,12 +160,13 @@ in order to enable Rikaitan definition lookups.
 
 An archive with dictionaries for Rikaitan can be downloaded by following the link below.
 
-<div class="highlight_block_important">
+<details open class="important_details">
+<summary>Download links</summary>
 
-* [Download](https://disk.yandex.com/d/dmS_-JVE2fkMDQ)
-* [Mirror](https://t.me/ajatt_tools/115)
+* [Download](https://disk.yandex.com/d/dmS_-JVE2fkMDQ).
+* [Mirror](https://t.me/ajatt_tools/115).
 
-</div>
+</details>
 
 <details>
 <summary>Sources</summary>
