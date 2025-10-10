@@ -86,6 +86,12 @@ On Arch Linux, yt-dlp can be installed by running this command:
 sudo pacman -S yt-dlp
 ```
 
+If you're on Ubuntu, it is recommended to use [pipx](https://pipx.pypa.io/stable/).
+
+```
+pipx install "yt-dlp[default]"
+```
+
 To download a video, execute:
 
 ```
