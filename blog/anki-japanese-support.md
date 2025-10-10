@@ -411,28 +411,16 @@ inserts additional JavaScript code into the card templates
 to enable the display of pitch accent information on mouse hover.
 If you do not require this feature,
 you can disable the script loading
-in Advanced settings.
+in Settings.
 
 <details>
 
 <summary>Steps to Disable JavaScript loading</summary>
 
-Go to "AJT" > "Japanese Options" > "Advanced".
-Find the parameter named "insert_scripts_into_templates" and flip it to `false`.
-Click Save.
-
-Locate the lines in your card template that contain the following script tag:
-
-```
-<script>
-/* AJT Japanese JS ... */
-...
-...
-</script>
-```
-
-Remove the lines.
-Save the changes.
+Go to "AJT" > "Japanese Options" > "Furigana".
+For each profile where you don't want AJT Japanese to add its scripts,
+uncheck the checkbox named "Insert addon scripts".
+Click OK.
 
 </details>
 
