@@ -140,14 +140,14 @@ press a keyboard shortcut,
 and the word will change its color to a value you defined in Settings.
 You can set multiple shortcuts, one for each color you need.
 
-### [Kanji Grid](https://ankiweb.net/shared/info/909972618)
+### [Kanji Grid](https://ankiweb.net/shared/info/1344485230)
 
 Tells you exactly which kanji from a given deck you have learned
 and how many kanji you know overall.
+To use the add-on, Press "AJT" > "Analyze known kanji...".
 You can group the kanji by Kentei level, JLPT level, or school grade.
-Duplicates similar functionality from the Japanese support add-on,
-but comes with the ability to limit results to the required field name
-and has a nicer interface that shows kanji in a colored grid.
+Comes with the ability to limit results to the required field name
+and has a nice interface that shows kanji in a colored grid.
 
 <p align="center"><img alt="kanji-grid" class="shadow" src="img/kanji-grid.webp"></p>
 
