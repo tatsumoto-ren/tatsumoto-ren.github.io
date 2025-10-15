@@ -69,6 +69,8 @@ to avoid possible issues.
   Note: `pkgs.org` requires JS to be enabled.
 * [Ubuntu](https://ubuntu.com/) users can use the *App Center* to install Anki.
   However, be aware that under the hood it installs a Snap package.
+  In addition, your collection will be stored in `~/snap/anki-desktop/`
+  instead of the usual `~/.local/share/Anki2`.
 * Debian users and users of other *stable* distros should note that
   outdated versions of Anki work poorly with most add-ons, especially new ones.
   Use a version released at least 6 months ago or newer.
