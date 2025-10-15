@@ -171,13 +171,13 @@ to sort a premade deck using a frequency list without the need to export it as a
 
 <p align="center"><img alt="advanced-browser" class="shadow" src="img/advanced-browser.webp"></p>
 
-### [RefoldEase](https://ankiweb.net/shared/info/819023663)
+### [ResetEase](https://ankiweb.net/shared/info/819023663)
 
 It is believed that the Ease factor can be harmful
 when memorizing items with similar intrinsic difficulties, such as sentence cards.
 After a card gets graded "Again" too many times, its Ease factor becomes smaller
 and prevents the card's interval from growing at a normal rate.
-RefoldEase lets you control Ease of cards in your collection.
+ResetEase lets you control Ease of cards in your collection.
 Run this add-on once to set Ease of your cards to 131%
 and change Interval Modifier and Starting Ease of your decks accordingly.
 This is in my opinion the best way to solve the Ease Hell problem once and for all
@@ -187,7 +187,7 @@ After applying the settings you can uninstall the add-on.
 * [The Ease Factor Problem](https://web.archive.org/web/20200926103540/https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/)
 * [Guide to Anki Intervals and Learning Steps](https://redirect.invidious.io/watch?v=1XaJjbCSXT0)
 
-<p align="center"><img alt="refold-ease" class="shadow" src="img/refold-ease.png"></p>
+<p align="center"><img alt="reset-ease" class="shadow" src="img/reset-ease.webp"></p>
 <p align="center"><i>Settings.</i></p>
 
 ### [Learn now & Grade now](https://ankiweb.net/shared/info/1021636467)

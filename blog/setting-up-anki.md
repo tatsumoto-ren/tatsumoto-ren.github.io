@@ -601,7 +601,7 @@ Once a card *becomes a leech*, you should investigate why it happened.
 
 If you've been using Anki for a while before reading this page
 then you'll need to update your collection to reset the Ease factor of the older cards.
-To update older cards, use the [RefoldEase](https://ankiweb.net/shared/info/819023663) add-on.
+To update older cards, use the [ResetEase](https://ankiweb.net/shared/info/819023663) add-on.
 
 More about the Ease Hell:
 
