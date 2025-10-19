@@ -129,7 +129,7 @@ In such cases sites with example sentences come to rescue.
   Has many words pronounced in isolation but not so many sentences.
 * [YouGlish for Japanese](https://youglish.com/japanese) and [CaptionPop](https://www.captionpop.com/).
   Find YouTube videos with TL subtitles, download them and watch using `mpv`.
-* [用例.jp](https://yourei.jp/)
+* [用例.jp](https://yourei.jp/) (Down? [Archive](https://web.archive.org/web/20250729193937/https://yourei.jp/).)
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
   I don't recommend Jisho
