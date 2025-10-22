@@ -10,12 +10,26 @@ we've gathered the links to help you in your Japanese studies.
 We prioritize libre software and content that you can download for free.
 Everyone is welcome to suggest more resources in our chat.
 
+****
+
+## Typical problems with third-party websites
+
+We can't guarantee any quality for third-party websites.
+
 The third party resources below
 may contain what AJATT considers to be ineffective language learning advice.
-If you find something that contradicts what's written in this guide,
+If you find something that contradicts this guide,
 assume it's wrong or verify by asking people in our chat.
 
-****
+Many sites also include non-free JavaScript
+or links to spyware and malware.
+Proceed with caution.
+If you use [uBlock](https://github.com/gorhill/uBlock),
+disable JavaScript by default
+to protect your security and privacy (Settings > Disable JavaScript).
+Also,
+see [No scripting](https://github.com/gorhill/ublock/wiki/Per-site-switches#no-scripting)
+and [Blocking mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 
 ## Basics
 
@@ -129,6 +143,8 @@ In such cases sites with example sentences come to rescue.
   Has many words pronounced in isolation but not so many sentences.
 * [YouGlish for Japanese](https://youglish.com/japanese) and [CaptionPop](https://www.captionpop.com/).
   Find YouTube videos with TL subtitles, download them and watch using `mpv`.
+* [AxTongue](https://axtongue.com).
+  YouTube subtitle search engine. Similar to CaptionPop.
 * [用例.jp](https://yourei.jp/) (Down? [Archive](https://web.archive.org/web/20250729193937/https://yourei.jp/).)
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
