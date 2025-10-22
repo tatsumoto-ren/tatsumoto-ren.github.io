@@ -32,6 +32,8 @@ We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 <a class="download_button" href="https://addons.mozilla.org/en-US/firefox/addon/rikaitan/">Firefox add-ons</a>
 </p>
 
+**Note:** Temporarily unavailable. We're actively trying to fix this.
+
 ### Chromium-based
 
 Rikaitan is available for [Chromium](https://wiki.archlinux.org/title/Chromium)-based web browsers.
@@ -40,6 +42,10 @@ We recommend [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-c
 <p align="center">
 <a class="download_button" href="https://chromewebstore.google.com/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
 </p>
+
+### GitHub Releases
+
+The official [GitHub Releases page](https://github.com/Ajatt-Tools/rikaitan/releases).
 
 ### AnkiConnect plugin
 
