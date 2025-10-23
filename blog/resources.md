@@ -475,10 +475,12 @@ You may need a Japanese IP address for some of these.
 > and [Retiming subtitles](retiming-subtitles.html).
 
 * [kitsunekko.net](https://kitsunekko.net/subtitles/japanese/).
-  A large repository of japanese subtitles.
+  A large repository of Japanese subtitles.
 * [kitsunekko mirror](https://github.com/Ajatt-Tools/kitsunekko-mirror).
   You can clone this repository to have all subtitles from kitsunekko saved locally.
   More details [here](mining-from-movies-and-tv-shows.html#obtain-subtitles).
+* [anime-transcription](https://github.com/ookiineko/anime-transcription).
+  A GitHub repository where you can transcribe anime, share and download transcriptions.
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.ink/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [日本語字幕](https://djtguide.github.io/library/sub.html) on Itazuraneko.
   Outdated.
