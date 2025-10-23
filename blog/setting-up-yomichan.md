@@ -29,10 +29,12 @@ Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-ba
 We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 
 <p align="center">
-<a class="download_button" href="https://addons.mozilla.org/en-US/firefox/addon/rikaitan/">Firefox add-ons</a>
+<a class="download_button" href="https://github.com/Ajatt-Tools/rikaitan/releases/download/25.10.13.0/rikaitan-firefox-selfhosted.xpi">Firefox add-ons</a>
 </p>
 
-**Note:** Temporarily unavailable. We're actively trying to fix this.
+**Note:** Add-on verification by Mozilla is taking a long time.
+You can still install the extension if you open `about:config`
+and temporarily set `xpinstall.signatures.required` to `false`.
 
 ### Chromium-based
 
