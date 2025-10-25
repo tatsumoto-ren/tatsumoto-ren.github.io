@@ -482,6 +482,9 @@ You may need a Japanese IP address for some of these.
 * [anime-transcription](https://github.com/ookiineko/anime-transcription).
   A GitHub repository where you can transcribe anime, share and download transcriptions.
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.ink/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [Jimaku Archive 12/01/2025](https://nyaa.si/view/1920638).
+  Archive of anime and drama subtitles.
+  [Magnet](magnet:?xt=urn:btih:26a8494af7d6a45ea441f2f05b7bfd978d90f655&dn=Jimaku%20Archive%2012%2F01%2F2025&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
 * [日本語字幕](https://djtguide.github.io/library/sub.html) on Itazuraneko.
   Outdated.
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
