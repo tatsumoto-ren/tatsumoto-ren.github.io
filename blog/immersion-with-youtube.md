@@ -98,10 +98,10 @@ To download a video, execute:
 yt-dlp 'https://youtube.com/<video>'
 ```
 
-If you want to download just the audio, use this command:
+If you want to download just the audio (for example, music), use this command:
 
 ```
-yt-dlp --extract-audio --format bestaudio/best 'https://youtube.com/<video>'
+yt-dlp --embed-metadata --extract-audio --format bestaudio/best 'https://youtube.com/<video>'
 ```
 
 **Tip:**
