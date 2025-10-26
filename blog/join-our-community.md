@@ -88,7 +88,7 @@ Our members are volunteering their time to help everybody.
 Try to reduce the amount of reoccurring questions so that everyone has more time to immerse.
 1) **No proprietary software.**
 We don't use, support or recommend
-[proprietary software](https://www.gnu.org/proprietary/).
+[proprietary software](https://www.gnu.org/proprietary/proprietary.html).
 We use
 [free/libre software](https://www.gnu.org/philosophy/free-sw.html)
 because it is naturally more extensible and user-friendly.

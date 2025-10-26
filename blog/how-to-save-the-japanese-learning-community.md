@@ -12,7 +12,7 @@ It is needless to say that this situation upsets people in the community,
 but I want to believe that the main reason behind the discord links remaining on Itazura
 is simply that the site hasn't been updated in a long while.
 Otherwise, it would literally mean that the owner wants us to install
-[malware](https://www.gnu.org/proprietary/)
+[malware](https://www.gnu.org/proprietary/proprietary.html)
 on our computers and become victims of the mass surveillance.
 
 Most of us already know that discord is malware, and many refuse to use it.

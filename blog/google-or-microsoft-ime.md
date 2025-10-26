@@ -6,7 +6,7 @@ position: -9897
 ---
 
 Both Microsoft and Google IMEs are proprietary, and thus are
-[malware](https://www.gnu.org/proprietary/).
+[malware](https://www.gnu.org/proprietary/proprietary.html).
 
 I recommend
 [Fcitx](https://wiki.archlinux.org/title/Fcitx)

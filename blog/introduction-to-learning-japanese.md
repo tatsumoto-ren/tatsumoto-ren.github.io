@@ -406,7 +406,7 @@ and throughout the rest of the guide.
     Besides, if you're going to spend 10 years learning Japanese,
     do you really want to continue paying all that time?
   * Proprietary software.
-    Most [proprietary software is malware](https://www.gnu.org/proprietary/),
+    Most [proprietary software is malware](https://www.gnu.org/proprietary/proprietary.html),
     that's just the reality we live in.
 
 ## Writing systems

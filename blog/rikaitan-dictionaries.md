@@ -4,40 +4,38 @@ date: 1607878153
 tags: [dictionaries, rikaitan]
 ---
 
-This article
-provides you with download links for dictionary files for Rikaitan.
+This article provides download links for dictionary files for Rikaitan.
 [Rikaitan](setting-up-yomichan.html)
-is a web browser extension with a pop-up dictionary
-that allows you to look up unknown words with the hover of a mouse.
-To get Rikaitan follow [this setup guide](setting-up-yomichan.html).
-In order to be able to make Anki cards don't forget to install
+is a browser extension with a pop-up dictionary that lets you look up
+unknown words by hovering your mouse.
+Follow [this setup guide](setting-up-yomichan.html) to install Rikaitan.
+To make Anki cards, don't forget to install
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
 
 ****
 
 ## Beginner dictionaries
 
-For beginners Rikaitan provides a set of basic bilingual dictionaries.
-Leaners can use these dictionaries for the first few months of learning Japanese.
-We recommend deleting them after [going monolingual](going-monolingual.html) (covered later).
-You must download and import the dictionaries you wish to use
-in order to enable Rikaitan definition lookups.
+For beginners,
+Rikaitan provides a set of basic bilingual dictionaries.
+Learners can use these for the first few months,
+then delete them after [going monolingual](going-monolingual.html) (covered later).
+To enable Rikaitan lookups, you must download and import at least one dictionary.
 
 <details>
 <summary>Downloads</summary>
 
 - JMdict (English).
-  JMdict is the most common Japanese-English dictionary for beginners.
+  JMdict is the most common Japanese–English dictionary for beginners.
   - [JMdict_english.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_english.zip).
     This is the JMdict but without example sentences.
   - [JMdict_english_with_examples.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_english_with_examples.zip).
     This is the version of JMdict with example sentences from the [Tatoeba Project](http://tatoeba.org/home).
     Note that Tatoeba doesn't always have correct example sentences.
 - JMdict (Other Languages).
-  Be aware that the non-English dictionaries contain fewer entries
-  than their English counterparts.
-  Even if your primary language is not English,
-  you may consider also importing the English version for better coverage.
+  Non-English JMdict files have fewer entries than the English version.
+  Even if your native language is not English,
+  Consider importing English too for better coverage.
   - [JMdict_dutch.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_dutch.zip)
   - [JMdict_french.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_french.zip)
   - [JMdict_german.zip](https://github.com/Ajatt-Tools/jmdict-rikaitan/releases/latest/download/JMdict_german.zip)
@@ -108,36 +106,38 @@ Open it to see additional information about the dictionaries.
 [kaikki-to-rikaitan](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/README.md)
 is a catalog of dictionary files converted from
 wiktionary data from [kaikki.org](https://kaikki.org/).
-[Downloads](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md).
+See [Downloads](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md).
 
 ## Don't import all Rikaitan dictionaries
 
-You need to have a lot of dictionaries at hand
-because Japanese to Japanese dictionaries always have gaps in them.
-There will always be words that are in some dictionaries and not in others.
+You need multiple dictionaries because Japanese-Japanese dictionaries have gaps.
+Some words appear only in specific dictionaries.
 
 **A few examples:**
 * `夢海鼠` is only in `日本国語大辞典`.
 * `禿同` is only in `実用日本語表現辞典`.
 
 Though you might think that using every dictionary in Rikaitan is a good idea
-and load up all of them, I would advise you not to do so.
+and load up all of them,
+I would advise you not to do so.
 Sometimes the word that you're trying to look up
 isn't the one that comes up first in the dictionary.
-If you want to find it you have to scroll down,
-and if you have many dictionaries imported this is going to be pretty annoying.
+If you want to find it, you have to scroll down.
+And if you have many dictionaries imported,
+this is going to be pretty annoying.
 
-Each installed dictionary file causes Rikaitan's database to expand significantly
-and take up to several GiB of disk space.
+Each installed dictionary enlarges Rikaitan's database
+and can add several GiB to disk usage.
 
-So what I recommend you to do instead is to have as few dictionaries as possible
-and use Qolibri whenever there's a word that you can't find in Rikaitan.
+So I recommend you
+keep as few dictionaries in Rikaitan as possible
+and use Qolibri or GoldenDict for words you can't find.
 
 ## Custom CSS for images
 
 If you want to use `デジタル大辞泉` or `旺文社国語辞典`,
-images may render incorrectly unless you
-append the following rules to your Popup CSS.
+images may render incorrectly
+unless you append the following rules to your Popup CSS.
 If this happens, go to Rikaitan settings > "Appearance" > "Configure custom CSS...".
 
 <details>
@@ -180,7 +180,7 @@ img {
 ## Custom CSS for Kanji Dictionaries
 
 Rikaitan's kanji dictionary viewer contains a lot of redundant information,
-such as duplicated tags, stroke order diagrams and empty table rows for each entry.
+such as duplicated tags, stroke order diagrams, and empty table rows for each entry.
 To make the kanji entries more concise when using multiple kanji dictionaries,
 you can add some CSS rules.
 

@@ -5,12 +5,11 @@ tags: ['dictionaries', 'epwing']
 ---
 
 **EPWING** is a dictionary format
-that was allegedly utilized in portable electronic dictionaries.
+that was commonly used in portable electronic dictionaries.
 To view EPWINGs you need [Qolibri](setting-up-qolibri.html),
-a dictionary viewer that lets you search multiple EPWING files at one time
-so for every word you look up you immediately get multiple definitions.
-This article
-provides you with download links for EPWING dictionary files.
+a dictionary viewer that lets you search multiple EPWING files at once
+so you immediately get multiple definitions for every word.
+This article provides download links for EPWING dictionary files.
 
 ****
 

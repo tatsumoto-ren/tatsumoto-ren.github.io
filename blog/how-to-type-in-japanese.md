@@ -273,7 +273,7 @@ Available Japanese input apps:
 * [Mozc](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
   Mozc's F‑Droid build is old and may have issues on newer Android versions.
 * Gboard.
-  Google's proprietary app **Gboard** is [malware](https://www.gnu.org/proprietary/).
+  Google's proprietary app **Gboard** is [malware](https://www.gnu.org/proprietary/proprietary.html).
   If you still choose it,
   **block** the app's internet access to limit telemetry.
   Install it using

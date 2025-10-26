@@ -50,7 +50,7 @@ There is a number of major advantages to Matrix that attract new users.
    Every piece of the Matrix ecosystem is
    [Free/Libre software](https://www.gnu.org/philosophy/free-sw.html).
    This guarantees that you're not running
-   [malware](https://www.gnu.org/proprietary/)
+   [malware](https://www.gnu.org/proprietary/proprietary.html)
    on your computer,
    and you know what the software is doing.
 3) Encryption.

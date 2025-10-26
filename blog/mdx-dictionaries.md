@@ -5,12 +5,12 @@ tags: ['dictionaries', 'mdx']
 ---
 
 [GoldenDict](setting-up-goldendict.html)
-is yet another dictionary lookup program that can be used for learning Japanese.
+is another dictionary lookup program useful for learning Japanese.
 GoldenDict supports `MDX` dictionaries.
-It can read `EPWING` dictionaries as well, but the feature is very clunky in my experience.
-Qolibri is much better for EPWING.
-This article
-provides you with download links for MDX dictionary files.
+It can also read `EPWING` files,
+but that feature is clunky in my experience.
+[Qolibri](setting-up-qolibri.html) is much better for EPWING.
+This article provides download links for MDX dictionary files.
 
 ****
 

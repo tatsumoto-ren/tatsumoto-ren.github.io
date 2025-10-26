@@ -165,7 +165,7 @@ With the mutual support you should be able to migrate back and forth if you want
 ### Supermemo
 
 [Supermemo](https://wikipedia.org/wiki/SuperMemo?lang=en)
-is a [proprietary malware](https://www.gnu.org/proprietary/) program.
+is a [proprietary malware](https://www.gnu.org/proprietary/proprietary.html) program.
 You can't use Supermemo on GNU/Linux and Android.
 
 The algorithm Anki uses is actually based on an older version of Supermemo.

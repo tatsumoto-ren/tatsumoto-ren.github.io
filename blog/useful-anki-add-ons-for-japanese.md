@@ -20,7 +20,7 @@ Anki has an option to install many add-ons at once.
 By following the instructions below
 you can install the add-ons I use in my everyday studies (not every add-on from this page).
 
-1) Open Anki and go to "Tools" > "Add-ons" > "Check for Updates".
+1) Open Anki and go to "Tools" > "Add-ons" > "Get Add-ons...".
 1) Paste multiple codes separated by spaces.
    ```
    1995103628 182970692 1021636467 1772763629 1715096333 1344485230 1151815987 1425504015 1255924302 819023663 196231552

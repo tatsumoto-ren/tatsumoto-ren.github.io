@@ -110,6 +110,7 @@
     --md-button-background: var(--code-inline-bg);
     --md-button-background-hover: var(--link);
     --summary-text-color: var(--link);
+    --summary-important-text-color: black;
     --summary-background-color: var(--code-bg-color);
     --details-border-color: var(--link);
     --box-sep-color: rgba(149, 93, 75, 0.231);
@@ -195,7 +196,7 @@
     --color-article-h3: #23bbda;
     --color-article-h4: #21cf64;
 
-    --body-text-color: #c5c5c5;
+    --body-text-color: #e5e5e5;
     --body-bg-color: #161818;
     --logo-text-color: var(--body-text-color);
     --header-link-color: var(--body-text-color);
@@ -218,6 +219,7 @@
     --sidebar-list-marker: var(--link);
 
     --summary-text-color: var(--link);
+    --summary-important-text-color: var(--body-text-color);
     --summary-background-color: var(--code-inline-bg);
 
     --details-border-color: var(--link);
@@ -1702,7 +1704,7 @@ details.important_details {
     background-color: color-mix(  in oklab, var(--main-color) 5%, rgba(0 0 0 / 0%)  );
     summary {
       background-color: color-mix(  in oklab, var(--main-color) 20%, rgba(0 0 0 / 0%)  );
-      color: black;
+      color: var(--summary-important-text-color, black);
     }
 }
 
