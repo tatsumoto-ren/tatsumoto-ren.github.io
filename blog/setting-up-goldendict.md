@@ -1,7 +1,7 @@
 ---
 title: Setting up GoldenDict-NG
 date: 1679452222
-tags: ['guide', 'dictionaries']
+tags: ['guide', 'dictionaries', 'mdx']
 ---
 
 GoldenDict-NG is a libre dictionary application for GNU/Linux and other OSes.

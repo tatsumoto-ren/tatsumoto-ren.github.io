@@ -1,7 +1,7 @@
 ---
 title: Setting up Rikaitan
 date: 1619220247
-tags: ['guide', 'dictionaries', 'yomichan']
+tags: ['guide', 'dictionaries', 'rikaitan']
 ---
 
 [Rikaitan](https://rikaitan.github.io/)
