@@ -1,5 +1,5 @@
 blog/drafts
-*.tar.gz
+*.tar.*
 *.jpg
 *.png
 *.mp3
