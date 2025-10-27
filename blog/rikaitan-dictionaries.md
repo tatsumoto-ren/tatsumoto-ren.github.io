@@ -106,7 +106,14 @@ Open it to see additional information about the dictionaries.
 [kaikki-to-rikaitan](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/README.md)
 is a catalog of dictionary files converted from
 wiktionary data from [kaikki.org](https://kaikki.org/).
-See [Downloads](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md).
+
+<details open class="important_details">
+<summary>Download links</summary>
+
+* [GitHub Releases](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md).
+* [AWS Releases](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads_aws.md).
+
+</details>
 
 ## Don't import all Rikaitan dictionaries
 
