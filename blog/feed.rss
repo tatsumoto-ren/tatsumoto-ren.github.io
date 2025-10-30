@@ -5,9 +5,20 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 30 Oct 2025 18:52:06 +0300</lastBuildDate>
-<pubDate>Thu, 30 Oct 2025 18:52:06 +0300</pubDate>
+<lastBuildDate>Thu, 30 Oct 2025 18:59:02 +0300</lastBuildDate>
+<pubDate>Thu, 30 Oct 2025 18:59:02 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>About this site</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
+Here you'll find everything you need to know about learning foreign languages.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/about-this-site.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/about-this-site.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Thu, 30 Oct 2025 18:53:39 +0300</pubDate>
+</item>
 <item>
 <title>Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</title>
 <author>Tatsumoto Ren</author>
@@ -239,18 +250,6 @@ watching something with TL subs counts toward your reading time.</p>
 <guid>https://tatsumoto-ren.github.io/blog/is-watching-anime-with-jp-subtitles-considered-as-reading.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sat, 02 Nov 2024 07:02:17 +0300</pubDate>
-</item>
-<item>
-<title>Can't I just read a textbook? Are textbooks inherently bad?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>If you seriously want to master your target language,
-textbooks are not for you.
-We recommend skipping them entirely and learning the language through immersion.</p>
-<hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/are-textbooks-bad.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/are-textbooks-bad.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 01 Sep 2024 22:00:04 +0300</pubDate>
 </item>
 </channel>
 </rss>
