@@ -1,7 +1,7 @@
 ---
 title: What's AJATT?
 date: 1666824718
-tags: ['faq']
+tags: ['faq', 'guide']
 position: -9992
 ---
 
