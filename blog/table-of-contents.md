@@ -4,6 +4,7 @@ date: 1616375454
 ---
 
 * [Foreword](foreword.html)
+* [About](about-this-site.html)
 * Introduction
   * [What's AJATT?](whats-ajatt.html)
   * [Introduction to learning Japanese](introduction-to-learning-japanese.html)
