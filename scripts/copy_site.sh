@@ -20,7 +20,8 @@ main() {
 		./index.* \
 		./img \
 		./not_found.* \
-		./blog/* \
+		./blog/*.{html,md,rss} \
+		./blog/{aud,img,res,vid}/* \
 		_site/
 	echo "Done."
 }
