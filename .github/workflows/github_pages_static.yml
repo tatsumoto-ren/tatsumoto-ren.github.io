@@ -83,6 +83,13 @@ jobs:
         with:
           rclone_config: ${{ secrets.RCLONE_CONFIG }}
 
+      - name: Check if site exists
+        shell: bash
+        run: |
+          if ! [[ -d '_site' ]]; then
+            exit 1
+          fi
+
       - name: Rclone from _site to remote
         shell: bash
         run: ./scripts/rclone_sync.sh
