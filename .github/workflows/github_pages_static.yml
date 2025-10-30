@@ -31,6 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy website to ./_site
+        shell: bash
+        run: ./scripts/copy_site.sh
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -38,9 +44,21 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload the site folder
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # https://github.com/AnimMouse/setup-rclone/tree/main?tab=readme-ov-file#usage
+      # Encode the rclone.conf file in Base64 using this command: `base64 -w 0 rclone.conf`
+      # and paste it to RCLONE_CONFIG secret.
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@ef6294e97b6f0cbeb6f1a682a15d35a91dd5d0ff
+        with:
+          rclone_config: ${{ secrets.RCLONE_CONFIG }}
+
+      - name: Rclone from _site to remote
+        shell: bash
+        run: ./scripts/rclone_sync.sh
