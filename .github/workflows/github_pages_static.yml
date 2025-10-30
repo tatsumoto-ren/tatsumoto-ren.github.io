@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  deploy-gh:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -50,6 +50,30 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Save _site dir
+        id: cache-save
+        uses: actions/cache/save@v4
+        with:
+          path: '_site'
+          key: site-${{ github.sha }}
+
+  deploy-s3:
+    needs: [deploy-gh]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore _site dir
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: '_site'
+          key: site-${{ github.sha }}
+          fail-on-cache-miss: true
 
       # https://github.com/AnimMouse/setup-rclone/tree/main?tab=readme-ov-file#usage
       # Encode the rclone.conf file in Base64 using this command: `base64 -w 0 rclone.conf`
