@@ -471,3 +471,8 @@ The ![plus](https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/imag
 allows you to make Anki cards in one click.
 Assuming you've configured your Note Type,
 now you can create properly formatted targeted sentence cards while reading.
+
+## Rikaitan PDF Viewer
+
+[Rikaitan PDF Viewer](https://rikaitan.github.io/rikaitan-pdf-viewer/web/).
+Read PDF files with Rikaitan text scanning.
