@@ -32,20 +32,16 @@ but will save our common cause!
 Any amount of help is important.
 Do not let our common cause fail!
 
-The money you donate primarily goes towards my paycheck for maintaining the website,
-updating and improving the existing articles (lessons),
+The money you donate primarily goes toward my paycheck for maintaining the website,
+paying for hosting and the domain name,
+updating and improving existing articles (lessons),
 and writing new lessons.
-Additionally,
-the funds are used for working on Ajatt-Tools,
-which includes making, updating, and improving
-our software toolset, Anki add-ons, Anki decks,
-and other resources used in conjunction with the AJATT method.
-Depending on the monthly earnings, we might be able to afford a domain name and
-a hosting for this site,
-which is currently hosted for free on Neocities.
-If the funding is not sufficient,
+The funds also support work on Ajatt-Tools,
+including making, updating, and improving our software toolset,
+Anki add-ons, Anki decks, and other resources used with the AJATT method.
+If funding is insufficient,
 I may have to seek job opportunities elsewhere,
-which in turn would slow down the evolution and development of the AJATT method.
+which would slow down the evolution and development of the AJATT method.
 
 Your continued support through donations is crucial to the ongoing progress
 and maintenance of this valuable resource for language learners.
