@@ -68,6 +68,7 @@ date: 1616375454
   * [Understanding monolingual definitions](understanding-monolingual-definitions.html)
   * [Japanese Pitch Accent](japanese-pitch-accents.html)
   * [Pitch accent perception training](pitch-accent-perception.html)
+  * [Pitch accent cards](how-should-i-grade-cards-once-i-add-pitch-accent.html)
   * [Writing by hand](writing-japanese.html)
 * [FAQ](tag_faq.html)
 * Apocrypha
