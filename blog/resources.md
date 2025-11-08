@@ -725,6 +725,9 @@ convert text in manga into a digital form.
   Ebook management application.
   This program is primarily used to convert from various formats (including azw3) to epub.
   It's not very good as a reader app.
+* [AJATT Reader](https://reader.ajatt.top/).
+  A web-based book reader that supports [Rikaitan](setting-up-yomichan.html).
+  Not recommended because it requires keeping a web browser open.
 
 ### MPV
 
