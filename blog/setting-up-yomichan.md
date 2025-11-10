@@ -36,9 +36,22 @@ We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 <a class="download_button" href="https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-dev.xpi">Development version</a>
 </p>
 
-**Note:** Add-on verification by Mozilla is taking a long time.
+#### Caveats
+
+Add-on verification by Mozilla can take a long time.
 You can still install the extension if you open `about:config`
-and temporarily set `xpinstall.signatures.required` to `false`.
+and set `xpinstall.signatures.required` to `false`.
+
+Mozilla is making it difficult to install extensions on Android!
+To install an extension in
+[Firefox for Android](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) (Fennec) from a file,
+download and save the extension file to your device.
+In Firefox, open Settings, then About Firefox (Fennec).
+Tap the Firefox logo five times quickly to unlock hidden menu items.
+Return and open Settings again, then choose *Install Extension from File*.
+Browse to and open the saved extension file.
+When prompted, tap Add.
+The extension appears in the Extension list of installed extensions and is ready to use.
 
 ### Chromium-based
 
