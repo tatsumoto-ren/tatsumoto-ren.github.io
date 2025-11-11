@@ -397,10 +397,11 @@ The colors used are:
 <p align="center"><img src="img/ajt-japanese-pitch_accent_on_hover.webp" alt="color coded words"/></p>
 <p align="center"><i>Color-coded words in a sentence.</i></p>
 
-This feature is experimental and disabled by default,
-but you can enable it by setting the "color code pitch" option to "color" or "underline".
-Additionally, if the "attributes" option is turned on,
-you'll see detailed pitch accent information when hovering over words with your mouse.
+This feature can be enabled by setting the **"color code pitch"** option to "color" or "underline."
+Additionally,
+if the **"attributes"** option is turned on,
+you will see detailed pitch-accent info when hovering over words with your mouse.
+You also need to allow injecting add-on scripts for everything to work properly.
 
 <p align="center"><img src="img/ajt-japanese-color-code-pitch.webp" alt="settings"/></p>
 <p align="center"><i>Settings.</i></p>
