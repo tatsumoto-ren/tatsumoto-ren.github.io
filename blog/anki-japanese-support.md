@@ -129,9 +129,10 @@ accents will be added to the `VocabPitchPattern` field,
 and audio will be added to the `VocabAudio` field.
 
 <video width="1032" autoplay loop controls muted>
-	<source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
 	<source src="vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 

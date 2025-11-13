@@ -179,10 +179,9 @@ In addition to playing the files as you click on them,
 You are able to play an audio and paste it in an Anki note as an `ogg/opus` file.
 
 <video width="960" controls>
-	<source src="https://midov.pl/_matrix/media/r0/download/midov.pl/BHkEKNNyWldKxfgHndAfVwsy" type="video/mp4">
-	<source src="https://invidious.private.coffee/latest_version?id=F4zacBvOcCA&itag=22" type="video/mp4">
 	<source src="vid/qolibri_mpv.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/qolibri_mpv.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/qolibri_mpv.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 

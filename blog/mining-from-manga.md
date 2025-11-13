@@ -40,11 +40,10 @@ In this article I explain how to set up both.
 The resulting user workflow is identical, see the demo below.
 
 <video width="1920" autoplay loop controls>
-	<source src="https://user-images.githubusercontent.com/69171671/177458117-ba858b79-0b2e-4605-9985-5801d9685bd6.mp4" type="video/mp4">
-	<source src="https://matrix.cutefunny.art/_matrix/media/r0/download/cutefunny.art/SIYCIEtYEaLsQsQgdaJOQQVE" type="video/mp4">
-	<source src="https://invidious.private.coffee/latest_version?id=-f_uXFPhDt0&itag=22" type="video/mp4">
 	<source src="vid/mining_from_manga.mp4" type="video/mp4">
+	<source src="https://user-images.githubusercontent.com/69171671/177458117-ba858b79-0b2e-4605-9985-5801d9685bd6.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/mining_from_manga.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/mining_from_manga.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 

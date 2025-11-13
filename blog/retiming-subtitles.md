@@ -104,10 +104,9 @@ Watch
 to get a gist of how it's done.
 
 <video width="1920" muted controls>
-	<source src="https://cutefunny.art/_matrix/media/r0/download/cutefunny.art/6440df28dae9796cfeb4dcd4eb6bdc33f658dc98" type="video/mp4">
-	<source src="https://invidious.private.coffee/latest_version?id=qasLFv8Rv7o&itag=22" type="video/mp4">
 	<source src="vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
 </video>
 
 By default, `vidir` will try to use the text editor
