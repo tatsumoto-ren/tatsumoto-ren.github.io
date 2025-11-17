@@ -5,9 +5,40 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Thu, 13 Nov 2025 19:38:26 +0300</lastBuildDate>
-<pubDate>Thu, 13 Nov 2025 19:38:26 +0300</pubDate>
+<lastBuildDate>Mon, 17 Nov 2025 04:15:52 +0300</lastBuildDate>
+<pubDate>Mon, 17 Nov 2025 04:15:52 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Niche proprietary games and AJATT</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>What if a person's motivation for learning Japanese
+is only to play niche proprietary games/software
+that will never be localized into their native language.
+How could they follow the AJATT method?</p>
+</blockquote>
+<p>If someone's only <a href="im-not-motivated-and-dont-enjoy-learning-japanese.html">motivation</a>
+is playing a specific set of <a href="are-video-games-good-for-immersion.html">games</a>,
+that's a recipe for quitting once they've finished those games.
+Try to broaden your content choices so you always have something to do in Japanese.
+If you spend too long searching for content,
+your immersion is paused and you don't progress.
+To succeed with Japanese
+you need both <a href="active-immersion.html">active</a> and <a href="passive-immersion.html">passive</a> immersion,
+and games alone won't cover everything.</p>
+<p>This situation where you have only <a href="https://www.gnu.org/proprietary/proprietary.html">proprietary</a>
+options and no <a href="https://www.gnu.org/philosophy/free-sw.html">free</a> alternatives
+isn't unique to language learning.
+I think <a href="https://stallman.org/">Richard Stallman</a> would say that if there's no libre alternative,
+he'd still refuse to run the proprietary version.
+From a software-freedom perspective,
+not running proprietary software preserves your freedom just as much as running free software.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/proprietary-games-and-ajatt.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/proprietary-games-and-ajatt.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Mon, 17 Nov 2025 04:14:50 +0300</pubDate>
+</item>
 <item>
 <title>About this site</title>
 <author>Tatsumoto Ren</author>
@@ -193,63 +224,6 @@ and/or
 <guid>https://tatsumoto-ren.github.io/blog/how-much-time-should-i-spend-studying-basic-grammar-each-day.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 11 Nov 2024 18:55:53 +0300</pubDate>
-</item>
-<item>
-<title>Is watching anime with JP subtitles considered as reading?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>Yes, it is.
-Watching anime with
-<a href="mining-from-movies-and-tv-shows.html#obtain-subtitles">Japanese subtitles</a>
-counts as reading immersion
-because reading the subtitles creates an inner voice
-that competes with the spoken language that you're listening to.
-As a result,
-you are not fully paying attention to the native speech.
-Instead,
-you focus on your internal subvocalization while reading the subtitles.</p>
-<p>If you watched anime with English subtitles before starting to learn Japanese,
-you've likely spent thousands of hours listening to native Japanese.
-However,
-if reading subtitles did not interfere with your listening practice,
-you would have already learned the language.
-This is why we say that watching with subtitles counts as reading immersion.
-When you read subtitles,
-your own subvocalization interferes with and overshadows the audio.
-Consequently,
-you end up learning the language of the subtitles
-rather than the language of the audio.
-In this case, the language of the English fansubs.</p>
-<p>Watching anime with Japanese subtitles can help you notice and learn more words,
-but it will cause your listening skills to
-<a href="is-it-harmful-to-always-have-tl-subtitles-on.html">lag behind</a>.
-Relying too heavily on subtitles can create a crutch,
-making it difficult to transition to listening without any text support.
-If you've spent a long time watching anime with Japanese subtitles
-and neglected listening practice,
-you will be frustrated when you decide to turn off the subs and watch raw anime.
-While you can improve your listening skills by going cold turkey
-and immersing with a lot of raw anime,
-it will be challenging at first.
-It's better to
-<a href="how-do-you-recommend-starting-on-listening-practice.html">train your listening ability</a>
-while you're still a beginner.
-Therefore,
-AJATT recommends prioritizing listening to avoid this issue.</p>
-<p>We recommend disabling subtitles if you don't need them.
-For those who need them,
-enable them only when you don't understand something.
-Keeping them visible creates a hindrance,
-and you can't help but read the subs even if it's unintentional.
-It's <a href="en-and-ja-subs-at-the-same-time.html">difficult to ignore</a> them completely.</p>
-<p>So,
-regardless of your current skill level,
-when we <a href="how-should-i-divide-my-study-time.html">divide our study time</a>,
-watching something with TL subs counts toward your reading time.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-watching-anime-with-jp-subtitles-considered-as-reading.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-watching-anime-with-jp-subtitles-considered-as-reading.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sat, 02 Nov 2024 07:02:17 +0300</pubDate>
 </item>
 </channel>
 </rss>
