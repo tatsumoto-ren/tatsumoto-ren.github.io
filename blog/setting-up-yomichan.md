@@ -38,11 +38,12 @@ We recommend [LibreWolf](https://librewolf.net/) as your everyday web browser.
 
 #### Caveats
 
-Add-on verification by Mozilla can take a long time.
+Add-on verification by [Mozilla](https://digdeeper.club/articles/mozilla.xhtml) can take a long time.
 You can still install the extension if you open `about:config`
 and set `xpinstall.signatures.required` to `false`.
 
-Mozilla is making it difficult to install extensions on Android!
+[Mozilla](https://digdeeper.club/articles/mozilla.xhtml)
+is making it difficult to install extensions on Android!
 To install an extension in
 [Firefox for Android](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) (Fennec) from a file,
 download and save the extension file to your device.
