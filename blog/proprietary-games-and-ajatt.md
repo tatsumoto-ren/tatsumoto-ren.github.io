@@ -27,3 +27,12 @@ I think [Richard Stallman](https://stallman.org/) would say that if there's no l
 he'd still refuse to run the proprietary version.
 From a software-freedom perspective,
 not running proprietary software preserves your freedom just as much as running free software.
+
+The GNU Project's philosophy says we should avoid proprietary software.
+That said,
+Richard Stallman also allowed an [exception](https://www.gnu.org/gnu/thegnuproject.html):
+using a proprietary program can be justified if it is crucial to developing
+a free replacement that will help others stop using the proprietary program.
+So if your goal is to help other AJATTers obtain free replacements for those Japanese games,
+you might choose to run them for the purpose of reverse-engineering or creating alternatives.
+Running proprietary software solely for immersion is a bad idea.
