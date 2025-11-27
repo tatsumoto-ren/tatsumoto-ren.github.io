@@ -222,6 +222,19 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 
 ### Streaming
 
+**Note:** To watch a `m3u` playlist,
+run [mpv](mining-from-movies-and-tv-shows.html) and pass it the raw playlist link.
+Example:
+
+```
+mpv 'https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u'
+```
+
+Press <kbd>&lt;</kbd> and <kbd>&gt;</kbd> to switch channels.
+Some playlists can be found
+[here](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/)
+as desktop shortcuts.
+
 * [Animelon](https://animelon.com/).
   Watch anime with Japanese subtitles.
 * [Anjsub](https://anjsub.com/).
@@ -238,8 +251,11 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
   A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
-  You can switch channels in mpv by pressing `<` and `>`.
+  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](mining-from-movies-and-tv-shows.html).
+* [utako IPTV-JP project](https://gitflic.ru/project/utako/utako/blob?file=README.md&branch=main&mode=markdown).
+  Another `m3u` playlist.
+  Run [mpv](mining-from-movies-and-tv-shows.html)
+  and pass it the raw playlist link from [here](https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u).
 * [TV garden](https://tv.garden/jp).
   Japanese live TV streams.
   Only works with JS enabled.
