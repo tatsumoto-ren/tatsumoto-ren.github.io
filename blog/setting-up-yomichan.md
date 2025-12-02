@@ -23,6 +23,8 @@ Your goal is not to mine every word.
 
 ## Installation
 
+**Note:** [Avoid fake clones of Rikaitan](avoid-fake-clones-of-rikaitan.html).
+
 ### Gecko-based
 
 Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-based web browsers.
