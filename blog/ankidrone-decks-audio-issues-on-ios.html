@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="res/blog.css" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
 <link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>All Japanese All The Time - AJATT &mdash; All tags</title>
-<meta property="og:title" content="All Japanese All The Time - AJATT &mdash; All tags">
+<title>Ankidrone decks: Audio issues on iOS</title>
+<meta property="og:title" content="Ankidrone decks: Audio issues on iOS">
 <meta property="og:site_name" content="All Japanese All The Time - AJATT">
-<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/all_tags.html">
+<meta property="og:url" content="https://tatsumoto-ren.github.io/blog/ankidrone-decks-audio-issues-on-ios.html">
 <meta property="og:description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.">
 <meta property="og:image" content="https://tatsumoto-ren.github.io/img/logo.webp">
 <script defer src="res/blog.js"></script>
@@ -65,25 +65,42 @@
 <div id="divbodyholder">
 <div id="divbody">
 <main>
-<h3>All tags</h3>
+<!-- entry begin -->
+<article timestamp="1765131767" position="0">
+<h1 class="title"><a class="ablack" href="ankidrone-decks-audio-issues-on-ios.html">Ankidrone decks: Audio issues on iOS</a></h1>
+<div class="subtitle">December 07, 2025 &mdash; Tatsumoto Ren</div>
+<!-- text begin -->
+<blockquote>
+<p>I wanted to reach out regarding Ankidrone Essentials V8.
+On my computer, all the audio files play without any issues.
+However, in Anki Mobile on iOS, many of the audio files do not play.</p>
+<p>I tried converting all the OGG files to MP3 to make them compatible,
+but I ran into problems.</p>
+<p>Do you know if there is a way to make this deck play all the audio files in
+Anki Mobile, or does it only work on the computer? Any guidance or solution
+would be greatly appreciated.</p>
+</blockquote>
+<hr>
+<p>Most <a href="setting-up-anki.html">Anki</a> decks linked on our site
+come with audio in the <a href="https://opus-codec.org/">Opus</a> format.
+iOS does not support Opus.</p>
+<p>We do not recommend using iThings for a number of reasons:</p>
 <ul>
-<li><a href="tag_anki.html">anki</a> &mdash; 19 posts</li>
-<li><a href="tag_decks.html">decks</a> &mdash; 6 posts</li>
-<li><a href="tag_dictionaries.html">dictionaries</a> &mdash; 8 posts</li>
-<li><a href="tag_epwing.html">epwing</a> &mdash; 4 posts</li>
-<li><a href="tag_faq.html">faq</a> &mdash; 189 posts</li>
-<li><a href="tag_guide.html">guide</a> &mdash; 44 posts</li>
-<li><a href="tag_ime.html">ime</a> &mdash; 2 posts</li>
-<li><a href="tag_kana.html">kana</a> &mdash; 2 posts</li>
-<li><a href="tag_kanji.html">kanji</a> &mdash; 4 posts</li>
-<li><a href="tag_matrix.html">matrix</a> &mdash; 3 posts</li>
-<li><a href="tag_mdx.html">mdx</a> &mdash; 2 posts</li>
-<li><a href="tag_mpv.html">mpv</a> &mdash; 2 posts</li>
-<li><a href="tag_pitch.html">pitch</a> &mdash; 4 posts</li>
-<li><a href="tag_rikaitan.html">rikaitan</a> &mdash; 3 posts</li>
-<li><a href="tag_vocab.html">vocab</a> &mdash; 6 posts</li>
+<li><a href="https://www.fsf.org/campaigns/apple">www.fsf.org/campaigns/apple</a></li>
+<li><a href="https://www.gnu.org/proprietary/malware-apple.html">www.gnu.org/proprietary/malware-apple.html</a></li>
 </ul>
-<div id="all_posts"><a href="index.html">Back to the index page</a></div>
+<p>The best solution is to sell your iThing
+and get a device that is supported by <a href="https://grapheneos.org/">GrapheneOS</a>.</p>
+<p>Using MP3 audio in Anki is not recommended
+because MP3 files must be a lot larger than Opus files to match quality,
+which wastes disk space and slows syncing.</p>
+<p>If you still want MP3,
+run <code>ffmpeg</code> in your <code>collection.media</code> folder to convert files.
+See <a href="https://trac.ffmpeg.org/wiki/Encode/MP3">this page</a> for details.</p>
+<p>Tags: <a href="tag_faq.html">faq</a>, <a href="tag_decks.html">decks</a></p>
+<!-- text end -->
+</article>
+<!-- entry end -->
 </main>
 </div>
 </div>

@@ -5,9 +5,28 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Tue, 02 Dec 2025 15:56:37 +0300</lastBuildDate>
-<pubDate>Tue, 02 Dec 2025 15:56:37 +0300</pubDate>
+<lastBuildDate>Sun, 07 Dec 2025 21:24:55 +0300</lastBuildDate>
+<pubDate>Sun, 07 Dec 2025 21:24:55 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Ankidrone decks: Audio issues on iOS</title>
+<author>Tatsumoto Ren</author>
+<description><![CDATA[<blockquote>
+<p>I wanted to reach out regarding Ankidrone Essentials V8.
+On my computer, all the audio files play without any issues.
+However, in Anki Mobile on iOS, many of the audio files do not play.</p>
+<p>I tried converting all the OGG files to MP3 to make them compatible,
+but I ran into problems.</p>
+<p>Do you know if there is a way to make this deck play all the audio files in
+Anki Mobile, or does it only work on the computer? Any guidance or solution
+would be greatly appreciated.</p>
+</blockquote>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/ankidrone-decks-audio-issues-on-ios.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/ankidrone-decks-audio-issues-on-ios.html</guid>
+<dc:creator>Tatsumoto Ren</dc:creator>
+<pubDate>Sun, 07 Dec 2025 21:22:47 +0300</pubDate>
+</item>
 <item>
 <title>Niche proprietary games and AJATT</title>
 <author>Tatsumoto Ren</author>
@@ -212,26 +231,6 @@ in favor of a different platform.</p>
 <guid>https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sat, 30 Nov 2024 20:02:51 +0300</pubDate>
-</item>
-<item>
-<title>How much time should I spend studying basic grammar each day?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>It's up to you,
-but we recommend spending around 15 to 30 minutes each day on <a href="learning-grammar.html">grammar</a>.
-We all know that reading about grammar isn't exactly the most exciting thing in the world.
-Thus,
-we think that consuming grammar theory <strong>incrementally</strong> over time
-will make it easier to consolidate and integrate what you've learned.</p>
-<p>If you choose to spend about 30 minutes a day studying grammar,
-it's perfectly fine to study basic grammar alongside
-<a href="jp1k-anki-deck.html">Ankidrone Foundation</a>
-and/or
-<a href="ankidrone-essentials.html">Ankidrone Essentials</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-much-time-should-i-spend-studying-basic-grammar-each-day.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-much-time-should-i-spend-studying-basic-grammar-each-day.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Mon, 11 Nov 2024 18:55:53 +0300</pubDate>
 </item>
 </channel>
 </rss>
