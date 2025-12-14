@@ -30,7 +30,7 @@ you need to learn how to do it.
 
 In [Introduction](introduction-to-learning-japanese.html#writing-systems)
 I briefly mentioned what writing systems Japanese has.
-Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana and kanji.
+Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana, and kanji.
 The writing systems are covered in their own articles.
 For now you need to understand that
 due to complexity of these writing systems they can't be typed directly.
@@ -74,16 +74,12 @@ Set it up following the instructions [here](japanese-locale.html).
 ## Input method framework
 
 In this tutorial, I'm going to explain how to use
-[Fcitx](https://wiki.archlinux.org/index.php/Fcitx) [ˈfaɪtɪks],
+[Fcitx5](https://wiki.archlinux.org/title/Fcitx5) [ˈfaɪtɪks],
 but other frameworks are also available.
 
 <details>
 
 <summary>Other IMFs</summary>
-
-[Fcitx5](https://wiki.archlinux.org/title/Fcitx5) is the successor of Fcitx.
-Currently, it has issues when working with i3wm and possibly other WMs.
-I can't recommend it yet.
 
 [IBus](https://wiki.archlinux.org/title/IBus) is preinstalled in GTK-based environments like GNOME.
 If you're using GNOME, chances are that you don't have to configure anything at all.
@@ -99,13 +95,13 @@ This is what you need to do.
 3) Install an IME.
 4) Configure everything.
 
-To install Fcitx, run the following command.
+To install `Fcitx`, run the following command.
 
 ```
-$ sudo pacman -S fcitx fcitx-configtool fcitx-qt5 fcitx-qt6
+sudo pacman -S fcitx5-im
 ```
 
-* `fcitx-qt6` is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.
+* `fcitx5-qt` is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.
 * If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
@@ -117,20 +113,20 @@ like a Chad, the best way to achieve it is to modify `~/.xinitrc`, adding the fo
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-fcitx -dr &
+fcitx5 -dr &
 ```
 
 Note that the
 [xinitrc](https://wiki.archlinux.org/title/Xinit#xinitrc)
-file may be located anywhere on your computer depending on how you set up your
+file may be located anywhere on your computer, depending on how you set up your
 [dotfiles](https://wiki.archlinux.org/title/Dotfiles).
 If you have an
 [xprofile](https://wiki.archlinux.org/title/Xprofile) file,
 and you source it on start up,
 it is also possible to put the commands there.
-It doesn't really matter which file you put the commands to as long as it is sourced on start up.
+It doesn't really matter which file you put the commands in as long as it is sourced on startup.
 
-If you previously used `localectl`, `setxkbmap` or X configuration files for
+If you previously used `localectl`, `setxkbmap`, or X configuration files for
 [setting a keyboard layout](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout),
 edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
 You need to disable the key bindings you plan to use in Fcitx.
@@ -140,65 +136,72 @@ For example, to disable the config file created by `localectl`, run:
 sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
 ```
 
-Also check other config files located in `/etc/X11/` or `/etc/X11/xorg.conf.d`.
+Also,
+check other config files located in `/etc/X11/` or `/etc/X11/xorg.conf.d`.
 If you have `setxkbmap` commands in your `xinitrc`, edit them as well.
 
 **Note:** You can look at the contents of my `xinitrc` file
 [here](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/xinitrc).
+I run [this script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/keyboard_layouts)
+on startup to automatically start Fcitx when I log in.
 
 ## Input method editor
 
+**Note**: [A Wiki page with all input methods](https://fcitx-im.org/wiki/Special:MyLanguage/Input_method_engines#Japanese).
+
 I recommend either KKC or Mozc.
 
-KKC is not as rich as Mozc, but it gives a more plug-and-play experience.
+KKC is not as feature-rich as Mozc,
+but it offers a more plug-and-play experience.
 
-Install [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc).
+Install [fcitx5-kkc](https://archlinux.org/packages/?name=fcitx5-kkc).
 
 ```
-$ sudo pacman -S fcitx-kkc
+$ sudo pacman -S fcitx5-kkc
 ```
 
 Although Mozc originates from Google Japanese Input, it is free/libre.
 
-Install [fcitx-mozc](https://archlinux.org/packages/?name=fcitx-mozc).
+Install [fcitx5-mozc](https://archlinux.org/packages/?name=fcitx5-mozc).
 
 ```
-$ sudo pacman -S fcitx-mozc
+$ sudo pacman -S fcitx5-mozc
 ```
 
 ## Configuration
 
-To configure Fcitx, run `fcitx-configtool`.
-You can also bring it up via an application launcher, like
+To configure Fcitx, run `fcitx5-configtool`.
+You can also launch it from an application launcher like
 [Rofi](https://wiki.archlinux.org/title/Rofi).
 
-In the settings, press `+` to add the input methods you want.
-Input methods themselves don't require any specific configuration.
-In case you want to explore their settings,
-KKC can be configured by clicking on the gear icon.
+To add input methods,
+type their names into the "Search input method" box.
+Input methods usually do not need extra configuration.
+If you want to explore their settings,
+open the method's menu by clicking the icon that looks like <kbd>☰</kbd> (horizontal lines).
 
 <p align="center"><img src="img/fcitx-configure-input-methods.webp" alt="input methods"></p>
 <p align="center"><i>Fcitx settings.</i></p>
 
-To configure Mozc, you need to use the Fcitx's tray icon.
-
-<p align="center"><img src="img/fcitx-configure-mozc.webp" alt="Mozc settings"></p>
-<p align="center"><i>How to access Mozc settings.</i></p>
-
-By default, you switch between IMEs by pressing <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
-I prefer to use an add-on called Input method selector instead.
-In the config tool, set the trigger hotkey to none by clicking on it and pressing Enter.
-Then go to "Addon" > "Input method selector", press "Configure" and set Global SelectKey.
-I prefer <kbd>Super</kbd>+<kbd>Space</kbd>.
+By default,
+you switch between IMEs with <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
+I prefer an add-on called **Input method selector** instead.
+In the config tool, remove the default Trigger hotkey.
+Then go to "Addon" > "Input method selector", press "Configure" and set Trigger Key.
+I use <kbd>Super</kbd>+<kbd>Space</kbd>.
 
 <p align="center"><img src="img/fcitx-configure-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Enable Input method selector.</i></p>
 
-Alternatively you can open `~/.config/fcitx/conf/fcitx-imselector.config`
-and uncomment or add `GlobalInputMethodSelectKey=SUPER_SPACE` there.
+Alternatively, edit `~/.config/fcitx5/conf/imselector.conf` and set:
+
+```
+[TriggerKey]
+0=Super+space
+```
 
 Now, when you press <kbd>Super</kbd>+<kbd>Space</kbd>,
-it will bring up a menu where you can choose an input method.
+a menu will appear where you can choose an input method.
 
 <p align="center"><img src="img/fcitx-im-selector.webp" alt="input methods"></p>
 <p align="center"><i>Input method selector.</i></p>
@@ -206,16 +209,15 @@ it will bring up a menu where you can choose an input method.
 ## Usage
 
 Using an IME usually means typing what you want,
-then pressing Space to convert it.
+then pressing <kbd>Space</kbd> to convert it.
 Every IME wants you to suffer,
 so usage differs slightly between them.
-Don't expect keyboard shortcuts to be the same across IMEs.
+Don't expect the same keyboard shortcuts across IMEs.
 Some shortcuts may be missing entirely.
 
 To enable Japanese input in Fcitx,
 press <kbd>Super</kbd>+<kbd>Space</kbd> and select it (Kana-kanji, Mozc, etc.).
-Alternatively,
-click the Fcitx icon in the taskbar and choose a Japanese input method.
+Or click the Fcitx icon in the taskbar and choose a Japanese input method.
 
 The Kana-kanji keyboard layout has multiple input modes: `あ ア ｱ A Ａ`.
 
@@ -230,16 +232,17 @@ Hiragana (`ひらがな`), katakana (`カタカナ`), and half-width katakana (`
 Hiragana mode activates the input method editor (IME) as you type
 and attempts to interpret your input as Japanese.
 
-<p align="center"><img src="img/fcitx-input-modes.webp" alt="input methods"></p>
-<p align="center"><i>Kana-Kanji input modes in Fcitx.</i></p>
-
 Fcitx can remember the input mode you were using, either *per-app* or *per-window*.
-This setting can be controlled in fcitx-configtool > "Global Config" > "Share State Among Window".
+Configure this in `fcitx-configtool` > "Global Config" > "Share State Among Window".
 
 ## Tips
 
-* Typing with <kbd>Alt</kbd> pressed down forces latin input.
-* When in Hiragana mode, Pressing <kbd>Alt</kbd>+<kbd>&#96;</kbd> switches to latin mode.
+* Typing with <kbd>Alt</kbd> pressed down forces Latin input.
+* When in Hiragana mode,
+  pressing <kbd>Alt</kbd>+<kbd>&#96;</kbd> switches to Latin mode.
+* KKC: <kbd>Alt</kbd>+<kbd>K</kbd> toggles between hiragana and katakana
+  (and their half-width forms).
+* KKC: <kbd>Alt</kbd>+<kbd>L</kbd> cycles between full-width and half-width Latin letters.
 * Finish and commit edit: <kbd>Enter</kbd>.
 * Discard current edit: <kbd>Esc</kbd>.
 * Convert, or press again to select a different candidate: <kbd>Space</kbd>.
