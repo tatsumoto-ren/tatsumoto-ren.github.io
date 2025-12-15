@@ -135,6 +135,8 @@ In such cases sites with example sentences come to rescue.
   Contains voiced sentences from various premade decks.
   Grab an offline version
   [here](ankidrone-sentence-pack.html).
+* [Nadeshiko](https://nadeshiko.co).
+  A sentence search tool. Has API.
 * [Aozorasearch](https://myokoym.net/aozorasearch).
   Performs a full-text search on Aozora Bunko (digital library).
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
@@ -1087,6 +1089,15 @@ You've been warned.
   Japanese grammar taught by a Japanese teacher.
 * [国語の文法](https://www.kokugobunpou.com/).
 * [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
+  YouTube playlist of 学校文法.
+  A pedagogical framework for teaching grammar to native Japanese speakers.
+  Not made for learners or linguists.
+* [国語—古文](https://youtube.com/playlist?list=PLKRhhk0lEyzMV4fvp0BqKMIZnQUm4SLmn).
+  YouTube playlist of 古文, to help you learn classical Japanese.
+* [初級を教える人のための日本語文法ハンドブック](https://z-library.sk/s/978-4883191550).
+  A book for learning Japanese grammar in Japanese, for learners & Japanese teachers.
+  ISBN-10: 4883191559.
+  ISBN-13: 978-4883191550.
 
 ### Kanken (漢字検定)
 
