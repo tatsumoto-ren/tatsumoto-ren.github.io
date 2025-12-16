@@ -68,6 +68,14 @@
 
     --normal-underline-color: transparent;
     --hover-underline-color: transparent;
+
+    --monospace-font-families: "Noto Mono", "Noto Sans Mono", "Noto Sans Mono CJK JP", "DejaVu Sans Mono", "DejaVuSansMono Nerd Font",
+        "DejaVuSansMono Nerd Font Mono", "Droid Sans Mono", "DroidSansMono Nerd Font", "DroidSansMono Nerd Font Mono",
+        "Fantasque Sans Mono", "Hack Nerd Font Mono", "JetBrainsMono Nerd Font", "JetBrainsMono Nerd Font Mono",
+        "JetBrainsMono NF", "JetBrainsMono NFM", "JetBrainsMono NFP", "JetBrainsMonoNL Nerd Font",
+        "JetBrainsMonoNL Nerd Font Mono", "JetBrainsMonoNL NF", "JetBrainsMonoNL NFM", "JetBrainsMonoNL NFP",
+        "Knack Nerd Font Mono", "Lucida Console", "Miriam Mono CLM", "Nimbus Mono PS", "Liberation Mono",
+        "PixelCarnageMono", "Adwaita Mono", "Courier New", Consolas, Courier, monospace;
 }
 
 /* Document rules for each theme */
@@ -599,8 +607,7 @@ main p {
 code,
 kbd,
 pre {
-    font-family: "Noto Sans Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", "Lucida Console", Courier,
-        Consolas, "Noto Sans Mono CJK JP", monospace;
+    font-family: var(--monospace-font-families);
 }
 
 code {
