@@ -100,14 +100,15 @@ const Utils = Object.freeze({
         return this.filename().startsWith("tag_");
     },
     query_headers(parent) {
-        const headers = parent.querySelectorAll(":is(h1, h2, h3, h4, h5, h6)");
         const parsed = [];
-        for (const header of headers) {
-            parsed.push({
-                id: header.id,
-                level: parseInt(/\d$/.exec(header.tagName).join()),
-                text: header.innerText,
-            });
+        if (parent) {
+            for (const header of parent.querySelectorAll(":is(h1, h2, h3, h4, h5, h6)")) {
+                parsed.push({
+                    id: header.id,
+                    level: parseInt(/\d$/.exec(header.tagName).join()),
+                    text: header.innerText,
+                });
+            }
         }
         return parsed;
     },
@@ -278,7 +279,7 @@ document.addEventListener(
         open_all_external_links_in_a_new_tab();
         document.querySelectorAll("article pre").forEach((pre) => pre.append(create_copy_select_button(pre)));
         ReorderTags.init();
-        $("divbody").addEventListener("click", close_sidebar);
+        $("divbody")?.addEventListener("click", close_sidebar);
         make_images_expand_on_click();
     },
     false
