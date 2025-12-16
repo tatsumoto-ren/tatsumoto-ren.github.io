@@ -69,6 +69,7 @@
     --normal-underline-color: transparent;
     --hover-underline-color: transparent;
 
+    --table-header-color: hsla(0, 0%, 0%, 0.1);
     --monospace-font-families: "Noto Mono", "Noto Sans Mono", "Noto Sans Mono CJK JP", "DejaVu Sans Mono", "DejaVuSansMono Nerd Font",
         "DejaVuSansMono Nerd Font Mono", "Droid Sans Mono", "DroidSansMono Nerd Font", "DroidSansMono Nerd Font Mono",
         "Fantasque Sans Mono", "Hack Nerd Font Mono", "JetBrainsMono Nerd Font", "JetBrainsMono Nerd Font Mono",
@@ -796,6 +797,9 @@ article table td,
 article table th {
     border: 1px solid #e0e3e6;
     padding: 6px 13px;
+}
+article table th {
+    background-color: var(--table-header-color, rgba(0, 0, 0, 0.1));
 }
 
 article table td:first-child {
