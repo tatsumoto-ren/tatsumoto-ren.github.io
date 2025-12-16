@@ -671,14 +671,6 @@ article {
     display: flow-root;
 }
 
-article a {
-    transition: filter 0.2s, color 0.2s;
-}
-
-article a:hover {
-    filter: hue-rotate(-20deg) brightness(120%);
-}
-
 /* Article headers */
 
 main :is(h1, h2, h3, h4, h5, h6) {
@@ -709,6 +701,14 @@ main h3 {
 main h4 {
     font-size: 1.125rem;
     color: var(--color-article-h4, currentColor);
+}
+
+main a {
+    transition: filter 0.2s, color 0.2s;
+}
+
+main a:hover {
+    filter: hue-rotate(-20deg) brightness(120%);
 }
 
 article a.anchor > svg {
