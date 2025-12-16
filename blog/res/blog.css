@@ -70,6 +70,13 @@
     --hover-underline-color: transparent;
 
     --table-header-color: hsla(0, 0%, 0%, 0.1);
+
+    /* Fonts */
+    --serif-font-families: "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
+        "Yu Mincho", Georgia, Times, serif;
+    --sans-font-families: "Noto Sans", "Droid Sans", "DejaVu Sans", "Liberation Sans", Roboto, Cantarell, "Segoe UI", Arial,
+        Meiryo, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, "Noto Color Emoji", "Noto Sans CJK JP", IPAGothic,
+        Yu Gothic, sans-serif;
     --monospace-font-families: "Noto Mono", "Noto Sans Mono", "Noto Sans Mono CJK JP", "DejaVu Sans Mono", "DejaVuSansMono Nerd Font",
         "DejaVuSansMono Nerd Font Mono", "Droid Sans Mono", "DroidSansMono Nerd Font", "DroidSansMono Nerd Font Mono",
         "Fantasque Sans Mono", "Hack Nerd Font Mono", "JetBrainsMono Nerd Font", "JetBrainsMono Nerd Font Mono",
@@ -284,9 +291,7 @@ html:focus-within {
 }
 
 body {
-    font-family: "Noto Sans", "Droid Sans", "DejaVu Sans", "Liberation Sans", Roboto, Cantarell, "Segoe UI", Arial,
-        Meiryo, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, "Noto Color Emoji", "Noto Sans CJK JP", IPAGothic,
-        Yu Gothic, sans-serif;
+    font-family: var(--sans-font-families);
     background-color: var(--body-bg-color, #f3f3f3);
     color: var(--body-text-color, black);
     font-size: 1rem;
@@ -334,8 +339,7 @@ a.ablack:is(:hover, :active, :focus) {
 /* Header */
 
 header {
-    font-family: "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
-        "Yu Mincho", Georgia, Times, serif;
+    font-family: var(--serif-font-families);
     width: 100%;
     position: sticky;
     z-index: 100;
