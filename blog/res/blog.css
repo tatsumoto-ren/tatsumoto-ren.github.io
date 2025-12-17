@@ -1358,7 +1358,8 @@ a.md-button.donations::before {
     padding: 0 1.4em;
 }
 
-.toc_navigation > a::before {
+.toc_navigation > a::before,
+.toc_navigation > a > img {
     background-image: url("/blog/img/up-arrow.svg");
     filter: invert(1);
     width: 1em;
@@ -1366,12 +1367,18 @@ a.md-button.donations::before {
     background-size: 1em;
 }
 
-.toc_navigation > a.next::before {
+.toc_navigation > a.next::before,
+.toc_navigation > a.next > img {
     rotate: 90deg;
 }
 
-.toc_navigation > a.prev::before {
+.toc_navigation > a.prev::before,
+.toc_navigation > a.prev > img {
     rotate: -90deg;
+}
+
+.toc_navigation > a:has(img)::before {
+    display: none;
 }
 
 /* copy/select button for code blocks */
