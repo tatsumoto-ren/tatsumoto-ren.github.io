@@ -72,12 +72,15 @@
     --table-header-color: hsla(0, 0%, 0%, 0.1);
 
     /* Fonts */
-    --serif-font-families: "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
+    --serif-font-families:
+        "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
         "Yu Mincho", Georgia, Times, serif;
-    --sans-font-families: "Noto Sans", "Droid Sans", "DejaVu Sans", "Liberation Sans", Roboto, Cantarell, "Segoe UI", Arial,
-        Meiryo, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, "Noto Color Emoji", "Noto Sans CJK JP", IPAGothic,
-        Yu Gothic, sans-serif;
-    --monospace-font-families: "Noto Mono", "Noto Sans Mono", "Noto Sans Mono CJK JP", "DejaVu Sans Mono", "DejaVuSansMono Nerd Font",
+    --sans-font-families:
+        "Noto Sans", "Droid Sans", "DejaVu Sans", "Liberation Sans", Roboto, Cantarell, "Segoe UI", Arial, Meiryo,
+        Oxygen, Ubuntu, "Helvetica Neue", Helvetica, "Noto Color Emoji", "Noto Sans CJK JP", IPAGothic, Yu Gothic,
+        sans-serif;
+    --monospace-font-families:
+        "Noto Mono", "Noto Sans Mono", "Noto Sans Mono CJK JP", "DejaVu Sans Mono", "DejaVuSansMono Nerd Font",
         "DejaVuSansMono Nerd Font Mono", "Droid Sans Mono", "DroidSansMono Nerd Font", "DroidSansMono Nerd Font Mono",
         "Fantasque Sans Mono", "Hack Nerd Font Mono", "JetBrainsMono Nerd Font", "JetBrainsMono Nerd Font Mono",
         "JetBrainsMono NF", "JetBrainsMono NFM", "JetBrainsMono NFP", "JetBrainsMonoNL Nerd Font",
@@ -168,8 +171,8 @@
 
 :root.pink footer {
     background-color: #744356;
-    background-image: linear-gradient(rgba(197, 138, 159, 0.33), rgba(68, 47, 55, 0.66)),
-        url("/blog/img/blog-bg-pink-theme.webp");
+    background-image:
+        linear-gradient(rgba(197, 138, 159, 0.33), rgba(68, 47, 55, 0.66)), url("/blog/img/blog-bg-pink-theme.webp");
     background-size: cover;
     background-position: center 20%;
 }
@@ -344,7 +347,9 @@ header {
     position: sticky;
     z-index: 100;
     top: 0;
-    box-shadow: 0 5px 0 var(--background-secondary-color), 0 6px 4px 0 var(--elem-shadow-color);
+    box-shadow:
+        0 5px 0 var(--background-secondary-color),
+        0 6px 4px 0 var(--elem-shadow-color);
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
@@ -459,7 +464,9 @@ header label {
     text-decoration: none;
     cursor: pointer;
     background-color: var(--header-background);
-    transition: background-color 0.08s ease-in-out, box-shadow 0.12s ease-in-out;
+    transition:
+        background-color 0.08s ease-in-out,
+        box-shadow 0.12s ease-in-out;
     line-height: var(--header-height);
     user-select: none;
     position: relative;
@@ -704,7 +711,9 @@ main h4 {
 }
 
 main a {
-    transition: filter 0.2s, color 0.2s;
+    transition:
+        filter 0.2s,
+        color 0.2s;
 }
 
 main a:hover {
@@ -953,7 +962,10 @@ body:has(input#menu-btn:checked) {
     position: fixed;
     inset: 0 calc(-1 * var(--sidebar-width)) 0 auto;
     visibility: hidden;
-    transition: right 0.2s, visibility 0.2s, box-shadow 0.33s;
+    transition:
+        right 0.2s,
+        visibility 0.2s,
+        box-shadow 0.33s;
     box-shadow: var(--main-shadow), var(--overlay-shadow-off);
 }
 
@@ -1044,7 +1056,9 @@ input#menu-btn:checked ~ #sidebar {
     text-align: center;
     cursor: pointer;
     overflow: hidden;
-    transition: background-color 0.1s, color 0.1s;
+    transition:
+        background-color 0.1s,
+        color 0.1s;
 }
 
 #sidebar .sidebar_header > :is(:hover, :active) {
@@ -1117,7 +1131,9 @@ input#menu-btn:checked ~ #sidebar {
     padding: 6px 0 6px 6px;
     text-align: left;
     column-gap: 10px;
-    transition: background-color 0.1s, color 0.1s;
+    transition:
+        background-color 0.1s,
+        color 0.1s;
 }
 
 #sidebar .important-links a:last-child:nth-child(odd) {
@@ -1252,7 +1268,6 @@ a.md-button.pleroma::before {
     background-image: url("https://pleroma.social/images/pleroma_logo_vector_nobg_nopan.svg");
 }
 
-
 /* LibrePay */
 
 a.md-button.lp {
@@ -1322,7 +1337,9 @@ a.md-button.donations {
     background-color: #5e5e5e;
     border-bottom: 1px solid #2626261b;
     border-right: 1px solid #2626261b;
-    box-shadow: inset 1px 1px 0 #777, 0 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow:
+        inset 1px 1px 0 #777,
+        0 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 a.md-button.donations:is(:hover, :active, :focus) {
@@ -1401,7 +1418,10 @@ article pre > .select_button {
     background-color: var(--code-bg-color);
     border: 1px solid #1b1f2426;
     border-radius: 6px;
-    transition: background-color cubic-bezier(0.33, 1, 0.68, 1) 80ms, opacity ease-in 0.15s, visibility ease-in 0.15s;
+    transition:
+        background-color cubic-bezier(0.33, 1, 0.68, 1) 80ms,
+        opacity ease-in 0.15s,
+        visibility ease-in 0.15s;
     color: #57606a;
     cursor: pointer;
     visibility: hidden;
@@ -1638,15 +1658,13 @@ article a[href^="magnet:?"]:not(.download_button) {
 
 /* Onion links */
 
-article a[href^="http://"][href*=".onion"]
-{
+article a[href^="http://"][href*=".onion"] {
     display: inline-flex;
     flex-flow: row nowrap;
     align-items: baseline;
 }
 
-article a[href^="http://"][href*=".onion"]::after
-{
+article a[href^="http://"][href*=".onion"]::after {
     content: "";
     width: 1em;
     aspect-ratio: 1/1;
@@ -1722,11 +1740,11 @@ details summary > * {
 details.important_details {
     --main-color: green;
 
-    outline-color: color-mix(  in oklab, var(--main-color) 70%, rgba(0 0 0 / 0%)  );
-    background-color: color-mix(  in oklab, var(--main-color) 5%, rgba(0 0 0 / 0%)  );
+    outline-color: color-mix(in oklab, var(--main-color) 70%, rgba(0 0 0 / 0%));
+    background-color: color-mix(in oklab, var(--main-color) 5%, rgba(0 0 0 / 0%));
     summary {
-      background-color: color-mix(  in oklab, var(--main-color) 20%, rgba(0 0 0 / 0%)  );
-      color: var(--summary-important-text-color, black);
+        background-color: color-mix(in oklab, var(--main-color) 20%, rgba(0 0 0 / 0%));
+        color: var(--summary-important-text-color, black);
     }
 }
 

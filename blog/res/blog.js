@@ -25,14 +25,14 @@
  *
  */
 
-const $ = (id) => document.getElementById(id);
+const $ = id => document.getElementById(id);
 
 const insert_after = (new_node, existing_node) =>
     existing_node.parentNode.insertBefore(new_node, existing_node.nextSibling);
 
-const is_external = (anchor) => anchor.host && anchor.host !== window.location.host;
+const is_external = anchor => anchor.host && anchor.host !== window.location.host;
 
-const copy_to_clipboard = (str) => {
+const copy_to_clipboard = str => {
     if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
         return navigator.clipboard.writeText(str);
     } else {
@@ -40,22 +40,22 @@ const copy_to_clipboard = (str) => {
     }
 };
 
-const strip_ext = (filename) => filename.replace(/\.html$/gi, "");
+const strip_ext = filename => filename.replace(/\.html$/gi, "");
 
-const select_text = (text_node) => {
+const select_text = text_node => {
     const [range, sel] = [document.createRange(), window.getSelection()];
     range.selectNodeContents(text_node);
     sel.removeAllRanges();
     sel.addRange(range);
 };
 
-const create_copy_select_button = (text_node) => {
+const create_copy_select_button = text_node => {
     return Object.assign(document.createElement("button"), {
         type: "button",
         className: "select_button",
         value: "select",
         title: "Copy to clipboard",
-        onclick: (click) => {
+        onclick: click => {
             copy_to_clipboard(text_node.innerText)
                 .then(() => {
                     click.target.setAttribute("status", "copied");
@@ -80,8 +80,8 @@ const ReorderTags = Object.freeze({
             const main = document.querySelector("main");
             const articles = [...main.children];
             articles.sort((prev, next) => this.get_pos(prev) - this.get_pos(next));
-            main.prepend(...articles.filter((element) => this.get_pos(element) < 0));
-            main.append(...articles.filter((element) => this.get_pos(element) > 0));
+            main.prepend(...articles.filter(element => this.get_pos(element) < 0));
+            main.append(...articles.filter(element => this.get_pos(element) > 0));
         }
     },
 });
@@ -129,7 +129,7 @@ const PageContents = Object.freeze({
         let list = "";
 
         list += headers
-            .map((header) => {
+            .map(header => {
                 let part = "";
                 part += (function () {
                     if (header.level > prev_level) {
@@ -150,7 +150,7 @@ const PageContents = Object.freeze({
         return list;
     },
     init() {
-        const headers = Utils.query_headers($("divbody")).filter((h) => Boolean(h.id));
+        const headers = Utils.query_headers($("divbody")).filter(h => Boolean(h.id));
         if (headers.length > 0) {
             $("sidebar").querySelector(".page-contents").innerHTML += this.make_list(headers);
         }
@@ -179,20 +179,20 @@ const Toc = Object.freeze({
     },
     init() {
         fetch(this.find_toc_path())
-            .then((response) => {
+            .then(response => {
                 if (response.ok) {
                     return response.text();
                 } else {
                     throw new Error("Couldn't fetch table of contents.");
                 }
             })
-            .then((text) => this.link_adjacent([...text.matchAll(this.link_regex)]))
-            .catch((error) => console.error(error));
+            .then(text => this.link_adjacent([...text.matchAll(this.link_regex)]))
+            .catch(error => console.error(error));
     },
     link_adjacent(matches_list) {
         const outer = document.querySelector("div#divbody");
         if (outer.querySelector(".toc_navigation") === null) {
-            const i = matches_list.findIndex((match) => strip_ext(match.groups.path) === strip_ext(Utils.filename()));
+            const i = matches_list.findIndex(match => strip_ext(match.groups.path) === strip_ext(Utils.filename()));
             if (i >= 0 && outer) {
                 const container = outer.appendChild(this.make_nav_container());
                 const [prev, next] = [matches_list[i - 1], matches_list[i + 1]];
@@ -220,14 +220,14 @@ const MegaTags = Object.freeze({
     mark_links() {
         document
             .querySelectorAll('article a[href^="https://mega.nz/"]')
-            .forEach((anchor) => insert_after(this.make_tag(), anchor));
+            .forEach(anchor => insert_after(this.make_tag(), anchor));
     },
 });
 
 const ThemePicker = Object.freeze({
     key: "blog-theme",
     set_onclick_handlers() {
-        document.querySelectorAll(`input[name="${this.key}"]`).forEach((input_element) => {
+        document.querySelectorAll(`input[name="${this.key}"]`).forEach(input_element => {
             input_element.addEventListener("click", () => {
                 localStorage.setItem(this.key, input_element.id);
                 // fallback for no :has() support
@@ -251,7 +251,7 @@ function close_sidebar() {
 }
 
 function make_images_expand_on_click() {
-    document.querySelectorAll("article img:not(a>img)").forEach((img) => {
+    document.querySelectorAll("article img:not(a>img)").forEach(img => {
         img.onclick = () => {
             window.open(img.src, "_blank", "Expanded image");
         };
@@ -264,7 +264,7 @@ function make_images_expand_on_click() {
 function open_all_external_links_in_a_new_tab() {
     Array.from(document.getElementsByTagName("a"))
         .filter(is_external)
-        .forEach((a) => (a.target = "_blank"));
+        .forEach(a => (a.target = "_blank"));
 }
 
 /* Entry point */
@@ -277,10 +277,10 @@ document.addEventListener(
         Toc.init();
         MegaTags.mark_links();
         open_all_external_links_in_a_new_tab();
-        document.querySelectorAll("article pre").forEach((pre) => pre.append(create_copy_select_button(pre)));
+        document.querySelectorAll("article pre").forEach(pre => pre.append(create_copy_select_button(pre)));
         ReorderTags.init();
         $("divbody")?.addEventListener("click", close_sidebar);
         make_images_expand_on_click();
     },
-    false
+    false,
 );
