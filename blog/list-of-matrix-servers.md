@@ -109,7 +109,6 @@ to the instance's Element address,
 like this: `https://c.wfr.moe/#/room/#djtspace.midov.pl`.
 
 * https://element.fablabchemnitz.de/
-* https://riot.tzchat.org/
 * https://im.tetaneutral.net/
 * https://matrix.eientei.org/
 * https://im.tetaneutral.net/
