@@ -49,10 +49,10 @@ const select_text = text_node => {
     sel.addRange(range);
 };
 
-const create_copy_select_button = text_node => {
+const create_code_select_button = text_node => {
     return Object.assign(document.createElement("button"), {
         type: "button",
-        className: "select_button",
+        className: "code_select_button",
         value: "select",
         title: "Copy to clipboard",
         onclick: click => {
@@ -277,7 +277,7 @@ document.addEventListener(
         Toc.init();
         MegaTags.mark_links();
         open_all_external_links_in_a_new_tab();
-        document.querySelectorAll("main pre").forEach(pre => pre.append(create_copy_select_button(pre)));
+        document.querySelectorAll("main pre").forEach(pre => pre.append(create_code_select_button(pre)));
         ReorderTags.init();
         $("divbody")?.addEventListener("click", close_sidebar);
         make_images_expand_on_click();

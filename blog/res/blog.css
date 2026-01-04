@@ -1400,12 +1400,12 @@ a.md-button.donations::before {
 
 /* copy/select button for code blocks */
 
-article div.pre-wrap {
+.pre-wrap {
     /* Wraps all pre tags. */
     position: relative;
 }
 
-article pre > .select_button {
+pre > .code_select_button {
     position: absolute;
     display: block;
     font-size: 0.75rem;
@@ -1428,7 +1428,7 @@ article pre > .select_button {
     opacity: 0;
 }
 
-article pre > .select_button::before {
+pre > .code_select_button::before {
     content: "";
     background-image: url("/blog/img/copy-to-clip.svg");
     background-size: contain;
@@ -1441,22 +1441,22 @@ article pre > .select_button::before {
     filter: invert(34%) sepia(19%) saturate(307%) hue-rotate(171deg) brightness(99%) contrast(87%);
 }
 
-article pre > .select_button:is(:hover, :active, :focus) {
+pre > .code_select_button:is(:hover, :active, :focus) {
     background-color: #f3f4f6;
 }
 
-article pre > .select_button:active {
+pre > .code_select_button:active {
     background-color: #ebecf0;
 }
 
-article pre:is(:hover, :active, :focus) > .select_button {
+pre:is(:hover, :active, :focus) > .code_select_button {
     visibility: visible;
     opacity: 1;
 }
 
 /* Status tooltip for copy/select button */
 
-article pre > .select_button::after {
+pre > .code_select_button::after {
     display: block;
     content: "";
     line-height: 18px;
@@ -1474,16 +1474,16 @@ article pre > .select_button::after {
     visibility: hidden;
 }
 
-article pre:is(:hover, :active, :focus) > .select_button[status]::after {
+pre:is(:hover, :active, :focus) > .code_select_button[status]::after {
     visibility: visible;
     opacity: 1;
 }
 
-.select_button[status="copied"]::after {
+pre > .code_select_button[status="copied"]::after {
     content: "Copied.";
 }
 
-.select_button[status="selected"]::after {
+pre > .code_select_button[status="selected"]::after {
     content: "Selected.";
 }
 
