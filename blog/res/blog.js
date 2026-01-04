@@ -277,7 +277,7 @@ document.addEventListener(
         Toc.init();
         MegaTags.mark_links();
         open_all_external_links_in_a_new_tab();
-        document.querySelectorAll("article pre").forEach(pre => pre.append(create_copy_select_button(pre)));
+        document.querySelectorAll("main pre").forEach(pre => pre.append(create_copy_select_button(pre)));
         ReorderTags.init();
         $("divbody")?.addEventListener("click", close_sidebar);
         make_images_expand_on_click();
