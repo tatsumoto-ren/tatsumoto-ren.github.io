@@ -303,10 +303,6 @@ body {
     line-height: 1.5;
 }
 
-body > div#divbodyholder {
-    flex: 1 0 auto;
-}
-
 body > header,
 body > footer {
     flex-shrink: 0;
@@ -505,6 +501,7 @@ header a.guide_link {
 #divbodyholder {
     overflow-wrap: break-word;
     margin: var(--gap-large) 0 var(--gap-large);
+    flex: 1 0 auto;
 }
 
 #divbodyholder > div {
