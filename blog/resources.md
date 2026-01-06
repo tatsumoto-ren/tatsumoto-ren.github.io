@@ -492,6 +492,8 @@ You may need a Japanese IP address for some of these.
 > [Mining from movies and TV-shows](mining-from-movies-and-tv-shows.html)
 > and [Retiming subtitles](retiming-subtitles.html).
 
+* [subtitles.ajatt.top](https://subtitles.ajatt.top/).
+  Japanese subtitles for Japanese anime, dramas, TV shows, and movies.
 * [kitsunekko.net](https://kitsunekko.net/subtitles/japanese/).
   A large repository of Japanese subtitles.
 * [kitsunekko mirror](https://github.com/Ajatt-Tools/kitsunekko-mirror).
