@@ -83,7 +83,7 @@ that can be used to download videos from YouTube and similar sites.
 On Arch Linux, yt-dlp can be installed by running this command:
 
 ```
-sudo pacman -S yt-dlp
+sudo pacman -S yt-dlp yt-dlp-ejs
 ```
 
 If you're on Ubuntu, it is recommended to use [pipx](https://pipx.pypa.io/stable/).
