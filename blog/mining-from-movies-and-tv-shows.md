@@ -319,7 +319,7 @@ If you don't, make sure to adjust at least the following variables:
 
 1) Make sure Anki is running.
 1) Open a video in mpv.
-1) Press <kbd>Ctrl</kbd>+<kbd>t</kbd> to activate clipboard autocopy.
+1) Press <kbd>Ctrl</kbd>+<kbd>T</kbd> to activate clipboard autocopy.
 1) Open [GoldenDict](setting-up-goldendict.html)
    or open your web browser and activate [Rikaitan Search](what-is-yomichan-search.html).
 1) Enable GoldendDict's "Scan Popup" or enable clipboard monitor in Rikaitan Search.
@@ -328,13 +328,13 @@ If you don't, make sure to adjust at least the following variables:
    Mpvacious will automatically add media to your card.
 
    If the "new note timer" is disabled,
-   go back to the `mpv` window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
+   go back to the `mpv` window and press <kbd>Ctrl</kbd>+<kbd>M</kbd>.
 
    If you want to grab a sentence that spans multiple lines,
-   press <kbd>a</kbd> to open the advanced menu.
+   press <kbd>A</kbd> to open the advanced menu.
    Then mark the lines you want to appear on the card
-   by pressing <kbd>c</kbd> and moving the position with <kbd>Shift</kbd>+<kbd>h</kbd> and <kbd>Shift</kbd>+<kbd>l</kbd>.
-   Finish by pressing <kbd>m</kbd>.
+   by pressing <kbd>C</kbd> and moving the position with <kbd>Shift</kbd>+<kbd>H</kbd> and <kbd>Shift</kbd>+<kbd>L</kbd>.
+   Finish by pressing <kbd>M</kbd>.
 1) The Anki Browser window should appear with the card updated.
 
 See [How to](https://github.com/Ajatt-Tools/mpvacious/tree/master/howto) for more detailed explanations.
