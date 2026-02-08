@@ -268,8 +268,12 @@ User-scripts are written in languages such as Lua or JavaScript.</p>
 is a user-script for the mpv video player
 that allows you to make Anki cards
 while watching movies and TV shows in your target language.</p>
-<p>Mpvacious can update Anki cards you add with Rikaitan
-by filling the audio and screenshot fields.
+<p>Mpvacious can update Anki cards you add with
+<a href="setting-up-goldendict.html">GoldenDict</a>,
+<a href="setting-up-yomichan.html">Rikaitan</a>,
+or any other tool that works with AnkiConnect.
+When you create a new note,
+Mpvacious adds media (audio and images) to the note.
 <a href="https://redirect.invidious.io/watch?v=vU85ramvyo4">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube"></a>.</p>
 <video width="1920" controls>
     <source src="vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
@@ -277,7 +281,7 @@ by filling the audio and screenshot fields.
     <source src="https://ajatt.top/blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 </video>
 <p>The user-script has a long list of features and configuration options.
-For details explore the documentation on GitHub.
+For details explore the <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/README.md">documentation on GitHub</a>.
 Below I'm going to write about how I use it.</p>
 <h3 id="requirements"><a class="anchor" href="#requirements" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h3>
 <p>Mpvacious needs
@@ -307,20 +311,31 @@ If you don't, make sure to adjust at least the following variables:</p>
 </ul>
 <h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
 <ol>
-<li>Make sure Anki is running.</li>
-<li>Open a video in mpv.</li>
-<li>Press <kbd>Ctrl</kbd>+<kbd>t</kbd> to activate clipboard autocopy.</li>
-<li>Open <a href="setting-up-goldendict.html">GoldenDict</a>
-or open your web browser and activate <a href="what-is-yomichan-search.html">Rikaitan Search</a>.</li>
-<li>Enable GoldendDict's &quot;Scan Popup&quot; or enable clipboard monitor in Rikaitan Search.</li>
-<li>When there is a word you want to mine, create a new card.</li>
-<li>Go back to the <code>mpv</code> window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
-If you want to grab a sentence that spans multiple lines,
+<li><p>Make sure Anki is running.</p>
+</li>
+<li><p>Open a video in mpv.</p>
+</li>
+<li><p>Press <kbd>Ctrl</kbd>+<kbd>t</kbd> to activate clipboard autocopy.</p>
+</li>
+<li><p>Open <a href="setting-up-goldendict.html">GoldenDict</a>
+or open your web browser and activate <a href="what-is-yomichan-search.html">Rikaitan Search</a>.</p>
+</li>
+<li><p>Enable GoldendDict's &quot;Scan Popup&quot; or enable clipboard monitor in Rikaitan Search.</p>
+</li>
+<li><p>When there is a word you want to mine, create a new card.</p>
+</li>
+<li><p>By default,
+Mpvacious will automatically add media to your card.</p>
+<p>If the &quot;new note timer&quot; is disabled,
+go back to the <code>mpv</code> window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.</p>
+<p>If you want to grab a sentence that spans multiple lines,
 press <kbd>a</kbd> to open the advanced menu.
 Then mark the lines you want to appear on the card
 by pressing <kbd>c</kbd> and moving the position with <kbd>Shift</kbd>+<kbd>h</kbd> and <kbd>Shift</kbd>+<kbd>l</kbd>.
-Finish by pressing <kbd>m</kbd>.</li>
-<li>The Anki Browser window should appear with the card updated.</li>
+Finish by pressing <kbd>m</kbd>.</p>
+</li>
+<li><p>The Anki Browser window should appear with the card updated.</p>
+</li>
 </ol>
 <p>See <a href="https://github.com/Ajatt-Tools/mpvacious/tree/master/howto">How to</a> for more detailed explanations.</p>
 <h3 id="creating-cards-without-pausing"><a class="anchor" href="#creating-cards-without-pausing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating cards without pausing</h3>
@@ -398,7 +413,7 @@ can do the same thing simpler.</p>
 </div>
 </div>
 <div class="footer-bottom">
-<p>Copyright © Tatsumoto Ren 2020-2025</p>
+<p>Copyright © Tatsumoto Ren 2020-2026</p>
 <p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
 </div>
 </footer>

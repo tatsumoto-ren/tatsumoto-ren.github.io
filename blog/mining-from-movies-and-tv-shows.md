@@ -265,8 +265,12 @@ is a user-script for the mpv video player
 that allows you to make Anki cards
 while watching movies and TV shows in your target language.
 
-Mpvacious can update Anki cards you add with Rikaitan
-by filling the audio and screenshot fields.
+Mpvacious can update Anki cards you add with
+[GoldenDict](setting-up-goldendict.html),
+[Rikaitan](setting-up-yomichan.html),
+or any other tool that works with AnkiConnect.
+When you create a new note,
+Mpvacious adds media (audio and images) to the note.
 [Watch a demonstration on ![YouTube](img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=vU85ramvyo4).
 
 <video width="1920" controls>
@@ -276,7 +280,7 @@ by filling the audio and screenshot fields.
 </video>
 
 The user-script has a long list of features and configuration options.
-For details explore the documentation on GitHub.
+For details explore the [documentation on GitHub](https://github.com/Ajatt-Tools/mpvacious/blob/master/README.md).
 Below I'm going to write about how I use it.
 
 ### Requirements
@@ -320,7 +324,12 @@ If you don't, make sure to adjust at least the following variables:
    or open your web browser and activate [Rikaitan Search](what-is-yomichan-search.html).
 1) Enable GoldendDict's "Scan Popup" or enable clipboard monitor in Rikaitan Search.
 1) When there is a word you want to mine, create a new card.
-1) Go back to the `mpv` window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
+1) By default,
+   Mpvacious will automatically add media to your card.
+
+   If the "new note timer" is disabled,
+   go back to the `mpv` window and press <kbd>Ctrl</kbd>+<kbd>m</kbd>.
+
    If you want to grab a sentence that spans multiple lines,
    press <kbd>a</kbd> to open the advanced menu.
    Then mark the lines you want to appear on the card
