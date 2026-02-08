@@ -628,7 +628,7 @@ as the sounds in your head won't match what native speakers are actually saying.
 You want to avoid such an outcome at all costs.
 
 In the beginning,
-limit reading **only** to flashcards and dictionary lookups.
+limit reading **only** to flashcards and dictionary lookups to train your listening skills.
 Avoid active reading beyond text‑based flashcards.
 **Focus on listening** to lots of native Japanese
 to build a phonetic foundation.
@@ -636,6 +636,12 @@ Once you develop good listening comprehension,
 add light reading,
 such as easy comics or manga,
 then progress to ranobe and novels.
+
+Watching anime with Japanese subtitles is also [considered as reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html).
+Japanese subtitles are a crutch that can help you look up new words,
+but they do not improve your ability to understand the target language by listening.
+They are **tempting** because watching without subtitles is hard.
+Limit their use so you can train your listening skills.
 
 If you're learning Japanese primarily **to enjoy content**,
 such as anime, manga, or light novels,
