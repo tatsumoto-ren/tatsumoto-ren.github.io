@@ -464,14 +464,14 @@ Browsing will lead you to more tags.
 
 ### Visual Novels and Games
 
-There's a
-[list of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels)
-on Arch Wiki.
 Beware that most
 [games](https://www.gnu.org/proprietary/malware-games.html)
 that exist today are
 [proprietary](https://www.gnu.org/proprietary/proprietary.html).
 Proprietary software should not exist and should not be used if you want to have freedom.
+
+* [List of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels) on Arch Wiki.
+* [Libre games Wiki](https://libregamewiki.org/Main_Page)
 
 ### Japanese boards
 
