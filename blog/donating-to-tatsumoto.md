@@ -72,7 +72,7 @@ You can donate to Tatsumoto easily through the Telegram [wallet](https://t.me/wa
 Send Toncoin (TON) to this address.
 
 ```
-UQCxboiT7ArP1oNvV-QENzlKYzVKmqXbBp9LRdaneHhbsEk2
+UQAyVFHr_TSgoR3CkNUAh4kKEBv0ZYxULajueSES1v_wVnsj
 ```
 
 <details>
