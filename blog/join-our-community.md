@@ -42,7 +42,7 @@ from the AUR in order to use SimpleX chat.
 On Android,
 install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
 
-<a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">SimpleX chat</a>
+<a target="_blank" class="md-button simplex" href="https://smp12.simplex.im/g#eX02STXi0LJmtmfziRZCHv0rUKUWMplt9tCzKUyK1Ns">SimpleX chat</a>
 
 Scan the QR code with the SimpleX Chat app on your phone or tablet.
 
