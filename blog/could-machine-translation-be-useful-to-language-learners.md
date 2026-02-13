@@ -10,6 +10,14 @@ This is true for human-made translations as well.
 Machine translations are even more dangerous,
 because they often introduce errors and inaccuracies.
 
+Sometimes it is tempting to paste text into a machine translator or ask an AI chatbot to explain it.
+But that creates an illusion of comprehension,
+so it is counterproductive to our goal.
+To understand how the language works,
+you have to build a foundation for natural, intuitive understanding
+through mass immersion and exposure.
+Always try to decipher texts entirely on your own!
+
 It is permitted to translate individual words
 for the first couple months of learning the target language.
 We think it is acceptable to do so because there is no other option
