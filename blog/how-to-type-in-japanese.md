@@ -145,6 +145,15 @@ If you have `setxkbmap` commands in your `xinitrc`, edit them as well.
 I run [this script](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/keyboard_layouts)
 on startup to automatically start Fcitx when I log in.
 
+## Fcitx5 and Kitty
+
+By default, [kitty](https://wiki.archlinux.org/title/Kitty) does not work with fcitx. To fix that, add this to your xprofile or xinitrc.
+[Source](https://github.com/kovidgoyal/kitty/issues/469#issuecomment-778814173).
+
+```
+export GLFW_IM_MODULE=ibus
+```
+
 ## Input method editor
 
 **Note**: [A Wiki page with all input methods](https://fcitx-im.org/wiki/Special:MyLanguage/Input_method_engines#Japanese).
