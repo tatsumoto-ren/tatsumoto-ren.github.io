@@ -105,7 +105,7 @@ sudo pacman -S fcitx5-im
 * If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
-Assuming you're starting Xorg using
+Assuming you're starting X11 ([Xlibre](https://wiki.archlinux.org/title/Xlibre)) using
 [startx/xinit](https://wiki.archlinux.org/title/Xinit)
 like a Chad, the best way to achieve it is to modify `~/.xinitrc`, adding the following lines.
 
@@ -115,6 +115,10 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 fcitx5 -dr &
 ```
+
+I've also noticed it's better to put `fcitx5 -dr &` in `~/.config/i3/config` (if you use i3wm)
+instead of X11 startup files, because unlike fcitx4,
+fcitx5 can fail to initialize properly if started before a window manager.
 
 Note that the
 [xinitrc](https://wiki.archlinux.org/title/Xinit#xinitrc)
@@ -128,7 +132,7 @@ It doesn't really matter which file you put the commands in as long as it is sou
 
 If you previously used `localectl`, `setxkbmap`, or X configuration files for
 [setting a keyboard layout](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout),
-edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
+edit or remove those settings because key bindings set via X11 will interfere with Fcitx.
 You need to disable the key bindings you plan to use in Fcitx.
 For example, to disable the config file created by `localectl`, run:
 

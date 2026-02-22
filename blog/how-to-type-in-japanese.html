@@ -151,7 +151,7 @@ Because I've had problems getting IBus to work with i3wm, I don't recommend it.<
 <li>If you're not running an Arch-based distro, find the appropriate packages in the repositories.</li>
 </ul>
 <p>Next on the list, you need to enable autostart.
-Assuming you're starting Xorg using
+Assuming you're starting X11 (<a href="https://wiki.archlinux.org/title/Xlibre">Xlibre</a>) using
 <a href="https://wiki.archlinux.org/title/Xinit">startx/xinit</a>
 like a Chad, the best way to achieve it is to modify <code>~/.xinitrc</code>, adding the following lines.</p>
 <div class="pre-wrap"><pre><code>export GTK_IM_MODULE=fcitx
@@ -159,6 +159,9 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 fcitx5 -dr &amp;
 </code></pre></div>
+<p>I've also noticed it's better to put <code>fcitx5 -dr &amp;</code> in <code>~/.config/i3/config</code> (if you use i3wm)
+instead of X11 startup files, because unlike fcitx4,
+fcitx5 can fail to initialize properly if started before a window manager.</p>
 <p>Note that the
 <a href="https://wiki.archlinux.org/title/Xinit#xinitrc">xinitrc</a>
 file may be located anywhere on your computer, depending on how you set up your
@@ -170,7 +173,7 @@ it is also possible to put the commands there.
 It doesn't really matter which file you put the commands in as long as it is sourced on startup.</p>
 <p>If you previously used <code>localectl</code>, <code>setxkbmap</code>, or X configuration files for
 <a href="https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout">setting a keyboard layout</a>,
-edit or remove those settings because key bindings set via Xorg will interfere with Fcitx.
+edit or remove those settings because key bindings set via X11 will interfere with Fcitx.
 You need to disable the key bindings you plan to use in Fcitx.
 For example, to disable the config file created by <code>localectl</code>, run:</p>
 <div class="pre-wrap"><pre><code>sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
