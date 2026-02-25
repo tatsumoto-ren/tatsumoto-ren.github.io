@@ -288,7 +288,7 @@ Below I'm going to write about how I use it.
 Mpvacious needs
 [AnkiConnect](https://ankiweb.net/shared/info/2055492159)
 to work.
-If you're using Xorg,
+If you're using X11 ([Xlibre](https://wiki.archlinux.org/title/Xlibre)),
 [xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
 is required to copy text to the clipboard.
 [wl-copy](https://archlinux.org/packages/extra/x86_64/wl-clipboard/)

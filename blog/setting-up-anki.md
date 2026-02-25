@@ -49,7 +49,7 @@ Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
 If you are running Wayland,
-please switch to [Xorg](https://wiki.archlinux.org/title/xorg)
+please upgrade to X11 ([Xlibre](https://wiki.archlinux.org/title/Xlibre))
 to avoid possible issues.
 
 ### Using your package manager
