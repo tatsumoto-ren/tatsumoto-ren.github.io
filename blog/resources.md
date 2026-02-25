@@ -68,8 +68,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [Ankidrone Essentials](ankidrone-essentials.html).
   This is our main deck.
   Other decks are third-party.
-* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc),
-  [Core 6k/10k vocabulary reference](https://core6000.neocities.org/).
+* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
 * Other [sentence banks](#sentence-banks).
@@ -87,8 +86,6 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
   and covers all the basics without going into too much detail.
 * [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
   An online DoJG reference.
-* [Dictionary of Japanese Grammar Reference](https://core6000.neocities.org/dojg/).
-  Another online DoJG reference.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
   An Anki deck that contains example sentences from DoJG.
 * [Sakubi](https://sakubi.neocities.org/).
@@ -265,12 +262,12 @@ as desktop shortcuts.
   Lets you watch a live stream with news,
   but you have to allow to run an obscene amount of nonfree JavaScript code.
   To avoid running nonfree JS,
-  [watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
+  [watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_news24.desktop)
   by creating a desktop shortcut.
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
   Similarly to News24, lists a number of channels you can watch online.
   Unfortunately, not all of them can be opened in mpv.
-* [Tokyo MX](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tokyomx.desktop).
+* [Tokyo MX](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_tokyomx.desktop).
   Tokyo MX desktop shortcut.
 * [テレビ朝日](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_asahi.desktop).
   TV Asahi desktop shortcut.
@@ -422,8 +419,6 @@ Browsing will lead you to more tags.
   An Internet library of classic Japanese literature.
 * [Aozora Bunko archive](https://archive.org/details/aozorabunko).
   Books from Aozora Bunko in `epub`, `pdf` and other formats.
-* [Aozora Bunko stats](https://core6000.neocities.org/aozora/).
-  Books sorted by the number of kanji used.
 * [DL-Zip.net](https://dl-zip.net/).
   Download manga, light novels, magazines and books for free.
 * [Itazuraneko 小説図書館](https://yonde.itazuraneko.org/).
@@ -502,8 +497,6 @@ You may need a Japanese IP address for some of these.
 * [kitsunekko mirror](https://github.com/Ajatt-Tools/kitsunekko-mirror).
   You can clone this repository to have all subtitles from kitsunekko saved locally.
   More details [here](mining-from-movies-and-tv-shows.html#obtain-subtitles).
-* [anime-transcription](https://github.com/ookiineko/anime-transcription).
-  A GitHub repository where you can transcribe anime, share and download transcriptions.
 * [Xavier's Retimed JP Sub Pack](https://nyaa.iss.ink/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [Jimaku Archive 12/01/2025](https://nyaa.si/view/1920638).
   Archive of anime and drama subtitles.
@@ -890,11 +883,11 @@ audiobooks, podcasts or audio extracted from movies and TV shows.
 
 All available players are [listed on F-Droid catalog](https://search.f-droid.org/?q=music+player&lang=en).
 
-* [Music Player GO](https://f-droid.org/en/packages/com.iven.musicplayergo/)
 * [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 * [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
   A podcast player for Android.
+* [Metro - A music player for Android ](https://f-droid.org/en/packages/io.github.muntashirakon.Music/)
 
 ## Dictionaries
 
