@@ -81,6 +81,10 @@ During the [monolingual transition](going-monolingual.html),
 having as many dictionaries enabled as possible will help you
 find a definition that is easier to understand.
 
+If you haven't started using monolingual dictionaries yet,
+enable dictionaries that include `和英` in their name.
+For example, 斎藤和英大辞典.
+
 ## Hunspell dictionaries
 
 Hunspell is a popular spell checker used by many applications, including GoldenDict-NG.
