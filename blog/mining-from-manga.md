@@ -4,44 +4,43 @@ date: 1617260890
 tags: [guide]
 ---
 
-When we read manga,
-sometimes there's a need to quickly
-[OCR](https://wikipedia.org/wiki/Optical_character_recognition?lang=en)
-a portion of the screen
-to look up new words and add sentences to Anki.
-To do so, you're going to use an optical character recognition program and a few helper tools.
+When reading manga in Japanese,
+you sometimes need to quickly perform
+[OCR](https://wikipedia.org/wiki/Optical_character_recognition?lang=en) on part of the screen
+to look up new words and add sentences to [Anki](setting-up-anki.html).
+You can use an OCR program
+plus a few helper tools to do this.
 
 ****
 
 ## Preface
 
-Our goal is to be able to look up words in manga.
-We need a toolchain that does the following:
+Our goal is to look up words in manga.
 
-1) Takes a screenshot,
-   selecting the part of the screen
-   that contains a speech bubble with Japanese text.
-2) Processes the taken screenshot.
-3) Returns the recognized text.
-4) Sends the text to a dictionary program.
+Expected workflow:
+
+1) Capture a screenshot of the speech bubble containing Japanese text.
+2) Process the screenshot.
+3) Return the recognized text.
+3) Send the text to a dictionary program.
    For example, [GoldenDict](setting-up-goldendict.html)
    or [Rikaitan Search](what-is-yomichan-search.html).
-5) We can look up words and make Anki flashcards.
+3) You can look up words and create Anki flashcards.
 
-To recognize text on the pages of a manga,
-you can use *Tesseract* or *Transformers*.
-Tesseract is a more lightweight tool but makes more mistakes on average.
-With Transformers, you have to install a big number of
+To recognize text in manga,
+you can use *Tesseract* or *Lancet*.
+Tesseract is lighter but usually less accurate.
+Lancet requires installing many
 [Python](https://docs.python.org/3/faq/general.html#what-is-python)
-packages that take up several gibibytes of disk space,
-but you get much better text recognition.
+packages that take several GiB of disk space,
+but it provides much better recognition.
 
-In this article I explain how to set up both.
-The resulting user workflow is identical, see the demo below.
+This article explains how to set up both.
+The user workflow is the same for each (see the demo below).
 
 <video width="1920" autoplay loop controls>
 	<source src="vid/mining_from_manga.mp4" type="video/mp4">
-	<source src="https://user-images.githubusercontent.com/69171671/177458117-ba858b79-0b2e-4605-9985-5801d9685bd6.mp4" type="video/mp4">
+	<source src="https://github.com/user-attachments/assets/8859adac-1bd8-435a-9c81-945f875dc205" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/mining_from_manga.mp4" type="video/mp4">
 	<source src="https://ajatt.top/blog/vid/mining_from_manga.mp4" type="video/mp4">
 </video>
@@ -49,43 +48,52 @@ The resulting user workflow is identical, see the demo below.
 
 ## Obtain manga
 
-See [Resources](resources.html#manga) for places where you can get manga.
-For the best image quality, I recommend downloading manga from Torrent sites.
-However, if you don't want to wait for the download,
+See [Resources](resources.html#manga) for places to get manga.
+For the best image quality,
+I recommend downloading manga from Torrent sites.
+If you don't want to wait,
 you can also read manga online on various websites.
-No matter which option you choose, it's easy to find a great selection of manga to read.
+Either way, it's easy to find a great selection of manga to read.
 
 ## Image viewer
 
 To read manga,
-it is nice to have an [image viewer](resources.html#image-viewers).
+it's helpful to have an [image viewer](resources.html#image-viewers).
 I use `nsxiv`,
-but for this setup you can install any image viewer.
-On many manga sites you can also read online in a web browser.
+but any image viewer will work for this setup.
+Many manga sites also let you read in a web browser.
 
-To open an entire image folder in `nsxiv`, you can run `nsxiv .` in the folder.
+To open a folder of images in nsxiv, run:
+
+```
+nsxiv .
+```
 
 ## File manager
 
-Another quick topic to cover up front is your file manager.
-Very often when you download manga, you get an archive
-which needs to be unpacked (`*.zip`, `*.rar`, etc.).
-For convenience, set up a keyboard shortcut to be able to extract archives in a simple keystroke.
+Another quick topic up front is your file manager.
+Manga often comes as an archive (`*.zip`, `*.rar`, etc.) which has to be unpacked,
+so it's convenient to bind a key to extract archives with a single keystroke.
+
 
 For example, my file manager is [lf](https://wiki.archlinux.org/title/Lf).
 To extract archives by pressing <kbd>E</kbd>,
-put `map E aunpack $fx` in the config file at `~/.config/lf/lfrc`
-([atool](https://archlinux.org/packages/community/any/atool/) needs to be installed as well).
+add this to the config file at `~/.config/lf/lfrc`
+([atool](https://archlinux.org/packages/?q=atool) must be installed as well).
+
+```
+map E aunpack $fx
+```
 
 `lf` supports **tags**.
 When you finish a reading session,
-tag the last page (image file) you've read by pressing <kbd>t</kbd>
-so that you don't lose the position you're at.
-Next time you open the same folder,
+tag the last page (image file) you read by pressing <kbd>t</kbd>
+so you don't lose your position.
+The next time you open the folder,
 you will see a red asterisk next to the tagged file.
 
-To have `lf` automatically select the image currently displayed in `nsxiv`,
-add the following code to `~/.config/nsxiv/exec/image-info`.
+To have `lf` automatically select the image currently shown in `nsxiv`,
+add this to `~/.config/nsxiv/exec/image-info`.
 The snippet is [taken from my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info).
 
 ```
@@ -95,8 +103,8 @@ if [ -n "$id" ]; then
 fi
 ```
 
-It is possible to set up a keyboard shortcut in `nsxiv`
-that tells `lf` to add a tag to the currently displayed image.
+You can also set a keyboard shortcut in `nsxiv`
+that tells `lf` to tag the currently displayed image.
 For example,
 to tag the current file by pressing <kbd>t</kbd>,
 add the following code to `~/.config/nsxiv/exec/key-handler`.
@@ -121,97 +129,57 @@ done
 
 ## OCR method
 
-Although Transformers requires more system resources,
+Although Lancet requires more system resources,
 I prefer it to Tesseract.
-Compared to Tesseract it handles manga better.
+It handles manga much better than Tesseract.
 
-* [Transformers](#setting-up-transformers)
+* [Lancet](#setting-up-lancet)
 * [Tesseract](#setting-up-tesseract)
 
-## Setting up Transformers
+## Setting up Lancet
 
-Install [transformers_ocr](https://aur.archlinux.org/packages/transformers_ocr)
-from the [AUR](https://wiki.archlinux.org/title/Arch_User_Repository).
-
-```
-$ trizen -S transformers_ocr
-```
-
-`transformers_ocr` makes use of the following programs:
-
-* [maim](https://github.com/naelstrof/maim) to take screenshots.
-* [xclip](https://github.com/astrand/xclip) to copy text to the clipboard.
-
-If you're not running a distribution based on Arch Linux,
-install manually by following the
-[instructions on GitHub](https://github.com/Ajatt-Tools/transformers_ocr).
-
-By itself `transformers_ocr` is just a short wrapper script
-that installs Transformers and other required Python packages.
-After the installation you need to download additional dependencies.
-Run the following command.
+Install [lancet](https://github.com/Ajatt-Tools/lancet)
+from the [pypi](https://pypi.org/project/ajt-lancet/).
 
 ```
-$ transformers_ocr download
+pipx install ajt-lancet
 ```
 
-It will download [manga-ocr](https://pypi.org/project/manga-ocr/),
-a Python library responsible for optical character recognition.
-The files will be saved to `~/.local/share/manga_ocr`
-and take up `2 GiB` of disk space.
+**Note**: `pipx` installs Python packages in an **isolated location** (`~/.local/share/pipx`)
+so you can later remove them with `pipx uninstall <package-name>`.
 
-**Note**: `transformers_ocr` saves the Python packages to a standalone directory
-to ensure that later you can uninstall everything by simply removing the directory.
+The first run will take longer than usual.
+On first start Lancet downloads OCR model files (~500 MiB) to `~/.cache/huggingface`.
 
 ### Usage
 
-To OCR text on a manga page, run:
+Press the OCR shortcut (default <kbd>Alt</kbd>+<kbd>O</kbd>)
+to show the snipping window, then drag and hold the mouse to perform OCR.
+Lancet will ask you to select an area with Japanese text and will attempt to recognize it.
+The result is sent to GoldenDict or copied to the system clipboard.
 
-```
-$ transformers_ocr recognize
-```
+You can combine Lancet with [Rikaitan Search](what-is-yomichan-search.html)
+for quick lookups in real-time.
 
-When run,
-it will ask you to select an area with Japanese text and try to OCR it.
-The resulting text will be saved to the system clipboard.
-Use it in combination with [Rikaitan Search](what-is-yomichan-search.html)
-to quickly lookup Japanese words in real-time.
-
-The first run will take longer than usual.
-There's yet another set of files that have to be downloaded for the OCR to work.
-The files will be saved to `~/.cache/huggingface` and take up another `500 MiB`.
-
-To send the recognized text directly to [GoldenDict](setting-up-goldendict.html)
-without copying it to the system clipboard,
-[append](https://github.com/Ajatt-Tools/transformers_ocr#send-text-to-an-external-application)
-`clip_command=goldendict %TEXT%` to the config file.
-The config file is read from `~/.config/transformers_ocr/config`.
-
-### Keyboard shortcut
-
-Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for [i3wm](https://i3wm.org/):
-
-```
-bindsym $mod+o exec --no-startup-id transformers_ocr recognize
-```
+To send recognized text directly to [GoldenDict](setting-up-goldendict.html)
+instead of the clipboard,
+set "Copy to" to "goldendict" in Preferences.
 
 ### Autostart
 
-Before `transformers_ocr` can recognize text,
-it needs to start a background listener.
-Although this is optional,
-to minimize the startup lag,
-add the following command to autostart.
+Before Lancet can recognize text,
+it must be running in the background.
+This is optional,
+but to minimize startup lag add the following command to your autostart.
 
 ```
-transformers_ocr listen
+lancet
 ```
 
 Here's an example for [i3wm](https://i3wm.org/):
 
 ```
-exec --no-startup-id transformers_ocr listen
+exec --no-startup-id lancet
 ```
 
 ## Setting up Tesseract

@@ -70,81 +70,83 @@
 <h1 class="title"><a class="ablack" href="mining-from-manga.html">Mining from manga</a></h1>
 <div class="subtitle">April 01, 2021 &mdash; Tatsumoto Ren</div>
 <!-- text begin -->
-<p>When we read manga,
-sometimes there's a need to quickly
-<a href="https://wikipedia.org/wiki/Optical_character_recognition?lang=en">OCR</a>
-a portion of the screen
-to look up new words and add sentences to Anki.
-To do so, you're going to use an optical character recognition program and a few helper tools.</p>
+<p>When reading manga in Japanese,
+you sometimes need to quickly perform
+<a href="https://wikipedia.org/wiki/Optical_character_recognition?lang=en">OCR</a> on part of the screen
+to look up new words and add sentences to <a href="setting-up-anki.html">Anki</a>.
+You can use an OCR program
+plus a few helper tools to do this.</p>
 <hr>
 <h2 id="preface"><a class="anchor" href="#preface" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preface</h2>
-<p>Our goal is to be able to look up words in manga.
-We need a toolchain that does the following:</p>
+<p>Our goal is to look up words in manga.</p>
+<p>Expected workflow:</p>
 <ol>
-<li>Takes a screenshot,
-selecting the part of the screen
-that contains a speech bubble with Japanese text.</li>
-<li>Processes the taken screenshot.</li>
-<li>Returns the recognized text.</li>
-<li>Sends the text to a dictionary program.
+<li>Capture a screenshot of the speech bubble containing Japanese text.</li>
+<li>Process the screenshot.</li>
+<li>Return the recognized text.</li>
+<li>Send the text to a dictionary program.
 For example, <a href="setting-up-goldendict.html">GoldenDict</a>
 or <a href="what-is-yomichan-search.html">Rikaitan Search</a>.</li>
-<li>We can look up words and make Anki flashcards.</li>
+<li>You can look up words and create Anki flashcards.</li>
 </ol>
-<p>To recognize text on the pages of a manga,
-you can use <em>Tesseract</em> or <em>Transformers</em>.
-Tesseract is a more lightweight tool but makes more mistakes on average.
-With Transformers, you have to install a big number of
+<p>To recognize text in manga,
+you can use <em>Tesseract</em> or <em>Lancet</em>.
+Tesseract is lighter but usually less accurate.
+Lancet requires installing many
 <a href="https://docs.python.org/3/faq/general.html#what-is-python">Python</a>
-packages that take up several gibibytes of disk space,
-but you get much better text recognition.</p>
-<p>In this article I explain how to set up both.
-The resulting user workflow is identical, see the demo below.</p>
+packages that take several GiB of disk space,
+but it provides much better recognition.</p>
+<p>This article explains how to set up both.
+The user workflow is the same for each (see the demo below).</p>
 <video width="1920" autoplay loop controls>
     <source src="vid/mining_from_manga.mp4" type="video/mp4">
-    <source src="https://user-images.githubusercontent.com/69171671/177458117-ba858b79-0b2e-4605-9985-5801d9685bd6.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/8859adac-1bd8-435a-9c81-945f875dc205" type="video/mp4">
     <source src="https://tatsumoto-ren.github.io/blog/vid/mining_from_manga.mp4" type="video/mp4">
     <source src="https://ajatt.top/blog/vid/mining_from_manga.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 <h2 id="obtain-manga"><a class="anchor" href="#obtain-manga" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain manga</h2>
-<p>See <a href="resources.html#manga">Resources</a> for places where you can get manga.
-For the best image quality, I recommend downloading manga from Torrent sites.
-However, if you don't want to wait for the download,
+<p>See <a href="resources.html#manga">Resources</a> for places to get manga.
+For the best image quality,
+I recommend downloading manga from Torrent sites.
+If you don't want to wait,
 you can also read manga online on various websites.
-No matter which option you choose, it's easy to find a great selection of manga to read.</p>
+Either way, it's easy to find a great selection of manga to read.</p>
 <h2 id="image-viewer"><a class="anchor" href="#image-viewer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image viewer</h2>
 <p>To read manga,
-it is nice to have an <a href="resources.html#image-viewers">image viewer</a>.
+it's helpful to have an <a href="resources.html#image-viewers">image viewer</a>.
 I use <code>nsxiv</code>,
-but for this setup you can install any image viewer.
-On many manga sites you can also read online in a web browser.</p>
-<p>To open an entire image folder in <code>nsxiv</code>, you can run <code>nsxiv .</code> in the folder.</p>
+but any image viewer will work for this setup.
+Many manga sites also let you read in a web browser.</p>
+<p>To open a folder of images in nsxiv, run:</p>
+<div class="pre-wrap"><pre><code>nsxiv .
+</code></pre></div>
 <h2 id="file-manager"><a class="anchor" href="#file-manager" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>File manager</h2>
-<p>Another quick topic to cover up front is your file manager.
-Very often when you download manga, you get an archive
-which needs to be unpacked (<code>*.zip</code>, <code>*.rar</code>, etc.).
-For convenience, set up a keyboard shortcut to be able to extract archives in a simple keystroke.</p>
+<p>Another quick topic up front is your file manager.
+Manga often comes as an archive (<code>*.zip</code>, <code>*.rar</code>, etc.) which has to be unpacked,
+so it's convenient to bind a key to extract archives with a single keystroke.</p>
 <p>For example, my file manager is <a href="https://wiki.archlinux.org/title/Lf">lf</a>.
 To extract archives by pressing <kbd>E</kbd>,
-put <code>map E aunpack $fx</code> in the config file at <code>~/.config/lf/lfrc</code>
-(<a href="https://archlinux.org/packages/community/any/atool/">atool</a> needs to be installed as well).</p>
+add this to the config file at <code>~/.config/lf/lfrc</code>
+(<a href="https://archlinux.org/packages/?q=atool">atool</a> must be installed as well).</p>
+<div class="pre-wrap"><pre><code>map E aunpack $fx
+</code></pre></div>
 <p><code>lf</code> supports <strong>tags</strong>.
 When you finish a reading session,
-tag the last page (image file) you've read by pressing <kbd>t</kbd>
-so that you don't lose the position you're at.
-Next time you open the same folder,
+tag the last page (image file) you read by pressing <kbd>t</kbd>
+so you don't lose your position.
+The next time you open the folder,
 you will see a red asterisk next to the tagged file.</p>
-<p>To have <code>lf</code> automatically select the image currently displayed in <code>nsxiv</code>,
-add the following code to <code>~/.config/nsxiv/exec/image-info</code>.
+<p>To have <code>lf</code> automatically select the image currently shown in <code>nsxiv</code>,
+add this to <code>~/.config/nsxiv/exec/image-info</code>.
 The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info">taken from my dotfiles</a>.</p>
 <div class="pre-wrap"><pre><code># If running as a child of lf, select the current file.
 if [ -n &quot;$id&quot; ]; then
     lf -remote &quot;send $id select \&quot;$1\&quot;&quot;
 fi
 </code></pre></div>
-<p>It is possible to set up a keyboard shortcut in <code>nsxiv</code>
-that tells <code>lf</code> to add a tag to the currently displayed image.
+<p>You can also set a keyboard shortcut in <code>nsxiv</code>
+that tells <code>lf</code> to tag the currently displayed image.
 For example,
 to tag the current file by pressing <kbd>t</kbd>,
 add the following code to <code>~/.config/nsxiv/exec/key-handler</code>.
@@ -165,70 +167,41 @@ The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.con
 done
 </code></pre></div>
 <h2 id="ocr-method"><a class="anchor" href="#ocr-method" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OCR method</h2>
-<p>Although Transformers requires more system resources,
+<p>Although Lancet requires more system resources,
 I prefer it to Tesseract.
-Compared to Tesseract it handles manga better.</p>
+It handles manga much better than Tesseract.</p>
 <ul>
-<li><a href="#setting-up-transformers">Transformers</a></li>
+<li><a href="#setting-up-lancet">Lancet</a></li>
 <li><a href="#setting-up-tesseract">Tesseract</a></li>
 </ul>
-<h2 id="setting-up-transformers"><a class="anchor" href="#setting-up-transformers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Transformers</h2>
-<p>Install <a href="https://aur.archlinux.org/packages/transformers_ocr">transformers_ocr</a>
-from the <a href="https://wiki.archlinux.org/title/Arch_User_Repository">AUR</a>.</p>
-<div class="pre-wrap"><pre><code>$ trizen -S transformers_ocr
+<h2 id="setting-up-lancet"><a class="anchor" href="#setting-up-lancet" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Lancet</h2>
+<p>Install <a href="https://github.com/Ajatt-Tools/lancet">lancet</a>
+from the <a href="https://pypi.org/project/ajt-lancet/">pypi</a>.</p>
+<div class="pre-wrap"><pre><code>pipx install ajt-lancet
 </code></pre></div>
-<p><code>transformers_ocr</code> makes use of the following programs:</p>
-<ul>
-<li><a href="https://github.com/naelstrof/maim">maim</a> to take screenshots.</li>
-<li><a href="https://github.com/astrand/xclip">xclip</a> to copy text to the clipboard.</li>
-</ul>
-<p>If you're not running a distribution based on Arch Linux,
-install manually by following the
-<a href="https://github.com/Ajatt-Tools/transformers_ocr">instructions on GitHub</a>.</p>
-<p>By itself <code>transformers_ocr</code> is just a short wrapper script
-that installs Transformers and other required Python packages.
-After the installation you need to download additional dependencies.
-Run the following command.</p>
-<div class="pre-wrap"><pre><code>$ transformers_ocr download
-</code></pre></div>
-<p>It will download <a href="https://pypi.org/project/manga-ocr/">manga-ocr</a>,
-a Python library responsible for optical character recognition.
-The files will be saved to <code>~/.local/share/manga_ocr</code>
-and take up <code>2 GiB</code> of disk space.</p>
-<p><span class="article-note">Note</span>: <code>transformers_ocr</code> saves the Python packages to a standalone directory
-to ensure that later you can uninstall everything by simply removing the directory.</p>
-<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
-<p>To OCR text on a manga page, run:</p>
-<div class="pre-wrap"><pre><code>$ transformers_ocr recognize
-</code></pre></div>
-<p>When run,
-it will ask you to select an area with Japanese text and try to OCR it.
-The resulting text will be saved to the system clipboard.
-Use it in combination with <a href="what-is-yomichan-search.html">Rikaitan Search</a>
-to quickly lookup Japanese words in real-time.</p>
+<p><span class="article-note">Note</span>: <code>pipx</code> installs Python packages in an <strong>isolated location</strong> (<code>~/.local/share/pipx</code>)
+so you can later remove them with <code>pipx uninstall &lt;package-name&gt;</code>.</p>
 <p>The first run will take longer than usual.
-There's yet another set of files that have to be downloaded for the OCR to work.
-The files will be saved to <code>~/.cache/huggingface</code> and take up another <code>500 MiB</code>.</p>
-<p>To send the recognized text directly to <a href="setting-up-goldendict.html">GoldenDict</a>
-without copying it to the system clipboard,
-<a href="https://github.com/Ajatt-Tools/transformers_ocr#send-text-to-an-external-application">append</a>
-<code>clip_command=goldendict %TEXT%</code> to the config file.
-The config file is read from <code>~/.config/transformers_ocr/config</code>.</p>
-<h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
-<p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
-<div class="pre-wrap"><pre><code>bindsym $mod+o exec --no-startup-id transformers_ocr recognize
-</code></pre></div>
+On first start Lancet downloads OCR model files (~500 MiB) to <code>~/.cache/huggingface</code>.</p>
+<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<p>Press the OCR shortcut (default <kbd>Alt</kbd>+<kbd>O</kbd>)
+to show the snipping window, then drag and hold the mouse to perform OCR.
+Lancet will ask you to select an area with Japanese text and will attempt to recognize it.
+The result is sent to GoldenDict or copied to the system clipboard.</p>
+<p>You can combine Lancet with <a href="what-is-yomichan-search.html">Rikaitan Search</a>
+for quick lookups in real-time.</p>
+<p>To send recognized text directly to <a href="setting-up-goldendict.html">GoldenDict</a>
+instead of the clipboard,
+set &quot;Copy to&quot; to &quot;goldendict&quot; in Preferences.</p>
 <h3 id="autostart"><a class="anchor" href="#autostart" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Autostart</h3>
-<p>Before <code>transformers_ocr</code> can recognize text,
-it needs to start a background listener.
-Although this is optional,
-to minimize the startup lag,
-add the following command to autostart.</p>
-<div class="pre-wrap"><pre><code>transformers_ocr listen
+<p>Before Lancet can recognize text,
+it must be running in the background.
+This is optional,
+but to minimize startup lag add the following command to your autostart.</p>
+<div class="pre-wrap"><pre><code>lancet
 </code></pre></div>
 <p>Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
-<div class="pre-wrap"><pre><code>exec --no-startup-id transformers_ocr listen
+<div class="pre-wrap"><pre><code>exec --no-startup-id lancet
 </code></pre></div>
 <h2 id="setting-up-tesseract"><a class="anchor" href="#setting-up-tesseract" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Tesseract</h2>
 <p>Install the following dependencies:</p>
@@ -267,7 +240,7 @@ Check the terminal output to see if the process succeeds.</p>
 The resulting text will be saved to the system clipboard.
 Use it in combination with <a href="what-is-yomichan-search.html">Rikaitan Search</a>
 to quickly lookup Japanese words in real-time.</p>
-<h3 id="keyboard-shortcut-1"><a class="anchor" href="#keyboard-shortcut-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
+<h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
 <p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
 Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
 <div class="pre-wrap"><pre><code>bindsym $mod+o exec --no-startup-id maimocr
