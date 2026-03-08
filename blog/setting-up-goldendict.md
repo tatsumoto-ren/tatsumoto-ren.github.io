@@ -215,14 +215,13 @@ instead of copying text to the system clipboard.
 A video demonstration is available
 [here](https://github.com/Ajatt-Tools/mpvacious/blob/master/howto/goldendict.md).
 
-## Transformers OCR setup
+## Lancet OCR setup
 
-> More information on Transformers OCR is provided on subsequent pages.
+> [More information](mining-from-manga.html) on Lancet is available on subsequent pages.
 
-[Transformers OCR](https://github.com/Ajatt-Tools/transformers_ocr)
-can pass recognized text directly to GoldenDict-NG
-instead of copying text to the system clipboard.
-To pair them up, append `clip_command=goldendict %TEXT%` to the config file.
+[lancet](https://github.com/Ajatt-Tools/lancet)
+can send recognized text directly to GoldenDict‑NG instead of copying it to the system clipboard.
+To enable this, set "Copy to" to "goldendict" in Lancet's preferences.
 
 ## Tips
 
