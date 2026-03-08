@@ -472,10 +472,17 @@ Proprietary software should not exist and should not be used if you want to have
 
 ### Japanese boards
 
-* [Watkins 2channel](https://www2.5ch.net/5ch.html)
-* [Nishimura 2channel](https://www.2ch.sc/2ch.html)
-* [Futaba channel](https://www.2chan.net)
 * [librejp](https://sportschan.org/librejp/) ([Tor](http://ylcjjrqko7pgobnvzreemm565ea3oj3c7rfqqb4x4twmay6hafv54mid.onion/librejp/index.html))
+* [Watkins 2channel](https://5ch.io/)
+* [おーぷん2ch](https://hayabusa.open2ch.net/livejupiter/)
+* [Nishimura 2channel / 2ch.sc](https://2ch.sc/)
+* [Talk.jp](https://talk.jp/)
+* [嫌儲.org](https://kenmo.org/)
+* [エッヂ](https://bbs.eddibb.cc/liveedge/)
+* [Futaba channel / ふたばちゃんねる](https://may.2chan.net/b/futaba.htm)
+* [ぷにぷに](https://bbs.punipuni.eu/vaporeon/current.php)
+* [したらば](https://rentalbbs.shitaraba.com/)
+* [あにまん](https://animanch.com/)
 
 You may need a Japanese IP address for some of these.
 
