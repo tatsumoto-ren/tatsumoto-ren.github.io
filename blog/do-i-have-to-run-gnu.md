@@ -39,7 +39,7 @@ You can find everything you need in the repositories of your GNU distribution.
 All programs are free and respect the users' freedom.
 There's also more software for Japanese available on GNU.
 Some tools like [impd](passive-listening.html#impd),
-[transformers_ocr](mining-from-manga.html#setting-up-transformers),
+[lancet](mining-from-manga.html#setting-up-lancet),
 and [gd-tools](setting-up-goldendict.html#gd-tools),
 which are covered in our Japanese guide,
 only work on GNU.
