@@ -276,6 +276,11 @@ Review those cards.
 <p align="center"><img alt="filtered deck" class="shadow" src="img/anki-backlog.webp"></p>
 <p align="center"><i>Deck settings.</i></p>
 
+The initial size is the number of cards in the backlog, but 9999 will pull all of them in.
+When you decrease the filtered deck's size, decrease it by the number of cards you plan to review.
+For example, 10 cards at a time.
+You can shrink the deck multiple times a day.
+
 Take a look at the "cards selected by" setting.
 It presents a number of options you can choose from to fight the backlog the way suits you.
 If you want to review cards that you're most likely to still remember,
