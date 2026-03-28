@@ -240,9 +240,11 @@ as desktop shortcuts.
   A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
   Watch raw anime online.
-* [Aniwatch](https://aniwatch.to/).
+* [Aniwatchtv.to](https://aniwatchtv.to/),
+  [Aniwatch](https://aniwatch.to/).
   Another anime streaming site.
   You can switch between audio and subtitle tracks in multiple languages.
+* [Anime Nexus](https://anime.nexus/).
 * [Animerulz](https://animerulz.pro).
   An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil.
 * [AQStream](https://aqstream.com/).
