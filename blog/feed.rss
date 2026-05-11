@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>All Japanese All The Time - AJATT</title>
-<link>https://tatsumoto-ren.github.io/blog/index.html</link>
+<link>https://ajatt.top/blog/index.html</link>
 <description>Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Sun, 29 Mar 2026 01:32:13 +0300</lastBuildDate>
-<pubDate>Sun, 29 Mar 2026 01:32:13 +0300</pubDate>
-<atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<lastBuildDate>Tue, 12 May 2026 00:58:44 +0300</lastBuildDate>
+<pubDate>Tue, 12 May 2026 00:58:44 +0300</pubDate>
+<atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
 <item>
 <title>Ankidrone decks: Audio issues on iOS</title>
 <author>Tatsumoto Ren</author>
@@ -22,8 +22,8 @@ Anki Mobile, or does it only work on the computer? Any guidance or solution
 would be greatly appreciated.</p>
 </blockquote>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/ankidrone-decks-audio-issues-on-ios.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/ankidrone-decks-audio-issues-on-ios.html</guid>
+<link>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</link>
+<guid>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sun, 07 Dec 2025 21:22:47 +0300</pubDate>
 </item>
@@ -61,8 +61,8 @@ So if your goal is to help other AJATTers obtain free replacements for those Jap
 you might choose to run them for the purpose of reverse-engineering or creating alternatives.
 Running proprietary software solely for immersion is a bad idea.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/proprietary-games-and-ajatt.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/proprietary-games-and-ajatt.html</guid>
+<link>https://ajatt.top/blog/proprietary-games-and-ajatt.html</link>
+<guid>https://ajatt.top/blog/proprietary-games-and-ajatt.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 17 Nov 2025 04:14:50 +0300</pubDate>
 </item>
@@ -72,8 +72,8 @@ Running proprietary software solely for immersion is a bad idea.</p>
 <description><![CDATA[<p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
 Here you'll find everything you need to know about learning foreign languages.</p>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/about-this-site.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/about-this-site.html</guid>
+<link>https://ajatt.top/blog/about-this-site.html</link>
+<guid>https://ajatt.top/blog/about-this-site.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Thu, 30 Oct 2025 18:53:39 +0300</pubDate>
 </item>
@@ -93,8 +93,8 @@ People also change how they speak as they age.
 A 75-year-old man doesn't sound the same as a 15-year-old girl.
 This is true for many other languages as well.</p>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</guid>
+<link>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</link>
+<guid>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Mon, 27 Oct 2025 12:31:36 +0300</pubDate>
 </item>
@@ -130,8 +130,8 @@ many of these resources require you to create an account
 and come with questionable money-grab schemes.
 If you find an anime that looks fun, it's probably the best one for you personally.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/whats-actually-the-best-way-to-find-easy-anime.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/whats-actually-the-best-way-to-find-easy-anime.html</guid>
+<link>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</link>
+<guid>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sun, 25 May 2025 18:22:10 +0300</pubDate>
 </item>
@@ -161,8 +161,8 @@ and if you forget how to write a word,
 the program will show you the corresponding flashcard more often.</p>
 <p>For learning handwriting, see <a href="writing-japanese.html#writing-kanji">Writing TSCs</a>.</p>
 <p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/should-i-write-each-word-many-times.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/should-i-write-each-word-many-times.html</guid>
+<link>https://ajatt.top/blog/should-i-write-each-word-many-times.html</link>
+<guid>https://ajatt.top/blog/should-i-write-each-word-many-times.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Wed, 30 Apr 2025 03:07:10 +0300</pubDate>
 </item>
@@ -178,8 +178,8 @@ It feels much harder than simply memorizing the translation.
 However, this method seems to strengthens my memory.</p>
 </blockquote>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-worth-making-production-cards.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-worth-making-production-cards.html</guid>
+<link>https://ajatt.top/blog/is-it-worth-making-production-cards.html</link>
+<guid>https://ajatt.top/blog/is-it-worth-making-production-cards.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sun, 02 Mar 2025 04:48:15 +0300</pubDate>
 </item>
@@ -195,8 +195,8 @@ By surrounding yourself with content in the target language (TL),
 you begin to internalize vocabulary and grammar intuitively,
 even if you don't notice it.</p>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
+<link>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
+<guid>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sat, 18 Jan 2025 05:06:48 +0300</pubDate>
 </item>
@@ -213,8 +213,8 @@ hoping that teachers will magically transfer
 during short daily lessons,
 you might want to rethink your strategy.</p>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/classes.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/classes.html</guid>
+<link>https://ajatt.top/blog/classes.html</link>
+<guid>https://ajatt.top/blog/classes.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Wed, 08 Jan 2025 21:17:08 +0300</pubDate>
 </item>
@@ -227,8 +227,8 @@ and now the moment has finally arrived.
 I've decided to discontinue our Matrix community
 in favor of a different platform.</p>
 <hr>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/i-stopped-using-matrix.html</guid>
+<link>https://ajatt.top/blog/i-stopped-using-matrix.html</link>
+<guid>https://ajatt.top/blog/i-stopped-using-matrix.html</guid>
 <dc:creator>Tatsumoto Ren</dc:creator>
 <pubDate>Sat, 30 Nov 2024 20:02:51 +0300</pubDate>
 </item>
