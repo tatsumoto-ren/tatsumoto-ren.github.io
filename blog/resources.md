@@ -1010,7 +1010,6 @@ Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.
   Anki deck made from Steins;Gate.
   Has lots of voiced example sentences.
   [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
-* [Jalup](https://mega.nz/file/7gkTkAgJ#5pW56dRQsFkkFHhvxRnHjkGgpcVYDnW6BX36AxeWe_U).
 * If you have [Rikaitan](setting-up-yomichan.html) installed,
   you can mine from [online sentence banks](#examples-and-pronunciations).
 * You can also try [AnkiWeb](https://ankiweb.net/shared/decks?search=anime),
