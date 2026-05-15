@@ -2,11 +2,14 @@
 {% if links %}
 <ol>
 {% for item in links %}
-    {% if item is iterable and item is not string and item is not mapping %}
-        {# Nested lists are emitted inside the <li> below. #}
-        <li>{{ render_sidebar_links(item) }}</li>
-    {% else %}
-        <li><a href="{{ item.href }}" onclick="close_sidebar()">{{ item.name }}</a></li>
+    {% if item is not iterable and item is not string and item is not mapping %}
+    <li>
+        <a href="{{ item.href }}" onclick="close_sidebar()">{{ item.name }}</a>
+        {% set next = loop.nextitem %}
+        {% if next is defined and next is iterable and next is not string and next is not mapping %}
+            {{ render_sidebar_links(next) }}
+        {% endif %}
+    </li>
     {% endif %}
 {% endfor %}
 </ol>
