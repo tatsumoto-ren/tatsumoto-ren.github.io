@@ -3,7 +3,8 @@
 <ol>
 {% for item in links %}
     {% if item is iterable and item is not string and item is not mapping %}
-        {{ render_sidebar_links(item) }}
+        {# Nested lists are emitted inside the <li> below. #}
+        <li>{{ render_sidebar_links(item) }}</li>
     {% else %}
         <li><a href="{{ item.href }}" onclick="close_sidebar()">{{ item.name }}</a></li>
     {% endif %}

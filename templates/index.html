@@ -71,13 +71,13 @@
     <div class="row txt-img-pair mirror-columns polka-dot-bg">
         <div class="text">
             <h2>Recent articles</h2>
-            <!-- Bashblog recent start -->
+            <!-- Recent posts begin -->
             <ol class="bb-recent-posts">
                 {% for post in ctx.all_posts[:cfg.site.num_recent_posts] %}
                 <li><span class="bb-timestamp">{{ post.metadata.date.strftime('%B %d, %Y') }}</span><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a></li>
                 {% endfor %}
             </ol>
-            <!-- Bashblog recent end -->
+            <!-- Recent posts end -->
         </div>
         <div class="image drop-shadow circle-shadow">
             <img src="img/oomuro.webp" alt="book">
@@ -135,10 +135,10 @@
 
 <footer>
     <b>Site updates:</b>
-    <a target="_blank" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses" target="_blank">
+    <a target="_blank" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">
         <img src="https://freesoftwareextremist.com/favicon.png" alt="Pleroma"> Pleroma
     </a>
-    <a target="_blank" href="https://t.me/s/ajatt_tools" target="_blank">
+    <a target="_blank" href="https://t.me/s/ajatt_tools">
         <img src="https://telegram.org/img/t_logo.svg" alt="Telegram"> Telegram
     </a>
 </footer>
