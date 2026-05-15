@@ -12,9 +12,12 @@
         {{ ctx.post.html_content|safe }}
         <!-- text end -->
         {% if ctx.post.metadata.tags %}
-        <p>{{ cfg.blog.template_tags_line_header }} {% for tag in ctx.post.metadata.tags %}
-                <a href="{{ cfg.blog.prefix_tags }}{{ tag }}.html">{{tag}}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}</p>
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">{{ cfg.blog.template_tags_line_header }}</span>
+        {% for tag in ctx.post.metadata.tags %}
+            <a href="{{ cfg.blog.prefix_tags }}{{ tag }}.html">{{tag}}</a>
+        {% endfor %}
+        </div>
         {% endif %}
     </article>
     <!-- entry end -->

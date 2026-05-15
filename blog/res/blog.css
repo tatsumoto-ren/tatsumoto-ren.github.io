@@ -77,6 +77,10 @@
 
     --table-header-color: hsla(0, 0%, 0%, 0.1);
 
+    /* MD buttons */
+    --md-button-background: #0b5570;
+    --md-button-background-hover: #00bad6;
+
     /* Fonts */
     --serif-font-families:
         "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
@@ -132,8 +136,10 @@
     --sidebar-list-marker: var(--link);
     --sidebar-item-background-color-hover: #f59f92;
 
+    /* MD buttons */
     --md-button-background: var(--code-inline-bg);
     --md-button-background-hover: var(--link);
+
     --summary-text-color: var(--link);
     --summary-important-text-color: black;
     --summary-background-color: var(--code-bg-color);
@@ -251,6 +257,7 @@
     --kbd-color: var(--body-text-color);
     --img-shadow-color: #333;
 
+    /* MD buttons */
     --md-button-background: var(--code-inline-bg);
     --md-button-background-hover: var(--link);
 
@@ -1988,5 +1995,36 @@ details.important_details {
     }
     .no-js-msg {
         display: block;
+    }
+}
+
+/*
+ * Lists of tags in articles, e.g:
+ * "Tags: faq, guide, anki"
+ */
+
+main .blog_tags_list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5ch;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    .blog_tags_text_before {
+        font-weight: bold;
+    }
+    a {
+        font-size: 0.9rem;
+        color: white;
+        background-color: var(--md-button-background);
+        padding: 0px 1ch;
+        border-radius: 2.2px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: var(--md-button-background-hover);
+            filter: unset;
+        }
     }
 }
