@@ -13,6 +13,8 @@
     --gap-large: 2rem;
     --gap-small: 1.5rem;
     --header-height: 52px;
+    --divbody-padding: clamp(var(--gap-small), 3vw, var(--gap-large));
+    --header-outline-thickness: 5px;
 
     --link: #0366d6;
     --link-visited: #336699;
@@ -27,7 +29,7 @@
     --header-item-focused-background-color: rgba(0, 0, 0, 0.04);
     --header-item-focused-shadow-color: rgba(0, 8, 15, 0.125);
     --header-link-color: #333;
-    --header-link-color-hover: black;
+    --header-link-color-hover: #4e001a;
     --logo-img-filter: none;
 
     --header-important-item-background-color: rgb(200, 0, 68);
@@ -42,6 +44,7 @@
     --article-background: white;
     --logo-text-color: black;
     --body-text-color: #24292e;
+    --body-bg-color: #f3f3f3;
     --box-sep-color: rgba(0, 0, 0, 10%);
     --sidebar-link-color: #ccc;
     --target-color: cornflowerblue;
@@ -49,6 +52,7 @@
 
     --blockquote-text-color: #575e66;
     --blockquote-border-color: #dfe2e5;
+    /* Fallback for browsers that don't support color-mix() */
     --blockquote-bg-start: #dfe2e556;
     --blockquote-bg-end: #dfe2e525;
 
@@ -57,6 +61,8 @@
 
     --download-button-text-color: var(--link);
     --download-button-border-color: var(--link);
+
+    /* Modern browsers will use color-mix() */
     --blockquote-bg-start: color-mix(in srgb, var(--blockquote-border-color), transparent 90%);
     --blockquote-bg-end: color-mix(in srgb, var(--blockquote-border-color), transparent 98%);
 
@@ -146,7 +152,7 @@
 }
 
 :root.pink main ul > li {
-    list-style-image: url("/blog/img/list-style-image.webp");
+    list-style-image: url("../img/list-style-image.webp");
 }
 
 :root.pink body::before,
@@ -159,7 +165,7 @@
     width: 20vw;
     z-index: -1;
     background-repeat: repeat-y;
-    background-image: url("/blog/img/deco-side.svg");
+    background-image: url("../img/deco-side.svg");
     background-position: top right;
     background-size: 100% auto;
 }
@@ -172,7 +178,7 @@
 :root.pink footer {
     background-color: #744356;
     background-image:
-        linear-gradient(rgba(197, 138, 159, 0.33), rgba(68, 47, 55, 0.66)), url("/blog/img/blog-bg-pink-theme.webp");
+        linear-gradient(rgba(197, 138, 159, 0.33), rgba(68, 47, 55, 0.66)), url("../img/blog-bg-pink-theme.webp");
     background-size: cover;
     background-position: center 20%;
 }
@@ -185,7 +191,7 @@
     top: calc(-1 * var(--decor-height));
     height: var(--decor-height);
     width: 100%;
-    background-image: url("/blog/img/bottom-pattern.webp");
+    background-image: url("../img/bottom-pattern.webp");
     background-position: bottom left;
     background-repeat: repeat-x;
     background-size: auto;
@@ -193,7 +199,7 @@
 }
 
 :root.pink #sidebar {
-    background-image: url("/blog/img/bg-pattern.webp");
+    background-image: url("../img/bg-pattern.webp");
     background-position: top left;
     background-repeat: repeat;
 }
@@ -228,7 +234,6 @@
 
     --header-important-item-hover-background-color: rgb(255, 0, 55);
 
-    --code-inline-color: black;
     --code-bg-color: #4d4d4d;
     --code-inline-bg: #1b3535;
     --code-inline-color: var(--link);
@@ -255,6 +260,8 @@
     --nagbar-color: #f1b79c;
     --nagbar-bg: #313127;
     --nagbar-border: #554a38;
+
+    --download-button-background-color: hsla(212, 97%, 43%, 0.05);
 
     a.anchor svg {
         /* Fix anchor visibility */
@@ -344,15 +351,16 @@ header {
     z-index: 100;
     top: 0;
     box-shadow:
-        0 5px 0 var(--background-secondary-color),
+        0 var(--header-outline-thickness) 0 var(--background-secondary-color),
         0 6px 4px 0 var(--elem-shadow-color);
     min-width: 256px;
     min-height: var(--header-height);
     background-color: var(--header-background);
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 16px;
+    align-content: stretch;
 }
 
 /* logo; icon and title */
@@ -368,6 +376,7 @@ header a.logo:visited {
     justify-content: flex-start;
     transition: opacity 0.2s;
     gap: 6px;
+    margin-right: auto;
 }
 
 header a.logo > span {
@@ -389,16 +398,10 @@ header a.logo > img {
     filter: var(--logo-img-filter, none);
 }
 
-/* Hidden elements. Description is visible only on wide screens. */
-
-header #description,
-header nav {
-    display: none;
-}
-
 /* Navigation */
 
 header > nav {
+    display: none; /* Hidden on mobile. */
     clear: both;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -489,6 +492,61 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
     box-shadow: inset 0 1px 2px 0 var(--header-item-focused-shadow-color, rgba(0, 8, 15, 0.125));
 }
 
+/*
+ * Search button in the header nav bar.
+ * Renders a magnifying glass icon.
+ */
+
+header .nav_search_button {
+    --icon-color: var(--header-link-color, #333);
+    --stroke-width: var(--menu-icon-slice-height, 2px);
+    --icon-width: var(--menu-icon-slice-width, 18px);
+
+    &:hover {
+        --icon-color: var(--header-link-color-hover, black);
+    }
+
+    display: grid;
+    place-items: center;
+    place-content: center;
+    padding: calc((var(--header-height) - var(--icon-width)) / 2);
+
+    .nav_search_button_icon {
+        position: relative;
+        font-size: 0px;
+        display: block;
+        width: var(--icon-width);
+        height: var(--icon-width);
+
+        &::before {
+            /* The lens circle. */
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 75%;
+            aspect-ratio: 1 / 1;
+            border: var(--stroke-width) solid var(--icon-color, #333);
+            border-radius: 100vmax;
+        }
+
+        &::after {
+            /* The handle — a short diagonal line extending from the lens. */
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: calc(var(--stroke-width) / 2);
+            right: 0px;
+            height: calc(var(--icon-width) / 2.2);
+            width: var(--stroke-width);
+            background-color: var(--icon-color, #333);
+            transform: rotate(-45deg);
+            transform-origin: bottom center;
+        }
+    }
+}
+
 /* Mark guide link */
 
 header a.guide_link {
@@ -500,24 +558,27 @@ header a.guide_link {
 
 #divbodyholder {
     overflow-wrap: break-word;
-    margin: var(--gap-large) 0 var(--gap-large);
+    margin: var(--divbody-padding) 0 var(--divbody-padding);
     flex: 1 0 auto;
 }
 
 #divbodyholder > div {
-    border: 1px solid var(--box-sep-color);
-    background-color: var(--article-background, white);
-    padding: clamp(1.5rem, 3vw, 2rem);
     margin: 0 auto;
     width: 100%;
     max-width: var(--article-page-width);
-    box-shadow: 0 1px 4px 0 var(--elem-shadow-color);
+
+    & + * {
+        margin-block: calc(var(--divbody-padding) - var(--header-outline-thickness)) 0;
+    }
 }
 
 /* container for articles */
 
 #divbodyholder > #divbody {
-    padding-top: 0;
+    border: 1px solid var(--box-sep-color);
+    background-color: var(--article-background, white);
+    padding: 0 var(--divbody-padding) var(--divbody-padding);
+    box-shadow: 0 1px 4px 0 var(--elem-shadow-color);
 }
 
 /* index page nag bar */
@@ -526,7 +587,7 @@ header a.guide_link {
     color: var(--nagbar-color, black);
     background-color: var(--nagbar-bg, yellow);
     border: 1px solid var(--nagbar-border, brown);
-    margin-bottom: var(--gap-large);
+    padding: var(--divbody-padding);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -656,7 +717,6 @@ kbd {
     margin: 0 1px 2px;
     padding: 3px 4px;
     font-size: 0.6875rem;
-    line-height: normal;
     line-height: 10px;
     color: var(--kbd-color, #24292f);
     vertical-align: middle;
@@ -1293,7 +1353,7 @@ a.md-button.patreon:is(:hover, :active, :focus) {
 }
 
 a.md-button.patreon::before {
-    background-image: url("/blog/img/patreon_logo.webp");
+    background-image: url("../img/patreon_logo.webp");
 }
 
 /* Boosty */
@@ -1344,7 +1404,7 @@ a.md-button.donations:is(:hover, :active, :focus) {
 }
 
 a.md-button.donations::before {
-    background-image: url("/img/heart.svg");
+    background-image: url("../../img/heart.svg");
     filter: grayscale(100%) invert(100%);
 }
 
@@ -1374,7 +1434,7 @@ a.md-button.donations::before {
 
 .toc_navigation > a::before,
 .toc_navigation > a > img {
-    background-image: url("/blog/img/up-arrow.svg");
+    background-image: url("../img/up-arrow.svg");
     filter: invert(1);
     width: 1em;
     height: 1em;
@@ -1427,7 +1487,7 @@ pre > .code_select_button {
 
 pre > .code_select_button::before {
     content: "";
-    background-image: url("/blog/img/copy-to-clip.svg");
+    background-image: url("../img/copy-to-clip.svg");
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -1490,7 +1550,7 @@ footer {
     font-size: 1rem;
     border-top: solid 1px var(--box-sep-color, #ccc);
     background-color: #51628f;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)), url("/img/bg.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)), url("../../img/bg.webp");
     color: white;
     text-shadow: #0006 1px 1px 2px;
     position: relative;
@@ -1649,7 +1709,7 @@ article a[href^="magnet:?"]:not(.download_button) {
     }
 
     &::before {
-        mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='black' d='M11 0h5v4h-5v-4z'%3E%3C/path%3E%3Cpath fill='blac4' d='M11 5v3c0 1.6-1.4 3-3 3s-3-1.4-3-3v-3h-5v3c0 4.4 3.6 8 8 8s8-3.6 8-8v-3h-5z'%3E%3C/path%3E%3Cpath fill='blac4' d='M0 0h5v4h-5v-4z'%3E%3C/path%3E%3C/svg%3E%0A");
+        mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='black' d='M11 0h5v4h-5v-4z'%3E%3C/path%3E%3Cpath fill='black' d='M11 5v3c0 1.6-1.4 3-3 3s-3-1.4-3-3v-3h-5v3c0 4.4 3.6 8 8 8s8-3.6 8-8v-3h-5z'%3E%3C/path%3E%3Cpath fill='black' d='M0 0h5v4h-5v-4z'%3E%3C/path%3E%3C/svg%3E%0A");
     }
 }
 
@@ -1773,4 +1833,160 @@ details.important_details {
 }
 .H {
     box-shadow: inset 0px 2px 0 0px var(--downstep-color, currentColor);
+}
+
+/*
+ * Styles for the search page (search.html).
+ */
+
+/* <input type="search"> field: Full-width search input with a visible focus indicator. */
+#search-input {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    &:focus {
+        border-color: var(--link, #4a9eff);
+    }
+}
+
+/* Status line ("N results" or "No results found.") */
+#number-results-found {
+    padding: 0;
+    margin-block: 0.2rem 0;
+    color: #666; /* default for browsers without 'from' support. */
+    color: hsl(from var(--body-text-color, black) h s 33%);
+    font-size: 0.9rem;
+}
+
+/* Reset default list styles on the results container. */
+#search-results {
+    list-style: none;
+    padding: 0;
+}
+
+/* Each result card is a vertical stack separated by a thin bottom border. */
+.search-result {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    &:not(:last-child) {
+        border-bottom: 1px solid var(--hr-color, lightgrey);
+        padding-block-end: 0.5rem;
+    }
+}
+
+/* Result title link. */
+.search-result a {
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+
+/* Parent article name shown below section-level results. */
+.search-result .parent-article-name {
+    font-size: 0.9rem;
+    color: #666; /* default for browsers without 'from' support. */
+    color: hsl(from var(--body-text-color, black) h s 33%);
+    margin-block: 0rem 0.4rem;
+}
+
+/* Body text snippet with context around the matched query. */
+.search-result .snippet {
+    margin-top: 0.2rem;
+    line-height: 1.4;
+}
+
+/* Highlighted query match inside the snippet. */
+.search-result .snippet mark {
+    background: #fff3a8;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/*
+ * Sort bar on tag_*.html pages.
+ * Contains "Sort by:" label and buttons for position/date/title sorting.
+ * Only visible on tag pages (the markup is in tag.html template).
+ */
+
+#tag-sort-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+    & > * {
+        margin: 0;
+    }
+    .tag-sort-title {
+        font-weight: bold;
+    }
+}
+
+.tag-sort-btn {
+    display: flex;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--box-sep-color, hsl(0, 0%, 82%));
+    border-radius: 4px;
+    background-color: transparent;
+    background-color: hsl(from var(--body-bg-color) 0, 0%, 97%);
+    color: var(--body-text-color, #333);
+    cursor: pointer;
+    font-size: 0.85rem;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: var(--download-button-background-color, hsl(0, 0%, 91%));
+    }
+
+    &[active] {
+        color: white;
+        background-color: var(--link, #4a9eff);
+        border-color: var(--link, #4a9eff);
+    }
+
+    /* Sort direction triangle — reuses the same CSS border triangle as details summary. */
+    &::after {
+        --tri-size: 0.4rem;
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: var(--tri-size) solid transparent;
+        border-right: var(--tri-size) solid transparent;
+        border-top: calc(var(--tri-size) * 1.5) solid var(--box-sep-color, hsl(0, 0%, 82%));
+        transition: rotate 0.2s;
+    }
+
+    &[data-direction]::after {
+        border-top-color: currentColor;
+    }
+    &[data-direction="asc"]::after {
+        rotate: 180deg;
+    }
+}
+
+/* Search page warns about disabled JS. */
+
+.no-js-msg {
+    display: none;
+    font-style: italic;
+}
+
+#search-container.no-js {
+    input {
+        display: none;
+    }
+    .no-js-msg {
+        display: block;
+    }
 }

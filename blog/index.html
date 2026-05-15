@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more." />
-<meta name="author" content="Tatsumoto Ren" />
-<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
-<link rel="stylesheet" href="res/blog.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
-<link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>All Japanese All The Time - AJATT</title>
-<meta property="og:title" content="All Japanese All The Time - AJATT">
-<meta property="og:site_name" content="All Japanese All The Time - AJATT">
-<meta property="og:url" content="https://ajatt.top/blog/index.html">
-<meta property="og:description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.">
-<meta property="og:image" content="https://ajatt.top/img/logo.webp">
-<script defer src="res/blog.js"></script>
+    <!-- title -->
+    <title>All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta name="author" content="Tatsumoto Ren">
+    <meta name="keywords" content="Learn Japanese, Tatsumoto&#39;s Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/blog/index.html">
+    <meta property="og:description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="res/blog.js"></script>
+    <script defer src="res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/blog/index.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+    <link rel="stylesheet" href="res/blog.css" type="text/css">
 </head>
 <body>
-<input type="checkbox" id="menu-btn" />
-<header>
-<a href="index.html" class="logo">
-<img alt="達元" src="/img/logo.webp" />
-<span>AJATT</span>
-</a>
-<div id="description">Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</div>
-<nav>
-<a href="table-of-contents.html" class="guide_link">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html" class="important">Join chat</a>
-</nav>
-<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
-</header>
-<div id="sidebar">
-<form action="" name="sidebar_header" class="sidebar_header">
-<a href="/" title="Go home">Home</a>
-<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
-<input title="Pink theme" type="radio" name="blog-theme" id="pink">
-<input title="Dark theme" type="radio" name="blog-theme" id="dark">
-<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
-<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
-</form>
-<div class="important-links on-mobile">
-<a href="table-of-contents.html">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-</div>
-<hr>
-<div class="page-contents"></div>
-<hr>
-<div class="important-links">
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html">Join chat</a>
-</div>
-</div>
-<div id="divbodyholder">
-<div class="indexnagbar">
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+        <a class="nav_search_button" title="Search" href="search.html">
+            <div class="nav_search_button_icon">Search</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Menu"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../index.html" title="Go home">Home</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+            <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="search.html">Search</a>
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html">Join chat</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div class="indexnagbar">
 <div>
 <svg class="nagbar_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="367.011px" height="367.01px" viewBox="0 0 367.011 367.01" style="enable-background: new 0 0 367.011 367.01" xml:space="preserve">
 <g>
@@ -78,13 +92,16 @@ This page lists articles in chronological order.
 You may want to read <a href="table-of-contents.html">Table of Contents</a> instead.
 </p>
 </div>
-<div id="divbody">
-<main>
-<article timestamp="1765131767" position="0">
-<h1 class="title" id="ankidrone-decks-audio-issues-on-ios"><a class="anchor" href="#ankidrone-decks-audio-issues-on-ios" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="ankidrone-decks-audio-issues-on-ios.html">Ankidrone decks: Audio issues on iOS</a></h1>
-<div class="subtitle">December 07, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <div id="divbody">
+            <main>
+<!-- index begin -->
+
+    <article timestamp="1765131767" position="0">
+        <h1 class="title" id="ankidrone-decks-audio-issues-on-ios"><a class="anchor" href="#ankidrone-decks-audio-issues-on-ios" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="ankidrone-decks-audio-issues-on-ios.html">Ankidrone decks: Audio issues on iOS</a></h1>
+        <div class="subtitle">December 07, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>I wanted to reach out regarding Ankidrone Essentials V8.
 On my computer, all the audio files play without any issues.
 However, in Anki Mobile on iOS, many of the audio files do not play.</p>
@@ -94,13 +111,15 @@ but I ran into problems.</p>
 Anki Mobile, or does it only work on the computer? Any guidance or solution
 would be greatly appreciated.</p>
 </blockquote>
-<p class="readmore"><a href="ankidrone-decks-audio-issues-on-ios.html">Read more...</a></p>
-</article>
-<article timestamp="1763342090" position="0">
-<h1 class="title" id="niche-proprietary-games-and-ajatt"><a class="anchor" href="#niche-proprietary-games-and-ajatt" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="proprietary-games-and-ajatt.html">Niche proprietary games and AJATT</a></h1>
-<div class="subtitle">November 17, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <p class="readmore"><a href="ankidrone-decks-audio-issues-on-ios.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1763342090" position="1">
+        <h1 class="title" id="niche-proprietary-games-and-ajatt"><a class="anchor" href="#niche-proprietary-games-and-ajatt" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="proprietary-games-and-ajatt.html">Niche proprietary games and AJATT</a></h1>
+        <div class="subtitle">November 17, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>What if a person's motivation for learning Japanese
 is only to play niche proprietary games/software
 that will never be localized into their native language.
@@ -130,22 +149,24 @@ a free replacement that will help others stop using the proprietary program.
 So if your goal is to help other AJATTers obtain free replacements for those Japanese games,
 you might choose to run them for the purpose of reverse-engineering or creating alternatives.
 Running proprietary software solely for immersion is a bad idea.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>
-<!-- text end -->
-</article>
-<article timestamp="1761839619" position="0">
-<h1 class="title" id="about-this-site"><a class="anchor" href="#about-this-site" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="about-this-site.html">About this site</a></h1>
-<div class="subtitle">October 30, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
+
+        <!-- text end -->
+    </article>
+    <article timestamp="1761839619" position="2">
+        <h1 class="title" id="about-this-site"><a class="anchor" href="#about-this-site" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="about-this-site.html">About this site</a></h1>
+        <div class="subtitle">October 30, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
 Here you'll find everything you need to know about learning foreign languages.</p>
-<p class="readmore"><a href="about-this-site.html">Read more...</a></p>
-</article>
-<article timestamp="1761557496" position="0">
-<h1 class="title" id="will-immersing-in-certain-genres-of-content-for-a-long-time-make-my-speech-inappropriate-for-my-identity"><a class="anchor" href="#will-immersing-in-certain-genres-of-content-for-a-long-time-make-my-speech-inappropriate-for-my-identity" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="will-immersion-in-certain-genres-make-my-speech-inappropriate.html">Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</a></h1>
-<div class="subtitle">October 27, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <p class="readmore"><a href="about-this-site.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1761557496" position="3">
+        <h1 class="title" id="will-immersing-in-certain-genres-of-content-for-a-long-time-make-my-speech-inappropriate-for-my-identity"><a class="anchor" href="#will-immersing-in-certain-genres-of-content-for-a-long-time-make-my-speech-inappropriate-for-my-identity" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="will-immersion-in-certain-genres-make-my-speech-inappropriate.html">Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</a></h1>
+        <div class="subtitle">October 27, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>Hi! In the past I have heard other Japanese learners say that women speak
 Japanese very differently from men and that learning Japanese purely from
 copying slice of life/CGDCT material will make you sound obviously effete and
@@ -157,13 +178,15 @@ use different expressions, pronouns and sentence endings.
 People also change how they speak as they age.
 A 75-year-old man doesn't sound the same as a 15-year-old girl.
 This is true for many other languages as well.</p>
-<p class="readmore"><a href="will-immersion-in-certain-genres-make-my-speech-inappropriate.html">Read more...</a></p>
-</article>
-<article timestamp="1748186530" position="0">
-<h1 class="title" id="whats-actually-the-best-way-to-find-easy-anime"><a class="anchor" href="#whats-actually-the-best-way-to-find-easy-anime" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="whats-actually-the-best-way-to-find-easy-anime.html">What's actually the best way to find easy anime?</a></h1>
-<div class="subtitle">May 25, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <p class="readmore"><a href="will-immersion-in-certain-genres-make-my-speech-inappropriate.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1748186530" position="4">
+        <h1 class="title" id="whats-actually-the-best-way-to-find-easy-anime"><a class="anchor" href="#whats-actually-the-best-way-to-find-easy-anime" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="whats-actually-the-best-way-to-find-easy-anime.html">What&#39;s actually the best way to find easy anime?</a></h1>
+        <div class="subtitle">May 25, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>What's actually the best way to find easy anime?
 You would think just analyzing the subs for speed,
 frequency and words you know, maybe even grammar,
@@ -191,14 +214,14 @@ Plus,
 many of these resources require you to create an account
 and come with questionable money-grab schemes.
 If you find an anime that looks fun, it's probably the best one for you personally.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>
-<!-- text end -->
-</article>
-<article timestamp="1745971630" position="0">
-<h1 class="title" id="should-i-write-each-word-once-or-many-times-while-practicing-handwriting"><a class="anchor" href="#should-i-write-each-word-once-or-many-times-while-practicing-handwriting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="should-i-write-each-word-many-times.html">Should I write each word once or many times while practicing handwriting?</a></h1>
-<div class="subtitle">April 30, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <!-- text end -->
+    </article>
+    <article timestamp="1745971630" position="5">
+        <h1 class="title" id="should-i-write-each-word-once-or-many-times-while-practicing-handwriting"><a class="anchor" href="#should-i-write-each-word-once-or-many-times-while-practicing-handwriting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="should-i-write-each-word-many-times.html">Should I write each word once or many times while practicing handwriting?</a></h1>
+        <div class="subtitle">April 30, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>I printed out some handwriting practice templates.
 However,
 I haven't found any recommendations on
@@ -220,14 +243,14 @@ Anki takes care of the intervals for you,
 and if you forget how to write a word,
 the program will show you the corresponding flashcard more often.</p>
 <p>For learning handwriting, see <a href="writing-japanese.html#writing-kanji">Writing TSCs</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>
-<!-- text end -->
-</article>
-<article timestamp="1740880095" position="0">
-<h1 class="title" id="is-it-worth-making-production-cards"><a class="anchor" href="#is-it-worth-making-production-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="is-it-worth-making-production-cards.html">Is it worth making production cards?</a></h1>
-<div class="subtitle">March 02, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<blockquote>
+
+        <!-- text end -->
+    </article>
+    <article timestamp="1740880095" position="6">
+        <h1 class="title" id="is-it-worth-making-production-cards"><a class="anchor" href="#is-it-worth-making-production-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="is-it-worth-making-production-cards.html">Is it worth making production cards?</a></h1>
+        <div class="subtitle">March 02, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <blockquote>
 <p>Is it worth learning words not just by associating a word with its translation,
 but also in reverse — from translation to word?
 For example,
@@ -235,13 +258,15 @@ if I look at a list of translations and try to recall the corresponding Japanese
 It feels much harder than simply memorizing the translation.
 However, this method seems to strengthens my memory.</p>
 </blockquote>
-<p class="readmore"><a href="is-it-worth-making-production-cards.html">Read more...</a></p>
-</article>
-<article timestamp="1737166008" position="0">
-<h1 class="title" id="i-barely-understand-anything-is-immersion-actually-helpful"><a class="anchor" href="#i-barely-understand-anything-is-immersion-actually-helpful" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="is-it-helpful-to-immerse-if-i-barely-understand.html">I barely understand anything. Is immersion actually helpful?</a></h1>
-<div class="subtitle">January 18, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p>Absolutely!</p>
+
+        <p class="readmore"><a href="is-it-worth-making-production-cards.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1737166008" position="7">
+        <h1 class="title" id="i-barely-understand-anything-is-immersion-actually-helpful"><a class="anchor" href="#i-barely-understand-anything-is-immersion-actually-helpful" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="is-it-helpful-to-immerse-if-i-barely-understand.html">I barely understand anything. Is immersion actually helpful?</a></h1>
+        <div class="subtitle">January 18, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p>Absolutely!</p>
 <p>Immersion is crucial for mastering a foreign language.
 Your brain is a pattern-recognition machine,
 optimized for language learning
@@ -249,13 +274,15 @@ and designed to learn languages naturally.
 By surrounding yourself with content in the target language (TL),
 you begin to internalize vocabulary and grammar intuitively,
 even if you don't notice it.</p>
-<p class="readmore"><a href="is-it-helpful-to-immerse-if-i-barely-understand.html">Read more...</a></p>
-</article>
-<article timestamp="1736360228" position="0">
-<h1 class="title" id="classes"><a class="anchor" href="#classes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="classes.html">Classes</a></h1>
-<div class="subtitle">January 08, 2025 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p>Traditional language classes suck.
+
+        <p class="readmore"><a href="is-it-helpful-to-immerse-if-i-barely-understand.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1736360228" position="8">
+        <h1 class="title" id="classes"><a class="anchor" href="#classes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="classes.html">Classes</a></h1>
+        <div class="subtitle">January 08, 2025 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p>Traditional language classes suck.
 They cost money.
 They are boring.
 And they are not effective.</p>
@@ -264,79 +291,87 @@ hoping that teachers will magically transfer
 <a href="are-textbooks-bad.html">textbook</a> material into your brain
 during short daily lessons,
 you might want to rethink your strategy.</p>
-<p class="readmore"><a href="classes.html">Read more...</a></p>
-</article>
-<article timestamp="1732986171" position="0">
-<h1 class="title" id="i-stopped-using-matrix"><a class="anchor" href="#i-stopped-using-matrix" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="i-stopped-using-matrix.html">I Stopped Using Matrix</a></h1>
-<div class="subtitle">November 30, 2024 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p>I have some exciting news, folks!
+
+        <p class="readmore"><a href="classes.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+    <article timestamp="1732986171" position="9">
+        <h1 class="title" id="i-stopped-using-matrix"><a class="anchor" href="#i-stopped-using-matrix" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a class="ablack" href="i-stopped-using-matrix.html">I Stopped Using Matrix</a></h1>
+        <div class="subtitle">November 30, 2024 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p>I have some exciting news, folks!
 You've been asking me to do this for a long time,
 and now the moment has finally arrived.
 I've decided to discontinue our Matrix community
 in favor of a different platform.</p>
-<p class="readmore"><a href="i-stopped-using-matrix.html">Read more...</a></p>
-</article>
-<div id="all_posts">
-<a href="all_posts.html">View more posts</a> &mdash;
-<a href="all_tags.html">All tags</a> &mdash;
-<a href="feed.rss">Subscribe</a>
-</div>
-</main>
-</div>
-</div>
-<footer>
-<div class="footer-linkbox">
-<div>
-<h3>Learn Japanese</h3>
-<ul>
-<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
-<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
-<li><a href="/blog/resources.html">Resources</a></li>
-<li><a href="/blog/tag_faq.html">FAQ</a></li>
-<li><a href="/blog/all_tags.html">All tags</a></li>
-</ul>
-</div>
-<div>
-<h3>Anki</h3>
-<ul>
-<li><a href="/blog/setting-up-anki.html">Setup</a></li>
-<li><a href="/blog/how-to-review.html">How to study</a></li>
-<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
-<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
-</ul>
-</div>
-<div>
-<h3>Software</h3>
-<ul>
-<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
-<li><a href="/blog/setting-up-goldendict.html">GoldenDict-NG</a></li>
-<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
-<li><a href="/blog/tag_mpv.html">MPV</a></li>
-<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
-<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
-</ul>
-</div>
-<div>
-<h3>Get in touch</h3>
-<ul>
-<li><a href="feed.rss">RSS</a></li>
-<li><a href="/blog/join-our-community.html">Our community</a></li>
-<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
-<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
-<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
-</ul>
-</div>
-<div>
-<h3>Support us</h3>
-<p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
-<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
-</div>
-</div>
-<div class="footer-bottom">
-<p>Copyright © Tatsumoto Ren 2020-2026</p>
-<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
-</div>
-</footer>
+
+        <p class="readmore"><a href="i-stopped-using-matrix.html">Read more...</a></p>
+        <!-- text end -->
+    </article>
+
+    <div id="all_posts">
+    <a href="all_posts.html">View more posts</a> &mdash;
+    <a href="all_tags.html">All tags</a> &mdash;
+    <a href="feed.rss">Subscribe</a>
+    </div>
+
+<!-- index end -->
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Learn Japanese</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Table of Contents</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="tag_faq.html">FAQ</a></li>
+                    <li><a href="all_tags.html">All tags</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Setup</a></li>
+                    <li><a href="how-to-review.html">How to study</a></li>
+                    <li><a href="ankidrone-decks.html">Decks</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_yomichan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Our community</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support us</h3>
+                <p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Tatsumoto Ren 2020-2026</p>
+            <p>Generated with tatsublog, a static site generator</p>
+        </div>
+    </footer>
 </body>
 </html>

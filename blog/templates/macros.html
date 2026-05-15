@@ -1,0 +1,13 @@
+{% macro render_sidebar_links(links) %}
+{% if links %}
+<ol>
+{% for item in links %}
+    {% if item is iterable and item is not string and item is not mapping %}
+        {{ render_sidebar_links(item) }}
+    {% else %}
+        <li><a href="{{ item.href }}" onclick="close_sidebar()">{{ item.name }}</a></li>
+    {% endif %}
+{% endfor %}
+</ol>
+{% endif %}
+{% endmacro %}

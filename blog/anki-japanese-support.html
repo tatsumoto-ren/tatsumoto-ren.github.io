@@ -1,76 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more." />
-<meta name="author" content="Tatsumoto Ren" />
-<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
-<link rel="stylesheet" href="res/blog.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
-<link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Japanese support for Anki</title>
-<meta property="og:title" content="Japanese support for Anki">
-<meta property="og:site_name" content="All Japanese All The Time - AJATT">
-<meta property="og:url" content="https://ajatt.top/blog/anki-japanese-support.html">
-<meta property="og:description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.">
-<meta property="og:image" content="https://ajatt.top/img/logo.webp">
-<script defer src="res/blog.js"></script>
+    <!-- title -->
+    <title>Japanese support for Anki | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta name="author" content="Tatsumoto Ren">
+    <meta name="keywords" content="Learn Japanese, Tatsumoto&#39;s Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Japanese support for Anki | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/blog/anki-japanese-support.html">
+    <meta property="og:description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="res/blog.js"></script>
+    <script defer src="res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/blog/anki-japanese-support.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+    <link rel="stylesheet" href="res/blog.css" type="text/css">
 </head>
 <body>
-<input type="checkbox" id="menu-btn" />
-<header>
-<a href="index.html" class="logo">
-<img alt="達元" src="/img/logo.webp" />
-<span>AJATT</span>
-</a>
-<div id="description">Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</div>
-<nav>
-<a href="table-of-contents.html" class="guide_link">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html" class="important">Join chat</a>
-</nav>
-<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
-</header>
-<div id="sidebar">
-<form action="" name="sidebar_header" class="sidebar_header">
-<a href="/" title="Go home">Home</a>
-<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
-<input title="Pink theme" type="radio" name="blog-theme" id="pink">
-<input title="Dark theme" type="radio" name="blog-theme" id="dark">
-<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
-<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
-</form>
-<div class="important-links on-mobile">
-<a href="table-of-contents.html">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-</div>
-<hr>
-<div class="page-contents"></div>
-<hr>
-<div class="important-links">
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html">Join chat</a>
-</div>
-</div>
-<div id="divbodyholder">
-<div id="divbody">
-<main>
-<!-- entry begin -->
-<article timestamp="1681292213" position="0">
-<h1 class="title"><a class="ablack" href="anki-japanese-support.html">Japanese support for Anki</a></h1>
-<div class="subtitle">April 12, 2023 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p><a href="setting-up-anki.html">Anki</a>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+        <a class="nav_search_button" title="Search" href="search.html">
+            <div class="nav_search_button_icon">Search</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Menu"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../index.html" title="Go home">Home</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+            <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="search.html">Search</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+        <li><a href="#installation" onclick="close_sidebar()">Installation</a></li>
+        <li><a href="#neologism-dictionary" onclick="close_sidebar()">Neologism dictionary</a></li>
+        <li><a href="#overview" onclick="close_sidebar()">Overview</a></li>
+        <li><a href="#usage" onclick="close_sidebar()">Usage</a></li>
+        <li><a href="#configuration" onclick="close_sidebar()">Configuration</a></li>
+        <li><a href="#profiles" onclick="close_sidebar()">Profiles</a></li>
+        <li><a href="#furigana" onclick="close_sidebar()">Furigana</a></li>
+        <li><a href="#pitch-output-format" onclick="close_sidebar()">Pitch output format</a></li>
+        <li><a href="#pitch-accent-style" onclick="close_sidebar()">Pitch accent style</a></li>
+        <li><a href="#color-coding" onclick="close_sidebar()">Color coding</a></li>
+        <li><a href="#audio-files" onclick="close_sidebar()">Audio files</a></li>
+        <ol>
+        <li><a href="#available-audio-formats" onclick="close_sidebar()">Available audio formats</a></li>
+        <li><a href="#online-audio-sources" onclick="close_sidebar()">Online audio sources</a></li>
+        <li><a href="#offline-audio-sources" onclick="close_sidebar()">Offline audio sources</a></li>
+        <li><a href="#audio-search-dialog" onclick="close_sidebar()">Audio Search dialog</a></li>
+        <li><a href="#audio-settings" onclick="close_sidebar()">Audio settings</a></li>
+        <li><a href="#creating-a-custom-audio-source" onclick="close_sidebar()">Creating a custom audio source</a></li>
+</ol>
+
+        <li><a href="#context-menu" onclick="close_sidebar()">Context menu</a></li>
+        <li><a href="#overrides" onclick="close_sidebar()">Overrides</a></li>
+        <li><a href="#conclusion" onclick="close_sidebar()">Conclusion</a></li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html">Join chat</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1681292213" position="0">
+        <h1 class="title"><a class="ablack" href="anki-japanese-support.html">Japanese support for Anki</a></h1>
+        <div class="subtitle">April 12, 2023 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p><a href="setting-up-anki.html">Anki</a>
 can be used
 to learn a variety of different subjects,
 including languages.
@@ -82,7 +125,7 @@ Its main features include
 adding furigana,
 adding pitch accent information,
 and adding pronunciation audio files to Anki cards.</p>
-<hr>
+<hr />
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
 <p>The installation process is similar to other Anki plugins and can be accomplished in three steps:</p>
 <ol>
@@ -177,10 +220,10 @@ furigana will be added to the <code>VocabFurigana</code> field,
 accents will be added to the <code>VocabPitchPattern</code> field,
 and audio will be added to the <code>VocabAudio</code> field.</p>
 <video width="1032" autoplay loop controls muted>
-    <source src="vid/ajt_japanese_generate.mp4" type="video/mp4">
-    <source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
-    <source src="https://tatsumoto-ren.github.io/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
-    <source src="https://ajatt.top/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 <p>To generate readings, accents and audio,
@@ -234,6 +277,14 @@ A profile specifies a source field, a destination field, and what triggers the p
 When the specified conditions are met, the profile invokes a task associated with it.
 For example, when the Note Type is Japanese and the source field is <code>VocabKanji</code>,
 the task is to write furigana to the <code>VocabFurigana</code> field.</p>
+<p>The &quot;note type&quot; parameter specifies a substring to match all note types
+for which you want the profile to work.
+The profile will be triggered for note type names that contain this string.
+Note type name matching is case-insensitive.
+For example,
+if you have note types named &quot;Japanese sentences&quot;, &quot;English sentences&quot;, and &quot;Japanese words&quot;,
+you can put &quot;japanese&quot; into the &quot;note type&quot; field,
+and the profile will be triggered for &quot;Japanese sentences&quot; and &quot;Japanese words&quot; note types.</p>
 <p>The <code>split morphemes</code> setting determines whether an input string should be split into words.
 It makes sense to enable splitting for fields that are expected to contain more than one word,
 but keep it disabled for fields that are expected to contain only one word.</p>
@@ -346,7 +397,8 @@ To access this, go to &quot;Anki&quot; &gt; &quot;Tools&quot; &gt; &quot;Manage 
 This setting is applied when pitch output format is set to &quot;Html&quot; or &quot;Html and Number&quot;.
 The following styles are built-in:</p>
 <ol>
-<li><p><code>javdejong</code>.
+<li>
+<p><code>javdejong</code>.
 The style used in the original Japanese Pitch Accent Anki add-on by <code>javdejong</code>.</p>
 <ul>
 <li>Overline: indicates &quot;High&quot; pitch.</li>
@@ -355,7 +407,8 @@ The style used in the original Japanese Pitch Accent Anki add-on by <code>javdej
 <li>Blue color: devoiced. Barely pronounced at all.</li>
 </ul>
 </li>
-<li><p><code>u-biq</code>.
+<li>
+<p><code>u-biq</code>.
 The style used to show pitch on the <a href="https://accent.u-biq.org/">u-biq website</a>.</p>
 <ul>
 <li>Overline: indicates &quot;High&quot; pitch.</li>
@@ -364,7 +417,8 @@ The style used to show pitch on the <a href="https://accent.u-biq.org/">u-biq we
 <li>Blue color: devoiced.</li>
 </ul>
 </li>
-<li><p><code>kanjium</code>.
+<li>
+<p><code>kanjium</code>.
 Style which is part of the <a href="https://github.com/mifunetoshiro/kanjium">kanjium project</a>.</p>
 <ul>
 <li>Overline: indicates &quot;High&quot; pitch.</li>
@@ -552,7 +606,7 @@ simply check the &quot;Add to note&quot; checkboxes and click &quot;Ok&quot;.</p
 <p>To configure Forvo, go to &quot;AJT&quot; &gt; &quot;Menus&quot; &gt; &quot;Forvo settings&quot;.
 When Forvo Search is enabled,
 the add-on searches audio files on Forvo in addition to the enabled audio sources.
-<a href="https://redirect.invidious.io/watch?v=9e7CkXSdYok">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube"></a>.</p>
+<a href="https://redirect.invidious.io/watch?v=9e7CkXSdYok">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube" /></a>.</p>
 <h3 id="audio-settings"><a class="anchor" href="#audio-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio settings</h3>
 <p>Go to &quot;Japanese options&quot; &gt; &quot;Audio&quot; &gt; Audio settings.
 Below is an overview of some settings you might want to toggle on/off.</p>
@@ -654,65 +708,71 @@ it can help learners of all levels become more confident in their Japanese langu
 Best of all,
 it's completely free/libre and easy to use.
 Give it a try and see how it can help you master the Japanese language!</p>
-<p>Tags: <a href="tag_guide.html">guide</a>, <a href="tag_anki.html">anki</a></p>
-<!-- text end -->
-</article>
-<!-- entry end -->
-</main>
-</div>
-</div>
-<footer>
-<div class="footer-linkbox">
-<div>
-<h3>Learn Japanese</h3>
-<ul>
-<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
-<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
-<li><a href="/blog/resources.html">Resources</a></li>
-<li><a href="/blog/tag_faq.html">FAQ</a></li>
-<li><a href="/blog/all_tags.html">All tags</a></li>
-</ul>
-</div>
-<div>
-<h3>Anki</h3>
-<ul>
-<li><a href="/blog/setting-up-anki.html">Setup</a></li>
-<li><a href="/blog/how-to-review.html">How to study</a></li>
-<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
-<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
-</ul>
-</div>
-<div>
-<h3>Software</h3>
-<ul>
-<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
-<li><a href="/blog/setting-up-goldendict.html">GoldenDict-NG</a></li>
-<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
-<li><a href="/blog/tag_mpv.html">MPV</a></li>
-<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
-<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
-</ul>
-</div>
-<div>
-<h3>Get in touch</h3>
-<ul>
-<li><a href="feed.rss">RSS</a></li>
-<li><a href="/blog/join-our-community.html">Our community</a></li>
-<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
-<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
-<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
-</ul>
-</div>
-<div>
-<h3>Support us</h3>
-<p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
-<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
-</div>
-</div>
-<div class="footer-bottom">
-<p>Copyright © Tatsumoto Ren 2020-2026</p>
-<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
-</div>
-</footer>
+
+        <!-- text end -->
+	    <p>Tags:                 <a href="tag_guide.html">guide</a>,                 <a href="tag_anki.html">anki</a></p>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="our-immersion-learning-toolset.html" title="Our immersion learning toolset" class="md-button prev">Previous</a>
+        <a href="mining-from-movies-and-tv-shows.html" title="Movies and TV-shows" class="md-button next">Next</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Learn Japanese</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Table of Contents</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="tag_faq.html">FAQ</a></li>
+                    <li><a href="all_tags.html">All tags</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Setup</a></li>
+                    <li><a href="how-to-review.html">How to study</a></li>
+                    <li><a href="ankidrone-decks.html">Decks</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_yomichan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Our community</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support us</h3>
+                <p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Tatsumoto Ren 2020-2026</p>
+            <p>Generated with tatsublog, a static site generator</p>
+        </div>
+    </footer>
 </body>
 </html>

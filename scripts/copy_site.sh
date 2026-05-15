@@ -20,7 +20,9 @@ main() {
 		./index.* \
 		./img \
 		./not_found.* \
-		./blog/*.{html,md,rss} \
+		./robots.txt \
+		./sitemap.xml \
+		./blog/*.{html,md,rss,json} \
 		./blog/{aud,img,res,vid}/* \
 		_site/
 	echo "Done."

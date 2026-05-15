@@ -206,6 +206,7 @@ For example, if you had a Japanese movie and the accompanying Japanese subtitle 
 you could use subs2srs to automatically create an Anki deck with one card for each subtitle line,
 along with the corresponding audio and snapshot.
 
+* **[GTK4 port](https://aur.archlinux.org/packages/subs2srs-gui)**
 * [AUR package](https://aur.archlinux.org/packages?K=subs2srs)
 * [FAQ](https://subs2srs.sourceforge.net/#faq)
 
@@ -274,4 +275,3 @@ Some people would like to completely reject mobile phones because they are surve
 * [/e/OS](https://e.foundation/) is a privacy-enabled ROM
   with no Google apps or Google services accessing your personal data.
 * [GrapheneOS](https://grapheneos.org/).
-* [DivestOS](https://divestos.org/).

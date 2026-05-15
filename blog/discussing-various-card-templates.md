@@ -579,7 +579,7 @@ It most certainly has. If you can't find it in a Rikaitan dictionary,
 look it up on
 [www.weblio.jp](https://www.weblio.jp/)
 or use the web search.
-For example, [here](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%28%E3%81%A8%E3%81%86%E3%81%8B%E3%81%8F%29%E3%82%92%E7%8F%BE%28%E3%81%82%E3%82%89%E3%82%8F%29%E3%83%BB%E3%81%99)
+For example, [here](https://www.weblio.jp/content/%E9%A0%AD%E8%A7%92%E3%82%92%E7%8F%BE%E3%81%99)
 you can find a definition for 「頭角を現す」.
 
 > What if it's not voiced in the Rikaitan audio?

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% from "macros.html" import render_sidebar_links %}
+<html lang="{{ cfg.blog.language }}">
+<head>
+    <!-- title -->
+    <title>{% block title %}{{ cfg.blog.global_title }}{% endblock %}</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ cfg.blog.global_description }}">
+    <meta name="author" content="{{ cfg.blog.global_author }}">
+    <meta name="keywords" content="{{ cfg.blog.global_keywords }}">
+
+    <!-- properties -->
+    <meta property="og:title" content="{% block og_title %}{{ cfg.blog.global_title }}{% endblock %}">
+    <meta property="og:site_name" content="{{ cfg.blog.global_title }}">
+    <meta property="og:url" content="{{ ctx.request_path }}">
+    <meta property="og:description" content="{{ cfg.blog.global_description }}">
+    <meta property="og:image" content="{{ cfg.site.favicon_path | as_full_url }}">
+
+    <!-- scripts -->
+    {% for js_file in cfg.blog.js_include %}
+    <script defer src="{{ js_file | as_relative_to(ctx.output_file_path) }}"></script>
+    {% endfor %}
+
+    <!-- links -->
+    <link rel="canonical" href="{{ ctx.request_path }}">
+    <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ cfg.blog.template_subscribe_browser_button }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
+    {% for css_file in cfg.blog.css_include %}
+    <link rel="stylesheet" href="{{ css_file | as_relative_to(ctx.output_file_path) }}" type="text/css">
+    {% endfor %}
+</head>
+<body>
+    {% block header %}
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}" class="logo">
+            <img alt="達元" src="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
+            <span>{{ cfg.blog.global_short_title }}</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}" class="guide_link">Guide</a>
+            <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tools</a>
+            <a href="{{ 'resources.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Resources</a>
+            <a href="{{ 'ankidrone-decks.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Decks</a>
+            <a href="{{ 'tag_dictionaries.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Dictionaries</a>
+            <a href="{{ 'tag_faq.html' | in_blog | as_relative_to(ctx.output_file_path) }}">FAQ</a>
+            <a href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Donate</a>
+            <a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}" class="important">Join chat</a>
+        </nav>
+        <a class="nav_search_button" title="Search" href="{{ ctx.search_page_path | as_relative_to(ctx.output_file_path) }}">
+            <div class="nav_search_button_icon">Search</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Menu"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="{{ ctx.site_index_path | as_relative_to(ctx.output_file_path) }}" title="Go home">Home</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+            <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Guide</a>
+            <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tools</a>
+            <a href="{{ 'resources.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Resources</a>
+            <a href="{{ 'ankidrone-decks.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Decks</a>
+            <a href="{{ 'tag_dictionaries.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Dictionaries</a>
+            <a href="{{ 'tag_faq.html' | in_blog | as_relative_to(ctx.output_file_path) }}">FAQ</a>
+            <a href="{{ ctx.search_page_path | as_relative_to(ctx.output_file_path) }}">Search</a>
+        </div>
+        <hr>
+        {% if ctx.sidebar_links is defined and ctx.sidebar_links %}
+        <div class="page-contents">
+            {{ render_sidebar_links(ctx.sidebar_links) }}
+        </div>
+        <hr>
+        {% endif %}
+        <div class="important-links">
+            <a href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Donate</a>
+            <a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Join chat</a>
+        </div>
+    </div>
+    {% endblock %}
+
+    <div id="divbodyholder">
+        {% block before_content %}{% endblock %}
+        <div id="divbody">
+            <main>
+                {% block content %}{% endblock %}
+            </main>
+            {% block after_main %}{% endblock %}
+        </div>
+        {% block after_content %}{% endblock %}
+    </div>
+
+    {% block footer %}
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Learn Japanese</h3>
+                <ul>
+                    <li><a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Table of Contents</a></li>
+                    <li><a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tools</a></li>
+                    <li><a href="{{ 'resources.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Resources</a></li>
+                    <li><a href="{{ 'tag_faq.html' | in_blog | as_relative_to(ctx.output_file_path) }}">FAQ</a></li>
+                    <li><a href="{{ ctx.tags_index_path | as_relative_to(ctx.output_file_path) }}">All tags</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="{{ 'setting-up-anki.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Setup</a></li>
+                    <li><a href="{{ 'how-to-review.html' | in_blog | as_relative_to(ctx.output_file_path) }}">How to study</a></li>
+                    <li><a href="{{ 'ankidrone-decks.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Decks</a></li>
+                    <li><a href="{{ 'useful-anki-add-ons-for-japanese.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Add-ons</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="{{ 'setting-up-qolibri.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Qolibri</a></li>
+                    <li><a href="{{ 'setting-up-goldendict.html' | in_blog | as_relative_to(ctx.output_file_path) }}">GoldenDict-NG</a></li>
+                    <li><a href="{{ 'tag_yomichan.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Rikaitan</a></li>
+                    <li><a href="{{ 'tag_mpv.html' | in_blog | as_relative_to(ctx.output_file_path) }}">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">RSS</a></li>
+                    <li><a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Our community</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                    {% if cfg.blog.global_email %}
+                    <li><a href="mailto:{{ cfg.blog.global_email | obfuscate_email }}">{{ cfg.blog.global_email | obfuscate_email }}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            <div>
+                <h3>Support us</h3>
+                <p>{{ cfg.blog.global_short_title }} is a reader-funded site. Consider donating if you found the site useful.</p>
+                <p><a class="md-button donations" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Donate</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © {{ cfg.blog.global_author }} 2020-{{ ctx.current_year }}</p>
+            <p>Generated with tatsublog, a static site generator</p>
+        </div>
+    </footer>
+    {% endblock %}
+</body>
+</html>

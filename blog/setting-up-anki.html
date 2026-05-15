@@ -1,76 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more." />
-<meta name="author" content="Tatsumoto Ren" />
-<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
-<link rel="stylesheet" href="res/blog.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
-<link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Setting up Anki</title>
-<meta property="og:title" content="Setting up Anki">
-<meta property="og:site_name" content="All Japanese All The Time - AJATT">
-<meta property="og:url" content="https://ajatt.top/blog/setting-up-anki.html">
-<meta property="og:description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.">
-<meta property="og:image" content="https://ajatt.top/img/logo.webp">
-<script defer src="res/blog.js"></script>
+    <!-- title -->
+    <title>Setting up Anki | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta name="author" content="Tatsumoto Ren">
+    <meta name="keywords" content="Learn Japanese, Tatsumoto&#39;s Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Setting up Anki | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/blog/setting-up-anki.html">
+    <meta property="og:description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="res/blog.js"></script>
+    <script defer src="res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/blog/setting-up-anki.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+    <link rel="stylesheet" href="res/blog.css" type="text/css">
 </head>
 <body>
-<input type="checkbox" id="menu-btn" />
-<header>
-<a href="index.html" class="logo">
-<img alt="達元" src="/img/logo.webp" />
-<span>AJATT</span>
-</a>
-<div id="description">Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</div>
-<nav>
-<a href="table-of-contents.html" class="guide_link">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html" class="important">Join chat</a>
-</nav>
-<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
-</header>
-<div id="sidebar">
-<form action="" name="sidebar_header" class="sidebar_header">
-<a href="/" title="Go home">Home</a>
-<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
-<input title="Pink theme" type="radio" name="blog-theme" id="pink">
-<input title="Dark theme" type="radio" name="blog-theme" id="dark">
-<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
-<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
-</form>
-<div class="important-links on-mobile">
-<a href="table-of-contents.html">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-</div>
-<hr>
-<div class="page-contents"></div>
-<hr>
-<div class="important-links">
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html">Join chat</a>
-</div>
-</div>
-<div id="divbodyholder">
-<div id="divbody">
-<main>
-<!-- entry begin -->
-<article timestamp="1609127492" position="0">
-<h1 class="title"><a class="ablack" href="setting-up-anki.html">Setting up Anki</a></h1>
-<div class="subtitle">December 28, 2020 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p><a href="https://wiki.archlinux.org/index.php/Anki">Anki</a>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+        <a class="nav_search_button" title="Search" href="search.html">
+            <div class="nav_search_button_icon">Search</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Menu"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../index.html" title="Go home">Home</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+            <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="search.html">Search</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+        <li><a href="#installation" onclick="close_sidebar()">Installation</a></li>
+        <ol>
+        <li><a href="#using-your-package-manager" onclick="close_sidebar()">Using your package manager</a></li>
+        <li><a href="#using-pipx" onclick="close_sidebar()">Using pipx</a></li>
+        <li><a href="#from-the-official-website" onclick="close_sidebar()">From the official website</a></li>
+        <li><a href="#troubleshooting" onclick="close_sidebar()">Troubleshooting</a></li>
+</ol>
+
+        <li><a href="#sync-your-mobile-device" onclick="close_sidebar()">Sync your mobile device</a></li>
+        <li><a href="#import-an-example-mining-deck" onclick="close_sidebar()">Import an example mining deck</a></li>
+        <li><a href="#japanese-language-support" onclick="close_sidebar()">Japanese language support</a></li>
+        <li><a href="#anki-settings" onclick="close_sidebar()">Anki settings</a></li>
+        <li><a href="#preferences" onclick="close_sidebar()">Preferences</a></li>
+        <ol>
+        <li><a href="#appearance" onclick="close_sidebar()">Appearance</a></li>
+        <ol>
+        <li><a href="#video-driver" onclick="close_sidebar()">Video driver</a></li>
+        <li><a href="#style" onclick="close_sidebar()">Style</a></li>
+        <li><a href="#minimalist-mode" onclick="close_sidebar()">Minimalist mode</a></li>
+</ol>
+
+        <li><a href="#review" onclick="close_sidebar()">Review</a></li>
+        <ol>
+        <li><a href="#learn-ahead-limit" onclick="close_sidebar()">Learn ahead limit</a></li>
+        <li><a href="#show-play-buttons-on-cards-with-audio" onclick="close_sidebar()">Show play buttons on cards with audio</a></li>
+        <li><a href="#spacebar-or-enter-also-answers-card" onclick="close_sidebar()">Spacebar (or Enter) also answers card</a></li>
+</ol>
+
+        <li><a href="#editing" onclick="close_sidebar()">Editing</a></li>
+        <ol>
+        <li><a href="#paste-clipboard-images-as-png" onclick="close_sidebar()">Paste clipboard images as PNG</a></li>
+</ol>
+
+        <li><a href="#syncing" onclick="close_sidebar()">Syncing</a></li>
+        <li><a href="#third-party-services" onclick="close_sidebar()">Third-party services</a></li>
+        <li><a href="#other" onclick="close_sidebar()">Other</a></li>
+</ol>
+
+        <li><a href="#options-groups" onclick="close_sidebar()">Options Groups</a></li>
+        <ol>
+        <li><a href="#daily-limits" onclick="close_sidebar()">Daily limits</a></li>
+        <ol>
+        <li><a href="#new-cards-day" onclick="close_sidebar()">New cards/day</a></li>
+        <li><a href="#maximum-reviews-day" onclick="close_sidebar()">Maximum reviews/day</a></li>
+</ol>
+
+        <li><a href="#new-cards" onclick="close_sidebar()">New cards</a></li>
+        <ol>
+        <li><a href="#learning-steps" onclick="close_sidebar()">Learning steps</a></li>
+        <li><a href="#graduating-interval" onclick="close_sidebar()">Graduating interval</a></li>
+</ol>
+
+        <li><a href="#reviews" onclick="close_sidebar()">Reviews</a></li>
+        <li><a href="#lapses" onclick="close_sidebar()">Lapses</a></li>
+        <ol>
+        <li><a href="#steps-in-minutes" onclick="close_sidebar()">Steps (in minutes)</a></li>
+        <li><a href="#leech-threshold-and-leech-action" onclick="close_sidebar()">Leech threshold and Leech action</a></li>
+</ol>
+
+        <li><a href="#display-order" onclick="close_sidebar()">Display order</a></li>
+        <ol>
+        <li><a href="#new-review-order" onclick="close_sidebar()">New/review order</a></li>
+        <li><a href="#review-sort-order" onclick="close_sidebar()">Review sort order</a></li>
+</ol>
+
+        <li><a href="#advanced" onclick="close_sidebar()">Advanced</a></li>
+        <ol>
+        <li><a href="#fsrs" onclick="close_sidebar()">FSRS</a></li>
+        <li><a href="#maximum-interval" onclick="close_sidebar()">Maximum interval</a></li>
+        <li><a href="#starting-ease" onclick="close_sidebar()">Starting ease</a></li>
+        <li><a href="#easy-bonus-and-hard-interval" onclick="close_sidebar()">Easy bonus and Hard interval</a></li>
+        <li><a href="#interval-modifier" onclick="close_sidebar()">Interval modifier</a></li>
+        <li><a href="#new-interval" onclick="close_sidebar()">New interval</a></li>
+</ol>
+
+</ol>
+
+        <li><a href="#synchronizing-large-collections" onclick="close_sidebar()">Synchronizing large collections</a></li>
+        <li><a href="#ease-hell" onclick="close_sidebar()">Ease Hell</a></li>
+        <li><a href="#gtk-theme" onclick="close_sidebar()">GTK theme</a></li>
+        <ol>
+        <li><a href="#qt5-styleplugins" onclick="close_sidebar()">qt5-styleplugins</a></li>
+        <li><a href="#kvantum" onclick="close_sidebar()">kvantum</a></li>
+</ol>
+
+        <li><a href="#trying-different-versions" onclick="close_sidebar()">Trying different versions</a></li>
+        <li><a href="#unicode-normalization" onclick="close_sidebar()">Unicode normalization</a></li>
+        <li><a href="#note-types-for-anki" onclick="close_sidebar()">Note Types for Anki</a></li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html">Join chat</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1609127492" position="-9999">
+        <h1 class="title"><a class="ablack" href="setting-up-anki.html">Setting up Anki</a></h1>
+        <div class="subtitle">December 28, 2020 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p><a href="https://wiki.archlinux.org/index.php/Anki">Anki</a>
 is a
 <a href="https://wikipedia.org/wiki/Spaced_repetition?lang=en">Spaced repetition</a>
 system (SRS), a program which allows you to create, manage and review
@@ -87,7 +195,7 @@ it is recommended that you read the <a href="https://docs.ankiweb.net/">Anki man
 However, because it's highly detailed and technical,
 the bulk of this article will focus on explaining the most useful Anki settings
 to help you get things up and running as quickly as possible.</p>
-<hr>
+<hr />
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
 <img alt="anki logo" src="img/anki_logo.webp" float="right">
 <p>There are several ways to install Anki.</p>
@@ -112,14 +220,8 @@ to avoid possible issues.</p>
 <h3 id="using-your-package-manager"><a class="anchor" href="#using-your-package-manager" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using your package manager</h3>
 <ul>
 <li>On <a href="https://wiki.archlinux.org/">Arch Linux</a> and other pacman-based distributions
-Anki is available in third-party repositories:
-<a href="https://aur.chaotic.cx/">Chaotic</a> and
-<a href="https://github.com/archlinuxcn/repo">archlinuxcn</a>.
-These are repositories that provide prebuilt AUR packages
-so that users don't need to build such packages themselves.
-After you enable a third-party repository,
-install Anki with <code>sudo pacman -S anki</code> as any other package.</li>
-<li>There's a prebuilt <a href="https://aur.archlinux.org/packages/anki-bin">anki-bin</a> package in the AUR.</li>
+Anki is available in the <a href="https://wiki.archlinux.org/title/Anki">official repositories</a>.
+Install Anki with <code>sudo pacman -S anki</code> as any other package.</li>
 <li>If you're not an Arch Linux user,
 I'm sure you'll find Anki in repositories of your distribution.
 To find Anki for your OS you can use <a href="https://pkgs.org/search/?q=Anki">pkgs.org</a>.
@@ -283,7 +385,8 @@ This tab should be removed from Anki completely.</p>
 <details>
 <summary>Deprecated</summary>
 <ul>
-<li><p><strong>Show new cards after reviews.</strong>
+<li>
+<p><strong>Show new cards after reviews.</strong>
 You always want to finish your reviews first,
 and you don't want new cards to slow you down.
 You can choose <code>Show new cards before reviews</code>
@@ -292,7 +395,8 @@ Mixing is probably the worst way and will confuse you when
 a new card pops up after a streak of mature cards.</p>
 <p><span class="article-note">Note</span>: This option has been <a href="#display-order">moved</a> in newer versions.</p>
 </li>
-<li><p><strong>Anki 2021 scheduler.</strong>
+<li>
+<p><strong>Anki 2021 scheduler.</strong>
 This is a
 <a href="https://faqs.ankiweb.net/the-2021-scheduler.html">new scheduler</a>
 that comes with Anki 2.1.45+.
@@ -425,14 +529,32 @@ and this sort order is likely to become the default in the future.</p>
 </blockquote>
 <h3 id="advanced"><a class="anchor" href="#advanced" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced</h3>
 <h4 id="fsrs"><a class="anchor" href="#fsrs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FSRS</h4>
-<p>FSRS is a new scheduler that replaces the default one.
-Although for some reason this setting resides in &quot;Options Groups&quot;,
-it works for the entire Collection (profile).
-Leave it disabled since FSRS is not mature enough
-for us to be able to say with confidence that it is better than the default scheduler.
-As of 2024,
-due to various bugs people have reported negative things about it.
-Bugs tend to get fixed over time, so this section might be revised in the future.</p>
+<p>FSRS is a new scheduler that replaces the default one (named <code>SM2</code>).
+For some reason the setting is located in &quot;Options Groups&quot;,
+but it applies to the entire Collection (profile).
+Leave it disabled.
+FSRS isn't mature enough to say it's better than the default scheduler.</p>
+<p>Update: FSRS appears to be a dead end.
+The best solution would be to deprecate it and invent a completely new scheduling algorithm.
+I don't think FSRS will ever be &quot;ready&quot;.
+Even its creators have admitted it.</p>
+<p>One community member tried FSRS and reported:</p>
+<blockquote>
+<p>I tried FSRS once.
+After about six months it finally optimized to roughly match the early learning intervals
+I was already using with SM2, and they were actually slightly shorter, so it was more work.
+To get there I had to endure its dumb default behavior: 1d → 8d → &quot;you got it wrong&quot; rescheduling,
+or on some older cards it did 18d → 7 months(!),
+and then of course I didn't remember it when it came back.
+It was a massive waste of time.</p>
+<p>Even after six months,
+FSRS had worse &quot;ease hell&quot; than SM2.
+It fell into a weird loop of 5d → 5d → 5d intervals repeatedly,
+and sometimes the next interval was shorter than the previous one (e.g., 15d → 11d),
+even though I'd just recalled it after 15 days.
+That was supposedly the &quot;lots of data, well optimized&quot; endpoint,
+and I gave up because it was wasting so much time.</p>
+</blockquote>
 <h4 id="maximum-interval"><a class="anchor" href="#maximum-interval" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum interval</h4>
 <p>Intervals of your cards can never increase beyond this limit.
 I advise setting it as big as possible.
@@ -551,12 +673,14 @@ But before you proceed, go to &quot;Preferences&quot; &gt; &quot;Appearance&quot
 and make sure that &quot;Style&quot; is set to &quot;Native&quot;.</p>
 <h3 id="qt5-styleplugins"><a class="anchor" href="#qt5-styleplugins" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>qt5-styleplugins</h3>
 <ol>
-<li><p>If your version of Anki uses <code>Qt5</code>,
+<li>
+<p>If your version of Anki uses <code>Qt5</code>,
 install <a href="https://aur.archlinux.org/packages/qt5-styleplugins/">qt5-styleplugins</a>.
 If your version of Anki uses <code>Qt6</code>,
 install <a href="https://aur.archlinux.org/packages/qt6gtk2">qt6gtk2</a>.</p>
 </li>
-<li><p>Set the following
+<li>
+<p>Set the following
 <a href="how-do-i-change-an-environment-variable.html">environment variable</a>:</p>
 <div class="pre-wrap"><pre><code>export QT_QPA_PLATFORMTHEME=gtk2
 </code></pre></div>
@@ -568,17 +692,21 @@ install <a href="https://aur.archlinux.org/packages/qt6gtk2">qt6gtk2</a>.</p>
 <div class="pre-wrap"><pre><code>$ sudo pacman -S kvantum qt5ct qt6ct
 </code></pre></div>
 <ol>
-<li><p>Launch <code>kvantummanager</code>,
+<li>
+<p>Launch <code>kvantummanager</code>,
 select &quot;Change/Delete Theme&quot;
 and select your theme from the combo box.</p>
 </li>
-<li><p>Press &quot;Use this theme&quot;, then &quot;Quit&quot;.</p>
+<li>
+<p>Press &quot;Use this theme&quot;, then &quot;Quit&quot;.</p>
 </li>
-<li><p>Open <code>qt5ct</code>, then <code>qt6ct</code>.
+<li>
+<p>Open <code>qt5ct</code>, then <code>qt6ct</code>.
 Select <code>kvantum</code> as theme engine.
 Apply changes.</p>
 </li>
-<li><p>Set the following
+<li>
+<p>Set the following
 <a href="how-do-i-change-an-environment-variable.html">environment variable</a>:</p>
 <ul>
 <li>If your version of Anki uses <code>Qt6</code>: <code>export QT_QPA_PLATFORMTHEME=qt6ct</code></li>
@@ -611,28 +739,28 @@ or
 <p>Install a specific version.
 For example, run <code>anki_test_install 2.1.45</code> to install Anki <code>2.1.45</code>.</p>
 <div class="pre-wrap"><pre><code>anki_test_install() {
-    local -r version=${1:?No version provided.}
-    local -r dir=~/.local/share/anki_builds/&quot;anki_$version&quot;
-    (
-        mkdir -p -- &quot;$dir&quot; &amp;&amp; cd -- &quot;$dir&quot; || exit
-        python -m venv --system-site-packages pyenv
-        ./pyenv/bin/pip3 install --upgrade pip
-        ./pyenv/bin/pip3 install --upgrade --pre &quot;aqt==$version&quot;
-    )
+	local -r version=${1:?No version provided.}
+	local -r dir=~/.local/share/anki_builds/&quot;anki_$version&quot;
+	(
+		mkdir -p -- &quot;$dir&quot; &amp;&amp; cd -- &quot;$dir&quot; || exit
+		python -m venv --system-site-packages pyenv
+		./pyenv/bin/pip3 install --upgrade pip
+		./pyenv/bin/pip3 install --upgrade --pre &quot;aqt==$version&quot;
+	)
 }
 </code></pre></div>
 <p>Run a specific version.
 This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to ask what version you want to run.</p>
 <div class="pre-wrap"><pre><code>anki_test_run() {
-    local -r dir=~/.local/share/anki_builds
-    if [[ $* ]]; then
-        local -r choice=$*
-    else
-        local -r choice=$(find &quot;$dir&quot; -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | dmenu)
-    fi
-    if [[ -n $choice ]]; then
-        (cd -- &quot;$dir/$choice&quot; &amp;&amp; ./pyenv/bin/anki)
-    fi
+	local -r dir=~/.local/share/anki_builds
+	if [[ $* ]]; then
+		local -r choice=$*
+	else
+		local -r choice=$(find &quot;$dir&quot; -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | dmenu)
+	fi
+	if [[ -n $choice ]]; then
+		(cd -- &quot;$dir/$choice&quot; &amp;&amp; ./pyenv/bin/anki)
+	fi
 }
 </code></pre></div>
 <p>These functions are
@@ -665,65 +793,71 @@ for reference.</p>
 including language learning.
 We store all of our note types in one Git repository for convenience.
 You can find the repository <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes">on GitHub</a>.</p>
-<p>Tags: <a href="tag_anki.html">anki</a></p>
-<!-- text end -->
-</article>
-<!-- entry end -->
-</main>
-</div>
-</div>
-<footer>
-<div class="footer-linkbox">
-<div>
-<h3>Learn Japanese</h3>
-<ul>
-<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
-<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
-<li><a href="/blog/resources.html">Resources</a></li>
-<li><a href="/blog/tag_faq.html">FAQ</a></li>
-<li><a href="/blog/all_tags.html">All tags</a></li>
-</ul>
-</div>
-<div>
-<h3>Anki</h3>
-<ul>
-<li><a href="/blog/setting-up-anki.html">Setup</a></li>
-<li><a href="/blog/how-to-review.html">How to study</a></li>
-<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
-<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
-</ul>
-</div>
-<div>
-<h3>Software</h3>
-<ul>
-<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
-<li><a href="/blog/setting-up-goldendict.html">GoldenDict-NG</a></li>
-<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
-<li><a href="/blog/tag_mpv.html">MPV</a></li>
-<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
-<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
-</ul>
-</div>
-<div>
-<h3>Get in touch</h3>
-<ul>
-<li><a href="feed.rss">RSS</a></li>
-<li><a href="/blog/join-our-community.html">Our community</a></li>
-<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
-<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
-<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
-</ul>
-</div>
-<div>
-<h3>Support us</h3>
-<p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
-<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
-</div>
-</div>
-<div class="footer-bottom">
-<p>Copyright © Tatsumoto Ren 2020-2026</p>
-<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
-</div>
-</footer>
+
+        <!-- text end -->
+	    <p>Tags:                 <a href="tag_anki.html">anki</a></p>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="how-to-type-in-japanese.html" title="How to type in Japanese" class="md-button prev">Previous</a>
+        <a href="useful-anki-add-ons-for-japanese.html" title="Anki add-ons" class="md-button next">Next</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Learn Japanese</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Table of Contents</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="tag_faq.html">FAQ</a></li>
+                    <li><a href="all_tags.html">All tags</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Setup</a></li>
+                    <li><a href="how-to-review.html">How to study</a></li>
+                    <li><a href="ankidrone-decks.html">Decks</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_yomichan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Our community</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support us</h3>
+                <p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Tatsumoto Ren 2020-2026</p>
+            <p>Generated with tatsublog, a static site generator</p>
+        </div>
+    </footer>
 </body>
 </html>

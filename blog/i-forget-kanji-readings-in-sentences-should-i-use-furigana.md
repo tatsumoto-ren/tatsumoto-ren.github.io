@@ -15,7 +15,7 @@ First you try to recall it, then you see if your guess was correct.
 What I always did is I followed
 [Wozniak's recommendations](https://www.supermemo.com/archives1990-2015/articles/20rules)
 and memorized **different representations** of a particular kanji.
-So, I would take the kanji I have trouble remembering and look it up on Jisho.org
+So, I would take the kanji I have trouble remembering and look it up on [Jisho.org](https://jisho.org/)
 [like this](https://jisho.org/search/%EF%BC%8A%E8%BD%A2%EF%BC%8A).
 Then I would deliberately find example sentences
 with the words that use the character and make Anki cards.

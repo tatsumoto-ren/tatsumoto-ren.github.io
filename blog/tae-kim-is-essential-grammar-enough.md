@@ -1,5 +1,5 @@
 ---
-title: Tae Kim: is "essential grammar" enough?
+title: "Tae Kim: is \"essential grammar\" enough?"
 date: 1669230459
 tags: ['faq']
 position: -9923

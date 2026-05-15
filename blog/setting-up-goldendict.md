@@ -283,7 +283,7 @@ The advantage of this mode is that there's a separate box for search suggestions
 
 If a dictionary has example sentences, it is possible to send an example to the *translate line*
 before making an Anki card.
-To do so, select the sentence, right-click and choose "Send <sentence> to the input line".
+To do so, select the sentence, right-click and choose "Send *sentence* to the input line".
 
 ### Disable Full Text Search
 

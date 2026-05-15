@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{ cfg.blog.template_archive_title }} | {{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}{{ cfg.blog.template_archive_title }} | {{ cfg.blog.global_title }}{% endblock %}
+
+{% block content %}
+<h1>{{ cfg.blog.template_archive_title }}</h1>
+
+{% for group in ctx.posts_by_month %}
+    <h2 class="allposts_header">{{ group.date | date_allposts }}</h2>
+    <ul>
+    {% for post in group.posts %}
+        <li><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a> &mdash; {{ post.metadata.date | date_allposts_post }}</li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+<div id="all_posts"><a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_archive_index_page }}</a></div>
+{% endblock %}

@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="top">
+    <header>
+        <a class="logo" href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">
+            <img src="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}" />
+            <span>{{ cfg.blog.global_short_title }}</span>
+        </a>
+        <a class="donate" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}"></a>
+    </header>
+    <div class="presentation">
+        <nav>
+            <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tools</a>
+            <a href="{{ 'setting-up-anki.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Anki</a>
+            <a href="{{ 'resources.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Resources</a>
+            <a href="{{ 'tag_faq.html' | in_blog | as_relative_to(ctx.output_file_path) }}">FAQ</a>
+        </nav>
+        <h1>All Japanese All The Time</h1>
+        <p>
+            A truly explosive approach to learning Japanese.
+            Everything you need for your language study.
+            Click here to start reading our Table of Contents!
+            And if you feel lost and need help, you can also join our community.
+        </p>
+        <div class="start_buttons">
+            <a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Get started</a>
+            <a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Community</a>
+        </div>
+    </div>
+</div>
+
+<div class="key_points row">
+    <h2><span class="icon beer"></span>Free forever</h2>
+    <p>
+        Access to knowledge shouldn't come at a price.
+        Our language guide is free,
+        and the <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">tools</a> we use and recommend
+        are <a target="_blank" href="https://www.gnu.org/philosophy/free-sw.html">libre</a>.
+
+        The site runs entirely on <a href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}">donations</a> from readers like you.
+    </p>
+    <h2><span class="icon audiobook"></span>Mass immersion</h2>
+    <p>
+        Start doing
+        <a href="{{ 'whats-ajatt.html' | in_blog | as_relative_to(ctx.output_file_path) }}">All Japanese All the Time</a>.
+        Instead of buying courses or going to classes,
+        we recommend that you learn Japanese through self-study
+        by listening, watching and reading fun stuff.
+    </p>
+    <h2><span class="icon anki"></span>Anki decks provided</h2>
+    <p>
+        Forget about forgetting.
+        We believe <a href="{{ 'spaced-repetition.html' | in_blog | as_relative_to(ctx.output_file_path) }}">spaced repetition</a>
+        is an excellent technique for learning vocabulary.
+        We provide <a href="{{ 'setting-up-anki.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Anki</a> decks
+        to aid your immersion and help your learn faster.
+    </p>
+    <h2><span class="icon chat"></span>Vibrant community</h2>
+    <p>
+        Remember, you're not solo in this journey.
+        We have a large Japanese learning <a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}">community</a>
+        where you can make friends,
+        ask questions,
+        get help from experienced learners,
+        and find countless learning resources!
+    </p>
+</div>
+
+<section class="tile recent-articles">
+    <div class="row txt-img-pair mirror-columns polka-dot-bg">
+        <div class="text">
+            <h2>Recent articles</h2>
+            <!-- Bashblog recent start -->
+            <ol class="bb-recent-posts">
+                {% for post in ctx.all_posts[:cfg.site.num_recent_posts] %}
+                <li><span class="bb-timestamp">{{ post.metadata.date.strftime('%B %d, %Y') }}</span><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a></li>
+                {% endfor %}
+            </ol>
+            <!-- Bashblog recent end -->
+        </div>
+        <div class="image drop-shadow circle-shadow">
+            <img src="img/oomuro.webp" alt="book">
+        </div>
+    </div>
+</section>
+
+<section class="tile guide skewed-bg">
+    <div class="row txt-img-pair">
+        <div class="text">
+            <h2>Japanese guide</h2>
+            <p>
+                <a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tatsumoto's Guide to Learning Japanese</a>
+                is a path for learning Japanese from scratch through immersion.
+                If you want to be fluent in Japanese then you've come to the right place.
+                The language learning method explained in this guide
+                will lead you to the highest levels of proficiency
+                faster than any other method in the world.
+            </p>
+            <p>
+                The guide includes free flashcards, resources,
+                and useful tools to help you in the process.
+            </p>
+        </div>
+        <div class="image drop-shadow light-effect">
+            <img src="img/funami.webp" alt="book">
+        </div>
+    </div>
+</section>
+
+<section class="tile anki">
+    <div class="row">
+        <div class="txt-img-pair mirror-columns">
+            <div class="text">
+                <h2>Ajatt-Tools</h2>
+                <p>
+                    <a target="_blank" href="https://github.com/Ajatt-Tools">Ajatt-Tools</a> help people learn languages.
+                    The software provides a powerful set of tools that streamline language learning
+                    and help you on the path to a near-native level.
+                </p>
+                <p>
+                    Create high quality flashcards with one click,
+                    optimize and enhance Anki with our <a target="_blank" href="https://ankiweb.net/shared/by-author/819023663">Anki add-ons</a>,
+                    generate furigana and pitch accents,
+                    find example sentences,
+                    and enjoy the process!
+                </p>
+            </div>
+            <div class="image">
+                <img src="https://raw.githubusercontent.com/Ajatt-Tools/PitchAccent/main/img/pitch_accent_demo.webp" alt="anki addon">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <b>Site updates:</b>
+    <a target="_blank" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses" target="_blank">
+        <img src="https://freesoftwareextremist.com/favicon.png" alt="Pleroma"> Pleroma
+    </a>
+    <a target="_blank" href="https://t.me/s/ajatt_tools" target="_blank">
+        <img src="https://telegram.org/img/t_logo.svg" alt="Telegram"> Telegram
+    </a>
+</footer>
+{% endblock %}

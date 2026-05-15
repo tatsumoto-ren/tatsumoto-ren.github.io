@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Search | {{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}Search | {{ cfg.blog.global_title }}{% endblock %}
+
+{% block content %}
+<h1>Search</h1>
+
+<div id="search-container" class="no-js" data-index-url="{{ ctx.search_index_json_path | as_relative_to(ctx.output_file_path) }}">
+    <p class="no-js-msg">
+        Search requires JavaScript to be enabled.
+        Please enable JavaScript in your browser settings.
+        The JavaScript on this page is libre software licensed under the GNU GPL v3.
+    </p>
+
+    <input
+        type="search"
+        id="search-input"
+        placeholder="Search articles..."
+        autocomplete="off"
+        autofocus
+    >
+    <div id="number-results-found"></div>
+    <div id="search-results"></div>
+</div>
+{% endblock %}

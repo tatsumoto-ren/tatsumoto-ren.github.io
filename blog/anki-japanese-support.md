@@ -195,6 +195,15 @@ When the specified conditions are met, the profile invokes a task associated wit
 For example, when the Note Type is Japanese and the source field is `VocabKanji`,
 the task is to write furigana to the `VocabFurigana` field.
 
+The "note type" parameter specifies a substring to match all note types
+for which you want the profile to work.
+The profile will be triggered for note type names that contain this string.
+Note type name matching is case-insensitive.
+For example,
+if you have note types named "Japanese sentences", "English sentences", and "Japanese words",
+you can put "japanese" into the "note type" field,
+and the profile will be triggered for "Japanese sentences" and "Japanese words" note types.
+
 The `split morphemes` setting determines whether an input string should be split into words.
 It makes sense to enable splitting for fields that are expected to contain more than one word,
 but keep it disabled for fields that are expected to contain only one word.

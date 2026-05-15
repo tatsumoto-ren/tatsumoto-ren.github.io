@@ -305,7 +305,7 @@ $ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts
 ### Configuration
 
 Download the
-[example config file](https://github.com/Ajatt-Tools/mpvacious/blob/master/.github/RELEASE/subs2srs.conf)
+[example config file](https://github.com/Ajatt-Tools/mpvacious/blob/master/mpvacious/config/default_config.conf)
 and save it to `~/.config/mpv/script-opts/subs2srs.conf`.
 If you use the Note Type from the
 [recommended mining deck](setting-up-anki.html#import-an-example-mining-deck),

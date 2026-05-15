@@ -26,7 +26,9 @@ Feel free to bookmark any one of them.
 
 ## Contributing
 
-When proposing changes to the site's content,
-[edit the markdown files](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io/tree/main/blog)
-so I can rebuild the site afterward.
-It's not necessary to touch the HTML files.
+The text files for this site can be viewed and edited
+[on GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io/tree/main/blog).
+To suggest a change,
+edit the Markdown files.
+You don't need to touch the HTML files.
+Create a pull request after making your edits.

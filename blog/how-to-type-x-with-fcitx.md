@@ -29,6 +29,10 @@ The character can be spelled `noma`
 because it resembles the katakana `ノマ` smashed together.
 Alternatively, you can try `onaji`.
 
+If you type `odori` or `odoriji`
+([踊り字,おどりじ](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97)),
+you can choose one of the other repetition symbols (`〱々ヽヾゝゞ`).
+
 ## Yen symbol ￥
 
 Press `＼` (backslash). Find `￥` among the predictions.

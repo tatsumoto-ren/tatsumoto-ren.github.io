@@ -2,6 +2,7 @@
 title: Setting up Anki
 date: 1609127492
 tags: ['anki']
+position: -9999
 ---
 
 [Anki](https://wiki.archlinux.org/index.php/Anki)
@@ -55,14 +56,8 @@ to avoid possible issues.
 ### Using your package manager
 
 * On [Arch Linux](https://wiki.archlinux.org/) and other pacman-based distributions
-  Anki is available in third-party repositories:
-  [Chaotic](https://aur.chaotic.cx/) and
-  [archlinuxcn](https://github.com/archlinuxcn/repo).
-  These are repositories that provide prebuilt AUR packages
-  so that users don't need to build such packages themselves.
-  After you enable a third-party repository,
-  install Anki with `sudo pacman -S anki` as any other package.
-* There's a prebuilt [anki-bin](https://aur.archlinux.org/packages/anki-bin) package in the AUR.
+  Anki is available in the [official repositories](https://wiki.archlinux.org/title/Anki).
+  Install Anki with `sudo pacman -S anki` as any other package.
 * If you're not an Arch Linux user,
   I'm sure you'll find Anki in repositories of your distribution.
   To find Anki for your OS you can use [pkgs.org](https://pkgs.org/search/?q=Anki).
@@ -467,14 +462,34 @@ According to Dae,
 
 #### FSRS
 
-FSRS is a new scheduler that replaces the default one.
-Although for some reason this setting resides in "Options Groups",
-it works for the entire Collection (profile).
-Leave it disabled since FSRS is not mature enough
-for us to be able to say with confidence that it is better than the default scheduler.
-As of 2024,
-due to various bugs people have reported negative things about it.
-Bugs tend to get fixed over time, so this section might be revised in the future.
+FSRS is a new scheduler that replaces the default one (named `SM2`).
+For some reason the setting is located in "Options Groups",
+but it applies to the entire Collection (profile).
+Leave it disabled.
+FSRS isn't mature enough to say it's better than the default scheduler.
+
+Update: FSRS appears to be a dead end.
+The best solution would be to deprecate it and invent a completely new scheduling algorithm.
+I don't think FSRS will ever be "ready".
+Even its creators have admitted it.
+
+One community member tried FSRS and reported:
+
+> I tried FSRS once.
+> After about six months it finally optimized to roughly match the early learning intervals
+> I was already using with SM2, and they were actually slightly shorter, so it was more work.
+> To get there I had to endure its dumb default behavior: 1d → 8d → "you got it wrong" rescheduling,
+> or on some older cards it did 18d → 7 months(!),
+> and then of course I didn't remember it when it came back.
+> It was a massive waste of time.
+>
+> Even after six months,
+> FSRS had worse "ease hell" than SM2.
+> It fell into a weird loop of 5d → 5d → 5d intervals repeatedly,
+> and sometimes the next interval was shorter than the previous one (e.g., 15d → 11d),
+> even though I'd just recalled it after 15 days.
+> That was supposedly the "lots of data, well optimized" endpoint,
+> and I gave up because it was wasting so much time.
 
 #### Maximum interval
 

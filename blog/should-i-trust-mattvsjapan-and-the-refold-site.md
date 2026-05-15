@@ -50,11 +50,16 @@ AJATT **does not** recommend his products.
 ## Lack of credibility
 
 Language learning communities have widely criticized MattvsJapan's practices.
-English speakers are already aware of his past and current scams,
+He has scammed too many people and taken their money.
+English speakers are already aware of this,
 so they no longer trust him.
 As a result,
 he has a minimal following among Japanese learners.
-To compensate for his shrinking audience,
+Most people don't take him seriously anymore,
+so he's had to be more aggressive with advertising.
+Lately his content is mostly ads for new money grab schemes.
+Additionally,
+to compensate for his shrinking audience,
 he has attempted to pivot,
 targeting Japanese audiences and offering "English lessons" instead.
 
@@ -85,5 +90,5 @@ Be cautious of scams,
 ineffective learning methods,
 and sites that try to exploit your desire to learn.
 Stay informed,
-use only Free and Libre software,
+use only [Free and Libre](https://www.gnu.org/philosophy/free-software-even-more-important.html) software,
 and don't fall prey to those who seek to profit from your language learning journey.

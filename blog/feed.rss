@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
-<title>All Japanese All The Time - AJATT</title>
+<title>All Japanese All The Time | AJATT</title>
 <link>https://ajatt.top/blog/index.html</link>
-<description>Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</description>
+<description>Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.</description>
 <language>en</language>
-<lastBuildDate>Tue, 12 May 2026 00:58:44 +0300</lastBuildDate>
-<pubDate>Tue, 12 May 2026 00:58:44 +0300</pubDate>
+<lastBuildDate>Fri, 15 May 2026 02:57:29 +0000</lastBuildDate>
+<pubDate>Fri, 15 May 2026 02:57:29 +0000</pubDate>
 <atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Ankidrone decks: Audio issues on iOS</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+    <item>
+        <title>Ankidrone decks: Audio issues on iOS</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>I wanted to reach out regarding Ankidrone Essentials V8.
 On my computer, all the audio files play without any issues.
 However, in Anki Mobile on iOS, many of the audio files do not play.</p>
@@ -21,16 +22,19 @@ but I ran into problems.</p>
 Anki Mobile, or does it only work on the computer? Any guidance or solution
 would be greatly appreciated.</p>
 </blockquote>
-<hr>]]></description>
-<link>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</link>
-<guid>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 07 Dec 2025 21:22:47 +0300</pubDate>
-</item>
-<item>
-<title>Niche proprietary games and AJATT</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</link>
+        <guid>https://ajatt.top/blog/ankidrone-decks-audio-issues-on-ios.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sun, 07 Dec 2025 18:22:47 +0000</pubDate>
+    </item>
+    <item>
+        <title>Niche proprietary games and AJATT</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>What if a person's motivation for learning Japanese
 is only to play niche proprietary games/software
 that will never be localized into their native language.
@@ -60,27 +64,33 @@ a free replacement that will help others stop using the proprietary program.
 So if your goal is to help other AJATTers obtain free replacements for those Japanese games,
 you might choose to run them for the purpose of reverse-engineering or creating alternatives.
 Running proprietary software solely for immersion is a bad idea.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://ajatt.top/blog/proprietary-games-and-ajatt.html</link>
-<guid>https://ajatt.top/blog/proprietary-games-and-ajatt.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Mon, 17 Nov 2025 04:14:50 +0300</pubDate>
-</item>
-<item>
-<title>About this site</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/proprietary-games-and-ajatt.html</link>
+        <guid>https://ajatt.top/blog/proprietary-games-and-ajatt.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Mon, 17 Nov 2025 01:14:50 +0000</pubDate>
+    </item>
+    <item>
+        <title>About this site</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>This site contains <a href="whats-ajatt.html">AJATT</a>'s language learning guide and related information.
 Here you'll find everything you need to know about learning foreign languages.</p>
-<hr>]]></description>
-<link>https://ajatt.top/blog/about-this-site.html</link>
-<guid>https://ajatt.top/blog/about-this-site.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Thu, 30 Oct 2025 18:53:39 +0300</pubDate>
-</item>
-<item>
-<title>Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/about-this-site.html</link>
+        <guid>https://ajatt.top/blog/about-this-site.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Thu, 30 Oct 2025 15:53:39 +0000</pubDate>
+    </item>
+    <item>
+        <title>Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>Hi! In the past I have heard other Japanese learners say that women speak
 Japanese very differently from men and that learning Japanese purely from
 copying slice of life/CGDCT material will make you sound obviously effete and
@@ -92,16 +102,19 @@ use different expressions, pronouns and sentence endings.
 People also change how they speak as they age.
 A 75-year-old man doesn't sound the same as a 15-year-old girl.
 This is true for many other languages as well.</p>
-<hr>]]></description>
-<link>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</link>
-<guid>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Mon, 27 Oct 2025 12:31:36 +0300</pubDate>
-</item>
-<item>
-<title>What's actually the best way to find easy anime?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</link>
+        <guid>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Mon, 27 Oct 2025 09:31:36 +0000</pubDate>
+    </item>
+    <item>
+        <title>What&#39;s actually the best way to find easy anime?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>What's actually the best way to find easy anime?
 You would think just analyzing the subs for speed,
 frequency and words you know, maybe even grammar,
@@ -129,16 +142,19 @@ Plus,
 many of these resources require you to create an account
 and come with questionable money-grab schemes.
 If you find an anime that looks fun, it's probably the best one for you personally.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</link>
-<guid>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 25 May 2025 18:22:10 +0300</pubDate>
-</item>
-<item>
-<title>Should I write each word once or many times while practicing handwriting?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</link>
+        <guid>https://ajatt.top/blog/whats-actually-the-best-way-to-find-easy-anime.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sun, 25 May 2025 15:22:10 +0000</pubDate>
+    </item>
+    <item>
+        <title>Should I write each word once or many times while practicing handwriting?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>I printed out some handwriting practice templates.
 However,
 I haven't found any recommendations on
@@ -160,16 +176,19 @@ Anki takes care of the intervals for you,
 and if you forget how to write a word,
 the program will show you the corresponding flashcard more often.</p>
 <p>For learning handwriting, see <a href="writing-japanese.html#writing-kanji">Writing TSCs</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://ajatt.top/blog/should-i-write-each-word-many-times.html</link>
-<guid>https://ajatt.top/blog/should-i-write-each-word-many-times.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Wed, 30 Apr 2025 03:07:10 +0300</pubDate>
-</item>
-<item>
-<title>Is it worth making production cards?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/should-i-write-each-word-many-times.html</link>
+        <guid>https://ajatt.top/blog/should-i-write-each-word-many-times.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Wed, 30 Apr 2025 00:07:10 +0000</pubDate>
+    </item>
+    <item>
+        <title>Is it worth making production cards?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
 <p>Is it worth learning words not just by associating a word with its translation,
 but also in reverse — from translation to word?
 For example,
@@ -177,16 +196,19 @@ if I look at a list of translations and try to recall the corresponding Japanese
 It feels much harder than simply memorizing the translation.
 However, this method seems to strengthens my memory.</p>
 </blockquote>
-<hr>]]></description>
-<link>https://ajatt.top/blog/is-it-worth-making-production-cards.html</link>
-<guid>https://ajatt.top/blog/is-it-worth-making-production-cards.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sun, 02 Mar 2025 04:48:15 +0300</pubDate>
-</item>
-<item>
-<title>I barely understand anything. Is immersion actually helpful?</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>Absolutely!</p>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/is-it-worth-making-production-cards.html</link>
+        <guid>https://ajatt.top/blog/is-it-worth-making-production-cards.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sun, 02 Mar 2025 01:48:15 +0000</pubDate>
+    </item>
+    <item>
+        <title>I barely understand anything. Is immersion actually helpful?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>Absolutely!</p>
 <p>Immersion is crucial for mastering a foreign language.
 Your brain is a pattern-recognition machine,
 optimized for language learning
@@ -194,16 +216,19 @@ and designed to learn languages naturally.
 By surrounding yourself with content in the target language (TL),
 you begin to internalize vocabulary and grammar intuitively,
 even if you don't notice it.</p>
-<hr>]]></description>
-<link>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
-<guid>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sat, 18 Jan 2025 05:06:48 +0300</pubDate>
-</item>
-<item>
-<title>Classes</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>Traditional language classes suck.
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
+        <guid>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sat, 18 Jan 2025 02:06:48 +0000</pubDate>
+    </item>
+    <item>
+        <title>Classes</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>Traditional language classes suck.
 They cost money.
 They are boring.
 And they are not effective.</p>
@@ -212,25 +237,30 @@ hoping that teachers will magically transfer
 <a href="are-textbooks-bad.html">textbook</a> material into your brain
 during short daily lessons,
 you might want to rethink your strategy.</p>
-<hr>]]></description>
-<link>https://ajatt.top/blog/classes.html</link>
-<guid>https://ajatt.top/blog/classes.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Wed, 08 Jan 2025 21:17:08 +0300</pubDate>
-</item>
-<item>
-<title>I Stopped Using Matrix</title>
-<author>Tatsumoto Ren</author>
-<description><![CDATA[<p>I have some exciting news, folks!
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/classes.html</link>
+        <guid>https://ajatt.top/blog/classes.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Wed, 08 Jan 2025 18:17:08 +0000</pubDate>
+    </item>
+    <item>
+        <title>I Stopped Using Matrix</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>I have some exciting news, folks!
 You've been asking me to do this for a long time,
 and now the moment has finally arrived.
 I've decided to discontinue our Matrix community
 in favor of a different platform.</p>
-<hr>]]></description>
-<link>https://ajatt.top/blog/i-stopped-using-matrix.html</link>
-<guid>https://ajatt.top/blog/i-stopped-using-matrix.html</guid>
-<dc:creator>Tatsumoto Ren</dc:creator>
-<pubDate>Sat, 30 Nov 2024 20:02:51 +0300</pubDate>
-</item>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/i-stopped-using-matrix.html</link>
+        <guid>https://ajatt.top/blog/i-stopped-using-matrix.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sat, 30 Nov 2024 17:02:51 +0000</pubDate>
+    </item>
 </channel>
 </rss>

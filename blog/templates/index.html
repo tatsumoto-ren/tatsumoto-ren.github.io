@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}{{ cfg.blog.global_title }}{% endblock %}
+
+{% block before_content %}
+    {% if ctx.index_begin_content %}
+        {{ ctx.index_begin_content|safe }}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- index begin -->
+
+    {% for post in ctx.index_articles %}
+    <article timestamp="{{ post.metadata.date|timestamp_int }}" position="{{ loop.index0 }}">
+        {{ ctx.mk_h1_title(post.metadata.title, post.html_file_path) | safe }}
+        <div class="subtitle">{{ post.metadata.date | date_allposts_post }} &mdash; {{ post.metadata.author }}</div>
+        <!-- text begin -->
+        {% if post.is_truncated %}
+        {{ post.html_content_preview | safe }}
+        <p class="readmore"><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_read_more }}</a></p>
+        {% else %}
+        {{ post.html_content | safe }}
+        {% endif %}
+        <!-- text end -->
+    </article>
+    {% endfor %}
+
+    <div id="all_posts">
+    <a href="{{ ctx.archive_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_archive }}</a> &mdash;
+    <a href="{{ ctx.tags_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_tags_title }}</a> &mdash;
+    <a href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_subscribe }}</a>
+    </div>
+
+<!-- index end -->
+{% endblock %}

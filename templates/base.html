@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ cfg.site.language }}">
+<head>
+    <!-- title -->
+    <title>{{ cfg.blog.global_title }}</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ cfg.blog.global_description }}">
+    <meta name="author" content="{{ cfg.blog.global_author }}">
+    <meta name="keywords" content="{{ cfg.blog.global_keywords }}">
+
+    <!-- properties -->
+    <meta property="og:title" content="{{ cfg.blog.global_title }}">
+    <meta property="og:site_name" content="{{ cfg.blog.global_title }}">
+    <meta property="og:url" content="{{ cfg.site.global_url }}">
+    <meta property="og:description" content="{{ cfg.blog.global_description }}">
+    <meta property="og:image" content="{{ cfg.site.favicon_path | as_full_url }}">
+
+    <!-- scripts -->
+    {% for js_file in cfg.site.js_include %}
+    <script defer src="{{ js_file | as_relative_to(ctx.output_file_path) }}"></script>
+    {% endfor %}
+
+    <!-- links -->
+    <link rel="canonical" href="{{ cfg.site.global_url }}">
+    <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ cfg.blog.template_subscribe_browser_button }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
+    {% for css_file in cfg.site.css_include %}
+    <link rel="stylesheet" href="{{ css_file | as_relative_to(ctx.output_file_path) }}" type="text/css">
+    {% endfor %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>

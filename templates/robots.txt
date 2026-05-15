@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: {{ ctx.sitemap_xml_path | as_full_url }}

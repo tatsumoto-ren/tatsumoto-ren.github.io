@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ ctx.post.metadata.title }} | {{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}{{ ctx.post.metadata.title }} | {{ cfg.blog.global_title }}{% endblock %}
+
+{% block content %}
+    <!-- entry begin -->
+    <article timestamp="{{ ctx.post.metadata.date|timestamp_int }}" position="{{ ctx.post.metadata.position }}">
+        <h1 class="title"><a class="ablack" href="{{ ctx.post.html_file_path.name }}">{{ ctx.post.metadata.title }}</a></h1>
+        <div class="subtitle">{{ ctx.post.metadata.date | date_allposts_post }} &mdash; {{ ctx.post.metadata.author }}</div>
+        <!-- text begin -->
+        {{ ctx.post.html_content|safe }}
+        <!-- text end -->
+	{% if ctx.post.metadata.tags %}
+	    <p>{{ cfg.blog.template_tags_line_header }} {% for tag in ctx.post.metadata.tags %}
+                <a href="{{ cfg.blog.prefix_tags }}{{ tag }}.html">{{tag}}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}</p>
+        {% endif %}
+    </article>
+    <!-- entry end -->
+{% endblock %}
+
+{% block after_main %}
+    {% if ctx.prev_page or ctx.next_page %}
+    <div class="toc_navigation">
+        {% if ctx.prev_page %}
+        <a href="{{ ctx.prev_page.path }}" title="{{ ctx.prev_page.name }}" class="md-button prev">Previous</a>
+        {% endif %}
+        {% if ctx.next_page %}
+        <a href="{{ ctx.next_page.path }}" title="{{ ctx.next_page.name }}" class="md-button next">Next</a>
+        {% endif %}
+    </div>
+    {% endif %}
+{% endblock %}

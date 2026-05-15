@@ -1,0 +1,7 @@
+.git* export-ignore
+scripts export-ignore
+*.conf export-ignore
+*.sh export-ignore
+LICENSE export-ignore
+README.md export-ignore
+.lycheeignore export-ignore

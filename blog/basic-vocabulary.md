@@ -181,7 +181,7 @@ That level of understanding can only be achieved through **immersion**.
   To understand their meanings in Japanese you need to know the underlying grammar structures.
   Studying sentences can't completely replace a [grammar guide](learning-grammar.html#grammar-guides).
   If there are grammar patterns that trip you up,
-  look them up in a grammar guide, a dictionary like Jisho.org, or on Google.
+  look them up in a grammar guide, a dictionary like [Jisho.org](https://jisho.org/), or on Google.
 
 ## How many words do I need to learn from a premade deck
 

@@ -108,7 +108,7 @@ you may need to restart the applications to load the new settings.
 
 Below you will find the recommended configuration file for rendering Japanese fonts.
 
-<p align="center"><a class="download_button" href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf">Download</a>
+<p align="center"><a class="download_button" href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/fontconfig/conf.d/99-japanese-fonts.conf">Download</a></p>
 
 Without the settings, Japanese text looks pixelated.
 Truly a nightmare.
@@ -210,7 +210,7 @@ font pango: Hack, IPAPGothic, Noto Sans Mono CJK JP, FontAwesome, Hack Nerd Font
 ```
 
 * My `i3` config can be found [in my dotfiles](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config).
-* [i3 config reference](https://i3wm.org/docs/userguide#fonts).
+* [i3 config reference](https://i3wm.org/docs/userguide.html#fonts).
 
 ## Firefox
 

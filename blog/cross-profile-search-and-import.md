@@ -78,7 +78,7 @@ you'll likely want to bulk-convert the audio files to `Opus`
 and the image files to either `WebP` or `AVIF`.
 
 To convert the files in your Anki collection,
-you can use [AJT Media Converter](useful-anki-add-ons-for-japanese#media-converter).
+you can use [AJT Media Converter](useful-anki-add-ons-for-japanese.html#media-converter).
 This add-on converts `JPG` images to `WebP` or `AVIF`,
 and `MP3` audio files to `OGG/Opus`.
 

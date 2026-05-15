@@ -1,76 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more." />
-<meta name="author" content="Tatsumoto Ren" />
-<meta name="keywords" content="Learn Japanese, Tatsumoto's Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time" />
-<link rel="stylesheet" href="res/blog.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
-<link rel="icon" type="image/webp" href="/img/logo.webp"/>
-<title>Setting up Rikaitan</title>
-<meta property="og:title" content="Setting up Rikaitan">
-<meta property="og:site_name" content="All Japanese All The Time - AJATT">
-<meta property="og:url" content="https://ajatt.top/blog/setting-up-yomichan.html">
-<meta property="og:description" content="Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.">
-<meta property="og:image" content="https://ajatt.top/img/logo.webp">
-<script defer src="res/blog.js"></script>
+    <!-- title -->
+    <title>Setting up Rikaitan | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta name="author" content="Tatsumoto Ren">
+    <meta name="keywords" content="Learn Japanese, Tatsumoto&#39;s Guide to Japanese, Path to Japanese fluency, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Setting up Rikaitan | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/blog/setting-up-yomichan.html">
+    <meta property="og:description" content="Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="res/blog.js"></script>
+    <script defer src="res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/blog/setting-up-yomichan.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+    <link rel="stylesheet" href="res/blog.css" type="text/css">
 </head>
 <body>
-<input type="checkbox" id="menu-btn" />
-<header>
-<a href="index.html" class="logo">
-<img alt="達元" src="/img/logo.webp" />
-<span>AJATT</span>
-</a>
-<div id="description">Tatsumoto's guide to learning Japanese. How to use Free Software to learn Japanese, and more.</div>
-<nav>
-<a href="table-of-contents.html" class="guide_link">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html" class="important">Join chat</a>
-</nav>
-<label class="menu-btn" for="menu-btn"><span class="menu-icon hamburger"></span></label>
-</header>
-<div id="sidebar">
-<form action="" name="sidebar_header" class="sidebar_header">
-<a href="/" title="Go home">Home</a>
-<input title="Light theme" type="radio" name="blog-theme" id="light" checked>
-<input title="Pink theme" type="radio" name="blog-theme" id="pink">
-<input title="Dark theme" type="radio" name="blog-theme" id="dark">
-<a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
-<label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
-</form>
-<div class="important-links on-mobile">
-<a href="table-of-contents.html">Guide</a>
-<a href="our-immersion-learning-toolset.html">Tools</a>
-<a href="resources.html">Resources</a>
-<a href="ankidrone-decks.html">Decks</a>
-<a href="tag_dictionaries.html">Dictionaries</a>
-<a href="tag_faq.html">FAQ</a>
-</div>
-<hr>
-<div class="page-contents"></div>
-<hr>
-<div class="important-links">
-<a href="donating-to-tatsumoto.html">Donate</a>
-<a href="join-our-community.html">Join chat</a>
-</div>
-</div>
-<div id="divbodyholder">
-<div id="divbody">
-<main>
-<!-- entry begin -->
-<article timestamp="1619220247" position="0">
-<h1 class="title"><a class="ablack" href="setting-up-yomichan.html">Setting up Rikaitan</a></h1>
-<div class="subtitle">April 24, 2021 &mdash; Tatsumoto Ren</div>
-<!-- text begin -->
-<p><a href="https://rikaitan.github.io/">Rikaitan</a>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html" class="important">Join chat</a>
+        </nav>
+        <a class="nav_search_button" title="Search" href="search.html">
+            <div class="nav_search_button_icon">Search</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Menu"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../index.html" title="Go home">Home</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" onclick="close_sidebar()" title="Go to top"><span class="menu-icon up-arrow">Up</span></a>
+            <label class="menu-btn" for="menu-btn" title="Close"><span class="menu-icon close-btn">Close</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Guide</a>
+            <a href="our-immersion-learning-toolset.html">Tools</a>
+            <a href="resources.html">Resources</a>
+            <a href="ankidrone-decks.html">Decks</a>
+            <a href="tag_dictionaries.html">Dictionaries</a>
+            <a href="tag_faq.html">FAQ</a>
+            <a href="search.html">Search</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+        <li><a href="#installation" onclick="close_sidebar()">Installation</a></li>
+        <ol>
+        <li><a href="#gecko-based" onclick="close_sidebar()">Gecko-based</a></li>
+        <ol>
+        <li><a href="#caveats" onclick="close_sidebar()">Caveats</a></li>
+</ol>
+
+        <li><a href="#chromium-based" onclick="close_sidebar()">Chromium-based</a></li>
+        <li><a href="#github-releases" onclick="close_sidebar()">GitHub Releases</a></li>
+        <li><a href="#ankiconnect-plugin" onclick="close_sidebar()">AnkiConnect plugin</a></li>
+        <li><a href="#mobile-devices" onclick="close_sidebar()">Mobile devices</a></li>
+</ol>
+
+        <li><a href="#download-dictionaries" onclick="close_sidebar()">Download dictionaries</a></li>
+        <li><a href="#configuration" onclick="close_sidebar()">Configuration</a></li>
+        <ol>
+        <li><a href="#backups" onclick="close_sidebar()">Backups</a></li>
+        <li><a href="#install-dictionaries" onclick="close_sidebar()">Install dictionaries</a></li>
+        <li><a href="#pitch-accents" onclick="close_sidebar()">Pitch accents</a></li>
+        <li><a href="#anki-settings" onclick="close_sidebar()">Anki settings</a></li>
+        <ol>
+        <li><a href="#settings-overview" onclick="close_sidebar()">Settings overview</a></li>
+        <li><a href="#screenshot" onclick="close_sidebar()">Screenshot</a></li>
+        <li><a href="#commentary" onclick="close_sidebar()">Commentary</a></li>
+</ol>
+
+        <li><a href="#handlebars" onclick="close_sidebar()">Handlebars</a></li>
+        <li><a href="#popup-size" onclick="close_sidebar()">Popup size</a></li>
+        <li><a href="#styling" onclick="close_sidebar()">Styling</a></li>
+        <li><a href="#profiles" onclick="close_sidebar()">Profiles</a></li>
+        <li><a href="#replacement-patterns" onclick="close_sidebar()">Replacement patterns</a></li>
+        <li><a href="#recursive-lookups" onclick="close_sidebar()">Recursive lookups</a></li>
+        <li><a href="#keyboard-shortcuts" onclick="close_sidebar()">Keyboard shortcuts</a></li>
+        <li><a href="#collapse-dictionaries" onclick="close_sidebar()">Collapse dictionaries</a></li>
+        <li><a href="#audio" onclick="close_sidebar()">Audio</a></li>
+        <li><a href="#miscellaneous" onclick="close_sidebar()">Miscellaneous</a></li>
+</ol>
+
+        <li><a href="#usage" onclick="close_sidebar()">Usage</a></li>
+        <li><a href="#rikaitan-pdf-viewer" onclick="close_sidebar()">Rikaitan PDF Viewer</a></li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Donate</a>
+            <a href="join-our-community.html">Join chat</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1619220247" position="0">
+        <h1 class="title"><a class="ablack" href="setting-up-yomichan.html">Setting up Rikaitan</a></h1>
+        <div class="subtitle">April 23, 2021 &mdash; Tatsumoto Ren</div>
+        <!-- text begin -->
+        <p><a href="https://rikaitan.github.io/">Rikaitan</a>
 is a browser extension with a pop-up dictionary
 that allows you to look up unknown words with the hover of a mouse.
 On top of that Rikaitan can be set up to create Anki cards from the words which you look up.</p>
@@ -82,7 +142,7 @@ which is referred to as <em>target word</em>.</p>
 but if you're a TSC user it is not necessary to keep mined items short.
 When you're out in the wild picking sentences, select the ones that are interesting to you.
 Your goal is not to mine every word.</p>
-<hr>
+<hr />
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
 <p><span class="article-note">Note</span>: <a href="avoid-fake-clones-of-rikaitan.html">Avoid fake clones of Rikaitan</a>.</p>
 <h3 id="gecko-based"><a class="anchor" href="#gecko-based" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gecko-based</h3>
@@ -135,10 +195,10 @@ The archives should not be unzipped before installation.</p>
 <h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
 <p>The great thing about Rikaitan is that it is customizable.
 To access the settings page, click the
-<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg" alt="yomichan-settings">
+<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg" alt="yomichan-settings" />
 button in the browser toolbar and choose &quot;Settings&quot;.
 In the bottom left corner enable &quot;Advanced&quot; to access hidden settings mentioned in this guide.</p>
-<p><img src="img/rikaitan-advanced-toggle.webp" alt="screenshot"></p>
+<p><img src="img/rikaitan-advanced-toggle.webp" alt="screenshot" /></p>
 <h3 id="backups"><a class="anchor" href="#backups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backups</h3>
 <p>If you are installing the extension on a new device,
 export and import your setting by going to
@@ -295,7 +355,8 @@ The appearance of the popup window can be changed by going to
 <p>Most people keep their settings rather simple,
 but there are a few important modifications I'd like to mention.</p>
 <ol>
-<li><p><strong>Hide furigana.</strong>
+<li>
+<p><strong>Hide furigana.</strong>
 When you use the popup window, it shows you all kanji readings right away.
 This is not desirable because you want to recall the readings yourself before looking them up.
 The code below makes furigana appear only when you hover over words.</p>
@@ -303,7 +364,8 @@ The code below makes furigana appear only when you hover over words.</p>
 ruby:hover rt { visibility: visible; }
 </code></pre></div>
 </li>
-<li><p><strong>Increase font size.</strong>
+<li>
+<p><strong>Increase font size.</strong>
 By default, Rikaitan uses very small font.
 If you're using monolingual dictionaries, you're going to find the font uncomfortable.
 To increase its size, the following code can be used.</p>
@@ -322,7 +384,8 @@ To increase its size, the following code can be used.</p>
 </code></pre></div>
 <p>Adjust the size to suit your preference.</p>
 </li>
-<li><p><strong>Make tags smaller.</strong>
+<li>
+<p><strong>Make tags smaller.</strong>
 Tags aren't that important, so it makes sense to shrink them a bit to save space.</p>
 <div class="pre-wrap"><pre><code>.tag-label-content { font-size: 12px; }
 </code></pre></div>
@@ -332,7 +395,8 @@ Tags aren't that important, so it makes sense to shrink them a bit to save space
 }
 </code></pre></div>
 </li>
-<li><p><strong>Popup page in the Anki-card style.</strong>
+<li>
+<p><strong>Popup page in the Anki-card style.</strong>
 Makes your popups look similar to your targeted sentence cards.</p>
 <div class="pre-wrap"><pre><code>.content-body {
     background-color: #fffaf0;
@@ -348,7 +412,8 @@ Makes your popups look similar to your targeted sentence cards.</p>
 }
 </code></pre></div>
 </li>
-<li><p><strong>Miscellaneous.</strong>
+<li>
+<p><strong>Miscellaneous.</strong>
 CSS can do almost everything.</p>
 <p>To find the right class name to apply your styles to,
 right-click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
@@ -465,7 +530,7 @@ will bring up additional information about the kanji.</p>
 is a tool that helps analyze text in the system clipboard.
 It is helpful when reading manga, books, or watching videos in <code>mpv</code>.</p>
 <p>By clicking on
-<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/play-audio.svg" alt="play-audio">
+<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/play-audio.svg" alt="play-audio" />
 you can hear an approximate pronunciation of the selected word.
 Unless you're using a custom pronunciation server, <strong>don't trust</strong> the default audio sources
 and don't add the pronunciations to Anki for the reasons explained earlier.</p>
@@ -475,72 +540,78 @@ by letting you add a custom audio source
 that features pronunciations made by native speakers.
 The audio files will be downloaded and added to Anki
 whenever a new cards is created or an existing card is updated.</p>
-<p>The <img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/add-term-kanji.svg" alt="plus"> button
+<p>The <img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/add-term-kanji.svg" alt="plus" /> button
 allows you to make Anki cards in one click.
 Assuming you've configured your Note Type,
 now you can create properly formatted targeted sentence cards while reading.</p>
 <h2 id="rikaitan-pdf-viewer"><a class="anchor" href="#rikaitan-pdf-viewer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rikaitan PDF Viewer</h2>
 <p><a href="https://rikaitan.github.io/rikaitan-pdf-viewer/web/">Rikaitan PDF Viewer</a>.
 Read PDF files with Rikaitan text scanning.</p>
-<p>Tags: <a href="tag_guide.html">guide</a>, <a href="tag_dictionaries.html">dictionaries</a>, <a href="tag_rikaitan.html">rikaitan</a></p>
-<!-- text end -->
-</article>
-<!-- entry end -->
-</main>
-</div>
-</div>
-<footer>
-<div class="footer-linkbox">
-<div>
-<h3>Learn Japanese</h3>
-<ul>
-<li><a href="/blog/table-of-contents.html">Table of Contents</a></li>
-<li><a href="/blog/our-immersion-learning-toolset.html">Tools</a></li>
-<li><a href="/blog/resources.html">Resources</a></li>
-<li><a href="/blog/tag_faq.html">FAQ</a></li>
-<li><a href="/blog/all_tags.html">All tags</a></li>
-</ul>
-</div>
-<div>
-<h3>Anki</h3>
-<ul>
-<li><a href="/blog/setting-up-anki.html">Setup</a></li>
-<li><a href="/blog/how-to-review.html">How to study</a></li>
-<li><a href="/blog/ankidrone-decks.html">Decks</a></li>
-<li><a href="/blog/useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
-</ul>
-</div>
-<div>
-<h3>Software</h3>
-<ul>
-<li><a href="/blog/setting-up-qolibri.html">Qolibri</a></li>
-<li><a href="/blog/setting-up-goldendict.html">GoldenDict-NG</a></li>
-<li><a href="/blog/tag_yomichan.html">Rikaitan</a></li>
-<li><a href="/blog/tag_mpv.html">MPV</a></li>
-<li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
-<li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
-</ul>
-</div>
-<div>
-<h3>Get in touch</h3>
-<ul>
-<li><a href="feed.rss">RSS</a></li>
-<li><a href="/blog/join-our-community.html">Our community</a></li>
-<li><a href="https://t.me/ajatt_tools">Telegram</a></li>
-<li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
-<li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
-</ul>
-</div>
-<div>
-<h3>Support us</h3>
-<p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
-<p><a class="md-button donations" href="/blog/donating-to-tatsumoto.html">Donate</a></p>
-</div>
-</div>
-<div class="footer-bottom">
-<p>Copyright © Tatsumoto Ren 2020-2026</p>
-<p>Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</p>
-</div>
-</footer>
+
+        <!-- text end -->
+	    <p>Tags:                 <a href="tag_guide.html">guide</a>,                 <a href="tag_dictionaries.html">dictionaries</a>,                 <a href="tag_rikaitan.html">rikaitan</a></p>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="setting-up-qolibri.html" title="Qolibri" class="md-button prev">Previous</a>
+        <a href="yomichan-and-epwing-dictionaries.html" title="Dictionary files" class="md-button next">Next</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Learn Japanese</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Table of Contents</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Tools</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="tag_faq.html">FAQ</a></li>
+                    <li><a href="all_tags.html">All tags</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Setup</a></li>
+                    <li><a href="how-to-review.html">How to study</a></li>
+                    <li><a href="ankidrone-decks.html">Decks</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Add-ons</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_yomichan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">MPV scripts</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">My dotfiles</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Our community</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Telegram</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support us</h3>
+                <p>AJATT is a reader-funded site. Consider donating if you found the site useful.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Donate</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Tatsumoto Ren 2020-2026</p>
+            <p>Generated with tatsublog, a static site generator</p>
+        </div>
+    </footer>
 </body>
 </html>

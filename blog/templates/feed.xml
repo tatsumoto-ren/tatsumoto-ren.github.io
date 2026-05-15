@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>{{ cfg.blog.global_title }}</title>
+<link>{{ ctx.blog_index_path | as_full_url }}</link>
+<description>{{ cfg.blog.global_description }}</description>
+<language>{{ cfg.blog.language }}</language>
+<lastBuildDate>{{ ctx.date_now | date_full }}</lastBuildDate>
+<pubDate>{{ ctx.date_now | date_full }}</pubDate>
+<atom:link href="{{ ctx.output_file_path | as_full_url }}" rel="self" type="application/rss+xml" />
+{% for post in ctx.feed_articles %}
+    <item>
+        <title>{{ post.metadata.title }}</title>
+        <author>{{ post.metadata.author }}</author>
+        <description>
+            <![CDATA[{% if post.is_truncated %}
+                {{ post.html_content_preview | safe }}
+            {% else %}
+                {{ post.html_content | safe }}
+            {% endif %}]]>
+        </description>
+        <link>{{ post.html_file_path | as_full_url }}</link>
+        <guid>{{ post.html_file_path | as_full_url }}</guid>
+        <dc:creator>{{ post.metadata.author }}</dc:creator>
+        <pubDate>{{ post.metadata.date | date_full }}</pubDate>
+    </item>
+{% endfor %}
+</channel>
+</rss>

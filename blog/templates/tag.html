@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}{{ cfg.blog.template_tag_title }} &quot;{{ ctx.tag }}&quot; | {{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}{{ cfg.blog.template_tag_title }} &quot;{{ ctx.tag }}&quot; | {{ cfg.blog.global_title }}{% endblock %}
+
+{% block before_content %}
+<div id="tag-sort-bar">
+    <span class="tag-sort-title">Sort by:</span>
+    <button type="button" class="tag-sort-btn" active="" data-sort="position" data-direction="desc">Position</button>
+    <button type="button" class="tag-sort-btn" data-sort="date">Date</button>
+    <button type="button" class="tag-sort-btn" data-sort="title">Title</button>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- content begin -->
+
+{% for post, anchor_id in ctx.posts_with_anchors %}
+<article timestamp="{{ post.metadata.date | timestamp_int }}" position="{{ post.metadata.position }}">
+    {{ ctx.mk_h1_title(post.metadata.title, post.html_file_path, anchor_id=anchor_id) | safe }}
+    <div class="subtitle">{{ post.metadata.date | date_allposts_post }} &mdash; {{ post.metadata.author }}</div>
+    <!-- text begin -->
+    {% if post.is_truncated %}
+        {{ post.html_content_preview | safe }}
+        <p class="readmore"><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_read_more }}</a></p>
+    {% else %}
+        {{ post.html_content | safe }}
+    {% endif %}
+    <!-- text end -->
+</article>
+{% endfor %}
+
+<div id="all_posts"><a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_archive_index_page }}</a></div>
+
+<!-- content end -->
+{% endblock %}

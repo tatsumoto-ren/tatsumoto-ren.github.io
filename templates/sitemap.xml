@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="{{ ctx.sitemap_ns }}">
+{% for entry in ctx.sitemap_entries %}
+  <url>
+    <loc>{{ entry.file_path | as_full_url }}</loc>
+    <lastmod>{{ entry.last_modified.date().isoformat() }}</lastmod>
+  </url>
+{% endfor %}
+</urlset>

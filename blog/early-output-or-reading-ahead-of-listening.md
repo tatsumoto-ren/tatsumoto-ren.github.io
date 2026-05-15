@@ -1,5 +1,5 @@
 ---
-title: What's more harmful: early output or letting your reading ability get too far ahead of your listening ability?
+title: "What's more harmful: early output or letting your reading ability get too far ahead of your listening ability?"
 date: 1674491717
 tags: ['faq']
 position: -9942

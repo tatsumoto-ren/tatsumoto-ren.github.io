@@ -65,6 +65,7 @@ You may need to Email an admin to get an account.
 
 | Server                   | Web client                                                    | Extra                                                |
 | :---                     | :---                                                          | :---                                                 |
+| `xmr.se`                 |                                                               |                                                      |
 | `nitro.chat`             | [nitro.chat](https://app.nitro.chat/)                         |                                                      |
 | `midov.pl`               | [midov.pl](https://element.midov.pl/element/)                 | [Register here](https://midov.pl/registerform.sh) 🏆 |
 | `w33b.cloud`             | [element.w33b.cloud](https://element.w33b.cloud/)             |                                                      |
