@@ -6,13 +6,8 @@
 {% block content %}
 <h3>{{ cfg.blog.template_tags_title }}</h3>
 <ul>
-{% for tag, count in ctx.tags %}
-    {% if count == 1 %}
-        {% set word = "post" %}
-    {% else %}
-        {% set word = "posts" %}
-    {% endif %}
-    <li><a href="{{ cfg.blog.prefix_tags }}{{ tag }}.html">{{ tag }}</a> &mdash; {{ count }} {{ word }}</li>
+{% for tag in ctx.tags %}
+    <li><a href="{{ tag.tag_page_path | as_relative_to(ctx.output_file_path) }}">{{ tag.tag_name }}</a> &mdash; {{ tag.posts_count }} {{ tag.posts_count_word }}</li>
 {% endfor %}
 </ul>
 <div id="all_posts"><a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_archive_index_page }}</a></div>

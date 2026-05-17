@@ -5,8 +5,8 @@
 <link>{{ ctx.blog_index_path | as_full_url }}</link>
 <description>{{ cfg.blog.global_description }}</description>
 <language>{{ cfg.blog.language }}</language>
-<lastBuildDate>{{ ctx.date_now | date_full }}</lastBuildDate>
-<pubDate>{{ ctx.date_now | date_full }}</pubDate>
+<lastBuildDate>{{ ctx.last_mod_time | date_full }}</lastBuildDate>
+<pubDate>{{ ctx.last_mod_time | date_full }}</pubDate>
 <atom:link href="{{ ctx.output_file_path | as_full_url }}" rel="self" type="application/rss+xml" />
 {% for post in ctx.feed_articles %}
     <item>
