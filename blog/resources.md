@@ -84,8 +84,6 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
   A guide to Japanese grammar.
   It breaks down Japanese in a logical and straightforward way
   and covers all the basics without going into too much detail.
-* [Dictionary of Japanese Grammar Reference](https://japbase.neocities.org/).
-  An online DoJG reference.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
   An Anki deck that contains example sentences from DoJG.
 * [Sakubi](https://sakubi.neocities.org/).
