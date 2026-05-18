@@ -733,7 +733,7 @@
       "ime"
     ],
     "body":"Press ＼ (backslash). Find ￥ among the predictions. Alternatively, type えん and find ¥ in the conversion candidates.",
-    "url":"how-to-type-x-with-fcitx.html#yen-symbol",
+    "url":"how-to-type-x-with-fcitx.html#yen-symbol-y",
     "parent":"How to type X with Fcitx?"
   },
   {
@@ -793,7 +793,7 @@
       "ime"
     ],
     "body":"らむだ can give you the greek symbol λ",
-    "url":"how-to-type-x-with-fcitx.html#lambda",
+    "url":"how-to-type-x-with-fcitx.html#lambda-l",
     "parent":"How to type X with Fcitx?"
   },
   {
@@ -803,7 +803,7 @@
       "ime"
     ],
     "body":"ぽんど can give you the British pound symbol £.",
-    "url":"how-to-type-x-with-fcitx.html#pound",
+    "url":"how-to-type-x-with-fcitx.html#pound-ps",
     "parent":"How to type X with Fcitx?"
   },
   {
@@ -5287,7 +5287,7 @@
       "pitch"
     ],
     "body":"If you are not sure about the correct accent of a word, this rule will be particularly useful. Among the 10,000 most commonly used words in Japanese, the 平板 pattern is used about 55% of the time. Therefore, if you are completely unsure of a word's accent, guess 平板 (start low, then go high and stay high). You will be correct more often than not. If you have any reason to believe a word is not 平板, the next most common pattern is 頭高, which is used in about 25% of the 10,000 most useful words. In this case, start high, then drop to low on the second mora and stay low. After 平板 and 頭高, the next most common is 中高, which is used about 15% of the time. However, it is hard to guess where pitch drops in 中高 words because the 中高 pattern covers all words which go low at some point in the middle of the word. The classification alone does not give you enough information to determine where in the word you should go low.",
-    "url":"japanese-pitch-accents.html#rule-3-if-in-doubt-guess",
+    "url":"japanese-pitch-accents.html#rule-3-if-in-doubt-guess-heiban",
     "parent":"Japanese Pitch Accent Primer"
   },
   {
@@ -6611,7 +6611,7 @@
       "guide"
     ],
     "body":"Brett Mayer's Kanken Site. Lists of kanken relevant vocab and kanji. 漢字検定一級・日本語検定一級に受かったロシア人. Site of a Russian national who passed Kanken 1. Tells you the contents of the exam and how to study for Kanken.",
-    "url":"resources.html#kanken",
+    "url":"resources.html#kanken-kanji-kentei",
     "parent":"Resources"
   },
   {
