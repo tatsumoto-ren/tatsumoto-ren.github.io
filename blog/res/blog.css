@@ -2004,6 +2004,7 @@ details.important_details {
  */
 
 main .blog_tags_list {
+    clear: both;
     display: flex;
     flex-flow: row wrap;
     gap: 0.5ch;
