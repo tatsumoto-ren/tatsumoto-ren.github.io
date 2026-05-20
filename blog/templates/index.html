@@ -13,7 +13,7 @@
 <!-- index begin -->
 
     {% for post in ctx.index_articles %}
-    <article timestamp="{{ post.metadata.date|timestamp_int }}" position="{{ loop.index0 }}">
+    <article timestamp="{{ post.metadata.date|timestamp_int }}" position="{{ post.metadata.position }}">
         {{ ctx.mk_h1_title(post.metadata.title, post.html_file_path) | safe }}
         <div class="subtitle">{{ post.metadata.date | date_allposts_post }} &mdash; {{ post.metadata.author }}</div>
         <!-- text begin -->

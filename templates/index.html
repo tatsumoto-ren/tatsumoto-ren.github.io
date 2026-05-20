@@ -73,7 +73,7 @@
             <h2>Recent articles</h2>
             <!-- Recent posts begin -->
             <ol class="bb-recent-posts">
-                {% for post in ctx.all_posts[:cfg.site.num_recent_posts] %}
+                {% for post in ctx.recent_posts %}
                 <li><span class="bb-timestamp">{{ post.metadata.date.strftime('%B %d, %Y') }}</span><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a></li>
                 {% endfor %}
             </ol>
