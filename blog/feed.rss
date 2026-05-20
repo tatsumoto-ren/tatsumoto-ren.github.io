@@ -5,9 +5,30 @@
 <link>https://ajatt.top/blog/index.html</link>
 <description>Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.</description>
 <language>en</language>
-<lastBuildDate>Sun, 07 Dec 2025 18:22:47 +0000</lastBuildDate>
-<pubDate>Sun, 07 Dec 2025 18:22:47 +0000</pubDate>
+<lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+<pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
 <atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+        <title>Have you ever tried using AI to analyze grammar?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
+<p>Have you ever tried using AI to analyze grammar in sentences
+in the Foundation or Essentials decks?
+If you tell it to &quot;Do a word by word analysis of the following sentences&quot;
+with an example of what you want the format to be,
+it will produce a pretty nice analysis.</p>
+<p>My own experience is that it is about 95% right, but it is so fast.
+It might be good enough to eliminate the need for learners to add in Tae Kim or something.</p>
+</blockquote>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/have-you-ever-tried-using-ai-to-analyze-grammar.html</link>
+        <guid>https://ajatt.top/blog/have-you-ever-tried-using-ai-to-analyze-grammar.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
         <title>Ankidrone decks: Audio issues on iOS</title>
         <author>Tatsumoto Ren</author>
@@ -244,23 +265,6 @@ you might want to rethink your strategy.</p>
         <guid>https://ajatt.top/blog/classes.html</guid>
         <dc:creator>Tatsumoto Ren</dc:creator>
         <pubDate>Wed, 08 Jan 2025 18:17:08 +0000</pubDate>
-    </item>
-    <item>
-        <title>I Stopped Using Matrix</title>
-        <author>Tatsumoto Ren</author>
-        <description>
-            <![CDATA[                <p>I have some exciting news, folks!
-You've been asking me to do this for a long time,
-and now the moment has finally arrived.
-I've decided to discontinue our Matrix community
-in favor of a different platform.</p>
-
-]]>
-        </description>
-        <link>https://ajatt.top/blog/i-stopped-using-matrix.html</link>
-        <guid>https://ajatt.top/blog/i-stopped-using-matrix.html</guid>
-        <dc:creator>Tatsumoto Ren</dc:creator>
-        <pubDate>Sat, 30 Nov 2024 17:02:51 +0000</pubDate>
     </item>
 </channel>
 </rss>
