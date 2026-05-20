@@ -143,7 +143,7 @@
         <!-- text begin -->
         <p>When reading manga in Japanese,
 you sometimes need to quickly perform
-<a href="https://wikipedia.org/wiki/Optical_character_recognition?lang=en">OCR</a> on part of the screen
+<a href="https://wikipedia.org/wiki/Optical_character_recognition?lang=en" target="_blank" rel="noopener noreferrer nofollow">OCR</a> on part of the screen
 to look up new words and add sentences to <a href="setting-up-anki.html">Anki</a>.
 You can use an OCR program
 plus a few helper tools to do this.</p>
@@ -164,7 +164,7 @@ or <a href="what-is-yomichan-search.html">Rikaitan Search</a>.</li>
 you can use <em>Tesseract</em> or <em>Lancet</em>.
 Tesseract is lighter but usually less accurate.
 Lancet requires installing many
-<a href="https://docs.python.org/3/faq/general.html#what-is-python">Python</a>
+<a href="https://docs.python.org/3/faq/general.html#what-is-python" target="_blank" rel="noopener noreferrer nofollow">Python</a>
 packages that take several GiB of disk space,
 but it provides much better recognition.</p>
 <p>This article explains how to set up both.
@@ -196,10 +196,10 @@ Many manga sites also let you read in a web browser.</p>
 <p>Another quick topic up front is your file manager.
 Manga often comes as an archive (<code>*.zip</code>, <code>*.rar</code>, etc.) which has to be unpacked,
 so it's convenient to bind a key to extract archives with a single keystroke.</p>
-<p>For example, my file manager is <a href="https://wiki.archlinux.org/title/Lf">lf</a>.
+<p>For example, my file manager is <a href="https://wiki.archlinux.org/title/Lf" target="_blank" rel="noopener noreferrer nofollow">lf</a>.
 To extract archives by pressing <kbd>E</kbd>,
 add this to the config file at <code>~/.config/lf/lfrc</code>
-(<a href="https://archlinux.org/packages/?q=atool">atool</a> must be installed as well).</p>
+(<a href="https://archlinux.org/packages/?q=atool" target="_blank" rel="noopener noreferrer nofollow">atool</a> must be installed as well).</p>
 <div class="pre-wrap"><pre><code>map E aunpack $fx
 </code></pre></div>
 <p><code>lf</code> supports <strong>tags</strong>.
@@ -210,7 +210,7 @@ The next time you open the folder,
 you will see a red asterisk next to the tagged file.</p>
 <p>To have <code>lf</code> automatically select the image currently shown in <code>nsxiv</code>,
 add this to <code>~/.config/nsxiv/exec/image-info</code>.
-The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info">taken from my dotfiles</a>.</p>
+The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/image-info" target="_blank" rel="noopener noreferrer nofollow">taken from my dotfiles</a>.</p>
 <div class="pre-wrap"><pre><code># If running as a child of lf, select the current file.
 if [ -n &quot;$id&quot; ]; then
 	lf -remote &quot;send $id select \&quot;$1\&quot;&quot;
@@ -221,7 +221,7 @@ that tells <code>lf</code> to tag the currently displayed image.
 For example,
 to tag the current file by pressing <kbd>t</kbd>,
 add the following code to <code>~/.config/nsxiv/exec/key-handler</code>.
-The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/key-handler">taken from my dotfiles</a>.</p>
+The snippet is <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/nsxiv/exec/key-handler" target="_blank" rel="noopener noreferrer nofollow">taken from my dotfiles</a>.</p>
 <div class="pre-wrap"><pre><code>while read file; do
 	case &quot;$1&quot; in
 	# ...
@@ -246,8 +246,8 @@ It handles manga much better than Tesseract.</p>
 <li><a href="#setting-up-tesseract">Tesseract</a></li>
 </ul>
 <h2 id="setting-up-lancet"><a class="anchor" href="#setting-up-lancet" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Lancet</h2>
-<p>Install <a href="https://github.com/Ajatt-Tools/lancet">lancet</a>
-from the <a href="https://pypi.org/project/ajt-lancet/">pypi</a>.</p>
+<p>Install <a href="https://github.com/Ajatt-Tools/lancet" target="_blank" rel="noopener noreferrer nofollow">lancet</a>
+from the <a href="https://pypi.org/project/ajt-lancet/" target="_blank" rel="noopener noreferrer nofollow">pypi</a>.</p>
 <div class="pre-wrap"><pre><code>pipx install ajt-lancet
 </code></pre></div>
 <p><span class="article-note">Note</span>: <code>pipx</code> installs Python packages in an <strong>isolated location</strong> (<code>~/.local/share/pipx</code>)
@@ -271,7 +271,7 @@ This is optional,
 but to minimize startup lag add the following command to your autostart.</p>
 <div class="pre-wrap"><pre><code>lancet
 </code></pre></div>
-<p>Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
+<p>Here's an example for <a href="https://i3wm.org/" target="_blank" rel="noopener noreferrer nofollow">i3wm</a>:</p>
 <div class="pre-wrap"><pre><code>exec --no-startup-id lancet
 </code></pre></div>
 <h2 id="setting-up-tesseract"><a class="anchor" href="#setting-up-tesseract" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting up Tesseract</h2>
@@ -279,20 +279,20 @@ but to minimize startup lag add the following command to your autostart.</p>
 <div class="pre-wrap"><pre><code>$ sudo pacman -S --needed tesseract maim xclip imagemagick unzip
 </code></pre></div>
 <ul>
-<li><a href="https://github.com/tesseract-ocr/tesseract">tesseract</a>
+<li><a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener noreferrer nofollow">tesseract</a>
 is the OCR engine. It is considered fairly accurate, and many people like it.</li>
-<li><a href="https://github.com/naelstrof/maim">maim</a>
+<li><a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener noreferrer nofollow">maim</a>
 is a utility for taking screenshots which can take parts of the screen.</li>
-<li><a href="https://github.com/astrand/xclip">xclip</a>
+<li><a href="https://github.com/astrand/xclip" target="_blank" rel="noopener noreferrer nofollow">xclip</a>
 is a tool for copying text to the clipboard.</li>
-<li><a href="https://wiki.archlinux.org/title/ImageMagick">imagemagick</a>
+<li><a href="https://wiki.archlinux.org/title/ImageMagick" target="_blank" rel="noopener noreferrer nofollow">imagemagick</a>
 is a command-line image editor.
 It's going to come handy to edit the screenshots before Tesseract analyzes them.</li>
-<li><a href="https://archlinux.org/packages/extra/x86_64/unzip/">unzip</a>
+<li><a href="https://archlinux.org/packages/extra/x86_64/unzip/" target="_blank" rel="noopener noreferrer nofollow">unzip</a>
 is a tool for extracting zip archives.</li>
 </ul>
 <p>Download
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr">maimocr</a>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimocr" target="_blank" rel="noopener noreferrer nofollow">maimocr</a>
 and save it as <code>~/.local/bin/maimocr</code>.
 <code>maimocr</code> is a script we are going to use to recognize Japanese text.</p>
 <p>Make the file <a href="how-do-i-make-a-file-executable.html">executable</a>:</p>
@@ -302,7 +302,7 @@ and save it as <code>~/.local/bin/maimocr</code>.
 <a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</p>
 <h3 id="usage-1"><a class="anchor" href="#usage-1" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
 <p>Tesseract doesn't work without
-<a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html">trained data files</a>.
+<a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html" target="_blank" rel="noopener noreferrer nofollow">trained data files</a>.
 These files tell Tesseract how to read and recognize text from images.
 When you first run <code>maimocr</code>, it should download Japanese data files <strong>automatically</strong>.
 Check the terminal output to see if the process succeeds.</p>
@@ -313,14 +313,14 @@ Use it in combination with <a href="what-is-yomichan-search.html">Rikaitan Searc
 to quickly lookup Japanese words in real-time.</p>
 <h3 id="keyboard-shortcut"><a class="anchor" href="#keyboard-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcut</h3>
 <p>Bind this script to a keyboard shortcut in your DE, WM, sxhkd, xbindkeysrc, etc.
-Here's an example for <a href="https://i3wm.org/">i3wm</a>:</p>
+Here's an example for <a href="https://i3wm.org/" target="_blank" rel="noopener noreferrer nofollow">i3wm</a>:</p>
 <div class="pre-wrap"><pre><code>bindsym $mod+o exec --no-startup-id maimocr
 </code></pre></div>
 <p>Now you can quickly call <code>maimocr</code> anywhere by pressing the keyboard shortcut.</p>
 <h3 id="expanding-data-set"><a class="anchor" href="#expanding-data-set" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding data set</h3>
 <p>By default, <code>maimocr</code> automatically downloads
-<a href="https://matrix.4d2.org/_matrix/media/v3/download/4d2.org/akBtGDReZvxAbHZvKtHKfbyi">tessdata.zip</a>
-(<a href="https://t.me/ajatt_tools/173">mirror</a>)
+<a href="https://matrix.4d2.org/_matrix/media/v3/download/4d2.org/akBtGDReZvxAbHZvKtHKfbyi" target="_blank" rel="noopener noreferrer nofollow">tessdata.zip</a>
+(<a href="https://t.me/ajatt_tools/173" target="_blank" rel="noopener noreferrer nofollow">mirror</a>)
 with Tesseract data files,
 then saves the files to <code>~/.local/share/tessdata</code>.</p>
 <p>To use additional data files with <code>maimocr</code>,
@@ -331,14 +331,14 @@ copy any new <code>*.traineddata</code> files to <code>~/.local/share/tessdata</
 <p>These instructions are no longer necessary.
 The files are included by default.</p>
 </blockquote>
-<p>Download <a href="http://capture2text.sourceforge.net/#download">capture2text</a>.
+<p>Download <a href="http://capture2text.sourceforge.net/#download" target="_blank" rel="noopener noreferrer nofollow">capture2text</a>.
 We won't need the program itself because it's garbage
 but the trained data files are going to be useful.
 Extract the contents of the <code>tessdata</code> folder to <code>~/.local/share/tessdata</code>:</p>
 <div class="pre-wrap"><pre><code>$ unzip -j Capture2Text_v*_64bit.zip 'Capture2Text/tessdata/*' -d ~/.local/share/tessdata
 </code></pre></div>
 <p>Alternatively, download just the Capture2Text Japanese files from
-<a href="https://sourceforge.net/projects/capture2text/files/Dictionaries/Japanese.zip/download">here</a>.</p>
+<a href="https://sourceforge.net/projects/capture2text/files/Dictionaries/Japanese.zip/download" target="_blank" rel="noopener noreferrer nofollow">here</a>.</p>
 <p align="center"><img class="shadow" alt="Capture2Text archive" src="img/capture2text.webp"></p>
 <p align="center"><i>Contents of the ZIP archive.</i></p>
 </details>
@@ -352,19 +352,19 @@ Try searching for more <code>*.traineddata</code> files online
 and adding them to the <code>tessdata</code> folder.</p>
 <h2 id="adding-screenshots"><a class="anchor" href="#adding-screenshots" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding screenshots</h2>
 <p>If you want to add a screenshot from a manga to your Anki card,
-<a href="https://archlinux.org/packages/community/x86_64/maim/">maim</a>
+<a href="https://archlinux.org/packages/community/x86_64/maim/" target="_blank" rel="noopener noreferrer nofollow">maim</a>
 can do that too.
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick">maimpick</a>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/maimpick" target="_blank" rel="noopener noreferrer nofollow">maimpick</a>
 is a script that uses <code>maim</code> to screenshot parts of the screen and copy them to the clipboard.
 Install it to <code>~/.local/bin</code>, make it executable and bind it to a key.
-Explore my <a href="https://github.com/tatsumoto-ren/dotfiles">dotfiles</a> for details.</p>
+Explore my <a href="https://github.com/tatsumoto-ren/dotfiles" target="_blank" rel="noopener noreferrer nofollow">dotfiles</a> for details.</p>
 <p>In addition to <code>maim</code>, <code>maimpick</code> requires
-<a href="https://wiki.archlinux.org/title/dmenu">dmenu</a>
+<a href="https://wiki.archlinux.org/title/dmenu" target="_blank" rel="noopener noreferrer nofollow">dmenu</a>
 and
-<a href="https://archlinux.org/packages/?name=xdotool">xdotool</a>
+<a href="https://archlinux.org/packages/?name=xdotool" target="_blank" rel="noopener noreferrer nofollow">xdotool</a>
 to work.</p>
 <p><span class="article-note">Note</span>:
-<a href="https://github.com/Ajatt-Tools/ames">ames</a>
+<a href="https://github.com/Ajatt-Tools/ames" target="_blank" rel="noopener noreferrer nofollow">ames</a>
 is another program that can add screenshots to Anki.</p>
 <h2 id="other-software"><a class="anchor" href="#other-software" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other software</h2>
 <p>See <a href="resources.html#ocr-for-manga">Resources</a>.</p>

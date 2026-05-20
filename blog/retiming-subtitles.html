@@ -144,7 +144,7 @@ In this article let's discuss what you can do to sync them.</p>
 <p>Japanese subtitles can be found in
 <a href="resources.html#japanese-subtitles">Resources</a>.</p>
 <h2 id="loading-subtitles"><a class="anchor" href="#loading-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading subtitles</h2>
-<p><a href="https://wiki.archlinux.org/title/Mpv">mpv</a>
+<p><a href="https://wiki.archlinux.org/title/Mpv" target="_blank" rel="noopener noreferrer nofollow">mpv</a>
 can automatically detect and load subtitle files when opening a video.
 To set mpv to load all subs containing media filename, enable <code>fuzzy</code> searching.
 To be able to store subtitles in their own subfolder,
@@ -159,13 +159,13 @@ this requires you to have a graphical file manager installed.
 These days almost everyone uses terminal-based file managers.
 I recommend renaming subtitles before opening a video to have mpv load them for you.
 The best tool for doing it in my opinion is
-<a href="https://archlinux.org/packages/extra/x86_64/moreutils/">vidir</a>.
+<a href="https://archlinux.org/packages/extra/x86_64/moreutils/" target="_blank" rel="noopener noreferrer nofollow">vidir</a>.
 In addition to vidir, I advise you to install
-<a href="https://github.com/gokcehan/lf">lf</a>.
+<a href="https://github.com/gokcehan/lf" target="_blank" rel="noopener noreferrer nofollow">lf</a>.
 It's an excellent terminal-based file manager.
 You can configure it to bring <code>vidir</code> for you when you press a certain key.</p>
 <p>Another helpful program you might need is
-<a href="https://archlinux.org/packages/community/any/atool/">atool</a>.
+<a href="https://archlinux.org/packages/community/any/atool/" target="_blank" rel="noopener noreferrer nofollow">atool</a>.
 Atool is going to help you extract archives
 with subtitles downloaded from the Internet.</p>
 <p>Add the following settings to <code>~/.config/lf/lfrc</code>.</p>
@@ -175,7 +175,7 @@ map b $vidir
 map E !atool -x $fx
 </code></pre></div>
 <p>If you don't have vidir installed, you can use
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/lf/lfrc#L177">this bulkrename cmd</a>.
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/lf/lfrc#L177" target="_blank" rel="noopener noreferrer nofollow">this bulkrename cmd</a>.
 It works the same way as vidir does.
 Add it to your <code>lfrc</code> file.</p>
 <div class="pre-wrap"><pre><code>cmd bulkrename ${{
@@ -204,13 +204,13 @@ map b bulkrename
 <h2 id="renaming-subtitles"><a class="anchor" href="#renaming-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Renaming subtitles</h2>
 <p>Let's see how you can quickly rename subtitles with vidir.
 For this example I took
-<a href="https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/Stein;Gate/&amp;sort=date&amp;order=desc">subs</a>
+<a href="https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/Stein;Gate/&amp;sort=date&amp;order=desc" target="_blank" rel="noopener noreferrer nofollow">subs</a>
 for
-<a href="https://myanimelist.net/anime/9253/">Steins;Gate</a>
+<a href="https://myanimelist.net/anime/9253/" target="_blank" rel="noopener noreferrer nofollow">Steins;Gate</a>
 from
 <a href="resources.html#japanese-subtitles">Kitsunekko.net</a>.
 Watch
-<a href="https://redirect.invidious.io/watch?v=qasLFv8Rv7o">this video on <img src="img/youtube_logo.webp" alt="YouTube" /></a>
+<a href="https://redirect.invidious.io/watch?v=qasLFv8Rv7o" target="_blank" rel="noopener noreferrer nofollow">this video on <img src="img/youtube_logo.webp" alt="YouTube" /></a>
 to get a gist of how it's done.</p>
 <video width="1920" muted controls>
 	<source src="vid/bulk_renaming_japanese_subtitles.mp4" type="video/mp4">
@@ -220,7 +220,7 @@ to get a gist of how it's done.</p>
 <p>By default, <code>vidir</code> will try to use the text editor
 that is set via the <code>EDITOR</code> <a href="how-do-i-change-an-environment-variable.html">environment variable</a>.
 I have it set to <code>nvim</code>.
-To use <code>nvim</code>, install <a href="https://wiki.archlinux.org/title/Neovim">Neovim</a>
+To use <code>nvim</code>, install <a href="https://wiki.archlinux.org/title/Neovim" target="_blank" rel="noopener noreferrer nofollow">Neovim</a>
 and add <code>export EDITOR=&quot;nvim&quot;</code> as a new environment variable.</p>
 <h2 id="extracting-internal-subtitles"><a class="anchor" href="#extracting-internal-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extracting internal subtitles</h2>
 <p>Often you want to extract internal subtitles to use them as reference for retiming.
@@ -252,9 +252,9 @@ done
 <a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
 or by adjusting the subtitle delay in mpv.</li>
 <li>Using an automatic tool,
-<a href="https://github.com/smacke/ffsubsync">ffsubsync</a>
+<a href="https://github.com/smacke/ffsubsync" target="_blank" rel="noopener noreferrer nofollow">ffsubsync</a>
 or
-<a href="https://github.com/kaegi/alass">alass</a>.</li>
+<a href="https://github.com/kaegi/alass" target="_blank" rel="noopener noreferrer nofollow">alass</a>.</li>
 </ol>
 <p>FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
 unless the same breaks are present in the video file, which is almost never the case.
@@ -284,7 +284,7 @@ if you are unable to adjust your subtitles using MPV alone,
 consider other options.</p>
 <h3 id="with-subs2srs"><a class="anchor" href="#with-subs2srs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With subs2srs</h3>
 <p><a href="our-immersion-learning-toolset.html#subs2srs">Subs2srs</a> ships with a
-<a href="http://subs2srs.sourceforge.net/SubsReTimer/usage.html">sub retimer tool</a>.
+<a href="http://subs2srs.sourceforge.net/SubsReTimer/usage.html" target="_blank" rel="noopener noreferrer nofollow">sub retimer tool</a>.
 After you install subs2srs, you can find the retimer by its desktop entry.
 This tool is helpful when you have a reference subtitle file that is already synced.
 By selecting subtitle lines and pressing &quot;Time shift&quot;
@@ -295,7 +295,7 @@ to all subtitle lines following the one you select.</p>
 <p align="center"><i>Screenshot.</i></p>
 <h2 id="automatic-retiming"><a class="anchor" href="#automatic-retiming" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automatic retiming</h2>
 <h3 id="with-ffsubsync"><a class="anchor" href="#with-ffsubsync" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With FFsubsync</h3>
-<p><a href="https://github.com/smacke/ffsubsync">FFsubsync</a>
+<p><a href="https://github.com/smacke/ffsubsync" target="_blank" rel="noopener noreferrer nofollow">FFsubsync</a>
 is an automatic synchronization utility.
 When synchronizing,
 you can use a correctly synchronized subtitle file or a video
@@ -304,7 +304,7 @@ as a reference for synchronization.</p>
 <div class="pre-wrap"><pre><code class="language-bash">sudo pacman -S --needed ffmpeg python-pipx
 pipx install ffsubsync
 </code></pre></div>
-<p>Read <a href="https://github.com/smacke/ffsubsync#usage">Usage</a> on GitHub
+<p>Read <a href="https://github.com/smacke/ffsubsync#usage" target="_blank" rel="noopener noreferrer nofollow">Usage</a> on GitHub
 to understand how to use the program to retime individual files.</p>
 <p>I recommend retiming subtitles in bulk, using a bash-loop.
 For this example let's say the videos are stored in the current directory,
@@ -326,20 +326,20 @@ done
 done
 </code></pre></div>
 <h3 id="with-alass"><a class="anchor" href="#with-alass" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With alass</h3>
-<p><a href="https://github.com/kaegi/alass">alass</a>
+<p><a href="https://github.com/kaegi/alass" target="_blank" rel="noopener noreferrer nofollow">alass</a>
 is a program similar to FFsubsync.
 It works exactly like FFsubsync but its command line interface differs a little.
 Arch Linux users can install alass from
-<a href="https://aur.archlinux.org/packages/?O=0&amp;K=alass">the AUR</a>.
+<a href="https://aur.archlinux.org/packages/?O=0&amp;K=alass" target="_blank" rel="noopener noreferrer nofollow">the AUR</a>.
 You can use the example bash loops shown above with alass
 if you remove <code>-i</code> and <code>-o</code> since alass doesn't need them.
 Refer to the docs on GitHub for more detailed instructions.</p>
 <h3 id="with-autosubsync-mpv"><a class="anchor" href="#with-autosubsync-mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>With autosubsync-mpv</h3>
 <p>Retiming with FFsubsync and alass can be further automated by using
-<a href="https://github.com/Ajatt-Tools/autosubsync-mpv">autosubsync-mpv</a>.
+<a href="https://github.com/Ajatt-Tools/autosubsync-mpv" target="_blank" rel="noopener noreferrer nofollow">autosubsync-mpv</a>.
 Autosubsync-mpv is an add-on for the mpv media player.
 Watch
-<a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc">this video</a>
+<a href="https://redirect.invidious.io/watch?v=w1vwnUiF6Bc" target="_blank" rel="noopener noreferrer nofollow">this video</a>
 to see how it works and how to set it up.</p>
 <p>To use autosubsync-mpv first ensure that <code>mpv</code>, <code>ffmpeg</code>, <code>pipx</code> and <code>ffsubsync</code> are installed.
 Run the following commands.</p>

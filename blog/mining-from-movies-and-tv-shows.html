@@ -153,7 +153,7 @@ To install it on Arch Linux, execute the following command:</p>
 </code></pre></div>
 <p>Make sure you have version 0.33.0 or later.
 If such a version is not available on your distribution, see
-<a href="https://mpv.io/installation/">here</a>
+<a href="https://mpv.io/installation/" target="_blank" rel="noopener noreferrer nofollow">here</a>
 for different installation options.</p>
 <h2 id="mpv-configuration"><a class="anchor" href="#mpv-configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MPV configuration</h2>
 <p>Start <code>mpv</code> at least once to create the config folder
@@ -295,22 +295,22 @@ This may require a few GiB of disk space,
 but it will save you the hassle of having to visit subtitle catalogs
 every time you need to find subtitles.
 For example, if you download
-the <a href="https://github.com/Ajatt-Tools/kitsunekko-mirror">mirror of kitsunekko</a>,
+the <a href="https://github.com/Ajatt-Tools/kitsunekko-mirror" target="_blank" rel="noopener noreferrer nofollow">mirror of kitsunekko</a>,
 you can use
-<a href="https://wiki.archlinux.org/title/Lf">lf</a> to browse it,
-and <a href="https://wiki.archlinux.org/title/Fzf">fzf</a> to search it.
-<a href="https://redirect.invidious.io/watch?v=WVDRbR7C6js">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube" /></a>.</p>
+<a href="https://wiki.archlinux.org/title/Lf" target="_blank" rel="noopener noreferrer nofollow">lf</a> to browse it,
+and <a href="https://wiki.archlinux.org/title/Fzf" target="_blank" rel="noopener noreferrer nofollow">fzf</a> to search it.
+<a href="https://redirect.invidious.io/watch?v=WVDRbR7C6js" target="_blank" rel="noopener noreferrer nofollow">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube" /></a>.</p>
 <video width="1920" controls>
 	<source src="vid/search_anime_subtitles.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/search_anime_subtitles.mp4" type="video/mp4">
 	<source src="https://ajatt.top/blog/vid/search_anime_subtitles.mp4" type="video/mp4">
 </video>
 <p>In the video,
-I'm using a <a href="https://wiki.archlinux.org/title/Bash#Aliases">shell alias</a>
+I'm using a <a href="https://wiki.archlinux.org/title/Bash#Aliases" target="_blank" rel="noopener noreferrer nofollow">shell alias</a>
 to enter the directory with Japanese anime subtitles.
 I'm also using keyboard shortcuts to call <code>fzf</code> and <code>lf</code>.
 Shortcuts and aliases can be
-<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh">configured</a> in the <code>.zshrc</code> file.</p>
+<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh" target="_blank" rel="noopener noreferrer nofollow">configured</a> in the <code>.zshrc</code> file.</p>
 <div class="pre-wrap"><pre><code># Change directory
 alias subs='cd -- &quot;/path/to/directory&quot;'
 # Ctrl+O to launch lf file manager.
@@ -319,13 +319,13 @@ bindkey -s '^o' '^ulf\n'
 bindkey -s '^f' '^ucd -- &quot;$(dirname -- &quot;$(fzf)&quot;)&quot;\n'
 </code></pre></div>
 <p>To create your own local mirror of <code>kitsunekko</code>,
-use <a href="https://github.com/Ajatt-Tools/kitsunekko-tools">kitsunekko-tools</a>.
+use <a href="https://github.com/Ajatt-Tools/kitsunekko-tools" target="_blank" rel="noopener noreferrer nofollow">kitsunekko-tools</a>.
 This simple program downloads all files from <code>kitsunekko</code>
 and saves them in a specified directory on your hard drive.
 You need roughly <code>8</code> GiB on your disk
 to store a copy of the entire subtitle catalogue.</p>
 <p>If you can't find target language subtitles for a video,
-you can generate them using <a href="https://aur.archlinux.org/packages/pytranscriber-bin">pyTranscriber</a>.
+you can generate them using <a href="https://aur.archlinux.org/packages/pytranscriber-bin" target="_blank" rel="noopener noreferrer nofollow">pyTranscriber</a>.
 You're going to get <abbr title="with errors">cursed subtitles</abbr>, but it's better than nothing.
 I have used it a few times for Japanese.</p>
 <p>If you want to synchronize the subtitles, see
@@ -337,16 +337,16 @@ Often this is the case with subtitles for movies.
 They don't contain any text and by themselves are not very useful.
 SUP files can be converted to plain text (<code>.srt</code>)
 using OCR (Optical Character Recognition) programs
-such as <a href="https://aur.archlinux.org/packages/subtitleedit">subtitleedit</a>.</p>
+such as <a href="https://aur.archlinux.org/packages/subtitleedit" target="_blank" rel="noopener noreferrer nofollow">subtitleedit</a>.</p>
 <h2 id="user-scripts-for-mpv"><a class="anchor" href="#user-scripts-for-mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User-scripts for MPV</h2>
 <p><code>mpv</code> is highly configurable and extensible,
 allowing users to customize its interface and functionality.
 One way to do this is through user-scripts,
 which are scripts that can modify <code>mpv</code>'s behavior and add new features.
 User-scripts are written in languages such as Lua or JavaScript.</p>
-<p>You can find a list of user-scripts for <code>mpv</code> <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts">here</a>.</p>
+<p>You can find a list of user-scripts for <code>mpv</code> <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts" target="_blank" rel="noopener noreferrer nofollow">here</a>.</p>
 <h2 id="mpvacious"><a class="anchor" href="#mpvacious" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mpvacious</h2>
-<p><a href="https://github.com/Ajatt-Tools/mpvacious">Mpvacious</a>
+<p><a href="https://github.com/Ajatt-Tools/mpvacious" target="_blank" rel="noopener noreferrer nofollow">Mpvacious</a>
 is a user-script for the mpv video player
 that allows you to make Anki cards
 while watching movies and TV shows in your target language.</p>
@@ -356,23 +356,23 @@ while watching movies and TV shows in your target language.</p>
 or any other tool that works with AnkiConnect.
 When you create a new note,
 Mpvacious adds media (audio and images) to the note.
-<a href="https://redirect.invidious.io/watch?v=vU85ramvyo4">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube" /></a>.</p>
+<a href="https://redirect.invidious.io/watch?v=vU85ramvyo4" target="_blank" rel="noopener noreferrer nofollow">Watch a demonstration on <img src="img/youtube_logo.webp" alt="YouTube" /></a>.</p>
 <video width="1920" controls>
 	<source src="vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 	<source src="https://tatsumoto-ren.github.io/blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 	<source src="https://ajatt.top/blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
 </video>
 <p>The user-script has a long list of features and configuration options.
-For details explore the <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/README.md">documentation on GitHub</a>.
+For details explore the <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/README.md" target="_blank" rel="noopener noreferrer nofollow">documentation on GitHub</a>.
 Below I'm going to write about how I use it.</p>
 <h3 id="requirements"><a class="anchor" href="#requirements" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h3>
 <p>Mpvacious needs
-<a href="https://ankiweb.net/shared/info/2055492159">AnkiConnect</a>
+<a href="https://ankiweb.net/shared/info/2055492159" target="_blank" rel="noopener noreferrer nofollow">AnkiConnect</a>
 to work.
-If you're using X11 (<a href="https://wiki.archlinux.org/title/Xlibre">Xlibre</a>),
-<a href="https://archlinux.org/packages/extra/x86_64/xclip/">xclip</a>
+If you're using X11 (<a href="https://wiki.archlinux.org/title/Xlibre" target="_blank" rel="noopener noreferrer nofollow">Xlibre</a>),
+<a href="https://archlinux.org/packages/extra/x86_64/xclip/" target="_blank" rel="noopener noreferrer nofollow">xclip</a>
 is required to copy text to the clipboard.
-<a href="https://archlinux.org/packages/extra/x86_64/wl-clipboard/">wl-copy</a>
+<a href="https://archlinux.org/packages/extra/x86_64/wl-clipboard/" target="_blank" rel="noopener noreferrer nofollow">wl-copy</a>
 is required on Wayland.</p>
 <h3 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h3>
 <p>Mpvacious can be installed with <code>git</code>:</p>
@@ -380,7 +380,7 @@ is required on Wayland.</p>
 </code></pre></div>
 <h3 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h3>
 <p>Download the
-<a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/mpvacious/config/default_config.conf">example config file</a>
+<a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/mpvacious/config/default_config.conf" target="_blank" rel="noopener noreferrer nofollow">example config file</a>
 and save it to <code>~/.config/mpv/script-opts/subs2srs.conf</code>.
 If you use the Note Type from the
 <a href="setting-up-anki.html#import-an-example-mining-deck">recommended mining deck</a>,
@@ -427,7 +427,7 @@ Finish by pressing <kbd>M</kbd>.</p>
 <p>The Anki Browser window should appear with the card updated.</p>
 </li>
 </ol>
-<p>See <a href="https://github.com/Ajatt-Tools/mpvacious/tree/master/howto">How to</a> for more detailed explanations.</p>
+<p>See <a href="https://github.com/Ajatt-Tools/mpvacious/tree/master/howto" target="_blank" rel="noopener noreferrer nofollow">How to</a> for more detailed explanations.</p>
 <h3 id="creating-cards-without-pausing"><a class="anchor" href="#creating-cards-without-pausing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating cards without pausing</h3>
 <p>You can save sentences for later without adding definitions.
 Since you don't have to pause to read the dictionary, this approach is less disruptive.

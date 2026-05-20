@@ -282,11 +282,11 @@
         <h1 class="title"><a class="ablack" href="setting-up-anki.html">Setting up Anki</a></h1>
         <div class="subtitle">December 28, 2020 &mdash; Tatsumoto Ren</div>
         <!-- text begin -->
-        <p><a href="https://wiki.archlinux.org/index.php/Anki">Anki</a>
+        <p><a href="https://wiki.archlinux.org/index.php/Anki" target="_blank" rel="noopener noreferrer nofollow">Anki</a>
 is a
-<a href="https://wikipedia.org/wiki/Spaced_repetition?lang=en">Spaced repetition</a>
+<a href="https://wikipedia.org/wiki/Spaced_repetition?lang=en" target="_blank" rel="noopener noreferrer nofollow">Spaced repetition</a>
 system (SRS), a program which allows you to create, manage and review
-<a href="https://wikipedia.org/wiki/Flashcard?lang=en">flashcards</a>.</p>
+<a href="https://wikipedia.org/wiki/Flashcard?lang=en" target="_blank" rel="noopener noreferrer nofollow">flashcards</a>.</p>
 <p>Many language learners find Anki useful to quickly memorize (front-load)
 core vocabulary of their target language (TL),
 as well as help them remember new material later.</p>
@@ -295,7 +295,7 @@ Depending on how you use it,
 you can either greatly decrease your time spent studying
 or make using Anki a living hell for yourself.
 If you find yourself confused about how Anki works,
-it is recommended that you read the <a href="https://docs.ankiweb.net/">Anki manual</a>.
+it is recommended that you read the <a href="https://docs.ankiweb.net/" target="_blank" rel="noopener noreferrer nofollow">Anki manual</a>.
 However, because it's highly detailed and technical,
 the bulk of this article will focus on explaining the most useful Anki settings
 to help you get things up and running as quickly as possible.</p>
@@ -304,8 +304,8 @@ to help you get things up and running as quickly as possible.</p>
 <img alt="anki logo" src="img/anki_logo.webp" float="right">
 <p>There are several ways to install Anki.</p>
 <ul>
-<li>Using your distribution's package manager (<a href="https://wiki.archlinux.org/title/Pacman">pacman</a>, apt, dnf, etc.).</li>
-<li>Using <a href="https://pipx.pypa.io/stable/">pipx</a>, a software installer for Python programs.</li>
+<li>Using your distribution's package manager (<a href="https://wiki.archlinux.org/title/Pacman" target="_blank" rel="noopener noreferrer nofollow">pacman</a>, apt, dnf, etc.).</li>
+<li>Using <a href="https://pipx.pypa.io/stable/" target="_blank" rel="noopener noreferrer nofollow">pipx</a>, a software installer for Python programs.</li>
 <li>By downloading a release from the official website.</li>
 </ul>
 <p>The first method guarantees that you'll have the right dependencies installed,
@@ -315,22 +315,22 @@ although on rolling release GNU distributions this is not as noticeable.
 The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.
 And the third method is for operating systems that don't have package managers.</p>
-<p>Please don't install Anki via <a href="https://flatkill.org/">FlatPak</a>,
+<p>Please don't install Anki via <a href="https://flatkill.org/" target="_blank" rel="noopener noreferrer nofollow">FlatPak</a>,
 Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.</p>
 <p>If you are running Wayland,
-please upgrade to X11 (<a href="https://wiki.archlinux.org/title/Xlibre">Xlibre</a>)
+please upgrade to X11 (<a href="https://wiki.archlinux.org/title/Xlibre" target="_blank" rel="noopener noreferrer nofollow">Xlibre</a>)
 to avoid possible issues.</p>
 <h3 id="using-your-package-manager"><a class="anchor" href="#using-your-package-manager" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using your package manager</h3>
 <ul>
-<li>On <a href="https://wiki.archlinux.org/">Arch Linux</a> and other pacman-based distributions
-Anki is available in the <a href="https://wiki.archlinux.org/title/Anki">official repositories</a>.
+<li>On <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreferrer nofollow">Arch Linux</a> and other pacman-based distributions
+Anki is available in the <a href="https://wiki.archlinux.org/title/Anki" target="_blank" rel="noopener noreferrer nofollow">official repositories</a>.
 Install Anki with <code>sudo pacman -S anki</code> as any other package.</li>
 <li>If you're not an Arch Linux user,
 I'm sure you'll find Anki in repositories of your distribution.
-To find Anki for your OS you can use <a href="https://pkgs.org/search/?q=Anki">pkgs.org</a>.
+To find Anki for your OS you can use <a href="https://pkgs.org/search/?q=Anki" target="_blank" rel="noopener noreferrer nofollow">pkgs.org</a>.
 Note: <code>pkgs.org</code> requires JS to be enabled.</li>
-<li><a href="https://ubuntu.com/">Ubuntu</a> users can use the <em>App Center</em> to install Anki.
+<li><a href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer nofollow">Ubuntu</a> users can use the <em>App Center</em> to install Anki.
 However, be aware that under the hood it installs a Snap package.
 In addition, your collection will be stored in <code>~/snap/anki-desktop/</code>
 instead of the usual <code>~/.local/share/Anki2</code>.</li>
@@ -339,7 +339,7 @@ outdated versions of Anki work poorly with most add-ons, especially new ones.
 Use a version released at least 6 months ago or newer.</li>
 </ul>
 <h3 id="using-pipx"><a class="anchor" href="#using-pipx" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using pipx</h3>
-<p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/">aqt</a> package.</p>
+<p>The latest version can be installed with the <a href="https://pypi.org/project/aqt/" target="_blank" rel="noopener noreferrer nofollow">aqt</a> package.</p>
 <div class="pre-wrap"><pre><code>$ pipx install &quot;aqt[qt6]&quot;
 </code></pre></div>
 <details>
@@ -350,24 +350,24 @@ Don't forget to add this directory to the
 <a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</li>
 <li>To run Anki, type <code>anki</code> in the terminal and press Enter.
 However, having a
-<a href="https://wiki.archlinux.org/title/Desktop_entries">desktop entry</a>
+<a href="https://wiki.archlinux.org/title/Desktop_entries" target="_blank" rel="noopener noreferrer nofollow">desktop entry</a>
 is more convenient.
 Download
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop">this file</a>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop" target="_blank" rel="noopener noreferrer nofollow">this file</a>
 and save it in <code>~/.local/share/applications</code>.</li>
 <li>If after installing Anki with <code>pipx</code>
-<a href="https://wiki.archlinux.org/title/Fcitx">Fcitx</a>
+<a href="https://wiki.archlinux.org/title/Fcitx" target="_blank" rel="noopener noreferrer nofollow">Fcitx</a>
 doesn't work,
 add <code>export QT_PLUGIN_PATH=/usr/lib/qt/plugins</code>
 to the list of <a href="how-do-i-change-an-environment-variable.html">environment variables</a>.</li>
-<li>Anki depends on <a href="https://mpv.io/">mpv</a> to play audio.
+<li>Anki depends on <a href="https://mpv.io/" target="_blank" rel="noopener noreferrer nofollow">mpv</a> to play audio.
 You have to install it separately with <code>pacman</code> or another package manager.</li>
-<li>You may have to install <a href="https://pypi.org/project/PyQt5/">PyQt5</a> (PyQt6) as well.</li>
+<li>You may have to install <a href="https://pypi.org/project/PyQt5/" target="_blank" rel="noopener noreferrer nofollow">PyQt5</a> (PyQt6) as well.</li>
 <li>Anki <code>2.1.50</code> and later additionally requires
 installing
-<a href="https://pypi.org/project/PyQtWebEngine/">PyQtWebEngine</a>
+<a href="https://pypi.org/project/PyQtWebEngine/" target="_blank" rel="noopener noreferrer nofollow">PyQtWebEngine</a>
 and
-<a href="https://pypi.org/project/PyQt5-stubs/">PyQt5-stubs</a> (PyQt6-stubs)
+<a href="https://pypi.org/project/PyQt5-stubs/" target="_blank" rel="noopener noreferrer nofollow">PyQt5-stubs</a> (PyQt6-stubs)
 from PyPI.</li>
 <li><code>PyQt5</code> (PyQt6) and <code>PyQtWebEngine</code> can be also obtained from the official Arch Linux repositories.</li>
 </ul>
@@ -388,28 +388,28 @@ $ pipx install 'aqt[qt6]'
 <p>If your operating system has a package manager, like most GNU+Linux distros,
 it is not recommended to install directly from the official website,
 since a package manager can automate downloading, installing, uninstalling and updating.</p>
-<p>But some operating systems, especially Windows-like OSes such as <a href="https://reactos.org/">ReactOS</a>,
+<p>But some operating systems, especially Windows-like OSes such as <a href="https://reactos.org/" target="_blank" rel="noopener noreferrer nofollow">ReactOS</a>,
 don't have this feature.
-In this case, head to <a href="https://apps.ankiweb.net/">apps.ankiweb.net</a> and read the instructions there.</p>
+In this case, head to <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener noreferrer nofollow">apps.ankiweb.net</a> and read the instructions there.</p>
 <h3 id="troubleshooting"><a class="anchor" href="#troubleshooting" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h3>
 <ul>
 <li>If you're still unable to install or run Anki, refer to
-<a href="https://docs.ankiweb.net/platform/linux/installing.html">Anki Manual</a>
+<a href="https://docs.ankiweb.net/platform/linux/installing.html" target="_blank" rel="noopener noreferrer nofollow">Anki Manual</a>
 and
-<a href="https://betas.ankiweb.net/">Anki Betas guide</a>.</li>
+<a href="https://betas.ankiweb.net/" target="_blank" rel="noopener noreferrer nofollow">Anki Betas guide</a>.</li>
 <li>Some people report that they see a black screen on startup,
 and that you should run Anki with the no sandbox parameter: <code>anki --no-sandbox</code> to avoid it.</li>
 </ul>
 <h2 id="sync-your-mobile-device"><a class="anchor" href="#sync-your-mobile-device" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sync your mobile device</h2>
-<p>By <a href="https://ankiweb.net/account/register">signing up</a> for AnkiWeb
+<p>By <a href="https://ankiweb.net/account/register" target="_blank" rel="noopener noreferrer nofollow">signing up</a> for AnkiWeb
 you can keep your cards synchronized across multiple machines.
 You can also sync between devices.
-Install <a href="https://f-droid.org/en/packages/com.ichi2.anki/">AnkiDroid</a>
+Install <a href="https://f-droid.org/en/packages/com.ichi2.anki/" target="_blank" rel="noopener noreferrer nofollow">AnkiDroid</a>
 on your Android device and sync your collection.
 This will allow you to review your flashcards when you're outside
 and don't have access to your computer.
 I prefer downloading the latest alpha from
-<a href="https://github.com/ankidroid/Anki-Android/releases">GitHub</a>
+<a href="https://github.com/ankidroid/Anki-Android/releases" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>
 because the releases on F-Droid tend to be slow.</p>
 <p>To sync your collection on desktop, press <kbd>Y</kbd> or click &quot;Sync&quot; on the toolbar.</p>
 <h2 id="import-an-example-mining-deck"><a class="anchor" href="#import-an-example-mining-deck" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Import an example mining deck</h2>
@@ -421,16 +421,16 @@ consisting of essentially adding the fields you need and copy-pasting HTML and C
 I recommend you to import a pre-made mining deck.</p>
 <p>A sample mining deck can be found here:</p>
 <ul>
-<li><a href="https://ankiweb.net/shared/info/1557722832">AnkiWeb</a></li>
-<li><a href="https://disk.yandex.com/d/BSmZ2mCRgMZHgQ">Mirror</a></li>
+<li><a href="https://ankiweb.net/shared/info/1557722832" target="_blank" rel="noopener noreferrer nofollow">AnkiWeb</a></li>
+<li><a href="https://disk.yandex.com/d/BSmZ2mCRgMZHgQ" target="_blank" rel="noopener noreferrer nofollow">Mirror</a></li>
 </ul>
 <h2 id="japanese-language-support"><a class="anchor" href="#japanese-language-support" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japanese language support</h2>
 <p>Press &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Get Add-ons&quot; to download and install the
-<a href="https://ankiweb.net/shared/info/1344485230">AJT Japanese</a>
+<a href="https://ankiweb.net/shared/info/1344485230" target="_blank" rel="noopener noreferrer nofollow">AJT Japanese</a>
 add-on.
 Then restart.
 The add-on is bundled with
-<a href="https://aur.archlinux.org/packages/mecab-git">Mecab</a>,
+<a href="https://aur.archlinux.org/packages/mecab-git" target="_blank" rel="noopener noreferrer nofollow">Mecab</a>,
 so you don't need to install any additional dependencies.</p>
 <h2 id="anki-settings"><a class="anchor" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h2>
 <p>In Anki you can learn languages, biology, math, physics, etc.,
@@ -478,7 +478,7 @@ It's also confusing when one key serves two different purposes at the same time.
 <p>Disable.
 PNG images take more disk space than <code>WebP</code> or <code>Avif</code> images.
 To paste images as WebP, install
-<a href="https://ankiweb.net/shared/info/1151815987">this addon</a>.</p>
+<a href="https://ankiweb.net/shared/info/1151815987" target="_blank" rel="noopener noreferrer nofollow">this addon</a>.</p>
 <h3 id="syncing"><a class="anchor" href="#syncing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syncing</h3>
 <p>Here you need to ensure that your profile is synced with AnkiWeb.
 Log in and enable <em>synchronize audio and images</em>.</p>
@@ -502,7 +502,7 @@ a new card pops up after a streak of mature cards.</p>
 <li>
 <p><strong>Anki 2021 scheduler.</strong>
 This is a
-<a href="https://faqs.ankiweb.net/the-2021-scheduler.html">new scheduler</a>
+<a href="https://faqs.ankiweb.net/the-2021-scheduler.html" target="_blank" rel="noopener noreferrer nofollow">new scheduler</a>
 that comes with Anki 2.1.45+.
 If your version of Anki doesn't show this option, it has been already enabled by default.
 Otherwise, make sure to enable it.</p>
@@ -551,7 +551,7 @@ Doing more cards is also possible if you can keep up with the review load,
 but generally in the AJATT community <a href="how-to-review.html#new-cards">it is advised</a>
 to learn no more than <code>30</code> new cards a day.</p>
 <p>I keep my setting at <code>0</code>.
-This is because I use <a href="https://ankiweb.net/shared/info/1021636467">Learn Now Button</a>
+This is because I use <a href="https://ankiweb.net/shared/info/1021636467" target="_blank" rel="noopener noreferrer nofollow">Learn Now Button</a>
 to <strong>manually pick</strong> and learn cards from my Sentence Bank.
 For me personally it's better than having Anki decide for me.</p>
 <h4 id="maximum-reviews-day"><a class="anchor" href="#maximum-reviews-day" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximum reviews/day</h4>
@@ -679,10 +679,10 @@ and don't need to introduce additional variables in the grading process.</p>
 <p align="center"><i>Hard and Easy buttons.</i></p>
 <p>The &quot;Hard&quot; and &quot;Easy&quot; buttons have counter-intuitive effects on Anki's algorithm,
 which causes long-term problems with Ease of your cards.</p>
-<p><span class="article-note">Note</span>: <a href="https://ankiweb.net/shared/info/1715096333">AJT Flexible Grading</a> can hide unwanted buttons.
+<p><span class="article-note">Note</span>: <a href="https://ankiweb.net/shared/info/1715096333" target="_blank" rel="noopener noreferrer nofollow">AJT Flexible Grading</a> can hide unwanted buttons.
 It is covered in greater detail later.
 An alternative way to make &quot;Hard&quot;, &quot;Good&quot; and &quot;Easy&quot; buttons behave the same would be
-<a href="https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707">using the V3 scheduler's custom scheduling mechanism</a>.</p>
+<a href="https://forums.ankiweb.net/t/low-key-anki-with-v3-scheduler-s-custom-scheduling/19707" target="_blank" rel="noopener noreferrer nofollow">using the V3 scheduler's custom scheduling mechanism</a>.</p>
 <h4 id="interval-modifier"><a class="anchor" href="#interval-modifier" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interval modifier</h4>
 <p>A multiplier that is applied to a review interval when answering Again.
 When you answer <strong>Good</strong> on a card, its interval is recalculated.</p>
@@ -718,7 +718,7 @@ Use a different Anki profile to store them.
 The extra profile should not be synced.</p>
 <p>To make multiple profiles, press &quot;File&quot; &gt; &quot;Switch profile&quot;.</p>
 <p>Alternatively, use a personal Anki sync server.
-<a href="https://aur.archlinux.org/packages/anki-sync-server-git">anki-sync-server</a>
+<a href="https://aur.archlinux.org/packages/anki-sync-server-git" target="_blank" rel="noopener noreferrer nofollow">anki-sync-server</a>
 is a sync server for Anki which you can sync against instead of AnkiWeb.</p>
 <h2 id="ease-hell"><a class="anchor" href="#ease-hell" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ease Hell</h2>
 <p>Ease Hell is when Anki gradually lowers Ease factors of your flashcards,
@@ -757,16 +757,16 @@ Once a card <em>becomes a leech</em>, you should investigate why it happened.</p
 </blockquote>
 <p>If you've been using Anki for a while before reading this page
 then you'll need to update your collection to reset the Ease factor of the older cards.
-To update older cards, use the <a href="https://ankiweb.net/shared/info/819023663">ResetEase</a> add-on.</p>
+To update older cards, use the <a href="https://ankiweb.net/shared/info/819023663" target="_blank" rel="noopener noreferrer nofollow">ResetEase</a> add-on.</p>
 <p>More about the Ease Hell:</p>
 <ul>
-<li><a href="https://redirect.invidious.io/watch?v=1XaJjbCSXT0">Guide to Anki Intervals and Learning Steps</a></li>
-<li><a href="https://web.archive.org/web/20200926103540/https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/">The Ease Factor Problem</a></li>
-<li><a href="https://readbroca.com/anki/ease-hell/">Ease Hell in Anki</a></li>
+<li><a href="https://redirect.invidious.io/watch?v=1XaJjbCSXT0" target="_blank" rel="noopener noreferrer nofollow">Guide to Anki Intervals and Learning Steps</a></li>
+<li><a href="https://web.archive.org/web/20200926103540/https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/" target="_blank" rel="noopener noreferrer nofollow">The Ease Factor Problem</a></li>
+<li><a href="https://readbroca.com/anki/ease-hell/" target="_blank" rel="noopener noreferrer nofollow">Ease Hell in Anki</a></li>
 </ul>
 <h2 id="gtk-theme"><a class="anchor" href="#gtk-theme" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GTK theme</h2>
 <p>Anki uses the
-<a href="https://wiki.archlinux.org/title/Qt">Qt</a>
+<a href="https://wiki.archlinux.org/title/Qt" target="_blank" rel="noopener noreferrer nofollow">Qt</a>
 toolkit.
 If you're not running Plasma (or possibly another Qt-based desktop environment)
 Qt applications won't be styled
@@ -779,9 +779,9 @@ and make sure that &quot;Style&quot; is set to &quot;Native&quot;.</p>
 <ol>
 <li>
 <p>If your version of Anki uses <code>Qt5</code>,
-install <a href="https://aur.archlinux.org/packages/qt5-styleplugins/">qt5-styleplugins</a>.
+install <a href="https://aur.archlinux.org/packages/qt5-styleplugins/" target="_blank" rel="noopener noreferrer nofollow">qt5-styleplugins</a>.
 If your version of Anki uses <code>Qt6</code>,
-install <a href="https://aur.archlinux.org/packages/qt6gtk2">qt6gtk2</a>.</p>
+install <a href="https://aur.archlinux.org/packages/qt6gtk2" target="_blank" rel="noopener noreferrer nofollow">qt6gtk2</a>.</p>
 </li>
 <li>
 <p>Set the following
@@ -823,7 +823,7 @@ Apply changes.</p>
 Currently, there are problems with <code>Qt6</code>.
 To work around it,
 install the <code>Qt5</code> version of Anki
-(and/or <a href="https://pip.pypa.io/en/stable/cli/pip_uninstall/">uninstall</a> <code>PyQt6-*</code> packages with <code>pip</code> if they were installed)
+(and/or <a href="https://pip.pypa.io/en/stable/cli/pip_uninstall/" target="_blank" rel="noopener noreferrer nofollow">uninstall</a> <code>PyQt6-*</code> packages with <code>pip</code> if they were installed)
 and instead of setting the environment variable system-wide,
 set it locally.
 It can be achieved by launching Anki like this:</p>
@@ -837,9 +837,9 @@ in the <code>.desktop</code> file (see <code>pip</code> <a href="setting-up-anki
 <p>If you want to install and test multiple versions of Anki at the same time,
 use the following functions.
 Add them to your
-<a href="https://wiki.archlinux.org/title/Bash#Configuration_files">~/.bashrc</a>
+<a href="https://wiki.archlinux.org/title/Bash#Configuration_files" target="_blank" rel="noopener noreferrer nofollow">~/.bashrc</a>
 or
-<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh">~/.zshrc</a>.</p>
+<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh" target="_blank" rel="noopener noreferrer nofollow">~/.zshrc</a>.</p>
 <p>Install a specific version.
 For example, run <code>anki_test_install 2.1.45</code> to install Anki <code>2.1.45</code>.</p>
 <div class="pre-wrap"><pre><code>anki_test_install() {
@@ -854,7 +854,7 @@ For example, run <code>anki_test_install 2.1.45</code> to install Anki <code>2.1
 }
 </code></pre></div>
 <p>Run a specific version.
-This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to ask what version you want to run.</p>
+This script uses <a href="https://wiki.archlinux.org/title/Dmenu" target="_blank" rel="noopener noreferrer nofollow">dmenu</a> to ask what version you want to run.</p>
 <div class="pre-wrap"><pre><code>anki_test_run() {
 	local -r dir=~/.local/share/anki_builds
 	if [[ $* ]]; then
@@ -868,19 +868,19 @@ This script uses <a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a> to a
 }
 </code></pre></div>
 <p>These functions are
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc">available on my GitHub</a>.</p>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/shell/functionrc" target="_blank" rel="noopener noreferrer nofollow">available on my GitHub</a>.</p>
 <h2 id="unicode-normalization"><a class="anchor" href="#unicode-normalization" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unicode normalization</h2>
 <p>If you are studying certain
 <abbr title="traditional kanji used in Japan before 1946">旧字体</abbr>
 characters,
 you may have noticed that when you put them in Anki,
-they are <a href="https://docs.ankiweb.net/editing.html?highlight=norma#unicode-normalization">automatically converted</a>
+they are <a href="https://docs.ankiweb.net/editing.html?highlight=norma#unicode-normalization" target="_blank" rel="noopener noreferrer nofollow">automatically converted</a>
 to their
 <abbr title="simplified form of kanji used in Japan since 1946">新字体</abbr>
 versions.
-For example, you make a card with 「<a href="https://kanji.jitenon.jp/kanjim/6401.html">禎</a>」,
+For example, you make a card with 「<a href="https://kanji.jitenon.jp/kanjim/6401.html" target="_blank" rel="noopener noreferrer nofollow">禎</a>」,
 and when you open the card again,
-the kanji is replaced with 「<a href="https://kanji.jitenon.jp/kanjif/2754.html">禎</a>」.</p>
+the kanji is replaced with 「<a href="https://kanji.jitenon.jp/kanjif/2754.html" target="_blank" rel="noopener noreferrer nofollow">禎</a>」.</p>
 <p>If you are studying <code>旧字体</code> characters,
 including certain <code>人名用漢字</code>,
 and wish to prevent them from being converted into modern equivalents,
@@ -890,13 +890,13 @@ Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to apply.</p>
 <div class="pre-wrap"><pre><code>mw.col.conf[&quot;normalize_note_text&quot;] = False
 </code></pre></div>
 <p>This setting should be applied <strong>to each collection</strong> (Anki profile) individually.</p>
-<p>Read this <a href="https://forums.ankiweb.net/t/inconsistent-unicode-normalization/22634">Anki forum post</a>
+<p>Read this <a href="https://forums.ankiweb.net/t/inconsistent-unicode-normalization/22634" target="_blank" rel="noopener noreferrer nofollow">Anki forum post</a>
 for reference.</p>
 <h2 id="note-types-for-anki"><a class="anchor" href="#note-types-for-anki" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Note Types for Anki</h2>
 <p>The AJATT community has developed a variety of note types to use in Anki for different purposes,
 including language learning.
 We store all of our note types in one Git repository for convenience.
-You can find the repository <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes">on GitHub</a>.</p>
+You can find the repository <a href="https://github.com/Ajatt-Tools/AnkiNoteTypes" target="_blank" rel="noopener noreferrer nofollow">on GitHub</a>.</p>
 
         <!-- text end -->
         <div class="blog_tags_list">

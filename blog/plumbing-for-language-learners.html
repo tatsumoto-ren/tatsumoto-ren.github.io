@@ -161,11 +161,11 @@ Using <code>Rofi</code> I can choose to send the selected text to various apps a
 </video>
 <p align="center"><i>Video demonstration.</i></p>
 <h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p>You can get an example plumber script from my <a href="https://github.com/tatsumoto-ren/dotfiles">dotfiles</a>.
+<p>You can get an example plumber script from my <a href="https://github.com/tatsumoto-ren/dotfiles" target="_blank" rel="noopener noreferrer nofollow">dotfiles</a>.
 The script is called <code>cabl</code>.
 If you're using my dotfiles, you already have it.</p>
 <p>To install <code>cabl</code> manually,
-save <strong><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl">this file</a></strong>
+save <strong><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/i3cmds/cabl" target="_blank" rel="noopener noreferrer nofollow">this file</a></strong>
 to <code>~/.local/bin</code>.</p>
 <div class="pre-wrap"><pre><code>$ curl -o ~/.local/bin/cabl 'https://raw.githubusercontent.com/tatsumoto-ren/dotfiles/main/.local/bin/i3cmds/cabl'
 </code></pre></div>
@@ -174,24 +174,24 @@ and the file is <a href="how-do-i-make-a-file-executable.html">executable</a>.</
 <h2 id="dependencies"><a class="anchor" href="#dependencies" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dependencies</h2>
 <p>The script depends on:</p>
 <ul>
-<li><a href="https://wiki.archlinux.org/title/Dmenu">dmenu</a></li>
-<li><a href="https://archlinux.org/packages/?name=xclip">xclip</a></li>
-<li><a href="https://archlinux.org/packages/?name=xorg-xprop">xorg-xprop</a></li>
-<li><a href="https://wiki.archlinux.org/title/FFmpeg">ffmpeg</a> - optional</li>
-<li><a href="https://aur.archlinux.org/packages/task-spooler">task-spooler</a> - optional</li>
+<li><a href="https://wiki.archlinux.org/title/Dmenu" target="_blank" rel="noopener noreferrer nofollow">dmenu</a></li>
+<li><a href="https://archlinux.org/packages/?name=xclip" target="_blank" rel="noopener noreferrer nofollow">xclip</a></li>
+<li><a href="https://archlinux.org/packages/?name=xorg-xprop" target="_blank" rel="noopener noreferrer nofollow">xorg-xprop</a></li>
+<li><a href="https://wiki.archlinux.org/title/FFmpeg" target="_blank" rel="noopener noreferrer nofollow">ffmpeg</a> - optional</li>
+<li><a href="https://aur.archlinux.org/packages/task-spooler" target="_blank" rel="noopener noreferrer nofollow">task-spooler</a> - optional</li>
 </ul>
 <p>Install dependencies:</p>
 <div class="pre-wrap"><pre><code>$ sudo pacman -S --needed dmenu xclip xorg-xprop
 </code></pre></div>
-<p>If you use <a href="https://wiki.archlinux.org/title/Rofi">Rofi</a> as a replacement for <code>dmenu</code>,
-you can add <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/dmenu">this script</a>
+<p>If you use <a href="https://wiki.archlinux.org/title/Rofi" target="_blank" rel="noopener noreferrer nofollow">Rofi</a> as a replacement for <code>dmenu</code>,
+you can add <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/dmenu" target="_blank" rel="noopener noreferrer nofollow">this script</a>
 to the <code>PATH</code> to redirect <code>dmenu</code> calls to Rofi.</p>
 <h2 id="bind-to-a-shortcut"><a class="anchor" href="#bind-to-a-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bind to a shortcut</h2>
 <p>To add a keyboard shortcut,
 you can use options of your WM or DE.
-You can also use <a href="https://archlinux.org/packages/?name=sxhkd">sxhkd</a>.</p>
+You can also use <a href="https://archlinux.org/packages/?name=sxhkd" target="_blank" rel="noopener noreferrer nofollow">sxhkd</a>.</p>
 <p>Here is a snippet from my
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config">~/.config/i3/config</a>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/i3/config" target="_blank" rel="noopener noreferrer nofollow">~/.config/i3/config</a>
 showing how to bind <code>cabl</code> to a keyboard shortcut.</p>
 <div class="pre-wrap"><pre><code># Run cabl
 bindsym $mod+c          exec --no-startup-id cabl
@@ -241,7 +241,7 @@ This function requires my dotfiles to be installed.</li>
 </ul>
 <h2 id="extra"><a class="anchor" href="#extra" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extra</h2>
 <p>Luke Smith has made a
-<a href="https://odysee.com/@Luke:7/plumbing-in-linux-la-plan-9-from-bell:e">video about plumbing</a>.
+<a href="https://odysee.com/@Luke:7/plumbing-in-linux-la-plan-9-from-bell:e" target="_blank" rel="noopener noreferrer nofollow">video about plumbing</a>.
 The original Bash script from the video is no longer available,
 but mine has all the same functionality plus more.</p>
 

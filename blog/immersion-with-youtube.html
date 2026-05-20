@@ -128,24 +128,24 @@ In addition to that, YouTube contains privacy violating trackers and collects da
 To access the videos, use various alternative ways that minimize tracking.</p>
 <p>There are several ways you can watch YouTube.</p>
 <ol>
-<li><a href="https://github.com/iv-org/invidious">Invidious</a>.
+<li><a href="https://github.com/iv-org/invidious" target="_blank" rel="noopener noreferrer nofollow">Invidious</a>.
 Invidious is an alternative front-end to YouTube.
 It lets you choose from a number of instances based on their health.
-A list of Invidious instances can be found on <a href="https://api.invidious.io/">https://api.invidious.io/</a>.
+A list of Invidious instances can be found on <a href="https://api.invidious.io/" target="_blank" rel="noopener noreferrer nofollow">https://api.invidious.io/</a>.
 Invidious gives you direct download links for every video.</li>
-<li><a href="https://wiki.archlinux.org/index.php/yt-dlp">yt-dlp</a>.
+<li><a href="https://wiki.archlinux.org/index.php/yt-dlp" target="_blank" rel="noopener noreferrer nofollow">yt-dlp</a>.
 yt-dlp is a program to download videos.
 To search for videos and obtain their links,
 you still need to use a front end such as Invidious or
-<a href="https://github.com/trizen/youtube-viewer">youtube-viewer</a>.</li>
-<li><a href="https://wiki.archlinux.org/title/Mpv">mpv</a>.
+<a href="https://github.com/trizen/youtube-viewer" target="_blank" rel="noopener noreferrer nofollow">youtube-viewer</a>.</li>
+<li><a href="https://wiki.archlinux.org/title/Mpv" target="_blank" rel="noopener noreferrer nofollow">mpv</a>.
 <code>mpv</code> is a video player.
 It can utilize a built-in <code>yt-dlp</code> hook to play YouTube videos.
 I recommend downloading videos before watching them, however.
 Storing immersion material locally makes <a href="sentence-mining.html">sentence mining</a> substantially easier.</li>
 <li>Not using YouTube at all.
 Explore privacy-respecting platforms
-like <a href="https://joinpeertube.org/">PeerTube</a> and <a href="https://odysee.com/">Odysee</a>.
+like <a href="https://joinpeertube.org/" target="_blank" rel="noopener noreferrer nofollow">PeerTube</a> and <a href="https://odysee.com/" target="_blank" rel="noopener noreferrer nofollow">Odysee</a>.
 Chances are, you'll find Japanese immersion content there too.
 <code>yt-dlp</code> works on these websites as well.</li>
 </ol>
@@ -163,19 +163,19 @@ you can put it into <code>subs2srs</code>
 or watch it in <code>mpv</code> with <code>mpvacious</code> and make flashcards.</p>
 <p>The following sites offer video search based on target language subtitles:</p>
 <ul>
-<li><a href="https://youglish.com/japanese">YouGlish</a></li>
-<li><a href="https://www.captionpop.com/">CaptionPop</a></li>
+<li><a href="https://youglish.com/japanese" target="_blank" rel="noopener noreferrer nofollow">YouGlish</a></li>
+<li><a href="https://www.captionpop.com/" target="_blank" rel="noopener noreferrer nofollow">CaptionPop</a></li>
 </ul>
 <p>We recommend utilizing their search features but using <code>mpv</code> to watch the videos.</p>
 <h2 id="yt-dlp"><a class="anchor" href="#yt-dlp" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>yt-dlp</h2>
-<p><a href="https://wiki.archlinux.org/index.php/yt-dlp">yt-dlp</a>
+<p><a href="https://wiki.archlinux.org/index.php/yt-dlp" target="_blank" rel="noopener noreferrer nofollow">yt-dlp</a>
 is a program
 that can be used to download videos from YouTube and similar sites.
 <code>yt-dlp</code> can also download audio tracks separately.</p>
 <p>On Arch Linux, yt-dlp can be installed by running this command:</p>
 <div class="pre-wrap"><pre><code>sudo pacman -S yt-dlp yt-dlp-ejs
 </code></pre></div>
-<p>If you're on Ubuntu, it is recommended to use <a href="https://pipx.pypa.io/stable/">pipx</a>.</p>
+<p>If you're on Ubuntu, it is recommended to use <a href="https://pipx.pypa.io/stable/" target="_blank" rel="noopener noreferrer nofollow">pipx</a>.</p>
 <div class="pre-wrap"><pre><code>pipx install &quot;yt-dlp[default]&quot;
 </code></pre></div>
 <p>To download a video, execute:</p>
@@ -185,11 +185,11 @@ that can be used to download videos from YouTube and similar sites.
 <div class="pre-wrap"><pre><code>yt-dlp --embed-metadata --extract-audio --format bestaudio/best 'https://youtube.com/&lt;video&gt;'
 </code></pre></div>
 <p><strong>Tip:</strong>
-add these commands as <a href="https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias">aliases</a>
+add these commands as <a href="https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias" target="_blank" rel="noopener noreferrer nofollow">aliases</a>
 to access them without too much typing.</p>
 <p><code>yt-dlp</code> reads its configuration from <code>~/.config/yt-dlp/config</code>.
 See my
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/youtube-dl/config">example configuration file</a>.
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/youtube-dl/config" target="_blank" rel="noopener noreferrer nofollow">example configuration file</a>.
 This configuration enables <code>yt-dlp</code> to automatically download
 Japanese (<code>ja</code>) subtitles in <code>ass</code> format
 and save the downloaded files to a dedicated folder.
@@ -208,38 +208,38 @@ that interfere with things like rewinding and making Anki cards.</p>
 install one of the YouTube clients from F-Droid
 to access YouTube and keep your privacy.</p>
 <ul>
-<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/">NewPipe</a>.</li>
-<li><a href="https://f-droid.org/en/packages/com.github.libretube/">LibreTube</a>
+<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/" target="_blank" rel="noopener noreferrer nofollow">NewPipe</a>.</li>
+<li><a href="https://f-droid.org/en/packages/com.github.libretube/" target="_blank" rel="noopener noreferrer nofollow">LibreTube</a>
 An alternative frontend for that uses the Piped API to load data and play videos.</li>
-<li><a href="https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular">Tubular</a>.
+<li><a href="https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular" target="_blank" rel="noopener noreferrer nofollow">Tubular</a>.
 NewPipe with SponsorBlock.</li>
 </ul>
 <h2 id="notes"><a class="anchor" href="#notes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notes</h2>
 <ul>
-<li><a href="https://github.com/YouG-o/YouTube_No_Translation">YouTube No Translation</a>.
+<li><a href="https://github.com/YouG-o/YouTube_No_Translation" target="_blank" rel="noopener noreferrer nofollow">YouTube No Translation</a>.
 Web browser add-on that prevents YouTube's automatic translations.
 It keeps titles, descriptions, and audio in their original language.</li>
-<li><a href="https://github.com/amitbl/blocktube">BlockTube</a>.
+<li><a href="https://github.com/amitbl/blocktube" target="_blank" rel="noopener noreferrer nofollow">BlockTube</a>.
 This browser extension allows you
 to block videos and channels that are not in your target language.
 It is for people who use the official YouTube website.</li>
-<li><a href="https://github.com/trizen/pipe-viewer">pipe-viewer</a> is a lightweight YouTube client for Linux.</li>
+<li><a href="https://github.com/trizen/pipe-viewer" target="_blank" rel="noopener noreferrer nofollow">pipe-viewer</a> is a lightweight YouTube client for Linux.</li>
 <li>In my dotfiles I have
-<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances">a script</a>
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/rank-invidious-instances" target="_blank" rel="noopener noreferrer nofollow">a script</a>
 that sorts Invidious instances based on the number of users.
 The least used instances are usually faster.</li>
-<li>Install <a href="https://github.com/SimonBrazell/privacy-redirect">Privacy Redirect</a>
-or <a href="https://libredirect.github.io/">LibRedirect</a>
+<li>Install <a href="https://github.com/SimonBrazell/privacy-redirect" target="_blank" rel="noopener noreferrer nofollow">Privacy Redirect</a>
+or <a href="https://libredirect.github.io/" target="_blank" rel="noopener noreferrer nofollow">LibRedirect</a>
 to avoid accidentally going to the official website when opening YouTube links.</li>
 <li>If you go directly to <code>youtube.com</code>, keep
-<a href="https://github.com/kodxana/Watch-on-Odysee">Watch on Odysee</a>
+<a href="https://github.com/kodxana/Watch-on-Odysee" target="_blank" rel="noopener noreferrer nofollow">Watch on Odysee</a>
 enabled to be notified when an alternative Odysee version of the video is available.</li>
-<li><a href="https://f-droid.org/packages/app.fedilab.nitterizeme/">UntrackMe</a>
+<li><a href="https://f-droid.org/packages/app.fedilab.nitterizeme/" target="_blank" rel="noopener noreferrer nofollow">UntrackMe</a>
 for Android redirects YouTube links to Invidious.
 On top of that it can transform many other links.</li>
 <li>If you add <code>24/7</code> or <code>ライブ</code> behind your searches on YouTube,
 you can find channels that stream Japanese all day.</li>
-<li><a href="https://charts.youtube.com/jp">charts.youtube.com/jp</a>.
+<li><a href="https://charts.youtube.com/jp" target="_blank" rel="noopener noreferrer nofollow">charts.youtube.com/jp</a>.
 Songs trending in Japan.</li>
 </ul>
 

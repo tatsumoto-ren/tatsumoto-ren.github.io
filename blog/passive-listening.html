@@ -179,31 +179,31 @@ so actively immersing oneself in them is not an option,
 thus reducing the quality of immersion.</p>
 <h2 id="mpd"><a class="anchor" href="#mpd" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mpd</h2>
 <p>First, to start listening you have to install a music player.
-<a href="https://wiki.archlinux.org/index.php/Music_Player_Daemon">mpd</a>
+<a href="https://wiki.archlinux.org/index.php/Music_Player_Daemon" target="_blank" rel="noopener noreferrer nofollow">mpd</a>
 is a music player with a server-client architecture,
 it runs in the background as a daemon,
 and you need a separate client application to connect to it.
 The most widely used mpd client is <code>ncmpcpp</code>, but there are many alternatives listed on
-<a href="https://wiki.archlinux.org/index.php/Music_Player_Daemon#Clients">Arch Wiki</a>.</p>
+<a href="https://wiki.archlinux.org/index.php/Music_Player_Daemon#Clients" target="_blank" rel="noopener noreferrer nofollow">Arch Wiki</a>.</p>
 <p>After you've installed <code>mpd</code>, create the config and playlists directories:</p>
 <div class="pre-wrap"><pre><code>$ mkdir -p ~/.config/mpd/playlists
 </code></pre></div>
 <p>To configure <code>mpd</code>, edit <code>~/.config/mpd/mpd.conf</code>.
 Make sure to specify your <code>music_directory</code> correctly.</p>
-<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/mpd/mpd.conf">Example configuration file</a></p>
+<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/mpd/mpd.conf" target="_blank" rel="noopener noreferrer nofollow">Example configuration file</a></p>
 <p><code>mpd</code> must run in the background to be able to play music.
 To enable autostart, add <code>mpd &amp;</code> (mind the trailing <code>&amp;</code>) to your <code>~/.xprofile</code> or <code>~/.xinitrc</code>.
 Alternatively, use autostart settings of your DE/WM.</p>
 <h2 id="ncmpcpp"><a class="anchor" href="#ncmpcpp" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ncmpcpp</h2>
-<p><a href="https://wiki.archlinux.org/index.php/Ncmpcpp">ncmpcpp</a> is a ncurses-based MPD client.
+<p><a href="https://wiki.archlinux.org/index.php/Ncmpcpp" target="_blank" rel="noopener noreferrer nofollow">ncmpcpp</a> is a ncurses-based MPD client.
 It can help you manage your audio files and playlists,
 start and stop playback, and everything else you'd expect from an audio player.</p>
 <p><code>ncmpcpp</code> reads user's settings from the <code>~/.ncmpcpp/config</code> file.
 When configuring <code>ncmpcpp</code> make sure that <code>mpd_music_dir</code> points to the same directory
 as specified in <code>music_directory</code> in <code>mpd.conf</code>.</p>
-<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/ncmpcpp/config">Example configuration file</a></p>
+<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/ncmpcpp/config" target="_blank" rel="noopener noreferrer nofollow">Example configuration file</a></p>
 <p>Key bindings are configured in <code>~/.config/ncmpcpp/bindings</code>.</p>
-<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/ncmpcpp/bindings">Example bindings file</a></p>
+<p><a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/ncmpcpp/bindings" target="_blank" rel="noopener noreferrer nofollow">Example bindings file</a></p>
 <h2 id="condensing-audio"><a class="anchor" href="#condensing-audio" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Condensing audio</h2>
 <p>The quantity of immersion is the greatest predictor
 of how quick you're going to be making language gains.
@@ -227,13 +227,13 @@ listening to your target language
 while passively immersing.</p>
 <h2 id="impd"><a class="anchor" href="#impd" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>impd</h2>
 <p>To create, store and play condensed audio files we're going to use
-<a href="https://github.com/Ajatt-Tools/impd">impd</a>,
+<a href="https://github.com/Ajatt-Tools/impd" target="_blank" rel="noopener noreferrer nofollow">impd</a>,
 a small tool that simplifies passive listening down to a few commands.
 You can give it a folder with the anime and dramas you've recently watched,
 and it's going to make condensed audio for all the episodes stored there,
 automatically add them to your <code>mpd</code> music directory and start playing.</p>
 <p>To get <code>impd</code>, install the
-<a href="https://aur.archlinux.org/packages/impd-git/">impd-git</a>
+<a href="https://aur.archlinux.org/packages/impd-git/" target="_blank" rel="noopener noreferrer nofollow">impd-git</a>
 AUR package or follow the installation steps on GitHub.</p>
 <div class="pre-wrap"><pre><code>$ trizen -S impd-git # or yay
 </code></pre></div>
@@ -271,12 +271,12 @@ Add this line to <code>~/.config/mpv/input.conf</code>:</p>
 <p>Synchronize your immersionpod folder to your mobile device.
 There are many programs for file synchronization.</p>
 <ul>
-<li><a href="https://wiki.archlinux.org/index.php/Syncthing">Syncthing</a></li>
-<li><a href="https://wiki.archlinux.org/index.php/Rsync">Rsync</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Syncthing" target="_blank" rel="noopener noreferrer nofollow">Syncthing</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Rsync" target="_blank" rel="noopener noreferrer nofollow">Rsync</a></li>
 </ul>
 <p>When you're out, use
 <a href="resources.html#audio-players">a compatible music player</a> of your choice to continue immersing.</p>
-<p><a href="https://f-droid.org/packages/de.danoeh.antennapod/">AntennaPod</a>,
+<p><a href="https://f-droid.org/packages/de.danoeh.antennapod/" target="_blank" rel="noopener noreferrer nofollow">AntennaPod</a>,
 a podcast player,
 can be used to play condensed audio instead of a conventional music player.
 After you synchronize your <code>immersionpod</code> directory,
@@ -287,7 +287,7 @@ and select path to <code>immersionpod/current</code>.</p>
 After you've read a book, you might want to condense it to listen to it later,
 but because audiobooks don't have subtitles, tools like <code>impd</code> won't help.
 Fortunately,
-<a href="https://archlinux.org/packages/?name=audacity">Audacity</a>
+<a href="https://archlinux.org/packages/?name=audacity" target="_blank" rel="noopener noreferrer nofollow">Audacity</a>
 has a function to truncate silence.</p>
 <p>Select the entire clip by pressing <code>Ctrl+A</code>, then press
 Effect &gt; Truncate silence. After you adjust the settings, press OK.</p>
@@ -299,19 +299,19 @@ Effect &gt; Truncate silence. After you adjust the settings, press OK.</p>
 <ol>
 <li>Take an Android device.</li>
 <li>Install
-<a href="https://f-droid.org/packages/de.danoeh.antennapod/">AntennaPod</a>
+<a href="https://f-droid.org/packages/de.danoeh.antennapod/" target="_blank" rel="noopener noreferrer nofollow">AntennaPod</a>
 or a similar podcast player.</li>
 <li>Import this
-<a href="https://gist.github.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4">podcasts.opml</a>
+<a href="https://gist.github.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4" target="_blank" rel="noopener noreferrer nofollow">podcasts.opml</a>
 file
-(<a href="https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml">direct download</a>).</li>
+(<a href="https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml" target="_blank" rel="noopener noreferrer nofollow">direct download</a>).</li>
 <li>Start playing and just leave the device in the corner of your room.</li>
 </ol>
 <p>You can use this tip if you already understand Japanese to an extent.
 Listening to something you don't understand is not good for immersion.
 It's a very easy way to immerse, but it doesn't beat condensed audio.</p>
-<p>I also tried this method with <a href="https://search.f-droid.org/?q=radio&amp;lang=en">radio</a>,
-specifically <a href="https://f-droid.org/en/packages/net.programmierecke.radiodroid2/">RadioDroid</a>,
+<p>I also tried this method with <a href="https://search.f-droid.org/?q=radio&amp;lang=en" target="_blank" rel="noopener noreferrer nofollow">radio</a>,
+specifically <a href="https://f-droid.org/en/packages/net.programmierecke.radiodroid2/" target="_blank" rel="noopener noreferrer nofollow">RadioDroid</a>,
 though the results weren't as good because radio is often more about music than talking.</p>
 
         <!-- text end -->
