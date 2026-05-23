@@ -3,3 +3,6 @@ blog/drafts
 *.jpg
 *.png
 *.mp3
+
+/*.md
+!/README.md
