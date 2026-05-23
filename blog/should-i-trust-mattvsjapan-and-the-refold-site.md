@@ -38,7 +38,7 @@ His most useful videos are no longer available on YouTube.
 
 In 2018 Matt teamed up with a person who called himself Yoga Pants
 to create a would-be replacement for AJATT.
-They called it Mass Immersion Approach.
+They called it M[ass Immersion Approach](https://t.me/tatsumoto3_0/570).
 The idea was that people would pay them monthly
 for a chance to ask language learning questions
 and get some Anki add-ons they made.
