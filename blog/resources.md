@@ -845,6 +845,8 @@ regarding using an Android device.
   Probably not needed because AnkiDroid has AnkiDroid API.
 * [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/).
   An alternative front-end to Google Translate.
+* [Simple Time Tracker](https://f-droid.org/packages/com.razeeman.util.simpletimetracker/).
+  Time tracker for work, study, and building better daily habits.
 
 ### Manga readers
 
