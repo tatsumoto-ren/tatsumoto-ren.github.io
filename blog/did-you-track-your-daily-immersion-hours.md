@@ -15,7 +15,7 @@ That's too tedious.
 and
 [control your space](https://web.archive.org/web/20150321095512/http://www.alljapaneseallthetime.com/blog/immersion-why-you-should-stop-trying-to-control-or-measure-time)
 instead.
-I would just aim for a constant stream of immersion that lasts all day.
+I'd just aim for a constant stream of immersion that lasts all day.
 
 > It's much easier to control space than to control time.
 >
@@ -37,7 +37,7 @@ In other words, if you only have Japanese books, TV and movies at hand,
 immersing in Japanese is the only thing you can do.
 All your time is immersion time, so you don't have to measure it.
 
-From what I have observed,
+From what I've observed,
 people who tried measuring how much time they spent on Japanese
 weren't actually that good.
 They were so focused on optimizing their immersion that they didn't immerse.
@@ -47,7 +47,7 @@ that isn't complicated and doesn't require manual work,
 then you could benefit from it.
 What might be happening is that you're spending less time immersing than you think.
 The only way to find out is by measuring it.
-So maybe it is worth spending like a week tracking your progress to test yourself.
+So maybe it's worth spending about a week tracking your progress to test yourself.
 
 For example, if you log anime you watch on `MyAnimeList`,
 it will provide you with some statistics,
