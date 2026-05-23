@@ -26,6 +26,13 @@ I would just aim for a constant stream of immersion that lasts all day.
 >
 > *&mdash; Khatz*
 
+Focus on your environment, not on measuring immersion time.
+There are Japanese schools and courses.
+People go to classes, then return to their native-language environment.
+AJATT takes a completely opposite approach.
+You can't switch back to your native language
+because you're surrounded only by the language you're learning.
+
 In other words, if you only have Japanese books, TV and movies at hand,
 immersing in Japanese is the only thing you can do.
 All your time is immersion time, so you don't have to measure it.
@@ -35,14 +42,14 @@ people who tried measuring how much time they spent on Japanese
 weren't actually that good.
 They were so focused on optimizing their immersion that they didn't immerse.
 
-If you discover a way to measure your progress
+If you discover a way to [measure your progress](https://search.f-droid.org/?q=time+tracker&lang=en)
 that isn't complicated and doesn't require manual work,
-then you could benefit from it because what might be happening
-is that you are spending less time immersing than you think you are.
-The only way to find out that you immerse less than you think is by measuring it.
+then you could benefit from it.
+What might be happening is that you're spending less time immersing than you think.
+The only way to find out is by measuring it.
 So maybe it is worth spending like a week tracking your progress to test yourself.
 
-For example, if you log anime you watch on `Myanimelist`,
+For example, if you log anime you watch on `MyAnimeList`,
 it will provide you with some statistics,
 including hours spent watching.
 Things like the number of episodes watched or the number of pages read
