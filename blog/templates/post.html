@@ -9,7 +9,7 @@
         <h1 class="title"><a class="ablack" href="{{ ctx.post.html_file_path.name }}">{{ ctx.post.metadata.title }}</a></h1>
         <div class="subtitle">{{ ctx.post.metadata.date | date_allposts_post }} &mdash; {{ ctx.post.metadata.author }}</div>
         <!-- text begin -->
-        {{ ctx.post.html_content|safe }}
+        {{ ctx.post.html_content_with_anchors|safe }}
         <!-- text end -->
         {% if ctx.post.metadata.tags %}
         <div class="blog_tags_list">
