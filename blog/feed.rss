@@ -5,9 +5,32 @@
 <link>https://ajatt.top/blog/index.html</link>
 <description>Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.</description>
 <language>en</language>
-<lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
-<pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+<lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate>
+<pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
 <atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+        <title>Thoughts on books that teach kanji by breaking down kanji into radicals</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <blockquote>
+<p>Tatsumoto, what are your thoughts on more specific books claiming to teach kanji,
+like ones that break down kanji into radicals,
+or ones that teach through illustrations? Are all of them inherently bad?</p>
+</blockquote>
+<p>Kanji books help you develop <a href="learning-kanji.html#kanji-fluency">kanji fluency</a> initially.
+You learn to recognize kanji and tell them apart.
+But you <strong>outgrow them quickly</strong>.
+They help when you first start learning to read,
+but as your brain starts to recognize characters as whole units,
+you forget what those books teach.</p>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/specific-kanji-books.html</link>
+        <guid>https://ajatt.top/blog/specific-kanji-books.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
         <title>Have you ever tried using AI to analyze grammar?</title>
         <author>Tatsumoto Ren</author>
@@ -244,27 +267,6 @@ even if you don't notice it.</p>
         <guid>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
         <dc:creator>Tatsumoto Ren</dc:creator>
         <pubDate>Sat, 18 Jan 2025 02:06:48 +0000</pubDate>
-    </item>
-    <item>
-        <title>Classes</title>
-        <author>Tatsumoto Ren</author>
-        <description>
-            <![CDATA[                <p>Traditional language classes suck.
-They cost money.
-They are boring.
-And they are not effective.</p>
-<p>If you're enrolling in a typical textbook-based Japanese class,
-hoping that teachers will magically transfer
-<a href="are-textbooks-bad.html">textbook</a> material into your brain
-during short daily lessons,
-you might want to rethink your strategy.</p>
-
-]]>
-        </description>
-        <link>https://ajatt.top/blog/classes.html</link>
-        <guid>https://ajatt.top/blog/classes.html</guid>
-        <dc:creator>Tatsumoto Ren</dc:creator>
-        <pubDate>Wed, 08 Jan 2025 18:17:08 +0000</pubDate>
     </item>
 </channel>
 </rss>
