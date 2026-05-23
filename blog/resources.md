@@ -848,11 +848,10 @@ regarding using an Android device.
 
 ### Manga readers
 
-* [Tachiyomi](https://f-droid.org/en/packages/eu.kanade.tachiyomi/).
+* [Kahon](https://f-droid.org/en/packages/com.amanoteam.kahon/).
   Free/libre manga reader for Android.
-* [Mihon](https://github.com/mihonapp/mihon) ([mihon.app](https://mihon.app/))
-  is a successor to Tachiyomi.
-  Not in F-Droid.
+  [GitHub](https://github.com/AmanoTeam/Kahon).
+  Kahon is a fork of infamous Mihon that is not safe to use.
 * [tachiyomiJ2K](https://github.com/Jays2Kings/tachiyomiJ2K) is a fork of Tachiyomi.
   Not in F-Droid.
 * [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
