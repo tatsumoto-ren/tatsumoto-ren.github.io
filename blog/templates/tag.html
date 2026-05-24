@@ -16,7 +16,7 @@
 <!-- content begin -->
 
 {% for post, anchor_id in ctx.posts_with_anchors %}
-<article timestamp="{{ post.metadata.date | timestamp_int }}" position="{{ post.metadata.position }}">
+<article timestamp="{{ post.metadata.date | timestamp_int }}" position="{{ post.metadata.get_position_for_tag(ctx.tag) }}">
     {{ ctx.mk_h1_title(post.metadata.title, post.html_file_path, anchor_id=anchor_id) | safe }}
     <div class="subtitle">{{ post.metadata.date | date_allposts_post }} &mdash; {{ post.metadata.author }}</div>
     <!-- text begin -->

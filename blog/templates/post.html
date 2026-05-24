@@ -5,7 +5,7 @@
 
 {% block content %}
     <!-- entry begin -->
-    <article timestamp="{{ ctx.post.metadata.date|timestamp_int }}" position="{{ ctx.post.metadata.position }}">
+    <article timestamp="{{ ctx.post.metadata.date | timestamp_int }}">
         <h1 class="title"><a class="ablack" href="{{ ctx.post.html_file_path.name }}">{{ ctx.post.metadata.title }}</a></h1>
         <div class="subtitle">{{ ctx.post.metadata.date | date_allposts_post }} &mdash; {{ ctx.post.metadata.author }}</div>
         <!-- text begin -->
