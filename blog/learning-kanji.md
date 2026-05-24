@@ -2,7 +2,7 @@
 title: Learning Kanji
 date: 1621914831
 tags: ['kanji', 'guide']
-position: -1
+position: [-2, 0]
 ---
 
 Unlike kana which you can learn in a matter of few days no matter what method you pick,
