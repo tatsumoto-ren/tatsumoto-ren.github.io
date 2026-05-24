@@ -60,15 +60,19 @@ What you actually need to know is that it's called さんずい.
 
 ## Isolated kanji study leads to poor retention
 
-When you learn kanji as isolated units with English keywords,
-you're creating memories with no real context to anchor them to.
-So as you learn to read native Japanese texts,
+When you learn kanji as isolated units with English keywords using the [SRS](spaced-repetition.html),
+you create memories with no real context to anchor them to.
+As you start reading native Japanese texts,
 the memories of the isolated characters fade away.
 Your brain starts to store kanji as parts of words, not as abstract symbols.
 When you encounter 食 in the context of 食べる, 食事, or 食堂,
 each encounter reinforces the kanji from a different angle.
 
+Eventually, your SRS kanji cards become unbearably difficult to review
+because the SRS is the only place where you see kanji in isolation.
+Kanji cards start wasting your time, and you have to delete your kanji deck entirely.
+
 Sentence mining and targeted sentence cards
-solve the kanji problem because they teach kanji in context from the start.
+solve the kanji problem because they teach kanji in context.
 Every new kanji you encounter is attached to a real word in a real sentence
 that you pulled from your [immersion](whats-immersion.html).
