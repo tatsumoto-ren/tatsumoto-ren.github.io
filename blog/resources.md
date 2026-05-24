@@ -68,7 +68,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [Ankidrone Essentials](ankidrone-essentials.html).
   This is our main deck.
   Other decks are third-party.
-* [Core 10k Anki deck](https://mega.nz/file/BYJwxSBY#9ZO17Pi68KhBEjDB4xklb2iK7yxel5PNW8j2LkYkVCc).
+* [Core 10k Anki deck](https://disk.yandex.com/d/adEb8n9uhOacHw/Extra).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
   You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
 * Other [sentence banks](#sentence-banks).
@@ -469,6 +469,7 @@ Proprietary software should not exist and should not be used if you want to have
 
 * [List of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels) on Arch Wiki.
 * [Libre games Wiki](https://libregamewiki.org/Main_Page)
+* https://directory.fsf.org/category/games
 
 ### Japanese boards
 
