@@ -339,9 +339,8 @@ For this reason we don't include them in the list of recommended beginner guides
 Instead, we mention them here.
 You may refer to them to look up individual grammar points on a case-by-case basis.
 
-* [DoJG](https://japbase.neocities.org/)
-* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
 * [Itazuraneko Master Reference](https://djtguide.github.io/grammar/masterreference.html)
+* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
 * [Other grammar resources](resources.html#grammar)
 
 Don't learn cards from the DoJG deck in order,
