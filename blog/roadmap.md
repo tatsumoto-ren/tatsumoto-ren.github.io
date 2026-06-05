@@ -22,6 +22,11 @@ Below is a quick overview.
    Initially, avoid the [consequences of premature reading](why-does-premature-reading-cripple-phonetic-awareness.html),
    only immersing in audio-visual content,
    such as anime, movies, dramas, TV-shows.
+1) Choose your AJATTer name.
+   My AJATTer name is, as you probably guessed, Tatsumoto Ren (or Ren Tatsumoto).
+   A friend gave it to me after seeing how much immersion I did when I was a beginner.
+   It's a good idea to have a more experienced AJATTer give you your AJATTer name,
+   but it's also fine to make up your own.
 1) Set up a consistent sleep schedule.
 1) To improve your concentration and attention span,
    start meditating 5 minutes a day,

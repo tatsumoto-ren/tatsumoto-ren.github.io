@@ -118,7 +118,7 @@ Therefore, how many hours you immerse each day
 determines how fast you accomplish the goal.
 If you immerse `18` hours a day,
 it's going to take you `1.5` years to amass those `10,000` hours.
-Sometimes we call the first `10,000` hours "hardcore phase"
+Sometimes we call the first `10,000` hours "**hardcore phase**"
 because you are supposed to be cramming as much immersion as possible every day during that time.
 The more you expose yourself to the language, the better.
 It really just comes down to a matter of time.

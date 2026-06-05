@@ -272,7 +272,7 @@ This is a lot of time compared to reading and recalling just the target word.
 Thankfully, there are some tricks to do reps faster, which are described in the TSC section.
 
 Sentence cards are criticized a lot
-because they can create context-dependent memories.
+because they can create **context-dependent memories**.
 If you always recall the meaning of a word
 when that word is contained within a certain sentence,
 sometimes you end up just memorizing that sentence instead of the target word.
