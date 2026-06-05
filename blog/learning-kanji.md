@@ -514,7 +514,7 @@ If you decide to study kanji through any isolated kanji deck (RTK, KanjiDamage),
 it's common to see a good initial retention rate.
 However,
 a few months after completing the deck,
-you'll likely notice a significant drop in retention.
+you'll likely notice a [significant drop in retention](specific-kanji-books.html#isolated-kanji-study-leads-to-poor-retention).
 This is a common experience for many learners.
 Initially,
 they remember most of the kanji,
