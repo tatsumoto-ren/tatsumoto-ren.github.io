@@ -832,6 +832,8 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 
 **Note:** Please read [our recommendations](our-immersion-learning-toolset.html#android)
 regarding using an Android device.
+Be careful with programs not listed on F-Droid.
+They may contain malicious functionalities.
 
 ### General
 
@@ -876,11 +878,12 @@ regarding using an Android device.
 ### Video players
 
 * [mpv for Android](https://github.com/mpv-android/mpv-android).
-See the mpv section.
+  See the mpv section.
 * [VLC](https://f-droid.org/packages/org.videolan.vlc).
-A fast and user-friendly video player for Android.
+  A fast and user-friendly video player for Android.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
-A mobile video player tailored for Japanese language learners.
+  A mobile video player tailored for Japanese language learners.
+  [shiroikumanojisho](https://github.com/ShiroiKuma0/shiroikumanojisho) ‍is a fork of jidoujisho with additions.
 * [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular).
   A libre lightweight streaming front-end for Android.
   Also adds features from SponsorBlock and ReturnYouTubeDislike.

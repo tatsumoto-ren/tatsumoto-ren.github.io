@@ -6533,7 +6533,7 @@
     "tags":[
       "guide"
     ],
-    "body":"Note: Please read our recommendations regarding using an Android device.",
+    "body":"Note: Please read our recommendations regarding using an Android device. Be careful with programs not listed on F-Droid. They may contain malicious functionalities.",
     "url":"resources.html#android-software",
     "parent":"Resources"
   },
@@ -6569,7 +6569,7 @@
     "tags":[
       "guide"
     ],
-    "body":"mpv for Android. See the mpv section. VLC. A fast and user-friendly video player for Android. Jidoujisho. A mobile video player tailored for Japanese language learners. Tubular. A libre lightweight streaming front-end for Android. Also adds features from SponsorBlock and ReturnYouTubeDislike.",
+    "body":"mpv for Android. See the mpv section. VLC. A fast and user-friendly video player for Android. Jidoujisho. A mobile video player tailored for Japanese language learners. shiroikumanojisho ‍is a fork of jidoujisho with additions. Tubular. A libre lightweight streaming front-end for Android. Also adds features from SponsorBlock and ReturnYouTubeDislike.",
     "url":"resources.html#video-players",
     "parent":"Resources"
   },
