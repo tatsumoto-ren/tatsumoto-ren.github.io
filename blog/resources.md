@@ -402,11 +402,12 @@ Browsing will lead you to more tags.
   Explore them first.
 * [zlibrary](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
   A library with books in any language.
-* [Anna's Archive](https://annas-archive.gl/).
+* [Anna's Archive](https://annas-archive.is/).
   A catalog of all the books in existence.
   Has nearly everything.
   If it's blocked for you, use a proxy or [Tor](https://wiki.archlinux.org/title/Tor).
   For mirror status, see:
+  - [open-slum](https://open-slum.pages.dev/) (requires JavaScript)
   - [Shadow Libraries](https://shadowlibraries.github.io/DirectDownloads/AnnasArchive/).
   - [Open-Slum](https://open-slum.org/).
 * [聖書 on Wikisource](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
