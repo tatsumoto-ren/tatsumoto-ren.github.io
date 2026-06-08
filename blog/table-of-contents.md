@@ -10,6 +10,7 @@ date: 1616375454
   * [Introduction to learning Japanese](introduction-to-learning-japanese.html)
   * [Japanese Roadmap](roadmap.html)
   * [Avoiding bad advice](bad-advice.html)
+  * [Acquisition vs Learning](acquisition-vs-learning.html)
   * [Mass immersion](mass-immersion.html)
   * [Spaced repetition](spaced-repetition.html)
   * [How Anki works](how-anki-works.html)
