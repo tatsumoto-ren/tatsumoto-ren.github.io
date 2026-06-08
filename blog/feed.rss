@@ -5,9 +5,31 @@
 <link>https://ajatt.top/blog/index.html</link>
 <description>Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.</description>
 <language>en</language>
-<lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate>
-<pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
 <atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+        <title>Acquisition vs Learning</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>When it comes to learning a foreign language,
+there are two primary approaches: <strong>acquisition</strong> and <strong>learning</strong>.
+<a href="whats-ajatt.html">AJATT</a> is a language learning technique
+that focuses on acquiring the language rather than learning it.
+The distinction between learning and acquisition
+is one of the most fundamental and important concepts to understand
+when it comes to applying the AJATT method.</p>
+<p>In this article,
+we'll explore the differences between acquisition and learning,
+and why AJATT focuses primarily on acquisition rather than learning.</p>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/acquisition-vs-learning.html</link>
+        <guid>https://ajatt.top/blog/acquisition-vs-learning.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
         <title>Thoughts on books that teach kanji by breaking down kanji into radicals</title>
         <author>Tatsumoto Ren</author>
@@ -247,26 +269,6 @@ However, this method seems to strengthens my memory.</p>
         <guid>https://ajatt.top/blog/is-it-worth-making-production-cards.html</guid>
         <dc:creator>Tatsumoto Ren</dc:creator>
         <pubDate>Sun, 02 Mar 2025 01:48:15 +0000</pubDate>
-    </item>
-    <item>
-        <title>I barely understand anything. Is immersion actually helpful?</title>
-        <author>Tatsumoto Ren</author>
-        <description>
-            <![CDATA[                <p>Absolutely!</p>
-<p>Immersion is crucial for mastering a foreign language.
-Your brain is a pattern-recognition machine,
-optimized for language learning
-and designed to learn languages naturally.
-By surrounding yourself with content in the target language (TL),
-you begin to internalize vocabulary and grammar intuitively,
-even if you don't notice it.</p>
-
-]]>
-        </description>
-        <link>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</link>
-        <guid>https://ajatt.top/blog/is-it-helpful-to-immerse-if-i-barely-understand.html</guid>
-        <dc:creator>Tatsumoto Ren</dc:creator>
-        <pubDate>Sat, 18 Jan 2025 02:06:48 +0000</pubDate>
     </item>
 </channel>
 </rss>
