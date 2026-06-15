@@ -832,9 +832,10 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 ## Android software
 
 **Note:** Please read [our recommendations](our-immersion-learning-toolset.html#android)
-regarding using an Android device.
+about using an Android device.
 Be careful with programs not listed on F-Droid.
-They may contain malicious functionalities.
+They may contain proprietary blobs or malicious functionality
+that typically prevents submission to F-Droid.
 
 ### General
 

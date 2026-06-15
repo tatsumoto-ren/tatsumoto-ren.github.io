@@ -279,8 +279,17 @@ the [F-Droid](https://f-droid.org/) catalog.
 <p align="center"><img src="img/f-droid-mozc.webp" alt="input methods" style="width: 400px;"></p>
 <p align="center"><i>Mozc for Android.</i></p>
 
+**Note:** Please read [our recommendations](our-immersion-learning-toolset.html#android)
+about using an Android device.
+Be careful with programs not listed on F-Droid.
+They may contain proprietary blobs or malicious functionality
+that typically prevents submission to F-Droid.
+
 Available Japanese input apps:
 
+* [Urik](https://github.com/urikdev/Urik).
+  Privacy-focused Android keyboard with swipe typing, custom layouts, and password manager support.
+  [F-Droid](https://f-droid.org/packages/com.urik.keyboard/).
 * [スミレ 日本語キーボード](https://github.com/KazumaProject/JapaneseKeyboard/).
   Sumire is a privacy-first Japanese keyboard for simple, fast typing.
   [F-Droid](https://f-droid.org/packages/com.kazumaproject.markdownhelperkeyboard.lite.fdroid/).
