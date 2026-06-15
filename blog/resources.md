@@ -402,7 +402,7 @@ Browsing will lead you to more tags.
   Explore them first.
 * [zlibrary](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
   A library with books in any language.
-* [Anna's Archive](https://annas-archive.is/).
+* [Anna's Archive](https://annas-archive.pk/).
   A catalog of all the books in existence.
   Has nearly everything.
   If it's blocked for you, use a proxy or [Tor](https://wiki.archlinux.org/title/Tor).
@@ -469,8 +469,8 @@ that exist today are
 Proprietary software should not exist and should not be used if you want to have freedom.
 
 * [List of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels) on Arch Wiki.
-* [Libre games Wiki](https://libregamewiki.org/Main_Page)
-* https://directory.fsf.org/category/games
+* [Libre games Wiki](https://libregamewiki.org/Main_Page).
+* [Free software directory: games](https://directory.fsf.org/wiki/Category/Game).
 
 ### Japanese boards
 
