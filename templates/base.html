@@ -26,7 +26,7 @@
     <!-- links -->
     <link rel="canonical" href="{{ cfg.site.global_url }}">
     <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ cfg.blog.template_subscribe_browser_button }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ tr("Subscribe to this page...") }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
     {% for css_file in cfg.site.css_include %}
     <link rel="stylesheet" href="{{ css_file | as_relative_to(ctx.output_file_path) }}" type="text/css">
     {% endfor %}

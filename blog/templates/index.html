@@ -19,7 +19,7 @@
         <!-- text begin -->
         {% if post.is_truncated %}
             {{ post.html_content_preview | safe }}
-            <p class="readmore"><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_read_more }}</a></p>
+            <p class="readmore"><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ tr("Read more...") }}</a></p>
         {% else %}
             {{ post.html_content | safe }}
         {% endif %}
@@ -28,9 +28,9 @@
     {% endfor %}
 
     <div id="all_posts">
-    <a href="{{ ctx.archive_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_archive }}</a> &mdash;
-    <a href="{{ ctx.tags_index_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_tags_title }}</a> &mdash;
-    <a href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">{{ cfg.blog.template_subscribe }}</a>
+    <a href="{{ ctx.archive_index_path | as_relative_to(ctx.output_file_path) }}">{{ tr("View more posts") }}</a> &mdash;
+    <a href="{{ ctx.tags_index_path | as_relative_to(ctx.output_file_path) }}">{{ tr("All tags") }}</a> &mdash;
+    <a href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">{{ tr("Subscribe") }}</a>
     </div>
 
 <!-- index end -->

@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Search | {{ cfg.blog.global_title }}{% endblock %}
-{% block og_title %}Search | {{ cfg.blog.global_title }}{% endblock %}
+{% block title %}{{ tr("Search") }} | {{ cfg.blog.global_title }}{% endblock %}
+{% block og_title %}{{ tr("Search") }} | {{ cfg.blog.global_title }}{% endblock %}
 
 {% block content %}
-<h1>Search</h1>
+<h1>{{ tr("Search") }}</h1>
 
 <div id="search-container" class="no-js" data-index-url="{{ ctx.search_index_json_path | as_relative_to(ctx.output_file_path) }}">
     <p class="no-js-msg">
@@ -16,7 +16,7 @@
     <input
         type="search"
         id="search-input"
-        placeholder="Search articles..."
+        placeholder="{{ tr("Search articles...") }}"
         autocomplete="off"
         autofocus
     >
