@@ -85,7 +85,7 @@
         <div class="subtitle">December 07, 2025 &mdash; Tatsumoto Ren</div>
         <!-- text begin -->
         <blockquote>
-<p>I wanted to reach out regarding Ankidrone Essentials V8.
+<p>I wanted to reach out regarding <a href="ankidrone-essentials.html">Ankidrone Essentials</a> V8.
 On my computer, all the audio files play without any issues.
 However, in Anki Mobile on iOS, many of the audio files do not play.</p>
 <p>I tried converting all the OGG files to MP3 to make them compatible,
@@ -108,9 +108,18 @@ and get a device that is supported by <a href="https://grapheneos.org/" target="
 <p>Using MP3 audio in Anki is not recommended
 because MP3 files must be a lot larger than Opus files to match quality,
 which wastes disk space and slows syncing.</p>
+<p>If you still use AnkiMobile (the <a href="https://www.gnu.org/proprietary/" target="_blank" rel="noopener noreferrer nofollow">proprietary</a> Anki app),
+use <code>m4a</code> or <code>webm</code> containers for Opus files.
+It will allow iOS to play Opus files, while still maintaining compatibility with non-Apple devices.
+Run <code>ffmpeg</code> in your <code>collection.media</code> folder to convert files.</p>
+<p>Example command:</p>
+<div class="pre-wrap"><pre><code>for file in ./*.ogg; do
+    new_name=${file%.*}.webm
+    ffmpeg -i &quot;$file&quot; -c copy &quot;$new_name&quot;
+done
+</code></pre></div>
 <p>If you still want MP3,
-run <code>ffmpeg</code> in your <code>collection.media</code> folder to convert files.
-See <a href="https://trac.ffmpeg.org/wiki/Encode/MP3" target="_blank" rel="noopener noreferrer nofollow">this page</a> for details.</p>
+see <a href="https://trac.ffmpeg.org/wiki/Encode/MP3" target="_blank" rel="noopener noreferrer nofollow">this page</a> for details.</p>
 
         <!-- text end -->
         <div class="blog_tags_list">
@@ -173,8 +182,8 @@ See <a href="https://trac.ffmpeg.org/wiki/Encode/MP3" target="_blank" rel="noope
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Copyright © Tatsumoto Ren 2020-2026</p>
-            <p>Generated with tatsublog, a static site generator</p>
+            <p>Copyright &copy; Tatsumoto Ren 2020-2026</p>
+            <p>Site generated with Tatsublog, a static site generator that doesn&#39;t need a JavaScript framework.</p>
         </div>
     </footer>
 </body>

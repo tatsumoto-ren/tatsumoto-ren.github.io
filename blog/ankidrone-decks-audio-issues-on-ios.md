@@ -5,7 +5,7 @@ tags: ['faq', 'decks']
 position: 100
 ---
 
-> I wanted to reach out regarding Ankidrone Essentials V8.
+> I wanted to reach out regarding [Ankidrone Essentials](ankidrone-essentials.html) V8.
 > On my computer, all the audio files play without any issues.
 > However, in Anki Mobile on iOS, many of the audio files do not play.
 >
@@ -34,6 +34,19 @@ Using MP3 audio in Anki is not recommended
 because MP3 files must be a lot larger than Opus files to match quality,
 which wastes disk space and slows syncing.
 
+If you still use AnkiMobile (the [proprietary](https://www.gnu.org/proprietary/) Anki app),
+use `m4a` or `webm` containers for Opus files.
+It will allow iOS to play Opus files, while still maintaining compatibility with non-Apple devices.
+Run `ffmpeg` in your `collection.media` folder to convert files.
+
+Example command:
+
+```
+for file in ./*.ogg; do
+    new_name=${file%.*}.webm
+    ffmpeg -i "$file" -c copy "$new_name"
+done
+```
+
 If you still want MP3,
-run `ffmpeg` in your `collection.media` folder to convert files.
-See [this page](https://trac.ffmpeg.org/wiki/Encode/MP3) for details.
+see [this page](https://trac.ffmpeg.org/wiki/Encode/MP3) for details.
