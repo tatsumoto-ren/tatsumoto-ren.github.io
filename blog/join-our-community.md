@@ -24,7 +24,7 @@ The package is named [Forkgram](https://f-droid.org/en/packages/org.forkgram.mes
 
 This is the main group for chatting about Japan, the Japanese language, and other things.
 
-<a target="_blank" class="md-button telegram" href="https://t.me/+cEpSHZC_tMI4NDZi">Join us on Telegram</a>
+<a target="_blank" class="md-button telegram" href="https://t.me/+Jxbp1wXMX_5iMWQ6">Join us on Telegram</a>
 
 ## Telegram channel
 
