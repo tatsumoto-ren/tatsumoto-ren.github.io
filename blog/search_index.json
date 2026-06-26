@@ -7927,6 +7927,13 @@
     "date":"2021-02-08"
   },
   {
+    "title":"SimpleX chat",
+    "tags":[],
+    "body":"SimpleX is a private and secure messenger with no user IDs. On Arch Linux, install simplex-desktop-bin from the AUR to use SimpleX chat. On Android, install SimpleX Chat from F-Droid. On Ubuntu/Debian, install simplex-desktop-app from Pacstall. SimpleX chat Scan the QR code with the SimpleX Chat app on your phone or tablet. QR code",
+    "url":"join-our-community.html#simplex-chat",
+    "parent":"Join our community"
+  },
+  {
     "title":"Telegram group",
     "tags":[],
     "body":"Telegram is a messenger with a focus on speed and security. To use Telegram on GNU/Linux, install the official desktop client. Telegram also can be found on F-Droid. The package is named Forkgram. This is the main group for chatting about Japan, the Japanese language, and other things. Join us on Telegram",
@@ -7938,13 +7945,6 @@
     "tags":[],
     "body":"I post announcements in this channel. Telegram Channel",
     "url":"join-our-community.html#telegram-channel",
-    "parent":"Join our community"
-  },
-  {
-    "title":"SimpleX chat",
-    "tags":[],
-    "body":"SimpleX is a private and secure messenger without any user IDs. On GNU/Linux, you can install simplex-desktop-bin from the AUR in order to use SimpleX chat. On Android, install SimpleX Chat from F-Droid. SimpleX chat Scan the QR code with the SimpleX Chat app on your phone or tablet. QR code",
-    "url":"join-our-community.html#simplex-chat",
     "parent":"Join our community"
   },
   {

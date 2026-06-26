@@ -13,6 +13,28 @@ You can join us on Telegram or SimpleX chat.
 
 ****
 
+## SimpleX chat
+
+SimpleX is a private and secure messenger with no user IDs.
+
+* On Arch Linux,
+install [simplex-desktop-bin](https://aur.archlinux.org/packages/simplex-desktop-bin)
+from the AUR to use SimpleX chat.
+* On Android,
+install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
+* On Ubuntu/Debian,
+install [simplex-desktop-app](https://pacstall.dev/packages/simplex-desktop-app)
+from Pacstall.
+
+<a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">SimpleX chat</a>
+
+Scan the QR code with the SimpleX Chat app on your phone or tablet.
+
+<details>
+<summary>QR code</summary>
+<p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
+</details>
+
 ## Telegram group
 
 [Telegram](https://telegram.org/)
@@ -31,25 +53,6 @@ This is the main group for chatting about Japan, the Japanese language, and othe
 I post announcements in this channel.
 
 <a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools">Telegram Channel</a>
-
-## SimpleX chat
-
-SimpleX is a private and secure messenger without any user IDs.
-On GNU/Linux,
-you can install
-[simplex-desktop-bin](https://aur.archlinux.org/packages/simplex-desktop-bin)
-from the AUR in order to use SimpleX chat.
-On Android,
-install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
-
-<a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">SimpleX chat</a>
-
-Scan the QR code with the SimpleX Chat app on your phone or tablet.
-
-<details>
-<summary>QR code</summary>
-<p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="img/simplex-chat-link.webp"></p>
-</details>
 
 ## Group for Russian speakers
 
