@@ -274,7 +274,7 @@ the tone of the voice is marked using HTML tags and styles.
 When set to "Svg",
 the add-on generates SVG pictures to allow for a more elaborate graphical representation.
 "Number" simply indicates
-[where pitch drops](understanding-monolingual-definitions#understanding-pitch-accent).
+[where pitch drops](understanding-monolingual-definitions.html#understanding-pitch-accent).
 
 Appearance of SVG graphs can be configured in
 "AJT" > "Japanese options" > "SVG graphs".

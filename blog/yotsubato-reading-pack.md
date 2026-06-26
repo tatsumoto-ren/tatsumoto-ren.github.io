@@ -42,7 +42,7 @@ both passively and actively in voiced Japanese media to train your ears.
 Complete [Ankidrone Foundation](jp1k-anki-deck.html).
 It contains natural, correct, and easy to understand sentences with clear native audio.
 Before starting to read manga,
-watch [lots of anime](what-good-things-are-there-to-watch-for-a-complete-beginner)
+watch [lots of anime](what-good-things-are-there-to-watch-for-a-complete-beginner.html)
 with Japanese subtitles.
 Reading along with audio is easier and should serve as training wheels
 to prepare you for reading without audio.
