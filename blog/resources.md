@@ -115,6 +115,12 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [The JLPT Study Page](https://www.jlptstudy.net/).
   Materials from N5 to N2.
   Includes vocabulary, kanji, expressions, reading comprehension, quizzes.
+* [Đề Thi Tiếng Nhật](https://dethitiengnhat.com/en).
+  N5-N1 practice tests.
+* [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
+  JLPT N1 Practice Test.
+* [JLPT N1 past papers](https://disk.yandex.com/d/EfV8OKavUqwHlg).
+  Shared folder.
 
 ## Examples and pronunciations
 
