@@ -296,8 +296,6 @@ Available Japanese input apps:
 * [Fcitx5](https://f-droid.org/packages/org.fcitx.fcitx5.android/).
   Supports Japanese input via
   the [Anthy Plugin](https://f-droid.org/packages/org.fcitx.fcitx5.android.plugin.anthy).
-* [Mozc](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
-  Mozc's F‑Droid build is old and may have issues on newer Android versions.
 * Gboard.
   Google's proprietary app **Gboard** is [malware](https://www.gnu.org/proprietary/proprietary.html).
   If you still choose it,
