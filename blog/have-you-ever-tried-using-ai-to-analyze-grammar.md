@@ -15,14 +15,19 @@ tags: ["faq"]
 
 ****
 
+## LLM and language learning
+
 With the rise of LLM chatbots,
 many people have started asking them to explain Japanese,
 help with learning Japanese, and things like that.
 
-There's nothing wrong with using AI to help you understand Japanese,
+There's nothing wrong with using
+[AI](https://gnu.org/philosophy/words-to-avoid.html#ArtificialIntelligence)
+to help you understand Japanese,
 but there are some caveats.
 Don't rely on it exclusively.
 Use it only when other options aren't available.
+
 I wouldn't trust AI for grammar explanations.
 Instead, try to understand sentences intuitively and use the provided translations.
 If you truly need a grammar explanation,
@@ -31,18 +36,26 @@ See [grammar resources](resources.html#grammar) for recommended grammar guides.
 One such resource is the
 [DJT guide grammar master reference](https://djtguide.github.io/grammar/masterreference).
 
-Now let's cover the problems with asking AI to help you learn a foreign
-language.
+Now let's cover the problems with asking LLMs to help you learn a foreign language.
 
-AI explanations can be wrong.
+## Errors
+
+[AI](https://gnu.org/philosophy/words-to-avoid.html#ArtificialIntelligence)
+explanations can be wrong.
 In short,
 LLMs generate text based on probabilities.
 You give them input and they auto-complete it.
 They don't actually understand what they produce.
 It only appears that way.
-As a beginner,
-you can't tell if their output is correct.
-That said, modern LLMs can be quite accurate.
+
+Richard Stallman calls LLMs "[bullshit generators](https://stallman.org/chatgpt.html)."
+Trusting them 100% would be too much.
+That said, modern LLMs can be **quite accurate**.
+The problem is that beginner language learners cannot easily verify what's correct and what isn't.
+One option is to use a different large language model
+and ask it to review and verify an explanation given by another model.
+
+## Acquisition vs. Study
 
 When you ask someone,
 including an LLM,
@@ -51,6 +64,10 @@ you train your conscious brain to analyze Japanese.
 You request explanations and then try to make sense of them.
 That's different from absorbing meaning intuitively,
 as we do with our native language.
+We don't learn our target language by reading explanations about how it works.
+Our brains are wired differently.
+Our parents didn't sit us down with a grammar book when we were 1 year old.
+
 AI can help you understand,
 but the neural pathways you build will differ from those of native speakers.
 In other words,
@@ -71,17 +88,35 @@ This is a citation from our guide:
 
 Focus on watching anime.
 It's probably the easiest way to acquire the language naturally.
-If you use AI,
-ask it to give your more example sentences rather than explain grammar.
+If you use LLMs,
+ask them to give you more **example sentences** rather than explain grammar.
 Humans acquire language by understanding messages.
 What is being said, not how it's said.
 Remember that when you analyze sentences,
 you activate your analytical brain, not the natural, intuitive one.
 
+## Putting generated text in SRS
+
+If a sentence seems too difficult and you have to ask an LLM to understand it,
+it probably is not [1T](one-target-sentences.html) for you.
+Do not put an MT sentence with a generated explanation into your [SRS](spaced-repetition.html).
+If a sentence is not 1T,
+it will not become 1T just because you read the explanation.
+Whether a sentence is 1T depends on how much you have already acquired.
+And LLM-generated explanations are usually quite long, which will waste your review time.
+
+## Using LLM for definitions
+
 Until you [go monolingual](going-monolingual.html),
 it's a good idea to translate monolingual dictionary definitions with an LLM.
 That lets you use native-Japanese definitions (e.g., Daijirin, Meikyo)
 instead of relying only on JMdict/Jisho entries.
+
+If you translate a real monolingual definition,
+there's less chance that the LLM will make things up
+because there's less room to be creative and invent things
+when you are directly translating an existing defintion.
+Such translated definitions can be helpful for beginners.
 
 For example, the word `奇抜` often appears in anime or books.
 [Jmdict](https://jisho.org/search?keyword=%E5%A5%87%E6%8A%9C) lists synonyms like:
@@ -110,6 +145,8 @@ Examples:
 
 This kind of translated monolingual definition usually conveys nuance better
 than a bare list of synonyms.
+
+## Writing style
 
 Finally,
 a big problem is that AI doesn't talk like humans.
