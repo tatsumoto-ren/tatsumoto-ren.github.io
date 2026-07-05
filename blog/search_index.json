@@ -6853,6 +6853,15 @@
     "parent":"Resources"
   },
   {
+    "title":"Handwriting",
+    "tags":[
+      "guide"
+    ],
+    "body":"Main article: Writing Japanese Ankidrone Handwriting. The best way to learn to write once you can already read. Seiho's YouTube Calligraphy School. Seiho's handwriting is a good reference for learning, as opposed to computer fonts, which can deviate significantly from how Japanese is actually written by hand. If you're just starting out, see his videos on hiragana and katakana, and copy out the kana chart on gridded paper. Japanese Calligrapher Takumi. Takumi's handwriting is also a good reference for learning, but is less calligraphic. He also has videos on hiragana and katakana. Hasegawa Yuki Seido Japanese Calligraphy Seiho's YouTube Calligraphy School 常用漢字の美文字レッスン. Jōyō kanji playlist. Kanji balance. A Japanese-language guide to balancing kanji shapes for \"beautiful handwriting\" (美文字), sorted by structural pattern with worked examples for each.",
+    "url":"resources.html#handwriting",
+    "parent":"Resources"
+  },
+  {
     "title":"Language guides",
     "tags":[
       "guide"

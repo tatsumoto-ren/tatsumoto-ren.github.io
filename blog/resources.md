@@ -1,7 +1,8 @@
 ---
-title: Resources
+title: "Resources"
 date: 1621275994
-tags: ['guide']
+tags: ["guide"]
+updated: "05 July 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -288,9 +289,9 @@ as desktop shortcuts.
 
 **Channels for pre-beginner Japanese learners.**
 
-* [Onomappu](https://www.youtube.com/c/Onomappu/videos).
-* [Meshclass Japanese](https://www.youtube.com/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
-* [Comprehensible Japanese](https://www.youtube.com/c/ComprehensibleJapanese).
+* [Onomappu](https://redirect.invidious.io/c/Onomappu/videos).
+* [Meshclass Japanese](https://redirect.invidious.io/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
+* [Comprehensible Japanese](https://redirect.invidious.io/c/ComprehensibleJapanese).
   Inspired by Steven Krashen's idea of [comprehensible input](what-is-comprehensible-input.html).
   The language is slow and is even easier than Tango N5.
 
@@ -1113,7 +1114,7 @@ You've been warned.
   YouTube playlist of 学校文法.
   A pedagogical framework for teaching grammar to native Japanese speakers.
   Not made for learners or linguists.
-* [国語—古文](https://youtube.com/playlist?list=PLKRhhk0lEyzMV4fvp0BqKMIZnQUm4SLmn).
+* [国語—古文](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzMV4fvp0BqKMIZnQUm4SLmn).
   YouTube playlist of 古文, to help you learn classical Japanese.
 * [初級を教える人のための日本語文法ハンドブック](https://z-library.sk/s/978-4883191550).
   A book for learning Japanese grammar in Japanese, for learners & Japanese teachers.
@@ -1127,6 +1128,33 @@ You've been warned.
 * [漢字検定一級・日本語検定一級に受かったロシア人](https://roshiajin.jp/).
   Site of a Russian national who passed Kanken 1.
   Tells you the contents of the exam and how to study for Kanken.
+
+## Handwriting
+
+> Main article: [Writing Japanese](writing-japanese.html)
+
+- [Ankidrone Handwriting](https://disk.yandex.com/d/ZgTYGbVryfgJhg).
+  The best way to learn to write once you can already read.
+- [Seiho's YouTube Calligraphy School](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg).
+  Seiho's handwriting is a good reference for learning,
+  as opposed to computer fonts,
+  which can deviate significantly from how Japanese is actually written by hand.
+  If you're just starting out,
+  see his videos on [hiragana](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg)
+  and [katakana](https://redirect.invidious.io/watch?v=zv6uxNdROOc),
+  and copy out the kana chart on gridded paper.
+- [Japanese Calligrapher Takumi](https://redirect.invidious.io/@takumitohgu).
+  Takumi's handwriting is also a good reference for learning, but is less calligraphic.
+  He also has videos on [hiragana](https://redirect.invidious.io/watch?v=wD3FJgij79c)
+  and [katakana](https://redirect.invidious.io/watch?v=rf-n_qI2occ).
+- [Hasegawa Yuki](https://redirect.invidious.io/@hasegawayuki)
+- [Seido Japanese Calligraphy](https://redirect.invidious.io/@seido-shodo)
+- [Seiho's YouTube Calligraphy School](https://redirect.invidious.io/@seihou)
+- [常用漢字の美文字レッスン](https://redirect.invidious.io/playlist?list=PLxNYIx5D9tAbYXKgTDmy7KJ8Z7u74hwKz).
+  Jōyō kanji playlist.
+- [Kanji balance](https://美文字の書き方.com/c02/).
+  A Japanese-language guide to balancing kanji shapes for "beautiful handwriting" (美文字),
+  sorted by structural pattern with worked examples for each.
 
 ## Language guides
 
