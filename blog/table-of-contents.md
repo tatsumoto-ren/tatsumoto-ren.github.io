@@ -1,6 +1,7 @@
 ---
-title: Table of Contents
+title: "Table of Contents"
 date: 1616375454
+updated: "05 July 2026"
 ---
 
 * [Foreword](foreword.html)
@@ -80,6 +81,7 @@ date: 1616375454
   * [On motivation](im-not-motivated-and-dont-enjoy-learning-japanese.html)
   * [Premature reading](why-does-premature-reading-cripple-phonetic-awareness.html)
   * [Mitigating the Impact of Early Output](mitigating-the-impact-of-early-output.html)
+  * [Pitch artist user guide](pitch-artist-user-guide.html)
 * Contact and Support
   * [Join our community](join-our-community.html)
   * [Support](donating-to-tatsumoto.html)
