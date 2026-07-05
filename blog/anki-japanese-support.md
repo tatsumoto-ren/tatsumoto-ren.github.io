@@ -1,8 +1,9 @@
 ---
-title: Japanese support for Anki
+title: "Japanese support for Anki"
 date: 1681292213
-tags: ['guide', 'anki']
-filename: anki-japanese-support
+tags: ["guide", "anki"]
+filename: "anki-japanese-support"
+updated: "05 July 2026"
 ---
 
 [Anki](setting-up-anki.html)
@@ -698,6 +699,14 @@ If a word has multiple pitch accents, specify them separated by commas, e.g. `1,
 
 <p align="center"><img src="img/ajt-japanese-overrides.webp" alt="pitch overrides"/></p>
 <p align="center"><i>Pitch accent overrides.</i></p>
+
+## Pitch artist
+
+Pitch Artist creates SVG pitch accent graphs from compact text notation.
+It can be used from Anki's dialog for preview/export,
+or as an output format when generating card fields.
+
+[User guide](pitch-artist-user-guide.html).
 
 ## Conclusion
 
