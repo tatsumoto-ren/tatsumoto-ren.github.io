@@ -1133,7 +1133,7 @@ You've been warned.
 
 > Main article: [Writing Japanese](writing-japanese.html)
 
-- [Ankidrone Handwriting](https://disk.yandex.com/d/ZgTYGbVryfgJhg).
+- **[Ankidrone Handwriting](https://disk.yandex.com/d/ZgTYGbVryfgJhg)**.
   The best way to learn to write once you can already read.
   [Mirror](https://t.me/ajatt_tools/455).
 - [Seiho's YouTube Calligraphy School](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg).

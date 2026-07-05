@@ -1,7 +1,8 @@
 ---
-title: Writing Japanese
+title: "Writing Japanese"
 date: 1615918788
-tags: ['guide']
+tags: ["guide"]
+updated: "05 July 2026"
 ---
 
 After you've got a few thousand hours of input
@@ -127,7 +128,8 @@ it requires making your own cards.
 By the time you start learning to write,
 you should have plenty of sentence cards in your Anki collection to generate production cards from.
 However, if you want a premade sentence pack that can be used for writing,
-you can download [Ankidrone Essentials](ankidrone-essentials.html).
+you can download [Ankidrone Essentials](ankidrone-essentials.html)
+or [Ankidrone Handwriting](resources.html#handwriting).
 
 ### How to make your own cards
 
