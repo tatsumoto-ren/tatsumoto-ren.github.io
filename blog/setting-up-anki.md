@@ -50,7 +50,7 @@ Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
 If you are running Wayland,
-please upgrade to X11 ([Xlibre](https://wiki.archlinux.org/title/Xlibre))
+please upgrade to X11 ([XLibre](https://wiki.archlinux.org/title/XLibre))
 to avoid possible issues.
 
 ### Using your package manager

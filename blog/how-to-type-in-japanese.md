@@ -105,7 +105,7 @@ sudo pacman -S fcitx5-im
 * If you're not running an Arch-based distro, find the appropriate packages in the repositories.
 
 Next on the list, you need to enable autostart.
-Assuming you're starting X11 ([Xlibre](https://wiki.archlinux.org/title/Xlibre)) using
+Assuming you're starting X11 ([XLibre](https://wiki.archlinux.org/title/XLibre)) using
 [startx/xinit](https://wiki.archlinux.org/title/Xinit)
 like a Chad, the best way to achieve it is to modify `~/.xinitrc`, adding the following lines.
 
