@@ -26,6 +26,9 @@ This article provides download links for MDX dictionary files.
 * [Magnet](magnet:?xt=urn:btih:b0f0b1e9a7b74a87eb9808141a79828b074f8b15&dn=Epistularum%27s%20Tidy%20MDX%20Collection%20%5BVersion%202.0%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
 * [Torrent file](https://nyaa.si/view/2024101).
 
+This torrent doesn't contain JMdict (Japanese to English dictionary).
+You can get JMdict separately [here](https://nyaa.si/view/1634529).
+
 To reduce the size, you can exclude optional directories, such as:
 
 * 11 他言語 (other languages).
