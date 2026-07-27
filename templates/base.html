@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ cfg.site.language }}">
+<html lang="{{ cfg.blog.language }}">
 <head>
     <!-- title -->
     <title>{{ cfg.blog.global_title }}</title>
@@ -19,17 +19,19 @@
     <meta property="og:image" content="{{ cfg.site.favicon_path | as_full_url }}">
 
     <!-- scripts -->
-    {% for js_file in cfg.site.js_include %}
-    <script defer src="{{ js_file | as_relative_to(ctx.output_file_path) }}"></script>
+    {% for js_file in cfg.blog.landing.js_include %}
+    <script defer src="{{ js_file | as_rel }}"></script>
+    {% endfor %}
+
+    <!-- CSS -->
+    {% for css_file in cfg.blog.landing.css_include %}
+    <link rel="stylesheet" href="{{ css_file | as_rel }}" type="text/css">
     {% endfor %}
 
     <!-- links -->
     <link rel="canonical" href="{{ cfg.site.global_url }}">
     <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
     <link rel="alternate" type="application/rss+xml" title="{{ tr("Subscribe to this page...") }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
-    {% for css_file in cfg.site.css_include %}
-    <link rel="stylesheet" href="{{ css_file | as_relative_to(ctx.output_file_path) }}" type="text/css">
-    {% endfor %}
 </head>
 <body>
     {% block body %}{% endblock %}
