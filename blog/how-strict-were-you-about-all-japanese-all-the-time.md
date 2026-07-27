@@ -5,7 +5,8 @@ tags: ['faq']
 position: -9860
 ---
 
-When I started AJATT, I was a full time university student, so it wasn't easy,
+When I started [AJATT](whats-ajatt.html),
+I was a full time university student, so it wasn't easy,
 but I tried to immerse as much as possible.
 I had earphones on in class and while commuting.
 When I would finish my daily duties,
