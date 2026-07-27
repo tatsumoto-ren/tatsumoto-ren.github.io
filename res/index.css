@@ -81,7 +81,7 @@ a:focus {
     color: white;
     background-image:
         var(--dim),
-        url("img/bg.webp");
+        url("../img/bg.webp");
     background-size:
         100%,
         cover;
@@ -149,7 +149,7 @@ header>span.space {
 header>a.donate {
     width: 52px;
     height: 52px;
-    background: url("img/heart.svg");
+    background: url("../img/heart.svg");
     background-size: 50% 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -179,7 +179,7 @@ header>a.donate:hover {
 
     position: relative;
     padding: 90px var(--row-padding-inline);
-    background-image: url("img/kanade.webp");
+    background-image: url("../img/kanade.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -376,19 +376,19 @@ nav>a:focus {
 }
 
 .key_points .beer {
-    content: url("img/beer.svg");
+    content: url("../img/beer.svg");
 }
 
 .key_points .audiobook {
-    content: url("img/audiobook.svg");
+    content: url("../img/audiobook.svg");
 }
 
 .key_points .anki {
-    content: url("img/anki.webp");
+    content: url("../img/anki.webp");
 }
 
 .key_points .chat {
-    content: url("img/element.svg");
+    content: url("../img/element.svg");
 }
 
 /* Footer */

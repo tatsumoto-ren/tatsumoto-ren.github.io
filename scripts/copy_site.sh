@@ -19,6 +19,7 @@ main() {
 	cp -v -R --parents -- \
 		./index.* \
 		./img \
+		./res \
 		./not_found.* \
 		./robots.txt \
 		./sitemap.xml \
