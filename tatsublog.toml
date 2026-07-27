@@ -1,13 +1,8 @@
 [site]
 main_blog = "tatsumoto"
 global_url = "https://ajatt.top/"
-generate_landing = true
-index_file="index.html"
 templates_dir = "templates"
-num_recent_posts = 10
 favicon_path = "img/logo.webp"
-css_include=['index.css']
-js_include=[]
 
 [blogs.tatsumoto]
 md_dir = "blog"
@@ -31,9 +26,6 @@ prefix_tags="tag_"
 # Table of contents file for navigation
 table_of_contents="table-of-contents.md"
 
-# Index begin content file
-index_begin_file="blog/templates/index_begin.html"
-
 # Truncate posts on index page at ---- (horizontal rule in markdown)
 truncate_index=true
 
@@ -47,3 +39,64 @@ archive_index="all_posts.html"
 tags_index="all_tags.html"
 index_file="index.html"
 number_of_index_articles=10
+
+[blogs.tatsumoto.template_strings]
+index_nagbar = """
+This page lists articles in chronological order.
+You may want to read [Table of Contents]({{ "table-of-contents.html" | in_blog | as_rel }}) instead."""
+hero_description = """
+A truly explosive approach to learning Japanese.
+Everything you need for your language study.
+Click here to start reading our Table of Contents!
+And if you feel lost and need help, you can also join our community."""
+free_forever_text = """
+Access to knowledge shouldn't come at a price.
+Our language guide is free,
+and the [tools]({{ "our-immersion-learning-toolset.html" | in_blog | as_rel }}) we use and recommend
+are [libre](https://www.gnu.org/philosophy/free-sw.html).
+The site runs entirely on [donations]({{ "donating-to-tatsumoto.html" | in_blog | as_rel }}) from readers like you."""
+mass_immersion_text = """
+Start doing [All Japanese All the Time]({{ "whats-ajatt.html" | in_blog | as_rel }}).
+Instead of buying courses or going to classes,
+we recommend that you learn Japanese through self-study
+by listening, watching and reading fun stuff."""
+anki_decks_text = """
+Forget about forgetting.
+We believe [spaced repetition]({{ "spaced-repetition.html" | in_blog | as_rel }})
+is an excellent technique for learning vocabulary.
+We provide [Anki]({{ "setting-up-anki.html" | in_blog | as_rel }}) decks
+to aid your immersion and help your learn faster."""
+vibrant_community_text = """
+Remember, you're not solo in this journey.
+We have a large Japanese learning [community]({{ "join-our-community.html" | in_blog | as_rel }})
+where you can make friends,
+ask questions,
+get help from experienced learners,
+and find countless learning resources!"""
+japanese_guide_text = """
+[Tatsumoto's Guide to Learning Japanese]({{ "table-of-contents.html" | in_blog | as_rel }})
+is a path for learning Japanese from scratch through immersion.
+If you want to be fluent in Japanese then you've come to the right place.
+The language learning method explained in this guide
+will lead you to the highest levels of proficiency
+faster than any other method in the world.
+
+The guide includes free flashcards, resources,
+and useful tools to help you in the process."""
+ajatt_tools_text = """
+[Ajatt-Tools](https://github.com/Ajatt-Tools) help people learn languages.
+The software provides a powerful set of tools that streamline language learning
+and help you on the path to a near-native level.
+
+Create high quality flashcards with one click,
+optimize and enhance Anki with our [Anki add-ons](https://ankiweb.net/shared/by-author/819023663),
+generate furigana and pitch accents,
+find example sentences,
+and enjoy the process!"""
+
+[blogs.tatsumoto.landing]
+index_file = "index.html"
+templates_dir = "templates"
+css_include=['res/index.css']
+js_include=[]
+num_recent_posts = 10
