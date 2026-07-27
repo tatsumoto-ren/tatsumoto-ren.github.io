@@ -120,10 +120,11 @@ you've studied.
 * [User Scripts by Ajatt-Tools](https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories)
 * [User Scripts that users of mpv have published](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 
-## [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+## [mpvacious](mining-from-movies-and-tv-shows.html#mpvacious)
 
 Make instant Anki cards from movies and TV shows.
 
+* [Mpvacious GitHub](https://github.com/Ajatt-Tools/mpvacious)
 * [AUR package](https://aur.archlinux.org/packages/mpv-mpvacious/)
 * [Demo video](https://redirect.invidious.io/watch?v=vU85ramvyo4)
 * [Video tutorial](https://redirect.invidious.io/watch?v=tkFxnY0mehE)
@@ -187,13 +188,6 @@ and make Anki flashcards with a single click.
 
 * [Setting up Rikaitan](setting-up-yomichan.html)
 * [Dictionaries](yomichan-and-epwing-dictionaries.html)
-
-## [ames](https://github.com/Ajatt-Tools/ames)
-
-Anki Media Extractor Script.
-Allows you to easily add screenshots and audio recordings to your Anki cards.
-
-* [AUR package](https://aur.archlinux.org/packages/ames/)
 
 ## [subs2srs](http://subs2srs.sourceforge.net/)
 

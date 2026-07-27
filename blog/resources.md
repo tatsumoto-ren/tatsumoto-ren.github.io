@@ -620,6 +620,21 @@ You may need a Japanese IP address for some of these.
 * [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
 * [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
 
+### Sentence mining
+
+* [mpvacious](our-immersion-learning-toolset.html#mpvacious).
+  Mpvacious is a user script for mpv that offers utilities for creating and modifying
+  Anki flashcards from movies and TV shows.
+  It allows you to select subtitle lines,
+  create audio clips and images, and send them to Anki.
+* [ames](https://github.com/Ajatt-Tools/ames).
+  Anki Media Extractor Script.
+  Allows you to easily add screenshots and audio recordings to your Anki cards.
+  [AUR package](https://aur.archlinux.org/packages/ames/).
+* [mLearn](https://github.com/adrianvla/mLearn).
+  An all-in-one immersion application for GNU/Linux and other operating systems.
+  Supports videos, manga, PDFs, has built-in OCR and Anki support.
+
 ### Morphological analysis
 
 * [mecab](https://aur.archlinux.org/packages/mecab).
