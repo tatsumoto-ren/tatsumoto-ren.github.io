@@ -251,7 +251,10 @@ as desktop shortcuts.
   [Aniwatch](https://aniwatch.to/).
   Another anime streaming site.
   You can switch between audio and subtitle tracks in multiple languages.
+* [Anikoto](https://anikototv.to/home).
+  Anime streaming site where you can turn off subtitles and switch to Japanese 日本語 audio.
 * [Anime Nexus](https://anime.nexus/).
+  You can turn off subtitles here too.
 * [Animerulz](https://animerulz.pro).
   An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil.
 * [AQStream](https://aqstream.com/).
