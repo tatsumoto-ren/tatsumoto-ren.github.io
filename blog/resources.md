@@ -481,7 +481,7 @@ Proprietary software should not exist and should not be used if you want to have
 * [Libre games Wiki](https://libregamewiki.org/Main_Page).
 * [Free software directory: games](https://directory.fsf.org/wiki/Category/Game).
 
-### Japanese boards
+### Japanese imageboards
 
 * [librejp](https://sportschan.org/librejp/) ([Tor](http://ylcjjrqko7pgobnvzreemm565ea3oj3c7rfqqb4x4twmay6hafv54mid.onion/librejp/index.html))
 * [Watkins 2channel](https://5ch.io/)
