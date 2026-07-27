@@ -6705,7 +6705,7 @@
     "tags":[
       "guide"
     ],
-    "body":"Note: To watch a m3u playlist, run mpv and pass it the raw playlist link. Example: mpv 'https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u' Press < and > to switch channels. Some playlists can be found here as desktop shortcuts. Animelon. Watch anime with Japanese subtitles. Anjsub. A site similar to Animelon. B9GOOD. Watch raw anime online. Aniwatchtv.to, Aniwatch. Another anime streaming site. You can switch between audio and subtitle tracks in multiple languages. Anime Nexus. Animerulz. An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil. AQStream. Watch Japanese TV. BiliBili. A Chinese website with a bunch of TV shows. jp.m3u. A m3u playlist with Japanese IPTV channels which you can open in mpv. utako IPTV-JP project. Another m3u playlist. Run mpv and pass it the raw playlist link from here. TV garden. Japanese live TV streams. Only works with JS enabled. News24.jp. Lets you watch a live stream with news, but you have to allow to run an obscene amount of nonfree JavaScript code. To avoid running nonfree JS, watch the stream in mpv by creating a desktop shortcut. keylabo. Similarly to News24, lists a number of channels you can watch online. Unfortunately, not all of them can be opened in mpv. Tokyo MX. Tokyo MX desktop shortcut. テレビ朝日. TV Asahi desktop shortcut. テレビ東京. TV Tokyo desktop shortcut.",
+    "body":"Note: To watch a m3u playlist, run mpv and pass it the raw playlist link. Example: mpv 'https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u' Press < and > to switch channels. Some playlists can be found here as desktop shortcuts. Animelon. Watch anime with Japanese subtitles. Anjsub. A site similar to Animelon. B9GOOD. Watch raw anime online. Aniwatchtv.to, Aniwatch. Another anime streaming site. You can switch between audio and subtitle tracks in multiple languages. Anikoto. Anime streaming site where you can turn off subtitles and switch to Japanese 日本語 audio. Anime Nexus. You can turn off subtitles here too. Animerulz. An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil. AQStream. Watch Japanese TV. BiliBili. A Chinese website with a bunch of TV shows. jp.m3u. A m3u playlist with Japanese IPTV channels which you can open in mpv. utako IPTV-JP project. Another m3u playlist. Run mpv and pass it the raw playlist link from here. TV garden. Japanese live TV streams. Only works with JS enabled. News24.jp. Lets you watch a live stream with news, but you have to allow to run an obscene amount of nonfree JavaScript code. To avoid running nonfree JS, watch the stream in mpv by creating a desktop shortcut. keylabo. Similarly to News24, lists a number of channels you can watch online. Unfortunately, not all of them can be opened in mpv. Tokyo MX. Tokyo MX desktop shortcut. テレビ朝日. TV Asahi desktop shortcut. テレビ東京. TV Tokyo desktop shortcut.",
     "url":"resources.html#streaming",
     "parent":"Resources"
   },
@@ -6800,12 +6800,12 @@
     "parent":"Resources"
   },
   {
-    "title":"Japanese boards",
+    "title":"Japanese imageboards",
     "tags":[
       "guide"
     ],
     "body":"librejp (Tor) Watkins 2channel おーぷん2ch Nishimura 2channel / 2ch.sc Talk.jp 嫌儲.org エッヂ Futaba channel / ふたばちゃんねる ぷにぷに したらば あにまん You may need a Japanese IP address for some of these.",
-    "url":"resources.html#japanese-boards",
+    "url":"resources.html#japanese-imageboards",
     "parent":"Resources"
   },
   {

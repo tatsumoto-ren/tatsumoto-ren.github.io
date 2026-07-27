@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ajatt.top/index.html</loc>
-    <lastmod>2026-07-05</lastmod>
-  </url>
-  <url>
     <loc>https://ajatt.top/robots.txt</loc>
     <lastmod>2026-07-05</lastmod>
   </url>
@@ -34,6 +30,10 @@
   </url>
   <url>
     <loc>https://ajatt.top/blog/search_index.json</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://ajatt.top/index.html</loc>
     <lastmod>2026-07-05</lastmod>
   </url>
   <url>
