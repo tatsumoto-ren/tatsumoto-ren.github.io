@@ -27,7 +27,7 @@ You have your life which is done in your native language
 and then you *study Japanese* for a certain amount of time.
 Once you're done, you go back to the world of your native language to do something else.
 
-But All Japanese All The Time says that Japanese *is the ground*.
+But [AJATT](whats-ajatt.html) says that Japanese *is the ground*.
 That is your life.
 You live your life in Japanese.
 You might take a break from that to do something in English or another language
