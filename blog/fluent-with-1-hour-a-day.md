@@ -45,4 +45,4 @@ what should you do?
 If you don't have time now,
 you could consider doing 1 hour a day for a while,
 but as soon as you can you've got to switch to the mass immersion mode
-and start doing All Japanese All The Time.
+and start doing [AJATT](whats-ajatt.html).
