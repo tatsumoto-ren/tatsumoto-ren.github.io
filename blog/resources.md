@@ -622,6 +622,10 @@ You may need a Japanese IP address for some of these.
 
 ### Sentence mining
 
+* [GoldenDict](setting-up-goldendict.html).
+  A dictionary program with Anki support.
+* [Rikaitan](setting-up-yomichan.html).
+  A browser extension with Anki support.
 * [mpvacious](our-immersion-learning-toolset.html#mpvacious).
   Mpvacious is a user script for mpv that offers utilities for creating and modifying
   Anki flashcards from movies and TV shows.
@@ -699,7 +703,7 @@ convert text in manga into a digital form.
   Press a configured keyboard shortcut and select a portion of the manga page to convert.
   The text is recognized and copied to the clipboard
   for lookup with [Rikaitan Search](what-is-yomichan-search.html),
-  or sent to GoldenDict.
+  or sent to [GoldenDict](setting-up-goldendict.html).
 * [mokuro](https://github.com/kha-white/mokuro).
   Can be used to OCR Japanese text instead of Tesseract.
 * [Poricom](https://github.com/bluaxees/Poricom).
