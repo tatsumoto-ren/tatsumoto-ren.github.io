@@ -61,11 +61,9 @@ and read lots of books and manga every day.
 No amount of brute force can get you there,
 so forget about traditional approaches such as taking classes or hiring a tutor.
 
-## All Japanese All the Time
+## AJATT
 
-The method explained here is widely known as
-[AJATT](whats-ajatt.html),
-or All Japanese All the Time.
+The method explained here is widely known as [AJATT](whats-ajatt.html).
 It is directed at people who want to get to fluency as fast as possible
 by spending a lot of time with the language.
 The key component to succeeding with AJATT is engaging with the language every day,
