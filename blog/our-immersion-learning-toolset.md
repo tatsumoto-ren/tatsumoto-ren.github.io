@@ -221,11 +221,11 @@ along with a correctly timed subtitle file for that show/movie.
 
 ## [mLearn](https://github.com/adrianvla/mLearn)
 
-An all-in-one immersion application for Windows, macOS and Linux.
+An all-in-one immersion application for GNU/Linux and other operating systems.
 Watch videos with interactive subtitles, read manga and PDFs with built-in OCR,
 chat with an offline AI tutor, and create Anki-compatible flashcards in one click.
 The app passively tracks every word you encounter and builds a model of what you know.
-Works fully offline; no account needed.
+Works fully offline. No account needed.
 
 ## Android
 
