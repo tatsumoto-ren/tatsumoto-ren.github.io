@@ -672,6 +672,8 @@ It should contain the following data:
   This property takes precedence over `media_dir`.
   It is optional and is intended to be specified when `index.json` and the `media` folder
   are in different locations.
+  Ajatt-Tools's official audio sources use `media_dir_abs`
+  for GitHub release packages so online/released indexes can point to remote media.
 
 The `headwords` sub-dictionary maps words to files.
 For each word specify what files represent its pronunciation.

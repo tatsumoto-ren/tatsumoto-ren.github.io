@@ -718,7 +718,9 @@ the folder where the audio files are stored.</li>
 <li><code>media_dir_abs</code> — absolute path to the <code>media</code> directory.
 This property takes precedence over <code>media_dir</code>.
 It is optional and is intended to be specified when <code>index.json</code> and the <code>media</code> folder
-are in different locations.</li>
+are in different locations.
+Ajatt-Tools's official audio sources use <code>media_dir_abs</code>
+for GitHub release packages so online/released indexes can point to remote media.</li>
 </ul>
 <p>The <code>headwords</code> sub-dictionary maps words to files.
 For each word specify what files represent its pronunciation.</p>
