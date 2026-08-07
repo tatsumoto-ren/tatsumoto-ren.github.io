@@ -213,7 +213,7 @@ but disregarding their language learning advice.
   For each grammar point in the book there's a short explanation
   and several natural example sentences with translations.
   Khatz used this book a long time ago when he learned Japanese.
-* [Sakubi](https://sakubi.neocities.org/).
+* [AJATT grammar guide](https://grammar.ajatt.top/).
   It is written with immersion learners in mind.
   The guide stresses the importance of reading and listening as opposed to drilling and memorizing.
 * [Tae Kim](http://www.guidetojapanese.org/learn/grammar).

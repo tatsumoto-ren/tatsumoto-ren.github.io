@@ -87,7 +87,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
   and covers all the basics without going into too much detail.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
   An Anki deck that contains example sentences from DoJG.
-* [Sakubi](https://sakubi.neocities.org/).
+* [AJATT grammar guide](https://grammar.ajatt.top/).
   A rather short guide written for immersion learners.
 * [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
   * [On Djtguide](https://djtguide.github.io/learn/anon/ixrec.html). With better formatting.
