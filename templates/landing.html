@@ -3,18 +3,18 @@
 {% block body %}
 <div class="top">
     <header>
-        <a class="logo" href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">
-            <img src="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}" />
+        <a class="logo" href="{{ ctx.blog_index_path | as_rel }}">
+            <img src="{{ cfg.site.favicon_path | as_rel }}" alt="favicon">
             <span>{{ cfg.blog.global_short_title }}</span>
         </a>
-        <a class="donate" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_relative_to(ctx.output_file_path) }}"></a>
+        <a class="donate" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_rel }}">Donate</a>
     </header>
     <div class="presentation">
         <nav>
-            <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Tools</a>
-            <a href="{{ 'setting-up-anki.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Anki</a>
-            <a href="{{ 'resources.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Resources</a>
-            <a href="{{ 'tag_faq.html' | in_blog | as_relative_to(ctx.output_file_path) }}">FAQ</a>
+            <a href="{{ 'our-immersion-learning-toolset.html' | in_blog | as_rel }}">{{ tr("Tools") }}</a>
+            <a href="{{ 'setting-up-anki.html' | in_blog | as_rel }}">{{ tr("Anki") }}</a>
+            <a href="{{ 'resources.html' | in_blog | as_rel }}">{{ tr("Resources") }}</a>
+            <a href="{{ 'tag_faq.html' | in_blog | as_rel }}">{{ tr("FAQ") }}</a>
         </nav>
         <h1>All Japanese All The Time</h1>
         <p>
@@ -24,8 +24,8 @@
             And if you feel lost and need help, you can also join our community.
         </p>
         <div class="start_buttons">
-            <a href="{{ 'table-of-contents.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Get started</a>
-            <a href="{{ 'join-our-community.html' | in_blog | as_relative_to(ctx.output_file_path) }}">Community</a>
+            <a href="{{ 'table-of-contents.html' | in_blog | as_rel }}">{{ tr("Get started") }}</a>
+            <a href="{{ 'join-our-community.html' | in_blog | as_rel }}">{{ tr("Community") }}</a>
         </div>
     </div>
 </div>
@@ -74,7 +74,7 @@
             <!-- Recent posts begin -->
             <ol class="bb-recent-posts">
                 {% for post in ctx.recent_posts %}
-                <li><span class="bb-timestamp">{{ post.metadata.date.strftime('%B %d, %Y') }}</span><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a></li>
+                <li><span class="bb-timestamp">{{ post.metadata.date | date_allposts_post }}</span><a href="{{ post.html_file_path | as_rel }}">{{ post.metadata.title }}</a></li>
                 {% endfor %}
             </ol>
             <!-- Recent posts end -->

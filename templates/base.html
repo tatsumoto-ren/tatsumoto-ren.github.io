@@ -30,8 +30,8 @@
 
     <!-- links -->
     <link rel="canonical" href="{{ cfg.site.global_url }}">
-    <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_relative_to(ctx.output_file_path) }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ tr("Subscribe to this page...") }}" href="{{ ctx.blog_feed_path | as_relative_to(ctx.output_file_path) }}">
+    <link rel="icon" type="{{ cfg.site.favicon_path | mime_type }}" href="{{ cfg.site.favicon_path | as_rel }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ tr("Subscribe to this page...") }}" href="{{ ctx.blog_feed_path | as_rel }}">
 </head>
 <body>
     {% block body %}{% endblock %}
