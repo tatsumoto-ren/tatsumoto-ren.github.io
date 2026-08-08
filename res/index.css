@@ -118,6 +118,7 @@ header > a.logo {
 
 header > a.logo > img {
     filter: invert(100%) var(--header-button-shadow);
+    transition: filter 0.2s;
 }
 
 header > a.logo:is(:hover, :focus-visible) > img {
@@ -159,6 +160,7 @@ header a.donate {
         background-repeat: no-repeat;
         background-position: center;
         filter: invert(100%) var(--header-button-shadow);
+        transition: filter 0.2s;
     }
     &:is(:hover, :focus-visible)::before {
         filter: invert(90%) var(--header-button-shadow);
@@ -168,7 +170,7 @@ header a.donate {
 /* Highlight header items on hover  */
 
 header > * {
-    transition: filter 0.2s;
+    transition: background-color 0.2s;
 }
 header > *:is(:hover, :focus-visible) {
     background-color: #fff2;
@@ -621,6 +623,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     filter: var(--header-button-shadow);
+    transition: filter 0.2s;
 
     option {
         color: CanvasText;
