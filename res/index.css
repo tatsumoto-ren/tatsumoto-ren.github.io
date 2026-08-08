@@ -8,7 +8,17 @@
     --tile-margin-start: 4rem;
     --header-logo-height: 52px;
     --link-color: #344d92;
-    --link-color-hover: #0074D9;
+    --link-color-hover: #0088d7;
+    --header-button-shadow: drop-shadow(1px 1px 2px #000c);
+
+    /* Fonts */
+    --serif-font-families:
+        "Noto Serif", "DejaVu Serif", "Liberation Serif", "Times New Roman", "Noto Serif CJK JP", "IPAexMincho",
+        "Yu Mincho", Georgia, Times, serif;
+    --sans-font-families:
+        "Noto Sans", "Droid Sans", "DejaVu Sans", "Liberation Sans", Roboto, Cantarell, "Segoe UI", Arial, Meiryo,
+        Oxygen, Ubuntu, "Helvetica Neue", Helvetica, "Noto Color Emoji", "Noto Sans CJK JP", IPAGothic, Yu Gothic,
+        sans-serif;
 }
 
 *,
@@ -20,23 +30,8 @@
 }
 
 body {
+    font-family: var(--sans-font-families);
     font-size: 16px;
-    font-family:
-        "Noto Sans",
-        "Droid Sans",
-        "DejaVu Sans",
-        "Liberation Sans",
-        Roboto,
-        Cantarell,
-        "Segoe UI",
-        Arial,
-        Meiryo,
-        Oxygen,
-        Ubuntu,
-        "Helvetica Neue",
-        Helvetica,
-        "Noto Color Emoji",
-        sans-serif;
     line-height: 1.5;
 }
 
@@ -61,7 +56,9 @@ video {
 a,
 a:visited {
     text-decoration: none;
-    transition: filter 0.2s, color 0.2s;
+    transition:
+        filter 0.2s,
+        color 0.2s;
     color: var(--link-color);
 }
 
@@ -79,15 +76,9 @@ a:focus {
 
     background-color: #51628f;
     color: white;
-    background-image:
-        var(--dim),
-        url("../img/bg.webp");
-    background-size:
-        100%,
-        cover;
-    background-blend-mode:
-        multiply,
-        normal;
+    background-image: var(--dim), url("../img/bg.webp");
+    background-size: 100%, cover;
+    background-blend-mode: multiply, normal;
     text-shadow: rgb(0, 0, 0) 0px 1px 2px;
     background-position:
         top left,
@@ -102,70 +93,86 @@ a:focus {
 /* Header */
 
 header {
-    font-family:
-        "Noto Serif",
-        "DejaVu Serif",
-        "Liberation Serif",
-        "Times New Roman",
-        Georgia,
-        Times,
-        serif;
+    font-family: var(--serif-font-families);
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content: flex-start;
 }
 
-header>a.logo {
+header > a.logo {
     height: var(--header-logo-height);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
     color: white;
     text-decoration: none;
     gap: 6px;
+    margin-inline: 0 auto;
 }
 
-header>a.logo:hover,
-header>a.logo:active {
+/* Header images transition on hover */
+
+header > a.logo > img {
+    filter: invert(100%) var(--header-button-shadow);
+}
+
+header > a.logo:is(:hover, :focus-visible) > img {
+    filter: invert(90%) var(--header-button-shadow);
+}
+
+header > a.logo:is(:hover, :focus-visible, :active) {
     color: #ddd;
 }
 
-header>a.logo>span {
+header > a.logo > span {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
 }
 
-header>a.logo>img {
+header > a.logo > img {
     height: 100%;
     padding: 2px;
 }
 
-header>span.space {
+header > span.space {
     flex: 2 1;
 }
 
-header>a.donate {
-    width: 52px;
-    height: 52px;
-    background: url("../img/heart.svg");
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+/* Donate button */
+
+header a.donate {
+    font-size: 0px;
+    color: transparent;
+    /* Icon */
+    &::before {
+        display: block;
+        content: "";
+        width: var(--header-logo-height);
+        height: var(--header-logo-height);
+        background-image: url("../img/heart.svg");
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: invert(100%) var(--header-button-shadow);
+    }
+    &:is(:hover, :focus-visible)::before {
+        filter: invert(90%) var(--header-button-shadow);
+    }
 }
 
-/* Header images transition on hover */
+/* Highlight header items on hover  */
 
-header>a.logo>img,
-header>a.donate {
-    filter: invert(100%) drop-shadow(1px 1px 2px #000c);
+header > * {
     transition: filter 0.2s;
 }
-
-header>a.logo:hover>img,
-header>a.donate:hover {
-    filter: invert(90%) drop-shadow(1px 1px 2px #000c);
+header > *:is(:hover, :focus-visible) {
+    background-color: #fff2;
+    outline: 2px solid transparent;
 }
 
 /*
@@ -176,6 +183,8 @@ header>a.donate:hover {
 .presentation {
     --font-size-paragraph: clamp(1rem, 2vw, 1.5rem);
     --font-size-accent: calc(var(--font-size-paragraph) * 2);
+    --link-color: hsl(198, 84%, 52%);
+    --link-color-hover: #39d4e5;
 
     position: relative;
     padding: 90px var(--row-padding-inline);
@@ -205,8 +214,8 @@ header>a.donate:hover {
     flex-flow: row nowrap;
 }
 
-.start_buttons>a,
-.start_buttons>a:visited {
+.start_buttons > a,
+.start_buttons > a:visited {
     white-space: nowrap;
     display: inline-block;
     border: 2px solid white;
@@ -219,12 +228,12 @@ header>a.donate:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
 }
 
-.start_buttons>a:hover,
-.start_buttons>a:active {
+.start_buttons > a:hover,
+.start_buttons > a:active {
     background-color: #fff2;
 }
 
-.start_buttons>a:first-child {
+.start_buttons > a:first-child {
     color: black;
     background-color: white;
     margin-right: 10px;
@@ -233,32 +242,29 @@ header>a.donate:hover {
 
 /* Navigation */
 
-nav {
+.presentation nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     position: absolute;
     inset: 0 var(--row-padding-inline) auto;
     padding: 10px 0;
-}
 
-nav>a,
-nav>a:visited {
-    white-space: nowrap;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav>a:hover,
-nav>a:active,
-nav>a:focus {
-    color: #ddd;
+    & > a,
+    & > a:visited {
+        white-space: nowrap;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    & > a:is(:hover, :active, :focus) {
+        color: #ddd;
+    }
 }
 
 /* Tiles */
 
-.tile+.tile {
+.tile + .tile {
     margin-block-start: var(--tile-margin-start);
 }
 
@@ -297,6 +303,10 @@ nav>a:focus {
     max-width: 70ch;
 }
 
+.text :is(p, h2):not(:last-child) {
+    margin-bottom: 1rem;
+}
+
 /* Rows */
 
 .row {
@@ -310,11 +320,6 @@ nav>a:focus {
 
 .row a:focus {
     box-shadow: inset 0 -2px 0px 0 currentColor;
-}
-
-.row h2,
-.row p:not(:last-child) {
-    margin-bottom: 1rem;
 }
 
 /* Row - recent articles */
@@ -433,7 +438,7 @@ footer {
 }
 
 .bb-timestamp::after {
-    content: ' — ';
+    content: " — ";
     color: rgb(34, 38, 41);
 }
 
@@ -452,7 +457,7 @@ footer {
 
 /* Images that have a slight shadow. */
 
-.drop-shadow>img {
+.drop-shadow > img {
     filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
@@ -507,7 +512,7 @@ footer {
     position: relative;
 }
 
-.polka-dot-bg>* {
+.polka-dot-bg > * {
     z-index: 1;
 }
 
@@ -536,7 +541,7 @@ footer {
 }
 
 .skewed-bg::after {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -548,12 +553,12 @@ footer {
 /* Wide screens */
 
 @media only screen and (min-width: 750px) {
-    nav {
+    .presentation nav {
         justify-content: flex-start;
-    }
 
-    nav>a:not(:last-child) {
-        margin-right: 30px;
+        & > a:not(:last-child) {
+            margin-right: 30px;
+        }
     }
 
     .presentation {
@@ -592,5 +597,37 @@ footer {
 
     .row {
         border-radius: 4px;
+    }
+}
+
+/* Language switch */
+
+.lang-switch {
+    width: var(--header-logo-height);
+    height: var(--header-logo-height);
+    flex: 0 0 var(--header-logo-height);
+
+    appearance: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    color: transparent;
+
+    background-color: transparent;
+    background-image: url("../img/switch-lang.svg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: var(--header-button-shadow);
+
+    option {
+        color: CanvasText;
+        background-color: Canvas;
+        font-size: 1rem;
+    }
+    &:is(:hover, :focus-visible) {
+        filter: brightness(80%) var(--header-button-shadow);
     }
 }
