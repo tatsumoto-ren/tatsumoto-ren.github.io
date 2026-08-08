@@ -414,6 +414,7 @@ Browsing will lead you to more tags.
   Explore them first.
 * [zlibrary](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
   A library with books in any language.
+  Clearnet: [Z Library Access](https://z-lib.pub/z-library-access).
 * [Anna's Archive](https://annas-archive.pk/).
   A catalog of all the books in existence.
   Has nearly everything.
