@@ -1,8 +1,9 @@
 ---
-title: Is studying grammar required?
+title: "Is studying grammar required?"
 date: 1670241648
-tags: ['faq']
-position: -9925
+tags: ["faq", "grammar"]
+position: [-9925, -1]
+updated: "08 August 2026"
 ---
 
 *Studying* **anything** is not a requirement for using the [AJATT](whats-ajatt.html) method.

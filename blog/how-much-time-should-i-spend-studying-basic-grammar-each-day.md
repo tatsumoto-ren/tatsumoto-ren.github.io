@@ -1,7 +1,8 @@
 ---
-title: How much time should I spend studying basic grammar each day?
+title: "How much time should I spend studying basic grammar each day?"
 date: 1731340553
-tags: ['faq']
+tags: ["faq", "grammar"]
+updated: "08 August 2026"
 ---
 
 It's up to you,

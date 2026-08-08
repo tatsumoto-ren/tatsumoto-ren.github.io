@@ -1,8 +1,9 @@
 ---
-title: I'm a beginner. Do you recommend learning the "advanced grammar" within Tae Kim's grammar guide?
+title: "I'm a beginner. Do you recommend learning the \"advanced grammar\" within Tae Kim's grammar guide?"
 date: 1670226098
-tags: ['faq']
-position: -9922
+tags: ["faq", "grammar"]
+position: [-9922, 0]
+updated: "08 August 2026"
 ---
 
 [This answer](tae-kim-is-essential-grammar-enough.html) applies.

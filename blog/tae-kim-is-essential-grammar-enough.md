@@ -1,8 +1,9 @@
 ---
 title: "Tae Kim: is \"essential grammar\" enough?"
 date: 1669230459
-tags: ['faq']
-position: -9923
+tags: ["faq", "grammar"]
+position: [-9923, -1]
+updated: "08 August 2026"
 ---
 
 As far as I see, the Tae Kim guide gets divided into 4 sections.

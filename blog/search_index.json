@@ -438,7 +438,8 @@
   {
     "title":"Have you ever tried using AI to analyze grammar?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Have you ever tried using AI to analyze grammar in sentences in the Foundation or Essentials decks? If you tell it to \"Do a word by word analysis of the following sentences\" with an example of what you want the format to be, it will produce a pretty nice analysis. My own experience is that it is about 95% right, but it is so fast. It might be good enough to eliminate the need for learners to add in Tae Kim or something.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html",
@@ -447,7 +448,8 @@
   {
     "title":"LLM and language learning",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"With the rise of LLM chatbots, many people have started asking them to explain Japanese, help with learning Japanese, and things like that. There's nothing wrong with using AI to help you understand Japanese, but there are some caveats. Don't rely on it exclusively. Use it only when other options aren't available. I wouldn't trust AI for grammar explanations. Instead, try to understand sentences intuitively and use the provided translations. If you truly need a grammar explanation, consult a verified source first. See grammar resources for recommended grammar guides. One such resource is the DJT guide grammar master reference. Now let's cover the problems with asking LLMs to help you learn a foreign language.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#llm-and-language-learning",
@@ -456,7 +458,8 @@
   {
     "title":"Errors",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"AI explanations can be wrong. In short, LLMs generate text based on probabilities. You give them input and they auto-complete it. They don't actually understand what they produce. It only appears that way. Richard Stallman calls LLMs \"bullshit generators.\" Trusting them 100% would be too much. That said, modern LLMs can be quite accurate. The problem is that beginner language learners cannot easily verify what's correct and what isn't. One option is to use a different large language model and ask it to review and verify an explanation given by another model.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#errors",
@@ -465,7 +468,8 @@
   {
     "title":"Acquisition vs. Study",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"When you ask someone, including an LLM, to explain grammar, you train your conscious brain to analyze Japanese. You request explanations and then try to make sense of them. That's different from absorbing meaning intuitively, as we do with our native language. We don't learn our target language by reading explanations about how it works. Our brains are wired differently. Our parents didn't sit us down with a grammar book when we were 1 year old. AI can help you understand, but the neural pathways you build will differ from those of native speakers. In other words, your brain will work differently from native speakers, impeding your ability to think like one. Native speakers acquire grammar naturally through immersion and usually learn explicit rules much later in life. This is a citation from our guide: Native speakers perceive language entirely on a subconscious level, so it makes sense that the best way to learn a language is through immersion. When you analyze the language by studying grammar rules, you end up using completely different parts of your brain than native speakers do. Once your brain gets used to perceiving language through that analytical lens, it's nearly impossible to revert. At best, you can train yourself until it becomes automatic, but it will still feel different from a native speaker. Focus on watching anime. It's probably the easiest way to acquire the language naturally. If you use LLMs, ask them to give you more example sentences rather than explain grammar. Humans acquire language by understanding messages. What is being said, not how it's said. Remember that when you analyze sentences, you activate your analytical brain, not the natural, intuitive one.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#acquisition-vs-study",
@@ -474,7 +478,8 @@
   {
     "title":"Putting generated text in SRS",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"If a sentence seems too difficult and you have to ask an LLM to understand it, it probably is not 1T for you. Do not put an MT sentence with a generated explanation into your SRS. If a sentence is not 1T, it will not become 1T just because you read the explanation. Whether a sentence is 1T depends on how much you have already acquired. And LLM-generated explanations are usually quite long, which will waste your review time.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#putting-generated-text-in-srs",
@@ -483,7 +488,8 @@
   {
     "title":"Using LLM for definitions",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Until you go monolingual, it's a good idea to translate monolingual dictionary definitions with an LLM. That lets you use native-Japanese definitions (e.g., Daijirin, Meikyo) instead of relying only on JMdict/Jisho entries. If you translate a real monolingual definition, there's less chance that the LLM will make things up because there's less room to be creative and invent things when you are directly translating an existing defintion. Such translated definitions can be helpful for beginners. For example, the word 奇抜 often appears in anime or books. Jmdict lists synonyms like: unusual; unconventional; eccentric; novel; original; striking; bizarre; wild. That helps, but a monolingual definition gives clearer nuance. 明鏡 (Meikyo) definition and examples: 思いも及ばないほどすぐれていること。また、人の意表をつくほど風変わりなこと。 「着想が奇抜だ」 「奇抜なデザイン」 Machine-translated: Something extraordinarily original or striking. Far beyond what you'd expect. It can also mean unusually eccentric or surprising. Examples: \"The concept is unconventional.\" \"A striking/eye‑catching design.\" This kind of translated monolingual definition usually conveys nuance better than a bare list of synonyms.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#using-llm-for-definitions",
@@ -492,7 +498,8 @@
   {
     "title":"Writing style",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Finally, a big problem is that AI doesn't talk like humans. You've probably noticed this in English, and it's true in other languages too. AI sounds emotionless and formal, academic in tone. It's too perfect, lifeless, and boring. Sentences are often long and convoluted. Talking with an LLM can make you pick up that style of writing. You don't want to consume that kind of input, especially when authentic alternatives exist. For grammar, you can simply open a DoJG reference and read example sentences. Or just watch more anime.",
     "url":"have-you-ever-tried-using-ai-to-analyze-grammar.html#writing-style",
@@ -703,7 +710,8 @@
   {
     "title":"How much time should I spend studying basic grammar each day?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"It's up to you, but we recommend spending around 15 to 30 minutes each day on grammar. We all know that reading about grammar isn't exactly the most exciting thing in the world. Thus, we think that consuming grammar theory incrementally over time will make it easier to consolidate and integrate what you've learned. If you choose to spend about 30 minutes a day studying grammar, it's perfectly fine to study basic grammar alongside Ankidrone Foundation and/or Ankidrone Essentials.",
     "url":"how-much-time-should-i-spend-studying-basic-grammar-each-day.html",
@@ -721,7 +729,8 @@
   {
     "title":"Can't I just read a textbook? Are textbooks inherently bad?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"If you seriously want to master your target language, textbooks are not for you. We recommend skipping them entirely and learning the language through immersion.",
     "url":"are-textbooks-bad.html",
@@ -730,7 +739,8 @@
   {
     "title":"Why we do not recommend textbooks",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"We do not recommend textbooks for many of the same reasons we advise against using apps like Duolingo. Textbooks are not designed to align with the AJATT methodology and tend to reinforce traditional learning habits, which are neither ideal nor efficient. These resources focus on constructing sentences from grammar rules, memorizing vocabulary in a specific order, and encouraging early speaking and writing. Consequently, textbooks offer little to no benefit to your immersion learning journey. They provide very superficial knowledge that won't help you when you decide to read an actual novel. Don't expect to become fluent by reading textbooks. Purchasing a textbook just to ignore the majority of it is also not in your best interest.",
     "url":"are-textbooks-bad.html#why-we-do-not-recommend-textbooks",
@@ -739,7 +749,8 @@
   {
     "title":"Purpose of a textbook",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Language acquisition happens when we comprehend what is being said. \"Acquiring\" a language means developing an intuitive understanding of it. Thus, the AJATT method builds its language learning strategy around immersing yourself in the target language in order to provide your brain with as much input as possible. Our brains are pattern recognition machines. They need input to decipher and understand the structures, rules, and building blocks of your target language. Think about how babies learn their first language. Initially, they learn from the input they receive from their parents and other speakers, and after a couple of years, they accumulate enough input to begin speaking. The more language they absorb, the more neural pathways they create. Adults who are doing AJATT learn foreign languages in the same way. This process mostly happens unconsciously, but providing the right input can expedite it. If textbooks were necessary for language acquisition, all infants would be required to read them. But that is not the case. Do textbooks have a purpose? What can they possibly do to help us? An ideal textbook should provide plenty of example phrases and sentences, a variety of samples of the target language, a wealth of comprehensible input. From the AJATT perspective, it is best to make the explanations short (very short) and provide as many usage examples as possible to feed your brain the essential input. However, the problem with textbooks is that they never feed you input. They explain rules, force you to memorize vocabulary lists, force you to speak and write prematurely, etc. Textbooks that include stories are not suitable for everyone either. The stories in textbooks cannot compete with manga and anime. They are simply not as interesting. Additionally, the kind of language they use is artificially simplified and dumbed down. Therefore, we think it is better to learn from native content from day one, starting with something easier at first, such as slice of life anime. This way, you can learn in the most natural manner. And when you don't understand something, TL subtitles and dictionaries help you figure it out.",
     "url":"are-textbooks-bad.html#purpose-of-a-textbook",
@@ -748,7 +759,8 @@
   {
     "title":"Are textbooks inherently bad?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Absolutely. Many textbooks are made by non-native speakers, and thus are prone to contain numerous mistakes and unnatural sentences. For example, the Japanese from Zero textbook was made by a person who, at the time of publication, did not know how to read many basic words (such as 挑む) and could not read real novels. He only began reading novels and learning to read kanji after being called out for it. Textbooks created by native speakers are less likely to contain mistakes, but we still believe they cannot be fully trusted because errors can be unintentional. Natural sentences that you find in your immersion environment are always better. In textbooks, kanji are often intentionally replaced with kana, so you end up with words and sentences written in a way that you will never see outside a textbook. People rarely write わたし, they almost always write 私. In AJATT, it is recommended to learn how words are written in kanji from the start, to avoid having to unlearn them later. Textbooks give you vocabulary lists. Vocabulary lists are meant to be memorized as word ⇒ translation. When you memorize words out of context (outside of a sentence), this knowledge is nearly useless, and the brain tends to discard it quickly. Simply knowing what a word means does not help you understand it. You need to know how the word is used in real sentences, what collocations and expressions it pairs with, and what grammar is commonly used with it. To truly grasp a word's meaning and usage, you need to see numerous examples of it in context. Learn words by understanding sentences. To learn words AJATT recommends using Anki and TSC. Additionally, textbooks typically progress at a slow pace and are reluctant to teach anything they deem too difficult for new learners. Most textbooks cannot prepare you for consuming authentic content because they only cover the very basics. A textbook cannot teach you everything. It is extremely limited and features contrived dialogues and simple vocabulary. On top of everything, textbooks are very boring. Learning a language through immersion is fun, and you will learn more from a single anime series than from any textbook.",
     "url":"are-textbooks-bad.html#are-textbooks-inherently-bad",
@@ -757,7 +769,8 @@
   {
     "title":"How to use textbooks",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Go straight for the dialogues and example sentences. Copy those into your SRS. — How To Use a Japanese Textbook, article by Khatz. Textbooks can be used in an way that aligns with the AJATT method. While we don't think it is worth your time (more on that later), it is theoretically possible. Let's see how. If you want to give a textbook a try, here's what you can do. Don't buy them, download a digital version (PDF, EPUB) from the Internet. Skip everything except the example sentences. Try to understand the examples. Optionally, mine the example sentences by adding them to your SRS. If you notice words where kanji are replaced with kana (e.g. ねん is written instead of 年), fix the words by looking up the proper spellings in a dictionary (GoldenDict, Jisho.org, etc.). This is what we did with the Tango textbooks when we created Ankidrone Essentials.",
     "url":"are-textbooks-bad.html#how-to-use-textbooks",
@@ -766,7 +779,8 @@
   {
     "title":"Is it worth it?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Of course not. It's a waste of time. Although you could potentially use textbooks in a way that aligns with AJATT by following the instructions in the previous section, it is still not an efficient use of your time. Here's why: The work has already been done. You can just grab Ankidrone Essentials instead. Even though Ankidrone Essentials is based on a different book than the one you may want to use, the differences are likely minimal since most textbooks are quite similar. I also think Ankidrone Essentials offers more because it provides thousands of high quality example sentences. You will have to do everything yourself. Copy sentences from the book to your SRS app, cut and convert audio clips (if the textbook comes with audio recordings), add definitions for words, add furigana, pictures, and notes. Some textbooks don't have any kanji in them! Or, kanji are underutilized, which I expect is a common issue with most textbooks. Or, kanji are introduced much later than necessary (e.g., after page 80 in Genki). You will have to convert every word to its kanji form manually and ensure you don't make mistakes. Typical textbooks are full of vocabulary lists. There are not many example sentences that you can mine. As you already know, words out of context (outside of a sentence) are nearly useless. There are textbooks that do a good job providing examples, but there aren't many of them, and you will first have to find the right one. Some sentences and dialogues are not translated. You will have to rely on what you've learned previously to understand them. This is not suitable for our mine and dump approach. There are exercises meant to be done with a partner, \"pair-work\". They are meant to be done in class. Such books clearly do not favor self-study, and since AJATT is aimed at people who want to master Japanese through self-study, those exercises are also useless to you.",
     "url":"are-textbooks-bad.html#is-it-worth-it",
@@ -775,7 +789,8 @@
   {
     "title":"So what do I do?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Don't learn Japanese from textbooks. Follow the AJATT method. It will teach you everything you need to master Japanese faster than any other method in the world.",
     "url":"are-textbooks-bad.html#so-what-do-i-do",
@@ -1731,8 +1746,10 @@
   },
   {
     "title":"All About Particles",
-    "tags":[],
-    "body":"\"All About Particles\" is a grammar book. PDF version PDF version on Zlib HTML version",
+    "tags":[
+      "grammar"
+    ],
+    "body":"\"All About Particles\" is a grammar book. A Handbook of Japanese Function Words by Naoko Chino. HTML version PDF version PDF version on Zlib ISBN 10: 4770050127 ISBN 13: 9784770050120",
     "url":"all-about-particles.html",
     "date":"2024-01-24"
   },
@@ -2895,7 +2912,8 @@
   {
     "title":"How to make monolingual TSCs for vocab and grammar?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"The process of making monolingual TSCs for grammar and vocabulary is essentially the same, as there's no significant difference between the two. After you go monolingual, you'll continue sentence mining in much the same way as before. While reading books, watching things with subtitles, browsing the web, you will come across sentences where you know everything in a sentence except for one grammar point or one word. Take that whole sentence and put it on the front of your SRS card. On the back, put the monolingual definition for the grammar point or word you didn't know. Some preparations, as explained in the main article: Download and install monolingual dictionaries for tools like GoldenDict, Rikaitan, etc. In Rikaitan, keep JMdict enabled (but hidden) for times when your monolingual dictionaries don't pick up certain words. Monolingual dictionaries tend to be smaller than JMdict. Mine sentences as you usually would. Don't add English definitions to your cards. Having both English and Japanese definitions is acceptable only during the transition period. You will run into grammar points that only have English definitions. Use Rikaitan to identify the grammar pattern, then consult Weblio or any search engine to look it up. Searching the web should lead to explanations in Japanese. Additionally, try monolingual dictionaries for grammar. They cover additional topics and can help when other dictionaries fail. Some people would prefer to install as many monolingual dictionaries as possible to cover even more ground and minimize the need to look up words online. Once you learn the very basics, the strict distinction between grammar points and vocabulary pretty much dissolves. For instance, take the phrase ならでは. While JLPT might classify this as a grammar point, I see it simply as another piece of Japanese. If you look up ならでは in a monolingual dictionary, you'll find what it means. Similarly, if you take ながら, looking it up in a monolingual dictionary will show you how it's used and what it means. Beyond the basics, there isn't a clear distinction between vocabulary and grammar points. I would just think of them as pieces of the language that you don't know yet. Whether that's a noun, or an adverb, or a verb in a specific form, or whatever, everything will be in the monolingual dictionary somewhere. You just have to know how to look it up correctly. The process remains the same. Place the sentence on the front of your card and what you need to understand it on the back. When reviewing the card, read the target piece, ensure sure you can read the kanji, ensure that you understand what the target word or grammar means roughly, and what the overall sentence means roughly. If you can do that, you're good to go.",
     "url":"how-to-make-monolingual-tscs-for-vocab-and-grammar.html",
@@ -3439,7 +3457,8 @@
   {
     "title":"Is studying grammar required?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"Studying anything is not a requirement for using the AJATT method. AJATT is about acquiring a language through immersion. The core idea is that if infants can do it, adults can too. There is a big difference between acquisition and studying. Instead of studying, AJATTers strive to understand messages in the target language when they immerse. If by studying grammar you mean learning from a grammar guide, we often recommend doing it because it optimizes your path to fluency. It accelerates your progress and helps remove obstacles along the way. By learning common grammar patterns early on, you can significantly improve your comprehension.",
     "url":"is-studying-grammar-required.html",
@@ -3512,7 +3531,8 @@
   {
     "title":"I'm a beginner. Do you recommend learning the \"advanced grammar\" within Tae Kim's grammar guide?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"This answer applies. When I learned Japanese, I read Tae Kim's guide completely, but I did it in chunks. First I learned some vocab, then I read the first section. Then I learned more vocab and read the second one, and so on. Decide if you're ready before starting the \"advanced grammar\" part. Maybe you need to learn more words first. Tae Kim has vocabulary lists built-in, but they're pretty much useless without example sentences. It's better to learn vocabulary using targeted sentence cards. This is another reason I started recommending \"All About Particles\" more.",
     "url":"learning-advanced-grammar-from-tae-kim.html",
@@ -3595,7 +3615,8 @@
     "title":"Should I make cards for grammar to study in my SRS?",
     "tags":[
       "faq",
-      "anki"
+      "anki",
+      "grammar"
     ],
     "body":"Mining grammar points from a grammar guide is not required. But I did it, Khatzumoto did it too. If you decide to do the same, you may end up creating cards for very basic grammar, in which case delete them once you progress towards intermediate. I don't recommend mining every sentence like Khatz did, instead try choosing only the ones that look challenging. Don't add duplicate cards. The same grammar point should not already in your SRS, even if the example sentence is different. Mining grammar very much like mining regular words. You create TSCs as usual. Grammar points become target words.",
     "url":"should-i-make-cards-for-grammar-to-study-in-my-srs.html",
@@ -3785,7 +3806,8 @@
   {
     "title":"Tae Kim: is \"essential grammar\" enough?",
     "tags":[
-      "faq"
+      "faq",
+      "grammar"
     ],
     "body":"As far as I see, the Tae Kim guide gets divided into 4 sections. Basic Grammar Essential Grammar Special Expressions Advanced Topics So the question becomes, \"Can I drop Tae Kim after reading the first half?\" The truth is that all 4 sections describe pretty basic grammar. You can stop at any point and start sentence mining. Looking up grammar and making targeted sentence cards with grammar targets is no different from making cards for regular vocabulary. Eventually you'll catch up. I read and mined the entire guide, but I took breaks between sections, so it wasn't a continuous, boring process.",
     "url":"tae-kim-is-essential-grammar-enough.html",
@@ -4808,7 +4830,8 @@
   {
     "title":"Learning grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"What's grammar? Should you learn grammar? How to learn grammar? Let's answer these question in this article.",
     "url":"learning-grammar.html",
@@ -4817,7 +4840,8 @@
   {
     "title":"What is grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"In essence grammar is a set of specific words or phrases that don't bear any meanings themselves, but are used to connect and define relations between adjacent words. For example, the particle は, commonly referred to as the \"topic particle\", connects the topic of a sentence with the rest of the sentence that describes it. By itself it means nothing. Some grammar points are regular Japanese words with special usages. For example, あげる, くれる and もらう are verbs used to express giving and receiving, but unlike most words they are bound by certain rules that describe how they must be used. Grammar rules tell us how to arrange and inflect words to make proper sentences. Obviously, the rules weren't created in advance, before the language was spoken, therefore it's better to think of them as \"common speech patterns that native speakers find acceptable.\" Besides, no language is fixed, and all languages change over time, and the rules may change too.",
     "url":"learning-grammar.html#what-is-grammar",
@@ -4826,7 +4850,8 @@
   {
     "title":"The role of grammar study",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"Grammar guides are for making it easier to understand things, not to learn how to say them. Native speakers perceive language entirely on a subconscious level, so it makes sense that the best way to learn a language is through immersion. When you try to analyze the language by studying grammar rules, you end up using completely different parts of your brain than native speakers do. Once your brain gets used to perceiving language through this analytical lens, it's nearly impossible to revert. At best, you can train yourself until it becomes automatic, but it will still feel different from a native. It is entirely possible to skip formal grammar study and learn grammar points solely through immersion. The arguments in favor of studying grammar are quite similar to those for learning basic vocabulary from a premade Anki deck. Doing so can give you a head start and improve your comprehension of real Japanese while you are still a beginner. We usually recommend using grammar only as a tool to enhance comprehension. In other words, we don't waste time drilling rules or verb conjugations. Instead, we focus on understanding what each structure means in a sentence. This makes it easier to understand speech during immersion. To really understand grammar, it is crucial to understand it in your target language. Knowing what it means in English will not be very helpful. Language acquisition happens when we understand messages, when we comprehend what is being communicated. From the AJATT perspective, to fully acquire a grammar rule, it is best to read as many usage examples as possible to provide your brain with the essential input. The brain needs this input to decipher and figure out the structures, rules, and building blocks of your target language. This process largely happens unconsciously. Overanalyzing language with your brain's logical side may be counterproductive. The best source of examples is immersion. The primary reason to consult a grammar guide is to learn what specific grammar points mean when they are used. While you can learn everything through immersion, we believe that reading a grammar guide can expedite the process. For example, by learning from a guide what the construction \"としても\" means, you won't have to look it up when you encounter it while watching anime. Knowing what common grammar patterns mean will make it easier to follow your immersion and help you acquire your target language through extensive listening and reading. A good grammar guide should provide concise explanations and include many example sentences. Language courses that do not follow the AJATT method may suggest that you study grammar to learn how to speak your target language. They tell you to memorize grammar rules and vocabulary, and then combine them to form sentences. This approach does not work for several reasons: Language is highly specific in unpredictable ways. You have to know ahead of time how certain thoughts are expressed in your target language. You cannot invent language on the spot. Invented language almost always sounds unnatural. Consciously thinking about grammar rules while speaking is too slow. You won't have enough time to apply that knowledge. By the time you construct a grammatically correct sentence, your conversation partner will be long gone. It is impossible to memorize every rule and exception. Even linguists don't know all the rules because rules are formed on an ad hoc basis. Output ability is the result of subconscious acquisition. In our native language, most of us don't know grammar rules. We just know what sounds right and what doesn't. When speaking, we don't have to think about grammar or vocabulary. We just think about the meaning we want to convey, and the words flow naturally. The only true way to acquire grammar in order to use it in your speech is by immersing in the target language, seeing the grammar being used in the wild many times until your brain internalizes it.",
     "url":"learning-grammar.html#the-role-of-grammar-study",
@@ -4835,7 +4860,8 @@
   {
     "title":"When to study grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"There is no distinct stage where you should learn grammar. Since grammar connects words together, basic grammar and basic vocabulary must be studied approximately at the same time. You cannot learn grammar after learning the kana and before learning vocabulary because to understand how grammar works, you need to know at least some basic vocabulary. You cannot learn basic vocabulary before learning grammar because to understand how words function in sentences, you need to know at least some basic grammar. After learning the kana, start going through a basic vocabulary deck. The vocabulary decks we recommend on this site are Ankidrone Foundation and Ankidrone Essentials. As you progress through a vocabulary deck, you will encounter new grammar used in example sentences. Learn this extremely basic grammar. As you continue to immerse, you will see less common grammar until you learn most of it. By learning grammar and vocabulary simultaneously, you can better understand how words are connected and how they function in sentences. This approach allows you to develop a more comprehensive understanding of the language as you progress through your studies.",
     "url":"learning-grammar.html#when-to-study-grammar",
@@ -4844,16 +4870,28 @@
   {
     "title":"How to study grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"Learning grammar, at least in Japanese, is not very different from learning words. Without a grammar guide it is done by reading sentences and looking up unknown parts in a dictionary. Beginner grammar guides list frequently used grammar points together and provide translated example sentences. With a grammar guide you can front-load basic grammar and expand your comprehension. Read about the basic grammar of your target language from a grammar guide. Dedicate a short chunk of time, up to 30 minutes a day, to studying grammar. If measuring time is not your thing, read one, two or three chapters per day, for example. Because the nature of grammar is that it's hard to explain in human language, and most grammar takes lots of input to acquire, you're looking for quick and dirty knowledge. Don't try to wrap your head around what are all the usages of a grammar construction, which item is used in what particular situation, etc. Just note roughly what it means in a sentence. Continue to immerse. Use the time spent immersing to notice the new grammar being used in different situations. There are grammar guides that tell you to memorize conjugations, do exercises or drills. They are attempting to teach grammar similar to math, treating grammar as formulas. Since grammar is made up of speech patterns native speakers often say and find natural, the focus should be on learning the patterns, getting used to frequently spoken collocations, phrases and sentences. Note that at this stage of the AJATT journey you don't need to worry about things like all the different types of verbs and exactly how they conjugate. Casually read through the guide and focus on understanding example sentences. When you see a word in a different form, all you need is to understand what it means. As grammar explanations don't directly help to acquire language, they take a secondary role. We think that if you don't understand some grammar, it won't be beneficial to spend more time trying to understand the explanations. It's better to read more example sentences if your grammar book provides them.",
     "url":"learning-grammar.html#how-to-study-grammar",
     "parent":"Learning grammar"
   },
   {
+    "title":"Focus on sentences",
+    "tags":[
+      "guide",
+      "grammar"
+    ],
+    "body":"Grammar guides should be written and read to provide examples, not to explain grammar rules. Focus on sentences. Read lots of example sentences. Learning thousands of correct Japanese sentences will build your sense of the language. It will develop that childlike instinct to decide, \"This is the right way to say X.\", the same instinct we all use when we speak in our native language. Don't worry about the rules. Don't waste time drilling verb conjugations. You can even ignore the rules if you want. Read examples. Focus on understanding what each structure means in a sentence. Give your brain the essential input.",
+    "url":"learning-grammar.html#focus-on-sentences",
+    "parent":"Learning grammar"
+  },
+  {
     "title":"Grammar guides",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"The goal of grammar study is to increase comprehension. There are many Japanese grammar resources out there. Below you'll find the ones I think are worth reading. If you decide to read a grammar guide outside this list, proceed with caution and apply the AJATT philosophy to spot the good stuff and filter out unnecessary parts. Note: third party guides may contain what Tatsumoto considers to be ineffective language learning advice. We recommend making use of their grammar explanations but disregarding their language learning advice. All About Particles. A nicely organized book simply described as \"godsend\". For each grammar point in the book there's a short explanation and several natural example sentences with translations. Khatz used this book a long time ago when he learned Japanese. AJATT grammar guide. It is written with immersion learners in mind. The guide stresses the importance of reading and listening as opposed to drilling and memorizing. Tae Kim. Written with traditional learners in mind, but is still a good guide recommended by many. Sections you need to read are \"Basic Grammar\", \"Essential Grammar\", \"Special Expressions\" and \"Advanced Topics\". You have already covered everything else. Don't touch any conjugation tables and exercises. In AJATT, the goal of studying grammar is strictly to increase the comprehensibility of your immersion. Ixrec's Guide to Japanese (archive). You can skip the \"Alphabets\" page as you have already covered that. Example sentences are listed at the end of each page. Each sentence is broken down into pieces and translated. All About Particles. Example sentences help understand the grammar. Choose one guide to follow. Reading multiple grammar guides usually just leads to learning about the same information. Recognize that without enough immersion you won't be able to fully activate the knowledge. As they say, you will be like someone who has read 10 books on how to swim but has never been in a pool.",
     "url":"learning-grammar.html#grammar-guides",
@@ -4862,7 +4900,8 @@
   {
     "title":"On \"basic\" grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"In grammar guides, items described in the basic sections are usually not basic in a sense that they're easy to grasp. They are listed as basic and taught very early because they're frequently used. And since you can't understand most Japanese sentences without them, you have to learn them early on. It is actually a mistake to hope that you can perfectly acquire basic grammar just because it's basic. This false assumption causes language learners a lot of frustration. Particles like は and が, に and へ are taught in the very beginning, but most Japanese learners can't fully acquire them and understand the differences between them until they reach a high level in the language. If you studied English before starting Japanese, you had to learn the differences between articles a and the or demonstratives this, that, these and those. Undoubtedly they were not easy, particularly at first. Often English learners acquire such things only after years of practice. When approaching basic grammar, accept that it will take a long time for you to understand all the bits and pieces. Don't get frustrated just because you've been learning Japanese for months or years but aren't quite sure when you should use a certain grammar pattern in your speech. If you're taking an immersion-based approach to learning a language, you don't really have to do anything. As long as you keep immersing, everything will eventually become clear on its own. When going through a grammar guide, simply read the explanation of what a structure means, and don't make any more effort to master it. Just notice it each time it comes up in your immersion and focus on understanding the message being conveyed without attention to details. Your understanding will get better each time you see the structure in your immersion. Grammar that doesn't stick until much later in the learning process is one of the reasons why we delay speaking and writing practice until we can understand the language at a high level. Trying to use words and structures you haven't fully acquired inevitably leads to making countless mistakes and building bad habits.",
     "url":"learning-grammar.html#on-basic-grammar",
@@ -4871,7 +4910,8 @@
   {
     "title":"Mining grammar points",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"If you notice a new grammar in the wild, usually you want to make an SRS card for it (sentence mining, covered later). But should you mine grammar points you read about in the grammar guide? When we discuss it, there are two opinions. First, \"just skim it\". In other words, read the guide and don't mine anything. Second, read the guide and make cards for all necessary grammar constructions. It's up to you to decide whether you need to incorporate mining into your grammar study.",
     "url":"learning-grammar.html#mining-grammar-points",
@@ -4880,7 +4920,8 @@
   {
     "title":"How to make cards",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"Back in the day, I learned at least one example of every grammar point in the book. — Khatz For each grammar point, you choose an example sentence and add it to the SRS. Put the sentence on the front of the card. Highlight the target grammar point by making it bold, color it or underline it. On the back put everything necessary to understand the grammar point. Make simple cards. Too much information will only slow down the review process. When I learned Japanese, I went with the Tae Kim grammar guide. I made Anki cards for grammar concepts that I didn't know and skipped the sentences that I already understood pretty well. Don't mine every sentence. Most examples in grammar guides are similar to each other. Choose at most one sentence per grammar point. Some grammar points are very easy, and you don't need to make cards to memorize them. Don't mine from multiple grammar guides either. They mostly cover the same topics. The number of cards you'll have to make if you mine excessively will quickly surpass 1,000. Don't worry about not covering some topics. Grammar study doesn't end after you read a grammar guide. Grammar is endless, and most recommended grammar guides only cover the basics. In fact, there are grammar constructions that aren't explained in any grammar guide, and you have to learn them through immersion relying on context to infer what they mean. When you finish studying grammar formally and start making cards solely from your immersion, you'll have plenty of opportunities to encounter new grammar in the wild and fill the gaps. An SRS card made from an item in the Tae Kim guide.",
     "url":"learning-grammar.html#how-to-make-cards",
@@ -4889,7 +4930,8 @@
   {
     "title":"Long grammar guides",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"There are guides out there that are too big in volume. Namely, Imabi and DoJG. You don't want to choose them for a basic grammar guide, they're supposed to be used more like dictionaries. For this reason we don't include them in the list of recommended beginner guides above. Instead, we mention them here. You may refer to them to look up individual grammar points on a case-by-case basis. Itazuraneko Master Reference DoJG Anki deck Other grammar resources Don't learn cards from the DoJG deck in order, rather keep it as a reference and as a source of example sentences. It's a waste of time to try to cram a 5000-cards deck while you can rely on your immersion to guide you and tell you which cards you need.",
     "url":"learning-grammar.html#long-grammar-guides",
@@ -4898,7 +4940,8 @@
   {
     "title":"Grammar in the wild",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"Studying grammar in a structured way with a grammar guide is not for everybody. You can skip it and learn new grammar on the spot, when you see it. Even after completing a grammar guide, if you choose to do so, you will be encountering new grammar while immersing. Take a look at the following checklist to see some points we recommend you take when you notice an unknown grammar pattern. Look it up in a regular dictionary. Most things should be defined there. Rikaitan and Qolibri are covered later in this guide. Consult a grammar guide or a grammar dictionary. This is where DoJG or the DoJG Anki deck come handy. Tae Kim is another good source. Use the web search. Search engines can do a lot for you, especially if you search in Japanese.",
     "url":"learning-grammar.html#grammar-in-the-wild",
@@ -4907,7 +4950,8 @@
   {
     "title":"Beyond grammar",
     "tags":[
-      "guide"
+      "guide",
+      "grammar"
     ],
     "body":"It's impossible to wholly describe Japanese grammar in English. There's a limit on how accurate the explanations can be. In order to truly understand grammar you have to understand it in Japanese. A guide like Tae Kim uses English building blocks to make a mental model that resembles the Japanese grammar, but it's not all the way there. Once you get fluent in your target language, go back and study your target language's grammar in the target language. To do that, use resources for native speakers. Studying keigo in Japanese can also be seen as a part of this process. See Resources for grammar resources in Japanese.",
     "url":"learning-grammar.html#beyond-grammar",
@@ -6660,7 +6704,7 @@
     "tags":[
       "guide"
     ],
-    "body":"Main article: Learning grammar All About Particles. A nicely organized book simply described by many as \"godsend\". Khatz used this book a long time ago when he learned Japanese. Tae Kim's grammar guide. A guide to Japanese grammar. It breaks down Japanese in a logical and straightforward way and covers all the basics without going into too much detail. DoJG Anki deck. An Anki deck that contains example sentences from DoJG. AJATT grammar guide. A rather short guide written for immersion learners. Ixrec's Guide to Japanese On Djtguide. With better formatting. Archive.org. Itazuraneko's 文型一覧表. Master reference table of all grammar pattern entries from a number of grammar dictionaries. Grammar in Japanese.",
+    "body":"Main article: Learning grammar All About Particles. A nicely organized book simply described by many as \"godsend\". Khatz used this book a long time ago when he learned Japanese. Understanding Basic Japanese Grammar. ISBN-10: 475740168X. ISBN-13: 978-4757401686. Z library link. Annas archive link. Tae Kim's grammar guide. A guide to Japanese grammar. It breaks down Japanese in a logical and straightforward way and covers all the basics without going into too much detail. DoJG Anki deck. An Anki deck that contains example sentences from DoJG. AJATT grammar guide. A rather short guide written for immersion learners. Ixrec's Guide to Japanese On Djtguide. With better formatting. Archive.org. Itazuraneko's 文型一覧表. Master reference table of all grammar pattern entries from a number of grammar dictionaries. Grammar in Japanese.",
     "url":"resources.html#grammar",
     "parent":"Resources"
   },

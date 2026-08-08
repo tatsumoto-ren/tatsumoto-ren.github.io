@@ -1,8 +1,9 @@
 ---
-title: Can't I just read a textbook? Are textbooks inherently bad?
+title: "Can't I just read a textbook? Are textbooks inherently bad?"
 date: 1725217204
-tags: ['faq']
-filename: are-textbooks-bad
+tags: ["faq", "grammar"]
+filename: "are-textbooks-bad"
+updated: "08 August 2026"
 ---
 
 If you seriously want to master your target language,

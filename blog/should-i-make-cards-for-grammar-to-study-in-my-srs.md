@@ -1,8 +1,9 @@
 ---
-title: Should I make cards for grammar to study in my SRS?
+title: "Should I make cards for grammar to study in my SRS?"
 date: 1669839115
-tags: ['faq', 'anki']
-position: -9921
+tags: ["faq", "anki", "grammar"]
+position: [-9921, 0]
+updated: "08 August 2026"
 ---
 
 [Mining grammar points](learning-grammar.html#mining-grammar-points)

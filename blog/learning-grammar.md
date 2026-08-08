@@ -1,7 +1,9 @@
 ---
-title: Learning grammar
+title: "Learning grammar"
 date: 1648695316
-tags: [guide]
+tags: ["guide", "grammar"]
+updated: "08 August 2026"
+position: [0, -2]
 ---
 
 What's grammar?
@@ -192,6 +194,22 @@ they take a secondary role.
 We think that if you don't understand some grammar,
 it won't be beneficial to spend more time trying to understand the explanations.
 It's better to read more example sentences if your grammar book provides them.
+
+## Focus on sentences
+
+Grammar guides should be written and read to provide examples, not to explain grammar rules.
+Focus on **sentences**.
+Read lots of example sentences.
+Learning thousands of correct Japanese sentences will build your sense of the language.
+It will develop that childlike instinct to decide, "This is the right way to say X.",
+the same instinct we all use when we speak in our native language.
+
+Don't worry about the rules.
+Don't waste time drilling verb conjugations.
+You can even ignore the rules if you want.
+Read examples.
+Focus on understanding what each structure means in a sentence.
+Give your brain the essential [input](whats-input-and-output.html).
 
 ## Grammar guides
 

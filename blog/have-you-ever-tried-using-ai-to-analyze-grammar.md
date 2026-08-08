@@ -1,7 +1,8 @@
 ---
 title: "Have you ever tried using AI to analyze grammar?"
 date: "20 May 2026"
-tags: ["faq"]
+tags: ["faq", "grammar"]
+updated: "08 August 2026"
 ---
 
 > Have you ever tried using AI to analyze grammar in sentences

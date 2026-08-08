@@ -1,8 +1,9 @@
 ---
-title: How to make monolingual TSCs for vocab and grammar?
+title: "How to make monolingual TSCs for vocab and grammar?"
 date: 1674943245
-tags: ['faq']
-position: -9957
+tags: ["faq", "grammar"]
+position: [-9957, 0]
+updated: "08 August 2026"
 ---
 
 The process of making monolingual [TSCs](discussing-various-card-templates.html#targeted-sentence-cards)
