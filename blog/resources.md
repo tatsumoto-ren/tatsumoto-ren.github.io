@@ -2,7 +2,7 @@
 title: "Resources"
 date: 1621275994
 tags: ["guide"]
-updated: "08 August 2026"
+updated: "09 August 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -489,6 +489,8 @@ Proprietary software should not exist and should not be used if you want to have
 * [List of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels) on Arch Wiki.
 * [Libre games Wiki](https://libregamewiki.org/Main_Page).
 * [Free software directory: games](https://directory.fsf.org/wiki/Category/Game).
+* [Open source games list (OSGL)](https://trilarion.github.io/opensourcegames/)
+* [Open Source Game Clones](https://osgameclones.com/)
 
 ### Japanese imageboards
 
