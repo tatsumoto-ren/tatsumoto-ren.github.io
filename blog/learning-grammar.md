@@ -2,7 +2,7 @@
 title: "Learning grammar"
 date: 1648695316
 tags: ["guide", "grammar"]
-updated: "08 August 2026"
+updated: "09 August 2026"
 position: [0, -2]
 ---
 
@@ -243,6 +243,10 @@ but disregarding their language learning advice.
   Don't touch any conjugation tables and exercises.
   In AJATT, the goal of studying grammar
   is strictly to increase the comprehensibility of your immersion.
+* [Understanding Basic Japanese Grammar](understanding-basic-japanese-grammar.html).
+  A compact starter book with short explanations and lots of example sentences.
+  It is best if you prefer seeing grammar in action over reading long abstract explanations.
+  The examples use kanji with furigana and avoid romaji.
 * [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
   ([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
   You can skip the "Alphabets" page as you have already covered that.
