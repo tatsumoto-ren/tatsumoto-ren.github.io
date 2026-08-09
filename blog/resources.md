@@ -81,11 +81,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [All About Particles](all-about-particles.html).
   A nicely organized book simply described by many as "godsend".
   Khatz used this book a long time ago when he learned Japanese.
-* Understanding Basic Japanese Grammar.
-  ISBN-10: `475740168X`.
-  ISBN-13: `978-4757401686`.
-  [Z library link](https://z-library.im/book/QqZbrlVVZM/understanding-basic-japanese-grammar.html).
-  [Annas archive link](https://annas-archive.pk/md5/7526f0988293429def2f581b31224e11).
+* [Understanding Basic Japanese Grammar](understanding-basic-japanese-grammar.html).
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
   A guide to Japanese grammar.
   It breaks down Japanese in a logical and straightforward way
