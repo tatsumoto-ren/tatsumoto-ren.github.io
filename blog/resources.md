@@ -82,6 +82,7 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
   A nicely organized book simply described by many as "godsend".
   Khatz used this book a long time ago when he learned Japanese.
 * [Understanding Basic Japanese Grammar](understanding-basic-japanese-grammar.html).
+  A compact grammar book with short explanations and many example sentences.
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
   A guide to Japanese grammar.
   It breaks down Japanese in a logical and straightforward way
