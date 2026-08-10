@@ -296,6 +296,10 @@
             document.querySelectorAll("main pre").forEach(pre => pre.append(create_code_select_button(pre)));
             ReorderTags.init();
             $("divbody")?.addEventListener("click", close_sidebar);
+            $("sidebar")
+                ?.querySelectorAll(".page-contents a")
+                .forEach(anchor => anchor.addEventListener("click", close_sidebar));
+            $("sidebar-go-top")?.addEventListener("click", close_sidebar);
             make_images_expand_on_click();
         },
         false,
