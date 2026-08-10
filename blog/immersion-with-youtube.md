@@ -1,7 +1,8 @@
 ---
-title: Immersion with YouTube
+title: "Immersion with YouTube"
 date: 1647786750
-tags: ['guide']
+tags: ["guide"]
+updated: "10 August 2026"
 ---
 
 YouTube is a popular website where people can upload and watch videos.
@@ -110,7 +111,7 @@ to access them without too much typing.
 
 `yt-dlp` reads its configuration from `~/.config/yt-dlp/config`.
 See my
-[example configuration file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/youtube-dl/config).
+[example configuration file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/yt-dlp/config).
 This configuration enables `yt-dlp` to automatically download
 Japanese (`ja`) subtitles in `ass` format
 and save the downloaded files to a dedicated folder.
