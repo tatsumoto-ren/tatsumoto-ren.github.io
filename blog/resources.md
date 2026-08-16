@@ -2,7 +2,7 @@
 title: "Resources"
 date: 1621275994
 tags: ["guide"]
-updated: "09 August 2026"
+updated: "16 August 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -97,6 +97,10 @@ your [sentence bank](cross-profile-search-and-import.html) profile.
 * [Itazuraneko's 文型一覧表](https://djtguide.github.io/grammar/masterreference).
   Master reference table of all grammar pattern entries
   from a number of grammar dictionaries.
+* [日本語文型バンク](https://www2.ninjal.ac.jp/bunkeibank).
+  A monolingual collection of 800+ grammar points made
+  by the National Institute for Japanese Language and Linguistics.
+  Requires JavaScript.
 * [Grammar in Japanese](#grammar-in-japanese).
 
 ### JLPT
