@@ -7369,19 +7369,8 @@
       "dictionaries",
       "rikaitan"
     ],
-    "body":"Rikaitan is available for Chromium-based web browsers. We recommend ungoogled-chromium as your everyday web browser. Chrome Web Store",
+    "body":"Rikaitan is available for Chromium-based web browsers. We recommend ungoogled-chromium as your everyday web browser. Chrome Web Store GitHub Releases The official GitHub Releases page. Save latest zip. Right click on this link, and click \"Save Link As...\" to save it. Go to Extension Manager: chrome://extensions/, and enable developer mode. Refresh the page. Drag and drop the rikaitan-chrome.zip file.",
     "url":"setting-up-yomichan.html#chromium-based",
-    "parent":"Setting up Rikaitan"
-  },
-  {
-    "title":"GitHub Releases",
-    "tags":[
-      "guide",
-      "dictionaries",
-      "rikaitan"
-    ],
-    "body":"The official GitHub Releases page.",
-    "url":"setting-up-yomichan.html#github-releases",
     "parent":"Setting up Rikaitan"
   },
   {

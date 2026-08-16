@@ -1,7 +1,8 @@
 ---
-title: Setting up Rikaitan
+title: "Setting up Rikaitan"
 date: 1619220247
-tags: ['guide', 'dictionaries', 'rikaitan']
+tags: ["guide", "dictionaries", "rikaitan"]
+updated: "16 August 2026"
 ---
 
 [Rikaitan](https://rikaitan.github.io/)
@@ -65,9 +66,16 @@ We recommend [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-c
 <a class="download_button" href="https://chromewebstore.google.com/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
 </p>
 
-### GitHub Releases
+#### GitHub Releases
 
 The official [GitHub Releases page](https://github.com/Ajatt-Tools/rikaitan/releases).
+
+1. Save latest `zip`.
+   Right click on [this link](https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-chrome.zip),
+   and click "Save Link As..." to save it.
+4. Go to Extension Manager: `chrome://extensions/`, and enable developer mode.
+5. Refresh the page.
+6. Drag and drop the `rikaitan-chrome.zip` file.
 
 ### AnkiConnect plugin
 
