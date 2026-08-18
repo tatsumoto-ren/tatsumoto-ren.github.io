@@ -2,6 +2,11 @@
 
 set -euo pipefail
 
-readonly ROOT_DIR=$(git rev-parse --show-toplevel)
+# shellcheck source=scripts/lib.sh
+. "$(dirname -- "$0")/lib.sh"
 
-prettier -w "$ROOT_DIR/**/*.{css,js}"
+ROOT_DIR=$(git rev-parse --show-toplevel)
+readonly ROOT_DIR
+
+# Prettier expands the glob internally; pkgmgr forwards it without a shell.
+pkgmgr exec prettier -w "$ROOT_DIR/**/*.{css,js,ts}"

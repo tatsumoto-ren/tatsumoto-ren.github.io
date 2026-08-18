@@ -2,17 +2,11 @@
 
 set -euo pipefail
 
-die() {
-	echo "oops: $*"
-	exit 1
-}
-
-git_no_differences() {
-	git diff --quiet --exit-code
-}
+# shellcheck source=scripts/lib.sh
+. "$(dirname -- "$0")/lib.sh"
 
 main() {
-	[[ -d $PWD/.git ]] || die "started in a wrong directory: $PWD"
+	ensure_git_repo
 	git_no_differences || die "working tree is dirty"
 	rm -rf -- _site || die "can't remove site dir"
 	mkdir -p -- _site || die "can't create site dir"
