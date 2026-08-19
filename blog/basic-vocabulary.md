@@ -290,7 +290,7 @@ and it makes learning your target language feel less like a routine.
 
 ## Other Anki decks
 
-[Resources page](resources.html#vocabulary)
+[Resources page](resources.html#anki-decks)
 contains a Vocabulary section with Anki decks suggested by our members.
 
 [AnkiWeb](https://ankiweb.net/shared/decks/japanese)

@@ -692,7 +692,7 @@ QT_QPA_PLATFORMTHEME=qt5ct anki
 ```
 
 To make the setting persist,
-in the `.desktop` file (see `pip` [install notes](setting-up-anki.html#using-pip)) change `Exec=` to:
+in the `.desktop` file (see `pipx` [install notes](setting-up-anki.html#using-pipx)) change `Exec=` to:
 
 ```
 Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f

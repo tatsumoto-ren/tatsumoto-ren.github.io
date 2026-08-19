@@ -39,7 +39,7 @@ You're going to learn kanji and vocabulary at the same time.
 If you have already learned [basic vocabulary](basic-vocabulary.html) through a premade deck
 like *Core10k* or *Ankidrone Essentials*
 and know more than 1,000 words,
-or have gone through [isolated kanji study](learning-kanji.html#isolated-kanji-study.html)
+or have gone through [isolated kanji study](learning-kanji.html#isolated-kanji-study)
 with a book like RTK,
 you are unlikely to benefit from the deck.
 People who know more than 1,000 words are advised to do [sentence mining](sentence-mining.html) instead,
@@ -292,7 +292,7 @@ the good news is that making your own JP1K-style deck is very easy.
 All you need to do is take any premade deck
 and change the card template a bit.
 Explore our
-[resources section](resources.html#vocabulary)
+[resources section](resources.html#anki-decks)
 or
 [AnkiWeb](https://ankiweb.net/shared/decks/japanese)
 for premade Anki decks.

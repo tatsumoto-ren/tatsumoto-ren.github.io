@@ -5,7 +5,7 @@ tags: ['faq']
 position: -9906
 ---
 
-[Ankidrone Essentials](ankidrone-essentials.md)
+[Ankidrone Essentials](ankidrone-essentials.html)
 contains bilingual TSCs with sentences on the front.
 
 Don't put audio on the front of your cards.

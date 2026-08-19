@@ -375,7 +375,7 @@ messes your Anki cards when you rate them "Good" or "Easy".
 The idea is that with the add-on your Ease will eventually recover after a lapse.
 After trying it for a week with default Anki settings I found that it simply doesn't work,
 and my cards aren't modified in any way. So the only thing I can recommend you is
-to set your Ease to 131% with [RefoldEase](#refoldease) and keep your Anki setup simple.
+to set your Ease to 131% with [ResetEase](#resetease) and keep your Anki setup simple.
 
 Load Balancer
 prevents you from reviewing your cards on the right day, when they should be reviewed.

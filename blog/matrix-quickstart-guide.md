@@ -178,7 +178,7 @@ takes too much time to start and consumes a lot of RAM.
 Unable to bear that, you could switch to
 [another popular client](https://write.midov.pl/midek/software-list#matrix-client).
 Alternatively, you can run Element in your browser.
-The easiest way to do it is to open [an instance someone else has set up](list-of-matrix-servers.html#with-element).
+The easiest way to do it is to open [an instance someone else has set up](list-of-matrix-servers.html#recommendations).
 
 However, you may not want to do that either, because:
 
