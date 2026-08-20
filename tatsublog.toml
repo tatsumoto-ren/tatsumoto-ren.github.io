@@ -18,7 +18,7 @@ global_author_url="https://github.com/tatsumoto-ren"
 global_email=""
 
 css_include=['blog/res/blog.css',]
-js_include=['blog/res/blog.js', 'blog/res/search.js']
+js_include=['res/canonical-redirect.js', 'blog/res/blog.js', 'blog/res/search.js']
 
 # Tag prefix for tag files
 prefix_tags="tag_"
@@ -93,5 +93,5 @@ and enjoy the process!"""
 index_file = "index.html"
 templates_dir = "templates"
 css_include=['res/index.css']
-js_include=[]
+js_include=['res/canonical-redirect.js']
 num_recent_posts = 10
