@@ -598,24 +598,27 @@ header a.guide_link {
 
 /* index page nag bar */
 
-#divbodyholder > .indexnagbar {
+#divbodyholder > .indexnagbar,
+article > .translation-note {
     color: var(--nagbar-color, black);
     background-color: var(--nagbar-bg, yellow);
     border: 1px solid var(--nagbar-border, brown);
     padding: var(--divbody-padding);
+
+    a,
+    a:visited {
+        color: #a85c43;
+    }
+    a:is(:hover, :active, :focus) {
+        color: #ab2f17;
+    }
+}
+
+#divbodyholder > .indexnagbar {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     gap: 10px;
-}
-
-.indexnagbar a,
-.indexnagbar a:visited {
-    color: #a85c43;
-}
-
-.indexnagbar a:is(:hover, :active, :focus) {
-    color: #ab2f17;
 }
 
 .indexnagbar svg.nagbar_icon {
