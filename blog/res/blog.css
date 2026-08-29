@@ -39,6 +39,8 @@
 
     --sidebar-background-color: #111;
     --background-secondary-color: #dee2e6;
+    --table-header-color: hsl(210, 11%, 93%);
+    --table-border-color: hsl(from var(--table-header-color) h s 88%);
     --code-bg-color: #f6f8fa;
     --elem-shadow-color: rgba(0, 0, 0, 0.05);
     --article-background: white;
@@ -74,8 +76,6 @@
 
     --normal-underline-color: transparent;
     --hover-underline-color: transparent;
-
-    --table-header-color: hsla(0, 0%, 0%, 0.1);
 
     /* MD buttons */
     --md-button-background: #0b5570;
@@ -118,6 +118,7 @@
     --logo-img-filter: invert(39%) sepia(24%) saturate(834%) hue-rotate(329deg) brightness(97%) contrast(90%);
 
     --background-secondary-color: #f2ddd4cc;
+    --table-header-color: var(--background-secondary-color);
     --article-background: #fff9f3cc;
 
     --link: #d47999;
@@ -215,6 +216,7 @@
     color-scheme: dark;
 
     --background-secondary-color: rgba(255, 255, 255, 0.25);
+    --table-header-color: var(--background-secondary-color);
     --article-background: #131616;
     --link: #3eafaf;
     --link-black: #a6a6a6;
@@ -867,29 +869,44 @@ table {
     border-spacing: 0;
 }
 
-article table {
-    display: block;
+.table-wrap {
     max-width: 100%;
-    overflow: auto;
+    overflow-x: auto;
     overscroll-behavior-inline: contain;
+}
+
+main table {
+    --border: 1px solid var(--table-border-color);
+
     width: max-content;
+    border: var(--border);
+
+    td,
+    th {
+        padding: 6px 13px;
+        border: var(--border);
+    }
+    th {
+        text-align: left;
+        background-color: var(--table-header-color, rgba(0, 0, 0, 0.1));
+    }
+    td:first-child {
+        white-space: nowrap;
+    }
+    tr:nth-child(2n) {
+        background-color: var(--code-bg-color);
+    }
 }
 
-article table td,
-article table th {
-    border: 1px solid #e0e3e6;
-    padding: 6px 13px;
-}
-article table th {
-    background-color: var(--table-header-color, rgba(0, 0, 0, 0.1));
-}
+/* All-tags table */
 
-article table td:first-child {
-    white-space: nowrap;
-}
-
-article table tr:nth-child(2n) {
-    background-color: var(--code-bg-color);
+.tag-index {
+    th:last-child,
+    td:last-child {
+        text-align: right;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+    }
 }
 
 /* Menu button */
