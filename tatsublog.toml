@@ -116,7 +116,7 @@ global_author_url="https://github.com/tatsumoto-ren"
 global_email=""
 
 css_include=['blog/res/blog.css',]
-js_include=['blog/res/blog.js', 'blog/res/search.js']
+js_include=['res/canonical-redirect.js', 'blog/res/blog.js', 'blog/res/search.js']
 
 # Table of contents file for navigation
 table_of_contents="table-of-contents.md"
@@ -252,4 +252,4 @@ ajatt_tools_text = """
 [blogs.ru.landing]
 index_file = "ru.html"
 css_include = ['res/index.css']
-js_include = ['res/lang-redirect.js']
+js_include = ['res/canonical-redirect.js', 'res/lang-redirect.js']
