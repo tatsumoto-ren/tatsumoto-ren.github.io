@@ -13,7 +13,7 @@
         <!-- text end -->
         {% if ctx.post.metadata.tags %}
         <div class="blog_tags_list">
-        <span class="blog_tags_text_before">{{ tr("Tags:") }}</span>
+        <span class="blog_tags_text_before">{{ tr("Tags") }}:</span>
         {% for tag in ctx.post.metadata.tags %}
             <a href="{{ cfg.blog.prefix_tags }}{{ tag }}.html">{{tag}}</a>
         {% endfor %}
