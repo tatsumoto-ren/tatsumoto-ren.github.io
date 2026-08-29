@@ -4,6 +4,7 @@ blog/drafts
 *.png
 *.mp3
 node_modules/
+/_site/
 
 /*.md
 !/README.md
