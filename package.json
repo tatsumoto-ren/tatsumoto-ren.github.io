@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=26",
+        "pnpm": ">=11"
+    },
+    "scripts": {
+        "check": "git ls-files -z -- '*.js' | xargs -0 -r -n 1 node --check",
+        "test": "pnpm run check && pnpm run test:ts && pnpm run test:unit",
+        "test:ts": "tsc --noEmit -p tsconfig.json",
+        "test:unit": "vitest run --coverage",
+        "coverage": "pnpm run test:unit",
+        "bump:deps": "bash scripts/bump_deps.sh",
+        "copy:site": "bash scripts/copy_site.sh",
+        "sync:site": "bash scripts/rclone_sync.sh",
+        "format": "bash scripts/format.sh"
+    },
+    "devDependencies": {
+        "@types/jsdom": "30.0.0",
+        "@types/node": "26.2.0",
+        "@vitest/coverage-v8": "4.1.11",
+        "execa": "10.0.1",
+        "jsdom": "30.0.1",
+        "prettier": "^3.9.6",
+        "typescript": "7.0.2",
+        "vitest": "4.1.11"
+    }
+}
