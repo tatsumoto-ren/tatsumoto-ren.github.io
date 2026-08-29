@@ -22,8 +22,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  checks:
+    name: Run checks
+    uses: ./.github/workflows/checks.yml
+
   deploy-gh:
+    needs: [checks]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -59,6 +63,7 @@ jobs:
           key: site-${{ github.sha }}
 
   deploy-s3:
+    # deploy-gh already depends on checks, so this preserves the same gate without duplication.
     needs: [deploy-gh]
     runs-on: ubuntu-latest
     steps:
