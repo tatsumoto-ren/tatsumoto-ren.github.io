@@ -126,6 +126,7 @@ truncate_index=true
 
 [blogs.ru.template_strings]
 "Switch language" = "Сменить язык"
+"updated" = "обновлено"
 "no-js-msg" = """
 Для поиска требуется включённый JavaScript. Включите JavaScript в настройках браузера.
 JavaScript на этой странице является свободным программным обеспечением под лицензией GNU GPL v3."""
