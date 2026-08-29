@@ -10,10 +10,10 @@
     <h2 class="allposts_header">{{ group.date | date_allposts }}</h2>
     <ul>
     {% for post in group.posts %}
-        <li><a href="{{ post.html_file_path | as_relative_to(ctx.output_file_path) }}">{{ post.metadata.title }}</a> &mdash; {{ post.metadata.date | date_allposts_post }}</li>
+        <li><a href="{{ post.html_file_path | as_rel }}">{{ post.metadata.title }}</a> &mdash; {{ post.metadata.date | date_allposts_post }}</li>
     {% endfor %}
     </ul>
 {% endfor %}
 
-<div id="all_posts"><a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">{{ tr("Back to the index page") }}</a></div>
+<div id="all_posts"><a href="{{ ctx.blog_index_path | as_rel }}">{{ tr("Back to the index page") }}</a></div>
 {% endblock %}

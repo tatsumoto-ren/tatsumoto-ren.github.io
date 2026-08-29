@@ -7,8 +7,8 @@
 <h3>{{ tr("All tags") }}</h3>
 <ul>
 {% for tag in ctx.tags %}
-    <li><a href="{{ tag.tag_page_path | as_relative_to(ctx.output_file_path) }}">{{ tag.tag_name }}</a> &mdash; {{ tag.posts_count }} {{ tag.posts_count_word }}</li>
+    <li><a href="{{ tag.tag_page_path | as_rel }}">{{ tag.tag_name }}</a> &mdash; {{ tag.posts_count }} {{ tag.posts_count_word }}</li>
 {% endfor %}
 </ul>
-<div id="all_posts"><a href="{{ ctx.blog_index_path | as_relative_to(ctx.output_file_path) }}">{{ tr("Back to the index page") }}</a></div>
+<div id="all_posts"><a href="{{ ctx.blog_index_path | as_rel }}">{{ tr("Back to the index page") }}</a></div>
 {% endblock %}
