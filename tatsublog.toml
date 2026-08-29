@@ -36,6 +36,10 @@ index_file="index.html"
 number_of_index_articles=10
 
 [blogs.tatsumoto.template_strings]
+"no-js-msg" = """
+Search requires JavaScript to be enabled.
+Please enable JavaScript in your browser settings.
+The JavaScript on this page is libre software licensed under the GNU GPL v3."""
 index_nagbar = """
 This page lists articles in chronological order.
 You may want to read [Table of Contents]({{ "table-of-contents.html" | in_blog | as_rel }}) instead."""
