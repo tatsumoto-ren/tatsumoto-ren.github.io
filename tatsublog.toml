@@ -97,7 +97,7 @@ and enjoy the process!"""
 index_file = "index.html"
 templates_dir = "templates"
 css_include=['res/index.css']
-js_include=['res/canonical-redirect.js']
+js_include=['res/canonical-redirect.js', 'res/lang-redirect.js']
 num_recent_posts = 10
 
 [blogs.ru]

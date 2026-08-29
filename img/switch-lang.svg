@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512px" height="512px" viewBox="0 0 512 512" role="img" aria-label="Switch language">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+
+    <clipPath id="topLeftHalf">
+      <polygon points="0,0 512,0 0,512"/>
+    </clipPath>
+
+    <clipPath id="bottomRightHalf">
+      <polygon points="512,0 512,512 0,512"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <g clip-path="url(#topLeftHalf)"> <svg preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512px" height="512px" viewBox="0 0 7410 3900"> <path d="M0,0h7410v3900H0" fill="#bf0a30"/> <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" stroke-width="300"/> <path d="M0,0h2964v2100H0" fill="#00205b"/> <g fill="#FFF"> <g id="s18"> <g id="s9"> <g id="s5"> <g id="s4"> <path id="s" d="M247,90 317.534230,307.082039 132.873218,172.917961H361.126782L176.465770,307.082039z"/> <use xlink:href="#s" y="420"/> <use xlink:href="#s" y="840"/> <use xlink:href="#s" y="1260"/> </g> <use xlink:href="#s" y="1680"/> </g> <use xlink:href="#s4" x="247" y="210"/> </g> <use xlink:href="#s9" x="494"/> </g> <use xlink:href="#s18" x="988"/> <use xlink:href="#s9" x="1976"/> <use xlink:href="#s5" x="2470"/> </g> </svg> </g>
+
+    <g clip-path="url(#bottomRightHalf)"> <svg preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="512px" height="512px"><rect fill="#fff" width="9" height="3"/><rect fill="#d52b1e" y="3" width="9" height="3"/><rect fill="#0039a6" y="2" width="9" height="2"/></svg> </g>
+  </g>
+</svg>

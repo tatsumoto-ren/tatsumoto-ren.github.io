@@ -7,7 +7,12 @@
             <img src="{{ cfg.site.favicon_path | as_rel }}" alt="favicon">
             <span>{{ cfg.blog.global_short_title }}</span>
         </a>
-        <a class="donate" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_rel }}">Donate</a>
+        <select class="lang-switch" aria-label="{{ tr("Switch language") }}" data-default-language="en">
+            <option value="" disabled selected hidden>🌐</option>
+            <option value="{{ 'index.html' | in_site | as_rel }}" data-prefers-language="en">English</option>
+            <option value="{{ 'ru.html' | in_site | as_rel }}" data-prefers-language="ru">Русский</option>
+        </select>
+        <a class="donate" href="{{ 'donating-to-tatsumoto.html' | in_blog | as_rel }}">{{ tr("Donate") }}</a>
     </header>
     <div class="presentation">
         <nav>
