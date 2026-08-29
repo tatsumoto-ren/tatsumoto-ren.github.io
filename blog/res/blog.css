@@ -15,6 +15,7 @@
     --header-height: 52px;
     --divbody-padding: clamp(var(--gap-small), 3vw, var(--gap-large));
     --header-outline-thickness: 5px;
+    --details-spacing: 0.5rem;
 
     --link: #0366d6;
     --link-visited: #336699;
@@ -1764,26 +1765,25 @@ article a[href^="http://"][href*=".onion"]::after {
 /* Details elements */
 
 details {
-    --spacing: 0.5rem;
     outline: 1px solid var(--details-border-color, #0098d4);
-    border-radius: calc(var(--spacing) / 3);
-    padding: 0 var(--spacing);
+    border-radius: calc(var(--details-spacing) / 3);
+    padding: 0 var(--details-spacing);
 }
 
 details[open] {
-    padding: 0 var(--spacing) var(--spacing);
+    padding: 0 var(--details-spacing) var(--details-spacing);
 }
 
 details summary {
     background-color: var(--summary-background-color, #00b8d415);
     color: var(--summary-text-color, #1f56aa);
     cursor: pointer;
-    padding: calc(var(--spacing) / 3) var(--spacing);
-    margin: 0 calc(-1 * var(--spacing));
+    padding: calc(var(--details-spacing) / 3) var(--details-spacing);
+    margin: 0 calc(-1 * var(--details-spacing));
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    gap: calc(var(--spacing) / 1.5);
+    gap: calc(var(--details-spacing) / 1.5);
     user-select: none;
 }
 
@@ -1815,7 +1815,7 @@ details summary::after {
 }
 
 details summary + * {
-    margin-top: var(--spacing);
+    margin-top: var(--details-spacing);
 }
 
 details summary > * {
