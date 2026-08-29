@@ -4,11 +4,26 @@
 {% block og_title %}{{ tr("All tags") }} | {{ cfg.blog.global_title }}{% endblock %}
 
 {% block content %}
-<h3>{{ tr("All tags") }}</h3>
-<ul>
+<h1>{{ tr("All tags") }}</h1>
+{% if ctx.tags %}
+<div class="table-wrap">
+<table class="tag-index">
+    <thead>
+        <tr>
+            <th scope="col">{{ tr("Tag") }}</th>
+            <th scope="col">{{ tr("Posts") }}</th>
+        </tr>
+    </thead>
+    <tbody>
 {% for tag in ctx.tags %}
-    <li><a href="{{ tag.tag_page_path | as_rel }}">{{ tag.tag_name }}</a> &mdash; {{ tag.posts_count }} {{ tag.posts_count_word }}</li>
+        <tr>
+            <td><a href="{{ tag.tag_page_path | as_rel }}">{{ tag.tag_name }}</a></td>
+            <td>{{ tag.posts_count }}</td>
+        </tr>
 {% endfor %}
-</ul>
+    </tbody>
+</table>
+</div>
+{% endif %}
 <div id="all_posts"><a href="{{ ctx.blog_index_path | as_rel }}">{{ tr("Back to the index page") }}</a></div>
 {% endblock %}
