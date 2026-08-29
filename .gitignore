@@ -3,6 +3,7 @@ blog/drafts
 *.jpg
 *.png
 *.mp3
+node_modules/
 
 /*.md
 !/README.md
