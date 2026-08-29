@@ -20,6 +20,7 @@
 
     <!-- scripts -->
     <script defer src="res/canonical-redirect.js"></script>
+    <script defer src="res/lang-redirect.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="res/index.css" type="text/css">
@@ -36,6 +37,11 @@
             <img src="img/logo.webp" alt="favicon">
             <span>AJATT</span>
         </a>
+        <select class="lang-switch" aria-label="Switch language" data-default-language="en">
+            <option value="" disabled selected hidden>🌐</option>
+            <option value="index.html" data-prefers-language="en">English</option>
+            <option value="ru.html" data-prefers-language="ru">Русский</option>
+        </select>
         <a class="donate" href="blog/donating-to-tatsumoto.html">Donate</a>
     </header>
     <div class="presentation">
