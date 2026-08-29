@@ -6,7 +6,17 @@
 {% block content %}
 <h1>{{ tr("Search") }}</h1>
 
-<div id="search-container" class="no-js" data-index-url="{{ ctx.search_index_json_path | as_rel }}">
+<div
+    id="search-container"
+    class="no-js"
+    data-index-url="{{ ctx.search_index_json_path | as_rel }}"
+    data-loading-message="{{ tr("Loading search index...") }}"
+    data-no-results-message="{{ tr("No results found.") }}"
+    data-misconfigured-message="{{ tr("Search is misconfigured.") }}"
+    data-failed-message="{{ tr("Failed to load search index.") }}"
+    data-results-message="{{ tr("Results: {count}") }}"
+    data-showing-first="{{ tr("(showing first {count})") }}"
+>
     <p class="no-js-msg">
         {{ tr("no-js-msg") }}
     </p>
@@ -15,10 +25,11 @@
         type="search"
         id="search-input"
         placeholder="{{ tr("Search articles...") }}"
+        aria-label="{{ tr("Search articles...") }}"
         autocomplete="off"
         autofocus
     >
-    <div id="number-results-found"></div>
+    <div id="number-results-found" role="status" aria-live="polite"></div>
     <div id="search-results"></div>
 </div>
 {% endblock %}
