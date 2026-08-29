@@ -1,0 +1,85 @@
+---
+title: How to type X with Fcitx?
+date: 1712616247
+tags: ['faq', 'ime']
+filename: how-to-type-x-with-fcitx
+---
+
+<div class="translation-note">
+
+**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
+и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+
+</div>
+
+This article addresses common questions about typing with Fcitx.
+
+To enter anything when using Fcitx,
+type what you want to type and then press the space bar.
+Fcitx will provide predictions for the characters you intend to insert.
+If the prediction is incorrect,
+continue pressing the space bar until you find the correct one.
+
+> Main article: [How to type in Japanese](how-to-type-in-japanese.html)
+
+****
+
+## Small kana
+
+To type `ぁぃぅぇぉゃゅょ`,
+type `x` before each corresponding sound.
+E.g., to type `ゅ`, you actually type `xyu`.
+
+## Repetition symbol 々
+
+The character can be spelled `noma`
+because it resembles the katakana `ノマ` smashed together.
+Alternatively, you can try `onaji`.
+
+If you type `odori` or `odoriji`
+([踊り字,おどりじ](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97)),
+you can choose one of the other repetition symbols (`〱々ヽヾゝゞ`).
+
+## Yen symbol ￥
+
+Press `＼` (backslash). Find `￥` among the predictions.
+Alternatively, type `えん` and find `¥` in the conversion candidates.
+
+## Whitespace
+
+The "　" (blank space) can be spelled as `kankaku`.
+
+## Asterisk ※
+
+Type `komejirushi` or `hoshi`.
+
+## Middle dot ・
+
+Type `nakaten` or `nakaguro`.
+
+## N
+
+Typing "xn" outputs ん.
+
+## Overline ￣
+
+Type `うえ`.
+
+**Note**:
+Overlines are used in the NHK accent dictionary to mark high
+[pitch accent](japanese-pitch-accents.html), e.g. `いっぱい￣`.
+When pitch drops, slashes are used `＼`.
+
+## lambda λ
+
+`らむだ` can give you the greek symbol `λ`
+
+## Pound £
+
+`ぽんど` can give you the British pound symbol `£`.
+
+## Arrows
+
+`やじるし` can give you any arrow.
+`みぎ` can give you `→`, `ひだり` can give you `←`, etc.

@@ -1,0 +1,34 @@
+---
+title: "Tae Kim: is \"essential grammar\" enough?"
+date: 1669230459
+tags: ["faq", "grammar"]
+position: [-9923, -1]
+updated: "08 August 2026"
+---
+
+<div class="translation-note">
+
+**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
+и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+
+</div>
+
+As far as I see, the Tae Kim guide gets divided into 4 sections.
+
+1) Basic Grammar
+1) Essential Grammar
+1) Special Expressions
+1) Advanced Topics
+
+So the question becomes, "Can I drop Tae Kim after reading the first half?"
+
+The truth is that all 4 sections describe pretty basic grammar.
+You can stop at any point and start [sentence mining](sentence-mining.html).
+Looking up grammar and [making targeted sentence cards with grammar targets](learning-grammar.html#how-to-make-cards)
+is no different from making cards for regular vocabulary.
+Eventually you'll catch up.
+
+I read and mined the entire guide,
+but I took breaks between sections,
+so it wasn't a continuous, boring process.

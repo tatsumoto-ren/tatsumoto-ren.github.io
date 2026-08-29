@@ -1,0 +1,569 @@
+---
+title: How to review
+date: 1626142570
+tags: [anki]
+---
+
+<div class="translation-note">
+
+**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
+и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+
+</div>
+
+Though Anki is an excellent piece of software,
+you can learn languages more effectively if you tweak some settings and know how to review.
+Even if you're using Anki for something other than studying human languages,
+this article may still help you.
+
+****
+
+## Anki settings
+
+Make sure you've applied the settings from the
+[Setting up Anki](setting-up-anki.html#anki-settings)
+article.
+Below is a quick overview.
+
+* Set starting ease to 131%.
+It's kind of a magic number.
+130% is the lowest possible ease, but Anki **doesn't** allow you to reliably use it.
+By bumping it up 1% you avoid the limitation.
+Because the Ease effectively becomes locked between 131% and 130%, it can't decrease further.
+This way you hijack Anki's default behavior which otherwise would lead to falling into Ease Hell.
+* Set Interval Modifier to not less than 190%.
+This initial increase counteracts the low Starting Ease.
+You can increase it further if your retention is high enough.
+I think up to 300% should be fine.
+* Enable Anki 2.1 scheduler (`V3` scheduler).
+It's a little less limiting, less buggy and more convenient.
+In newer Anki versions it's the default.
+
+## Grading
+
+When you're ready to grade a card,
+you're asked to choose from 4 different options:
+"again", "hard", "good" and "easy".
+Use **only** "again" and "good".
+Do not press "hard" and "easy" unless you're aware of the consequences.
+
+When you press "hard" or "easy",
+the card's Ease factor changes.
+As a result,
+the speed at which the card's interval is going to grow from that point onward also changes.
+Pressing "hard" makes the card's interval grow slower,
+and the card comes up for review more often.
+The new Ease factor *stays in effect indefinitely*
+until you do something that resets it back to the default value.
+When a card comes up for review more often than needed,
+you spend unnecessary time reviewing.
+Likewise, pressing "easy" makes the card appear for review less frequently
+causing you to be more likely to forget it at some point.
+Setting Starting Ease to 131% can mitigate some consequences, but not all.
+
+There is an Anki add-on that removes some or all answer buttons.
+I cover it a few sections below.
+
+When you see a card,
+grade it "good" if you understand the target word.
+To grade the card "good", you should be able to:
+
+* Understand what it means in context, if there's context on the card.
+* Read it phonetically, if the word contains kanji.
+
+If not, select "again" and relearn the card.
+
+Sometimes you need to press "again" multiple times until you memorize the card.
+But as soon as you understand the word, hit "good".
+Don't hit "again" over and over because you're not sufficiently confident in your memory.
+
+Anki never guarantees that you will remember every single item you put into it.
+It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
+Each review session, expect to forget a number of cards.
+It's a natural part of using the program.
+
+If you forget too many cards,
+it is possible that your cards are not optimally formatted or your Interval Modifier is too large.
+Decrease the Interval Modifier,
+remove excessive or redundant information from the cards,
+use different example sentences,
+add examples if you don't have any.
+If you rarely forget any cards, you're seeing them too often.
+This means you need to increase you Interval Modifier.
+
+## Showing up
+
+<img src="../blog/img/dekinai-anki-rock.webp" float="right">
+
+Khatz's blog has an article about [Showing up](https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up).
+100% of winning is showing up.
+Dedicate the time, and you'll see the results.
+Not only this concept is important when using Anki to learn languages,
+it is mandatory.
+One of the objectives of using an SRS is to achieve long-term retention.
+Long-term retention is impossible without being consistent.
+The only way to benefit from using an SRS is to use it regularly.
+Anki expects you to do your reviews **every single day**.
+If you fail to do so, due cards quickly pile up.
+
+If you do a consistent number of new cards each day,
+the number of reviews tends to be consistent as well.
+So, if you miss a day, expect your review load to double the next day.
+If you miss two days, you'll have to do roughly 3 times as many reviews.
+Anki's algorithm schedules cards so that ideally they should come up for review
+just before you forget their content.
+If you don't do your reviews on time, expect to forget more cards.
+
+There are two distinct approaches to dealing with SRS reviews.
+Many people find that they are
+able to form a consistent habit if they do their reviews at the same time each day,
+such as first thing in the morning.
+Others prefer to fit in reviews between activities in their day.
+For example, they may use their [phone](our-immersion-learning-toolset.html#android)
+to complete a few reviews while standing in line, taking a bus, or waiting for something.
+
+Your goal is to experiment and find an approach that works for you
+and enables you to consistently complete your reviews.
+Or you can choose a combination of the two approaches.
+Personally, I find that the first approach works for me well.
+I have a laptop dedicated to doing my Anki reps.
+Besides Anki, the laptop has almost no other software installed
+to prevent all possible distractions.
+But if for some reason I don't have time in the morning,
+I fall back to the second approach
+and try to finish my reviews on a phone in moments when I'm not doing anything in particular.
+
+## Reading sentences aloud
+
+Should you read sentences aloud when doing Anki reps?
+Personally,
+I don't think it's necessary.
+I rarely do it because it takes extra time.
+If a sentence interests me, I might read it aloud just for fun.
+
+There's also the risk of developing bad pronunciation habits
+when reading Japanese aloud and incorrectly pronouncing words.
+In this regard, I would definitely recommend avoiding doing it if you're a beginner.
+Any type of pronunciation practice requires you to have acquired large aspects of the language
+and have built strong phonetic awareness.
+If you lack these competences,
+you set yourself to repeat pronunciation mistakes over and over.
+Ideally, you should also actively think about
+[pitch accent](japanese-pitch-accents.html) when you're practicing speaking,
+which requires you to know the rules and the accents of individual words.
+In short,
+first learn to understand the language,
+and then learn to speak it.
+
+In summary,
+reading sentences aloud can be beneficial,
+but only if you're already at an intermediate level or higher.
+
+## Built-in Speech Training
+
+If your computer has a microphone,
+you can practice your pronunciation in Anki while reviewing your flashcards.
+To do this,
+you will need [TSCs with audio](sentence-mining.html#aim-for-high-quality-cards).
+The best TSCs for practice are those you mined from
+[anime, movies and dramas](mining-from-movies-and-tv-shows.html).
+If you've been doing AJATT for a few months,
+you likely have thousands of high-quality TSCs in your Anki collection,
+so this shouldn't be a problem.
+You can also import decks like
+[Ankidrone Essentials](ankidrone-essentials.html) and [Core10k](basic-vocabulary.html#core10k)
+to get more high-quality TSCs,
+since every sentence in those decks includes audio.
+
+Pressing <kbd>Shift</kbd>+<kbd>V</kbd> lets you record your voice,
+and it plays back immediately after you stop recording.
+
+1) First, press <kbd>R</kbd> to listen to the native audio recording on the back of the card.
+1) Record your voice.
+1) Listen to your recording and compare it with the native audio.
+   Try to correct any differences you hear.
+   Pressing <kbd>V</kbd> again will replay your most recent recording.
+
+Alternatively,
+you can play the native audio and immediately start recording yourself.
+This lets you say the sentence while listening to the native version.
+
+Your voice recordings in Anki are temporary and will be deleted once you move to the next card.
+
+This method makes your Anki reviews longer,
+but because it integrates speaking practice into your SRS sessions,
+you don't need to set aside dedicated time for speaking practice.
+If you want to practice speaking, in the long run, doing it in Anki might even save you time.
+And if you don't want to practice speaking, you can simply skip this step.
+
+When grading your cards,
+don't take into account how well you pronounced the words and sentences.
+This training is an optional supplement to your flashcard reviews.
+
+## Check your retention
+
+I recommend periodically checking your monthly
+[True Retention](useful-anki-add-ons-for-japanese.html#true-retention).
+Shift-click on the "Stats" button at the top of the Anki window.
+If you use a newer version of Anki, True Retention is available in the new "Stats" window.
+The recommended retention is 75%-90%.
+If you see that your retention stays out of these boundaries,
+act accordingly.
+Decrease your
+[Interval Modifier](setting-up-anki.html#interval-modifier)
+if your retention is too low, increase if it's high.
+
+If your retention is below 70%, that's a call to action.
+Low retention rate renders Anki useless,
+can make you hate your reviews or even stop using Anki completely.
+Change your Anki settings, reformat your notes, delete problematic cards.
+
+Retention rate above 90% is considered sub-optimal.
+It means you review your cards too often.
+
+## Filtered decks
+
+Don't review in filtered decks.
+After experimenting with filtered decks for multiple years
+I've come to the conclusion that they're too buggy and too unreliable.
+They're only good for temporarily storing cards (in case of backlogs, for example).
+Some bugs I've run into completely messed up intervals of my cards.
+
+## Fighting backlogs
+
+This is where filtered decks come handy.
+
+Ideally you want to finish your reviews every day.
+In practice, it's not always possible.
+There are going to be days when you accumulate backlogs.
+A backlog is an amount of cards that you should already have reviewed.
+Anki calls such cards `overdue`.
+
+If you miss your reviews,
+your review queue becomes divided between cards that are due today,
+most of which you still remember,
+and the cards that were due on the previous days,
+which you've likely forgotten a great number of.
+You can view a list of the overdue cards by typing `is:due -prop:due=0` in the Anki Browser.
+
+If you were to try to eliminate the backlog
+by simply reviewing the cards until no more due cards remain,
+Anki would show you the overdue cards first.
+Anki is programmed in a way that makes it prioritize cards
+with older due dates over the cards that became due recently.
+If the backlog is large enough,
+this would put you in a long-lasting state of needless forgetting.
+If you go along with Anki's algorithm and prioritize relearning forgotten cards,
+then you will end up forgetting the cards that are due today,
+unless you manage to clear your entire backlog in one sitting.
+
+The solution is to create a filtered deck
+and use it to store the overdue cards.
+To do this, press "F" or go to "Tools" > "Create filtered deck...".
+
+Let's say my Japanese deck is called "Japanese".
+The Search field is going to look like this:
+
+```
+deck:Japanese is:due -prop:due>-1 -rated:1 -is:learn
+```
+
+* `deck:Japanese` limits search to my Japanese deck.
+* `is:due` tells Anki to select only due cards.
+* `-prop:due>-1` excludes cards due today.
+* `-rated:1` excludes cards that were already reviewed today.
+* `-is:learn` excludes cards in the learning or relearning queues.
+
+Once you have the filtered deck set up, you've *stopped the bleeding*.
+Every day after you've finished your normal reviews come back to the filtered deck
+and *decrease* the number of cards it can store.
+The cards will be returned to your Japanese deck.
+Review those cards.
+
+<p align="center"><img alt="filtered deck" class="shadow" src="../blog/img/anki-backlog.webp"></p>
+<p align="center"><i>Deck settings.</i></p>
+
+The initial size is the number of cards in the backlog, but 9999 will pull all of them in.
+When you decrease the filtered deck's size, decrease it by the number of cards you plan to review.
+For example, 10 cards at a time.
+You can shrink the deck multiple times a day.
+
+Take a look at the "cards selected by" setting.
+It presents a number of options you can choose from to fight the backlog the way suits you.
+If you want to review cards that you're most likely to still remember,
+change it to "Increasing intervals".
+This way when you reduce the number of cards the filtered deck can store,
+the cards with the largest intervals will be pulled out first.
+On the other hand,
+if you choose "Decreasing intervals",
+the cards with the smallest intervals will be the first to go.
+
+The benefit of using filtered decks for fighting backlogs is that
+you don't move any cards yourself.
+Once they leave the filtered deck,
+they automatically return to the decks they were pulled out from.
+If this approach doesn't work for you, try suspending overdue cards instead.
+To do so, open the Anki Browser, type `is:due -prop:due=0` and suspend the cards that will show up.
+Unsuspend the cards in chunks once you have time to review them.
+
+Accumulating a backlog and being unable to properly manage it
+is the number one reason people quit Anki altogether.
+Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.
+
+## Fighting flooded learning queue
+
+It is not uncommon to find yourself in this situation.
+
+<p align="center"><img alt="new cards flood" src="../blog/img/too-many-learn-cards.webp"></p>
+<p align="center"><i>Anki window.</i></p>
+
+Anki is terrible at queuing more than 30 cards from the learning queue.
+It is going to show you them over and over until they graduate.
+If the cards are not particularly easy, you may never get to the review queue.
+What I recommend you to do in this case is similar to the trick used to fight backlogs.
+
+Create a filtered deck with these settings.
+
+```
+deck:Japanese is:due is:learn -rated:1 -is:new
+```
+
+Send all your learning cards to this deck, then pull out 10~20 at a time and graduate them.
+
+## New cards
+
+Choose how many new cards you want to learn each day and stick to that number.
+See [Daily amount of cards](sentence-mining.html#daily-amount-of-cards).
+
+## Leeches
+
+*Leeches* are cards that you keep **forgetting** and **relearning** over and over.
+Anki has a setting that controls how many times you can fail a card before it becomes a leech,
+called [Leech threshold](setting-up-anki.html#lapses).
+It's important to note that
+this setting doesn't refer to the number of times you simply press "Again" on a card,
+but rather the number of times you fail a card that has previously graduated to the review queue.
+In other words,
+hitting "Again" on a card repeatedly on the same day doesn't make it a leech.
+Usually,
+Anki marks a card as a "leech" after it's been stuck in the forget-relearn loop
+for several days or more.
+We recommend keeping the leech threshold low (`4`-`6` lapses)
+and suspending the cards when they become leeches.
+You have to properly deal with leeches instead of letting them rotate in your deck
+and slow down your progress.
+
+When Anki marks a card as a "leech",
+the card receives a "leech" tag.
+You can later find leeches by opening the Anki Browser and typing `tag:leech` in the search field.
+If ["Leech Action"](setting-up-anki.html#leech-threshold-and-leech-action) is set to "Suspend card",
+the card won't come up for review anymore.
+It's important to quickly pull leeches out of rotation by suspending them
+so that they don't waste your review time.
+By suspending leeches,
+you can focus on the cards you're actually learning.
+
+After you've neutralized a leech, decide what to do with it.
+Change the content of the card to make it easier to memorize
+or just wait until your brain is ready to learn it again.
+Before you re-learn the card, you have to
+[reset it](useful-anki-add-ons-for-japanese.html#reset-card-scheduling).
+
+There are several effective strategies for dealing with leeches:
+
+* **Delete them**.
+  For the small number of cards that just won't stick,
+  it's best to just get rid of them.
+  If you encounter the target word in your immersion often enough,
+  you will eventually memorize it.
+  But if not,
+  you don't need to know the word.
+  Instead of wasting a bunch of time on a single leech,
+  it's more productive to learn several normal cards in its place.
+* **Keep them for later**.
+  If you can't remember a word after 4-5 lapses,
+  it means your brain hasn't been primed to acquire it yet.
+  Wait a month or two and try again.
+  Often,
+  you'll find that cards that would not stick before have become very easy.
+  This indicates that your language ability has improved
+  and the word's intrinsic difficulty now matches your level.
+* **Change the card**.
+  If a word is of high value to you,
+  you can try to memorize a
+  [different representation](https://web.archive.org/web/20180303225205if_/http://super-memory.com/articles/20rules.htm#Redundancy)
+  of it.
+  Find a **different example sentence** in your [Sentence Bank](cross-profile-search-and-import.html)
+  or [online](resources.html#examples-and-pronunciations).
+  For example, on [Weblio](https://ejje.weblio.jp/sentence/).
+  Reset the card and edit it,
+  or make a new
+  [targeted sentence card](discussing-various-card-templates.html#targeted-sentence-cards)
+  using the same target word but a different sentence.
+
+In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
+The best way to force a particular reading into your memory
+is to memorize multiple words that use the same reading.
+For example, if you can't remember how to read `印璽`,
+make cards for words such as `御璽` or `国璽`
+and learn all of them at the same time.
+
+If you can't remember a card due to a kanji reading not sticking,
+people also recommend putting furigana for the difficult word on the front of the card.
+Personally I wouldn't do this myself, but it's a cheap way out.
+
+[Mortician](https://ankiweb.net/shared/info/1255924302)
+automatically buries cars that you fail too many times.
+Use it to prevent potential leeches from wasting your time.
+Evidence shows that repeating a card multiple times in a single day
+does not significantly contribute to long-term memory,
+so your time is better spent on other cards or a shorter study session.
+
+## Deleting and suspending cards
+
+There are situations when it makes sense to *pull a card out of the review queue*:
+
+* You can't seem to remember the card.
+* The card is too hard or too easy.
+* It takes too much time to review.
+* You mined it thinking it was a
+* You initially mined it thinking it was a [1T](one-target-sentences.html) card,
+  but it turns out it's not.
+
+Proactively getting rid of cards that have the potential to become leeches
+or that are too complicated and waste your time is a valuable strategy.
+This approach can help you avoid feeling overwhelmed
+by the [SRS](spaced-repetition.html) in the long run.
+
+However,
+I advise you to **be careful** with deletions.
+It's much harder to restore a deleted card than to bring back a suspended one.
+**Suspend** cards instead.
+If you change your mind later,
+you can easily put the card back into rotation and try to learn it again.
+
+## Card retirement
+
+Let's say you have 100 reviews each day,
+you learn 10 new cards a day,
+and your retention is 90%.
+If you continue your current Anki routine for an additional 15 years,
+your daily amount of reviews will be 200.
+
+This calculation indicates two things.
+
+1) You have to start suspending cards once they reach a certain interval,
+otherwise your review load will be increasing forever.
+2) This only becomes a problem once you've used Anki for many years.
+
+It's okay to suspend or even delete cards when they reach obscene intervals,
+like 5, 10 or even 15 years.
+To find such cards, open the Anki Browser and type `prop:ivl>3650`.
+The number `3650` corresponds to a card's interval in days,
+the search expression finds all cards that have intervals larger than this value.
+Now you can suspend the cards by pressing `Ctrl+J`.
+Next time when you search cards eligible for retirement,
+add `-is:suspended` to the search expression to filter out the cards you've already suspended.
+
+You can bookmark the current search expression
+by right-clicking `Saved Searches` and choosing `Save Current Search`.
+
+<p align="center"><img src="../blog/img/retirement.webp" alt="screenshot"></p>
+<p align="center"><i>Anki Browser Search.</i></p>
+
+**Note:** There are some add-ons on AnkiWeb that offer automatic retirement.
+They modify the scheduler unpredictably
+and have earned negative reputation among Japanese learners.
+Don't use any add-ons that mess with the scheduler.
+They often have bugs and may corrupt your collection.
+
+## Get the AJT Flexible Grading add-on
+
+AJT Flexible Grading comes with three important features:
+
+* Pass-Fail mode
+* Grading from the front side
+* The ability to hide some or all answer buttons.
+
+To install the add-on, follow the instructions on AnkiWeb.
+
+<p align="center"><img src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/flexible_grading.webp"></p>
+
+<p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Download</a></p>
+
+### Pass-Fail mode
+
+The Pass-Fail mode essentially doesn't let you press "Hard" and "Easy" buttons.
+There are two benefits associated with this.
+
+One being that having to decide between various options
+can actually make your Anki study less efficient.
+When you're deciding how to grade a card, you're wasting your mental resources.
+Do it a hundred times, and you'll experience something called decision fatigue.
+Instead of deciding how well you know something simply decide whether you know it or not.
+
+Another being that most Anki users don't understand
+what Anki's "Hard" and "Easy" buttons actually do.
+Both buttons affect the cards' Ease factor.
+Using the "Hard" button can penalize you and greatly add to your review count over time.
+Using the "Easy" button can artificially inflate your card scheduling intervals
+and lead to forgetting and lower retention in the future.
+For the vast majority of us the best option is to simply use Anki's "Good" and "Again" buttons.
+
+### Flexible grading
+
+Flexible grading refers to the ability to pass an Anki card without having to reveal the answer.
+If you believe that you really know the content of a flashcard,
+you may decide to skip its reverse side and immediately grade the card.
+It should speed up review time and save you some keypresses.
+
+Flexible grading is enabled by default in the add-on's options.
+You can grade the cards by pressing Vim-keys on your keyboard or by using the default Anki hotkeys.
+
+| Vim bindings | Default bindings | Description |
+| ------------ | ---------------- | ----------- |
+| `h`          | `1`              | Again, Fail |
+| `j`          | `2`              | Hard        |
+| `k`          | `3`              | Good, Pass  |
+| `l`          | `4`              | Easy        |
+
+Pressing 1-4 to grade cards is convenient, but it's not as convenient.
+Vim-like bindings let you grade the cards
+with your fingers lying on the home row keys,
+much like when you navigate a document in Vim.
+
+<p align="center"><img alt="keyboard" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/keyboard.webp"></p>
+
+I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.
+
+### Getting rid of answer buttons
+
+Once you get used to blasting through your reps with Vim-like hotkeys,
+you realize that the answer buttons are completely redundant.
+AJT Flexible Grading has an option to remove those buttons,
+making the Anki UI less cluttered.
+
+### Last review stats at the top
+
+Have you ever had doubts like, "did I grade that card right?" after doing a rep?
+Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.
+AJT Flexible Grading shows the result of the last review at the top.
+It tells you what button you pressed and what interval the card has right now.
+By clicking on the stat you can bring up the card browser window showing the last answered card.
+
+## Summary
+
+The SRS best practices:
+
+1) Starting Ease 131%.
+1) Interval Modifier 192%, increase if needed.
+1) Enable the V3 scheduler.
+1) Show up every day to do your reps.
+1) Don't review in filtered decks.
+1) Use filtered decks for storing old due cards (backlog).
+1) Do no more than 30 new cards a day, unless you know what you're doing.
+1) Have Anki suspend your leeches. Deal with them as they come up.
+1) Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.
+1) Use the **Pass-Fail** mode to avoid "Hard" and "Easy" buttons.
+1) Grade easy cards from their front side.

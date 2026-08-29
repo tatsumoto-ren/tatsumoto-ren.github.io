@@ -1,0 +1,18 @@
+---
+title: Is SuperMemo better than Anki?
+date: 1670241170
+tags: ['faq', 'anki']
+position: 100
+---
+
+<div class="translation-note">
+
+**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
+и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+
+</div>
+
+SuperMemo is [proprietary software](https://www.gnu.org/proprietary/proprietary.html), so it should not be used.
+
+[Mnemosyne](https://wiki.archlinux.org/title/Mnemosyne) is an alternative SRS that also respects your freedom.

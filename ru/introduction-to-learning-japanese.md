@@ -1,0 +1,730 @@
+---
+title: Introduction to learning Japanese
+date: 1615372627
+tags: [guide]
+---
+
+<div class="translation-note">
+
+**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
+и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+
+</div>
+
+Below is a quick rundown of a typical Japanese learning journey
+that should get you to basic fluency in less than two years.
+We've designed the method for people
+who want to learn Japanese efficiently through self-study
+and are interested in Japanese media such as movies, TV shows or novels.
+
+If you have any questions,
+you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
+and people will help you.
+There are thousands people learning Japanese, and you should be part of it.
+
+****
+
+## The right mindset
+
+> I'm just one person who took ideas from other people,
+> applied them systematically and found success with it.
+>
+> *― Khatzumoto*
+
+<img src="../blog/img/yoshi.webp" float="right">
+
+Consuming the language is how you learn the language.
+You know, babies can only cry and poop their pants
+but within the first few years from birth they learn to speak their first language.
+They quickly absorb complicated grammatical principles
+and soon can speak with accurate grammar and near perfect pronunciation.
+It happens because they listen to people around them, especially parents,
+and they slowly begin to understand what is being said.
+Our brain is built to do that instinctively.
+
+Traditional language learners say that as you grow up
+the part of your brain responsible for language acquisition dies, and you lose access to it.
+They insist that adults have to learn languages the same way you learn math or science:
+with your rational, logical brain; by consciously memorizing rules and drilling exercises.
+This has proven to be untrue.
+
+According to Stephen Krashen,
+humans acquire language when they understand messages.
+Krashen calls it [comprehensible input](what-is-comprehensible-input.html).
+The process of acquiring a second language
+is similar to the process that **children undergo** when learning their native language.
+You can do it no matter [how old you are](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
+
+We're not babies, we're smarter, and we can learn faster.
+Any adult with some help of technology can aquire a language through input,
+by immersing themselves in the language.
+Language acquisition can't be substituted with *learning* a language,
+e.g. taking classes or buying textbooks.
+Immersion is the most crucial ingredient of the entire process.
+
+## How to immerse
+
+When newcomers hear the word "immersion,"
+they often mistake it for simply
+[going to the country](https://www.antimoon.com/other/myths-country.htm),
+being present where the target language is spoken,
+and asking a Japanese person to speak to them.
+In AJATT,
+we see that as a pretty bad, an impractical and ineffective approach.
+Instead,
+we're going to build our own Japanese immersion environment at home.
+Here,
+[immersion](whats-immersion.html)
+refers to any form of listening or reading in your target language.
+The AJATT method encourages you to integrate Japanese into your daily life
+through different kinds of media,
+such as watching Japanese movies or TV shows,
+and reading books or manga.
+The method allows you to immerse yourself in the language and culture
+without needing to travel to Japan or take traditional classes.
+The best type of content to use is anything that genuinely interests you.
+As long as it's **by natives for natives**, it's fine.
+Simply surround yourself with Japanese content,
+and you will acquire the language.
+
+The process is divided into two steps.
+
+1) Watch a movie or a TV-show in Japanese.
+   The visual component will help you understand what's going on.
+   Use Japanese subtitles, if available, to look up unknown words and grammar.
+   If not, you might be surprised at how much you can learn
+   from simply watching *raw*, with no subtitles.
+   This is called **active immersion**.
+2) Reuse what you've watched for **passive immersion**.
+   Passive immersion is when you have audio playing in the background
+   while you're doing something else.
+   A popular practice among people doing AJATT
+   is to take an episode of a TV show they have watched,
+   extract the audio track and add it to a playlist.
+   I am going to tell you how to do it in the article about
+   [passive listening](passive-listening.html).
+
+As for reading, the above applies if for a book you read you find the corresponding audiobook.
+If not, just read it and skip the second step.
+
+It is reasonable to ask
+how you're supposed to learn from native content
+[if you still understand nothing](is-it-helpful-to-immerse-if-i-barely-understand.html).
+It is true that actively consuming native media,
+looking up words and trying to learn them
+is an immense task for a beginner.
+You're going to spend your first weeks learning the basics of the language.
+Your active study time during this stage will include
+learning the alphabets, kanji, basic vocabulary and grammar.
+Nonetheless, you have to do immersion from day one.
+What I recommend you do at this stage is watch easy anime without subtitles.
+Instead of looking up words rely on imagery and context to infer what's going on in the show.
+You can start using Japanese subtitles once you have a foundation in the Japanese writing systems.
+Passively listen to each episode after you complete it to maximize time spent immersing.
+By simply listening, your brain will slowly get better at parsing and understanding the language.
+Listening a lot is going to eventually enable you
+to understand spoken language,
+be it a conversation or your favorite anime.
+
+Once you learn the basic vocabulary,
+nothing stops you from learning just from immersion.
+Don't wait for too long.
+There are people who trap themselves into thinking,
+"I'm going to start watching raw anime when I'm good",
+"I don't immerse because I don't understand Japanese yet".
+This is a very dangerous pattern.
+You start wearing skates before you know how to skate.
+You start watching without subs before you understand.
+
+For passive listening try to choose the material
+that you previously actively watched and comprehended.
+The quality of passive immersion is lower if you don't actively work with it beforehand.
+Avoid listening to "white noise",
+you only really make gains when you understand the language you are consuming.
+You won't be able to comprehend everything right away,
+but as you learn new words from your immersion,
+expect your comprehension to quickly grow within the first few months.
+You have to make effort to make the content comprehensible.
+Look up words, rely on the imagery, choose material with simpler language.
+
+Slice of life anime is the easiest genre to learn from in the beginning.
+To find easy anime you can [search MAL](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
+Additionally, the ixrec website has a page with
+[media recommendations](https://ixrec.neocities.org/immersion/).
+
+The more *language-dense* your immersion content is, the better.
+It's a good idea to choose content where people talk a lot, with some caveats.
+
+* In general podcasts and radio are more challenging for beginners,
+  and they rarely have transcriptions.
+  Learning from such content is harder than, say, anime,
+  where you can open a subtitle file and look up unknown words.
+  I recommend podcasts for intermediate learners and above.
+* [Songs](is-music-a-good-way-to-learn-japanese.html)
+  contain unnatural sentence structures, grammar, word choice.
+  They tend to use more "poetic", uncommon words.
+  Sometimes if a word can be read many ways,
+  they choose to sing the less common version.
+
+  It's hard to hear the lyrics through music.
+  Even in our native language we often fail to hear or make sense of some parts of songs.
+  Instead of listening to songs for the sake of immersion,
+  it's better to choose a more comprehensible material.
+
+  But music is fun.
+  Reading song lyrics is a fun way to find new, often cool and rare words.
+  Give it a try once you're advanced.
+
+I hope you'll find an immersion routine that suits your life.
+If you think you can't do it, don't worry.
+Even Khatz, the AJATT founder, said in his blog that he wasn't always able to immerse all day.
+He still tried to do as much as he could,
+while having a job and studying at a university at the same time.
+AJATT has existed for years, many people went through the program and achieved fluency.
+
+## Outputting
+
+In AJATT, *to output* simply means to speak your target language,
+to interact with native speakers.
+Many language learners are eager to start speaking from day one.
+Unfortunately,
+this approach doesn't quite work,
+especially for those striving for true mastery of a language.
+While memorizing set phrases
+and practicing them can be helpful for very basic conversations,
+it is not a sustainable method for long-term progress.
+
+One of the core components of the AJATT philosophy is the
+idea of input before output.
+This basically means that that
+if you want to become fluent in a foreign language,
+the most efficient approach is
+to focus exclusively on learning to understand the language
+through listening, and later reading.
+We call this a silent period, which may be observed in infants too.
+They don't speak from day one.
+They acquire language before they begin to speak.
+
+The primary goal is to understand the language first.
+Without comprehension,
+successful communication with others becomes challenging,
+even if you have memorized basic phrases from a textbook.
+
+[Premature speaking](can-i-speak-early.html) can have other negative effects,
+such as impacting your accent and reinforcing common mistakes.
+These effects are often evident in traditional language learners' speech patterns.
+
+* It takes time to train your listening
+  until you can hear native speech at natural speed and comprehend it.
+  If you can't hear the sounds yet, there's no way you can repeat them
+  without a strong foreign accent.
+  Traditional language learners start speaking very early, from day one.
+  As they speak, they get used to pronouncing words incorrectly.
+
+  Think about Japanese people. After getting crippled by the school system
+  that doesn't and can't offer enough listening practice
+  they confuse the `l` and `r` sounds when they try to speak English.
+
+  A lot of people think, "I'll have native speakers correct me and tell me where I'm off".
+  Imagine a blind person trying to draw a self-portrait and someone telling them,
+  "oh, the nose is a little bigger".
+  That's not going to help them too much.
+
+  If you want good pronunciation,
+  you need to rely on your own ability to correct yourself.
+  You need to develop a good listening ability before you start speaking.
+* Mistakes are bad because they [become habits](http://www.antimoon.com/how/mistakes-damage.htm).
+  When you first start learning a new language,
+  you're going to make many mistakes when you try to speak.
+  If you make a mistake once,
+  you are more likely to repeat the same construction the next time.
+  Repeating the same mistakes over and over
+  turns them into ingrained habits
+  that can be very hard to overcome later.
+
+  Don't hope that a native speaker will correct your mistakes.
+  Unless the other party didn't understand you at all,
+  they are not going to point out where you're off.
+  Even if you ask them to correct all your mistakes,
+  there's no guarantee that you'll be able to apply the corrections.
+
+## Go through a silent period
+
+Avoid speaking in your target language
+until your speaking ability develops naturally.
+Typically,
+this occurs after doing AJATT for about a year.
+
+If you want to sound good,
+you'll still need to practice speaking.
+Immersion alone isn't enough to make you speak like a native.
+But as a beginner,
+it shouldn’t be your primary focus.
+
+## Output comes naturally
+
+Once you get a few thousand hours of input,
+your speaking ability is going to emerge gradually.
+Forcing it usually doesn't work.
+Again, remember **how small children learn** to speak their native language.
+Their output ability emerges as a result of immersion.
+
+1) Immersion + [SRS](spaced-repetition.html) = comprehension ability.
+1) Immersion + comprehension ability = output ability.
+1) Output ability + practice = output mastery.
+
+## Controlled Output
+
+When you start to notice that your ability to speak has emerged,
+that's when you can begin practicing output.
+When you already **have high comprehension**,
+your ears should be well-trained,
+so you'll be able to notice and correct your mistakes
+when you listen to a recording of yourself.
+
+You can practice speaking by repeating sentences aloud
+using recordings of native speakers,
+such as clips from anime, TV shows, or movies.
+This technique is known as "imitation exercise."
+Imitation involves listening to a recording of a native speaker talking
+and repeating what they say,
+trying to match their speed, rhythm, and intonation as closely as possible.
+Record yourself and pay attention to your own pronunciation.
+Try to correct all the mistakes you notice.
+
+It's also helpful to start writing blog posts and essays.
+Always verify that your output is correct &mdash; control yourself.
+Correct your mistakes when you find them.
+You can have your essays **checked** and corrected by native speakers
+or by automated tools
+(e.g., [Duck.ai](http://duck.ai/), an AI chatbot that you can ask to check your text).
+
+Remember that you must not practice speaking until your listening ability is really good.
+If you start speaking before you can hear all the sounds of your target language,
+you'll reinforce bad habits,
+making them nearly impossible to fix later.
+Every time you say something incorrectly,
+you're training your brain to store that warped pronunciation.
+
+**If speaking isn't your top priority**,
+you can neglect speaking practice.
+However,
+evidence shows that avoiding output practice for too long has negative effects.
+If you never attempt to speak,
+your ability to output will remain dormant.
+Then,
+when you finally do go out and speak, you won't be ready.
+Your speaking ability might feel like a dry lemon,
+making it a struggle to squeeze out any words.
+
+## Software overview
+
+We're going to use various programs to help us with Japanese.
+Since this is an intro article, you don't have to install everything right now.
+It's just an outline.
+The most important tools will be described in [Our Immersion Learning Toolset](our-immersion-learning-toolset.html).
+Afterwards, you'll be presented with articles that teach comprehensively how to use the tools.
+Additionally, we have more suggestions in [Resources](resources.html)
+and throughout the rest of the guide.
+
+### Desktop
+
+  * Install Japanese fonts.
+    I suggest
+    [noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
+    Refer to
+    [Japanese fonts](japanese-fonts.html)
+    for detailed instructions.
+  * Install and configure
+    [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
+    to type in Japanese.
+    The Fcitx guide can be found [here](how-to-type-in-japanese.html).
+    The input method I use is
+    [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
+    but other options are also available.
+  * For passive immersion use [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
+    together with
+    [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
+    Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
+  * *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
+    Condensing takes a video file with subtitles and removes all parts where no one is speaking,
+    producing an audio file with increased language density for passive listening.
+  * The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
+    It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts) (user-scripts)
+    many of which can be used to make language learning easier.
+  * Install and [set up](setting-up-anki.html) Anki.
+    It's a flashcard program used to memorize words, phrases and sentences.
+  * The most popular offline dictionaries are:
+    1) [qolibri](setting-up-qolibri.html).
+    1) [GoldenDict](setting-up-goldendict.html)
+    1) [Tagaini Jisho](https://www.tagaini.net/)
+  * When you read in your browser, use
+    [Rikaitan](setting-up-yomichan.html)
+    to discover meanings of unknown words.
+
+### Mobile
+
+  * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
+    to be able to type in Japanese.
+    Because Android lacks free/libre keyboards,
+    you can also use `Gboard` if you want, but make sure
+    to completely block it from accessing the Internet.
+  * [AntennaPod](https://f-droid.org/en/packages/de.danoeh.antennapod/)
+    is a great app for playing podcasts.
+    [This list](https://t.me/ajatt_tools/80) of podcasts is a good starting point.
+  * Get [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
+    It doesn't require any specific steps to set it up
+    other than entering your AnkiWeb credentials to sync with the desktop.
+  * Offline Japanese dictionaries available are
+    [Sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/),
+    [jiten](https://github.com/obfusk/jiten)
+    or anything else you find on F-Droid.
+
+### Do not use
+
+  * [Machine translators](could-machine-translation-be-useful-to-language-learners.html).
+    Every translation differs from the original thought
+    because no word has an exact equivalent in another language.
+    Japanese honorifics, levels of politeness, and other things
+    don't exist in English and get lost in translation.
+
+    In order to truly understand anything in your target language,
+    you have to understand it in the target language the first time.
+    To achieve this,
+    the goal is to receive thousands of hours of comprehensible input
+    and acquire the necessary vocabulary and grammar.
+
+    Machine translations are often unnatural, wrong, or misleading.
+    While they may provide a general idea of what's being said,
+    they cannot convey the full meaning and all the details of the original message.
+    It is acceptable to use machine translations for individual words,
+    although it is safer to consult a dictionary instead.
+
+    Google Translate is good at recognizing drawn characters.
+    You can use it to transcribe a kanji character that cannot be copy-pasted
+    (when reading manga, for example)
+    and in situations where <abbr title="Optical Character Recognition">OCR</abbr>
+    software fails to do so.
+  * Paid software.
+    For language learning there is no paid software
+    that offers any unique functionality
+    that isn't available in the free alternatives
+    or isn't useless from our point of view.
+    Besides, if you're going to spend 10 years learning Japanese,
+    do you really want to continue paying all that time?
+  * Proprietary software.
+    Most [proprietary software is malware](https://www.gnu.org/proprietary/proprietary.html),
+    that's just the reality we live in.
+
+## Writing systems
+
+The three writing systems used in Japanese today are hiragana, katakana and kanji.
+Hiragana and katakana are two phonetic scripts, each containing 46 characters.
+Kanji come from Chinese and are complex characters that represent concepts.
+
+### Kana
+
+Have a look at the Wikipedia pages on
+[Hiragana](https://wikipedia.org/wiki/Hiragana?lang=en)
+and
+[Katakana](https://wikipedia.org/wiki/Katakana?lang=en)
+to understand what you're dealing with.
+Together they're referred to as the [kana](https://wikipedia.org/wiki/Kana?lang=en).
+The key points to take away:
+
+* The two alphabets represent the same sounds.
+  Katakana is mostly used to write loan words and onomatopoeia,
+  Hiragana for everything else not written in kanji.
+* Due to its purpose, katakana is not used as often as hiragana,
+  as you will notice once you start reading.
+* They are very easy. Each can be learned in a day.
+* Any Japanese text not aimed at preschoolers contains kanji,
+  so learning only the kana won't cut it.
+
+In the article about learning kana (later in this guide)
+I recommend using a training app or a premade Anki deck.
+Either way should take you two days or so to complete, and no more than a week if you're lazy.
+
+### Kanji
+
+[Kanji](https://wikipedia.org/wiki/Kanji?lang=en)
+were imported from China a long time ago.
+They are logo-graphic characters used to write words and parts of words.
+To truly learn kanji you need to read native Japanese texts for thousands of hours.
+Kanji study is meant to prime your brain for recognizing the characters
+and make transition to reading easier.
+
+The most recent method for learning kanji is referred to as
+[JP1K](learning-kanji.html#jp1k-method).
+In essence, it's a specifically preformatted Anki deck.
+The deck contains around 1,000 cards, thus the name JP1K.
+There's a specific studying technique associated with the format of the deck.
+Once you learn all cards from the deck,
+it gives you the ability to recognize the most common kanji characters
+together with words that represent them.
+On this site you'll find links to premade JP1K decks
+as well as instructions on how to convert any vocabulary deck into the JP1K format.
+
+The are other,
+older methods of learning kanji.
+One of the most well-known is called
+[isolated kanji study](learning-kanji.html#isolated-kanji-study).
+While we at AJATT don't recommend this method as much,
+it may still be of interest to some learners.
+
+Choose only one of the above methods.
+No matter what option you pick, don't bother learning to write the characters just yet.
+To learn how to write by hand you need to be able to read some Japanese first.
+There are better ways to learn to write which are going to be
+[discussed](writing-japanese.html)
+later on this site.
+
+<p align="center"><img alt="Japanese writing systems" src="../blog/img/highlighted_manga.webp"></p>
+<p align="center"><i>Japanese writing systems.</i></p>
+
+You can totally skip the kanji phase and move straight to learning basic vocabulary.
+If you choose to do so, you're going to memorize words as is, with the kanji.
+For each word just try to remember how it looks, what it means and how it sounds.
+Treat kanji like pictures and memorize kanji compounds as single units.
+No doubt it is more difficult, but it works for many people.
+
+## Basic vocabulary
+
+After getting familiar with the writing systems,
+use a premade Anki deck to build up the basic vocabulary.
+Completing this step makes learning from input easier,
+you won't have to struggle looking up every word on each page.
+
+Download [Ankidrone Essentials](ankidrone-essentials.html)
+and learn one or two thousand cards from it.
+You are free to continue learning new cards from the deck,
+but don't get stuck on this step and move to [sentence mining](sentence-mining.html) (covered later) as soon as possible.
+
+Each card in *Ankidrone Essentials* has a sentence at the front.
+The target word of the card is shown in bold.
+The information needed to understand the sentence and the target word is provided at the back,
+it includes a rough translation and kanji readings.
+Your goal is to understand the target word.
+If you want, you can even skip reading the sentence,
+but neglecting the word's context can make the reviews harder.
+
+## Grammar
+
+Children don't learn grammar rules from books.
+They learn by hearing lots and lots of language they can understand.
+Over time,
+their brains figure out how the language works all on their own.
+Your goal in this step is to read a grammar guide and just skim the rules.
+You're looking for example sentences.
+A good grammar book should have plenty of example sentences for you to absorb.
+
+[Choose a grammar guide](learning-grammar.html) and read it.
+It's the only *textbook* you're really going to need throughout your AJATT journey.
+When I learned Japanese, I chose Tae Kim.
+Khatz used "[All About Particles](all-about-particles.html)".
+
+Combining grammar study with the SRS can help you understand the grammar better.
+Put the example sentences in Anki if you like.
+Highlight the grammar point in the sentence to mark it as the target
+([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards),
+covered later).
+If you decide not to bother with Anki at this point,
+make sure to at least read through the whole grammar guide and pay attention to examples.
+
+Don't waste your time memorizing conjugation tables.
+Grammar is a tool to aid comprehension,
+and knowing the rules won't help you output.
+By the time you recall a grammar rule and apply it to your thoughts,
+your conversation partner will be long gone.
+
+A guide like Tae Kim doesn't cover everything.
+Even certain grammar in the advanced section can be considered pretty basic.
+As you continue to immerse,
+look up and,
+when necessary,
+make Anki cards for the rest of the grammar not covered in the grammar guide.
+The process is no different from making cards for regular words.
+
+## Create your own mining deck
+
+The process of making sentence cards (or targeted sentence cards)
+for the words you don't know
+is called [sentence mining](sentence-mining.html) (or sentence picking).
+A mining deck is an Anki deck you create yourself,
+as opposed to decks you download from the Internet,
+and fill it with sentences (and less often words) extracted from the content that you read
+(or watch with subtitles).
+Hence, you "mine" sentences from texts you read in the wild.
+
+While premade Anki decks might seem convenient,
+they can't teach you everything,
+so making your own cards is essential to long-term success with Japanese.
+Continue to [immerse](whats-immersion.html)
+by reading and listening to content created by native speakers for native speakers,
+and use [dictionaries](resources.html#dictionaries) to look up new words and mine sentences.
+
+Avoid creating too many single word flashcards.
+They're fine for nouns representing concrete objects but bad for other types of speech.
+Do not translate sentences.
+Understand them instead.
+
+There is a popular goal in the community to create 10,000 flashcards within the first 18 months.
+While this number is not special,
+having a goal to work towards can be motivating.
+I managed to learn 10,000 sentence cards in 11 months.
+Feel free to take on this challenge as well,
+but remember that Anki is just a supplement for immersion learning.
+
+## Reading immersion VS Listening immersion
+
+AJATT is based on learning languages the natural way,
+**like children** do.
+However,
+while reading immersion is powerful and can help you improve quickly,
+it's not how children actually learn languages.
+Children spend years mastering the spoken language
+**before they read a single written character**.
+They build a foundation in sound first, then learn to read.
+
+Reading in a foreign language
+[harms](why-does-premature-reading-cripple-phonetic-awareness.html)
+**perception** and **pronunciation**.
+The impact on perception affects language flow,
+or how quickly and effortlessly you can construct sentences in your head compared to native speakers.
+The impact on pronunciation affects how you sound
+and how your pronunciation differs from that of native speakers.
+
+Native speakers process language subconsciously.
+Their speech is automatic and flows effortlessly
+without conscious attention to structure or word order.
+In contrast,
+when learning through reading,
+you analyze language
+and use different parts of your brain than native speakers,
+essentially learning to translate the language into your own mental model
+rather than intuitively understanding it.
+That limits your ability to produce natural, fluent speech.
+
+Adults who neglect listening and rely mostly on reading
+often develop good grammar but retain a **foreign accent**.
+This often stems from
+**[subvocalization](https://en.wikipedia.org/wiki/Subvocalization)**.
+I.e., the act of reading activates muscles in the throat.
+Without a solid foundation in listening,
+learners make up sounds in their head while reading,
+forming **bad pronunciation habits**.
+This effect is similar to [premature output](#outputting).
+Because training listening comprehension requires more effort,
+their reading ability quickly outpaces their listening ability.
+Every time they see a word in text,
+their brain creates its own made-up pronunciation based on how they *think* it should sound,
+and they subvocalize it,
+effectively training themselves to sound bad.
+By learning to read before they can **properly hear** the language,
+they sabotage their ability to speak.
+
+To develop listening skills and a good accent,
+start with **only audio-visual input** (TV shows, movies, anime, dramas).
+It's hard to completely avoid reading,
+so try to limit it to looking up unknown words in Japanese subtitles,
+using dictionaries,
+and making Anki cards.
+
+Improving your listening after the damage is done will be a significant uphill battle,
+as the sounds in your head won't match what native speakers are actually saying.
+You want to avoid such an outcome at all costs.
+
+In the beginning,
+limit reading **only** to flashcards and dictionary lookups to train your listening skills.
+Avoid active reading beyond text‑based flashcards.
+**Focus on listening** to lots of native Japanese
+to build a phonetic foundation.
+Once you develop good listening comprehension,
+add light reading,
+such as easy comics or manga,
+then progress to ranobe and novels.
+
+Watching anime with Japanese subtitles is also [considered as reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html).
+Japanese subtitles are a crutch that can help you look up new words,
+but they do not improve your ability to understand the target language by listening.
+They are **tempting** because watching without subtitles is hard.
+Limit their use so you can train your listening skills.
+
+If you're learning Japanese primarily **to enjoy content**,
+such as anime, manga, or light novels,
+and you're not interested in immigrating to Japan,
+it's actually [more effective](how-much-listening-should-i-do-before-i-start-reading.html)
+to start reading manga and novels early.
+As an adult,
+learning foreign languages by reading is considerably easier
+than learning by listening to spoken language.
+You can improve much more quickly.
+You can still address accent later,
+but correction will take substantial effort.
+
+## How to divide your study time
+
+Learning a language involves three main components:
+
+* Reviewing flashcards.
+* Reading immersion.
+  Watching with target language subtitles
+  ([never with native language subtitles](should-i-watch-anime-with-english-subtitles.html)),
+  reading manga and books.
+* Listening immersion.
+  Watching without subtitles (raw),
+  listening to audiobooks, radio, podcasts.
+
+Naturally, people [often ask](how-should-i-divide-my-study-time.html)
+about how to allocate their study time effectively.
+
+The general guideline
+is to divide your time equally between listening and reading
+(maintaining a `1:1` ratio),
+with an additional hour dedicated to flashcards.
+However,
+beginners should prioritize spending more time on **listening** than reading,
+while advanced learners will benefit more from **reading** than listening.
+
+For beginners,
+reading is more daunting and [has potential negative effects](thoughts-on-reading-before-listening.html)
+that most people would like to avoid.
+Reading leads to subvocalization.
+The act of reading activates muscles in the throat.
+If one doesn't have decent pronunciation yet,
+subvocalization will reinforce their bad pronunciation habits
+and further negatively influence the way they perceive spoken language.
+But learning through reading allows to learn vocabulary faster
+because the words are written down for you,
+you don't have to decipher them from speech,
+and you can read at your own pace.
+Learning through listening takes more time,
+but it doesn't have the same negative impact.
+Listening helps train your ears and enhances your ability to comprehend spoken language.
+
+In conclusion,
+it is advisable to begin with **listening immersion** only.
+For example,
+start by watching easy anime.
+Note that you need subtitles to look up unknown words, but you
+[don't need them to be visible all the time](is-it-harmful-to-always-have-tl-subtitles-on.html).
+Then, gradually incorporate **reading immersion** into your routine.
+As you progress, increase the time allocated to reading.
+Adjust the ratio
+[depending on your personal goals](how-much-listening-should-i-do-before-i-start-reading.html).
+
+We recommend not to exceed **one** hour per day on flashcards for two main reasons.
+First,
+most people find the SRS ([spaced repetition](spaced-repetition.html) systems) quite boring.
+Second,
+the SRS is just a supplement.
+It helps strengthen your memory,
+but language acquisition happens only while immersing.
+
+Watching with subtitles counts towards reading immersion
+because reading the subtitles creates an inner voice
+that competes with the speech in your target language.
+Consequently,
+you are not actively listening to the native speech
+but rather focusing on your internal subvocalization while reading the subtitles.
