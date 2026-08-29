@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>Setting up Qolibri | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Setting up Qolibri | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/setting-up-qolibri.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/setting-up-qolibri.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#installation">Installation</a>
+    </li>
+    <li>
+        <a href="#dictionary-files">Dictionary files</a>
+    </li>
+    <li>
+        <a href="#recommended-dictionaries">Recommended dictionaries</a>
+    </li>
+    <li>
+        <a href="#searching">Searching</a>
+    </li>
+    <li>
+        <a href="#invoke-search-from-a-shortcut">Invoke search from a shortcut</a>
+    </li>
+    <li>
+        <a href="#watch-clipboard">Watch clipboard</a>
+    </li>
+    <li>
+        <a href="#playing-nhk-audio">Playing NHK audio</a>
+    </li>
+    <li>
+        <a href="#set-browser-font">Set browser font</a>
+    </li>
+    <li>
+        <a href="#custom-css">Custom CSS</a>
+    </li>
+    <li>
+        <a href="#how-to-use-the-dictionaries">How to use the dictionaries</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1632881424">
+        <h1 class="title"><a class="ablack" href="setting-up-qolibri.html">Setting up Qolibri</a></h1>
+        <div class="subtitle">29 сентября 2021 &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p><a href="https://aur.archlinux.org/packages/qolibri/" target="_blank" rel="noopener noreferrer nofollow">Qolibri</a>
+is a Qt-based dictionary viewer.
+It lets you search multiple dictionaries at one time
+so for every word you look up you immediately get multiple definitions.
+Qolibri remains one of the most widely used Japanese dictionary viewers for GNU/Linux.</p>
+<p>By itself, Qolibri is just a viewer.
+To utilize it, you need <strong>dictionary files</strong>.
+The dictionary files Qolibri reads are called <a href="https://ja.wikipedia.org/wiki/EPWING" target="_blank" rel="noopener noreferrer nofollow">EPWING</a>s.
+EPWING (electronic publishing WING) is a dictionary format
+that was allegedly utilized in portable electronic dictionaries.</p>
+<p>Qolibri is much better than Rikaitan at searching a big number of dictionaries at the same time.
+If you try to use more than 5 dictionaries with Rikaitan,
+it quickly becomes very cluttered and hard to navigate.
+Qolibri lists all dictionaries you have on a sidebar.
+It is easy to jump between them if you need to.</p>
+<p>If you haven't started using Japanese to Japanese dictionaries yet,
+feel free to skip this article for now.
+Though Japanese to English dictionaries for Qolibri exist, their number is not very large.
+The main reason you want to use the program is to browse monolingual dictionaries.</p>
+<hr />
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>On Arch Linux-based distributions you can install Qolibri with
+<a href="https://aur.archlinux.org/packages/trizen/" target="_blank" rel="noopener noreferrer nofollow">trizen</a>
+or any other AUR helper.</p>
+<div class="pre-wrap"><pre><code>$ trizen -S qolibri
+</code></pre></div>
+<p>If you don't want to build it yourself, install
+<a href="https://aur.archlinux.org/packages/qolibri-bin/" target="_blank" rel="noopener noreferrer nofollow">qolibri-bin</a>:</p>
+<div class="pre-wrap"><pre><code>$ trizen -S qolibri-bin
+</code></pre></div>
+<p>If you're running a different distribution of GNU/Linux or not running GNU/Linux at all,
+check out the <a href="https://github.com/ludios/qolibri" target="_blank" rel="noopener noreferrer nofollow">GitHub</a> page
+for installation instructions.</p>
+<h2 id="dictionary-files"><a class="anchor" href="#dictionary-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dictionary files</h2>
+<p>Without dictionary files,
+Qolibri is just an empty window with buttons.
+Download the dictionaries and save them to a folder on your computer.
+<code>EPWING</code>s are usually larger compared to Rikaitan dictionaries.
+You need several GiB of disk space to store them.</p>
+<p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html#epwing">here</a>.</p>
+<p>To import the dictionaries to Qolibri click &quot;Setting&quot; &gt; &quot;Book and group settings&quot;
+and insert the location where the dictionary files are stored on your computer.
+Then press &quot;Start search&quot;.
+Once the dictionaries are loaded,
+put the ones that you use most often at the top
+to have them display first when searching.</p>
+<p align="center"><img class="shadow" alt="book settings" src="../blog/img/qolibri-book-settings.webp"></p>
+<p>Due to the nature of the format,
+most Qolibri dictionaries are old, they date back to the 1990s.
+But don't worry about it,
+in rare occasions when you can't find a definition for a new word or slang,
+you can use the web search or consult
+<a href="resources.html#online-dictionaries">online dictionaries</a>.</p>
+<h2 id="recommended-dictionaries"><a class="anchor" href="#recommended-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recommended dictionaries</h2>
+<p>These dictionaries are recommended the most among Japanese learners.
+Here I list generic names stripped of version notations, editions, etc.</p>
+<ul>
+<li><code>大辞林</code></li>
+<li><code>新明解</code></li>
+<li><code>大辞泉</code></li>
+<li><code>明鏡</code></li>
+<li><code>広辞苑</code></li>
+</ul>
+<p>Usually people keep <code>NHK日本語発音アクセント辞典</code> at the very top
+to quickly access <a href="japanese-pitch-accents.html">pitch accent</a> information and audio.</p>
+<h2 id="searching"><a class="anchor" href="#searching" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Searching</h2>
+<p>To search in Qolibri,
+insert what you're interested in finding into the search box
+and press &quot;Search&quot;.</p>
+<p>There are multiple search types you can choose from.</p>
+<ul>
+<li>Exact word search (完全一致).
+Search for a headword that matches exactly with the query.</li>
+<li>Forward search (前方一致).
+Search words that start with the query.</li>
+<li>Backward search (後方一致).
+Search words that end with the query.</li>
+<li>Full text search (全文検索).
+Search whole page.</li>
+</ul>
+<p>These types split the search query by whitespaces:</p>
+<ul>
+<li>Cross search (クロス検索).
+Searches multiple words inside headwords.
+E.g., if you search <code>繰 返</code>,
+it's going to find entries like <code>繰り返す</code> or <code>繰り返し</code>.
+After testing this search type I must say that it's far from perfect
+and often finds nothing when you expect it to find something.</li>
+<li>Keyword search (条件検索).
+Like cross search,
+but searches words in the books' contents, including headwords.</li>
+</ul>
+<p>Most of the time you want to use Exact search.</p>
+<h2 id="invoke-search-from-a-shortcut"><a class="anchor" href="#invoke-search-from-a-shortcut" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Invoke search from a shortcut</h2>
+<p>Qolibri can accept search queries via command line arguments.
+If you have <code>xclip</code> installed, you can write a small bash script
+that will send the content of the primary selection (or the clipboard, if you want) to Qolibri.</p>
+<p>Configure your DE, WM or a tool like sxhkd
+to bind the following command to a key:</p>
+<div class="pre-wrap"><pre><code>qolibri &quot;$(xclip -o)&quot;
+</code></pre></div>
+<p>Now you can select any text and then press the key you've set to quickly search it.
+I recommend enabling &quot;Server mode&quot; in Qolibri's options.
+Otherwise, every time you press the hotkey,
+a new Qolibri window will be opened instead of a new tab.</p>
+<p><span class="article-note">Note</span>: <a href="plumbing-for-language-learners.html">Cabl</a>
+has a built-in function that sends selected text to Qolibri.</p>
+<h2 id="watch-clipboard"><a class="anchor" href="#watch-clipboard" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Watch clipboard</h2>
+<p>If you click the &quot;Watch clipboard&quot; button on the top toolbar,
+Qolibri will automatically search any text you copy to the clipboard.</p>
+<h2 id="playing-nhk-audio"><a class="anchor" href="#playing-nhk-audio" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Playing NHK audio</h2>
+<p>One of the dictionaries available for Qolibri is <code>NHK 日本語発音アクセント辞典</code>.
+It shows pitch accents of words and lets you play <code>wav</code> audio recordings
+when you click on the blue links.</p>
+<p align="center"><img class="shadow" alt="NHK dictionary" src="../blog/img/qolibri-nhk-dictionary.webp"></p>
+<p align="center"><i>NHK dictionary with audio recordings.</i></p>
+<p>If you face problems when playing audio inside Qolibri,
+chances are Qolibri is not configured correctly.
+If you can't hear anything
+when clicking on pronunciations in the NHK dictionary or other dictionaries,
+download <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/bin/qolibri-mpv" target="_blank" rel="noopener noreferrer nofollow">qolibri-mpv</a>,
+a script that can be used to play Qolibri's audio with <code>mpv</code>.
+Naturally, you need <a href="https://wiki.archlinux.org/title/Mpv" target="_blank" rel="noopener noreferrer nofollow">mpv</a> to be installed for it to work.</p>
+<ol>
+<li>Save the script in <code>~/.local/bin</code>.</li>
+<li>To make it <a href="how-do-i-make-a-file-executable.html">executable</a>,
+run <code>chmod +x ~/.local/bin/qolibri-mpv</code></li>
+<li>Make sure <code>~/.local/bin</code> is added to the <a href="how-do-i-add-a-directory-to-the-path.html">PATH</a>.</li>
+</ol>
+<p>In Qolibri, go to &quot;Settings&quot; &gt; &quot;Options...&quot; &gt; &quot;External program&quot; and specify the name of the executable.</p>
+<p align="center"><img class="shadow" alt="external programs" src="../blog/img/qolibri-external-programs.webp"></p>
+<p align="center"><i>Qolibri's options.</i></p>
+<p>In addition to playing the files as you click on them,
+<code>qolibri-mpv</code> also copies them to clipboard.
+You are able to play an audio and paste it in an Anki note as an <code>ogg/opus</code> file.</p>
+<video width="960" controls>
+	<source src="../blog/vid/qolibri_mpv.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/qolibri_mpv.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/qolibri_mpv.mp4" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
+<h2 id="set-browser-font"><a class="anchor" href="#set-browser-font" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set browser font</h2>
+<p>To change the font used in the browser,
+go to &quot;Settings&quot; &gt; &quot;Set browser font...&quot;.
+Recommended fonts can be found <a href="resources.html#fonts">here</a>.</p>
+<h2 id="custom-css"><a class="anchor" href="#custom-css" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom CSS</h2>
+<p>You can change the way definitions look using CSS.
+To edit the style sheet, go to &quot;Settings&quot; &gt; &quot;Edit style sheet&quot; &gt; &quot;Dictionary style sheet...&quot;.
+I use a theme that looks similar to the style of my Anki cards.
+To get it,
+<a href="https://gist.github.com/tatsumoto-ren/8b70f2fe739840ce81b93572ee8c90db" target="_blank" rel="noopener noreferrer nofollow">download</a>
+this example CSS file.
+The default CSS file Qolibri ships with can be found on
+<a href="https://github.com/ludios/qolibri/blob/prime/data/dict-style.css" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>.</p>
+<p align="center"><img alt="qolibri css" src="../blog/img/qolibri-css.webp"></p>
+<p align="center"><i>Definition.</i></p>
+<h2 id="how-to-use-the-dictionaries"><a class="anchor" href="#how-to-use-the-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to use the dictionaries</h2>
+<p>If you click on the &quot;Search/read book&quot; button on the left side of the window,
+the magnifying glass icon changes into a book.
+Choose a dictionary in the dropdown menu and click the button that says &quot;Open book&quot;.
+The program will show you a page that explains how to use the dictionary.
+Often dictionaries don't have this information,
+but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and several others do.</p>
+<p align="center"><img alt="read book" src="../blog/img/qolibri-read-book.webp"></p>
+<p>Here you can find the explanations what all the symbols mean.</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_dictionaries.html">dictionaries</a>
+            <a href="tag_epwing.html">epwing</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="setting-up-goldendict.html" title="GoldenDict" class="md-button prev">Назад</a>
+        <a href="setting-up-yomichan.html" title="Rikaitan" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

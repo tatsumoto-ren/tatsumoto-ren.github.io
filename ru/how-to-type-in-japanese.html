@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>How to type in Japanese | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="How to type in Japanese | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/how-to-type-in-japanese.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/how-to-type-in-japanese.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#japanese-input">Japanese input</a>
+    </li>
+    <li>
+        <a href="#how-an-ime-works">How an IME works</a>
+    </li>
+    <li>
+        <a href="#locale">Locale</a>
+    </li>
+    <li>
+        <a href="#input-method-framework">Input method framework</a>
+    </li>
+    <li>
+        <a href="#fcitx5-and-kitty">Fcitx5 and Kitty</a>
+    </li>
+    <li>
+        <a href="#input-method-editor">Input method editor</a>
+    </li>
+    <li>
+        <a href="#configuration">Configuration</a>
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+    </li>
+    <li>
+        <a href="#tips">Tips</a>
+    </li>
+    <li>
+        <a href="#android">Android</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1640684087">
+        <h1 class="title"><a class="ablack" href="how-to-type-in-japanese.html">How to type in Japanese</a></h1>
+        <div class="subtitle">28 декабря 2021 &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p align="center">
+<img alt="Japanese keyboard" src="../blog/img/keyboard.webp" style="width: 400px;">
+</p>
+<p>Ever wondered how Japanese people type?
+No one knows the answer.
+Some people say that they use huge keyboards with hundreds of keys like on the picture.
+Luckily for us, we don't have to imitate Japanese people and buy a keyboard like that.
+There are programs called <strong>Input Method Editors</strong> (IMEs)
+that help us do the same thing on a regular computer keyboard.
+With an IME you type Latin letters
+and the software automatically converts them to Japanese characters.</p>
+<p>Typing words in a dictionary,
+searching the web
+or talking to people who pretend to be Japanese on the Internet
+all require being able to input Japanese characters.
+If you're serious about learning Japanese,
+you need to learn how to do it.</p>
+<hr />
+<h2 id="japanese-input"><a class="anchor" href="#japanese-input" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japanese input</h2>
+<p>In <a href="introduction-to-learning-japanese.html#writing-systems">Introduction</a>
+I briefly mentioned what writing systems Japanese has.
+Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana, and kanji.
+The writing systems are covered in their own articles.
+For now you need to understand that
+due to complexity of these writing systems they can't be typed directly.
+In order to type in Japanese, you need to install a number of programs on your computer.</p>
+<h2 id="how-an-ime-works"><a class="anchor" href="#how-an-ime-works" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How an IME works</h2>
+<p>On a PC, the process is as follows.</p>
+<ol>
+<li>You type a Japanese word in roman letters. For example, <code>hiiragi</code>.</li>
+<li><code>ひいらぎ</code> appears on the screen as the IME immediately converts what you type to kana.</li>
+<li>To convert <code>ひいらぎ</code> to <code>柊</code>, the word's kanji form,
+you need to press Space and select from a number of choices.
+Or you can leave the word as is by pressing Enter.</li>
+</ol>
+<p>Japanese people themselves type with
+<abbr title="A representation of Japanese in Latin script.">romaji</abbr>
+when using a computer keyboard.</p>
+<p>Often in Japanese,
+a single word can be spelled multiple ways,
+and different words can be read the same.
+For example, <code>しんちょう</code> could be written as <code>慎重</code>, or as <code>身長</code>.
+This is why you may be given multiple options to choose from when you press Space.</p>
+<p>Let's walk through how to install a Japanese keyboard in GNU+Linux.
+There are actually two components you have to install to set everything up.
+One is called an Input Method Framework (IMF)
+and the other one is called an Input Method Editor (IME).
+An IMF is a program that allows the user to switch between different IMEs,
+whilst the IMEs are responsible for converting Latin characters to Japanese.
+You can have several IMEs installed and running at the same time,
+but you can only run one IMF at a time.</p>
+<h2 id="locale"><a class="anchor" href="#locale" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Locale</h2>
+<p>It is possible that your computer would not let you input Japanese
+unless your locale is correct.
+Set it up following the instructions <a href="japanese-locale.html">here</a>.</p>
+<h2 id="input-method-framework"><a class="anchor" href="#input-method-framework" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Input method framework</h2>
+<p>In this tutorial, I'm going to explain how to use
+<a href="https://wiki.archlinux.org/title/Fcitx5" target="_blank" rel="noopener noreferrer nofollow">Fcitx5</a> [ˈfaɪtɪks],
+but other frameworks are also available.</p>
+<details>
+<summary>Other IMFs</summary>
+<p><a href="https://wiki.archlinux.org/title/IBus" target="_blank" rel="noopener noreferrer nofollow">IBus</a> is preinstalled in GTK-based environments like GNOME.
+If you're using GNOME, chances are that you don't have to configure anything at all.
+Just go to the Settings and enable Japanese input.
+Because I've had problems getting IBus to work with i3wm, I don't recommend it.</p>
+</details>
+<p>This is what you need to do.</p>
+<ol>
+<li>Install Fcitx.</li>
+<li>Enable Fcitx to run on start up.</li>
+<li>Install an IME.</li>
+<li>Configure everything.</li>
+</ol>
+<p>To install <code>Fcitx</code>, run the following command.</p>
+<div class="pre-wrap"><pre><code>sudo pacman -S fcitx5-im
+</code></pre></div>
+<ul>
+<li><code>fcitx5-qt</code> is needed to use Qt6 applications (like Anki 2.1.50 and later) with Fcitx.</li>
+<li>If you're not running an Arch-based distro, find the appropriate packages in the repositories.</li>
+</ul>
+<p>Next on the list, you need to enable autostart.
+Assuming you're starting X11 (<a href="https://wiki.archlinux.org/title/XLibre" target="_blank" rel="noopener noreferrer nofollow">XLibre</a>) using
+<a href="https://wiki.archlinux.org/title/Xinit" target="_blank" rel="noopener noreferrer nofollow">startx/xinit</a>
+like a Chad, the best way to achieve it is to modify <code>~/.xinitrc</code>, adding the following lines.</p>
+<div class="pre-wrap"><pre><code>export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+fcitx5 -dr &amp;
+</code></pre></div>
+<p>I've also noticed it's better to put <code>fcitx5 -dr &amp;</code> in <code>~/.config/i3/config</code> (if you use i3wm)
+instead of X11 startup files, because unlike fcitx4,
+fcitx5 can fail to initialize properly if started before a window manager.</p>
+<p>Note that the
+<a href="https://wiki.archlinux.org/title/Xinit#xinitrc" target="_blank" rel="noopener noreferrer nofollow">xinitrc</a>
+file may be located anywhere on your computer, depending on how you set up your
+<a href="https://wiki.archlinux.org/title/Dotfiles" target="_blank" rel="noopener noreferrer nofollow">dotfiles</a>.
+If you have an
+<a href="https://wiki.archlinux.org/title/Xprofile" target="_blank" rel="noopener noreferrer nofollow">xprofile</a> file,
+and you source it on start up,
+it is also possible to put the commands there.
+It doesn't really matter which file you put the commands in as long as it is sourced on startup.</p>
+<p>If you previously used <code>localectl</code>, <code>setxkbmap</code>, or X configuration files for
+<a href="https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Setting_keyboard_layout" target="_blank" rel="noopener noreferrer nofollow">setting a keyboard layout</a>,
+edit or remove those settings because key bindings set via X11 will interfere with Fcitx.
+You need to disable the key bindings you plan to use in Fcitx.
+For example, to disable the config file created by <code>localectl</code>, run:</p>
+<div class="pre-wrap"><pre><code>sudo mv /etc/X11/xorg.conf.d/00-keyboard.conf{,.old}
+</code></pre></div>
+<p>Also,
+check other config files located in <code>/etc/X11/</code> or <code>/etc/X11/xorg.conf.d</code>.
+If you have <code>setxkbmap</code> commands in your <code>xinitrc</code>, edit them as well.</p>
+<p><span class="article-note">Note</span>: You can look at the contents of my <code>xinitrc</code> file
+<a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/xinitrc" target="_blank" rel="noopener noreferrer nofollow">here</a>.
+I run <a href="https://github.com/tatsumoto-ren/dotfiles/blob/main/.config/x11/keyboard_layouts" target="_blank" rel="noopener noreferrer nofollow">this script</a>
+on startup to automatically start Fcitx when I log in.</p>
+<h2 id="fcitx5-and-kitty"><a class="anchor" href="#fcitx5-and-kitty" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fcitx5 and Kitty</h2>
+<p>By default, <a href="https://wiki.archlinux.org/title/Kitty" target="_blank" rel="noopener noreferrer nofollow">kitty</a> does not work with fcitx. To fix that, add this to your xprofile or xinitrc.
+<a href="https://github.com/kovidgoyal/kitty/issues/469#issuecomment-778814173" target="_blank" rel="noopener noreferrer nofollow">Source</a>.</p>
+<div class="pre-wrap"><pre><code>export GLFW_IM_MODULE=ibus
+</code></pre></div>
+<h2 id="input-method-editor"><a class="anchor" href="#input-method-editor" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Input method editor</h2>
+<p><span class="article-note">Note</span>: <a href="https://fcitx-im.org/wiki/Special:MyLanguage/Input_method_engines#Japanese" target="_blank" rel="noopener noreferrer nofollow">A Wiki page with all input methods</a>.</p>
+<p>I recommend either KKC or Mozc.</p>
+<p>KKC is not as feature-rich as Mozc,
+but it offers a more plug-and-play experience.</p>
+<p>Install <a href="https://archlinux.org/packages/?name=fcitx5-kkc" target="_blank" rel="noopener noreferrer nofollow">fcitx5-kkc</a>.</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S fcitx5-kkc
+</code></pre></div>
+<p>Although Mozc originates from Google Japanese Input, it is free/libre.</p>
+<p>Install <a href="https://archlinux.org/packages/?name=fcitx5-mozc" target="_blank" rel="noopener noreferrer nofollow">fcitx5-mozc</a>.</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S fcitx5-mozc
+</code></pre></div>
+<h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<p>To configure Fcitx, run <code>fcitx5-configtool</code>.
+You can also launch it from an application launcher like
+<a href="https://wiki.archlinux.org/title/Rofi" target="_blank" rel="noopener noreferrer nofollow">Rofi</a>.</p>
+<p>To add input methods,
+type their names into the &quot;Search input method&quot; box.
+Input methods usually do not need extra configuration.
+If you want to explore their settings,
+open the method's menu by clicking the icon that looks like <kbd>☰</kbd> (horizontal lines).</p>
+<p align="center"><img src="../blog/img/fcitx-configure-input-methods.webp" alt="input methods"></p>
+<p align="center"><i>Fcitx settings.</i></p>
+<p>By default,
+you switch between IMEs with <kbd>Ctrl</kbd>+<kbd>Space</kbd>.
+I prefer an add-on called <strong>Input method selector</strong> instead.
+In the config tool, remove the default Trigger hotkey.
+Then go to &quot;Addon&quot; &gt; &quot;Input method selector&quot;, press &quot;Configure&quot; and set Trigger Key.
+I use <kbd>Super</kbd>+<kbd>Space</kbd>.</p>
+<p align="center"><img src="../blog/img/fcitx-configure-im-selector.webp" alt="input methods"></p>
+<p align="center"><i>Enable Input method selector.</i></p>
+<p>Alternatively, edit <code>~/.config/fcitx5/conf/imselector.conf</code> and set:</p>
+<div class="pre-wrap"><pre><code>[TriggerKey]
+0=Super+space
+</code></pre></div>
+<p>Now, when you press <kbd>Super</kbd>+<kbd>Space</kbd>,
+a menu will appear where you can choose an input method.</p>
+<p align="center"><img src="../blog/img/fcitx-im-selector.webp" alt="input methods"></p>
+<p align="center"><i>Input method selector.</i></p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>Using an IME usually means typing what you want,
+then pressing <kbd>Space</kbd> to convert it.
+Every IME wants you to suffer,
+so usage differs slightly between them.
+Don't expect the same keyboard shortcuts across IMEs.
+Some shortcuts may be missing entirely.</p>
+<p>To enable Japanese input in Fcitx,
+press <kbd>Super</kbd>+<kbd>Space</kbd> and select it (Kana-kanji, Mozc, etc.).
+Or click the Fcitx icon in the taskbar and choose a Japanese input method.</p>
+<p>The Kana-kanji keyboard layout has multiple input modes: <code>あ ア ｱ A Ａ</code>.</p>
+<p>To cycle between Latin input modes, press <kbd>Alt</kbd>+<kbd>L</kbd>.
+There are two Direct (Latin) input modes:
+Half-width (<code>English</code>) and the full-width (<code>Ｅｎｇｌｉｓｈ</code>).
+Direct Input types letters exactly as they appear on your keyboard, like an English layout.</p>
+<p>To cycle between Japanese input modes, press <kbd>Alt</kbd>+<kbd>K</kbd>.
+There are three Japanese input modes:
+Hiragana (<code>ひらがな</code>), katakana (<code>カタカナ</code>), and half-width katakana (<code>ｶﾀｶﾅ</code>).
+Hiragana mode activates the input method editor (IME) as you type
+and attempts to interpret your input as Japanese.</p>
+<p>Fcitx can remember the input mode you were using, either <em>per-app</em> or <em>per-window</em>.
+Configure this in <code>fcitx-configtool</code> &gt; &quot;Global Config&quot; &gt; &quot;Share State Among Window&quot;.</p>
+<h2 id="tips"><a class="anchor" href="#tips" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h2>
+<ul>
+<li>Typing with <kbd>Alt</kbd> pressed down forces Latin input.</li>
+<li>When in Hiragana mode,
+pressing <kbd>Alt</kbd>+<kbd>`</kbd> switches to Latin mode.</li>
+<li>KKC: <kbd>Alt</kbd>+<kbd>K</kbd> toggles between hiragana and katakana
+(and their half-width forms).</li>
+<li>KKC: <kbd>Alt</kbd>+<kbd>L</kbd> cycles between full-width and half-width Latin letters.</li>
+<li>Finish and commit edit: <kbd>Enter</kbd>.</li>
+<li>Discard current edit: <kbd>Esc</kbd>.</li>
+<li>Convert, or press again to select a different candidate: <kbd>Space</kbd>.</li>
+<li>Autocomplete: <kbd>Tab</kbd>.</li>
+<li>Navigate candidates: <kbd>Up</kbd> and <kbd>Down</kbd>, or number keys for quick selection.</li>
+<li>Convert to hiragana: <kbd>F6</kbd>.</li>
+<li>Convert to katakana: <kbd>F7</kbd>.</li>
+<li>Convert to half-width katakana: <kbd>F8</kbd>.</li>
+<li>Convert to full-width romaji: <kbd>F9</kbd>.</li>
+<li>Convert to romaji: <kbd>F10</kbd></li>
+<li>Undo last edit: <kbd>Ctrl</kbd>+<kbd>Z</kbd>.</li>
+<li><a href="how-to-type-x-with-fcitx.html">How to type X</a>?</li>
+</ul>
+<h2 id="android"><a class="anchor" href="#android" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android</h2>
+<p>On Android,
+you'll need to download a Japanese keyboard.
+To do this, use
+the <a href="https://f-droid.org/" target="_blank" rel="noopener noreferrer nofollow">F-Droid</a> catalog.</p>
+<p align="center"><img src="../blog/img/f-droid-mozc.webp" alt="input methods" style="width: 400px;"></p>
+<p align="center"><i>Mozc for Android.</i></p>
+<p><span class="article-note">Note</span>: Please read <a href="our-immersion-learning-toolset.html#android">our recommendations</a>
+about using an Android device.
+Be careful with programs not listed on F-Droid.
+They may contain proprietary blobs or malicious functionality
+that typically prevents submission to F-Droid.</p>
+<p>Available Japanese input apps:</p>
+<ul>
+<li><a href="https://github.com/urikdev/Urik" target="_blank" rel="noopener noreferrer nofollow">Urik</a>.
+Privacy-focused Android keyboard with swipe typing, custom layouts, and password manager support.
+<a href="https://f-droid.org/packages/com.urik.keyboard/" target="_blank" rel="noopener noreferrer nofollow">F-Droid</a>.</li>
+<li><a href="https://github.com/KazumaProject/JapaneseKeyboard/" target="_blank" rel="noopener noreferrer nofollow">スミレ 日本語キーボード</a>.
+Sumire is a privacy-first Japanese keyboard for simple, fast typing.
+<a href="https://f-droid.org/packages/com.kazumaproject.markdownhelperkeyboard.lite.fdroid/" target="_blank" rel="noopener noreferrer nofollow">F-Droid</a>.</li>
+<li><a href="https://f-droid.org/packages/org.fcitx.fcitx5.android/" target="_blank" rel="noopener noreferrer nofollow">Fcitx5</a>.
+Supports Japanese input via
+the <a href="https://f-droid.org/packages/org.fcitx.fcitx5.android.plugin.anthy" target="_blank" rel="noopener noreferrer nofollow">Anthy Plugin</a>.</li>
+<li>Gboard.
+Google's proprietary app <strong>Gboard</strong> is <a href="https://www.gnu.org/proprietary/proprietary.html" target="_blank" rel="noopener noreferrer nofollow">malware</a>.
+If you still choose it,
+<strong>block</strong> the app's internet access to limit telemetry.
+Install it using
+<a href="https://f-droid.org/en/packages/com.aurora.store/" target="_blank" rel="noopener noreferrer nofollow">Aurora Store</a>.</li>
+</ul>
+<p>Other FOSS keyboards have open issues requesting a Japanese layout:</p>
+<ul>
+<li><a href="https://github.com/Helium314/HeliBoard/issues/639" target="_blank" rel="noopener noreferrer nofollow">Helium</a></li>
+<li><a href="https://github.com/florisboard/florisboard/issues/2290" target="_blank" rel="noopener noreferrer nofollow">FlorisBoard</a></li>
+</ul>
+<p>Once you've installed an input method,
+launch the app and follow the instructions to set it up.</p>
+<p>Most Japanese people prefer a <strong>12-key layout</strong>.
+Here's what the keyboard looks like.
+In this layout,
+you tap and flick toward the character you want.
+Once you get used to it,
+it's much faster than the QWERTY layout
+because typing words requires fewer total keystrokes.</p>
+<p align="center"><img src="../blog/img/f-droid-mozc-keyboard.webp" alt="input methods" style="width: 400px;"></p>
+<p align="center"><i>Japanese keyboard.</i></p>
+<ul>
+<li>To type the small <code>っ</code> character, select <code>つ</code>, then tap on the <code>大⇔小</code> button and pull up.</li>
+<li>In order to type brackets, simply swipe left and right on the <code>や</code> key.</li>
+<li>By default,
+if you simply pressed the <code>あ</code> button twice,
+you would end up with <code>い</code> instead of <code>ああ</code>.
+This happens because the two inputs register as toggling.
+Instead you need to press <code>あ</code>, then the right arrow (<code>&gt;</code>), then <code>あ</code> again.</li>
+</ul>
+<p>If you don't like the 12 keys keyboard layout,
+you can switch to the QWERTY layout in settings.</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_guide.html">guide</a>
+            <a href="tag_ime.html">ime</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="japanese-locale.html" title="Japanese locale" class="md-button prev">Назад</a>
+        <a href="setting-up-anki.html" title="Anki" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

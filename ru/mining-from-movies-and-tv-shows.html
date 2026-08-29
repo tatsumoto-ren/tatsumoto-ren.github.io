@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>Mining from movies and TV-shows | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Mining from movies and TV-shows | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/mining-from-movies-and-tv-shows.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/mining-from-movies-and-tv-shows.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#mpv">MPV</a>
+    </li>
+    <li>
+        <a href="#mpv-configuration">MPV configuration</a>
+    </li>
+    <li>
+        <a href="#obtain-content">Obtain content</a>
+    </li>
+    <li>
+        <a href="#obtain-subtitles">Obtain subtitles</a>
+    </li>
+    <li>
+        <a href="#sup-subtitles">SUP subtitles</a>
+    </li>
+    <li>
+        <a href="#user-scripts-for-mpv">User-scripts for MPV</a>
+    </li>
+    <li>
+        <a href="#mpvacious">Mpvacious</a>
+            <ol>
+    <li>
+        <a href="#requirements">Requirements</a>
+    </li>
+    <li>
+        <a href="#installation">Installation</a>
+    </li>
+    <li>
+        <a href="#configuration">Configuration</a>
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+    </li>
+    <li>
+        <a href="#creating-cards-without-pausing">Creating cards without pausing</a>
+    </li>
+    <li>
+        <a href="#updating">Updating</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#should-i-use-a-text-hooker-page">Should I use a &#34;text hooker&#34; page?</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1622909216">
+        <h1 class="title"><a class="ablack" href="mining-from-movies-and-tv-shows.html">Mining from movies and TV-shows</a></h1>
+        <div class="subtitle">5 июня 2021 &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p><a href="sentence-mining.html">Sentence mining</a>
+is the process of picking sentences from your immersion and making Anki cards.
+Each sentence has one unknown piece of information,
+which is referred to as <em>target word</em>.</p>
+<p>To mine sentences from movies and TV-shows
+you are going to need the <code>mpv</code> video player,
+and a plugin for mpv called Mpvacious.</p>
+<hr />
+<h2 id="mpv"><a class="anchor" href="#mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MPV</h2>
+<img float="right" src="../blog/img/movies.webp" alt="movies and tv shows">
+<p><code>mpv</code> is the best video player for language learners.
+It is fast, minimal, extensible and compatible with all video formats.
+<code>mpv</code> is available on most distributions of GNU/Linux.
+To install it on Arch Linux, execute the following command:</p>
+<div class="pre-wrap"><pre><code>$ sudo pacman -S mpv
+</code></pre></div>
+<p>Make sure you have version 0.33.0 or later.
+If such a version is not available on your distribution, see
+<a href="https://mpv.io/installation/" target="_blank" rel="noopener noreferrer nofollow">here</a>
+for different installation options.</p>
+<h2 id="mpv-configuration"><a class="anchor" href="#mpv-configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MPV configuration</h2>
+<p>Start <code>mpv</code> at least once to create the config folder
+which will be located at <code>~/.config/mpv/</code>.</p>
+<p><code>mpv</code> reads its configuration from the following directories/files:</p>
+<ul>
+<li><code>~/.config/mpv/mpv.conf</code>.
+The main config file.
+Contains settings related to the player itself.</li>
+<li><code>~/.config/mpv/input.conf</code>. Key bindings.
+Apart from the player's key bindings,
+it can also contain key bindings of third-party user-scripts.</li>
+<li><code>~/.config/mpv/scripts</code>.
+Contains user-scrips.
+User scripts are small programs that extend the player's functionality.
+Usually each user-script is installed in its own folder.</li>
+<li><code>~/.config/mpv/script-opts</code>.
+Config files used by the installed user-scripts.
+Some user-scripts don't have configuration files.</li>
+</ul>
+<p>Note that
+not all the directories or files listed above are created automatically.</p>
+<p>To configure mpv,
+create and open <code>~/.config/mpv/mpv.conf</code>.
+This step is not strictly necessary.</p>
+<details>
+<summary>Example configuration file</summary>
+<div class="pre-wrap"><pre><code># Define language preferences
+alang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
+slang=ja,jp,jpn,japanese,en,eng,english,English,enUS,en-US
+
+# mpv will resume where you left off when you reopen a media file
+save-position-on-quit=yes
+
+# Automatically use external subtitle files that contain the name of the media file
+sub-auto=fuzzy
+subs-with-matching-audio=yes
+
+# Additional folders for storing subtitle files.
+# You can drop all subs in the &quot;subs&quot; folder to keep files organized.
+sub-file-paths=ass:srt:sub:subs:subtitles
+
+# Subtitle font. Make sure the font you select is installed
+# and contains all characters that are included in your subtitle files.
+# https://archlinux.org/packages/extra/any/noto-fonts-cjk/
+sub-font=&quot;Noto Sans CJK JP Regular&quot;
+
+# Change subtitle font size.
+sub-font-size=40
+
+# Uncomment this if you want mpv to override styles from SubStation Alpha (.ssa/.ass) subtitles
+# sub-ass-override=force
+
+# Improves audio when the playback speed is changed.
+af-add=scaletempo2
+
+# Screenshots
+screenshot-directory=&quot;~/Pictures/Screenshots/&quot;
+screenshot-template=&quot;%F_%wHh%wMm%wSs%wTms&quot;
+screenshot-format=jpg
+screenshot-jpeg-quality=90
+screenshot-high-bit-depth=yes
+</code></pre></div>
+</details>
+<p><span class="article-note">Note</span>:
+To tell mpv to show subtitles in the font you selected in the config, press <code>u</code>.
+If you want to make the setting permanent, add <code>sub-ass-override=force</code> to <code>mpv.conf</code>.</p>
+<p><code>~/.config/mpv/input.conf</code> contains key bindings.
+For all available bindings, see <code>/usr/share/doc/mpv/input.conf</code>.</p>
+<details>
+<summary>Example input.conf</summary>
+<div class="pre-wrap"><pre><code># Increase / decrease subtitle font size
+# Works only when sub-ass-override=force
+# https://www.reddit.com/r/mpv/comments/dg5yzj/trouble_decreasing_subtitles_size/
+/ add sub-scale +0.1
+? add sub-scale -0.1
+
+# Cycle video aspect ratios; &quot;-1&quot; is the container aspect
+A cycle-values video-aspect &quot;16:9&quot; &quot;16:10&quot; &quot;4:3&quot; &quot;2.35:1&quot; &quot;-1&quot;
+
+# Vim-like seeking
+l seek  5
+h seek -5
+j seek -60
+k seek  60
+
+# Cycle between subtitle files
+K cycle sub
+J cycle sub down
+
+# Skip to previous/next subtitle line (disabled - use Mpvacioius)
+#H no-osd sub-seek -1
+#L no-osd sub-seek 1
+
+# Search sub-text on Jisho.org
+# https://github.com/mpv-player/mpv/issues/4695#issuecomment-609876072
+Ctrl+j run &quot;/bin/sh&quot; &quot;-c&quot; &quot;xdg-open 'https://jisho.org/search?keyword=${sub-text}'&quot;
+
+# skip to next/previous file
+&gt; playlist-next
+&lt; playlist-prev
+
+# Add/subtract 50 ms delay from subs
+Z add sub-delay +0.05
+z add sub-delay -0.05
+
+# Adjust timing to previous/next subtitle
+X sub-step 1
+x sub-step -1
+
+# Toggle OSD visibility
+V script-binding visibility
+</code></pre></div>
+</details>
+<h2 id="obtain-content"><a class="anchor" href="#obtain-content" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain content</h2>
+<p>Always download what you watch.
+This way it's easier to work with the files,
+make Anki cards,
+take screenshots,
+cut clips,
+<a href="passive-listening.html">make condensed audio</a>,
+and so on.
+Don't use &quot;services&quot; that spy on you such as Netflix, Hulu, VRV, Funimation or Crunchyroll.</p>
+<p>Attempts to create flashcards from streamed video files often fail.
+As a workaround,
+the user can record audio and take a screenshot manually,
+but it is not convenient at all.</p>
+<p>Explore <a href="resources.html#immersion-material">Immersion material</a> to find Japanese content
+and <a href="resources.html#downloading">Download tools</a> for a ways to download it.</p>
+<h2 id="obtain-subtitles"><a class="anchor" href="#obtain-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obtain subtitles</h2>
+<p>To learn Japanese from visual content such as anime or jdramas,
+you need Japanese subtitles.
+Subtitles can be found on the <a href="resources.html#japanese-subtitles">Resources page</a>.
+Don't forget that if you have English subtitles enabled,
+at best you're going to improve your English,
+but your Japanese is not going to get any better.</p>
+<p>I find that it's easier to download all the subtitles for all the shows and have them saved locally.
+This may require a few GiB of disk space,
+but it will save you the hassle of having to visit subtitle catalogs
+every time you need to find subtitles.
+For example, if you download
+the <a href="https://github.com/Ajatt-Tools/kitsunekko-mirror" target="_blank" rel="noopener noreferrer nofollow">mirror of kitsunekko</a>,
+you can use
+<a href="https://wiki.archlinux.org/title/Lf" target="_blank" rel="noopener noreferrer nofollow">lf</a> to browse it,
+and <a href="https://wiki.archlinux.org/title/Fzf" target="_blank" rel="noopener noreferrer nofollow">fzf</a> to search it.
+<a href="https://redirect.invidious.io/watch?v=WVDRbR7C6js" target="_blank" rel="noopener noreferrer nofollow">Watch a demonstration on <img src="../blog/img/youtube_logo.webp" alt="YouTube" /></a>.</p>
+<video width="1920" controls>
+	<source src="../blog/vid/search_anime_subtitles.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/search_anime_subtitles.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/search_anime_subtitles.mp4" type="video/mp4">
+</video>
+<p>In the video,
+I'm using a <a href="https://wiki.archlinux.org/title/Bash#Aliases" target="_blank" rel="noopener noreferrer nofollow">shell alias</a>
+to enter the directory with Japanese anime subtitles.
+I'm also using keyboard shortcuts to call <code>fzf</code> and <code>lf</code>.
+Shortcuts and aliases can be
+<a href="https://wiki.archlinux.org/title/Zsh#Configure_Zsh" target="_blank" rel="noopener noreferrer nofollow">configured</a> in the <code>.zshrc</code> file.</p>
+<div class="pre-wrap"><pre><code># Change directory
+alias subs='cd -- &quot;/path/to/directory&quot;'
+# Ctrl+O to launch lf file manager.
+bindkey -s '^o' '^ulf\n'
+# Ctrl+F to search directory with fzf.
+bindkey -s '^f' '^ucd -- &quot;$(dirname -- &quot;$(fzf)&quot;)&quot;\n'
+</code></pre></div>
+<p>To create your own local mirror of <code>kitsunekko</code>,
+use <a href="https://github.com/Ajatt-Tools/kitsunekko-tools" target="_blank" rel="noopener noreferrer nofollow">kitsunekko-tools</a>.
+This simple program downloads all files from <code>kitsunekko</code>
+and saves them in a specified directory on your hard drive.
+You need roughly <code>8</code> GiB on your disk
+to store a copy of the entire subtitle catalogue.</p>
+<p>If you can't find target language subtitles for a video,
+you can generate them using <a href="https://aur.archlinux.org/packages/pytranscriber-bin" target="_blank" rel="noopener noreferrer nofollow">pyTranscriber</a>.
+You're going to get <abbr title="with errors">cursed subtitles</abbr>, but it's better than nothing.
+I have used it a few times for Japanese.</p>
+<p>If you want to synchronize the subtitles, see
+<a href="retiming-subtitles.html">Retiming subtitles</a>.</p>
+<h2 id="sup-subtitles"><a class="anchor" href="#sup-subtitles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SUP subtitles</h2>
+<p>Sometimes the only subtitle files
+available for a particular video are image-based (<code>.sup</code> or <code>.sub</code>).
+Often this is the case with subtitles for movies.
+They don't contain any text and by themselves are not very useful.
+SUP files can be converted to plain text (<code>.srt</code>)
+using OCR (Optical Character Recognition) programs
+such as <a href="https://aur.archlinux.org/packages/subtitleedit" target="_blank" rel="noopener noreferrer nofollow">subtitleedit</a>.</p>
+<h2 id="user-scripts-for-mpv"><a class="anchor" href="#user-scripts-for-mpv" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User-scripts for MPV</h2>
+<p><code>mpv</code> is highly configurable and extensible,
+allowing users to customize its interface and functionality.
+One way to do this is through user-scripts,
+which are scripts that can modify <code>mpv</code>'s behavior and add new features.
+User-scripts are written in languages such as Lua or JavaScript.</p>
+<p>You can find a list of user-scripts for <code>mpv</code> <a href="https://github.com/mpv-player/mpv/wiki/User-Scripts" target="_blank" rel="noopener noreferrer nofollow">here</a>.</p>
+<h2 id="mpvacious"><a class="anchor" href="#mpvacious" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mpvacious</h2>
+<p><a href="https://github.com/Ajatt-Tools/mpvacious" target="_blank" rel="noopener noreferrer nofollow">Mpvacious</a>
+is a user-script for the mpv video player
+that allows you to make Anki cards
+while watching movies and TV shows in your target language.</p>
+<p>Mpvacious can update Anki cards you add with
+<a href="setting-up-goldendict.html">GoldenDict</a>,
+<a href="setting-up-yomichan.html">Rikaitan</a>,
+or any other tool that works with AnkiConnect.
+When you create a new note,
+Mpvacious adds media (audio and images) to the note.
+<a href="https://redirect.invidious.io/watch?v=vU85ramvyo4" target="_blank" rel="noopener noreferrer nofollow">Watch a demonstration on <img src="../blog/img/youtube_logo.webp" alt="YouTube" /></a>.</p>
+<video width="1920" controls>
+	<source src="../blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/sentence_mining_with_mpvacious.mp4" type="video/mp4">
+</video>
+<p>The user-script has a long list of features and configuration options.
+For details explore the <a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/README.md" target="_blank" rel="noopener noreferrer nofollow">documentation on GitHub</a>.
+Below I'm going to write about how I use it.</p>
+<h3 id="requirements"><a class="anchor" href="#requirements" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h3>
+<p>Mpvacious needs
+<a href="https://ankiweb.net/shared/info/2055492159" target="_blank" rel="noopener noreferrer nofollow">AnkiConnect</a>
+to work.
+If you're using X11 (<a href="https://wiki.archlinux.org/title/XLibre" target="_blank" rel="noopener noreferrer nofollow">XLibre</a>),
+<a href="https://archlinux.org/packages/extra/x86_64/xclip/" target="_blank" rel="noopener noreferrer nofollow">xclip</a>
+is required to copy text to the clipboard.
+<a href="https://archlinux.org/packages/extra/x86_64/wl-clipboard/" target="_blank" rel="noopener noreferrer nofollow">wl-copy</a>
+is required on Wayland.</p>
+<h3 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h3>
+<p>Mpvacious can be installed with <code>git</code>:</p>
+<div class="pre-wrap"><pre><code>$ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+</code></pre></div>
+<h3 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h3>
+<p>Download the
+<a href="https://github.com/Ajatt-Tools/mpvacious/blob/master/mpvacious/config/default_config.conf" target="_blank" rel="noopener noreferrer nofollow">example config file</a>
+and save it to <code>~/.config/mpv/script-opts/subs2srs.conf</code>.
+If you use the Note Type from the
+<a href="setting-up-anki.html#import-an-example-mining-deck">recommended mining deck</a>,
+you don't need to change any settings at all.
+If you don't, make sure to adjust at least the following variables:</p>
+<ul>
+<li><code>sentence_field</code></li>
+<li><code>audio_field</code></li>
+<li><code>image_field</code></li>
+</ul>
+<h3 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h3>
+<ol>
+<li>
+<p>Make sure Anki is running.</p>
+</li>
+<li>
+<p>Open a video in mpv.</p>
+</li>
+<li>
+<p>Press <kbd>Ctrl</kbd>+<kbd>T</kbd> to activate clipboard autocopy.</p>
+</li>
+<li>
+<p>Open <a href="setting-up-goldendict.html">GoldenDict</a>
+or open your web browser and activate <a href="what-is-yomichan-search.html">Rikaitan Search</a>.</p>
+</li>
+<li>
+<p>Enable GoldendDict's &quot;Scan Popup&quot; or enable clipboard monitor in Rikaitan Search.</p>
+</li>
+<li>
+<p>When there is a word you want to mine, create a new card.</p>
+</li>
+<li>
+<p>By default,
+Mpvacious will automatically add media to your card.</p>
+<p>If the &quot;new note timer&quot; is disabled,
+go back to the <code>mpv</code> window and press <kbd>Ctrl</kbd>+<kbd>M</kbd>.</p>
+<p>If you want to grab a sentence that spans multiple lines,
+press <kbd>A</kbd> to open the advanced menu.
+Then mark the lines you want to appear on the card
+by pressing <kbd>C</kbd> and moving the position with <kbd>Shift</kbd>+<kbd>H</kbd> and <kbd>Shift</kbd>+<kbd>L</kbd>.
+Finish by pressing <kbd>M</kbd>.</p>
+</li>
+<li>
+<p>The Anki Browser window should appear with the card updated.</p>
+</li>
+</ol>
+<p>See <a href="https://github.com/Ajatt-Tools/mpvacious/tree/master/howto" target="_blank" rel="noopener noreferrer nofollow">How to</a> for more detailed explanations.</p>
+<h3 id="creating-cards-without-pausing"><a class="anchor" href="#creating-cards-without-pausing" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating cards without pausing</h3>
+<p>You can save sentences for later without adding definitions.
+Since you don't have to pause to read the dictionary, this approach is less disruptive.
+Press <code>Ctrl+n</code> to add the current subtitle line to Anki as a new card.
+When you finish watching, open the Anki Browser and type <code>added:1</code> to display cards added today.
+Finally, add dictionary definitions to the cards.</p>
+<p>If you want to create a card from multiple adjacent subtitle lines,
+do it using the advanced menu as described in the previous section.</p>
+<h3 id="updating"><a class="anchor" href="#updating" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating</h3>
+<p>To update Mpvacious, run the command below:</p>
+<div class="pre-wrap"><pre><code>$ cd ~/.config/mpv/scripts/subs2srs &amp;&amp; git pull
+</code></pre></div>
+<h2 id="should-i-use-a-text-hooker-page"><a class="anchor" href="#should-i-use-a-text-hooker-page" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Should I use a &quot;text hooker&quot; page?</h2>
+<p>No.</p>
+<p>Though you often see such recommendations,
+I think it unnecessarily complicates your setup.
+<a href="setting-up-goldendict.html">GoldenDict</a> or
+<a href="what-is-yomichan-search.html">Rikaitan Search</a>
+can do the same thing simpler.</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_guide.html">guide</a>
+            <a href="tag_mpv.html">mpv</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="anki-japanese-support.html" title="Japanese support add-on" class="md-button prev">Назад</a>
+        <a href="immersion-with-youtube.html" title="YouTube" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>Japanese support for Anki | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Japanese support for Anki | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/anki-japanese-support.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/anki-japanese-support.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#installation">Installation</a>
+    </li>
+    <li>
+        <a href="#neologism-dictionary">Neologism dictionary</a>
+    </li>
+    <li>
+        <a href="#overview">Overview</a>
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+    </li>
+    <li>
+        <a href="#configuration">Configuration</a>
+    </li>
+    <li>
+        <a href="#profiles">Profiles</a>
+    </li>
+    <li>
+        <a href="#furigana">Furigana</a>
+    </li>
+    <li>
+        <a href="#pitch-output-format">Pitch output format</a>
+    </li>
+    <li>
+        <a href="#pitch-accent-style">Pitch accent style</a>
+    </li>
+    <li>
+        <a href="#color-coding">Color coding</a>
+    </li>
+    <li>
+        <a href="#audio-files">Audio files</a>
+            <ol>
+    <li>
+        <a href="#available-audio-formats">Available audio formats</a>
+    </li>
+    <li>
+        <a href="#online-audio-sources">Online audio sources</a>
+    </li>
+    <li>
+        <a href="#offline-audio-sources">Offline audio sources</a>
+    </li>
+    <li>
+        <a href="#audio-search-dialog">Audio Search dialog</a>
+    </li>
+    <li>
+        <a href="#audio-settings">Audio settings</a>
+    </li>
+    <li>
+        <a href="#creating-a-custom-audio-source">Creating a custom audio source</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#context-menu">Context menu</a>
+    </li>
+    <li>
+        <a href="#overrides">Overrides</a>
+    </li>
+    <li>
+        <a href="#pitch-artist">Pitch artist</a>
+    </li>
+    <li>
+        <a href="#conclusion">Conclusion</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1681292213">
+        <h1 class="title"><a class="ablack" href="anki-japanese-support.html">Japanese support for Anki</a></h1>
+        <div class="subtitle">12 апреля 2023 (updated 5 июля 2026) &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p><a href="setting-up-anki.html">Anki</a>
+can be used
+to learn a variety of different subjects,
+including languages.
+What makes Anki such a fantastic tool for Japanese learners is the vast array of plugins or &quot;add-ons&quot;
+that extend its functionality.
+One of the most useful add-ons for learning Japanese is
+<a href="https://ankiweb.net/shared/info/1344485230" target="_blank" rel="noopener noreferrer nofollow">AJT Japanese</a>.
+Its main features include
+adding furigana,
+adding pitch accent information,
+and adding pronunciation audio files to Anki cards.</p>
+<hr />
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p>The installation process is similar to other Anki plugins and can be accomplished in three steps:</p>
+<ol>
+<li>Open the &quot;Install Add-on&quot; dialog by selecting &quot;Tools&quot; &gt; &quot;Add-ons&quot; &gt; &quot;Get Add-ons...&quot; in Anki.</li>
+<li>Input <code>1344485230</code> into the text box labeled <code>Code</code> and press the OK button to proceed.</li>
+<li>Restart Anki when prompted to do so in order to complete the installation of AJT Japanese.</li>
+</ol>
+<h2 id="neologism-dictionary"><a class="anchor" href="#neologism-dictionary" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Neologism dictionary</h2>
+<img src="../blog/img/鳥でも分かる.webp" float="right">
+<p>To improve parsing quality (not necessary, but recommended), install these AUR packages:</p>
+<ul>
+<li><a href="https://aur.archlinux.org/packages/mecab-git" target="_blank" rel="noopener noreferrer nofollow">mecab</a></li>
+<li><a href="https://aur.archlinux.org/packages/mecab-ipadic-neologd-git" target="_blank" rel="noopener noreferrer nofollow">mecab-ipadic-neologd</a></li>
+</ul>
+<p>To install AUR packages, you can use <a href="https://github.com/trizen/trizen/blob/master/TRIZEN.md" target="_blank" rel="noopener noreferrer nofollow">Trizen</a>
+or any other AUR helper.</p>
+<p>If you install the <code>mecab-ipadic-neologd</code> AUR package,
+AJT Japanese will try to use
+<code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code> as a system <code>dicdir</code> for Mecab
+when Anki starts.
+If neologd is not found in this directory,
+the add-on will try to search other directories on the hard drive.</p>
+<details>
+<summary>Expected locations</summary>
+<ul>
+<li><code>/usr/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/usr/local/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/opt/homebrew/lib/mecab/dic/mecab-ipadic-neologd</code></li>
+<li><code>/usr/lib/mecab/dic/ipadic</code></li>
+<li><code>/usr/local/lib/mecab/dic/ipadic</code></li>
+<li><code>/opt/homebrew/lib/mecab/dic/ipadic</code></li>
+</ul>
+</details>
+<p>If the directory is not found in either of the expected directories,
+the add-on will fall back to the built-in dictionary,
+which is smaller (to fit on AnkiWeb).</p>
+<h2 id="overview"><a class="anchor" href="#overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p>The AJT Japanese add-on provides a range of features
+to make learning Japanese easier.
+The main feature is the furigana generation,
+which automatically adds <a href="https://ja.wikipedia.org/wiki/%E6%8C%AF%E3%82%8A%E4%BB%AE%E5%90%8D" target="_blank" rel="noopener noreferrer nofollow">furigana</a>
+— readings of kanji characters.
+The readings appear as small kana characters above the kanji.
+When a card is created or modified by the user,
+furigana will be placed to a dedicated field,
+allowing the user to learn how words should be read.
+If a word has many readings,
+the add-on will print a list of readings, separated by commas by default.
+The learner needs to be aware that a word can be read different ways
+and learn the reading relevant to the example sentence the word is used in.</p>
+<p><span class="article-note">Note</span>: Apart from some corner cases,
+we always recommend <a href="discussing-various-card-templates.html#targeted-sentence-cards">having an example sentence</a>
+displayed on the front side of a flashcard.
+Words never exist in isolation, people use them to form sentences.
+Without reading a usage example it is nearly impossible to reason
+about the meaning or reading of a word.</p>
+<p>Another important aspect of the Japanese language is pitch accent.
+<a href="japanese-pitch-accents.html">Pitch accent</a>
+is taken very seriously among Japanese learners,
+and especially among AJATTers.
+Most people study it diligently.
+If you don't know pitch accent of a word, you don't know how to say it.
+AJT Japanese offers two ways to add pitch accent information to your Anki cards.
+It can add <a href="understanding-monolingual-definitions.html#understanding-pitch-accent">pitch numbers</a> or pitch patterns to cards.
+Pattern and number can be placed in separate fields or combined in one field.
+Pitch accent <strong>pattern</strong> indicates the rising and falling tone that occurs when speaking.
+Pitch accent <strong>number</strong> indicates the number of a <a href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%A9" target="_blank" rel="noopener noreferrer nofollow">mora</a>
+after which the tone of the voice <strong>drops</strong> from high to low,
+when counting morae from the beginning of the word.
+Most of the time pitch drops only once in a given word,
+so its entire accent can be represented with one number.
+In a few corner cases the add-on will output two digits.</p>
+<p>Of course,
+the best way to learn correct pronunciation is to hear it.
+AJT Japanese includes built-in support for adding pronunciation audio to your cards.
+By default, it comes with audio sources provided by Ajatt-Tools,
+and supports adding custom sources.
+Any user can create their own audio sources.
+The audio files provided by default come from Japanese accent dictionaries,
+so they are pretty accurate.
+Audio sources can be online or offline.
+Online audio sources fetch audio files from the Internet,
+whilst offline audio sources are stored locally.
+If you have additional disk space on your computer,
+it is recommended to download and use offline sources
+to ensure that audio files are added instantly.
+The default audio sources are online.</p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>If you have fields named <code>VocabKanji</code>, <code>VocabFurigana</code>, <code>VocabPitchPattern</code>, <code>VocabAudio</code> on your notes,
+the lookups will be performed on the <code>VocabKanji</code> field,
+furigana will be added to the <code>VocabFurigana</code> field,
+accents will be added to the <code>VocabPitchPattern</code> field,
+and audio will be added to the <code>VocabAudio</code> field.</p>
+<video width="1032" autoplay loop controls muted>
+	<source src="../blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://user-images.githubusercontent.com/69171671/230740335-8e374dfb-6965-47c8-bc51-20d5e683b1b2.mp4" type="video/mp4">
+	<source src="https://tatsumoto-ren.github.io/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+	<source src="https://ajatt.top/blog/vid/ajt_japanese_generate.mp4" type="video/mp4">
+</video>
+<p align="center"><i>Video demonstration.</i></p>
+<p>To generate readings, accents and audio,
+focus in the <code>VocabKanji</code> field and press <kbd>Tab</kbd> or switch focus away from the field.</p>
+<p>You can change field names or add more source and destination fields in Options.</p>
+<p>When a new card is created via AnkiConnect
+(by using <a href="setting-up-yomichan.html">Rikaitan</a>, <a href="setting-up-goldendict.html">GoldenDict</a>, etc.),
+the add-on detects such events and will append the needed information to the card as well.</p>
+<p>In the Anki Browser's toolbar you will find the following buttons:</p>
+<ul>
+<li>Regenerate all fields.
+A shortcut that allows you to replace all readings,
+accents and audio files with freshly generated information.</li>
+<li>Generate furigana in field.
+Replace the content of the current field with the same text but with furigana added.</li>
+<li>Reconvert field as hiragana.
+Replace all kanji with their kana readings.</li>
+<li>Clean furigana in field.
+Remove all text in brackets, effectively removing furigana.</li>
+</ul>
+<p>Some of these buttons are off by default.
+Check the configuration.</p>
+<p>In the Anki Browser's context menu actions you will find the following options:</p>
+<ul>
+<li>Pitch accent lookup.
+Show a window with the currently selected text split into individual words,
+with pitch accent information shown next to each word.</li>
+<li>Furigana for selection.
+Add furigana to the selected text.</li>
+<li>Convert to katakana.
+Replace hiragana characters with katakana characters.</li>
+<li>Convert to hiragana.
+Replace katakana characters with hiragana characters.</li>
+<li>Literal pronunciation.
+Convert selected text to a form that resembles the way it is actually pronounced.
+Implies conversion to katakana and replacement of certain characters.</li>
+<li>Look up in GoldenDict.
+A handy shortcut to send the selected text to GoldenDict.
+Requires GoldenDict to be
+<a href="setting-up-goldendict.html">installed</a>
+and <a href="how-do-i-add-a-directory-to-the-path.html">added to the PATH</a>.</li>
+<li>Browser search.
+Search the current selection in Anki Browser.</li>
+</ul>
+<h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<p>To configure the add-on, open Anki and select &quot;AJT&quot; &gt; &quot;Japanese Options...&quot;.</p>
+<h2 id="profiles"><a class="anchor" href="#profiles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiles</h2>
+<p>Each of the three main features works according to profiles
+which are created by the user.
+A profile specifies a source field, a destination field, and what triggers the profile.
+When the specified conditions are met, the profile invokes a task associated with it.
+For example, when the Note Type is Japanese and the source field is <code>VocabKanji</code>,
+the task is to write furigana to the <code>VocabFurigana</code> field.</p>
+<p>The &quot;note type&quot; parameter specifies a substring to match all note types
+for which you want the profile to work.
+The profile will be triggered for note type names that contain this string.
+Note type name matching is case-insensitive.
+For example,
+if you have note types named &quot;Japanese sentences&quot;, &quot;English sentences&quot;, and &quot;Japanese words&quot;,
+you can put &quot;japanese&quot; into the &quot;note type&quot; field,
+and the profile will be triggered for &quot;Japanese sentences&quot; and &quot;Japanese words&quot; note types.</p>
+<p>The <code>split morphemes</code> setting determines whether an input string should be split into words.
+It makes sense to enable splitting for fields that are expected to contain more than one word,
+but keep it disabled for fields that are expected to contain only one word.</p>
+<p>The <code>overwrite_destination</code> setting determines whether the contents of the destination field
+should be replaced if the field is already filled.
+By default, if a field already contains data, it won't be modified.</p>
+<p>Profile types are tried in this order:</p>
+<ol>
+<li>Furigana</li>
+<li>Pitch accent</li>
+<li>Audio</li>
+</ol>
+<p>If there is more than one profile inside a profile type,
+the profiles are tried in the order they are listed.</p>
+<p>Each task can be triggered by one of the 4 callers:</p>
+<ol>
+<li><code>Focus lost</code>. When the user presses <kbd>Tab</kbd> or switches focus away
+from the selected source field in the Browser or in the Add dialog.</li>
+<li><code>Toolbar button</code>. When the user presses the &quot;Regenerate all fields&quot; button in the Browser's toolbar.</li>
+<li><code>Note added</code>. When AnkiConnect adds a new note,
+but not when the user adds a note manually via the Add dialog.</li>
+<li><code>Bulk add</code>. When the user presses the &quot;Bulk-generate&quot; button in the Browser's &quot;Edit&quot; menu.</li>
+</ol>
+<p>When editing a profile, you can select what callers the profile should &quot;answer&quot; to.
+For example, you can generate furigana when focus is lost but not when a note is added.</p>
+<h2 id="furigana"><a class="anchor" href="#furigana" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Furigana</h2>
+<p>Furigana can be configured in &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Furigana&quot;.</p>
+<img float="right" src="../blog/img/ajt-japanese-furigana-display.webp">
+<p>By default,
+for each word you can get up to 3 different readings.
+Normally,
+when there's more than one reading,
+they stack on top of each other.
+<a href="setting-up-anki.html#import-an-example-mining-deck">Import the example mining deck</a>
+to ensure that furigana is displayed correctly.</p>
+<p>As a workaround you can change &quot;Reading separator&quot; to <code>&lt;br&gt;</code>
+but it won't have the same effect.</p>
+<p>If you want to generate only one reading for a word,
+you can change &quot;Maximum results&quot; to 1.
+However,
+I think it's nice to have more than one reading visible.
+Sometimes,
+if the results are not desirable,
+you can edit them.</p>
+<h2 id="pitch-output-format"><a class="anchor" href="#pitch-output-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch output format</h2>
+<p>Pitch output format can be configured in
+&quot;AJT&quot; &gt; &quot;Japanese Options&quot; &quot;Pitch Accent&quot; &gt; selected profile &gt; &quot;Output format&quot;.
+It can be one of the following:</p>
+<ul>
+<li>Html</li>
+<li>Html and number</li>
+<li>Number</li>
+<li>Svg</li>
+</ul>
+<p>When set to &quot;Html&quot;,
+the tone of the voice is marked using HTML tags and styles.
+When set to &quot;Svg&quot;,
+the add-on generates SVG pictures to allow for a more elaborate graphical representation.
+&quot;Number&quot; simply indicates
+<a href="understanding-monolingual-definitions.html#understanding-pitch-accent">where pitch drops</a>.</p>
+<p>Appearance of SVG graphs can be configured in
+&quot;AJT&quot; &gt; &quot;Japanese options&quot; &gt; &quot;SVG graphs&quot;.
+There are many knobs,
+but you can play with them while looking at the previews on the right side if you want.
+These settings take effect if you have &quot;Output format&quot; set to &quot;Svg&quot;.</p>
+<p align="center"><img src="../blog/img/ajt-japanese-svg-opts.webp" alt="SVG output format"/></p>
+<p align="center"><i>SVG output format.</i></p>
+<p align="center"><img src="../blog/img/ajt-japanese-svg-appearance.webp" alt="change SVG appearance"/></p>
+<p align="center"><i>SVG appearance settings.</i></p>
+<details>
+<summary>SVG: Further styling</summary>
+<p>You can achieve further customization by applying styles to SVG tags
+in your Note Type's Styling section.
+To access this, go to &quot;Anki&quot; &gt; &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; &quot;Cards&quot; &gt; &quot;Styling.&quot;</p>
+<p>For example, to color the SVG graphs in <em>white</em>, you can add the following styles:</p>
+<div class="pre-wrap"><pre><code>.ajt__pitch_svg text {
+    fill: white;
+}
+.ajt__pitch_svg circle:not(.devoiced) {
+    fill: white;
+    stroke: white;
+}
+.ajt__pitch_svg circle.devoiced {
+    fill: none;
+    stroke: white;
+}
+.ajt__pitch_svg line {
+    stroke: white;
+}
+</code></pre></div>
+<p>Or, if you want to color all nakadaka words in <em>orange</em>, use this code:</p>
+<div class="pre-wrap"><pre><code>.ajt__pitch_svg .nakadaka text {
+    fill: orange;
+}
+.ajt__pitch_svg .nakadaka circle:not(.devoiced) {
+    fill: orange;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka circle.devoiced {
+    fill: none;
+    stroke: orange;
+}
+.ajt__pitch_svg .nakadaka line {
+    stroke: orange;
+}
+</code></pre></div>
+</details>
+<h2 id="pitch-accent-style"><a class="anchor" href="#pitch-accent-style" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch accent style</h2>
+<p>Pitch accent style can be configured in &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Pitch Accent&quot; &gt; &quot;HTML style&quot;.
+This setting is applied when pitch output format is set to &quot;Html&quot; or &quot;Html and Number&quot;.
+The following styles are built-in:</p>
+<ol>
+<li>
+<p><code>javdejong</code>.
+The style used in the original Japanese Pitch Accent Anki add-on by <code>javdejong</code>.</p>
+<ul>
+<li>Overline: indicates &quot;High&quot; pitch.</li>
+<li>Downfall arrow: indictates an end of moras with &quot;High&quot; accent.</li>
+<li>Red circle mark: nasal pronunciation、e.g. <code>げ</code> would be a nasal <code>け゚</code>.</li>
+<li>Blue color: devoiced. Barely pronounced at all.</li>
+</ul>
+</li>
+<li>
+<p><code>u-biq</code>.
+The style used to show pitch on the <a href="https://accent.u-biq.org/" target="_blank" rel="noopener noreferrer nofollow">u-biq website</a>.</p>
+<ul>
+<li>Overline: indicates &quot;High&quot; pitch.</li>
+<li>Underline: indicates &quot;Low&quot; pitch.</li>
+<li>Red circle mark: nasal pronunciation.</li>
+<li>Blue color: devoiced.</li>
+</ul>
+</li>
+<li>
+<p><code>kanjium</code>.
+Style which is part of the <a href="https://github.com/mifunetoshiro/kanjium" target="_blank" rel="noopener noreferrer nofollow">kanjium project</a>.</p>
+<ul>
+<li>Overline: indicates &quot;High&quot; pitch.</li>
+<li>⌝: indictates an end of moras with &quot;High&quot; accent.</li>
+<li>Red circle mark: nasal pronunciation.</li>
+<li>Blue color: devoiced.</li>
+</ul>
+</li>
+</ol>
+<p align="center"><img src="../blog/img/ajt-japanese-pitch-html-style.webp" alt="change HTML style"/></p>
+<p align="center"><i>HTML style settings.</i></p>
+<p>The last option, <code>None</code> allows you to configure your own style
+using CSS classes in your Note Type's Styling section
+(&quot;Anki&quot; &gt; &quot;Tools&quot; &gt; &quot;Manage Note Types&quot; &gt; &quot;Cards&quot; &gt; &quot;Styling&quot;).
+You can define CSS rules for the following classes:</p>
+<ul>
+<li><code>.low</code>. Low accent, e.g., an underline.</li>
+<li><code>.low_rise</code>. Low accent, then rise.</li>
+<li><code>.high</code>. High accent, e.g., an overline.</li>
+<li><code>.high_drop</code>. High accent, then drop.</li>
+<li><code>.nasal</code>. Nasal sound, e.g., shown in a different color.</li>
+<li><code>.handakuten</code>. The <code>°</code> mark that is a part of a nasal sound.</li>
+<li><code>.devoiced</code>. Devoiced sound.</li>
+</ul>
+<h2 id="color-coding"><a class="anchor" href="#color-coding" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Color coding</h2>
+<p>Because humans have extremely strong visual memories,
+color coding words in terms of their pitch accent pattern
+can make memorizing the pitch accents of individual words nearly effortless.</p>
+<p>For example,
+if a word is colored blue every time you see it in Anki,
+that word will likely become associated with the color blue in your head.
+When you recall the word later,
+the blue color may appear in your mind's eye.
+If you know that &quot;blue&quot; means a word is pronounced with the &quot;heiban&quot; pitch accent pattern,
+then this association would be enough for you to remember the pitch accent of the word.</p>
+<p>AJT Japanese makes it easy to take advantage of this color coding technique.
+The software can automatically generate pitch accent information for entire sentences
+and color code the words accordingly.
+The colors used are:</p>
+<ul>
+<li>Heiban words: Blue</li>
+<li>Atamadaka words: Red</li>
+<li>Odaka words: Green</li>
+<li>Nakadaka words: Orange</li>
+</ul>
+<p align="center"><img src="../blog/img/ajt-japanese-pitch_accent_on_hover.webp" alt="color coded words"/></p>
+<p align="center"><i>Color-coded words in a sentence.</i></p>
+<p>This feature can be enabled by setting the <strong>&quot;color code pitch&quot;</strong> option to &quot;color&quot; or &quot;underline.&quot;
+Additionally,
+if the <strong>&quot;attributes&quot;</strong> option is turned on,
+you will see detailed pitch-accent info when hovering over words with your mouse.
+You also need to allow injecting add-on scripts for everything to work properly.</p>
+<p align="center"><img src="../blog/img/ajt-japanese-color-code-pitch.webp" alt="settings"/></p>
+<p align="center"><i>Settings.</i></p>
+<p><span class="article-note">Note</span>:
+AJT Japanese
+inserts additional JavaScript code into the card templates
+to enable the display of pitch accent information on mouse hover.
+If you do not require this feature,
+you can disable the script loading
+in Settings.</p>
+<details>
+<summary>Steps to Disable JavaScript loading</summary>
+<p>Go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Furigana&quot;.
+For each profile where you don't want AJT Japanese to add its scripts,
+uncheck the checkbox named &quot;Insert addon scripts&quot;.
+Click OK.</p>
+</details>
+<h2 id="audio-files"><a class="anchor" href="#audio-files" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio files</h2>
+<p>AJT Japanese can add audio files from accent dictionaries to Anki cards.
+To set up audio profiles,
+go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Audio&quot;.</p>
+<p>Add at least one audio profile, selecting the source and destination fields.</p>
+<p>To set up audio sources,
+go to &quot;AJT&quot; &gt; &quot;Japanese Options&quot; &gt; &quot;Audio sources&quot;.
+There you will see a list of loaded audio sources.
+Sources can be enabled or disabled.
+Each source is given an arbitrary name and a URL that points to its index file.</p>
+<p>When a new source is added, AJT Japanese downloads its index file
+and figures out where to find audio files and what audio files are available
+based on information stored in it.</p>
+<h3 id="available-audio-formats"><a class="anchor" href="#available-audio-formats" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Available audio formats</h3>
+<p>The default audio sources for AJT Japanese are availabe in two formats: <code>opus</code> and <code>mp3</code>.
+Audio sources created by the users, however, can be in any format.</p>
+<p>The Opus audio codec provides much better quality at lower bitrates
+(which saves a lot of space and makes syncing large collections faster).
+However, Opus is <strong>not</strong> compatible with the following:</p>
+<ul>
+<li>AnkiWeb.</li>
+<li>Very old Android devices (Android 4 and below).</li>
+<li><abbr title="Note that we reject iThings and urge our users to upgrade to a free system such as postmarketOS, Android, etc.">AnkiMobile on iOS</abbr></li>
+</ul>
+<p>The MP3 audio codec is older and less efficient, but is supported on pretty much all devices.</p>
+<h3 id="online-audio-sources"><a class="anchor" href="#online-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Online audio sources</h3>
+<p>Audio files are stored remotely, only the index file is downloaded.
+When requested, AJT Japanese downloads audio files from the Internet, using the provided URLs.
+All default audio sources are online audio sources.</p>
+<p>To add a new online audio source,
+paste the URL of the index and give it a unique name.</p>
+<p align="center"><img src="../blog/img/ajt-japanese-add-online-source.webp" alt="add online source"/></p>
+<p align="center"><i>Adding an online audio source.</i></p>
+<p><strong>Currently available online audio sources:</strong></p>
+<details>
+<summary>ogg/opus files (recommended)</summary>
+<ol>
+<li>NHK accent dictionary, 2016.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/releases/latest/download/NHK-2016_main.zip
+</code></pre></div>
+</li>
+<li>NHK accent dictionary, 1998.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/releases/latest/download/NHK-1998_main.zip
+</code></pre></div>
+</li>
+<li>Shinmeikai 8th edition.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/releases/latest/download/Shinmeikai-8_main.zip
+</code></pre></div>
+</li>
+<li>Daijisen.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/daijisen_pronunciations_index/releases/latest/download/Daijisen_main.zip
+</code></pre></div>
+</li>
+<li>TAAS.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/taas_pronunciations_index/releases/latest/download/TAAS_main.zip
+</code></pre></div>
+</li>
+<li>JapanesePod101.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/jpod_pronunciations_index/releases/latest/download/JapanesePod101_main.zip
+</code></pre></div>
+</li>
+<li>旺文社全訳古語辞典.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/releases/latest/download/Oubunsha-Kogo_main.zip
+</code></pre></div>
+</li>
+</ol>
+</details>
+<details>
+<summary>mp3 files</summary>
+<ol>
+<li>NHK accent dictionary, 2016.<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/releases/latest//download/NHK-2016_main.zip
+</code></pre></div>
+</li>
+<li>NHK accent dictionary, 1998<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/releases/latest/download/NHK-1998_main.zip
+</code></pre></div>
+</li>
+<li>Shinmeikai 8th edition<div class="pre-wrap"><pre><code>https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/releases/latest/download/Shinmeikai-8_main.zip
+</code></pre></div>
+</li>
+</ol>
+</details>
+<h3 id="offline-audio-sources"><a class="anchor" href="#offline-audio-sources" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline audio sources</h3>
+<p>Audio files are stored locally, on the hard drive.
+When requested, AJT Japanese copies the needed files to the Anki collection.</p>
+<p>To add a new offline audio source,
+you need to download its entire folder with all audio files (usually a few hundred <code>MiB</code>).
+In the folder you will find a file named <code>index.json</code>.
+Copy the full path to the file and paste it into the &quot;URL&quot; field.
+Give it a unique name.
+The add-on will figure out the rest based on the information inside the json file.</p>
+<p align="center"><img src="../blog/img/ajt-japanese-add-local-source.webp" alt="add local source"/></p>
+<p align="center"><i>Adding a local audio source.</i></p>
+<p><strong>Currently available offline audio sources:</strong></p>
+<details>
+<summary>ogg/opus files (recommended)</summary>
+<ol>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">NHK accent dictionary, 2016</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">NHK accent dictionary, 1998</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">Shinmeikai 8th edition</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/daijisen_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">Daijisen</a></li>
+<li><a href="https://github.com/Ajatt-Tools/taas_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">TAAS</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/jpod_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">JapanesePod101</a></li>
+<li><a href="https://github.com/Ajatt-Tools/oubunsha_kogo_pronunciations_index/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">旺文社全訳古語辞典</a>.</li>
+</ol>
+</details>
+<details>
+<summary>mp3 files</summary>
+<ol>
+<li><a href="https://github.com/Ajatt-Tools/nhk_2016_pronunciations_index_mp3/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">NHK accent dictionary, 2016</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/nhk_1998_pronunciations_index_mp3/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">NHK accent dictionary, 1998</a>.</li>
+<li><a href="https://github.com/Ajatt-Tools/shinmeikai_8_pronunciations_index_mp3/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer nofollow">Shinmeikai 8th edition</a>.</li>
+</ol>
+</details>
+<h3 id="audio-search-dialog"><a class="anchor" href="#audio-search-dialog" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio Search dialog</h3>
+<p>If you activate the &quot;audio search button&quot; setting in the add-on's Options,
+a button titled &quot;Search audio files to add to note&quot; will appear in the Editor's toolbar.
+By clicking on the button, you can open up the Search dialog box.
+It lets you search words to add audio files for.
+The table below the search bar displays all the audio files that match your search term.
+To add these audio files to your Anki note,
+simply check the &quot;Add to note&quot; checkboxes and click &quot;Ok&quot;.</p>
+<p align="center"><img alt="search dialog" src="../blog/img/search_audio_dialog.webp"></p>
+<p align="center"><i>Search dialog.</i></p>
+<p>To configure Forvo, go to &quot;AJT&quot; &gt; &quot;Menus&quot; &gt; &quot;Forvo settings&quot;.
+When Forvo Search is enabled,
+the add-on searches audio files on Forvo in addition to the enabled audio sources.
+<a href="https://redirect.invidious.io/watch?v=9e7CkXSdYok" target="_blank" rel="noopener noreferrer nofollow">Watch a demonstration on <img src="../blog/img/youtube_logo.webp" alt="YouTube" /></a>.</p>
+<h3 id="audio-settings"><a class="anchor" href="#audio-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio settings</h3>
+<p>Go to &quot;Japanese options&quot; &gt; &quot;Audio&quot; &gt; Audio settings.
+Below is an overview of some settings you might want to toggle on/off.</p>
+<ul>
+<li><strong>Ignore inflections</strong>.
+Some dictionaries may return inflected pronunciations.
+For example, for the target word <code>死ぬ</code>,
+the available pronunciations could be <code>しぬ</code>, <code>しなない</code>, <code>しにます</code>.
+If you don't want so many files
+and only want to add audio for the dictionary form (e.g. <code>しぬ</code>),
+enable this checkbox.</li>
+<li><strong>Stop if one source has results</strong>.
+When the add-on checks each audio source in order,
+it will stop searching after the first source that returned any audio.
+So only the files from that audio source will be added.</li>
+<li><strong>Maximum results</strong>.
+The maximum number of audio files that can be added to cards.</li>
+</ul>
+<h3 id="creating-a-custom-audio-source"><a class="anchor" href="#creating-a-custom-audio-source" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a custom audio source</h3>
+<p>To create a new audio source from scratch,
+the first thing you will need is a large folder with audio files
+featuring native speech recordings.
+Name this folder <code>media</code>.</p>
+<p>Next, create the index file for AJT Japanese and name it <code>index.json</code>.
+It should contain the following data:</p>
+<ul>
+<li>Information about the source.</li>
+<li>What words correspond to what files.</li>
+<li>Information about each audio file.</li>
+</ul>
+<details>
+<summary>Example index.json file</summary>
+<div class="pre-wrap"><pre><code>{
+    &quot;meta&quot;: {
+        &quot;name&quot;: &quot;My audio source&quot;,
+        &quot;year&quot;: 2023,
+        &quot;version&quot;: 2,
+        &quot;media_dir&quot;: &quot;media&quot;
+    },
+    &quot;headwords&quot;: {
+        &quot;私&quot;: [&quot;file1.ogg&quot;, &quot;file2.ogg&quot;],
+        &quot;僕&quot;: [&quot;file3.ogg&quot;, &quot;file4.ogg&quot;]
+    },
+    &quot;files&quot;: {
+        &quot;file1.ogg&quot;: {
+            &quot;kana_reading&quot;: &quot;わたし&quot;,
+            &quot;pitch_pattern&quot;: &quot;わたし━&quot;,
+            &quot;pitch_number&quot;: &quot;0&quot;
+        },
+        &quot;file2.ogg&quot;: {
+            &quot;kana_reading&quot;: &quot;わたくし&quot;,
+            &quot;pitch_pattern&quot;: &quot;わたくし━&quot;,
+            &quot;pitch_number&quot;: &quot;0&quot;
+        }
+    }
+}
+</code></pre></div>
+</details>
+<ul>
+<li><code>name</code> — the name of the audio source.</li>
+<li><code>year</code> — when the audio files were created.</li>
+<li><code>version</code> — version of the <code>json</code> file, in case the format will change in the future.
+Currently, the latest version is <code>2</code>.</li>
+<li><code>media_dir</code> — relative path to the <code>media</code> directory,
+the folder where the audio files are stored.</li>
+<li><code>media_dir_abs</code> — absolute path to the <code>media</code> directory.
+This property takes precedence over <code>media_dir</code>.
+It is optional and is intended to be specified when <code>index.json</code> and the <code>media</code> folder
+are in different locations.
+Ajatt-Tools's official audio sources use <code>media_dir_abs</code>
+for GitHub release packages so online/released indexes can point to remote media.</li>
+</ul>
+<p>The <code>headwords</code> sub-dictionary maps words to files.
+For each word specify what files represent its pronunciation.</p>
+<p>The <code>files</code> sub-dictionary maps files to their properties.
+Supported keys: <code>kana_reading</code>, <code>pitch_pattern</code>, <code>pitch_number</code>.
+At least <code>kana_reading</code> should be present.</p>
+<p>When you finish creating the <code>index.json</code> file,
+add it as a new source in Options.</p>
+<h2 id="context-menu"><a class="anchor" href="#context-menu" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Context menu</h2>
+<p>By going to the add-on's options and selecting &quot;Menus&quot; &gt; &quot;Context menu&quot;
+you can configure what context menu actions are visible
+when you select text in the Anki Browser and press the right mouse button.</p>
+<h2 id="overrides"><a class="anchor" href="#overrides" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overrides</h2>
+<p>This table allows you to enter information about words that AJT Japanese doesn't know about,
+or words that you want to override.
+The data applies to readings and pitch accents.
+If pitch accent of a word is not known, you can insert <code>?</code> in the &quot;Pitch accent&quot; field.
+If a word has multiple pitch accents, specify them separated by commas, e.g. <code>1,2</code>.</p>
+<p align="center"><img src="../blog/img/ajt-japanese-overrides.webp" alt="pitch overrides"/></p>
+<p align="center"><i>Pitch accent overrides.</i></p>
+<h2 id="pitch-artist"><a class="anchor" href="#pitch-artist" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch artist</h2>
+<p>Pitch Artist creates SVG pitch accent graphs from compact text notation.
+It can be used from Anki's dialog for preview/export,
+or as an output format when generating card fields.</p>
+<p><a href="pitch-artist-user-guide.html">User guide</a>.</p>
+<h2 id="conclusion"><a class="anchor" href="#conclusion" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>Overall, AJT Japanese is an incredibly powerful tool
+for anyone who is serious about learning Japanese.
+Its furigana generation,
+multiple readings support,
+pitch accent information,
+and pronunciation audio make it an essential addition to any Japanese learner's toolbox.
+With its range of features,
+it can help learners of all levels become more confident in their Japanese language skills.
+Best of all,
+it's completely free/libre and easy to use.
+Give it a try and see how it can help you master the Japanese language!</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_guide.html">guide</a>
+            <a href="tag_anki.html">anki</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="our-immersion-learning-toolset.html" title="Our immersion learning toolset" class="md-button prev">Назад</a>
+        <a href="mining-from-movies-and-tv-shows.html" title="Movies and TV-shows" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

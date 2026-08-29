@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>How to review | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="How to review | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/how-to-review.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/how-to-review.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#anki-settings">Anki settings</a>
+    </li>
+    <li>
+        <a href="#grading">Grading</a>
+    </li>
+    <li>
+        <a href="#showing-up">Showing up</a>
+    </li>
+    <li>
+        <a href="#reading-sentences-aloud">Reading sentences aloud</a>
+    </li>
+    <li>
+        <a href="#built-in-speech-training">Built-in Speech Training</a>
+    </li>
+    <li>
+        <a href="#check-your-retention">Check your retention</a>
+    </li>
+    <li>
+        <a href="#filtered-decks">Filtered decks</a>
+    </li>
+    <li>
+        <a href="#fighting-backlogs">Fighting backlogs</a>
+    </li>
+    <li>
+        <a href="#fighting-flooded-learning-queue">Fighting flooded learning queue</a>
+    </li>
+    <li>
+        <a href="#new-cards">New cards</a>
+    </li>
+    <li>
+        <a href="#leeches">Leeches</a>
+    </li>
+    <li>
+        <a href="#deleting-and-suspending-cards">Deleting and suspending cards</a>
+    </li>
+    <li>
+        <a href="#card-retirement">Card retirement</a>
+    </li>
+    <li>
+        <a href="#get-the-ajt-flexible-grading-add-on">Get the AJT Flexible Grading add-on</a>
+            <ol>
+    <li>
+        <a href="#pass-fail-mode">Pass-Fail mode</a>
+    </li>
+    <li>
+        <a href="#flexible-grading">Flexible grading</a>
+    </li>
+    <li>
+        <a href="#getting-rid-of-answer-buttons">Getting rid of answer buttons</a>
+    </li>
+    <li>
+        <a href="#last-review-stats-at-the-top">Last review stats at the top</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#summary">Summary</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1626142570">
+        <h1 class="title"><a class="ablack" href="how-to-review.html">How to review</a></h1>
+        <div class="subtitle">13 июля 2021 &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p>Though Anki is an excellent piece of software,
+you can learn languages more effectively if you tweak some settings and know how to review.
+Even if you're using Anki for something other than studying human languages,
+this article may still help you.</p>
+<hr />
+<h2 id="anki-settings"><a class="anchor" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h2>
+<p>Make sure you've applied the settings from the
+<a href="setting-up-anki.html#anki-settings">Setting up Anki</a>
+article.
+Below is a quick overview.</p>
+<ul>
+<li>Set starting ease to 131%.
+It's kind of a magic number.
+130% is the lowest possible ease, but Anki <strong>doesn't</strong> allow you to reliably use it.
+By bumping it up 1% you avoid the limitation.
+Because the Ease effectively becomes locked between 131% and 130%, it can't decrease further.
+This way you hijack Anki's default behavior which otherwise would lead to falling into Ease Hell.</li>
+<li>Set Interval Modifier to not less than 190%.
+This initial increase counteracts the low Starting Ease.
+You can increase it further if your retention is high enough.
+I think up to 300% should be fine.</li>
+<li>Enable Anki 2.1 scheduler (<code>V3</code> scheduler).
+It's a little less limiting, less buggy and more convenient.
+In newer Anki versions it's the default.</li>
+</ul>
+<h2 id="grading"><a class="anchor" href="#grading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grading</h2>
+<p>When you're ready to grade a card,
+you're asked to choose from 4 different options:
+&quot;again&quot;, &quot;hard&quot;, &quot;good&quot; and &quot;easy&quot;.
+Use <strong>only</strong> &quot;again&quot; and &quot;good&quot;.
+Do not press &quot;hard&quot; and &quot;easy&quot; unless you're aware of the consequences.</p>
+<p>When you press &quot;hard&quot; or &quot;easy&quot;,
+the card's Ease factor changes.
+As a result,
+the speed at which the card's interval is going to grow from that point onward also changes.
+Pressing &quot;hard&quot; makes the card's interval grow slower,
+and the card comes up for review more often.
+The new Ease factor <em>stays in effect indefinitely</em>
+until you do something that resets it back to the default value.
+When a card comes up for review more often than needed,
+you spend unnecessary time reviewing.
+Likewise, pressing &quot;easy&quot; makes the card appear for review less frequently
+causing you to be more likely to forget it at some point.
+Setting Starting Ease to 131% can mitigate some consequences, but not all.</p>
+<p>There is an Anki add-on that removes some or all answer buttons.
+I cover it a few sections below.</p>
+<p>When you see a card,
+grade it &quot;good&quot; if you understand the target word.
+To grade the card &quot;good&quot;, you should be able to:</p>
+<ul>
+<li>Understand what it means in context, if there's context on the card.</li>
+<li>Read it phonetically, if the word contains kanji.</li>
+</ul>
+<p>If not, select &quot;again&quot; and relearn the card.</p>
+<p>Sometimes you need to press &quot;again&quot; multiple times until you memorize the card.
+But as soon as you understand the word, hit &quot;good&quot;.
+Don't hit &quot;again&quot; over and over because you're not sufficiently confident in your memory.</p>
+<p>Anki never guarantees that you will remember every single item you put into it.
+It can only guarantee a certain retention rate, usually about 70-90% depending on the settings.
+Each review session, expect to forget a number of cards.
+It's a natural part of using the program.</p>
+<p>If you forget too many cards,
+it is possible that your cards are not optimally formatted or your Interval Modifier is too large.
+Decrease the Interval Modifier,
+remove excessive or redundant information from the cards,
+use different example sentences,
+add examples if you don't have any.
+If you rarely forget any cards, you're seeing them too often.
+This means you need to increase you Interval Modifier.</p>
+<h2 id="showing-up"><a class="anchor" href="#showing-up" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Showing up</h2>
+<img src="../blog/img/dekinai-anki-rock.webp" float="right">
+<p>Khatz's blog has an article about <a href="https://web.archive.org/web/20071028011612/http://www.alljapaneseallthetime.com/blog/showing-up" target="_blank" rel="noopener noreferrer nofollow">Showing up</a>.
+100% of winning is showing up.
+Dedicate the time, and you'll see the results.
+Not only this concept is important when using Anki to learn languages,
+it is mandatory.
+One of the objectives of using an SRS is to achieve long-term retention.
+Long-term retention is impossible without being consistent.
+The only way to benefit from using an SRS is to use it regularly.
+Anki expects you to do your reviews <strong>every single day</strong>.
+If you fail to do so, due cards quickly pile up.</p>
+<p>If you do a consistent number of new cards each day,
+the number of reviews tends to be consistent as well.
+So, if you miss a day, expect your review load to double the next day.
+If you miss two days, you'll have to do roughly 3 times as many reviews.
+Anki's algorithm schedules cards so that ideally they should come up for review
+just before you forget their content.
+If you don't do your reviews on time, expect to forget more cards.</p>
+<p>There are two distinct approaches to dealing with SRS reviews.
+Many people find that they are
+able to form a consistent habit if they do their reviews at the same time each day,
+such as first thing in the morning.
+Others prefer to fit in reviews between activities in their day.
+For example, they may use their <a href="our-immersion-learning-toolset.html#android">phone</a>
+to complete a few reviews while standing in line, taking a bus, or waiting for something.</p>
+<p>Your goal is to experiment and find an approach that works for you
+and enables you to consistently complete your reviews.
+Or you can choose a combination of the two approaches.
+Personally, I find that the first approach works for me well.
+I have a laptop dedicated to doing my Anki reps.
+Besides Anki, the laptop has almost no other software installed
+to prevent all possible distractions.
+But if for some reason I don't have time in the morning,
+I fall back to the second approach
+and try to finish my reviews on a phone in moments when I'm not doing anything in particular.</p>
+<h2 id="reading-sentences-aloud"><a class="anchor" href="#reading-sentences-aloud" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reading sentences aloud</h2>
+<p>Should you read sentences aloud when doing Anki reps?
+Personally,
+I don't think it's necessary.
+I rarely do it because it takes extra time.
+If a sentence interests me, I might read it aloud just for fun.</p>
+<p>There's also the risk of developing bad pronunciation habits
+when reading Japanese aloud and incorrectly pronouncing words.
+In this regard, I would definitely recommend avoiding doing it if you're a beginner.
+Any type of pronunciation practice requires you to have acquired large aspects of the language
+and have built strong phonetic awareness.
+If you lack these competences,
+you set yourself to repeat pronunciation mistakes over and over.
+Ideally, you should also actively think about
+<a href="japanese-pitch-accents.html">pitch accent</a> when you're practicing speaking,
+which requires you to know the rules and the accents of individual words.
+In short,
+first learn to understand the language,
+and then learn to speak it.</p>
+<p>In summary,
+reading sentences aloud can be beneficial,
+but only if you're already at an intermediate level or higher.</p>
+<h2 id="built-in-speech-training"><a class="anchor" href="#built-in-speech-training" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Built-in Speech Training</h2>
+<p>If your computer has a microphone,
+you can practice your pronunciation in Anki while reviewing your flashcards.
+To do this,
+you will need <a href="sentence-mining.html#aim-for-high-quality-cards">TSCs with audio</a>.
+The best TSCs for practice are those you mined from
+<a href="mining-from-movies-and-tv-shows.html">anime, movies and dramas</a>.
+If you've been doing AJATT for a few months,
+you likely have thousands of high-quality TSCs in your Anki collection,
+so this shouldn't be a problem.
+You can also import decks like
+<a href="ankidrone-essentials.html">Ankidrone Essentials</a> and <a href="basic-vocabulary.html#core10k">Core10k</a>
+to get more high-quality TSCs,
+since every sentence in those decks includes audio.</p>
+<p>Pressing <kbd>Shift</kbd>+<kbd>V</kbd> lets you record your voice,
+and it plays back immediately after you stop recording.</p>
+<ol>
+<li>First, press <kbd>R</kbd> to listen to the native audio recording on the back of the card.</li>
+<li>Record your voice.</li>
+<li>Listen to your recording and compare it with the native audio.
+Try to correct any differences you hear.
+Pressing <kbd>V</kbd> again will replay your most recent recording.</li>
+</ol>
+<p>Alternatively,
+you can play the native audio and immediately start recording yourself.
+This lets you say the sentence while listening to the native version.</p>
+<p>Your voice recordings in Anki are temporary and will be deleted once you move to the next card.</p>
+<p>This method makes your Anki reviews longer,
+but because it integrates speaking practice into your SRS sessions,
+you don't need to set aside dedicated time for speaking practice.
+If you want to practice speaking, in the long run, doing it in Anki might even save you time.
+And if you don't want to practice speaking, you can simply skip this step.</p>
+<p>When grading your cards,
+don't take into account how well you pronounced the words and sentences.
+This training is an optional supplement to your flashcard reviews.</p>
+<h2 id="check-your-retention"><a class="anchor" href="#check-your-retention" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Check your retention</h2>
+<p>I recommend periodically checking your monthly
+<a href="useful-anki-add-ons-for-japanese.html#true-retention">True Retention</a>.
+Shift-click on the &quot;Stats&quot; button at the top of the Anki window.
+If you use a newer version of Anki, True Retention is available in the new &quot;Stats&quot; window.
+The recommended retention is 75%-90%.
+If you see that your retention stays out of these boundaries,
+act accordingly.
+Decrease your
+<a href="setting-up-anki.html#interval-modifier">Interval Modifier</a>
+if your retention is too low, increase if it's high.</p>
+<p>If your retention is below 70%, that's a call to action.
+Low retention rate renders Anki useless,
+can make you hate your reviews or even stop using Anki completely.
+Change your Anki settings, reformat your notes, delete problematic cards.</p>
+<p>Retention rate above 90% is considered sub-optimal.
+It means you review your cards too often.</p>
+<h2 id="filtered-decks"><a class="anchor" href="#filtered-decks" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Filtered decks</h2>
+<p>Don't review in filtered decks.
+After experimenting with filtered decks for multiple years
+I've come to the conclusion that they're too buggy and too unreliable.
+They're only good for temporarily storing cards (in case of backlogs, for example).
+Some bugs I've run into completely messed up intervals of my cards.</p>
+<h2 id="fighting-backlogs"><a class="anchor" href="#fighting-backlogs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fighting backlogs</h2>
+<p>This is where filtered decks come handy.</p>
+<p>Ideally you want to finish your reviews every day.
+In practice, it's not always possible.
+There are going to be days when you accumulate backlogs.
+A backlog is an amount of cards that you should already have reviewed.
+Anki calls such cards <code>overdue</code>.</p>
+<p>If you miss your reviews,
+your review queue becomes divided between cards that are due today,
+most of which you still remember,
+and the cards that were due on the previous days,
+which you've likely forgotten a great number of.
+You can view a list of the overdue cards by typing <code>is:due -prop:due=0</code> in the Anki Browser.</p>
+<p>If you were to try to eliminate the backlog
+by simply reviewing the cards until no more due cards remain,
+Anki would show you the overdue cards first.
+Anki is programmed in a way that makes it prioritize cards
+with older due dates over the cards that became due recently.
+If the backlog is large enough,
+this would put you in a long-lasting state of needless forgetting.
+If you go along with Anki's algorithm and prioritize relearning forgotten cards,
+then you will end up forgetting the cards that are due today,
+unless you manage to clear your entire backlog in one sitting.</p>
+<p>The solution is to create a filtered deck
+and use it to store the overdue cards.
+To do this, press &quot;F&quot; or go to &quot;Tools&quot; &gt; &quot;Create filtered deck...&quot;.</p>
+<p>Let's say my Japanese deck is called &quot;Japanese&quot;.
+The Search field is going to look like this:</p>
+<div class="pre-wrap"><pre><code>deck:Japanese is:due -prop:due&gt;-1 -rated:1 -is:learn
+</code></pre></div>
+<ul>
+<li><code>deck:Japanese</code> limits search to my Japanese deck.</li>
+<li><code>is:due</code> tells Anki to select only due cards.</li>
+<li><code>-prop:due&gt;-1</code> excludes cards due today.</li>
+<li><code>-rated:1</code> excludes cards that were already reviewed today.</li>
+<li><code>-is:learn</code> excludes cards in the learning or relearning queues.</li>
+</ul>
+<p>Once you have the filtered deck set up, you've <em>stopped the bleeding</em>.
+Every day after you've finished your normal reviews come back to the filtered deck
+and <em>decrease</em> the number of cards it can store.
+The cards will be returned to your Japanese deck.
+Review those cards.</p>
+<p align="center"><img alt="filtered deck" class="shadow" src="../blog/img/anki-backlog.webp"></p>
+<p align="center"><i>Deck settings.</i></p>
+<p>The initial size is the number of cards in the backlog, but 9999 will pull all of them in.
+When you decrease the filtered deck's size, decrease it by the number of cards you plan to review.
+For example, 10 cards at a time.
+You can shrink the deck multiple times a day.</p>
+<p>Take a look at the &quot;cards selected by&quot; setting.
+It presents a number of options you can choose from to fight the backlog the way suits you.
+If you want to review cards that you're most likely to still remember,
+change it to &quot;Increasing intervals&quot;.
+This way when you reduce the number of cards the filtered deck can store,
+the cards with the largest intervals will be pulled out first.
+On the other hand,
+if you choose &quot;Decreasing intervals&quot;,
+the cards with the smallest intervals will be the first to go.</p>
+<p>The benefit of using filtered decks for fighting backlogs is that
+you don't move any cards yourself.
+Once they leave the filtered deck,
+they automatically return to the decks they were pulled out from.
+If this approach doesn't work for you, try suspending overdue cards instead.
+To do so, open the Anki Browser, type <code>is:due -prop:due=0</code> and suspend the cards that will show up.
+Unsuspend the cards in chunks once you have time to review them.</p>
+<p>Accumulating a backlog and being unable to properly manage it
+is the number one reason people quit Anki altogether.
+Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.</p>
+<h2 id="fighting-flooded-learning-queue"><a class="anchor" href="#fighting-flooded-learning-queue" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fighting flooded learning queue</h2>
+<p>It is not uncommon to find yourself in this situation.</p>
+<p align="center"><img alt="new cards flood" src="../blog/img/too-many-learn-cards.webp"></p>
+<p align="center"><i>Anki window.</i></p>
+<p>Anki is terrible at queuing more than 30 cards from the learning queue.
+It is going to show you them over and over until they graduate.
+If the cards are not particularly easy, you may never get to the review queue.
+What I recommend you to do in this case is similar to the trick used to fight backlogs.</p>
+<p>Create a filtered deck with these settings.</p>
+<div class="pre-wrap"><pre><code>deck:Japanese is:due is:learn -rated:1 -is:new
+</code></pre></div>
+<p>Send all your learning cards to this deck, then pull out 10~20 at a time and graduate them.</p>
+<h2 id="new-cards"><a class="anchor" href="#new-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New cards</h2>
+<p>Choose how many new cards you want to learn each day and stick to that number.
+See <a href="sentence-mining.html#daily-amount-of-cards">Daily amount of cards</a>.</p>
+<h2 id="leeches"><a class="anchor" href="#leeches" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Leeches</h2>
+<p><em>Leeches</em> are cards that you keep <strong>forgetting</strong> and <strong>relearning</strong> over and over.
+Anki has a setting that controls how many times you can fail a card before it becomes a leech,
+called <a href="setting-up-anki.html#lapses">Leech threshold</a>.
+It's important to note that
+this setting doesn't refer to the number of times you simply press &quot;Again&quot; on a card,
+but rather the number of times you fail a card that has previously graduated to the review queue.
+In other words,
+hitting &quot;Again&quot; on a card repeatedly on the same day doesn't make it a leech.
+Usually,
+Anki marks a card as a &quot;leech&quot; after it's been stuck in the forget-relearn loop
+for several days or more.
+We recommend keeping the leech threshold low (<code>4</code>-<code>6</code> lapses)
+and suspending the cards when they become leeches.
+You have to properly deal with leeches instead of letting them rotate in your deck
+and slow down your progress.</p>
+<p>When Anki marks a card as a &quot;leech&quot;,
+the card receives a &quot;leech&quot; tag.
+You can later find leeches by opening the Anki Browser and typing <code>tag:leech</code> in the search field.
+If <a href="setting-up-anki.html#leech-threshold-and-leech-action">&quot;Leech Action&quot;</a> is set to &quot;Suspend card&quot;,
+the card won't come up for review anymore.
+It's important to quickly pull leeches out of rotation by suspending them
+so that they don't waste your review time.
+By suspending leeches,
+you can focus on the cards you're actually learning.</p>
+<p>After you've neutralized a leech, decide what to do with it.
+Change the content of the card to make it easier to memorize
+or just wait until your brain is ready to learn it again.
+Before you re-learn the card, you have to
+<a href="useful-anki-add-ons-for-japanese.html#reset-card-scheduling">reset it</a>.</p>
+<p>There are several effective strategies for dealing with leeches:</p>
+<ul>
+<li><strong>Delete them</strong>.
+For the small number of cards that just won't stick,
+it's best to just get rid of them.
+If you encounter the target word in your immersion often enough,
+you will eventually memorize it.
+But if not,
+you don't need to know the word.
+Instead of wasting a bunch of time on a single leech,
+it's more productive to learn several normal cards in its place.</li>
+<li><strong>Keep them for later</strong>.
+If you can't remember a word after 4-5 lapses,
+it means your brain hasn't been primed to acquire it yet.
+Wait a month or two and try again.
+Often,
+you'll find that cards that would not stick before have become very easy.
+This indicates that your language ability has improved
+and the word's intrinsic difficulty now matches your level.</li>
+<li><strong>Change the card</strong>.
+If a word is of high value to you,
+you can try to memorize a
+<a href="https://web.archive.org/web/20180303225205if_/http://super-memory.com/articles/20rules.htm#Redundancy" target="_blank" rel="noopener noreferrer nofollow">different representation</a>
+of it.
+Find a <strong>different example sentence</strong> in your <a href="cross-profile-search-and-import.html">Sentence Bank</a>
+or <a href="resources.html#examples-and-pronunciations">online</a>.
+For example, on <a href="https://ejje.weblio.jp/sentence/" target="_blank" rel="noopener noreferrer nofollow">Weblio</a>.
+Reset the card and edit it,
+or make a new
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence card</a>
+using the same target word but a different sentence.</li>
+</ul>
+<p>In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings.
+The best way to force a particular reading into your memory
+is to memorize multiple words that use the same reading.
+For example, if you can't remember how to read <code>印璽</code>,
+make cards for words such as <code>御璽</code> or <code>国璽</code>
+and learn all of them at the same time.</p>
+<p>If you can't remember a card due to a kanji reading not sticking,
+people also recommend putting furigana for the difficult word on the front of the card.
+Personally I wouldn't do this myself, but it's a cheap way out.</p>
+<p><a href="https://ankiweb.net/shared/info/1255924302" target="_blank" rel="noopener noreferrer nofollow">Mortician</a>
+automatically buries cars that you fail too many times.
+Use it to prevent potential leeches from wasting your time.
+Evidence shows that repeating a card multiple times in a single day
+does not significantly contribute to long-term memory,
+so your time is better spent on other cards or a shorter study session.</p>
+<h2 id="deleting-and-suspending-cards"><a class="anchor" href="#deleting-and-suspending-cards" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deleting and suspending cards</h2>
+<p>There are situations when it makes sense to <em>pull a card out of the review queue</em>:</p>
+<ul>
+<li>You can't seem to remember the card.</li>
+<li>The card is too hard or too easy.</li>
+<li>It takes too much time to review.</li>
+<li>You mined it thinking it was a</li>
+<li>You initially mined it thinking it was a <a href="one-target-sentences.html">1T</a> card,
+but it turns out it's not.</li>
+</ul>
+<p>Proactively getting rid of cards that have the potential to become leeches
+or that are too complicated and waste your time is a valuable strategy.
+This approach can help you avoid feeling overwhelmed
+by the <a href="spaced-repetition.html">SRS</a> in the long run.</p>
+<p>However,
+I advise you to <strong>be careful</strong> with deletions.
+It's much harder to restore a deleted card than to bring back a suspended one.
+<strong>Suspend</strong> cards instead.
+If you change your mind later,
+you can easily put the card back into rotation and try to learn it again.</p>
+<h2 id="card-retirement"><a class="anchor" href="#card-retirement" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Card retirement</h2>
+<p>Let's say you have 100 reviews each day,
+you learn 10 new cards a day,
+and your retention is 90%.
+If you continue your current Anki routine for an additional 15 years,
+your daily amount of reviews will be 200.</p>
+<p>This calculation indicates two things.</p>
+<ol>
+<li>You have to start suspending cards once they reach a certain interval,
+otherwise your review load will be increasing forever.</li>
+<li>This only becomes a problem once you've used Anki for many years.</li>
+</ol>
+<p>It's okay to suspend or even delete cards when they reach obscene intervals,
+like 5, 10 or even 15 years.
+To find such cards, open the Anki Browser and type <code>prop:ivl&gt;3650</code>.
+The number <code>3650</code> corresponds to a card's interval in days,
+the search expression finds all cards that have intervals larger than this value.
+Now you can suspend the cards by pressing <code>Ctrl+J</code>.
+Next time when you search cards eligible for retirement,
+add <code>-is:suspended</code> to the search expression to filter out the cards you've already suspended.</p>
+<p>You can bookmark the current search expression
+by right-clicking <code>Saved Searches</code> and choosing <code>Save Current Search</code>.</p>
+<p align="center"><img src="../blog/img/retirement.webp" alt="screenshot"></p>
+<p align="center"><i>Anki Browser Search.</i></p>
+<p><span class="article-note">Note</span>: There are some add-ons on AnkiWeb that offer automatic retirement.
+They modify the scheduler unpredictably
+and have earned negative reputation among Japanese learners.
+Don't use any add-ons that mess with the scheduler.
+They often have bugs and may corrupt your collection.</p>
+<h2 id="get-the-ajt-flexible-grading-add-on"><a class="anchor" href="#get-the-ajt-flexible-grading-add-on" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get the AJT Flexible Grading add-on</h2>
+<p>AJT Flexible Grading comes with three important features:</p>
+<ul>
+<li>Pass-Fail mode</li>
+<li>Grading from the front side</li>
+<li>The ability to hide some or all answer buttons.</li>
+</ul>
+<p>To install the add-on, follow the instructions on AnkiWeb.</p>
+<p align="center"><img src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/flexible_grading.webp"></p>
+<p align="center"><a class="download_button" href="https://ankiweb.net/shared/info/1715096333">Download</a></p>
+<h3 id="pass-fail-mode"><a class="anchor" href="#pass-fail-mode" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pass-Fail mode</h3>
+<p>The Pass-Fail mode essentially doesn't let you press &quot;Hard&quot; and &quot;Easy&quot; buttons.
+There are two benefits associated with this.</p>
+<p>One being that having to decide between various options
+can actually make your Anki study less efficient.
+When you're deciding how to grade a card, you're wasting your mental resources.
+Do it a hundred times, and you'll experience something called decision fatigue.
+Instead of deciding how well you know something simply decide whether you know it or not.</p>
+<p>Another being that most Anki users don't understand
+what Anki's &quot;Hard&quot; and &quot;Easy&quot; buttons actually do.
+Both buttons affect the cards' Ease factor.
+Using the &quot;Hard&quot; button can penalize you and greatly add to your review count over time.
+Using the &quot;Easy&quot; button can artificially inflate your card scheduling intervals
+and lead to forgetting and lower retention in the future.
+For the vast majority of us the best option is to simply use Anki's &quot;Good&quot; and &quot;Again&quot; buttons.</p>
+<h3 id="flexible-grading"><a class="anchor" href="#flexible-grading" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flexible grading</h3>
+<p>Flexible grading refers to the ability to pass an Anki card without having to reveal the answer.
+If you believe that you really know the content of a flashcard,
+you may decide to skip its reverse side and immediately grade the card.
+It should speed up review time and save you some keypresses.</p>
+<p>Flexible grading is enabled by default in the add-on's options.
+You can grade the cards by pressing Vim-keys on your keyboard or by using the default Anki hotkeys.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Vim bindings</th>
+<th>Default bindings</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>h</code></td>
+<td><code>1</code></td>
+<td>Again, Fail</td>
+</tr>
+<tr>
+<td><code>j</code></td>
+<td><code>2</code></td>
+<td>Hard</td>
+</tr>
+<tr>
+<td><code>k</code></td>
+<td><code>3</code></td>
+<td>Good, Pass</td>
+</tr>
+<tr>
+<td><code>l</code></td>
+<td><code>4</code></td>
+<td>Easy</td>
+</tr>
+</tbody>
+</table></div>
+<p>Pressing 1-4 to grade cards is convenient, but it's not as convenient.
+Vim-like bindings let you grade the cards
+with your fingers lying on the home row keys,
+much like when you navigate a document in Vim.</p>
+<p align="center"><img alt="keyboard" src="https://raw.githubusercontent.com/Ajatt-Tools/FlexibleGrading/main/img/keyboard.webp"></p>
+<p>I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.</p>
+<h3 id="getting-rid-of-answer-buttons"><a class="anchor" href="#getting-rid-of-answer-buttons" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting rid of answer buttons</h3>
+<p>Once you get used to blasting through your reps with Vim-like hotkeys,
+you realize that the answer buttons are completely redundant.
+AJT Flexible Grading has an option to remove those buttons,
+making the Anki UI less cluttered.</p>
+<h3 id="last-review-stats-at-the-top"><a class="anchor" href="#last-review-stats-at-the-top" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Last review stats at the top</h3>
+<p>Have you ever had doubts like, &quot;did I grade that card right?&quot; after doing a rep?
+Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button.
+AJT Flexible Grading shows the result of the last review at the top.
+It tells you what button you pressed and what interval the card has right now.
+By clicking on the stat you can bring up the card browser window showing the last answered card.</p>
+<h2 id="summary"><a class="anchor" href="#summary" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
+<p>The SRS best practices:</p>
+<ol>
+<li>Starting Ease 131%.</li>
+<li>Interval Modifier 192%, increase if needed.</li>
+<li>Enable the V3 scheduler.</li>
+<li>Show up every day to do your reps.</li>
+<li>Don't review in filtered decks.</li>
+<li>Use filtered decks for storing old due cards (backlog).</li>
+<li>Do no more than 30 new cards a day, unless you know what you're doing.</li>
+<li>Have Anki suspend your leeches. Deal with them as they come up.</li>
+<li>Install AJT Flexible Grading. Use the Vim hotkeys when reviewing.</li>
+<li>Use the <strong>Pass-Fail</strong> mode to avoid &quot;Hard&quot; and &quot;Easy&quot; buttons.</li>
+<li>Grade easy cards from their front side.</li>
+</ol>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_anki.html">anki</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="sentence-mining.html" title="Sentence mining" class="md-button prev">Назад</a>
+        <a href="our-immersion-learning-toolset.html" title="Our immersion learning toolset" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

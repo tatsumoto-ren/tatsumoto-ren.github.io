@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>Pitch Artist user guide | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Pitch Artist user guide | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/pitch-artist-user-guide.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/pitch-artist-user-guide.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#quick-start">Quick start</a>
+    </li>
+    <li>
+        <a href="#buttons-and-shortcuts">Buttons and shortcuts</a>
+    </li>
+    <li>
+        <a href="#syntax-overview">Syntax overview</a>
+    </li>
+    <li>
+        <a href="#word-format">Word format</a>
+    </li>
+    <li>
+        <a href="#tokyo-accent-specifications">Tokyo accent specifications</a>
+    </li>
+    <li>
+        <a href="#role-letters">Role letters</a>
+    </li>
+    <li>
+        <a href="#special-pitch-numbers">Special pitch numbers</a>
+    </li>
+    <li>
+        <a href="#furigana-and-readings">Furigana and readings</a>
+    </li>
+    <li>
+        <a href="#particles">Particles</a>
+    </li>
+    <li>
+        <a href="#connections-and-breaks">Connections and breaks</a>
+    </li>
+    <li>
+        <a href="#ghost-particle">Ghost particle</a>
+    </li>
+    <li>
+        <a href="#devoiced-morae">Devoiced morae</a>
+    </li>
+    <li>
+        <a href="#multiple-pitch-notations">Multiple pitch notations</a>
+    </li>
+    <li>
+        <a href="#keihan-dialect">Keihan dialect</a>
+    </li>
+    <li>
+        <a href="#colored-text-output">Colored text output</a>
+    </li>
+    <li>
+        <a href="#svg-output-for-card-generation">SVG output for card generation</a>
+    </li>
+    <li>
+        <a href="#css-classes">CSS classes</a>
+    </li>
+    <li>
+        <a href="#examples">Examples</a>
+            <ol>
+    <li>
+        <a href="#basic-accent-types">Basic accent types</a>
+    </li>
+    <li>
+        <a href="#particle-attachment">Particle attachment</a>
+    </li>
+    <li>
+        <a href="#tape-connector-with-furigana">Tape connector with furigana</a>
+    </li>
+    <li>
+        <a href="#disconnected-words">Disconnected words</a>
+    </li>
+    <li>
+        <a href="#tape-plus-role-letter">Tape + role letter</a>
+    </li>
+    <li>
+        <a href="#mixed-sentence">Mixed sentence</a>
+    </li>
+    <li>
+        <a href="#multiple-alternatives">Multiple alternatives</a>
+    </li>
+    <li>
+        <a href="#regular-sentences">Regular sentences</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#syntax-reference">Syntax reference</a>
+            <ol>
+    <li>
+        <a href="#accent-specs">Accent specs</a>
+    </li>
+    <li>
+        <a href="#special-symbols">Special symbols</a>
+    </li>
+    <li>
+        <a href="#pitch-number-mapping">Pitch number mapping</a>
+    </li>
+    <li>
+        <a href="#keihan-dialect-format">Keihan dialect format</a>
+    </li>
+</ol>
+
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1783209600">
+        <h1 class="title"><a class="ablack" href="pitch-artist-user-guide.html">Pitch Artist user guide</a></h1>
+        <div class="subtitle">5 июля 2026 (updated 3 августа 2026) &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p>Pitch Artist is a tool for creating SVG pitch accent graphs from a compact text notation.
+The graphs can be saved as SVG files and inserted into Anki notes.
+The tool can be used from the Anki dialog for preview/export,
+or as an output format when generating card fields.</p>
+<p>Pitch Artist does not tell you what accent is correct.
+It only gives you a canvas and a brush.
+It's up to you to draw correct pitch graphs.</p>
+<hr />
+<h2 id="quick-start"><a class="anchor" href="#quick-start" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick start</h2>
+<p>Pitch Artist comes with <a href="anki-japanese-support.html">AJT Japanese</a>.
+Install AJT Japanese to use it.</p>
+<p>Open the dialog from the Anki menu bar: &quot;AJT&quot; &gt; &quot;Pitch Graph Artist...&quot;
+Type a word, a semicolon, and a pitch specification:</p>
+<div class="pre-wrap"><pre><code>せいかつ;0
+ねこ;1
+いぬ;2
+せんせい;3
+ひらめ;0
+みず;0
+じんせい;1
+たべもの;2
+たべもの;3
+おとこのこ;3
+</code></pre></div>
+<!-- generated with expression: "せいかつ;0" -->
+<p><svg class="ajt__pitch_svg" style="font-family: Noto Sans CJK JP, Noto Sans, IPAexGothic, IPAPGothic, IPAGothic, Yu Gothic, Sans" viewBox="0 0 212 140" height="100px" xmlns="http://www.w3.org/2000/svg"><g class="lines"><g class="heiban"><line stroke="#005ce6" stroke-width="2.50" x1="35.100" y1="61.720" x2="76.900" y2="28.280" /><line stroke="#005ce6" stroke-width="2.50" x1="86.250" y1="25.000" x2="125.750" y2="25.000" /><line stroke="#005ce6" stroke-width="2.50" x1="136.250" y1="25.000" x2="175.750" y2="25.000" /></g></g><g class="circles"><g class="heiban"><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="31.000" cy="65.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="81.000" cy="25.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="131.000" cy="25.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="181.000" cy="25.000" r="5.25" /></g></g><g class="text"><g class="heiban"><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="31" y="115" dx="-12">せ</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="81" y="115" dx="-12">い</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="131" y="115" dx="-12">か</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="181" y="115" dx="-12">つ</text></g></g></svg></p>
+<p>Press <kbd>Ctrl+Enter</kbd> or click &quot;Update&quot; to refresh the preview.</p>
+<p>Pitch numbers use the common Tokyo pitch notation.
+Here <code>n</code> means the number of morae in the word.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Pattern</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>starts low, rises, and stays high</td>
+<td>heiban (平板)</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>starts high, then drops</td>
+<td>atamadaka (頭高)</td>
+</tr>
+<tr>
+<td><code>2</code> to <code>n-1</code></td>
+<td>rises, then drops inside the word</td>
+<td>nakadaka (中高)</td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>rises, drops after the last mora</td>
+<td>odaka (尾高)</td>
+</tr>
+<tr>
+<td>greater than <code>n</code></td>
+<td>treated as heiban</td>
+<td>heiban</td>
+</tr>
+</tbody>
+</table></div>
+<p>Changing any setting updates the preview immediately.
+The preview uses a cloned config,
+so temporary dialog changes affect rendering without rewriting the global SVG graph settings.
+To change settings permanently, go to &quot;AJT&quot; &gt; &quot;Japanese options...&quot; &gt; &quot;SVG graphs&quot;.</p>
+<h2 id="buttons-and-shortcuts"><a class="anchor" href="#buttons-and-shortcuts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Buttons and shortcuts</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Action</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Update preview</td>
+<td>Click &quot;Update&quot;, or press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> in the editor</td>
+</tr>
+<tr>
+<td>Accept and close</td>
+<td>Click &quot;Ok&quot;</td>
+</tr>
+<tr>
+<td>Copy SVG markup</td>
+<td>Click &quot;Copy HTML to Clipboard&quot;</td>
+</tr>
+<tr>
+<td>Zoom in</td>
+<td>Press <kbd>Ctrl</kbd>+<kbd>=</kbd> or <kbd>Ctrl</kbd>+<kbd>+</kbd></td>
+</tr>
+<tr>
+<td>Zoom out</td>
+<td>Press <kbd>Ctrl</kbd>+<kbd>-</kbd></td>
+</tr>
+<tr>
+<td>Open from selected Anki editor text</td>
+<td>Right-click selected text in the Anki Browser and choose &quot;Pitch artist&quot;</td>
+</tr>
+</tbody>
+</table></div>
+<p>&quot;Copy HTML to Clipboard&quot; copies the generated SVG strings joined by the configured graph separator.</p>
+<p>Each previewed graph has a <code>Save</code> button.
+Click it, choose a filename, and the graph is written as an SVG file.
+If <code>Inject CSS into SVG markup</code> is enabled, Pitch Artist embeds the pitch graph CSS
+directly into the saved SVG so that it displays correctly as a standalone file.</p>
+<h2 id="syntax-overview"><a class="anchor" href="#syntax-overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax overview</h2>
+<p>Words are separated by spaces, like in English.
+Sentences are separated by dots.
+Pitch Artist parses text in this order:</p>
+<ol>
+<li>Line breaks become sentence breaks.</li>
+<li>HTML tags are stripped.</li>
+<li>Text is split into sentences on dots (<code>.</code>),
+Japanese sentence punctuation (<code>。!?！？</code>),
+and newlines.</li>
+<li>Each sentence is split into sections on whitespace, tabs, and full-width spaces.</li>
+</ol>
+<div class="pre-wrap"><pre><code>きょう;1 は | てんき;1 が ; いい;1 です
+ぼく;1 は;p せんせい;3 を して;0 います;2
+わたし; は;p にほんご; を べんきょう; して; います;k2
+</code></pre></div>
+<!-- generated with expression: "きょう;1 は | てんき;1 が ; いい;1 です" -->
+<p><svg class="ajt__pitch_svg" style="font-family: Noto Sans CJK JP, Noto Sans, IPAexGothic, IPAPGothic, IPAGothic, Yu Gothic, Sans" viewBox="0 0 562 140" height="100px" xmlns="http://www.w3.org/2000/svg"><g class="lines"><g class="atamadaka"><line stroke="#e60000" stroke-width="2.50" x1="35.100" y1="28.280" x2="76.900" y2="61.720" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="86.250" y1="65.000" x2="125.750" y2="65.000" /></g><g class="atamadaka"><line stroke="#e60000" stroke-width="2.50" x1="185.100" y1="28.280" x2="226.900" y2="61.720" /><line stroke="#e60000" stroke-width="2.50" x1="236.250" y1="65.000" x2="275.750" y2="65.000" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="286.250" y1="65.000" x2="325.750" y2="65.000" /></g><g class="atamadaka"><line stroke="#e60000" stroke-width="2.50" x1="385.100" y1="28.280" x2="426.900" y2="61.720" /></g><g class="connector"><line stroke-dasharray="4" stroke="gray" stroke-width="2.50" x1="335.100" y1="61.720" x2="376.900" y2="28.280" /></g><g class="particle"><line stroke="gray" stroke-width="2.50" x1="486.250" y1="65.000" x2="525.750" y2="65.000" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="436.250" y1="65.000" x2="475.750" y2="65.000" /></g></g><g class="circles"><g class="atamadaka"><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="31.000" cy="25.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="81.000" cy="65.000" r="5.25" /></g><g class="particle"><circle fill="none" stroke="gray" stroke-width="2.50" cx="131.000" cy="65.000" r="5.25" /></g><g class="atamadaka"><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="181.000" cy="25.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="231.000" cy="65.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="281.000" cy="65.000" r="5.25" /></g><g class="particle"><circle fill="none" stroke="gray" stroke-width="2.50" cx="331.000" cy="65.000" r="5.25" /></g><g class="atamadaka"><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="381.000" cy="25.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="431.000" cy="65.000" r="5.25" /></g><g class="particle"><circle fill="none" stroke="gray" stroke-width="2.50" cx="481.000" cy="65.000" r="5.25" /><circle fill="none" stroke="gray" stroke-width="2.50" cx="531.000" cy="65.000" r="5.25" /></g></g><g class="text"><g class="atamadaka"><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="31" y="115" dx="-24">きょ</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="81" y="115" dx="-12">う</text></g><g class="particle"><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="131" y="115" dx="-12">わ</text></g><g class="atamadaka"><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="181" y="115" dx="-12">て</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="231" y="115" dx="-12">ん</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="281" y="115" dx="-12">き</text></g><g class="particle"><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="331" y="115" dx="-12">が</text></g><g class="atamadaka"><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="381" y="115" dx="-12">い</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="431" y="115" dx="-12">い</text></g><g class="particle"><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="481" y="115" dx="-12">で</text><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="531" y="115" dx="-12">す</text></g></g></svg></p>
+<h2 id="word-format"><a class="anchor" href="#word-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Word format</h2>
+<p>Each normal section has this shape:</p>
+<div class="pre-wrap"><pre><code>word;accent
+</code></pre></div>
+<p>Write a word, then a semicolon, then the pitch number.
+The semicolon may be <code>;</code> or full-width <code>；</code>.</p>
+<p>Examples:</p>
+<div class="pre-wrap"><pre><code>にほんご;0
+せいかつ;0
+ともだち;0
+ねこ;1
+いぬ;2
+せんせい;3
+</code></pre></div>
+<p>If a word has no separator at all,
+it is treated as a particle and drawn with gray, unfilled circles.</p>
+<div class="pre-wrap"><pre><code>は
+を
+まで
+</code></pre></div>
+<p>If a word has a separator but no accent, it defaults to heiban:</p>
+<div class="pre-wrap"><pre><code>がっこう;
+</code></pre></div>
+<h2 id="tokyo-accent-specifications"><a class="anchor" href="#tokyo-accent-specifications" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tokyo accent specifications</h2>
+<p>The Tokyo accent syntax supports:</p>
+<div class="pre-wrap"><pre><code>[p][role][pitch]
+</code></pre></div>
+<p>Every word has two properties: pitch number and role.
+If you do not specify role or pitch, it will be guessed.
+All parts are optional, but they must appear in that order.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>p</code></td>
+<td>Mark the section as a particle for styling</td>
+</tr>
+<tr>
+<td><code>role</code></td>
+<td>One role letter such as <code>h</code>, <code>a</code>, <code>n</code>, <code>o</code>, <code>k</code>, <code>s</code>, <code>b</code>, or <code>w</code></td>
+</tr>
+<tr>
+<td><code>pitch</code></td>
+<td>One optional signed digit, such as <code>0</code>, <code>1</code>, <code>2</code>, or <code>-1</code>, <code>-2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>The parser accepts one digit for the pitch number.</p>
+<p>Role typically controls what classname will be attached to the word.
+Class names are used for styling in CSS.
+If you write <code>たんご;h</code>, it will receive the &quot;heiban&quot; class name,
+which you can then style using CSS if you want.
+The CSS rules that get injected by default cover most people's needs.
+Special rules can be specified in your note type's CSS section.
+Additionally, words with the &quot;empty&quot; role are hidden completely.
+<code>ひみつ;e</code> won't be rendered.</p>
+<h2 id="role-letters"><a class="anchor" href="#role-letters" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Role letters</h2>
+<p>Pitch pattern names:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Role</th>
+<th>Default pitch if no pitch is given</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>h</code></td>
+<td>heiban</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>a</code></td>
+<td>atamadaka</td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>n</code></td>
+<td>nakadaka</td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td><code>o</code></td>
+<td>odaka</td>
+<td>mora count</td>
+</tr>
+<tr>
+<td><code>k</code></td>
+<td>kifuku</td>
+<td><code>2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Extra roles:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Role</th>
+<th>Default pitch if no pitch is given</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>s</code></td>
+<td>setsubigo</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>b</code></td>
+<td>black</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>w</code></td>
+<td>white</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>p</code></td>
+<td>particle role</td>
+<td><code>None</code>. Contextual particle pitch</td>
+</tr>
+<tr>
+<td><code>e</code></td>
+<td>empty role</td>
+<td><code>-1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Examples:</p>
+<div class="pre-wrap"><pre><code>にほんご;0
+にほんご;h
+かんがえた;k2
+ぐらい;pa
+ぐらい;po1
+</code></pre></div>
+<p>If there is no explicit role, Pitch Artist guesses a role from the pitch number:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pitch</th>
+<th>Guessed role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>none</td>
+<td>heiban</td>
+</tr>
+<tr>
+<td><code>0</code></td>
+<td>heiban</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>atamadaka</td>
+</tr>
+<tr>
+<td>negative</td>
+<td>particle</td>
+</tr>
+<tr>
+<td>equal to mora count</td>
+<td>odaka</td>
+</tr>
+<tr>
+<td>less than mora count</td>
+<td>nakadaka</td>
+</tr>
+<tr>
+<td>greater than mora count</td>
+<td>heiban</td>
+</tr>
+</tbody>
+</table></div>
+<p>The role letter takes priority for coloring, while the pitch number determines the actual pattern.</p>
+<div class="pre-wrap"><pre><code>にほんご;h2
+</code></pre></div>
+<p>Here the role letter <code>h</code> (heiban) is combined with pitch number <code>2</code>.</p>
+<h2 id="special-pitch-numbers"><a class="anchor" href="#special-pitch-numbers" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Special pitch numbers</h2>
+<p><code>-1</code> means &quot;always low&quot;.
+<code>-2</code> means &quot;always high&quot;.</p>
+<div class="pre-wrap"><pre><code>あいうえお;h-1
+あいうえお;h-2
+</code></pre></div>
+<h2 id="furigana-and-readings"><a class="anchor" href="#furigana-and-readings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Furigana and readings</h2>
+<p>Use square brackets to provide readings for kanji:</p>
+<div class="pre-wrap"><pre><code>漢字[かんじ];0
+稼[かせ]いで;k2
+大物[おおもの];0
+</code></pre></div>
+<p>Pitch Artist extracts the reading from bracket notation before splitting into morae.
+For simplicity, it is recommended to write everything in kana:</p>
+<div class="pre-wrap"><pre><code>がっこう;0
+つくった;2
+</code></pre></div>
+<h2 id="particles"><a class="anchor" href="#particles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Particles</h2>
+<p>A bare word without <code>;</code> is rendered as a particle-style section.
+When a word is a particle, the circles above kana have holes in them.</p>
+<div class="pre-wrap"><pre><code>は
+を
+まで
+</code></pre></div>
+<p>To mark a word as a particle, add <code>;p</code> after it:</p>
+<div class="pre-wrap"><pre><code>か;p
+</code></pre></div>
+<p>Particles receive contextual pitch:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Previous contour state</th>
+<th>Particle pitch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Previous word ended low</td>
+<td>low</td>
+</tr>
+<tr>
+<td>Previous word did not end low</td>
+<td>high</td>
+</tr>
+</tbody>
+</table></div>
+<p>The &quot;particle&quot; role can coexist with other roles.
+Use <code>p</code> in the accent spec when you want a section styled
+as a particle while still giving it a role.
+If you write <code>が;pn</code>, for example, it will receive class names <code>particle nakadaka</code>.</p>
+<div class="pre-wrap"><pre><code>よねん;0 ぐらい;pa
+よねん;0 ぐらい;po1
+</code></pre></div>
+<p>The word ぐらい is marked as a particle in both lines.
+The first uses <code>pa</code> (particle + atamadaka), the second uses <code>po1</code> (particle + odaka, pitch 1).
+Particles are drawn with colored but unfilled circles.
+These produce compound CSS classes such as <code>particle atamadaka</code> and <code>particle odaka</code>.</p>
+<p>When a single-mora particle is <code>は</code> or <code>ハ</code>, it is displayed as <code>わ</code> or <code>ワ</code>:</p>
+<div class="pre-wrap"><pre><code>は;p
+ハ;p
+</code></pre></div>
+<h2 id="connections-and-breaks"><a class="anchor" href="#connections-and-breaks" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Connections and breaks</h2>
+<p>Words can be &quot;welded&quot; (connected),
+&quot;taped&quot; (connected with a dotted line),
+or separated (no visual connection).</p>
+<p>By default, adjacent visible sections in a sentence are connected with a solid line:</p>
+<div class="pre-wrap"><pre><code>がっこう;1 つくった;2
+</code></pre></div>
+<p>Use <code>|</code>, <code>,</code>, or <code>、</code> as a standalone section to break the contour and prevent a connector:</p>
+<div class="pre-wrap"><pre><code>じんせい;1 | まで;p
+つかう;0 , つかった;0
+</code></pre></div>
+<p>To <strong>tape</strong> words (connect with a dotted line instead of solid),
+use a bare semicolon as a separator:</p>
+<div class="pre-wrap"><pre><code>大物[おおもの];0 ; まで;p
+</code></pre></div>
+<p>The <code>;</code> between the two words creates a dotted connector line.</p>
+<p>Summary:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>normal whitespace</td>
+<td>Solid connector between adjacent words</td>
+</tr>
+<tr>
+<td><code>;</code> alone</td>
+<td>Dotted tape connector</td>
+</tr>
+<tr>
+<td>`</td>
+<td>` alone</td>
+</tr>
+<tr>
+<td><code>,</code> alone</td>
+<td>No connector</td>
+</tr>
+<tr>
+<td><code>、</code> alone</td>
+<td>No connector</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="ghost-particle"><a class="anchor" href="#ghost-particle" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ghost particle</h2>
+<p>You can use <code>-</code> at the end of a sentence to add one trailing empty circle.
+Pitch Artist detaches a trailing <code>-</code> into its own ghost section:</p>
+<div class="pre-wrap"><pre><code>じんせい;1-
+せいかつ;0-
+おとうと;4-
+</code></pre></div>
+<!-- generated with expression: "せいかつ;0 -" -->
+<p><svg class="ajt__pitch_svg" style="font-family: Noto Sans CJK JP, Noto Sans, IPAexGothic, IPAPGothic, IPAGothic, Yu Gothic, Sans" viewBox="0 0 262 140" height="100px" xmlns="http://www.w3.org/2000/svg"><g class="lines"><g class="heiban"><line stroke="#005ce6" stroke-width="2.50" x1="35.100" y1="61.720" x2="76.900" y2="28.280" /><line stroke="#005ce6" stroke-width="2.50" x1="86.250" y1="25.000" x2="125.750" y2="25.000" /><line stroke="#005ce6" stroke-width="2.50" x1="136.250" y1="25.000" x2="175.750" y2="25.000" /></g><g class="connector"><line class="trail" stroke="gray" stroke-width="2.50" x1="186.250" y1="25.000" x2="225.750" y2="25.000" /></g></g><g class="circles"><g class="heiban"><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="31.000" cy="65.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="81.000" cy="25.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="131.000" cy="25.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="181.000" cy="25.000" r="5.25" /></g><g class="particle"><circle class="trail" fill="none" stroke="gray" stroke-width="2.50" cx="231.000" cy="25.000" r="5.25" /></g></g><g class="text"><g class="heiban"><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="31" y="115" dx="-12">せ</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="81" y="115" dx="-12">い</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="131" y="115" dx="-12">か</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="181" y="115" dx="-12">つ</text></g></g></svg></p>
+<p>The ghost particle draws a circle but no text label.
+The pitch of the trailing empty circle changes depending on the preceding word's accent.</p>
+<p>This is useful for showing where a <strong>following particle</strong> would attach.</p>
+<h2 id="devoiced-morae"><a class="anchor" href="#devoiced-morae" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Devoiced morae</h2>
+<p>Prefix a mora with lowercase <code>d</code> to mark it as devoiced:</p>
+<div class="pre-wrap"><pre><code>わたdくし;0
+</code></pre></div>
+<p>The <code>d</code> marker is removed from displayed text.
+Devoiced morae are drawn with a dashed circle
+or rounded rectangle, and the text receives the <code>devoiced</code> class.</p>
+<p>For multi-word examples:</p>
+<div class="pre-wrap"><pre><code>dひとり;2 で dくすり;0 を のんだ;1
+</code></pre></div>
+<!-- generated with expression: "dひとり;2 で dくすり;0 を のんだ;1" -->
+<p><svg class="ajt__pitch_svg" style="font-family: Noto Sans CJK JP, Noto Sans, IPAexGothic, IPAPGothic, IPAGothic, Yu Gothic, Sans" viewBox="0 0 562 140" height="100px" xmlns="http://www.w3.org/2000/svg"><g class="lines"><g class="nakadaka"><line stroke="#ff6207" stroke-width="2.50" x1="35.100" y1="61.720" x2="76.900" y2="28.280" /><line stroke="#ff6207" stroke-width="2.50" x1="85.100" y1="28.280" x2="126.900" y2="61.720" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="136.250" y1="65.000" x2="175.750" y2="65.000" /></g><g class="heiban"><line stroke="#005ce6" stroke-width="2.50" x1="235.100" y1="61.720" x2="276.900" y2="28.280" /><line stroke="#005ce6" stroke-width="2.50" x1="286.250" y1="25.000" x2="325.750" y2="25.000" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="186.250" y1="65.000" x2="225.750" y2="65.000" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="336.250" y1="25.000" x2="375.750" y2="25.000" /></g><g class="atamadaka"><line stroke="#e60000" stroke-width="2.50" x1="435.100" y1="28.280" x2="476.900" y2="61.720" /><line stroke="#e60000" stroke-width="2.50" x1="486.250" y1="65.000" x2="525.750" y2="65.000" /></g><g class="connector"><line stroke="gray" stroke-width="2.50" x1="386.250" y1="25.000" x2="425.750" y2="25.000" /></g></g><g class="circles"><g class="nakadaka"><circle fill="#ff6207" stroke="#ff6207" stroke-width="2.50" cx="31.000" cy="65.000" r="5.25" /><circle fill="#ff6207" stroke="#ff6207" stroke-width="2.50" cx="81.000" cy="25.000" r="5.25" /><circle fill="#ff6207" stroke="#ff6207" stroke-width="2.50" cx="131.000" cy="65.000" r="5.25" /></g><g class="particle"><circle fill="none" stroke="gray" stroke-width="2.50" cx="181.000" cy="65.000" r="5.25" /></g><g class="heiban"><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="231.000" cy="65.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="281.000" cy="25.000" r="5.25" /><circle fill="#005ce6" stroke="#005ce6" stroke-width="2.50" cx="331.000" cy="25.000" r="5.25" /></g><g class="particle"><circle fill="none" stroke="gray" stroke-width="2.50" cx="381.000" cy="25.000" r="5.25" /></g><g class="atamadaka"><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="431.000" cy="25.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="481.000" cy="65.000" r="5.25" /><circle fill="#e60000" stroke="#e60000" stroke-width="2.50" cx="531.000" cy="65.000" r="5.25" /></g></g><g class="text"><g class="nakadaka"><circle class="devoiced" fill="none" stroke="#ff6207" cx="31" cy="106" stroke-width="1.50" r="17.00" stroke-dasharray="2 3" /><text class="devoiced" fill="#ff6207" font-size="24.0px" letter-spacing="-4.0px" x="31" y="115" dx="-12">ひ</text><text fill="#ff6207" font-size="24.0px" letter-spacing="-4.0px" x="81" y="115" dx="-12">と</text><text fill="#ff6207" font-size="24.0px" letter-spacing="-4.0px" x="131" y="115" dx="-12">り</text></g><g class="particle"><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="181" y="115" dx="-12">で</text></g><g class="heiban"><circle class="devoiced" fill="none" stroke="#005ce6" cx="231" cy="106" stroke-width="1.50" r="17.00" stroke-dasharray="2 3" /><text class="devoiced" fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="231" y="115" dx="-12">く</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="281" y="115" dx="-12">す</text><text fill="#005ce6" font-size="24.0px" letter-spacing="-4.0px" x="331" y="115" dx="-12">り</text></g><g class="particle"><text fill="gray" font-size="24.0px" letter-spacing="-4.0px" x="381" y="115" dx="-12">を</text></g><g class="atamadaka"><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="431" y="115" dx="-12">の</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="481" y="115" dx="-12">ん</text><text fill="#e60000" font-size="24.0px" letter-spacing="-4.0px" x="531" y="115" dx="-12">だ</text></g></g></svg></p>
+<p>Here <code>ひ</code> and <code>く</code> are explicitly marked as devoiced
+because each mora is prefixed with <code>d</code> in the input.</p>
+<h2 id="multiple-pitch-notations"><a class="anchor" href="#multiple-pitch-notations" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multiple pitch notations</h2>
+<p>Separate multiple pitch numbers with a comma to generate multiple graphs from the same word.
+Only the first section in a sentence is expanded
+when its accent contains comma-separated alternatives:</p>
+<div class="pre-wrap"><pre><code>にほんご;1,2,3
+</code></pre></div>
+<p>This produces three graph sequences:</p>
+<div class="pre-wrap"><pre><code>にほんご;1
+にほんご;2
+にほんご;3
+</code></pre></div>
+<p>If more sections follow, they are copied into every expanded sequence:</p>
+<div class="pre-wrap"><pre><code>にほんご;1,2,3 を べんきょう; する;
+</code></pre></div>
+<h2 id="keihan-dialect"><a class="anchor" href="#keihan-dialect" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keihan dialect</h2>
+<p>For Kansai-style (京阪) pitch patterns,
+specify the role as an uppercase letter and the high/low levels explicitly.</p>
+<div class="pre-wrap"><pre><code>word;Role;levels
+</code></pre></div>
+<p><code>levels</code> is an explicit sequence of <code>h</code> (high) and <code>l</code> (low).
+If the level string is shorter than the number of morae, the last level repeats.</p>
+<p>Low-start words may rise differently depending on region,
+so adjust the explicit <code>h/l</code> sequence if you are targeting a specific local variety.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>CSS role</th>
+<th>Example</th>
+<th>Pitch Artist input</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>H</code></td>
+<td><code>keihan_heiban</code></td>
+<td>風</td>
+<td><code>かぜ;H;hh</code></td>
+<td>High-start flat</td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td><code>keihan_atamadaka</code></td>
+<td>川</td>
+<td><code>かわ;A;hl</code></td>
+<td>High then low</td>
+</tr>
+<tr>
+<td><code>N</code></td>
+<td><code>keihan_nakadaka</code></td>
+<td>頭</td>
+<td><code>あたま;N;hhl</code></td>
+<td>High-high-low</td>
+</tr>
+<tr>
+<td><code>L</code></td>
+<td><code>keihan_low_heiban</code></td>
+<td>糸</td>
+<td><code>いと;L;lh</code></td>
+<td>Low-start rising, no drop</td>
+</tr>
+<tr>
+<td><code>M</code></td>
+<td><code>keihan_low_nakadaka</code></td>
+<td>薬</td>
+<td><code>くすり;M;lhl</code></td>
+<td>Low-high-low</td>
+</tr>
+<tr>
+<td><code>O</code></td>
+<td><code>keihan_low_odaka</code></td>
+<td>マッチ</td>
+<td><code>マッチ;O;lhh</code></td>
+<td>Low-high-high; following particle drops</td>
+</tr>
+<tr>
+<td><code>K</code></td>
+<td><code>keihan_kifuku</code></td>
+<td>あるく</td>
+<td><code>あるく;K;lhh</code></td>
+<td>Use for non-heiban verbs/i-adjectives</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="colored-text-output"><a class="anchor" href="#colored-text-output" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Colored text output</h2>
+<p>Pitch Artist also supports a colored-text output mode for card generation.
+Instead of SVG, it returns spans based on the parsed section roles:</p>
+<div class="pre-wrap"><pre><code class="language-html">&lt;span class=&quot;heiban&quot;&gt;がっこう&lt;/span&gt;&lt;span class=&quot;atamadaka&quot;&gt;まで&lt;/span&gt;
+</code></pre></div>
+<p>Hidden sections such as <code>|</code>, the ghost particle <code>-</code>,
+and the bare tape <code>;</code> are omitted from colored text output.
+Multiple parsed sentences are joined with the configured <code>pitch_artist.separator_sentences</code> value.</p>
+<h2 id="svg-output-for-card-generation"><a class="anchor" href="#svg-output-for-card-generation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SVG output for card generation</h2>
+<p>You can type Pitch Artist syntax into one Anki field and generate SVGs into another field.
+To do so, go to &quot;AJT&quot; &gt; &quot;Japanese options...&quot; &gt; &quot;Pitch accent&quot;,
+and create a new Profile with &quot;Output format&quot; set to &quot;Artist SVG&quot; or &quot;Artist colors&quot;.</p>
+<p>When the output format is <code>artist_svg</code>, generated graphs are joined
+with the configured <code>pitch_artist.separator_expression_graphs</code> value.
+When the output format is <code>artist_colors</code>, colored text sentences are joined
+with the configured <code>pitch_artist.separator_sentences</code> value.</p>
+<p>Input text is stripped through Anki's media/text handling before parsing.
+Empty input returns an empty string.</p>
+<h2 id="css-classes"><a class="anchor" href="#css-classes" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS classes</h2>
+<p>Pitch Artist uses CSS classes to style both SVG graphs and colored text.</p>
+<p>Tokyo roles:</p>
+<div class="pre-wrap"><pre><code>heiban
+atamadaka
+nakadaka
+odaka
+kifuku
+black
+white
+setsubigo
+empty
+particle
+</code></pre></div>
+<p>Keihan roles:</p>
+<div class="pre-wrap"><pre><code>keihan_heiban
+keihan_atamadaka
+keihan_nakadaka
+keihan_low_heiban
+keihan_low_nakadaka
+keihan_low_odaka
+keihan_kifuku
+</code></pre></div>
+<p>Particle-role combinations produce multiple classes:</p>
+<div class="pre-wrap"><pre><code>particle atamadaka
+particle odaka
+</code></pre></div>
+<p>Devoiced text and devoiced markers use the <code>devoiced</code> class.</p>
+<p>Generated SVG uses these group classes:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>paths</code></td>
+<td>Pitch contour lines</td>
+</tr>
+<tr>
+<td><code>circles</code></td>
+<td>Mora circles</td>
+</tr>
+<tr>
+<td><code>text</code></td>
+<td>Kana labels</td>
+</tr>
+<tr>
+<td><code>connector</code></td>
+<td>Inter-word connector line</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="examples"><a class="anchor" href="#examples" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+<h3 id="basic-accent-types"><a class="anchor" href="#basic-accent-types" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic accent types</h3>
+<p>The word はし has three meanings, each with a different pitch pattern.
+This is the most famous example in Japanese pitch accent education.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Notation</th>
+<th>Type</th>
+<th>Typical meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>端</td>
+<td><code>はし;0</code></td>
+<td>heiban</td>
+<td>edge</td>
+</tr>
+<tr>
+<td>箸</td>
+<td><code>はし;1</code></td>
+<td>atamadaka</td>
+<td>chopsticks</td>
+</tr>
+<tr>
+<td>橋</td>
+<td><code>はし;2</code></td>
+<td>odaka</td>
+<td>bridge</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="particle-attachment"><a class="anchor" href="#particle-attachment" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Particle attachment</h3>
+<p>The pitch of the following particle changes depending on the preceding word's accent.
+This is the key difference between 橋 and 箸.</p>
+<div class="pre-wrap"><pre><code>はし;0 を
+はし;1 を
+はし;2 を
+</code></pre></div>
+<p>Bare <code>を</code> is a particle-style section.
+Its displayed pitch depends on whether the previous word ended low.
+After heiban words, the following particle stays high.
+After atamadaka or odaka words, it is low.</p>
+<h3 id="tape-connector-with-furigana"><a class="anchor" href="#tape-connector-with-furigana" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tape connector with furigana</h3>
+<div class="pre-wrap"><pre><code>大物[おおもの];0 ; まで;p
+</code></pre></div>
+<p>The standalone <code>;</code> creates a dotted connector between the two words.</p>
+<h3 id="disconnected-words"><a class="anchor" href="#disconnected-words" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disconnected words</h3>
+<p>To <strong>disconnect</strong> words, insert a pipe (<code>|</code>), or a comma (<code>,</code> or <code>、</code>).</p>
+<div class="pre-wrap"><pre><code>つかう; , つかった;-
+</code></pre></div>
+<p>Two words separated by a comma (<code>,</code>).
+The comma creates a gap in the connecting line between the two words.
+The second word has a ghost particle (<code>-</code>), drawing a trailing empty circle.</p>
+<div class="pre-wrap"><pre><code>じんせい;1 | まで;p
+</code></pre></div>
+<p>The graph shows two separate, unconnected pitch patterns.</p>
+<h3 id="tape-plus-role-letter"><a class="anchor" href="#tape-plus-role-letter" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tape + role letter</h3>
+<div class="pre-wrap"><pre><code>じんせい;1 ; まで;a-1
+</code></pre></div>
+<p>Three features combined: tape connector (<code>;</code>),
+role letter for atamadaka (<code>a</code>), and always low pitch (<code>-1</code>).</p>
+<h3 id="mixed-sentence"><a class="anchor" href="#mixed-sentence" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mixed sentence</h3>
+<div class="pre-wrap"><pre><code>あんがい;。きょう;1 は | じんせい;1 に ついて かんがえた;k3 よ
+</code></pre></div>
+<p>This demonstrates sentence punctuation, explicit pitch accents,
+bare particle-style words, and a role letter with pitch number.</p>
+<h3 id="multiple-alternatives"><a class="anchor" href="#multiple-alternatives" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multiple alternatives</h3>
+<div class="pre-wrap"><pre><code>にほんご;1,2,3 を べんきょう;0 する;
+</code></pre></div>
+<p>This generates three graph sequences for the first word's three alternatives,
+with the rest of the sentence copied into each sequence.</p>
+<h3 id="regular-sentences"><a class="anchor" href="#regular-sentences" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Regular sentences</h3>
+<div class="pre-wrap"><pre><code>ねこ;1 と いぬ;2 が dすき;2 です
+</code></pre></div>
+<p>猫と犬が好きです。
+(&quot;I like cats and dogs.&quot;)</p>
+<p>ねこ (猫) is atamadaka, いぬ (犬) is odaka, すき (好き) is odaka with a devoiced す.
+The connecting line between each word shows how pitch transitions.</p>
+<div class="pre-wrap"><pre><code>きょう;1 は てんき;1 が いい;1 です
+</code></pre></div>
+<p>今日は天気がいいです。
+(&quot;The weather is nice today.&quot;)</p>
+<p>きょう (今日) and てんき (天気) are both atamadaka. いい is also atamadaka.
+The particles は, が, and です are drawn as particles (gray, unfilled).</p>
+<div class="pre-wrap"><pre><code>にほんご;0 の べんきょう;0 を して;0 います;2
+</code></pre></div>
+<p>日本語の勉強をしています。
+(&quot;I am studying Japanese.&quot;)</p>
+<p>Both にほんご (日本語) and べんきょう (勉強) are heiban.
+After a heiban word, the following particle stays high.
+ます drops after ま.</p>
+<div class="pre-wrap"><pre><code>でんわ;0 を かける;k2
+</code></pre></div>
+<p>電話をかける。
+(&quot;To make a phone call.&quot;)</p>
+<p>でんわ (電話) is heiban. After it, the particle を stays high.
+かける is marked as kifuku.</p>
+<div class="pre-wrap"><pre><code>わたし;0 は だいがく;0 の せんせい;3 です
+</code></pre></div>
+<p>私は大学の先生です。
+(&quot;I am a university teacher.&quot;)</p>
+<p>わたし (私), だいがく (大学) are heiban.
+せんせい (先生) is nakadaka.</p>
+<div class="pre-wrap"><pre><code>くるま;0 が すき;2 です か
+</code></pre></div>
+<p>車が好きですか。
+(&quot;Do you like cars?&quot;)</p>
+<p>くるま (車) is heiban, すき (好き) is odaka.
+が after the heiban word stays high.
+です follows the odaka word and drops low.</p>
+<h2 id="syntax-reference"><a class="anchor" href="#syntax-reference" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax reference</h2>
+<h3 id="accent-specs"><a class="anchor" href="#accent-specs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accent specs</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>no <code>;</code></td>
+<td>Particle-style section</td>
+<td><code>は</code></td>
+</tr>
+<tr>
+<td><code>;</code></td>
+<td>Heiban by default</td>
+<td><code>がっこう;</code></td>
+</tr>
+<tr>
+<td><code>;0</code></td>
+<td>Heiban</td>
+<td><code>ともだち;0</code></td>
+</tr>
+<tr>
+<td><code>;1</code></td>
+<td>Atamadaka</td>
+<td><code>ねこ;1</code></td>
+</tr>
+<tr>
+<td><code>;2</code></td>
+<td>Nakadaka or odaka by mora count</td>
+<td><code>いぬ;2</code></td>
+</tr>
+<tr>
+<td><code>;h</code></td>
+<td>Heiban role</td>
+<td><code>ともだち;h</code></td>
+</tr>
+<tr>
+<td><code>;a</code></td>
+<td>Atamadaka role</td>
+<td><code>はる;a</code></td>
+</tr>
+<tr>
+<td><code>;n</code></td>
+<td>Nakadaka role</td>
+<td><code>せんせい;n</code></td>
+</tr>
+<tr>
+<td><code>;o</code></td>
+<td>Odaka role</td>
+<td><code>ふゆ;o</code></td>
+</tr>
+<tr>
+<td><code>;k</code></td>
+<td>Kifuku role</td>
+<td><code>かんがえた;k</code></td>
+</tr>
+<tr>
+<td><code>;s</code></td>
+<td>Setsubigo role</td>
+<td><code>たち;s</code></td>
+</tr>
+<tr>
+<td><code>;b</code></td>
+<td>Black role</td>
+<td><code>ことば;b</code></td>
+</tr>
+<tr>
+<td><code>;w</code></td>
+<td>White role</td>
+<td><code>ことば;w</code></td>
+</tr>
+<tr>
+<td><code>;k3</code></td>
+<td>Role plus pitch</td>
+<td><code>かんがえた;k3</code></td>
+</tr>
+<tr>
+<td><code>;pa</code></td>
+<td>Particle-styled atamadaka</td>
+<td><code>ぐらい;pa</code></td>
+</tr>
+<tr>
+<td><code>;po1</code></td>
+<td>Particle-styled odaka, pitch 1</td>
+<td><code>ぐらい;po1</code></td>
+</tr>
+<tr>
+<td><code>;p</code></td>
+<td>Particle role</td>
+<td><code>まで;p</code></td>
+</tr>
+<tr>
+<td><code>;1,2,3</code></td>
+<td>Multiple alternatives for the first section</td>
+<td><code>にほんご;1,2,3</code></td>
+</tr>
+<tr>
+<td><code>;2-</code></td>
+<td>Pitch plus trailing ghost marker</td>
+<td><code>ひとり;2-</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>If the accent part is omitted, the word is treated as a particle.</p>
+<h3 id="special-symbols"><a class="anchor" href="#special-symbols" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Special symbols</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Where</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>;</code>, <code>；</code>, <code>:</code></td>
+<td>After word</td>
+<td>Separates word from accent specification</td>
+</tr>
+<tr>
+<td><code>;</code></td>
+<td>Alone between words</td>
+<td>Dotted tape connector</td>
+</tr>
+<tr>
+<td><code>|</code>,  <code>,</code>, <code>、</code></td>
+<td>Alone between words</td>
+<td>Breaks contour and prevents connection</td>
+</tr>
+<tr>
+<td><code>.</code></td>
+<td>Between sentences</td>
+<td>Sentence separator</td>
+</tr>
+<tr>
+<td>newline</td>
+<td>Between sentences</td>
+<td>Sentence separator</td>
+</tr>
+<tr>
+<td><code>。!?！？</code></td>
+<td>In input text</td>
+<td>Normalized to sentence separators</td>
+</tr>
+<tr>
+<td><code>-</code></td>
+<td>Sentence-final suffix</td>
+<td>Ghost particle marker</td>
+</tr>
+<tr>
+<td><code>d</code></td>
+<td>Before a mora</td>
+<td>Devoiced mora marker</td>
+</tr>
+<tr>
+<td><code>[reading]</code></td>
+<td>After kanji or mixed text</td>
+<td>Supplies the reading used for mora splitting</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pitch-number-mapping"><a class="anchor" href="#pitch-number-mapping" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch number mapping</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Pitch number</th>
+<th>1 mora</th>
+<th>2 morae</th>
+<th>3+ morae</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>heiban</td>
+<td>heiban</td>
+<td>heiban</td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>atamadaka</td>
+<td>atamadaka</td>
+<td>atamadaka</td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>heiban because pitch is greater than mora count</td>
+<td>odaka</td>
+<td>nakadaka unless the word has exactly 2 morae</td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>heiban if impossible</td>
+<td>heiban if impossible</td>
+<td>nakadaka or odaka by mora count</td>
+</tr>
+<tr>
+<td>equal to mora count</td>
+<td>odaka</td>
+<td>odaka</td>
+<td>odaka</td>
+</tr>
+<tr>
+<td>greater than mora count</td>
+<td>heiban</td>
+<td>heiban</td>
+<td>heiban</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="keihan-dialect-format"><a class="anchor" href="#keihan-dialect-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keihan dialect format</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Notation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>;H;hhll</code></td>
+<td>Keihan heiban, levels high-high-low-low</td>
+</tr>
+<tr>
+<td><code>;A;hlll</code></td>
+<td>Keihan atamadaka</td>
+</tr>
+<tr>
+<td><code>;N;lhhl</code></td>
+<td>Keihan nakadaka</td>
+</tr>
+<tr>
+<td><code>;L;hhll</code></td>
+<td>Keihan low heiban</td>
+</tr>
+<tr>
+<td><code>;M;lhhl</code></td>
+<td>Keihan low nakadaka</td>
+</tr>
+<tr>
+<td><code>;O;lhhl</code></td>
+<td>Keihan low odaka</td>
+</tr>
+<tr>
+<td><code>;K;hhll</code></td>
+<td>Keihan kifuku</td>
+</tr>
+</tbody>
+</table></div>
+<p>Level letters: <code>h</code> = high, <code>l</code> = low. If the levels string is shorter than the number of morae, the last level repeats.</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_guide.html">guide</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="mitigating-the-impact-of-early-output.html" title="Mitigating the Impact of Early Output" class="md-button prev">Назад</a>
+        <a href="join-our-community.html" title="Join our community" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>

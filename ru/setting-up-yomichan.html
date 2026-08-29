@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- title -->
+    <title>Setting up Rikaitan | All Japanese All The Time | AJATT</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta name="author" content="Тацумото Рен">
+    <meta name="keywords" content="руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time">
+
+    <!-- properties -->
+    <meta property="og:title" content="Setting up Rikaitan | All Japanese All The Time | AJATT">
+    <meta property="og:site_name" content="All Japanese All The Time | AJATT">
+    <meta property="og:url" content="https://ajatt.top/ru/setting-up-yomichan.html">
+    <meta property="og:description" content="Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке.">
+    <meta property="og:image" content="https://ajatt.top/img/logo.webp">
+
+    <!-- scripts -->
+    <script defer src="../blog/res/blog.js"></script>
+    <script defer src="../blog/res/search.js"></script>
+
+    <!-- links -->
+    <link rel="canonical" href="https://ajatt.top/ru/setting-up-yomichan.html">
+    <link rel="icon" type="image/webp" href="../img/logo.webp">
+    <link rel="alternate" type="application/rss+xml" title="Подписаться на эту страницу..." href="feed.rss">
+    <link rel="stylesheet" href="../blog/res/blog.css" type="text/css">
+</head>
+<body>
+    <input type="checkbox" id="menu-btn">
+    <header>
+        <a href="index.html" class="logo">
+            <img alt="達元" src="../img/logo.webp">
+            <span>AJATT</span>
+        </a>
+        <nav>
+            <!-- Only visible on desktop -->
+            <a href="table-of-contents.html" class="guide_link">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html" class="important">В чат</a>
+        </nav>
+        <a class="nav_search_button" title="Поиск" href="search.html">
+            <div class="nav_search_button_icon">Поиск</div>
+        </a>
+        <label class="menu-btn" for="menu-btn" title="Меню"><span class="menu-icon hamburger"></span></label>
+    </header>
+    <div id="sidebar">
+        <form action="" name="sidebar_header" class="sidebar_header">
+            <a href="../ru.html" title="На главную">Домой</a>
+            <input title="Light theme" type="radio" name="blog-theme" id="light" checked>
+            <input title="Pink theme" type="radio" name="blog-theme" id="pink">
+            <input title="Dark theme" type="radio" name="blog-theme" id="dark">
+            <a class="menu-btn" href="#" id="sidebar-go-top" title="Наверх"><span class="menu-icon up-arrow">Вверх</span></a>
+            <label class="menu-btn" for="menu-btn" title="Закрыть"><span class="menu-icon close-btn">Закрыть</span></label>
+        </form>
+        <div class="important-links on-mobile">
+            <a href="table-of-contents.html">Гайд</a>
+            <a href="our-immersion-learning-toolset.html">Инструменты</a>
+            <a href="resources.html">Ресурсы</a>
+            <a href="ankidrone-decks.html">Колоды</a>
+            <a href="tag_dictionaries.html">Словари</a>
+            <a href="tag_faq.html">ЧаВо</a>
+            <a href="all_tags.html">Теги</a>
+            <a href="search.html">Поиск</a>
+        </div>
+        <hr>
+        <div class="page-contents">
+            <ol>
+    <li>
+        <a href="#installation">Installation</a>
+            <ol>
+    <li>
+        <a href="#gecko-based">Gecko-based</a>
+            <ol>
+    <li>
+        <a href="#caveats">Caveats</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#chromium-based">Chromium-based</a>
+            <ol>
+    <li>
+        <a href="#github-releases">GitHub Releases</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#ankiconnect-plugin">AnkiConnect plugin</a>
+    </li>
+    <li>
+        <a href="#mobile-devices">Mobile devices</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#download-dictionaries">Download dictionaries</a>
+    </li>
+    <li>
+        <a href="#configuration">Configuration</a>
+            <ol>
+    <li>
+        <a href="#backups">Backups</a>
+    </li>
+    <li>
+        <a href="#install-dictionaries">Install dictionaries</a>
+    </li>
+    <li>
+        <a href="#pitch-accents">Pitch accents</a>
+    </li>
+    <li>
+        <a href="#anki-settings">Anki settings</a>
+            <ol>
+    <li>
+        <a href="#settings-overview">Settings overview</a>
+    </li>
+    <li>
+        <a href="#screenshot">Screenshot</a>
+    </li>
+    <li>
+        <a href="#commentary">Commentary</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#handlebars">Handlebars</a>
+    </li>
+    <li>
+        <a href="#popup-size">Popup size</a>
+    </li>
+    <li>
+        <a href="#styling">Styling</a>
+    </li>
+    <li>
+        <a href="#profiles">Profiles</a>
+    </li>
+    <li>
+        <a href="#replacement-patterns">Replacement patterns</a>
+    </li>
+    <li>
+        <a href="#recursive-lookups">Recursive lookups</a>
+    </li>
+    <li>
+        <a href="#keyboard-shortcuts">Keyboard shortcuts</a>
+    </li>
+    <li>
+        <a href="#collapse-dictionaries">Collapse dictionaries</a>
+    </li>
+    <li>
+        <a href="#audio">Audio</a>
+    </li>
+    <li>
+        <a href="#miscellaneous">Miscellaneous</a>
+    </li>
+</ol>
+
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+    </li>
+    <li>
+        <a href="#rikaitan-pdf-viewer">Rikaitan PDF Viewer</a>
+    </li>
+</ol>
+
+        </div>
+        <hr>
+        <div class="important-links">
+            <a href="donating-to-tatsumoto.html">Поддержать</a>
+            <a href="join-our-community.html">В чат</a>
+        </div>
+    </div>
+
+    <div id="divbodyholder">
+        <div id="divbody">
+            <main>
+    <!-- entry begin -->
+    <article timestamp="1619220247">
+        <h1 class="title"><a class="ablack" href="setting-up-yomichan.html">Setting up Rikaitan</a></h1>
+        <div class="subtitle">23 апреля 2021 (updated 16 августа 2026) &mdash; Тацумото Рен</div>
+        <!-- text begin -->
+        <div class="translation-note">
+<p><strong>Примечание:</strong> Обратите внимание, что эта статья ещё не переведена полностью.
+Если вы хотите помочь, <a href="join-our-community.html">присоединяйтесь к нашему сообществу</a>
+и <a href="https://github.com/tatsumoto-ren/tatsumoto-ren.github.io" target="_blank" rel="noopener noreferrer nofollow">создайте pull request на GitHub</a>.</p>
+</div>
+<p><a href="https://rikaitan.github.io/" target="_blank" rel="noopener noreferrer nofollow">Rikaitan</a>
+is a browser extension with a pop-up dictionary
+that allows you to look up unknown words with the hover of a mouse.
+On top of that Rikaitan can be set up to create Anki cards from the words which you look up.</p>
+<p>The process of picking sentences from your immersion
+and making Anki cards is called <em>sentence-mining</em> or <em>sentence-picking</em>.
+Each mined sentence has to contain one unknown piece of information,
+which is referred to as <em>target word</em>.</p>
+<p>You don't necessarily have to pick an entire sentence,
+but if you're a TSC user it is not necessary to keep mined items short.
+When you're out in the wild picking sentences, select the ones that are interesting to you.
+Your goal is not to mine every word.</p>
+<hr />
+<h2 id="installation"><a class="anchor" href="#installation" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<p><span class="article-note">Note</span>: <a href="avoid-fake-clones-of-rikaitan.html">Avoid fake clones of Rikaitan</a>.</p>
+<h3 id="gecko-based"><a class="anchor" href="#gecko-based" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gecko-based</h3>
+<p>Rikaitan is available for <a href="https://wiki.archlinux.org/title/Firefox" target="_blank" rel="noopener noreferrer nofollow">Firefox</a>-based web browsers.
+We recommend <a href="https://librewolf.net/" target="_blank" rel="noopener noreferrer nofollow">LibreWolf</a> as your everyday web browser.</p>
+<p align="center">
+<a class="download_button" href="https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-selfhosted.xpi">Release version</a>
+</p>
+<p align="center">
+<a class="download_button" href="https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-dev.xpi">Development version</a>
+</p>
+<h4 id="caveats"><a class="anchor" href="#caveats" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caveats</h4>
+<p>Add-on verification by <a href="https://digdeeper.club/articles/mozilla.xhtml" target="_blank" rel="noopener noreferrer nofollow">Mozilla</a> can take a long time.
+You can still install the extension if you open <code>about:config</code>
+and set <code>xpinstall.signatures.required</code> to <code>false</code>.</p>
+<p><a href="https://digdeeper.club/articles/mozilla.xhtml" target="_blank" rel="noopener noreferrer nofollow">Mozilla</a>
+is making it difficult to install extensions on Android!
+To install an extension in
+<a href="https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/" target="_blank" rel="noopener noreferrer nofollow">Firefox for Android</a> (Fennec) from a file,
+download and save the extension file to your device.
+In Firefox, open Settings, then About Firefox (Fennec).
+Tap the Firefox logo five times quickly to unlock hidden menu items.
+Return and open Settings again, then choose <em>Install Extension from File</em>.
+Browse to and open the saved extension file.
+When prompted, tap Add.
+The extension appears in the Extension list of installed extensions and is ready to use.</p>
+<h3 id="chromium-based"><a class="anchor" href="#chromium-based" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chromium-based</h3>
+<p>Rikaitan is available for <a href="https://wiki.archlinux.org/title/Chromium" target="_blank" rel="noopener noreferrer nofollow">Chromium</a>-based web browsers.
+We recommend <a href="https://aur.archlinux.org/packages/ungoogled-chromium" target="_blank" rel="noopener noreferrer nofollow">ungoogled-chromium</a> as your everyday web browser.</p>
+<p align="center">
+<a class="download_button" href="https://chromewebstore.google.com/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk">Chrome Web Store</a>
+</p>
+<h4 id="github-releases"><a class="anchor" href="#github-releases" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub Releases</h4>
+<p>The official <a href="https://github.com/Ajatt-Tools/rikaitan/releases" target="_blank" rel="noopener noreferrer nofollow">GitHub Releases page</a>.</p>
+<ol>
+<li>Save latest <code>zip</code>.
+Right click on <a href="https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-chrome.zip" target="_blank" rel="noopener noreferrer nofollow">this link</a>,
+and click &quot;Save Link As...&quot; to save it.</li>
+<li>Go to Extension Manager: <code>chrome://extensions/</code>, and enable developer mode.</li>
+<li>Refresh the page.</li>
+<li>Drag and drop the <code>rikaitan-chrome.zip</code> file.</li>
+</ol>
+<h3 id="ankiconnect-plugin"><a class="anchor" href="#ankiconnect-plugin" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AnkiConnect plugin</h3>
+<p>In order to be able to create Anki cards later you need the
+<a href="https://ankiweb.net/shared/info/2055492159" target="_blank" rel="noopener noreferrer nofollow">AnkiConnect</a> plugin.
+It can be installed by opening Anki and going to
+Tools &gt; Add-ons &gt; Get Add-ons... &gt; Code: <code>2055492159</code> &gt; OK.</p>
+<h3 id="mobile-devices"><a class="anchor" href="#mobile-devices" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mobile devices</h3>
+<p>On <a href="our-immersion-learning-toolset.html#android">Android</a> devices
+you can install
+<a href="https://f-droid.org/packages/org.mozilla.fennec_fdroid/" target="_blank" rel="noopener noreferrer nofollow">Fennec</a>
+and then install Rikaitan from <a href="#gecko-based">Firefox add-ons</a>.</p>
+<h2 id="download-dictionaries"><a class="anchor" href="#download-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download dictionaries</h2>
+<p>Rikaitan needs dictionary files to operate.
+Dictionaries are distributed in <code>.zip</code> archives.
+The archives should not be unzipped before installation.</p>
+<p>You can find dictionary files <a href="yomichan-and-epwing-dictionaries.html">here</a>.</p>
+<h2 id="configuration"><a class="anchor" href="#configuration" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<p>The great thing about Rikaitan is that it is customizable.
+To access the settings page, click the
+<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/rikaitan-icon.svg" alt="yomichan-settings" />
+button in the browser toolbar and choose &quot;Settings&quot;.
+In the bottom left corner enable &quot;Advanced&quot; to access hidden settings mentioned in this guide.</p>
+<p><img src="../blog/img/rikaitan-advanced-toggle.webp" alt="screenshot" /></p>
+<h3 id="backups"><a class="anchor" href="#backups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backups</h3>
+<p>If you are installing the extension on a new device,
+export and import your setting by going to
+&quot;Settings&quot; &gt; &quot;Backup&quot; &gt; &quot;Export/Import settings&quot;.</p>
+<h3 id="install-dictionaries"><a class="anchor" href="#install-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install dictionaries</h3>
+<p>To install a new dictionary, select &quot;Dictionaries&quot; on the sidebar,
+then click &quot;Configure installed and enabled dictionaries…&quot;.
+The &quot;Import&quot; button in the bottom lets you choose a dictionary file.</p>
+<p>For the first month or two after finishing
+<a href="jp1k-anki-deck.html">kanji</a>
+and
+<a href="basic-vocabulary.html">basic vocabulary</a>
+you're going to need only the English JMdict and optionally the English KANJIDIC.
+The first one is a very popular Japanese to English dictionary
+which you can find on <a href="https://jisho.org/" target="_blank" rel="noopener noreferrer nofollow">jisho.org</a>,
+the second one lets you see information about individual kanji.
+Apart from regular dictionaries for looking up vocabulary,
+there are grammar dictionaries and frequency lists.
+They are not must have, but consider exploring them too.</p>
+<p>After you begin transitioning to Japanese-Japanese dictionaries, install them as well.
+My favorite ones are <code>大辞林</code>, <code>明鏡</code> and <code>新明解</code>.</p>
+<h3 id="pitch-accents"><a class="anchor" href="#pitch-accents" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch accents</h3>
+<p><a href="japanese-pitch-accents.html">Pitch accent</a>
+is taken very seriously among Japanese learners.
+If you don't know pitch accent of a word,
+you don't know how it's pronounced.</p>
+<p>To view pitch accent information in Rikaitan popups,
+you need to install <strong>Kanjium dictionary</strong>.
+You can find it in the archive with all the other dictionaries you downloaded earlier.</p>
+<p>To configure how pitch accent information is displayed,
+go to &quot;Settings&quot; &gt; &quot;Appearance&quot; &gt; &quot;Pitch accent display styles&quot;.
+Enable &quot;Downstep notation&quot; and &quot;Downstep position&quot;.
+I don't recommend enabling &quot;Graph&quot;
+because it doesn't show connections between moraes and their corresponding pitches.</p>
+<h3 id="anki-settings"><a class="anchor" href="#anki-settings" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anki settings</h3>
+<p>To set up Anki integration,
+go to &quot;Settings&quot; &gt; &quot;Anki&quot;.
+Make sure &quot;Enable Anki integration&quot; is on,
+Anki is running and AnkiConnect is installed.</p>
+<p>I advise you to disable the &quot;Check for card duplicates&quot; option
+unless you are sure that you need duplicate checking.
+Although it's a very useful feature,
+it is known to significantly affect performance
+to the point when Rikaitan and Anki freeze and become unusable.</p>
+<p>Scroll down and click &quot;Configure Anki card format...&quot;
+to select the Note Type for your mining deck.</p>
+<p>The settings below are for the
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences" target="_blank" rel="noopener noreferrer nofollow">Japanese sentences</a>
+Note Type.
+You can install it by importing <a href="setting-up-anki.html#import-an-example-mining-deck">this example deck</a>.</p>
+<p>We have a
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes" target="_blank" rel="noopener noreferrer nofollow">repository</a>
+with user-created Note Types.
+It includes a very convenient system of importing and exporting the Note Types,
+and everyone is welcome to add their templates by making a pull request.</p>
+<h4 id="settings-overview"><a class="anchor" href="#settings-overview" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Settings overview</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SentKanji</code></td>
+<td><code>{cloze-prefix}&lt;b&gt;{cloze-body}&lt;/b&gt;{cloze-suffix}</code></td>
+</tr>
+<tr>
+<td><code>VocabKanji</code></td>
+<td><code>{expression}</code></td>
+</tr>
+<tr>
+<td><code>VocabFurigana</code></td>
+<td><code>{furigana-plain}</code></td>
+</tr>
+<tr>
+<td><code>VocabPitchPattern</code></td>
+<td><code>{pitch-accents}</code></td>
+</tr>
+<tr>
+<td><code>VocabPitchNum</code></td>
+<td><code>{pitch-accent-positions}</code></td>
+</tr>
+<tr>
+<td><code>VocabDef</code></td>
+<td><code>{glossary-brief}</code></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="screenshot"><a class="anchor" href="#screenshot" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Screenshot</h4>
+<p align="center"><img class="shadow" alt="yomichan settings" src="../blog/img/yomichan_anki_settings.webp"></p>
+<p align="center"><i>Anki Cards settings.</i></p>
+<h4 id="commentary"><a class="anchor" href="#commentary" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commentary</h4>
+<ul>
+<li>The value set for <code>SentKanji</code> lets you automatically make the target word bold.
+Alternatively, replace it with <code>{sentence}</code> if you don't want it to be highlighted.</li>
+<li><code>SentFurigana</code> is left empty.
+You may have noticed that Rikaitan can add furigana to sentences
+with the <code>{sentence-furigana}</code> tag.
+Unfortunately, it uses a html-based <code>ruby</code> format which is hard for the user to edit.
+I recommend leaving the <code>SentFurigana</code> field blank
+and using the <a href="anki-japanese-support.html">AJT Japanese</a>
+add-on to generate furigana.</li>
+<li><code>SentEng</code> can be used together with
+<a href="our-immersion-learning-toolset.html#subs2srs">subs2srs</a>
+and premade decks such as
+<a href="ankidrone-essentials.html">Ankidrone Essentials</a>.</li>
+<li><code>MorphManFocus</code>
+is a field for compatibility with
+<a href="https://ankiweb.net/shared/info/900801631" target="_blank" rel="noopener noreferrer nofollow">Morphman</a>.</li>
+<li><code>SentAudio</code> and <code>Image</code> are to be filled by <a href="mining-from-movies-and-tv-shows.html">mpvacious</a>.</li>
+<li>If you set <code>VocabDef</code> to <code>{clipboard-text}</code>
+you can manually select which part of the definition you want
+by pressing <code>Ctrl+C</code> before you make a card.</li>
+<li><code>VocabAudio</code> is left empty.
+I don't recommend assigning <code>{audio}</code>
+because all default audio sources in Rikaitan
+often provide samples with <strong>incorrect pronunciation</strong> and pitch accent.
+For example, you get <code>はは</code> instead of <code>はば</code> or <code>ぼせい</code> instead of <code>ほせい</code>.
+It's pretty bad, even harmful for language learning.
+Furthermore, enabling <code>{audio}</code> significantly slows down card creation
+because Rikaitan has to access pronunciation servers and download audio every time.
+Instead you can use <a href="anki-japanese-support.html#audio-files">audio sources</a> provided by AJT Japanese.</li>
+</ul>
+<h3 id="handlebars"><a class="anchor" href="#handlebars" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Handlebars</h3>
+<p>Usually the term <em>handlebars</em> is used to refer to the formatting of Anki cards created by Rikaitan.
+Handlebars can be configured by going to
+&quot;Settings&quot; &gt; &quot;Anki&quot; &gt; &quot;Configure Anki card templates...&quot;.
+Some people may recommend you to modify the handlebars
+but no matter what you do your settings
+are going to be broken on next Rikaitan update anyway, and you can't prevent it.</p>
+<p>Instead, it is advised to modify styling of your Note Type directly in Anki.
+For example, you can remove dictionary bullet points by copying the code below.
+The following snippet was taken from the
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20sentences" target="_blank" rel="noopener noreferrer nofollow">Japanese sentences</a>
+Note Type.</p>
+<div class="pre-wrap"><pre><code>ul, ol {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+</code></pre></div>
+<h3 id="popup-size"><a class="anchor" href="#popup-size" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Popup size</h3>
+<p>The default pop up box size is rather small
+which makes it difficult to work with monolingual dictionaries.
+To increase its size, go to &quot;Settings&quot; &gt; &quot;Position &amp; Size&quot; and set the size to a higher value.
+I use <code>480x480</code>.</p>
+<h3 id="styling"><a class="anchor" href="#styling" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styling</h3>
+<p>Rikaitan offers rich capabilities for styling thanks to the use of CSS.
+The appearance of the popup window can be changed by going to
+&quot;Settings&quot; &gt; &quot;Appearance&quot; &gt; &quot;Configure custom CSS...&quot;.</p>
+<p>Most people keep their settings rather simple,
+but there are a few important modifications I'd like to mention.</p>
+<ol>
+<li>
+<p><strong>Hide furigana.</strong>
+When you use the popup window, it shows you all kanji readings right away.
+This is not desirable because you want to recall the readings yourself before looking them up.
+The code below makes furigana appear only when you hover over words.</p>
+<div class="pre-wrap"><pre><code>ruby rt { visibility: hidden; }
+ruby:hover rt { visibility: visible; }
+</code></pre></div>
+</li>
+<li>
+<p><strong>Increase font size.</strong>
+By default, Rikaitan uses very small font.
+If you're using monolingual dictionaries, you're going to find the font uncomfortable.
+To increase its size, the following code can be used.</p>
+<div class="pre-wrap"><pre><code>.gloss-content { font-size: 1.5em; }
+</code></pre></div>
+<p>Or, more complex rules with the popups and the search page styled separately.</p>
+<div class="pre-wrap"><pre><code>/* popup */
+[data-page-type=&quot;popup&quot;] .gloss-content  {
+    font-size: clamp(1rem, 6.5vw, 4rem);
+    font-weight: 300;
+}
+/* search page */
+[data-page-type=&quot;search&quot;] .gloss-content {
+    font-size: 2rem;
+}
+</code></pre></div>
+<p>Adjust the size to suit your preference.</p>
+</li>
+<li>
+<p><strong>Make tags smaller.</strong>
+Tags aren't that important, so it makes sense to shrink them a bit to save space.</p>
+<div class="pre-wrap"><pre><code>.tag-label-content { font-size: 12px; }
+</code></pre></div>
+<div class="pre-wrap"><pre><code>[data-page-type=&quot;popup&quot;] .tag-label-content {
+    font-size: 3vw;
+    font-weight: 300;
+}
+</code></pre></div>
+</li>
+<li>
+<p><strong>Popup page in the Anki-card style.</strong>
+Makes your popups look similar to your targeted sentence cards.</p>
+<div class="pre-wrap"><pre><code>.content-body {
+    background-color: #fffaf0;
+    color: #2a1b0a;
+}
+[class^=tag],
+[class*=icon] {
+    filter: sepia(50%);
+}
+[class^=tag] {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+</code></pre></div>
+</li>
+<li>
+<p><strong>Miscellaneous.</strong>
+CSS can do almost everything.</p>
+<p>To find the right class name to apply your styles to,
+right-click on the part of the popup window that you're interested in and choose &quot;Inspect&quot;.
+You will be presented with the HTML structure of the popup.
+Classes are defined inside HTML tags.
+For example, the class name for the tag below is <code>gloss-content</code>.</p>
+<div class="pre-wrap"><pre><code>&lt;span class=&quot;gloss-content&quot; lang=&quot;ja&quot;&gt;...&lt;/span&gt;
+</code></pre></div>
+</li>
+</ol>
+<h3 id="profiles"><a class="anchor" href="#profiles" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiles</h3>
+<p>Set up a second profile to make it easier to switch between mining
+<a href="discussing-various-card-templates.html#simple-word-cards">simple word cards</a>
+and
+<a href="discussing-various-card-templates.html#targeted-sentence-cards">targeted sentence cards</a>.
+Go to &quot;Settings&quot; &gt; &quot;Profile&quot; &gt; &quot;Configure profiles...&quot;.
+Under &quot;Conditions&quot; select:</p>
+<div class="pre-wrap"><pre><code>if &quot;Modifier Keys&quot; &quot;Include&quot; &quot;Ctrl&quot;
+</code></pre></div>
+<p align="center"><img alt="Profile Conditions" src="../blog/img/yomichan-profile-conditions.webp"></p>
+<p align="center"><i>Profile Conditions.</i></p>
+<p>The modifier key can be anything.
+To insert <code>Ctrl</code> you sometimes have to press both Ctrl and Shift at the same time,
+which appears to be a bug of Rikaitan.</p>
+<p>Change which profile is being modified under &quot;Profile&quot; &gt; &quot;Editing profile&quot;,
+go back to <a href="#anki-settings">Anki settings</a> and set up a second Note Type to mine simple word cards.
+An example Note Type can be found
+<a href="https://github.com/Ajatt-Tools/AnkiNoteTypes/tree/main/templates/Japanese%20words" target="_blank" rel="noopener noreferrer nofollow">here</a>.
+Now when you press <code>Shift+Ctrl</code> while reading,
+Rikaitan is going to use the new profile.</p>
+<h3 id="replacement-patterns"><a class="anchor" href="#replacement-patterns" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Replacement patterns</h3>
+<p>If Rikaitan fails to look up words such as
+<code>近々</code> or <code>屡々</code>,
+try adding the following replacement pattern.
+Go to &quot;Settings&quot; &gt; &quot;Translation&quot; &gt; &quot;Configure custom text replacement patterns…&quot;,
+then press &quot;Add&quot;.</p>
+<ul>
+<li>Pattern: <code>(.)々</code></li>
+<li>Replacement: <code>$1$1</code></li>
+</ul>
+<h3 id="recursive-lookups"><a class="anchor" href="#recursive-lookups" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recursive lookups</h3>
+<p>If you're someone who just started using monolingual dictionaries,
+you may often require looking up words inside definitions.</p>
+<p align="center"><img alt="child popup" src="../blog/img/child-popup.webp"></p>
+<p align="center"><i>Recursive lookups.</i></p>
+<p>To enable this feature, go to &quot;Settings&quot; &gt; &quot;Popup&quot;.
+Change the following settings:</p>
+<ul>
+<li>Allow scanning popup content - on.</li>
+<li>Maximum number of child popups - any high number.
+When using <a href="going-monolingual.html">monolingual dictionaries</a>,
+you want to be able to look up any words you don't know <strong>within</strong> definitons.</li>
+<li>Allow scanning popup source terms - on.</li>
+</ul>
+<p align="center"><img class="shadow" alt="child popups settings" src="../blog/img/child-popups-settings.webp"></p>
+<p align="center"><i>Settings.</i></p>
+<h3 id="keyboard-shortcuts"><a class="anchor" href="#keyboard-shortcuts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard shortcuts</h3>
+<p>There's one thing about Rikaitan that probably annoys everyone.
+That's having to scroll down to find the right definition.
+Before you lose your mind,
+change some keyboard shortcuts.
+Go to &quot;Settings&quot; &gt; &quot;Shortcuts&quot; &gt; &quot;Configure standard keyboard shortcuts…&quot;.</p>
+<ul>
+<li>Go to previous entry: <code>K</code></li>
+<li>Go to next entry: <code>J</code></li>
+</ul>
+<p>These shortcuts let you jump between entries faster.
+You don't have to scroll anymore,
+especially if you keep many monolingual dictionaries installed.</p>
+<p align="center"><img class="shadow" alt="shortcuts" src="../blog/img/yomichan-shortcuts.webp"></p>
+<p align="center"><i>Shortcuts.</i></p>
+<h3 id="collapse-dictionaries"><a class="anchor" href="#collapse-dictionaries" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Collapse dictionaries</h3>
+<p>Go to &quot;Appearance&quot; &gt; &quot;Configure collapsible dictionaries…&quot;.
+Here you can hide definitions from some dictionaries.</p>
+<p align="center"><img alt="collapse jmdict" src="../blog/img/yomichan-collapse.webp"></p>
+<p align="center"><i>Screenshot.</i></p>
+<p>This feature can be useful for going monolingual.
+After you install monolingual (Jp-Jp) dictionaries,
+hide JMdict and other bilingual dictionaries
+to avoid associating Japanese words with their English translations.</p>
+<p>This is different from simply uninstalling bilingual dictionaries.
+Often there are words that Jp-Jp dictionaries don't define.
+Rikaitan won't be able to parse such words if JMdict is not installed.</p>
+<h3 id="audio"><a class="anchor" href="#audio" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio</h3>
+<p>Since the offered pronunciations are not correct,
+just disable them and rely on other sources of audio.
+AJT Japanese can add audio files to Anki cards.</p>
+<ul>
+<li>&quot;Auto-play search result audio&quot; - disable.</li>
+<li>&quot;Enable audio playback for terms&quot; - disable.</li>
+</ul>
+<h3 id="miscellaneous"><a class="anchor" href="#miscellaneous" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h3>
+<ul>
+<li>&quot;General&quot; &gt; &quot;Show the welcome guide on browser startup&quot;: disable.</li>
+<li>&quot;Scanning&quot; &gt; &quot;Scan delay&quot;: <code>0</code>. You don't want to be slowed down by anything.</li>
+<li>&quot;Popup Position &amp; Size&quot; &gt; &quot;Scale&quot;: adjust to your preference.</li>
+<li>&quot;Text Parsing&quot; &gt; &quot;Show space between parsed words&quot;: disable.</li>
+<li>&quot;Clipboard&quot; &gt; &quot;Enable search page clipboard text monitoring&quot;: enable.</li>
+</ul>
+<p align="center"><img alt="screenshot" class="shadow" src="../blog/img/rikaitan-scan-delay.webp"></p>
+<p align="center"><i>Scan delay.</i></p>
+<h2 id="usage"><a class="anchor" href="#usage" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>Rikaitan popups appear when you hover over Japanese text while holding down the Shift key.</p>
+<p>You can try it with this text:</p>
+<div class="pre-wrap"><pre><code>私達はイラク出身です。
+</code></pre></div>
+<p align="center"><img class="shadow" alt="yomichan window" src="../blog/img/yomichan_popup.webp"></p>
+<p align="center"><i>Rikaitan popup.</i></p>
+<p>Inside the box you can see definitions grouped by dictionary.
+To hide the window press <code>Esc</code> or click outside the box.
+If you have KANJIDIC installed, clicking on individual kanji in the expression
+will bring up additional information about the kanji.</p>
+<p><a href="what-is-yomichan-search.html">Rikaitan Search</a>
+is a tool that helps analyze text in the system clipboard.
+It is helpful when reading manga, books, or watching videos in <code>mpv</code>.</p>
+<p>By clicking on
+<img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/play-audio.svg" alt="play-audio" />
+you can hear an approximate pronunciation of the selected word.
+Unless you're using a custom pronunciation server, <strong>don't trust</strong> the default audio sources
+and don't add the pronunciations to Anki for the reasons explained earlier.</p>
+<p><a href="https://ankiweb.net/shared/info/1344485230" target="_blank" rel="noopener noreferrer nofollow">AJT Japanese</a>
+for Anki 2.1 solves the problem with pronunciations
+by letting you add a custom audio source
+that features pronunciations made by native speakers.
+The audio files will be downloaded and added to Anki
+whenever a new cards is created or an existing card is updated.</p>
+<p>The <img src="https://raw.githubusercontent.com/Ajatt-Tools/rikaitan/main/ext/images/add-term-kanji.svg" alt="plus" /> button
+allows you to make Anki cards in one click.
+Assuming you've configured your Note Type,
+now you can create properly formatted targeted sentence cards while reading.</p>
+<h2 id="rikaitan-pdf-viewer"><a class="anchor" href="#rikaitan-pdf-viewer" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rikaitan PDF Viewer</h2>
+<p><a href="https://rikaitan.github.io/rikaitan-pdf-viewer/web/" target="_blank" rel="noopener noreferrer nofollow">Rikaitan PDF Viewer</a>.
+Read PDF files with Rikaitan text scanning.</p>
+
+        <!-- text end -->
+        <div class="blog_tags_list">
+        <span class="blog_tags_text_before">Теги:</span>
+            <a href="tag_guide.html">guide</a>
+            <a href="tag_dictionaries.html">dictionaries</a>
+            <a href="tag_rikaitan.html">rikaitan</a>
+        </div>
+    </article>
+    <!-- entry end -->
+            </main>
+    <div class="toc_navigation">
+        <a href="setting-up-qolibri.html" title="Qolibri" class="md-button prev">Назад</a>
+        <a href="yomichan-and-epwing-dictionaries.html" title="Dictionary files" class="md-button next">Вперёд</a>
+    </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-linkbox">
+            <div>
+                <h3>Учить японский</h3>
+                <ul>
+                    <li><a href="table-of-contents.html">Содержание</a></li>
+                    <li><a href="our-immersion-learning-toolset.html">Инструменты</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="tag_faq.html">ЧаВо</a></li>
+                    <li><a href="all_tags.html">Все теги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Anki</h3>
+                <ul>
+                    <li><a href="setting-up-anki.html">Установка</a></li>
+                    <li><a href="how-to-review.html">Как учиться</a></li>
+                    <li><a href="ankidrone-decks.html">Колоды</a></li>
+                    <li><a href="useful-anki-add-ons-for-japanese.html">Дополнения</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Софт</h3>
+                <ul>
+                    <li><a href="setting-up-qolibri.html">Qolibri</a></li>
+                    <li><a href="setting-up-goldendict.html">GoldenDict-NG</a></li>
+                    <li><a href="tag_rikaitan.html">Rikaitan</a></li>
+                    <li><a href="tag_mpv.html">MPV</a></li>
+                    <li><a href="https://github.com/search?q=topic%3Ampv+org%3AAjatt-Tools+fork%3Atrue&type=repositories">Скрипты для MPV</a></li>
+                    <li><a href="https://github.com/tatsumoto-ren/dotfiles">Мои конфиги</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться</h3>
+                <ul>
+                    <li><a href="feed.rss">RSS</a></li>
+                    <li><a href="join-our-community.html">Наше сообщество</a></li>
+                    <li><a href="https://t.me/ajatt_tools">Телеграм</a></li>
+                    <li><a href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a></li>
+                    <li><a href="https://github.com/Ajatt-Tools">GitHub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Поддержать нас</h3>
+                <p>AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен.</p>
+                <p><a class="md-button donations" href="donating-to-tatsumoto.html">Поддержать</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Авторские права &copy; Тацумото Рен 2020-2026</p>
+            <p>Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки.</p>
+        </div>
+    </footer>
+</body>
+</html>
