@@ -99,3 +99,156 @@ templates_dir = "templates"
 css_include=['res/index.css']
 js_include=['res/canonical-redirect.js']
 num_recent_posts = 10
+
+[blogs.ru]
+language = "ru"
+drafts_dir = "ru/drafts"
+md_dir = "ru"
+output_dir = "ru"
+templates_dir = "blog/templates"
+global_title = "All Japanese All The Time | AJATT"
+global_short_title = "AJATT"
+global_description = "Руководство по изучению японского языка. Самый быстрый способ достичь уровня носителя в иностранном языке."
+global_keywords = "руководство по изучению японского языка, путь к овладению японским, AJATT, All Japanese All The Time"
+
+global_author="Тацумото Рен"
+global_author_url="https://github.com/tatsumoto-ren"
+global_email=""
+
+css_include=['blog/res/blog.css',]
+js_include=['blog/res/blog.js', 'blog/res/search.js']
+
+# Table of contents file for navigation
+table_of_contents="table-of-contents.md"
+
+# Truncate posts on index page at ---- (horizontal rule in Markdown)
+truncate_index=true
+
+[blogs.ru.template_strings]
+"Switch language" = "Сменить язык"
+"no-js-msg" = """
+Для поиска требуется включённый JavaScript. Включите JavaScript в настройках браузера.
+JavaScript на этой странице является свободным программным обеспечением под лицензией GNU GPL v3."""
+"Loading search index..." = "Загрузка поискового индекса..."
+"No results found." = "Ничего не найдено."
+"Search is misconfigured." = "Поиск настроен неправильно."
+"Failed to load search index." = "Не удалось загрузить поисковый индекс."
+"Results: {count}" = "Результатов: {count}"
+"(showing first {count})" = "(показаны первые {count})"
+"Read more..." = "Читать дальше..."
+"View more posts" = "Больше статей"
+"All posts" = "Все статьи"
+"All tags" = "Все теги"
+"Tag" = "Тег"
+"Posts" = "Статьи"
+"Posts tagged" = "Статьи с тегом"
+"Tags" = "Теги"
+"Back to the index page" = "Назад на главную"
+"Subscribe" = "Подписаться"
+"Subscribe to this page..." = "Подписаться на эту страницу..."
+"Home" = "Домой"
+"Search" = "Поиск"
+"Search articles..." = "Поиск статей..."
+"Guide" = "Гайд"
+"Tools" = "Инструменты"
+"Resources" = "Ресурсы"
+"Decks" = "Колоды"
+"Dictionaries" = "Словари"
+"FAQ" = "ЧаВо"
+"Donate" = "Поддержать"
+"Join chat" = "В чат"
+"Menu" = "Меню"
+"Go home" = "На главную"
+"Go to top" = "Наверх"
+"Up" = "Вверх"
+"Close" = "Закрыть"
+"Learn Japanese" = "Учить японский"
+"Table of Contents" = "Содержание"
+"Anki" = "Anki"
+"Setup" = "Установка"
+"How to study" = "Как учиться"
+"Add-ons" = "Дополнения"
+"Software" = "Софт"
+"MPV scripts" = "Скрипты для MPV"
+"My dotfiles" = "Мои конфиги"
+"Get in touch" = "Связаться"
+"RSS" = "RSS"
+"Our community" = "Наше сообщество"
+"Telegram" = "Телеграм"
+"Support us" = "Поддержать нас"
+"AJATT is a reader-funded site. Consider donating if you found the site useful." = "AJATT — сайт, финансируемый читателями. Пожалуйста, поддержите нас, если сайт был вам полезен."
+"Copyright" = "Авторские права"
+"Site generated with Tatsublog, a static site generator that doesn't need a JavaScript framework." = "Сайт создан с помощью Tatsublog, генератора статических сайтов, которому не нужны JavaScript-фреймворки."
+"Previous" = "Назад"
+"Next" = "Вперёд"
+"Sort by:" = "Сортировка:"
+"Position" = "Позиция"
+"Date" = "Дата"
+"Title" = "Заголовок"
+"Free forever" = "Всегда бесплатно"
+"Mass immersion" = "Иммерсия"
+"Anki decks provided" = "Колоды Anki"
+"Vibrant community" = "Живое сообщество"
+"Get started" = "Начать"
+"Community" = "Сообщество"
+"Japanese guide" = "Руководство по японскому"
+"Recent articles" = "Недавние статьи"
+"Site updates:" = "Обновления сайта:"
+index_nagbar = """
+На этой странице статьи перечислены в хронологическом порядке.
+Возможно, вы хотели прочитать [Содержание]({{ "table-of-contents.html" | in_blog | as_rel }})."""
+hero_description = """
+По-настоящему взрывной подход к изучению японского языка.
+Всё, что нужно для изучения языка.
+Нажмите здесь, чтобы начать читать Содержание!
+А если вы заблудились и вам нужна помощь, вы можете присоединиться к нашему сообществу."""
+free_forever_text = """
+Доступ к знаниям не должен быть платным.
+Наше руководство по языку бесплатно,
+а [инструменты]({{ "our-immersion-learning-toolset.html" | in_blog | as_rel }}), которые мы используем и рекомендуем,
+[свободны](https://www.gnu.org/philosophy/free-sw.html).
+Сайт существует полностью на [пожертвования]({{ "donating-to-tatsumoto.html" | in_blog | as_rel }}) от читателей вроде вас."""
+mass_immersion_text = """
+Начните заниматься по методу [All Japanese All the Time]({{ "whats-ajatt.html" | in_blog | as_rel }}).
+Вместо покупки курсов или похода на занятия в языковую школу,
+мы рекомендуем изучать японский язык самостоятельно,
+слушая, смотря и читая то, что вам нравится."""
+anki_decks_text = """
+Забудьте о забывании.
+Мы считаем, что [интервальное повторение]({{ "spaced-repetition.html" | in_blog | as_rel }})
+это отличный метод для запоминания слов.
+Мы предоставляем [колоды Anki]({{ "setting-up-anki.html" | in_blog | as_rel }})
+для помощи в погружении и ускорения обучения."""
+vibrant_community_text = """
+Помните, что вы не одни в этом пути.
+У нас есть большое [сообщество]({{ "join-our-community.html" | in_blog | as_rel }}) для изучения японского языка,
+где вы можете завести друзей,
+задавать вопросы,
+получать помощь от опытных изучающих
+и находить бесчисленные ресурсы для обучения!"""
+japanese_guide_text = """
+[Руководство Тацумото по изучению японского языка]({{ "table-of-contents.html" | in_blog | as_rel }})
+это путь изучения японского языка с нуля через погружение.
+Если вы хотите свободно владеть японским языком, вы попали по адресу.
+Метод изучения языка, описанный в этом руководстве,
+приведёт вас к высочайшему уровню владения
+быстрее, чем любой другой метод в мире.
+
+Руководство включает бесплатные карточки, ресурсы
+и полезные инструменты, помогающие в процессе."""
+ajatt_tools_text = """
+[Ajatt-Tools](https://github.com/Ajatt-Tools) помогают людям изучать языки.
+Программное обеспечение предоставляет мощный набор инструментов,
+которые оптимизируют изучение языка
+и помогают на пути к уровню носителя.
+
+Создавайте качественные карточки одним щелчком,
+оптимизируйте и улучшайте Anki с помощью наших [дополнений Anki](https://ankiweb.net/shared/by-author/819023663),
+генерируйте фуригану и питч-акценты,
+находите примеры предложений
+и наслаждайтесь процессом!"""
+
+[blogs.ru.landing]
+index_file = "ru.html"
+css_include = ['res/index.css']
+js_include = ['res/lang-redirect.js']
