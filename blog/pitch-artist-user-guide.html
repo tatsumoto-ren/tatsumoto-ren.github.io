@@ -67,6 +67,7 @@
             <a href="ankidrone-decks.html">Decks</a>
             <a href="tag_dictionaries.html">Dictionaries</a>
             <a href="tag_faq.html">FAQ</a>
+            <a href="all_tags.html">Tags</a>
             <a href="search.html">Search</a>
         </div>
         <hr>
@@ -218,7 +219,7 @@ Type a word, a semicolon, and a pitch specification:</p>
 <p>Press <kbd>Ctrl+Enter</kbd> or click &quot;Update&quot; to refresh the preview.</p>
 <p>Pitch numbers use the common Tokyo pitch notation.
 Here <code>n</code> means the number of morae in the word.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Number</th>
@@ -253,13 +254,13 @@ Here <code>n</code> means the number of morae in the word.</p>
 <td>heiban</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Changing any setting updates the preview immediately.
 The preview uses a cloned config,
 so temporary dialog changes affect rendering without rewriting the global SVG graph settings.
 To change settings permanently, go to &quot;AJT&quot; &gt; &quot;Japanese options...&quot; &gt; &quot;SVG graphs&quot;.</p>
 <h2 id="buttons-and-shortcuts"><a class="anchor" href="#buttons-and-shortcuts" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Buttons and shortcuts</h2>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Action</th>
@@ -292,7 +293,7 @@ To change settings permanently, go to &quot;AJT&quot; &gt; &quot;Japanese option
 <td>Right-click selected text in the Anki Browser and choose &quot;Pitch artist&quot;</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>&quot;Copy HTML to Clipboard&quot; copies the generated SVG strings joined by the configured graph separator.</p>
 <p>Each previewed graph has a <code>Save</code> button.
 Click it, choose a filename, and the graph is written as an SVG file.
@@ -346,7 +347,7 @@ it is treated as a particle and drawn with gray, unfilled circles.</p>
 <p>Every word has two properties: pitch number and role.
 If you do not specify role or pitch, it will be guessed.
 All parts are optional, but they must appear in that order.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Part</th>
@@ -367,7 +368,7 @@ All parts are optional, but they must appear in that order.</p>
 <td>One optional signed digit, such as <code>0</code>, <code>1</code>, <code>2</code>, or <code>-1</code>, <code>-2</code></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The parser accepts one digit for the pitch number.</p>
 <p>Role typically controls what classname will be attached to the word.
 Class names are used for styling in CSS.
@@ -379,7 +380,7 @@ Additionally, words with the &quot;empty&quot; role are hidden completely.
 <code>ひみつ;e</code> won't be rendered.</p>
 <h2 id="role-letters"><a class="anchor" href="#role-letters" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Role letters</h2>
 <p>Pitch pattern names:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Letter</th>
@@ -414,9 +415,9 @@ Additionally, words with the &quot;empty&quot; role are hidden completely.
 <td><code>2</code></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Extra roles:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Letter</th>
@@ -451,7 +452,7 @@ Additionally, words with the &quot;empty&quot; role are hidden completely.
 <td><code>-1</code></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Examples:</p>
 <div class="pre-wrap"><pre><code>にほんご;0
 にほんご;h
@@ -460,7 +461,7 @@ Additionally, words with the &quot;empty&quot; role are hidden completely.
 ぐらい;po1
 </code></pre></div>
 <p>If there is no explicit role, Pitch Artist guesses a role from the pitch number:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Pitch</th>
@@ -497,7 +498,7 @@ Additionally, words with the &quot;empty&quot; role are hidden completely.
 <td>heiban</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The role letter takes priority for coloring, while the pitch number determines the actual pattern.</p>
 <div class="pre-wrap"><pre><code>にほんご;h2
 </code></pre></div>
@@ -530,7 +531,7 @@ When a word is a particle, the circles above kana have holes in them.</p>
 <div class="pre-wrap"><pre><code>か;p
 </code></pre></div>
 <p>Particles receive contextual pitch:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Previous contour state</th>
@@ -547,7 +548,7 @@ When a word is a particle, the circles above kana have holes in them.</p>
 <td>high</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The &quot;particle&quot; role can coexist with other roles.
 Use <code>p</code> in the accent spec when you want a section styled
 as a particle while still giving it a role.
@@ -580,7 +581,7 @@ use a bare semicolon as a separator:</p>
 </code></pre></div>
 <p>The <code>;</code> between the two words creates a dotted connector line.</p>
 <p>Summary:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Section</th>
@@ -609,7 +610,7 @@ use a bare semicolon as a separator:</p>
 <td>No connector</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h2 id="ghost-particle"><a class="anchor" href="#ghost-particle" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ghost particle</h2>
 <p>You can use <code>-</code> at the end of a sentence to add one trailing empty circle.
 Pitch Artist detaches a trailing <code>-</code> into its own ghost section:</p>
@@ -659,7 +660,7 @@ specify the role as an uppercase letter and the high/low levels explicitly.</p>
 If the level string is shorter than the number of morae, the last level repeats.</p>
 <p>Low-start words may rise differently depending on region,
 so adjust the explicit <code>h/l</code> sequence if you are targeting a specific local variety.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Letter</th>
@@ -720,7 +721,7 @@ so adjust the explicit <code>h/l</code> sequence if you are targeting a specific
 <td>Use for non-heiban verbs/i-adjectives</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h2 id="colored-text-output"><a class="anchor" href="#colored-text-output" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Colored text output</h2>
 <p>Pitch Artist also supports a colored-text output mode for card generation.
 Instead of SVG, it returns spans based on the parsed section roles:</p>
@@ -768,7 +769,7 @@ particle odaka
 </code></pre></div>
 <p>Devoiced text and devoiced markers use the <code>devoiced</code> class.</p>
 <p>Generated SVG uses these group classes:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Class</th>
@@ -793,12 +794,12 @@ particle odaka
 <td>Inter-word connector line</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h2 id="examples"><a class="anchor" href="#examples" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
 <h3 id="basic-accent-types"><a class="anchor" href="#basic-accent-types" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic accent types</h3>
 <p>The word はし has three meanings, each with a different pitch pattern.
 This is the most famous example in Japanese pitch accent education.</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Word</th>
@@ -827,7 +828,7 @@ This is the most famous example in Japanese pitch accent education.</p>
 <td>bridge</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h3 id="particle-attachment"><a class="anchor" href="#particle-attachment" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Particle attachment</h3>
 <p>The pitch of the following particle changes depending on the preceding word's accent.
 This is the key difference between 橋 and 箸.</p>
@@ -909,7 +910,7 @@ After a heiban word, the following particle stays high.
 です follows the odaka word and drops low.</p>
 <h2 id="syntax-reference"><a class="anchor" href="#syntax-reference" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax reference</h2>
 <h3 id="accent-specs"><a class="anchor" href="#accent-specs" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accent specs</h3>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Notation</th>
@@ -1014,10 +1015,10 @@ After a heiban word, the following particle stays high.
 <td><code>ひとり;2-</code></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>If the accent part is omitted, the word is treated as a particle.</p>
 <h3 id="special-symbols"><a class="anchor" href="#special-symbols" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Special symbols</h3>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Symbol</th>
@@ -1072,9 +1073,9 @@ After a heiban word, the following particle stays high.
 <td>Supplies the reading used for mora splitting</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h3 id="pitch-number-mapping"><a class="anchor" href="#pitch-number-mapping" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pitch number mapping</h3>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Pitch number</th>
@@ -1121,9 +1122,9 @@ After a heiban word, the following particle stays high.
 <td>heiban</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <h3 id="keihan-dialect-format"><a class="anchor" href="#keihan-dialect-format" title="Permanent link"><svg aria-hidden="true" class="aal_svg" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keihan dialect format</h3>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>Notation</th>
@@ -1160,7 +1161,7 @@ After a heiban word, the following particle stays high.
 <td>Keihan kifuku</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Level letters: <code>h</code> = high, <code>l</code> = low. If the levels string is shorter than the number of morae, the last level repeats.</p>
 
         <!-- text end -->
