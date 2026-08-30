@@ -8332,67 +8332,67 @@
     "parent":"Pitch accent perception"
   },
   {
-    "title":"Join our community",
+    "title":"Присоединяйтесь к нашему сообществу",
     "tags":[],
-    "body":"Примечание: Обратите внимание, что эта статья ещё не переведена полностью. Если вы хотите помочь, присоединяйтесь к нашему сообществу и создайте pull request на GitHub. Daily Japanese Thread is a friendly place for people learning Japanese through immersion. Join us to make friends, get help, ask questions, contribute to our projects and find countless new learning resources! You can join us on Telegram or SimpleX chat.",
+    "body":"Daily Japanese Thread это дружелюбное сообщество для людей, изучающих японский язык методом погружения. Присоединяйтесь к нам, чтобы найти друзей, получить помощь, задать вопросы, принять участие в наших проектах и открыть для себя бесчисленное множество новых материалов для учёбы! К нам можно присоединиться в Telegram или чате SimpleX.",
     "url":"join-our-community.html",
     "date":"2021-02-08"
   },
   {
-    "title":"SimpleX chat",
+    "title":"Чат SimpleX",
     "tags":[],
-    "body":"SimpleX is a private and secure messenger with no user IDs. On Arch Linux, install simplex-desktop-bin from the AUR to use SimpleX chat. On Android, install SimpleX Chat from F-Droid. On Ubuntu/Debian, install simplex-desktop-app from Pacstall. SimpleX chat Scan the QR code with the SimpleX Chat app on your phone or tablet. QR code",
-    "url":"join-our-community.html#simplex-chat",
-    "parent":"Join our community"
+    "body":"SimpleX это приватный и безопасный мессенджер без идентификаторов пользователей. В Arch Linux установите из AUR пакет simplex-desktop-bin, чтобы пользоваться чатом SimpleX. На Android установите SimpleX Chat из F-Droid. В Ubuntu/Debian установите из Pacstall пакет simplex-desktop-app. Чат SimpleX Отсканируйте QR-код в приложении SimpleX Chat на телефоне или планшете. QR-код",
+    "url":"join-our-community.html#chat-simplex",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Telegram group",
+    "title":"Telegram для русскоязычных",
     "tags":[],
-    "body":"Telegram is a messenger with a focus on speed and security. To use Telegram on GNU/Linux, install the official desktop client. Telegram also can be found on F-Droid. The package is named Forkgram. This is the main group for chatting about Japan, the Japanese language, and other things. Join us on Telegram",
-    "url":"join-our-community.html#telegram-group",
-    "parent":"Join our community"
+    "body":"Telegram это быстрый и безопасный мессенджер. Чтобы пользоваться Telegram в GNU/Linux, установите официальный клиент для компьютера. Telegram также доступен в F-Droid в виде приложения Forkgram. У меня есть отдельная группа для русскоязычных людей, изучающих японский язык. Японский язык",
+    "url":"join-our-community.html#telegram-dlia-russkoiazychnykh",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Telegram channel",
+    "title":"Telegram для англоязычных",
     "tags":[],
-    "body":"I post announcements in this channel. Telegram Channel",
-    "url":"join-our-community.html#telegram-channel",
-    "parent":"Join our community"
+    "body":"Это основная группа для общения о Японии, японском языке и других темах. Участники пишут на английском. Присоединиться к группе в Telegram",
+    "url":"join-our-community.html#telegram-dlia-angloiazychnykh",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Group for Russian speakers",
+    "title":"Канал в Telegram",
     "tags":[],
-    "body":"I have a separate group chat for Russian speakers who are learning Japanese. Японский язык",
-    "url":"join-our-community.html#group-for-russian-speakers",
-    "parent":"Join our community"
+    "body":"В этом канале я публикую объявления. Канал в Telegram",
+    "url":"join-our-community.html#kanal-v-telegram",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
     "title":"Pleroma",
     "tags":[],
-    "body":"I post announcements and site updates on Pleroma. I also share posts about Japan and the Japanese language. Pleroma If you're new to the Fediverse, check out this article.",
+    "body":"В Pleroma я публикую объявления и новости об обновлениях сайта, а также делюсь материалами о Японии и японском языке. Pleroma Если вы ещё не знакомы с Fediverse, прочитайте эту статью.",
     "url":"join-our-community.html#pleroma",
-    "parent":"Join our community"
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Rules",
+    "title":"Правила",
     "tags":[],
-    "body":"Speak English. Do not use your Japanese unless you're already fluent. Remember that talking is not practicing. Your time is better spent immersing. Be ethical. Do not post promotions or spam unrelated to learning Japanese. However, feel free to share with us your learning resources. Be minimally polite, don't troll and don't post porn. Stay on topic. Try to keep the conversation centered around immersion, software for language learning, Japanese language, the country and its culture. Everything else should be discussed in the room dedicated to off-topic which you'll find after you've joined. Read the guide. Most questions we get are already answered in our guide. Our members are volunteering their time to help everybody. Try to reduce the amount of reoccurring questions so that everyone has more time to immerse. No proprietary software. We don't use, support or recommend proprietary software. We use free/libre software because it is naturally more extensible and user-friendly. Our immersion learning toolset Communication software Certain rooms may have their own sets of rules.",
-    "url":"join-our-community.html#rules",
-    "parent":"Join our community"
+    "body":"Говорите по-английски или по-русски в зависимости от чата. Не используйте японский язык, если вы ещё не владеете им свободно. Помните, что говорение не помогает научиться говорить. Лучше потратьте это время на иммерсию. Соблюдайте нормы поведения. Не публикуйте рекламу и спам, не относящиеся к изучению японского языка. При этом вы можете свободно делиться с нами полезными учебными материалами. Будьте вежливы, не занимайтесь троллингом и не публикуйте порнографию. Не отклоняйтесь от темы. Старайтесь обсуждать иммерсию, программы для изучения языков, японский язык, Японию и её культуру. Для всего остального есть отдельная комната (топик), которую вы увидите после вступления в группу. Прочитайте руководство. Ответы на большинство задаваемых нам вопросов уже есть в нашем руководстве. Участники сообщества добровольно тратят своё время, чтобы помогать другим. Постарайтесь не задавать одни и те же вопросы снова и снова, чтобы у всех оставалось больше времени на погружение. Никаких несвободных программ. Мы не используем, не поддерживаем и не рекомендуем несвободные программы. Мы пользуемся свободными программами, потому что их легче расширять и приспосабливать к потребностям пользователей. Наш набор инструментов для обучения Программы для общения В отдельных комнатах могут действовать дополнительные правила.",
+    "url":"join-our-community.html#pravila",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Questions",
+    "title":"Вопросы",
     "tags":[],
-    "body":"If you have a question specifically for me, ping me in the chat by prepending your message with @tatsumoto on Telegram.",
-    "url":"join-our-community.html#questions",
-    "parent":"Join our community"
+    "body":"Если вы хотите задать вопрос лично мне, упомяните меня в чате, добавив @tatsumoto в начало сообщения в Telegram.",
+    "url":"join-our-community.html#voprosy",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
-    "title":"Community stickers",
+    "title":"Стикеры сообщества",
     "tags":[],
-    "body":"To install our community sticker packs, just click on the links below. Part 1 Part 2",
-    "url":"join-our-community.html#community-stickers",
-    "parent":"Join our community"
+    "body":"Чтобы установить наши наборы стикеров, перейдите по ссылкам ниже. Часть 1 Часть 2",
+    "url":"join-our-community.html#stikery-soobshchestva",
+    "parent":"Присоединяйтесь к нашему сообществу"
   },
   {
     "title":"Our Immersion Learning Toolset",

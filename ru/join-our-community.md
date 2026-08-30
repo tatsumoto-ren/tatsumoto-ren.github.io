@@ -1,123 +1,118 @@
 ---
-title: Join our community
+title: "\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0442\u0435\u0441\u044c \u043a \u043d\u0430\u0448\u0435\u043c\u0443 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0443"
 date: 1612779384
+updated: "30 August 2026"
 ---
 
-<div class="translation-note">
+Daily Japanese Thread это дружелюбное сообщество
+для людей, изучающих японский язык методом погружения.
+Присоединяйтесь к нам, чтобы найти друзей, получить помощь, задать вопросы,
+принять участие в наших [проектах](https://github.com/Ajatt-Tools)
+и открыть для себя бесчисленное множество новых материалов для учёбы!
 
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-Daily Japanese Thread is a friendly place
-for people learning Japanese through immersion.
-Join us to make friends, get help, ask questions,
-contribute to our [projects](https://github.com/Ajatt-Tools)
-and find countless new learning resources!
-
-You can join us on Telegram or SimpleX chat.
+К нам можно присоединиться в Telegram или чате SimpleX.
 
 ****
 
-## SimpleX chat
+## Чат SimpleX
 
-SimpleX is a private and secure messenger with no user IDs.
+SimpleX это приватный и безопасный мессенджер без идентификаторов пользователей.
 
-* On Arch Linux,
-install [simplex-desktop-bin](https://aur.archlinux.org/packages/simplex-desktop-bin)
-from the AUR to use SimpleX chat.
-* On Android,
-install [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/) from F-Droid.
-* On Ubuntu/Debian,
-install [simplex-desktop-app](https://pacstall.dev/packages/simplex-desktop-app)
-from Pacstall.
+* В Arch Linux установите из AUR пакет
+  [simplex-desktop-bin](https://aur.archlinux.org/packages/simplex-desktop-bin),
+  чтобы пользоваться чатом SimpleX.
+* На Android установите [SimpleX Chat](https://f-droid.org/en/packages/chat.simplex.app/)
+  из F-Droid.
+* В Ubuntu/Debian установите из Pacstall пакет
+  [simplex-desktop-app](https://pacstall.dev/packages/simplex-desktop-app).
 
-<a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">SimpleX chat</a>
+<a target="_blank" class="md-button simplex" href="https://smp10.simplex.im/g#QF5iZ2F69leXiUi8Bwa0h3HSroCTCodfK6DVgyvkQ5c">Чат SimpleX</a>
 
-Scan the QR code with the SimpleX Chat app on your phone or tablet.
+Отсканируйте QR-код в приложении SimpleX Chat на телефоне или планшете.
 
 <details>
-<summary>QR code</summary>
-<p align="center"><img style="max-height: 50vh;" alt="SimpleX QR" src="../blog/img/simplex-chat-link.webp"></p>
+<summary>QR-код</summary>
+<p align="center"><img style="max-height: 50vh;" alt="QR-код SimpleX" src="../blog/img/simplex-chat-link.webp"></p>
 </details>
 
-## Telegram group
+## Telegram для русскоязычных
 
-[Telegram](https://telegram.org/)
-is a messenger with a focus on speed and security.
-To use Telegram on GNU/Linux, install
-[the official desktop client](https://archlinux.org/packages/?name=telegram-desktop).
-Telegram also can be found on F-Droid.
-The package is named [Forkgram](https://f-droid.org/en/packages/org.forkgram.messenger/).
+[Telegram](https://telegram.org/) это
+быстрый и безопасный мессенджер.
+Чтобы пользоваться Telegram в GNU/Linux, установите
+[официальный клиент для компьютера](https://archlinux.org/packages/?name=telegram-desktop).
+Telegram также доступен в F-Droid в виде приложения
+[Forkgram](https://f-droid.org/en/packages/org.forkgram.messenger/).
 
-This is the main group for chatting about Japan, the Japanese language, and other things.
-
-<a target="_blank" class="md-button telegram" href="https://t.me/+Jxbp1wXMX_5iMWQ6">Join us on Telegram</a>
-
-## Telegram channel
-
-I post announcements in this channel.
-
-<a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools">Telegram Channel</a>
-
-## Group for Russian speakers
-
-I have a separate group chat for Russian speakers who are learning Japanese.
+У меня есть отдельная группа для русскоязычных людей, изучающих японский язык.
 
 <a target="_blank" class="md-button telegram" href="https://t.me/+QBdRJO7lCKgxMDcy">Японский язык</a>
 
+## Telegram для англоязычных
+
+Это основная группа для общения о Японии, японском языке и других темах.
+Участники пишут на английском.
+
+<a target="_blank" class="md-button telegram" href="https://t.me/+Jxbp1wXMX_5iMWQ6">Присоединиться к группе в Telegram</a>
+
+## Канал в Telegram
+
+В этом канале я публикую объявления.
+
+<a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools">Канал в Telegram</a>
+
 ## Pleroma
 
-I post announcements and site updates on Pleroma.
-I also share posts about Japan and the Japanese language.
+В Pleroma я публикую объявления и новости об обновлениях сайта,
+а также делюсь материалами о Японии и японском языке.
 
 <a target="_blank" class="md-button pleroma" href="https://freesoftwareextremist.com/tatsumoto?tab=statuses">Pleroma</a>
 
-If you're new to the Fediverse, [check out this article](the-fediverse.html).
+Если вы ещё не знакомы с Fediverse,
+[прочитайте эту статью](the-fediverse.html).
 
-## Rules
+## Правила
 
-1) **Speak English.**
-Do not use your Japanese unless you're already fluent.
-Remember that [talking is not practicing](https://redirect.invidious.io/watch?v=NiTsduRreug&t=352s).
-Your time is better spent immersing.
-1) **Be ethical.**
-Do not post promotions or spam unrelated to learning Japanese.
-However, feel free to share with us your learning resources.
-Be minimally polite, don't troll and don't post porn.
-1) **Stay on topic.**
-Try to keep the conversation centered around
-immersion, software for language learning,
-Japanese language, the country and its culture.
-Everything else should be discussed in the room dedicated to off-topic
-which you'll find after you've joined.
-1) **Read the guide.**
-Most questions we get are already answered in [our guide](table-of-contents.html).
-Our members are volunteering their time to help everybody.
-Try to reduce the amount of reoccurring questions so that everyone has more time to immerse.
-1) **No proprietary software.**
-We don't use, support or recommend
-[proprietary software](https://www.gnu.org/proprietary/proprietary.html).
-We use
-[free/libre software](https://www.gnu.org/philosophy/free-sw.html)
-because it is naturally more extensible and user-friendly.
-	* [Our immersion learning toolset](our-immersion-learning-toolset.html)
-	* [Communication software](https://web.archive.org/web/20250117045046if_/https://igwiki.lyci.de/wiki/Communication#Synchronous_Communication_(Real_time))
+1) **Говорите по-английски или по-русски** в зависимости от чата.
+   Не используйте японский язык, если вы ещё не владеете им свободно.
+   Помните, что [говорение не помогает научиться говорить](https://redirect.invidious.io/watch?v=NiTsduRreug&t=352s).
+   Лучше потратьте это время на [иммерсию](whats-immersion.html).
+1) **Соблюдайте нормы поведения.**
+   Не публикуйте рекламу и спам, не относящиеся к изучению японского языка.
+   При этом вы можете свободно делиться с нами полезными учебными материалами.
+   Будьте вежливы, не занимайтесь троллингом и не публикуйте порнографию.
+1) **Не отклоняйтесь от темы.**
+   Старайтесь обсуждать иммерсию, программы для изучения языков,
+   японский язык, Японию и её культуру.
+   Для всего остального есть отдельная комната (топик),
+   которую вы увидите после вступления в группу.
+1) **Прочитайте руководство.**
+   Ответы на большинство задаваемых нам вопросов уже есть
+   в [нашем руководстве](table-of-contents.html).
+   Участники сообщества добровольно тратят своё время, чтобы помогать другим.
+   Постарайтесь не задавать одни и те же вопросы снова и снова,
+   чтобы у всех оставалось больше времени на погружение.
+1) **Никаких несвободных программ.**
+   Мы не используем, не поддерживаем и не рекомендуем
+   [несвободные программы](https://www.gnu.org/proprietary/proprietary.html).
+   Мы пользуемся
+   [свободными программами](https://www.gnu.org/philosophy/free-sw.html),
+   потому что их легче расширять и приспосабливать к потребностям пользователей.
+   * [Наш набор инструментов для обучения](our-immersion-learning-toolset.html)
+   * [Программы для общения](https://web.archive.org/web/20250117045046if_/https://igwiki.lyci.de/wiki/Communication#Synchronous_Communication_(Real_time))
 
-*Certain rooms may have their own sets of rules.*
+*В отдельных комнатах могут действовать дополнительные правила.*
 
-## Questions
+## Вопросы
 
-If you have a question specifically for me,
-ping me in the chat by prepending your message with
-`@tatsumoto` on Telegram.
+Если вы хотите задать вопрос лично мне,
+упомяните меня в чате, добавив `@tatsumoto`
+в начало сообщения в Telegram.
 
-## Community stickers
+## Стикеры сообщества
 
-To install our community sticker packs,
-just click on the links below.
+Чтобы установить наши наборы стикеров,
+перейдите по ссылкам ниже.
 
-* [Part 1](https://t.me/addstickers/ajatt)
-* [Part 2](https://t.me/addstickers/ajatt2)
+* [Часть 1](https://t.me/addstickers/ajatt)
+* [Часть 2](https://t.me/addstickers/ajatt2)
