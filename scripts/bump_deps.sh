@@ -11,6 +11,7 @@ set -euo pipefail
 # shellcheck source=scripts/lib.sh
 . "$(dirname -- "$0")/lib.sh"
 
+# Validate the project root before updating every development dependency and lockfile.
 main() {
 	ensure_git_repo
 	[[ -f package.json ]] || die "package.json not found"
