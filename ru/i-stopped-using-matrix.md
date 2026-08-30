@@ -168,9 +168,9 @@ I've been considering telling our members on Matrix to migrate to something else
 The upside is that we won't lose many active members by discontinuing our Matrix community.
 
 If you've been a member of our Matrix chat,
-please feel free to [migrate to Telegram](join-our-community.html#telegram-group) instead.
+please feel free to [migrate to Telegram](join-our-community.html#telegram-dlia-angloiazychnykh) instead.
 Additionally,
-I recently created a [chat on SimpleX](join-our-community.html#simplex-chat).
+I recently created a [chat on SimpleX](join-our-community.html#chat-simplex).
 
 The Telegram group has been around since 2020.
 There,
