@@ -5,6 +5,7 @@ blog/drafts
 *.mp3
 node_modules/
 /_site/
+/coverage/
 
 /*.md
 !/README.md
