@@ -83,21 +83,32 @@
             <main>
 <h1>Search</h1>
 
-<div id="search-container" class="no-js" data-index-url="search_index.json">
+<div
+    id="search-container"
+    class="no-js"
+    data-index-url="search_index.json"
+    data-loading-message="Loading search index..."
+    data-no-results-message="No results found."
+    data-misconfigured-message="Search is misconfigured."
+    data-failed-message="Failed to load search index."
+    data-results-message="Results: {count}"
+    data-showing-first="(showing first {count})"
+>
     <p class="no-js-msg">
         Search requires JavaScript to be enabled.
-        Please enable JavaScript in your browser settings.
-        The JavaScript on this page is libre software licensed under the GNU GPL v3.
+Please enable JavaScript in your browser settings.
+The JavaScript on this page is libre software licensed under the GNU GPL v3.
     </p>
 
     <input
         type="search"
         id="search-input"
         placeholder="Search articles..."
+        aria-label="Search articles..."
         autocomplete="off"
         autofocus
     >
-    <div id="number-results-found"></div>
+    <div id="number-results-found" role="status" aria-live="polite"></div>
     <div id="search-results"></div>
 </div>
             </main>
