@@ -101,6 +101,16 @@ export function closeDomAfterTest(dom: JSDOM): JSDOM {
 }
 
 /**
+ * Load one generated HTML page into an automatically closed DOM.
+ * @param relativePath - Generated page path relative to the repository root.
+ * @returns Parsed generated-page DOM registered for test teardown.
+ */
+export function loadGeneratedPage(relativePath: string): JSDOM {
+    const filePath = path.join(import.meta.dirname, "..", relativePath);
+    return closeDomAfterTest(new JSDOM(fs.readFileSync(filePath, "utf8")));
+}
+
+/**
  * Create externally controlled Promise callbacks for asynchronous fixture tests.
  * @template T - Value produced by the promise.
  * @returns The promise and its external resolve and reject callbacks.
