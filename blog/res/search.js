@@ -126,7 +126,7 @@
     function getSearchHtmlElements() {
         const input = document.getElementById("search-input");
         if (input === null) {
-            console.error("Search: missing #search-input HTML element.");
+            // The absence of a search bar is not an error.
             return null;
         }
         if (!(input instanceof HTMLInputElement)) {
