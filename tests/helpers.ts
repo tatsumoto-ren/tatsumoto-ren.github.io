@@ -36,7 +36,7 @@ export type SearchEntry = Readonly<{
     parent?: string;
 }>;
 
-type SearchDomOptions = {
+type SearchDomOptions = Readonly<{
     hash?: string;
     inputTagName?: "div" | "input";
     withInput?: boolean;
@@ -44,30 +44,31 @@ type SearchDomOptions = {
     withContainer?: boolean;
     withResults?: boolean;
     withStatus?: boolean;
-    messages?: Record<string, string>;
-};
+    messages?: Readonly<Record<string, string>>;
+}>;
 
-type FetchResponse = {
+type FetchResponse = Readonly<{
     ok: boolean;
     status?: number;
     statusText?: string;
     json?: () => Promise<readonly SearchEntry[]>;
-};
+}>;
 
-type BootSearchOptions = SearchDomOptions & {
-    index?: readonly SearchEntry[];
-    fetchImpl?: ReturnType<typeof vi.fn>;
-    waitForLoad?: boolean;
-};
+type BootSearchOptions = SearchDomOptions &
+    Readonly<{
+        index?: readonly SearchEntry[];
+        fetchImpl?: ReturnType<typeof vi.fn>;
+        waitForLoad?: boolean;
+    }>;
 
-type SearchFixture = {
+type SearchFixture = Readonly<{
     dom: JSDOM;
     win: DOMWindow;
     fetchMock: ReturnType<typeof vi.fn>;
     input: HTMLInputElement | null;
     status: HTMLElement | null;
     results: HTMLElement | null;
-};
+}>;
 
 /**
  * Evaluate a browser script and initialize it on exactly one DOM-ready event.
@@ -281,14 +282,14 @@ function dispatchInput(input: HTMLInputElement, value: string): void {
 }
 
 /**
- * Enter a query, run its debounce timer, and flush subsequent Promise work.
+ * Enter a query and run its debounce timer and queued Promise work.
  * @param input - Attached search input.
  * @param value - Query value to enter.
  * @returns A promise that resolves after rendering settles.
  */
 export async function typeQuery(input: HTMLInputElement, value: string): Promise<void> {
     dispatchInput(input, value);
-    vi.runOnlyPendingTimers();
+    await vi.runOnlyPendingTimersAsync();
 }
 
 // Dispatch an "input" event without advancing timers or flushing promises. This
