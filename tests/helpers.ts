@@ -28,13 +28,13 @@ const searchScript = loadScript("blog/res/search.js");
 
 export const indexUrl = "/search_index.json";
 
-export type SearchEntry = {
+export type SearchEntry = Readonly<{
     title?: string;
     url: string;
     body?: string;
-    tags?: string[];
+    tags?: readonly string[];
     parent?: string;
-};
+}>;
 
 type SearchDomOptions = {
     hash?: string;
@@ -51,11 +51,11 @@ type FetchResponse = {
     ok: boolean;
     status?: number;
     statusText?: string;
-    json?: () => Promise<SearchEntry[]>;
+    json?: () => Promise<readonly SearchEntry[]>;
 };
 
 type BootSearchOptions = SearchDomOptions & {
-    index?: SearchEntry[];
+    index?: readonly SearchEntry[];
     fetchImpl?: ReturnType<typeof vi.fn>;
     waitForLoad?: boolean;
 };
@@ -204,7 +204,7 @@ async function waitForSearchLoad(dom: JSDOM, fetchMock: ReturnType<typeof vi.fn>
  * @param index - Search entries returned by the mock.
  * @returns A successful fetch mock.
  */
-function successfulFetch(index: SearchEntry[]): ReturnType<typeof vi.fn> {
+function successfulFetch(index: readonly SearchEntry[]): ReturnType<typeof vi.fn> {
     return vi.fn((): Promise<FetchResponse> => Promise.resolve({ ok: true, json: () => Promise.resolve(index) }));
 }
 
