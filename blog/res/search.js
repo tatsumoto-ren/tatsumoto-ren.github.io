@@ -343,7 +343,14 @@
      * @returns {string} escaped HTML with matches wrapped in <mark>.
      */
     function highlightWordsInText(text, query) {
-        const ranges = mergeRanges(collectMatchRanges(text.toLowerCase(), query.words));
+        const textLower = text.toLowerCase();
+        // Lowercase match offsets are normally valid for the original text. A few
+        // Unicode characters expand when lowercased, so omit highlighting rather
+        // than applying shifted offsets and marking the wrong characters.
+        if (textLower.length !== text.length) {
+            return escapeTextForHtml(text);
+        }
+        const ranges = mergeRanges(collectMatchRanges(textLower, query.words));
         let html = "";
         let cursor = 0;
         for (const { start, end } of ranges) {
