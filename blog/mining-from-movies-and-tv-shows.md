@@ -1,7 +1,8 @@
 ---
-title: Mining from movies and TV-shows
+title: "Mining from movies and TV-shows"
 date: 1622909216
-tags: [guide, mpv]
+tags: ["guide", "mpv"]
+updated: "01 September 2026"
 ---
 
 [Sentence mining](sentence-mining.html)
@@ -19,7 +20,7 @@ and a plugin for mpv called Mpvacious.
 
 <img float="right" src="img/movies.webp" alt="movies and tv shows">
 
-`mpv` is the best video player for language learners.
+[mpv](https://wiki.archlinux.org/title/Mpv) is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
 `mpv` is available on most distributions of GNU/Linux.
 To install it on Arch Linux, execute the following command:
