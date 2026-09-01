@@ -795,6 +795,9 @@
         if (!searchElements) {
             return;
         }
+        // The HTML autofocus attribute is not honored consistently, so focus
+        // explicitly before waiting for the search index request.
+        searchElements.input.focus();
         const indexUrl = searchIndexUrl(searchElements);
         if (!indexUrl) {
             return;
