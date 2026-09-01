@@ -23,7 +23,8 @@ and a plugin for mpv called Mpvacious.
 [mpv](https://wiki.archlinux.org/title/Mpv) is the best video player for language learners.
 It is fast, minimal, extensible and compatible with all video formats.
 `mpv` is available on most distributions of GNU/Linux.
-To install it on Arch Linux, execute the following command:
+To install it on [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux),
+execute the following command:
 
 ```
 $ sudo pacman -S mpv
