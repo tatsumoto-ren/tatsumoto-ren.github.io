@@ -26,6 +26,19 @@ function assertGeneratedSearchPage(): void {
     expect(status?.getAttribute("aria-live")).toBe("polite");
 }
 
+/** Verify every localized search message rendered on the generated Russian page. */
+function assertGeneratedRussianSearchMessages(): void {
+    const document = loadGeneratedPage("ru/search.html").window.document;
+    expect(document.getElementById("search-container")?.dataset).toMatchObject({
+        loadingMessage: "Загрузка поискового индекса...",
+        noResultsMessage: "Ничего не найдено.",
+        misconfiguredMessage: "Поиск настроен неправильно.",
+        failedMessage: "Не удалось загрузить поисковый индекс.",
+        resultsMessage: "Результатов: {count}",
+        showingFirst: "(показаны первые {count})",
+    });
+}
+
 /** Verify the post-template translation key still renders its literal colon. */
 function assertGeneratedTagsLabel(): void {
     const document = loadGeneratedPage("blog/faq-about.html").window.document;
@@ -34,5 +47,6 @@ function assertGeneratedTagsLabel(): void {
 
 describe("generated pages", (): void => {
     test("keeps search configuration and accessibility markup synchronized", assertGeneratedSearchPage);
+    test("renders every localized Russian search message", assertGeneratedRussianSearchMessages);
     test("renders the translated tags label with punctuation", assertGeneratedTagsLabel);
 });
