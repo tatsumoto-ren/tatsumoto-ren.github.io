@@ -1,192 +1,188 @@
 ---
-title: Should I trust mattvsjapan and the "Refold" site?
+title: "Стоит ли доверять mattvsjapan и сайту «Refold»?"
 date: 1715864692
-tags: ['faq']
+tags: ["faq"]
+updated: "04 September 2026"
 ---
 
-<div class="translation-note">
-
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-MattvsJapan is an American content creator who focuses on language learning.
-His business model relies heavily on upsells and recurring payments.
-His language learning methodology is structured in ways that encourage continued purchases.
-He has developed numerous paid Japanese courses,
-and some users report
-the products failed to deliver promised results or value.
+MattvsJapan (Matt in Japan, Matt vs the World, Matt Archer)
+&mdash; американский автор, создающий контент об изучении языков.
+Его бизнес‑модель строится на дополнительных продажах (upsells) и регулярных платежах (подписках).
+Методика изучения языка у него построена так, чтобы стимулировать дополнтиельные покупки.
+Он разработал множество платных курсов японского языка,
+и некоторые пользователи сообщают,
+что продукты не оправдали обещанных результатов и не имели ценности.
 
 ****
 
-## Origin story
+## История появления
 
-MattvsJapan began as a YouTube channel
-offering AJATT-influenced Japanese learning advice.
-However,
-with no skills beyond Japanese,
-he could only teach other foreigners Japanese to make a living.
+MattvsJapan начинал как YouTube-канал с советами по изучению японского языка
+по методике, основанной на AJATT.
+Однако, не обладая какими-либо навыками, кроме знания японского языка, он мог
+зарабатывать на жизнь лишь тем, что обучал японскому других иностранцев.
 
-Eventually,
-his desire for profit took over,
-and he turned teaching into a business.
-He removed his older videos
-and replaced them with low-quality slop,
-paywalled material,
-course launches,
-and merchandise.
+Со временем жажда наживы взяла верх, и он превратил преподавание в бизнес.
+Он удалил свои старые видео и заменил их низкокачественным контентом,
+материалами, скрытыми за платной подпиской, запусками курсов и мерчем.
 
-By mid-2018,
-he had ceased producing genuinely helpful content.
-His most useful videos are no longer available on YouTube.
+К середине 2018 года он перестал создавать действительно полезный контент.
+Его самые полезные видео больше недоступны на YouTube.
 
-## MIA: industry-scale scamming
+## MIA: мошенничество промышленного масштаба
 
-In 2018 Matt teamed up with a person who called himself Yoga Pants
-to create a would-be replacement for AJATT.
-They called it M[ass Immersion Approach](https://t.me/tatsumoto3_0/570).
-The idea was that people would pay them monthly
-for a chance to ask language learning questions
-and get some Anki add-ons they made.
-They had lots of disagreements about money and who would get the bigger cut.
-During their dispute, Matt [withheld](https://t.me/tatsumoto3_0/588) Yoga's share of the MIA Patreon earnings.
-He later acknowledged this was wrong.
-At some point greed took over, and the two split up in a huge scandal,
-leading to Matt and a new partner named Ethan creating Refold
-(commonly known as Refooled or Retard).
+В 2018 году Мэтт объединился с человеком, называвшим себя Yoga Pants,
+чтобы создать предполагаемую замену AJATT.
+Они назвали её M[ass Immersion Approach](https://t.me/tatsumoto3_0/570)
+(«метод массивного погружения»).
+Идея заключалась в том, что люди ежемесячно платили бы им за возможность задавать
+вопросы об изучении языков и получать некоторые созданные ими аддоны для Anki.
+У них возникало множество разногласий по поводу денег и того,
+кому должна достаться большая доля.
+Во время конфликта Мэтт [удержал](https://t.me/tatsumoto3_0/588) долю Yoga от доходов MIA на Patreon.
+Позже он признал, что поступил неправильно.
+В какой-то момент жадность взяла верх,
+и они расстались с громким скандалом,
+после чего Мэтт и его новый партнёр по имени Ethan создали Refold
+&mdash; проект, широко известный как Refooled или Retard.
 
-## Refooled: another scam site
+## Refooled: ещё один мошеннический сайт
 
-Refooled is a "language learning" website created by Mattvsjapan,
-but now run by other people.
-Refooled is another scam site designed to lure people in and exploit them.
+Refooled это сайт об «изучении языков»,
+созданный Mattvsjapan,
+но теперь управляемый другими людьми.
+Refooled это очередной мошеннический сайт,
+созданный для того, чтобы заманивать людей и наживаться на них.
 
-A quick visit to their homepage reveals some red flags:
+Посещение главной страницы сразу же выявляет несколько тревожных знаков:
 
-* The site sells shitty and overpriced courses, coaching, and merchandise.
-* It collects email addresses
-  and requires users to create an account,
-  which is suspicious at best.
-* It contains malicious,
-  non-free JavaScript code that's not safe to run.
-* It recommends and links to [proprietary spyware](https://www.gnu.org/proprietary/)
-  like Hellotalk, Tandem, Bilingua, Netflix, and Migaku.
-* It provides instructions on joining their Discord server.
-  [Discord](https://spyware.neocities.org/articles/discord.html)
-  is known for spying on and politically suppressing its users.
+* Сайт продаёт дерьмовые и завышенные по цене курсы, коучинг и мерч.
+* Он собирает адреса электронной почты и требует от пользователей создать учётную запись,
+  что как минимум вызывает подозрения.
+* Сайт содержит вредоносный несвободный JavaScript-код, небезопасный для запуска.
+* Он рекомендует и предлагает ссылки на
+  [проприетарное шпионское ПО](https://www.gnu.org/proprietary/),
+  такое как Hellotalk, Tandem, Bilingua, Netflix и Migaku.
+* Он содержит инструкции по вступлению на их сервер в Discord.
+  [Discord](https://spyware.neocities.org/articles/discord.html) известен тем,
+  что следит за своими пользователями, подвергает их политическому давлению и цензуре.
 
-The monetization escalated over time.
-Refooled started as a free roadmap with optional Patreon donations.
-Then they added merchandise like T-shirts and cups.
-Then paid Anki decks, with prices increasing over time.
-Finally, courses and coaching were introduced,
-with coaching going for [$97 per hour](https://t.me/tatsumoto3_0/1336)
-and six-week packages [selling for $2400](https://t.me/tatsumoto3_0/1403) through private emails.
+Со временем монетизация становилась всё более масштабной.
+Изначально Refooled представлял собой бесплатную «дорожную карту»
+с возможностью добровольно пожертвовать деньги через Patreon.
+Затем они добавили мерч: футболки, кружки и тому подобное.
+После этого появились платные колоды Anki, причём со временем цены на них возрастали.
+Наконец, появились курсы и коучинг.
+Час коучинга стоил [97 долларов США](https://t.me/tatsumoto3_0/1336),
+а пакеты услуг на шесть недель
+[продавались за 2400 долларов](https://t.me/tatsumoto3_0/1403)
+через личную переписку по электронной почте.
 
 ## Updoot
 
-At some point the money Matt could loot from Refooled wasn't enough.
-He partnered with someone named Ken Cannon,
-[a well-known](https://t.me/tatsumoto3_0/562) language learning [scammer](https://t.me/tatsumoto3_0/555).
-Ken had previously run a course called JTA (Japanese Through Anime)
-that failed to deliver on its promises and didn't issue refunds,
-which is a whole other story.
-They decided to go big and launched "Updoot", a Japanese pronunciation course
-that cost thousands of dollars.
+В какой-то момент денег,
+которые Мэтт мог выкачивать из Refooled,
+ему стало недостаточно.
+Он объединился с неким Ken Cannon
+&mdash; [мошенником](https://t.me/tatsumoto3_0/555),
+[печально известным](https://t.me/tatsumoto3_0/562) в сфере изучения языков.
+До этого Ken уже запускал курс под названием JTA (Japanese Through Anime, «Японский через аниме»),
+который не оправдал обещаний и не предусматривал возврата денег, но это уже совсем другая история.
+Они решили действовать по-крупному и запустили «Updoot»
+&mdash; курс японского произношения, стоивший несколько тысяч долларов.
 
-In a leaked conversation with someone named Doth recorded in April 2021,
-Matt had [said](https://t.me/tatsumoto3_0/171) he wanted to "exploit whales" for money
-and that he would never advertise it directly on his website
-but push it through an email list.
-Updoot was exactly that plan put into action.
+В просочившейся в сеть переписке с человеком по имени Doth,
+записанной в апреле 2021 года,
+Мэтт [сказал](https://t.me/tatsumoto3_0/171),
+что хочет «вытряхивать деньги из толстосумов»
+и что никогда не станет рекламировать курс непосредственно на своём сайте,
+а будет продвигать его через рассылку по электронной почте.
+Updoot стал точным воплощением этого плана.
 
-The [marketing was hideous](https://t.me/tatsumoto3_0/1179), pure fear-based manipulation.
-They claimed learners had an "infection" in their Japanese that needed to be "uprooted."
-They sent emails claiming recipients were "handpicked" for early access.
-In reality, everyone got the same email.
-They set up a special offer that would expire a few days after they announced the course,
-causing people to feel like they had to make a decision right away.
-To extract as much money as possible,
-they also offered additional pricey courses to people who already bought the Updoot course.
-Almost everyone unlucky enough to buy the course was [disappointed](https://t.me/tatsumoto3_0/1528).
+[Маркетинг был отвратительным](https://t.me/tatsumoto3_0/1179).
+Чистая манипуляция, основанная на страхе.
+Они утверждали, что у изучающих японский есть некая «инфекция»,
+от которой необходимо избавиться ("uproot", выкорчевать).
+В письмах они заявляли, что получатели были «отобраны вручную» для раннего доступа.
+На самом деле одно и то же письмо получили все.
+Они установили специальное предложение,
+срок действия которого истекал через несколько дней после объявления курса,
+заставляя людей чувствовать,
+что решение нужно принять немедленно.
+Чтобы выкачать как можно больше денег,
+они также предлагали дополнительные дорогие курсы тем, кто уже приобрёл курс Updoot.
+Почти все, кому не повезло купить этот курс, [остались разочарованы](https://t.me/tatsumoto3_0/1528).
 
-The secret "underground technique" they sold
-turned out to be a variant of Olle Kjellin's chorusing method,
-a well-known shadowing exercise that's freely available in academic literature.
+Оказалось, что секретная «подпольная техника», которую они продавали,
+была всего лишь разновидностью метода хорового проговаривания (chorusing) от Olle Kjellin,
+хорошо известного упражнения на шэдоуинг (следование за речью диктора),
+которое совершенно бесплатно описано в академической литературе.
 
-Matt was a moderator on
-[r/ajatt and r/LearnJapanese](https://web.archive.org/web/20260223131004if_/https://digdeeper.club/articles/forums.xhtml#reddit) at the time.
-Posts [critical](https://t.me/tatsumoto3_0/538)
-of Updoot were reportedly [deleted](https://t.me/tatsumoto3_0/559),
-leading to accusations of censorship.
+В то время Мэтт был модератором
+[r/ajatt and r/LearnJapanese](https://web.archive.org/web/20260223131004if_/https://digdeeper.club/articles/forums.xhtml#reddit).
+Посты, [затрагивающие](https://t.me/tatsumoto3_0/538) Updoot,
+как сообщалось, [удалялись](https://t.me/tatsumoto3_0/559), что привело к обвинениям в цензуре.
 
-Matt also abused DMCA takedowns to silence critics.
-A YouTuber named Anacreon made a video criticizing him
-using clips from the leaked conversation.
-Matt purchased the rights to the recording
-and filed [DMCA takedown notices](https://t.me/tatsumoto3_0/1175)
-against Anacreon's channel,
-resulting in its termination.
+Мэтт также злоупотреблял требованиями об удалении контента по DMCA,
+чтобы заставить критиков замолчать.
+YouTube-блогер по ником Anacreon выпустил видео с критикой Мэтта,
+использовав фрагменты просочившейся переписки.
+Мэтт выкупил права на эту запись и направил
+[уведомления DMCA об удалении контента](https://t.me/tatsumoto3_0/1175) против канала Anacreon,
+в результате чего канал был заблокирован.
 
-Around the same time,
-Matt [contacted](https://t.me/tatsumoto3_0/1172) the "Seyto Couple,"
-a Japanese YouTube channel that reviews foreigners' Japanese,
-and asked them not to make a video about him.
-He was apparently trying to prevent independent evaluation of his abilities.
+Примерно в то же время Мэтт [связался](https://t.me/tatsumoto3_0/1172) с «Seyto Couple»,
+японским YouTube-каналом,
+который оценивает японский язык иностранцев,
+и попросил их не выпускать видео о нём.
+По-видимому, он пытался не допустить независимой оценки своих способностей.
 
 ## Immersion Dojo
 
-After the Updoot fiasco,
-Matt launched the "Immersion Dojo",
-a subscription-based community where people pay him monthly
-for access to his "evolving language learning theories."
-It's the same model recycled yet again:
-charging recurring fees for advice that used to be free on his channel
-and remains free on the [AJATT website](table-of-contents.html).
+После фиаско с Updoot Мэтт запустил «Immersion Dojo»
+&mdash; сообщество по подписке, в котором люди ежемесячно платят ему
+за доступ к его «развивающимся теориям изучения языков».
+Это всё та же модель, переработанная и запущенная снова:
+взимать регулярную плату за советы,
+которые раньше бесплатно публиковались на его канале и до сих пор бесплатно доступны
+на [сайте AJATT](table-of-contents.html).
 
-In a Discord discussion, Matt admitted his latest method
-has [no proof](https://t.me/tatsumoto3_0/589) that it works and that it's just "his opinion,"
-yet he charges people monthly to be his test subjects.
-The community got tired of [constant course shilling](https://t.me/tatsumoto3_0/615) over actual content
-and no longer takes him seriously.
+В одном из обсуждений в Discord Мэтт признал,
+что его новейший метод [не имеет доказательств](https://t.me/tatsumoto3_0/589)
+своей эффективности и является всего лишь «его мнением»,
+однако он всё равно ежемесячно взимает с людей плату, фактически превращая их в подопытных.
+Сообщество устало от [постоянного навязывания платных курсов](https://t.me/tatsumoto3_0/615)
+вместо содержательного материала и больше не воспринимает его всерьёз.
 
-## Contradicting the AJATT philosophy
+## Противоречие принципам AJATT
 
-[AJATT](whats-ajatt.html) promotes cost-free,
-[immersion](whats-immersion.html)-based learning,
-with the help of [Free (Libre) software](https://www.gnu.org/philosophy/free-sw.html).
-MattvsJapan's business model,
-which relies on paid courses, coaching, and paywalled content,
-directly contradicts
-**AJATT's core principle**
-of learning a language [without spending money](foreword.html#its-free).
-For that reason,
-AJATT **does not** recommend his products.
+[AJATT](whats-ajatt.html) пропагандирует бесплатное самообучение без помощников,
+основанное на [погружении](whats-immersion.html) с использованием
+[свободного (Libre) программного обеспечения](https://www.gnu.org/philosophy/free-sw.html).
+Бизнес-модель MattvsJapan,
+основанная на платных курсах, коучинге и контенте, доступном только за деньги,
+напрямую противоречит **основному принципу AJATT**
+&mdash; изучать язык, [не тратя денег](foreword.html#its-free).
+По этой причине AJATT **не** рекомендует его продукты.
 
-## Lack of credibility
+## Утрата доверия
 
-Language learning communities have widely criticized MattvsJapan's practices.
-He has scammed too many people and taken their money.
-English speakers are already aware of this,
-so they no longer trust him.
-As a result,
-he has a minimal following among Japanese learners.
-Most people don't take him seriously anymore,
-so he's had to be more aggressive with advertising.
-Lately his content is mostly ads for new money-grab schemes.
-Additionally,
-to compensate for his shrinking audience,
-he has attempted to pivot,
-targeting Japanese audiences and offering "English lessons" instead.
+Практики MattvsJapan подвергались широкой критике в сообществах, посвящённых изучению языков.
+Он обманул слишком многих людей и присвоил их деньги.
+Англоязычная аудитория уже знает об этом, поэтому больше ему не доверяет.
+В результате среди изучающих японский у него практически нет аудитории.
+Большинство людей больше не воспринимает его всерьёз,
+поэтому ему пришлось агрессивнее заниматься рекламой.
+В последнее время его контент в основном состоит из рекламы новых схем по выкачиванию денег.
+Кроме того, чтобы компенсировать сокращение аудитории,
+он попытался сменить направление,
+ориентируясь на японскую аудиторию и вместо этого предлагая «уроки английского языка».
 
-## The truth about language learning
+## Правда об изучении языков
 
-[Learning languages](table-of-contents.html) **should always be free**.
-Be cautious of scams,
-ineffective learning methods,
-and sites that try to exploit your desire to learn.
-Stay informed,
-use only [Free and Libre](https://www.gnu.org/philosophy/free-software-even-more-important.html) software,
-and don't fall prey to those who seek to profit from your language learning journey.
+[Изучение языков](table-of-contents.html) **всегда должно быть бесплатным**.
+Остерегайтесь мошенников, неэффективных методов обучения и сайтов,
+которые пытаются нажиться на вашем желании изучать язык.
+Будьте информированы, используйте только
+[свободное программное обеспечение](https://www.gnu.org/philosophy/free-software-even-more-important.html)
+и не позволяйте тем, кто стремится заработать на вашем стремелении изучать языки, наживаться на вас.
