@@ -1,10 +1,12 @@
 ---
-title: Should I trust mattvsjapan and the "Refold" site?
+title: "Should I trust mattvsjapan and the \"Refold\" site?"
 date: 1715864692
-tags: ['faq']
+tags: ["faq"]
+updated: "04 September 2026"
 ---
 
-MattvsJapan is an American content creator who focuses on language learning.
+MattvsJapan (Matt in Japan, Matt vs the World, Matt Archer)
+is an American content creator who focuses on language learning.
 His business model relies heavily on upsells and recurring payments.
 His language learning methodology is structured in ways that encourage continued purchases.
 He has developed numerous paid Japanese courses,
