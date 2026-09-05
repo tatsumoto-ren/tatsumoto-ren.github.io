@@ -1,144 +1,98 @@
 ---
-title: Foreword
+title: Предисловие
 date: 1619998706
 tags: [guide]
 ---
 
-<div class="translation-note">
-
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-Congratulations!
-You've taken your first step towards learning Japanese!
+Поздравляю!
+Ты сделал свой первый шаг к изучению японского!
 
 This is Tatsumoto's Guide to Learning Japanese.
-I'm Tatsumoto Ren,
-and I'm excited to help you begin your journey to learn Japanese.
-This guide is designed specifically for individuals who want to master Japanese
-through **self-study**,
-without relying on traditional textbooks and classes.
-Are you eager to take control of your learning
-and achieve a high level of fluency faster than with any other method in the world?
-If so, you're in the right place.
-This site is dedicated to providing you
-with the theory, strategies, and tools you need to succeed.
+Это руководство Тацумото по изучению японского языка.
+Я - Тацумото Рен и мне не терпится помочь тебе начать твоё путешествие по изучению японского языка.
+Данное руководство спроектированно специально для тех, кто хочет овладеть японским с помощью **самостоятельного** изучения языка, без опоры на учебники или лекции.
+Готов ли ты взять контроль в свои руки и достигнуть беглости в языке с такой скоростью, которую не даёт ни один другой метод в мире?
+Если так - добро пожаловать.
+На сайте есть всё, что тебе понадобится, включая теорию, стратегии и инструменты, необходимые для достижения беглости.
 
 ****
 
-## How to use this site
+## Как пользоваться сайтом
 
-Begin by reading the [guide](table-of-contents.html)
-and the [FAQ](tag_faq.html) section thoroughly.
-It's essential to go through the entire guide,
-as you might overlook crucial information.
-However,
-you don't need to complete the guide
-before starting to apply the concepts discussed.
-Feel free to start your Japanese learning journey as soon as you grasp the initial steps.
-Once you've finished the guide,
-you may have further questions that aren't addressed in the FAQ.
-If that happens,
-don't hesitate to ask in [our chat](join-our-community.html).
-It will help us expand the FAQ page
-and reduce the number of recurring questions.
+Начни с тщательного чтения [руководства](table-of-contents.html) а также [ЧаВо](tag_faq.html)
+Важно прочитать всё руководство, иначе ты можешь упустить важную информацию.
+Впрочем, необязательно читать всё руководство для начала применения обсуждаемых практик.
+Погружение можно начинать сразу после освоения базовых понятий.
+Когда ты закончишь чтение руководства, у тебя могут появиться вопросы, не описанные в ЧаВо.
+В таком случае, не стесняйся обращаться к нашему [сообществу](join-our-community.html).
+Это поможет нам расширить ЧаВо и снизить количество повторяющихся вопросов.
 
-## Our approach
+## Наш подход
 
 <img src="../blog/img/dekinai.webp" float="right">
 
-We divide the process of learning any foreign language into two major steps.
+Мы разделяем процесс изучения любого иностранного языка на два основных шага.
 
-1) Learn to understand the language at a high level.
-2) Use your comprehension to learn to speak the language by mimicking native speakers.
-   This is similar to how kids do it.
+1. Учимся понимать язык на высоком уровне.
+2  Используем достигнутое понимание, чтобы говорить, повторяя за носителями языка. Похоже на то, как дети учатся говорить.
 
-We focus on understanding before speaking, or input before output.
-If you want to learn how to draw, you've got to be able to see before you can draw.
-You can't have a conversation if you can't understand what the other person says.
+Мы нацелены на понимании перед тем, как начать говорить. Иными словами - инпут перед аутпутом.
+Точно так же, как для рисования необходимо зрение, так и для речи необходимо понимание.
+Невозможно вести разговор с человеком, если ты не понимаешь, что он говорит.
 
-This approach makes the journey easy and fun
-because from day one you are encouraged to learn from compelling content
-made for native speakers of your target language.
-Most people who persevered and reached fluency
-watched their favorite TV shows in Japanese
-and read lots of books and manga every day.
-No amount of brute force can get you there,
-so forget about traditional approaches such as taking classes or hiring a tutor.
+Такой подход позволяет нашему путешествию быть простым и приятным, ведь ты будешь потреблять интересный тебе контент на изучаемом языке, сделанный для носителей.
+Бо́льшая часть людей, которые изучали язык и достигли в нём беглости - сделали это с помощью каждодневного просмотра и чтения контента, который им нравится. Будь то манга, аниме, дорамы или фильмы.
+Никакое количество вызубренных грамматических правил, значений кандзи и даже слов в изоляции от погружения - не приведёт тебя к беглости.
+Забудь про учебники, уроки, лекции и учителей.
 
 ## AJATT
 
-The method explained here is widely known as [AJATT](whats-ajatt.html).
-It is directed at people who want to get to fluency as fast as possible
-by spending a lot of time with the language.
-The key component to succeeding with AJATT is engaging with the language every day,
-all the time,
-going as hardcore as you can.
+Метод, описанный здесь известен как [AJATT](whats-ajatt.html).
+Он направлен на людей, которые хотят стать беглыми в языке как можно быстрее, проводя в языке большое количество времени.
+Залог успеха данного метода заключается в ежедневном взаимодействии с языком,
+постоянно,
+настолько часто, насколько это возможно.
 
-The logic is very simple.
-The more time each day is spent learning,
-the faster one arrives at the destination.
-And of course, the learning process must be efficient.
-AJATT optimizes learning to achieve the best results.
-But since studying is boring and exhausting,
-AJATT strives to make learning fun and interesting.
-We recommend learning from the language that real native speakers actually use
-because textbooks, courses, classes and apps don't teach how people really speak.
+Суть проста,
+Чем больше времени ты проводишь в языке, изучая его,
+Тем быстрее ты придешь к нужному тебе результату.
+Естественно, в наших целях есть и оптимизация учебного процесса.
+Мы знаем, что обучение это скучно и изматывающе, поэтому AJATT старается сделать его приятным и интересным через взаимодействие с живым языком от носителей.
+Именно поэтому мы рекомендуем отказаться от учебников, языковых курсов, лекций, уроков, языковых приложений - потому что они не учат, как люди на самом деле говорят на языке.
 
-AJATT has very little formal structure
-and doesn't try to force any particular workflow.
-You learn the most common words, study basic grammar,
-but after that you are taught how to dive into authentic content.
-You learn new things as they come up in the content.
+AJATT не имеет жёсткой структуры и не принуждает человека к следованию определённому учебному процессу.
+В начале погружения ты выучишь основные слова в языке и базовую грамматику, но после - ты свободен в погружении в интересный тебе контент от носителей.
+Ты будешь изучать новые слова и концепты прямо в процессе потребления интересного тебе контента.
 
-The emphasis is very strong on input and comprehension in the beginning.
-You try to get to understand Japanese perfectly
-before concerning with trying to produce Japanese yourself.
+В начале очень важно сосредоточиться на инпуте и пониманим контента.
+Как мы уже говорили, перед попытками говорить очень важно научиться понимать японский на идеальном уровне.
 
-## It's free
+## Это бесплатно
 
-It is important to be mindful of your finances when learning a foreign language.
-I learned Japanese without spending any money,
-and I encourage you to do the same.
-Everything you need to master Japanese can be found here and online.
-There is no limit to the amount of media and books you can absorb.
-With torrents, you can find any anime, drama, or manga ever made.
-The internet provides an unlimited number of resources for Japanese media.
-Additionally, you can easily access [dictionaries](tag_dictionaries.html),
-[grammar guides](resources.html#grammar),
-and [software](resources.html#software) to facilitate your language learning.
+Важно помнить про финансы при попытке учить иностранный язык.
+Я выучил японский без какой либо траты денег и рекомендую тебе делать так же.
+Всё, что может понадобиться для изучения языка ты найдёшь либо здесь, либо в интернете.
+Нет никаких ограничений на просмотр или чтение.
+На торрентах ты можешь найти любое аниме, дораму или мангу, вне зависимости от даты выпуска.
+Интернет обеспечивает безграничное количество источников для потребления.
+Для помощи в обучении, ты всегда можешь воспользоваться [словарями](tag_dictionaries.html), [руководствами по грамматике](resources.html#grammar), а так же [программами](resources.html#software).
 
-On the other hand,
-if someone tries to sell you language learning courses,
-books, software, or any other resources, it's best to avoid them.
-We believe these are simply scams.
-No one needs to pay money to learn a language.
+Если же кто то пытается продать тебе курсы, книги, программы или доступ к контенту - избегай таких личностей.
+Мы считаем, что эти люди пытаются обмануть тебя, ибо никто не должен платить за изучение языка.
 
-The AJATT method does not require any payments.
-However,
-because the method is based on self-study,
-you will need to study by yourself and ensure you follow everything the guide says.
-Everything depends on how well you study.
+AJATT, в свою очередь - не требует от тебя никаких денег, ведь данный способ в своей основе полагается на самостоятельное изучение языка.
+Так как вся ответственность лежит на тебе, тебе предстоит самостоятельно проверять, правильно ли ты всё делаешь и сверяться с руководством.
+Всё зависит от того, как именно ты учишься.
 
-## Technology
+## Техническая сторона
 
-You are going to need a desktop computer or a laptop to learn Japanese effectively.
-This is because it's a lot easier to work with text when you have a physical keyboard.
-We use a variety of
-[software](our-immersion-learning-toolset.html)
-to help in the learning process.
-The tools introduced in this guide are
-[free as in freedom](https://www.gnu.org/philosophy/free-sw.html).
-We use what we recommend.
-We don't endorse
-[proprietary software](https://www.gnu.org/proprietary/proprietary.html)
-and services that mistreat their users.
+Для эффективного обучения тебе понадобится компьютер или ноутбук, потому наличие отдельной клавиатуры упрощает работу с текстом.
+Мы используем много разных [программ](our-immersion-learning-toolset.html), которые помогают в процессе изучения.
+Инструменты, упомянутые в данном руководстве являются [свободными](https://www.gnu.org/philosophy/f
+ree-sw.html).
+Мы сами пользуемся тем, что советуем.
+Мы не поддерживаем [проприетарные программы](https://www.gnu.org/proprietary/proprietary.html) и платформы, которые не ценят своих пользователей.
 
-## What's next
+## Что дальше
 
-The following articles we will will provide you with an overview of the method,
-and the most important steps you need to take.
-The remaining articles address each step in detail.
+Последующие статьи раскроют сам метод и необходимые шаги в подробностях, с детальным описанием каждого этапа.
