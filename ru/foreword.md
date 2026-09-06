@@ -1,7 +1,8 @@
 ---
-title: Предисловие
+title: "Предисловие"
 date: 1619998706
-tags: [guide]
+tags: ["guide"]
+updated: "06 September 2026"
 ---
 
 Поздравляю!
