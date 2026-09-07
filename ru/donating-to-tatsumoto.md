@@ -1,6 +1,7 @@
 ---
-title: Donating to Tatsumoto
+title: "Donating to Tatsumoto"
 date: 1619200733
+updated: "07 September 2026"
 ---
 
 <div class="translation-note">
@@ -120,29 +121,6 @@ you can subscribe to monthly donations.
 You can set a donation amount at checkout in the Tip section.
 
 <a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools/348">Subscribe</a>
-
-## Cointree
-
-Donate crypto and send a message that I will receive via email.
-
-https://cointr.ee/tatsumoto
-
-<!-- Deprecated methods
-
-## Liberapay
-
-Liberapay is a recurrent donations platform.
-Liberapay does not take a cut of payments.
-
-<a target="_blank" class="md-button lp" href="https://liberapay.com/Tatsumoto/donate">Donate using Liberapay</a>
-
-## Patreon
-
-You can support me over at Patreon by clicking the button below.
-
-<a target="_blank" class="md-button patreon" href="https://www.patreon.com/bePatron?u=43555128">Become a patron</a>
-
-/Deprecated methods -->
 
 ****
 
