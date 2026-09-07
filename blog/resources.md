@@ -2,7 +2,7 @@
 title: "Resources"
 date: 1621275994
 tags: ["guide"]
-updated: "16 August 2026"
+updated: "07 September 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -1128,6 +1128,8 @@ You've been warned.
   For example,
   if you hear someone say the word `建物`,
   you need to tell if it's atamadaka, heiban, odaka, or nakadaka.
+* [名字アクセント辞典](https://myoji.scave.net).
+  Online pitch accent dictionary for human names.
 
 ## Past-beginner
 
