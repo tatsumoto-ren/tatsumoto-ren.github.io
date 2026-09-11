@@ -1,95 +1,87 @@
 ---
-title: "Table of Contents"
+title: "Содержание"
 date: 1616375454
 updated: "05 July 2026"
 ---
 
-<div class="translation-note">
-
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-* [Foreword](foreword.html)
-* [About](about-this-site.html)
-* Introduction
-  * [What's AJATT?](whats-ajatt.html)
-  * [Introduction to learning Japanese](introduction-to-learning-japanese.html)
-  * [Japanese Roadmap](roadmap.html)
-  * [Avoiding bad advice](bad-advice.html)
-  * [Acquisition vs Learning](acquisition-vs-learning.html)
-  * [Mass immersion](mass-immersion.html)
-  * [Spaced repetition](spaced-repetition.html)
-  * [How Anki works](how-anki-works.html)
-* Setup
-  * [Japanese locale](japanese-locale.html)
-  * [How to type in Japanese](how-to-type-in-japanese.html)
+* [Предисловие](foreword.html)
+* [О сайте](about-this-site.html)
+* Введение
+  * [Что такое AJATT?](whats-ajatt.html)
+  * [Введение в изучение японского](introduction-to-learning-japanese.html)
+  * [План изучения](roadmap.html)
+  * [Как избегать плохих советов](bad-advice.html)
+  * [Усвоение и изучение](acquisition-vs-learning.html)
+  * [Массовая иммерсия](mass-immersion.html)
+  * [Интервальное повторение](spaced-repetition.html)
+  * [Как работает Anki](how-anki-works.html)
+* Настройка
+  * [Японская локаль](japanese-locale.html)
+  * [Как печатать по-японски](how-to-type-in-japanese.html)
   * [Anki](setting-up-anki.html)
-  * [Anki add-ons](useful-anki-add-ons-for-japanese.html)
-  * [Card templates](discussing-various-card-templates.html)
-  * [Fonts](japanese-fonts.html)
-* Immersion
-  * [Active immersion](active-immersion.html)
-  * [Passive immersion](passive-immersion.html)
-  * [Domains](language-domains.html)
-* Things that smell
-  * [Textbooks](are-textbooks-bad.html)
-  * [Classes](classes.html)
-  * [Graded readers](what-do-you-think-about-graded-readers.html)
-  * [Machine translation](could-machine-translation-be-useful-to-language-learners.html)
-  * [Apps](why-shouldnt-i-just-keep-using-an-app-instead.html)
-* Basics
-  * [Kana](learning-kana-in-two-days.html)
-  * [Kanji](learning-kanji.html)
+  * [Дополнения Anki](useful-anki-add-ons-for-japanese.html)
+  * [Шаблоны карточек](discussing-various-card-templates.html)
+  * [Шрифты](japanese-fonts.html)
+* Иммерсия
+  * [Активная иммерсия](active-immersion.html)
+  * [Пассивная иммерсия](passive-immersion.html)
+  * [Домены](language-domains.html)
+* Сомнительные вещи
+  * [Учебники](are-textbooks-bad.html)
+  * [Занятия](classes.html)
+  * [Адаптированные книги](what-do-you-think-about-graded-readers.html)
+  * [Машинный перевод](could-machine-translation-be-useful-to-language-learners.html)
+  * [Приложения](why-shouldnt-i-just-keep-using-an-app-instead.html)
+* Основы
+  * [Кана](learning-kana-in-two-days.html)
+  * [Кандзи](learning-kanji.html)
   * [Ankidrone Foundation](jp1k-anki-deck.html)
-  * [Basic vocabulary](basic-vocabulary.html)
+  * [Базовая лексика](basic-vocabulary.html)
   * [Ankidrone Essentials](ankidrone-essentials.html)
-  * [Grammar](learning-grammar.html)
-* Dictionary programs
+  * [Грамматика](learning-grammar.html)
+* Словарные программы
   * [GoldenDict](setting-up-goldendict.html)
   * [Qolibri](setting-up-qolibri.html)
   * [Rikaitan](setting-up-yomichan.html)
-* [Dictionary files](yomichan-and-epwing-dictionaries.html)
+* [Словарные файлы](yomichan-and-epwing-dictionaries.html)
   * [EPWING](epwing-dictionaries.html)
   * [MDX](mdx-dictionaries.html)
   * [Rikaitan](rikaitan-dictionaries.html)
-* On the journey
-  * [One target sentences](one-target-sentences.html)
-  * [Sentence mining](sentence-mining.html)
-  * [Reviewing Anki cards](how-to-review.html)
-* Tools and card creation
-  * [Our immersion learning toolset](our-immersion-learning-toolset.html)
-  * [Japanese support add-on](anki-japanese-support.html)
-  * [Movies and TV-shows](mining-from-movies-and-tv-shows.html)
+* В процессе
+  * [Предложения с одним целевым словом](one-target-sentences.html)
+  * [Создание карточек из предложений](sentence-mining.html)
+  * [Повторение карточек Anki](how-to-review.html)
+* Инструменты и создание карточек
+  * [Наш набор инструментов для иммерсии](our-immersion-learning-toolset.html)
+  * [Дополнение Japanese Support](anki-japanese-support.html)
+  * [Фильмы и сериалы](mining-from-movies-and-tv-shows.html)
   * [YouTube](immersion-with-youtube.html)
-  * [Manga](mining-from-manga.html)
-  * [Books](reading-books.html)
-  * [Passive immersion tech](passive-listening.html)
-  * [Retiming subtitles](retiming-subtitles.html)
-  * [Sentence banks](cross-profile-search-and-import.html)
-  * [Condensing active immersion](condensing-active-immersion.html)
-  * [Plumbing](plumbing-for-language-learners.html)
-  * [Timeboxing](timeboxing.html)
-* Subsequent topics
+  * [Манга](mining-from-manga.html)
+  * [Книги](reading-books.html)
+  * [Техника для пассивной иммерсии](passive-listening.html)
+  * [Изменение таймингов субтитров](retiming-subtitles.html)
+  * [Банки предложений](cross-profile-search-and-import.html)
+  * [Сжатие активной иммерсии](condensing-active-immersion.html)
+  * [Пайплайн](plumbing-for-language-learners.html)
+  * [Таймбоксинг](timeboxing.html)
+* Продвинутые темы
   * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
-  * [Going monolingual](going-monolingual.html)
-  * [Understanding monolingual definitions](understanding-monolingual-definitions.html)
-  * [Japanese Pitch Accent](japanese-pitch-accents.html)
-  * [Pitch accent perception training](pitch-accent-perception.html)
-  * [Pitch accent cards](how-should-i-grade-cards-once-i-add-pitch-accent.html)
-  * [Writing by hand](writing-japanese.html)
+  * [Переход на моноязычные словари](going-monolingual.html)
+  * [Понимание моноязычных определений](understanding-monolingual-definitions.html)
+  * [Питч-акцент в японском](japanese-pitch-accents.html)
+  * [Тренировка восприятия питч-акцента](pitch-accent-perception.html)
+  * [Карточки для изучения питч-акцента](how-should-i-grade-cards-once-i-add-pitch-accent.html)
+  * [Письмо от руки](writing-japanese.html)
 * [FAQ](tag_faq.html)
-* Apocrypha
-  * [List of resources](resources.html)
-  * [Kanji composition](kanji-composition-in-relation-to-reading-japanese.html)
-  * [Learning Kanji Radicals](learning-kanji-radicals.html)
-  * [How to type something with Fcitx](how-to-type-x-with-fcitx.html)
-  * [On motivation](im-not-motivated-and-dont-enjoy-learning-japanese.html)
-  * [Premature reading](why-does-premature-reading-cripple-phonetic-awareness.html)
-  * [Mitigating the Impact of Early Output](mitigating-the-impact-of-early-output.html)
-  * [Pitch artist user guide](pitch-artist-user-guide.html)
-* Contact and Support
-  * [Join our community](join-our-community.html)
-  * [Support](donating-to-tatsumoto.html)
+* Апокрифы
+  * [Список ресурсов](resources.html)
+  * [Компоненты кандзи](kanji-composition-in-relation-to-reading-japanese.html)
+  * [Изучение радикалов кандзи](learning-kanji-radicals.html)
+  * [Как печатать что-либо с Fcitx](how-to-type-x-with-fcitx.html)
+  * [О мотивации](im-not-motivated-and-dont-enjoy-learning-japanese.html)
+  * [Преждевременное чтение](why-does-premature-reading-cripple-phonetic-awareness.html)
+  * [Смягчение последствий раннего говорения](mitigating-the-impact-of-early-output.html)
+  * [Руководство пользователя Pitch Artist](pitch-artist-user-guide.html)
+* Связь и поддержка
+  * [Присоединяйся к сообществу](join-our-community.html)
+  * [Поддержать](donating-to-tatsumoto.html)
