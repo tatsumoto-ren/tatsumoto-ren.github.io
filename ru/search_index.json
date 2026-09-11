@@ -7992,49 +7992,49 @@
     "parent":"Writing Japanese"
   },
   {
-    "title":"Japanese roadmap",
+    "title":"План изучения японского",
     "tags":[
       "guide"
     ],
-    "body":"Примечание: Обратите внимание, что эта статья ещё не переведена полностью. Если вы хотите помочь, присоединяйтесь к нашему сообществу и создайте pull request на GitHub. In the following articles you'll find out how to go through the learning steps. Continue reading this site for detailed instructions. Below is a quick overview.",
+    "body":"В следующих статьях ты узнаешь, как проходить этапы обучения. Читай сайт дальше, чтобы освоить всё подробно. Ниже приведён краткий обзор.",
     "url":"roadmap.html",
     "date":"2021-03-10"
   },
   {
-    "title":"Laying the ground work",
+    "title":"Подготовка почвы",
     "tags":[
       "guide"
     ],
-    "body":"Build a Japanese Immersion Environment. Start consuming untranslated native Japanese content actively and passively. For example, watch anime in Japanese. This is the first and the most important part. Initially, avoid the consequences of premature reading, only immersing in audio-visual content, such as anime, movies, dramas, TV-shows. Choose your AJATTer name. My AJATTer name is, as you probably guessed, Tatsumoto Ren (or Ren Tatsumoto). A friend gave it to me after seeing how much immersion I did when I was a beginner. It's a good idea to have a more experienced AJATTer give you your AJATTer name, but it's also fine to make up your own. Set up a consistent sleep schedule. To improve your concentration and attention span, start meditating 5 minutes a day, first thing in the morning. Increase meditation time by 5 minutes a week until reaching one hour per day. Skip this step if your attention is already trained. Free yourself from (anti)social media, proprietary software (malware), gaming, and other distractions.",
-    "url":"roadmap.html#laying-the-ground-work",
-    "parent":"Japanese roadmap"
+    "body":"Создай среду для погружения в японский. Начни потреблять непереведённый японский контент, созданный носителями, активно и пассивно. Например, смотри аниме на японском. Это первый и самый важный этап. Сначала избегай последствий преждевременного чтения и иммерси только в аудиовизуальный контент, например аниме, фильмы, дорамы и телешоу. Выбери себе имя AJATTера. Моё имя AJATTера, как нетрудно догадаться, Тацумото Рен (или Рен Тацумото). Друзья дали мне его, увидев, насколько много я иммерсил в начале обучения. Лучше, если имя AJATTера тебе даст более опытный AJATTер, но можно и придумать его самому. Наладь постоянный режим сна. Чтобы улучшить концентрацию и способность удерживать внимание, начни медитировать по 5 минут в день, первым делом утром. Увеличивай время медитации на 5 минут в неделю, пока не дойдёшь до часа в день. Пропусти этот шаг, если твоё внимание уже натренировано. Освободись от (анти)социальных сетей, несвободного программного обеспечения (вредоносного ПО), игр и других отвлекающих вещей.",
+    "url":"roadmap.html#podgotovka-pochvy",
+    "parent":"План изучения японского"
   },
   {
-    "title":"Introduction",
+    "title":"Начало",
     "tags":[
       "guide"
     ],
-    "body":"Set up an SRS, such as Anki. Until you start reading practice, Anki will be the only place where you have to read in Japanese. Quickly learn the Japanese alphabets with a drilling app or an Anki deck. Do Ankidrone Foundation. Learn the most common 1,000 words up front to jumpstart your comprehension and unlock access to sentence mining from untranslated media. While doing Ankidrone Foundation, find a grammar guide you like and read it. Dedicate a short period of time every day, 30 minutes to an hour, to study grammar. Create your own mining deck. You will be adding everything else you don't know to this deck. You may add example sentences from the grammar guide to your mining deck. Do Ankidrone Essentials. This step is optional. Ankidrone Essentials contains thousands of premade targeted sentence cards that can help you improve your comprehension. Continue immersing and making Anki cards.",
-    "url":"roadmap.html#introduction",
-    "parent":"Japanese roadmap"
+    "body":"Настрой SRS, например Anki. Пока ты не начнёшь практиковаться в чтении, Anki будет единственным местом, где тебе придётся читать по-японски. Быстро выучи японские азбуки с помощью приложения для заучивания или колоды Anki. Пройди Ankidrone Foundation. Сначала выучи 1 000 самых частых слов, чтобы ускорить понимание и получить возможность создавать карточки из непереведённого контента. Во время прохождения Ankidrone Foundation найди руководство по грамматике, которое тебе нравится, и читай его. Каждый день уделяй грамматике немного времени, от 30 минут до часа. Создай собственную колоду для майнинга. Добавляй в неё всё остальное, чего ты не знаешь. Можешь добавлять в колоду примеры предложений из руководства по грамматике. Пройди Ankidrone Essentials. Этот шаг необязателен. Ankidrone Essentials содержит тысячи готовых целевых карточек с предложениями (TSC), которые помогут тебе улучшить понимание. Продолжай иммерсить и создавать карточки Anki.",
+    "url":"roadmap.html#nachalo",
+    "parent":"План изучения японского"
   },
   {
-    "title":"Growth",
+    "title":"Рост",
     "tags":[
       "guide"
     ],
-    "body":"Start watching anime with Japanese subtitles and reading manga. Make the monolingual transition, and start only adding monolingual cards. Learn pitch accent theory. Start learning the pitch accent of words. Once you master anime with J-subs and manga, start branching out to books: ranobe, and eventually real novels. At some point in the process your ability to output emerges naturally. Start outputting. Do imitation exercises. Imitation exercises involve repeating after a recording of a native speaker talking. Write essays in Japanese. Have them checked and corrected by automated tools (e.g. Duck.ai) or native speakers.",
-    "url":"roadmap.html#growth",
-    "parent":"Japanese roadmap"
+    "body":"Начни смотреть аниме с японскими субтитрами и читать мангу. Соверши переход на моноязычные словари и начни добавлять только моноязычные карточки. Изучи теорию питч-акцента. Начни учить питч-акцент слов. Когда освоишь аниме с японскими субтитрами и мангу, переходи к книгам: ранобэ, а затем и к настоящим романам. В какой-то момент способность говорить появится сама собой. Начни говорить. Делай упражнения на имитацию. В таких упражнениях ты повторяешь за записью речи носителя языка. Пиши сочинения по-японски. Проверяй и исправляй их автоматическими инструментами, например Duck.ai, или с помощью носителей языка.",
+    "url":"roadmap.html#rost",
+    "parent":"План изучения японского"
   },
   {
-    "title":"Proficiency",
+    "title":"Владение языком",
     "tags":[
       "guide"
     ],
-    "body":"Start learning literally every word you come across. Start seeking out weak spots, and immerse with that you need. Start studying culture, history, keigo, and linguistics in Japanese. Learn classical Japanese. This step is optional. Continue immersing. Continue to fill holes in your knowledge. Watch anime.",
-    "url":"roadmap.html#proficiency",
-    "parent":"Japanese roadmap"
+    "body":"Начни учить буквально каждое слово, которое тебе встречается. Ищи слабые места и погружайся в то, что тебе нужно. Начни изучать культуру, историю, кэйго и лингвистику на японском. Выучи классический японский. Этот шаг необязателен. Продолжай погружаться. Продолжай заполнять пробелы в знаниях. Смотрите аниме.",
+    "url":"roadmap.html#vladenie-iazykom",
+    "parent":"План изучения японского"
   },
   {
     "title":"Introduction to learning Japanese",

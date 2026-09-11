@@ -1,96 +1,90 @@
 ---
-title: Japanese roadmap
+title: "План изучения японского"
 date: 1615372628
-tags: ['guide']
+tags: ["guide"]
+updated: "11 September 2026"
 ---
 
-<div class="translation-note">
-
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-In the [following articles](table-of-contents.html)
-you'll find out how to go through the learning steps.
-Continue reading this site for detailed instructions.
-Below is a quick overview.
+В [следующих статьях](table-of-contents.html)
+ты узнаешь, как проходить этапы обучения.
+Читай сайт дальше, чтобы освоить всё подробно.
+Ниже приведён краткий обзор.
 
 ****
 
-## Laying the ground work
+## Подготовка почвы
 
-1) Build a [Japanese Immersion Environment](introduction-to-learning-japanese.html#how-to-immerse).
-   Start consuming untranslated native Japanese content
-   [actively](active-immersion.html) and [passively](passive-immersion.html).
-   For example, watch [anime in Japanese](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
-   This is the **first** and the most important part.
+1) Создай [среду для погружения в японский](introduction-to-learning-japanese.html#how-to-immerse).
+   Начни потреблять непереведённый японский контент, созданный носителями,
+   [активно](active-immersion.html) и [пассивно](passive-immersion.html).
+   Например, смотри [аниме на японском](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
+   Это **первый** и самый важный этап.
 
-   Initially, avoid the [consequences of premature reading](why-does-premature-reading-cripple-phonetic-awareness.html),
-   only immersing in audio-visual content,
-   such as anime, movies, dramas, TV-shows.
-1) Choose your AJATTer name.
-   My AJATTer name is, as you probably guessed, Tatsumoto Ren (or Ren Tatsumoto).
-   A friend gave it to me after seeing how much immersion I did when I was a beginner.
-   It's a good idea to have a more experienced AJATTer give you your AJATTer name,
-   but it's also fine to make up your own.
-1) Set up a consistent sleep schedule.
-1) To improve your concentration and attention span,
-   start meditating 5 minutes a day,
-   first thing in the morning.
-   Increase meditation time by 5 minutes a week until reaching one hour per day.
-   Skip this step if your attention is already trained.
-1) Free yourself from (anti)social media,
-   [proprietary software](https://www.gnu.org/proprietary/proprietary.html) (malware),
-   gaming,
-   and other distractions.
+   Сначала избегай [последствий преждевременного чтения](why-does-premature-reading-cripple-phonetic-awareness.html)
+   и иммерси только в аудиовизуальный контент,
+   например аниме, фильмы, дорамы и телешоу.
+1) Выбери себе имя AJATTера.
+   Моё имя AJATTера, как нетрудно догадаться, Тацумото Рен (или Рен Тацумото).
+   Друзья дали мне его, увидев, насколько много я иммерсил в начале обучения.
+   Лучше, если имя AJATTера тебе даст более опытный AJATTер,
+   но можно и придумать его самому.
+1) Наладь постоянный режим сна.
+1) Чтобы улучшить концентрацию и способность удерживать внимание,
+   начни медитировать по 5 минут в день,
+   первым делом утром.
+   Увеличивай время медитации на 5 минут в неделю, пока не дойдёшь до часа в день.
+   Пропусти этот шаг, если твоё внимание уже натренировано.
+1) Освободись от (анти)социальных сетей,
+   [несвободного программного обеспечения](https://www.gnu.org/proprietary/proprietary.html) (вредоносного ПО),
+   игр
+   и других отвлекающих вещей.
 
-## Introduction
+## Начало
 
-1) Set up an [SRS](spaced-repetition.html), such as [Anki](setting-up-anki.html).
-   Until you start reading practice,
-   Anki will be the only place where you have to read in Japanese.
-1) Quickly learn the [Japanese alphabets](learning-kana-in-two-days.html)
-   with a drilling app or an Anki deck.
-1) Do [Ankidrone Foundation](jp1k-anki-deck.html).
-   Learn the most common 1,000 words up front to jumpstart your comprehension
-   and unlock access to sentence mining from untranslated media.
-1) While doing Ankidrone Foundation,
-   find a [grammar guide](learning-grammar.html) you like and read it.
-   Dedicate a short period of time every day, 30 minutes to an hour, to study grammar.
-1) Create your own [mining deck](sentence-mining.html).
-   You will be adding everything else you don't know to this deck.
-   You may add example sentences from the grammar guide to your mining deck.
-1) Do [Ankidrone Essentials](ankidrone-essentials.html).
-   This step is optional.
-   Ankidrone Essentials contains thousands of premade targeted sentence cards
-   that can help you improve your comprehension.
-1) Continue immersing and making Anki cards.
+1) Настрой [SRS](spaced-repetition.html), например [Anki](setting-up-anki.html).
+   Пока ты не начнёшь практиковаться в чтении,
+   Anki будет единственным местом, где тебе придётся читать по-японски.
+1) Быстро выучи [японские азбуки](learning-kana-in-two-days.html)
+   с помощью приложения для заучивания или колоды Anki.
+1) Пройди [Ankidrone Foundation](jp1k-anki-deck.html).
+   Сначала выучи 1 000 самых частых слов, чтобы ускорить понимание
+   и получить возможность создавать карточки из непереведённого контента.
+1) Во время прохождения Ankidrone Foundation
+   найди [руководство по грамматике](learning-grammar.html), которое тебе нравится, и читай его.
+   Каждый день уделяй грамматике немного времени, от 30 минут до часа.
+1) Создай собственную [колоду для майнинга](sentence-mining.html).
+   Добавляй в неё всё остальное, чего ты не знаешь.
+   Можешь добавлять в колоду примеры предложений из руководства по грамматике.
+1) Пройди [Ankidrone Essentials](ankidrone-essentials.html).
+   Этот шаг необязателен.
+   Ankidrone Essentials содержит тысячи готовых целевых карточек с предложениями (TSC),
+   которые помогут тебе улучшить понимание.
+1) Продолжай иммерсить и создавать карточки Anki.
 
-## Growth
+## Рост
 
-1) Start watching anime with Japanese subtitles and reading manga.
-1) Make the [monolingual transition](going-monolingual.html),
-   and start only adding monolingual cards.
-1) Learn [pitch accent theory](japanese-pitch-accents.html).
-   Start learning the pitch accent of words.
-1) Once you master anime with J-subs and manga,
-   start branching out to books: ranobe, and eventually real novels.
-1) At some point in the process your ability to output emerges naturally.
-   Start outputting.
-   Do imitation exercises.
-   Imitation exercises involve repeating after a recording of a native speaker talking.
-1) Write essays in Japanese.
-   Have them checked and corrected by automated tools (e.g. `Duck.ai`) or native speakers.
+1) Начни смотреть аниме с японскими субтитрами и читать мангу.
+1) Соверши [переход на моноязычные словари](going-monolingual.html)
+   и начни добавлять только моноязычные карточки.
+1) Изучи [теорию питч-акцента](japanese-pitch-accents.html).
+   Начни учить питч-акцент слов.
+1) Когда освоишь аниме с японскими субтитрами и мангу,
+   переходи к книгам: ранобэ, а затем и к настоящим романам.
+1) В какой-то момент способность говорить появится сама собой.
+   Начни говорить.
+   Делай упражнения на имитацию.
+   В таких упражнениях ты повторяешь за записью речи носителя языка.
+1) Пиши сочинения по-японски.
+   Проверяй и исправляй их автоматическими инструментами, например `Duck.ai`,
+   или с помощью носителей языка.
 
-## Proficiency
+## Владение языком
 
-1) Start learning literally every word you come across.
-1) Start seeking out weak spots, and immerse with that you need.
-1) Start studying culture, history, keigo, and linguistics in Japanese.
-1) Learn classical Japanese. This step is optional.
-1) Continue immersing. Continue to fill holes in your knowledge.
+1) Начни учить буквально каждое слово, которое тебе встречается.
+1) Ищи слабые места и погружайся в то, что тебе нужно.
+1) Начни изучать культуру, историю, кэйго и лингвистику на японском.
+1) Выучи классический японский. Этот шаг необязателен.
+1) Продолжай погружаться. Продолжай заполнять пробелы в знаниях.
 
 <p align="center"><img alt="watch anime" width="50%" src="../blog/img/watch_anime.webp"></p>
-<p align="center"><i>Watch anime.</i></p>
+<p align="center"><i>Смотрите аниме.</i></p>
