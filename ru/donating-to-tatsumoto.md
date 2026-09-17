@@ -4,8 +4,6 @@ date: 1619200733
 updated: "07 September 2026"
 ---
 
-I really appreciate you being here.
-
 Спасибо, что зашёл сюда.
 Практически весь контент на данном сайте,
 а также в проекте [Ajatt-Tools](https://github.com/Ajatt-Tools) предоставляется бесплатно,
