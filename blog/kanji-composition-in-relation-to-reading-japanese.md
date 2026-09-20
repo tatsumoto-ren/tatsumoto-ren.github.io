@@ -1,8 +1,8 @@
 ---
-title: Kanji composition in relation to reading Japanese
+title: "Kanji composition in relation to reading Japanese"
 date: 1614080369
-author: Bundou Makoto
-tags: ['kanji']
+tags: ["kanji"]
+updated: "20 September 2026"
 ---
 
 As mentioned briefly in [Learning Kanji](learning-kanji.html#kanji-composition),
@@ -117,28 +117,39 @@ it is estimated to be closer to 97%.
 諧声(かいせい)。象声。
 ```
 
-`形声` characters are comprised of **two** different parts.
+`形声` characters are made up of two functional components.
 One part which tells you the vague meaning
 and one part which tells you the pronunciation.
+The component that indicates a broad category of meaning
+is called the `意符` (`いふ`), also known as the `義符` (`ぎふ`).
+The component that suggests the character's historical pronunciation
+is called the `音符` (`おんぷ`), also known as the `声符` (`せいふ`) or `諧声符` (`かいせいふ`).
+
+These terms describe the **function** of each component.
+They are different from names like `偏` (`へん`) and `旁` (`つくり`),
+which describe position,
+and from `部首`, which is used to classify kanji in dictionaries.
 
 For example,
-take the character for *copper* 「銅」.
-On the left side, we have [釒](https://kanjijoho.com/cat/busyu803.html) (`かねへん`)
-which is the radical for *metal*,
-while on the right side, we have 「[同](https://kanjijoho.com/kanji/kanji1512.html)」(`どう`),
-which is the character which means *same*.
+take the character for *copper*, 「銅」.
+On the left side, we have [釒](https://kanjijoho.com/cat/busyu803.html) (`かねへん`),
+which is the `意符` component that means something related to metal.
+On the right side, we have 「[同](https://kanjijoho.com/kanji/kanji1512.html)」(`どう`),
+which is the `音符` and means *same*.
 
-Understanding why *mountain* plus *rock* equals *boulder* is clear.
+It is easy to understand why *mountain* plus *rock* equals *boulder*.
 But why does *metal* plus *same* = *copper*?
 In reality, it doesn't.
+The two meanings are not being combined.
 The character for *same* is
 used in the character for *copper*
 only because the on-yomi of that character is `どう`.
 And the pronunciation of the word *copper* is also `どう`.
-The left side of the kanji indicates that the meaning has something to do with metal,
-while the right side indicates that the pronunciation is `どう`.
+The `意符` on the left side of the kanji shows that
+the meaning has something to do with metal,
+while the `音符` on the right shows that the pronunciation is `どう`.
 The original meaning of the right half, *same*,
-has no correlation with *copper*.
+has nothing to do with *copper*.
 It is there for its pronunciation value.
 
 This elucidates why most kanji may seem illogical
@@ -198,6 +209,13 @@ as the right part of the character `構(こう)` in `構造`.
 Now you can safely conclude that this new character
 has some sort of meaning related to *speech*
 and has the pronunciation of `こう`.
+
+A component's role depends on the character.
+For example, in 「係」, `亻` is the `意符`,
+while 「系」 is the `音符` and provides the reading `けい`.
+However, 「孫」 is traditionally analyzed as a `会意` character.
+「子」 and 「系」 both contribute to its meaning,
+so 「系」 is not functioning as an `音符` there.
 
 ## How kanji are used
 
