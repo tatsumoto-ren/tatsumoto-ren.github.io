@@ -1,70 +1,65 @@
 ---
-title: "Donating to Tatsumoto"
+title: "Пожертвовать Тацумото"
 date: 1619200733
-updated: "07 September 2026"
+updated: "25 September 2026"
 ---
 
-<div class="translation-note">
+Спасибо за визит!
 
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
+Поскольку почти весь мой контент доступен бесплатно,
+этот сайт и проект [Ajatt-Tools](https://github.com/Ajatt-Tools)
+полностью зависят от пожертвований и поддержки сообщества,
+чтобы продолжать существовать.
+У нас нет рекламы и трекеров, нарушающих приватность.
+Мы полностью зависим от тебя.
 
-</div>
-
-I really appreciate you being here.
-Because almost all my content is offered free of charge,
-this site and the
-[Ajatt-Tools](https://github.com/Ajatt-Tools)
-project relies on donations and support from its community to stay alive.
-We do not have ads or privacy-violating trackers, we are entirely dependent on you.
-
-If this site,
-our community
-or the free software projects developed at Ajatt-Tools were useful to you,
-I'll appreciate if you donate to help me support myself
-and continue delivering new guides, tools and resources.
-You can support me over at one of the membership platforms or donate cryptocurrency.
+Если этот сайт,
+наше сообщество или свободное ПО, разработанное в Ajatt-Tools,
+оказались тебе полезны,
+я буду благодарен за помощь в виде пожертвования.
+Это поможет мне и дальше обеспечивать себя
+и продолжать выпускать новые руководства, инструменты и материалы.
+Поддержать меня можно на одной из платформ ниже.
+Помимо этого можно прислать криптовалюту.
 
 ****
 
-## Fundraising
+## Пожертвования
 
-Our project exists solely on the funds of subscribers.
-Since 2020, I have been working on AJATT full time.
-AJATT cannot be sustainable if I cannot buy food and pay my bills.
-Thousands of people visit this site every day.
-If even some of them contribute `$1`, it will be a huge help for us!
-A small symbolic donation of `$1` or `$5` will not make you poorer,
-but will save our common cause!
-❤️  Please follow the links below and donate according to your abilities.
-Any amount of help is important.
-Do not let our common cause fail!
+Наш проект существует исключительно благодаря средствам людей, которые ему помогают.
+Начиная с 2020 года я занимаюсь работой над AJATT полный рабочий день.
+Проект было бы невозможно поддерживать, если бы я не мог покупать еду и оплачивать базовые потребности.
+Каждый день на сайт заходят тысячи людей.
+Если бы даже небольшая часть из них прислала `50 ₽`, это бы значительно помогло нам!
+Вышеописанные суммы в текущих реалиях не сделают никого беднее,
+но они могли бы помочь в развитии проекта и движении в нужном направлении.
+❤️ Пожалуйста, перейди по ссылкам ниже и пожертвуй в меру своих возможностей.
+Любая помощь важна.
+Не дай нашему общему делу пропасть!
 
-The money you donate primarily goes toward my paycheck for maintaining the website,
-paying for hosting and the domain name,
-updating and improving existing articles (lessons),
-and writing new lessons.
-The funds also support work on Ajatt-Tools,
-including making, updating, and improving our software toolset,
-Anki add-ons, Anki decks, and other resources used with the AJATT method.
-If funding is insufficient,
-I may have to seek job opportunities elsewhere,
-which would slow down the evolution and development of the AJATT method.
+Деньги, которые вы жертвуете, в первую очередь идут на мою зарплату за поддержку сайта,
+оплату хостинга и доменного имени,
+обновление и улучшение существующих статей (уроков),
+и написание новых уроков.
+Эти средства также поддерживают работу над Ajatt-Tools,
+в том числе создание, обновление и улучшение нашего набора программ,
+Anki-аддонов, колод Anki и других ресурсов, используемых с методом AJATT.
+Если финансирования будет недостаточно,
+мне, возможно, придется искать работу в другом месте,
+и это замедлит развитие и продвижение метода AJATT.
 
-Your continued support through donations is crucial to the ongoing progress
-and maintenance of this valuable resource for language learners.
-A huge thank you to everyone who stays with us!
-It is only thanks to you that we are still standing!
+Ваша постоянная поддержка через пожертвования крайне важна для дальнейшего развития
+и поддержки этого ценного ресурса для изучающих языки.
+Огромное спасибо всем, кто остается с нами!
+Только благодаря вам мы все еще держимся!
 
 ## Monero
 
 [Monero](https://www.getmonero.org/)
-is a privacy-focused and censorship-resistant cryptocurrency.
-The transactions are all hidden.
-There are many ways you can buy or sell Monero, one of the simplest ones is through
+это криптовалюта, которая ценит приватность своих пользователей, а также защищает их от цензуры.
+Транзакции в её блокчейне скрыты от злоумышленников.
+Существует достаточно много способов купить и продать Monero, один из самых простых это
 [ChangeNow.io](https://changenow.io/).
-
 ```
 47sD7pSagHF7mp41SwrDj4KF8dSj4kdK6YUZ9fkmnR8h587wVc1kW66iJy9m83maVjWXtDJxmCVxdieMyGZNFHZ2Fifrbr5
 ```
@@ -76,9 +71,9 @@ There are many ways you can buy or sell Monero, one of the simplest ones is thro
 
 ## TON
 
-TON is a blockchain platform developed by Telegram.
-You can donate to Tatsumoto easily through the Telegram [wallet](https://t.me/wallet).
-Send Toncoin (TON) to this address.
+TON это блокчейн платформа, разрабатываемая Телеграмом.
+Прислать Toncoin (TON) можно через внутренний [кошелёк](https://t.me/wallet).
+Присылай монету прямо на этот адрес.
 
 ```
 UQAyVFHr_TSgoR3CkNUAh4kKEBv0ZYxULajueSES1v_wVnsj
@@ -91,11 +86,9 @@ UQAyVFHr_TSgoR3CkNUAh4kKEBv0ZYxULajueSES1v_wVnsj
 
 ## Bitcoin
 
-Bitcoin is another cryptocurrency.
-Bitcoin is not meant to be anonymous, but it's widely used.
-Here's
-[a list of places](https://web.archive.org/web/20250513142814if_/https://igwiki.lyci.de/wiki/Cryptocurrency#Where_You_Can_Buy)
-where you can buy Bitcoins.
+Bitcoin известен всем.
+Не является анонимным, но довольно широко распространён.
+Вот список [мест](https://web.archive.org/web/20250513142814if_/https://igwiki.lyci.de/wiki/Cryptocurrency#Where_You_Can_Buy), где можно купить его.
 
 ```
 bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
@@ -108,24 +101,23 @@ bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga
 
 ## Boosty
 
-You can donate on
-[Boosty](https://boosty.to/tatsumoto/donate)
-too, which is a platform similar to Patreon.
+Ты можешь также помочь через [Boosty](https://boosty.to/tatsumoto/donate).
+Это платформа, похожая на Patreon.
 
-<a target="_blank" class="md-button boosty" href="https://boosty.to/tatsumoto/donate">Boosty</a>
+<a target="V_blank" class="md-button boosty" href="https://boosty.to/tatsumoto/donate">Boosty</a>
 
-## Donate bot on Telegram
+## Помочь через бота в Telegram
 
-By clicking the link below,
-you can subscribe to monthly donations.
-You can set a donation amount at checkout in the Tip section.
+По ссылке ниже ты можешь подписаться на ежемесячные пожертвования.
+Сумму пожертвования можно поменять при его оформлении в разделе чаевых.
 
 <a target="_blank" class="md-button telegram" href="https://t.me/ajatt_tools/348">Subscribe</a>
 
 ****
 
-Thank you very much for your support!
-If you're unable to support financially,
-please read and share my articles,
-recommend this site to your friends,
-and of course be a part of our [community](join-our-community.html).
+Ещё раз спасибо тебе за твою поддержку!
+Если у тебя нет возможности помочь финансово,
+читай и делись нашими статьями,
+рекомендуй сайт друзьям и знакомым, и,
+конечно же,
+становись частью нашего [сообщества](join-our-community.html).
