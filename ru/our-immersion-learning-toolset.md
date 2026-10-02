@@ -1,7 +1,8 @@
 ---
-title: Our Immersion Learning Toolset
+title: "Our Immersion Learning Toolset"
 date: 1612374836
-tags: [guide]
+tags: ["guide"]
+updated: "02 October 2026"
 ---
 
 <div class="translation-note">
@@ -46,6 +47,27 @@ The good news is that
 the majority of language learning software that exist today is already free.
 So as far as language learning goes,
 feel lucky that you're learning Japanese because we have some killer tools and resources.
+
+To answer whether a particular piece of software supports the AJATT software philosophy,
+use this checklist.
+
+- It is free/libre software that respects the user's freedom.
+- It has first-class support for GNU/Linux.
+  This is the system we all use, and we want all features available on it.
+- It is lightweight.
+  We prefer CLI and TUI interfaces, or native widgets like Qt or GTK at most.
+  Programs that demand too many system resources,
+  programs made with JavaScript or TypeScript, Electron,
+  or programs that run in a web browser do not qualify.
+- It works fully offline, with no Internet access required.
+  You should only need Internet access to download a copy of the program, and that's it.
+- No online accounts are needed.
+  No need to register on some platform.
+  Everything should be stored locally.
+- It does one thing, and does it well.
+  We avoid programs with a million features and prefer small programs that each do their own job.
+
+If the software does not support the AJATT philosophy, AJATTers will not use or recommend it.
 
 Moving on,
 let's dive into our immersion learning toolset!
