@@ -2,7 +2,7 @@
 title: "Resources"
 date: 1621275994
 tags: ["guide"]
-updated: "16 August 2026"
+updated: "02 October 2026"
 ---
 
 <div class="translation-note">
@@ -472,6 +472,9 @@ Browsing will lead you to more tags.
 
 ### Audiobooks
 
+* [Torrent sites](#torrent-trackers).
+  Explore them first.
+  For example, [audiobooks for 無職転生 on nyaa](https://nyaa.si/?f=0&c=0_0&q=%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F+audiobooks).
 * Japanese Audiobook Collection
   * [Part 1](https://nyaa.si/view/1616763) or [Magnet](magnet:?xt=urn:btih:4ee70a18d55d3745bf45d3c8889ec3d8f7319fda&dn=Japanese%20Audiobook%20Collection%20%28Part%201%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
   * [Part 2](https://nyaa.si/view/1616764) or [Magnet](magnet:?xt=urn:btih:6088af63cc4dbe448f77155264f2fdd025674160&dn=Japanese%20Audiobook%20Collection%20%28Part%202%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
@@ -1136,6 +1139,8 @@ You've been warned.
   For example,
   if you hear someone say the word `建物`,
   you need to tell if it's atamadaka, heiban, odaka, or nakadaka.
+* [名字アクセント辞典](https://myoji.scave.net).
+  Online pitch accent dictionary for human names.
 
 ## Past-beginner
 
