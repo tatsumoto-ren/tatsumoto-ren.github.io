@@ -1,11 +1,12 @@
 ---
-title: What do you do for fun, related and unrelated to Japanese?
+title: "What do you do for fun, related and unrelated to Japanese?"
 date: 1666824717
-tags: ['faq']
+tags: ["faq"]
 position: -9863
+updated: "04 October 2026"
 ---
 
-[Watch anime](top-10-anime-of-all-time.html), read manga.
+[Watch anime](top-anime-of-all-time.html), read manga.
 
 I also make sure to spend some time immersing in English,
 to maintain it.
