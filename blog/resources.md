@@ -267,8 +267,6 @@ as desktop shortcuts.
   Watch Japanese TV.
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
   A Chinese website with a bunch of TV shows.
-* [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](mining-from-movies-and-tv-shows.html).
 * [utako IPTV-JP project](https://gitflic.ru/project/utako/utako/blob?file=README.md&branch=main&mode=markdown).
   Another `m3u` playlist.
   Run [mpv](mining-from-movies-and-tv-shows.html)
