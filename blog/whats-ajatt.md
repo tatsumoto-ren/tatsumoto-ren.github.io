@@ -1,8 +1,9 @@
 ---
-title: What's AJATT?
+title: "What's AJATT?"
 date: 1666824718
-tags: ['faq', 'guide']
+tags: ["faq", "guide"]
 position: -9992
+updated: "26 October 2026"
 ---
 
 AJATT is a method of reaching fluency in a foreign language in a relatively short time.
@@ -75,6 +76,7 @@ Another reading is *All Journey All The Time*,
 which preserves the obsessive, immersive spirit of the old name
 without locking the idea to one language.
 There are other readings as well.
+But usually, we just say "AJATT" like it's a regular name.
 
 To start learning with the AJATT method,
 read our [Table of Contents](table-of-contents.html).
