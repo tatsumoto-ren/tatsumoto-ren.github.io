@@ -1,730 +1,627 @@
 ---
-title: Introduction to learning Japanese
+title: "Введение в изучение японского"
 date: 1615372627
-tags: [guide]
+tags: ["guide"]
+updated: "26 October 2026"
 ---
 
-<div class="translation-note">
+Ниже кратко описан типичный путь изучения японского,
+который должен привести вас к свободному владению языком менее чем за два года.
+Мы разработали этот метод для тех, кто хочет эффективно изучать японский самостоятельно
+и интересуется японскими фильмами, сериалами, романами и другими произведениями.
 
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-Below is a quick rundown of a typical Japanese learning journey
-that should get you to basic fluency in less than two years.
-We've designed the method for people
-who want to learn Japanese efficiently through self-study
-and are interested in Japanese media such as movies, TV shows or novels.
-
-If you have any questions,
-you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
-and people will help you.
-There are thousands people learning Japanese, and you should be part of it.
+Если у вас возникнут вопросы,
+вы можете [задать их в нашем чате](join-our-community.html),
+и вам помогут.
+Тысячи людей изучают японский c нами, и вам стоит присоединиться к нашему сообществу.
 
 ****
 
-## The right mindset
+## Правильный настрой
 
-> I'm just one person who took ideas from other people,
-> applied them systematically and found success with it.
+> Я всего лишь человек, который взял чужие идеи,
+> систематически применял их и добился успеха.
 >
-> *― Khatzumoto*
+> *Khatzumoto*
 
 <img src="../blog/img/yoshi.webp" float="right">
 
-Consuming the language is how you learn the language.
-You know, babies can only cry and poop their pants
-but within the first few years from birth they learn to speak their first language.
-They quickly absorb complicated grammatical principles
-and soon can speak with accurate grammar and near perfect pronunciation.
-It happens because they listen to people around them, especially parents,
-and they slowly begin to understand what is being said.
-Our brain is built to do that instinctively.
+Язык усваивается через восприятие речи и текста.
+Как вы знаете, младенцы умеют только плакать и пачкать подгузники,
+но за первые несколько лет жизни они учатся говорить на родном языке.
+Они быстро усваивают сложные грамматические принципы
+и вскоре начинают говорить грамматически правильно и с почти идеальным произношением.
+Это происходит потому, что они слушают окружающих, особенно родителей,
+и постепенно начинают понимать сказанное.
+Наш мозг устроен так, чтобы делать это инстинктивно.
 
-Traditional language learners say that as you grow up
-the part of your brain responsible for language acquisition dies, and you lose access to it.
-They insist that adults have to learn languages the same way you learn math or science:
-with your rational, logical brain; by consciously memorizing rules and drilling exercises.
-This has proven to be untrue.
+Сторонники традиционного изучения языков говорят, что по мере взросления
+часть мозга, отвечающая за усвоение языка, отмирает и становится недоступной.
+Они настаивают, что взрослые должны изучать языки так же, как математику или естественные науки:
+с помощью рационального, логического мышления, сознательно заучивая правила и выполняя упражнения.
+Было доказано, что это не так.
 
-According to Stephen Krashen,
-humans acquire language when they understand messages.
-Krashen calls it [comprehensible input](what-is-comprehensible-input.html).
-The process of acquiring a second language
-is similar to the process that **children undergo** when learning their native language.
-You can do it no matter [how old you are](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
+Согласно Стивену Крашену, люди усваивают язык, когда понимают сообщения на нём.
+Крашен называет это [понятным входным материалом](what-is-comprehensible-input.html).
+Процесс усвоения второго языка похож на процесс,
+через который **проходят дети**, осваивая родной язык.
+Вы можете делать это независимо от того, [сколько вам лет](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
 
-We're not babies, we're smarter, and we can learn faster.
-Any adult with some help of technology can aquire a language through input,
-by immersing themselves in the language.
-Language acquisition can't be substituted with *learning* a language,
-e.g. taking classes or buying textbooks.
-Immersion is the most crucial ingredient of the entire process.
+Мы не младенцы, мы умнее и можем учиться быстрее.
+Любой взрослый с небольшой помощью технологий может усвоить язык через восприятие речи и текста,
+занимаясь иммерсией.
+Усвоение языка нельзя заменить его *изучением*,
+например посещением занятий или покупкой учебников.
+Иммерсия является важнейшей составляющей всего процесса.
 
-## How to immerse
+## Как заниматься иммерсией
 
-When newcomers hear the word "immersion,"
-they often mistake it for simply
-[going to the country](https://www.antimoon.com/other/myths-country.htm),
-being present where the target language is spoken,
-and asking a Japanese person to speak to them.
-In AJATT,
-we see that as a pretty bad, an impractical and ineffective approach.
-Instead,
-we're going to build our own Japanese immersion environment at home.
-Here,
-[immersion](whats-immersion.html)
-refers to any form of listening or reading in your target language.
-The AJATT method encourages you to integrate Japanese into your daily life
-through different kinds of media,
-such as watching Japanese movies or TV shows,
-and reading books or manga.
-The method allows you to immerse yourself in the language and culture
-without needing to travel to Japan or take traditional classes.
-The best type of content to use is anything that genuinely interests you.
-As long as it's **by natives for natives**, it's fine.
-Simply surround yourself with Japanese content,
-and you will acquire the language.
+Когда новички слышат слово «иммерсия», они часто ошибочно думают,
+что достаточно [поехать в страну](https://www.antimoon.com/other/myths-country.htm),
+находиться там, где говорят на изучаемом языке, и попросить японца с ними поговорить.
+В AJATT мы считаем такой подход довольно плохим, непрактичным и неэффективным.
+Вместо этого мы создадим собственную среду для японской иммерсии у себя дома.
+Здесь под [иммерсией](whats-immersion.html) подразумевается любое слушание или чтение на изучаемом языке.
+Метод AJATT предлагает сделать японский частью повседневной жизни с помощью разных видов контента,
+например просмотра японских фильмов и сериалов, чтения книг и манги.
+Метод позволяет заниматься иммерсией в язык и культуру,
+не отправляясь в Японию и не посещая традиционные занятия.
+Лучше всего использовать то, что вам по-настоящему интересно.
+Подойдёт всё, что создано **носителями для носителей**.
+Просто окружите себя контентом на японском, и вы усвоите язык.
 
-The process is divided into two steps.
+Процесс делится на два шага.
 
-1) Watch a movie or a TV-show in Japanese.
-   The visual component will help you understand what's going on.
-   Use Japanese subtitles, if available, to look up unknown words and grammar.
-   If not, you might be surprised at how much you can learn
-   from simply watching *raw*, with no subtitles.
-   This is called **active immersion**.
-2) Reuse what you've watched for **passive immersion**.
-   Passive immersion is when you have audio playing in the background
-   while you're doing something else.
-   A popular practice among people doing AJATT
-   is to take an episode of a TV show they have watched,
-   extract the audio track and add it to a playlist.
-   I am going to tell you how to do it in the article about
-   [passive listening](passive-listening.html).
+1) Посмотрите фильм или серию сериала на японском.
+   Видеоряд поможет вам понять происходящее.
+   Если есть японские субтитры, используйте их для поиска незнакомых слов и грамматики.
+   Если их нет, вы можете удивиться тому, как много можно усвоить,
+   просто смотря *в оригинале*, без субтитров.
+   Это называется **активной иммерсией**.
+2) Повторно используйте просмотренное для **пассивной иммерсии**.
+   Пассивная иммерсия это воспроизведение аудио в фоновом режиме,
+   пока вы занимаетесь чем-то другим.
+   Среди последователей AJATT распространена такая практика:
+   взять просмотренную серию сериала, извлечь звуковую дорожку и добавить её в плейлист.
+   Я расскажу, как это сделать, в статье о [пассивном слушании](passive-listening.html).
 
-As for reading, the above applies if for a book you read you find the corresponding audiobook.
-If not, just read it and skip the second step.
+К чтению всё вышесказанное тоже применимо, если к прочитанной книге вы найдёте аудиокнигу.
+Если нет, просто читайте и пропустите второй шаг.
 
-It is reasonable to ask
-how you're supposed to learn from native content
-[if you still understand nothing](is-it-helpful-to-immerse-if-i-barely-understand.html).
-It is true that actively consuming native media,
-looking up words and trying to learn them
-is an immense task for a beginner.
-You're going to spend your first weeks learning the basics of the language.
-Your active study time during this stage will include
-learning the alphabets, kanji, basic vocabulary and grammar.
-Nonetheless, you have to do immersion from day one.
-What I recommend you do at this stage is watch easy anime without subtitles.
-Instead of looking up words rely on imagery and context to infer what's going on in the show.
-You can start using Japanese subtitles once you have a foundation in the Japanese writing systems.
-Passively listen to each episode after you complete it to maximize time spent immersing.
-By simply listening, your brain will slowly get better at parsing and understanding the language.
-Listening a lot is going to eventually enable you
-to understand spoken language,
-be it a conversation or your favorite anime.
+Возникает закономерный вопрос: как учиться на контенте для носителей,
+[если вы пока ничего не понимаете](is-it-helpful-to-immerse-if-i-barely-understand.html)?
+Действительно, активно смотреть и читать такой контент, искать значения слов
+и пытаться их выучить для новичка очень трудно.
+Первые недели вы будете изучать основы языка.
+На этом этапе время активной учёбы будет включать изучение азбук,
+кандзи, базовой лексики и грамматики.
+Тем не менее заниматься иммерсией нужно с первого дня.
+На этом этапе я рекомендую смотреть простое аниме без субтитров.
+Вместо поиска значений слов опирайтесь на видеоряд и контекст, чтобы понять происходящее.
+Вы можете начать использовать японские субтитры, когда освоите основы японской письменности.
+После просмотра каждой серии слушайте её пассивно,
+чтобы проводить с иммерсией как можно больше времени.
+Просто слушая, вы постепенно научите мозг лучше разбирать и понимать язык.
+Если вы будете много слушать, со временем вы начнёте понимать устную речь,
+будь то разговор или ваше любимое аниме.
 
-Once you learn the basic vocabulary,
-nothing stops you from learning just from immersion.
-Don't wait for too long.
-There are people who trap themselves into thinking,
-"I'm going to start watching raw anime when I'm good",
-"I don't immerse because I don't understand Japanese yet".
-This is a very dangerous pattern.
-You start wearing skates before you know how to skate.
-You start watching without subs before you understand.
+Освоив базовую лексику, вы сможете учиться исключительно с помощью иммерсии.
+Не откладывайте это надолго.
+Некоторые загоняют себя в ловушку мыслями вроде
+«Я начну смотреть аниме без субтитров, когда буду хорошо знать язык»
+или «Я не занимаюсь иммерсией, потому что пока не понимаю японский».
+Это очень опасный образ мыслей.
+Вы надеваете коньки ещё до того, как научитесь кататься.
+Вы начинаете смотреть без субтитров ещё до того, как начнёте понимать.
 
-For passive listening try to choose the material
-that you previously actively watched and comprehended.
-The quality of passive immersion is lower if you don't actively work with it beforehand.
-Avoid listening to "white noise",
-you only really make gains when you understand the language you are consuming.
-You won't be able to comprehend everything right away,
-but as you learn new words from your immersion,
-expect your comprehension to quickly grow within the first few months.
-You have to make effort to make the content comprehensible.
-Look up words, rely on the imagery, choose material with simpler language.
+Для пассивного слушания старайтесь выбирать материал,
+который вы до этого активно смотрели и поняли.
+Качество пассивной иммерсии ниже, если вы заранее не поработали с материалом активно.
+Избегайте слушания «белого шума»: настоящий прогресс происходит только тогда,
+когда вы понимаете воспринимаемую речь.
+Сразу понять всё не получится, но по мере изучения новых слов во время иммерсии
+можно ожидать быстрого роста понимания в первые несколько месяцев.
+Нужно прилагать усилия, чтобы материал стал понятным.
+Ищите значения слов, опирайтесь на видеоряд, выбирайте материалы с более простым языком.
 
-Slice of life anime is the easiest genre to learn from in the beginning.
-To find easy anime you can [search MAL](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
-Additionally, the ixrec website has a page with
-[media recommendations](https://ixrec.neocities.org/immersion/).
+На начальном этапе проще всего учиться по аниме в жанре повседневности.
+Чтобы найти простое аниме, можно [воспользоваться поиском на MAL](what-good-things-are-there-to-watch-for-a-complete-beginner.html).
+Кроме того, на сайте ixrec есть страница с [рекомендациями контента](https://ixrec.neocities.org/immersion/).
 
-The more *language-dense* your immersion content is, the better.
-It's a good idea to choose content where people talk a lot, with some caveats.
+Чем больше *речи на единицу времени* в вашем контенте для иммерсии, тем лучше.
+Стоит выбирать контент, в котором много говорят, но есть несколько оговорок.
 
-* In general podcasts and radio are more challenging for beginners,
-  and they rarely have transcriptions.
-  Learning from such content is harder than, say, anime,
-  where you can open a subtitle file and look up unknown words.
-  I recommend podcasts for intermediate learners and above.
-* [Songs](is-music-a-good-way-to-learn-japanese.html)
-  contain unnatural sentence structures, grammar, word choice.
-  They tend to use more "poetic", uncommon words.
-  Sometimes if a word can be read many ways,
-  they choose to sing the less common version.
+* В целом подкасты и радио сложнее для новичков, а текстовые расшифровки к ним встречаются редко.
+  Учиться по такому контенту труднее, чем, например, по аниме,
+  где можно открыть файл субтитров и найти значения незнакомых слов.
+  Я рекомендую подкасты учащимся среднего уровня и выше.
+* В [песнях](is-music-a-good-way-to-learn-japanese.html) встречаются неестественные конструкции предложений,
+  грамматика и выбор слов.
+  В них чаще используются «поэтические», редкие слова.
+  Иногда, если у слова несколько чтений, для песни выбирают менее распространённое.
 
-  It's hard to hear the lyrics through music.
-  Even in our native language we often fail to hear or make sense of some parts of songs.
-  Instead of listening to songs for the sake of immersion,
-  it's better to choose a more comprehensible material.
+  За музыкой трудно расслышать слова.
+  Даже на родном языке мы часто не можем расслышать или понять отдельные части песен.
+  Вместо слушания песен ради иммерсии лучше выбрать более понятный материал.
 
-  But music is fun.
-  Reading song lyrics is a fun way to find new, often cool and rare words.
-  Give it a try once you're advanced.
+  Но музыка приносит удовольствие.
+  Чтение текстов песен позволяет с интересом находить новые, часто классные и редкие слова.
+  Попробуйте это, когда достигнете продвинутого уровня.
 
-I hope you'll find an immersion routine that suits your life.
-If you think you can't do it, don't worry.
-Even Khatz, the AJATT founder, said in his blog that he wasn't always able to immerse all day.
-He still tried to do as much as he could,
-while having a job and studying at a university at the same time.
-AJATT has existed for years, many people went through the program and achieved fluency.
+Надеюсь, вы найдёте режим иммерсии, который впишется в вашу жизнь.
+Если вам кажется, что у вас не получится, не переживайте.
+Даже Khatz, основатель AJATT, писал в своём блоге,
+что ему не всегда удавалось заниматься иммерсией весь день.
+При этом он старался делать всё возможное, одновременно работая и учась в университете.
+AJATT существует много лет, и многие люди прошли этот путь и достигли свободного владения языком.
 
-## Outputting
+## Говорение
 
-In AJATT, *to output* simply means to speak your target language,
-to interact with native speakers.
-Many language learners are eager to start speaking from day one.
-Unfortunately,
-this approach doesn't quite work,
-especially for those striving for true mastery of a language.
-While memorizing set phrases
-and practicing them can be helpful for very basic conversations,
-it is not a sustainable method for long-term progress.
+В AJATT *говорить* означает просто пользоваться изучаемым языком в речи,
+общаться с носителями.
+Многие люди, изучающие иностранные языки, стремятся начать говорить с первого дня.
+К сожалению, этот подход не очень хорошо работает.
+Особенно для тех, кто стремится к настоящему мастерству владения языком.
+Хотя заучивание готовых фраз и их отработка могут помочь в самых простых разговорах,
+этот метод не обеспечивает устойчивого прогресса в долгосрочной перспективе.
 
-One of the core components of the AJATT philosophy is the
-idea of input before output.
-This basically means that that
-if you want to become fluent in a foreign language,
-the most efficient approach is
-to focus exclusively on learning to understand the language
-through listening, and later reading.
-We call this a silent period, which may be observed in infants too.
-They don't speak from day one.
-They acquire language before they begin to speak.
+Один из основных принципов философии AJATT заключается в том,
+что восприятие языка должно предшествовать его использованию в речи.
+По сути, если вы хотите свободно владеть иностранным языком,
+эффективнее всего полностью сосредоточиться на том, чтобы научиться понимать его
+через слушание, а затем и чтение.
+Это так называемый период молчания: вы уже усваиваете язык, но ещё не говорите на нём.
+Такой период можно наблюдать и у младенцев.
+Они не говорят с первого дня.
+Они усваивают язык, прежде чем начинают говорить.
 
-The primary goal is to understand the language first.
-Without comprehension,
-successful communication with others becomes challenging,
-even if you have memorized basic phrases from a textbook.
+Главная цель состоит в том, чтобы сначала научиться понимать язык.
+Без понимания успешно общаться с другими трудно,
+даже если вы выучили базовые фразы из учебника.
 
-[Premature speaking](can-i-speak-early.html) can have other negative effects,
-such as impacting your accent and reinforcing common mistakes.
-These effects are often evident in traditional language learners' speech patterns.
+[Преждевременное говорение](can-i-speak-early.html) может иметь и другие негативные последствия,
+например повлиять на произношение и закрепить распространённые ошибки.
+Эти последствия часто заметны в речи тех, кто изучает языки традиционными методами.
 
-* It takes time to train your listening
-  until you can hear native speech at natural speed and comprehend it.
-  If you can't hear the sounds yet, there's no way you can repeat them
-  without a strong foreign accent.
-  Traditional language learners start speaking very early, from day one.
-  As they speak, they get used to pronouncing words incorrectly.
+* Нужно время, чтобы натренировать понимание на слух настолько,
+  чтобы разбирать речь носителей в естественном темпе и понимать её.
+  Если вы пока не различаете звуки, то не сможете повторить их без сильного иностранного акцента.
+  Те, кто изучает языки традиционными методами, начинают говорить очень рано, с первого дня.
+  Говоря, они привыкают произносить слова неправильно.
 
-  Think about Japanese people. After getting crippled by the school system
-  that doesn't and can't offer enough listening practice
-  they confuse the `l` and `r` sounds when they try to speak English.
+  Вспомните японцев.
+  Из-за вреда, нанесённого школьной системой,
+  которая не даёт и не может дать достаточно практики слушания,
+  они путают звуки `l` и `r`, когда пытаются говорить по-английски.
 
-  A lot of people think, "I'll have native speakers correct me and tell me where I'm off".
-  Imagine a blind person trying to draw a self-portrait and someone telling them,
-  "oh, the nose is a little bigger".
-  That's not going to help them too much.
+  Многие думают: «Я попрошу носителей исправлять меня и говорить, где я ошибаюсь».
+  Представьте незрячего человека, который пытается нарисовать автопортрет,
+  а кто-то ему говорит: «Ой, нос немного больше».
+  Это ему не очень поможет.
 
-  If you want good pronunciation,
-  you need to rely on your own ability to correct yourself.
-  You need to develop a good listening ability before you start speaking.
-* Mistakes are bad because they [become habits](http://www.antimoon.com/how/mistakes-damage.htm).
-  When you first start learning a new language,
-  you're going to make many mistakes when you try to speak.
-  If you make a mistake once,
-  you are more likely to repeat the same construction the next time.
-  Repeating the same mistakes over and over
-  turns them into ingrained habits
-  that can be very hard to overcome later.
+  Если вы хотите хорошее произношение, нужно полагаться на собственную способность исправлять себя.
+  Прежде чем начинать говорить, нужно хорошо развить понимание на слух.
+* Ошибки плохи тем, что [становятся привычками](http://www.antimoon.com/how/mistakes-damage.htm).
+  Когда вы только начинаете изучать новый язык, вы будете делать много ошибок в попытках говорить.
+  Если вы ошиблись один раз, то с большей вероятностью повторите ту же конструкцию в следующий раз.
+  Многократное повторение одних и тех же ошибок превращает их в укоренившиеся привычки,
+  от которых потом бывает очень трудно избавиться.
 
-  Don't hope that a native speaker will correct your mistakes.
-  Unless the other party didn't understand you at all,
-  they are not going to point out where you're off.
-  Even if you ask them to correct all your mistakes,
-  there's no guarantee that you'll be able to apply the corrections.
+  Не надейтесь, что носитель исправит ваши ошибки.
+  Если собеседник хоть как-то вас понял, он не станет указывать, где вы ошиблись.
+  Даже если вы попросите исправлять все ваши ошибки,
+  нет гарантии, что вы сможете применить эти исправления.
 
-## Go through a silent period
+## Пройдите через период молчания
 
-Avoid speaking in your target language
-until your speaking ability develops naturally.
-Typically,
-this occurs after doing AJATT for about a year.
+Избегайте говорения на изучаемом языке,
+пока способность говорить не разовьётся естественным образом.
+Обычно это происходит примерно через год занятий по методу AJATT.
 
-If you want to sound good,
-you'll still need to practice speaking.
-Immersion alone isn't enough to make you speak like a native.
-But as a beginner,
-it shouldn’t be your primary focus.
+Если вы хотите хорошо звучать, практиковаться в говорении всё равно придётся.
+Одной иммерсии недостаточно, чтобы заговорить как носитель.
+Но на начальном этапе это не должно быть вашей главной задачей.
 
-## Output comes naturally
+## Способность говорить возникает естественным образом
 
-Once you get a few thousand hours of input,
-your speaking ability is going to emerge gradually.
-Forcing it usually doesn't work.
-Again, remember **how small children learn** to speak their native language.
-Their output ability emerges as a result of immersion.
+После нескольких тысяч часов восприятия языка способность говорить начнёт постепенно проявляться.
+Попытки форсировать этот процесс обычно не работают.
+Ещё раз вспомните, **как маленькие дети учатся** говорить на родном языке.
+Их способность говорить возникает в результате иммерсии.
 
-1) Immersion + [SRS](spaced-repetition.html) = comprehension ability.
-1) Immersion + comprehension ability = output ability.
-1) Output ability + practice = output mastery.
+1) Иммерсия + [SRS](spaced-repetition.html) = способность понимать.
+1) Иммерсия + способность понимать = способность говорить.
+1) Способность говорить + практика = мастерство говорения.
 
-## Controlled Output
+## Говорение с самоконтролем
 
-When you start to notice that your ability to speak has emerged,
-that's when you can begin practicing output.
-When you already **have high comprehension**,
-your ears should be well-trained,
-so you'll be able to notice and correct your mistakes
-when you listen to a recording of yourself.
+Когда вы начнёте замечать, что способность говорить появилась,
+можно приступать к практике говорения.
+Если вы уже **хорошо понимаете язык**, ваш слух должен быть достаточно натренирован,
+чтобы вы могли замечать и исправлять ошибки, слушая запись собственной речи.
 
-You can practice speaking by repeating sentences aloud
-using recordings of native speakers,
-such as clips from anime, TV shows, or movies.
-This technique is known as "imitation exercise."
-Imitation involves listening to a recording of a native speaker talking
-and repeating what they say,
-trying to match their speed, rhythm, and intonation as closely as possible.
-Record yourself and pay attention to your own pronunciation.
-Try to correct all the mistakes you notice.
+Вы можете практиковать говорение, повторяя вслух предложения из записей речи носителей,
+например отрывков из аниме, сериалов или фильмов.
+Эта техника называется «упражнением на подражание».
+Подражание заключается в том, чтобы слушать запись речи носителя и повторять сказанное,
+стараясь как можно точнее воспроизвести темп, ритм и интонацию.
+Записывайте себя и обращайте внимание на своё произношение.
+Старайтесь исправлять все замеченные ошибки.
 
-It's also helpful to start writing blog posts and essays.
-Always verify that your output is correct &mdash; control yourself.
-Correct your mistakes when you find them.
-You can have your essays **checked** and corrected by native speakers
-or by automated tools
-(e.g., [Duck.ai](http://duck.ai/), an AI chatbot that you can ask to check your text).
+Также полезно начать писать статьи в блоге и сочинения.
+Всегда проверяйте правильность своей речи и текстов, контролируйте себя.
+Исправляйте ошибки, когда находите их.
+Вы можете попросить носителей **проверить** и исправить ваши сочинения
+или воспользоваться автоматизированными инструментами
+(например, [Duck.ai](http://duck.ai/), чат-ботом с ИИ, который можно попросить проверить текст).
 
-Remember that you must not practice speaking until your listening ability is really good.
-If you start speaking before you can hear all the sounds of your target language,
-you'll reinforce bad habits,
-making them nearly impossible to fix later.
-Every time you say something incorrectly,
-you're training your brain to store that warped pronunciation.
+Помните, что нельзя практиковать говорение, пока вы не научитесь очень хорошо понимать на слух.
+Если вы начнёте говорить до того, как сможете различать все звуки изучаемого языка,
+вы закрепите плохие привычки, которые потом будет почти невозможно исправить.
+Каждый раз, когда вы произносите что-то неправильно,
+вы приучаете мозг запоминать это искажённое произношение.
 
-**If speaking isn't your top priority**,
-you can neglect speaking practice.
-However,
-evidence shows that avoiding output practice for too long has negative effects.
-If you never attempt to speak,
-your ability to output will remain dormant.
-Then,
-when you finally do go out and speak, you won't be ready.
-Your speaking ability might feel like a dry lemon,
-making it a struggle to squeeze out any words.
+**Если говорение для вас не главное**, вы можете пренебречь его практикой.
+Однако данные показывают,
+что слишком долгое избегание практики говорения имеет негативные последствия.
+Если вы никогда не пытаетесь говорить, ваша способность к этому останется неактивной.
+Тогда, когда вы наконец решите заговорить, вы окажетесь не готовы.
+Ваша способность говорить может напоминать высохший лимон:
+выдавить из себя хоть какие-то слова будет очень трудно.
 
-## Software overview
+## Обзор программ
 
-We're going to use various programs to help us with Japanese.
-Since this is an intro article, you don't have to install everything right now.
-It's just an outline.
-The most important tools will be described in [Our Immersion Learning Toolset](our-immersion-learning-toolset.html).
-Afterwards, you'll be presented with articles that teach comprehensively how to use the tools.
-Additionally, we have more suggestions in [Resources](resources.html)
-and throughout the rest of the guide.
+Мы будем использовать разные программы, которые помогут нам с японским.
+Поскольку это вводная статья, устанавливать всё прямо сейчас не нужно.
+Это лишь общий обзор.
+Самые важные инструменты описаны в статье [«Наш набор инструментов для иммерсии»](our-immersion-learning-toolset.html).
+Затем вас ждут статьи с подробными инструкциями по их использованию.
+Кроме того, дополнительные рекомендации есть в [списке ресурсов](resources.html)
+и в остальных частях руководства.
 
-### Desktop
+### Компьютер
 
-  * Install Japanese fonts.
-    I suggest
-    [noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
-    Refer to
-    [Japanese fonts](japanese-fonts.html)
-    for detailed instructions.
-  * Install and configure
-    [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
-    to type in Japanese.
-    The Fcitx guide can be found [here](how-to-type-in-japanese.html).
-    The input method I use is
-    [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
-    but other options are also available.
-  * For passive immersion use [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
-    together with
-    [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
-    Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
-  * *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
-    Condensing takes a video file with subtitles and removes all parts where no one is speaking,
-    producing an audio file with increased language density for passive listening.
-  * The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
-    It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts) (user-scripts)
-    many of which can be used to make language learning easier.
-  * Install and [set up](setting-up-anki.html) Anki.
-    It's a flashcard program used to memorize words, phrases and sentences.
-  * The most popular offline dictionaries are:
+  * Установите японские шрифты.
+    Я рекомендую [noto-fonts-cjk](https://archlinux.org/packages/?name=noto-fonts-cjk).
+    Подробные инструкции приведены в статье [«Японские шрифты»](japanese-fonts.html).
+  * Установите и настройте [Fcitx](https://wiki.archlinux.org/title/Fcitx),
+    чтобы печатать по-японски.
+    Руководство по Fcitx находится [здесь](how-to-type-in-japanese.html).
+    Я использую метод ввода [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc),
+    но есть и другие варианты.
+  * Для пассивной иммерсии используйте [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
+    вместе с [ncmpcpp](https://wiki.archlinux.org/title/Ncmpcpp).
+    Храните материалы для иммерсии в отдельной папке, например `~/Music/immersionpod`.
+  * *Сжимайте* материалы для иммерсии с помощью [impd](https://github.com/Ajatt-Tools/impd).
+    При сжатии из видеофайла с субтитрами удаляются все фрагменты, где никто не говорит,
+    и получается аудиофайл с большей плотностью речи для пассивного слушания.
+  * Самый рекомендуемый видеоплеер: [mpv](https://wiki.archlinux.org/title/Mpv).
+    Он поддерживает [дополнения](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+    (пользовательские скрипты), многие из которых облегчают изучение языков.
+  * Установите и [настройте](setting-up-anki.html) Anki.
+    Это программа с карточками для запоминания слов, выражений и предложений.
+  * Самые популярные офлайн-словари:
     1) [qolibri](setting-up-qolibri.html).
     1) [GoldenDict](setting-up-goldendict.html)
     1) [Tagaini Jisho](https://www.tagaini.net/)
-  * When you read in your browser, use
-    [Rikaitan](setting-up-yomichan.html)
-    to discover meanings of unknown words.
+  * При чтении в браузере используйте [Rikaitan](setting-up-yomichan.html),
+    чтобы узнавать значения незнакомых слов.
 
-### Mobile
+### Мобильные устройства
 
-  * Install [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/)
-    to be able to type in Japanese.
-    Because Android lacks free/libre keyboards,
-    you can also use `Gboard` if you want, but make sure
-    to completely block it from accessing the Internet.
+  * Установите [Mozc для Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/),
+    чтобы печатать по-японски.
+    Поскольку на Android не хватает свободных клавиатур, при желании можно использовать и `Gboard`,
+    но обязательно полностью запретите ей доступ в интернет.
   * [AntennaPod](https://f-droid.org/en/packages/de.danoeh.antennapod/)
-    is a great app for playing podcasts.
-    [This list](https://t.me/ajatt_tools/80) of podcasts is a good starting point.
-  * Get [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-    It doesn't require any specific steps to set it up
-    other than entering your AnkiWeb credentials to sync with the desktop.
-  * Offline Japanese dictionaries available are
+    отлично подходит для воспроизведения подкастов.
+    Для начала можно воспользоваться [этим списком](https://t.me/ajatt_tools/80) подкастов.
+  * Установите [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
+    Никакой особой настройки не требуется,
+    кроме ввода данных учётной записи AnkiWeb для синхронизации с компьютером.
+  * Из офлайн-словарей японского доступны
     [Sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/),
     [jiten](https://github.com/obfusk/jiten)
-    or anything else you find on F-Droid.
+    или другие варианты, которые вы найдёте на F-Droid.
 
-### Do not use
+### Что не следует использовать
 
-  * [Machine translators](could-machine-translation-be-useful-to-language-learners.html).
-    Every translation differs from the original thought
-    because no word has an exact equivalent in another language.
-    Japanese honorifics, levels of politeness, and other things
-    don't exist in English and get lost in translation.
+  * [Машинные переводчики](could-machine-translation-be-useful-to-language-learners.html).
+    Любой перевод отличается от исходной мысли,
+    потому что ни у одного слова нет точного эквивалента в другом языке.
+    Японские именные суффиксы, уровни вежливости и другие особенности
+    отсутствуют в английском и теряются при переводе.
 
-    In order to truly understand anything in your target language,
-    you have to understand it in the target language the first time.
-    To achieve this,
-    the goal is to receive thousands of hours of comprehensible input
-    and acquire the necessary vocabulary and grammar.
+    Чтобы по-настоящему понять что-либо на изучаемом языке,
+    нужно с самого начала понимать это именно на нём.
+    Для этого нужно получить тысячи часов понятного входного материала
+    и усвоить необходимую лексику и грамматику.
 
-    Machine translations are often unnatural, wrong, or misleading.
-    While they may provide a general idea of what's being said,
-    they cannot convey the full meaning and all the details of the original message.
-    It is acceptable to use machine translations for individual words,
-    although it is safer to consult a dictionary instead.
+    Машинные переводы часто неестественны, ошибочны или вводят в заблуждение.
+    Хотя они могут дать общее представление о сказанном,
+    они не способны передать весь смысл и все детали исходного сообщения.
+    Допустимо использовать машинный перевод для отдельных слов,
+    хотя надёжнее всё же обратиться к словарю.
 
-    Google Translate is good at recognizing drawn characters.
-    You can use it to transcribe a kanji character that cannot be copy-pasted
-    (when reading manga, for example)
-    and in situations where <abbr title="Optical Character Recognition">OCR</abbr>
-    software fails to do so.
-  * Paid software.
-    For language learning there is no paid software
-    that offers any unique functionality
-    that isn't available in the free alternatives
-    or isn't useless from our point of view.
-    Besides, if you're going to spend 10 years learning Japanese,
-    do you really want to continue paying all that time?
-  * Proprietary software.
-    Most [proprietary software is malware](https://www.gnu.org/proprietary/proprietary.html),
-    that's just the reality we live in.
+    Google Переводчик хорошо распознаёт нарисованные иероглифы.
+    Его можно использовать, чтобы получить текстовую запись кандзи,
+    который нельзя скопировать и вставить (например, при чтении манги),
+    а также когда программы оптического распознавания символов (OCR) с этим не справляются.
+  * Платные программы.
+    Среди платных программ для изучения языков нет таких,
+    которые предлагали бы уникальные функции, отсутствующие в бесплатных аналогах
+    и при этом не являющиеся бесполезными с нашей точки зрения.
+    К тому же, если вы собираетесь изучать японский десять лет,
+    вы действительно хотите платить всё это время?
+  * Проприетарные программы.
+    Большинство [проприетарных программ вредоносны](https://www.gnu.org/proprietary/proprietary.html),
+    такова реальность, в которой мы живём.
 
-## Writing systems
+## Системы письменности
 
-The three writing systems used in Japanese today are hiragana, katakana and kanji.
-Hiragana and katakana are two phonetic scripts, each containing 46 characters.
-Kanji come from Chinese and are complex characters that represent concepts.
+В современном японском используются три системы письменности: хирагана, катакана и кандзи.
+Хирагана и катакана представляют собой две фонетические азбуки, в каждой из которых 46 знаков.
+Кандзи пришли из китайского языка и представляют собой сложные знаки, обозначающие понятия.
 
-### Kana
+### Кана
 
-Have a look at the Wikipedia pages on
-[Hiragana](https://wikipedia.org/wiki/Hiragana?lang=en)
-and
-[Katakana](https://wikipedia.org/wiki/Katakana?lang=en)
-to understand what you're dealing with.
-Together they're referred to as the [kana](https://wikipedia.org/wiki/Kana?lang=en).
-The key points to take away:
+Ознакомьтесь со статьями Википедии о [хирагане](https://wikipedia.org/wiki/Hiragana?lang=en)
+и [катакане](https://wikipedia.org/wiki/Katakana?lang=en), чтобы понять, с чем вам предстоит иметь дело.
+Вместе они называются [каной](https://wikipedia.org/wiki/Kana?lang=en).
+Вот что важно запомнить:
 
-* The two alphabets represent the same sounds.
-  Katakana is mostly used to write loan words and onomatopoeia,
-  Hiragana for everything else not written in kanji.
-* Due to its purpose, katakana is not used as often as hiragana,
-  as you will notice once you start reading.
-* They are very easy. Each can be learned in a day.
-* Any Japanese text not aimed at preschoolers contains kanji,
-  so learning only the kana won't cut it.
+* Обе азбуки обозначают одни и те же звуки.
+  Катакана в основном используется для записи заимствований и звукоподражаний,
+  а хирагана для всего остального, что не записывается кандзи.
+* Из-за своего назначения катакана используется реже хираганы,
+  что вы заметите, когда начнёте читать.
+* Они очень простые.
+  Каждую можно выучить за день.
+* Любой японский текст, не предназначенный для дошкольников, содержит кандзи,
+  поэтому одной каны будет недостаточно.
 
-In the article about learning kana (later in this guide)
-I recommend using a training app or a premade Anki deck.
-Either way should take you two days or so to complete, and no more than a week if you're lazy.
+В статье об изучении каны (далее в этом руководстве)
+я рекомендую использовать приложение-тренажёр или готовую колоду Anki.
+В любом случае на это уйдёт около двух дней, а если будете лениться, не больше недели.
 
-### Kanji
+### Кандзи
 
-[Kanji](https://wikipedia.org/wiki/Kanji?lang=en)
-were imported from China a long time ago.
-They are logo-graphic characters used to write words and parts of words.
-To truly learn kanji you need to read native Japanese texts for thousands of hours.
-Kanji study is meant to prime your brain for recognizing the characters
-and make transition to reading easier.
+[Кандзи](https://wikipedia.org/wiki/Kanji?lang=en) были заимствованы из Китая давным-давно.
+Это логографические знаки, используемые для записи слов и частей слов.
+Чтобы по-настоящему освоить кандзи, нужно тысячи часов читать тексты для носителей японского.
+Изучение кандзи призвано подготовить мозг к распознаванию иероглифов и облегчить переход к чтению.
 
-The most recent method for learning kanji is referred to as
-[JP1K](learning-kanji.html#jp1k-method).
-In essence, it's a specifically preformatted Anki deck.
-The deck contains around 1,000 cards, thus the name JP1K.
-There's a specific studying technique associated with the format of the deck.
-Once you learn all cards from the deck,
-it gives you the ability to recognize the most common kanji characters
-together with words that represent them.
-On this site you'll find links to premade JP1K decks
-as well as instructions on how to convert any vocabulary deck into the JP1K format.
+Самый новый метод изучения кандзи называется [JP1K](learning-kanji.html#jp1k-method).
+По сути, это колода Anki со специальным форматом карточек.
+В колоде около 1000 карточек, отсюда и название JP1K.
+С форматом колоды связана особая техника занятий.
+Изучив все карточки колоды, вы сможете узнавать самые распространённые кандзи
+вместе со словами, в которых они встречаются.
+На этом сайте вы найдёте ссылки на готовые колоды JP1K,
+а также инструкции по преобразованию любой словарной колоды в формат JP1K.
 
-The are other,
-older methods of learning kanji.
-One of the most well-known is called
-[isolated kanji study](learning-kanji.html#isolated-kanji-study).
-While we at AJATT don't recommend this method as much,
-it may still be of interest to some learners.
+Есть и другие, более старые методы изучения кандзи.
+Один из самых известных называется [изолированным изучением кандзи](learning-kanji.html#isolated-kanji-study).
+Хотя в AJATT мы не особо рекомендуем этот метод, некоторым учащимся он всё же может быть интересен.
 
-Choose only one of the above methods.
-No matter what option you pick, don't bother learning to write the characters just yet.
-To learn how to write by hand you need to be able to read some Japanese first.
-There are better ways to learn to write which are going to be
-[discussed](writing-japanese.html)
-later on this site.
+Выберите только один из перечисленных методов.
+Какой бы вариант вы ни выбрали, пока не утруждайте себя изучением написания иероглифов.
+Чтобы учиться писать от руки, сначала нужно уметь хоть немного читать по-японски.
+Есть более эффективные способы научиться писать,
+о которых мы [поговорим](writing-japanese.html) позже на этом сайте.
 
-<p align="center"><img alt="Japanese writing systems" src="../blog/img/highlighted_manga.webp"></p>
-<p align="center"><i>Japanese writing systems.</i></p>
+<p align="center"><img alt="Системы японской письменности" src="../blog/img/highlighted_manga.webp"></p>
+<p align="center"><i>Системы японской письменности.</i></p>
 
-You can totally skip the kanji phase and move straight to learning basic vocabulary.
-If you choose to do so, you're going to memorize words as is, with the kanji.
-For each word just try to remember how it looks, what it means and how it sounds.
-Treat kanji like pictures and memorize kanji compounds as single units.
-No doubt it is more difficult, but it works for many people.
+Вы можете полностью пропустить этап изучения кандзи и сразу перейти к базовой лексике.
+В таком случае вы будете запоминать слова как есть, вместе с кандзи.
+Для каждого слова просто старайтесь запомнить, как оно выглядит, что означает и как звучит.
+Воспринимайте кандзи как картинки и запоминайте сочетания кандзи как единое целое.
+Безусловно, это сложнее, но многим такой подход подходит.
 
-## Basic vocabulary
+## Базовая лексика
 
-After getting familiar with the writing systems,
-use a premade Anki deck to build up the basic vocabulary.
-Completing this step makes learning from input easier,
-you won't have to struggle looking up every word on each page.
+Познакомившись с системами письменности,
+используйте готовую колоду Anki для освоения базовой лексики.
+Завершение этого этапа облегчит обучение через восприятие языка:
+вам не придётся мучиться с поиском каждого слова на каждой странице.
 
-Download [Ankidrone Essentials](ankidrone-essentials.html)
-and learn one or two thousand cards from it.
-You are free to continue learning new cards from the deck,
-but don't get stuck on this step and move to [sentence mining](sentence-mining.html) (covered later) as soon as possible.
+Скачайте [Ankidrone Essentials](ankidrone-essentials.html) и выучите из неё одну-две тысячи карточек.
+Вы можете продолжать изучать новые карточки из этой колоды,
+но не застревайте на этом этапе и как можно скорее переходите к созданию карточек из предложений,
+о котором пойдёт речь ниже.
 
-Each card in *Ankidrone Essentials* has a sentence at the front.
-The target word of the card is shown in bold.
-The information needed to understand the sentence and the target word is provided at the back,
-it includes a rough translation and kanji readings.
-Your goal is to understand the target word.
-If you want, you can even skip reading the sentence,
-but neglecting the word's context can make the reviews harder.
+На лицевой стороне каждой карточки *Ankidrone Essentials* есть предложение.
+Целевое слово карточки выделено жирным.
+На обороте приведена информация, необходимая для понимания предложения и целевого слова,
+включая приблизительный перевод и чтения кандзи.
+Ваша цель состоит в том, чтобы понять целевое слово.
+При желании можно даже не читать предложение,
+но пренебрежение контекстом слова может усложнить повторения.
 
-## Grammar
+## Грамматика
 
-Children don't learn grammar rules from books.
-They learn by hearing lots and lots of language they can understand.
-Over time,
-their brains figure out how the language works all on their own.
-Your goal in this step is to read a grammar guide and just skim the rules.
-You're looking for example sentences.
-A good grammar book should have plenty of example sentences for you to absorb.
+Дети не учат грамматические правила по книгам.
+Они учатся, слушая огромное количество понятной им речи.
+Со временем их мозг самостоятельно разбирается в устройстве языка.
+Ваша задача на этом этапе состоит в том, чтобы прочитать руководство по грамматике,
+лишь бегло просматривая правила.
+Вам нужны примеры предложений.
+В хорошей книге по грамматике должно быть много примеров, которые вы сможете усвоить.
 
-[Choose a grammar guide](learning-grammar.html) and read it.
-It's the only *textbook* you're really going to need throughout your AJATT journey.
-When I learned Japanese, I chose Tae Kim.
-Khatz used "[All About Particles](all-about-particles.html)".
+[Выберите руководство по грамматике](learning-grammar.html) и прочитайте его.
+Это единственный *учебник*, который вам действительно понадобится на всём пути AJATT.
+Когда я изучал японский, я выбрал руководство Tae Kim.
+Khatz использовал «[All About Particles](all-about-particles.html)».
 
-Combining grammar study with the SRS can help you understand the grammar better.
-Put the example sentences in Anki if you like.
-Highlight the grammar point in the sentence to mark it as the target
-([targeted sentence cards](discussing-various-card-templates.html#targeted-sentence-cards),
-covered later).
-If you decide not to bother with Anki at this point,
-make sure to at least read through the whole grammar guide and pay attention to examples.
+Сочетание изучения грамматики с SRS может помочь лучше её понять.
+При желании добавляйте предложения-примеры в Anki.
+Выделяйте грамматическую конструкцию в предложении, чтобы обозначить её как целевой элемент
+([целевые карточки с предложениями](discussing-various-card-templates.html#targeted-sentence-cards),
+о которых пойдёт речь ниже).
+Если вы решите пока не возиться с Anki,
+обязательно хотя бы прочитайте руководство по грамматике целиком и обратите внимание на примеры.
 
-Don't waste your time memorizing conjugation tables.
-Grammar is a tool to aid comprehension,
-and knowing the rules won't help you output.
-By the time you recall a grammar rule and apply it to your thoughts,
-your conversation partner will be long gone.
+Не тратьте время на заучивание таблиц спряжения.
+Грамматика служит инструментом для облегчения понимания,
+а знание правил не поможет вам говорить.
+Пока вы вспомните грамматическое правило и примените его к своей мысли,
+собеседник уже давно уйдёт.
 
-A guide like Tae Kim doesn't cover everything.
-Even certain grammar in the advanced section can be considered pretty basic.
-As you continue to immerse,
-look up and,
-when necessary,
-make Anki cards for the rest of the grammar not covered in the grammar guide.
-The process is no different from making cards for regular words.
+Руководство вроде Tae Kim не охватывает всё.
+Даже некоторые конструкции из раздела для продвинутых можно считать довольно базовыми.
+Продолжая заниматься иммерсией, ищите объяснения остальной грамматики,
+не вошедшей в руководство, и при необходимости создавайте для неё карточки Anki.
+Процесс ничем не отличается от создания карточек для обычных слов.
 
-## Create your own mining deck
+## Создайте собственную колоду
 
-The process of making sentence cards (or targeted sentence cards)
-for the words you don't know
-is called [sentence mining](sentence-mining.html) (or sentence picking).
-A mining deck is an Anki deck you create yourself,
-as opposed to decks you download from the Internet,
-and fill it with sentences (and less often words) extracted from the content that you read
-(or watch with subtitles).
-Hence, you "mine" sentences from texts you read in the wild.
+Процесс создания карточек с предложениями (или целевых карточек с предложениями)
+для незнакомых слов называется [созданием карточек из предложений](sentence-mining.html)
+(sentence mining, также sentence picking, то есть отбор предложений).
+Такая колода Anki создаётся вами самостоятельно, а не скачивается из интернета,
+и наполняется предложениями (реже словами) из контента,
+который вы читаете или смотрите с субтитрами.
+Таким образом, вы «добываете» предложения из настоящих текстов, которые встречаете сами.
 
-While premade Anki decks might seem convenient,
-they can't teach you everything,
-so making your own cards is essential to long-term success with Japanese.
-Continue to [immerse](whats-immersion.html)
-by reading and listening to content created by native speakers for native speakers,
-and use [dictionaries](resources.html#dictionaries) to look up new words and mine sentences.
+Хотя готовые колоды Anki могут казаться удобными, они не могут научить вас всему,
+поэтому создание собственных карточек необходимо для долгосрочного успеха в японском.
+Продолжайте заниматься иммерсией,
+читая и слушая контент, созданный носителями для носителей,
+и используйте [словари](resources.html#dictionaries) для поиска новых слов и отбора предложений.
 
-Avoid creating too many single word flashcards.
-They're fine for nouns representing concrete objects but bad for other types of speech.
-Do not translate sentences.
-Understand them instead.
+Не создавайте слишком много карточек с отдельными словами.
+Они подходят для существительных, обозначающих конкретные предметы,
+но плохо подходят для других частей речи.
+Не переводите предложения.
+Вместо этого понимайте их.
 
-There is a popular goal in the community to create 10,000 flashcards within the first 18 months.
-While this number is not special,
-having a goal to work towards can be motivating.
-I managed to learn 10,000 sentence cards in 11 months.
-Feel free to take on this challenge as well,
-but remember that Anki is just a supplement for immersion learning.
+В сообществе популярна цель создать 10 000 карточек за первые 18 месяцев.
+Хотя в этом числе нет ничего особенного, наличие цели может мотивировать.
+Мне удалось выучить 10 000 карточек с предложениями за 11 месяцев.
+Вы тоже можете принять этот вызов,
+но помните, что Anki лишь дополняет обучение через иммерсию.
 
-## Reading immersion VS Listening immersion
+## Иммерсия через чтение и иммерсия через слушание
 
-AJATT is based on learning languages the natural way,
-**like children** do.
-However,
-while reading immersion is powerful and can help you improve quickly,
-it's not how children actually learn languages.
-Children spend years mastering the spoken language
-**before they read a single written character**.
-They build a foundation in sound first, then learn to read.
+AJATT основан на изучении языков естественным путём, **как это делают дети**.
+Однако, хотя иммерсия через чтение очень эффективна и помогает быстро прогрессировать,
+дети на самом деле учат языки не так.
+Они годами осваивают устную речь **прежде, чем прочитают хотя бы один письменный знак**.
+Сначала они формируют звуковую основу, а потом учатся читать.
 
-Reading in a foreign language
-[harms](why-does-premature-reading-cripple-phonetic-awareness.html)
-**perception** and **pronunciation**.
-The impact on perception affects language flow,
-or how quickly and effortlessly you can construct sentences in your head compared to native speakers.
-The impact on pronunciation affects how you sound
-and how your pronunciation differs from that of native speakers.
+Чтение на иностранном языке [вредит](why-does-premature-reading-cripple-phonetic-awareness.html)
+**восприятию** и **произношению**.
+Влияние на восприятие сказывается на плавности речи,
+то есть на том,
+насколько быстро и легко вы можете строить предложения в голове по сравнению с носителями.
+Влияние на произношение сказывается на том,
+как вы звучите и чем ваше произношение отличается от произношения носителей.
 
-Native speakers process language subconsciously.
-Their speech is automatic and flows effortlessly
-without conscious attention to structure or word order.
-In contrast,
-when learning through reading,
-you analyze language
-and use different parts of your brain than native speakers,
-essentially learning to translate the language into your own mental model
-rather than intuitively understanding it.
-That limits your ability to produce natural, fluent speech.
+Носители обрабатывают язык подсознательно.
+Их речь автоматична и течёт свободно,
+без сознательного внимания к структуре или порядку слов.
+Напротив, учась через чтение, вы анализируете язык
+и задействуете другие части мозга, не те, что носители.
+По сути, вы учитесь переводить язык в собственную мысленную модель,
+а не понимать его интуитивно.
+Это ограничивает вашу способность говорить естественно и свободно.
 
-Adults who neglect listening and rely mostly on reading
-often develop good grammar but retain a **foreign accent**.
-This often stems from
-**[subvocalization](https://en.wikipedia.org/wiki/Subvocalization)**.
-I.e., the act of reading activates muscles in the throat.
-Without a solid foundation in listening,
-learners make up sounds in their head while reading,
-forming **bad pronunciation habits**.
-This effect is similar to [premature output](#outputting).
-Because training listening comprehension requires more effort,
-their reading ability quickly outpaces their listening ability.
-Every time they see a word in text,
-their brain creates its own made-up pronunciation based on how they *think* it should sound,
-and they subvocalize it,
-effectively training themselves to sound bad.
-By learning to read before they can **properly hear** the language,
-they sabotage their ability to speak.
+Взрослые, которые пренебрегают слушанием и полагаются в основном на чтение,
+часто хорошо осваивают грамматику, но сохраняют **иностранный акцент**.
+Часто это связано с **[субвокализацией](https://en.wikipedia.org/wiki/Subvocalization)**.
+То есть чтение активирует мышцы горла.
+Без прочной основы в слушании учащиеся придумывают звуки у себя в голове во время чтения,
+формируя **плохие привычки произношения**.
+Этот эффект похож на последствия [преждевременного говорения](#говорение).
+Поскольку тренировка понимания на слух требует больше усилий,
+навык чтения у них быстро обгоняет навык слушания.
+Каждый раз, когда они видят слово в тексте,
+их мозг создаёт выдуманное произношение на основе того, как, *по их мнению*, оно должно звучать,
+и они проговаривают его про себя, фактически тренируясь звучать плохо.
+Научившись читать до того, как они смогут **правильно слышать** язык,
+они подрывают собственную способность говорить.
 
-To develop listening skills and a good accent,
-start with **only audio-visual input** (TV shows, movies, anime, dramas).
-It's hard to completely avoid reading,
-so try to limit it to looking up unknown words in Japanese subtitles,
-using dictionaries,
-and making Anki cards.
+Чтобы развить понимание на слух и хорошее произношение,
+начните **только с аудиовизуального материала** (сериалов, фильмов, аниме, дорам).
+Полностью избежать чтения трудно,
+поэтому старайтесь ограничить его поиском незнакомых слов в японских субтитрах,
+использованием словарей и созданием карточек Anki.
 
-Improving your listening after the damage is done will be a significant uphill battle,
-as the sounds in your head won't match what native speakers are actually saying.
-You want to avoid such an outcome at all costs.
+Улучшать понимание на слух после нанесённого вреда будет очень трудно,
+потому что звуки у вас в голове не будут совпадать с тем, что на самом деле произносят носители.
+Такого исхода нужно избежать любой ценой.
 
-In the beginning,
-limit reading **only** to flashcards and dictionary lookups to train your listening skills.
-Avoid active reading beyond text‑based flashcards.
-**Focus on listening** to lots of native Japanese
-to build a phonetic foundation.
-Once you develop good listening comprehension,
-add light reading,
-such as easy comics or manga,
-then progress to ranobe and novels.
+Вначале ограничьте чтение **только** карточками и поиском в словарях,
+чтобы тренировать понимание на слух.
+Избегайте активного чтения за пределами текстовых карточек.
+**Сосредоточьтесь на слушании** большого количества речи носителей японского,
+чтобы сформировать фонетическую основу.
+Когда вы научитесь хорошо понимать на слух, добавьте лёгкое чтение,
+например простые комиксы или мангу, а затем переходите к ранобэ и романам.
 
-Watching anime with Japanese subtitles is also [considered as reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html).
-Japanese subtitles are a crutch that can help you look up new words,
-but they do not improve your ability to understand the target language by listening.
-They are **tempting** because watching without subtitles is hard.
-Limit their use so you can train your listening skills.
+Просмотр аниме с японскими субтитрами тоже [считается чтением](is-watching-anime-with-jp-subtitles-considered-as-reading.html).
+Японские субтитры служат костылём, который помогает искать новые слова,
+но не улучшает способность понимать изучаемый язык на слух.
+Они **заманчивы**, потому что смотреть без субтитров трудно.
+Ограничивайте их использование, чтобы тренировать понимание на слух.
 
-If you're learning Japanese primarily **to enjoy content**,
-such as anime, manga, or light novels,
-and you're not interested in immigrating to Japan,
-it's actually [more effective](how-much-listening-should-i-do-before-i-start-reading.html)
-to start reading manga and novels early.
-As an adult,
-learning foreign languages by reading is considerably easier
-than learning by listening to spoken language.
-You can improve much more quickly.
-You can still address accent later,
-but correction will take substantial effort.
+Если вы изучаете японский прежде всего **ради удовольствия от контента**,
+например аниме, манги или ранобэ, и не собираетесь переезжать в Японию,
+то на самом деле [эффективнее](how-much-listening-should-i-do-before-i-start-reading.html)
+начать читать мангу и романы пораньше.
+Взрослому значительно легче изучать иностранные языки через чтение,
+чем через слушание устной речи.
+Вы сможете прогрессировать гораздо быстрее.
+Над акцентом можно поработать и позже, но его исправление потребует значительных усилий.
 
-## How to divide your study time
+## Как распределить время занятий
 
-Learning a language involves three main components:
+Изучение языка включает три основные составляющие:
 
-* Reviewing flashcards.
-* Reading immersion.
-  Watching with target language subtitles
-  ([never with native language subtitles](should-i-watch-anime-with-english-subtitles.html)),
-  reading manga and books.
-* Listening immersion.
-  Watching without subtitles (raw),
-  listening to audiobooks, radio, podcasts.
+* Повторение карточек.
+* Иммерсия через чтение.
+  Просмотр с субтитрами на изучаемом языке
+  ([никогда не с субтитрами на родном языке](should-i-watch-anime-with-english-subtitles.html)),
+  чтение манги и книг.
+* Иммерсия через слушание.
+  Просмотр без субтитров, слушание аудиокниг, радио и подкастов.
 
-Naturally, people [often ask](how-should-i-divide-my-study-time.html)
-about how to allocate their study time effectively.
+Естественно, люди [часто спрашивают](how-should-i-divide-my-study-time.html),
+как эффективно распределять время занятий.
 
-The general guideline
-is to divide your time equally between listening and reading
-(maintaining a `1:1` ratio),
-with an additional hour dedicated to flashcards.
-However,
-beginners should prioritize spending more time on **listening** than reading,
-while advanced learners will benefit more from **reading** than listening.
+Общая рекомендация состоит в том, чтобы делить время поровну между слушанием и чтением
+(сохраняя соотношение `1:1`), дополнительно выделяя час на карточки.
+Однако новичкам стоит уделять **слушанию** больше времени, чем чтению,
+а продвинутым учащимся **чтение** принесёт больше пользы, чем слушание.
 
-For beginners,
-reading is more daunting and [has potential negative effects](thoughts-on-reading-before-listening.html)
-that most people would like to avoid.
-Reading leads to subvocalization.
-The act of reading activates muscles in the throat.
-If one doesn't have decent pronunciation yet,
-subvocalization will reinforce their bad pronunciation habits
-and further negatively influence the way they perceive spoken language.
-But learning through reading allows to learn vocabulary faster
-because the words are written down for you,
-you don't have to decipher them from speech,
-and you can read at your own pace.
-Learning through listening takes more time,
-but it doesn't have the same negative impact.
-Listening helps train your ears and enhances your ability to comprehend spoken language.
+Для новичков чтение сложнее и [может иметь негативные последствия](thoughts-on-reading-before-listening.html),
+которых большинство хотело бы избежать.
+Чтение приводит к субвокализации.
+Сам процесс чтения активирует мышцы горла.
+Если у человека пока нет приличного произношения,
+субвокализация закрепит плохие привычки произношения
+и дополнительно ухудшит восприятие устной речи.
+Но обучение через чтение позволяет быстрее осваивать лексику,
+потому что слова уже записаны, их не нужно разбирать на слух и можно читать в своём темпе.
+Обучение через слушание занимает больше времени, но не имеет такого негативного воздействия.
+Слушание тренирует слух и улучшает способность понимать устную речь.
 
-In conclusion,
-it is advisable to begin with **listening immersion** only.
-For example,
-start by watching easy anime.
-Note that you need subtitles to look up unknown words, but you
-[don't need them to be visible all the time](is-it-harmful-to-always-have-tl-subtitles-on.html).
-Then, gradually incorporate **reading immersion** into your routine.
-As you progress, increase the time allocated to reading.
-Adjust the ratio
-[depending on your personal goals](how-much-listening-should-i-do-before-i-start-reading.html).
+Итак, рекомендуется начинать только с **иммерсии через слушание**.
+Например, начните с просмотра простого аниме.
+Учтите, что субтитры нужны для поиска незнакомых слов,
+но [необязательно держать их на экране постоянно](is-it-harmful-to-always-have-tl-subtitles-on.html).
+Затем постепенно включайте **иммерсию через чтение** в свой распорядок.
+По мере прогресса увеличивайте время, отведённое на чтение.
+Корректируйте соотношение в зависимости от своих личных целей.
 
-We recommend not to exceed **one** hour per day on flashcards for two main reasons.
-First,
-most people find the SRS ([spaced repetition](spaced-repetition.html) systems) quite boring.
-Second,
-the SRS is just a supplement.
-It helps strengthen your memory,
-but language acquisition happens only while immersing.
+Мы рекомендуем тратить на карточки не больше **одного** часа в день по двум основным причинам.
+Во-первых, большинство людей считают SRS (системы интервального повторения) довольно скучными.
+Во-вторых, SRS служит лишь дополнением.
+Она помогает укрепить память, но усвоение языка происходит только во время иммерсии.
 
-Watching with subtitles counts towards reading immersion
-because reading the subtitles creates an inner voice
-that competes with the speech in your target language.
-Consequently,
-you are not actively listening to the native speech
-but rather focusing on your internal subvocalization while reading the subtitles.
+Просмотр с субтитрами считается иммерсией через чтение,
+потому что чтение субтитров создаёт внутренний голос,
+который конкурирует с речью на изучаемом языке.
+В результате вы не слушаете активно речь носителей,
+а сосредотачиваетесь на внутреннем проговаривании во время чтения субтитров.
