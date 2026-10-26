@@ -131,7 +131,7 @@ because you are supposed to be cramming as much immersion as possible every day 
 The more you expose yourself to the language, the better.
 It really just comes down to a matter of time.
 
-Immerse [actively](introduction-to-learning-japanese.html#how-to-immerse) when you can.
+Immerse [actively](introduction-to-learning-japanese.html#kak-zanimatsia-immersiei) when you can.
 Immerse passively to compensate for those times when you are busy.
 Assuming you lead a normal lifestyle,
 spend maybe 3 to 6 hours a day

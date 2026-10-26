@@ -1,6 +1,7 @@
 ---
-title: How to save the Japanese learning community
+title: "How to save the Japanese learning community"
 date: 1611102279
+updated: "26 October 2026"
 ---
 
 <div class="translation-note">
@@ -94,7 +95,7 @@ I also made sure that the sites don't use
 If you're lazy, you can connect to our chat via your browser,
 but I still recommend you to install a desktop client.
 You can find a list of matrix clients
-[here](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients).
+[here](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients).
 All programs listed there should run on any GNU/Linux distro.
 And if you're still using Windows,
 make sure that you don't access Matrix/Element from a Windows machine

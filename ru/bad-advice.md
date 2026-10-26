@@ -121,7 +121,7 @@ People who charge money for speaking practice are either delusional or dishonest
 
 Speaking is fundamentally about receiving input.
 We acquire language by
-[understanding messages](introduction-to-learning-japanese.html#the-right-mindset).
+[understanding messages](introduction-to-learning-japanese.html#pravilnyi-nastroi).
 For the language acquisition process to take place,
 the input must be compelling.
 Contrary,

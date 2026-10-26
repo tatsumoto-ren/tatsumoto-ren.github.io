@@ -1,7 +1,8 @@
 ---
-title: Spaced repetition
+title: "Spaced repetition"
 date: 1655007397
-tags: ['guide']
+tags: ["guide"]
+updated: "26 October 2026"
 ---
 
 To study efficiently
@@ -150,7 +151,7 @@ and is completely fine as of now.
 
 ### Mnemosyne
 
-[Mnemosyne](https://wiki.archlinux.org/index.php/Mnemosyne)
+[Mnemosyne](https://wiki.archlinux.org/title/Mnemosyne)
 is another flashcard program that uses a spaced repetition algorithm.
 
 > Mnemosyne aims to be a user-friendly flash card program,

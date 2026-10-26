@@ -19,7 +19,7 @@ If you're already living in Japan,
 or taking Japanese classes,
 you may find yourself in situations where you need to speak Japanese.
 If you're not fluent yet,
-[early output](introduction-to-learning-japanese.html#outputting) will damage your Japanese.
+[early output](introduction-to-learning-japanese.html#govorenie) will damage your Japanese.
 In this article, we'll explore strategies to help you mitigate the damage.
 
 ****

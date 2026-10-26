@@ -1,8 +1,9 @@
 ---
-title: Ankidrone Essentials
+title: "Ankidrone Essentials"
 date: 1723216111
-tags: ['decks', 'vocab', 'guide']
+tags: ["decks", "vocab", "guide"]
 position: 3
+updated: "26 October 2026"
 ---
 
 <div class="translation-note">
@@ -93,7 +94,7 @@ makes this Anki deck an ideal instrument to complete the basic vocabulary stage.
    > simplify this process to a single click.
    > [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
    > is an add-on for
-   > [mpv](https://wiki.archlinux.org/index.php/Mpv)
+   > [mpv](https://wiki.archlinux.org/title/Mpv)
    > that works similarly to
    > [subs2srs](our-immersion-learning-toolset.html#subs2srs)
    > and can be used together with Rikaitan
@@ -109,7 +110,7 @@ makes this Anki deck an ideal instrument to complete the basic vocabulary stage.
 <img float="right" alt="Just watch more anime" src="../blog/img/watch_more_anime.webp">
 
 Remember that you have to combine your study with
-[immersion](introduction-to-learning-japanese.html#how-to-immerse)
+[immersion](introduction-to-learning-japanese.html#kak-zanimatsia-immersiei)
 from the beginning.
 Humans absorb language only through repeated massive exposure.
 Anki can help you learn the vocabulary consciously,

@@ -2,7 +2,7 @@
 title: "Immersion with YouTube"
 date: 1647786750
 tags: ["guide"]
-updated: "10 August 2026"
+updated: "26 October 2026"
 ---
 
 YouTube is a popular website where people can upload and watch videos.
@@ -35,7 +35,7 @@ There are several ways you can watch YouTube.
    It lets you choose from a number of instances based on their health.
    A list of Invidious instances can be found on https://api.invidious.io/.
    Invidious gives you direct download links for every video.
-2) [yt-dlp](https://wiki.archlinux.org/index.php/yt-dlp).
+2) [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp).
    yt-dlp is a program to download videos.
    To search for videos and obtain their links,
    you still need to use a front end such as Invidious or
@@ -76,7 +76,7 @@ We recommend utilizing their search features but using `mpv` to watch the videos
 
 ## yt-dlp
 
-[yt-dlp](https://wiki.archlinux.org/index.php/yt-dlp)
+[yt-dlp](https://wiki.archlinux.org/title/Yt-dlp)
 is a program
 that can be used to download videos from YouTube and similar sites.
 `yt-dlp` can also download audio tracks separately.

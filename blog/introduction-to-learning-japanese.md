@@ -1,19 +1,20 @@
 ---
-title: Introduction to learning Japanese
+title: "Introduction to learning Japanese"
 date: 1615372627
-tags: [guide]
+tags: ["guide"]
+updated: "26 October 2026"
 ---
 
 Below is a quick rundown of a typical Japanese learning journey
-that should get you to basic fluency in less than two years.
-We've designed the method for people
+that should get you to mastery in less than two years.
+We designed this method for people
 who want to learn Japanese efficiently through self-study
-and are interested in Japanese media such as movies, TV shows or novels.
+and are interested in Japanese media like movies, TV shows, or novels.
 
 If you have any questions,
-you can [ask them in the Starting Lounge](join-our-community.html) of the Matrix space,
+you can [ask them in our group chat](join-our-community.html),
 and people will help you.
-There are thousands people learning Japanese, and you should be part of it.
+There are thousands of people learning Japanese, and you should be part of our community.
 
 ****
 
@@ -329,20 +330,20 @@ and throughout the rest of the guide.
     [Japanese fonts](japanese-fonts.html)
     for detailed instructions.
   * Install and configure
-    [Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
+    [Fcitx](https://wiki.archlinux.org/title/Fcitx5)
     to type in Japanese.
     The Fcitx guide can be found [here](how-to-type-in-japanese.html).
     The input method I use is
     [fcitx-kkc](https://archlinux.org/packages/?name=fcitx-kkc)
     but other options are also available.
-  * For passive immersion use [mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
+  * For passive immersion use [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
     together with
-    [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp).
+    [ncmpcpp](https://wiki.archlinux.org/title/Ncmpcpp).
     Keep your immersion material in a separate folder, for example `~/Music/immersionpod`.
   * *Condense* your immersion with [impd](https://github.com/Ajatt-Tools/impd).
     Condensing takes a video file with subtitles and removes all parts where no one is speaking,
     producing an audio file with increased language density for passive listening.
-  * The most recommended video player is [mpv](https://wiki.archlinux.org/index.php/Mpv).
+  * The most recommended video player is [mpv](https://wiki.archlinux.org/title/Mpv).
     It supports [add-ons](https://github.com/mpv-player/mpv/wiki/User-Scripts) (user-scripts)
     many of which can be used to make language learning easier.
   * Install and [set up](setting-up-anki.html) Anki.

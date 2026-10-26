@@ -56,7 +56,7 @@ The more you immerse and get exposed to different domains of the language,
 the more differences you see, and the easier it gets for you to shape your own speech.
 In [AJATT](whats-ajatt.html),
 you don't start speaking from day one;
-instead you [wait](introduction-to-learning-japanese.html#outputting)
+instead you [wait](introduction-to-learning-japanese.html#govorenie)
 until you understand speech perfectly,
 and by that time your language intuition will be up to the task.
 You'll know how anime-girl speech differs from real-life Japanese,

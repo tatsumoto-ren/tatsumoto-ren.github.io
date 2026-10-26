@@ -1,17 +1,18 @@
 ---
-title: List of Matrix servers
+title: "List of Matrix servers"
 date: 1611943875
-tags: ['matrix']
+tags: ["matrix"]
+updated: "26 October 2026"
 ---
 
-[Matrix](https://wiki.archlinux.org/index.php/Matrix)
+[Matrix](https://wiki.archlinux.org/title/Matrix)
 is a FLOSS protocol for open federated instant messaging.
 Matrix ecosystem consists of many servers which can be used for registration.
 This is a list of Matrix servers for people
 who ask what server to choose to register on.
 
 To use Matrix, install a
-[client](https://wiki.archlinux.org/index.php/List_of_applications#Matrix_clients)
+[client](https://wiki.archlinux.org/title/List_of_applications/Internet#Matrix_clients)
 first.
 One of the most popular clients is
 [Element](https://archlinux.org/packages/?name=element-desktop).

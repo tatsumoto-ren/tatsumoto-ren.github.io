@@ -2,7 +2,7 @@
 title: "Our Immersion Learning Toolset"
 date: 1612374836
 tags: ["guide"]
-updated: "02 October 2026"
+updated: "26 October 2026"
 ---
 
 <p align="center"><img alt="Ajatt-Tools" class="shadow" src="https://avatars.githubusercontent.com/u/69172625?s=200&v=4"></p>
@@ -122,7 +122,7 @@ is one of the fastest package managers out there.
 
 **Also read**: [Reviews of All Linux Distros](https://lukesmith.xyz/articles/reviews-of-all-linux-distros-that-matter/).
 
-## [Anki](https://wiki.archlinux.org/index.php/Anki)
+## [Anki](https://wiki.archlinux.org/title/Anki)
 
 Create, manage and review flashcards
 to remember the words, phrases, and grammar points
@@ -158,7 +158,7 @@ so it is useful to make it as convenient as possible.
 `impd` is a small tool for managing background immersion.
 Create condensed audio,
 automatically add episodes of TV shows you've watched to your
-[mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
+[mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
 playlist,
 and archive audio that you've listened to enough times.
 

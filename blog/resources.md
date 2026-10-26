@@ -2,7 +2,7 @@
 title: "Resources"
 date: 1621275994
 tags: ["guide"]
-updated: "19 October 2026"
+updated: "26 October 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -628,7 +628,7 @@ You may need a Japanese IP address for some of these.
 ### Localization
 
 * [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
-* [Fcitx](https://wiki.archlinux.org/title/Fcitx) input method framework
+* [Fcitx](https://wiki.archlinux.org/title/Fcitx5) input method framework
 * [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
 
 ### Sentence mining
@@ -835,7 +835,7 @@ See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 
 ### Downloading
 
-* [yt-dlp](https://wiki.archlinux.org/title/Youtube-dl).
+* [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp).
   A command-line program that lets you download videos and audio
   from YouTube and more than a thousand other sites.
 

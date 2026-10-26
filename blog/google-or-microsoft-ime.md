@@ -1,15 +1,16 @@
 ---
-title: Google or Microsoft IME?
+title: "Google or Microsoft IME?"
 date: 1669589529
-tags: ['faq']
+tags: ["faq"]
 position: -9897
+updated: "26 October 2026"
 ---
 
 Both Microsoft and Google IMEs are proprietary, and thus are
 [malware](https://www.gnu.org/proprietary/proprietary.html).
 
 I recommend
-[Fcitx](https://wiki.archlinux.org/title/Fcitx)
+[Fcitx](https://wiki.archlinux.org/title/Fcitx5)
 with kkc or any other free/libre input method.
 
 Also read: [How to type in Japanese](how-to-type-in-japanese.html).

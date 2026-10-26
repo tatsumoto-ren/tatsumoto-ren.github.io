@@ -1,11 +1,12 @@
 ---
-title: Setting up Anki
+title: "Setting up Anki"
 date: 1609127492
-tags: ['anki']
+tags: ["anki"]
 position: -9999
+updated: "26 October 2026"
 ---
 
-[Anki](https://wiki.archlinux.org/index.php/Anki)
+[Anki](https://wiki.archlinux.org/title/Anki)
 is a
 [Spaced repetition](https://wikipedia.org/wiki/Spaced_repetition?lang=en)
 system (SRS), a program which allows you to create, manage and review
@@ -92,7 +93,7 @@ $ pipx install "aqt[qt6]"
   [this file](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/anki.desktop)
   and save it in `~/.local/share/applications`.
 * If after installing Anki with `pipx`
-  [Fcitx](https://wiki.archlinux.org/title/Fcitx)
+  [Fcitx](https://wiki.archlinux.org/title/Fcitx5)
   doesn't work,
   add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`
   to the list of [environment variables](how-do-i-change-an-environment-variable.html).

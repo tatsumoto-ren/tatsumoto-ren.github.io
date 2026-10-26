@@ -1,7 +1,8 @@
 ---
-title: Passive immersion tech
+title: "Passive immersion tech"
 date: 1618268880
-tags: [guide]
+tags: ["guide"]
+updated: "26 October 2026"
 ---
 
 *Passive immersion* means listening to the language while in idle activities.
@@ -70,12 +71,12 @@ thus reducing the quality of immersion.
 ## mpd
 
 First, to start listening you have to install a music player.
-[mpd](https://wiki.archlinux.org/index.php/Music_Player_Daemon)
+[mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
 is a music player with a server-client architecture,
 it runs in the background as a daemon,
 and you need a separate client application to connect to it.
 The most widely used mpd client is `ncmpcpp`, but there are many alternatives listed on
-[Arch Wiki](https://wiki.archlinux.org/index.php/Music_Player_Daemon#Clients).
+[Arch Wiki](https://wiki.archlinux.org/title/Music_Player_Daemon#Clients).
 
 After you've installed `mpd`, create the config and playlists directories:
 
@@ -94,7 +95,7 @@ Alternatively, use autostart settings of your DE/WM.
 
 ## ncmpcpp
 
-[ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp) is a ncurses-based MPD client.
+[ncmpcpp](https://wiki.archlinux.org/title/Ncmpcpp) is a ncurses-based MPD client.
 It can help you manage your audio files and playlists,
 start and stop playback, and everything else you'd expect from an audio player.
 
@@ -194,8 +195,8 @@ Ctrl+b run "/bin/sh" "-c" "impd add '${=path}'"
 Synchronize your immersionpod folder to your mobile device.
 There are many programs for file synchronization.
 
-* [Syncthing](https://wiki.archlinux.org/index.php/Syncthing)
-* [Rsync](https://wiki.archlinux.org/index.php/Rsync)
+* [Syncthing](https://wiki.archlinux.org/title/Syncthing)
+* [Rsync](https://wiki.archlinux.org/title/Rsync)
 
 When you're out, use
 [a compatible music player](resources.html#audio-players) of your choice to continue immersing.

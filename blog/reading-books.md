@@ -1,7 +1,8 @@
 ---
-title: Reading books
+title: "Reading books"
 date: 1678350776
-tags: ['guide']
+tags: ["guide"]
+updated: "26 October 2026"
 ---
 
 Reading a book is a simple process.
@@ -36,7 +37,7 @@ books with [DRM](https://drm.info/what-is-drm.en.html).
 ## Book reader software
 
 Most book readers
-[listed on Arch Wiki](https://wiki.archlinux.org/title/List_of_applications#Readers_and_viewers)
+[listed on Arch Wiki](https://wiki.archlinux.org/title/List_of_applications/Documents#Readers_and_viewers)
 suck ass.
 But some are okay.
 I have tried a lot,

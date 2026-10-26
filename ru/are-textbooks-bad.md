@@ -53,7 +53,7 @@ in order to provide your brain with as much [input](whats-immersion.html) as pos
 Our brains are pattern recognition machines.
 They need input to decipher and understand
 the structures, rules, and building blocks of your target language.
-Think about [how babies learn](introduction-to-learning-japanese.html#the-right-mindset)
+Think about [how babies learn](introduction-to-learning-japanese.html#pravilnyi-nastroi)
 their first language.
 Initially,
 they learn from the **input** they receive from their parents and other speakers,

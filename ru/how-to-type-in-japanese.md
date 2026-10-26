@@ -36,7 +36,7 @@ you need to learn how to do it.
 
 ## Japanese input
 
-In [Introduction](introduction-to-learning-japanese.html#writing-systems)
+In [Introduction](introduction-to-learning-japanese.html#sistemy-pismennosti)
 I briefly mentioned what writing systems Japanese has.
 Typing in Japanese requires you to be at least somewhat familiar with hiragana, katakana, and kanji.
 The writing systems are covered in their own articles.

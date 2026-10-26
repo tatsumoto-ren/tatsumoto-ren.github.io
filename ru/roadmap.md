@@ -14,7 +14,7 @@ updated: "11 September 2026"
 
 ## Подготовка почвы
 
-1) Создай [среду для погружения в японский](introduction-to-learning-japanese.html#how-to-immerse).
+1) Создай [среду для погружения в японский](introduction-to-learning-japanese.html#kak-zanimatsia-immersiei).
    Начни потреблять непереведённый японский контент, созданный носителями,
    [активно](active-immersion.html) и [пассивно](passive-immersion.html).
    Например, смотри [аниме на японском](what-good-things-are-there-to-watch-for-a-complete-beginner.html).

@@ -1,8 +1,9 @@
 ---
-title: Ankidrone Essentials
+title: "Ankidrone Essentials"
 date: 1723216111
-tags: ['decks', 'vocab', 'guide']
+tags: ["decks", "vocab", "guide"]
 position: 3
+updated: "26 October 2026"
 ---
 
 *Ankidrone Essentials* is the generally recommended Anki deck for newcomers to Japanese
@@ -85,7 +86,7 @@ makes this Anki deck an ideal instrument to complete the basic vocabulary stage.
    > simplify this process to a single click.
    > [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
    > is an add-on for
-   > [mpv](https://wiki.archlinux.org/index.php/Mpv)
+   > [mpv](https://wiki.archlinux.org/title/Mpv)
    > that works similarly to
    > [subs2srs](our-immersion-learning-toolset.html#subs2srs)
    > and can be used together with Rikaitan
