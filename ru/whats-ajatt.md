@@ -9,7 +9,7 @@ updated: "26 October 2026"
 AJATT это метод,
 позволяющий достичь свободного владения иностранным языком за сравнительно короткое время.
 Он предлагает каждый день проводить как можно больше времени с изучаемым языком,
-практикуя [иммерсию](whats-immersion.html) в язык и культуру страны, где на нём говорят.
+практикуя [иммерсию](whats-immersion.html) (immersion) в язык и культуру страны, где на нём говорят.
 При этом не нужно ехать в эту страну,
 посещать [занятия](classes.html),
 пользоваться устаревшими и скучными [учебниками](are-textbooks-bad.html)
@@ -26,12 +26,15 @@ AJATT это метод,
 либо найти способ сделать его приятным.
 
 Ключевые составляющие AJATT включают
-[гипотезу входного материала](what-is-comprehensible-input.html) Стивена Крашена,
-использование [систем интервального повторения (SRS)](spaced-repetition.html)
+[гипотезу входного материала](what-is-comprehensible-input.html) (Input Hypothesis) Стивена Крашена,
+использование [систем интервального повторения](spaced-repetition.html)
+(spaced repetition systems, SRS)
 для запоминания новых слов и выражений,
 изучение кандзи по методу [JP1K](learning-kanji.html#jp1k-method),
-упор на [изучение предложений](sentence-mining.html) вместо отдельных слов и грамматических правил,
-а также использование [целевых карточек с предложениями (TSC)](discussing-various-card-templates.html#targeted-sentence-cards).
+упор на [изучение предложений](sentence-mining.html) (sentence mining)
+вместо отдельных слов и грамматических правил,
+а также использование [целевых карточек с предложениями](discussing-various-card-templates.html#targeted-sentence-cards)
+(targeted sentence cards, TSC).
 
 На AJATT также повлиял [Antimoon](https://www.antimoon.com/),
 ещё один метод изучения языков, основанный на восприятии речи и текста.
