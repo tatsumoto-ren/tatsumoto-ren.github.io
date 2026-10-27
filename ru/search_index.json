@@ -1547,76 +1547,76 @@
     "parent":"Going monolingual"
   },
   {
-    "title":"Avoiding bad advice",
+    "title":"Как избегать плохих советов",
     "tags":[
       "guide"
     ],
-    "body":"Примечание: Обратите внимание, что эта статья ещё не переведена полностью. Если вы хотите помочь, присоединяйтесь к нашему сообществу и создайте pull request на GitHub. Countless language-learning methods exist, and each of them tells you to do different things. Some methods are effective, but many are not. Unfortunately, the Internet is brimming with advice that might sound good but often leads to little progress. If you want to reach mastery in a foreign language, you don't want to waste precious time on ineffective methods. Let's highlight examples of low-quality resources.",
+    "body":"Существует бесчисленное множество методов изучения языков, и каждый предлагает делать что-то своё. Некоторые методы эффективны, но многие нет. К сожалению, интернет полон советов, которые звучат убедительно, но часто почти не помогают продвигаться вперёд. Если вы хотите в совершенстве овладеть иностранным языком, не стоит тратить драгоценное время на неэффективные методы. Рассмотрим примеры некачественных ресурсов.",
     "url":"bad-advice.html",
     "date":"2024-03-21"
   },
   {
-    "title":"Classes",
+    "title":"Занятия",
     "tags":[
       "guide"
     ],
-    "body":"Traditional language classes have several issues. They cost money. They're boring. They don't provide compelling content. Your teacher doesn't know Japanese that well. If you are lucky enough to have a native speaker as your teacher, they likely have no idea how language acquisition works, they don't remember how they learned Japanese themselves, and they've never actually followed their own advice. In class, you get toxic input. You're exposed to other learners' speech which is ridden with mistakes. Listening to phrases like \"ah ree gar toe go zai moss oo\" being poorly spoken is not beneficial for your language learning. Premature output. You are forced to speak before you are ready. Usually people start outputting naturally after 1 to 1.5 years of learning, and it's very hard to force output to come out earlier. Classes don't work. A simple comparison between the number of people taking Japanese classes and those who are proficient in the language reveals a startling gap.",
-    "url":"bad-advice.html#classes",
-    "parent":"Avoiding bad advice"
+    "body":"У традиционных языковых занятий есть несколько недостатков. Они стоят денег. На них скучно. На занятиях нет увлекательного контента. Ваш преподаватель не так уж хорошо знает японский. Если вам повезло и ваш преподаватель является носителем языка, он, скорее всего, не представляет, как происходит усвоение языка (language acquisition). Он не помнит, как сам выучил японский, и никогда не следовал собственным советам. На занятиях вы получаете вредный входной материал (toxic input). Вы слышите речь других учащихся, полную ошибок. Слушание плохо произнесённых фраз вроде «ah ree gar toe go zai moss oo» не приносит пользы в изучении языка. Преждевременное говорение (premature output). Вас заставляют говорить до того, как вы к этому готовы. Обычно люди начинают говорить естественным образом через год-полтора изучения языка. Добиться этого раньше очень трудно. Занятия не работают. Достаточно сравнить число людей, посещающих занятия японским, с числом тех, кто хорошо им владеет, чтобы увидеть поразительную разницу.",
+    "url":"bad-advice.html#zaniatiia",
+    "parent":"Как избегать плохих советов"
   },
   {
-    "title":"Textbooks",
+    "title":"Учебники",
     "tags":[
       "guide"
     ],
-    "body":"Examples include Genki, Minna no Nihongo, Japanese From Zero, etc. If your goal is proficiency, you won't be satisfied with the low level and slow pace of textbooks. A textbook cannot teach you all there is to master your target language. Even a hundred textbooks can't. But enough input certainly will. In the beginning, you can use a basic grammar guide. We'll teach you how in the corresponding article. Anything on top of the grammar guide won't be necessary. The purpose behind studying grammar is not to learn how to speak but to improve comprehension when interacting with native content. For more information about the dangers of textbooks, see here.",
-    "url":"bad-advice.html#textbooks",
-    "parent":"Avoiding bad advice"
+    "body":"Например, Genki, Minna no Nihongo, Japanese From Zero и другие. Если ваша цель состоит в свободном владении языком, низкий уровень и медленный темп учебников вас не устроят. Учебник не может научить вас всему, что нужно для освоения изучаемого языка (target language). Даже сотня учебников не сможет. Но достаточное количество воспринимаемой речи и текста (input) точно поможет. Вначале можно воспользоваться базовым руководством по грамматике. Мы расскажем, как это делать, в соответствующей статье. Ничего сверх руководства по грамматике вам не понадобится. Цель изучения грамматики не в том, чтобы научиться говорить, а в том, чтобы лучше понимать контент для носителей. Подробнее о вреде учебников читайте здесь.",
+    "url":"bad-advice.html#uchebniki",
+    "parent":"Как избегать плохих советов"
   },
   {
-    "title":"Apps",
+    "title":"Приложения",
     "tags":[
       "guide"
     ],
-    "body":"Wanikani, Duolingo, Busuu and most \"apps\" do not work. More details are given on the linked FAQ pages. No one has ever achieved fluency solely from using an app, especially an app that claims that you can learn to speak a language in 10 minutes a day. Language apps can't replace learning through massive exposure to the target language, and they can't tell you everything you should know. Language is not an app that you open and close. Reaching fluency is more like multi-booting, i.e., installing multiple operating systems on a single computer, and being able to choose which one to boot. Each OS has to be useful, you should be able to do anything you want with it. The only \"app\" really worth having is a flashcard application for reviewing what you've learned so far. We'll dig deeper into the topic of flashcards in subsequent articles.",
-    "url":"bad-advice.html#apps",
-    "parent":"Avoiding bad advice"
+    "body":"Wanikani, Duolingo, Busuu и большинство «приложений» не работают. Подробнее об этом можно прочитать в статьях FAQ по ссылкам выше. Никто ещё не достиг свободного владения языком, пользуясь только приложением. Особенно если приложение обещает, что вы научитесь говорить, занимаясь по 10 минут в день. Языковые приложения не заменяют обучение через обильное взаимодействие с изучаемым языком и не могут дать вам все необходимые знания. Язык не приложение, которое вы открываете и закрываете. Достижение свободного владения больше похоже на мультизагрузку: вы устанавливаете несколько операционных систем на один компьютер и можете выбирать, какую из них загрузить. Каждая ОС должна быть полезной. Вы должны иметь возможность делать с её помощью всё, что захотите. Единственное «приложение», которое действительно стоит иметь, это программа с карточками для повторения уже изученного (SRS). Мы подробнее разберём тему карточек в следующих статьях.",
+    "url":"bad-advice.html#prilozheniia",
+    "parent":"Как избегать плохих советов"
   },
   {
-    "title":"Graded readers",
+    "title":"Адаптированные книги",
     "tags":[
       "guide"
     ],
-    "body":"Graded readers are dumbed down for the sake of a learner, and thus do not teach you the real language. No amount of graded readers can prepare you for reading authentic native texts like novels. AJATT recommends consuming real authentic content from the beginning. Start with watching anime with Japanese subtitles to learn the basics of reading, then progress to reading simple manga, and finally jump into reading books. For a more detailed discussion on graded readers refer to this article.",
-    "url":"bad-advice.html#graded-readers",
-    "parent":"Avoiding bad advice"
+    "body":"Адаптированные книги (graded readers) упрощают ради удобства учащегося, поэтому они не учат настоящему языку. Никакое количество таких книг не подготовит вас к чтению подлинных текстов для носителей, например романов. AJATT рекомендует с самого начала смотреть и читать настоящий контент для носителей. Начните с просмотра аниме с японскими субтитрами, чтобы освоить основы чтения. Затем переходите к простой манге, а после неё к книгам. Более подробное обсуждение адаптированных книг вы найдёте в этой статье.",
+    "url":"bad-advice.html#adaptirovannye-knigi",
+    "parent":"Как избегать плохих советов"
   },
   {
-    "title":"E-Learning",
+    "title":"Онлайн-обучение",
     "tags":[
       "guide"
     ],
-    "body":"Platforms such as Italki, Cambly, Lingoda and Verbling fall under this category. Details provided in this article about Italki apply to all similar platforms. E-learning offers the boredom of traditional classes, but online. You pay to speak with \"tutors\", who may not necessarily even be language teachers. You're essentially paying just to chat. People who charge money for speaking practice are either delusional or dishonest. Speaking is fundamentally about receiving input. We acquire language by understanding messages. For the language acquisition process to take place, the input must be compelling. Contrary, conversations held with online tutors are very basic and very boring. You're not going to learn much from them. Premature speaking practice reinforces incorrect pronunciations and grammar. You need to develop listening abilities and intuitive understanding of language structures before focusing on speaking.",
-    "url":"bad-advice.html#e-learning",
-    "parent":"Avoiding bad advice"
+    "body":"К этой категории относятся такие платформы, как Italki, Cambly, Lingoda и Verbling. Всё, о чём говорится в статье об Italki, применимо и к другим подобным платформам. Онлайн-обучение предлагает ту же скуку, что и традиционные занятия, только через интернет. Вы платите за разговоры с «репетиторами», которые могут даже не быть преподавателями языков. По сути, вы платите просто за общение. Люди, которые берут деньги за разговорную практику, либо заблуждаются, либо обманывают вас. В основе способности говорить лежит восприятие речи и текста. Мы усваиваем язык, понимая сообщения. Чтобы усвоение языка происходило, воспринимаемый материал должен увлекать. А разговоры с онлайн-репетиторами, напротив, очень примитивны и скучны. Многому вы из них не научитесь. Преждевременная разговорная практика закрепляет неправильное произношение и грамматику. Прежде чем сосредоточиться на говорении, нужно развить понимание на слух и интуитивное понимание языковых конструкций.",
+    "url":"bad-advice.html#onlain-obuchenie",
+    "parent":"Как избегать плохих советов"
   },
   {
     "title":"YouTube",
     "tags":[
       "guide"
     ],
-    "body":"YouTube presents great opportunities for language learning if used correctly. Mainly by watching videos created by native speakers intended primarily for other natives speakers of your target language. There's a difference between learning a language and learning about the language. YouTube channels where everybody speaks English all the time, like JapanesePod101, will only waste your time. Videos where Japanese people are asked to answer JLPT quizzes on the street are equally useless. Some channels simply recite textbook materials in audio-visual format, which is not just inefficient, but is also slower than reading a book given that typically people read faster than they speak.",
+    "body":"При правильном использовании YouTube открывает отличные возможности для изучения языков. Прежде всего это просмотр видео, созданных носителями изучаемого языка в первую очередь для других носителей. Изучать язык и узнавать что-то о языке не одно и то же. YouTube-каналы, где всё время говорят по-английски, например JapanesePod101, только отнимут ваше время. Видео, в которых японцев на улице просят отвечать на вопросы из JLPT, столь же бесполезны. Некоторые каналы просто пересказывают учебники в аудиовизуальном формате. Это не только неэффективно, но и медленнее чтения учебника, ведь обычно люди читают быстрее, чем говорят.",
     "url":"bad-advice.html#youtube",
-    "parent":"Avoiding bad advice"
+    "parent":"Как избегать плохих советов"
   },
   {
-    "title":"Subtitles in your native language",
+    "title":"Субтитры на родном языке",
     "tags":[
       "guide"
     ],
-    "body":"Watching foreign language content is an excellent way to acquire language. But watching with subtitles in your native language will result in no learning progress. Reading the subtitles creates an inner voice that completely overshadows the speech in your target language. As a consequence, you're not actually engaging with your target language, you're listening to your own subvocalization in your native language. Therefore, you are learning the language of the subtitles, not the language of the audio. We've all seen countless anime fans who've watched thousands of hours of English-subbed anime and still know less than 100 Japanese words.",
-    "url":"bad-advice.html#subtitles-in-your-native-language",
-    "parent":"Avoiding bad advice"
+    "body":"Просмотр контента на иностранном языке отлично помогает его усваивать. Но просмотр с субтитрами на родном языке не даст прогресса в изучении. Чтение субтитров создаёт внутренний голос, который полностью заглушает речь на изучаемом языке. В результате вы не взаимодействуете с изучаемым языком, а слушаете собственное внутреннее проговаривание (subvocalization) на родном языке. Поэтому вы учите язык субтитров, а не язык звуковой дорожки. Все мы видели бесчисленное множество любителей аниме, которые посмотрели тысячи часов аниме с английскими субтитрами и до сих пор знают меньше ста японских слов.",
+    "url":"bad-advice.html#subtitry-na-rodnom-iazyke",
+    "parent":"Как избегать плохих советов"
   },
   {
     "title":"Cross Profile Search And Import",
