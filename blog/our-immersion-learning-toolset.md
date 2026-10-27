@@ -243,6 +243,12 @@ chat with an offline AI tutor, and create Anki-compatible flashcards in one clic
 The app passively tracks every word you encounter and builds a model of what you know.
 Works fully offline. No account needed.
 
+## [Anki Miner](https://github.com/0xzerolight/anki_miner)
+
+A modern alternative to subs2srs and MorphMan.
+Batch-mine Anki vocabulary cards from videos, books and manga,
+skipping the words you already know.
+
 ## Android
 
 <img src="img/with-phone.webp" float="right">
