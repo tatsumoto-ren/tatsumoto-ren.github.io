@@ -1,7 +1,7 @@
 ---
 title: "Содержание"
 date: 1616375454
-updated: "05 July 2026"
+updated: "27 October 2026"
 ---
 
 * [Предисловие](foreword.html)
@@ -83,5 +83,5 @@ updated: "05 July 2026"
   * [Смягчение последствий раннего говорения](mitigating-the-impact-of-early-output.html)
   * [Руководство пользователя Pitch Artist](pitch-artist-user-guide.html)
 * Связь и поддержка
-  * [Присоединяйся к сообществу](join-our-community.html)
+  * [Присоединяйтесь к сообществу](join-our-community.html)
   * [Поддержать](donating-to-tatsumoto.html)
