@@ -534,25 +534,25 @@
     "date":"2025-11-17"
   },
   {
-    "title":"About this site",
+    "title":"О сайте",
     "tags":[],
-    "body":"Примечание: Обратите внимание, что эта статья ещё не переведена полностью. Если вы хотите помочь, присоединяйтесь к нашему сообществу и создайте pull request на GitHub. This site contains AJATT's language learning guide and related information. Here you'll find everything you need to know about learning foreign languages.",
+    "body":"На этом сайте размещено руководство по изучению языков по методу AJATT и сопутствующая информация. Здесь вы найдёте всё, что нужно знать об изучении иностранных языков.",
     "url":"about-this-site.html",
     "date":"2025-10-30"
   },
   {
-    "title":"Available domains",
+    "title":"Доступные домены",
     "tags":[],
-    "body":"The site is available at the following addresses: ajatt.top. This domain was bought using money donated by our readers. Thanks so much for your support! tatsumoto.neocities.org. Hosted on neocities.org. tatsumoto-ren.github.io. Hosted on GitHub pages. All addresses contain identical content. They are copies of each other. Feel free to bookmark any one of them.",
-    "url":"about-this-site.html#available-domains",
-    "parent":"About this site"
+    "body":"Сайт доступен по следующим адресам: ajatt.top. Этот домен был куплен на средства, пожертвованные нашими читателями. Большое спасибо за вашу поддержку! tatsumoto.neocities.org. Размещён на neocities.org. tatsumoto-ren.github.io. Размещён на GitHub Pages. По всем адресам доступно одинаковое содержимое. Это копии одного и того же сайта. Можете добавить в закладки любой из этих адресов.",
+    "url":"about-this-site.html#dostupnye-domeny",
+    "parent":"О сайте"
   },
   {
-    "title":"Contributing",
+    "title":"Как внести свой вклад",
     "tags":[],
-    "body":"The text files for this site can be viewed and edited on GitHub. To suggest a change, edit the Markdown files. You don't need to touch the HTML files. Create a pull request after making your edits.",
-    "url":"about-this-site.html#contributing",
-    "parent":"About this site"
+    "body":"Текстовые файлы этого сайта можно просматривать и редактировать на GitHub. Чтобы предложить изменения, отредактируйте файлы Markdown. Файлы HTML менять не нужно. После внесения правок создайте pull request.",
+    "url":"about-this-site.html#kak-vnesti-svoi-vklad",
+    "parent":"О сайте"
   },
   {
     "title":"Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?",
