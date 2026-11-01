@@ -1,14 +1,15 @@
 ---
-title: Passive immersion playlist structure?
+title: "Passive immersion playlist structure?"
 date: 1670017292
-tags: ['faq']
+tags: ["faq"]
 position: -9902
+updated: "01 November 2026"
 ---
 
-There are two rules of passive immersion.
+There are two rules of [passive immersion](passive-immersion.html).
 First says to **listen to familiar content**.
 The passive immersion playlist
-should contain language-dense material that you've actively consumed before.
+should contain language-dense material that you've actively consumed **before**.
 If you listen to something that you've never interacted with before,
 it can be hard to keep up with it and understand it,
 especially when you're not that fluent yet.
