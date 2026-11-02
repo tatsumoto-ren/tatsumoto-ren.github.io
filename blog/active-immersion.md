@@ -1,7 +1,8 @@
 ---
-title: Active immersion
+title: "Active immersion"
 date: 1679001190
-tags: ['guide']
+tags: ["guide"]
+updated: "02 November 2026"
 ---
 
 Active immersion is a crucial part of language learning
@@ -48,6 +49,10 @@ You have a long journey of learning ahead of you,
 so it's essential to have a strong passion and enthusiasm
 for something in the language.
 Only compelling content will be able to captivate you and hold your attention.
+
+> 'Compelling' means that the input is so interesting you forget that it is in another language.
+>
+> &mdash; *[Stephen Krashen, The Compelling (Not Just Interesting) Input Hypothesis (2011)](https://koreatesol.org/sites/default/files/pdf_publications/TECv15n3-11Autumn.pdf#page=15)*
 
 Most people before they start AJATT already have a passion for otaku content,
 such as anime, manga, ranobe, or other types of Japanese media.
