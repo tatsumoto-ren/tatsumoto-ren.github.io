@@ -23,7 +23,7 @@ and why AJATT focuses primarily on acquisition rather than learning.
 This idea originally comes from the linguist Stephen Krashen.
 He came up with [five hypotheses](https://en.wikipedia.org/wiki/Input_hypothesis)
 related to language acquisition (インプット仮説).
-One of those hypotheses was the *Acquisition-Learning* hypothesis.
+One of those hypotheses was the [*Acquisition-Learning* hypothesis](https://www.sdkrashen.com/content/books/principles_and_practice.pdf#page=17).
 It states that there are two ways to develop language ability:
 one is **learning** and the other is **acquisition**.
 
