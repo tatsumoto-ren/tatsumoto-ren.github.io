@@ -1,7 +1,8 @@
 ---
-title: Language domains
+title: "Language domains"
 date: 1697748754
-tags: ['guide']
+tags: ["guide"]
+updated: "03 November 2026"
 ---
 
 As learners,
@@ -21,22 +22,28 @@ Words that are commonly used in one domain tend to be less frequently used in ot
 
 Here are some examples of language domains:
 
-* Everyday conversation, real life conversation.
-  This domain includes vocabulary related to talking about nothing.
+* Everyday conversation, or real life conversation.
+  This domain includes vocabulary related to talking about nothing, everyday stuff.
   For example, asking "how are you?" or chatting about the weather.
-  Real life conversation is different from scripted, edited, and acted content.
+  Real-life conversation is different from scripted, edited, and acted content.
 * Slice of life drama, anime, movies, etc.
-  Everyday conversation, but scripted, more detailed, more structured.
+  Everyday conversation, but scripted, more detailed, and more structured.
   May include common words from a variety of other domains.
-  Often covers topics related to household, school, work, and more.
-* Various fiction genres, each genre representing its own domain.
-  We encounter fiction in the form of drama, anime, movies, etc.
+  Often covers topics related to home, school, work, and more.
+* Various fiction genres, with each genre representing its own domain.
+  We encounter fiction in the form of drama, anime, movies, and so on.
   * Science fiction.
   * Fantasy.
   * Business and finance.
   * Sports.
+* Books or manga by a single author.
 * Non-fiction.
   For example, documentaries.
+* News and journalism.
+* Cooking and recipes. Cooking videos online. Recipe sites.
+* Law and politics.
+* Technology and programming.
+* Many more.
 
 As you can see,
 any language can be easily divided into numerous domains.
@@ -76,6 +83,16 @@ Immersing oneself in one domain at a time
 creates a natural spaced repetition environment.
 You frequently encounter the same words used in different contexts.
 This helps you memorize the words better in addition to using the [SRS](spaced-repetition.html).
+
+Krashen calls reading several books by one author
+or about a single topic of interest *narrow reading*.
+It's the reading version of our advice to focus on one domain at a time.
+The idea of *narrow input* applies to listening and watching as well.
+
+> First, since each writer has favorite expressions and a distinctive style,
+> and each topic has its own vocabulary and discourse, narrow reading provides built-in review.
+>
+> &mdash; *[Stephen Krashen, The Case for Narrow Reading (2004)](https://www.sdkrashen.com/content/articles/narrow.pdf#page=1)*
 
 Another reason why domains are important
 is that you want to avoid content that is way above your current skill level.
