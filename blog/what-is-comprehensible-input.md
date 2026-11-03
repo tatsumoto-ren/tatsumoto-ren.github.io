@@ -1,10 +1,11 @@
 ---
-title: What is comprehensible input?
+title: "What is comprehensible input?"
 date: 1671871203
-tags: ['faq']
+tags: ["faq"]
+updated: "03 November 2026"
 ---
 
-*Comprehensible input* is a term Steven Krashen uses a lot.
+[*Comprehensible input*](https://www.sdkrashen.com/content/books/principles_and_practice.pdf#page=28) is a term Steven Krashen uses a lot.
 
 > We acquire language in one way and only one way: when we understand messages.
 > We call this *comprehensible input*.

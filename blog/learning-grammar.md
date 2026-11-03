@@ -2,7 +2,7 @@
 title: "Learning grammar"
 date: 1648695316
 tags: ["guide", "grammar"]
-updated: "09 August 2026"
+updated: "03 November 2026"
 position: [0, -2]
 ---
 
@@ -101,7 +101,7 @@ This approach does not work for several reasons:
   You have to know ahead of time how certain thoughts are expressed in your target language.
   You cannot invent language on the spot.
   Invented language almost always sounds unnatural.
-* Consciously thinking about grammar rules while speaking is too slow.
+* [Consciously thinking about grammar rules while speaking is too slow](https://www.sdkrashen.com/content/books/principles_and_practice.pdf#page=96).
   You won't have enough time to apply that knowledge.
   By the time you construct a grammatically correct sentence,
   your conversation partner will be long gone.
