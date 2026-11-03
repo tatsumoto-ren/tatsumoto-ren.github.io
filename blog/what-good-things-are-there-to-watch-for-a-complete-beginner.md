@@ -1,8 +1,9 @@
 ---
-title: What good things are there to watch for a complete beginner?
+title: "What good things are there to watch for a complete beginner?"
 date: 1666824718
-tags: ['faq']
+tags: ["faq"]
 position: -9984
+updated: "03 November 2026"
 ---
 
 Slice of life shows.
@@ -38,3 +39,5 @@ to make sure that more difficult genres aren't included.
 * [All CGDCT anime](https://myanimelist.net/anime/genre/52/CGDCT).
 * [All Romance anime](https://myanimelist.net/anime/genre/22/Romance).
 * [All School anime](https://myanimelist.net/anime/genre/23/School).
+
+See also: [Top anime of all time](top-anime-of-all-time.html).
