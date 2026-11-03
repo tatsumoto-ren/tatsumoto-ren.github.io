@@ -26,6 +26,11 @@ Rewatching one episode limits that variety.
 [Moving on to something new](should-i-limit-how-many-sentences-i-mine-from-a-single-source.html) gives you more opportunities
 to see words and expressions in new contexts and fully acquire them.
 
+Another thing is that
+if you force yourself to rewatch the same piece of content,
+it will probably stop being fun.
+And boredom gets in the way of language acquisition.
+
 Instead of rewatching a specific piece of content,
 like an anime episode or movie,
 we recommend watching it once and then listening to it
