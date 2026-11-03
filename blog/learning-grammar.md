@@ -38,6 +38,26 @@ therefore it's better to think of them as
 Besides, no language is fixed, and all languages change over time,
 and the rules may change too.
 
+Often in Japanese,
+the line between grammar points and vocabulary is often pretty blurry.
+For example,
+if you take the phrase ならでは,
+a test like JLPT or a Japanese grammar textbook would probably treat it as a grammar point,
+but to me it's just another piece of Japanese.
+And if you look up ならでは in a dictionary like
+[Jisho.org](https://jisho.org/search?keyword=%E3%81%AA%E3%82%89%E3%81%A7%E3%81%AF)
+or a [monolingual dictionary](going-monolingual.html)
+(e.g. [weblio](https://www.weblio.jp/content/%E3%81%AA%E3%82%89%E3%81%A7%E3%81%AF)),
+you can find out what it means.
+Or, if you take
+[ながら](https://jisho.org/search?keyword=%E3%81%AA%E3%81%8C%E3%82%89)
+([weblio](https://www.weblio.jp/content/ながら)),
+you can look it up in a dictionary
+and see how it's used and what it means.
+
+So I would not really draw a hard line between vocabulary and grammar points.
+I would just think of them as pieces of the language that you do not know.
+
 ## The role of grammar study
 
 > Grammar guides are for making it easier to understand things, not to learn how to say them.
@@ -51,7 +71,7 @@ it's nearly impossible to revert.
 At best, you can train yourself until it becomes automatic,
 but it will still feel different from a native.
 
-It is entirely possible to skip formal grammar study
+It is [entirely possible](is-studying-grammar-required.html) to skip formal grammar study
 and learn grammar points solely through immersion.
 The arguments **in favor** of studying grammar are quite similar
 to those for learning basic vocabulary
@@ -161,7 +181,7 @@ and provide translated example sentences.
 With a grammar guide you can front-load basic grammar and expand your comprehension.
 
 Read about the basic grammar of your target language from a **grammar guide**.
-Dedicate a short chunk of time,
+[Dedicate a short chunk of time](how-much-time-should-i-spend-studying-basic-grammar-each-day.html),
 up to 30 minutes a day,
 to studying grammar.
 If measuring time is not your thing,
