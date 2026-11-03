@@ -6,10 +6,15 @@ updated: "03 November 2026"
 position: [0, -2]
 ---
 
-What's grammar?
-Should you learn grammar?
-How to learn grammar?
-Let's answer these question in this article.
+[AJATT](whats-ajatt.html)
+focuses on [acquiring a lanuage](acquisition-vs-learning.html) rather than studying it.
+That said,
+grammar study has a simple purpose in AJATT:
+helping you understand more of the language.
+This article explains what grammar is,
+how to study it,
+how to choose a grammar guide,
+and how to make cards for grammar points.
 
 ****
 
@@ -108,8 +113,8 @@ by learning from a guide what the construction "としても" means,
 you won't have to look it up when you encounter it while watching anime.
 Knowing what common grammar patterns mean will make it easier to follow your immersion
 and help you acquire your target language through extensive listening and reading.
-A good grammar guide should provide concise explanations
-and include many example sentences.
+A **good grammar guide** should provide concise explanations
+and include **many example sentences**.
 
 Language courses that do not follow the [AJATT](whats-ajatt.html) method
 may suggest that you study grammar to learn how to speak your target language.
