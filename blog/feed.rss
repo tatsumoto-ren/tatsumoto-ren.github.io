@@ -5,9 +5,50 @@
 <link>https://ajatt.top/blog/index.html</link>
 <description>Tatsumoto&#39;s guide to learning Japanese. The fastest way to reach native-level fluency in a foreign language.</description>
 <language>en</language>
-<lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
-<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+<lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+<pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
 <atom:link href="https://ajatt.top/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+        <title>Should I rewatch a specific piece of content over and over to master it?</title>
+        <author>Tatsumoto Ren</author>
+        <description>
+            <![CDATA[                <p>Fluency comes from building language proficiency through lots of interesting listening and reading.
+If the content is so wonderful that you want to go through it again, that's fine.
+But as far as language acquisition goes,
+I think rewatching or rereading is a waste of time.</p>
+<p>Rewatching the same episode over and over isn't the best approach for two reasons.
+First, at any given level,
+there's only so much unfamiliar language you can pick up.
+We call this the &quot;low-hanging fruit.&quot;
+Some words and expressions will remain out of reach
+and can't be <a href="acquisition-vs-learning.html#acquisition">acquired</a>
+no matter how many times you rewatch.
+As your understanding improves, new low-hanging fruit becomes available,
+but repetition alone won't bridge that gap.
+Second,
+to acquire a word or phrase, you need to encounter it many times in different situations.
+That variety helps you get a fuller picture of how the language works.
+Rewatching one episode limits that variety.
+Moving on to something new gives you more opportunities
+to see words and expressions in new contexts and fully acquire them.</p>
+<p>Instead of rewatching a specific piece of content,
+like an anime episode or movie,
+we recommend watching it once and then listening to it
+during <a href="passive-immersion.html">passive immersion</a>.
+Usually, you'll have multiple tracks like this
+in a <a href="passive-immersion-playlist-structure.html">playlist</a>,
+and each one gets played once in a while in random order over a period of ten days.
+After that, it goes out of rotation.
+Ten days is enough for you to get the most out of relistening to the same piece.
+Then you replace it with the next thing you've watched.</p>
+
+]]>
+        </description>
+        <link>https://ajatt.top/blog/should-i-rewatch-over-and-over.html</link>
+        <guid>https://ajatt.top/blog/should-i-rewatch-over-and-over.html</guid>
+        <dc:creator>Tatsumoto Ren</dc:creator>
+        <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
         <title>I&#39;m the weakest student in language school. How can I improve?</title>
         <author>Tatsumoto Ren</author>
@@ -220,30 +261,6 @@ Here you'll find everything you need to know about learning foreign languages.</
         <guid>https://ajatt.top/blog/about-this-site.html</guid>
         <dc:creator>Tatsumoto Ren</dc:creator>
         <pubDate>Thu, 30 Oct 2025 15:53:39 +0000</pubDate>
-    </item>
-    <item>
-        <title>Will immersing in certain genres of content for a long time make my speech inappropriate for my identity?</title>
-        <author>Tatsumoto Ren</author>
-        <description>
-            <![CDATA[                <blockquote>
-<p>Hi! In the past I have heard other Japanese learners say that women speak
-Japanese very differently from men and that learning Japanese purely from
-copying slice of life/CGDCT material will make you sound obviously effete and
-feminine if you are a male. Is it something to worry about?</p>
-</blockquote>
-<p>Yes, there are sizable gender differences in Japanese.
-Men and women speak and act differently,
-use different expressions, pronouns and sentence endings.
-People also change how they speak as they age.
-A 75-year-old man doesn't sound the same as a 15-year-old girl.
-This is true for many other languages as well.</p>
-
-]]>
-        </description>
-        <link>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</link>
-        <guid>https://ajatt.top/blog/will-immersion-in-certain-genres-make-my-speech-inappropriate.html</guid>
-        <dc:creator>Tatsumoto Ren</dc:creator>
-        <pubDate>Mon, 27 Oct 2025 09:31:36 +0000</pubDate>
     </item>
 </channel>
 </rss>
