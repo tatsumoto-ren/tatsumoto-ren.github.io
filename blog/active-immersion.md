@@ -2,7 +2,7 @@
 title: "Active immersion"
 date: 1679001190
 tags: ["guide"]
-updated: "02 November 2026"
+updated: "03 November 2026"
 ---
 
 Active immersion is a crucial part of language learning
@@ -31,7 +31,7 @@ become accustomed to the sounds,
 constructing a model of the language.
 
 It can even be argued that doing active immersion alone is sufficient to become fluent.
-Of course, passive immersion helps, but it is not imperative.
+Of course, [passive immersion](passive-immersion.html) helps, but it is not imperative.
 One can also stop using the SRS and still reach fluency, although it will take longer.
 But without active immersion everything falls apart.
 As we know very well from experiences of other people,
@@ -137,14 +137,13 @@ For shows that you have not watched yet,
 reading synopsis before or after watching
 will help you understand the story better.
 
-In order to remain engaged and maintain motivation,
+To stay engaged and keep your motivation up,
 it is probably not a good idea to watch content twice.
-Doing so can increase one's comprehension due to prior knowledge of the plot,
-however,
-it can also be quite boring and tedious.
-Rather,
-consider re-listening to what you have already actively watched **during passive immersion**.
-This way you don't waste your active immersion hours on repetition.
+Sure, doing that can improve your comprehension because you already know the plot,
+but it can also get pretty boring and tedious.
+Instead,
+consider re-listening to things you've already actively watched **during passive immersion**.
+That way, you do not waste your active immersion time on repetition.
 
 When first getting started,
 things like science fiction or fantasy novels will be too difficult to read.
