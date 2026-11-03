@@ -5,7 +5,7 @@ date: "03 November 2026"
 filename: "should-i-rewatch-over-and-over"
 ---
 
-Fluency comes from building language proficiency through lots of interesting listening and reading.
+Fluency comes from building language proficiency through [lots of interesting listening and reading](active-immersion.html).
 If the content is so wonderful that you want to go through it again, that's fine.
 But as far as language acquisition goes,
 I think rewatching or rereading is a waste of time.
@@ -13,7 +13,7 @@ I think rewatching or rereading is a waste of time.
 Rewatching the same episode over and over isn't the best approach for two reasons.
 First, at any given level,
 there's only so much unfamiliar language you can pick up.
-We call this the "low-hanging fruit."
+We call this the "[low-hanging fruit](one-target-sentences.html)."
 Some words and expressions will remain out of reach
 and can't be [acquired](acquisition-vs-learning.html#acquisition)
 no matter how many times you rewatch.
@@ -23,7 +23,7 @@ Second,
 to acquire a word or phrase, you need to encounter it many times in different situations.
 That variety helps you get a fuller picture of how the language works.
 Rewatching one episode limits that variety.
-Moving on to something new gives you more opportunities
+[Moving on to something new](should-i-limit-how-many-sentences-i-mine-from-a-single-source.html) gives you more opportunities
 to see words and expressions in new contexts and fully acquire them.
 
 Instead of rewatching a specific piece of content,

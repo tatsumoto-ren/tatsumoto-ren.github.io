@@ -138,7 +138,7 @@ reading synopsis before or after watching
 will help you understand the story better.
 
 To stay engaged and keep your motivation up,
-it is probably not a good idea to watch content twice.
+it is probably [not a good idea to watch content twice](should-i-rewatch-over-and-over.html).
 Sure, doing that can improve your comprehension because you already know the plot,
 but it can also get pretty boring and tedious.
 Instead,
