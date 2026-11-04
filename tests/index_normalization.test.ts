@@ -14,16 +14,16 @@ type NormalizationScenario = Readonly<{
 
 /** Run one search-index normalization scenario through rendered results. */
 async function assertNormalizationScenario(scenario: NormalizationScenario): Promise<void> {
-    const { input, status, results } = await bootSearch({ index: scenario.index });
-    await typeQuery(input as HTMLInputElement, scenario.query);
-    expect(status?.textContent).toBe(`Results: ${scenario.expectedTitles.length}`);
-    expect(resultTitles(results as HTMLElement)).toEqual(scenario.expectedTitles);
+    const fixture = await bootSearch({ index: scenario.index });
+    await typeQuery(fixture.input as HTMLInputElement, scenario.query);
+    expect(fixture.status?.textContent).toBe(`Results: ${scenario.expectedTitles.length}`);
+    expect(resultTitles(fixture.results as HTMLElement)).toEqual(scenario.expectedTitles);
 }
 
 describe("index normalization", (): void => {
     test.each([
         {
-            name: "searches joined tags and tolerates missing optional fields",
+            name: "searches exact tags and tolerates missing optional fields",
             index: [{ title: "Tag Only", url: "/tag.html", tags: ["first", "second"] }],
             query: "second",
             expectedTitles: ["Tag Only"],
@@ -35,7 +35,7 @@ describe("index normalization", (): void => {
             expectedTitles: [""],
         },
         {
-            // Matching the same field forces the normalized-title tie-breaker,
+            // Matching the same field forces the case-insensitive title tie-breaker,
             // which must remain safe when both titles are absent.
             name: "sorts tied title-less entries without throwing",
             index: [
