@@ -2,7 +2,7 @@
 title: "Passive immersion tech"
 date: 1618268880
 tags: ["guide"]
-updated: "26 October 2026"
+updated: "07 November 2026"
 ---
 
 *Passive immersion* means listening to the language while in idle activities.
@@ -57,16 +57,17 @@ that episode is going to become your passive immersion content.
 All you need to do is convert it to audio.
 
 To make things easier,
-make sure to download what you watch,
+make sure to [download what you watch](mining-from-movies-and-tv-shows.html#obtain-content),
 so you can extract the audio and add it to your passive listening playlist.
 
-Other possible types of content to passively immerse in are
-[YouTube](immersion-with-youtube.html) streams, podcasts and radio shows.
-They are more appropriate for intermediate learners.
+Other kinds of content you can passively immerse in include
+[YouTube](immersion-with-youtube.html) videos and streams, podcasts, and radio shows.
+These are usually better suited for intermediate learners and above.
 Unfortunately,
-transcripts are usually not available for these types of content,
-so actively immersing oneself in them is not an option,
-thus reducing the quality of immersion.
+transcripts are not usually available for this kind of content,
+so actively immersing in it usually requires strong listening skills
+or generating subtitles with speech-to-text software,
+which is not always accurate and can lower the quality of the immersion.
 
 ## mpd
 
