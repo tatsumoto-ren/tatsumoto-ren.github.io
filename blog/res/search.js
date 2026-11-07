@@ -35,7 +35,15 @@
     // Keep reusable query grammar visible and avoid recompiling regex literals in hot paths.
     const QUERY_WHITESPACE_PATTERN = /\s+/g;
     const QUERY_SPLIT_PATTERN = /\s+/;
-    const EDGE_PUNCTUATION_PATTERN = /^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu;
+    // Combining marks belong to words, so decomposed accents must survive punctuation trimming.
+    const EDGE_PUNCTUATION_PATTERN = /^[^\p{L}\p{M}\p{N}]+|[^\p{L}\p{M}\p{N}]+$/gu;
+    const REGEXP_ESCAPE_PATTERN = /[.*+?^${}()|[\]\\]/g;
+    // Inspect UTF-16 code units without the Unicode flag so clipping cannot separate a surrogate pair.
+    const SURROGATE_PAIR_PATTERN = /[\uD800-\uDBFF][\uDC00-\uDFFF]/;
+
+    // Reuse collation rules instead of setting them up for every tied pair of search results.
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+    const TITLE_COLLATOR = new Intl.Collator(undefined, { sensitivity: "accent" });
 
     // Scoring weights for search result ranking.
     // Higher values make a match type more prominent in the results.
@@ -46,10 +54,10 @@
         BODY: 10,
     });
 
-    /** A lowercase search-index property and its ranking weight. Immutable. */
+    /** An original-text search-index property and its ranking weight. Immutable. */
     class SearchField {
         /**
-         * @param {string} name — lowercase property name on SearchIndexEntry.
+         * @param {string} name — original-text property name on SearchIndexEntry.
          * @param {number} weight — ranking weight for matches in this property.
          */
         constructor(name, weight) {
@@ -59,12 +67,28 @@
         }
     }
 
-    // Lowercase search-index properties and their corresponding ranking weights.
-    const SearchFields = Object.freeze([
-        new SearchField("title_lower", SearchScore.TITLE),
-        new SearchField("tags_lower", SearchScore.TAG),
-        new SearchField("parent_lower", SearchScore.PARENT),
-        new SearchField("body_lower", SearchScore.BODY),
+    /**
+     * Immutable content of one search-index field, paired with its ranking weight.
+     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+     */
+    class IndexedTextField {
+        /**
+         * Bind a title, body, or parent field definition to one search-index entry.
+         * @param {SearchIndexEntry} entry — candidate index entry containing title, body, and parent text.
+         * @param {SearchField} definition — name and weight of the field to analyze.
+         */
+        constructor(entry, definition) {
+            this.content = entry[definition.name];
+            this.weight = definition.weight;
+            Object.freeze(this);
+        }
+    }
+
+    // Text fields allow substring matches. Tags are checked separately with full-tag matchers.
+    const SEARCH_FIELDS = Object.freeze([
+        new SearchField("title", SearchScore.TITLE),
+        new SearchField("parent", SearchScore.PARENT),
+        new SearchField("body", SearchScore.BODY),
     ]);
 
     // Tunable parameters for the search UI.
@@ -157,47 +181,73 @@
         return `${resultCount} ${messages.showingFirst.replace("{count}", SearchConfig.MAX_DISPLAYED_RESULTS)}`;
     }
 
-    /**
-     * A parsed search query: the normalized lowercase phrase plus its distinct words.
-     * Computed once per search and threaded through the ranking pipeline so the
-     * query is tokenized and lowercased exactly once. Immutable.
-     */
+    /** An immutable query word with case-insensitive substring and full-token matchers. */
+    class QueryWord {
+        /**
+         * @param {string} text — query token after stripping edge punctuation.
+         */
+        constructor(text) {
+            this.pattern = makeLiteralPattern(text);
+            this.exactPattern = new RegExp(`^${this.pattern.source}$`, "iu");
+            Object.freeze(this);
+        }
+    }
+
+    /** A normalized phrase and distinct query words, compiled once without changing indexed text. */
     class Query {
         /**
-         * @param {string} lower — the full query string, lowercased.
-         * @param {string[]} words — deduplicated lowercase query words.
+         * @param {string} phrase — full query with normalized whitespace and original case.
+         * @param {QueryWord[]} words — distinct query words with their compiled matchers.
          */
-        constructor(lower, words) {
-            this.lower = lower;
+        constructor(phrase, words) {
+            /** Locate the complete query phrase anywhere in a title, body, or parent field. */
+            this.phrasePattern = makeLiteralPattern(phrase);
+            /** Match the complete query against one complete tag, never across adjacent tags. */
+            this.exactPhrasePattern = new RegExp(`^${this.phrasePattern.source}$`, "iu");
             this.words = Object.freeze([...words]);
             Object.freeze(this);
         }
 
         /**
-         * Build a Query from a raw user query string, tokenizing and lowercasing
-         * it exactly once. Splits on any run of whitespace, strips leading and
+         * Build a Query from a raw user query string, tokenizing it once.
+         * Splits on any run of whitespace, strips leading and
          * trailing punctuation from individual words, drops empty tokens, and
          * deduplicates words in first-seen order.
          * @param {string} raw — the user's raw search query.
          * @returns {Query} the parsed, immutable query.
          */
         static parse(raw) {
-            const lower = raw.toLowerCase().trim().replace(QUERY_WHITESPACE_PATTERN, " ");
-            const words = lower
-                .split(QUERY_SPLIT_PATTERN)
-                .map(word => stripPunctuation(word))
-                .filter(word => word.length > 0);
-            return new Query(lower, [...new Set(words)]);
+            const phrase = raw.trim().replace(QUERY_WHITESPACE_PATTERN, " ");
+            const words = [];
+            for (const token of phrase.split(QUERY_SPLIT_PATTERN)) {
+                const text = stripPunctuation(token);
+                if (text && !words.some(word => word.exactPattern.test(text))) {
+                    words.push(new QueryWord(text));
+                }
+            }
+            return new Query(phrase, words);
         }
     }
 
     /**
      * Strip leading and trailing punctuation from a query word.
-     * @param {string} word — raw lowercase query word.
+     * @param {string} word — raw query word or whitespace-delimited text token.
      * @returns {string} word with punctuation removed from both edges.
      */
     function stripPunctuation(word) {
         return word.replace(EDGE_PUNCTUATION_PATTERN, "");
+    }
+
+    /**
+     * Compile a literal case-insensitive matcher without changing original text offsets.
+     * @param {string} text — literal query text, not a regex expression.
+     * @returns {RegExp} non-global Unicode-aware matcher safe for repeated tests.
+     */
+    function makeLiteralPattern(text) {
+        // Keep strings like "node.js" and "a+b" literal,
+        // with no boundary lookarounds or lowercase offset maps.
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase
+        return new RegExp(text.replace(REGEXP_ESCAPE_PATTERN, "\\$&"), "iu");
     }
 
     /** A normalized, immutable entry from the generated search index. */
@@ -209,11 +259,20 @@
             this.body = entry.body ?? "";
             this.tags = Object.freeze([...(entry.tags ?? [])]);
             this.parent = entry.parent ?? "";
-            this.title_lower = this.title.toLowerCase();
-            this.body_lower = this.body.toLowerCase();
-            this.tags_lower = this.tags.join(" ").toLowerCase();
-            this.parent_lower = this.parent.toLowerCase();
             Object.freeze(this);
+        }
+    }
+
+    /** Local mutable scoring state for one index entry, copied into an immutable result afterward. */
+    class SearchAnalysis {
+        /** Initialize independent accumulators so each query word is counted only once across fields. */
+        constructor() {
+            this.score = 0;
+            this.hasPhraseMatch = false;
+            // All distinct query words found as substrings, including those that match complete words.
+            this.substringMatchedQueryWords = new Set();
+            // The subset also found as complete field tokens or exact canonical tags.
+            this.wholeMatchedQueryWords = new Set();
         }
     }
 
@@ -224,15 +283,38 @@
     class ScoredResult {
         /**
          * @param {SearchIndexEntry} entry — the matched search index entry.
-         * @param {number} score — the entry's relevance score.
-         * @param {number} matchedWordCount — number of distinct query words found.
-         * @param {boolean} hasPhraseMatch — true when the full query phrase matched.
+         * @param {SearchAnalysis} analysis — completed per-entry scoring state, not retained by the result.
          */
-        constructor(entry, score, matchedWordCount, hasPhraseMatch) {
+        constructor(entry, analysis) {
+            /** Original index entry used to render the result's link, parent title, and matching substrings. */
             this.entry = entry;
-            this.score = score;
-            this.matchedWordCount = matchedWordCount;
-            this.hasPhraseMatch = hasPhraseMatch;
+
+            /**
+             * Sum of field weights earned by matching query words.
+             * Each word scores once per field, not once per occurrence.
+             * Used after whole-word count, phrase priority, and total distinct-word count.
+             */
+            this.score = analysis.score;
+
+            /**
+             * Number of distinct query words found anywhere in the entry, including exact tags.
+             * Includes both matches inside larger words and complete-word matches.
+             * Used after whole-word count and phrase priority.
+             */
+            this.matchedWordCount = analysis.substringMatchedQueryWords.size;
+
+            /**
+             * Whether a text field contains the complete query phrase or the complete query matches a tag.
+             * Both checks ignore case.
+             * These results rank first when whole-word counts are tied.
+             */
+            this.hasPhraseMatch = analysis.hasPhraseMatch;
+
+            /**
+             * Number of distinct query words matching complete field tokens or exact tags.
+             * This is the first ranking criterion, so more whole-word matches rank higher.
+             */
+            this.wholeWordMatchCount = analysis.wholeMatchedQueryWords.size;
             Object.freeze(this);
         }
     }
@@ -257,7 +339,8 @@
     }
 
     /**
-     * A half-open [start, end) range of matched text within a snippet.
+     * Half-open [start, end) positions for an exact query-word match or its expanded display context.
+     * Positions use JavaScript string units (UTF-16 code units), not a count of visible characters.
      * Mutable: mergeRanges creates fresh output ranges and extends `end` on
      * those when joining overlapping or touching ranges. Keeping this local
      * mutation avoids repeatedly copying short-lived ranges during a merge.
@@ -274,24 +357,43 @@
     }
 
     /**
-     * Collect the [start, end) range of every query-word occurrence in text.
-     * @param {string} textLower — the text to scan, already lowercased.
-     * @param {string[]} queryWords — the deduplicated lowercase query words.
-     * @returns {Range[]} unsorted, possibly overlapping match ranges.
+     * Locate every query-word occurrence in a matched search-index entry's body field.
+     * @param {string} entryBody — SearchIndexEntry.body with original case, not the HTML document body.
+     * @param {QueryWord[]} queryWords — distinct query words with compiled matchers.
+     * @returns {Range[]} unsorted, possibly overlapping positions,
+     * or [] if the entry matched only other fields.
      */
-    function collectMatchRanges(textLower, queryWords) {
-        return queryWords.flatMap(word => {
-            const ranges = [];
-            for (let idx = textLower.indexOf(word); idx >= 0; idx = textLower.indexOf(word, idx + 1)) {
-                ranges.push(new Range(idx, idx + word.length));
-            }
-            return ranges;
-        });
+    function collectMatchRanges(entryBody, queryWords) {
+        return queryWords.flatMap(queryWord => collectBodyWordRanges(entryBody, queryWord));
     }
 
     /**
-     * Merge overlapping or touching ranges so highlight markup never nests.
-     * @param {Range[]} input — the raw match ranges.
+     * Locate query-word occurrences in a matched search-index entry's body field.
+     * These positions are used to clip displayed substrings and highlight matches.
+     * Includes overlapping occurrences, such as both instances of "ana" in "banana".
+     * @param {string} entryBody — SearchIndexEntry.body with original case, not the HTML document body.
+     * @param {QueryWord} queryWord — query word whose occurrences need highlighting.
+     * @returns {Range[]} start/end positions in entryBody, measured in UTF-16 code units.
+     * Returns [] when only another entry field matches.
+     */
+    function collectBodyWordRanges(entryBody, queryWord) {
+        // indexOf is case-sensitive. The i flag matches original text
+        // without lowercasing or shifting offsets.
+        const matcher = new RegExp(queryWord.pattern.source, "giu");
+        const queryWordMatchRanges = [];
+        // Resume one complete character after this match's start, not after the whole matched word.
+        // That keeps both "ana" occurrences in "banana" without moving into the middle of an emoji.
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
+        for (let match = matcher.exec(entryBody); match !== null; match = matcher.exec(entryBody)) {
+            queryWordMatchRanges.push(new Range(match.index, match.index + match[0].length));
+            matcher.lastIndex = match.index + String.fromCodePoint(entryBody.codePointAt(match.index)).length;
+        }
+        return queryWordMatchRanges;
+    }
+
+    /**
+     * Merge overlapping or touching ranges to avoid nested highlights or repeated display context.
+     * @param {Range[]} input — exact match ranges or expanded display ranges to combine.
      * @returns {Range[]} sorted, non-overlapping ranges.
      */
     function mergeRanges(input) {
@@ -321,113 +423,221 @@
     }
 
     /**
-     * Find a snippet anchor, preferring the full phrase and falling back to
-     * the earliest matching word.
-     * @param {string} bodyLower — the body text, already lowercased.
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
-     * @returns {number} anchor index, or -1 if nothing matches.
+     * Check whether clipping would cut a two-part JavaScript character, such as an emoji, in half.
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {number} offset — clipping position within SearchIndexEntry.body,
+     * measured in JavaScript string units (UTF-16 code units).
+     * @returns {boolean} true only when the position falls between the two parts of one character.
      */
-    function findSnippetAnchor(bodyLower, query) {
-        const phraseIdx = bodyLower.indexOf(query.lower);
-        if (phraseIdx >= 0) {
-            return phraseIdx;
+    function splitsSurrogatePair(entryBody, offset) {
+        return (
+            offset > 0 &&
+            offset < entryBody.length &&
+            SURROGATE_PAIR_PATTERN.test(entryBody.substring(offset - 1, offset + 1))
+        );
+    }
+
+    /**
+     * Expand one original match with context without leaving half an emoji at either edge.
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {Range} queryWordMatchRange — exact query-word positions in entryBody, before adding context.
+     * @returns {Range} bounded context window whose edges keep emoji intact.
+     */
+    function expandSnippetWindow(entryBody, queryWordMatchRange) {
+        let contextStart = Math.max(0, queryWordMatchRange.start - SearchConfig.SNIPPET_CONTEXT_CHARS);
+        let contextEnd = Math.min(entryBody.length, queryWordMatchRange.end + SearchConfig.SNIPPET_CONTEXT_CHARS);
+        if (splitsSurrogatePair(entryBody, contextStart)) {
+            contextStart -= 1;
         }
-        const wordIndices = query.words.map(word => bodyLower.indexOf(word)).filter(idx => idx >= 0);
-        return wordIndices.length > 0 ? Math.min(...wordIndices) : -1;
+        if (splitsSurrogatePair(entryBody, contextEnd)) {
+            contextEnd += 1;
+        }
+        return new Range(contextStart, contextEnd);
+    }
+
+    /**
+     * Collect context windows for every original-text match and merge overlapping windows.
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {Range[]} queryWordMatchRanges — exact positions to highlight,
+     * before adding surrounding context.
+     * @returns {Range[]} sorted, disjoint context windows, or an empty array when nothing matches.
+     */
+    function collectSnippetWindows(entryBody, queryWordMatchRanges) {
+        return mergeRanges(queryWordMatchRanges.map(matchRange => expandSnippetWindow(entryBody, matchRange)));
     }
 
     /**
      * Escape text and wrap every query-word occurrence in <mark>.
-     * @param {string} text — the raw window text (original case preserved).
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {Range} snippetContextRange — displayed substring bounds,
+     * including unhighlighted surrounding text.
+     * @param {Range[]} queryWordMatchRanges — exact query-word positions inside this displayed substring.
      * @returns {string} escaped HTML with matches wrapped in <mark>.
      */
-    function highlightWordsInText(text, query) {
-        const textLower = text.toLowerCase();
-        // Lowercase match offsets are normally valid for the original text. A few
-        // Unicode characters expand when lowercased, so omit highlighting rather
-        // than applying shifted offsets and marking the wrong characters.
-        if (textLower.length !== text.length) {
-            return escapeTextForHtml(text);
-        }
-        const ranges = mergeRanges(collectMatchRanges(textLower, query.words));
+    function highlightWordsInText(entryBody, snippetContextRange, queryWordMatchRanges) {
+        // Original-text match offsets are reused for highlighting, so no case conversion can shift them.
         let html = "";
-        let cursor = 0;
-        for (const { start, end } of ranges) {
-            html += escapeTextForHtml(text.substring(cursor, start));
-            html += `<mark>${escapeTextForHtml(text.substring(start, end))}</mark>`;
-            cursor = end;
+        let cursor = snippetContextRange.start;
+        for (const matchRange of queryWordMatchRanges) {
+            html += escapeTextForHtml(entryBody.substring(cursor, matchRange.start));
+            html += `<mark>${escapeTextForHtml(entryBody.substring(matchRange.start, matchRange.end))}</mark>`;
+            cursor = matchRange.end;
         }
-        return html + escapeTextForHtml(text.substring(cursor));
+        return html + escapeTextForHtml(entryBody.substring(cursor, snippetContextRange.end));
     }
 
     /**
-     * Build an HTML snippet showing the query matches in context.
-     * The snippet window is anchored on the earliest match (full phrase if
-     * present, otherwise the earliest matching word); every matching query
-     * word within the window is wrapped in <mark>.
-     * @param {string} body — full body text of the search entry.
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
+     * Render sorted windows while consuming their matches in one forward pass.
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {Range[]} snippetContextRanges — sorted display bounds with surrounding context,
+     * without overlaps.
+     * @param {Range[]} queryWordMatchRanges — exact positions to highlight, not the expanded display bounds.
+     * @returns {string} escaped, highlighted substrings separated by ellipses.
+     */
+    function renderSnippetWindows(entryBody, snippetContextRanges, queryWordMatchRanges) {
+        // A local cursor avoids rescanning all previous matches for each distant substring.
+        let queryWordMatchIndex = 0;
+        const parts = [];
+        for (const contextRange of snippetContextRanges) {
+            const contextQueryWordMatchRanges = [];
+            while (
+                queryWordMatchIndex < queryWordMatchRanges.length &&
+                queryWordMatchRanges[queryWordMatchIndex].start < contextRange.end
+            ) {
+                contextQueryWordMatchRanges.push(queryWordMatchRanges[queryWordMatchIndex]);
+                queryWordMatchIndex += 1;
+            }
+            parts.push(highlightWordsInText(entryBody, contextRange, contextQueryWordMatchRanges));
+        }
+        return parts.join("...");
+    }
+
+    /**
+     * Build HTML from every matching substring, merging overlapping context windows.
+     * Every matching query word within each substring is wrapped in <mark>.
+     * @param {string} entryBody — SearchIndexEntry.body, not the HTML document body.
+     * @param {Query} query — original-case query words with case-insensitive matchers.
      * @returns {string} HTML with matches wrapped in <mark>, or "" if no match.
      */
-    function makeSnippet(body, query) {
-        const anchor = findSnippetAnchor(body.toLowerCase(), query);
-        if (anchor < 0) {
+    function makeSnippet(entryBody, query) {
+        // Don't hide later matches.
+        // Exact query-word positions in SearchIndexEntry.body control highlighting,
+        // without surrounding context.
+        // Merge overlapping matches so <mark> elements do not nest.
+        const queryWordMatchRanges = mergeRanges(collectMatchRanges(entryBody, query.words));
+        // Display ranges add 120 UTF-16 string units before and after matches, capped at entryBody's edges.
+        // Merge overlapping context so text is not displayed twice,
+        // but keep exact match ranges for highlighting.
+        const snippetContextRanges = collectSnippetWindows(entryBody, queryWordMatchRanges);
+        if (snippetContextRanges.length === 0) {
             return "";
         }
-        const start = Math.max(0, anchor - SearchConfig.SNIPPET_CONTEXT_CHARS);
-        const end = Math.min(body.length, anchor + query.lower.length + SearchConfig.SNIPPET_CONTEXT_CHARS);
-
-        const highlighted = highlightWordsInText(body.substring(start, end), query);
-        return `${start > 0 ? "..." : ""}${highlighted}${end < body.length ? "..." : ""}`;
+        let html = renderSnippetWindows(entryBody, snippetContextRanges, queryWordMatchRanges);
+        if (snippetContextRanges[0].start > 0) {
+            html = `...${html}`;
+        }
+        if (snippetContextRanges[snippetContextRanges.length - 1].end < entryBody.length) {
+            html = `${html}...`;
+        }
+        return html;
     }
 
     /**
-     * Analyze one entry in a single pass over its searchable fields.
-     * @param {SearchIndexEntry} entry — a search index entry with lowercase fields.
+     * Analyze one entry using original text and exact canonical tag values.
+     * @param {SearchIndexEntry} entry — normalized entry with original-case text fields.
      * @param {Query} query — the parsed query (words plus normalized phrase).
      * @returns {ScoredResult} ranking metadata for the entry.
      */
     function analyzeEntry(entry, query) {
-        let score = 0;
-        let hasPhraseMatch = false;
-        const matchedWords = new Set();
-        for (const { name, weight } of SearchFields) {
-            const field = entry[name];
-            hasPhraseMatch ||= field.includes(query.lower);
-            for (const word of query.words) {
-                if (field.includes(word)) {
-                    score += weight;
-                    matchedWords.add(word);
-                }
-            }
+        const analysis = new SearchAnalysis();
+        for (const searchField of SEARCH_FIELDS) {
+            analyzeTextField(new IndexedTextField(entry, searchField), query, analysis);
         }
-        return new ScoredResult(entry, score, matchedWords.size, hasPhraseMatch);
+        analyzeTags(entry.tags, query, analysis);
+        return new ScoredResult(entry, analysis);
     }
 
     /**
-     * Compare results by phrase, matched words, score, then normalized title.
+     * Score literal text matches and whole whitespace-delimited tokens with edge punctuation stripped.
+     * @param {IndexedTextField} indexField — title, body, or parent content from one index entry
+     * and its weight.
+     * @param {Query} query — parsed case-insensitive query.
+     * @param {SearchAnalysis} analysis — local scoring state to update.
+     * @returns {void}
+     */
+    function analyzeTextField(indexField, query, analysis) {
+        analysis.hasPhraseMatch ||= query.phrasePattern.test(indexField.content);
+        // Find query words contained in this search-index field.
+        // Partial matches count: "fun" matches "function".
+        const matchingQueryWords = query.words.filter(queryWord => queryWord.pattern.test(indexField.content));
+        if (matchingQueryWords.length === 0) {
+            return;
+        }
+        // Each query word earns this field's weight once, regardless of how often it occurs.
+        // Other fields may score the same word again, while the sets keep entry-wide word counts distinct.
+        analysis.score += matchingQueryWords.length * indexField.weight;
+        // Earlier fields already established these whole-word counts, but this field still earns its score.
+        if (matchingQueryWords.every(queryWord => analysis.wholeMatchedQueryWords.has(queryWord))) {
+            return;
+        }
+        const fieldTokens = indexField.content.split(QUERY_SPLIT_PATTERN).map(stripPunctuation);
+        // Set has no bulk-add method. Record matches and check which also match a complete field token.
+        for (const queryWord of matchingQueryWords) {
+            analysis.substringMatchedQueryWords.add(queryWord);
+            if (
+                !analysis.wholeMatchedQueryWords.has(queryWord) &&
+                fieldTokens.some(token => queryWord.exactPattern.test(token))
+            ) {
+                analysis.wholeMatchedQueryWords.add(queryWord);
+            }
+        }
+    }
+
+    /**
+     * Score exact tags without partial matches or phrases spanning adjacent tags.
+     * @param {string[]} tags — canonical lowercase tags validated by Tatsublog.
+     * @param {Query} query — parsed query with full-token and full-phrase matchers.
+     * @param {SearchAnalysis} analysis — local scoring state to update.
+     * @returns {void}
+     */
+    function analyzeTags(tags, query, analysis) {
+        // Use the same Unicode case matching as query deduplication, so "ſ s" and "s ſ" keep identical results.
+        analysis.hasPhraseMatch ||= tags.some(tag => query.exactPhrasePattern.test(tag));
+        const matchingTagQueryWords = query.words.filter(queryWord =>
+            tags.some(tag => queryWord.exactPattern.test(tag)),
+        );
+        analysis.score += matchingTagQueryWords.length * SearchScore.TAG;
+        // Every exact tag match belongs in both sets. Set has no bulk-add method.
+        for (const queryWord of matchingTagQueryWords) {
+            analysis.substringMatchedQueryWords.add(queryWord);
+            analysis.wholeMatchedQueryWords.add(queryWord);
+        }
+    }
+
+    /**
+     * Compare results by whole words, phrase, matched words, score, then case-insensitive title order.
      * @param {ScoredResult} left — first result to compare.
      * @param {ScoredResult} right — second result to compare.
      * @returns {number} negative when left ranks before right.
      */
     function compareSearchResults(left, right) {
-        // Sort by full-string match first, then by number of distinct words
+        // A body containing "have fun" must outrank a title containing only "function" or "funds".
+        // Sort by distinct whole words first, then full-string match, then by number of distinct words
         // found, then by weighted field score, then by title alphabetically.
         return (
+            right.wholeWordMatchCount - left.wholeWordMatchCount ||
             Number(right.hasPhraseMatch) - Number(left.hasPhraseMatch) ||
             right.matchedWordCount - left.matchedWordCount ||
             right.score - left.score ||
-            // Tie-break alphabetically on the normalized (lowercase) title,
-            // which buildLowercaseIndex guarantees is always a string.
-            left.entry.title_lower.localeCompare(right.entry.title_lower)
+            // Ignore case for title ties while retaining accent differences in the original text.
+            TITLE_COLLATOR.compare(left.entry.title, right.entry.title)
         );
     }
 
     /**
      * Collect and rank all matching entries from the search index.
-     * @param {SearchIndexEntry[]} searchIndex — the full index with lowercase fields.
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
+     * @param {SearchIndexEntry[]} searchIndex — normalized index with original-case text fields.
+     * @param {Query} query — parsed query with case-insensitive literal matchers.
      * @returns {ScoredResult[]} results sorted by relevance.
      */
     function collectSearchResults(searchIndex, query) {
@@ -465,26 +675,26 @@
     }
 
     /**
-     * Create a snippet element if there is a match in the body.
+     * Create a snippet element when a matched search-index entry has occurrences in its body field.
      * @param {SearchIndexEntry} entry — search index entry.
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
-     * @returns {HTMLDivElement|null} snippet element or null.
+     * @param {Query} query — parsed query with case-insensitive literal matchers.
+     * @returns {HTMLDivElement|null} matching body substrings, or null if only other entry fields match.
      */
     function createSnippetElement(entry, query) {
-        const bodySnippet = makeSnippet(entry.body ?? "", query);
-        if (!bodySnippet) {
+        const entryBodySnippet = makeSnippet(entry.body ?? "", query);
+        if (!entryBodySnippet) {
             return null;
         }
         const snippet = document.createElement("div");
         snippet.className = "snippet";
-        snippet.innerHTML = bodySnippet;
+        snippet.innerHTML = entryBodySnippet;
         return snippet;
     }
 
     /**
      * Create a DOM element for a single search result card.
      * @param {SearchIndexEntry} entry — the matched search index entry.
-     * @param {Query} query — the parsed query (words plus full lowercase phrase).
+     * @param {Query} query — parsed query with case-insensitive literal matchers.
      * @returns {HTMLDivElement} a .search-result div ready to append.
      */
     function createResultCard(entry, query) {
@@ -519,8 +729,8 @@
             return;
         }
         searchElements.statusElement.textContent = resultCountMessage(scoredResults.length, searchElements.messages);
-        for (const { entry } of scoredResults.slice(0, SearchConfig.MAX_DISPLAYED_RESULTS)) {
-            searchElements.resultsContainer.appendChild(createResultCard(entry, query));
+        for (const result of scoredResults.slice(0, SearchConfig.MAX_DISPLAYED_RESULTS)) {
+            searchElements.resultsContainer.appendChild(createResultCard(result.entry, query));
         }
     }
 
@@ -531,8 +741,7 @@
      * @returns {void}
      */
     function performSearch(searchElements, searchIndex) {
-        const { input, resultsContainer } = searchElements;
-        const query = input.value.trim();
+        const query = searchElements.input.value.trim();
         if (!query) {
             clearSearch(searchElements);
             return;
@@ -543,7 +752,7 @@
             return;
         }
         setQueryInUrl(query);
-        resultsContainer.innerHTML = "";
+        searchElements.resultsContainer.innerHTML = "";
         renderSearchResults(searchElements, collectSearchResults(searchIndex, parsedQuery), parsedQuery);
     }
 
@@ -598,18 +807,18 @@
      * @returns {void}
      */
     function setQueryInUrl(query) {
-        const { fragment, parameters: serializedParameters } = readSearchHash();
-        const parameters = new URLSearchParams(serializedParameters);
+        const searchHash = readSearchHash();
+        const parameters = new URLSearchParams(searchHash.parameters);
         if (query) {
             parameters.set("q", query);
-            window.location.hash = formatSearchHash(fragment, parameters.toString());
+            window.location.hash = formatSearchHash(searchHash.fragment, parameters.toString());
             return;
         }
         if (!parameters.has("q")) {
             return;
         }
         parameters.delete("q");
-        const hash = formatSearchHash(fragment, parameters.toString());
+        const hash = formatSearchHash(searchHash.fragment, parameters.toString());
         // Remove an empty hash without triggering a scroll to top.
         history.replaceState(null, "", `${window.location.pathname}${window.location.search}${hash ? `#${hash}` : ""}`);
     }
@@ -690,11 +899,11 @@
     }
 
     /**
-     * Return a new array with lowercase copies of searchable fields added to each entry.
+     * Return immutable normalized entries without duplicating their text in lowercase.
      * @param {object[]} data — raw search index entries from the JSON file.
      * @returns {SearchIndexEntry[]} new array of normalized entries.
      */
-    function buildLowercaseIndex(data) {
+    function normalizeSearchIndex(data) {
         return data.map(entry => new SearchIndexEntry(entry));
     }
 
@@ -736,7 +945,7 @@
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             }
-            return new SearchLoadResult(SearchLoadStatus.READY, buildLowercaseIndex(await response.json()));
+            return new SearchLoadResult(SearchLoadStatus.READY, normalizeSearchIndex(await response.json()));
         } catch (error) {
             return new SearchLoadResult(SearchLoadStatus.FAILED, null, error);
         }
