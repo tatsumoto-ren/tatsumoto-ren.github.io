@@ -47,10 +47,16 @@
      * Preserve query parameters and fragments because this changes only the host,
      * while leaving local and file previews accessible. Pages already on the
      * canonical hostname are left to the server to normalize protocols and ports.
+     * Keep the Neocities mirror accessible without sending readers elsewhere.
      * @returns {void}
      */
     function redirectToCanonicalDomain() {
         if (location.protocol === "file:" || isLocalHostname(location.hostname)) {
+            return;
+        }
+        // Match only our Neocities hostname, not other sites hosted on Neocities.
+        // https://developer.mozilla.org/en-US/docs/Web/API/Location/hostname
+        if (location.hostname === "tatsumoto.neocities.org") {
             return;
         }
         const canonicalLink = document.querySelector('link[rel="canonical"]');

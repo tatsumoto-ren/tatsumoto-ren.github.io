@@ -113,7 +113,7 @@ describe("canonical domain redirect destinations", (): void => {
     test.each([
         {
             name: "preserves mirror query parameters and fragments",
-            currentUrl: "https://tatsumoto.neocities.org/ru/guide.html?source=mirror#step",
+            currentUrl: "https://tatsumoto-ren.github.io/ru/guide.html?source=mirror#step",
             canonicalUrl: "https://ajatt.top/ru/guide.html",
             expectedUrl: "https://ajatt.top/ru/guide.html?source=mirror#step",
         },
@@ -130,6 +130,18 @@ describe("canonical domain redirect destinations", (): void => {
             expectedUrl: "https://ajatt.top/blog/guide.html",
         },
         {
+            name: "redirects other Neocities sites",
+            currentUrl: "https://other.neocities.org/blog/guide.html",
+            canonicalUrl: "https://ajatt.top/blog/guide.html",
+            expectedUrl: "https://ajatt.top/blog/guide.html",
+        },
+        {
+            name: "does not exempt a hostname containing the Neocities mirror hostname",
+            currentUrl: "https://tatsumoto.neocities.org.example.com/blog/guide.html",
+            canonicalUrl: "https://ajatt.top/blog/guide.html",
+            expectedUrl: "https://ajatt.top/blog/guide.html",
+        },
+        {
             name: "does not treat a 127 subdomain as loopback",
             currentUrl: "https://127.example.com/blog/guide.html",
             canonicalUrl: "https://ajatt.top/blog/guide.html",
@@ -140,6 +152,18 @@ describe("canonical domain redirect destinations", (): void => {
 
 describe("canonical domain redirect bypasses", (): void => {
     test.each([
+        {
+            name: "Neocities mirror with query parameters and a fragment",
+            currentUrl: "https://tatsumoto.neocities.org/ru/guide.html?source=mirror#step",
+            canonicalUrl: "https://ajatt.top/ru/guide.html",
+            expectedUrl: null,
+        },
+        {
+            name: "Neocities mirror over HTTP",
+            currentUrl: "http://tatsumoto.neocities.org/blog/guide.html",
+            canonicalUrl: "https://ajatt.top/blog/guide.html",
+            expectedUrl: null,
+        },
         {
             name: "canonical hostname with URL state",
             currentUrl: "https://ajatt.top/blog/guide.html?source=main#step",
