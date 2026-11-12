@@ -13,7 +13,6 @@
         "coverage": "vitest run --coverage",
         "bump:deps": "bash scripts/bump_deps.sh",
         "copy:site": "bash scripts/copy_site.sh",
-        "sync:site": "bash scripts/rclone_sync.sh",
         "format": "bash scripts/format.sh"
     },
     "devDependencies": {
