@@ -16,27 +16,12 @@ and why balancing listening and reading is crucial for mastering any language.
 
 ****
 
-## The Impact of Reading on Perception
-
-Native speakers process language on a subconscious level,
-so it's only logical that the best way to learn a language is [through immersion](whats-immersion.html).
-When people read, they inevitably analyze the language.
-They can go at their own pace, taking time to process and think about every word.
-Consequently,
-when you learn through reading,
-you engage entirely different parts of your brain compared to those of native speakers.
-Essentially,
-you end up learning not the language itself,
-but rather how to translate it into your own mental model,
-a sort of *mathematical formula* defined by words and grammatical rules.
-Once your brain gets used to understanding language through this analytical lens,
-there's no going back.
-It's hard to revert to the natural intuitive processing that native speakers use.
-At best,
-you might be able to train yourself to a point where it becomes automatic,
-but the experience will still differ
-from the natural perception of a native speaker
-who learns to read years after acquiring the language.
+## The Impact of Premature Reading on Language Perception
+Premature reading is not AJATT, and it's boring before meeting some conditions such as [Phonological awareness](https://en.wikipedia.org/wiki/Phonological_awareness) that you acquire as you immerse and learn more about the language through analyzing speech primarily (other methods involve not analyzing them yourself).
+[Phonemic awareness]https://en.wikipedia.org/wiki/Phonemic_awareness is the very first thing that you develop when learning a language these days.
+You'll not be able to read before getting the getting the gist of it through listening.
+Reading is not the problem in having bad phonetic awareness but lack of extensive listening and immersion on spoken material. The order of developing these skills doesn't matter that much if you have the big goal of getting fluent just enjoy your time.
+Premature reading may have been a problem before [Multimedia_learning]https://en.wikipedia.org/wiki/Learning_theory_(education)#Multimedia_learning but now it is just not even possible unless someone forces you to it. AJATT is all about enjoying learning Japanese not forcing yourself to do it, if you aren't sure please read https://en.wikipedia.org/wiki/Transformative_learning# .
 
 ## How Spoken and Written Language Differ
 
