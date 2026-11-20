@@ -12,6 +12,11 @@ Here you'll find everything you need to know about learning Japanese.
 * https://tatsumoto-ren.github.io/
 * https://tatsumoto.neocities.org/
 
+## Russian translation
+
+You can also browse the guide's
+[Russian table of contents](https://ajatt.top/ru/table-of-contents.html).
+
 ## Contributing
 
 When proposing changes to the site's contents,
