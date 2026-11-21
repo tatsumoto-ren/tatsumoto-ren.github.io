@@ -1,419 +1,366 @@
 ---
-title: "Acquisition vs Learning"
+title: "Усвоение и изучение"
 date: "08 June 2026"
 tags: ["guide"]
+updated: "20 November 2026"
 ---
 
-<div class="translation-note">
+Есть два основных подхода к освоению иностранного языка:
+**усвоение** (language acquisition) и **изучение** (learning).
+Метод [AJATT](whats-ajatt.html) опирается на усвоение языка, а не на его изучение.
+Разница между усвоением и изучением лежит в основе метода AJATT.
+Если вы хотите заниматься по этому методу, важно её понимать.
 
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-When it comes to learning a foreign language,
-there are two primary approaches: **acquisition** and **learning**.
-[AJATT](whats-ajatt.html) is a language learning technique
-that focuses on acquiring the language rather than learning it.
-The distinction between learning and acquisition
-is one of the most fundamental and important concepts to understand
-when it comes to applying the AJATT method.
-
-In this article,
-we'll explore the differences between acquisition and learning,
-and why AJATT focuses primarily on acquisition rather than learning.
+В этой статье мы разберём, чем усвоение отличается от изучения
+и почему в AJATT главное внимание уделяется именно усвоению.
 
 ****
 
-## Origin
+## Откуда взялась эта идея
 
-This idea originally comes from the linguist Stephen Krashen.
-He came up with [five hypotheses](https://en.wikipedia.org/wiki/Input_hypothesis)
-related to language acquisition (インプット仮説).
-One of those hypotheses was the *Acquisition-Learning* hypothesis.
-It states that there are two ways to develop language ability:
-one is **learning** and the other is **acquisition**.
+Эту идею предложил лингвист Стивен Крашен.
+Он сформулировал [пять гипотез](https://en.wikipedia.org/wiki/Input_hypothesis)
+об усвоении языка, которые вместе называют гипотезой входного материала (Input Hypothesis,
+インプット仮説).
+Одна из них называется [*гипотезой о различии между усвоением и изучением*](https://www.sdkrashen.com/content/books/principles_and_practice.pdf#page=17)
+(Acquisition-Learning Hypothesis).
+Согласно этой гипотезе, владение языком можно развить двумя способами: **изучая** или **усваивая** его.
 
-> The acquisition-learning hypothesis claims that there is a strict separation
-> between acquisition and learning. Krashen saw acquisition as a purely
-> subconscious process and learning as a conscious process, and claimed that
-> improvement in language ability was only dependent upon acquisition and never
-> on learning.
+> Согласно этой гипотезе, усвоение и изучение строго разделены.
+> Крашен считал усвоение полностью подсознательным процессом, а изучение сознательным.
+> Он утверждал, что уровень владения языком растёт только за счёт усвоения, а не изучения.
+>
+> &mdash; [Википедия](https://en.wikipedia.org/wiki/Input_hypothesis#Overview)
 
-## Learning
+## Изучение
 
-Learning (or studying) is basically [what we do in school](are-textbooks-bad.html).
-It is when you sit down and consciously memorize
-vocabulary and [grammar](learning-grammar.html) rules in your target language.
-In other words,
-you are consciously stocking up on information about the language.
-When you're listening or reading,
-you recall this information and use it to decode the language that is coming in.
-When you need to speak or write,
-you use the memorized rules and vocabulary to produce the language.
+Изучение языка, или сознательные занятия им (studying), мало чем отличается от того,
+[чем мы занимаемся в школе](are-textbooks-bad.html).
+Вы садитесь за уроки и сознательно заучиваете слова и правила
+[грамматики](learning-grammar.html) изучаемого языка (target language, TL).
+Другими словами, вы намеренно накапливаете знания о языке.
+Во время слушания или чтения вы вспоминаете эти сведения,
+чтобы разобраться в услышанном или прочитанном.
+Когда вам нужно что-нибудь сказать или написать, вы опираетесь на заученные правила и слова.
 
-Learning a language solely through studying is known as the "skill-building" approach.
-The basic idea is that
-you first consciously study vocabulary and grammar rules,
-then do a lot of speaking practice using those rules and vocabulary.
-If you practice enough,
-you will build strong speaking skills,
-and eventually using the language should become intuitive and natural.
-Hence the name "*skill-building*."
+Подход, при котором язык осваивают только через сознательное изучение и последующую отработку,
+называют **формированием навыков** (skill-building).
+Идея проста: сначала вы сознательно учите слова и грамматические правила,
+а потом много тренируетесь говорить, применяя их.
+Предполагается, что при достаточной практике вы научитесь хорошо говорить,
+а со временем начнёте пользоваться языком интуитивно и естественно.
+Отсюда и название: *формирование навыков*.
 
-Most language learning solutions focus on skill-building rather than acquisition.
-**And that is why they are not effective**.
-They teach vocabulary and grammar as building blocks for constructing sentences.
-Using this method,
-you learn to translate your thoughts from your native language (NL) into your target language (TL).
-**No amount of skill-building will make you fluent**.
+Большинство методов изучения языков опираются на формирование навыков, а не на усвоение.
+**Именно поэтому они неэффективны**.
+Слова и грамматику преподают как набор деталей, из которых можно собирать предложения.
+Так вы учитесь переводить свои мысли с родного языка (native language, NL) на изучаемый.
+**Одним лишь формированием навыков свободного владения языком не добиться**.
 
-## Acquisition
+## Усвоение
 
-On the other hand, we have **acquisition**.
-"Acquiring" a language means building an intuitive knowledge of it.
-Acquisition is a subconscious, intuitive process.
-With the right kinds of exposure to your target language,
-you naturally gain the ability to understand it and later to speak it.
-**Acquisition is how we all learned our native language** (NL).
-Children unconsciously learn to recognize patterns in their first language
-by understanding messages.
-When we were little,
-we were not taught vocabulary and grammar rules directly.
-Our moms didn't sit us down with conjugation tables and word lists.
-We were exposed to our native language for thousands of hours,
-and over time we slowly became able to understand it
-and eventually reproduce it ourselves.
+Другой подход называется **усвоением**.
+Усваивать язык значит приобретать интуитивное знание о том, как он устроен.
+Усвоение происходит подсознательно и опирается на интуицию.
+Если вы воспринимаете подходящий материал на изучаемом языке,
+то естественным образом учитесь сначала понимать язык, а затем и говорить на нём.
+**Именно через усвоение мы все освоили свой родной язык**.
+Понимая смысл обращённых к ним сообщений,
+дети неосознанно учатся замечать закономерности родного языка.
+В детстве нас специально не учили словам и грамматическим правилам.
+Мамы не усаживали нас за таблицы спряжений и списки слов.
+Мы слышали родную речь на протяжении тысяч часов и постепенно научились её понимать,
+а со временем и сами заговорили.
 
-The downside is that pure acquisition can be
-[hard for beginners who have no prior knowledge of the language](is-it-helpful-to-immerse-if-i-barely-understand.html).
-It requires more time upfront than studying grammar rules,
-but the long-term payoff is far greater.
+У этого подхода есть и обратная сторона: полагаться лишь на усвоение
+[бывает трудно новичкам, которые ещё совсем не знают языка](is-it-helpful-to-immerse-if-i-barely-understand.html).
+В самом начале на это уходит больше времени, чем на изучение грамматических правил,
+но в долгосрочной перспективе результат гораздо лучше.
 
-When you acquire a language through [immersion](whats-immersion.html),
-it is not really a conscious process.
-You give your brain enough exposure,
-and the subconscious part of your mind
-that is dedicated to language acquisition
-does all the work for you,
-and you get to reap the benefits.
+Усвоение языка через [иммерсию](whats-immersion.html) (immersion) происходит неосознанно.
+Вы даёте мозгу достаточно материала на языке.
+Дальше та часть мозга, которая отвечает за усвоение языка,
+подсознательно делает всю работу, а вы пользуетесь результатом.
 
-For example,
-you might watch a TV show in your target language,
-or have a conversation in your TL,
-and although subjectively you may not feel like you are learning anything,
-subconsciously,
-in the background,
-below your level of awareness there is a part of your brain
-that analyzes the language coming in,
-running pattern recognition,
-and working out word meanings and structures.
-You gain intuitive ability even if you do not notice it.
+К примеру, вы смотрите сериал на изучаемом языке или разговариваете на нём.
+Вам может казаться, что вы ничему не учитесь.
+Тем временем часть мозга незаметно для вас анализирует речь, которую вы слышите,
+распознаёт закономерности и выясняет значения слов и то, как устроены языковые конструкции.
+Вы приобретаете интуитивное владение языком, даже если не замечаете этого.
 
-After you finish that episode or finish the conversation,
-you may not feel different,
-you may not feel like you have learned anything,
-but the next day while watching another show
-you might suddenly understand words you never understood before.
-You might think,
-"Hey, I know that word, but I can't remember studying it."
+Досмотрев серию или закончив разговор, вы можете не заметить никаких перемен.
+Вам может показаться, что вы ничему не научились.
+Но на следующий день за просмотром другого сериала вы можете вдруг понять слова,
+которых раньше не понимали.
+Вы можете подумать: «О, я знаю это слово!
+Но не помню, чтобы его заучивал».
 
-Your subconscious brain is essentially building a model of how the language works.
-Once this model is built,
-you can use it to speak in a natural, intuitive way,
-without having to think consciously about grammar and vocabulary.
+По сути, мозг подсознательно строит модель того, как устроен язык.
+Когда эта модель сформируется, вы сможете опираться на неё,
+чтобы говорить естественно и интуитивно, не задумываясь о грамматике и словах.
 
-## Why learning doesn't work
+## Почему изучение не работает
 
-In traditional language-learning curricula that focus on "learning,"
-there's an implicit assumption that if you consciously learn something
-and practice it enough while speaking,
-it will eventually sink into your subconscious,
-and you will acquire it.
-In theory,
-that skill-building approach sounds reasonable,
-but in practice it is completely and utterly ineffective
-at helping people reach high levels in foreign languages.
+Традиционные программы, в которых упор делается на изучение языка,
+исходят из негласного предположения, что если вы сознательно что-то выучите
+и будете достаточно отрабатывать это в речи,
+то выученное со временем закрепится в подсознании и таким образом усвоится.
+В теории такой подход к формированию навыков кажется разумным.
+На практике же он совсем не помогает добиться высокого уровня владения иностранным языком.
 
-For example,
-speakers of article-less languages make systematic article errors in English.
-They consistently swap "a" and "the" based on whether a noun feels specific.
-A Japanese speaker might say "I saw **the** interesting movie last night"
-when they should say "I saw **an** interesting movie last night."
-They overuse "the" with nouns that feel specific, even when "a" is correct.
-They might also say "She is doctor" instead of "She is **a** doctor,"
-omitting the article entirely where their first language has no equivalent.
+Например, носители языков, в которых нет артиклей,
+систематически ошибаются с артиклями в английском.
+Они постоянно путают «a» и «the» в зависимости от того,
+кажется ли им, что существительное обозначает что-то конкретное.
+Носитель японского может сказать «I saw **the** interesting movie last night»
+вместо «I saw **an** interesting movie last night».
+Такие люди слишком часто ставят «the» перед существительными,
+которые кажутся им конкретными, даже когда нужен «a».
+Ещё они могут сказать «She is doctor» вместо «She is **a** doctor».
+Они совсем опускают артикль там, где в их родном языке ему нет соответствия.
 
-These speakers know the grammar rules for articles.
-They learned them in school.
-But knowing a rule consciously is different from having acquired it.
+Эти люди знают правила употребления артиклей.
+Они выучили их в школе.
+Но сознательно знать правило и усвоить его не одно и то же.
 
-To get it right when speaking,
-every time they want to say a sentence,
-they have to stop, recall the rule, and apply it.
-In the middle of a conversation you usually don't have time to consciously recall rules,
-so it's not very useful then.
-People still make mistakes even though,
-if they stopped to think, they could get the right answer.
-If you've acquired the language,
-you speak correctly intuitively without thinking about rules.
+Чтобы сказать фразу правильно, им приходится каждый раз останавливаться,
+вспоминать правило и применять его.
+В разговоре обычно нет времени вспоминать правила, так что пользы от них в этот момент мало.
+Люди всё равно ошибаются, хотя могли бы сказать правильно, если бы остановились и подумали.
+Если вы усвоили язык, то говорите правильно интуитивно, не задумываясь о правилах.
 
-Practicing a grammar rule over and over
-can make you faster at applying it and build good habits,
-but you won't reach deep native-like intuition
-and consistent high accuracy just by drilling rules.
-To get to that level you have to actually acquire the language.
+Если много упражняться в применении грамматического правила,
+можно научиться применять его быстрее и выработать полезные привычки.
+Но одними упражнениями не добиться ни такого же глубокого чутья, как у носителей языка,
+ни такой же точности в речи раз за разом.
+Чтобы выйти на этот уровень, нужно именно усвоить язык.
 
-Learning vocabulary and rules,
-and then drilling them doesn't work as well as immersion and language acquisition.
-The part of your brain that consciously understands abstract principles like grammar
-is different from the part that naturally and intuitively acquires language through exposure.
-Those two parts do not communicate much and they learn in different ways.
+Заучивание и отработка слов и правил не дают такого результата, как иммерсия и усвоение языка.
+Умение осознанно понимать абстрактные принципы вроде грамматических правил
+связано не с той частью мозга, которая усваивает язык естественно и интуитивно, воспринимая его.
+Эти две части мозга мало взаимодействуют и учатся по-разному.
 
-The language-acquisition center in your brain
-learns from concrete examples and forms abstractions itself,
-whereas when you learn a grammar rule,
-you are taught an abstraction from the outside and process it consciously.
-Those are two different processes.
+Центр усвоения языка в мозге учится на конкретных примерах и сам выводит из них общие принципы.
+А когда вы учите грамматическое правило,
+вам дают готовый абстрактный принцип, и вы осмысливаете его сознательно.
+Это два разных процесса.
 
-That said, conscious knowledge of grammar can serve as a "monitor" for self-correction.
-When you have time to think,
-such as when writing or reviewing your own speech,
-knowing grammar rules lets you catch and fix errors.
-But this monitor is too slow to use in real-time conversation,
-and it doesn't help you acquire the language.
+Тем не менее сознательное знание правил грамматики может служить «монитором» (monitor),
+который помогает исправлять собственные ошибки.
+Когда есть время подумать, например при письме или разборе собственной речи,
+знание грамматических правил помогает замечать и исправлять ошибки.
+Но этот монитор работает слишком медленно для живого разговора и не помогает усваивать язык.
 
-## Acquisition and grammar
+## Усвоение и грамматика
 
-In our native language,
-most of us don't know grammar rules,
-yet we can produce grammatically correct sentences.
-We just know what sounds right and what doesn't.
-When speaking,
-we don't have to think about grammar or vocabulary.
-We think about the meaning we want to convey and the words come naturally.
+Большинство из нас не знает правил грамматики родного языка,
+но умеет строить грамматически правильные предложения.
+Мы просто знаем, что звучит правильно, а что нет.
+Когда мы говорим, нам не нужно задумываться о грамматике или словах.
+Мы думаем о том, что хотим сказать, а слова приходят сами.
 
-For example,
-if you're fluent in English,
-you'd agree that the phrase "*the big red dog*" sounds more natural than "*the red big dog*".
-In English,
-when you stack multiple adjectives on top of each other,
-they must be in a certain order for a sentence to be grammatically correct.
-You probably aren't aware of the
-[grammar rule](https://dictionary.cambridge.org/ja/grammar/british-grammar/adjectives-order)
-that explains why,
-yet you can still tell that "the big red dog" is correct and "the red big dog" sounds off.
-That means somewhere in your subconscious you know this rule,
-and you have direct access to it in the form of **intuition**.
-You know what is right because it feels right, and what is wrong because it feels wrong.
+Если вы свободно владеете английским, то согласитесь,
+что «*the big red dog*» звучит естественнее, чем «*the red big dog*».
+Если в английском предложении несколько прилагательных стоят подряд,
+они должны идти в определённом порядке, чтобы предложение было грамматически правильным.
+Возможно, вы не знаете
+[правила](https://dictionary.cambridge.org/ja/grammar/british-grammar/adjectives-order),
+которое это объясняет, но всё равно слышите,
+что «the big red dog» звучит правильно, а «the red big dog» странно.
+Значит, где-то в подсознании вы знаете это правило и можете сразу опереться на него
+благодаря **интуиции**.
+Правильный вариант вы узнаёте по тому, как естественно он звучит, а неправильный режет слух.
 
-This is the true mark of acquisition.
-It is something you have direct,
-automatic access to without conscious effort or thinking.
-You have acquired English because you can understand everything on this page without trying.
-In fact,
-if I told you to stop understanding, you could not.
-Once you have acquired a language,
-you cannot help but understand it.
-It is completely automatic and natural.
+Вот верный признак усвоения.
+Усвоенным можно пользоваться сразу и автоматически, без сознательных усилий и раздумий.
+Если вы без усилий понимаете всё в [английском оригинале этой статьи](../blog/acquisition-vs-learning.html),
+значит, вы усвоили английский.
+Даже если бы я попросил вас перестать понимать, у вас бы не получилось.
+Когда вы усвоили язык, его невозможно не понимать.
+Это происходит совершенно естественно и автоматически.
 
-## Common set phrases
+## Устойчивые выражения
 
-Acquiring a language through immersion may seem counter-intuitive.
-After all, the skill-building approach is how you learned every other subject in school.
-However, language is different.
-It does not operate by rules.
-Linguists create rules to describe how a language already works, not to make it work.
+Идея усваивать язык через иммерсию может показаться странной.
+В конце концов, именно так, через формирование навыков, вы осваивали все остальные школьные предметы.
+Но с языком всё иначе.
+Он работает не по правилам.
+Лингвисты формулируют правила, чтобы описать, как уже работает язык, а не заставить его работать.
 
-Instead, language operates by patterns.
-Language is a collection of patterns.
-In other words,
-human language is **highly specific in unpredictable ways**.
+В языке действуют закономерности.
+Из этих закономерностей он и складывается.
+Иными словами, в человеческом языке **много конкретных оборотов, которые трудно предугадать**.
 
-Different languages express the same basic ideas in entirely unique ways.
-Native speakers tend to use **conventional set phrases**,
-so what sounds "natural" or "unnatural" in your target language often has no clear reason.
-You can sometimes translate a phrase word-for-word between English and Japanese,
-or vice versa, but it probably won't make sense, and even if it does, it will not sound natural.
-The examples below use Japanese and English, but the same principles apply to almost any language.
+Каждый язык по-своему выражает даже одни и те же простые мысли.
+Носители языка обычно пользуются **устоявшимися выражениями**,
+поэтому часто непонятно, почему на изучаемом языке одна фраза звучит естественно, а другая нет.
+Иногда фразу можно перевести дословно с русского на японский или наоборот,
+но, скорее всего, смысл потеряется.
+Даже если он сохранится, фраза будет звучать неестественно.
+Ниже приведены примеры из русского и японского, но те же принципы применимы почти к любому языку.
 
-| English                                              | Japanese                | Literal translation                                        |
-| ---                                                  | ---                     | ---                                                        |
-| How are you?                                         | お元気ですか？          | Are you energetic? Are you healthy?                        |
-| I'm hungry.                                          | お腹空いた. お腹減った. | My stomach has become empty. My stomach has reduced.       |
-| I'm angry.                                           | 腹が立つ                | My belly stands up.                                        |
-| I'm thirsty.                                         | 喉が渇いた              | My throat dried up.                                        |
-| I play the piano.                                    | ピアノを弾く            | I *pluck* the piano. (because Pianos have strings inside)  |
-| Tell me your phone number.                           | 電話番号教えて          | *Teach me* your phone number.                              |
-| Have you seen my phone? Do you know where it is?     | 携帯知らない？          | Do you *know* my phone?                                    |
-| I need to go to the bathroom.                        | トイレ行きたい.         | I *want* to go to the bathroom.                            |
-| Take your medicine.                                  | 薬を飲んで              | *Drink* your medicine.                                     |
-| I had a dream.                                       | 夢を見た                | I *saw* a dream.                                           |
-| Keep your promise.                                   | 約束を守って            | *Protect* your promise.                                    |
+| По-русски | По-японски | Дословно с японского |
+| --- | --- | --- |
+| Как дела? | お元気ですか？ | Вы бодры? Вы здоровы? |
+| Я хочу есть. | お腹空いた / お腹減った | У меня опустел живот. / У меня уменьшился живот. |
+| Я злюсь. | 腹が立つ | У меня живот встаёт. |
+| Я играю на пианино. | ピアノを弾く | Я *щиплю* пианино (потому что внутри у него есть струны). |
+| Скажите свой номер телефона. | 電話番号教えて | *Научите* своему номеру телефона. |
+| Вы не видели мой телефон? Не знаете, где он? | 携帯知らない？ | Вы *знаете* мой телефон? |
+| Сдержите обещание. | 約束を守って | *Защитите* своё обещание. |
+| Помогите, пожалуйста. | 手を貸してください | *Одолжите руку*, пожалуйста. |
+| Он не умеет хранить секреты. | 彼は口が軽い | У него *лёгкий рот*. |
+| Мне трудно есть и пить горячее. | 猫舌です | У меня *кошачий язык*. |
+| Разговор идёт оживлённо. | 話が弾む | Разговор *подпрыгивает*. |
 
-Literal translations are normally not how we say things.
-Every language has its own arbitrary set phrases for expressing ideas.
-Native speakers almost always express the same idea the same way,
-using the exact same words in the same order.
-It is not a creative process.
-It is just set in stone.
-We all do it the same way.
-We always do it the same way every time.
+Некоторые дословные переводы из [английской таблицы](../blog/acquisition-vs-learning.html#common-set-phrases)
+по-русски и так звучат естественно: «У меня пересохло горло» (喉が渇いた),
+«Я хочу в туалет» (トイレ行きたい), «Выпейте лекарство» (薬を飲んで) и «Я увидел сон» (夢を見た).
 
-This means that if your strategy for speaking a foreign language
-is to think in your native language and then use memorized grammar rules and vocabulary
-to translate those thoughts into the target language,
-then at best you'll be understood but will probably sound odd,
-and at worst you will not be understood at all.
+Обычно мы говорим не так, как в дословных переводах.
+В каждом языке есть свои устойчивые выражения,
+и не всегда можно объяснить, почему закрепились именно они.
+Носители почти всегда выражают одну и ту же мысль одинаково, теми же словами в том же порядке.
+Выражение не придумывают заново.
+Оно уже закрепилось в языке.
+Мы все говорим одинаково.
+И каждый раз говорим так же.
 
-For example,
-a Japanese speaker thinking in Japanese and translating into English
-might say "can you teach me your phone number?"
-instead of "can I get your phone number?",
-or "do you know my phone?"
-instead of "have you seen my phone?"
-In the first case you'd probably still understand them, though it sounds odd.
-In the second case you might not even know what they're talking about.
+Если в разговоре на иностранном языке вы сначала думаете на родном,
+а потом переводите свои мысли на изучаемый язык с помощью заученных правил и слов,
+то в лучшем случае вас поймут,
+но звучать вы, скорее всего, будете странно.
+В худшем случае вас вообще не поймут.
 
-## Different ideas in different languages
+Например, носитель японского, который думает на японском,
+а потом переводит свои мысли на русский,
+может сказать «Научите своему номеру телефона» вместо «Скажите свой номер телефона»
+или «Вы знаете мой телефон?» вместо «Вы не видели мой телефон?».
+В первом случае вы, скорее всего, всё равно поймёте, что вам хотят сказать,
+хотя фраза звучит странно.
+Во втором случае вы можете даже не понять, о чём речь.
 
-Not only do different languages express the same ideas differently,
-they express entirely different ideas in the first place.
-There are words in Japanese that have no English equivalent.
-These are ideas that Japanese people express all the time
-that English speakers just never have reason to express.
+## Разные мысли в разных языках
 
-For example, the word 即答 means "instant response."
-Imagine you ask someone out on a date
-and the second you ask, they immediately say "no."
-In Japanese, a common reaction would be to say 即答, meaning "instant response,"
-basically "you didn't even think about it."
-You responded so quickly and confidently
-that you didn't even have to think about it for a second.
-This is a common thing that happens in Japanese interactions.
-There's a word for it, but there's no equivalent in English.
+Разные языки не просто по-разному выражают одни и те же мысли.
+В каждом из них выражают и мысли, которых не принято выражать в других языках.
+В японском есть слова, которым нет соответствия в английском.
+Японцы постоянно выражают эти мысли,
+а у носителей английского попросту не возникает повода их выражать.
 
-Another example: 逆ギレ, which literally translates to "reverse anger."
-It's when someone who is clearly in the wrong gets angry anyway,
-kind of in an attempt to defend themselves.
-Imagine you put your yogurt in the fridge and told me not to eat it,
-but I go and eat it anyway.
-The next day you confront me,
-and I get mad at *you* and say,
-"well, if you didn't want me to eat your yogurt,
-you shouldn't have put it in the fridge in the first place!"
-I'm clearly in the wrong, but I'm getting angry to defend myself.
-In Japanese, there's a word for this exact behavior: 逆ギレ.
-If we were Japanese speakers, you'd say 逆ギレ,
-meaning "what the heck, why are you getting reverse angry? You're clearly in the wrong!"
+Например, слово 即答 означает «мгновенный ответ».
+Представьте, что вы приглашаете кого-то на свидание, а в ответ тут же слышите «нет».
+В такой ситуации японцы часто говорят 即答, то есть «мгновенный ответ».
+По сути, это значит: «Вы даже не задумались».
+Вы ответили так быстро и уверенно, что вам не понадобилось ни секунды на раздумья.
+В разговорах на японском такое случается часто.
+В японском для этого есть слово, а в английском ему нет соответствия.
 
-Japanese people express ideas that English speakers just don't have words for.
+Другой пример: 逆ギレ, что дословно переводится как «обратная злость».
+Так говорят, когда человек явно не прав, но всё равно злится, словно пытаясь себя защитить.
+Представьте, что вы положили свой йогурт в холодильник и попросили меня его не есть,
+а я всё равно его съел.
+На следующий день вы предъявляете мне претензию.
+А я злюсь на *вас* и говорю: «Раз не хотели, чтобы я съел ваш йогурт,
+так нечего было вообще ставить его в холодильник!»
+Я явно не прав, но злюсь, чтобы защитить себя.
+В японском есть слово именно для такого поведения: 逆ギレ.
+Если бы мы говорили по-японски, вы бы сказали 逆ギレ, подразумевая:
+«Да с чего это вы на меня злитесь?
+Вы же сами не правы!»
 
-## Language isn't math
+Японцы выражают мысли, для которых у носителей английского просто нет слов.
 
-So what all these examples show is that because native speech is **set in stone**,
-meaning native speakers tend to say the same things the same way every time,
-and **highly specific in unpredictable ways**, abstraction alone won't get you very far.
-If you want to express an idea in a way that sounds natural to native speakers,
-you have to know the exact, specific phrasing they use.
-And if you want to speak like a native,
-you also have to know the kinds of ideas native speakers tend to express in the first place.
-Either you already know how native speakers speak and can imitate them,
-or you don't and you're making blind guesses based on your native language.
-And when you do that, you will be wrong most of the time.
+## Язык не математика
 
-Language simply isn't like math,
-where you can use a formula to deduce the answer.
-Either you already know the answer ahead of time, or you're stuck.
-There is no room for guessing or for getting creative.
+Все эти примеры показывают, что одними абстракциями далеко не уйдёшь.
+В речи носителей многие обороты **уже устоялись**: одну и ту же мысль обычно выражают одинаково.
+При этом в языке **много конкретных оборотов, которые трудно предугадать**.
+Чтобы выразить мысль так, чтобы она звучала естественно для носителей,
+нужно точно знать, как они её формулируют.
+А если вы хотите говорить как носитель,
+ещё нужно знать, какие мысли носители вообще обычно выражают.
+Либо вы уже знаете, как говорят носители, и можете им подражать,
+либо вы этого не знаете и строите догадки, опираясь на родной язык.
+В таком случае вы чаще всего будете ошибаться.
 
-Of course there is plenty of room to be clever and creative when it comes to language use.
-Otherwise, things like poetry wouldn't exist.
-But creative use of language depends on having mastered the patterns first.
+Язык не математика, где ответ можно вывести по формуле.
+Либо вы уже знаете ответ, либо заходите в тупик.
+Тут не помогут ни догадки, ни изобретательность.
 
-If you try to be creative before you've essentially mastered the target language,
-you'll at best sound weird and unnatural,
-and at worst you won't be understood at all.
+Конечно, язык даёт немало возможностей проявить находчивость и творческий подход.
+Иначе такой вещи, как поэзия, просто не существовало бы.
+Но чтобы творчески пользоваться языком, сначала нужно освоить его закономерности.
 
-## Replicating acquisition
+Если вы попробуете проявить изобретательность, пока ещё не освоили изучаемый язык почти полностью,
+то в лучшем случае будете звучать странно и неестественно.
+В худшем случае вас вообще не поймут.
 
-As you can see,
-learning something does not mean you have acquired it.
-And acquiring something does not necessarily mean you know anything about it.
-These are completely separate processes.
-Because native speakers operate almost entirely from acquired ability,
-if you want to function like a native speaker you need to acquire the language as well.
+## Как воссоздать процесс усвоения
 
-Children acquire language because
-they continuously hear their parents speak to them.
-Eventually their brains pick up the patterns and they learn how to speak.
+Как видите, выучить что-то не значит это усвоить.
+Если вы что-то усвоили, это ещё не значит, что у вас есть осознанные знания об этом.
+Это совершенно разные процессы.
+Носители почти целиком опираются на то, что усвоили,
+поэтому, чтобы пользоваться языком как носитель, вам тоже нужно его усвоить.
 
-The reason babies can acquire language is that
-there are parts of our brain that are specifically dedicated to language acquisition.
-Our brains are pattern-recognition machines,
-wired to decode and absorb the language we get a lot of exposure to.
-Every one of us is born with the ability to naturally acquire language.
+Дети усваивают язык, потому что постоянно слышат, как разговаривают родители.
+Со временем их мозг улавливает закономерности, и дети учатся говорить.
 
-Contrary to popular belief, this ability
-[does not disappear when you become an adult](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
-The idea that Stephen Krashen is suggesting is that even as adults
-we still have access to this function.
-And that is what the experience of myself and many others has shown as well.
-Everybody who did AJATT essentially became native level in Japanese
-or any other language they wanted to learn through this process of acquisition,
-provided they didn't slack off of course.
-This process is unconscious, and it is similar to how infants learn languages.
-In fact, by pairing your mature analytical mind with your innate language acquisition ability,
-you can learn languages *faster* than children.
+Младенцы могут усваивать язык, потому что в нашем мозге есть участки, отвечающие именно за это.
+Мозг устроен так, чтобы распознавать закономерности, разбирать и усваивать язык,
+с которым мы много соприкасаемся.
+Каждый из нас рождается со способностью естественно усваивать язык.
 
-As adults, we don't have a parent to talk to us 24/7,
-but we do have access to the whole of the Internet.
-Using movies, anime, dramas, manga, books, and other widely available media,
-we can emulate the language acquisition process that children experience.
-Immersion also gives you firsthand experience of the language and culture,
-which makes the language learning process more fun, enjoyable, and meaningful.
+Вопреки распространённому мнению, эта способность
+[не исчезает, когда вы взрослеете](im-not-a-kid-anymore-am-i-too-old-to-learn-a-language.html).
+Стивен Крашен предполагает, что мы сохраняем эту способность и во взрослом возрасте.
+Мой опыт и опыт многих других людей тоже это показывают.
+Все, кто занимался по методу AJATT, благодаря усвоению достигли практически уровня носителя
+в японском или в другом языке, который хотели освоить, если, конечно, не отлынивали.
+Усвоение происходит неосознанно, как у младенцев, которые осваивают язык.
+Более того, сочетая развитое аналитическое мышление с врождённой способностью усваивать язык,
+вы можете осваивать языки *быстрее* детей.
 
-## How to acquire a language
+С нами, взрослыми, родители не разговаривают круглые сутки, зато нам доступен весь интернет.
+Фильмы, аниме, дорамы, манга, книги и другие общедоступные материалы помогают
+воспроизвести процесс, через который дети усваивают язык.
+Иммерсия также позволяет познакомиться с языком и культурой на собственном опыте,
+поэтому занятия становятся интереснее, приятнее и осмысленнее.
 
-To acquire your target language,
-you first need to learn to [understand it](what-is-comprehensible-input.html).
-With the right kind of exposure,
-you'll gradually be able to understand more and more.
+## Как усвоить язык
 
-Once you can understand everything you read and hear,
-speaking usually comes naturally.
-When you want to say something,
-phrases in the target language start popping up just like they do in your native language.
-That said,
-achieving native-like results requires a lot of [practice](can-i-speak-early.html).
+Чтобы усвоить изучаемый язык, сначала нужно научиться
+[понимать его](what-is-comprehensible-input.html).
+Если правильно организовать иммерсию, вы постепенно будете понимать всё больше.
 
-After you acquire enough of the language and start practicing speaking,
-it will feel like your native language.
-You will not need to think about grammar rules or conjugations.
-You will just know what feels right.
-With enough speaking practice,
-the language will be there when you need it.
+Когда вы сможете понимать всё, что читаете и слышите, говорить обычно получается само собой.
+Когда вы захотите что-нибудь сказать,
+фразы на изучаемом языке будут сами приходить в голову, как и на родном.
+Но чтобы говорить почти как носитель, нужно много [практиковаться](can-i-speak-early.html).
 
-## Memorize intelligently
+Когда вы достаточно хорошо усвоите язык и начнёте практиковаться в разговоре,
+он станет для вас таким же естественным, как родной.
+Вам не придётся задумываться о грамматических правилах или о спряжении глаголов.
+Вы просто будете чувствовать, что звучит правильно.
+Если достаточно упражняться в разговоре, нужные слова и фразы будут приходить в голову,
+когда они вам понадобятся.
 
-As adults,
-we can study grammar and memorize vocabulary,
-which gives us an advantage over infants learning their first language.
-When you [memorize](sentence-mining.html) a word's meaning,
-input becomes more comprehensible.
-You can notice that word during immersion.
-The more you comprehend, the more you acquire.
+## Запоминайте с умом
 
-To retain a word in long-term memory,
-it needs to be reviewed occasionally.
-**Use SRS to memorize words**.
-A [spaced repetition system](spaced-repetition.html) (SRS)
-is a program that helps you memorize and review what you want to learn.
-It reminds you to review information efficiently before you forget it
-so you can retain and strengthen your memories.
-When you first learn a new word,
-the associated memory is weak,
-so the SRS will show it to you often.
-Over time, as the memory strengthens,
-the SRS will show the word less and less often.
+Мы, взрослые, можем изучать грамматику и запоминать слова.
+Это даёт нам преимущество перед младенцами, которые осваивают первый язык.
+Когда вы [запоминаете](sentence-mining.html) значение слова,
+входной материал (input) становится понятнее.
+Вы сможете заметить это слово во время иммерсии.
+Чем больше вы понимаете, тем больше усваиваете.
+
+Чтобы слово осталось в долговременной памяти, его нужно время от времени повторять.
+**Используйте SRS, чтобы запоминать слова**.
+[Система интервального повторения](spaced-repetition.html) (spaced repetition system, SRS)
+это программа, которая помогает запоминать и повторять то, что вы хотите выучить.
+Она помогает повторять материал эффективно: напоминает о нём до того, как вы успеете его забыть.
+Так вы сохраняете и укрепляете то, что запомнили.
+Только что выученное слово ещё плохо держится в памяти,
+поэтому программа будет показывать его часто.
+Со временем, по мере того как слово закрепляется в памяти, программа будет показывать его всё реже.
