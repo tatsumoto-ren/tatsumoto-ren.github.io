@@ -26,11 +26,8 @@ jobs:
     name: Run checks
     uses: ./.github/workflows/checks.yml
 
-  deploy-gh:
+  upload-site:
     needs: [checks]
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -51,6 +48,15 @@ jobs:
           # Upload the site folder
           path: '_site'
 
+  deploy-gh:
+    # Retrying a failed deployment must reuse the upload instead of creating duplicate artifacts.
+    # https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+    needs: [upload-site]
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
