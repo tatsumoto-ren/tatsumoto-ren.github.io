@@ -27,7 +27,7 @@ function assertLandingPage(page: LandingPage): void {
         [...document.querySelectorAll<HTMLScriptElement>("script[src]")].map((script): string | null =>
             script.getAttribute("src"),
         ),
-    ).toEqual(["res/canonical-redirect.js", "res/lang-redirect.js"]);
+    ).toEqual(["res/lang-redirect.js"]);
     expect(document.querySelector(".lang-switch")?.getAttribute("aria-label")).toBe(page.languageLabel);
     expect(document.querySelector(".donate")?.textContent).toBe(page.donateLabel);
 }
