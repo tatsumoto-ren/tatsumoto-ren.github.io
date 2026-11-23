@@ -3,7 +3,7 @@ title: "Setting up Anki"
 date: 1609127492
 tags: ["anki"]
 position: -9999
-updated: "26 October 2026"
+updated: "23 November 2026"
 ---
 
 [Anki](https://wiki.archlinux.org/title/Anki)
@@ -148,20 +148,24 @@ In this case, head to [apps.ankiweb.net](https://apps.ankiweb.net/) and read the
 * Some people report that they see a black screen on startup,
   and that you should run Anki with the no sandbox parameter: `anki --no-sandbox` to avoid it.
 
-## Sync your mobile device
+## Sync your devices
 
 By [signing up](https://ankiweb.net/account/register) for AnkiWeb
-you can keep your cards synchronized across multiple machines.
-You can also sync between devices.
-Install [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/)
-on your Android device and sync your collection.
-This will allow you to review your flashcards when you're outside
-and don't have access to your computer.
-I prefer downloading the latest alpha from
-[GitHub](https://github.com/ankidroid/Anki-Android/releases)
-because the releases on F-Droid tend to be slow.
+you can keep your cards synchronized across multiple devices,
+like computers, phones, and tablets.
 
 To sync your collection on desktop, press <kbd>Y</kbd> or click "Sync" on the toolbar.
+
+## Anki for Android
+
+Install [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/)
+on your Android device and sync your collection.
+That lets you review your flashcards when you're out
+and do not have access to your computer.
+
+I prefer downloading the latest AnkiDroid alpha from
+[GitHub](https://github.com/ankidroid/Anki-Android/releases)
+because F-Droid releases tend to lag behind.
 
 ## Import an example mining deck
 

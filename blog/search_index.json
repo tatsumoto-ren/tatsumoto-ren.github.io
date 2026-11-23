@@ -9419,12 +9419,21 @@
     "parent":"Setting up Anki"
   },
   {
-    "title":"Sync your mobile device",
+    "title":"Sync your devices",
     "tags":[
       "anki"
     ],
-    "body":"By signing up for AnkiWeb you can keep your cards synchronized across multiple machines. You can also sync between devices. Install AnkiDroid on your Android device and sync your collection. This will allow you to review your flashcards when you're outside and don't have access to your computer. I prefer downloading the latest alpha from GitHub because the releases on F-Droid tend to be slow. To sync your collection on desktop, press Y or click \"Sync\" on the toolbar.",
-    "url":"setting-up-anki.html#sync-your-mobile-device",
+    "body":"By signing up for AnkiWeb you can keep your cards synchronized across multiple devices, like computers, phones, and tablets. To sync your collection on desktop, press Y or click \"Sync\" on the toolbar.",
+    "url":"setting-up-anki.html#sync-your-devices",
+    "parent":"Setting up Anki"
+  },
+  {
+    "title":"Anki for Android",
+    "tags":[
+      "anki"
+    ],
+    "body":"Install AnkiDroid on your Android device and sync your collection. That lets you review your flashcards when you're out and do not have access to your computer. I prefer downloading the latest AnkiDroid alpha from GitHub because F-Droid releases tend to lag behind.",
+    "url":"setting-up-anki.html#anki-for-android",
     "parent":"Setting up Anki"
   },
   {
