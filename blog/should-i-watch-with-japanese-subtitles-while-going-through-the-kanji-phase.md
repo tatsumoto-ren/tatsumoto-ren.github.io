@@ -8,25 +8,25 @@ updated: "24 November 2026"
 
 It is not a bad idea to watch with Japanese subtitles
 while progressing through the [kanji phase](learning-kanji.html) (JP1K or isolated kanji).
-Doing so can improve motivation and further increase your learning rate
-as it provides opportunities to practice the knowledge gained from studying kanji
+Doing so can improve motivation and speed up your learning,
+since it gives you a chance to use what you learned from kanji study
 in a different context than [SRS](spaced-repetition.html) cards.
 
-However,
-I think one [must be careful](is-it-harmful-to-always-have-tl-subtitles-on.html)
+That said,
+I think you have to [be careful](is-it-harmful-to-always-have-tl-subtitles-on.html)
 when watching with Japanese subtitles as a beginner.
-It should not constitute the majority of your immersion,
-as the focus should be on building listening skills.
+It should not make up most of your immersion,
+since the main goal should be building listening skills.
 Watching with subtitles
 [is more akin to reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html) than listening,
 and [premature reading negatively affects](why-does-premature-reading-cripple-phonetic-awareness.html)
-one's ability to perceive sounds and understand spoken language.
-So you have to be really moderate about it,
-maybe keep it to less than one third of all your active immersion.
+your ability to hear sounds and understand spoken language.
+So you want to keep it moderate,
+maybe under one third of your active immersion.
 
-Subtitles can be of help no matter what stage in the process of learning Japanese you are at,
-but it is also important to spend a lot of time without them.
-Watching with subtitles is acceptable
-as long as you regularly train your listening ability as well.
+Subtitles can help at any stage of learning Japanese,
+but it is also important to spend plenty of time without them.
+Watching with subtitles is fine
+as long as you are also training your listening regularly.
 
 See also: [Is it harmful to always have TL subtitles on?](is-it-harmful-to-always-have-tl-subtitles-on.html)
