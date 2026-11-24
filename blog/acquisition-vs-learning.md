@@ -2,6 +2,7 @@
 title: "Acquisition vs Learning"
 date: "08 June 2026"
 tags: ["guide"]
+position: [7]
 ---
 
 When it comes to learning a foreign language,

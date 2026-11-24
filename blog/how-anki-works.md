@@ -2,6 +2,7 @@
 title: How Anki works
 date: 1655135740
 tags: ['anki', 'guide']
+position: [0, 10]
 ---
 
 Since in this guide we are going to use Anki to study our target language,

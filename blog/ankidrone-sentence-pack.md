@@ -1,8 +1,8 @@
 ---
 title: Ankidrone Sentence Pack
 date: 1630978085
-tags: ['vocab', 'decks']
-position: 99
+tags: ['vocab', 'decks', 'guide']
+position: [99, 99, 54]
 ---
 
 Ankidrone Sentence Pack is an Anki deck

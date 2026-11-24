@@ -1,7 +1,8 @@
 ---
 title: Rikaitan dictionaries
 date: 1607878153
-tags: [dictionaries, rikaitan]
+tags: [dictionaries, rikaitan, guide]
+position: [0, 0, 37]
 ---
 
 This article provides download links for dictionary files for Rikaitan.

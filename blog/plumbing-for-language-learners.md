@@ -2,6 +2,7 @@
 title: Plumbing for language learners
 date: 1664571289
 tags: ['guide']
+position: [51]
 ---
 
 In this article let's talk about passing text between applications.

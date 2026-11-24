@@ -2,6 +2,7 @@
 title: "Writing Japanese"
 date: 1615918788
 tags: ["guide"]
+position: [60]
 updated: "05 July 2026"
 ---
 

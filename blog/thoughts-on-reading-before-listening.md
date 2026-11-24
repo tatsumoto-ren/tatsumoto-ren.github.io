@@ -1,8 +1,8 @@
 ---
 title: Thoughts on reading before listening?
 date: 1666824716
-tags: ['faq']
-position: -9947
+tags: ['faq', 'guide']
+position: [-9947, 61]
 ---
 
 Reading is very powerful, but it [harms you](early-output-or-reading-ahead-of-listening.html)

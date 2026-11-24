@@ -1,7 +1,8 @@
 ---
 title: MDX dictionaries
 date: 1607878153
-tags: ['dictionaries', 'mdx']
+tags: ['dictionaries', 'mdx', 'guide']
+position: [0, 0, 36]
 ---
 
 [GoldenDict](setting-up-goldendict.html)

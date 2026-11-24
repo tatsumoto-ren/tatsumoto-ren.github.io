@@ -2,6 +2,7 @@
 title: Condensing active immersion
 date: 1656087109
 tags: [guide]
+position: [50]
 ---
 
 Watching movies and TV shows counts towards active immersion

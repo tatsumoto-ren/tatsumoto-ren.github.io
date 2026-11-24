@@ -1,6 +1,8 @@
 ---
 title: About this site
 date: 1761839619
+tags: ['guide']
+position: [2]
 ---
 
 This site contains [AJATT](whats-ajatt.html)'s language learning guide and related information.

@@ -2,6 +2,7 @@
 title: Learning Kanji Radicals
 date: 1714604055
 tags: ['kanji', 'guide']
+position: [0, 73]
 ---
 
 In my previous article on [Learning Kanji](learning-kanji.html),

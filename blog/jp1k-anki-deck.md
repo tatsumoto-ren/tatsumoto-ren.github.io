@@ -1,8 +1,8 @@
 ---
 title: Ankidrone Foundation
 date: 1723344192
-tags: ['decks', 'kanji', 'vocab']
-position: [2, -1]
+tags: ['decks', 'kanji', 'vocab', 'guide']
+position: [2, -1, 0, 27]
 ---
 
 The most important part of learning Japanese with the

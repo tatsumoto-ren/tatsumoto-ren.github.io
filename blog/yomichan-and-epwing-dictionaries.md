@@ -1,7 +1,8 @@
 ---
 title: Rikaitan, EPWING and MDX dictionaries
 date: 1607878153
-tags: ['dictionaries', 'rikaitan', 'epwing']
+tags: ['dictionaries', 'rikaitan', 'epwing', 'guide']
+position: [0, 0, 0, 34]
 ---
 
 In this article

@@ -1,8 +1,8 @@
 ---
 title: "Setting up Anki"
 date: 1609127492
-tags: ["anki"]
-position: -9999
+tags: ["anki", "guide"]
+position: [-9999, 13]
 updated: "23 November 2026"
 ---
 

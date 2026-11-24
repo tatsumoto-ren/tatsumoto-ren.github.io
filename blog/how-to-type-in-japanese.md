@@ -2,6 +2,7 @@
 title: How to type in Japanese
 date: 1640684087
 tags: [guide, ime]
+position: [12, 0]
 ---
 
 <p align="center">

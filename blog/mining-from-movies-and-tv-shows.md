@@ -2,6 +2,7 @@
 title: "Mining from movies and TV-shows"
 date: 1622909216
 tags: ["guide", "mpv"]
+position: [43, 0]
 updated: "01 September 2026"
 ---
 

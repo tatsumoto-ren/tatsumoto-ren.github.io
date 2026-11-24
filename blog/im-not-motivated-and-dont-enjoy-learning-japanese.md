@@ -2,7 +2,7 @@
 title: I'm not motivated and don't enjoy learning Japanese, is it still worth my time?
 date: 1675882202
 tags: ['faq', 'guide']
-position: -9928
+position: [-9928, 75]
 ---
 
 Being unmotivated means that you don't actually want to learn Japanese,

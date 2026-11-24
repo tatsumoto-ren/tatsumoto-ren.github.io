@@ -1,7 +1,8 @@
 ---
 title: Setting up Qolibri
 date: 1632881424
-tags: [dictionaries, epwing]
+tags: [dictionaries, epwing, guide]
+position: [0, 0, 32]
 ---
 
 [Qolibri](https://aur.archlinux.org/packages/qolibri/)

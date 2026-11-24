@@ -2,6 +2,7 @@
 title: Japanese fonts
 date: 1624216840
 tags: [guide]
+position: [16]
 ---
 
 On a freshly installed GNU/Linux distro

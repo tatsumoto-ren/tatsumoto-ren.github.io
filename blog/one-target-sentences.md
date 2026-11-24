@@ -2,6 +2,7 @@
 title: One target sentences
 date: 1631221476
 tags: [guide]
+position: [38]
 ---
 
 Let's define a "target" as any unknown piece of information

@@ -1,7 +1,8 @@
 ---
 title: I immerse with English and Japanese subs on at the same time. Is this a bad idea?
 date: 1682299686
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 69]
 filename: en-and-ja-subs-at-the-same-time
 ---
 

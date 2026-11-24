@@ -1,7 +1,8 @@
 ---
 title: How to review
 date: 1626142570
-tags: [anki]
+tags: [anki, guide]
+position: [0, 40]
 ---
 
 Though Anki is an excellent piece of software,

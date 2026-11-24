@@ -1,7 +1,8 @@
 ---
 title: Could machine translation be useful to language learners?
 date: 1703351618
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 23]
 ---
 
 Relying on translations interferes with the natural process of language acquisition.

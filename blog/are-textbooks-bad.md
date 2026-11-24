@@ -1,7 +1,8 @@
 ---
 title: "Can't I just read a textbook? Are textbooks inherently bad?"
 date: 1725217204
-tags: ["faq", "grammar"]
+tags: ["faq", "grammar", "guide"]
+position: [0, 0, 20]
 filename: "are-textbooks-bad"
 updated: "08 August 2026"
 ---

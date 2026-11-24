@@ -3,7 +3,7 @@ title: "Learning grammar"
 date: 1648695316
 tags: ["guide", "grammar"]
 updated: "03 November 2026"
-position: [0, -2]
+position: [30, -2]
 ---
 
 [AJATT](whats-ajatt.html)

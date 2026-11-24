@@ -1,8 +1,8 @@
 ---
 title: Given that reading can harm pronunciation, when is the ideal time to become an avid reader?
 date: 1672179059
-tags: ['faq']
-position: -9945
+tags: ['faq', 'guide']
+position: [-9945, 70]
 ---
 
 I find that for people who want to have a native accent

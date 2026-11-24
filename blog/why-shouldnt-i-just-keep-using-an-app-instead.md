@@ -1,7 +1,8 @@
 ---
 title: Why shouldn't I just keep using an app instead?
 date: 1687713450
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 24]
 ---
 
 We do not recommend "language learning" apps like Duolingo, Lingodeer, Babbel,

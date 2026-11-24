@@ -2,6 +2,7 @@
 title: "Spaced repetition"
 date: 1655007397
 tags: ["guide"]
+position: [9]
 updated: "26 October 2026"
 ---
 

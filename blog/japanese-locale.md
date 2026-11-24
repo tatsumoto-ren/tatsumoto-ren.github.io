@@ -2,6 +2,7 @@
 title: Japanese locale
 date: 1657735823
 tags: ['guide']
+position: [11]
 ---
 
 A [Locale](https://wiki.archlinux.org/title/Locale)

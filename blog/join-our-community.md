@@ -2,6 +2,8 @@
 title: "Join our community"
 date: 1612779384
 updated: "24 November 2026"
+tags: ['guide']
+position: [77]
 ---
 
 Daily Japanese Thread is a friendly place

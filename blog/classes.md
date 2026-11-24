@@ -2,6 +2,7 @@
 title: Classes
 date: 1736360228
 tags: ['guide']
+position: [21]
 ---
 
 Traditional language classes suck.

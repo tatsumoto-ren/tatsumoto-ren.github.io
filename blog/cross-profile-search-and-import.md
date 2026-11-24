@@ -2,6 +2,7 @@
 title: Cross Profile Search And Import
 date: 1710139196
 tags: ['guide']
+position: [49]
 ---
 
 The [Cross Profile Search and Import](https://ankiweb.net/shared/info/1772763629) add-on

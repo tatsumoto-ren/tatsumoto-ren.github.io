@@ -1,8 +1,8 @@
 ---
 title: How much listening should I do before I start reading?
 date: 1673836220
-tags: ['faq']
-position: -9944
+tags: ['faq', 'guide']
+position: [-9944, 68]
 ---
 
 Essentially, language learners face two primary options.

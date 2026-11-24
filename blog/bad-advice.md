@@ -2,6 +2,7 @@
 title: Avoiding bad advice
 date: 1710982287
 tags: ['guide']
+position: [6]
 filename: bad-advice
 ---
 

@@ -2,6 +2,7 @@
 title: Passive immersion
 date: 1679003118
 tags: ['guide']
+position: [18]
 ---
 
 When we talk about immersion, we usually divide it into active and passive.

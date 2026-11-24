@@ -2,6 +2,8 @@
 title: "Donating to Tatsumoto"
 date: 1619200733
 updated: "07 September 2026"
+tags: ['guide']
+position: [78]
 ---
 
 I really appreciate you being here.

@@ -2,6 +2,7 @@
 title: Timeboxing
 date: 1689210820
 tags: ['guide']
+position: [52]
 ---
 
 Managing time effectively is crucial to accomplish tasks and maintain productivity.

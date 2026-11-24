@@ -2,6 +2,7 @@
 title: Discussing various card templates
 date: 1610646660
 tags: [guide, anki]
+position: [15, 0]
 ---
 
 <p align="center"><img alt="flashcards" class="shadow" src="img/bluepilled-flashcards.webp"></p>

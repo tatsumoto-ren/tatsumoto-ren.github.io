@@ -1,8 +1,8 @@
 ---
 title: Understanding monolingual definitions
 date: 1641419148
-tags: ['dictionaries', 'epwing', 'pitch']
-position: 9999
+tags: ['dictionaries', 'epwing', 'pitch', 'guide']
+position: [9999, 9999, 9999, 56]
 ---
 
 A typical entry in a monolingual dictionary looks similar to this:

@@ -1,8 +1,8 @@
 ---
 title: Is it harmful to always have TL subtitles on?
 date: 1671698711
-tags: ['faq']
-position: -9987
+tags: ['faq', 'guide']
+position: [-9987, 65]
 ---
 
 Watching with subs is a

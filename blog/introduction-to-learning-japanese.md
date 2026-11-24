@@ -2,6 +2,7 @@
 title: "Introduction to learning Japanese"
 date: 1615372627
 tags: ["guide"]
+position: [4]
 updated: "26 October 2026"
 ---
 

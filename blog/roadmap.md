@@ -2,6 +2,7 @@
 title: Japanese roadmap
 date: 1615372628
 tags: ['guide']
+position: [5]
 ---
 
 In the [following articles](table-of-contents.html)

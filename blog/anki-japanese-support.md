@@ -2,6 +2,7 @@
 title: "Japanese support for Anki"
 date: 1681292213
 tags: ["guide", "anki"]
+position: [42, 0]
 filename: "anki-japanese-support"
 updated: "05 July 2026"
 ---

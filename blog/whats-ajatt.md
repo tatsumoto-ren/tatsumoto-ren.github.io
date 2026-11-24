@@ -2,7 +2,7 @@
 title: "What's AJATT?"
 date: 1666824718
 tags: ["faq", "guide"]
-position: -9992
+position: [-9992, 3]
 updated: "26 October 2026"
 ---
 
