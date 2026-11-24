@@ -553,21 +553,27 @@
   },
   {
     "title":"About this site",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"This site contains AJATT's language learning guide and related information. Here you'll find everything you need to know about learning foreign languages.",
     "url":"about-this-site.html",
     "date":"2025-10-30"
   },
   {
     "title":"Available domains",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"The site is available at the following addresses: ajatt.top. This domain was bought using money donated by our readers. Thanks so much for your support! tatsumoto.neocities.org. Hosted on neocities.org. tatsumoto-ren.github.io. Hosted on GitHub pages. All addresses contain identical content. They are copies of each other. Feel free to bookmark any one of them.",
     "url":"about-this-site.html#available-domains",
     "parent":"About this site"
   },
   {
     "title":"Contributing",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"The text files for this site can be viewed and edited on GitHub. To suggest a change, edit the Markdown files. You don't need to touch the HTML files. Create a pull request after making your edits.",
     "url":"about-this-site.html#contributing",
     "parent":"About this site"
@@ -747,7 +753,8 @@
   {
     "title":"Is watching anime with JP subtitles considered as reading?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Yes, it is. Watching anime with Japanese subtitles counts as reading immersion because reading the subtitles creates an inner voice that competes with the spoken language that you're listening to. As a result, you are not fully paying attention to the native speech. Instead, you focus on your internal subvocalization while reading the subtitles. If you watched anime with English subtitles before starting to learn Japanese, you've likely spent thousands of hours listening to native Japanese. However, if reading subtitles did not interfere with your listening practice, you would have already learned the language. This is why we say that watching with subtitles counts as reading immersion. When you read subtitles, your own subvocalization interferes with and overshadows the audio. Consequently, you end up learning the language of the subtitles rather than the language of the audio. In this case, the language of the English fansubs. Watching anime with Japanese subtitles can help you notice and learn more words, but it will cause your listening skills to lag behind. Relying too heavily on subtitles can create a crutch, making it difficult to transition to listening without any text support. If you've spent a long time watching anime with Japanese subtitles and neglected listening practice, you will be frustrated when you decide to turn off the subs and watch raw anime. While you can improve your listening skills by going cold turkey and immersing with a lot of raw anime, it will be challenging at first. It's better to train your listening ability while you're still a beginner. Therefore, AJATT recommends prioritizing listening to avoid this issue. We recommend disabling subtitles if you don't need them. For those who need them, enable them only when you don't understand something. Keeping them visible creates a hindrance, and you can't help but read the subs even if it's unintentional. It's difficult to ignore them completely. So, regardless of your current skill level, when we divide our study time, watching something with TL subs counts toward your reading time.",
     "url":"is-watching-anime-with-jp-subtitles-considered-as-reading.html",
@@ -757,7 +764,8 @@
     "title":"Can't I just read a textbook? Are textbooks inherently bad?",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"If you seriously want to master your target language, textbooks are not for you. We recommend skipping them entirely and learning the language through immersion.",
     "url":"are-textbooks-bad.html",
@@ -767,7 +775,8 @@
     "title":"Why we do not recommend textbooks",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"We do not recommend textbooks for many of the same reasons we advise against using apps like Duolingo. Textbooks are not designed to align with the AJATT methodology and tend to reinforce traditional learning habits, which are neither ideal nor efficient. These resources focus on constructing sentences from grammar rules, memorizing vocabulary in a specific order, and encouraging early speaking and writing. Consequently, textbooks offer little to no benefit to your immersion learning journey. They provide very superficial knowledge that won't help you when you decide to read an actual novel. Don't expect to become fluent by reading textbooks. Purchasing a textbook just to ignore the majority of it is also not in your best interest.",
     "url":"are-textbooks-bad.html#why-we-do-not-recommend-textbooks",
@@ -777,7 +786,8 @@
     "title":"Purpose of a textbook",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"Language acquisition happens when we comprehend what is being said. \"Acquiring\" a language means developing an intuitive understanding of it. Thus, the AJATT method builds its language learning strategy around immersing yourself in the target language in order to provide your brain with as much input as possible. Our brains are pattern recognition machines. They need input to decipher and understand the structures, rules, and building blocks of your target language. Think about how babies learn their first language. Initially, they learn from the input they receive from their parents and other speakers, and after a couple of years, they accumulate enough input to begin speaking. The more language they absorb, the more neural pathways they create. Adults who are doing AJATT learn foreign languages in the same way. This process mostly happens unconsciously, but providing the right input can expedite it. If textbooks were necessary for language acquisition, all infants would be required to read them. But that is not the case. Do textbooks have a purpose? What can they possibly do to help us? An ideal textbook should provide plenty of example phrases and sentences, a variety of samples of the target language, a wealth of comprehensible input. From the AJATT perspective, it is best to make the explanations short (very short) and provide as many usage examples as possible to feed your brain the essential input. However, the problem with textbooks is that they never feed you input. They explain rules, force you to memorize vocabulary lists, force you to speak and write prematurely, etc. Textbooks that include stories are not suitable for everyone either. The stories in textbooks cannot compete with manga and anime. They are simply not as interesting. Additionally, the kind of language they use is artificially simplified and dumbed down. Therefore, we think it is better to learn from native content from day one, starting with something easier at first, such as slice of life anime. This way, you can learn in the most natural manner. And when you don't understand something, TL subtitles and dictionaries help you figure it out.",
     "url":"are-textbooks-bad.html#purpose-of-a-textbook",
@@ -787,7 +797,8 @@
     "title":"Are textbooks inherently bad?",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"Absolutely. Many textbooks are made by non-native speakers, and thus are prone to contain numerous mistakes and unnatural sentences. For example, the Japanese from Zero textbook was made by a person who, at the time of publication, did not know how to read many basic words (such as 挑む) and could not read real novels. He only began reading novels and learning to read kanji after being called out for it. Textbooks created by native speakers are less likely to contain mistakes, but we still believe they cannot be fully trusted because errors can be unintentional. Natural sentences that you find in your immersion environment are always better. In textbooks, kanji are often intentionally replaced with kana, so you end up with words and sentences written in a way that you will never see outside a textbook. People rarely write わたし, they almost always write 私. In AJATT, it is recommended to learn how words are written in kanji from the start, to avoid having to unlearn them later. Textbooks give you vocabulary lists. Vocabulary lists are meant to be memorized as word ⇒ translation. When you memorize words out of context (outside of a sentence), this knowledge is nearly useless, and the brain tends to discard it quickly. Simply knowing what a word means does not help you understand it. You need to know how the word is used in real sentences, what collocations and expressions it pairs with, and what grammar is commonly used with it. To truly grasp a word's meaning and usage, you need to see numerous examples of it in context. Learn words by understanding sentences. To learn words AJATT recommends using Anki and TSC. Additionally, textbooks typically progress at a slow pace and are reluctant to teach anything they deem too difficult for new learners. Most textbooks cannot prepare you for consuming authentic content because they only cover the very basics. A textbook cannot teach you everything. It is extremely limited and features contrived dialogues and simple vocabulary. On top of everything, textbooks are very boring. Learning a language through immersion is fun, and you will learn more from a single anime series than from any textbook.",
     "url":"are-textbooks-bad.html#are-textbooks-inherently-bad",
@@ -797,7 +808,8 @@
     "title":"How to use textbooks",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"Go straight for the dialogues and example sentences. Copy those into your SRS. — How To Use a Japanese Textbook, article by Khatz. Textbooks can be used in an way that aligns with the AJATT method. While we don't think it is worth your time (more on that later), it is theoretically possible. Let's see how. If you want to give a textbook a try, here's what you can do. Don't buy them, download a digital version (PDF, EPUB) from the Internet. Skip everything except the example sentences. Try to understand the examples. Optionally, mine the example sentences by adding them to your SRS. If you notice words where kanji are replaced with kana (e.g. ねん is written instead of 年), fix the words by looking up the proper spellings in a dictionary (GoldenDict, Jisho.org, etc.). This is what we did with the Tango textbooks when we created Ankidrone Essentials.",
     "url":"are-textbooks-bad.html#how-to-use-textbooks",
@@ -807,7 +819,8 @@
     "title":"Is it worth it?",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"Of course not. It's a waste of time. Although you could potentially use textbooks in a way that aligns with AJATT by following the instructions in the previous section, it is still not an efficient use of your time. Here's why: The work has already been done. You can just grab Ankidrone Essentials instead. Even though Ankidrone Essentials is based on a different book than the one you may want to use, the differences are likely minimal since most textbooks are quite similar. I also think Ankidrone Essentials offers more because it provides thousands of high quality example sentences. You will have to do everything yourself. Copy sentences from the book to your SRS app, cut and convert audio clips (if the textbook comes with audio recordings), add definitions for words, add furigana, pictures, and notes. Some textbooks don't have any kanji in them! Or, kanji are underutilized, which I expect is a common issue with most textbooks. Or, kanji are introduced much later than necessary (e.g., after page 80 in Genki). You will have to convert every word to its kanji form manually and ensure you don't make mistakes. Typical textbooks are full of vocabulary lists. There are not many example sentences that you can mine. As you already know, words out of context (outside of a sentence) are nearly useless. There are textbooks that do a good job providing examples, but there aren't many of them, and you will first have to find the right one. Some sentences and dialogues are not translated. You will have to rely on what you've learned previously to understand them. This is not suitable for our mine and dump approach. There are exercises meant to be done with a partner, \"pair-work\". They are meant to be done in class. Such books clearly do not favor self-study, and since AJATT is aimed at people who want to master Japanese through self-study, those exercises are also useless to you.",
     "url":"are-textbooks-bad.html#is-it-worth-it",
@@ -817,7 +830,8 @@
     "title":"So what do I do?",
     "tags":[
       "faq",
-      "grammar"
+      "grammar",
+      "guide"
     ],
     "body":"Don't learn Japanese from textbooks. Follow the AJATT method. It will teach you everything you need to master Japanese faster than any other method in the world.",
     "url":"are-textbooks-bad.html#so-what-do-i-do",
@@ -891,7 +905,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"The most important part of learning Japanese with the AJATT method is to enjoy native content and be able to grow your understanding of the language entirely through immersion by picking up new words from the media you read, watch or listen to. To transition towards learning directly from Japanese media, first you need to level up your comprehension. Ankidrone Foundation is an Anki Deck for newcomers to Japanese based on the JP1K method. If you want to learn the theory behind this deck, please read this article.",
     "url":"jp1k-anki-deck.html",
@@ -902,7 +917,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"The deck is designed to teach you how to recognize kanji along with the most common 1,000 words used in everyday Japanese conversations. Once you finish this deck, you should be able to understand enough Japanese to start learning directly from your immersion. Prior knowledge of kana is required but there is no need to do any isolated kanji study before starting this deck. You're going to learn kanji and vocabulary at the same time. If you have already learned basic vocabulary through a premade deck like Core10k or Ankidrone Essentials and know more than 1,000 words, or have gone through isolated kanji study with a book like RTK, you are unlikely to benefit from the deck. People who know more than 1,000 words are advised to do sentence mining instead, if they haven't started doing it already. However, if your vocabulary is below 1000 words, I recommend that you give Ankidrone Foundation a try. The vocabulary used in the deck was taken from Ankidrone Essentials and other premade Anki decks. It consists of words commonly used in everyday life in Japan. Most cards in the deck have example sentences. Cards are presented relatively in the 1T order. Each sentence in the deck tries to introduce only one unknown word or structure. Each word along with each sentence has native audio and an English translation.",
     "url":"jp1k-anki-deck.html#about",
@@ -913,7 +929,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"The JP1K method is a powerful technique that can help you effectively learn kanji readings while building your vocabulary. I explain the method in more detail here. This approach allows you to gradually improve your reading skills as a beginner and learn words while not letting difficult kanji characters slow you down as much. The core idea behind the JP1K method is that you try to actively recall kanji readings when you review the cards from this deck, but you don't take them into account when grading yourself. When a flashcard appears, try to recall the reading of the target word. Use your mouse to hover over the word to reveal its reading (pronunciation). After seeing the reading, try to recall the meaning of the word. Next, flip the card over to reveal the back side and check if your guess was correct. Listen to the audio and try to understand the example sentence, if available. If you've successfully recalled the meaning of the target word, pass the card (press \"Good\"). If not, click \"Again\" to review it later. Note: You can press the x key on the keyboard to reveal the English translation. It is important that you try to recall the reading of the target word every time you see the card. By doing so, you engage in deliberate practice, which should help you eventually remember the reading. Deliberate practice helps gradually build the neural pathways necessary to remember the reading. However, don't penalize yourself for being unable to do recall readings. Don't press \"Again\" if you recalled the meaning but forgot the reading. As a beginner, it's already quite difficult to memorize Japanese words, and you don't want to add another level of complexity just yet. Once you've completed Ankidrone Foundation, you'll start using regular Targeted Sentence Cards. When reviewing TSCs, you'll need to accurately recall both the reading and meaning to pass each card. But the difference is that when doing Ankidrone Foundation, knowing the readings is not necessary, as you're still in the process of adapting to reading native Japanese sentences. By understanding the JP1K method and consistently applying it when studying this deck, you'll be well on your way to mastering kanji and expanding your vocabulary.",
     "url":"jp1k-anki-deck.html#jp1k-method",
@@ -924,7 +941,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"Download the folder below to get the deck. Download Mirror The following sections explain what these decks are.",
     "url":"jp1k-anki-deck.html#downloads",
@@ -935,7 +953,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"At AJATT, we believe that the most effective way to learn vocabulary is through targeted sentence cards. The target word on the cards is highlighted. You decide if you want to read the whole sentence or just the word. This deck contains modified targeted sentence cards. They differ from regular TSCs. The difference is that if a word contains kanji, you can view the furigana reading by hovering over the word with your mouse or clicking on it. This is an aid for beginners who don't know any Japanese yet. In normal TSCs this is not allowed. On the front there's an example sentence. The target word appears highlighted. When reviewing the cards you can decide whether you want to read the whole sentence or not. When you hover over each word, a furigana reading appears on top. Note: You can press the p key on the keyboard to immediately reveal all kanji readings. An example TSC from Ankidrone Foundation. When trying to read sentences while reviewing, prior knowledge of some grammar might be necessary. The deck explains certain grammar points and particles, but it is not enough to replace a proper grammar guide. Refer to one of the recommended grammar guides when there's a sentence you don't grasp fully.",
     "url":"jp1k-anki-deck.html#anki-deck",
@@ -946,7 +965,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"The \"Extra\" folder in the linked archive contains JP1K-style decks shared by our community members.",
     "url":"jp1k-anki-deck.html#extra",
@@ -957,7 +977,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"I downloaded the example deck a while ago and got the Japanese sentences note type. Then I downloaded the Ankidrone deck and got a new Japanese sentences+ note type. What happened? Anki automatically adds a '+' to the name of a note type if another note type with the same name already exists. Ideally, these note types should be merged since they are essentially the same (we use one note type across all our decks), but Anki cannot detect this. It checks the note type IDs and changes the name if the ID is different. You can either choose to ignore the \"+\" or convert the notes to one of the note types and delete the duplicate note type. The deck doesn't work properly in AnkiDroid on Android. The .webp files and the .ogg files do not load properly. Update AnkiDroid to the latest Alpha version. Media sync can take a while. You need to sync with AnkiWeb and wait for it to finish. How many kanji are taught through the deck? There are 776 unique kanji used in the deck. After importing the deck I only got 50 notes or so. Anki doesn't import notes that are already present in your collection. If you have prevously downloaded Ankidrone Essentials (covered later), you already have got all the cards from this deck. You don't need to import this deck and can continue learning new cards from Ankidrone Essentials. The only difference is that this deck utilizes a note type designed to work with the JP1K method. On the other hand, Ankidrone Essentials is designed for people who either have already completed Ankidrone Foundation or decided to skip it. The deck contains some words that I don't think will be useful for me. The main source of words in the deck is a book called 1000 Essential Vocabulary for the JLPT N5. It contains a number of pretty obvious katakana words and a short list of country names. If you don't want to learn them, press @ to suspend such cards. Do I really need to learn kanji spellings of words normally written in kana? If you feel intimidated by them, it's okay to suspend the cards. I like to always learn kanji versions because even if you see a word in its kana reading most of the time, there's a chance that you eventually encounter the kanjified version. You want to be prepared when it happens. I have poor retention. This is natural if you're a beginner, and your brain isn't used to memorizing Japanese yet. At first some words just won't stick, in which case try getting more immersion. The words and phrases in the deck are very common, and you'll be hearing them more frequently. If you find yourself failing cards over and over, install Mortician, and it will bury them for you automatically. Usually the buried words become easier after you get some rest. If not, suspend the cards. Sometimes I forget the meaning of the target word but still remember the meaning of the whole sentence, therefore I can infer the meaning of the target word. Is it alright to do that? Yes. Sentence cards tend to form context-dependent memories, but eventually knowledge transfers from being context-dependent to context-independent. When I review the cards, I can't recall the meaning of a word until I hover over the reading. Seeing the reading allows me to recall the meaning of the target word. Should I try to recall the meaning and the reading at the same time? This is the review order according to the JP1K method. If shown the word, can I recall the reading? If shown the reading, can I recall the meaning? If you are able to pass both steps correctly in this order, that's great because it guarantees that if shown the word in your immersion, you can look at the word and recall what it means by going through the steps in your head. If not, you grade the card \"good\" if you've passed the second step. You are not grading yourself on your ability to recognize the kanji, but you're trying to do it every time you see the card. That makes it a deliberate practice, that's what helps you transition to reading kanji once you graduate from this deck. By doing the two steps separately you learn the meanings of words through their readings, and this process is not affected by your performance in memorizing kanji. When you hear a word in your immersion, you'll be able to recognize it. Because you're still new to kanji, trying to recognize the meaning and the reading at the same time is going to be more difficult. You can try doing it anyway, but this is not what the JP1K method was intended for. Nothing seems to work for me, and I can't remember anything. The JP1K method may not work for everyone. If you often have trouble recalling the words taught in Ankidrone Foundation, we recommend setting the deck aside and spending a couple of weeks on Kanjidamage or RRTK. But, instead of trying to go through all the kanji, concentrate on learning to recognize about 400-500 kanji (which is less than half of the deck). After that, you can either return to this deck or start Ankidrone Essentials instead. What to do next? If you try the deck out, please put any feedback or corrections you have in the chat. After you complete the deck, you are free to start mining sentences on your own. If you still need a sentence pack to help you out, refer to basic vocab.",
     "url":"jp1k-anki-deck.html#q-and-a",
@@ -968,7 +989,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"If you don't like this deck, the good news is that making your own JP1K-style deck is very easy. All you need to do is take any premade deck and change the card template a bit. Explore our resources section or AnkiWeb for premade Anki decks. First, open the Card Types settings by clicking \"Tools\" > \"Manage Note Types\" > \"Cards...\". In the HTML templates find the tag that refers to target word or sentence. Let's say for the sake of this example that the field's name is Word. <div>{{Word}}</div> Then replace {{Word}} with the corresponding field that contains furigana and add furigana: before its name to tell Anki that the field should be rendered with readings shown above the kanji. If your premade deck doesn't have a furigana field, you have to add it to the Note Type and mass-generate readings with the Japanese support add-on. <div>{{furigana:WordFurigana}}</div> Now to make the furigana hidden by default add a class name or id to the tag around the target word. The class name will be used to refer to the tag. <div class=\"question\">{{furigana:WordFurigana}}</div> Finally, you need a CSS rule that tells Anki to keep the furigana hidden by default, and a second rule that tells to make it visible on hover. .question ruby rt { visibility: hidden; } .question ruby:hover rt { visibility: visible; } This should be it. Enjoy your own JP1K deck.",
     "url":"jp1k-anki-deck.html#convert-any-deck-to-the-jp1k-format",
@@ -979,7 +1001,8 @@
     "tags":[
       "decks",
       "kanji",
-      "vocab"
+      "vocab",
+      "guide"
     ],
     "body":"The deck still has room for improvement. Please share any feedback, suggestions, or corrections you have in our chat. Join us.",
     "url":"jp1k-anki-deck.html#feedback",
@@ -1131,7 +1154,8 @@
   {
     "title":"Mitigating the Impact of Early Output",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"I'm forced to output early. How can I mitigate the damage? If you're already living in Japan, or taking Japanese classes, you may find yourself in situations where you need to speak Japanese. If you're not fluent yet, early output will damage your Japanese. In this article, we'll explore strategies to help you mitigate the damage.",
     "url":"mitigating-the-impact-of-early-output.html",
@@ -1140,7 +1164,8 @@
   {
     "title":"Input before output",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"One of the fundamental principles of the AJATT philosophy is the concept of input before output. In AJATT, we recommend delaying speaking in your target language until your output ability emerges naturally. This mirrors the learning process of young children acquiring their native language. We recommend this approach based on the observation that attempting to speak before your brain is ready leads to the formation of bad habits. You make a lot of mistakes, and there is a tendency to repeat mistakes if they have been made before. Additionally, it is difficult to engage in conversations if you don't understand what others are saying in response. Ultimately, premature speaking can lead to a frustrating experience. The idea of input before output is to make good habits the first time by only saying things that you know are correct. If you focus on learning to understand first, then by the time you do start speaking, you will already have a pretty good sense of what's correct and natural and what's not correct and natural.",
     "url":"mitigating-the-impact-of-early-output.html#input-before-output",
@@ -1149,7 +1174,8 @@
   {
     "title":"Avoid making mistakes",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"When you're forced to speak prematurely, it can be tough to know what to say. There's no one-size-fits-all solution, but here are some tips to help you out. You will come across situations where you need to say something, but you're not sure how to say it correctly. This applies to both grammar and pronunciation. In such cases, it is recommended to say what you know for sure is correct, even if it doesn't exactly match what you think. How do you tell if a phrase is correct? Normally, it's correct if you've heard multiple native speakers say it before. Alternatively, you can try to say it the way you know, and then make sure to check if it's correct later. Chances are, you will say it incorrectly. If you keep a mental note that what you've just said is probably incorrect, it could help prevent saying it again and creating a habit. To check the correctness of a sentence, you can try searching in your sentence bank or online.",
     "url":"mitigating-the-impact-of-early-output.html#avoid-making-mistakes",
@@ -1158,7 +1184,8 @@
   {
     "title":"Get input",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Prioritizing input is crucial. It is important to listen a lot. Get tons of high quality input. The time spent listening should significantly exceed the time spent outputting. I think that if you're speaking your target language even pretty early on, such as once a week or a few times a month, then as long as you're getting lots of input each day, the potential for any serious long-term damage is minimal. Consider constantly wearing headphones and listening to podcasts, audiobooks, or anime. I did this while studying in university to maximize my immersion time. If you get a lot of high quality input, you will be less prone to solidifying your speaking mistakes. Let's also cover toxic input that comes from other learners' output. If you attend classes with other non-native speakers, you have to listen to your classmates speak, and a lot of them speak incorrectly and have bad pronunciation, so you receive toxic input. To counter this, focus on getting as much high-quality input as possible. Hypothetically, if you were to get 5 hours of high-quality input every day, that would amount to 35 hours per week. So if you have 35 hours a week of good input and then 5 hours per week of exposure to toxic input from your classmates, then overall you're probably going to be fine because the vast majority of your input will still be of high quality, effectively overwhelming the negative effects of the toxic input. Yes, receiving toxic input is not ideal and may have some negative impact. But I think if you get tons of high quality input, you'll be able to mitigate the negative effects to a large extent.",
     "url":"mitigating-the-impact-of-early-output.html#get-input",
@@ -1167,7 +1194,8 @@
   {
     "title":"Balance output",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Another thing you will have to do is balance the amount of output you do. On one hand, you want to enjoy your life in Japan, make Japanese friends, and engage in activities that allow you to use your target language. On the other hand, you also want to continue improving your language skills. If getting perfect at Japanese is your top priority, then you shouldn't output at all. However, if you avoid output altogether, you may end up having a miserable experience in Japan, feeling isolated and depressed. And it will not be very fun. If you're forced to attend Japanese classes, it's relatively easy to avoid outputting. And there's no negative effects to avoiding outputting because you aren't losing anything if you don't speak, unlike real life situations. You can simply respond only when the teacher asks you a question and avoid speaking beyond that. Even if you have classes every day of the week, that's only about 5 hours per week. You can still get plenty of high-quality input outside of class to mitigate the negative effects of premature output.",
     "url":"mitigating-the-impact-of-early-output.html#balance-output",
@@ -1268,7 +1296,8 @@
     "title":"How to type X with Fcitx?",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"This article addresses common questions about typing with Fcitx. To enter anything when using Fcitx, type what you want to type and then press the space bar. Fcitx will provide predictions for the characters you intend to insert. If the prediction is incorrect, continue pressing the space bar until you find the correct one. Main article: How to type in Japanese",
     "url":"how-to-type-x-with-fcitx.html",
@@ -1278,7 +1307,8 @@
     "title":"Small kana",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"To type ぁぃぅぇぉゃゅょ, type x before each corresponding sound. E.g., to type ゅ, you actually type xyu.",
     "url":"how-to-type-x-with-fcitx.html#small-kana",
@@ -1288,7 +1318,8 @@
     "title":"Repetition symbol 々",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"The character can be spelled noma because it resembles the katakana ノマ smashed together. Alternatively, you can try onaji. If you type odori or odoriji (踊り字,おどりじ), you can choose one of the other repetition symbols (〱々ヽヾゝゞ).",
     "url":"how-to-type-x-with-fcitx.html#repetition-symbol",
@@ -1298,7 +1329,8 @@
     "title":"Yen symbol ￥",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"Press ＼ (backslash). Find ￥ among the predictions. Alternatively, type えん and find ¥ in the conversion candidates.",
     "url":"how-to-type-x-with-fcitx.html#yen-symbol-y",
@@ -1308,7 +1340,8 @@
     "title":"Whitespace",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"The \" \" (blank space) can be spelled as kankaku.",
     "url":"how-to-type-x-with-fcitx.html#whitespace",
@@ -1318,7 +1351,8 @@
     "title":"Asterisk ※",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"Type komejirushi or hoshi.",
     "url":"how-to-type-x-with-fcitx.html#asterisk",
@@ -1328,7 +1362,8 @@
     "title":"Middle dot ・",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"Type nakaten or nakaguro.",
     "url":"how-to-type-x-with-fcitx.html#middle-dot",
@@ -1338,7 +1373,8 @@
     "title":"N",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"Typing \"xn\" outputs ん.",
     "url":"how-to-type-x-with-fcitx.html#n",
@@ -1348,7 +1384,8 @@
     "title":"Overline ￣",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"Type うえ. Note: Overlines are used in the NHK accent dictionary to mark high pitch accent, e.g. いっぱい￣. When pitch drops, slashes are used ＼.",
     "url":"how-to-type-x-with-fcitx.html#overline",
@@ -1358,7 +1395,8 @@
     "title":"lambda λ",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"らむだ can give you the greek symbol λ",
     "url":"how-to-type-x-with-fcitx.html#lambda-l",
@@ -1368,7 +1406,8 @@
     "title":"Pound £",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"ぽんど can give you the British pound symbol £.",
     "url":"how-to-type-x-with-fcitx.html#pound-ps",
@@ -1378,7 +1417,8 @@
     "title":"Arrows",
     "tags":[
       "faq",
-      "ime"
+      "ime",
+      "guide"
     ],
     "body":"やじるし can give you any arrow. みぎ can give you →, ひだり can give you ←, etc.",
     "url":"how-to-type-x-with-fcitx.html#arrows",
@@ -1792,7 +1832,8 @@
   {
     "title":"Could machine translation be useful to language learners?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Relying on translations interferes with the natural process of language acquisition. Hence, translations are harmful to language learners. This is true for human-made translations as well. Machine translations are even more dangerous, because they often introduce errors and inaccuracies. Sometimes it is tempting to paste text into a machine translator or ask an AI chatbot to explain it. But that creates an illusion of comprehension, so it is counterproductive to our goal. To understand how the language works, you have to build a foundation for natural, intuitive understanding through mass immersion and exposure. Always try to decipher texts entirely on your own! It is permitted to translate individual words for the first couple months of learning the target language. We think it is acceptable to do so because there is no other option since the learner can't use monolingual dictionaries yet. But later on learners are expected to switch to monolingual dictionaries and stop depending on languages other than their TL. When translating individual words, it's generally better to use a dictionary app (see GoldenDict-NG, for example) instead of a machine translator. Dictionary apps are more versatile and can display results from multiple installed dictionaries. Besides, you need to get familiar with them to get ready for the monolingual stage, and it is a good idea to start early. Note that if a word you're looking up is a concrete noun, e.g. dog, cat, kettle, elephant, the best way to understand it is by using pictures instead of words. This advice is especially useful when making Anki cards. One of the reasons we advise against translating is that nuances always get lost in translation, especially when dealing with languages that are very different, such as English and Japanese. Therefore, if you have a gap in your knowledge of the language that you want to fill, if there is a structure that you partly understand but not completely, it's unlikely that an English translation of a sentence, especially done by an imperfect machine algorithm, will help you grasp what that structure really means, or help you understand the nuance because those things tend to get lost. Another reason is that the natural process of language acquisition only happens when we imitate the environment in which babies learn their first language. Obviously, babies do not rely on translations to understand messages in their first language. When we read translated sentences, we understand the meaning in translation, not the original meaning. The important features of the message in the target language get lost. To acquire our target language successfully, we have to understand the messages in their raw form, as we do in our native language every day. And the way we do that is by doing mass immersion, of course. You acquire the real meaning of an expression only after hearing it said in your immersion dozens of times. If you can't understand an expression even after looking up individual words, the best course of action is to search for various example sentences that use the expression. I have observed that AI-powered translators, including ChatGPT (GPT 4, etc.), often generate translations of poor quality and should not be used. Although this may change in the future, the lack of improvement thus far does not inspire much hope.",
     "url":"could-machine-translation-be-useful-to-language-learners.html",
@@ -1910,7 +1951,8 @@
   {
     "title":"Is it a good idea to read mostly manga in the beginning?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Immersion is immersion. Consuming any native content is almost always the best strategy (unlike non-native content). There are some pitfalls associated with reading manga, but they're not too significant. Still, I would rather immerse in anime as a beginner, with manga taking a secondary role. Firstly, it's important to note that manga is not voiced, unlike anime. Consequently, often when reading you may get lost because you won't know how to say certain words correctly and with the right pitch accent. If you read something incorrectly, you may accidentally create a bad habit. Since reading manga is reading immersion, it is crucial to balance reading with listening. Only through listening we can get exposure to native speech, get used to the sounds of the language and learn to understand speech without relying on textual cues. You may not have access to high resolution scans. Reading text on low-resolution images can be frustrating, particularly when dealing with small text and complex kanji containing many strokes. Lastly, setting up a sentence mining workflow for manga requires more steps compared to anime. You need to learn how to use OCR software, and how to connect it with Japanese dictionaries and Anki, which may be tedious for some people. OCR software often makes mistakes when recognizing text from images, and it can hinder your ability to quickly look up words. In contrast, when reading books or watching anime with TL subtitles you don't have to rely on OCR.",
     "url":"is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html",
@@ -2008,7 +2050,8 @@
   {
     "title":"Why shouldn't I just keep using an app instead?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"We do not recommend \"language learning\" apps like Duolingo, Lingodeer, Babbel, and others due to the fact that their methodology conflicts with AJATT's principles of immersion learning. Such apps do not actually help you with anything. There are no success stories. On the other hand, AJATTers typically reach fluency in just 18 months. The apps prevent you from reading interesting content in your target language, such as manga. And they make you more miserable in the end. To elaborate, apps such as Duolingo are not designed in a way that aligns with AJATT methodology. They reinforce traditional learning habits, which are not efficient. AJATT says that the most effective method of learning a foreign language is to surround yourself with the language as much as possible. We call this immersion. Immersion can be practiced through various activities, such as watching TV shows and movies, reading manga and books in the target language, and so on. In contrast, phone apps for learning foreign languages typically rely on repetitive exercises and memorization drills, which are ineffective in helping learners achieve fluency in the language. Instead of immersion, Duolingo and such force the learner to produce sentences from the provided words and grammar rules, and memorize vocabulary in a specific order. Trying to produce language before it has been acquired naturally from input only creates disaster. Duolingo doesn't offer any input which is essential for acquiring a language. To make things worse, the whole process is accompanied by low-quality translations and robotic text-to-speech audio. One of the key advantages of the AJATT method is that it enables learners to acquire the language naturally, just like how children learn their first language. This means that learners are exposed to the language in context, and they gradually develop an intuitive understanding of its nuances and grammar rules. On the other hand, relying solely on apps doesn't activate the natural process of language acquisition, making it difficult to apply what has been learned in real-life situations. At best one will have memorized some detached information, such as words and grammar, but will have no ability to use it properly. Rather than just completing various drills, lessons or exercises, AJATT promotes engagement with the language on a personal level. Learners are encouraged to find immersion materials that interest them, choose compelling content, engage with the language in a way that is fun. AJATT enables you to learn from any type of media you want. This makes the learning process more enjoyable and motivating, leading to better retention and progress. In contrast, Duolingo has a high dropout rate because it is incredibly boring and tedious. No one likes their lessons. It even has to utilize a notification system to retain some users for a little longer. With the AJATT method, the target language is learned strictly from native content, content crated by natives for natives. Listening to native speakers is crucial to learn how to sound natural when speaking. Duolingo is the opposite of being native. The text-to-speech software Duolingo uses is simply awful. Mistakes, mistakes, mistakes. They are everywhere. It pronounces Japanese incorrectly. The pitch accent is totally wrong. Correctly answered questions are counted as incorrect, or vice versa. Duolingo teaches you very basic and primitive language. The maximum skill that one can achieve on Duolingo can be surpassed in just two or three months of doing AJATT properly. Some say that you should only use Duolingo for learning kana and then quit. But I don't get that idea because there are better ways to learn kana.",
     "url":"why-shouldnt-i-just-keep-using-an-app-instead.html",
@@ -2062,7 +2105,8 @@
   {
     "title":"I immerse with English and Japanese subs on at the same time. Is this a bad idea?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"If you watch with English and Japanese subtitles on the screen at the same time, consider having both subtitle tracks hidden most of the time. In mpv you can press v to toggle subtitle visibility. When you feel like you didn't understand something, turn the subs on temporarily. Mpvacious has key bindings that let you toggle secondary subtitles as well, or you can have them appear on mouse hover. You can approach this question at 2 levels. Training your listening ability. Displaying both Japanese and English subtitles simultaneously would occupy a significant portion of the screen, making the subtitles difficult to ignore. If you have them visible all the time, it is likely that you will end up reading them. It may happen unconsciously, automatically, accidentally. Even if you catch an outline of a sentence in the corner of your eye, it could give you a hint and disrupt your listening practice. If you're genuinely committed to improving your listening skills, consider hiding all subtitles. This is the only way to ensure that you're not cheating. Increasing your overall comprehension. To ensure effective learning, it's crucial that you don't read English subtitles. If you do, and if you don't pay attention to the Japanese subtitles, your progress will be zero. Try to understand the Japanese subs first. If you must use English subtitles, try to make them less accessible, such as requiring a button press or mouse movement to reveal them. Then consider whether English subtitles can help you, or if it is better to get rid of them completely. Prioritize understanding the Japanese subtitles first, and only opt for English subtitles if necessary. As I previously discussed in Should I put English translations on Bilingual TSCs, relying on translations doesn't help in language acquisition. While they may help you understand a rough meaning of a sentence, they don't aid in understanding how ideas are expressed in Japanese, and how grammar works. The most harmful aspect of reading English subtitles is that one may feel like they comprehend the original text when, in reality, they understand only the translated meaning. Furthermore, using English subtitles carries the risk of creating false associations between English words and Japanese words with similar meanings. This can lead to biases in your Japanese comprehension. In conclusion, it is OK to keep Japanese subtitles visible, but English subtitles are better kept hidden. Hiding both English and Japanese subtitles is good for improving your listening abilities. And if you hate going forth between turning subs on and off, consider watching some shows fully raw and other shows with Japanese subs always on.",
     "url":"en-and-ja-subs-at-the-same-time.html",
@@ -2838,7 +2882,8 @@
   {
     "title":"Should I watch with Japanese subtitles while going through the kanji phase?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"It is not a bad idea to watch with Japanese subtitles while progressing through the kanji phase (JP1K or isolated kanji). Doing so can improve motivation and further increase your learning rate as it provides opportunities to practice the knowledge gained from studying kanji in a different context than SRS cards. However, I think one must be careful when watching with Japanese subtitles as a beginner. It should not constitute the majority of your immersion, as the focus should be on building listening skills. Watching with subtitles is more akin to reading than listening, and premature reading negatively affects one's ability to perceive sounds and understand spoken language. So you have to be really moderate about it, maybe keep it to less than one third of all your active immersion. Subtitles can be of help no matter what stage in the process of learning Japanese you are at, but it is also important to spend a lot of time without them. Watching with subtitles is acceptable as long as you regularly train your listening ability as well. See also: Is it harmful to always have TL subtitles on?",
     "url":"should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html",
@@ -3093,7 +3138,8 @@
   {
     "title":"How much listening should I do before I start reading?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Essentially, language learners face two primary options. Start practicing reading from the beginning or postpone reading until a future point. If your sole goal is to understand your target language, be able to read books effortlessly, but you don't care about speaking or interacting with natives, then reading early is a good idea. As an adult, learning foreign languages through reading is considerably easier than learning by listening to spoken language. You can improve much more quickly. However, reading early on comes with a significant drawback: you're going to develop bad phonetic habits. Reading biases your perception of the language. Without acquiring a solid intuitive understanding of the language's phonetics, the way the language sounds in your head while reading will be incorrect and foreign. Undoing these habits later is harder than avoiding them in the beginning and requires thousands of hours of listening. Learning through listening alone is more difficult and takes more time. You must rely solely on sound to understand what's going on. Yet, listening practice is precisely what gives you very strong listening abilities. The quality of your pronunciation is also largely determined by your ability to perceive sounds and detect subtle differences. If you want to develop excellent listening skills and pronunciation, I recommend focusing exclusively on audio-visual input (TV shows, movies, anime, dramas) in the beginning. While it's hard to completely avoid reading because you'll still need to create Anki cards and use dictionaries, minimizing reading will help prevent many bad phonetic habits. The most optimal approach is to learn to read kana and kanji from the beginning, but avoid active reading practice beyond reviewing text-based flashcards. Your primary focus should be listening all the time and learning to understand spoken language. Do it for the first year. This will give you a strong foundation in the language's phonetics. After this initial period, you can gradually introduce light reading. Start with easy comic books or manga, then progressively move to more difficult content like novels. Even if you're eager to start reading immediately, never neglect listening. Listening is convenient and easy to do. You can do it while doing something else, in the background.",
     "url":"how-much-listening-should-i-do-before-i-start-reading.html",
@@ -3247,7 +3293,8 @@
   {
     "title":"Given that reading can harm pronunciation, when is the ideal time to become an avid reader?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"I find that for people who want to have a native accent ideally it should be as late as possible. Depending on when you start reading, you trade faster progress and literacy for better pronunciation. If you want to have a good accent, I recommend getting into reading novels after about a year. Waiting longer is likely to give diminishing returns, but go for it if you don't like reading, or if you strive for perfect pronunciation. Some people don't really care about their pronunciation in which case they might focus on reading right from the beginning. Of course reading novels will be difficult for beginners unless they immerse a lot before they become readers. And of course you can improve your pronunciation later. To do that you'll have to go through a period where you focus on listening instead of reading, deliberately practice your pronunciation by doing imitation excercies, etc.",
     "url":"ideal-time-to-become-an-avid-reader.html",
@@ -3411,7 +3458,8 @@
   {
     "title":"Is it harmful to always have TL subtitles on?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Watching with subs is a reading activity. If you have subtitles on all the time, you have less, maybe even no time to practice listening to the target language. If you're not fluent yet, and you practice reading more than listening, your listening ability starts lagging behind your reading ability. On the other hand, having target language subtitles on is going to help you learn a lot more quickly. If developing good accent and listening ability is important for you, always watch raw and turn the subs on only when you hear an unknown word. If getting a native-like accent is a priority, you should also cut down on any reading practice and learn entirely through listening. If you're not that concerned about it, you could keep two types of TV shows, one for watching raw and one for watching with subs so that you still have some dedicated time to learn through listening. And if you don't care about accent at all, maybe if you're learning your TL only to be able to read TL books or watch TV shows with subs, then it's okay to have them on all the time. The amount of passive immersion you're doing also plays a role. You can allow yourself to watch more content with subs if you listen a lot in the background. If your listening ability is underdeveloped by the time you reach fluency, catching up will take more effort than if you listen a lot from the beginning. But the process is pretty intuitive, to develop your listening ability all you have to do is listen a lot over a period of time. In my experience neglecting listening as a beginner can be crippling for your speaking. Before I started learning English through immersion, I had spent several years not listening to any native English content and being forced to prematurely output at school. I was able to improve my listening relatively quickly after starting to immerse. Today I can understand everything I hear in English, maybe except some strong accents. However, when I speak, I don't know how to pronounce words correctly, and often I'm lost trying to recall or guess the right pronunciation. I don't have the same experience in Japanese because I took a listening-heavy approach from the start. Lastly, I notice that it's hard to let go of TL subtitles if you already have them downloaded. A solution is to decide what shows you watch raw and what shows you watch with subs. If you watch something raw, don't download subtitles at all. I also recommend watching ongoings. When you watch an ongoing anime, you download a new episode every week. Because the episode is still new, there are no subtitles for it yet. Your only option is to watch raw.",
     "url":"is-it-harmful-to-always-have-tl-subtitles-on.html",
@@ -3421,7 +3469,8 @@
     "title":"I would like to start adding pitch accent to my cards. How should I grade the cards once I add pitch accent?",
     "tags":[
       "faq",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"Don't change anything about the grading process. Put pitch accent information on the back of your cards, but don't take it into account when grading yourself. If you force yourself to recall the target word and its pitch accent at the same time, failing to recall either one will mean you must press \"Again\" on the card. For example, you will have to fail a card if you remember the meaning but not the accent. Piotr Wozniak's 20 rules basically advise against that. If you consider an item that is composed of two sub-items, you will need to make repetitions that are frequent enough to keep the more difficult item in memory. If you split the complex item into sub-items, each can be repeated at its own pace saving your time. — Twenty rules of formulating knowledge To learn pitch accents of individual words, make separate cards. Put the word on the front and its pitch accent on the back. For example: Front Back What's the accent of 出来る? 中高 （2） What's the accent of 入る（はいる）? 頭高 （1） If a word has multiple readings, include furigana on the front. Note that many Japanese words have multiple correct pitch accents. It's often easiser not to make cards for those, since you'll likely get them correct regardless of which accent you use. You don't need to make pitch-accent cards for every word. Include only words that are common and that you are likely to say often. Roughly the 2,000 most common words, no more.",
     "url":"how-should-i-grade-cards-once-i-add-pitch-accent.html",
@@ -3806,7 +3855,8 @@
   {
     "title":"Should I watch anime with English subtitles?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Yes, if you want to learn English. This is actually how I learned English as a teenager, not even joking. I was so fed up with the quality of fansubs in my native language that one day I just decided to switch and start watching anime with English subs. It was insanely hard at first, and I spent hours looking up every word in a dictionary. However, after a few months I only had to look up a couple words here and there. If you are serious about learning Japanese, don't use English subtitles. Watch with Japanese subtitles or without any subtitles at all. When reading subtitles, your own subvocalization interferes with and shadows the audio. Therefore, you learn the language of the subtitles, not the language of the audio. That's why we say that watching with subtitles counts as reading immersion. I learned English because I was reading English subtitles. And it didn't help my Japanese at all because I wasn't actually paying attention to the Japanese. We've all seen countless anime fans who've watched thousands of hours of English-subbed anime and still know less than 100 Japanese words.",
     "url":"should-i-watch-anime-with-english-subtitles.html",
@@ -4231,7 +4281,8 @@
   {
     "title":"What do you think about graded readers?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"I think they're still in use because people are scared to leave their comfort zone, not because they are magically effective. Most creators of language learning materials have never learned a foreign language to a high level and don't understand the mechanics of language acquisition. I never used graded readers or any learner's materials in my Japanese studies besides a basic grammar guide. Nor did I use them when learning English. By immersing in real authentic content I was able to reach a point of being able to read Japanese novels quite comfortably within 2 years. Thus, it's hard for me to buy into the idea of things like \"graded readers\". I know from experience that you can learn from materials for natives from the beginning. Graded readers are dumbed down for the sake of a learner, and thus do not teach you the real language. They can never be as exciting as understanding something that was meant for real native speakers. AJATT is about reading stuff made for natives. If you're a beginner, watch anime with Japanese subtitles to learn the basics of reading. Then start reading simple manga, and then finally jump into reading real books. Another thing to consider is that there's a trap when people continue to read these oversimplified beginner resources forever, and they never make the move to authentic content. The reality is that you can't prepare for the challenge of reading a novel. No amount of graded readers can help you. We don't learn a language to read learner's texts, we learn it because we want to understand native texts. Don't lose the objective.",
     "url":"what-do-you-think-about-graded-readers.html",
@@ -4249,7 +4300,8 @@
   {
     "title":"Thoughts on reading before listening?",
     "tags":[
-      "faq"
+      "faq",
+      "guide"
     ],
     "body":"Reading is very powerful, but it harms you if you don't have enough phonetic awareness. If I were starting today, I would keep reading at a minimum for the first year. In this guide we try to balance listening and reading to accelerate progress without sacrificing listening abilities too much. It is recommended to avoid reading for the first year in order to allow listening abilities to mature. Therefore, active immersion mainly consists of watching anime, dramas, movies, etc. Afterwards audio tracks are extracted from the video files and reused for passive immersion. A limited amount of reading is necessary to grow one's vocabulary. Target language subtitles are used to look up unknown words, but are best kept disabled, hidden for the most part of the playback. Text-based flashcards are used to aid in memorization since audio-based flashcards don't work very well. By listening to the language as much as possible, preferably all the time, the adverse effects of premature reading are minimized. What's more, by reading subtitles and reviewing text-based flashcards in the SRS one can learn kanji and prime themselves for reading real texts later on. In Japanese literacy is impossible without knowing kanji, and we have to address that.",
     "url":"thoughts-on-reading-before-listening.html",
@@ -5059,7 +5111,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"A typical entry in a monolingual dictionary looks similar to this: あした [3] 【明日・朝】 （名） （１）今日の次の日。 （２）夜が終わって，明るくなった時。あさ。 Every dictionary usually has its own, unique system of notation. On this page I primarily use 大辞泉 as an example. If you need help finding monolingual dictionaries, see the Dictionaries resources section.",
     "url":"understanding-monolingual-definitions.html",
@@ -5070,7 +5123,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"If your dictionary has an EPWING version, chances are that you can open the back of the book section in Qolibri. The back of the book will tell you exactly what symbols the dictionary uses and what they mean. If you're out of luck, try searching the web. The keywords that should work are 凡例, 記号一覧, 約物一覧 followed by the name of the dictionary.",
     "url":"understanding-monolingual-definitions.html#back-of-the-book",
@@ -5081,7 +5135,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"First you see the word in kana. The number to the right in square brackets [] is pitch accent. You'll find about pitch accent at the end of the page. If next to the hiragana reading you see a slightly different reading in katakana, it likely indicates how the word was spelled before World War II. きのう ｷﾉﾌ [2] 【昨日】 Inside the fat brackets 【】 you see how it can be written in kanji. Different kanji spellings are separated with a ・. It means that the word can be written multiple ways. きゅう‐か【球果・毬果】 Inside the kanji notation you may see triangles like this. くじゃく【▽孔▼雀】 ▼ or × mean that the kanji character is not standard, not a 常用漢字. ▽ means that the kanji reading is not standard. Parts of okurigana may be inside round brackets. This means that the okurigana inside the （…） can be omitted. E.g., 売り上げ becomes 売上げ. うり‐あげ【売〔り〕上げ・売上】 - or = indicate 熟字訓. あした【明＝日】 熟字訓 is when a Japanese reading is assigned to a kanji compound. In other words, it means that there's no relation between the reading of a word and the kanji used to write it. ‐ indicates that this reading is listed in the 「付表」 section of 常用漢字表. ＝ means this reading is not listed in the 「付表」 section. There is no clear reason why kanji end up in 付表. It's just another way Japanese people like to shoot themselves in the foot. 熟字訓 can be seen in words such as: 果物(くだもの) 土産(みやげ) 素人(しろうと) 五月雨(さみだれ) etc. In addition to - and =, in other dictionaries 熟字訓 can be marked as 《word》, ｛word｝ or 〈word〉, like this. あひる【〈家鴨〉】(名) マガモを飼い慣らして改良したカモ科の家禽。",
     "url":"understanding-monolingual-definitions.html#headword",
@@ -5092,7 +5147,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"After the kanji reading inside round brackets the entry is telling you the part of speech. For example, 名 means it's a noun, 動五 means it's a 五段活用 verb, etc. The part of speech notation can be a bit complex and has to do with 学校文法, so I recommend getting familiar with that. If you have recursive lookups enabled in Rikaitan, hover over the part of speech to see what it means. Sometimes after [文] it tells you what part of speech this word was in classical Japanese. In the example below it says that the 下一段 verb was 下二段 in classical Japanese. たす・ける [3] 【助ける・扶ける】 （動カ下一）[文]カ下二 たす・く 力を添えて人や動物を，死の危険や苦痛・災難から逃れさせる。 Different parts of speech, from デジタル大辞泉. Symbol Meaning ［名］ 名詞 ［代］ 代名詞 ［動五］ 動詞五段活用 ［動五（四）］ 動詞口語五段活用、文語四段活用 ［動四］ 動詞四段活用 ［動上一］ 動詞上一段活用 ［動上二］ 動詞上二段活用 ［動下一］ 動詞下一段活用 ［動下二］ 動詞下二段活用 ［動カ変］ 動詞カ行変格活用 ［動サ変］ 動詞サ行変格活用 ［動ナ変］ 動詞ナ行変格活用 ［動ラ変］ 動詞ラ行変格活用 ［動特活］ 動詞特殊活用 ［形］ 形容詞 ［形ク］ 形容詞ク活用 ［形シク］ 形容詞シク活用 ［形動］ 形容動詞 ［形動タリ］ 形容動詞タリ活用 ［形動ナリ］ 形容動詞ナリ活用 ［ト・タル］ 「－と」の形で副詞、「－たる」の形で連体詞 ［連体］ 連体詞 ［副］ 副詞 ［接］ 接続詞 ［感］ 感動詞 ［助動］ 助動詞 ［格助］ 格助詞 ［接助］ 接続助詞 ［副助］ 副助詞 ［係助］ 係助詞 ［終助］ 終助詞 ［間助］ 間投助詞 ［並助］ 並立助詞 ［準体助］ 準体助詞 ［ ］(スル) サ行変格活用の動詞となる 〔接頭〕 接頭語 〔接尾〕 接尾語 〔語素〕 語素 〔連語〕 連語 〔枕〕 枕詞 ［文］ 文語形",
     "url":"understanding-monolingual-definitions.html#parts-of-speech",
@@ -5103,7 +5159,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"Meanings are usually shown as numbered lists. After each definition there may be one or more example sentences in 「」 brackets. When there's only one meaning, it's not numbered. ひるがえ・る ﾋﾙｶﾞﾍﾙ [3] 【翻る】（動ラ五［四］） （１）ひらりと裏がえる。「木の葉が風に―・る」 （２）旗などが高く上がってひらひらと動く。「校旗が―・る」 （３）今までの態度や言動が急に変わる。「悪心たちまち―・りて/仮名草子・伊曾保物語」 You may want to grab the example sentence when making Anki cards. If you see a slash inside the brackets, the sentence comes from a piece of literature, and the name of the work is written after the slash. Contrary to normal example sentences, such sentences often come from pretty old literary works. They tend to be quite difficult, and you probably don't need to bother trying to understand them. Symbols found inside definitions. Symbol Meaning ⇒ その項目を見よ → 参照せよ ⇔ 対義語・対語 [補説] 語誌・表記などの補説 ［アクセント］ アクセント表示 《季 》 季語 ［歌枕］ 歌枕 ［可能］ 可能動詞 ［派生］ 派生語 ［類語］ 類語 ［下接句］ その語が下に付いてできる句 ［下接語］ その語が下に付いてできる語 ［用法］ 用法の使い分け Kanji entries Symbol Meaning ［音］ 字音 ［訓］ 字訓 （慣） 慣用音 （呉） 呉音 （漢） 漢音 （唐） 唐音 ［名のり］ 人名に用いる訓 ［難読］ 難読語",
     "url":"understanding-monolingual-definitions.html#meanings",
@@ -5114,7 +5171,8 @@
     "tags":[
       "dictionaries",
       "epwing",
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"The pitch accent number that you see in dictionaries indicates where the pitch drop occurs, counting by moras. A mora can be defined as a single kana character except small kana (ゃ,ゅ,ょ but not っ), optionally followed by a small kana. Each mora is given the same amount of time when pronounced. Examples: にゃ is one mora. あ is one mora. ー (long vowel mark) and small っ each count as one mora. 東京(とうきょう) has 4 moras: と, う, きょ and う. Every mora is either pronounced with low tone of voice or with high tone of voice. In most Japanese words, the pitch starts low, then raises after the first mora, and then drops somewhere after the second mora. There can be only one pitch drop in any single word, unless it's a combination of two words. Pitch accent number in a monolingual dictionary tells where tone of voice changes from high to low. The word おうだんほどう【横断歩道】 has accent [5] which means that the drop occurs after the 5th mora. In other words, お is pronounced low, moras after お are high, all moras after ほ are low. The word is pronounced like this: オ↑ーダンホ↓ドー. If the accent number is [0], it means there is no pitch drop. The word is pronounced with a flat accent. The first mora is low, and every mora after the first is high. After the word ends, the following syllables remain high until there's a drop in any word that comes after in a sentence. The word せいかつ【生活】 has accent [0] which means that the drop doesn't occur. せ is pronounced low, moras after せ are high. The word is pronounced like this: セ↑イカツ. If the accent number is [1], it means that the first mora is high and the drop occurs after the first mora. Then the accent stays low until there's a rise in any following word in a sentence. The word かいがい【海外】 has accent [1] which means that the drop happens after the first mora. か is pronounced high, moras after か are pronounced low. The word is pronounced like this: カ↓イガイ. Any Japanese word has one of the 4 pitch accent patterns. Pitch accent patterns make categorizing Japanese words easier since instead of memorizing a number it is sufficient to memorize what group a word belongs to. 平板型. Pitch number is 0. Flat accent. The first mora is low, then accent stays high. Examples: しんじん【新人】, ピアノ, じょゆう【女優】, ふくそう【服装】. 頭高型. Pitch number is 1. Accent on the head. The first mora is high, the following moras are low. Examples: あう【会う】, らいげつ【来月】, スーツ. 中高型. Pitch number is 2, 3, 4, and so on, but is always less than the number of moras. Pitch drops somewhere before the end of the word. Examples: はやい【速い】, おてあらい【お手洗い】, へいわじょうやく【平和条約】, うごきまわる【動き回る】. 尾高型. Pitch number is equal to the number of moras. Pitch drops immediately after the end of the word and stays low until there's a rise in any following word. The 尾高型 pattern is different from the 平板型 pattern which doesn't cause pitch to drop. However, when said in isolation, 尾高型 words sound just like 平板型 words. Thus, when listening, it's impossible to tell if a word is 尾高型 or 平板型 without hearing the following word because the two patterns are distinguished by the presence of a drop after the last mora. Examples: ゆき【雪】, しっぽ【尻尾】, いもうと【妹】. Sometimes a dictionary entry contains several pitch accent numbers. It means that the word can be pronounced with either of them. In real life one of the accents is usually more common than others. To tell which accent is dominant and how you should say the word, you need to listen to native speakers and find out how they say it. The 5th version of Shinmeikai may list two pitch accent numbers separated by a colon. This means that only the second one tells you the pitch accent of the word in its dictionary form and the other one you can ignore because it tells you the pitch accent of the word when it modifies a noun.",
     "url":"understanding-monolingual-definitions.html#understanding-pitch-accent",
@@ -5562,7 +5620,8 @@
     "title":"Setting up Qolibri",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Qolibri is a Qt-based dictionary viewer. It lets you search multiple dictionaries at one time so for every word you look up you immediately get multiple definitions. Qolibri remains one of the most widely used Japanese dictionary viewers for GNU/Linux. By itself, Qolibri is just a viewer. To utilize it, you need dictionary files. The dictionary files Qolibri reads are called EPWINGs. EPWING (electronic publishing WING) is a dictionary format that was allegedly utilized in portable electronic dictionaries. Qolibri is much better than Rikaitan at searching a big number of dictionaries at the same time. If you try to use more than 5 dictionaries with Rikaitan, it quickly becomes very cluttered and hard to navigate. Qolibri lists all dictionaries you have on a sidebar. It is easy to jump between them if you need to. If you haven't started using Japanese to Japanese dictionaries yet, feel free to skip this article for now. Though Japanese to English dictionaries for Qolibri exist, their number is not very large. The main reason you want to use the program is to browse monolingual dictionaries.",
     "url":"setting-up-qolibri.html",
@@ -5572,7 +5631,8 @@
     "title":"Installation",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"On Arch Linux-based distributions you can install Qolibri with trizen or any other AUR helper. $ trizen -S qolibri If you don't want to build it yourself, install qolibri-bin: $ trizen -S qolibri-bin If you're running a different distribution of GNU/Linux or not running GNU/Linux at all, check out the GitHub page for installation instructions.",
     "url":"setting-up-qolibri.html#installation",
@@ -5582,7 +5642,8 @@
     "title":"Dictionary files",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Without dictionary files, Qolibri is just an empty window with buttons. Download the dictionaries and save them to a folder on your computer. EPWINGs are usually larger compared to Rikaitan dictionaries. You need several GiB of disk space to store them. You can find dictionary files here. To import the dictionaries to Qolibri click \"Setting\" > \"Book and group settings\" and insert the location where the dictionary files are stored on your computer. Then press \"Start search\". Once the dictionaries are loaded, put the ones that you use most often at the top to have them display first when searching. Due to the nature of the format, most Qolibri dictionaries are old, they date back to the 1990s. But don't worry about it, in rare occasions when you can't find a definition for a new word or slang, you can use the web search or consult online dictionaries.",
     "url":"setting-up-qolibri.html#dictionary-files",
@@ -5592,7 +5653,8 @@
     "title":"Recommended dictionaries",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"These dictionaries are recommended the most among Japanese learners. Here I list generic names stripped of version notations, editions, etc. 大辞林 新明解 大辞泉 明鏡 広辞苑 Usually people keep NHK日本語発音アクセント辞典 at the very top to quickly access pitch accent information and audio.",
     "url":"setting-up-qolibri.html#recommended-dictionaries",
@@ -5602,7 +5664,8 @@
     "title":"Searching",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"To search in Qolibri, insert what you're interested in finding into the search box and press \"Search\". There are multiple search types you can choose from. Exact word search (完全一致). Search for a headword that matches exactly with the query. Forward search (前方一致). Search words that start with the query. Backward search (後方一致). Search words that end with the query. Full text search (全文検索). Search whole page. These types split the search query by whitespaces: Cross search (クロス検索). Searches multiple words inside headwords. E.g., if you search 繰 返, it's going to find entries like 繰り返す or 繰り返し. After testing this search type I must say that it's far from perfect and often finds nothing when you expect it to find something. Keyword search (条件検索). Like cross search, but searches words in the books' contents, including headwords. Most of the time you want to use Exact search.",
     "url":"setting-up-qolibri.html#searching",
@@ -5612,7 +5675,8 @@
     "title":"Invoke search from a shortcut",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Qolibri can accept search queries via command line arguments. If you have xclip installed, you can write a small bash script that will send the content of the primary selection (or the clipboard, if you want) to Qolibri. Configure your DE, WM or a tool like sxhkd to bind the following command to a key: qolibri \"$(xclip -o)\" Now you can select any text and then press the key you've set to quickly search it. I recommend enabling \"Server mode\" in Qolibri's options. Otherwise, every time you press the hotkey, a new Qolibri window will be opened instead of a new tab. Note: Cabl has a built-in function that sends selected text to Qolibri.",
     "url":"setting-up-qolibri.html#invoke-search-from-a-shortcut",
@@ -5622,7 +5686,8 @@
     "title":"Watch clipboard",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"If you click the \"Watch clipboard\" button on the top toolbar, Qolibri will automatically search any text you copy to the clipboard.",
     "url":"setting-up-qolibri.html#watch-clipboard",
@@ -5632,7 +5697,8 @@
     "title":"Playing NHK audio",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"One of the dictionaries available for Qolibri is NHK 日本語発音アクセント辞典. It shows pitch accents of words and lets you play wav audio recordings when you click on the blue links. NHK dictionary with audio recordings. If you face problems when playing audio inside Qolibri, chances are Qolibri is not configured correctly. If you can't hear anything when clicking on pronunciations in the NHK dictionary or other dictionaries, download qolibri-mpv, a script that can be used to play Qolibri's audio with mpv. Naturally, you need mpv to be installed for it to work. Save the script in ~/.local/bin. To make it executable, run chmod +x ~/.local/bin/qolibri-mpv Make sure ~/.local/bin is added to the PATH. In Qolibri, go to \"Settings\" > \"Options...\" > \"External program\" and specify the name of the executable. Qolibri's options. In addition to playing the files as you click on them, qolibri-mpv also copies them to clipboard. You are able to play an audio and paste it in an Anki note as an ogg/opus file. Video demonstration.",
     "url":"setting-up-qolibri.html#playing-nhk-audio",
@@ -5642,7 +5708,8 @@
     "title":"Set browser font",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"To change the font used in the browser, go to \"Settings\" > \"Set browser font...\". Recommended fonts can be found here.",
     "url":"setting-up-qolibri.html#set-browser-font",
@@ -5652,7 +5719,8 @@
     "title":"Custom CSS",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"You can change the way definitions look using CSS. To edit the style sheet, go to \"Settings\" > \"Edit style sheet\" > \"Dictionary style sheet...\". I use a theme that looks similar to the style of my Anki cards. To get it, download this example CSS file. The default CSS file Qolibri ships with can be found on GitHub. Definition.",
     "url":"setting-up-qolibri.html#custom-css",
@@ -5662,7 +5730,8 @@
     "title":"How to use the dictionaries",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"If you click on the \"Search/read book\" button on the left side of the window, the magnifying glass icon changes into a book. Choose a dictionary in the dropdown menu and click the button that says \"Open book\". The program will show you a page that explains how to use the dictionary. Often dictionaries don't have this information, but 新明解, 大辞泉, 明鏡, NHK日本語発音アクセント辞典 and several others do. Here you can find the explanations what all the symbols mean.",
     "url":"setting-up-qolibri.html#how-to-use-the-dictionaries",
@@ -5681,7 +5750,8 @@
     "title":"Ankidrone Sentence Pack",
     "tags":[
       "vocab",
-      "decks"
+      "decks",
+      "guide"
     ],
     "body":"Ankidrone Sentence Pack is an Anki deck that contains over 67,000 Japanese sentence with native audio. This deck is not to be learned from back to back, its purpose is to aid you in finding example sentences for your targeted sentence cards. There are times when you want to mine a new word you've found in your immersion but the sentence it appears in is not 1T for you. In such situations you can either make a SWC or search in a sentence bank. I encourage you to build your own sentence bank using tools like subs2srs or mpvacious. If you don't have a bank yet, Ankidrone Sentence Pack is going to be a good starting point and the first building block of your bank. The deck is a complete offline copy of the Sentence Search website. The list of sentences used on the site can be found here. Additionally, the pack was expanded with sentences from many premade Anki decks I found online. Each card has a tag that indicates the underlying source. Audio files were converted from mp3 to a superior Opus format to save disk space. Anki supports Opus on both PC and Android. Sentence Search contains sentences from the Core10k deck (iKnow, core10k) and Tango decks (Ankidrone Essentials), thus this data is also present in Ankidrone Sentence Pack. If you already have these decks in your collection, delete the duplicates after importing the deck. Download If you have a different profile to store your sentence bank, use Cross Profile Search And Import to copy cards from the bank profile to your main profile. This deck is not a replacement for Ankidrone Essentials. It doesn't contain dictionary definitions. I recommend you start with Ankidrone Essentials if you're a beginner.",
     "url":"ankidrone-sentence-pack.html",
@@ -6060,7 +6130,8 @@
   {
     "title":"How to review",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Though Anki is an excellent piece of software, you can learn languages more effectively if you tweak some settings and know how to review. Even if you're using Anki for something other than studying human languages, this article may still help you.",
     "url":"how-to-review.html",
@@ -6069,7 +6140,8 @@
   {
     "title":"Anki settings",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Make sure you've applied the settings from the Setting up Anki article. Below is a quick overview. Set starting ease to 131%. It's kind of a magic number. 130% is the lowest possible ease, but Anki doesn't allow you to reliably use it. By bumping it up 1% you avoid the limitation. Because the Ease effectively becomes locked between 131% and 130%, it can't decrease further. This way you hijack Anki's default behavior which otherwise would lead to falling into Ease Hell. Set Interval Modifier to not less than 190%. This initial increase counteracts the low Starting Ease. You can increase it further if your retention is high enough. I think up to 300% should be fine. Enable Anki 2.1 scheduler (V3 scheduler). It's a little less limiting, less buggy and more convenient. In newer Anki versions it's the default.",
     "url":"how-to-review.html#anki-settings",
@@ -6078,7 +6150,8 @@
   {
     "title":"Grading",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"When you're ready to grade a card, you're asked to choose from 4 different options: \"again\", \"hard\", \"good\" and \"easy\". Use only \"again\" and \"good\". Do not press \"hard\" and \"easy\" unless you're aware of the consequences. When you press \"hard\" or \"easy\", the card's Ease factor changes. As a result, the speed at which the card's interval is going to grow from that point onward also changes. Pressing \"hard\" makes the card's interval grow slower, and the card comes up for review more often. The new Ease factor stays in effect indefinitely until you do something that resets it back to the default value. When a card comes up for review more often than needed, you spend unnecessary time reviewing. Likewise, pressing \"easy\" makes the card appear for review less frequently causing you to be more likely to forget it at some point. Setting Starting Ease to 131% can mitigate some consequences, but not all. There is an Anki add-on that removes some or all answer buttons. I cover it a few sections below. When you see a card, grade it \"good\" if you understand the target word. To grade the card \"good\", you should be able to: Understand what it means in context, if there's context on the card. Read it phonetically, if the word contains kanji. If not, select \"again\" and relearn the card. Sometimes you need to press \"again\" multiple times until you memorize the card. But as soon as you understand the word, hit \"good\". Don't hit \"again\" over and over because you're not sufficiently confident in your memory. Anki never guarantees that you will remember every single item you put into it. It can only guarantee a certain retention rate, usually about 70-90% depending on the settings. Each review session, expect to forget a number of cards. It's a natural part of using the program. If you forget too many cards, it is possible that your cards are not optimally formatted or your Interval Modifier is too large. Decrease the Interval Modifier, remove excessive or redundant information from the cards, use different example sentences, add examples if you don't have any. If you rarely forget any cards, you're seeing them too often. This means you need to increase you Interval Modifier.",
     "url":"how-to-review.html#grading",
@@ -6087,7 +6160,8 @@
   {
     "title":"Showing up",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Khatz's blog has an article about Showing up. 100% of winning is showing up. Dedicate the time, and you'll see the results. Not only this concept is important when using Anki to learn languages, it is mandatory. One of the objectives of using an SRS is to achieve long-term retention. Long-term retention is impossible without being consistent. The only way to benefit from using an SRS is to use it regularly. Anki expects you to do your reviews every single day. If you fail to do so, due cards quickly pile up. If you do a consistent number of new cards each day, the number of reviews tends to be consistent as well. So, if you miss a day, expect your review load to double the next day. If you miss two days, you'll have to do roughly 3 times as many reviews. Anki's algorithm schedules cards so that ideally they should come up for review just before you forget their content. If you don't do your reviews on time, expect to forget more cards. There are two distinct approaches to dealing with SRS reviews. Many people find that they are able to form a consistent habit if they do their reviews at the same time each day, such as first thing in the morning. Others prefer to fit in reviews between activities in their day. For example, they may use their phone to complete a few reviews while standing in line, taking a bus, or waiting for something. Your goal is to experiment and find an approach that works for you and enables you to consistently complete your reviews. Or you can choose a combination of the two approaches. Personally, I find that the first approach works for me well. I have a laptop dedicated to doing my Anki reps. Besides Anki, the laptop has almost no other software installed to prevent all possible distractions. But if for some reason I don't have time in the morning, I fall back to the second approach and try to finish my reviews on a phone in moments when I'm not doing anything in particular.",
     "url":"how-to-review.html#showing-up",
@@ -6096,7 +6170,8 @@
   {
     "title":"Reading sentences aloud",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Should you read sentences aloud when doing Anki reps? Personally, I don't think it's necessary. I rarely do it because it takes extra time. If a sentence interests me, I might read it aloud just for fun. There's also the risk of developing bad pronunciation habits when reading Japanese aloud and incorrectly pronouncing words. In this regard, I would definitely recommend avoiding doing it if you're a beginner. Any type of pronunciation practice requires you to have acquired large aspects of the language and have built strong phonetic awareness. If you lack these competences, you set yourself to repeat pronunciation mistakes over and over. Ideally, you should also actively think about pitch accent when you're practicing speaking, which requires you to know the rules and the accents of individual words. In short, first learn to understand the language, and then learn to speak it. In summary, reading sentences aloud can be beneficial, but only if you're already at an intermediate level or higher.",
     "url":"how-to-review.html#reading-sentences-aloud",
@@ -6105,7 +6180,8 @@
   {
     "title":"Built-in Speech Training",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If your computer has a microphone, you can practice your pronunciation in Anki while reviewing your flashcards. To do this, you will need TSCs with audio. The best TSCs for practice are those you mined from anime, movies and dramas. If you've been doing AJATT for a few months, you likely have thousands of high-quality TSCs in your Anki collection, so this shouldn't be a problem. You can also import decks like Ankidrone Essentials and Core10k to get more high-quality TSCs, since every sentence in those decks includes audio. Pressing Shift+V lets you record your voice, and it plays back immediately after you stop recording. First, press R to listen to the native audio recording on the back of the card. Record your voice. Listen to your recording and compare it with the native audio. Try to correct any differences you hear. Pressing V again will replay your most recent recording. Alternatively, you can play the native audio and immediately start recording yourself. This lets you say the sentence while listening to the native version. Your voice recordings in Anki are temporary and will be deleted once you move to the next card. This method makes your Anki reviews longer, but because it integrates speaking practice into your SRS sessions, you don't need to set aside dedicated time for speaking practice. If you want to practice speaking, in the long run, doing it in Anki might even save you time. And if you don't want to practice speaking, you can simply skip this step. When grading your cards, don't take into account how well you pronounced the words and sentences. This training is an optional supplement to your flashcard reviews.",
     "url":"how-to-review.html#built-in-speech-training",
@@ -6114,7 +6190,8 @@
   {
     "title":"Check your retention",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"I recommend periodically checking your monthly True Retention. Shift-click on the \"Stats\" button at the top of the Anki window. If you use a newer version of Anki, True Retention is available in the new \"Stats\" window. The recommended retention is 75%-90%. If you see that your retention stays out of these boundaries, act accordingly. Decrease your Interval Modifier if your retention is too low, increase if it's high. If your retention is below 70%, that's a call to action. Low retention rate renders Anki useless, can make you hate your reviews or even stop using Anki completely. Change your Anki settings, reformat your notes, delete problematic cards. Retention rate above 90% is considered sub-optimal. It means you review your cards too often.",
     "url":"how-to-review.html#check-your-retention",
@@ -6123,7 +6200,8 @@
   {
     "title":"Filtered decks",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Don't review in filtered decks. After experimenting with filtered decks for multiple years I've come to the conclusion that they're too buggy and too unreliable. They're only good for temporarily storing cards (in case of backlogs, for example). Some bugs I've run into completely messed up intervals of my cards.",
     "url":"how-to-review.html#filtered-decks",
@@ -6132,7 +6210,8 @@
   {
     "title":"Fighting backlogs",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This is where filtered decks come handy. Ideally you want to finish your reviews every day. In practice, it's not always possible. There are going to be days when you accumulate backlogs. A backlog is an amount of cards that you should already have reviewed. Anki calls such cards overdue. If you miss your reviews, your review queue becomes divided between cards that are due today, most of which you still remember, and the cards that were due on the previous days, which you've likely forgotten a great number of. You can view a list of the overdue cards by typing is:due -prop:due=0 in the Anki Browser. If you were to try to eliminate the backlog by simply reviewing the cards until no more due cards remain, Anki would show you the overdue cards first. Anki is programmed in a way that makes it prioritize cards with older due dates over the cards that became due recently. If the backlog is large enough, this would put you in a long-lasting state of needless forgetting. If you go along with Anki's algorithm and prioritize relearning forgotten cards, then you will end up forgetting the cards that are due today, unless you manage to clear your entire backlog in one sitting. The solution is to create a filtered deck and use it to store the overdue cards. To do this, press \"F\" or go to \"Tools\" > \"Create filtered deck...\". Let's say my Japanese deck is called \"Japanese\". The Search field is going to look like this: deck:Japanese is:due -prop:due>-1 -rated:1 -is:learn deck:Japanese limits search to my Japanese deck. is:due tells Anki to select only due cards. -prop:due>-1 excludes cards due today. -rated:1 excludes cards that were already reviewed today. -is:learn excludes cards in the learning or relearning queues. Once you have the filtered deck set up, you've stopped the bleeding. Every day after you've finished your normal reviews come back to the filtered deck and decrease the number of cards it can store. The cards will be returned to your Japanese deck. Review those cards. Deck settings. The initial size is the number of cards in the backlog, but 9999 will pull all of them in. When you decrease the filtered deck's size, decrease it by the number of cards you plan to review. For example, 10 cards at a time. You can shrink the deck multiple times a day. Take a look at the \"cards selected by\" setting. It presents a number of options you can choose from to fight the backlog the way suits you. If you want to review cards that you're most likely to still remember, change it to \"Increasing intervals\". This way when you reduce the number of cards the filtered deck can store, the cards with the largest intervals will be pulled out first. On the other hand, if you choose \"Decreasing intervals\", the cards with the smallest intervals will be the first to go. The benefit of using filtered decks for fighting backlogs is that you don't move any cards yourself. Once they leave the filtered deck, they automatically return to the decks they were pulled out from. If this approach doesn't work for you, try suspending overdue cards instead. To do so, open the Anki Browser, type is:due -prop:due=0 and suspend the cards that will show up. Unsuspend the cards in chunks once you have time to review them. Accumulating a backlog and being unable to properly manage it is the number one reason people quit Anki altogether. Keep your backlog isolated in a filtered deck so that it doesn't overwhelm you.",
     "url":"how-to-review.html#fighting-backlogs",
@@ -6141,7 +6220,8 @@
   {
     "title":"Fighting flooded learning queue",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"It is not uncommon to find yourself in this situation. Anki window. Anki is terrible at queuing more than 30 cards from the learning queue. It is going to show you them over and over until they graduate. If the cards are not particularly easy, you may never get to the review queue. What I recommend you to do in this case is similar to the trick used to fight backlogs. Create a filtered deck with these settings. deck:Japanese is:due is:learn -rated:1 -is:new Send all your learning cards to this deck, then pull out 10~20 at a time and graduate them.",
     "url":"how-to-review.html#fighting-flooded-learning-queue",
@@ -6150,7 +6230,8 @@
   {
     "title":"New cards",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Choose how many new cards you want to learn each day and stick to that number. See Daily amount of cards.",
     "url":"how-to-review.html#new-cards",
@@ -6159,7 +6240,8 @@
   {
     "title":"Leeches",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Leeches are cards that you keep forgetting and relearning over and over. Anki has a setting that controls how many times you can fail a card before it becomes a leech, called Leech threshold. It's important to note that this setting doesn't refer to the number of times you simply press \"Again\" on a card, but rather the number of times you fail a card that has previously graduated to the review queue. In other words, hitting \"Again\" on a card repeatedly on the same day doesn't make it a leech. Usually, Anki marks a card as a \"leech\" after it's been stuck in the forget-relearn loop for several days or more. We recommend keeping the leech threshold low (4-6 lapses) and suspending the cards when they become leeches. You have to properly deal with leeches instead of letting them rotate in your deck and slow down your progress. When Anki marks a card as a \"leech\", the card receives a \"leech\" tag. You can later find leeches by opening the Anki Browser and typing tag:leech in the search field. If \"Leech Action\" is set to \"Suspend card\", the card won't come up for review anymore. It's important to quickly pull leeches out of rotation by suspending them so that they don't waste your review time. By suspending leeches, you can focus on the cards you're actually learning. After you've neutralized a leech, decide what to do with it. Change the content of the card to make it easier to memorize or just wait until your brain is ready to learn it again. Before you re-learn the card, you have to reset it. There are several effective strategies for dealing with leeches: Delete them. For the small number of cards that just won't stick, it's best to just get rid of them. If you encounter the target word in your immersion often enough, you will eventually memorize it. But if not, you don't need to know the word. Instead of wasting a bunch of time on a single leech, it's more productive to learn several normal cards in its place. Keep them for later. If you can't remember a word after 4-5 lapses, it means your brain hasn't been primed to acquire it yet. Wait a month or two and try again. Often, you'll find that cards that would not stick before have become very easy. This indicates that your language ability has improved and the word's intrinsic difficulty now matches your level. Change the card. If a word is of high value to you, you can try to memorize a different representation of it. Find a different example sentence in your Sentence Bank or online. For example, on Weblio. Reset the card and edit it, or make a new targeted sentence card using the same target word but a different sentence. In my experience, most leeches pop up as a result of failed attempts to memorize kanji readings. The best way to force a particular reading into your memory is to memorize multiple words that use the same reading. For example, if you can't remember how to read 印璽, make cards for words such as 御璽 or 国璽 and learn all of them at the same time. If you can't remember a card due to a kanji reading not sticking, people also recommend putting furigana for the difficult word on the front of the card. Personally I wouldn't do this myself, but it's a cheap way out. Mortician automatically buries cars that you fail too many times. Use it to prevent potential leeches from wasting your time. Evidence shows that repeating a card multiple times in a single day does not significantly contribute to long-term memory, so your time is better spent on other cards or a shorter study session.",
     "url":"how-to-review.html#leeches",
@@ -6168,7 +6250,8 @@
   {
     "title":"Deleting and suspending cards",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"There are situations when it makes sense to pull a card out of the review queue: You can't seem to remember the card. The card is too hard or too easy. It takes too much time to review. You mined it thinking it was a You initially mined it thinking it was a 1T card, but it turns out it's not. Proactively getting rid of cards that have the potential to become leeches or that are too complicated and waste your time is a valuable strategy. This approach can help you avoid feeling overwhelmed by the SRS in the long run. However, I advise you to be careful with deletions. It's much harder to restore a deleted card than to bring back a suspended one. Suspend cards instead. If you change your mind later, you can easily put the card back into rotation and try to learn it again.",
     "url":"how-to-review.html#deleting-and-suspending-cards",
@@ -6177,7 +6260,8 @@
   {
     "title":"Card retirement",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Let's say you have 100 reviews each day, you learn 10 new cards a day, and your retention is 90%. If you continue your current Anki routine for an additional 15 years, your daily amount of reviews will be 200. This calculation indicates two things. You have to start suspending cards once they reach a certain interval, otherwise your review load will be increasing forever. This only becomes a problem once you've used Anki for many years. It's okay to suspend or even delete cards when they reach obscene intervals, like 5, 10 or even 15 years. To find such cards, open the Anki Browser and type prop:ivl>3650. The number 3650 corresponds to a card's interval in days, the search expression finds all cards that have intervals larger than this value. Now you can suspend the cards by pressing Ctrl+J. Next time when you search cards eligible for retirement, add -is:suspended to the search expression to filter out the cards you've already suspended. You can bookmark the current search expression by right-clicking Saved Searches and choosing Save Current Search. Anki Browser Search. Note: There are some add-ons on AnkiWeb that offer automatic retirement. They modify the scheduler unpredictably and have earned negative reputation among Japanese learners. Don't use any add-ons that mess with the scheduler. They often have bugs and may corrupt your collection.",
     "url":"how-to-review.html#card-retirement",
@@ -6186,7 +6270,8 @@
   {
     "title":"Get the AJT Flexible Grading add-on",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"AJT Flexible Grading comes with three important features: Pass-Fail mode Grading from the front side The ability to hide some or all answer buttons. To install the add-on, follow the instructions on AnkiWeb. Download",
     "url":"how-to-review.html#get-the-ajt-flexible-grading-add-on",
@@ -6195,7 +6280,8 @@
   {
     "title":"Pass-Fail mode",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The Pass-Fail mode essentially doesn't let you press \"Hard\" and \"Easy\" buttons. There are two benefits associated with this. One being that having to decide between various options can actually make your Anki study less efficient. When you're deciding how to grade a card, you're wasting your mental resources. Do it a hundred times, and you'll experience something called decision fatigue. Instead of deciding how well you know something simply decide whether you know it or not. Another being that most Anki users don't understand what Anki's \"Hard\" and \"Easy\" buttons actually do. Both buttons affect the cards' Ease factor. Using the \"Hard\" button can penalize you and greatly add to your review count over time. Using the \"Easy\" button can artificially inflate your card scheduling intervals and lead to forgetting and lower retention in the future. For the vast majority of us the best option is to simply use Anki's \"Good\" and \"Again\" buttons.",
     "url":"how-to-review.html#pass-fail-mode",
@@ -6204,7 +6290,8 @@
   {
     "title":"Flexible grading",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Flexible grading refers to the ability to pass an Anki card without having to reveal the answer. If you believe that you really know the content of a flashcard, you may decide to skip its reverse side and immediately grade the card. It should speed up review time and save you some keypresses. Flexible grading is enabled by default in the add-on's options. You can grade the cards by pressing Vim-keys on your keyboard or by using the default Anki hotkeys. Vim bindings Default bindings Description h 1 Again, Fail j 2 Hard k 3 Good, Pass l 4 Easy Pressing 1-4 to grade cards is convenient, but it's not as convenient. Vim-like bindings let you grade the cards with your fingers lying on the home row keys, much like when you navigate a document in Vim. I'm sure you'll appreciate how much more quickly you'll be able to finish your reviews.",
     "url":"how-to-review.html#flexible-grading",
@@ -6213,7 +6300,8 @@
   {
     "title":"Getting rid of answer buttons",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Once you get used to blasting through your reps with Vim-like hotkeys, you realize that the answer buttons are completely redundant. AJT Flexible Grading has an option to remove those buttons, making the Anki UI less cluttered.",
     "url":"how-to-review.html#getting-rid-of-answer-buttons",
@@ -6222,7 +6310,8 @@
   {
     "title":"Last review stats at the top",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Have you ever had doubts like, \"did I grade that card right?\" after doing a rep? Maybe your finger slipped a bit, and you're not sure whether you've pressed the right button. AJT Flexible Grading shows the result of the last review at the top. It tells you what button you pressed and what interval the card has right now. By clicking on the stat you can bring up the card browser window showing the last answered card.",
     "url":"how-to-review.html#last-review-stats-at-the-top",
@@ -6231,7 +6320,8 @@
   {
     "title":"Summary",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The SRS best practices: Starting Ease 131%. Interval Modifier 192%, increase if needed. Enable the V3 scheduler. Show up every day to do your reps. Don't review in filtered decks. Use filtered decks for storing old due cards (backlog). Do no more than 30 new cards a day, unless you know what you're doing. Have Anki suspend your leeches. Deal with them as they come up. Install AJT Flexible Grading. Use the Vim hotkeys when reviewing. Use the Pass-Fail mode to avoid \"Hard\" and \"Easy\" buttons. Grade easy cards from their front side.",
     "url":"how-to-review.html#summary",
@@ -7613,49 +7703,63 @@
   },
   {
     "title":"Donating to Tatsumoto",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"I really appreciate you being here. Because almost all my content is offered free of charge, this site and the Ajatt-Tools project relies on donations and support from its community to stay alive. We do not have ads or privacy-violating trackers, we are entirely dependent on you. If this site, our community or the free software projects developed at Ajatt-Tools were useful to you, I'll appreciate if you donate to help me support myself and continue delivering new guides, tools and resources. You can support me over at one of the membership platforms or donate cryptocurrency.",
     "url":"donating-to-tatsumoto.html",
     "date":"2021-04-23"
   },
   {
     "title":"Fundraising",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Our project exists solely on the funds of subscribers. Since 2020, I have been working on AJATT full time. AJATT cannot be sustainable if I cannot buy food and pay my bills. Thousands of people visit this site every day. If even some of them contribute $1, it will be a huge help for us! A small symbolic donation of $1 or $5 will not make you poorer, but will save our common cause! ❤️ Please follow the links below and donate according to your abilities. Any amount of help is important. Do not let our common cause fail! The money you donate primarily goes toward my paycheck for maintaining the website, paying for hosting and the domain name, updating and improving existing articles (lessons), and writing new lessons. The funds also support work on Ajatt-Tools, including making, updating, and improving our software toolset, Anki add-ons, Anki decks, and other resources used with the AJATT method. If funding is insufficient, I may have to seek job opportunities elsewhere, which would slow down the evolution and development of the AJATT method. Your continued support through donations is crucial to the ongoing progress and maintenance of this valuable resource for language learners. A huge thank you to everyone who stays with us! It is only thanks to you that we are still standing!",
     "url":"donating-to-tatsumoto.html#fundraising",
     "parent":"Donating to Tatsumoto"
   },
   {
     "title":"Monero",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Monero is a privacy-focused and censorship-resistant cryptocurrency. The transactions are all hidden. There are many ways you can buy or sell Monero, one of the simplest ones is through ChangeNow.io. 47sD7pSagHF7mp41SwrDj4KF8dSj4kdK6YUZ9fkmnR8h587wVc1kW66iJy9m83maVjWXtDJxmCVxdieMyGZNFHZ2Fifrbr5 XMR QR",
     "url":"donating-to-tatsumoto.html#monero",
     "parent":"Donating to Tatsumoto"
   },
   {
     "title":"TON",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"TON is a blockchain platform developed by Telegram. You can donate to Tatsumoto easily through the Telegram wallet. Send Toncoin (TON) to this address. UQAyVFHr_TSgoR3CkNUAh4kKEBv0ZYxULajueSES1v_wVnsj TON QR",
     "url":"donating-to-tatsumoto.html#ton",
     "parent":"Donating to Tatsumoto"
   },
   {
     "title":"Bitcoin",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Bitcoin is another cryptocurrency. Bitcoin is not meant to be anonymous, but it's widely used. Here's a list of places where you can buy Bitcoins. bc1q5q36gjlclzhhqet2fkav82cr7y6dqwfk5s2lga BTC QR",
     "url":"donating-to-tatsumoto.html#bitcoin",
     "parent":"Donating to Tatsumoto"
   },
   {
     "title":"Boosty",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"You can donate on Boosty too, which is a platform similar to Patreon. Boosty",
     "url":"donating-to-tatsumoto.html#boosty",
     "parent":"Donating to Tatsumoto"
   },
   {
     "title":"Donate bot on Telegram",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"By clicking the link below, you can subscribe to monthly donations. You can set a donation amount at checkout in the Tip section. Subscribe Deprecated methods ## Liberapay Liberapay is a recurrent donations platform. Liberapay does not take a cut of payments. <a target=\"_blank\" class=\"md-button lp\" href=\"https://liberapay.com/Tatsumoto/donate\">Donate using Liberapay</a> ## Patreon You can support me over at Patreon by clicking the button below. <a target=\"_blank\" class=\"md-button patreon\" href=\"https://www.patreon.com/bePatron?u=43555128\">Become a patron</a> /Deprecated methods Thank you very much for your support! If you're unable to support financially, please read and share my articles, recommend this site to your friends, and of course be a part of our community.",
     "url":"donating-to-tatsumoto.html#donate-bot-on-telegram",
     "parent":"Donating to Tatsumoto"
@@ -8228,7 +8332,8 @@
   {
     "title":"Kanji composition in relation to reading Japanese",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"As mentioned briefly in Learning Kanji, kanji are formed from radicals or from other kanji. There are six classes of kanji characters. Altogether they are called 六書. りく–しょ【六書】 漢字の成立と用法についての六種の分類。 象形・指事・会意・形声・転注・仮借をいう。 These six fundamental principles govern how kanji are formed and used. This includes: Four ways that kanji can be formed: 象形・指事・会意・形声, Two ways in which kanji are used: 転注・仮借.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html",
@@ -8237,7 +8342,8 @@
   {
     "title":"Pictograms",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"First up on the list is 象形. しょうけい 【象形】 六書(りくしょ)の一つ。 物の形を絵画的にかたどって文字とする方法。 「日」「月」「人」「木」の類。 This is essentially a pictogram, a simple visual representation of the object that the kanji is supposed to represent. For example, the kanji for tree 「木」 visually resembles a tree, the kanji for mountain 「山」 looks like a mountain, the kanji for sun 「日」looks like the Sun. You might have been told that all kanji originated this way historically. However, in reality, only 12.4% of all kanji are 象形 characters.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html#pictograms",
@@ -8246,7 +8352,8 @@
   {
     "title":"Logograms",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"Next on the list is 指事. しじ 【指事】 六書(りくしょ)の一つ。 事柄や数などの抽象的な概念を象徴的に記号化して字形とする方法。 「一」「二」「上」「下」「本」の類。 In contrast to visual representations, these characters symbolize abstract concepts such as numbers. For example, 一・二・三・上・下. When you look at the kanji for two 「ニ」 or three 「三」, they consist of two lines or three lines respectively. Similarly, the kanji for up 「上」 and down 「下」 are representations of a line with something above or below it. Given that one, two, up, and down are not physical objects but rather ideas or concepts, they serve as symbolic representations rather than visual depictions. These characters are relatively rare, they account for only about 0.5% of all kanji.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html#logograms",
@@ -8255,7 +8362,8 @@
   {
     "title":"Compound ideographs",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"Moving on, we have 会意. かいい 【会意】 六書(りくしょ)の一つ。 いくつかの漢字を結合し、 それらの意味を合わせて全体の字義を導き出す方法。 「人」と「言」とを合わせて「信」とする類。 This category involves merging several simple kanji characters. The meaning is a combination of the meanings of the two parts. For example, combining the characters for mountain 「山」 and rock 「石」 creates the compound character for boulder 「岩」. Similarly, combining two characters for tree 「木」 results in the compound character for thicket「林」. 会意 characters constitute 24.6% of all characters.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html#compound-ideographs",
@@ -8264,7 +8372,8 @@
   {
     "title":"Semantic + Phonetic compounds",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"The remaining category, 形声, constitute 62.5% of all kanji. And if you take all kanji, not just the 常用漢字, it is estimated to be closer to 97%. けいせい 【形声】 六書りくしょの一つ。 いくつかの漢字を結合し、 一方を発音の記号（声符・諧声符）、 他方を意味範疇の記号（義符・意符）として、 全体の字義を導き出す方法。 例えば、「可」と「氵」（「水」の略体）とを合わせて「河」とする類。 諧声(かいせい)。象声。 形声 characters are made up of two functional components. One part which tells you the vague meaning and one part which tells you the pronunciation. The component that indicates a broad category of meaning is called the 意符 (いふ), also known as the 義符 (ぎふ). The component that suggests the character's historical pronunciation is called the 音符 (おんぷ), also known as the 声符 (せいふ) or 諧声符 (かいせいふ). These terms describe the function of each component. They are different from names like 偏 (へん) and 旁 (つくり), which describe position, and from 部首, which is used to classify kanji in dictionaries. For example, take the character for copper, 「銅」. On the left side, we have 釒 (かねへん), which is the 意符 component that means something related to metal. On the right side, we have 「同」(どう), which is the 音符 and means same. It is easy to understand why mountain plus rock equals boulder. But why does metal plus same = copper? In reality, it doesn't. The two meanings are not being combined. The character for same is used in the character for copper only because the on-yomi of that character is どう. And the pronunciation of the word copper is also どう. The 意符 on the left side of the kanji shows that the meaning has something to do with metal, while the 音符 on the right shows that the pronunciation is どう. The original meaning of the right half, same, has nothing to do with copper. It is there for its pronunciation value. This elucidates why most kanji may seem illogical if you solely focus on the meanings of the original radicals. Apparently, these principles would work perfectly in ancient China when kanji first emerged. If you were looking at a 形声 character, and you could isolate which part represented the pronunciation, you could be positive that you would know exactly how to pronounce that character. But because pronunciation changes over time, and that was 3,000 years ago, and we're learning Japanese, not Chinese, these principles don't work perfectly. Nevertheless, they remain relatively reliable if you're trying to guess the pronunciation of a character that you're seeing for the first time. Besides, if you can notice these patterns as you're trying to memorize the readings of characters, it can make it a lot easier to have them stick in your memory. When you come across a new character, presume that it is one of the 形声 characters because chances are it probably is. Then, try to isolate the part of the character that represents the vague meaning. This shouldn't be too hard because there's a very limited number of these basic radicals like the one for \"water\" (氵), or the one for \"person\" (亻), or the one for \"hand\" (扌). Then it's pretty safe to assume that the rest of the character represents the pronunciation. If you can recall another character you know with the same component, and you know its on-yomi, it's pretty safe to assume it'll be the same. For example, suppose you are already familiar with the word 構造, meaning structure. Then you encounter the new word 講演, and you've never seen that first kanji before. Notice that the left half of the character is 訁 (言偏), which is the radical which represents speech. Now you can infer that the rest of the character (冓) represents its pronunciation. Then you remember that the right part of the character is the same as the right part of the character 構(こう) in 構造. 講 → 冓 → 構 Now you can safely conclude that this new character has some sort of meaning related to speech and has the pronunciation of こう. A component's role depends on the character. For example, in 「係」, 亻 is the 意符, while 「系」 is the 音符 and provides the reading けい. However, 「孫」 is traditionally analyzed as a 会意 character. 「子」 and 「系」 both contribute to its meaning, so 「系」 is not functioning as an 音符 there.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html#semantic-plus-phonetic-compounds",
@@ -8273,7 +8382,8 @@
   {
     "title":"How kanji are used",
     "tags":[
-      "kanji"
+      "kanji",
+      "guide"
     ],
     "body":"The other two components of the 六書, 転注 and 仮借, deal with how kanji can be used in different ways. The first is known as 転注. It refers to the process of assigning a new meaning to a kanji character. A kanji character can evolve to convey a different meaning which is similar to its original meaning. てん–ちゅう【転注】 漢字の六書の一つ。 ある漢字の本来の意味を他の似通った意味に転用すること。 「楽(がく)（＝音楽）」を「楽(らく)（＝たのしむ）」に、 「悪(あく)（＝わるい）」を「悪(お)（＝にくむ）」に転用するなどの類。 For instance, the character 楽 originally meant music. However, because when you listen to music you have a fun time, it also acquired the meaning of \"fun\". This explains why 音楽 and 楽しい use the same character. The last principle is known as 仮借. かしゃ【仮借】 漢字の六書りくしよの一。 ある語を表す漢字がない場合， その語の意味とは無関係の別の同音の漢字を借りて表す方法。 戈[ほこ]の意の「我が」を自分の意を表す文字として使ったりする類。 In ancient China, when a new concept emerged, they needed a new character for that concept. Sometimes, they would adopt an existing character with the same pronunciation as that new concept but a totally different meaning. The existing character would then acquire the new meaning. For example, the character 我, which has the on-yomi of が, was originally used to denote a kind of weapon. And then, completely independently of that, a first-person pronoun pronounced as が was created. Essentially, even though the first-person pronoun 我 had absolutely no relation to the weapon that was pronounced as が, people associated the first-person pronoun が with the original weapon character 我 because they were both pronounced が. When you look up a kanji in 広辞苑, it will provide you the etymology of the character. This information includes which of the four types it is. And for 形声 characters it explains which part represents what.",
     "url":"kanji-composition-in-relation-to-reading-japanese.html#how-kanji-are-used",
@@ -8282,7 +8392,8 @@
   {
     "title":"Pitch accent perception",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"Below is a list of common words, sorted into categories based on their pitch pattern (heiban, atamadaka, nakadaka, odaka). For the sake of clarity, words whose pitch changes depending on usage/context have been excluded. For each of the four categories, choose the 20 words that you feel you hear most often in your daily immersion. .compact_list :is(ul, ol) { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; & li { padding: 2px 0; margin: 0; } }",
     "url":"pitch-accent-perception.html",
@@ -8291,7 +8402,8 @@
   {
     "title":"How to Practice",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"Deliberate practice is key to improving your pitch accent perception skills. Deliberate practice is anytime when you engage in a specific activity where you can either succeed or fail, and receive immediate feedback on your performance. When practicing, the goal is to try to accurately identify the pitch pattern, then check whether you got it right or wrong. Engaging in this focused activity enhances your pitch accent perception skills. You can create an environment where you practice pitch accent perception within your immersion. To incorporate deliberate practice into your language immersion routine, organize a word list divided into four categories. Each category is dedicated to one of the 4 pitch accent patterns. For each pitch pattern (heiban, atamadaka, nakadaka, odaka), select 20 words from the list of the most common words, and place the list near your computer or wherever you normally do your active immersion. During immersion, whenever one of these words comes up, you pause, rewind a few seconds, and listen closely to the word, focusing on its pitch accent. Try to identify whether the pitch drops where it's supposed to drop. For example, if the word is odaka, you need to tell if it indeed sounds like odaka to you. You're trying to hear if it sounds like how it's supposed to sound.",
     "url":"pitch-accent-perception.html#how-to-practice",
@@ -8300,7 +8412,8 @@
   {
     "title":"Notes",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"The pitch of words often change when they combine with other words to make compound words. For example, adding “~的” to a word will make the entire compound heiban, regardless of the original pitch of the word. When the particle “の” attaches to an odaka word that’s two or more mora long, the odaka word is treated as heiban. For example: “頭の中” = “アタマノ ナ↓カ”. 中 is atamadaka so the pitch drops after \"な\". Heiban 学校 場合 生活 会社 活動 車 また 関係 問題 経験 計画 失敗 必要 最初 首 金（かね） お金（かね） 影響 情報 そして 女性 男性 少年 水 自分 俺 形 状態 鼻 高校 目的 目標 英語 日本語 わたし 重要 成功 予定 特別 最高 ここ そこ あそこ 実際 内容 結果 完全 先（さき） 後ろ 別（べつ） 別に 子供 対象 人気（にんき） 理由 人間 方法 有名 口 況 そんな こんな あんな 嫌い 動物 程（ほど） 敵 方向 確認 普通 途中 電話 反応 安全 原因 全然 暇（ひま） 調子 自然 成長 Atamadaka 今 中 人生 彼 彼女 世界 音楽 すべて 全部 すぐ 今日 まだ 本 事件 社会 特に 最後 文化 外 少女 朝 夜 海 神 中学 管理 女子 どこ 前 評価 後（あと） 春 秋 能力 変化 どんな どっち 猫 距離 言語 事故 方（ほう） 個人 現在 過去 未来 家族 人物 空 確か 静か 雨 Nakadaka しかし 少し もちろん 初めて(noun) 中身 卵 人々 それぞれ さまざま アパト 食べ物 飲み物 建物 飛行機 自由 例えば 表情 表現 条件 相性 湖 大丈夫 ひとり ひとつ 先生 職業 植物 学問 紫 一方 しっかり びっくり すっかり ほとんど はっきり いかに パタン 試験 面倒 不幸 機械 機会 物語 Odaka 駄目 ため(「そのために」) 物 好き 音 夢 色 川 街 話 言葉 相手 昼 紙 髪 花 橋 者 歌 頭 夏 冬 腕 足 胸 犬 家 方（かた） 弟 妹 ふたり ふたつ 親 楽（らく） 耳 返事 山 雪 力（ちから） こっち そっち あっち 部屋 実（じつ）",
     "url":"pitch-accent-perception.html#notes",
@@ -8309,7 +8422,8 @@
   {
     "title":"Heiban",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"学校 場合 生活 会社 活動 車 また 関係 問題 経験 計画 失敗 必要 最初 首 金（かね） お金（かね） 影響 情報 そして 女性 男性 少年 水 自分 俺 形 状態 鼻 高校 目的 目標 英語 日本語 わたし 重要 成功 予定 特別 最高 ここ そこ あそこ 実際 内容 結果 完全 先（さき） 後ろ 別（べつ） 別に 子供 対象 人気（にんき） 理由 人間 方法 有名 口 況 そんな こんな あんな 嫌い 動物 程（ほど） 敵 方向 確認 普通 途中 電話 反応 安全 原因 全然 暇（ひま） 調子 自然 成長",
     "url":"pitch-accent-perception.html#heiban",
@@ -8318,7 +8432,8 @@
   {
     "title":"Atamadaka",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"今 中 人生 彼 彼女 世界 音楽 すべて 全部 すぐ 今日 まだ 本 事件 社会 特に 最後 文化 外 少女 朝 夜 海 神 中学 管理 女子 どこ 前 評価 後（あと） 春 秋 能力 変化 どんな どっち 猫 距離 言語 事故 方（ほう） 個人 現在 過去 未来 家族 人物 空 確か 静か 雨",
     "url":"pitch-accent-perception.html#atamadaka",
@@ -8327,7 +8442,8 @@
   {
     "title":"Nakadaka",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"しかし 少し もちろん 初めて(noun) 中身 卵 人々 それぞれ さまざま アパト 食べ物 飲み物 建物 飛行機 自由 例えば 表情 表現 条件 相性 湖 大丈夫 ひとり ひとつ 先生 職業 植物 学問 紫 一方 しっかり びっくり すっかり ほとんど はっきり いかに パタン 試験 面倒 不幸 機械 機会 物語",
     "url":"pitch-accent-perception.html#nakadaka",
@@ -8336,7 +8452,8 @@
   {
     "title":"Odaka",
     "tags":[
-      "pitch"
+      "pitch",
+      "guide"
     ],
     "body":"駄目 ため(「そのために」) 物 好き 音 夢 色 川 街 話 言葉 相手 昼 紙 髪 花 橋 者 歌 頭 夏 冬 腕 足 胸 犬 家 方（かた） 弟 妹 ふたり ふたつ 親 楽（らく） 耳 返事 山 雪 力（ちから） こっち そっち あっち 部屋 実（じつ）",
     "url":"pitch-accent-perception.html#odaka",
@@ -8344,63 +8461,81 @@
   },
   {
     "title":"Join our community",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Daily Japanese Thread is a friendly place for people learning Japanese through immersion. Join us to make friends, get help, ask questions, contribute to our projects and find countless new learning resources! You can join us on Telegram or SimpleX chat.",
     "url":"join-our-community.html",
     "date":"2021-02-08"
   },
   {
     "title":"SimpleX chat",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"SimpleX is a private and secure messenger with no user IDs. On Arch Linux, install simplex-desktop-bin from the AUR to use SimpleX chat. On Android, install SimpleX Chat from F-Droid. On Ubuntu/Debian, install simplex-desktop-app from Pacstall. SimpleX chat Scan the QR code with the SimpleX Chat app on your phone or tablet. QR code",
     "url":"join-our-community.html#simplex-chat",
     "parent":"Join our community"
   },
   {
     "title":"Telegram group",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Telegram is a messenger with a focus on speed and security. To use Telegram on GNU/Linux, install the official desktop client. Telegram also can be found on F-Droid. The package is named Forkgram. This is the main group for chatting about Japan, the Japanese language, and other things. Join us on Telegram",
     "url":"join-our-community.html#telegram-group",
     "parent":"Join our community"
   },
   {
     "title":"Telegram channel",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"I post announcements in this channel. Telegram Channel",
     "url":"join-our-community.html#telegram-channel",
     "parent":"Join our community"
   },
   {
     "title":"Group for Russian speakers",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"I have a separate group chat for Russian speakers who are learning Japanese. Японский язык",
     "url":"join-our-community.html#group-for-russian-speakers",
     "parent":"Join our community"
   },
   {
     "title":"Pleroma",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"I post announcements and site updates on Pleroma. I also share posts about Japan and the Japanese language. Pleroma If you're new to the Fediverse, check out this article.",
     "url":"join-our-community.html#pleroma",
     "parent":"Join our community"
   },
   {
     "title":"Rules",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"Speak English. Do not use your Japanese unless you're already fluent. Remember that talking is not practicing. Your time is better spent immersing. Be ethical. Do not post promotions or spam unrelated to learning Japanese. However, feel free to share with us your learning resources. Be minimally polite, don't troll and don't post porn. Stay on topic. Try to keep the conversation centered around immersion, software for language learning, Japanese language, the country and its culture. Everything else should be discussed in the room dedicated to off-topic which you'll find after you've joined. Read the guide. Most questions we get are already answered in our guide. Our members are volunteering their time to help everybody. Try to reduce the amount of reoccurring questions so that everyone has more time to immerse. No proprietary software. We don't use, support or recommend proprietary software. We use free/libre software because it is naturally more extensible and user-friendly. Our immersion learning toolset Communication software Certain rooms may have their own sets of rules.",
     "url":"join-our-community.html#rules",
     "parent":"Join our community"
   },
   {
     "title":"Questions",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"If you have a question for me specifically, ping me in the chat. On Telegram, you can do that by starting your message with @tatsumoto. If the question is personal, send me a DM on Telegram or SimpleX Chat instead.",
     "url":"join-our-community.html#questions",
     "parent":"Join our community"
   },
   {
     "title":"Community stickers",
-    "tags":[],
+    "tags":[
+      "guide"
+    ],
     "body":"To install our community sticker packs, just click on the links below. Part 1 Part 2",
     "url":"join-our-community.html#community-stickers",
     "parent":"Join our community"
@@ -9097,7 +9232,8 @@
   {
     "title":"Useful Anki add-ons for Japanese",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"In this article I want to talk about Anki add-ons I recommend using when studying Japanese. Anki add-ons are small Python programs that extend or change functionality of Anki. To install an add-on open Anki, go to \"Tools\" > \"Add-ons\" > \"Get add-ons\" and paste the code of the add-on. To find the code you need to open the corresponding add-on page on AnkiWeb and scroll down to the \"Download\" section.",
     "url":"useful-anki-add-ons-for-japanese.html",
@@ -9106,7 +9242,8 @@
   {
     "title":"Install add-ons I use",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Anki has an option to install many add-ons at once. By following the instructions below you can install the add-ons I use in my everyday studies (not every add-on from this page). Open Anki and go to \"Tools\" > \"Add-ons\" > \"Get Add-ons...\". Paste multiple codes separated by spaces.1995103628 182970692 1021636467 1772763629 1715096333 1344485230 1151815987 1425504015 1255924302 819023663 196231552 Restart Anki.",
     "url":"useful-anki-add-ons-for-japanese.html#install-add-ons-i-use",
@@ -9115,7 +9252,8 @@
   {
     "title":"Add-ons worth trying",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"",
     "url":"useful-anki-add-ons-for-japanese.html#add-ons-worth-trying",
@@ -9124,7 +9262,8 @@
   {
     "title":"Japanese",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Main article: Japanese support for Anki The most important add-on you'll need is AJT Japanese. It's primary feature is generating furigana, which you're going to need every day. This add-on is similar to Japanese support. To configure the add-on, open Anki and select \"AJT\" > \"Japanese Options...\". The add-on can add pitch accent graphs to your cards. Note that Rikaitan has a similar feature, but this add-on can be used when Rikaitan doesn't have pitch graphs for the target word. It also lets you mass-generate pitches for all cards in your sentence bank.",
     "url":"useful-anki-add-ons-for-japanese.html#japanese",
@@ -9133,7 +9272,8 @@
   {
     "title":"Browser Play Button",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This add-on lets you play audio on your cards right from the Anki Browser window. Additionally, it has a configurable toolbar button and context menu actions.",
     "url":"useful-anki-add-ons-for-japanese.html#browser-play-button",
@@ -9142,7 +9282,8 @@
   {
     "title":"Flexible Grading",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Bring keyboard-driven reviewing to Anki 2.1. Use the Vim-keys of the keyboard to grade cards, answer cards from their front side and disable \"Hard\" and \"Easy\" buttons.",
     "url":"useful-anki-add-ons-for-japanese.html#flexible-grading",
@@ -9151,7 +9292,8 @@
   {
     "title":"Review Heatmap",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If you look around you see that everybody uses this add-on. It visualizes your learning performance and encourages you to do your reps every day to keep your current streak. Set a goal for yourself - not a single empty square for the next 1000 days, and punish yourself if you won't be able to fulfill it. Maintaining long streaks is very easy.",
     "url":"useful-anki-add-ons-for-japanese.html#review-heatmap",
@@ -9160,7 +9302,8 @@
   {
     "title":"Speed Focus Mode",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"It is not uncommon for people to spend more time than necessary on their reviews. It is likely that they get stuck on some material for too long, their reading speed is slow, or they start mind-wandering in the process. With this add-on it is possible to stay focused and do your reviews quickly. The add-on takes a few days to adjust to, but after that you get used to reading your sentences faster. I don't recommend this add-on to beginners though. If you've just started mining sentences, you are lucky to read them at all, let alone doing it fast. At the intermediate stage the add-on is certainly useful, and becomes unnecessary once you're advanced. Screenshot. As the answers get automatically revealed, you can't spend too much time on a card unless you want to re-read the target word's definition. This also encourages you to add shorter sentences to your deck, which is a good practice.",
     "url":"useful-anki-add-ons-for-japanese.html#speed-focus-mode",
@@ -9169,7 +9312,8 @@
   {
     "title":"Reset Card Scheduling",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This add-on turns selected cards back into new cards and erases any recorded lapse and repetition counts. It is very handy for dealing with leeches because you can reset a card and then change its contents to make sure that you won't forget it anymore, and then learn it again. Screenshot.",
     "url":"useful-anki-add-ons-for-japanese.html#reset-card-scheduling",
@@ -9178,7 +9322,8 @@
   {
     "title":"Mortician",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Postpone difficult cards to the next day. Still can't remember a card after several Agains? Unfortunately, some knowledge just won't stick, and it happens randomly. Mortician will automatically bury cards that you've failed too many times in a given period of time. Usually the next day you find that the cards have become easy. That's how weird our brains are.",
     "url":"useful-anki-add-ons-for-japanese.html#mortician",
@@ -9187,7 +9332,8 @@
   {
     "title":"Quick Colour changing",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"mattvsjapan suggests marking the pitch with this add-on. You can select a word, press a keyboard shortcut, and the word will change its color to a value you defined in Settings. You can set multiple shortcuts, one for each color you need.",
     "url":"useful-anki-add-ons-for-japanese.html#quick-colour-changing",
@@ -9196,7 +9342,8 @@
   {
     "title":"Kanji Grid",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Tells you exactly which kanji from a given deck you have learned and how many kanji you know overall. To use the add-on, Press \"AJT\" > \"Analyze known kanji...\". You can group the kanji by Kentei level, JLPT level, or school grade. Comes with the ability to limit results to the required field name and has a nice interface that shows kanji in a colored grid.",
     "url":"useful-anki-add-ons-for-japanese.html#kanji-grid",
@@ -9205,7 +9352,8 @@
   {
     "title":"Cross Profile Search and Import",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Main article: Cross Profile Search And Import With this add-on you can keep your subs2srs bank in a different profile and copy cards to your main profile on demand. It lets you keep your main profile clean and not overload AnkiWeb servers with hundreds of megabytes of media files. You can select decks to import from and search cards containing certain words.",
     "url":"useful-anki-add-ons-for-japanese.html#cross-profile-search-and-import",
@@ -9214,7 +9362,8 @@
   {
     "title":"Advanced Browser",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"An add-on that lets you sort your cards by a myriad of additional parameters and fields. Very useful when you want to sort a subs2srs deck based on its audio timestamps or if you want to sort a premade deck using a frequency list without the need to export it as a tsv file.",
     "url":"useful-anki-add-ons-for-japanese.html#advanced-browser",
@@ -9223,7 +9372,8 @@
   {
     "title":"ResetEase",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"It is believed that the Ease factor can be harmful when memorizing items with similar intrinsic difficulties, such as sentence cards. After a card gets graded \"Again\" too many times, its Ease factor becomes smaller and prevents the card's interval from growing at a normal rate. ResetEase lets you control Ease of cards in your collection. Run this add-on once to set Ease of your cards to 131% and change Interval Modifier and Starting Ease of your decks accordingly. This is in my opinion the best way to solve the Ease Hell problem once and for all because in Anki any given card can't have Ease lower than 130%. After applying the settings you can uninstall the add-on. The Ease Factor Problem Guide to Anki Intervals and Learning Steps Settings.",
     "url":"useful-anki-add-ons-for-japanese.html#resetease",
@@ -9232,7 +9382,8 @@
   {
     "title":"Learn now & Grade now",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This add-on adds new buttons to the card browser. The Learn now button immediately puts selected new cards in the learning queue. The Grade now button lets you grade selected cards without opening Reviewer. Easier than faffing about in the menus to do the same thing in 10 clicks. — Review on AnkiWeb Context menu. Learn Now moves selected new cards to the learning queue. The cards will be shown to you next time you go to the review screen. You can use this feature if you have a big collection of cards, and you find a card that you want to learn right away without manually repositioning it. Grade Now answers selected cards right from the Browser window. For example, imagine that you learn a new Japanese word. Then one day when reading a book in Japanese you see the word but can't recall it. In this case it would be rational to open Anki and fail the corresponding card. The card will be put in the relearning queue.",
     "url":"useful-anki-add-ons-for-japanese.html#learn-now-and-grade-now",
@@ -9241,7 +9392,8 @@
   {
     "title":"Add Hyperlink",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"As you know from the rule 18 of formulating knowledge: It is highly recommended that you include sources from which you have gathered your knowledge. The add-on makes it simple to insert hyperlinks to provide sources on your cards.",
     "url":"useful-anki-add-ons-for-japanese.html#add-hyperlink",
@@ -9250,7 +9402,8 @@
   {
     "title":"Edit Field During Review",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"An Anki add-on that makes it quicker and easier to edit cards while reviewing. You can edit cards while reviewing without having to open up a separate editor window. Simply click the field you want to edit and make changes directly on the card.",
     "url":"useful-anki-add-ons-for-japanese.html#edit-field-during-review",
@@ -9259,7 +9412,8 @@
   {
     "title":"Media Converter",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Convert images to WebP on-the-fly when you make Anki cards. As you're going to use Anki for years, expect your collection to slowly grow in size. It's nice to keep your media files small out of respect for people who run AnkiWeb servers as well as to make syncing faster. Paste Images As WebP helps to compress images on-the-fly when you make Anki cards. As the name says, it does that by converting images to WebP format which is famous for excellent compression. The add-on comes with a number of settings, namely you can define the desired resolution and quality. A video demo is available on YouTube. Settings.",
     "url":"useful-anki-add-ons-for-japanese.html#media-converter",
@@ -9268,7 +9422,8 @@
   {
     "title":"MergeNotes",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The add-on is designed to fix premade subs2srs decks. Due to the way subs2srs works usually many sentences in the produced decks are split between two and more notes. MergeNotes lets you merge content of selected cards without copy-pasting. Context menu and settings.",
     "url":"useful-anki-add-ons-for-japanese.html#mergenotes",
@@ -9277,7 +9432,8 @@
   {
     "title":"Advanced Copy Fields",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"I use this add-on when editing Ankidrone decks. It helps mass-generate/replace/copy data. Repo.",
     "url":"useful-anki-add-ons-for-japanese.html#advanced-copy-fields",
@@ -9286,7 +9442,8 @@
   {
     "title":"Ze Frozen Fields",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"When you add many cards at once manually, it lets you keep what's typed in a field. Note: This add-on is no longer needed on newer versions of Anki. You can achieve the same functionality by pressing the 📌 button.",
     "url":"useful-anki-add-ons-for-japanese.html#ze-frozen-fields",
@@ -9295,7 +9452,8 @@
   {
     "title":"AnkiWebView Inspector",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This add-on adds a new button named Inspect to the right-click context menu in an Anki's WebView. For example, by clicking it in the Review screen you can see what HTML code Anki adds to your cards. It helps users tweak their Card Templates and developers make new Anki add-ons.",
     "url":"useful-anki-add-ons-for-japanese.html#ankiwebview-inspector",
@@ -9304,7 +9462,8 @@
   {
     "title":"Autocopy",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This simple add-on automatically copies text from a card to the clipboard. It is intended to assist in editing large amounts of cards. For example, when you select a fresh subs2srs (or mpvacious) card in the Anki browser, it will copy the sentence to the clipboard. Then you can analyze the sentence using Rikaitan Search and add dictionary definitions to the card. Autocopy - Settings.",
     "url":"useful-anki-add-ons-for-japanese.html#autocopy",
@@ -9313,7 +9472,8 @@
   {
     "title":"Anki Preview Reloader",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"This add-on helps when editing card templates. It allows you to edit your card templates in Vscodium and automatically reload the preview.",
     "url":"useful-anki-add-ons-for-japanese.html#anki-preview-reloader",
@@ -9322,7 +9482,8 @@
   {
     "title":"True Retention",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Adds more info to the \"Stats\" window. Depending on the value of your True Retention for the past month you can adjust your Interval Modifier. Aim at around 75-90%. If you remember your cards too well it's worth increasing your IM and studying more cards a day or spending more time immersing. This is how True Retention is calculated: tr = passed / (passed + flunked) where passed is a number of review cards that you answered hard, good or easy, and flunked is a number of review cards that you answered again on. Note: on Anki 2.1.35+ you need to hold Shift down when you click \"Stats\" in order to view add-on based stats information. If you open the new Stats window, True Retention will be available without having to install this add-on.",
     "url":"useful-anki-add-ons-for-japanese.html#true-retention",
@@ -9331,7 +9492,8 @@
   {
     "title":"Add-ons to avoid",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"All Anki add-ons by design add some new functionality to the program. But among them are those that just feel like a fifth wheel and don't bring a lot of value for language learners. Nevertheless, they're popular, so I might as well mention them.",
     "url":"useful-anki-add-ons-for-japanese.html#add-ons-to-avoid",
@@ -9340,7 +9502,8 @@
   {
     "title":"Kanji Colorizer",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If you want to add stroke diagrams to your cards, use the KanjiStrokeOrders font instead. The font can be stored in your collection.media folder and used to display kanji on your writing cards. It comes with the example mining deck or can be downloaded separately from here. Example mpvacious writing card.",
     "url":"useful-anki-add-ons-for-japanese.html#kanji-colorizer",
@@ -9349,7 +9512,8 @@
   {
     "title":"Awesome TTS",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The plugin adds computer-generated audio to your Anki cards using text-to-speech. Obviously, listening to robotic voice is not ideal when you're learning a language. To acquire phonetics of your target language you need to listen to native speech, you don't want to pick up weird habits from the robot. And due to abundance of voiced native media in Japanese and the ability to mine sentences with mpv scripts there won't be many times when you actually need it.",
     "url":"useful-anki-add-ons-for-japanese.html#awesome-tts",
@@ -9358,7 +9522,8 @@
   {
     "title":"Add-ons that modify Anki Scheduler",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Basically everything that modifies the scheduler is completely unreliable and prone to breakage. If an add-on tunes the Ease factor on a card by card basis, you can't predict your retention and will likely be forgetting more cards. If an add-on modifies the Due value, a card may come up for review too early or too late, resulting in more forgetting. I provide some examples below. Straight Reward messes your Anki cards when you rate them \"Good\" or \"Easy\". The idea is that with the add-on your Ease will eventually recover after a lapse. After trying it for a week with default Anki settings I found that it simply doesn't work, and my cards aren't modified in any way. So the only thing I can recommend you is to set your Ease to 131% with ResetEase and keep your Anki setup simple. Load Balancer prevents you from reviewing your cards on the right day, when they should be reviewed. Auto Ease Factor is similar to Straight Reward. It adjusts ease factor on cards automatically after each rep. Terrible idea.",
     "url":"useful-anki-add-ons-for-japanese.html#add-ons-that-modify-anki-scheduler",
@@ -9367,7 +9532,8 @@
   {
     "title":"Setting up Anki",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Anki is a Spaced repetition system (SRS), a program which allows you to create, manage and review flashcards. Many language learners find Anki useful to quickly memorize (front-load) core vocabulary of their target language (TL), as well as help them remember new material later. One of the downsides of Anki is that it can be a little difficult to learn how to use. Depending on how you use it, you can either greatly decrease your time spent studying or make using Anki a living hell for yourself. If you find yourself confused about how Anki works, it is recommended that you read the Anki manual. However, because it's highly detailed and technical, the bulk of this article will focus on explaining the most useful Anki settings to help you get things up and running as quickly as possible.",
     "url":"setting-up-anki.html",
@@ -9376,7 +9542,8 @@
   {
     "title":"Installation",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"There are several ways to install Anki. Using your distribution's package manager (pacman, apt, dnf, etc.). Using pipx, a software installer for Python programs. By downloading a release from the official website. The first method guarantees that you'll have the right dependencies installed, but you may get an old version of Anki. Distro maintainers are not very good at keeping Anki up-to-date, although on rolling release GNU distributions this is not as noticeable. The second method guarantees that you get the latest version, but you need to make sure you have all the dependencies installed. And the third method is for operating systems that don't have package managers. Please don't install Anki via FlatPak, Snap packages or other non-native package managers. People have been reporting various problems connected to these installation methods. If you are running Wayland, please upgrade to X11 (XLibre) to avoid possible issues.",
     "url":"setting-up-anki.html#installation",
@@ -9385,7 +9552,8 @@
   {
     "title":"Using your package manager",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"On Arch Linux and other pacman-based distributions Anki is available in the official repositories. Install Anki with sudo pacman -S anki as any other package. If you're not an Arch Linux user, I'm sure you'll find Anki in repositories of your distribution. To find Anki for your OS you can use pkgs.org. Note: pkgs.org requires JS to be enabled. Ubuntu users can use the App Center to install Anki. However, be aware that under the hood it installs a Snap package. In addition, your collection will be stored in ~/snap/anki-desktop/ instead of the usual ~/.local/share/Anki2. Debian users and users of other stable distros should note that outdated versions of Anki work poorly with most add-ons, especially new ones. Use a version released at least 6 months ago or newer.",
     "url":"setting-up-anki.html#using-your-package-manager",
@@ -9394,7 +9562,8 @@
   {
     "title":"Using pipx",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The latest version can be installed with the aqt package. $ pipx install \"aqt[qt6]\" Notes pipx places executable files in ~/.local/bin/ by default. Don't forget to add this directory to the PATH. To run Anki, type anki in the terminal and press Enter. However, having a desktop entry is more convenient. Download this file and save it in ~/.local/share/applications. If after installing Anki with pipx Fcitx doesn't work, add export QT_PLUGIN_PATH=/usr/lib/qt/plugins to the list of environment variables. Anki depends on mpv to play audio. You have to install it separately with pacman or another package manager. You may have to install PyQt5 (PyQt6) as well. Anki 2.1.50 and later additionally requires installing PyQtWebEngine and PyQt5-stubs (PyQt6-stubs) from PyPI. PyQt5 (PyQt6) and PyQtWebEngine can be also obtained from the official Arch Linux repositories. You can tell pipx to install a specific version. This is handy when the latest version malfunctions. pipx install \"aqt==2.1.60\" There are two versions, depending on which GUI toolkit is used, Qt6 and Qt5. You can change the toolkit like this: $ pipx install 'aqt[qt5]' $ pipx install 'aqt[qt6]' Normally, this is not needed.",
     "url":"setting-up-anki.html#using-pipx",
@@ -9403,7 +9572,8 @@
   {
     "title":"From the official website",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If your operating system has a package manager, like most GNU+Linux distros, it is not recommended to install directly from the official website, since a package manager can automate downloading, installing, uninstalling and updating. But some operating systems, especially Windows-like OSes such as ReactOS, don't have this feature. In this case, head to apps.ankiweb.net and read the instructions there.",
     "url":"setting-up-anki.html#from-the-official-website",
@@ -9412,7 +9582,8 @@
   {
     "title":"Troubleshooting",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If you're still unable to install or run Anki, refer to Anki Manual and Anki Betas guide. Some people report that they see a black screen on startup, and that you should run Anki with the no sandbox parameter: anki --no-sandbox to avoid it.",
     "url":"setting-up-anki.html#troubleshooting",
@@ -9421,7 +9592,8 @@
   {
     "title":"Sync your devices",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"By signing up for AnkiWeb you can keep your cards synchronized across multiple devices, like computers, phones, and tablets. To sync your collection on desktop, press Y or click \"Sync\" on the toolbar.",
     "url":"setting-up-anki.html#sync-your-devices",
@@ -9430,7 +9602,8 @@
   {
     "title":"Anki for Android",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Install AnkiDroid on your Android device and sync your collection. That lets you review your flashcards when you're out and do not have access to your computer. I prefer downloading the latest AnkiDroid alpha from GitHub because F-Droid releases tend to lag behind.",
     "url":"setting-up-anki.html#anki-for-android",
@@ -9439,7 +9612,8 @@
   {
     "title":"Import an example mining deck",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"After you install Anki, you need to set up a Note Type to keep your flashcards formatted as you like. Anki comes with a few basic Note Types, but they aren't suited for learning Japanese. Because making your own Note Type is a tedious process consisting of essentially adding the fields you need and copy-pasting HTML and CSS, I recommend you to import a pre-made mining deck. A sample mining deck can be found here: AnkiWeb Mirror",
     "url":"setting-up-anki.html#import-an-example-mining-deck",
@@ -9448,7 +9622,8 @@
   {
     "title":"Japanese language support",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Press \"Tools\" > \"Add-ons\" > \"Get Add-ons\" to download and install the AJT Japanese add-on. Then restart. The add-on is bundled with Mecab, so you don't need to install any additional dependencies.",
     "url":"setting-up-anki.html#japanese-language-support",
@@ -9457,7 +9632,8 @@
   {
     "title":"Anki settings",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"In Anki you can learn languages, biology, math, physics, etc., and Anki isn't optimized for any of them in particular. To optimize Anki for language learning I recommend the following settings.",
     "url":"setting-up-anki.html#anki-settings",
@@ -9466,7 +9642,8 @@
   {
     "title":"Preferences",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Preferences control behavior of your Anki collection. They apply to all decks. You can access preferences by going to Tools > Preferences… on Anki’s main window.",
     "url":"setting-up-anki.html#preferences",
@@ -9475,7 +9652,8 @@
   {
     "title":"Appearance",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Video driver Vulkan is supposed to be the latest and greatest thing out there. If you encounter visual glitches, set this to OpenGL or Software. Style Enabling Native styles allows the user to apply their preferred kvantum theme and disables the childish Apple-esque theme that is set by default. Minimalist mode Newer versions of Anki come with an absolutely horrendous UI. The minimalist mode was added after a widespread backlash from the users. Enable it to debloat the UI.",
     "url":"setting-up-anki.html#appearance",
@@ -9484,7 +9662,8 @@
   {
     "title":"Review",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Learn ahead limit I recommend keeping the value close to the default of 20 minutes. Mine is 35 minutes. When you finish your daily reviews and new cards, Anki will start ignoring intervals of cards in the learning queue less than this value and will start showing the cards to you right away. This is good for cards with small intervals because it lets you finish your reps without breaking the flow and waiting for your cards to become ready to be reviewed. But if you set the Learn ahead limit too high, cards with longer learning steps will be shown to you too early. Keeping the value on the lower side enforces the wait time of your steps. If you set this to 0, Anki will always wait the full delay, so it's not optimal either. Show play buttons on cards with audio When learning a foreign language, adding audio files to your flashcards is essential for learning accurate pronunciations. Spacebar (or Enter) also answers card I recommend disabling this checkbox. It is possible to accidentally press Space twice when grading. It's also confusing when one key serves two different purposes at the same time.",
     "url":"setting-up-anki.html#review",
@@ -9493,7 +9672,8 @@
   {
     "title":"Editing",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Paste clipboard images as PNG Disable. PNG images take more disk space than WebP or Avif images. To paste images as WebP, install this addon.",
     "url":"setting-up-anki.html#editing",
@@ -9502,7 +9682,8 @@
   {
     "title":"Syncing",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Here you need to ensure that your profile is synced with AnkiWeb. Log in and enable synchronize audio and images.",
     "url":"setting-up-anki.html#syncing",
@@ -9511,7 +9692,8 @@
   {
     "title":"Third-party services",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Ignore this tab because it suggests using non-free network services. This tab should be removed from Anki completely.",
     "url":"setting-up-anki.html#third-party-services",
@@ -9520,7 +9702,8 @@
   {
     "title":"Other",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Deprecated Show new cards after reviews. You always want to finish your reviews first, and you don't want new cards to slow you down. You can choose Show new cards before reviews if you are consistent and feel confident that you will never have a backlog of Anki reviews. Mixing is probably the worst way and will confuse you when a new card pops up after a streak of mature cards. Note: This option has been moved in newer versions. Anki 2021 scheduler. This is a new scheduler that comes with Anki 2.1.45+. If your version of Anki doesn't show this option, it has been already enabled by default. Otherwise, make sure to enable it. Preferences.",
     "url":"setting-up-anki.html#other",
@@ -9529,7 +9712,8 @@
   {
     "title":"Options Groups",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Each deck has an Options Group attached to it. Options Groups define deck-specific settings. Every deck can have different settings depending on its Options Group. The sub-deck options will override the parent deck options. Click Deck > Options to access Options Groups settings. You can hit Manage to create additional options groups. Warning: If you're running Anki 2.1.45+, you will be presented with a new \"Options Groups\" settings dialog. As usual, Anki developers are making the app worse with each release. The new UI is bloated and is built with HTML and JavaScript instead of native widgets as before. If you want to bring up the old version of the dialog, click \"Deck Options\" while holding Shift. Consider creating separate Options Groups for each type of material you learn. You can assign each Options group to multiple decks. This is useful for making small adjustments to individual decks based on the cards the decks store. New menu The new Options Groups settings menu can be seen on Anki starting from 2.1.45. The options are described later in this article. Settings. Below are the options I recommended using.",
     "url":"setting-up-anki.html#options-groups",
@@ -9538,7 +9722,8 @@
   {
     "title":"Daily limits",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Daily limits. New cards/day In general, this option controls how many cards you learn each day, but you can always learn more if you want. The default value of 20 cards is very reasonable and manageable for most users. However, if you feel overwhelmed by the amount of reviews you have to do, lower it to about 10 new cards a day. Doing more cards is also possible if you can keep up with the review load, but generally in the AJATT community it is advised to learn no more than 30 new cards a day. I keep my setting at 0. This is because I use Learn Now Button to manually pick and learn cards from my Sentence Bank. For me personally it's better than having Anki decide for me. Maximum reviews/day This value sets an arbitrary cap on the amount of reviews you can do each day. If the cap is low, your due cards won't magically disappear after you've done with the reviews. Instead, they will form a backlog of likely forgotten cards. Because you want to review all your due cards every day, set this at a high value like 9999.",
     "url":"setting-up-anki.html#daily-limits",
@@ -9547,7 +9732,8 @@
   {
     "title":"New cards",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"New cards. New cards — new UI. Learning steps This is the number of times you have to answer good on the card before it graduates. Pressing Again on a new card resets the learning steps. I recommend beginners to stick to the default learning steps of 1 10. When you get more familiar with Anki, you can add your custom steps and experiment with them. But don't overdo it. Too many steps will make you spend too much time in Anki for no substantial gain in retention. The learn ahead option set in the previous section will make sure that you won't be shown cards with large steps too early. You can experiment with so-called micro steps if you see that remembering new cards is more difficult than you thought. This means specifying an interval in seconds instead of minutes. For the new settings menu you just type 30s for 30 seconds. For the old menu you need to specify a decimal like this: 0.5. Graduating interval Every new card eventually passes its final learning step and graduates, becoming a review card. This parameter sets the first interval that a card gets after it graduates. 1 day means that you'll have to review the card the next day.",
     "url":"setting-up-anki.html#new-cards",
@@ -9556,7 +9742,8 @@
   {
     "title":"Reviews",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Reviews. Most settings that were here have been moved to Advanced due to an unfortunate UI update.",
     "url":"setting-up-anki.html#reviews",
@@ -9565,7 +9752,8 @@
   {
     "title":"Lapses",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Lapses. Lapses — new UI. Steps (in minutes) Works similar to the setting in the New Cards tab, except it’s for cards you've pressed “Again” on. It affects how well you will relearn your lapsed cards. Beginners should set one learning step and observe their experience. The default of 10 minutes is okay, but I prefer a slightly bigger one. Later you can experiment with more learning steps. Leech threshold and Leech action Leeches are cards that you keep on forgetting and relearning over and over. Keep the leech threshold low (4-6 lapses) and suspend the cards when they become leeches. You have to properly deal with leeches instead of letting them rotate in your deck and slow you down. Possible ways to deal with leeches will be explained in How to review.",
     "url":"setting-up-anki.html#lapses",
@@ -9574,7 +9762,8 @@
   {
     "title":"Display order",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Here most settings are not that significant. They control how cards are ordered when you review them. Feel free to experiment for yourself. Display order — new UI. New/review order New/review order appears to be the new equivalent of the Show new cards after reviews setting that was formerly under Preferences. To maintain the same behavior, set it to \"Show after reviews\". You always want to finish your reviews first before learning new cards. New cards may slow you down and prevent you from finishing your reviews. If you have New cards/day set to 0, this setting should have no effect. Review sort order In newer versions of Anki (24.11+) descending retrievability is recommended. But this option is not for everybody because it will always try to show easy cards first. According to Dae, Decks can be sorted by descending retrievability. Simulations have shown this is a better choice when you have a backlog, and this sort order is likely to become the default in the future.",
     "url":"setting-up-anki.html#display-order",
@@ -9583,7 +9772,8 @@
   {
     "title":"Advanced",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"FSRS FSRS is a new scheduler that replaces the default one (named SM2). For some reason the setting is located in \"Options Groups\", but it applies to the entire Collection (profile). Leave it disabled. FSRS isn't mature enough to say it's better than the default scheduler. Update: FSRS appears to be a dead end. The best solution would be to deprecate it and invent a completely new scheduling algorithm. I don't think FSRS will ever be \"ready\". Even its creators have admitted it. One community member tried FSRS and reported: I tried FSRS once. After about six months it finally optimized to roughly match the early learning intervals I was already using with SM2, and they were actually slightly shorter, so it was more work. To get there I had to endure its dumb default behavior: 1d → 8d → \"you got it wrong\" rescheduling, or on some older cards it did 18d → 7 months(!), and then of course I didn't remember it when it came back. It was a massive waste of time. Even after six months, FSRS had worse \"ease hell\" than SM2. It fell into a weird loop of 5d → 5d → 5d intervals repeatedly, and sometimes the next interval was shorter than the previous one (e.g., 15d → 11d), even though I'd just recalled it after 15 days. That was supposedly the \"lots of data, well optimized\" endpoint, and I gave up because it was wasting so much time. Maximum interval Intervals of your cards can never increase beyond this limit. I advise setting it as big as possible. The default is 36500 days, which is equal to 100 years. However, you can decrease this to a smaller number if you want to ensure long-term retention. Starting ease Every card has a property called Ease factor. Over time the Ease factor can change and cause negative side effects. Set the Starting Ease to 131% to avoid the side effects. More about it later. Easy bonus and Hard interval Extra multipliers that are applied to a review card's interval when you rate it \"Easy\" or \"Hard\". Ignore these settings as you should never use the \"Hard\" and \"Easy\" buttons and don't need to introduce additional variables in the grading process. Hard and Easy buttons. The \"Hard\" and \"Easy\" buttons have counter-intuitive effects on Anki's algorithm, which causes long-term problems with Ease of your cards. Note: AJT Flexible Grading can hide unwanted buttons. It is covered in greater detail later. An alternative way to make \"Hard\", \"Good\" and \"Easy\" buttons behave the same would be using the V3 scheduler's custom scheduling mechanism. Interval modifier A multiplier that is applied to a review interval when answering Again. When you answer Good on a card, its interval is recalculated. New interval = current interval * Card's ease * Interval Modifier By default, new interval is 2.5 * last interval. At its default value of 100%, Interval Modifier does nothing. However, this is not what you want because you've just lowered Starting Ease to 131% in a previous setting. To restore the balance bump Interval Modifier up to 192%. 1.92 * 1.31 is roughly equal to 2.5. Later after you've used Anki for a couple of months and have had high retention rate, you can increase the value further and do fewer reviews. If you forget too many cards, it is recommended to lower it a bit. New interval You often still somewhat remember a word in Japanese even if you fail the card. A different context or another word, or studying it on a different day may jog your memory. Thus, we don't need to fully penalize a fail here. For example, if you use a new interval of 50%, when you lapse a card and relearn it, the interval won't be reset back to 1 day. It will be half of the previous interval. The recommended range in the AJATT community is between 50 and 75%. For a word cards deck you may set it to about 30-40% because word cards are noticeably harder than sentence cards. I explain differences between card templates later.",
     "url":"setting-up-anki.html#advanced",
@@ -9592,7 +9782,8 @@
   {
     "title":"Synchronizing large collections",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Don't sync your collection with AnkiWeb if you store large files in it or if you are a heavy user of subs2srs. subs2srs decks take a lot of disk space. Use a different Anki profile to store them. The extra profile should not be synced. To make multiple profiles, press \"File\" > \"Switch profile\". Alternatively, use a personal Anki sync server. anki-sync-server is a sync server for Anki which you can sync against instead of AnkiWeb.",
     "url":"setting-up-anki.html#synchronizing-large-collections",
@@ -9601,7 +9792,8 @@
   {
     "title":"Ease Hell",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Ease Hell is when Anki gradually lowers Ease factors of your flashcards, assuming they are more difficult than they actually are. A card with a low Ease factor has to be reviewed more often. As a result, you are forced to review too many cards each day. Anki decreases the Ease factor of a card every time you fail it or answer \"Hard\". This leads to intervals growing slower, and eventually most of your cards end up having a low Ease factor. This is when you are in Ease Hell. Similarly, pressing \"Easy\" causes the Ease to increase. The intervals of such cards grow faster than normal, which leads to forgetting in the future. Side effects of each answer button: Again - Ease decreases by 20%. Hard - Ease decreases by 15%. Good - No side effect. Easy - Ease increases by 15%. The reason I recommend never pressing \"Hard\" and \"Easy\" is to avoid the side effects. But this still leaves the problem with the \"Again\" button unsolved. The lowest possible Starting Ease in Anki is 131%. By setting Starting Ease to the lowest possible value while simultaneously increasing Interval Modifier you make sure Ease factors of your cards can't decrease anymore, essentially fixing the issue. There's a legitimate possibility that some cards in your collection are more difficult than the others. To account for that fact I recommend having a low Leech threshold. The hard cards are going to be suspended sooner. Once a card becomes a leech, you should investigate why it happened. Open the Anki Browser and type tag:leech to display your leeches. If you've been using Anki for a while before reading this page then you'll need to update your collection to reset the Ease factor of the older cards. To update older cards, use the ResetEase add-on. More about the Ease Hell: Guide to Anki Intervals and Learning Steps The Ease Factor Problem Ease Hell in Anki",
     "url":"setting-up-anki.html#ease-hell",
@@ -9610,7 +9802,8 @@
   {
     "title":"GTK theme",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Anki uses the Qt toolkit. If you're not running Plasma (or possibly another Qt-based desktop environment) Qt applications won't be styled according to the GTK theme you may have selected. There are multiple ways to tell Anki to use your GTK theme. But before you proceed, go to \"Preferences\" > \"Appearance\" and make sure that \"Style\" is set to \"Native\".",
     "url":"setting-up-anki.html#gtk-theme",
@@ -9619,7 +9812,8 @@
   {
     "title":"qt5-styleplugins",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If your version of Anki uses Qt5, install qt5-styleplugins. If your version of Anki uses Qt6, install qt6gtk2. Set the following environment variable: export QT_QPA_PLATFORMTHEME=gtk2 Then re-login or reboot.",
     "url":"setting-up-anki.html#qt5-styleplugins",
@@ -9628,7 +9822,8 @@
   {
     "title":"kvantum",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"Install the requirements: kvantum, qt5ct, qt6ct. $ sudo pacman -S kvantum qt5ct qt6ct Launch kvantummanager, select \"Change/Delete Theme\" and select your theme from the combo box. Press \"Use this theme\", then \"Quit\". Open qt5ct, then qt6ct. Select kvantum as theme engine. Apply changes. Set the following environment variable: If your version of Anki uses Qt6: export QT_QPA_PLATFORMTHEME=qt6ct If your version of Anki uses Qt5: export QT_QPA_PLATFORMTHEME=qt5ct Then re-login or reboot. This method consistently works if Anki uses Qt5. Currently, there are problems with Qt6. To work around it, install the Qt5 version of Anki (and/or uninstall PyQt6-* packages with pip if they were installed) and instead of setting the environment variable system-wide, set it locally. It can be achieved by launching Anki like this: QT_QPA_PLATFORMTHEME=qt5ct anki To make the setting persist, in the .desktop file (see pipx install notes) change Exec= to: Exec=env QT_QPA_PLATFORMTHEME=qt5ct anki %f",
     "url":"setting-up-anki.html#kvantum",
@@ -9637,7 +9832,8 @@
   {
     "title":"Trying different versions",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If you want to install and test multiple versions of Anki at the same time, use the following functions. Add them to your ~/.bashrc or ~/.zshrc. Install a specific version. For example, run anki_test_install 2.1.45 to install Anki 2.1.45. anki_test_install() { local -r version=${1:?No version provided.} local -r dir=~/.local/share/anki_builds/\"anki_$version\" ( mkdir -p -- \"$dir\" && cd -- \"$dir\" || exit python -m venv --system-site-packages pyenv ./pyenv/bin/pip3 install --upgrade pip ./pyenv/bin/pip3 install --upgrade --pre \"aqt==$version\" ) } Run a specific version. This script uses dmenu to ask what version you want to run. anki_test_run() { local -r dir=~/.local/share/anki_builds if [[ $* ]]; then local -r choice=$* else local -r choice=$(find \"$dir\" -mindepth 1 -maxdepth 1 -type d -printf '%f\\n' | dmenu) fi if [[ -n $choice ]]; then (cd -- \"$dir/$choice\" && ./pyenv/bin/anki) fi } These functions are available on my GitHub.",
     "url":"setting-up-anki.html#trying-different-versions",
@@ -9646,7 +9842,8 @@
   {
     "title":"Unicode normalization",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"If you are studying certain 旧字体 characters, you may have noticed that when you put them in Anki, they are automatically converted to their 新字体 versions. For example, you make a card with 「禎」, and when you open the card again, the kanji is replaced with 「禎」. If you are studying 旧字体 characters, including certain 人名用漢字, and wish to prevent them from being converted into modern equivalents, open the debug console by pressing Ctrl+Shift+; and paste the following. Press Ctrl+Enter to apply. mw.col.conf[\"normalize_note_text\"] = False This setting should be applied to each collection (Anki profile) individually. Read this Anki forum post for reference.",
     "url":"setting-up-anki.html#unicode-normalization",
@@ -9655,7 +9852,8 @@
   {
     "title":"Note Types for Anki",
     "tags":[
-      "anki"
+      "anki",
+      "guide"
     ],
     "body":"The AJATT community has developed a variety of note types to use in Anki for different purposes, including language learning. We store all of our note types in one Git repository for convenience. You can find the repository on GitHub.",
     "url":"setting-up-anki.html#note-types-for-anki",
@@ -9665,7 +9863,8 @@
     "title":"EPWING dictionaries",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"EPWING is a dictionary format that was commonly used in portable electronic dictionaries. To view EPWINGs you need Qolibri, a dictionary viewer that lets you search multiple EPWING files at once so you immediately get multiple definitions for every word. This article provides download links for EPWING dictionary files.",
     "url":"epwing-dictionaries.html",
@@ -9675,7 +9874,8 @@
     "title":"Downloads",
     "tags":[
       "dictionaries",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Our community member, Epistularum, made a collection of EPWING dictionaries. Download links Magnet Torrent file Note: you need a torrent client to download Torrent files. Other sources Packs: EPWING Collection on Nyaa EPWINGs.rar on MediaFire Mega by BritVSJapan Standalone dictionaries: NHK pitch accent dictionary EPWING. A very useful EPWING with pitch accent information. Shinmeikai EPWING with pitch accent Kenkyusha J-E Dictionary",
     "url":"epwing-dictionaries.html#downloads",
@@ -9685,7 +9885,8 @@
     "title":"MDX dictionaries",
     "tags":[
       "dictionaries",
-      "mdx"
+      "mdx",
+      "guide"
     ],
     "body":"GoldenDict is another dictionary lookup program useful for learning Japanese. GoldenDict supports MDX dictionaries. It can also read EPWING files, but that feature is clunky in my experience. Qolibri is much better for EPWING. This article provides download links for MDX dictionary files.",
     "url":"mdx-dictionaries.html",
@@ -9695,7 +9896,8 @@
     "title":"Downloads",
     "tags":[
       "dictionaries",
-      "mdx"
+      "mdx",
+      "guide"
     ],
     "body":"Epistularum made a collection of MDX dictionaries for GoldenDict. Download links Large version (66 GiB) Magnet. Torrent file. This torrent doesn't contain JMdict (Japanese to English dictionary). You can get JMdict separately here. To reduce the size, you can exclude optional directories, such as: 11 他言語 (other languages). 13 書道 (calligraphy). Small version (19 GiB) Magnet. Torrent file. Note: you need a torrent client to download Torrent files. Other sources A collection of dictionaries is stored in Freemdict Cloud. It has a wider range of bilingual dictionaries. A Dictionary of Japanese Grammar Japanese Wikipedia",
     "url":"mdx-dictionaries.html#downloads",
@@ -9705,7 +9907,8 @@
     "title":"Large version (66 GiB)",
     "tags":[
       "dictionaries",
-      "mdx"
+      "mdx",
+      "guide"
     ],
     "body":"Magnet. Torrent file. This torrent doesn't contain JMdict (Japanese to English dictionary). You can get JMdict separately here. To reduce the size, you can exclude optional directories, such as: 11 他言語 (other languages). 13 書道 (calligraphy).",
     "url":"mdx-dictionaries.html#large-version-66-gib",
@@ -9715,7 +9918,8 @@
     "title":"Small version (19 GiB)",
     "tags":[
       "dictionaries",
-      "mdx"
+      "mdx",
+      "guide"
     ],
     "body":"Magnet. Torrent file.",
     "url":"mdx-dictionaries.html#small-version-19-gib",
@@ -9725,7 +9929,8 @@
     "title":"Rikaitan dictionaries",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"This article provides download links for dictionary files for Rikaitan. Rikaitan is a browser extension with a pop-up dictionary that lets you look up unknown words by hovering your mouse. Follow this setup guide to install Rikaitan. To make Anki cards, don't forget to install AnkiConnect.",
     "url":"rikaitan-dictionaries.html",
@@ -9735,7 +9940,8 @@
     "title":"Beginner dictionaries",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"For beginners, Rikaitan provides a set of basic bilingual dictionaries. Learners can use these for the first few months, then delete them after going monolingual (covered later). To enable Rikaitan lookups, you must download and import at least one dictionary. Downloads JMdict (English). JMdict is the most common Japanese–English dictionary for beginners. JMdict_english.zip. This is the JMdict but without example sentences. JMdict_english_with_examples.zip. This is the version of JMdict with example sentences from the Tatoeba Project. Note that Tatoeba doesn't always have correct example sentences. JMdict (Other Languages). Non-English JMdict files have fewer entries than the English version. Even if your native language is not English, Consider importing English too for better coverage. JMdict_dutch.zip JMdict_french.zip JMdict_german.zip JMdict_hungarian.zip JMdict_russian.zip JMdict_slovenian.zip JMdict_spanish.zip JMdict_swedish.zip JMdict_forms.zip. This is a version of JMdict that includes only the alternate forms of each entry. This is useful for conjugation lookup for those who do not wish to have any dictionary definitons, and is unnecessary if you are using the regular JMdict. JMnedict.zip. JMnedict is a dictionary of Japanese names. It tells you how to read names of people, places, etc. KANJIDIC. Kanjidic is a kanji dictionary. KANJIDIC_english.zip KANJIDIC_french.zip KANJIDIC_portuguese.zip KANJIDIC_spanish.zip Kanjium Pitch Accent dictionary. Made from Kanjium data. BCCWJ Frequency Dictionary (large, small). A frequency dictionary based on the Balanced Corpus of Contemporary Written Japanese.",
     "url":"rikaitan-dictionaries.html#beginner-dictionaries",
@@ -9745,7 +9951,8 @@
     "title":"Mainline dictionaries",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"An archive with dictionaries for Rikaitan can be downloaded by following the link below. Download links Download. Mirror. Sources The dictionaries were compiled from various places. Below is a list of public folders that were used. This Mega folder Shared by mattvsjapan Shinmeikai5 Pitch Accent Dictionary Go to Rikaitan settings and select the \"Dictionaries\" tab on the left side, then click the button \"Configure installed and enabled dictionaries…\". Press \"Import\" to import a new dictionary.",
     "url":"rikaitan-dictionaries.html#mainline-dictionaries",
@@ -9755,7 +9962,8 @@
     "title":"About",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"Each folder in the main archive contains a file called \"README.md\". Open it to see additional information about the dictionaries.",
     "url":"rikaitan-dictionaries.html#about",
@@ -9765,7 +9973,8 @@
     "title":"Kaikki",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"kaikki-to-rikaitan is a catalog of dictionary files converted from wiktionary data from kaikki.org. Download links GitHub Releases. AWS Releases.",
     "url":"rikaitan-dictionaries.html#kaikki",
@@ -9775,7 +9984,8 @@
     "title":"Don't import all Rikaitan dictionaries",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"You need multiple dictionaries because Japanese-Japanese dictionaries have gaps. Some words appear only in specific dictionaries. A few examples: 夢海鼠 is only in 日本国語大辞典. 禿同 is only in 実用日本語表現辞典. Though you might think that using every dictionary in Rikaitan is a good idea and load up all of them, I would advise you not to do so. Sometimes the word that you're trying to look up isn't the one that comes up first in the dictionary. If you want to find it, you have to scroll down. And if you have many dictionaries imported, this is going to be pretty annoying. Each installed dictionary enlarges Rikaitan's database and can add several GiB to disk usage. So I recommend you keep as few dictionaries in Rikaitan as possible and use Qolibri or GoldenDict for words you can't find.",
     "url":"rikaitan-dictionaries.html#dont-import-all-rikaitan-dictionaries",
@@ -9785,7 +9995,8 @@
     "title":"Custom CSS for images",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"If you want to use デジタル大辞泉 or 旺文社国語辞典, images may render incorrectly unless you append the following rules to your Popup CSS. If this happens, go to Rikaitan settings > \"Appearance\" > \"Configure custom CSS...\". Popup CSS for images .gloss-image-description { text-align: center; } .definition-item-content, .gloss-image-link { max-width: 100%; } .gloss-image-container { background: none !important; } .gloss-image-link[data-has-aspect-ratio=\"true\"] .gloss-image { position: static; max-height: 200px; } .gloss-image-link[data-has-aspect-ratio=\"true\"] .gloss-image-aspect-ratio-sizer { display: none; } .gloss-image-container-overlay { display: none; } img { will-change: transform; }",
     "url":"rikaitan-dictionaries.html#custom-css-for-images",
@@ -9795,7 +10006,8 @@
     "title":"Custom CSS for Kanji Dictionaries",
     "tags":[
       "dictionaries",
-      "rikaitan"
+      "rikaitan",
+      "guide"
     ],
     "body":"Rikaitan's kanji dictionary viewer contains a lot of redundant information, such as duplicated tags, stroke order diagrams, and empty table rows for each entry. To make the kanji entries more concise when using multiple kanji dictionaries, you can add some CSS rules. In \"Settings\" > \"Popup Appearance\" > \"Configure custom CSS...\" paste the following CSS to condense displayed entries. CSS for kanji /* remove misc dict classifications/codepoints/stats */ .kanji-glyph-data > tbody > tr:nth-child(n + 3) { display: none; } /* remove stroke diagram, freq, header for next entries */ div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-container, div.entry[data-type='kanji']:nth-child(n + 2) [data-section-type='frequencies'], div.entry[data-type='kanji']:nth-child(n + 2) table.kanji-glyph-data > tbody > tr:first-child { display: none; } /* remove 'No data found' */ .kanji-info-table-item-value-empty { display: none; } /* reduce extra padding */ .kanji-glyph-data, div.entry[data-type='kanji'], div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-data > tbody > tr > *, .kanji-glyph-data dl.kanji-readings-japanese, div.entry[data-type='kanji']:nth-child(n + 2) .kanji-glyph-data dl.kanji-readings-chinese[data-count='0'] { padding-top: 0 !important; padding-bottom: 0 !important; margin-bottom: 0em; margin-top: 0 !important; } /* remove horizontal lines */ .entry + .entry[data-type='kanji'], div#dictionary-entries > div.entry:nth-child(n + 2) .kanji-glyph-data > tbody > tr > * { border-top: none !important; } /* change decimal list */ .kanji-gloss-list { list-style-type: circle; }",
     "url":"rikaitan-dictionaries.html#custom-css-for-kanji-dictionaries",
@@ -9806,7 +10018,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"In this article I provide download links for dictionary files. These files can be opened with various programs, including the ones mentioned below. They're almost indispensable for any language learner. Having them will help you learn new words and get closer to fluency. So, let's get started!",
     "url":"yomichan-and-epwing-dictionaries.html",
@@ -9817,7 +10030,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"EPWING is a dictionary format that was commonly used in portable electronic dictionaries. To view EPWING files you need Qolibri, a dictionary viewer that lets you search multiple EPWING files at once so for every word you look up you immediately get multiple definitions. EPWING",
     "url":"yomichan-and-epwing-dictionaries.html#epwing",
@@ -9828,7 +10042,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"GoldenDict is another dictionary lookup program useful for learning languages. GoldenDict supports MDX dictionaries. It can read EPWING dictionaries too, but that feature is clunky in my experience. Qolibri is much better for EPWING. MDX",
     "url":"yomichan-and-epwing-dictionaries.html#mdx",
@@ -9839,7 +10054,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Rikaitan is a web browser extension with a pop-up dictionary that lets you look up unknown words by hovering your mouse. To get Rikaitan follow this setup guide. To make Anki cards, don't forget to install AnkiConnect. Rikaitan",
     "url":"yomichan-and-epwing-dictionaries.html#rikaitan",
@@ -9850,7 +10066,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"",
     "url":"yomichan-and-epwing-dictionaries.html#explaining-available-dictionaries",
@@ -9861,7 +10078,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Bilingual dictionaries provide a rough tool to help you get by until you switch to monolingual dictionaries. You usually only use bilingual dictionaries at the beginning and stop using them after a few months of study. At this stage JMdict is enough for most people. If you want to explore other available dictionaries, see the recommendations below. I recommend getting the following dictionaries. JMdict. The same dictionary that used on Jisho.org. JMdict doesn't have example sentences. If you need them, try the resources listed here. 新和英. A dictionary made by Japanese people for Japanese people. You can use it in reverse to learn Japanese words. For speakers of other languages. 研究社露和辞典. A Russian-Japanese Dictionary. Russian speakers praise it a lot. Has example sentences. Япон-Монгол толь бичиг. A Japanese-Mongolian dictionary.",
     "url":"yomichan-and-epwing-dictionaries.html#bilingual",
@@ -9872,7 +10090,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Once you've started the monolingual transition, it is time to use real dictionaries. JMdict is limited and only contains simple translations, many of which can be misleading because it's rare for a word in one language to have an exact, one-to-one match in another. Monolingual dictionaries are powerful because they provide detailed definitions and usage examples. With them you can learn the target language in the target language. Pick 3 or 4 monolingual dictionaries you like and import them into your dictionary program. Don't import all dictionaries into Rikaitan at once. It gets clunky and unusable quickly. Japanese-to-Japanese definitions are longer than Japanese-to-English ones, and it's easy to clutter Rikaitan popups with dozens of entries. GoldenDict and Qolibri can import entire dictionary catalogs and handle many dictionaries much better than Rikaitan. Some people say dictionary A has clearer definitions than dictionary B. In reality differences are minor, especially if you're already quite good at Japanese. Almost all Japanese-Japanese dictionaries copy each other, changing a word or two to avoid copyright issues. Provided example sentences are often identical. 新明解 is probably the only monolingual dictionary with notably original definitions, but it's harder to follow because it often backtracks. If you're new to monolingual dictionaries, expect a few weeks to adjust. Most recommended: Short list of dictionaries commonly recommended in the AJATT community. 大辞林 新明解 大辞泉 明鏡 These are generic names. Often the same dictionary has many versions, in which case the names can differ as well. For example, 大辞林 and スーパー大辞林, or 大辞泉 and デジタル大辞泉. Pick any version you prefer. 大辞林 and 大辞泉 are quite similar, have good definitions and many entries. Prefer デジタル大辞泉 over the original 大辞泉. It has an extra 120,000 entries and contains images. 明鏡 and 新明解 use simpler language and are considered beginner-friendly. 新明解 has fewer entries and a convoluted definition structure with redirections marked by △ and （）, which force the reader to jump around. But it's mostly very good. 大辞林 and 新明解 include pitch accent information, so you may want to import them first. Additional dictionaries: 旺文社国語辞典. A dictionary by Oubunsha. Advertised as easy to understand for people new to monolingual dictionaries. However, some definitions use harder vocabulary than 大辞林. The file for Rikaitan is large because it contains images. There's a version without images called 旺文社国語辞典 第十一版 画像無し. Weblio古語辞典. Archaism dictionary from Weblio. 新辞林. A simplified version of 大辞林. 日本国語大辞典. The biggest Japanese dictionary in the world. 精選版 日本国語大辞典 小学館 国語大辞典 岩波書店 岩波国語辞典 広辞苑 故事ことわざの辞典. Proverb dictionary.",
     "url":"yomichan-and-epwing-dictionaries.html#monolingual",
@@ -9883,7 +10102,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Frequency lists are special dictionaries that show how often a word appears in a given corpus. In Rikaitan they are shown as tags below headwords. Different frequency dictionaries use different notations. In some, a higher number means higher frequency. In others, the opposite. Use these to judge whether it's worth learning a word. More frequent words are generally more useful. Recommended: Netflix frequency list Anime & Jdrama frequency list These are must-haves if you watch dramas or anime a lot. Additional frequency lists: Innocent corpus. Based on 5000+ novels. Narou. Top 300 Narou stories. VN. Visual Novels. I don't recommend VNs because most are proprietary, but the frequency list may help you spot common words in other types of content, for example in manga and anime. BCCWJ. Based on Long Unit Word list data. Daijirin. Words that appear in the 大辞林 monolingual dictionary. Useful if you go monolingual and need to prioritize dictionary vocabulary.",
     "url":"yomichan-and-epwing-dictionaries.html#frequency-lists",
@@ -9894,7 +10114,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Dictionaries for Rikaitan that help you look up Japanese grammar. Nihongo no Sensei. Grammar by JLPT levels. Entries are in Japanese and Chinese. Has example sentences. Data comes from nihongo no sensei. 日本語NET. Grammar by JLPT levels. Entries are in Japanese and English. Has example sentences with English translations. Data comes from nihongokyoshi-net. 日本語表現文型辞典. English explanations. Has examples sentences. Data comes from donnatoki. Dictionary of Japanese grammar. Entries are in English. Has example sentences.",
     "url":"yomichan-and-epwing-dictionaries.html#grammar",
@@ -9905,7 +10126,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"Dictionaries for Rikaitan that display pitch accents of words. The default dictionary is Kanjium.",
     "url":"yomichan-and-epwing-dictionaries.html#pitch-accent",
@@ -9916,7 +10138,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"In Rikaitan, kanji dictionaries appear when you click a kanji in the headword. KanjiDic English. A Japanese-English kanji dictionary. 漢字源. Monolingual kanji dictionary. Wiktionary. NipDb Kanji. Kanji information for around 6,000 characters from NipDb. Kanji Map. Information about kanji.",
     "url":"yomichan-and-epwing-dictionaries.html#kanji",
@@ -9927,7 +10150,8 @@
     "tags":[
       "dictionaries",
       "rikaitan",
-      "epwing"
+      "epwing",
+      "guide"
     ],
     "body":"JMnedict. Japanese names.",
     "url":"yomichan-and-epwing-dictionaries.html#other",
