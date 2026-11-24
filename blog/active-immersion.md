@@ -2,7 +2,7 @@
 title: "Active immersion"
 date: 1679001190
 tags: ["guide"]
-updated: "03 November 2026"
+updated: "24 November 2026"
 ---
 
 Active immersion is a crucial part of language learning
@@ -104,6 +104,7 @@ you can watch **TV shows and movies**
 with <abbr title="subtitles in Japanese, if you are learning Japanese">subtitles in the target language</abbr>,
 although [not all the time](should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html),
 as developing your listening ability is also important.
+See [this article](is-it-harmful-to-always-have-tl-subtitles-on.html) for details.
 
 There are several reasons why TV and movies
 with <abbr title="target language">TL</abbr> subtitles are an excellent choice.
