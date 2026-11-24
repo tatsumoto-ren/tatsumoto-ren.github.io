@@ -9,37 +9,38 @@ updated: "24 November 2026"
 Immersion is immersion.
 Consuming any native content is almost always the best strategy
 (unlike [non-native content](what-do-you-think-about-graded-readers.html)).
-There are some pitfalls associated with reading manga,
-but they're not too significant.
-Still, I would rather immerse in anime as a beginner,
-with manga taking a secondary role.
+There are some drawbacks to reading manga,
+but they are not that significant.
+Still, as a beginner,
+I would rather immerse in anime, with manga playing a secondary role.
 
-Firstly,
-it's important to note that manga is not voiced, unlike anime.
-Consequently,
-often when reading you may get lost
-because you won't know how to say certain words correctly and with the right
-[pitch accent](japanese-pitch-accents.html).
-If you read something incorrectly, you may accidentally create a bad habit.
+First,
+manga is not voiced, unlike anime.
+Because of that,
+you can easily get stuck while reading if you do not know how to say certain words correctly,
+and with the right [pitch accent](japanese-pitch-accents.html).
+If you read something incorrectly,
+you might accidentally build a bad habit.
 
-Since reading manga is reading immersion,
-it is crucial to [balance reading with listening](introduction-to-learning-japanese.html#how-to-divide-your-study-time).
-Only through listening we can get exposure to native speech,
-get used to the sounds of the language
-and learn to understand speech without relying on textual cues.
+Since reading manga counts as reading immersion,
+it is important to
+[balance reading with listening](introduction-to-learning-japanese.html#how-to-divide-your-study-time).
+Only by listening can you get exposure to native speech,
+get used to the sounds of the language,
+and learn to understand speech without depending on textual hints.
 
-You may not have access to high resolution scans.
+You may not have access to high-resolution scans.
 Reading text on low-resolution images can be frustrating,
-particularly when dealing with small text and complex kanji containing many strokes.
+especially when the text is small or the kanji are complex and have many strokes.
 
 Lastly,
 setting up a [sentence mining workflow for manga](mining-from-manga.html)
 requires more steps compared to anime.
 You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
-and how to connect it with Japanese dictionaries and Anki,
-which may be tedious for some people.
+and how to connect it to Japanese dictionaries and Anki,
+which can be tedious for some people.
 OCR software often makes mistakes when recognizing text from images,
-and it can hinder your ability to quickly look up words.
-In contrast,
+and that can slow you down when looking up words.
+By contrast,
 when reading books or watching anime with TL subtitles
-you don't have to rely on OCR.
+you don't need OCR.
