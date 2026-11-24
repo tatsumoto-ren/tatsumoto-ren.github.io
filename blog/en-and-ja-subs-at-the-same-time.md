@@ -1,70 +1,77 @@
 ---
-title: I immerse with English and Japanese subs on at the same time. Is this a bad idea?
+title: "I immerse with English and Japanese subs on at the same time. Is this a bad idea?"
 date: 1682299686
-tags: ['faq', 'guide']
+tags: ["faq", "guide"]
 position: [0, 69]
-filename: en-and-ja-subs-at-the-same-time
+filename: "en-and-ja-subs-at-the-same-time"
+updated: "24 November 2026"
 ---
 
-If you watch with English and Japanese subtitles on the screen at the same time,
-consider having both subtitle tracks hidden most of the time.
-In `mpv` you can press <kbd>v</kbd> to toggle subtitle visibility.
+If you watch with both English and Japanese subtitle tracks on screen,
+it is better to keep them hidden most of the time.
+In `mpv`, you can press <kbd>v</kbd> to show or hide primary subtitles.
 When you feel like you didn't understand something,
-turn the subs on temporarily.
+you can turn them on temporarily and check what you heard.
 Mpvacious has [key bindings](https://github.com/Ajatt-Tools/mpvacious#secondary-subtitles)
-that let you toggle secondary subtitles as well,
-or you can have them appear on mouse hover.
+for toggling secondary subtitles.
+By default,
+you can also reveal the secondary subtitles by hovering over them with your mouse.
 
-You can approach this question at 2 levels.
+****
 
-1) **Training your listening ability.**
+How you use subtitles depends on what you're trying to improve.
 
-   Displaying both Japanese and English subtitles simultaneously
-   would occupy a significant portion of the screen,
-   making the subtitles difficult to ignore.
-   If you have them visible all the time,
-   it is likely that you will end up reading them.
-   It may happen unconsciously, automatically, accidentally.
-   Even if you catch an outline of a sentence in the corner of your eye,
-   it could give you a hint and disrupt your listening practice.
-   If you're genuinely committed to improving your listening skills,
-   consider **hiding all subtitles**.
-   This is the only way to ensure that you're not cheating.
-2) **Increasing your overall comprehension.**
-   To ensure effective learning,
-   it's crucial that you don't read English subtitles.
-   If you do,
-   and if you don't pay attention to the Japanese subtitles,
-   [your progress will be zero](should-i-watch-anime-with-english-subtitles.html).
-   Try to understand the Japanese subs first.
+## Training your listening ability
 
-   If you must use English subtitles,
-   try to make them less accessible,
-   such as requiring a button press or mouse movement to reveal them.
+Two sets of subtitles take up a lot of screen space and are hard to ignore.
+If you leave them on,
+you'll probably read them without even realizing it.
+It may happen unconsciously, automatically, accidentally.
+Even a few words caught out of the corner of your eye
+can give away what someone said and **disrupt your listening practice**.
+If you really want to improve your listening ability,
+you should **hide all subtitles**.
+That is the only way to make sure you are not cheating.
 
-   Then consider whether English subtitles can help you,
-   or if it is better to get rid of them completely.
-   Prioritize understanding the Japanese subtitles first,
-   and only opt for English subtitles if necessary.
-   As I previously discussed in
-   [Should I put English translations on Bilingual TSCs](should-i-put-english-translations-on-bilingual-tscs.html),
-   relying on translations doesn't help in language acquisition.
-   While they may help you understand a rough meaning of a sentence,
-   they don't aid in understanding how ideas are expressed in Japanese,
-   and how grammar works.
+## Improving your overall comprehension
 
-   The most harmful aspect of reading English subtitles is that
-   one may feel like they comprehend the original text when,
-   in reality,
-   they understand only the translated meaning.
-   Furthermore,
-   using English subtitles carries the risk of creating false associations
-   between English words and Japanese words with similar meanings.
-   This can lead to biases in your Japanese comprehension.
+To learn effectively,
+it is important not to read the English subtitles.
+If you do,
+and if you don't pay attention to the Japanese subtitles,
+[you will not make](should-i-watch-anime-with-english-subtitles.html) any progress.
+If you jump straight to English every time,
+you'll get more practice reading English
+than understanding Japanese.
+Try to understand the Japanese subtitles first.
 
-In conclusion,
-it is OK to keep Japanese subtitles visible,
-but English subtitles are better kept hidden.
-Hiding both English and Japanese subtitles is good for improving your listening abilities.
-And if you hate going forth between turning subs on and off,
-consider [watching some shows fully raw and other shows with Japanese subs always on](is-it-harmful-to-always-have-tl-subtitles-on.html).
+If you must use English subtitles,
+try to make them less accessible.
+Require a key press or a mouse movement to reveal them.
+That gives you a chance to try the Japanese first.
+
+Then let's think about whether English subtitles are actually helping,
+or whether it would be better to get rid of them completely.
+As I mentioned in
+[Should I put English translations on Bilingual TSCs](should-i-put-english-translations-on-bilingual-tscs.html),
+relying on translations does not help with language acquisition.
+They might give you a rough idea of what a sentence means,
+but they do not help you learn how ideas are expressed in Japanese or how the grammar works.
+Focus on understanding the Japanese subtitles first.
+Use English subtitles only if you are completely lost and don't understand the whole sentence.
+
+The worst part about reading English subtitles is that
+you can feel like you understand the original text
+when you really only understand the translation.
+On top of that,
+using English subtitles can create false associations
+between English words and Japanese words with similar meanings.
+That can bias your understanding of Japanese.
+
+## Conclusion
+
+It is OK to keep Japanese subtitles visible,
+but English subtitles are better left hidden.
+Hiding both English and Japanese subtitles is best if you want to improve your listening.
+And if you do not want to keep toggling subtitles on and off,
+consider [watching some shows completely raw and others with Japanese subs always on](is-it-harmful-to-always-have-tl-subtitles-on.html).
