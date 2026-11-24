@@ -1,7 +1,8 @@
 ---
-title: Should I watch with Japanese subtitles while going through the kanji phase?
+title: "Should I watch with Japanese subtitles while going through the kanji phase?"
 date: 1676545527
-tags: ['faq']
+tags: ["faq"]
+updated: "24 November 2026"
 ---
 
 It is not a bad idea to watch with Japanese subtitles
@@ -15,8 +16,10 @@ I think one [must be careful](is-it-harmful-to-always-have-tl-subtitles-on.html)
 when watching with Japanese subtitles as a beginner.
 It should not constitute the majority of your immersion,
 as the focus should be on building listening skills.
-Watching with subtitles is more akin to reading than listening,
-and premature reading negatively affects one's ability to perceive sounds and understand spoken language.
+Watching with subtitles
+[is more akin to reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html) than listening,
+and [premature reading negatively affects](why-does-premature-reading-cripple-phonetic-awareness.html)
+one's ability to perceive sounds and understand spoken language.
 So you have to be really moderate about it,
 maybe keep it to less than one third of all your active immersion.
 
@@ -24,3 +27,5 @@ Subtitles can be of help no matter what stage in the process of learning Japanes
 but it is also important to spend a lot of time without them.
 Watching with subtitles is acceptable
 as long as you regularly train your listening ability as well.
+
+See also: [Is it harmful to always have TL subtitles on?](is-it-harmful-to-always-have-tl-subtitles-on.html)
