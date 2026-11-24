@@ -1,7 +1,7 @@
 ---
 title: "Table of Contents"
 date: 1616375454
-updated: "05 July 2026"
+updated: "24 November 2026"
 ---
 
 * [Foreword](foreword.html)
@@ -64,6 +64,7 @@ updated: "05 July 2026"
   * [Condensing active immersion](condensing-active-immersion.html)
   * [Plumbing](plumbing-for-language-learners.html)
   * [Timeboxing](timeboxing.html)
+  * [Pitch artist user guide](pitch-artist-user-guide.html)
 * Subsequent topics
   * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
   * [Going monolingual](going-monolingual.html)
@@ -72,6 +73,17 @@ updated: "05 July 2026"
   * [Pitch accent perception training](pitch-accent-perception.html)
   * [Pitch accent cards](how-should-i-grade-cards-once-i-add-pitch-accent.html)
   * [Writing by hand](writing-japanese.html)
+* Reading VS Listening
+  * [Reading before listening](thoughts-on-reading-before-listening.html)
+  * [Japanese subtitles count as reading](is-watching-anime-with-jp-subtitles-considered-as-reading.html)
+  * [How early reading shapes sound perception](why-does-premature-reading-cripple-phonetic-awareness.html)
+  * [Watching anime with English subtitles](should-i-watch-anime-with-english-subtitles.html)
+  * [The downside of always using target-language subtitles](is-it-harmful-to-always-have-tl-subtitles-on.html)
+  * [Using Japanese subtitles while learning kanji](should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html)
+  * [Starting out with mostly manga](is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html)
+  * [Building listening skills before reading](how-much-listening-should-i-do-before-i-start-reading.html)
+  * [Using English and Japanese subtitles together](en-and-ja-subs-at-the-same-time.html)
+  * [When to start reading novels](ideal-time-to-become-an-avid-reader.html)
 * [FAQ](tag_faq.html)
 * Apocrypha
   * [List of resources](resources.html)
@@ -79,9 +91,7 @@ updated: "05 July 2026"
   * [Learning Kanji Radicals](learning-kanji-radicals.html)
   * [How to type something with Fcitx](how-to-type-x-with-fcitx.html)
   * [On motivation](im-not-motivated-and-dont-enjoy-learning-japanese.html)
-  * [Premature reading](why-does-premature-reading-cripple-phonetic-awareness.html)
   * [Mitigating the Impact of Early Output](mitigating-the-impact-of-early-output.html)
-  * [Pitch artist user guide](pitch-artist-user-guide.html)
 * Contact and Support
   * [Join our community](join-our-community.html)
   * [Support](donating-to-tatsumoto.html)
