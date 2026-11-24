@@ -1,6 +1,7 @@
 ---
-title: Join our community
+title: "Join our community"
 date: 1612779384
+updated: "24 November 2026"
 ---
 
 Daily Japanese Thread is a friendly place
@@ -102,9 +103,9 @@ because it is naturally more extensible and user-friendly.
 
 ## Questions
 
-If you have a question specifically for me,
-ping me in the chat by prepending your message with
-`@tatsumoto` on Telegram.
+If you have a question for me specifically, ping me in the chat.
+On Telegram, you can do that by starting your message with `@tatsumoto`.
+If the question is personal, send me a DM on Telegram or SimpleX Chat instead.
 
 ## Community stickers
 
