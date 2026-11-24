@@ -1,34 +1,40 @@
 ---
-title: Thoughts on reading before listening?
+title: "Thoughts on reading before listening?"
 date: 1666824716
-tags: ['faq', 'guide']
+tags: ["faq", "guide"]
 position: [-9947, 61]
+updated: "24 November 2026"
 ---
 
-Reading is very powerful, but it [harms you](early-output-or-reading-ahead-of-listening.html)
+Reading is very powerful, but it [hurts you](early-output-or-reading-ahead-of-listening.html)
 if you don't have enough phonetic awareness.
-If I were starting today, I would keep reading at a minimum for the first year.
+If I were starting today,
+I would keep reading to a minimum for the first year.
 
-In this guide we try to balance listening and reading
-to accelerate progress
-without sacrificing listening abilities too much.
+In this guide,
+we try to balance listening and reading
+so you can make faster progress without sacrificing listening skills.
 It is recommended to **avoid reading** for the first year
-in order to allow listening abilities to mature.
-Therefore, active immersion mainly consists of watching anime, dramas, movies, etc.
-Afterwards audio tracks are extracted from the video files
-and reused for [passive immersion](passive-listening.html).
+so your listening skills can mature.
+During that time,
+active immersion mainly consists of watching anime, dramas, movies, and so on.
+You can extract audio tracks from the video files you watch
+and reuse them for [passive immersion](passive-listening.html)
+to maximize listening time.
 
-A limited amount of reading is necessary to grow one's vocabulary.
-Target language subtitles are used to look up unknown words,
-but are best kept disabled, hidden for the most part of the playback.
-Text-based flashcards are used to aid in memorization
-since audio-based flashcards don't work very well.
-By listening to the language as much as possible, preferably **all the time**,
-the adverse effects of premature reading are minimized.
+A limited amount of reading is necessary to build vocabulary.
+We use target-language subtitles to look up unknown words,
+but they are best kept disabled or hidden for most of the playback.
+We also use text-based flashcards to memorize words,
+since audio-based flashcards
+[do not work very well](discussing-various-card-templates.html#audio-based-cards) for that purpose.
+By listening to the language as much as possible,
+ideally **all the time**,
+you can minimize the negative effects of premature reading.
 
 What's more,
-by reading subtitles and reviewing text-based flashcards in the SRS
-one can learn kanji
-and prime themselves for reading real texts later on.
-In Japanese literacy is impossible without knowing kanji,
+reading subtitles and reviewing text-based flashcards in the SRS
+helps you learn kanji and prepare to read real texts later on.
+In Japanese,
+literacy is impossible without knowing kanji,
 and we have to address that.
