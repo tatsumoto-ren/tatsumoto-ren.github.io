@@ -2,6 +2,7 @@
 title: "План изучения японского"
 date: 1615372628
 tags: ["guide"]
+position: [5]
 updated: "27 October 2026"
 ---
 

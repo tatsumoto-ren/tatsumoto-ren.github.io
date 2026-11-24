@@ -2,6 +2,7 @@
 title: One target sentences
 date: 1631221476
 tags: [guide]
+position: [38]
 ---
 
 <div class="translation-note">

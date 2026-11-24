@@ -2,6 +2,7 @@
 title: Mass immersion
 date: 1661977295
 tags: ['guide']
+position: [8]
 ---
 
 <div class="translation-note">

@@ -2,6 +2,7 @@
 title: Sentence mining
 date: 1638303348
 tags: [guide]
+position: [39]
 ---
 
 <div class="translation-note">

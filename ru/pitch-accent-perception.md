@@ -2,7 +2,8 @@
 title: Pitch accent perception
 date: 1613316799
 author: Bundou Makoto
-tags: ['pitch']
+tags: ['pitch', 'guide']
+position: [0, 57]
 ---
 
 <div class="translation-note">

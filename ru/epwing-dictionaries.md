@@ -1,7 +1,8 @@
 ---
 title: EPWING dictionaries
 date: 1607878153
-tags: ['dictionaries', 'epwing']
+tags: ['dictionaries', 'epwing', 'guide']
+position: [0, 0, 35]
 ---
 
 <div class="translation-note">

@@ -2,6 +2,8 @@
 title: "О сайте"
 date: 1761839619
 updated: "27 October 2026"
+tags: ['guide']
+position: [2]
 ---
 
 На этом сайте размещено руководство по изучению языков по методу [AJATT](whats-ajatt.html)

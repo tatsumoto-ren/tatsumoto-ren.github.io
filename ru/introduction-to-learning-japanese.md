@@ -2,6 +2,7 @@
 title: "Введение в изучение японского"
 date: 1615372627
 tags: ["guide"]
+position: [4]
 updated: "20 November 2026"
 ---
 

@@ -2,7 +2,7 @@
 title: "Ankidrone Essentials"
 date: 1723216111
 tags: ["decks", "vocab", "guide"]
-position: 3
+position: [3, 3, 29]
 updated: "26 October 2026"
 ---
 

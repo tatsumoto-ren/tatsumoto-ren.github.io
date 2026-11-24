@@ -2,6 +2,7 @@
 title: Discussing various card templates
 date: 1610646660
 tags: [guide, anki]
+position: [15, 0]
 ---
 
 <div class="translation-note">

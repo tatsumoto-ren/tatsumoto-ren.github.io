@@ -2,6 +2,7 @@
 title: Japanese Pitch Accent Primer
 date: 1626459250
 tags: ['guide', 'pitch']
+position: [56, 0]
 author: Bundou Makoto
 ---
 

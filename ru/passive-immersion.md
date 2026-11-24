@@ -2,6 +2,7 @@
 title: Passive immersion
 date: 1679003118
 tags: ['guide']
+position: [18]
 ---
 
 <div class="translation-note">

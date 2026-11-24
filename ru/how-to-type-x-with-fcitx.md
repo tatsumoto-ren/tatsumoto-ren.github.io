@@ -1,7 +1,8 @@
 ---
 title: How to type X with Fcitx?
 date: 1712616247
-tags: ['faq', 'ime']
+tags: ['faq', 'ime', 'guide']
+position: [0, 0, 63]
 filename: how-to-type-x-with-fcitx
 ---
 

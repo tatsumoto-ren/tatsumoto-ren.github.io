@@ -1,7 +1,8 @@
 ---
 title: Useful Anki add-ons for Japanese
 date: 1609282554
-tags: ['anki']
+tags: ['anki', 'guide']
+position: [0, 14]
 ---
 
 <div class="translation-note">

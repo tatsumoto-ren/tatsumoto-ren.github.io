@@ -2,6 +2,7 @@
 title: "Предисловие"
 date: 1619998706
 tags: ["guide"]
+position: [1]
 updated: "27 October 2026"
 ---
 

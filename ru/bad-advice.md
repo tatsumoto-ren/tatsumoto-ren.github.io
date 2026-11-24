@@ -2,6 +2,7 @@
 title: "Как избегать плохих советов"
 date: 1710982287
 tags: ["guide"]
+position: [6]
 filename: "bad-advice"
 updated: "27 October 2026"
 ---

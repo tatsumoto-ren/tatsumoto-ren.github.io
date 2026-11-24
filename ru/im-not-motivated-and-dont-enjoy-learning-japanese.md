@@ -2,7 +2,7 @@
 title: I'm not motivated and don't enjoy learning Japanese, is it still worth my time?
 date: 1675882202
 tags: ['faq', 'guide']
-position: -9928
+position: [-9928, 64]
 ---
 
 <div class="translation-note">

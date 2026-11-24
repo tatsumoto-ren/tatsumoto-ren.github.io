@@ -2,6 +2,7 @@
 title: Mining from manga
 date: 1617260890
 tags: [guide]
+position: [45]
 ---
 
 <div class="translation-note">

@@ -2,6 +2,8 @@
 title: "Пожертвовать Тацумото"
 date: 1619200733
 updated: "27 October 2026"
+tags: ['guide']
+position: [69]
 ---
 
 Спасибо за визит!

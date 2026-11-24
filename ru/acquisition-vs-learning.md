@@ -2,6 +2,7 @@
 title: "Усвоение и изучение"
 date: "08 June 2026"
 tags: ["guide"]
+position: [7]
 updated: "20 November 2026"
 ---
 

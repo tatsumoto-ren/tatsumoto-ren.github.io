@@ -2,7 +2,7 @@
 title: Learning Kanji
 date: 1621914831
 tags: ['kanji', 'guide']
-position: [-2, 0]
+position: [-2, 26]
 ---
 
 <div class="translation-note">

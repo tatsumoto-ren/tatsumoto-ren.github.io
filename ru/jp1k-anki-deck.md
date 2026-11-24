@@ -1,8 +1,8 @@
 ---
 title: Ankidrone Foundation
 date: 1723344192
-tags: ['decks', 'kanji', 'vocab']
-position: [2, -1]
+tags: ['decks', 'kanji', 'vocab', 'guide']
+position: [2, -1, 0, 27]
 ---
 
 <div class="translation-note">

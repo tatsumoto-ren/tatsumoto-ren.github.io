@@ -2,6 +2,7 @@
 title: How Anki works
 date: 1655135740
 tags: ['anki', 'guide']
+position: [0, 10]
 ---
 
 <div class="translation-note">

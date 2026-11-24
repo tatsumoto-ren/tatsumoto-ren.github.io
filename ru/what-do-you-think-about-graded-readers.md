@@ -1,8 +1,8 @@
 ---
 title: What do you think about graded readers?
 date: 1666824717
-tags: ['faq']
-position: -9871
+tags: ['faq', 'guide']
+position: [-9871, 22]
 ---
 
 <div class="translation-note">

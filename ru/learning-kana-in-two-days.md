@@ -2,6 +2,7 @@
 title: Learning Kana In Two Days
 date: 1607313668
 tags: [kana, guide]
+position: [0, 25]
 ---
 
 <div class="translation-note">

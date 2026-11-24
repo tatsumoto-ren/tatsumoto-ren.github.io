@@ -1,7 +1,8 @@
 ---
 title: Mitigating the Impact of Early Output
 date: 1717310097
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 66]
 ---
 
 <div class="translation-note">

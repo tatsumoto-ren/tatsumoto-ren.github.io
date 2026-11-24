@@ -2,6 +2,7 @@
 title: Retiming subtitles
 date: 1634149975
 tags: [guide, mpv]
+position: [48, 0]
 ---
 
 <div class="translation-note">

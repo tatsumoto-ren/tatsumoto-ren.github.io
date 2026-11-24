@@ -2,6 +2,7 @@
 title: "Setting up Rikaitan"
 date: 1619220247
 tags: ["guide", "dictionaries", "rikaitan"]
+position: [33, 0, 0]
 updated: "16 August 2026"
 ---
 

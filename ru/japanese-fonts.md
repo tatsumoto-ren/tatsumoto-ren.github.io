@@ -2,6 +2,7 @@
 title: Japanese fonts
 date: 1624216840
 tags: [guide]
+position: [16]
 ---
 
 <div class="translation-note">

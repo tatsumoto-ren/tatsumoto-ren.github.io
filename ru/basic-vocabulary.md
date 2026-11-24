@@ -2,6 +2,7 @@
 title: Basic Vocabulary
 date: 1612117335
 tags: [guide, vocab]
+position: [28, 0]
 ---
 
 <div class="translation-note">
