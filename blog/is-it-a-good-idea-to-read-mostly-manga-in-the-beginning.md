@@ -1,7 +1,8 @@
 ---
-title: Is it a good idea to read mostly manga in the beginning?
+title: "Is it a good idea to read mostly manga in the beginning?"
 date: 1691441806
-tags: ['faq']
+tags: ["faq"]
+updated: "24 November 2026"
 ---
 
 Immersion is immersion.
@@ -21,7 +22,7 @@ because you won't know how to say certain words correctly and with the right
 If you read something incorrectly, you may accidentally create a bad habit.
 
 Since reading manga is reading immersion,
-it is crucial to balance reading with listening.
+it is crucial to [balance reading with listening](introduction-to-learning-japanese.html#how-to-divide-your-study-time).
 Only through listening we can get exposure to native speech,
 get used to the sounds of the language
 and learn to understand speech without relying on textual cues.
@@ -31,7 +32,7 @@ Reading text on low-resolution images can be frustrating,
 particularly when dealing with small text and complex kanji containing many strokes.
 
 Lastly,
-setting up a sentence mining workflow for manga
+setting up a [sentence mining workflow for manga](mining-from-manga.html)
 requires more steps compared to anime.
 You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
 and how to connect it with Japanese dictionaries and Anki,
