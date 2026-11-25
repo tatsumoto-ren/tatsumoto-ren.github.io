@@ -3,7 +3,7 @@ title: "Resources"
 date: 1621275994
 tags: ["guide"]
 position: [71]
-updated: "26 October 2026"
+updated: "25 November 2026"
 ---
 
 This is the [AJATT](whats-ajatt.html) Resources List.
@@ -290,6 +290,9 @@ as desktop shortcuts.
   TV Asahi desktop shortcut.
 * [テレビ東京](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_tokyo.desktop).
   TV Tokyo desktop shortcut.
+* Dramasuki: dramas and movies in Japanese where you can watch online.
+  1) [Dramas](https://dramasuki.xyz/#DramaSuki/Japanese-Drama).
+  2) [Movies](https://dramasuki.xyz/#DramaSuki/Movies/Japanese).
 
 ### YouTube with subtitles
 
