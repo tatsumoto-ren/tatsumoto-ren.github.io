@@ -79,7 +79,7 @@ I recommend getting the following dictionaries.
   [Jisho.org](https://jisho.org/).
   JMdict doesn't have example sentences.
   If you need them, try the resources listed
-  [here](resources.html#examples-and-pronunciations).
+  [here](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia).
 * `新和英`.
   A dictionary made by Japanese people for Japanese people.
   You can use it in reverse to learn Japanese words.

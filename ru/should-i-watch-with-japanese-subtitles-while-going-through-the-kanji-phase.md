@@ -1,7 +1,8 @@
 ---
 title: Should I watch with Japanese subtitles while going through the kanji phase?
 date: 1676545527
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 66]
 ---
 
 <div class="translation-note">

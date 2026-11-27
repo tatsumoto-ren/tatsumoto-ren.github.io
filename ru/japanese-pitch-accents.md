@@ -2,7 +2,7 @@
 title: Japanese Pitch Accent Primer
 date: 1626459250
 tags: ['guide', 'pitch']
-position: [56, 0]
+position: [57, 0]
 author: Bundou Makoto
 ---
 
@@ -1376,7 +1376,7 @@ to identify where you need to improve.
 
 ## Resources
 
-In [Resources](resources.html#pronunciation-and-pitch-accent)
+In [Resources](resources.html#proiznoshenie-i-pitch-aktsent)
 you can find resources for studying pitch accents and Japanese pronunciation in depth.
 
 For a definitive written guide,
@@ -1385,6 +1385,6 @@ you can't do better than one or both of these books:
 * The NHK accent dictionary 「NHK日本語発音アクセント新辞典」.
 * The Shin Meikai accent dictionary 「新明解日本語アクセント辞典 第２版」.
 
-You can find both books in [Resources](resources.html#pronunciation-and-pitch-accent),
+You can find both books in [Resources](resources.html#proiznoshenie-i-pitch-aktsent),
 on Torrents,
 or in Zlibrary.

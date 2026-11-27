@@ -2,7 +2,7 @@
 title: Going monolingual
 date: 1711613285
 tags: ['guide']
-position: [54]
+position: [55]
 ---
 
 <div class="translation-note">
@@ -108,11 +108,11 @@ fostering a more authentic understanding and use of the language.
 
 You don't need much &mdash; just the desire to build a new habit
 and access to quality monolingual dictionaries.
-Use [apps](resources.html#offline-dictionaries) like
+Use [apps](resources.html#oflain-slovari) like
 [GoldenDict](setting-up-goldendict.html),
 [Qolibri](setting-up-qolibri.html),
 [Rikaitan](setting-up-yomichan.html), etc.,
-or [online dictionaries](resources.html#online-dictionaries)
+or [online dictionaries](resources.html#onlain-slovari)
 like [Weblio](https://www.weblio.jp/).
 
 The prerequisites are that you're already doing [AJATT](whats-ajatt.html),
@@ -151,7 +151,7 @@ Some options that have been covered on this site are listed below.
 * [Rikaitan](setting-up-yomichan.html).
   Download monolingual dictionary files.
   Go to "Settings" > "Dictionaries" and import them.
-* [Online dictionaries](resources.html#online-dictionaries).
+* [Online dictionaries](resources.html#onlain-slovari).
   Use a [plumber](plumbing-for-language-learners.html) for quick access.
 * In [LibreWolf](https://librewolf.net/)
   add [search shortcuts](https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines)
@@ -327,7 +327,7 @@ Come back and learn the words after you make your regular cards.
 You may need to find example sentences for these words.
 Monolingual dictionaries typically provide examples for the words they define.
 Alternatively,
-you can utilize various [sentence banks](resources.html#sentence-banks).
+you can utilize various [sentence banks](resources.html#banki-predlozhenii).
 During this phase,
 you can use **bilingual** definitions to learn unknown words in monolingual definitions.
 

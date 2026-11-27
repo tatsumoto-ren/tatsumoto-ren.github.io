@@ -13,7 +13,7 @@ position: -9974
 
 </div>
 
-See [popup dictionaries](resources.html#popup-dictionaries).
+See [popup dictionaries](resources.html#vsplyvaiushchie-slovari).
 
 I have a guide on how to set up Rikaitan [here](setting-up-yomichan.html).
 Don't forget to install [AnkiConnect](https://ankiweb.net/shared/info/2055492159)

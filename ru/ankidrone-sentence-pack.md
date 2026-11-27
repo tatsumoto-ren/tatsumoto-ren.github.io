@@ -2,7 +2,7 @@
 title: Ankidrone Sentence Pack
 date: 1630978085
 tags: ['vocab', 'decks', 'guide']
-position: [99, 99, 53]
+position: [99, 99, 54]
 ---
 
 <div class="translation-note">

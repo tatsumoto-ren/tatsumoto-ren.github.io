@@ -94,5 +94,5 @@ for example with tools like [Rikai-tan](setting-up-yomichan.html).
 
 Later,
 when you become fluent,
-consider learning Japanese [grammar in Japanese](resources.html#grammar-in-japanese),
+consider learning Japanese [grammar in Japanese](resources.html#grammatika-na-iaponskom),
 using resources designed for native speakers.

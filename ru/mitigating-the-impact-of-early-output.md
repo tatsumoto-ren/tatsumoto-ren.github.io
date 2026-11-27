@@ -2,7 +2,7 @@
 title: Mitigating the Impact of Early Output
 date: 1717310097
 tags: ['faq', 'guide']
-position: [0, 66]
+position: [0, 76]
 ---
 
 <div class="translation-note">
@@ -75,7 +75,7 @@ If you keep a mental note that what you've just said is probably incorrect,
 it could help prevent saying it again and creating a habit.
 To check the correctness of a sentence,
 you can try searching
-in your [sentence bank](resources.html#sentence-banks) or [online](resources.html#examples-and-pronunciations).
+in your [sentence bank](resources.html#banki-predlozhenii) or [online](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia).
 
 ## Get input
 

@@ -71,7 +71,7 @@ substitute it with a different sentence from your [sentence bank](cross-profile-
 or from an online sentence bank.
 You can generate a large sentence bank by processing several TV shows
 with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
-See [Examples and pronunciations](resources.html#examples-and-pronunciations)
+See [Examples and pronunciations](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia)
 for available sources of sentences.
 
 When you notice an unknown word,
@@ -254,7 +254,7 @@ a picture can be even more helpful than a definition.
 
 Try to make more high quality cards instead of cards that contain only text.
 There are many tools available to streamline adding audio and images to your cards.
-They are linked on the [Resources](resources.html#software) page.
+They are linked on the [Resources](resources.html#programmy) page.
 
 <p align="center"><img src="../blog/img/example-tsc.webp"></p>
 <p align="center"><i><a target="_blank" href="setting-up-anki.html#import-an-example-mining-deck">Recommended card format</a>.</i></p>

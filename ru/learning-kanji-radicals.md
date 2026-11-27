@@ -2,7 +2,7 @@
 title: Learning Kanji Radicals
 date: 1714604055
 tags: ['kanji', 'guide']
-position: [0, 62]
+position: [0, 73]
 ---
 
 <div class="translation-note">

@@ -71,7 +71,7 @@ On Arch-based distros you can do everything with this command:
 $ sudo pacman -S --needed ipa-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
 
-In [Resources](resources.html#fonts) you will find other fonts I recommend.
+In [Resources](resources.html#shrifty) you will find other fonts I recommend.
 For example, `花園明朝` is a good fallback font.
 It supports over 100,000 characters.
 

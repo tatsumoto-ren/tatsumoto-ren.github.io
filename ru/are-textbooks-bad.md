@@ -100,7 +100,7 @@ such as slice of life anime.
 This way,
 you can learn in the most natural manner.
 And when you don't understand something,
-[TL subtitles](resources.html#japanese-subtitles)
+[TL subtitles](resources.html#iaponskie-subtitry)
 and [dictionaries](tag_dictionaries.html) help you figure it out.
 
 ## Are textbooks inherently bad?
@@ -180,7 +180,7 @@ Skip everything except the example sentences.
 Try to understand the examples.
 Optionally, [mine](sentence-mining.html) the example sentences by adding them to your SRS.
 If you notice words where kanji are replaced with kana (e.g. `ねん` is written instead of `年`),
-fix the words by looking up the proper spellings in a [dictionary](resources.html#dictionaries)
+fix the words by looking up the proper spellings in a [dictionary](resources.html#slovari)
 ([GoldenDict](setting-up-goldendict.html), [Jisho.org](https://jisho.org/), etc.).
 
 This is what we did with the Tango textbooks when we created

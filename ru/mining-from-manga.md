@@ -67,7 +67,7 @@ Either way, it's easy to find a great selection of manga to read.
 ## Image viewer
 
 To read manga,
-it's helpful to have an [image viewer](resources.html#image-viewers).
+it's helpful to have an [image viewer](resources.html#prosmotr-izobrazhenii).
 I use `nsxiv`,
 but any image viewer will work for this setup.
 Many manga sites also let you read in a web browser.
@@ -318,4 +318,4 @@ is another program that can add screenshots to Anki.
 
 ## Other software
 
-See [Resources](resources.html#ocr-for-manga).
+See [Resources](resources.html#raspoznavanie-teksta-v-mange).

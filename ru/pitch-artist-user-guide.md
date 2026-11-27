@@ -2,7 +2,7 @@
 title: "Pitch Artist user guide"
 date: "05 July 2026"
 tags: ["guide"]
-position: [67]
+position: [53]
 updated: "03 August 2026"
 ---
 

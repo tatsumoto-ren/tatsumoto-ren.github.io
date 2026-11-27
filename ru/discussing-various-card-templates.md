@@ -75,7 +75,7 @@ Learners utilize
 [Qolibri](setting-up-qolibri.html),
 [mpv scripts](mining-from-movies-and-tv-shows.html#user-scripts-for-mpv),
 [Rikaitan](setting-up-yomichan.html),
-and [other software](resources.html#dictionaries)
+and [other software](resources.html#slovari)
 to make card creation faster and easier.
 
 ## Simple word cards

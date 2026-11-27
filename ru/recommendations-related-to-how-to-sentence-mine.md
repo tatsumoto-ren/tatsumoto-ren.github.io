@@ -19,7 +19,7 @@ There are also tools that help create cards depending on the type of media.
 For movies and TV shows, I recommend [mpv scripts](mining-from-movies-and-tv-shows.html).
 For manga, refer to my [Mining from manga](mining-from-manga.html) article to set up OCR.
 When you can't use the sentence you've encountered the word in,
-try to find [example sentences online](resources.html#examples-and-pronunciations).
+try to find [example sentences online](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia).
 
 When it comes to what card templates to use,
 before 2020 I used to recommend sentence cards.

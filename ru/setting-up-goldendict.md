@@ -236,7 +236,7 @@ To enable this, set "Copy to" to "goldendict" in Lancet's preferences.
 
 ### Enable clipboard scanning
 
-Many third-party programs, such as [crqt-ng](resources.html#reading-ebooks)
+Many third-party programs, such as [crqt-ng](resources.html#chtenie-elektronnykh-knig)
 can copy text to the system clipboard when it is selected.
 GoldenDict-NG can watch the clipboard
 and automatically perform lookups when new text is copied.

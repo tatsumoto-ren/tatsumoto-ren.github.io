@@ -13,4 +13,4 @@ position: -9872
 
 </div>
 
-See [Documentaries](resources.html#documentaries).
+See [Documentaries](resources.html#dokumentalnye-filmy).

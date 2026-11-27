@@ -371,7 +371,7 @@ You may refer to them to look up individual grammar points on a case-by-case bas
 
 * [Itazuraneko Master Reference](https://djtguide.github.io/grammar/masterreference.html)
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ)
-* [Other grammar resources](resources.html#grammar)
+* [Other grammar resources](resources.html#grammatika)
 
 Don't learn cards from the DoJG deck in order,
 rather keep it as a reference and as a source of example sentences.
@@ -389,7 +389,7 @@ Take a look at the following checklist
 to see some points we recommend you take
 when you notice an unknown grammar pattern.
 
-* Look it up in a [regular dictionary](resources.html#dictionaries).
+* Look it up in a [regular dictionary](resources.html#slovari).
 Most things should be defined there.
 Rikaitan and Qolibri are covered later in this guide.
 * Consult a grammar guide or a grammar dictionary.
@@ -414,4 +414,4 @@ To do that, use resources for native speakers.
 Studying <abbr title="敬語, honorific speech in Japanese">keigo</abbr>
 in Japanese can also be seen as a part of this process.
 
-See [Resources](resources.html#grammar-in-japanese) for grammar resources in Japanese.
+See [Resources](resources.html#grammatika-na-iaponskom) for grammar resources in Japanese.

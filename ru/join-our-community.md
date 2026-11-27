@@ -3,7 +3,7 @@ title: "\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0442
 date: 1612779384
 updated: "30 August 2026"
 tags: ['guide']
-position: [68]
+position: [77]
 ---
 
 Daily Japanese Thread это дружелюбное сообщество

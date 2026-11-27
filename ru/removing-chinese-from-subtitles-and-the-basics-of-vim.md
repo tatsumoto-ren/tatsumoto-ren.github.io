@@ -11,7 +11,7 @@ date: 1606984029
 
 </div>
 
-Let's talk about Japanese subtitles. Many of us have used [Kitsunekko](resources.html#japanese-subtitles)
+Let's talk about Japanese subtitles. Many of us have used [Kitsunekko](resources.html#iaponskie-subtitry)
 and have seen those strange subtitles with Chinese translation on the first line and then below it
 the actual Japanese on the second line. When you use [mpv](https://mpv.io/) to
 [mine sentences](https://github.com/Ajatt-Tools/mpvacious) from these subtitles

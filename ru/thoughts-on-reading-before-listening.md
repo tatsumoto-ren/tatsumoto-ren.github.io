@@ -1,8 +1,8 @@
 ---
 title: Thoughts on reading before listening?
 date: 1666824716
-tags: ['faq']
-position: -9947
+tags: ['faq', 'guide']
+position: [-9947, 61]
 ---
 
 <div class="translation-note">

@@ -26,7 +26,7 @@ In this article let's discuss what you can do to sync them.
 ## Obtaining subtitles
 
 Japanese subtitles can be found in
-[Resources](resources.html#japanese-subtitles).
+[Resources](resources.html#iaponskie-subtitry).
 
 ## Loading subtitles
 
@@ -107,7 +107,7 @@ For this example I took
 for
 [Steins;Gate](https://myanimelist.net/anime/9253/)
 from
-[Kitsunekko.net](resources.html#japanese-subtitles).
+[Kitsunekko.net](resources.html#iaponskie-subtitry).
 Watch
 [this video on ![YouTube](../blog/img/youtube_logo.webp)](https://redirect.invidious.io/watch?v=qasLFv8Rv7o)
 to get a gist of how it's done.

@@ -71,8 +71,8 @@ To expand your sentence bank further, download decks from the Internet.
 There are many shared folders where people upload their sentence banks.
 You can find some of them in Resources below.
 
-* [Anki decks](resources.html#anki-decks)
-* [Sentence banks](resources.html#sentence-banks)
+* [Anki decks](resources.html#kolody-anki)
+* [Sentence banks](resources.html#banki-predlozhenii)
 
 Decks from different people will inevitably have different formatting.
 Convert all of them [to one note type](how-to-change-note-types.html)

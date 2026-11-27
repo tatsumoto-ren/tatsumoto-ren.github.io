@@ -187,14 +187,14 @@ As a workaround,
 the user can record audio and take a screenshot manually,
 but it is not convenient at all.
 
-Explore [Immersion material](resources.html#immersion-material) to find Japanese content
-and [Download tools](resources.html#downloading) for a ways to download it.
+Explore [Immersion material](resources.html#materialy-dlia-immersii) to find Japanese content
+and [Download tools](resources.html#programmy-dlia-skachivaniia) for a ways to download it.
 
 ## Obtain subtitles
 
 To learn Japanese from visual content such as anime or jdramas,
 you need Japanese subtitles.
-Subtitles can be found on the [Resources page](resources.html#japanese-subtitles).
+Subtitles can be found on the [Resources page](resources.html#iaponskie-subtitry).
 Don't forget that if you have English subtitles enabled,
 at best you're going to improve your English,
 but your Japanese is not going to get any better.

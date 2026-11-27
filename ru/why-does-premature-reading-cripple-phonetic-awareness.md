@@ -2,7 +2,7 @@
 title: Why does premature reading cripple phonetic awareness?
 date: 1666824719
 tags: ['guide', 'faq']
-position: [65, -9946]
+position: [63, -9946]
 ---
 
 <div class="translation-note">

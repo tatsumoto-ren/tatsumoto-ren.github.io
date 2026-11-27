@@ -16,6 +16,6 @@ position: -9949
 Please read this excellent article by Richard Stallman:
 [Reasons not to use Netflix](https://stallman.org/netflix.html).
 There are plenty of ways to
-[obtain](resources.html#immersion-material)
+[obtain](resources.html#materialy-dlia-immersii)
 immersion material
 and keep your freedom.

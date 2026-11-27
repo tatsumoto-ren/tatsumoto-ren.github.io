@@ -1,7 +1,8 @@
 ---
 title: Is watching anime with JP subtitles considered as reading?
 date: 1730520137
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 62]
 ---
 
 <div class="translation-note">

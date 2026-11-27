@@ -41,7 +41,7 @@ I wouldn't trust AI for grammar explanations.
 Instead, try to understand sentences intuitively and use the provided translations.
 If you truly need a grammar explanation,
 consult a verified source first.
-See [grammar resources](resources.html#grammar) for recommended grammar guides.
+See [grammar resources](resources.html#grammatika) for recommended grammar guides.
 One such resource is the
 [DJT guide grammar master reference](https://djtguide.github.io/grammar/masterreference).
 

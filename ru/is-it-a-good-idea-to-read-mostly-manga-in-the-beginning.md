@@ -1,7 +1,8 @@
 ---
 title: Is it a good idea to read mostly manga in the beginning?
 date: 1691441806
-tags: ['faq']
+tags: ['faq', 'guide']
+position: [0, 67]
 ---
 
 <div class="translation-note">

@@ -300,7 +300,7 @@ the good news is that making your own JP1K-style deck is very easy.
 All you need to do is take any premade deck
 and change the card template a bit.
 Explore our
-[resources section](resources.html#anki-decks)
+[resources section](resources.html#kolody-anki)
 or
 [AnkiWeb](https://ankiweb.net/shared/decks/japanese)
 for premade Anki decks.

@@ -2,7 +2,7 @@
 title: Understanding monolingual definitions
 date: 1641419148
 tags: ['dictionaries', 'epwing', 'pitch', 'guide']
-position: [9999, 9999, 9999, 55]
+position: [9999, 9999, 9999, 56]
 ---
 
 <div class="translation-note">
@@ -24,7 +24,7 @@ A typical entry in a monolingual dictionary looks similar to this:
 Every dictionary usually has its own, unique system of notation.
 On this page I primarily use `大辞泉` as an example.
 If you need help finding monolingual dictionaries, see the
-[Dictionaries](resources.html#dictionaries) resources section.
+[Dictionaries](resources.html#slovari) resources section.
 
 ***
 

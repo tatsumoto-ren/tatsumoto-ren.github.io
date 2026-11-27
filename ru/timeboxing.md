@@ -106,7 +106,7 @@ The program is very simple,
 but if you don't understand something,
 you can always read the help page by executing `tatsumato -h`.
 
-Other popular Pomodoro programs are [linked in Resources](resources.html#productivity).
+Other popular Pomodoro programs are [linked in Resources](resources.html#organizatsiia-vremeni).
 
 ## Conclusion
 

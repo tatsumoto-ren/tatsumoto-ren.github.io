@@ -396,7 +396,7 @@ There are several effective strategies for dealing with leeches:
   [different representation](https://web.archive.org/web/20180303225205if_/http://super-memory.com/articles/20rules.htm#Redundancy)
   of it.
   Find a **different example sentence** in your [Sentence Bank](cross-profile-search-and-import.html)
-  or [online](resources.html#examples-and-pronunciations).
+  or [online](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia).
   For example, on [Weblio](https://ejje.weblio.jp/sentence/).
   Reset the card and edit it,
   or make a new

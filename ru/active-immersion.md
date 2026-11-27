@@ -81,7 +81,7 @@ keep engaging with interesting content.
 
 We have compiled a list of places where one can find immersion content
 to make it easy for beginners to get started.
-[Click here](resources.html#immersion-material) to explore it.
+[Click here](resources.html#materialy-dlia-immersii) to explore it.
 
 ## Dealing with ambiguity
 

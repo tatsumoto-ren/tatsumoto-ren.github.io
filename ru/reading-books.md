@@ -37,7 +37,7 @@ reading books in Japanese easier and more enjoyable.
 
 There are many ways to obtain books.
 For your convenience
-I have compiled a list of various places [in Resources](resources.html#books).
+I have compiled a list of various places [in Resources](resources.html#knigi).
 In my experience `Zlibrary` together with torrent sites are able to satisfy most needs.
 
 Things to avoid are [Amazon](https://stallman.org/amazon.html),
@@ -50,7 +50,7 @@ Most book readers
 suck ass.
 But some are okay.
 I have tried a lot,
-and for the most decent ones I have written short [reviews](resources.html#reading-ebooks).
+and for the most decent ones I have written short [reviews](resources.html#chtenie-elektronnykh-knig).
 `crqt-ng` is what I use these days.
 It does a lot of things right.
 
@@ -148,7 +148,7 @@ The main advantage is apparently that your eyes don't get tired as much
 compared to reading on a computer screen.
 One example of such a device is [PineNote](https://wiki.pine64.org/wiki/PineNote).
 
-[KOreader](resources.html#reading-ebooks)
+[KOreader](resources.html#chtenie-elektronnykh-knig)
 is a book reader application designed for e-ink devices,
 and it supports installing dictionaries,
 which is great for language learners.

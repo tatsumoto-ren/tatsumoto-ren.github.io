@@ -300,7 +300,7 @@ Some people would like to completely reject mobile phones because they are surve
 * [Android and Users' Freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html)
 * [Recommended Apps from F-Droid - DivestOS](https://divestos.org/index.php?page=recommended_apps)
 * [Neo Store](https://f-droid.org/packages/com.machiav3lli.fdroid/) is a more modern F-Droid client.
-* **[Android software for learning Japanese](resources.html#android-software)**
+* **[Android software for learning Japanese](resources.html#programmy-dlia-android)**
 
 **ROM suggestions**:
 

@@ -59,7 +59,7 @@ Key points to take away:
 
 Passive immersion is largely about repetition.
 So for passive immersion
-you are going to use the content you have previously [downloaded](resources.html#immersion-material)
+you are going to use the content you have previously [downloaded](resources.html#materialy-dlia-immersii)
 and have already actively immersed in.
 For instance, if you watched an episode of a TV show today,
 that episode is going to become your passive immersion content.
@@ -208,7 +208,7 @@ There are many programs for file synchronization.
 * [Rsync](https://wiki.archlinux.org/title/Rsync)
 
 When you're out, use
-[a compatible music player](resources.html#audio-players) of your choice to continue immersing.
+[a compatible music player](resources.html#audiopleery) of your choice to continue immersing.
 
 [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/),
 a podcast player,

@@ -85,4 +85,4 @@ consider also watching something with male characters, like Hokuto no Ken.
 The language in that anime is still quite easy.
 There are almost no cute girls to teach you the wrong speaking habits.
 Even better is something that features real people,
-such as YouTube, [documentaries](resources.html#documentaries).
+such as YouTube, [documentaries](resources.html#dokumentalnye-filmy).

@@ -27,7 +27,7 @@ This includes:
 * Sentences you construct using memorized words and grammar rules.
 
 Try searching examples online.
-There are [many websites that can help](resources.html#examples-and-pronunciations).
+There are [many websites that can help](resources.html#primery-predlozhenii-i-zapisi-proiznosheniia).
 By typing in the words you want to say,
 you can find similar sentences in your target language.
 You can also search in your Anki collection.

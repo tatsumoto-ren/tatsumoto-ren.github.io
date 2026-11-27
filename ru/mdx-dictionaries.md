@@ -50,7 +50,7 @@ To reduce the size, you can exclude optional directories, such as:
 
 </details>
 
-**Note:** you need a [torrent client](resources.html#torrent-clients) to download Torrent files.
+**Note:** you need a [torrent client](resources.html#torrent-klienty) to download Torrent files.
 
 <details>
 <summary>Other sources</summary>

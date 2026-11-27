@@ -2,7 +2,7 @@
 title: "Kanji composition in relation to reading Japanese"
 date: 1614080369
 tags: ["kanji", "guide"]
-position: [0, 61]
+position: [0, 72]
 updated: "20 September 2026"
 ---
 

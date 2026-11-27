@@ -83,7 +83,7 @@ most Qolibri dictionaries are old, they date back to the 1990s.
 But don't worry about it,
 in rare occasions when you can't find a definition for a new word or slang,
 you can use the web search or consult
-[online dictionaries](resources.html#online-dictionaries).
+[online dictionaries](resources.html#onlain-slovari).
 
 ## Recommended dictionaries
 
@@ -198,7 +198,7 @@ You are able to play an audio and paste it in an Anki note as an `ogg/opus` file
 
 To change the font used in the browser,
 go to "Settings" > "Set browser font...".
-Recommended fonts can be found [here](resources.html#fonts).
+Recommended fonts can be found [here](resources.html#shrifty).
 
 ## Custom CSS
 

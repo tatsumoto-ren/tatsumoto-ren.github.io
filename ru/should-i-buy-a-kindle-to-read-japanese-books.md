@@ -24,7 +24,7 @@ Read the following:
 * https://www.gnu.org/philosophy/why-call-it-the-swindle.html
 * https://www.defectivebydesign.org/amazon-kindle-swindle
 
-There are good software alternatives for reading books [listed here](resources.html#reading-ebooks).
+There are good software alternatives for reading books [listed here](resources.html#chtenie-elektronnykh-knig).
 If you need a physical device,
 obtain one running [GNU/Linux](our-immersion-learning-toolset.html#gnu-linux)
 or [Android](our-immersion-learning-toolset.html#android).

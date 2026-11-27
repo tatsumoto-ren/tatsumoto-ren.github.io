@@ -1,8 +1,8 @@
 ---
 title: Should I watch anime with English subtitles?
 date: 1669232168
-tags: ['faq']
-position: -9990
+tags: ['faq', 'guide']
+position: [-9990, 64]
 ---
 
 <div class="translation-note">
