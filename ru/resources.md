@@ -1,511 +1,463 @@
 ---
-title: "Resources"
+title: "Список ресурсов"
 date: 1621275994
 tags: ["guide"]
-position: [60]
-updated: "26 October 2026"
+position: [71]
+updated: "25 November 2026"
 ---
 
-<div class="translation-note">
-
-**Примечание:** Обратите внимание, что эта статья ещё не переведена полностью.
-Если вы хотите помочь, [присоединяйтесь к нашему сообществу](join-our-community.html)
-и [создайте pull request на GitHub](https://github.com/tatsumoto-ren/tatsumoto-ren.github.io).
-
-</div>
-
-This is the [AJATT](whats-ajatt.html) Resources List.
-With the help of [our community](join-our-community.html)
-we've gathered the links to help you in your Japanese studies.
-We prioritize libre software and content that you can download for free.
-Everyone is welcome to suggest more resources in our chat.
+Здесь собраны ресурсы для изучения японского по методу [AJATT](whats-ajatt.html)
+(All Japanese All The Time, «всё время на японском»).
+Мы составили этот список вместе с [нашим сообществом](join-our-community.html).
+Предпочтение отдаём свободным программам и материалам, которые можно скачать бесплатно.
+Если хотите что-нибудь добавить, предложите ссылку в нашем чате.
 
 ****
 
-## Typical problems with third-party websites
+## Что стоит знать о сторонних сайтах
 
-We can't guarantee any quality for third-party websites.
+Мы не можем поручиться за качество сторонних сайтов.
 
-The third party resources below
-may contain what AJATT considers to be ineffective language learning advice.
-If you find something that contradicts this guide,
-assume it's wrong or verify by asking people in our chat.
+На некоторых из них встречаются советы по изучению языков, которые мы в AJATT считаем неэффективными.
+Если рекомендация противоречит этому руководству, не принимайте её на веру.
+Если сомневаетесь, спросите в нашем чате.
 
-Many sites also include non-free JavaScript
-or links to spyware and malware.
-Proceed with caution.
-If you use [uBlock](https://github.com/gorhill/uBlock),
-disable JavaScript by default
-to protect your security and privacy (Settings > Disable JavaScript).
-Also,
-see [No scripting](https://github.com/gorhill/ublock/wiki/Per-site-switches#no-scripting)
-and [Blocking mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
+На многих сайтах встречаются несвободные скрипты JavaScript и ссылки на шпионские или вредоносные программы.
+Будьте осторожны.
+Если пользуетесь [uBlock](https://github.com/gorhill/uBlock), отключите JavaScript по умолчанию (Settings > Disable JavaScript),
+чтобы защитить свои данные и сохранить конфиденциальность.
+См. также: [отключение скриптов](https://github.com/gorhill/ublock/wiki/Per-site-switches#no-scripting) и [режимы блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 
-## Basics
+## Основы
 
-### Kana
+### Кана
 
-> Main article: [Learning kana in two days](learning-kana-in-two-days.html)
+> Основная статья: [Как выучить кану за два дня](learning-kana-in-two-days.html)
 
 * [Kakugo](https://www.f-droid.org/en/packages/org.kaqui/).
-  A kana training app.
-* [Kana recognition Anki deck](https://ankiweb.net/shared/info/839782116).
-* [Kana production Anki Deck](https://ankiweb.net/shared/info/1312311543).
+  Приложение для изучения каны.
+* [Колода Anki на узнавание каны](https://ankiweb.net/shared/info/839782116).
+* [Колода Anki на воспроизведение каны по памяти](https://ankiweb.net/shared/info/1312311543).
 * [Real kana](https://realkana.com/).
-  Train kana recognition online.
+  Онлайн-тренажёр для распознавания знаков каны.
 
-### Kanji
+### Кандзи
 
-> Main article: [Learning Kanji](learning-kanji.html)
+> Основная статья: [Изучение кандзи](learning-kanji.html)
 
 * [Ankidrone Foundation](jp1k-anki-deck.html).
-  Learn words with the kanji used to write them.
+  Учите слова вместе с кандзи, которыми они записываются.
 * [Kanjidamage](http://www.kanjidamage.com/).
-  The best mnemonic-based method of learning kanji in isolation.
-* [Kanjidamage+ reference](https://kanjidamageplus.neocities.org/).
-  KanjiDamage+ kanji list on a single web page.
-* [RTK search](https://hochanh.github.io/rtk/).
-  Kanji characters with Koohii stories.
+  На мой взгляд, лучший способ учить отдельные кандзи с помощью мнемоники.
+* [Справочник KanjiDamage+](https://kanjidamageplus.neocities.org/).
+  Все кандзи из KanjiDamage+ на одной странице.
+* [Поиск по RTK](https://hochanh.github.io/rtk/).
+  Кандзи с мнемоническими историями с сайта Koohii.
 
-### Anki decks
+### Колоды Anki
 
-> Main article: [Basic vocabulary](basic-vocabulary.html)
+> Основная статья: [Базовая лексика](basic-vocabulary.html)
 
-You typically only need one deck to teach you basic vocabulary.
-All other decks that you download should go in
-your [sentence bank](cross-profile-search-and-import.html) profile.
+Для освоения базовой лексики обычно достаточно одной колоды.
+Все остальные скачанные колоды добавляйте в отдельный профиль для [банка предложений](cross-profile-search-and-import.html) (sentence bank).
 
 * [Ankidrone Essentials](ankidrone-essentials.html).
-  This is our main deck.
-  Other decks are third-party.
-* [Core 10k Anki deck](https://disk.yandex.com/d/adEb8n9uhOacHw/Extra).
+  Это наша основная колода.
+  Остальные составлены другими авторами.
+* [Колода Core 10k для Anki](https://disk.yandex.com/d/adEb8n9uhOacHw/Extra).
 * [Core 2.3k](https://mega.nz/file/nkczVADA#pAl0Rx9-07-En60hF5XChEqYYt8eW7nO7T_PJQP7lyU).
-  You have to change the card template from Word Cards to Targeted Sentence Cards yourself.
-* Other [sentence banks](#sentence-banks).
+  Вместо карточек со словами нужно самостоятельно настроить карточки с таргет-словом в предложении
+  (targeted sentence cards, TSC).
+* Другие [банки предложений](#banki-predlozhenii).
 
-### Grammar
+### Грамматика
 
-> Main article: [Learning grammar](learning-grammar.html)
+> Основная статья: [Изучение грамматики](learning-grammar.html)
 
 * [All About Particles](all-about-particles.html).
-  A nicely organized book simply described by many as "godsend".
-  Khatz used this book a long time ago when he learned Japanese.
+  Материал хорошо организован, и многие называют эту книгу настоящей находкой.
+  Когда Хатц учил японский, он пользовался именно ей.
 * [Understanding Basic Japanese Grammar](understanding-basic-japanese-grammar.html).
-  A compact grammar book with short explanations and many example sentences.
-* [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
-  A guide to Japanese grammar.
-  It breaks down Japanese in a logical and straightforward way
-  and covers all the basics without going into too much detail.
-* [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
-  An Anki deck that contains example sentences from DoJG.
-* [AJATT grammar guide](https://grammar.ajatt.top/).
-  A rather short guide written for immersion learners.
-* [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
-  * [On Djtguide](https://djtguide.github.io/learn/anon/ixrec.html). With better formatting.
+  Компактный справочник с короткими объяснениями и множеством примеров.
+* [Грамматика Тэ Кима](http://www.guidetojapanese.org/learn/grammar).
+  Понятное и последовательно выстроенное руководство по японской грамматике.
+  Охватывает все основы, не перегружая читателя подробностями.
+* [Колода DoJG для Anki](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
+  Карточки с примерами предложений из словарей DoJG.
+* [Грамматика AJATT](https://grammar.ajatt.top/).
+  Краткое руководство для тех, кто учит язык через иммерсию (immersion).
+* [Руководство Ixrec по японскому языку](https://ixrec.neocities.org/)
+  * [Версия на DJT Guide](https://djtguide.github.io/learn/anon/ixrec.html) с более удобным оформлением.
   * [Archive.org](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/).
-* [Itazuraneko's 文型一覧表](https://djtguide.github.io/grammar/masterreference).
-  Master reference table of all grammar pattern entries
-  from a number of grammar dictionaries.
+* [Таблица 文型一覧表 на Itazuraneko](https://djtguide.github.io/grammar/masterreference).
+  Сводная таблица всех грамматических конструкций из нескольких грамматических словарей.
 * [日本語文型バンク](https://www2.ninjal.ac.jp/bunkeibank).
-  A monolingual collection of 800+ grammar points made
-  by the National Institute for Japanese Language and Linguistics.
-  Requires JavaScript.
-* [Grammar in Japanese](#grammar-in-japanese).
+  Подборка из более чем 800 конструкций с объяснениями на японском от Национального института японского языка и лингвистики.
+  Для работы нужен JavaScript.
+* [Грамматика на японском](#grammatika-na-iaponskom).
 
 ### JLPT
 
 * [dethitiengnhat](https://dethitiengnhat.com/en/).
-  Here you can prepare by taking tests from previous years.
-* [JLPT Grammar List](https://jlptgrammarlist.neocities.org/).
-  Covers grammar for all JLPT levels.
+  Здесь можно подготовиться к экзамену на заданиях прошлых лет.
+* [Список грамматических конструкций JLPT](https://jlptgrammarlist.neocities.org/).
+  Охватывает все уровни JLPT.
 * [問題検索室](http://www.n-lab.org/library/mondai/).
-  Search JLPT questions by keyword.
+  Поиск экзаменационных заданий по ключевым словам.
 * [JTest4You](https://japanesetest4you.com/).
-  Practice tests and resources by JLPT levels.
+  Пробные тесты и материалы по уровням JLPT.
 * [JLPT文法解説まとめ](https://nihongokyoshi-net.com/jlpt-grammars/).
-  Introduces you to grammar patterns that exist in JLPT.
-  This site is much better than the rest
-  and probably the best free way to learn grammar used in the JLPT exam.
+  Разбор конструкций, которые встречаются на экзамене.
+  На мой взгляд, сайт заметно лучше остальных и, пожалуй, лучше всех подходит для бесплатной подготовки к грамматической части JLPT.
 * [毎日のんびり日本語教師](https://nihongonosensei.net/).
-  Described in [Grammar in Japanese](#grammar-in-japanese).
+  Описание есть в разделе [«Грамматика на японском»](#grammatika-na-iaponskom).
 * [The JLPT Study Page](https://www.jlptstudy.net/).
-  Materials from N5 to N2.
-  Includes vocabulary, kanji, expressions, reading comprehension, quizzes.
+  Материалы для уровней от N5 до N2: лексика, кандзи, выражения, задания на понимание текста и тесты.
 * [Đề Thi Tiếng Nhật](https://dethitiengnhat.com/en).
-  N5-N1 practice tests.
+  Пробные тесты от N5 до N1.
 * [LearnJapaneseAZ](https://learnjapaneseaz.com/jlpt-n1-practice-test.html).
-  JLPT N1 Practice Test.
-* [JLPT N1 past papers](https://disk.yandex.com/d/EfV8OKavUqwHlg).
-  Shared folder.
-* [JLPT N1 past papers](https://t.me/ajatt_tools/454).
-  Archive.
+  Пробный тест N1.
+* [Задания JLPT N1 прошлых лет](https://disk.yandex.com/d/EfV8OKavUqwHlg).
+  Общая папка.
+* [Задания JLPT N1 прошлых лет](https://t.me/ajatt_tools/454).
+  Архив.
 
-## Examples and pronunciations
+## Примеры предложений и записи произношения
 
-Sometimes you might find yourself in a situation where
-you want to add a word to your SRS
-but the example sentence you've found the word in is too complicated,
-or you've lost it because you forgot to save it.
-In such cases sites with example sentences come to rescue.
+Иногда хочется добавить слово в систему интервальных повторений (spaced repetition system, SRS),
+но предложение, в котором оно встретилось, слишком сложное.
+А бывает, что вы просто забыли его сохранить.
+В таких случаях пригодятся сайты с примерами предложений.
 
 * [Massif](https://massif.la/ja).
-  Allows you to search over 30 million unique Japanese sentences.
+  Поиск по более чем 30 миллионам уникальных предложений на японском.
 * [Sentence Search](https://sentencesearch.neocities.org/).
-  Contains voiced sentences from various premade decks.
-  Grab an offline version
-  [here](ankidrone-sentence-pack.html).
+  Озвученные предложения из разных готовых колод.
+  Можно скачать [версию для работы без интернета](ankidrone-sentence-pack.html).
 * [Nadeshiko](https://nadeshiko.co).
-  A sentence search tool. Has API.
+  Поисковик по предложениям с собственным API.
 * [Aozorasearch](https://myokoym.net/aozorasearch).
-  Performs a full-text search on Aozora Bunko (digital library).
+  Полнотекстовый поиск по электронной библиотеке Aozora Bunko.
 * [Weblio英語例文検索](https://ejje.weblio.jp/sentence/).
-  Made for Japanese people learning English but can be used in reverse.
+  Сервис для японцев, изучающих английский, но им можно пользоваться и в обратном направлении.
 * [Forvo](https://forvo.com/).
-  Has many words pronounced in isolation but not so many sentences.
-* [YouGlish for Japanese](https://youglish.com/japanese) and [CaptionPop](https://www.captionpop.com/).
-  Find YouTube videos with TL subtitles, download them and watch using `mpv`.
+  Много записей отдельных слов и сравнительно мало целых предложений.
+* [YouGlish for Japanese](https://youglish.com/japanese) и [CaptionPop](https://www.captionpop.com/).
+  Находите ролики на YouTube с японскими субтитрами, скачивайте их и смотрите в `mpv`.
 * [AxTongue](https://axtongue.com).
-  YouTube subtitle search engine. Similar to CaptionPop.
-* [用例.jp](https://yourei.jp/) (Down? [Archive](https://web.archive.org/web/20250729193937/https://yourei.jp/).)
+  Поиск по субтитрам на YouTube, похожий на CaptionPop.
+* [用例.jp](https://yourei.jp/) (возможно, сайт недоступен, есть [архив](https://web.archive.org/web/20250729193937/https://yourei.jp/)).
 * [Reverso](https://context.reverso.net/translation/japanese-english/)
 * [Jisho.org](https://jisho.org/search/test%23sentences).
-  I don't recommend Jisho
-  because it suggests sentences from Tatoeba.
-  Many of them come from non-native speakers.
+  Не рекомендую Jisho: в нём встречаются предложения с Tatoeba, многие из которых составили не носители языка.
 * [NHK Accent Audio](https://www.mediafire.com/file/ec0i8omoayfuc75/accentAudio.zip/file).
-  Audio files from the NHK Accent dictionary, 1998 edition.
-* [Forvo.com pronunciation collection for GoldenDict](https://rutracker.org/forum/viewtopic.php?t=6211002).
-  This torrent includes 292,342 native pronunciations of Japanese words.
-  You can [use these folders in Goldendict](setting-up-goldendict.html#pronunciation-audio)
-  after unpacking them into a directory of your choice.
-* If you have [CroPro](cross-profile-search-and-import.html) installed,
-  you can use [Anki decks](#anki-decks) as offline sentence banks.
+  Записи из словаря японского произношения NHK, издание 1998 года.
+* [Коллекция записей Forvo для GoldenDict](https://rutracker.org/forum/viewtopic.php?t=6211002).
+  В раздаче 292 342 записи японских слов в исполнении носителей языка.
+  Распакуйте их в удобное место и [подключите папки к GoldenDict](setting-up-goldendict.html#pronunciation-audio).
+* Если у вас установлен [CroPro](cross-profile-search-and-import.html),
+  вы можете использовать [колоды Anki](#kolody-anki) как банки предложений без подключения к интернету.
 
-## Immersion material
+## Материалы для иммерсии
 
-Don't use streaming sites and sites for reading manga online if possible.
-Always download what you consume.
-Storing immersion material locally makes mining substantially easier.
+По возможности избегайте стриминговых сайтов и сайтов для чтения манги в браузере.
+Скачивайте то, что собираетесь смотреть или читать.
+Из локальных файлов гораздо проще майнить предложения для карточек (sentence mining).
 
-Can't decide what to immerse in?
-Explore [Japanese Media Recommendations](https://ixrec.neocities.org/immersion/).
+Не знаете, что выбрать для иммерсии?
+Посмотрите [подборку японских произведений](https://ixrec.neocities.org/immersion/).
 
-### Torrent trackers
+### Торрент-трекеры
 
-A [torrent](https://wikipedia.org/wiki/BitTorrent)
-tracker is a site that hosts user-uploaded
-[torrent files](https://wikipedia.org/wiki/Torrent_file).
-To download something (like an anime) using torrents
-you usually download a torrent file and open it with a torrent client.
-The torrent client then downloads the actual content.
-Before using the torrent sites, [choose a torrent client](#torrent-clients).
+[Торрент-трекер](https://wikipedia.org/wiki/BitTorrent) представляет собой сайт, на котором пользователи размещают [торрент-файлы](https://wikipedia.org/wiki/Torrent_file).
+Чтобы скачать, например, аниме, обычно достаточно открыть торрент-файл в торрент-клиенте.
+Клиент сам скачает видео.
+Прежде чем пользоваться трекерами, [выберите торрент-клиент](#torrent-klienty).
 
 * [Nyaa](https://nyaa.si/).
-  A torrent site with anime, manga, light novels and Japanese dramas.
-  Contains 98% of what you need to actually learn Japanese.
+  Трекер с аниме, мангой, ранобэ и японскими сериалами.
+  По моей оценке, здесь найдётся 98% того, что нужно для изучения японского.
 
-  Unfortunately, Nyaa is blocked in some countries.
-  Accessing it through Tor can be difficult due to DDOS protection.
-  If you can't access the site, use a mirror.
+  К сожалению, в некоторых странах Nyaa заблокирован.
+  Из-за защиты от DDoS зайти через Tor бывает трудно.
+  Если сайт не открывается, попробуйте зеркало.
 
-  Available mirrors:
+  Доступные зеркала:
 
   1) [ny.iss.one](https://ny.iss.one/).
   1) [nyaa.digital](https://nyaa.digital/)
   1) [Nyaa Land](https://nyaa.land/).
 * [Tokyo Toshokan](https://www.tokyotosho.info/).
-  A BitTorrent library for Japanese media.
+  Библиотека японских материалов в сети BitTorrent.
 * [Rutracker](https://rutracker.org/).
-  Another torrent site.
-  Has lots of Japanese movies, dramas and anime.
-  Ongoing anime gets uploaded with a noticeable delay.
-  Refer to Nyaa first if you watch ongoings.
+  Ещё один трекер, где много японских фильмов, сериалов и аниме.
+  Новые серии аниме здесь появляются с заметной задержкой.
+  Если следите за сериалом по мере выхода, сначала проверьте Nyaa.
 
-  This site can be accessed through Tor.
+  Сайт доступен через Tor.
 * [Animebytes](https://animebytes.tv/).
-  A private tracker. Offers content similar to what you find on Nyaa ISS.
+  Закрытый трекер с материалами примерно того же рода, что и на Nyaa ISS.
 * [AvistaZ](https://avistaz.to/).
-  A private tracker for Asian movies and TV-shows.
+  Закрытый трекер с азиатскими фильмами и сериалами.
 * [AsianCinema.Me](https://asiancinema.me/).
-  Asian private tracker for Movies only.
+  Закрытый азиатский трекер, посвящённый исключительно фильмам.
 * [JPTVTS.US](https://jptvts.us/).
-  A private tracker for Japanese content only.
+  Закрытый трекер только для японских материалов.
 * [JPTV.CLUB](https://jptv.club/).
-  Another private tracker.
-  You can join if you have accounts on other private trackers.
-  Here you can find Japanese TV programs.
-  Most uploads contain Japanese subs straight from the broadcast.
-  It's nice to have them for mining sentences.
+  Ещё один закрытый трекер.
+  Зарегистрироваться можно, если у вас есть учётные записи на других закрытых трекерах.
+  Здесь есть японские телепередачи.
+  В большинстве раздач сохранились японские субтитры из телеэфира: они удобны для создания карточек.
 * [anisource](https://asnet.pw/).
-  An aggregate site for high quality raws from Raws-4U, スカー Raws and Leopard-Raws.
-* **[Private trackers](https://web.archive.org/web/20250821194854if_/https://igwiki.lyci.de/wiki/Private_trackers)**.
-  Everything else I didn't mention.
+  Подборка качественных видео без наложенных субтитров от Raws-4U, スカー Raws и Leopard-Raws.
+* **[Закрытые трекеры](https://web.archive.org/web/20250821194854if_/https://igwiki.lyci.de/wiki/Private_trackers)**.
+  Остальные трекеры, которые я здесь не упомянул.
 
-### Streaming
+### Онлайн-трансляции
 
-**Note:** To watch a `m3u` playlist,
-run [mpv](mining-from-movies-and-tv-shows.html) and pass it the raw playlist link.
-Example:
+**Примечание:** чтобы открыть плейлист `m3u`, передайте [mpv](mining-from-movies-and-tv-shows.html) прямую ссылку на файл.
+Например:
 
 ```
 mpv 'https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u'
 ```
 
-Press <kbd>&lt;</kbd> and <kbd>&gt;</kbd> to switch channels.
-Some playlists can be found
-[here](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/)
-as desktop shortcuts.
+Переключайте каналы клавишами <kbd>&lt;</kbd> и <kbd>&gt;</kbd>.
+Для некоторых плейлистов есть готовые [ярлыки рабочего стола](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/).
 
 * [Animelon](https://animelon.com/).
-  Watch anime with Japanese subtitles.
+  Аниме с японскими субтитрами.
 * [Anjsub](https://anjsub.com/).
-  A site similar to Animelon.
+  Сайт, похожий на Animelon.
 * [B9GOOD](http://b9good.com/).
-  Watch raw anime online.
+  Аниме без перевода онлайн.
 * [Aniwatchtv.to](https://aniwatchtv.to/),
   [Aniwatch](https://aniwatch.to/).
-  Another anime streaming site.
-  You can switch between audio and subtitle tracks in multiple languages.
+  Ещё один сайт для просмотра аниме.
+  Можно переключать звуковые дорожки и субтитры на разных языках.
 * [Anikoto](https://anikototv.to/home).
-  Anime streaming site where you can turn off subtitles and switch to Japanese 日本語 audio.
+  Здесь можно отключить субтитры и выбрать японскую звуковую дорожку (日本語).
 * [Anime Nexus](https://anime.nexus/).
-  You can turn off subtitles here too.
+  Здесь тоже можно отключить субтитры.
 * [Animerulz](https://animerulz.pro).
-  An Anime Streaming Website that Streams anime in many languages like Japanese, English, Hindi, Telugu, Tamil.
+  Аниме на разных языках, в том числе на японском, английском, хинди, телугу и тамильском.
 * [AQStream](https://aqstream.com/).
-  Watch Japanese TV.
+  Японское телевидение онлайн.
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
-  A Chinese website with a bunch of TV shows.
-* [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](mining-from-movies-and-tv-shows.html).
-* [utako IPTV-JP project](https://gitflic.ru/project/utako/utako/blob?file=README.md&branch=main&mode=markdown).
-  Another `m3u` playlist.
-  Run [mpv](mining-from-movies-and-tv-shows.html)
-  and pass it the raw playlist link from [here](https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u).
+  Китайский сайт с большим выбором телепередач.
+* [Проект utako IPTV-JP](https://gitflic.ru/project/utako/utako/blob?file=README.md&branch=main&mode=markdown).
+  Ещё один плейлист `m3u`.
+  Запустите [mpv](mining-from-movies-and-tv-shows.html) и передайте ему прямую ссылку на плейлист [из репозитория](https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u).
 * [TV garden](https://tv.garden/jp).
-  Japanese live TV streams.
-  Only works with JS enabled.
+  Прямые трансляции японских телеканалов.
+  Работает только с включённым JavaScript.
 * [News24.jp](https://www.news24.jp/).
-  Lets you watch a live stream with news,
-  but you have to allow to run an obscene amount of nonfree JavaScript code.
-  To avoid running nonfree JS,
-  [watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_news24.desktop)
-  by creating a desktop shortcut.
+  Прямой эфир новостей, но для просмотра в браузере приходится разрешить множество несвободных скриптов.
+  Чтобы обойтись без них, создайте ярлык для [просмотра трансляции в `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_news24.desktop).
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
-  Similarly to News24, lists a number of channels you can watch online.
-  Unfortunately, not all of them can be opened in mpv.
+  Как и на News24, здесь есть подборка каналов для просмотра онлайн.
+  К сожалению, не все из них открываются в mpv.
 * [Tokyo MX](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_tokyomx.desktop).
-  Tokyo MX desktop shortcut.
+  Ярлык рабочего стола для Tokyo MX.
 * [テレビ朝日](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_asahi.desktop).
-  TV Asahi desktop shortcut.
+  Ярлык рабочего стола для TV Asahi.
 * [テレビ東京](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/tv_tokyo.desktop).
-  TV Tokyo desktop shortcut.
+  Ярлык рабочего стола для TV Tokyo.
+* Dramasuki: сериалы и фильмы на японском для просмотра онлайн.
+  1) [Сериалы](https://dramasuki.xyz/#DramaSuki/Japanese-Drama).
+  2) [Фильмы](https://dramasuki.xyz/#DramaSuki/Movies/Japanese).
 
-### YouTube with subtitles
+### YouTube с субтитрами
 
-> Main article: [Immersion with YouTube](immersion-with-youtube.html)
+> Основная статья: [Иммерсия с YouTube](immersion-with-youtube.html)
 
-**Channels for pre-beginner Japanese learners.**
+**Каналы для тех, кто только начинает учить японский.**
 
 * [Onomappu](https://redirect.invidious.io/c/Onomappu/videos).
 * [Meshclass Japanese](https://redirect.invidious.io/channel/UCrOSvD4kmjTXzR7ov5zwT-A)
 * [Comprehensible Japanese](https://redirect.invidious.io/c/ComprehensibleJapanese).
-  Inspired by Steven Krashen's idea of [comprehensible input](what-is-comprehensible-input.html).
-  The language is slow and is even easier than Tango N5.
+  В основе канала лежит идея Стивена Крашена о [понятном входном материале](what-is-comprehensible-input.html) (comprehensible input).
+  Здесь говорят медленно, а язык ещё проще, чем в Tango N5.
 
-**Regular channels.**
+**Каналы для обычной японской аудитории.**
 
-* GitHub: [Japanese YouTube channels with japanese subtitles](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles)
-* Ixrec: [Recommended YouTube channels](https://ixrec.neocities.org/immersion/youtube_channels.html)
+* GitHub: [японские каналы с японскими субтитрами](https://github.com/WilsonNet/japanase-youtube-channels-with-japanese-subtitles).
+* Ixrec: [подборка каналов YouTube](https://ixrec.neocities.org/immersion/youtube_channels.html).
 * [テレ東BIZ](https://redirect.invidious.io/channel/UCkKVQ_GNjd8FbAuT6xDcWgg).
-  News. Doesn't have subs, but has transcriptions.
+  Новости без субтитров, но с текстовыми расшифровками.
 * [Discovery Channel Japan](https://redirect.invidious.io/channel/UCxbY38ReXW3LbaviWUE4omg/videos)
 * [Kurzgesagt](https://redirect.invidious.io/channel/UCzw2KK537iRgsrYnWaEMs8Q/videos).
-  Science topics.
+  Видео о науке.
 
-**Important:** install [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)
-or [LibRedirect](https://libredirect.github.io/)
-to safely watch YouTube videos via [Invidious](https://github.com/iv-org/invidious).
+**Важно:** установите [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect) или [LibRedirect](https://libredirect.github.io/),
+чтобы безопасно смотреть видео с YouTube через [Invidious](https://github.com/iv-org/invidious).
 
 ### TikTok
 
-You can watch videos from TikTok via [ProxiTok](https://github.com/pablouser1/ProxiTok).
-Browser add-ons like `LibRedirect` can automatically redirect
-from `tiktok.com` to a chosen `ProxiTok` instance.
-Public instances are listed [here](https://github.com/pablouser1/ProxiTok/wiki/Public-instances).
+Видео из TikTok можно смотреть через [ProxiTok](https://github.com/pablouser1/ProxiTok).
+Расширения вроде `LibRedirect` автоматически перенаправляют с `tiktok.com` на выбранный сервер `ProxiTok`.
+Вот [список публичных серверов](https://github.com/pablouser1/ProxiTok/wiki/Public-instances).
 
-Find Japanese videos by tags, for example:
+Ищите японские видео по тегам, например:
 [tiktokでニュース](https://proxitok.pussthecat.org/tag/tiktok%E3%81%A7%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9)
 
-Browsing will lead you to more tags.
+Пока смотрите видео, вам будут попадаться и другие теги.
 
-### Downloads
+### Материалы для скачивания
 
 * [JAP DUB](https://cloud.mail.ru/public/3V6j/jxDMTan6v/).
-  A shared folder with movies and other content with Japanese dubs.
-  You can use something like [JDownloader](https://wiki.archlinux.org/title/JDownloader)
-  to download from Mail Cloud.
+  Общая папка с фильмами и другими материалами в японской озвучке.
+  Для скачивания из Облака Mail.ru подойдёт, например, [JDownloader](https://wiki.archlinux.org/title/JDownloader).
 * [Terrace House BGND](https://web.archive.org/web/20231128141849/https://tecchanhouse.wordpress.com/2018/05/15/terrible-houses-annex/#more-177).
-  Terrace House torrent files from Nyaa in one place.
+  Торрент-файлы Terrace House с Nyaa в одном месте.
 
-* [Compressed audio](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
-* [Condensed audio catalog](https://condensedaudiocatalog.com/)
+* [Сжатое аудио](https://mega.nz/folder/8HhhWDyJ#SHw5xsYxyhWUX536UcqkeQ)
+* [Каталог сжатых аудиозаписей](https://condensedaudiocatalog.com/)
 
-### Drama
+### Сериалы
 
 * [Asian DramaWiki Forum](https://www.d-addicts.com/forums/).
 * [Gaki No Tsukai](https://gaki-no-tsukai.com/).
-* [jraws](https://jraws.com/). Some jdramas.
+* [jraws](https://jraws.com/): небольшая подборка японских сериалов.
 
-### Documentaries
+### Документальные фильмы
 
 * [NHK specials](https://nyaa.si/?q=ＮＨＫスペシャル).
 * [ザ・ノンフィクション](https://nyaa.si/?q=ザ・ノンフィクション).
 
-### Manga
+### Манга
 
-* [Torrent sites](#torrent-trackers).
-  Explore them first.
+* [Торрент-трекеры](#torrent-trekery).
+  Начните поиск с них.
 * [少年マンガのパンツ カウンター](https://comic-pantser.seesaa.net/).
-  This site can be used to search for manga recommendations.
-  For each series covered, the author notes the number of pages that depict panties.
-  The site doesn't offer download links.
-  When you find a manga you want to read, look it up on torrent sites.
+  Здесь можно подобрать мангу для чтения.
+  Для каждой серии автор подсчитал, на скольких страницах изображены трусики.
+  Ссылок для скачивания нет.
+  Найдите интересующую вас мангу по названию на трекерах.
 * [Reader Store](https://ebookstore.sony.jp/adult/).
-  Adult manga catalog.
+  Каталог манги для взрослых.
 * [nhentai](https://nhentai.net/).
-  For a bit of light reading.
-  Many mangas on the site are just 25-30 pages long,
-  which is perfect for beginners who can't bear long reading sessions yet.
+  Подойдёт для лёгкого чтения.
+  Многие работы занимают всего 25–30 страниц: удобно для начинающих, которым пока тяжело читать подолгу.
 
-  Translations are also available.
-  Make sure to only search [in Japanese](https://nhentai.net/language/japanese/).
+  На сайте есть и переводы.
+  Ограничьте поиск [работами на японском](https://nhentai.net/language/japanese/).
 
-  The site is behind CloudFlare.
-  Since CloudFlare is known to be a type of MITM attack,
-  accessing this site maybe dangerous.
-  I often can't access it at all because it shows
-  a banner saying `Checking if the site connection is secure` that never disappears.
-* [Bilingualmanga](https://bilingualmanga.org/).
-  Bilingual manga reader where you can switch from English to Japanese with furigana.
+  Сайт использует Cloudflare как посредника между вами и сервером, что не всегда безопасно.
+  У меня он часто вообще не открывается: сообщение `Checking if the site connection is secure` так и не исчезает.
+* [Bilingualmanga](https://github.com/B-M-dev/Bilingual-Manga-archive).
+  Читалка, в которой можно переключаться между английским переводом и японским текстом с фуриганой.
+  [Magnet](magnet:?xt=urn:btih:8ccfef2a798435bebd75a1ddf93e526ebbc96447&dn=bilingual_manga_django.zip&tr=http%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fudp.tracker.projectk.org%3A23333%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.startwork.cv%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.plx.im%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.nyaa.vc%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.gmi.gd%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.fnix.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ducks.party%3A1984%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fvito-tracker.space%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.004430.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftorrents.tmtime.dev%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fbittorrent-tracker.e-n-c-r-y-p-t.net%3A1337%2Fannounce&tr=udp%3A%2F%2F6ahddutb1ucc3cp.ru%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.zhuqiy.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.yemekyedim.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.pmman.tech%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.nekomi.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftr.zukizuki.org%3A443%2Fannounce&tr=https%3A%2F%2Ftr.nyacat.pw%3A443%2Fannounce&tr=https%3A%2F%2Ftorrents.tmtime.dev%3A443%2Fannounce&tr=http%3A%2F%2Ftracker810.xyz%3A11450%2Fannounce&tr=http%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.zhuqiy.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.xiaoduola.xyz%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tritan.gg%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.sbsub.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dmcomic.org%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dhitechnical.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.23794.top%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.kxmp.cf%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.hificode.in%3A6969%2Fannounce&tr=http%3A%2F%2Fshubt.net%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.hkg-fansub.info%3A80%2Fannounce.php&tr=http%3A%2F%2Fretracker.spark-rostov.ru%3A80%2Fannounce&tr=http%3A%2F%2Fopen.trackerlist.xyz%3A80%2Fannounce&tr=http%3A%2F%2Fjvavav.com%3A80%2Fannounce&tr=http%3A%2F%2Fhome.yxgz.club%3A6969%2Fannounce&tr=http%3A%2F%2Fbvarf.tracker.sh%3A2086%2Fannounce&tr=http%3A%2F%2Fbuny.uk%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.poletracker.org%3A2710%2Fannounce&tr=http%3A%2F%2Fbittorrent-tracker.e-n-c-r-y-p-t.net%3A1337%2Fannounce&tr=http%3A%2F%2F0d.kebhana.mx%3A443%2Fannounce&tr=http%3A%2F%2F0123456789nonexistent.com%3A80%2Fannounce&tr=http%3A%2F%2F004430.xyz%3A80%2Fannounce&tr=udp%3A%2F%2Fyuptracker-eu.gaijinent.com%3A27022%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.playground.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.hismz.cn%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ddunlimited.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.1h.is%3A1337%2Fannounce&tr=udp%3A%2F%2Ftr4ck3r.duckdns.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrentclub.online%3A54123%2Fannounce&tr=udp%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=udp%3A%2F%2Fseedpeer.net%3A6969%2Fannounce&tr=udp%3A%2F%2Frekcart.duckdns.org%3A15480%2Fannounce&tr=udp%3A%2F%2Fopen.ftorrent.com%3A443%2Fannounce&tr=udp%3A%2F%2Fns575949.ip-51-222-82.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmartin-gebhardt.eu%3A25%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce&tr=udp%3A%2F%2Fipv4announce.sktorrent.eu%3A6969%2Fannounce&tr=udp%3A%2F%2Fevan.im%3A6969%2Fannounce&tr=udp%3A%2F%2Fadmin.52ywp.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.leechshield.link%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.7471.top%3A443%2Fannounce&tr=https%3A%2F%2Ft.213891.xyz%3A443%2Fannounce&tr=https%3A%2F%2Fshahidrazi.online%3A443%2Fannounce&tr=https%3A%2F%2Fpybittrack.retiolus.net%3A443%2Fannounce&tr=https%3A%2F%2Fopen.ftorrent.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.waaa.moe%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.skyts.net%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.privateseedbox.xyz%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.moxing.party%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ftr.nyacat.pw%3A80%2Fannounce&tr=http%3A%2F%2Ftr.highstar.shop%3A80%2Fannounce&tr=http%3A%2F%2Ft.overflow.biz%3A6969%2Fannounce&tr=http%3A%2F%2Fseeders-paradise.org%3A80%2Fannounce&tr=http%3A%2F%2Faboutbeautifulgallopinghorsesinthegreenpasture.online%3A80%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce&tr=udp%3A%2F%2F93.158.213.92%3A1337%2Fannounce&tr=udp%3A%2F%2F93.158.213.92%3A6969%2Fannounce&tr=http%3A%2F%2F93.158.213.92%3A1337%2Fannounce&tr=udp%3A%2F%2F185.121.168.96%3A1337%2Fannounce&tr=udp%3A%2F%2F185.243.218.213%3A80%2Fannounce&tr=udp%3A%2F%2F91.216.110.53%3A451%2Fannounce&tr=udp%3A%2F%2F209.141.59.16%3A6969%2Fannounce&tr=udp%3A%2F%2F185.171.202.111%3A6969%2Fannounce&tr=udp%3A%2F%2F120.78.150.131%3A6969%2Fannounce&tr=udp%3A%2F%2F43.250.54.126%3A6969%2Fannounce&tr=udp%3A%2F%2F192.3.130.53%3A1337%2Fannounce&tr=udp%3A%2F%2F109.201.134.183%3A80%2Fannounce&tr=udp%3A%2F%2F87.106.210.134%3A6969%2Fannounce&tr=udp%3A%2F%2F83.102.180.21%3A80%2Fannounce&tr=udp%3A%2F%2F107.189.2.131%3A1337%2Fannounce&tr=udp%3A%2F%2F185.189.13.108%3A6969%2Fannounce&tr=udp%3A%2F%2F34.66.57.33%3A80%2Fannounce&tr=http%3A%2F%2F60.249.37.20%3A80%2Fannounce&tr=udp%3A%2F%2F34.66.57.33%3A1337%2Fannounce&tr=http%3A%2F%2F167.253.78.20%3A8080%2Fannounce&tr=http%3A%2F%2F34.66.57.33%3A2710%2Fannounce&tr=http%3A%2F%2F185.171.202.111%3A6969%2Fannounce&tr=http%3A%2F%2F95.217.167.10%3A6969%2Fannounce&tr=udp%3A%2F%2F211.75.205.189%3A6969%2Fannounce&tr=http%3A%2F%2F140.235.237.23%3A6969%2Fannounce&tr=http%3A%2F%2F107.189.2.131%3A1337%2Fannounce&tr=udp%3A%2F%2F52.211.139.85%3A27022%2Fannounce&tr=udp%3A%2F%2F23.175.184.30%3A23333%2Fannounce&tr=udp%3A%2F%2F163.5.63.253%3A6990%2Fannounce&tr=udp%3A%2F%2F164.152.110.70%3A6969%2Fannounce&tr=udp%3A%2F%2F135.125.236.64%3A6969%2Fannounce&tr=udp%3A%2F%2F107.189.7.165%3A6969%2Fannounce&tr=udp%3A%2F%2F94.136.190.183%3A1337%2Fannounce&tr=udp%3A%2F%2F54.36.179.216%3A6969%2Fannounce&tr=udp%3A%2F%2F212.42.38.197%3A6969%2Fannounce&tr=udp%3A%2F%2F81.230.84.201%3A6969%2Fannounce&tr=udp%3A%2F%2F45.137.199.107%3A6969%2Fannounce&tr=udp%3A%2F%2F118.196.100.63%3A6969%2Fannounce&tr=udp%3A%2F%2F209.141.59.25%3A6969%2Fannounce&tr=udp%3A%2F%2F5.255.124.190%3A6969%2Fannounce&tr=udp%3A%2F%2F193.148.251.93%3A6969%2Fannounce&tr=udp%3A%2F%2F37.120.182.83%3A1984%2Fannounce&tr=http%3A%2F%2F211.75.205.189%3A6969%2Fannounce&tr=udp%3A%2F%2F193.187.90.12%3A6969%2Fannounce&tr=http%3A%2F%2F34.66.57.33%3A11450%2Fannounce&tr=udp%3A%2F%2F88.80.22.67%3A2710%2Fannounce&tr=http%3A%2F%2F34.66.57.33%3A6969%2Fannounce&tr=udp%3A%2F%2F107.189.4.235%3A1337%2Fannounce&tr=udp%3A%2F%2F185.146.233.150%3A6969%2Fannounce&tr=udp%3A%2F%2F37.120.182.83%3A54123%2Fannounce&tr=udp%3A%2F%2F189.18.162.12%3A6969%2Fannounce&tr=udp%3A%2F%2F2.57.214.218%3A6969%2Fannounce&tr=udp%3A%2F%2F37.120.182.83%3A15480%2Fannounce&tr=udp%3A%2F%2F149.106.106.25%3A443%2Fannounce&tr=udp%3A%2F%2F51.222.82.36%3A6969%2Fannounce&tr=udp%3A%2F%2F185.216.179.62%3A25%2Fannounce&tr=udp%3A%2F%2F94.23.207.177%3A6969%2Fannounce&tr=udp%3A%2F%2F74.119.149.136%3A6969%2Fannounce&tr=http%3A%2F%2F216.144.239.90%3A6969%2Fannounce&tr=http%3A%2F%2F113.16.153.116%3A6969%2Fannounce&tr=http%3A%2F%2F37.120.182.83%3A2710%2Fannounce&tr=http%3A%2F%2F37.120.182.83%3A80%2Fannounce&tr=http%3A%2F%2F189.18.162.12%3A6969%2Fannounce).
 * [Raw Senmanga](https://raw.senmanga.com/).
-  View raw manga online.
-  * Make sure you disable JavaScript before opening the site.
-  * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
+  Манга без перевода для чтения онлайн.
+  * Перед открытием сайта обязательно отключите JavaScript.
+  * Не переходите по ссылкам на [Discord](https://spyware.neocities.org/articles/discord.html).
 * [Manga-zip](https://manga-zip.is/).
-  Manga archive.
+  Архив манги.
 * [MANGA ZIP](https://manga-zip.info/).
-  A site that hosts download links to manga and novels.
+  Ссылки для скачивания манги и романов.
 * [Rawdevart](https://rawdevart.com/).
-  Raw manga online.
+  Манга на японском онлайн.
 * [同人あんてな](https://doujinantena.top/).
-  Free eromanga and doujinshi.
+  Бесплатная эротическая манга и додзинси.
 * [raw-cans](http://raw-cans.net/).
-  This website has scans of a lot of manga,
-  as well as shounen jump,
-  young jump and other manga magazines.
+  Сканы манги, а также журналов Shonen Jump, Young Jump и других изданий.
 * [Itazuraneko 漫画](https://djtguide.github.io/library/manga.html).
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
 * [Manga Raw](https://manga1000.com/).
-  Read manga online.
+  Манга для чтения онлайн.
 * [MIKARAW](https://mikaraw.com/).
-  Read manga online.
-  * The site does not work with JavaScript disabled.
+  Манга для чтения онлайн.
+  * Без JavaScript сайт не работает.
 * [マンガ図書館Z](https://www.mangaz.com/).
-  Manga library. Read manga for free.
+  Библиотека манги, которую можно читать бесплатно.
 * [となりのヤングジャンプ](https://tonarinoyj.jp/).
-  A site where you can read manga online.
+  Сайт для чтения манги онлайн.
 * [DLRAW](https://dlraw.net/).
-  Raw manga archived as zip and rar files.
+  Манга без перевода в архивах ZIP и RAR.
 * [RAWKUMA](https://rawkuma.com/).
-  Like Senmanga, hosts manga online.
-  * The site does not work with JavaScript disabled.
-  * Don't click on any [Discord](https://spyware.neocities.org/articles/discord.html) links.
-* [Manga on 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion/Manga/)
+  Как и на Senmanga, здесь можно читать мангу онлайн.
+  * Без JavaScript сайт не работает.
+  * Не переходите по ссылкам на [Discord](https://spyware.neocities.org/articles/discord.html).
+* [Манга на 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion/Manga/)
 
-### Books
+### Книги
 
-* [Torrent sites](#torrent-trackers).
-  Explore them first.
+* [Торрент-трекеры](#torrent-trekery).
+  Начните поиск с них.
 * [zlibrary](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/).
-  A library with books in any language.
-  Clearnet: [Z Library Access](https://z-lib.pub/z-library-access).
+  Библиотека с книгами на самых разных языках.
+  Доступ без Tor: [Z Library Access](https://z-lib.pub/z-library-access).
 * [Anna's Archive](https://annas-archive.pk/).
-  A catalog of all the books in existence.
-  Has nearly everything.
-  If it's blocked for you, use a proxy or [Tor](https://wiki.archlinux.org/title/Tor).
-  For mirror status, see:
-  - [open-slum](https://open-slum.pages.dev/) (requires JavaScript)
+  Каталог, составители которого стремятся собрать все существующие книги.
+  Здесь есть почти всё.
+  Если сайт заблокирован, используйте прокси или [Tor](https://wiki.archlinux.org/title/Tor).
+  Проверить доступность зеркал можно здесь:
+  - [open-slum](https://open-slum.pages.dev/) (нужен JavaScript)
   - [Shadow Libraries](https://shadowlibraries.github.io/DirectDownloads/AnnasArchive/).
   - [Open-Slum](https://open-slum.org/).
-* [聖書 on Wikisource](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
-  Here you can read the Bible in Japanese.
-  The `口語訳` version is written in contemporary language and is easy to read.
+* [聖書 в Викитеке](https://ja.wikisource.org/wiki/%E8%81%96%E6%9B%B8).
+  Здесь можно читать Библию на японском.
+  Перевод `口語訳` написан на современном языке и легко читается.
 * [小説を読もう！](https://yomou.syosetu.com/).
-  Lets you read web novels for free.
+  Бесплатные веб-романы.
 * [カクヨム](https://kakuyomu.jp/).
-  Similar to `小説を読もう！`.
-  Search and read web novels online.
+  Сайт похож на `小説を読もう！`.
+  Здесь тоже можно искать и читать веб-романы.
 * [青空文庫](https://www.aozora.gr.jp/).
-  An Internet library of classic Japanese literature.
-* [Aozora Bunko archive](https://archive.org/details/aozorabunko).
-  Books from Aozora Bunko in `epub`, `pdf` and other formats.
+  Электронная библиотека классической японской литературы.
+* [Архив Aozora Bunko](https://archive.org/details/aozorabunko).
+  Книги из Aozora Bunko в форматах `epub`, `pdf` и других.
 * [DL-Zip.net](https://dl-zip.net/).
-  Download manga, light novels, magazines and books for free.
+  Бесплатное скачивание манги, ранобэ, журналов и книг.
 * [Itazuraneko 小説図書館](https://yonde.itazuraneko.org/).
-  A light novel library of questionable quality.
+  Библиотека ранобэ сомнительного качества.
 * [Nyaa](https://nyaa.iss.ink/).
-  You can find books on Nyaa too.
-* boroboro [epubs](https://boroboro.neocities.org/listfullepub.html)
-  and [azw3](https://boroboro.neocities.org/listfullazw3.html).
-  A list of books in Epub and azw3 formats.
+  На Nyaa тоже можно найти книги.
+* Книги boroboro: [epub](https://boroboro.neocities.org/listfullepub.html) и [azw3](https://boroboro.neocities.org/listfullazw3.html).
+  Список книг в этих двух форматах.
 * [Sōseki Project](https://www.sosekiproject.org/).
-  Works of [夏目漱石](https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja)
-  with a number of tools to assist the students of Japanese.
+  Произведения [Нацумэ Сосэки](https://ja.wikipedia.org/wiki/%E5%A4%8F%E7%9B%AE%E6%BC%B1%E7%9F%B3?lang=ja) (夏目漱石) с инструментами в помощь тем, кто учит японский.
 * [アルファポリス](https://www.alphapolis.co.jp/).
-  A site where you can read novels, manga, etc., for free.
-  You can disable JavaScript but must allow cookies for books' pages to load.
-* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943) or
-  [Magnet](magnet:?xt=urn:btih:b2ab5fbffdf5d11477c6cd9c6738bfadecc67f43&dn=%5BPeepoHappyBooks%5D%20Japanese%20Learner%E2%80%99s%20Anthology%20v2&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
-  A torrent with 30,000 Japanese ebooks.
-* [Itazuraneko's 小説一覧表](https://djtguide.github.io/library/shousetu/shousetulist.html).
-  Light novels downloads in epub, mobi, and azw3.
+  Здесь можно бесплатно читать романы, мангу и другие произведения.
+  JavaScript можно отключить, но для загрузки страниц книг нужно разрешить файлы cookie.
+* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943) или [magnet-ссылка](magnet:?xt=urn:btih:b2ab5fbffdf5d11477c6cd9c6738bfadecc67f43&dn=%5BPeepoHappyBooks%5D%20Japanese%20Learner%E2%80%99s%20Anthology%20v2&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+  Раздача с 30 000 электронных книг на японском.
+* [Список 小説一覧表 на Itazuraneko](https://djtguide.github.io/library/shousetu/shousetulist.html).
+  Ранобэ для скачивания в форматах epub, mobi и azw3.
 
-### Audiobooks
+### Аудиокниги
 
-* [Torrent sites](#torrent-trackers).
-  Explore them first.
-  For example, [audiobooks for 無職転生 on nyaa](https://nyaa.si/?f=0&c=0_0&q=%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F+audiobooks).
+* [Торрент-трекеры](#torrent-trekery).
+  Начните с них: вот, например, [аудиокниги 無職転生 на Nyaa](https://nyaa.si/?f=0&c=0_0&q=%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F+audiobooks).
 * Japanese Audiobook Collection
-  * [Part 1](https://nyaa.si/view/1616763) or [Magnet](magnet:?xt=urn:btih:4ee70a18d55d3745bf45d3c8889ec3d8f7319fda&dn=Japanese%20Audiobook%20Collection%20%28Part%201%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
-  * [Part 2](https://nyaa.si/view/1616764) or [Magnet](magnet:?xt=urn:btih:6088af63cc4dbe448f77155264f2fdd025674160&dn=Japanese%20Audiobook%20Collection%20%28Part%202%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
-  * [Part 3](https://nyaa.si/view/1616765) or [Magnet](magnet:?xt=urn:btih:3bf6c62e02d56268b5d25f9608700248872d2795&dn=Japanese%20Audiobook%20Collection%20%28Part%203%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
-  * [Part 4](https://nyaa.si/view/1616766) or [Magnet](magnet:?xt=urn:btih:fba92e76cb70c41e666b49cd255200a1bc57de8b&dn=Japanese%20Audiobook%20Collection%20%28Part%204%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
-* [Audiobooks on Itazuraneko](https://djtguide.github.io/library/onsei.html)
-* [Audiobooks on 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion/Japanese%20Audiobooks/)
+  * [Часть 1](https://nyaa.si/view/1616763) или [magnet-ссылка](magnet:?xt=urn:btih:4ee70a18d55d3745bf45d3c8889ec3d8f7319fda&dn=Japanese%20Audiobook%20Collection%20%28Part%201%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Часть 2](https://nyaa.si/view/1616764) или [magnet-ссылка](magnet:?xt=urn:btih:6088af63cc4dbe448f77155264f2fdd025674160&dn=Japanese%20Audiobook%20Collection%20%28Part%202%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Часть 3](https://nyaa.si/view/1616765) или [magnet-ссылка](magnet:?xt=urn:btih:3bf6c62e02d56268b5d25f9608700248872d2795&dn=Japanese%20Audiobook%20Collection%20%28Part%203%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Часть 4](https://nyaa.si/view/1616766) или [magnet-ссылка](magnet:?xt=urn:btih:fba92e76cb70c41e666b49cd255200a1bc57de8b&dn=Japanese%20Audiobook%20Collection%20%28Part%204%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [Аудиокниги на Itazuraneko](https://djtguide.github.io/library/onsei.html)
+* [Аудиокниги на 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion/Japanese%20Audiobooks/)
 
-### Podcasts
+### Подкасты
 
-* [Podcasts opml](https://t.me/ajatt_tools/80).
-  About 200 Japanese podcasts for constant passive listening.
-  [Mirror](https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml).
+* [Список подкастов в формате OPML](https://t.me/ajatt_tools/80).
+  Около 200 японских подкастов для постоянного фонового слушания.
+  [Зеркало](https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml).
 * [AuDee Podcasts](https://audee.jp/)
 
-### Visual Novels and Games
+### Визуальные новеллы и игры
 
-Beware that most
-[games](https://www.gnu.org/proprietary/malware-games.html)
-that exist today are
-[proprietary](https://www.gnu.org/proprietary/proprietary.html).
-Proprietary software should not exist and should not be used if you want to have freedom.
+Учитывайте, что большинство современных [игр](https://www.gnu.org/proprietary/malware-games.html) выпускаются под [несвободными лицензиями](https://www.gnu.org/proprietary/proprietary.html).
+Я считаю, что несвободных программ вообще не должно быть.
+Если вы цените свою свободу, не пользуйтесь ими.
 
-* [List of visual novels](https://wiki.archlinux.org/title/List_of_games#Visual_novels) on Arch Wiki.
-* [Libre games Wiki](https://libregamewiki.org/Main_Page).
-* [Free software directory: games](https://directory.fsf.org/wiki/Category/Game).
-* [Open source games list (OSGL)](https://trilarion.github.io/opensourcegames/)
-* [Open Source Game Clones](https://osgameclones.com/)
+* [Список визуальных новелл](https://wiki.archlinux.org/title/List_of_games#Visual_novels) на ArchWiki.
+* [Вики о свободных играх](https://libregamewiki.org/Main_Page).
+* [Игры в каталоге свободного ПО](https://directory.fsf.org/wiki/Category/Game).
+* [Список игр с открытым исходным кодом (OSGL)](https://trilarion.github.io/opensourcegames/)
+* [Свободные аналоги известных игр](https://osgameclones.com/)
 
-### Japanese imageboards
+### Японские имиджборды
 
 * [librejp](https://sportschan.org/librejp/) ([Tor](http://ylcjjrqko7pgobnvzreemm565ea3oj3c7rfqqb4x4twmay6hafv54mid.onion/librejp/index.html))
 * [Watkins 2channel](https://5ch.io/)
@@ -519,749 +471,664 @@ Proprietary software should not exist and should not be used if you want to have
 * [したらば](https://rentalbbs.shitaraba.com/)
 * [あにまん](https://animanch.com/)
 
-You may need a Japanese IP address for some of these.
+Для доступа к некоторым из них может понадобиться японский IP-адрес.
 
-### Other
+### Другие материалы
 
 * [NHK News Web Easy](https://www3.nhk.or.jp/news/easy/).
-  News articles written in simple Japanese.
-* [NHK News Web Easy &mdash; Telegram Channel](https://t.me/nhknewseasy).
-  Unofficial.
+  Новости на простом японском языке.
+* [Канал NHK News Web Easy в Telegram](https://t.me/nhknewseasy).
+  Неофициальный канал.
 
-## Japanese subtitles
+## Японские субтитры
 
-> See also:
-> [Mining from movies and TV-shows](mining-from-movies-and-tv-shows.html)
-> and [Retiming subtitles](retiming-subtitles.html).
+> См. также: [Создание карточек по фильмам и сериалам](mining-from-movies-and-tv-shows.html) и [Синхронизация субтитров](retiming-subtitles.html).
 
 * [subtitles.ajatt.top](https://subtitles.ajatt.top/).
-  Japanese subtitles for Japanese anime, dramas, TV shows, and movies.
+  Японские субтитры к аниме, сериалам, телепередачам и фильмам на японском.
 * [kitsunekko.net](https://kitsunekko.net/subtitles/japanese/).
-  A large repository of Japanese subtitles.
-* [kitsunekko mirror](https://github.com/Ajatt-Tools/kitsunekko-mirror).
-  You can clone this repository to have all subtitles from kitsunekko saved locally.
-  More details [here](mining-from-movies-and-tv-shows.html#obtain-subtitles).
-* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.ink/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  Обширная коллекция японских субтитров.
+* [Зеркало kitsunekko](https://github.com/Ajatt-Tools/kitsunekko-mirror).
+  Склонируйте репозиторий, чтобы сохранить у себя все субтитры с kitsunekko.
+  Подробнее об этом в [руководстве по поиску субтитров](mining-from-movies-and-tv-shows.html#obtain-subtitles).
+* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.ink/view/1044354) или [magnet-ссылка](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
 * [Jimaku Archive 12/01/2025](https://nyaa.si/view/1920638).
-  Archive of anime and drama subtitles.
+  Архив субтитров к аниме и сериалам.
   [Magnet](magnet:?xt=urn:btih:26a8494af7d6a45ea441f2f05b7bfd978d90f655&dn=Jimaku%20Archive%2012%2F01%2F2025&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
-* [日本語字幕](https://djtguide.github.io/library/sub.html) on Itazuraneko.
-  Outdated.
-* [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
-* [Jpsubbers drama subtitles &mdash; archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
+* [日本語字幕](https://djtguide.github.io/library/sub.html) на Itazuraneko.
+  Коллекция устарела.
+* [Субтитры Jpsubbers к сериалам](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
+* [Архив субтитров Jpsubbers](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
 * [動漫花園](https://share.dmhy.org/)
-* [Subtitles by BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
+* [Субтитры от BritVSJapan](https://github.com/Matchoo95/JP-Subtitles)
 * [Nekomoe Kissaten](https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Subs)
-* [This gist](https://gist.github.com/tatsumoto-ren/78ba4e5b7c53c7ed2c987015fa05cc2b)
-* [Japanese Movie Subtitles](https://github.com/eurusdagr/Japanese-Movies-Subtitles)
-* [Anime Japanese subtitles](https://github.com/kienkzz/NanakoRaws-Anime-Japanese-subtitles)
+* [Подборка на GitHub Gist](https://gist.github.com/tatsumoto-ren/78ba4e5b7c53c7ed2c987015fa05cc2b)
+* [Японские субтитры к фильмам](https://github.com/eurusdagr/Japanese-Movies-Subtitles)
+* [Японские субтитры к аниме](https://github.com/kienkzz/NanakoRaws-Anime-Japanese-subtitles)
 * [jimaku.cc](https://jimaku.cc/).
-  A subtitle catalog, alternative to Kitsunekko.
-  Includes links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
-  Discord is known for spying on and politically suppressing its users.
-* [Whisper AI subtitle generator hugging face space](https://huggingface.co/spaces/Nick088/Fast-Subtitle-Maker).
-  As always, autogenerated subs may be incorrect.
+  Каталог субтитров, альтернатива Kitsunekko.
+  Содержит ссылки на серверы [Discord](https://spyware.neocities.org/articles/discord.html).
+  Discord известен слежкой за пользователями и ограничениями по политическим мотивам.
+* [Генератор субтитров Whisper на Hugging Face](https://huggingface.co/spaces/Nick088/Fast-Subtitle-Maker).
+  Как и в любых автоматических субтитрах, в них бывают ошибки.
 
-## Fonts
+## Шрифты
 
-> Main article: [Japanese fonts](japanese-fonts.html)
+> Основная статья: [Японские шрифты](japanese-fonts.html)
 
 * [Noto Fonts](https://archlinux.org/packages/?q=noto-fonts).
-  Google Noto TTF fonts.
-  * [Noto Emoji fonts on GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
-  * [Noto CJK on GitHub](https://github.com/googlefonts/noto-cjk)
+  Шрифты Google Noto в формате TTF.
+  * [Шрифты Noto Emoji на GitHub](https://github.com/googlefonts/noto-emoji/tree/main/fonts)
+  * [Шрифты Noto CJK на GitHub](https://github.com/googlefonts/noto-cjk)
 * [Source Han](https://github.com/Pal3love/Source-Han-TrueType).
-  The Adobe-branded Source Han Sans, Source Han Serif and Source Han Code JP typefaces.
+  Семейства шрифтов Source Han Sans, Source Han Serif и Source Han Code JP под маркой Adobe.
 * [IPAフォント](https://ja.wikipedia.org/wiki/IPA%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88?lang=ja).
-  Install the [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/) package group.
-* [Kanji stroke order font](https://www.nihilist.org.uk/)
+  Установите группу пакетов [ipa-fonts](https://archlinux.org/groups/any/ipa-fonts/).
+* [Шрифт с порядком черт кандзи](https://www.nihilist.org.uk/)
 * [新正楷書CBSK1](https://www.morisawa.co.jp/fonts/specimen/1496).
-  A good brush font.
-  Supports around 13,000 characters.
+  Хороший шрифт, имитирующий письмо кистью.
+  Поддерживает около 13 000 знаков.
 * [Asebi Mincho](https://metasta.github.io/asebi/).
-  A font that displays all `新字体` kanji in their `旧字体`(`正字体`) form,
-  including all the undocumented changes as well.
+  Отображает все кандзи `新字体` в их старой форме `旧字体` (`正字体`), включая незадокументированные изменения.
 * [花園明朝](https://disk.yandex.com/d/cj0hetiqGjhDiA/Hanazono-mincho).
-  This font is made by the `glyphwiki` project and supports all Unicode characters.
-  A perfect back-up font.
+  Шрифт проекта `glyphwiki` с поддержкой всех символов Unicode.
+  Отлично подходит в качестве запасного шрифта.
 
-  Related: [Font test page](https://ctext.org/font-test-page) with download links.
+  См. также [страницу проверки шрифтов](https://ctext.org/font-test-page) со ссылками для скачивания.
 * [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
-  A font that imitates handwriting.
-  The font covers all `JIS第２水準` kanji characters.
+  Имитирует рукописный текст.
+  Включает все кандзи из набора `JIS第２水準`.
 * [kanji-restoration](https://github.com/epistularum/kanji-restoration).
-  A custom font that only displays `旧字体`.
+  Специальный шрифт, который отображает только `旧字体`.
 * [Motomachi](https://github.com/kwing0310/motomachi).
-* **[AJATT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA)**.
-  The fonts I use.
-  Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
-  You can simply extract the entire folder to `~/.local/share/fonts` to install them.
+* **[Архив AJATT](https://disk.yandex.com/d/cj0hetiqGjhDiA)**.
+  Шрифты, которыми я сам пользуюсь.
+  В архиве есть `Yu Mincho`, полукурсивные шрифты и шрифты с порядком черт.
+  Для установки достаточно распаковать всю папку в `~/.local/share/fonts`.
 
-## Software
+## Программы
 
-### Recommendations
+### Подборки программ
 
-* [Midek's software recommendations list](https://write.midov.pl/midek/software-list)
-* [Luke Smith's Programs and Equipment](https://lukesmith.xyz/programs/)
+* [Программы, которые рекомендует Midek](https://write.midov.pl/midek/software-list)
+* [Программы и оборудование Люка Смита](https://lukesmith.xyz/programs/)
 * [ALTERNATIVES TO BLOATWARE](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md).
-  A comprehensive list of software that has alternatives with less dependencies.
+  Большой список программ и их аналогов с меньшим числом зависимостей.
 * [Stuff that rocks](https://suckless.org/rocks/)
 * [digdeeper.club](https://digdeeper.club/).
-  Software recommendations, reviews.
+  Обзоры и рекомендации программ.
 * [Privacy Tools](https://www.privacytools.io/).
-  Privacy tools and services to counter mass surveillance with encryption
-  for better internet privacy.
+  Инструменты и сервисы, которые помогают защитить личные данные в интернете и противостоять массовой слежке с помощью шифрования.
 * [Online Spyware Watchdog](https://spyware.neocities.org/).
-  Contains articles about popular programs with explanations of the spyware features found in them.
+  Статьи о популярных программах с объяснениями того, какие шпионские функции в них обнаружили.
 
-### General
+### Программы общего назначения
 
 * [LibreWolf](https://librewolf-community.gitlab.io/).
-  A web browser based on Firefox that comes with an Ad Block by default.
+  Браузер на основе Firefox со встроенным блокировщиком рекламы.
 
-  I recommend getting LibreWolf
-  [from Chaotic](https://aur.chaotic.cx/)
-  or from [archlinuxcn](https://github.com/archlinuxcn/repo)
-  so that you don't have to build it yourself,
-  but you can also get it [from the AUR](https://aur.archlinux.org/packages/librewolf/).
+  Рекомендую установить LibreWolf из [Chaotic](https://aur.chaotic.cx/) или [archlinuxcn](https://github.com/archlinuxcn/repo), чтобы не собирать его вручную.
+  При желании можно взять пакет [из AUR](https://aur.archlinux.org/packages/librewolf/).
 
-  Additionally, there's [pyllyukko user.js](https://github.com/pyllyukko/user.js)
-  to harden the configuration.
-  Before installing I recommend reading the `user.js`
-  and commenting out the settings you don't need
-  because no `user.js` can suit everybody's needs unmodified.
+  Для более строгих настроек безопасности есть [user.js от pyllyukko](https://github.com/pyllyukko/user.js).
+  Перед установкой прочтите `user.js` и закомментируйте ненужные параметры: универсальной конфигурации не существует.
 * [Anki](setting-up-anki.html)
-  A free/libre flashcard application.
+  Свободная программа для занятий по карточкам.
 * [Trackma](https://github.com/z411/trackma).
-  Track your immersion on one of the supported sites.
+  Отмечайте, что вы смотрели и читали для иммерсии, на одном из поддерживаемых сайтов.
 
-### Localization
+### Локализация
 
-* [Localization/Japanese](https://wiki.archlinux.org/title/Localization/Japanese)
-* [Fcitx](https://wiki.archlinux.org/title/Fcitx5) input method framework
-* [Japanese fontconfig](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
+* [Настройка японской локали](https://wiki.archlinux.org/title/Localization/Japanese)
+* [Fcitx](https://wiki.archlinux.org/title/Fcitx5): система методов ввода
+* [Настройка fontconfig для японского](https://wiki.archlinux.org/title/Font_configuration/Examples#Japanese)
 
-### Sentence mining
+### Создание карточек из предложений
 
 * [GoldenDict](setting-up-goldendict.html).
-  A dictionary program with Anki support.
+  Словарная программа с поддержкой Anki.
 * [Rikaitan](setting-up-yomichan.html).
-  A browser extension with Anki support.
+  Расширение для браузера с поддержкой Anki.
 * [mpvacious](our-immersion-learning-toolset.html#mpvacious).
-  Mpvacious is a user script for mpv that offers utilities for creating and modifying
-  Anki flashcards from movies and TV shows.
-  It allows you to select subtitle lines,
-  create audio clips and images, and send them to Anki.
+  Скрипт для mpv, который позволяет создавать и редактировать карточки Anki по фильмам и сериалам.
+  Выберите реплику в субтитрах, сделайте снимок кадра, вырежьте фрагмент звука и отправьте их в Anki.
 * [ames](https://github.com/Ajatt-Tools/ames).
-  Anki Media Extractor Script.
-  Allows you to easily add screenshots and audio recordings to your Anki cards.
-  [AUR package](https://aur.archlinux.org/packages/ames/).
+  Anki Media Extractor Script помогает добавлять снимки экрана и аудиозаписи в карточки Anki.
+  [Пакет в AUR](https://aur.archlinux.org/packages/ames/).
 * [mLearn](https://github.com/adrianvla/mLearn).
-  An all-in-one immersion application for GNU/Linux and other operating systems.
-  Supports videos, manga, PDFs, has built-in OCR and Anki support.
+  Универсальная программа для иммерсии под GNU/Linux и другими ОС.
+  Работает с видео, мангой и PDF, умеет распознавать текст и поддерживает Anki.
 
-### Morphological analysis
+### Морфологический анализ
 
 * [mecab](https://aur.archlinux.org/packages/mecab).
 * [mecab-ipadic](https://aur.archlinux.org/packages/mecab-ipadic).
-  IPA dictionary for MeCab.
+  Словарь IPA для MeCab.
 * [mecab-ipadic-neologd-git](https://aur.archlinux.org/packages/mecab-ipadic-neologd-git).
-  Neologism dictionary for MeCab.
+  Словарь неологизмов для MeCab.
 
-### Productivity
+### Организация времени
 
-> Main article: [Timeboxing](timeboxing.html)
+> Основная статья: [Таймбоксинг](timeboxing.html)
 
 * [tatsumato](https://aur.archlinux.org/packages/tatsumato).
-  Tatsumoto's Pomodoro timer.
+  Таймер для работы по методу помидора от Тацумото.
 * [potato](https://aur.archlinux.org/packages/potato).
-  A pomodoro timer for the shell.
+  Таймер для работы по методу помидора в командной строке.
 * [pomodoro](https://aur.archlinux.org/packages/pomodoro).
-  A simple dmenu pomodoro timer tool.
+  Простой таймер для того же метода с интерфейсом на основе dmenu.
 
-### Image viewers
+### Просмотр изображений
 
 * [nsxiv](https://codeberg.org/nsxiv/nsxiv)
-  An image viewer perfect for reading manga.
-  [Arch Linux package](https://archlinux.org/packages/community/x86_64/nsxiv/).
+  Программа для просмотра изображений, которая отлично подходит для чтения манги.
+  [Пакет для Arch Linux](https://archlinux.org/packages/community/x86_64/nsxiv/).
 * [sxiv-manga-reader](https://git.sr.ht/~q3cpma/sxiv-manga-reader).
-  Simple manga reader made from a patched `nsxiv`.
-  It extracts archives for you and opens them automatically with `sxiv`.
-  It keeps your progress.
+  Простая читалка манги на основе модифицированного `nsxiv`.
+  Сама распаковывает архив и открывает его содержимое в `sxiv`.
+  Запоминает, где вы остановились.
 * [Gomicsv](https://github.com/fauu/gomicsv).
-  A very fast manga reader that can read zip/cbz files directly.
-  It has a lot of features, like double-page mode and smart resizing to make the manga fit on your screen.
+  Очень быстрая читалка, открывает ZIP и CBZ без предварительной распаковки.
+  Есть просмотр разворотами и автоматическая подгонка страниц под размер экрана.
 
-### Work with subtitles
+### Работа с субтитрами
 
 * [subs2srs](our-immersion-learning-toolset.html#subs2srs).
-  Takes video files and subtitle files
-  and creates cards with screenshots and/or audio for each line in the sub file.
-  Useful for batch extracting audio from videos.
+  Из видео и субтитров создаёт по карточке на каждую реплику, со снимком кадра, звуком или и тем и другим.
+  Удобна для пакетного извлечения звука из видео.
 * [subtitleedit](https://aur.archlinux.org/packages/subtitleedit).
-  A subtitle editor.
-  It can convert image-based subtitles (`.sup`, `.sub`) to text-based (`.srt`)
-  via an OCR engine such as Tesseract.
+  Редактор субтитров.
+  Может преобразовывать графические субтитры (`.sup`, `.sub`) в текстовые (`.srt`) с помощью системы распознавания текста, например Tesseract.
 * [pyTranscriber](https://aur.archlinux.org/packages?K=pytranscriber).
-  A GUI program for generating subtitles using Google Speech Recognition.
-  You can use it to generate subtitles for video files that don't have any subtitles
-  or for audiobooks.
-  The produced subs will contain errors due to the nature of speech recognition.
+  Программа с графическим интерфейсом для создания субтитров с помощью Google Speech Recognition.
+  Подойдёт для видео без субтитров и аудиокниг.
+  Из-за ошибок распознавания речи результат придётся проверять.
 * [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools).
-  A set of scripts for creating a local `kitsunekko` mirror.
-* [Whisper AI subtitle generator hugging face space](https://huggingface.co/spaces/Nick088/Fast-Subtitle-Maker).
-  As always, autogenerated subs may be incorrect.
+  Набор скриптов для создания локального зеркала `kitsunekko`.
+* [Генератор субтитров Whisper на Hugging Face](https://huggingface.co/spaces/Nick088/Fast-Subtitle-Maker).
+  Как и в любых автоматических субтитрах, в них бывают ошибки.
 
-### OCR for manga
+### Распознавание текста в манге
 
-> Main article: [Mining from manga](mining-from-manga.html)
+> Основная статья: [Создание карточек по манге](mining-from-manga.html)
 
-Optical character recognition (OCR) tools
-convert text in manga into a digital form.
+Программы оптического распознавания символов (optical character recognition, OCR) превращают надписи на страницах манги в обычный текст.
 
 * [lancet](https://github.com/Ajatt-Tools/lancet).
-  A powerful tool for mining sentences from manga.
-  Press a configured keyboard shortcut and select a portion of the manga page to convert.
-  The text is recognized and copied to the clipboard
-  for lookup with [Rikaitan Search](what-is-yomichan-search.html),
-  or sent to [GoldenDict](setting-up-goldendict.html).
+  Удобный инструмент для создания карточек по манге.
+  Нажмите заданное сочетание клавиш и выделите область страницы.
+  Распознанный текст копируется в буфер обмена для поиска через [Rikaitan Search](what-is-yomichan-search.html) или отправляется в [GoldenDict](setting-up-goldendict.html).
 * [mokuro](https://github.com/kha-white/mokuro).
-  Can be used to OCR Japanese text instead of Tesseract.
+  Альтернатива Tesseract для распознавания японского текста.
 * [Poricom](https://github.com/bluaxees/Poricom).
-  Manga OCR desktop application.
+  Настольное приложение для распознавания текста в манге.
 * [kanjitomo](https://aur.archlinux.org/packages/kanjitomo/).
-  An OCR program written in Java.
-  Note that you can't use Japanese to Japanese dictionaries with it.
+  Программа для распознавания текста на Java.
+  Японские толковые словари подключить к ней нельзя.
 
-### Reading eBooks
+### Чтение электронных книг
 
-> Main article [Reading books](reading-books.html)
+> Основная статья: [Чтение книг](reading-books.html)
 
 * [crqt-ng](https://gitlab.com/coolreader-ng/crqt-ng/).
-  E-book reader.
-  [AUR package](https://aur.archlinux.org/packages?K=crqt).
+  Читалка электронных книг.
+  [Пакет в AUR](https://aur.archlinux.org/packages?K=crqt).
 
-  After installation open Settings, go to "Styles"
-  and set "Default font" to your Japanese font of choice
-  to avoid [Chinese](japanese-fonts.html#chinese-glyphs) fallbacks.
-  [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho) worked for me.
-  Japanese `Noto` fonts did not, some text was still in Chinese.
-  On the "Page" tab you can choose View Mode.
-  I have it set to "Scroll View".
-  On the "Window" tab
-  you can tell the program to apply your [kvantum](setting-up-anki.html#kvantum) theme.
-  crqt-ng can automatically copy selected text to the clipboard,
-  which is handy when using [Rikaitan Search](what-is-yomichan-search.html).
-  To enable the feature, under the "Window" tab check "automatically copy when selected."
+  После установки откройте Settings > Styles и выберите любимый японский шрифт в поле Default font,
+  чтобы программа не подставляла [китайские начертания](japanese-fonts.html#chinese-glyphs).
+  У меня подошёл [Yu Mincho](https://disk.yandex.com/d/cj0hetiqGjhDiA/Yu%20Mincho).
+  С японскими шрифтами `Noto` часть знаков по-прежнему отображалась в китайском начертании.
+  На вкладке Page можно выбрать режим просмотра (View Mode).
+  У меня выбран Scroll View.
+  На вкладке Window можно включить свою тему [kvantum](setting-up-anki.html#kvantum).
+  В crqt-ng можно автоматически копировать выделенный текст в буфер обмена, что удобно для работы с [Rikaitan Search](what-is-yomichan-search.html).
+  Для этого на вкладке Window включите пункт «automatically copy when selected».
 
-  To add a bookmark, select some text and press <kbd>Ctrl</kbd>+<kbd>B</kbd>.
-  To view saved bookmarks, press <kbd>F6</kbd>.
+  Чтобы добавить закладку, выделите текст и нажмите <kbd>Ctrl</kbd>+<kbd>B</kbd>.
+  Чтобы посмотреть сохранённые закладки, нажмите <kbd>F6</kbd>.
 * [Foliate](https://johnfactotum.github.io/foliate/).
-  A simple and modern eBook viewer.
-  [Arch Linux package](https://archlinux.org/packages/?name=foliate).
+  Простая современная читалка.
+  [Пакет для Arch Linux](https://archlinux.org/packages/?name=foliate).
 
-  If you can't open books, run the `chmod` command
-  [from their issue tracker](https://github.com/johnfactotum/foliate/issues/668).
-  In **Preferences**, set "When a word is selected" to "Copy"
-  and "When multiple words are selected" to "Copy".
-  This should be enough to comfortably use Foliate with
-  [Rikaitan Search](what-is-yomichan-search.html).
-  Change Layout to "Scrolled" in Advanced section of the menu
-  to prevent lags and ensure a consistent layout.
+  Если книги не открываются, выполните команду `chmod` из [обсуждения ошибки](https://github.com/johnfactotum/foliate/issues/668).
+  В **Preferences** выберите «Copy» для обоих параметров: «When a word is selected» и «When multiple words are selected».
+  Этого должно хватить для удобной работы с [Rikaitan Search](what-is-yomichan-search.html).
+  В разделе Advanced выберите для Layout значение «Scrolled», чтобы страницы не тормозили и вёрстка не менялась.
 
-  Use keyboard shortcuts, "n" to go to the next page and "p" to go to the previous page.
-  To scroll without the mouse, press "j" and "k".
+  Клавиша `n` открывает следующую страницу, а `p` возвращает на предыдущую.
+  Для прокрутки без мыши используйте `j` и `k`.
 * [KOreader](https://koreader.rocks/).
-  KOreader is a book reader application
-  that was designed to be used on E-ink devices, but it can also be used on a PC.
-  It properly displays furigana.
+  KOReader разработан для устройств с экранами на электронных чернилах, но работает и на компьютере.
+  Корректно отображает фуригану.
 
-  The best way to install it is to use the
-  [appimage AUR package](https://aur.archlinux.org/packages/koreader-appimage/)
-  Alternatively, the
-  [koreader-bin](https://aur.archlinux.org/packages/koreader-bin)
-  AUR package can be used, but it may not work for everyone.
+  Рекомендую устанавливать [версию AppImage из AUR](https://aur.archlinux.org/packages/koreader-appimage/).
+  Можно попробовать и пакет [koreader-bin](https://aur.archlinux.org/packages/koreader-bin) из AUR, но он работает не у всех.
 
-  This app [supports](https://github.com/koreader/koreader/wiki/Dictionary-support) `StarDict` dictionaries.
-  You can download the dictionaries
-  [from here](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg/folder/LYAmgLLI),
-  or you can use your own dictionaries,
-  converting them to the `StarDict` format
-  with [PyGlossary](https://github.com/ilius/pyglossary).
-  The dictionaries should be placed in `~/.config/koreader/data/dict` if you're on GNU/Linux.
-  [Refer to the Wiki](https://github.com/koreader/koreader/wiki/Dictionary-support) for other platforms.
+  KOReader [поддерживает](https://github.com/koreader/koreader/wiki/Dictionary-support) словари `StarDict`.
+  Их можно [скачать](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg/folder/LYAmgLLI) или преобразовать свои словари в `StarDict` с помощью [PyGlossary](https://github.com/ilius/pyglossary).
+  В GNU/Linux поместите файлы в `~/.config/koreader/data/dict`.
+  Для других платформ см. [инструкцию в вики](https://github.com/koreader/koreader/wiki/Dictionary-support).
 
-  Under "Font" check "Enable system fonts" (the checkbox is at the beginning of the font list)
-  to have access to your [Japanese fonts](japanese-fonts.html).
-  Then in document settings set the font to `Noto Serif CJK JP` or a similar Japanese font.
+  Чтобы воспользоваться своими [японскими шрифтами](japanese-fonts.html), отметьте «Enable system fonts» в начале списка Font.
+  Затем в настройках документа выберите `Noto Serif CJK JP` или аналогичный японский шрифт.
 
-  If you want to create Anki cards, install [Anki plugin for KOreader](https://github.com/Ajatt-Tools/anki.koplugin).
+  Для создания карточек установите [плагин Anki для KOReader](https://github.com/Ajatt-Tools/anki.koplugin).
 * [Zathura](https://wiki.archlinux.org/title/Zathura).
-  A minimalistic document viewer.
-  Can be used to read novels.
-  Doesn't display furigana correctly.
+  Минималистичная программа для просмотра документов.
+  Подходит для чтения романов, но некорректно отображает фуригану.
 * [calibre](https://archlinux.org/packages/community/x86_64/calibre/).
-  Ebook management application.
-  This program is primarily used to convert from various formats (including azw3) to epub.
-  It's not very good as a reader app.
+  Программа для управления электронной библиотекой.
+  Пригодится в первую очередь для преобразования книг из разных форматов, в том числе azw3, в epub.
+  Для самого чтения она не очень удобна.
 * [AJATT Reader](https://reader.ajatt.top/).
-  A web-based book reader that supports [Rikaitan](setting-up-yomichan.html).
-  Not recommended because it requires keeping a web browser open.
+  Браузерная читалка с поддержкой [Rikaitan](setting-up-yomichan.html).
+  Не рекомендую: приходится всё время держать браузер открытым.
 
 ### MPV
 
-`mpv` is the best video player for language learning.
+Для изучения языков я считаю `mpv` лучшим видеоплеером.
 
-* [Official website](http://mpv.io/)
-* [Arch Wiki page](https://wiki.archlinux.org/title/Mpv)
-* [User-scripts for mpv](https://github.com/mpv-player/mpv/wiki/User-Scripts)
-* [mpv for Android](https://github.com/mpv-android/mpv-android)
+* [Официальный сайт](http://mpv.io/)
+* [Статья на ArchWiki](https://wiki.archlinux.org/title/Mpv)
+* [Пользовательские скрипты для mpv](https://github.com/mpv-player/mpv/wiki/User-Scripts)
+* [mpv для Android](https://github.com/mpv-android/mpv-android)
 
-Make Anki cards in mpv:
+Для создания карточек Anki прямо в mpv:
 
 * [Mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 
 ### mpd
 
-With [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon)
-you can listen to condensed audio, audiobooks and Japanese music.
+С помощью [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon) можно слушать сжатые аудиодорожки, аудиокниги и японскую музыку.
 
-* [Passive listening](passive-listening.html) how to.
-* [ncmpcpp](https://rybczak.net/ncmpcpp/). Probably the most popular mpd client.
-* [ncmpcpp cheat sheet](https://pkgbuild.com/~jelle/ncmpcpp/) &mdash; for new users.
-* [mpc](https://www.musicpd.org/clients/mpc/). A CLI mpd client, great for scripting.
+* [Руководство по фоновому слушанию](passive-listening.html).
+* [ncmpcpp](https://rybczak.net/ncmpcpp/). Пожалуй, самый популярный клиент mpd.
+* [Шпаргалка по ncmpcpp](https://pkgbuild.com/~jelle/ncmpcpp/) для начинающих.
+* [mpc](https://www.musicpd.org/clients/mpc/). Клиент mpd для командной строки, удобен для скриптов.
 
-### Torrent clients
+### Торрент-клиенты
 
 * [qBittorrent](https://www.qbittorrent.org/).
-A free/libre torrent client alternative to µTorrent.
-**Use [search plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)**,
-they save you so much time that you'd otherwise spend going to each torrent site individually.
+  Свободная альтернатива µTorrent.
+  **Установите [поисковые плагины](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)**: они сэкономят время, ведь не придётся искать на каждом трекере отдельно.
 * [KTorrent](https://apps.kde.org/ktorrent/).
-A BitTorrent client for KDE.
+  Клиент BitTorrent для KDE.
 * [Transmission](https://wiki.archlinux.org/title/Transmission).
-A light-weight and cross-platform BitTorrent client.
-See [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
+  Лёгкий кроссплатформенный клиент BitTorrent.
+  См. также [transmission-gtk](https://archlinux.org/packages/?name=transmission-gtk).
 
-### Downloading
+### Программы для скачивания
 
 * [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp).
-  A command-line program that lets you download videos and audio
-  from YouTube and more than a thousand other sites.
+  Утилита командной строки для скачивания видео и аудио с YouTube и более чем тысячи других сайтов.
 
-  * See our [setup guide](immersion-with-youtube.html).
-  * [Tartube](https://aur.archlinux.org/packages/tartube/)
-    is a GUI front-end for youtube-dl.
+  * См. [наше руководство по настройке](immersion-with-youtube.html).
+  * [Tartube](https://aur.archlinux.org/packages/tartube/): графический интерфейс для youtube-dl.
 * [mangadesk](https://github.com/darylhjd/mangadesk).
-  Download manga directly from your terminal.
+  Скачивание манги прямо из терминала.
 * [HakuNeko](https://github.com/manga-download/hakuneko).
-  A cross-platform downloader for manga and anime from various websites.
+  Кроссплатформенная программа для скачивания манги и аниме с разных сайтов.
 * [Megatools](https://megatools.megous.com/).
-  A command line client for Mega.
+  Клиент Mega для командной строки.
 * [JDownloader](https://wiki.archlinux.org/title/JDownloader).
-  A download manager that can download normal files and files from online file hosting services,
-  such as Mail.ru Cloud.
+  Менеджер загрузок для обычных файлов и файлообменников, например Облака Mail.ru.
 
-### Subtitle retiming
+### Синхронизация субтитров
 
-* [subs2srs](our-immersion-learning-toolset.html#subs2srs) includes a semi-automatic subtitle retimer.
+* В [subs2srs](our-immersion-learning-toolset.html#subs2srs) есть инструмент для полуавтоматической синхронизации субтитров.
 * [ffsubsync](https://pypi.org/project/ffsubsync/)
 * [alass](https://github.com/kaegi/alass)
 
-### Tools for condensing audio
+### Программы для сжатия аудиодорожек
 
 * [impd](https://github.com/Ajatt-Tools/impd).
-  Create condensed audio and automatically rotate your mpd playlist.
+  Создаёт аудиодорожки без пауз между репликами и автоматически обновляет плейлист mpd.
 * [subs2cia](https://github.com/dxing97/subs2cia)
 
-### Tools for extracting audio
+### Программы для извлечения звука
 
 * [FFmpeg](https://wiki.archlinux.org/title/FFmpeg)
 * [MKVToolNix](https://archlinux.org/packages/?q=mkvtoolnix)
-  ([official site](https://mkvtoolnix.download/))
+  ([официальный сайт](https://mkvtoolnix.download/))
 * [subs2srs](our-immersion-learning-toolset.html#subs2srs)
 
-## Android software
+## Программы для Android
 
-**Note:** Please read [our recommendations](our-immersion-learning-toolset.html#android)
-about using an Android device.
-Be careful with programs not listed on F-Droid.
-They may contain proprietary blobs or malicious functionality
-that typically prevents submission to F-Droid.
+**Примечание:** прочтите [наши рекомендации](our-immersion-learning-toolset.html#android) по использованию Android.
+С осторожностью устанавливайте приложения, которых нет в F-Droid.
+Они могут содержать несвободные двоичные компоненты или вредоносные функции, из-за которых приложения обычно не принимают в F-Droid.
 
-### General
+### Приложения общего назначения
 
-* [Japanese keyboards](how-to-type-in-japanese.html#android).
-  Choose a Japanese Input Method Editor (IME) for typing Japanese text on a phone.
-* [Fcitx repo](https://f5a.torus.icu/fdroid/repo?fingerprint=5D87CE1FAD3772425C2A7ED987A57595A20B07543B9595A7FD2CED25DFF3CF12).
-  Fcitx for Android.
+* [Японские клавиатуры](how-to-type-in-japanese.html#android).
+  Выберите метод ввода (Input Method Editor, IME) для набора японского текста на телефоне.
+* [Репозиторий Fcitx](https://f5a.torus.icu/fdroid/repo?fingerprint=5D87CE1FAD3772425C2A7ED987A57595A20B07543B9595A7FD2CED25DFF3CF12).
+  Fcitx для Android.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-  A free/libre flashcard application, Android version.
-* [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
-  A program that helps create Anki cards on Android.
-  Probably not needed because AnkiDroid has AnkiDroid API.
+  Свободная программа для занятий по карточкам, версия для Android.
+* [AnkiConnect для Android](https://github.com/KamWithK/AnkiconnectAndroid).
+  Помогает создавать карточки Anki на Android.
+  Скорее всего, не понадобится: у AnkiDroid есть собственный API.
 * [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/).
-  An alternative front-end to Google Translate.
+  Альтернативный интерфейс для Google Переводчика.
 * [Simple Time Tracker](https://f-droid.org/packages/com.razeeman.util.simpletimetracker/).
-  Time tracker for work, study, and building better daily habits.
+  Помогает учитывать время, потраченное на работу и учёбу, и вырабатывать полезные привычки.
 
-### Manga readers
+### Читалки манги
 
 * [Kahon](https://f-droid.org/en/packages/com.amanoteam.kahon/).
-  Free/libre manga reader for Android.
-  [GitHub](https://github.com/AmanoTeam/Kahon).
-  Kahon is a fork of infamous Mihon that is not safe to use.
-* [tachiyomiJ2K](https://github.com/Jays2Kings/tachiyomiJ2K) is a fork of Tachiyomi.
-  Not in F-Droid.
+  Свободная читалка манги для Android.
+  [Исходный код на GitHub](https://github.com/AmanoTeam/Kahon).
+  Kahon представляет собой ответвление проекта Mihon, которым небезопасно пользоваться.
+* [tachiyomiJ2K](https://github.com/Jays2Kings/tachiyomiJ2K): ответвление Tachiyomi.
+  В F-Droid приложения нет.
 * [OCR Manga Reader](https://sourceforge.net/projects/ocrmangareaderforandroid/).
-  Android Manga reader with Japanese OCR and dictionary capabilities.
-  Supports EPWING monolingual dictionaries.
+  Читалка манги для Android с распознаванием японского текста и поиском по словарям.
+  Поддерживает японские толковые словари в формате EPWING.
 
-### Book readers
+### Читалки книг
 
 * [Librera Reader](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/).
-  App for reading books.
-  Was recommended in `ラノベスレ`.
+  Приложение для чтения книг.
+  Его рекомендовали в `ラノベスレ`.
 * [KOreader](https://f-droid.org/packages/org.koreader.launcher.fdroid/).
-  A book reader.
+  Читалка электронных книг.
 * [Typhon Reader](https://github.com/dajimenezja/typhon/releases).
-  An EPUB reader for Android
-  that lets you look up words as you read, similarly to [Rikaitan](setting-up-yomichan.html).
-  Also supports EPWING dictionaries.
+  Читалка EPUB для Android с поиском слов прямо в тексте, как в [Rikaitan](setting-up-yomichan.html).
+  Поддерживает и словари EPWING.
 
-### Video players
+### Видеоплееры
 
-* [mpv for Android](https://github.com/mpv-android/mpv-android).
-  See the mpv section.
+* [mpv для Android](https://github.com/mpv-android/mpv-android).
+  См. раздел о mpv.
 * [VLC](https://f-droid.org/packages/org.videolan.vlc).
-  A fast and user-friendly video player for Android.
+  Быстрый и удобный видеоплеер для Android.
 * [Jidoujisho](https://github.com/lrorpilla/jidoujisho).
-  A mobile video player tailored for Japanese language learners.
-  [shiroikumanojisho](https://github.com/ShiroiKuma0/shiroikumanojisho) ‍is a fork of jidoujisho with additions.
+  Мобильный видеоплеер для тех, кто учит японский.
+  [shiroikumanojisho](https://github.com/ShiroiKuma0/shiroikumanojisho) представляет собой ответвление jidoujisho с дополнительными возможностями.
 * [Tubular](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.tubular).
-  A libre lightweight streaming front-end for Android.
-  Also adds features from SponsorBlock and ReturnYouTubeDislike.
+  Свободное, нетребовательное приложение для просмотра потокового видео на Android.
+  Включает функции SponsorBlock и ReturnYouTubeDislike.
 
-### Audio players
+### Аудиоплееры
 
-Audio players are used to play locally stored audio files.
-Although their primary purpose is to play music,
-for language learning a better choice would be to listen to
-audiobooks, podcasts or audio extracted from movies and TV shows.
+Аудиоплееры воспроизводят записи, сохранённые на устройстве.
+Обычно их используют для музыки, но для изучения языка полезнее слушать аудиокниги, подкасты или звуковые дорожки из фильмов и сериалов.
 
-All available players are [listed on F-Droid catalog](https://search.f-droid.org/?q=music+player&lang=en).
+Доступные плееры перечислены [в каталоге F-Droid](https://search.f-droid.org/?q=music+player&lang=en).
 
 * [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 * [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
-  A podcast player for Android.
-* [Metro - A music player for Android ](https://f-droid.org/en/packages/io.github.muntashirakon.Music/)
+  Приложение для прослушивания подкастов на Android.
+* [Metro: музыкальный плеер для Android](https://f-droid.org/en/packages/io.github.muntashirakon.Music/)
 
-## Dictionaries
+## Словари
 
-### Offline dictionaries
+### Офлайн-словари
 
 * [GoldenDict](setting-up-goldendict.html).
-  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#mdx).
-  Has Anki support.
+  Требуются [файлы словарей](yomichan-and-epwing-dictionaries.html#mdx).
+  Есть поддержка Anki.
 * [Qolibri](setting-up-qolibri.html).
-  A Qt-based EPWING dictionary viewer.
-  Requires [dictionary files](yomichan-and-epwing-dictionaries.html#epwing).
-  Refer to [setup guide](setting-up-qolibri.html).
+  Словарная программа на Qt для формата EPWING.
+  Нужны [файлы словарей](yomichan-and-epwing-dictionaries.html#epwing).
+  См. [руководство по настройке](setting-up-qolibri.html).
 * [EBView](https://aur.archlinux.org/packages/ebview-git/).
-  A GTK2 based EPWING dictionary viewer.
-  Like Qolibri, EBView requires you to specify where to look for the dictionary files.
-  To set it up, refer to the
-  [official documentation](http://ebview.sourceforge.net/help/ja/index.html),
-  especially the `辞書グループの定義` section.
+  Программа на GTK2 для словарей EPWING.
+  Как и в Qolibri, в EBView нужно указать, где искать словарные файлы.
+  О настройке читайте в [официальной документации](http://ebview.sourceforge.net/help/ja/index.html), особенно в разделе `辞書グループの定義`.
 * [Tagaini Jisho](https://www.tagaini.net/)
 
-### Popup dictionaries
+### Всплывающие словари
 
 * Rikaitan.
-  Rikaitan is a browser extension that lets you easily look up unknown words.
-  * [How to set up Rikaitan](setting-up-yomichan.html)
-  * [Rikaitan dictionaries](yomichan-and-epwing-dictionaries.html#rikaitan)
-  * [Extension homepage](https://github.com/Ajatt-Tools/rikaitan)
+  Расширение для браузера, с которым легко находить незнакомые слова.
+  * [Настройка Rikaitan](setting-up-yomichan.html)
+  * [Словари для Rikaitan](yomichan-and-epwing-dictionaries.html#rikaitan)
+  * [Страница расширения](https://github.com/Ajatt-Tools/rikaitan)
 * [dictpopup](https://github.com/Ajatt-Tools/dictpopup).
-  Looks up selected (Japanese) text in your Yomichan/Rikaitan dictionaries
-  and displays the result as a popup.
+  Ищет выделенный текст на японском в словарях Yomichan или Rikaitan и показывает результат во всплывающем окне.
 * [Rikaikun](https://chromewebstore.google.com/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp).
 * [10ten Japanese Reader](https://github.com/birchill/10ten-ja-reader).
-  Formerly known as Rikaichamp, this browser extension lets you look up Japanese words
-  with the hover of a mouse or tap of a screen.
-  It doesn't support Anki and monolingual dictionaries, but is fine otherwise.
+  Расширение, раньше известное как Rikaichamp, показывает значение японского слова при наведении мыши или касании экрана.
+  Anki и толковые словари не поддерживает, но в остальном работает хорошо.
 * [cabl](plumbing-for-language-learners.html).
 
-### Online dictionaries
+### Онлайн-словари
 
 * [Dictionariez](https://github.com/pnlpal/dictionaries).
-  A popup-dictionary extension that works similarly to Rikaitan.
-  Good for learners of English.
+  Всплывающий словарь для браузера, работает примерно как Rikaitan.
+  Пригодится тем, кто учит английский.
 * [jisho.org](https://jisho.org/)
 * [wadoku.de](https://wadoku.de/).
-  Has pitch accent.
+  Указывает питч-акцент (pitch accent).
 * [weblio.jp](https://www.weblio.jp/)
 * [goo辞書](https://dictionary.goo.ne.jp/)
 * [Kotobank](https://kotobank.jp/)
 * [ichi.moe](https://ichi.moe/)
 * [広辞苑無料検索](https://sakura-paris.org/dict/).
-  Allows you to search many monolingual dictionaries.
+  Поиск сразу по многим японским толковым словарям.
 * [OJAD](http://www.gavo.t.u-tokyo.ac.jp/ojad/search).
-  A pitch accent dictionary.
+  Словарь питч-акцента.
 * [日本語俗語辞書](http://zokugo-dict.com/).
-  A monolingual slang dictionary.
+  Толковый словарь японского сленга.
 * [伏字検索](http://fuseji.net/).
-  Helps you decipher words partially occluded by symbols like `〇` and `◯` (maru).
+  Помогает восстановить слова, в которых часть знаков заменена кружками `〇` или `◯` (мару).
 * [ふりがな文庫](https://furigana.info/).
-  For any given word, searches through Aozora Bunko
-  for all instances where it was used with furigana
-  and shows the percentage of each reading.
-  Great for when the dictionary lists multiple readings, and you want to know which is dominant.
+  Находит в Aozora Bunko все случаи, когда заданное слово снабжено фуриганой, и показывает частоту каждого чтения в процентах.
+  Удобно, когда словарь приводит несколько чтений, а вы хотите узнать, какое встречается чаще.
 * [書き順](https://kakijun.jp).
-  A website that shows you how to write a given kanji and how it looks written in different fonts.
+  Показывает, как писать кандзи и как он выглядит в разных шрифтах.
 * [漢字辞典](https://kanji.jitenon.jp/).
-  Monolingual kanji dictionary.
+  Толковый словарь кандзи на японском языке.
 * [Kanjijoho 漢字辞典](https://kanjijoho.com/).
-  A kanji dictionary.
-  In addition to details such as radicals, stroke counts, and readings,
-  it also provides examples of 熟語 and 四字熟語 that use each character.
+  Словарь кандзи.
+  Помимо ключей, числа черт и чтений, приводит для каждого знака примеры сложных слов (熟語) и выражений из четырёх кандзи (四字熟語).
 * [Kanjitisiki 漢字辞典](https://kanjitisiki.com/).
-  A kanji dictionary.
-  It contains various details about Kanji such as meanings, readings, radicals, stroke counts, etc.
+  Словарь кандзи со значениями, чтениями, ключами, числом черт и другими сведениями.
 * [Jotoba](https://jotoba.de/).
-  An open source multilingual Japanese dictionary.
+  Многоязычный японский словарь с открытым исходным кодом.
 * [連想類語辞典](https://renso-ruigo.com/).
-  A dictionary of synonyms.
+  Словарь синонимов.
 * [Dictionaryphile &mdash; 日本語](https://github.com/Dictionaryphile/All_Dictionaries#%E6%97%A5%E6%9C%AC%E8%AA%9E).
-  A list of various online dictoinaries.
+  Подборка онлайн-словарей.
 
-### Android dictionaries
+### Словари для Android
 
 * [Ciyue](https://f-droid.org/packages/org.eu.mumulhl.ciyue/).
-  This dictionary supports [MDX](yomichan-and-epwing-dictionaries.html#mdx) dictionary files.
+  Поддерживает словарные файлы в формате [MDX](yomichan-and-epwing-dictionaries.html#mdx).
 * [jiten](https://github.com/obfusk/jiten)
 * [sumatora](https://f-droid.org/en/packages/org.happypeng.sumatora.android.sumatoradictionary/)
 * [Nani?](https://f-droid.org/en/packages/eu.lepiller.nani/)
 
-### Something else
+### Другие словарные ресурсы
 
-[Epistularum's Converted Dictionary Collection](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg).
-Dictionary files.
-Stardict files are meant to be used with KOreader,
-Mdict with [GoldenDict](setting-up-goldendict.html).
+[Коллекция конвертированных словарей от Epistularum](https://mega.nz/folder/rIIHhAxb#d6GV9ZNTj9gUEaQtfGluqg).
+Это готовые словарные файлы.
+Файлы StarDict предназначены для KOReader, а MDict для [GoldenDict](setting-up-goldendict.html).
 
-## Sentence banks
+## Банки предложений
 
-> Main article: [Cross Profile Search And Import](cross-profile-search-and-import.html)
+> Основная статья: [Поиск и импорт карточек из другого профиля](cross-profile-search-and-import.html)
 
-Any Anki decks with voiced sentences can be used to build a sentence bank.
-Most decks linked below are made with [subs2srs](our-immersion-learning-toolset.html#subs2srs).
+Для банка предложений подходят любые колоды Anki с озвученными предложениями.
+Большинство колод ниже создано с помощью [subs2srs](our-immersion-learning-toolset.html#subs2srs).
 
 * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html).
-* [User Uploaded Anki Decks](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks)
-  ([source](https://web.archive.org/web/20220521002417/https://japanesedecks.blogspot.com/p/free.html)).
-* [Sentence bank](https://www.mediafire.com/folder/h88cb94x24n4i/Sentence_Bank).
-* [subs2srs decks](https://www.mediafire.com/folder/h3c999hbd9r6m/subs2srs_decks).
+* [Колоды Anki, загруженные пользователями](https://www.mediafire.com/folder/p17g5uk4phb41/User_Uploaded_Anki_Decks)
+  ([источник](https://web.archive.org/web/20220521002417/https://japanesedecks.blogspot.com/p/free.html)).
+* [Банк предложений](https://www.mediafire.com/folder/h88cb94x24n4i/Sentence_Bank).
+* [Колоды subs2srs](https://www.mediafire.com/folder/h3c999hbd9r6m/subs2srs_decks).
 * [steins-gate-anki](https://disk.yandex.com/d/5OqVLAb5vso1hQ).
-  Anki deck made from Steins;Gate.
-  Has lots of voiced example sentences.
-  [GitHub repo](https://github.com/Ajatt-Tools/steins-gate-anki).
-* If you have [Rikaitan](setting-up-yomichan.html) installed,
-  you can mine from [online sentence banks](#examples-and-pronunciations).
-* You can also try [AnkiWeb](https://ankiweb.net/shared/decks?search=anime),
-  although pirated content is not common there.
+  Колода по Steins;Gate со множеством озвученных примеров.
+  [Репозиторий на GitHub](https://github.com/Ajatt-Tools/steins-gate-anki).
+* Если у вас установлен [Rikaitan](setting-up-yomichan.html), можно брать примеры из [онлайн-банков предложений](#primery-predlozhenii-i-zapisi-proiznosheniia).
+* Попробуйте также поискать на [AnkiWeb](https://ankiweb.net/shared/decks?search=anime), хотя материалы, распространяемые без разрешения правообладателя, там редкость.
 
-## Translators
+## Переводчики
 
-The quality of
-[machine translation](could-machine-translation-be-useful-to-language-learners.html)
-is very low.
-Your goal is not to translate Japanese
-but to be able to understand it the first time.
-Don't use translators for anything serious.
-You've been warned.
+Качество [машинного перевода](could-machine-translation-be-useful-to-language-learners.html) оставляет желать лучшего.
+Ваша цель не переводить с японского, а понимать сказанное или написанное с первого раза.
+Не полагайтесь на переводчики в серьёзных делах.
+Считайте, что я вас предупредил.
 
 * [SimplyTranslate](https://simplytranslate.vern.cc/)
-  and [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/) for Android.
+  и [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/) для Android.
 * [LibreTranslate](https://libretranslate.com/)
 * [Lingva Translate](https://github.com/thedaviddelta/lingva-translate).
-  Alternative front-end for Google Translate .
+  Альтернативный интерфейс для Google Переводчика.
 
-## Pronunciation and Pitch accent
+## Произношение и питч-акцент
 
-> Main article: [Japanese Pitch Accent Primer](japanese-pitch-accents.html)
+> Основная статья: [Основы японского питч-акцента](japanese-pitch-accents.html)
 
-* [Pitch accent dictionaries for Rikaitan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
-  When you look up a word with Rikaitan,
-  they will tell you its pitch accent number.
+* [Словари питч-акцента для Rikaitan](https://disk.yandex.com/d/dmS_-JVE2fkMDQ/pitch%20accent).
+  При поиске слова Rikaitan покажет число, обозначающее позицию падения тона.
 * [韻律読み上げチュータスズキクン](http://www.gavo.t.u-tokyo.ac.jp/ojad/phrasing).
-  Generate text-to-speech sentences with somewhat accurate pitch accent (don't assume it's correct).
+  Озвучивает предложения с довольно правдоподобным питч-акцентом, но не стоит считать результат эталоном.
 * [Japanese Accent Study Website](https://accent.u-biq.org/).
-  A useful site with pitch accent information for counters,
-  verb conjugations,
-  place names,
-  surnames and Japanese celebrities.
+  Здесь можно узнать питч-акцент счётных суффиксов, глагольных форм, географических названий, фамилий и имён японских знаменитостей.
 * [NHK日本語発音アクセント新辞典・付録](https://www.mediafire.com/file/tsrs58rg61y8x3d/NHK%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E7%2599%25BA%25E9%259F%25B3%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E6%2596%25B0%25E8%25BE%259E%25E5%2585%25B8%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
-  A scan of the NHK Pitch Accent dictionary,
-  specifically the sections at the back (which aren't in the EPWING)
-  that explain the theory, rules and patterns.
+  Скан приложений в конце словаря NHK.
+  Они объясняют теорию, правила и модели питч-акцента и не вошли в версию EPWING.
 * [NHK日本語発音アクセント辞典](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/12671999/adb8bd).
-  A PDF of the NHK Pitch Accent dictionary, 1998 edition.
+  Словарь питч-акцента NHK 1998 года в PDF.
 * [新明解日本語アクセント辞典 第2版・付録](https://www.mediafire.com/file/mwzighd9dnvo63w/%25E6%2596%25B0%25E6%2598%258E%25E8%25A7%25A3%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2583%25B3%25E3%2583%2588%25E8%25BE%259E%25E5%2585%25B8_%25E7%25AC%25AC2%25E7%2589%2588%25E3%2583%25BB%25E4%25BB%2598%25E9%258C%25B2.pdf/file).
-  A scan of the Shinmeikai Pitch Accent dictionary,
-  specifically the sections at the back
-  that explain the theory, rules and patterns.
+  Скан заключительных разделов словаря Shinmeikai с объяснением теории, правил и моделей питч-акцента.
 * [京言葉](http://www.akenotsuki.com/kyookotoba/).
-  A website on Kyoto dialect.
-* **Dogen's Phonetics Series**.
-  Pitch accent lessons.
-  Yes, everybody hates Dogen because of his personality,
-  but if your Japanese isn't good enough to read the NHK pitch accent dictionary,
-  you can start by watching his tutorials.
-  1) [Magnet](magnet:?xt=urn:btih:42eecdb5bd04f9d2fc6df4648d153c9ceb0dcc96&xt=urn:btmh:1220c283197a3792f9fb54bb2f686b65af3fa844fb0db19265663040d51117e09664&dn=Dogen%20Patreon%20Japanese%20Phonetics&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fglotorrents.pw%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Ftracker2.istole.it%3A60500%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fisk.richardsw.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=udp%3A%2F%2Fepider.me%3A6969%2Fannounce&tr=udp%3A%2F%2Facxx.de%3A6969%2Fannounce&tr=udp%3A%2F%2Faarsen.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.kuroy.me%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftk1.trackerservers.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fthouvenin.cloud%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.free-tracker.ga%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.ktrackers.com%3A6666%2Fannounce&tr=udp%3A%2F%2Fblack-bird.ynh.fr%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.renfei.net%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.loligirl.cn%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=http%3A%2F%2Fmontreal.nyap2p.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fyahor.of.by%3A6969%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fts.populargamers.co.za%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.myporn.club%3A9337%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.farted.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cubonegro.lol%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.army%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthinking.duckdns.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.zerg.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fsu-data.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fssb14.nohost.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fryjer.com%3A6969%2Fannounce&tr=udp%3A%2F%2Frun-2.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fpublic-tracker.cf%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.u-p.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Foh.fuuuuuck.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmail.segso.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ffree.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fdownload.nerocloud.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fcarr.codes%3A6969%2Fannounce&tr=udp%3A%2F%2Fbedro.cloud%3A6969%2Fannounce&tr=udp%3A%2F%2F6.pocketnet.app%3A6969%2Fannounce&tr=udp%3A%2F%2F1c.premierzal.ru%3A6969%2Fannounce&tr=https%3A%2F%2Fwww.peckservers.com%3A9443%2Fannounce&tr=https%3A%2F%2Ftracker.cloudit.top%3A443%2Fannounce&tr=https%3A%2F%2Ftr.ready4.icu%3A443%2Fannounce&tr=https%3A%2F%2Ft1.hloli.org%3A443%2Fannounce&tr=https%3A%2F%2Ft.zerg.pw%2Fannounce&tr=https%3A%2F%2F1337.abcvg.info%3A443%2Fannounce&tr=http%3A%2F%2Fwww.peckservers.com%3A9000%2Fannounce&tr=http%3A%2F%2Fwww.chouchou.club%3A8080%2Fannounce&tr=http%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.edkj.club%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.8a.is%3A6969%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.t-rb.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.sheesh.rip%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ddunlimited.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrents.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fpsyco.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fmail.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ffh2.cmp-gaming.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fconcen.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fboysbitte.be%3A6969%2Fannounce&tr=udp%3A%2F%2Faegir.sexy%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.ipfsscan.io%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.sheesh.rip%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce).
+  Сайт о говоре Киото.
+* **Курс фонетики Догэна**.
+  Уроки по питч-акценту.
+  Многие недолюбливают Догэна за его манеру общения, но если вам пока сложно читать словарь NHK на японском, можно начать с его видео.
+  1) [Magnet-ссылка](magnet:?xt=urn:btih:42eecdb5bd04f9d2fc6df4648d153c9ceb0dcc96&xt=urn:btmh:1220c283197a3792f9fb54bb2f686b65af3fa844fb0db19265663040d51117e09664&dn=Dogen%20Patreon%20Japanese%20Phonetics&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fglotorrents.pw%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Ftracker2.istole.it%3A60500%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fisk.richardsw.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=udp%3A%2F%2Fepider.me%3A6969%2Fannounce&tr=udp%3A%2F%2Facxx.de%3A6969%2Fannounce&tr=udp%3A%2F%2Faarsen.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.kuroy.me%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftk1.trackerservers.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fthouvenin.cloud%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.free-tracker.ga%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.ktrackers.com%3A6666%2Fannounce&tr=udp%3A%2F%2Fblack-bird.ynh.fr%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.renfei.net%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.loligirl.cn%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.mywaifu.best%3A6969%2Fannounce&tr=http%3A%2F%2Fmontreal.nyap2p.com%3A8080%2Fannounce&tr=udp%3A%2F%2Fyahor.of.by%3A6969%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fts.populargamers.co.za%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.myporn.club%3A9337%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.farted.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cubonegro.lol%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.army%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthinking.duckdns.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Ft.zerg.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fsu-data.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fssb14.nohost.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fryjer.com%3A6969%2Fannounce&tr=udp%3A%2F%2Frun-2.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fpublic-tracker.cf%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.u-p.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Foh.fuuuuuck.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmail.segso.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ffree.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fdownload.nerocloud.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fcarr.codes%3A6969%2Fannounce&tr=udp%3A%2F%2Fbedro.cloud%3A6969%2Fannounce&tr=udp%3A%2F%2F6.pocketnet.app%3A6969%2Fannounce&tr=udp%3A%2F%2F1c.premierzal.ru%3A6969%2Fannounce&tr=https%3A%2F%2Fwww.peckservers.com%3A9443%2Fannounce&tr=https%3A%2F%2Ftracker.cloudit.top%3A443%2Fannounce&tr=https%3A%2F%2Ftr.ready4.icu%3A443%2Fannounce&tr=https%3A%2F%2Ft1.hloli.org%3A443%2Fannounce&tr=https%3A%2F%2Ft.zerg.pw%2Fannounce&tr=https%3A%2F%2F1337.abcvg.info%3A443%2Fannounce&tr=http%3A%2F%2Fwww.peckservers.com%3A9000%2Fannounce&tr=http%3A%2F%2Fwww.chouchou.club%3A8080%2Fannounce&tr=http%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.edkj.club%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.8a.is%3A6969%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.t-rb.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.srv00.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.sheesh.rip%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ddunlimited.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrents.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fpsyco.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fmail.artixlinux.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ffh2.cmp-gaming.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fconcen.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fboysbitte.be%3A6969%2Fannounce&tr=udp%3A%2F%2Faegir.sexy%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.ipfsscan.io%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.sheesh.rip%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce).
   2) [Mega](https://mega.nz/folder/sVEizTTb#Z_0QKuN2GyMphaK9w4-A5Q).
-  3) [Yandex](https://disk.yandex.com/d/xcNycta7K59RWg).
-* [YouGlish for Japanese](https://youglish.com/japanese).
-  Look up a word and hear a native speaker pronounce it in a YouTube video.
+  3) [Яндекс Диск](https://disk.yandex.com/d/xcNycta7K59RWg).
+* [YouGlish для японского языка](https://youglish.com/japanese).
+  Найдите слово и послушайте, как его произносит носитель языка в ролике на YouTube.
 * [日本語標準アクセントの概要](https://tokyoaccent.com/accent/accent.htm) + [詳細](https://tokyoaccent.com/accent/accent2.htm)
 * [助詞・助動詞のアクセントについての覚え書き](http://www.lang.osaka-u.ac.jp/~caris/articles/%E5%8A%A9%E8%A9%9E%E3%83%BB%E5%8A%A9%E5%8B%95%E8%A9%9E%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%A6%9A%E3%81%88%E6%9B%B8%E3%81%8D.pdf)
 * [東京外国語大学言語モジュール](http://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/).
-  Listening comprehension and pronunciation training.
+  Упражнения на понимание речи на слух и произношение.
 * [日本語の発音を知る](https://ipa-mania.com/category/japanese-pronunciation/).
-  Pronunciation of phonemes described in Japanese.
-  Uses IPA notation + has mouth/tongue diagrams.
-* [Practice Japanese Numbers](https://langpractice.com/japanese/).
-  A page for training listening to numbers.
-* [Pitch accent perception](pitch-accent-perception.html) word list.
-  When immersing yourself in Japanese,
-  actively listen for the words in the list
-  and challenge yourself to identify the pitch patterns.
-  For example,
-  if you hear someone say the word `建物`,
-  you need to tell if it's atamadaka, heiban, odaka, or nakadaka.
+  Описание японских фонем на японском языке.
+  Есть транскрипция в Международном фонетическом алфавите и схемы положения рта и языка.
+* [Тренажёр японских чисел](https://langpractice.com/japanese/).
+  Помогает научиться различать числа на слух.
+* [Список слов для тренировки восприятия питч-акцента](pitch-accent-perception.html).
+  Во время иммерсии прислушивайтесь к словам из списка и пытайтесь определить их тональный рисунок.
+  Например, услышав `建物`, попробуйте определить, к какому типу оно относится: атамадака, хэйбан, одака или накадака.
 * [名字アクセント辞典](https://myoji.scave.net).
-  Online pitch accent dictionary for human names.
+  Онлайн-словарь питч-акцента японских имён и фамилий.
 
-## Past-beginner
+## Для тех, кто освоил основы
 
-### Grammar in Japanese
+### Грамматика на японском
 
 * [毎日のんびり日本語教師](https://nihongonosensei.net/).
-  A website run by a Japanese teacher living in China.
-  Grammar is sorted by JLPT levels.
-  The entries are in Japanese (monolingual definitions) and Chinese.
-  Provides example sentences.
+  Сайт преподавателя японского языка, который живёт в Китае.
+  Грамматические конструкции сгруппированы по уровням JLPT.
+  Есть объяснения на японском и китайском, а также примеры предложений.
 * [国語文法](http://xn--vcs415akpfnn7a.com/).
-  Japanese grammar taught by a Japanese teacher.
+  Японский преподаватель объясняет японскую грамматику.
 * [国語の文法](https://www.kokugobunpou.com/).
-* [国語－文法 playlist](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
-  YouTube playlist of 学校文法.
-  A pedagogical framework for teaching grammar to native Japanese speakers.
-  Not made for learners or linguists.
+* [Плейлист 国語－文法](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzM-XOmo9F55BoRlPSSivcVd)
+  Уроки на YouTube по 学校文法, школьной системе преподавания грамматики носителям японского языка.
+  Курс не рассчитан на иностранцев или лингвистов.
 * [国語—古文](https://redirect.invidious.io/playlist?list=PLKRhhk0lEyzMV4fvp0BqKMIZnQUm4SLmn).
-  YouTube playlist of 古文, to help you learn classical Japanese.
+  Плейлист уроков 古文 на YouTube для изучения классического японского языка.
 * [初級を教える人のための日本語文法ハンドブック](https://z-library.sk/s/978-4883191550).
-  A book for learning Japanese grammar in Japanese, for learners & Japanese teachers.
+  Книга о японской грамматике на японском языке для учащихся и преподавателей.
   ISBN-10: 4883191559.
   ISBN-13: 978-4883191550.
 
-### Kanken (漢字検定)
+### Канкэн (漢字検定)
 
-* [Brett Mayer's Kanken Site](https://www.bretmayer.com/kanji.html).
-  Lists of kanken relevant vocab and kanji.
+* [Сайт Бретта Майера о подготовке к Канкэну](https://www.bretmayer.com/kanji.html).
+  Списки слов и кандзи, которые пригодятся на экзамене.
 * [漢字検定一級・日本語検定一級に受かったロシア人](https://roshiajin.jp/).
-  Site of a Russian national who passed Kanken 1.
-  Tells you the contents of the exam and how to study for Kanken.
+  Сайт россиянина, который сдал высший уровень Канкэна.
+  Рассказывает, чего ждать на экзамене и как к нему готовиться.
 
-## Handwriting
+## Письмо от руки
 
-> Main article: [Writing Japanese](writing-japanese.html)
+> Основная статья: [Письмо на японском от руки](writing-japanese.html)
 
 - **[Ankidrone Handwriting](https://disk.yandex.com/d/ZgTYGbVryfgJhg)**.
-  The best way to learn to write once you can already read.
-  [Mirror](https://t.me/ajatt_tools/455).
-- [Seiho's YouTube Calligraphy School](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg).
-  Seiho's handwriting is a good reference for learning,
-  as opposed to computer fonts,
-  which can deviate significantly from how Japanese is actually written by hand.
-  If you're just starting out,
-  see his videos on [hiragana](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg)
-  and [katakana](https://redirect.invidious.io/watch?v=zv6uxNdROOc),
-  and copy out the kana chart on gridded paper.
-- [Japanese Calligrapher Takumi](https://redirect.invidious.io/@takumitohgu).
-  Takumi's handwriting is also a good reference for learning, but is less calligraphic.
-  He also has videos on [hiragana](https://redirect.invidious.io/watch?v=wD3FJgij79c)
-  and [katakana](https://redirect.invidious.io/watch?v=rf-n_qI2occ).
-- [Hasegawa Yuki](https://redirect.invidious.io/@hasegawayuki)
-- [Seido Japanese Calligraphy](https://redirect.invidious.io/@seido-shodo)
-- [Seiho's YouTube Calligraphy School](https://redirect.invidious.io/@seihou)
+  Лучший способ освоить письмо, если вы уже умеете читать.
+  [Зеркало](https://t.me/ajatt_tools/455).
+- [Школа каллиграфии Сэйхо на YouTube](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg).
+  Почерк Сэйхо хорошо подходит для подражания: компьютерные шрифты могут заметно отличаться от того, как японцы пишут от руки.
+  Если только начинаете, посмотрите его видео о [хирагане](https://redirect.invidious.io/watch?v=dQwaH1Dqwcg) и [катакане](https://redirect.invidious.io/watch?v=zv6uxNdROOc) и перепишите таблицу каны на бумагу в клетку.
+- [Японский каллиграф Такуми](https://redirect.invidious.io/@takumitohgu).
+  Почерк Такуми тоже подойдёт как образец, хотя он менее каллиграфичен.
+  У него есть видео о [хирагане](https://redirect.invidious.io/watch?v=wD3FJgij79c) и [катакане](https://redirect.invidious.io/watch?v=rf-n_qI2occ).
+- [Юки Хасэгава](https://redirect.invidious.io/@hasegawayuki)
+- [Японская каллиграфия Сэйдо](https://redirect.invidious.io/@seido-shodo)
+- [Школа каллиграфии Сэйхо на YouTube](https://redirect.invidious.io/@seihou)
 - [常用漢字の美文字レッスン](https://redirect.invidious.io/playlist?list=PLxNYIx5D9tAbYXKgTDmy7KJ8Z7u74hwKz).
-  Jōyō kanji playlist.
-- [Kanji balance](https://美文字の書き方.com/c02/).
-  A Japanese-language guide to balancing kanji shapes for "beautiful handwriting" (美文字),
-  sorted by structural pattern with worked examples for each.
+  Плейлист о кандзи из списка дзёё.
+- [Пропорции кандзи](https://美文字の書き方.com/c02/).
+  Японское руководство о том, как уравновесить части кандзи, чтобы писать красиво (美文字).
+  Материал сгруппирован по типам строения знаков, для каждого есть разобранные примеры.
 
-## Language guides
+## Руководства по изучению языков
 
-### [Old AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
+### [Старый сайт AJATT](https://web.archive.org/web/20100403201214/http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 
-How to learn Japanese on your own, having fun and to fluency.
-Khatzumoto's old blog where he talks about how to learn Japanese.
-If you're interested in learning more about Khatzumoto's original ideas,
-you may want to read his blog.
-See also: [Should I read Khatzumoto's blog?](should-i-read-the-ajatt-site.html)
+Как самостоятельно выучить японский до свободного владения и получать от этого удовольствие.
+В своём старом блоге Хатцумото рассказывает, как он учил японский.
+Если вам интересны его идеи в первоначальном виде, стоит почитать сам блог.
+См. также: [Стоит ли читать блог Хатцумото?](should-i-read-the-ajatt-site.html)
 
-Notable articles:
+Статьи, с которых стоит начать:
 
-* [Lazy Kanji](https://web.archive.org/web/20100403201243/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
-  One of the many methods of learning kanji.
-* [10,000 Sentences: How](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
-  The [sentence mining](sentence-mining.html) method Khatzumoto used for learning Japanese.
-* [On Grammar](https://web.archive.org/web/20070504025927/http://www.alljapaneseallthetime.com/blog/on-grammar).
+* [«Ленивые» карточки для кандзи](https://web.archive.org/web/20100403201243/http://www.alljapaneseallthetime.com/blog/lazy-kanji-cards-a-new-srs-card-format).
+  Один из многих способов учить кандзи.
+* [Как выучить 10 000 предложений](https://web.archive.org/web/20081122063325/http://www.alljapaneseallthetime.com/blog/10000-sentences-how/).
+  Метод [создания карточек из предложений](sentence-mining.html), которым пользовался Хатцумото, когда учил японский.
+* [О грамматике](https://web.archive.org/web/20070504025927/http://www.alljapaneseallthetime.com/blog/on-grammar).
 
-Anti-features:
+Недостатки:
 
-* Includes links to the Amazon website.
-  [Amazon](https://stallman.org/amazon.html)
-  is known for spying on and politically suppressing its users.
-* Contains outdated information.
-* Talks about MCD, which is a flashcard format that hasn't received much adoption
-  over the years due to being too difficult and complicated.
-* Advertises unnecessary paid products.
-* Tries to harvest Email addresses.
+* Встречаются ссылки на Amazon.
+  [Amazon](https://stallman.org/amazon.html) известен слежкой за пользователями и ограничениями по политическим мотивам.
+* Часть информации устарела.
+* Рассказывает о формате карточек MCD, который за прошедшие годы так и не прижился из-за сложности.
+* Рекламирует ненужные платные продукты.
+* Пытается собирать адреса электронной почты.
 
-Epub book version: [link](https://github.com/enymuss/AJATTBook/raw/master/Ajatt%20-%20The%20Book%20-%20calibre.epub).
+[Скачать книгу в формате EPUB](https://github.com/enymuss/AJATTBook/raw/master/Ajatt%20-%20The%20Book%20-%20calibre.epub).
 
 ### [Itazuraneko](https://djtguide.github.io/)
 
-A collection of guides for those interested in learning Japanese.
+Подборка руководств для тех, кто хочет выучить японский.
 
-Anti-features:
+Недостатки:
 
-* Includes links to non-free software, non-free games.
-* Includes links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
-  Discord is known for spying on and politically suppressing its users.
-* Contains outdated information.
+* Есть ссылки на несвободные программы и игры.
+* Есть ссылки на серверы [Discord](https://spyware.neocities.org/articles/discord.html).
+  Discord известен слежкой за пользователями и ограничениями по политическим мотивам.
+* Часть информации устарела.
 
 ### [Antimoon](http://www.antimoon.com/)
 
-A site on how to learn English.
-Made by Poles who learned English to native-level fluency.
-What they used to learn English can be applied for learning any other language, including Japanese.
+Сайт об изучении английского.
+Его создали поляки, которые освоили английский до уровня носителей.
+Их подход можно применять и к другим языкам, в том числе к японскому.
 
-Notable articles:
+Статьи, с которых стоит начать:
 
-* [Sentence cards](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
-* [Example sentence cards](http://www.antimoon.com/how/examplesent.htm)
+* [Карточки с предложениями](http://www.antimoon.com/how/usingsm-makeitems-sentence.htm)
+* [Примеры карточек с предложениями](http://www.antimoon.com/how/examplesent.htm)
 
-## Misc
+## Разное
 
-* [Cornucopia of resources](https://djtguide.neocities.org/cor) from the old DJT site.
-* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367) or [Magnet](magnet:?xt=urn:btih:8a02cdf9cbfdec95e0a61d5381d80f46aea911f8&dn=Japanese%20Mega%20Learning%20Pack%20-%20Remake&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
-* [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
-* [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
-  Her guide is a little outdated but can still be useful.
-* [JM Project](https://linuxjm.osdn.jp/index.html). Man pages translated to Japanese.
+* [Большая подборка ресурсов](https://djtguide.neocities.org/cor) со старого сайта DJT.
+* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367) или [magnet-ссылка](magnet:?xt=urn:btih:8a02cdf9cbfdec95e0a61d5381d80f46aea911f8&dn=Japanese%20Mega%20Learning%20Pack%20-%20Remake&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+* [Японские закладки](https://pachimon.github.io/tools/JapBookmarks.html) от pachimon.
+* [Руководство Мии для начинающих учить японский](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
+  Немного устарело, но всё ещё может пригодиться.
+* [JM Project](https://linuxjm.osdn.jp/index.html). Справочные страницы man в переводе на японский.
 * [四字熟語人気ランキング](https://idiom-encyclopedia.com/ninki/)
-* [Japanese Resources by 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion)
+* [Ресурсы для изучения японского от 千手柱間](http://unj5zivyaup4tg4c76jmo6map63gmguq5pigbsgtseq2vbr6o6yhvmqd.onion)
