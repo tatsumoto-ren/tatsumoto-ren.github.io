@@ -1,7 +1,7 @@
 ---
 title: "Содержание"
 date: 1616375454
-updated: "27 October 2026"
+updated: "27 November 2026"
 ---
 
 * [Предисловие](foreword.html)
@@ -64,6 +64,7 @@ updated: "27 October 2026"
   * [Сжатие активной иммерсии](condensing-active-immersion.html)
   * [Пайплайн](plumbing-for-language-learners.html)
   * [Таймбоксинг](timeboxing.html)
+  * [Руководство пользователя Pitch Artist](pitch-artist-user-guide.html)
 * Продвинутые темы
   * [Ankidrone Sentence Pack](ankidrone-sentence-pack.html)
   * [Переход на моноязычные словари](going-monolingual.html)
@@ -72,6 +73,17 @@ updated: "27 October 2026"
   * [Тренировка восприятия питч-акцента](pitch-accent-perception.html)
   * [Карточки для изучения питч-акцента](how-should-i-grade-cards-once-i-add-pitch-accent.html)
   * [Письмо от руки](writing-japanese.html)
+* чтение против слушания
+  * [Чтение до того, как вы научились понимать речь на слух](thoughts-on-reading-before-listening.html)
+  * [Просмотр с японскими субтитрами считается чтением](is-watching-anime-with-jp-subtitles-considered-as-reading.html)
+  * [Как раннее чтение влияет на восприятие звуков](why-does-premature-reading-cripple-phonetic-awareness.html)
+  * [Просмотр аниме с английскими субтитрами](should-i-watch-anime-with-english-subtitles.html)
+  * [Чем мешают постоянно включённые японские субтитры](is-it-harmful-to-always-have-tl-subtitles-on.html)
+  * [Японские субтитры на этапе изучения кандзи](should-i-watch-with-japanese-subtitles-while-going-through-the-kanji-phase.html)
+  * [Манга как основной материал для начинающих](is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html)
+  * [Развитие навыков слушания до начала чтения](how-much-listening-should-i-do-before-i-start-reading.html)
+  * [Японские и английские субтитры одновременно](en-and-ja-subs-at-the-same-time.html)
+  * [Когда начинать читать романы](ideal-time-to-become-an-avid-reader.html)
 * [FAQ](tag_faq.html)
 * Апокрифы
   * [Список ресурсов](resources.html)
@@ -79,9 +91,7 @@ updated: "27 October 2026"
   * [Изучение радикалов кандзи](learning-kanji-radicals.html)
   * [Как печатать что-либо с Fcitx](how-to-type-x-with-fcitx.html)
   * [О мотивации](im-not-motivated-and-dont-enjoy-learning-japanese.html)
-  * [Преждевременное чтение](why-does-premature-reading-cripple-phonetic-awareness.html)
   * [Смягчение последствий раннего говорения](mitigating-the-impact-of-early-output.html)
-  * [Руководство пользователя Pitch Artist](pitch-artist-user-guide.html)
 * Связь и поддержка
   * [Присоединяйтесь к сообществу](join-our-community.html)
   * [Поддержать](donating-to-tatsumoto.html)
