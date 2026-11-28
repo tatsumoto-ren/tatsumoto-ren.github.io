@@ -1,8 +1,9 @@
 ---
-title: Mass immersion
+title: "Mass immersion"
 date: 1661977295
-tags: ['guide']
+tags: ["guide"]
 position: [8]
+updated: "28 November 2026"
 ---
 
 [AJATT](whats-ajatt.html)
@@ -95,8 +96,8 @@ You don't learn a language, you acquire it, absorb it, get used to it.
 The more you do it, the easier it gets.
 
 Building a foundation in grammar and vocabulary through traditional study is extremely helpful,
-and this is what we are going to be doing a lot in the beginning,
-but study and immersion have to be done together.
+and that is what we are going to do at the beginning as well.
+But study and immersion have to go hand in hand.
 
 We all have jobs, go to school, or have something else we just can't do in Japanese.
 I believe these things are not obstacles to learning a foreign language.
@@ -124,18 +125,18 @@ because you are supposed to be cramming as much immersion as possible every day 
 The more you expose yourself to the language, the better.
 It really just comes down to a matter of time.
 
-Immerse [actively](introduction-to-learning-japanese.html#how-to-immerse) when you can.
-Immerse passively to compensate for those times when you are busy.
-Assuming you lead a normal lifestyle,
-spend maybe 3 to 6 hours a day
-actively doing something in Japanese
-whether that is reading a book, watching anime or a Japanese TV show,
-without subtitles or with Japanese subtitles.
-Of course you should do more if you have the time.
+Immerse [actively](introduction-to-learning-japanese.html#how-to-immerse) whenever you can.
+Immerse passively to make up for the times when you are busy.
+Assuming you live a normal life,
+spend at least 3 to 6 hours a day
+actively doing something in Japanese,
+whether that is reading a book, watching anime, or watching a Japanese TV show,
+with no subtitles or with Japanese subtitles.
+Of course, do more if you have the time.
 Spend another hour or so reviewing flashcards.
 Keep Japanese playing in the background as much as possible
 while you are doing chores, homework, etc.
-Just do whatever you can to get to the ideal of `18` hours a day.
+Just do whatever you can to get closer to the ideal of `18` hours a day.
 
 The bottom line is that
 If you don't spend thousands of hours with the language,
