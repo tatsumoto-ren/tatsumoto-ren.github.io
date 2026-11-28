@@ -7,7 +7,8 @@ updated: "26 October 2026"
 ---
 
 AJATT is a method of reaching fluency in a foreign language in a relatively short time.
-It encourages spending as much time as possible in your target language every day,
+It encourages spending as much time as possible
+in your target language [every day](mass-immersion.html),
 [immersing](whats-immersion.html) yourself in the language and culture
 of the country where the language is spoken
 without having to travel to the country,

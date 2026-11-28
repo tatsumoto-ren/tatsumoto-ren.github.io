@@ -9,7 +9,7 @@ position: [8]
 targets people who want to reach a high level in the language and truly become fluent.
 One of the most important parts of AJATT is
 immersing yourself in Japanese as close to 24 hours a day as possible,
-combining that with spaced repetition and other technology.
+combining that with [spaced repetition](spaced-repetition.html) and other technology.
 
 Immersion is quite important, we already know that.
 Let's figure out how much immersion is necessary.
